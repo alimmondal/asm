@@ -17,7 +17,11 @@ import EditProfile from "../pages/EditProfile";
 import Ssc from "../pages/Ssc";
 import Hsc from "../pages/Hsc";
 import Degree from "../pages/Degree";
-import Article from "../pages/Article";
+import Article from "../pages/hsc/Article";
+import Phrase from "../pages/hsc/Phrase";
+import Completing from "../pages/hsc/Completing";
+import Verbs from "../pages/hsc/Verbs";
+import Preposition from "../pages/hsc/Preposition";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -44,6 +48,22 @@ export const router = createBrowserRouter([
       {
         path: "/article",
         element: <Article />,
+      },
+      {
+        path: "/preposition",
+        element: <Preposition />,
+      },
+      {
+        path: "/phrase",
+        element: <Phrase />,
+      },
+      {
+        path: "/completing",
+        element: <Completing />,
+      },
+      {
+        path: "/verbs",
+        element: <Verbs />,
       },
       {
         path: "/products/:id",
