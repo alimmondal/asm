@@ -2,10 +2,12 @@ import { Link } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
 
 const Navbar = () => {
-  const { logout, user } = useAuth();
+  const auth = useAuth();
 
   const handleLogout = async () => {
-    await logout();
+    if (auth) {
+      await auth.logout();
+    }
   };
 
   return (
@@ -47,7 +49,7 @@ const Navbar = () => {
             <li>
               <Link to={"/about"}>About</Link>
             </li>
-            {!user && (
+            {!auth?.user && (
               <>
                 <li>
                   <Link to={"/login"}>Login</Link>
@@ -57,12 +59,12 @@ const Navbar = () => {
                 </li>
               </>
             )}
-            {user && (
+            {auth?.user && (
               <li>
                 <Link to={"/dashboard"}>Dashboard</Link>
               </li>
             )}
-            {user && (
+            {auth?.user && (
               <li>
                 <button
                   onClick={handleLogout}
@@ -92,7 +94,7 @@ const Navbar = () => {
           <li>
             <Link to={"/about"}>About</Link>
           </li>
-          {!user && (
+          {!auth?.user && (
             <>
               <li>
                 <Link to={"/login"}>Login</Link>
@@ -102,7 +104,7 @@ const Navbar = () => {
               </li>
             </>
           )}
-          {user && (
+          {auth?.user && (
             <li>
               <Link to={"/dashboard"}>Dashboard</Link>
             </li>
@@ -110,7 +112,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end space-x-2">
-        {user && (
+        {auth?.user && (
           <button
             onClick={handleLogout}
             className="btn bg-red-500 text-white hidden lg:block"
@@ -120,7 +122,7 @@ const Navbar = () => {
         )}
         <div className="avatar">
           <div className="w-12 rounded-full border-2 border-black">
-            <img src={user?.photoURL || "/public/placeholder.jpg"} />
+            <img src={auth?.user?.photoURL || "/public/placeholder.jpg"} />
           </div>
         </div>
       </div>

@@ -8,24 +8,35 @@ import {
   signOut,
 } from "firebase/auth";
 import { createContext, ReactNode, useEffect, useState } from "react";
+import { User, UserCredential } from "firebase/auth";
 import { app } from "../firebase/firebase.config";
 
-export const AuthContext = createContext(null);
+// Define the AuthContext type
+interface AuthContextType {
+  user: User | null;
+  googleLogin: () => Promise<UserCredential>;
+  createUser: (email: string, password: string) => Promise<UserCredential>;
+  signIn: (email: string, password: string) => Promise<UserCredential>;
+  logout: () => Promise<void>;
+  loading: boolean;
+}
+
+export const AuthContext = createContext<AuthContextType | null>(null);
 
 const auth = getAuth(app);
 
 // eslint-disable-next-line react/prop-types
 const AuthProvider = ({ children }: { children: ReactNode }) => {
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
   const googleProvider = new GoogleAuthProvider();
 
-  const createUser = (email, password) => {
+  const createUser = (email: string, password: string) => {
     setLoading(true);
     return createUserWithEmailAndPassword(auth, email, password);
   };
 
-  const signIn = (email, password) => {
+  const signIn = (email: string, password: string) => {
     setLoading(true);
     return signInWithEmailAndPassword(auth, email, password);
   };
@@ -39,7 +50,7 @@ const AuthProvider = ({ children }: { children: ReactNode }) => {
   };
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+    const unsubscribe = onAuthStateChanged(auth, (currentUser: User | null) => {
       if (currentUser) {
         setUser(currentUser);
         setLoading(false);

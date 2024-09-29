@@ -22,6 +22,19 @@ import Phrase from "../pages/hsc/Phrase";
 import Completing from "../pages/hsc/Completing";
 import Verbs from "../pages/hsc/Verbs";
 import Preposition from "../pages/hsc/Preposition";
+import Connectors from "../pages/hsc/Connectors";
+import Modifier from "../pages/hsc/Modifier";
+import Transformation from "../pages/hsc/Transformation";
+import Punctuation from "../pages/hsc/Punctuation";
+import Narration from "../pages/hsc/narration";
+import Suggestion from "../pages/Degree/Suggestion";
+import Advertisement from "../pages/Degree/Advertisement";
+import DCompleting from "../pages/Degree/DCompleting";
+import Dialog from "../pages/Degree/Dialog";
+import PartsOfSpeech from "../pages/Degree/PartsOfSpeech";
+import Poster from "../pages/Degree/Poster";
+import Report from "../pages/Degree/Report";
+import HSuggestion from "../pages/hsc/HSuggestion";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -65,12 +78,61 @@ export const router = createBrowserRouter([
         path: "/verbs",
         element: <Verbs />,
       },
-      // {
-      //   path: "/products/:id",
-      //   element: <ProductDetails />,
-      // loader: ({ params }) =>
-      // fetch(`http://localhost:5000/shoes/${params.id}`),
-      // },
+      {
+        path: "/connectors",
+        element: <Connectors />,
+      },
+      {
+        path: "/modifier",
+        element: <Modifier />,
+      },
+      {
+        path: "/transformation",
+        element: <Transformation />,
+      },
+      {
+        path: "/punctuation",
+        element: <Punctuation />,
+      },
+      {
+        path: "/narration",
+        element: <Narration />,
+      },
+      {
+        path: "/suggestion",
+        element: <HSuggestion />,
+      },
+      // Degree
+      {
+        path: "/advertisement",
+        element: <Advertisement />,
+      },
+      {
+        path: "/dCompleting",
+        element: <DCompleting />,
+      },
+      {
+        path: "/dialog",
+        element: <Dialog />,
+      },
+      {
+        path: "/partsOfSpeech",
+        element: <PartsOfSpeech />,
+      },
+      {
+        path: "/poster",
+        element: <Poster />,
+      },
+      {
+        path: "/report",
+        element: <Report />,
+      },
+      {
+        path: "/suggestion",
+        element: <Suggestion />,
+      },
+
+      // main menu
       {
         path: "/about",
         element: <About />,
@@ -108,22 +170,6 @@ export const router = createBrowserRouter([
         ),
       },
       {
-        path: "all-products",
-        element: (
-          <PrivateRoute>
-            <AllProducts />
-          </PrivateRoute>
-        ),
-      },
-      {
-        path: "add-products",
-        element: (
-          <PrivateRoute>
-            <AddProducts />
-          </PrivateRoute>
-        ),
-      },
-      {
         path: "profile",
         element: <Profile />,
       },
@@ -132,16 +178,6 @@ export const router = createBrowserRouter([
         element: <EditProfile />,
         // loader: ({ params }) =>
         // fetch(`http://localhost:5000/user/get/${params.id}`),
-      },
-      {
-        path: "all-products/edit/:id",
-        element: (
-          <PrivateRoute>
-            <EditProducts />
-          </PrivateRoute>
-        ),
-        // loader: ({ params }) =>
-        // fetch(`http://localhost:5000/shoes/${params.id}`),
       },
     ],
   },

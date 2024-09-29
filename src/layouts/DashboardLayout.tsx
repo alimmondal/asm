@@ -1,12 +1,15 @@
 import { Link, Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import useAuth from "../hooks/useAuth";
 
 export default function DashboardLayout() {
-  // const { logout, user } = useAuth();
+  const auth = useAuth();
 
-  // const handleLogout = async () => {
-  //   await logout();
-  // };
+  const handleLogout = async () => {
+    if (auth) {
+      await auth?.logout();
+    }
+  };
   return (
     <>
       <Navbar />
@@ -31,23 +34,29 @@ export default function DashboardLayout() {
             {/* Sidebar content here */}
             <div>
               <li>
+                <Link to={"/"}>Home</Link>
+              </li>
+              <li>
                 <Link to={"profile"}>Profile</Link>
               </li>
               <li>
-                <Link to={"all-products"}>all-products</Link>
+                <Link to={"profile/edit/:id"}>Update Profile</Link>
               </li>
               <li>
-                <Link to={"add-products"}>add-products</Link>
+                <button className="btn btn-error" onClick={handleLogout}>
+                  Logout
+                </button>
               </li>
+
+              {/* <li>
+                <Link to={"add-products"}>add-products</Link>
+              </li> */}
             </div>
             <div className="flex gap-4">
               <Link to={"/"} className="btn btn-neutral">
                 Home
               </Link>
-              <button
-                className="btn btn-error"
-                // onClick={handleLogout}
-              >
+              <button className="btn btn-error" onClick={handleLogout}>
                 Logout
               </button>
             </div>

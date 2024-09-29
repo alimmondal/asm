@@ -1,6 +1,6 @@
-import React, { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { Button, TextInput } from "flowbite-react";
+import toast from "react-hot-toast";
 
 const EditProfile = () => {
   const data = useLoaderData();
@@ -12,34 +12,35 @@ const EditProfile = () => {
   // const [email, setEmail] = useState(shoe.description);
   // const [image_url, setImageURL] = useState(shoe.image_url);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
-    const form = e.target;
-    const name = form.name.value;
-    const age = form.age.value;
-    const mobile = form.mobile.value;
+    // const form = e.target;
+    // const name = form.name.value;
+    // const age = form.age.value;
+    // const mobile = form.mobile.value;
 
-    const userData = { name, age, mobile, email: data?.email };
-    console.log(userData);
-    await fetch(`http://localhost:5000/user/${data.email}`, {
-      method: "PATCH",
-      headers: {
-        "Content-type": "application/json",
-      },
+    // const userData = { name, age, mobile, email: data?.email };
+    // console.log(userData);
+    // await fetch(`http://localhost:5000/user/${data?.email}`, {
+    //   method: "PATCH",
+    //   headers: {
+    //     "Content-type": "application/json",
+    //   },
 
-      body: JSON.stringify(data),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        // console.log(data);
-        if (data) {
-          toast.success("User updated successfully");
-        }
-      });
+    //   body: JSON.stringify(data),
+    // })
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    //     // console.log(data);
+    //     if (data) {
+    //       toast.success("User updated successfully");
+    //     }
+    //   });
   };
+
   return (
     <div className="max-w-lg mx-auto w-full p-2">
-      <h1 className="text-5xl font-bold text-center">Edit Product</h1>
+      <h1 className="text-5xl font-bold text-center">Edit Profile</h1>
 
       <div className="my-16">
         <form onSubmit={handleSubmit}>
@@ -48,7 +49,7 @@ const EditProfile = () => {
               type="text"
               name="name"
               placeholder="Name"
-              value={data?.name}
+              // value={data?.name}
               // onChange={(e) => setTitle(e.target.value)}
             />
           </div>
@@ -57,7 +58,7 @@ const EditProfile = () => {
               type="email"
               name="email"
               disabled
-              value={data?.email}
+              // value={data?.email}
               // onChange={(e) => setBrand(e.target.value)}
             />
           </div>
