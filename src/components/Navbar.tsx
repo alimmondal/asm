@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-// import useAuth from "../hooks/useAuth";
+import useAuth from "../hooks/useAuth";
 
 const Navbar = () => {
-  // const { logout, user } = useAuth();
+  const { logout, user } = useAuth();
 
-  // const handleLogout = async () => {
-  //   await logout();
-  // };
+  const handleLogout = async () => {
+    await logout();
+  };
 
   return (
     <div className="navbar bg-base-100">
@@ -47,36 +47,37 @@ const Navbar = () => {
             <li>
               <Link to={"/about"}>About</Link>
             </li>
-            {/* {!user && ( */}
-            <>
+            {!user && (
+              <>
+                <li>
+                  <Link to={"/login"}>Login</Link>
+                </li>
+                <li>
+                  <Link to={"/register"}>Register</Link>
+                </li>
+              </>
+            )}
+            {user && (
               <li>
-                <Link to={"/login"}>Login</Link>
+                <Link to={"/dashboard"}>Dashboard</Link>
               </li>
+            )}
+            {user && (
               <li>
-                <Link to={"/register"}>Register</Link>
+                <button
+                  onClick={handleLogout}
+                  className="btn bg-red-500 text-white"
+                >
+                  Logout
+                </button>
               </li>
-            </>
-            {/* )} */}
-            {/* {user && ( */}
-            <li>
-              <Link to={"/dashboard"}>Dashboard</Link>
-            </li>
-            {/* )} */}
-            {/* {user && ( */}
-            <li>
-              <button
-                // onClick={handleLogout}
-                className="btn bg-red-500 text-white"
-              >
-                Logout
-              </button>
-            </li>
-            {/* )} */}
+            )}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <a className="btn btn-ghost text-xl">ASM</a>
       </div>
 
+      {/* Desktop menu */}
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
@@ -91,35 +92,35 @@ const Navbar = () => {
           <li>
             <Link to={"/about"}>About</Link>
           </li>
-          {/* {!user && ( */}
-          <>
+          {!user && (
+            <>
+              <li>
+                <Link to={"/login"}>Login</Link>
+              </li>
+              <li>
+                <Link to={"/register"}>Register</Link>
+              </li>
+            </>
+          )}
+          {user && (
             <li>
-              <Link to={"/login"}>Login</Link>
+              <Link to={"/dashboard"}>Dashboard</Link>
             </li>
-            <li>
-              <Link to={"/register"}>Register</Link>
-            </li>
-          </>
-          {/* )}
-          {user && ( */}
-          <li>
-            <Link to={"/dashboard"}>Dashboard</Link>
-          </li>
-          {/* )} */}
+          )}
         </ul>
       </div>
       <div className="navbar-end space-x-2">
-        {/* {user && ( */}
-        <button
-          // onClick={handleLogout}
-          className="btn bg-red-500 text-white hidden lg:block"
-        >
-          Logout
-        </button>
-        {/* )} */}
+        {user && (
+          <button
+            onClick={handleLogout}
+            className="btn bg-red-500 text-white hidden lg:block"
+          >
+            Logout
+          </button>
+        )}
         <div className="avatar">
           <div className="w-12 rounded-full border-2 border-black">
-            {/* <img src={user?.photoURL || "/public/placeholder.jpg"} /> */}
+            <img src={user?.photoURL || "/public/placeholder.jpg"} />
           </div>
         </div>
       </div>

@@ -65,12 +65,12 @@ export const router = createBrowserRouter([
         path: "/verbs",
         element: <Verbs />,
       },
-      {
-        path: "/products/:id",
-        element: <ProductDetails />,
-        // loader: ({ params }) =>
-        // fetch(`http://localhost:5000/shoes/${params.id}`),
-      },
+      // {
+      //   path: "/products/:id",
+      //   element: <ProductDetails />,
+      // loader: ({ params }) =>
+      // fetch(`http://localhost:5000/shoes/${params.id}`),
+      // },
       {
         path: "/about",
         element: <About />,
@@ -83,10 +83,10 @@ export const router = createBrowserRouter([
         path: "/register",
         element: <Registration />,
       },
-      // {
-      //   path: "/dashboard",
-      //   element: <Dashboard />,
-      // },
+      {
+        path: "/dashboard",
+        element: <Dashboard />,
+      },
     ],
   },
   {

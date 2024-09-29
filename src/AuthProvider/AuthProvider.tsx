@@ -7,7 +7,7 @@ import {
   signInWithPopup,
   signOut,
 } from "firebase/auth";
-import { createContext, useEffect, useState } from "react";
+import { createContext, ReactNode, useEffect, useState } from "react";
 import { app } from "../firebase/firebase.config";
 
 export const AuthContext = createContext(null);
@@ -15,7 +15,7 @@ export const AuthContext = createContext(null);
 const auth = getAuth(app);
 
 // eslint-disable-next-line react/prop-types
-const AuthProvider = ({ children }) => {
+const AuthProvider = ({ children }: { children: ReactNode }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const googleProvider = new GoogleAuthProvider();
@@ -39,7 +39,7 @@ const AuthProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    const unscubcribe = onAuthStateChanged(auth, (currentUser) => {
+    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       if (currentUser) {
         setUser(currentUser);
         setLoading(false);
@@ -49,7 +49,7 @@ const AuthProvider = ({ children }) => {
       }
     });
     return () => {
-      return unscubcribe();
+      return unsubscribe();
     };
   }, []);
 
