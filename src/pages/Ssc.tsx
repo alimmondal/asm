@@ -1,7 +1,5 @@
-import React from "react";
-
 const Ssc = () => {
-  return <div>Ssc</div>;
+  return <div className="h-screen flex items-center justify-center">Ssc</div>;
 };
 
 export default Ssc;

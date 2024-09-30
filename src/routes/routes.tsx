@@ -26,7 +26,6 @@ import Connectors from "../pages/hsc/Connectors";
 import Modifier from "../pages/hsc/Modifier";
 import Transformation from "../pages/hsc/Transformation";
 import Punctuation from "../pages/hsc/Punctuation";
-import Narration from "../pages/hsc/narration";
 import Suggestion from "../pages/Degree/Suggestion";
 import Advertisement from "../pages/Degree/Advertisement";
 import DCompleting from "../pages/Degree/DCompleting";
@@ -35,6 +34,12 @@ import PartsOfSpeech from "../pages/Degree/PartsOfSpeech";
 import Poster from "../pages/Degree/Poster";
 import Report from "../pages/Degree/Report";
 import HSuggestion from "../pages/hsc/HSuggestion";
+import Wh from "../pages/Degree/Wh";
+import Tense from "../pages/allItems/Tense";
+import Narration from "../pages/hsc/Narration";
+import StrongVerb from "../pages/allItems/StrongVerb";
+import Voice from "../pages/allItems/Voice";
+import SynAnt from "../pages/hsc/SynAnt";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -99,6 +104,10 @@ export const router = createBrowserRouter([
         element: <Narration />,
       },
       {
+        path: "/syn-ant",
+        element: <SynAnt />,
+      },
+      {
         path: "/suggestion",
         element: <HSuggestion />,
       },
@@ -128,8 +137,25 @@ export const router = createBrowserRouter([
         element: <Report />,
       },
       {
+        path: "/wh",
+        element: <Wh />,
+      },
+      {
         path: "/suggestion",
         element: <Suggestion />,
+      },
+      // all items
+      {
+        path: "/tense",
+        element: <Tense />,
+      },
+      {
+        path: "/strongVerb",
+        element: <StrongVerb />,
+      },
+      {
+        path: "/voice",
+        element: <Voice />,
       },
 
       // main menu
