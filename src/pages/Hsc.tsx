@@ -52,11 +52,15 @@ function Hsc() {
         </div>
 
         <ul className="flex flex-wrap gap-3 p-20">
-          <Link to={"/tense"}>
-            <li className="bg-red-500 px-3 py-2">Tense</li>
+          <Link to={"/paragraph"}>
+            <li className="bg-red-500 px-3 py-2 rounded-sm text-white">
+              Paragraph
+            </li>
           </Link>
           <Link to={"/tense"}>
-            <li className="bg-red-500 px-3 py-2">Tense</li>
+            <li className="bg-red-500 px-3 py-2 rounded-sm text-white">
+              Paragraph
+            </li>
           </Link>
         </ul>
       </div>

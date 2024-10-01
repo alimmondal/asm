@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 .bannerBg {
-  background-image: url("/public/banner.jpeg");
+  background-image: url("/banner.jpeg");
   object-fit: cover;
+}
+
+.menus {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
 }

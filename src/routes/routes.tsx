@@ -36,6 +36,11 @@ import Narration from "../pages/hsc/Narration";
 import StrongVerb from "../pages/allItems/StrongVerb";
 import Voice from "../pages/allItems/Voice";
 import SynAnt from "../pages/hsc/SynAnt";
+import Paragraph from "../pages/composition/Paragraph";
+import Application from "../pages/composition/Application";
+import Essays from "../pages/composition/Essays";
+import Letter from "../pages/composition/Letter";
+import Email from "../pages/composition/Email";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -153,7 +158,27 @@ export const router = createBrowserRouter([
         path: "/voice",
         element: <Voice />,
       },
-
+      //composition
+      {
+        path: "/paragraph",
+        element: <Paragraph />,
+      },
+      {
+        path: "/application",
+        element: <Application />,
+      },
+      {
+        path: "/essay",
+        element: <Essays />,
+      },
+      {
+        path: "/letter",
+        element: <Letter />,
+      },
+      {
+        path: "/email",
+        element: <Email />,
+      },
       // main menu
       {
         path: "/about",
