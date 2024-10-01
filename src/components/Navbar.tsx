@@ -13,8 +13,10 @@ const Navbar = () => {
   };
 
   return (
-    <div>
-      <Header />
+    <>
+      <div className="">
+        <Header />
+      </div>
       <div className="navbar bg-rose-400 text-white">
         <div className="navbar-start">
           <div className="dropdown ">
@@ -133,7 +135,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
