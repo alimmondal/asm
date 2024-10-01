@@ -1,9 +1,8 @@
-import { useLoaderData } from "react-router-dom";
 import Banner from "../components/home/Banner";
 import Accordian from "../components/home/Accordions";
 
 const Home = () => {
-  const data = useLoaderData();
+  // const data = useLoaderData();
   return (
     <div>
       <Banner />

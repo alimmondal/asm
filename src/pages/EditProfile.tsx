@@ -1,9 +1,7 @@
-import { useLoaderData } from "react-router-dom";
 import { Button, TextInput } from "flowbite-react";
-import toast from "react-hot-toast";
 
 const EditProfile = () => {
-  const data = useLoaderData();
+  // const data = useLoaderData();
   // console.log(data);
 
   // const [name, setName] = useState(shoe.title);

@@ -46,6 +46,19 @@ function Hsc() {
             <li className="bg-red-500 px-3 py-2">Synonym & Antonym</li>
           </Link>
         </ul>
+
+        <div className="">
+          <h1 className="text-center">Writing Section</h1>
+        </div>
+
+        <ul className="flex flex-wrap gap-3 p-20">
+          <Link to={"/tense"}>
+            <li className="bg-red-500 px-3 py-2">Tense</li>
+          </Link>
+          <Link to={"/tense"}>
+            <li className="bg-red-500 px-3 py-2">Tense</li>
+          </Link>
+        </ul>
       </div>
     </div>
   );

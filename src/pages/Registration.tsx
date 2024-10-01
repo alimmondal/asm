@@ -5,13 +5,13 @@ import useAuth from "../hooks/useAuth";
 
 const Registration = () => {
   const [passMatch, setPassMatch] = useState(true);
-  const { createUser, user } = useAuth();
+  const auth = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
 
   const from = location?.state?.from?.pathname || "/";
 
-  const handleSUbmit = (e) => {
+  const handleSUbmit = (e: any) => {
     e.preventDefault();
     const form = e.target;
     const name = form.name.value;
@@ -23,7 +23,7 @@ const Registration = () => {
     }
     // console.log(email, password, confirm_password);
     if (password === confirm_password) {
-      createUser(email, password).then((data) => {
+      auth?.createUser(email, password).then((data) => {
         if (data?.user?.email) {
           const userInfo = {
             email: data.user.email,
@@ -39,7 +39,7 @@ const Registration = () => {
           // .then((data) => console.log(data));
         }
       });
-      if (user) {
+      if (auth?.user) {
         navigate(from);
       }
     }

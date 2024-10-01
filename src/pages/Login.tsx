@@ -4,13 +4,13 @@ import useAuth from "../hooks/useAuth";
 import { useEffect } from "react";
 
 const Login = () => {
-  const { signIn, user } = useAuth();
+  const auth = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
 
   const from = location?.state?.from?.pathname || "/";
 
-  const handleSUbmit = async (e) => {
+  const handleSUbmit = async (e: any) => {
     e.preventDefault();
 
     const form = e.target;
@@ -19,14 +19,14 @@ const Login = () => {
 
     // console.log(email, password);
 
-    await signIn(email, password);
+    await auth?.signIn(email, password);
   };
 
   useEffect(() => {
-    if (user) {
+    if (auth?.user) {
       navigate(from, { replace: true });
     }
-  }, [user, from, navigate]);
+  }, [auth, from, navigate]);
 
   return (
     <form onSubmit={handleSUbmit} className="hero min-h-screen bg-base-200">

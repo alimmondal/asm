@@ -5,14 +5,14 @@ import useAuth from "../../hooks/useAuth";
 
 // eslint-disable-next-line react/prop-types
 const PrivateRoute = ({ children }: { children: ReactNode }) => {
-  const { user, loading } = useAuth();
+  const auth = useAuth();
   const location = useLocation();
 
-  if (loading) {
+  if (auth?.loading) {
     return <LoadingSpinner />;
   }
 
-  if (user) {
+  if (auth?.user) {
     return children;
   }
 

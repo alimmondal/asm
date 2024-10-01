@@ -2,10 +2,10 @@ import { FcGoogle } from "react-icons/fc";
 import useAuth from "../../hooks/useAuth";
 
 const GoogleLogin = () => {
-  const { googleLogin } = useAuth();
+  const auth = useAuth();
 
   const handleGoogleSignIn = () => {
-    googleLogin().then((data) => {
+    auth?.googleLogin().then((data: any) => {
       if (data?.user?.email) {
         const userInfo = {
           email: data.user.email,
