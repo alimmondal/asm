@@ -12,8 +12,12 @@ function Header() {
         </h1>
       </div>
 
-      <div className="rounded-full">
-        <img src="/placeholder.jpg" alt="" className="w-24 h-24 rounded-full" />
+      <div className="">
+        <img
+          src="/man.jpg"
+          alt=""
+          className="w-24 h-24 rounded-full border border-slate-500 "
+        />
       </div>
     </div>
   );

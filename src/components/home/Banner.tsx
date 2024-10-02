@@ -5,10 +5,7 @@ const Banner = () => {
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
           <h1 className="mb-5 text-4xl ">Welcome to</h1>
-          <p className="mb-5 text-5xl">
-            <span className="text-4xl text-orange-500 font-bold">ASM</span>{" "}
-            English Private Center
-          </p>
+          <p className="mb-5 text-5xl font-bold">ASM English Private Center</p>
           <button className="btn btn-primary">Get Started</button>
         </div>
       </div>

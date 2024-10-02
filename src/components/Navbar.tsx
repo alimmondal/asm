@@ -5,6 +5,7 @@ import { FaBookReader } from "react-icons/fa";
 
 const Navbar = () => {
   const auth = useAuth();
+  // console.log(auth);
 
   const handleLogout = async () => {
     if (auth) {
