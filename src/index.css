@@ -6,6 +6,11 @@
   background-image: url("/banner.jpeg");
   object-fit: cover;
 }
+.hscBg {
+  background-image: url("/hsc.jpg");
+  /* background-repeat: no-repeat; */
+  object-fit: cover;
+}
 
 .menus {
   position: sticky;
@@ -38,4 +43,40 @@ table {
 p {
   margin: 0;
   padding: 0;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 25px;
+}
+
+.navs {
+  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+  /* background-color: transparent; */
+  /* height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10101010; */
+}
+.navs.active {
+  /* background: linear-gradient(90deg, rgb(66, 2, 194) 0%, rgb(0, 70, 194) 100%); */
+  /* background-color: #000; */
+  /* background-color: transparent; */
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10101010;
 }

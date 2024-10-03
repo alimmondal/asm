@@ -7,34 +7,39 @@ const Home = () => {
   return (
     <div>
       <Banner />
-      <div className="max-w-content  mx-auto ">
+      <div className="max-w-7xl  mx-auto ">
         <h1 className="py-4 text-center w-full text-4xl font-bold ">
           Category
         </h1>
         <div className="my-5">
-          <ul className="grid grid-cols-2 md:grid-cols-3 gap-3 px-2 md:px-20 ">
+          <ul className="grid grid-cols-2 md:grid-cols-3 gap-3 px-2 md:px-20 items-center justify-center text-[10px] md:text-sm">
             <Link to={"/hsc"}>
-              <li className=" bg-red-500 px-5 py-2 rounded-sm text-white text-center transition hover:scale-100  ">
+              <li className=" bg-red-500 text-center py-7 md:py-16 rounded-sm text-white">
                 HSC
               </li>
             </Link>
             <Link to={"/ssc"}>
-              <li className="bg-red-500 px-10 py-2 rounded-sm text-white">
+              <li className="bg-red-500 text-center  py-7 md:py-16 rounded-sm text-white">
                 SSC
               </li>
             </Link>
             <Link to={"/degree"}>
-              <li className="bg-red-500 px-10 py-2 rounded-sm text-white">
+              <li className="bg-red-500 text-center  py-7 md:py-16 rounded-sm text-white">
                 Degree
               </li>
             </Link>
             <Link to={"/tense"}>
-              <li className="bg-red-500 px-10 py-2 rounded-sm text-white">
+              <li className="bg-red-500 text-center  py-7 md:py-16 rounded-sm text-white">
                 Tense
               </li>
             </Link>
+            <Link to={"/voice"}>
+              <li className="bg-red-500 text-center  py-7 md:py-16 rounded-sm text-white">
+                Voice
+              </li>
+            </Link>
             <Link to={"/strongVerb"}>
-              <li className="bg-red-500 px-10 py-2 rounded-sm text-white">
+              <li className="bg-red-500 text-center py-7 md:py-16 rounded-sm text-white">
                 Strong Verb
               </li>
             </Link>

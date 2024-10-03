@@ -299,7 +299,7 @@ const Narration = () => {
             <thead>
               <tr>
                 <th>বাক্যে</th>
-                <th>Said to পরিবর্তন</th>
+                <th>Said to</th>
                 <th>সংযোজন</th>
                 <th>Subject/ Verb</th>
                 <th>উদাহরণ</th>
@@ -318,7 +318,7 @@ const Narration = () => {
               </tr>
               <tr>
                 <td>Interrogative</td>
-                <td>ask/asked</td>
+                <td>ask(ed)</td>
                 <td>wh/if, whether</td>
                 <td>Subject/Verb আগের নিয়মে পরিবর্তন হবে</td>
                 <td>
@@ -338,7 +338,7 @@ const Narration = () => {
               </tr>
               <tr>
                 <td>Optative</td>
-                <td>prayed/wished</td>
+                <td>pray(ed)</td>
                 <td>that</td>
                 <td>Subject/Verb আগের নিয়মে পরিবর্তন হবে</td>
                 <td>
@@ -362,7 +362,7 @@ const Narration = () => {
 
         {/* <!-- Passage Naration rules --> */}
         <div className="tableSection" style={{ overflow: "scroll" }}>
-          <h1>Rules of Passage Narration</h1>
+          <h2>Rules of Passage Narration</h2>
           <table>
             <thead>
               <tr>
@@ -467,7 +467,7 @@ const Narration = () => {
 
         {/* <!-- Excercise --> */}
         <div className="section">
-          <h1>Exercise for Practice</h1>
+          <h1>Exercise</h1>
           <h2>Assertive Sentences:</h2>
           <p>
             1. Jack said to his father, “He is sent for playing with friends.”

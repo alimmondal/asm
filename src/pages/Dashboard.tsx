@@ -34,15 +34,6 @@ const Dashboard = () => {
             Edit profile
           </Button>
         </Link>
-        {/* <Link to={"/dashboard/add-products"}>
-          <Button
-            type="button"
-            gradientDuoTone="purpleToPink"
-            className="w-full"
-          >
-            Create a product
-          </Button>
-        </Link> */}
       </div>
     </div>
   );
