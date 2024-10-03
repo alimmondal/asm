@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="">
         <Header />
       </div>
-      <div className="navbar bg-rose-400 text-white">
+      <div className="navbar bg-rose-500 text-white">
         <div className="navbar-start">
           <div className="dropdown ">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -99,6 +99,9 @@ const Navbar = () => {
             </li>
             <li>
               <Link to={"/hsc"}>HSC</Link>
+            </li>
+            <li>
+              <Link to={"/degree"}>Degree</Link>
             </li>
             <li>
               <Link to={"/about"}>About</Link>

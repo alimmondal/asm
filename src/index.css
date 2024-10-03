@@ -13,3 +13,29 @@
   left: 0;
   right: 0;
 }
+
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 3px;
+}
+th {
+  background-color: #f2f2f2;
+}
+.note {
+  font-style: italic;
+}
+
+.rule-section {
+  margin-bottom: 20px;
+}
+table {
+  /* width: 100%;       */
+  border-collapse: collapse;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
