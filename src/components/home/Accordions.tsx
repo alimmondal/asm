@@ -40,7 +40,7 @@ const Accordions = () => {
               Present tense (বর্তমান কাল) আবার চার প্রকারঃ <br />
               ১। Present Indefinite Tense (অনির্দিষ্ট বর্তমান কাে)। <br />
               ২। Present Continuous Tense (বর্তমান চলামান কাল)। <br />
-              ৩। Present Perfect Tense (পুরঘটিত বর্তমান ্কাল)। <br />
+              ৩। Present Perfect Tense (পুরঘটিত বর্তমান কাল)। <br />
               ৪। Present Perfect Continuous Tense (পুরঘটিত চলমান বর্তমান কাল)।
               <br />
               <br />
@@ -66,14 +66,16 @@ const Accordions = () => {
         <AccordionPanel>
           <AccordionTitle>১। Present Indefinite Tense</AccordionTitle>
           <AccordionContent>
-            <div className="text-[10px] dark:text-gray-400">
-              <h2>১। Present Indefinite Tense ( অনির্দিষ্ট বর্তমান কাল )</h2>
-              <p className="">
+            <div className="dark:text-gray-400">
+              <strong>
+                ১। Present Indefinite Tense ( অনির্দিষ্ট বর্তমান কাল )
+              </strong>
+              <div className="">
                 <strong>সংজ্ঞাঃ</strong> কোন কাজ সচরাচর বা মাঝে মধ্যে বা সর্বদা
                 করা বা হওয়া বুঝালে তাকে Present Indefinite Tense বলা হয় । <br />
                 যেমনঃ আমরা ভাত খাই। <br />
-                চিনার উপায়ঃ বাংলা ক্রিয়ার শেষে- ই, ি, ঈ , ী ,এ , ে , য় ইত্যাদি
-                থাকে।
+                চিনার উপায়ঃ <br />
+                বাংলা ক্রিয়ার শেষে - ই, ি, ঈ , ী ,এ , ে , য় ইত্যাদি থাকে।
                 <br />
                 যেমনঃ খাই, ঘুমায়। <br />
                 <strong>গঠন</strong> (<strong>Structure</strong>): <br />
@@ -84,17 +86,21 @@ const Accordions = () => {
                 আমরা ভাত খাই - We eat rice. <br />
                 সে ভাত খায় - He eats rice.
                 <br />
-                <strong>NOTE: (১)</strong> হা-বোধক বাক্যের Subject যদি 3rd
-                person + singular হয় তবে verb এর সাথে s/ es যুক্ত হয় <br />
+                <strong>
+                  NOTE: <br /> (১)
+                </strong>
+                হা-বোধক বাক্যের Subject যদি 3rd person + singular হয় তবে verb এর
+                সাথে s/ es যুক্ত হয় <br />
                 যেমনঃ সে ভাত খায় - He eats rice.
                 <br />
                 <strong>(২)</strong> Verb এর শেষে যদি = s, sh, ch, x, o, y, z
                 থাকে তবে Verb এর শেষে = es যুক্ত হয়, যেমনঃ He goes (go = goes) ।
                 অন্যান্য সকল verb এর শেষে = s যুক্ত হয়,
                 <br />
-                <strong>কিন্তু O এবং Y ব্যতিক্রম: </strong> O এবং Y এর আগের
-                অক্ষরটি যদি Consonant হয় তবে es যুক্ত হয় কিন্তু Vowel (a, e, i,
-                o, u) হলে শুধুমাত্র S যুক্ত হয়। যেমনঃ He plays (play = plays).
+                <strong>কিন্তু O এবং Y ব্যতিক্রম: </strong> <br />
+                O এবং Y এর আগের অক্ষরটি যদি Consonant হয় তবে es যুক্ত হয় কিন্তু
+                Vowel (a, e, i, o, u) হলে শুধুমাত্র S যুক্ত হয়। যেমনঃ He plays
+                (play = plays).
                 <br />
                 <strong>Y ব্যতিক্রম: </strong> Y এর পরে es যুক্ত করার ক্ষেত্রে y
                 স্থানে i হয় তার পরে es হয়। যেমনঃ He cries (cry = cries).
@@ -123,7 +129,7 @@ const Accordions = () => {
                 যেমনঃ <br />
                 আমরা কি ভাত খাই না? – Do we not eat rice? <br />
                 সে কি ভাত খায় না? -Does he not eat rice? <br />
-              </p>
+              </div>
             </div>
           </AccordionContent>
         </AccordionPanel>

@@ -46,7 +46,9 @@ const Home = () => {
           </ul>
         </div>
       </div>
-      <Accordian />
+      <div className="max-w-7xl w-full mx-auto">
+        <Accordian />
+      </div>
     </div>
   );
 };
