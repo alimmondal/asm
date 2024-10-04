@@ -14,7 +14,7 @@ const Accordions = () => {
           <AccordionContent>
             <div className="mb-2 dark:text-gray-400">
               <p>
-                <strong>Tense:</strong> <br />
+                <strong>Tense: </strong>
                 ক্রিয়া বা কাজ সম্পন্ন হওয়ার সময়কে Tense বলে। <br />
                 যেমনঃ <br />
                 আমরা ভাত খাই। <br />

@@ -7,7 +7,7 @@
   object-fit: cover;
 }
 .hscBg {
-  background-image: url("/hsc.jpg");
+  background-image: url("/read2.png");
   /* background-repeat: no-repeat; */
   object-fit: cover;
 }
@@ -45,7 +45,8 @@ p {
   padding: 0;
 }
 h1 {
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: bold;
 }
 h2 {
   font-size: 25px;

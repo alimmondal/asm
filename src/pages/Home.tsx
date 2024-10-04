@@ -14,32 +14,32 @@ const Home = () => {
         <div className="my-5">
           <ul className="grid grid-cols-2 md:grid-cols-3 gap-3 px-2 md:px-20 items-center justify-center text-[10px] md:text-sm">
             <Link to={"/hsc"}>
-              <li className=" bg-red-500 text-center py-7 md:py-16 rounded-sm text-white">
+              <li className=" bg-red-500 text-center py-7 md:py-16 rounded-sm text-white font-bold md:text-xl">
                 HSC
               </li>
             </Link>
             <Link to={"/ssc"}>
-              <li className="bg-red-500 text-center  py-7 md:py-16 rounded-sm text-white">
+              <li className="bg-red-500 text-center py-7 md:py-16 rounded-sm text-white hover:scale-100 transition font-bold md:text-xl">
                 SSC
               </li>
             </Link>
             <Link to={"/degree"}>
-              <li className="bg-red-500 text-center  py-7 md:py-16 rounded-sm text-white">
+              <li className="bg-red-500 text-center  py-7 md:py-16 rounded-sm text-white hover:scale-100 transition font-bold md:text-xl">
                 Degree
               </li>
             </Link>
             <Link to={"/tense"}>
-              <li className="bg-red-500 text-center  py-7 md:py-16 rounded-sm text-white">
+              <li className="bg-red-500 text-center  py-7 md:py-16 rounded-sm text-white hover:scale-100 transition font-bold md:text-xl">
                 Tense
               </li>
             </Link>
             <Link to={"/voice"}>
-              <li className="bg-red-500 text-center  py-7 md:py-16 rounded-sm text-white">
+              <li className="bg-red-500 text-center  py-7 md:py-16 rounded-sm text-white hover:scale-100 transition font-bold md:text-xl">
                 Voice
               </li>
             </Link>
             <Link to={"/strongVerb"}>
-              <li className="bg-red-500 text-center py-7 md:py-16 rounded-sm text-white">
+              <li className="bg-red-500 text-center py-7 md:py-16 rounded-sm text-white hover:scale-100 transition font-bold md:text-xl">
                 Strong Verb
               </li>
             </Link>

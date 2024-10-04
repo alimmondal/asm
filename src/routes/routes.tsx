@@ -109,7 +109,7 @@ export const router = createBrowserRouter([
         element: <SynAnt />,
       },
       {
-        path: "/suggestion",
+        path: "/HSuggestion",
         element: <HSuggestion />,
       },
       // Degree
