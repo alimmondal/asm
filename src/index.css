@@ -12,6 +12,10 @@
   object-fit: cover;
 }
 
+.example {
+  margin-left: 20px;
+  color: darkblue;
+}
 .menus {
   position: sticky;
   top: 0;
@@ -50,6 +54,10 @@ h1 {
 }
 h2 {
   font-size: 25px;
+}
+h3 {
+  font-size: 17px;
+  font-weight: bold;
 }
 
 .navs {

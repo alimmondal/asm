@@ -41,6 +41,7 @@ import Application from "../pages/composition/Application";
 import Essays from "../pages/composition/Essays";
 import Letter from "../pages/composition/Letter";
 import Email from "../pages/composition/Email";
+import Pronoun from "../pages/hscItems/Pronoun";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -85,6 +86,18 @@ export const router = createBrowserRouter([
         element: <Verbs />,
       },
       {
+        path: "/narration",
+        element: <Narration />,
+      },
+      {
+        path: "/transformation",
+        element: <Transformation />,
+      },
+      {
+        path: "/pronoun",
+        element: <Pronoun />,
+      },
+      {
         path: "/connectors",
         element: <Connectors />,
       },
@@ -92,18 +105,12 @@ export const router = createBrowserRouter([
         path: "/modifier",
         element: <Modifier />,
       },
-      {
-        path: "/transformation",
-        element: <Transformation />,
-      },
+
       {
         path: "/punctuation",
         element: <Punctuation />,
       },
-      {
-        path: "/narration",
-        element: <Narration />,
-      },
+
       {
         path: "/syn-ant",
         element: <SynAnt />,
@@ -112,6 +119,7 @@ export const router = createBrowserRouter([
         path: "/HSuggestion",
         element: <HSuggestion />,
       },
+
       // Degree
       {
         path: "/advertisement",

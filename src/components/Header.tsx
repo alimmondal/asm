@@ -2,7 +2,7 @@ import { FaBookReader } from "react-icons/fa";
 
 function Header() {
   return (
-    <div className="my-2 px-2 md:px-10 mx-auto flex items-center justify-between">
+    <div className="my-2 px-2 md: w-[85%] md:px-10 mx-auto flex items-center justify-between">
       <div className="dark:text-slate-400">
         <p>Mob: 01751337773</p>
         <p>Or: 01860060068</p>

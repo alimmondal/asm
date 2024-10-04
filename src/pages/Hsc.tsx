@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 function Hsc() {
   return (
-    <div className="w-full ">
-      <div className="h-[300px] md:h-[400px] hscBg flex items-center justify-center relative">
+    <div className="w-full h-full">
+      <div className="hscBg relative w-full h-[300px] md:h-[400px] flex items-center justify-center">
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <h1 className="text-center w-full text-7xl font-bold text-white z-10">
+        <h1 className="text-center w-full text-2xl md:text-7xl font-bold text-white z-10">
           HSC
         </h1>
       </div>
