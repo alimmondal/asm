@@ -1,9 +1,10 @@
 const Narration = () => {
   return (
-    <div className="max-w-7xl">
-      <div style={{ width: "80%", margin: "0 auto", overflowX: "auto" }}>
-        <h1>Narration</h1>
-
+    <div className="px-3 md:w-[85%] mx-auto">
+      <div className="my-10">
+        <h1 className="text-center md:text-start">Narration</h1>
+      </div>
+      <div className="">
         <div className="rule-section">
           <h2>Rule-1</h2>
           <p>
@@ -52,8 +53,8 @@ const Narration = () => {
         </div>
 
         {/* pronoun table  */}
-        <div className="tableSection">
-          <table>
+        <div className="w-full mx-auto">
+          <table className="min-w-[300px] dark:border-slate-400">
             <thead>
               <tr>
                 <th>Subject</th>
@@ -97,11 +98,12 @@ const Narration = () => {
         </div>
 
         {/* sentence Rules - Part  */}
-        <div className="">
-          <p>Narration Rules - Part 2</p>
-
+        <div className="mt-7">
           <div className="rule-section">
-            <h2>বাক্য পরিবর্তন:</h2>
+            <p className="text-center md:text-start">
+              Narration Rules - Part 2
+            </p>
+            <h2 className="text-center md:text-start">বাক্য পরিবর্তন:</h2>
             <h2>Assertive Sentence:</h2>
             <p>
               চিনার উপায়ঃ <br />
@@ -253,8 +255,8 @@ const Narration = () => {
         </div>
 
         {/* <!-- table of wish --> */}
-        <div className="tableSection">
-          <table>
+        <div className="tableSection overflow-x-auto">
+          <table className="min-w-[800px] table-auto dark:border-slate-400">
             <tr>
               <th>Direct এ থাকলে</th>
               <th>Indirect এ হবে</th>
@@ -292,10 +294,10 @@ const Narration = () => {
         </div>
 
         {/* <!-- table sentence rules --> */}
-        <div className="tableSection" style={{ overflowX: "scroll" }}>
-          <h2>Table: Different Sentence Types and Conversions</h2>
+        <div className="tableSection mt-5" style={{ overflowX: "scroll" }}>
+          <h2 className="text-center md:text-start">Types Conversions</h2>
 
-          <table>
+          <table className="min-w-[800px] table-auto dark:border-slate-400">
             <thead>
               <tr>
                 <th>বাক্যে</th>
@@ -361,9 +363,9 @@ const Narration = () => {
         </div>
 
         {/* <!-- Passage Naration rules --> */}
-        <div className="tableSection" style={{ overflow: "scroll" }}>
-          <h2>Rules of Passage Narration</h2>
-          <table>
+        <div className="tableSection overflow-x-auto">
+          <h2 className="text-center md:text-start">Passage Narration</h2>
+          <table className="min-w-[800px] md:w-full table-auto dark:border-slate-400">
             <thead>
               <tr>
                 <th>Description</th>
@@ -466,8 +468,8 @@ const Narration = () => {
         </div>
 
         {/* <!-- Excercise --> */}
-        <div className="section">
-          <h1>Exercise</h1>
+        <div className="section my-10">
+          <h1 className="text-center md:text-start">Exercise</h1>
           <h2>Assertive Sentences:</h2>
           <p>
             1. Jack said to his father, “He is sent for playing with friends.”
@@ -614,11 +616,10 @@ const Narration = () => {
           <p>The traveler said, "How wicked the boys are!"</p>
           <p>I said, "Had I the wings of a bird."</p>
 
-          <h2>Direct and Indirect Speech:</h2>
-
-          <h1>Textual Exercise</h1>
-
-          <h2>Change the Following Sentences into Indirect Speech:</h2>
+          <h1 className="text-center md:text-start">Textual Exercise</h1>
+          <h2 className="text-center md:text-start md:text-xl text-sm font-medium">
+            Change the Following Sentences into Indirect Speech:
+          </h2>
           <p>
             1. "Anwar, you're going to enjoy Nurpur High School" said Mr. Alam.
           </p>

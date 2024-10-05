@@ -2,13 +2,17 @@ function Voice() {
   return (
     <div className="h-full md:w-[85%] mx-auto px-5">
       <div className="py-10">
-        <h1>Voice</h1>
+        <h1 className="text-center md:text-start">Voice</h1>
       </div>
       <div className="">
         <h3 className="underline">From Active to Passive</h3>
         <p>
-          <strong>Rule: </strong> Obj কে Sub বানাতে হবে + (helping verb) + V
-          <sub>3</sub> + by + sub কে obj বানাতে হবে
+          <strong>Rule: </strong>{" "}
+          <span className="underline">
+            {" "}
+            Obj কে Sub বানাতে হবে + (helping verb) + V<sub>3</sub> + by + sub কে
+            obj বানাতে হবে।
+          </span>
         </p>
         <p>
           (i) মুল Verb যদি V<sub>1</sub> থাকে তাহলে Passive voice এর helping
@@ -44,8 +48,11 @@ function Voice() {
       <div className="mt-5 mb-10">
         <h3 className="underline">From Passive to Active</h3>
         <p>
-          <strong>Rule: </strong> Obj কে Sub বানাতে হবে + (helping verb)? উঠে
-          যাবে/ পরিবর্তন হবে + V<sub>?</sub> + sub কে obj বানাতে হবে
+          <strong>Rule: </strong>{" "}
+          <span className="underline">
+            Obj কে Sub বানাতে হবে + (helping verb)? উঠে যাবে/ + V<sub>?</sub> এর
+            Form পরিবর্তন হতে পারে + sub কে obj বানাতে হবে।
+          </span>
         </p>
         <p>** By উঠিয়ে দিতে হবে।</p>
         <p>
