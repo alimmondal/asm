@@ -5,8 +5,11 @@ const Transformation = () => {
         <h1 className="text-center md:text-start">Transformation</h1>
       </div>
 
+      {/* AFFIRMATIVE-NEGATIVE */}
       <div className="w-full overflow-x-auto my-10 ">
-        <h2>[A] Affirmative to Negative/ Negative to Affirmative</h2>
+        <h2 className="text-center md:text-start md:text-xl text-sm font-medium">
+          [A] Affirmative to Negative/ Negative to Affirmative
+        </h2>
         <table className="md:w-full min-w-[800px] table-auto dark:border-slate-400">
           <tr>
             <th>Affirmative (Aff.)</th>
@@ -158,6 +161,159 @@ const Transformation = () => {
             </td>
           </tr>
         </table>
+      </div>
+
+      {/* COMPLEX TO SIMPLE VISE-VERSA */}
+      <div className="mt-10">
+        <h3>Complex to Simple & Simple to Complex:</h3>
+
+        <p>
+          (i) Since/as/when as/soon as দ্বারা শুরু/যুক্ত বাক্যের Simple sub:
+          Since/as/when + sub উঠিয়ে মূল V₁ এর সঙ্গে ing যুক্ত করলে Simple হবে।
+        </p>
+
+        <p>Since I forget, I want out</p>
+        <p>Forgetting him, I want out</p>
+
+        <p>
+          অনুরূপঃ ing যুক্ত বাক্যের শুরুতে As+Sub+ এবং V পরের বাক্য অনুষঙ্গ করলে
+          Complex হবে।
+        </p>
+
+        <p>Closing the door, I called her.</p>
+        <p>As I closed the door, I called her.</p>
+
+        <p>
+          (ii) কিন্ত As/Since/when বাক্যরে am/is/are/was/were এর পরিবর্তে being
+          এবং have/has/had এর পরিবর্তে having বসালে Simple হবে।
+        </p>
+        <p>As the water was salty, we could not drink.</p>
+        <p>The water being salty, we could not drink.</p>
+
+        <p>
+          অপূর্ণক্রিয়ার উক্তিতে করলে Complex হবে অংশে বসাতে As এবং Being বসলে
+          am/is/are না having এবং এর স্থলে have/has/had বসবে।
+        </p>
+        <p>
+          কিন্ত When দ্বারা বাক্যের দিনের কোন ঘটনা বুঝালে When+ Sub + V উঠিয়ে
+          At, বয়স বুঝালে At the age of এবং ঘটনা বুঝালে In বসে।
+        </p>
+        <p>When it is spring, the cuckoo sings.</p>
+        <p>In spring the cuckoo sings.</p>
+
+        <p>
+          অনুবাদকালে / In / at the age of উঠালে When + it/sub + V বসালে Complex
+          হয়।
+        </p>
+        <p>যেমনঃ At the age of four, he left home</p>
+        <p>When he was four, he left home.</p>
+
+        <p>
+          (3) That/what দ্বারা লুকানো বাক্য বুঝে That/what helping verb (যদি
+          থাকে) উঠিয়ে পরের মূল V1 এর সঙ্গে ing যুক্ত করতে হয়।
+        </p>
+        <p>যেমনঃ I saw man who was walking.</p>
+        <p>I saw a man walking.</p>
+
+        <p>অপূর্ণক্রিয়ার উক্তিতে করলে Complex হয়।</p>
+        <p>I lived a house belonging to me.</p>
+        <p>I lived a house which belonged to me.</p>
+
+        <p>
+          অধিক ing যুক্ত verb এর পরিবর্তে বসাতে হয় কামকে That/Which/What এবং
+          বাক্য থাকলে Who বসিয়ে ing যুক্ত verb ঠিক Tense অনুযায়ী সাজাতে হয়।
+        </p>
+
+        <p>
+          (4) So......that দ্বারা যুক্ত বাক্যে So এর স্থলে too বসে এবং That-not
+          পর্যন্ত উঠিয়ে To বসালে Simple হয়।
+        </p>
+        <p>যেমনঃ He is so weak that he cannot talk.</p>
+        <p>He is too weak to talk.</p>
+
+        <p>অপূর্ণক্রিয়ার উক্তিতে করলে Complex হয়।</p>
+        <p>He walks too slowly to reach in time.</p>
+        <p>He walks so slowly that he cannot reach there in time.</p>
+
+        <p>
+          (5) so that দ্বারা যুক্ত বাক্যগুলো থেকে Can/Could/may/might পর্যন্ত
+          উঠিয়ে to বসালে Simple হয়।
+        </p>
+        <p>We eat so that we may live.</p>
+        <p>We eat to live.</p>
+
+        <p>
+          অপূর্ণক্রিয়ার উক্তি করলে Complex হয়। অর্থাৎ to স্থলে so that+ sub+
+          may/ might/ can/ could বসালে Complex হয়।
+        </p>
+
+        <h3>(6)</h3>
+        <p>
+          If দ্বারা শুরু বাক্যে Negative হলে without এবং If দ্বারা বাক্য হয়
+          বোঝক হলে by বসিয়ে পরের V₁ এর সঙ্গে ing যুক্ত করলে Simple হয়।
+        </p>
+
+        <p>(i) If you study well, you will pass.</p>
+        <p>By studying well, you will pass.</p>
+
+        <p>(ii) If you do not study, you will not pass.</p>
+        <p>Without studying well, you will not pass.</p>
+
+        <h3>(7)</h3>
+        <p>
+          Though / although এর পরিবর্তে In spite of/ Despite of বসিয়ে পরের মূল
+          V₁ এর সঙ্গে ing যুক্ত করলে Simple হয়।
+        </p>
+
+        <p>(i) Though he is poor, he is honest.</p>
+        <p>In spite of being poor, he is honest.</p>
+
+        <p>(ii) Though he read well, he could not pass.</p>
+        <p>In spite of reading well, he could not pass.</p>
+
+        <p>অপূর্ণক্রিয়ার উক্তি করলে Complex হয়।</p>
+      </div>
+
+      {/* COMPOUND TO SIMPLE || VISE-VERSA */}
+      <div className="mt-5">
+        <h3>Compound to simple & Simple to Compound:</h3>
+
+        <p>
+          (i) And দ্বারা যুক্ত বাক্যের And উঠিয়ে প্রথম বাক্যাংশের Sub: উঠিয়ে
+          মূল V₁ এর সঙ্গে ing যুক্ত করলে Simple হয়। যদি প্রথম বাক্যে be verb
+          থাকে তবে এর পরিবর্তে being এবং have verb থাকলে having বসালে Simple
+          হয়।
+        </p>
+
+        <p>He closed the window and went out,</p>
+        <p>Closing the window, he went out.</p>
+
+        <p>
+          <strong>N.B. যদি বাক্যের Sub ভিন্ন হয় তবে Sub উঠবে না।</strong>
+        </p>
+
+        <p>* The tea was hot and we could not drink.</p>
+        <p>* The tea being hot, we could not drink.</p>
+
+        <p>অপূর্ণক্রিয়ার:</p>
+        <p>
+          ing/being/having দ্বারা শুরু বাক্যের মাধ্যমে এবং বসিয়ে sub+V তে পরের
+          বাক্য অনুষঙ্গ সাজাতে হয়।
+        </p>
+
+        <p>* The sun having set, they left home.</p>
+        <p>= By the sun had set and they left home.</p>
+
+        <p>
+          কিন্তু And দ্বারা যুক্ত বাক্যের ক্ষেত্রে sub না থাকলে And উঠিয়ে
+          বাক্যাংশ শুরুতে by বসালে হয় এবং by এর পরের V₁ এর সঙ্গে ing যুক্ত করতে
+          হয়।
+        </p>
+
+        <p>* Work hard and you will succeed.</p>
+        <p>* By working hard, you will succeed.</p>
+
+        <p>অপূর্ণক্রিয়ার - উক্তিতে করলে Compound হয়।</p>
       </div>
     </div>
   );
