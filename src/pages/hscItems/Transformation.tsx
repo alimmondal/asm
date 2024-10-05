@@ -6,10 +6,10 @@ const Transformation = () => {
       </div>
 
       {/* AFFIRMATIVE-NEGATIVE */}
-      <div className="w-full overflow-x-auto my-10 ">
-        <h2 className="text-center md:text-start md:text-xl text-sm font-medium">
+      <div className="w-full overflow-x-auto my-10">
+        <h3 className="text-center md:text-start">
           [A] Affirmative to Negative/ Negative to Affirmative
-        </h2>
+        </h3>
         <table className="md:w-full min-w-[800px] table-auto dark:border-slate-400">
           <tr>
             <th>Affirmative (Aff.)</th>
@@ -291,7 +291,6 @@ const Transformation = () => {
         <p>
           <strong>N.B. যদি বাক্যের Sub ভিন্ন হয় তবে Sub উঠবে না।</strong>
         </p>
-
         <p>* The tea was hot and we could not drink.</p>
         <p>* The tea being hot, we could not drink.</p>
 
@@ -300,7 +299,6 @@ const Transformation = () => {
           ing/being/having দ্বারা শুরু বাক্যের মাধ্যমে এবং বসিয়ে sub+V তে পরের
           বাক্য অনুষঙ্গ সাজাতে হয়।
         </p>
-
         <p>* The sun having set, they left home.</p>
         <p>= By the sun had set and they left home.</p>
 
@@ -314,6 +312,88 @@ const Transformation = () => {
         <p>* By working hard, you will succeed.</p>
 
         <p>অপূর্ণক্রিয়ার - উক্তিতে করলে Compound হয়।</p>
+        <p>
+          (2) But / yet যারা যুক্ত বাক্যের যুক্ত In spite of / Despite of বন্ধন
+          পরের মূল V1 এর সাথে ing যুক্ত করলে Simple হয়। কিন্তু প্রথম বাক্যে
+          verb to be থাকলে এর পরিবর্তে being যুক্ত করে have verb এর পরিবর্তে
+          having বসাতে হয়।
+        </p>
+
+        <p>
+          * He is rich but he is simple minded.
+          <br /> In spite of being rich, he is simple minded.
+          <br /> অনুবর্তীভাবে In spite of / Despite of যুক্তির পরের Possessive
+          থাকলে Subjective বসাতে হবে এবং ing যুক্ত Verb কে পরে বাক্যাংশ অনুসারে
+          verb ঠিক করতে হবে। কিন্তু being থাকলে be verb এবং having থাকলে have
+          verb সরালে Compound হয়।
+        </p>
+
+        <p>
+          (3) Or দ্বারা যুক্ত বাক্যের or যুক্ত বাক্যের জন্য without / by বন্ধন
+          পরের মূল V1 এর সাথে ing যুক্ত করলে Compound হয়।
+        </p>
+
+        <p>
+          * Work hard or you will not shine.
+          <br /> - Without working hard, you will not shine.
+        </p>
+
+        <p>
+          N.B. পরের বাক্যাংশ Negative হলে without এবং ইতিবাচক হলে by বসাতে হয়।
+          <br /> অনুবর্তীভাবে by / without যুক্ত V1 করতে হলে এবং মূল verb এর
+          মাধ্যামে or বসাতে হয়।
+        </p>
+      </div>
+
+      {/* Complex to Compound & Compound to complex: */}
+      <div className="">
+        <h3>Complex to Compound & Compound to complex:</h3>
+
+        <p>
+          (1) Since /as / when / as soon as যখন শুরু / যুক্ত বাক্যের যাথারূপ And
+          এর সাথে Since / as / when যুক্ত দিলে Compound হয়।
+        </p>
+
+        <p>
+          * When I was eight, I was there.
+          <br /> - I was eight and I was there.
+        </p>
+
+        <p>অনুবর্তীভাবে And যুক্ত থাকলে As বসালে Complex হয়।</p>
+
+        <p>(2) Though / Although যুক্ত থাকলে but বসালে Compound হয়।</p>
+
+        <p>
+          * Although he was sick, he was walking.
+          <br /> - He was sick but he was walking.
+        </p>
+
+        <p>
+          অনুবর্তীভাবে যাথারূপ থেকে but / yet যুক্তির জন্য Though / Although
+          বসালে Complex হয়।
+        </p>
+
+        <p>
+          (3) If দ্বারা শুরু বাক্য না হলে মূল verb এর পূর্ব পর্যন্ত যুক্ত
+          বাক্যাংশ or বসাতে হয়। If দ্বারা শুরু বাক্য যাথারূপ হলে বাক্যাংশ And
+          বসালে Compound হয়।
+        </p>
+
+        <p>
+          (i) If you work hard, you will pass.
+          <br /> - Work hard and you will pass.
+        </p>
+
+        <p>
+          (ii) If you do not do, you will die.
+          <br /> - Do or you will die.
+        </p>
+
+        <p>
+          অনুবর্তীভাবে And দ্বারা যুক্ত বাক্যের sub না থাকলে If বসালে And থাকবে
+          Complex হয়। আবার or যুক্ত বাক্যের জন্য If+ sub+ do not বসালে Complex
+          হয়।
+        </p>
       </div>
     </div>
   );

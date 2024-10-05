@@ -42,6 +42,8 @@ import Essays from "../pages/composition/Essays";
 import Letter from "../pages/composition/Letter";
 import Email from "../pages/composition/Email";
 import Pronoun from "../pages/hscItems/Pronoun";
+import TagQuestion from "../pages/sscItems/TagQuestion";
+import SSuggestion from "../pages/sscItems/SSuggestion";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -80,6 +82,14 @@ export const router = createBrowserRouter([
       {
         path: "/completing",
         element: <Completing />,
+      },
+      {
+        path: "/tag",
+        element: <TagQuestion />,
+      },
+      {
+        path: "/S-Suggestion",
+        element: <SSuggestion />,
       },
       {
         path: "/verbs",
