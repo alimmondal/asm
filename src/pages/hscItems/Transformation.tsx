@@ -5,7 +5,7 @@ const Transformation = () => {
         <h1 className="text-center md:text-start">Transformation</h1>
       </div>
 
-      {/* AFFIRMATIVE-NEGATIVE */}
+      {/* TABLE: AFFIRMATIVE-NEGATIVE */}
       <div className="w-full overflow-x-auto my-10">
         <h3 className="text-center md:text-start">
           [A] Affirmative to Negative/ Negative to Affirmative
