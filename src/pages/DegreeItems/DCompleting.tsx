@@ -161,7 +161,7 @@ const DCompleting = () => {
           </li>
         </ol>
       </div>
-
+      {/* EXERCISE */}
       <div className="">
         <div className="">
           <h2>Exercise</h2>
@@ -272,6 +272,186 @@ const DCompleting = () => {
           </li>
           <li>
             <span className="font-semibold">Put off</span> your shoes.
+          </li>
+
+          <li>
+            He does not know <span className="underline">how</span> to swim.
+          </li>
+          <li>
+            He insisted <span className="underline">on</span> my going.
+          </li>
+          <li>She excels in speaking English.</li>
+          <li>
+            Over eating tells <span className="underline">upon</span> our
+            health.
+          </li>
+          <li>He ran into debt.</li>
+          <li>
+            Money <span className="underline">begets</span> money.
+          </li>
+          <li>
+            He deals in <span className="underline">rice</span>.
+          </li>
+          <li>I am sure of his success.</li>
+          <li>
+            <span className="underline">Suffice</span> it to say, he is honest.
+          </li>
+          <li>
+            May God <span className="underline">bless</span> you.
+          </li>
+          <li>
+            She is not <span className="underline">as</span> ugly as you expect.
+          </li>
+          <li>None of the boys has got a prize.</li>
+          <li>Fifty miles is a long way.</li>
+          <li>This is the pen that I want.</li>
+          <li>
+            We have no escape from <span className="underline">death</span>.
+          </li>
+          <li>
+            He would rather fail <span className="underline">than</span> copy.
+          </li>
+          <li>
+            Wait <span className="underline">until</span> I come back.
+          </li>
+          <li>
+            What cannot be <span className="underline">cured</span> must be
+            endured.
+          </li>
+          <li>
+            He is fond of <span className="underline">playing</span> cricket.
+          </li>
+          <li>
+            He started early <span className="underline">lest</span> he should
+            miss the train.
+          </li>
+          <li>He died of jaundice.</li>
+          <li>
+            It has been raining <span className="underline">since</span>{" "}
+            morning.
+          </li>
+          <li>
+            A friend in need is a friend{" "}
+            <span className="underline">indeed</span>.
+          </li>
+          <li>
+            Failure is the <span className="underline">pillar</span> of success.
+          </li>
+          <li>
+            If <span className="underline">winter</span> comes, can spring be
+            far <span className="underline">behind</span>?
+          </li>
+          <li>
+            <span className="underline">Life</span> is short but{" "}
+            <span className="underline">art</span> is long.
+          </li>
+          <li>
+            <span className="underline">Morning</span> shows the day.
+          </li>
+          <li>There is no rose without thorn.</li>
+          <li>Slow and steady wins the race.</li>
+          <li>I wish I were a child again.</li>
+          <li>Don’t look down upon the poor.</li>
+          <li>I caught him by the hand.</li>
+          <li>
+            I’ll got ill <span className="underline">spent</span>.
+          </li>
+          <li>Had I been a child again!</li>
+          <li>
+            You had <span className="underline">better</span> leave the place.
+          </li>
+          <li>Would you mind opening the door?</li>
+          <li>
+            Where there is a will, there is a{" "}
+            <span className="underline">way</span>.
+          </li>
+          <li className="text-gray-800">
+            He has <span className="underline">enough</span> money to buy a car.
+          </li>
+          <li className="text-gray-800">Why do you look so shattered today?</li>
+          <li className="text-gray-800">
+            It is easy to say but <span className="underline">difficult</span>{" "}
+            to do.
+          </li>
+          <li className="text-gray-800">They will play if there is no rain.</li>
+          <li className="text-gray-800">
+            You can’t get a good job <span className="underline">unless</span>{" "}
+            you know English.
+          </li>
+          <li className="text-gray-800">
+            He is a <span className="underline">black</span> ship of the family.
+          </li>
+          <li className="text-gray-800">
+            Man <span className="underline">proposes</span> God disposes.
+          </li>
+          <li className="text-gray-800">
+            Would you mind <span className="underline">singing</span> a folk
+            song?
+          </li>
+          <li className="text-gray-800">
+            I feel <span className="underline">like</span> crying.
+          </li>
+          <li className="text-gray-800">
+            This team is as strong as its opponent.
+          </li>
+          <li className="text-gray-800">
+            Glass is made of <span className="underline">bottles</span>.
+          </li>
+          <li className="text-gray-800">There was a knock at the door.</li>
+          <li className="text-gray-800">Honour and glory is his reward.</li>
+          <li className="text-gray-800">
+            He has a lot of <span className="underline">works</span>.
+          </li>
+          <li className="text-gray-800">
+            Hunger is the best <span className="underline">sauce</span>.
+          </li>
+          <li className="text-gray-800">Cattle are grazing in the field.</li>
+          <li className="text-gray-800">A drowning man catches at a straw.</li>
+          <li className="text-gray-800">
+            The man was charged with <span className="underline">theft</span>.
+          </li>
+          <li className="text-gray-800">You can’t prevent him from smoking.</li>
+          <li className="text-gray-800">
+            He is such an honourable man that all respect him.
+          </li>
+          <li className="text-gray-800">Happiness consists in contentment.</li>
+          <li className="text-gray-800">
+            Man is <span className="underline">born</span> free.
+          </li>
+          <li className="text-gray-800">
+            Corruption is the bar to development.
+          </li>
+          <li className="text-gray-800">
+            An idle <span className="underline">brain</span> is the devil’s
+            workshop.
+          </li>
+          <li className="text-gray-800">
+            Man lives in <span className="underline">deed</span>.
+          </li>
+          <li className="text-gray-800">
+            Time once <span className="underline">gone</span> is gone forever.
+          </li>
+          <li className="text-gray-800">
+            His sorrows <span className="underline">beggars</span> description.
+          </li>
+          <li className="text-gray-800">She is annoyed at his behaviour.</li>
+          <li className="text-gray-800">
+            She is annoyed <span className="underline">with</span> me.
+          </li>
+          <li className="text-gray-800">Man must yield to his fate.</li>
+          <li className="text-gray-800">
+            To err is <span className="underline">human</span>.
+          </li>
+          <li className="text-gray-800">There is no remedy for malaria.</li>
+          <li className="text-gray-800">
+            He left the country for <span className="underline">good</span>.
+          </li>
+          <li className="text-gray-800">He lectured on population problem.</li>
+          <li className="text-gray-800">
+            A <span className="underline">stitch</span> in time saves nine.
+          </li>
+          <li className="text-gray-800">
+            He has no passion for <span className="underline">music</span>.
           </li>
         </ol>
       </div>

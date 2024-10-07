@@ -44,8 +44,8 @@ const Narration = () => {
             Object-অনুসারে পরিবর্তন হয়। যেমন:
             <br />
             Q. He said to me, "I have done my duty". <br />= He said to me{" "}
-            <strong>that</strong> he
-            <strong>had</strong> done<strong>his</strong> duty".
+            <strong>that</strong>he
+            <strong> had</strong> done<strong> his</strong> duty".
           </p>
           <p>
             Subject/ Pronoun এর পরিবর্তন বুঝার জন্য নিচের টেবিলটি মনে রাখতে হবেঃ
