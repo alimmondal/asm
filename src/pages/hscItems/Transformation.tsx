@@ -395,6 +395,448 @@ const Transformation = () => {
           হয়।
         </p>
       </div>
+
+      {/* DEGREE */}
+
+      <div className="mt-6 pt-6 bg-gray-100 text-gray-900">
+        <h1 className="text-xl font-bold mb-4">Degree Rules and Examples</h1>
+        <table className="table-auto w-full border-collapse border border-gray-400">
+          <thead>
+            <tr className="bg-gray-200">
+              <th className="border border-gray-400 p-2">Rules</th>
+              <th className="border border-gray-400 p-2">Examples</th>
+            </tr>
+          </thead>
+          <tbody>
+            {/* Row 1 */}
+            <tr>
+              <td
+                colSpan="2"
+                className="border border-gray-400 p-2 md:text-center font-bold bg-gray-300"
+              >
+                Superlative to Positive
+              </td>
+            </tr>
+
+            <tr>
+              <td className="border border-gray-400 p-2">
+                <strong>1. Structure: </strong> No other + Superlative Degree-এর
+                পরের অংশ + Verb + so/as + Superlative degree er Positive form +
+                as + প্রদত্ত sentence এর Subject.
+              </td>
+              <td className="border border-gray-400 p-2">
+                <strong>Super:</strong> Hira is the best girl in our locality.
+                <br />
+                <strong>Super:</strong> No other girl in our locality is as good
+                as Hira.
+              </td>
+            </tr>
+            <tr>
+              <td className="border border-gray-400 p-2">
+                Note:উপরের: all other, most other, many other, few other, very
+                few... এর পর Noun/Pronoun-এর Plural form বসে। Superlative
+                Degree-এর পর of all/any বসলে তা উঠে যায়।
+              </td>
+              <td className="border border-gray-400 p-2">
+                <strong>Super:</strong> Romeo is the best of all boys.
+                <br />
+                <strong>Super:</strong> No other boy is as good as Romeo.
+                <br />
+                <strong>Super:</strong> It burns the prettiest of any wood.
+                <br />
+                <strong>Positive:</strong> No other wood burns as pretty as it.
+              </td>
+            </tr>
+
+            {/* Row 2 */}
+            <tr>
+              <td className="border border-gray-400 p-2">
+                2. One of the যুক্ত Superlative Degree-এর Positive Degree-তে
+                প্রকাশ করার নিয়মঃ-
+                <br />
+                Structure: Very few + Superlative degree-এর plural form +
+                verb-এর plural form + so/as + Positive form + as + প্রথম
+                Sentence-এর Subject.
+              </td>
+              <td className="border border-gray-400 p-2">
+                <strong>Super:</strong> Habib is one of the cleverest boys.
+                <br />
+                <strong>Positive:</strong> Very few boys are so/as clever as
+                Habib.
+                <br />
+                <strong>Super:</strong> Murad was one of the most industrious
+                young men.
+                <br />
+                <strong>Positive:</strong> Very few young men were so/as
+                industrious as Murad.
+              </td>
+            </tr>
+
+            {/* Comparative to Positive */}
+            <tr>
+              <td
+                colSpan="2"
+                className="border border-gray-400 p-2 text-center font-bold bg-gray-300"
+              >
+                Comparative to Positive
+              </td>
+            </tr>
+
+            {/* Row 3 */}
+            <tr>
+              <td className="border border-gray-400 p-2">
+                Than any other/all other যুগ Comparative Degree-কে Positive
+                Degree-তে রূপান্তর করা হয়।
+                <br />
+                Structure: No other + any other/all other + plural + Verb +
+                so/as + Comparative Degree-এর Positive form + as + প্রথম
+                Sentence-এর Subject।
+              </td>
+              <td className="border border-gray-400 p-2">
+                <strong>Comp:</strong> Boby is taller than any other girl in the
+                class.
+                <br />
+                <strong>Positive:</strong> No other girl in the class is as tall
+                as Boby.
+                <br />
+                <strong>Comp:</strong> Tanvir is more intelligent than any other
+                boy.
+                <br />
+                <strong>Positive:</strong> No other boy is so/as intelligent as
+                Tanvir.
+              </td>
+            </tr>
+
+            {/* Row 4 */}
+            <tr>
+              <td className="border border-gray-400 p-2">
+                Than most other/than few other যুগ Comparative Degree-কে
+                Positive Degree-তে রূপান্তর করা হয়।
+                <br />
+                Structure: Than-যুক্ত Comparative Degree-কে Positive Degree-তে
+                রূপান্তর করা হয়: Than-এর পরে বসা + Verb + না + so/as +
+                Comparative Degree-এর Positive form + as + প্রথম Sentence-এর
+                Subject।
+              </td>
+              <td className="border border-gray-400 p-2">
+                <strong>Comp:</strong> Panna is taller than Hira.
+                <br />
+                <strong>Positive:</strong> Hira is not so/as tall as Panna.
+                <br />
+                <strong>Comp:</strong> Shawn is not cleverer than Romeo.
+                <br />
+                <strong>Positive:</strong> Romeo is so/as clever as Shawn.
+              </td>
+            </tr>
+
+            {/* Row 5 */}
+            <tr>
+              <td className="border border-gray-400 p-2">
+                Than most other/than few other যুগ Comparative Degree-কে
+                Positive Degree-তে রূপান্তর করা হয়।
+                <br />
+                Structure: Very few + most other/ few other-এর পরে বসা + verb-এর
+                plural form + so + as + Comparative-এর Positive form + as +
+                প্রথম Sentence-এর Subject।
+              </td>
+              <td className="border border-gray-400 p-2">
+                <strong>Comp:</strong> Javed is stronger than most other boys.
+                <br />
+                <strong>Positive:</strong> Few boys are as strong as Javed.
+                <br />
+                <strong>Comp:</strong> Romeo is more handsome than few other
+                students.
+                <br />
+                <strong>Positive:</strong> Very few students are so/as handsome
+                as Tito.
+              </td>
+            </tr>
+
+            {/* Row 6 */}
+            <tr>
+              <td className="border border-gray-400 p-2">
+                No less/Not less... than যুগ Comparative Degree-কে Positive
+                Degree-তে রূপান্তর করা হয়।
+                <br />
+                Structure: No less বা Not less-এর পরে বসা + Adjective-এর
+                Positive form-এর পরে বসা + than-যুক্ত Sentence এর subject.
+              </td>
+              <td className="border border-gray-400 p-2">
+                <strong>Comp:</strong> Sabrina is no less wise than Saguppta.
+                <br />
+                <strong>Positive:</strong> Sabrina is as wise as Saguppta.
+                <br />
+                <strong>Comp:</strong> Sachden was no less active than Asad.
+                <br />
+                <strong>Positive:</strong> He is not so/as strong as his friend.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div className="p-6 bg-gray-100 text-gray-900">
+          <h1 className="text-xl font-bold mb-4">
+            Superlative to Comparative and Positive to Comparative
+            Transformation
+          </h1>
+          <table className="table-auto w-full border-collapse border border-gray-400">
+            <thead>
+              <tr className="bg-gray-200">
+                <th className="border border-gray-400 p-2">Rules</th>
+                <th className="border border-gray-400 p-2">Examples</th>
+              </tr>
+            </thead>
+            <tbody>
+              {/* Superlative into Comparative */}
+              <tr>
+                <td
+                  colSpan="2"
+                  className="border border-gray-400 p-2 text-center font-bold bg-gray-300"
+                >
+                  Superlative into Comparative
+                </td>
+              </tr>
+
+              {/* Row 1 */}
+              <tr>
+                <td className="border border-gray-400 p-2">
+                  Superlative Degree-কে Comparative Degree-তে রূপান্তর করার
+                  নিয়ম: <br />
+                  Structure: Subject + Verb + adjective-এর + than any other/
+                  অন্য বাক্য।
+                </td>
+                <td className="border border-gray-400 p-2">
+                  <strong>Super:</strong> He is the wisest man in the village.
+                  <br />
+                  <strong>Comp:</strong> He is wiser than any other man in the
+                  village.
+                  <br />
+                  <strong>Super:</strong> Asad is the wisest of any boy.
+                  <br />
+                  <strong>Comp:</strong> Asad is wiser than any other boy.
+                </td>
+              </tr>
+
+              {/* Row 2 */}
+              <tr>
+                <td className="border border-gray-400 p-2">
+                  One of the যুগ Superlative Degree-কে Comparative Degree-তে
+                  রূপান্তর করা হয়।
+                </td>
+                <td className="border border-gray-400 p-2">
+                  <strong>Super:</strong> Hadiduzzaman is one of the best poets.
+                  <br />
+                  <strong>Comp:</strong> Hadiduzzaman is better than most other
+                  poets.
+                </td>
+              </tr>
+
+              {/* Positive into Comparative */}
+              <tr>
+                <td
+                  colSpan="2"
+                  className="border border-gray-400 p-2 text-center font-bold bg-gray-300"
+                >
+                  Positive into Comparative
+                </td>
+              </tr>
+
+              {/* Row 3 */}
+              <tr>
+                <td className="border border-gray-400 p-2">
+                  No other যুগ Positive Degree-কে Comparative Degree-তে রূপান্তর
+                  করা হয়। <br />
+                  Structure:
+                  <ol className="list-decimal ml-4">
+                    <li>প্রথম Sentence-এর Subject টিকে Comparative-এ বসা।</li>
+                    <li>
+                      Verb-এর পরে Positive Degree-এর Comparative form বসা।
+                    </li>
+                    <li>No other-এর পরে Verb-এর বাক্য সাজানো।</li>
+                  </ol>
+                </td>
+                <td className="border border-gray-400 p-2">
+                  <strong>Positive:</strong> No other tree on the mountain was
+                  so high as it.
+                  <br />
+                  <strong>Comp:</strong> It was higher than any other tree on
+                  the mountain.
+                  <br />
+                  <strong>Positive:</strong> No other boy in the class is so
+                  good as Rashed.
+                  <br />
+                  <strong>Comp:</strong> Rashed is better than any other boy in
+                  the class.
+                </td>
+              </tr>
+
+              {/* Row 4 */}
+              <tr>
+                <td className="border border-gray-400 p-2">
+                  Very few যুগ Positive Degree-কে Comparative Degree-তে রূপান্তর
+                  করা হয়। <br />
+                  Structure: Very few + subject + verb plural + adjective-এর
+                  than any other subject.
+                </td>
+                <td className="border border-gray-400 p-2">
+                  <strong>Positive:</strong> Very few subjects are so easy as
+                  this.
+                  <br />
+                  <strong>Comp:</strong> This is easier than most other
+                  subjects.
+                </td>
+              </tr>
+
+              {/* Row 5 */}
+              <tr>
+                <td className="border border-gray-400 p-2">
+                  As ...... as যুগ Positive Degree-কে Comparative Degree-তে
+                  রূপান্তর।
+                </td>
+                <td className="border border-gray-400 p-2">
+                  <strong>Positive:</strong> He is as wise as his brother.
+                  <br />
+                  <strong>Comp:</strong> His brother is not wiser than he.
+                </td>
+              </tr>
+
+              {/* More examples on Positive to Comparative */}
+              <tr>
+                <td
+                  colSpan="2"
+                  className="border border-gray-400 p-2 text-center font-bold bg-gray-300"
+                >
+                  More Examples on Positive to Comparative
+                </td>
+              </tr>
+
+              {/* Row 6 */}
+              <tr>
+                <td className="border border-gray-400 p-2">
+                  a. He is as ferocious as a tiger.
+                  <br />
+                  b. He is as intimate to me, as to you.
+                  <br />
+                  c. There is no mystery so great as misery.
+                  <br />
+                  d. He is at least as competent as any other man.
+                </td>
+                <td className="border border-gray-400 p-2">
+                  a. A tiger is not more ferocious than he.
+                  <br />
+                  b. He is not more intimate to you, than to me.
+                  <br />
+                  c. Misery is greater than any other mystery./ Misery is the
+                  greatest of all my mysteries.
+                  <br />
+                  d. He is not less competent than any other man./ No other man
+                  is more competent than he.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div className="p-6 bg-gray-100 text-gray-900">
+          <h1 className="text-xl font-bold mb-4">
+            Comparative into Superlative and Positive into Superlative
+            Transformation
+          </h1>
+          <table className="table-auto w-full border-collapse border border-gray-400">
+            <thead>
+              <tr className="bg-gray-200">
+                <th className="border border-gray-400 p-2">Rules</th>
+                <th className="border border-gray-400 p-2">Examples</th>
+              </tr>
+            </thead>
+            <tbody>
+              {/* Comparative into Superlative */}
+              <tr>
+                <td
+                  colSpan="2"
+                  className="border border-gray-400 p-2 text-center font-bold bg-gray-300"
+                >
+                  Comparative into Superlative
+                </td>
+              </tr>
+
+              {/* Row 1 */}
+              <tr>
+                <td className="border border-gray-400 p-2">
+                  সাধারণ নিয়মটি নিয়ম: <br />
+                  Structure: Subject + verb + adjective + other-এর পরবর্তী বসা।
+                </td>
+                <td className="border border-gray-400 p-2">
+                  <strong>Positive:</strong> He is better than any other boy in
+                  the class.
+                  <br />
+                  <strong>Comp:</strong> He is the best boy in the class.
+                </td>
+              </tr>
+
+              {/* Row 2 */}
+              <tr>
+                <td className="border border-gray-400 p-2">
+                  Than most other/than few other যুগ Comparative Degree-কে
+                  Superlative Degree-তে রূপান্তর করার নিয়ম: <br />
+                  (i) প্রথম Sentence-এর Subject + Verb বসা। <br />
+                  (ii) Comparative Degree-এর Superlative form বসা। <br />
+                  (iii) most other/few other-এর বাক্য পূর্ণ করা।
+                </td>
+                <td className="border border-gray-400 p-2">
+                  <strong>Comp:</strong> Dhaka is bigger than most other cities
+                  in South Asia.
+                  <br />
+                  <strong>Super:</strong> Dhaka is one of the biggest cities in
+                  South Asia.
+                </td>
+              </tr>
+
+              {/* Positive into Superlative */}
+              <tr>
+                <td
+                  colSpan="2"
+                  className="border border-gray-400 p-2 text-center font-bold bg-gray-300"
+                >
+                  Positive into Superlative
+                </td>
+              </tr>
+
+              {/* Row 3 */}
+              <tr>
+                <td className="border border-gray-400 p-2">
+                  No other যুগ Positive Degree-কে Superlative Degree-তে রূপান্তর
+                  করা হয়: <br />
+                  Structure: subject + verb + the + adj + বাক্যের subject.
+                </td>
+                <td className="border border-gray-400 p-2">
+                  <strong>Positive:</strong> No other girl in the class is as
+                  tall as Sumi.
+                  <br />
+                  <strong>Super:</strong> Sumi is the tallest girl in the class.
+                </td>
+              </tr>
+
+              {/* Row 4 */}
+              <tr>
+                <td className="border border-gray-400 p-2">
+                  Very few যুগ Positive Degree-কে Superlative Degree-তে রূপান্তর
+                  করা হয়: <br />
+                  Structure: লেগে subject + verb + one of the + adj + বাক্যের
+                  subject।
+                </td>
+                <td className="border border-gray-400 p-2">
+                  <strong>Positive:</strong> Very few boys in the locality are
+                  as wise as Habib.
+                  <br />
+                  <strong>Super:</strong> Habib is one of the wisest boys in the
+                  locality.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   );
 };
