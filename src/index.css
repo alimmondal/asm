@@ -1,6 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Spicy+Rice&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.heading {
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .bannerBg {
   background-image: url("/banner.jpeg");

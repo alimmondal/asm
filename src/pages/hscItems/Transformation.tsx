@@ -411,7 +411,7 @@ const Transformation = () => {
             {/* Row 1 */}
             <tr>
               <td
-                colSpan="2"
+                colSpan={2}
                 className="border border-gray-400 p-2 md:text-center font-bold bg-gray-300"
               >
                 Superlative to Positive
@@ -475,7 +475,7 @@ const Transformation = () => {
             {/* Comparative to Positive */}
             <tr>
               <td
-                colSpan="2"
+                colSpan={2}
                 className="border border-gray-400 p-2 text-center font-bold bg-gray-300"
               >
                 Comparative to Positive
@@ -590,7 +590,7 @@ const Transformation = () => {
               {/* Superlative into Comparative */}
               <tr>
                 <td
-                  colSpan="2"
+                  colSpan={2}
                   className="border border-gray-400 p-2 text-center font-bold bg-gray-300"
                 >
                   Superlative into Comparative
@@ -634,7 +634,7 @@ const Transformation = () => {
               {/* Positive into Comparative */}
               <tr>
                 <td
-                  colSpan="2"
+                  colSpan={2}
                   className="border border-gray-400 p-2 text-center font-bold bg-gray-300"
                 >
                   Positive into Comparative
@@ -703,7 +703,7 @@ const Transformation = () => {
               {/* More examples on Positive to Comparative */}
               <tr>
                 <td
-                  colSpan="2"
+                  colSpan={2}
                   className="border border-gray-400 p-2 text-center font-bold bg-gray-300"
                 >
                   More Examples on Positive to Comparative
@@ -753,7 +753,7 @@ const Transformation = () => {
               {/* Comparative into Superlative */}
               <tr>
                 <td
-                  colSpan="2"
+                  colSpan={2}
                   className="border border-gray-400 p-2 text-center font-bold bg-gray-300"
                 >
                   Comparative into Superlative
@@ -795,7 +795,7 @@ const Transformation = () => {
               {/* Positive into Superlative */}
               <tr>
                 <td
-                  colSpan="2"
+                  colSpan={2}
                   className="border border-gray-400 p-2 text-center font-bold bg-gray-300"
                 >
                   Positive into Superlative

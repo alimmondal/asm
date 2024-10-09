@@ -17,8 +17,8 @@ function Header() {
         <h1 className="">
           <FaBookReader />
         </h1>
-        <h1 className="text-xl font-bold text-green-500 capitalize italic dark:text-slate-400">
-          ASM English English Academy
+        <h1 className=" text-green-500 dark:text-slate-400 heading">
+          ASM English Academy
         </h1>
       </div>
 

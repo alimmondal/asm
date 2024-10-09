@@ -1,7 +1,7 @@
 function Punctuation() {
   return (
     <div className="h-full md:w-[85%] mx-auto">
-      <h1 className="my-20">Punctuation & Capitalisation</h1>
+      <h1 className="my-20">Punctuation & Capitalization</h1>
       <div className=" bg-white text-gray-800">
         <h3> Punctuation:</h3>
         {/* 1. Assertive, imperative and optative sentence */}
@@ -108,40 +108,64 @@ function Punctuation() {
       </div>
 
       <div className="my-8">
-        <div className="">
-          <h3>Capitalization:</h3>
+        <h1 className="text-2xl font-bold ">Capitalization</h1>
 
-          <h1 className="text-2xl font-bold mb-4">Capitalization</h1>
-          <ol className="list-decimal pl-6">
-            <li className="mb-2">
-              <span className="font-semibold">Sentence:</span>
-              <span> একটি Sentence এ Capital Letter দিয়ে লেখা হয়।</span>
-            </li>
-            <li className="mb-2">
-              <span className="font-semibold">Proper Noun:</span>
-              <span> একটি Proper Noun এর প্রথম অক্ষর বড় হয়।</span>
-            </li>
-            <li className="mb-2">
-              <span className="font-semibold">Abbreviation:</span>
-              <span> Abbreviation এর প্রথম অক্ষর বড় হয়।</span>
-            </li>
-          </ol>
-          <h2 className="text-xl font-semibold mt-4">Examples:</h2>
-          <ol className="list-decimal pl-6">
-            <li>Proper noun: I met Raton yesterday.</li>
-            <li>I came home on Monday.</li>
-            <li>February.</li>
-            <li>Dhannmondi Girls School.</li>
-            <li>The Quran is a holy book.</li>
-          </ol>
-          <h2 className="text-xl font-semibold mt-4">
-            Pronoun and Interjection:
+        {/* 1. Start of sentence */}
+        <div className="mb-6">
+          <h2 className="text-lg font-semibold">
+            1. Sentence এর প্রথম শব্দ Capital Letter দিয়ে শুরু করতে হয়।
           </h2>
-          <p>
-            Pronoun “আমি” এবং Interjection শব্দের বড় হয়।
-            <span> Oh, Good bless me.</span>
-          </p>
-          <p>Interjection হলো: O, Oh, Alas, Hurra.</p>
+        </div>
+
+        {/* 2. Proper Noun */}
+        <div className="mb-6">
+          <h2 className="text-lg font-semibold">
+            2. Proper Noun এর প্রথম অক্ষর বড় হাতের হয়।
+          </h2>
+        </div>
+
+        {/* 3. Days, months, names, etc. */}
+        <div className="mb-6">
+          <h2 className="text-lg font-semibold">
+            3. দিনের নাম, মাসের নাম, উপাধি বা তাদের Abbreviation, উপাধি এবং
+            উপাধির নাম, শিক্ষা প্রতিষ্ঠানের নামের প্রথম অক্ষর, ধর্মীয়
+            প্রতিষ্ঠান বা ধর্মের নাম, জাতি এবং ধর্মীয় সম্প্রদায়ের নাম এবং
+            ঐতিহাসিক ঘটনার প্রথম অক্ষর Capital Letter হয়। <br />
+            Examples:
+          </h2>
+          <ul className="list-disc ml-6">
+            <li>
+              <strong>Proper Noun:</strong> I met Raton yesterday.
+            </li>
+            <li>
+              <strong>দিনের নাম:</strong> I came home on Monday.
+            </li>
+            <li>
+              <strong>উপাধি বা পদবি:</strong> M.A./B.A.
+            </li>
+            <li>
+              <strong>মাসের নাম:</strong> February.
+            </li>
+            <li>
+              <strong>শিক্ষা প্রতিষ্ঠানের নাম:</strong> Dhanmondi Girls School.
+            </li>
+            <li>
+              <strong>পবিত্র গ্রন্থের নাম:</strong> The Quran is a holy book.
+            </li>
+          </ul>
+        </div>
+
+        {/* 4. Pronoun and Interjection */}
+        <div className="mb-6">
+          <h2 className="text-lg font-semibold">
+            4. Pronoun "I" (আমি) এবং Interjection সর্বদা বড় হাতের হয়।
+            <br />
+            Example:
+          </h2>
+          <ul className="list-disc ml-6">
+            <li>Oh, Good bless me.</li>
+            <li>Interjection includes: O, Oh, Alas, Hurra.</li>
+          </ul>
         </div>
       </div>
     </div>
