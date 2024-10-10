@@ -39,11 +39,11 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "navs fixed top-0 left-0 right-0 z-10 transition-all bg-rose-500"
-            : "bg-green-500"
+            ? "fixed top-0 left-0 right-0 z-10 transition-all bg-green-400 text-white font-bold"
+            : "text-green-500 font-bold"
         }
       >
-        <div className="navbar text-white">
+        <div className="navbar ">
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -144,7 +144,7 @@ const Navbar = () => {
               className="btn btn-ghost text-xl"
             >
               <FaBookReader size={32} />
-              <span className="heading2">ASM E-Learning</span>
+              <span className="heading2 md:hidden">ASM E-Learning</span>
             </Link>
           </div>
 
