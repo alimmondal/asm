@@ -2,14 +2,14 @@ import { FaBookReader } from "react-icons/fa";
 
 function Header() {
   return (
-    <div className="my-2 px-2 md: w-[85%] md:px-10 mx-auto flex items-center justify-between">
+    <div className="py-2 px-2 md:px-0 w-[85%] mx-auto flex items-center justify-between">
       <div className="dark:text-slate-400">
         <ul>
           <li>
-            <a href="tel:+8801860060068">Mob: 01860060068</a>
+            <a href="tel:+8801860060068">01860060068</a>
           </li>
           <li>
-            <a href="tel:+8801751337773">WhatsApp: 01751337773</a>
+            <a href="tel:+8801751337773">01751337773</a>
           </li>
         </ul>
       </div>
@@ -17,7 +17,7 @@ function Header() {
         <h1 className="">
           <FaBookReader />
         </h1>
-        <h1 className=" text-green-500 dark:text-slate-400 heading2">
+        <h1 className=" text-green-500 text-xl md:text-2xl dark:text-slate-400 heading2">
           ASM English Academy
         </h1>
       </div>

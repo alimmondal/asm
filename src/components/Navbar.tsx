@@ -3,6 +3,7 @@ import useAuth from "../hooks/useAuth";
 import Header from "./Header";
 import { FaBookReader } from "react-icons/fa";
 import { useState } from "react";
+import { FaRegTimesCircle } from "react-icons/fa";
 
 const Navbar = () => {
   const auth = useAuth();
@@ -52,7 +53,7 @@ const Navbar = () => {
                 className="btn btn-ghost lg:hidden"
               >
                 {click ? (
-                  "close"
+                  <FaRegTimesCircle className="w-5 h-5" />
                 ) : (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -69,12 +70,13 @@ const Navbar = () => {
                     />
                   </svg>
                 )}
+                {/* menu */}
               </div>
               <ul
                 tabIndex={0}
                 className={
                   click
-                    ? "menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-slate-400 dark:text-slate-400 h-screen"
+                    ? "menu menu-sm dropdown-content mt-3 z-[1] shadow bg-base-100 rounded-box w-52 text-slate-400 dark:text-slate-400 "
                     : "dropdown-content right-96"
                 }
               >
@@ -142,16 +144,17 @@ const Navbar = () => {
               className="btn btn-ghost text-xl"
             >
               <FaBookReader size={32} />
+              <span className="heading2">ASM E-Learning</span>
             </Link>
           </div>
 
           {/* Desktop menu */}
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
+            <ul className="menu menu-horizontal px-0">
               <li>
                 <Link to={"/"}>Home</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to={"/ssc"}>SSC</Link>
               </li>
               <li>
@@ -159,7 +162,7 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to={"/degree"}>Degree</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to={"/about"}>About</Link>
               </li>
