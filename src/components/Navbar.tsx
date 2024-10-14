@@ -40,7 +40,7 @@ const Navbar = () => {
         className={
           nav
             ? "fixed top-0 left-0 right-0 z-10 transition-all bg-green-400 text-white font-bold"
-            : "text-green-500 font-bold"
+            : "bg-transparent text-green-500 font-bold"
         }
       >
         <div className="navbar ">

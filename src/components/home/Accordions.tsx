@@ -7,7 +7,7 @@ import {
 
 const Accordions = () => {
   return (
-    <div className="py-14 mx-5 md:mx-12">
+    <div className="py-14 mx-1 md:mx-12">
       <Accordion>
         <AccordionPanel>
           <AccordionTitle>What is Tense?</AccordionTitle>
@@ -78,14 +78,16 @@ const Accordions = () => {
                 বাংলা ক্রিয়ার শেষে - ই, ি, ঈ , ী ,এ , ে , য় ইত্যাদি থাকে।
                 <br />
                 যেমনঃ খাই, ঘুমায়। <br />
-                <strong>গঠন</strong> (<strong>Structure</strong>): <br />
-                হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                <strong>* Sub + V1(s/es) + obj + others. </strong>
-                <br />
-                যেমনঃ <br />
-                আমরা ভাত খাই - We eat rice. <br />
-                সে ভাত খায় - He eats rice.
-                <br />
+                <p className="my-3">
+                  <strong>গঠন</strong> (<strong>Structure</strong>): <br />
+                  হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
+                  <strong>* Sub + V1(s/es) + obj + others. </strong>
+                  <br />
+                  যেমনঃ <br />
+                  আমরা ভাত খাই - We eat rice. <br />
+                  সে ভাত খায় - He eats rice.
+                  <br />
+                </p>
                 <strong>
                   NOTE: <br /> (১)
                 </strong>
@@ -97,13 +99,16 @@ const Accordions = () => {
                 থাকে তবে Verb এর শেষে = es যুক্ত হয়, যেমনঃ He goes (go = goes) ।
                 অন্যান্য সকল verb এর শেষে = s যুক্ত হয়,
                 <br />
+                <br />
                 <strong>কিন্তু O এবং Y ব্যতিক্রম: </strong> <br />
-                O এবং Y এর আগের অক্ষরটি যদি Consonant হয় তবে es যুক্ত হয় কিন্তু
-                Vowel (a, e, i, o, u) হলে শুধুমাত্র S যুক্ত হয়। যেমনঃ He plays
-                (play = plays).
+                O এবং Y এর আগের অক্ষরটি যদি Consonant হয় তবে es যুক্ত হয়।
+                <br />
+                কিন্তু O এবং Y এর আগের অক্ষরটি Vowel (a, e, i, o, u) হলে
+                শুধুমাত্র S যুক্ত হয়। যেমনঃ He plays (play = plays).
                 <br />
                 <strong>Y ব্যতিক্রম: </strong> Y এর পরে es যুক্ত করার ক্ষেত্রে y
                 স্থানে i হয় তার পরে es হয়। যেমনঃ He cries (cry = cries).
+                <br />
                 <br />
                 না-বোধক বাক্যের <strong>গঠন</strong>: <br />
                 <strong>* Sub + do not/ does not + V1 + obj + others. </strong>
@@ -112,15 +117,18 @@ const Accordions = () => {
                 আমরা ভাত খাই না - We do not eat rice. <br />
                 সে ভাত খায় না - He does not eat rice.
                 <br />
+                <br />
                 <strong>NOTE: </strong> হা-বোধক বাক্যের Subject যদি 3rd person +
                 singular হয় তবে সাহায্যকারি verb = does হয় অন্যান্য subject এর
                 সাথে = do হয়।
+                <br />
                 <br />
                 প্রশ্ন-বোধক - হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
                 * Do/ does + Sub + V1 + obj? <br />
                 যেমনঃ <br />
                 আমরা কি ভাত খাই? - Do we eat rice? <br />
                 সে কি ভাত খায়? - Does he eat rice? <br />
+                <br />
                 প্রশ্ন-বোধক না-বোধক বাক্যের <strong>গঠন</strong>: <br />
                 * Don't/ doesn't + Sub+ V1 + obj? <br />
                 অথবাঃ <br />
@@ -148,6 +156,7 @@ const Accordions = () => {
               চিনার উপায়ঃ বাংলা ক্রিয়ার শেষে - তেছি/চ্ছি, তেছ/চ্ছ, তেছেন/চ্ছেন
               ইত্যাদি থাকবে। <br />
               যেমনঃ খাইতেছি বা খাচ্ছি <br />
+              <br />
               <strong>গঠন</strong> (<strong>Structure</strong>): <br />
               হা-বোধক বাক্যের <strong>গঠন</strong> : <br />
               <strong>
