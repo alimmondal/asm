@@ -50,7 +50,7 @@ const Navbar = () => {
                 onClick={handleClick}
                 tabIndex={0}
                 role="button"
-                className="btn btn-ghost lg:hidden"
+                className="btn btn-ghost "
               >
                 {click ? (
                   <FaRegTimesCircle className="w-5 h-5" />
