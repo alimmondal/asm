@@ -1,4 +1,3 @@
-import { FaBookOpenReader } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -6,7 +5,12 @@ const Footer = () => {
     <>
       <footer className="footer p-10 bg-neutral text-neutral-content">
         <aside>
-          <FaBookOpenReader size={48} />
+          <img
+            src="/man.jpg"
+            alt=""
+            className="w-24 h-24 rounded-full border-4 border-rose-300"
+          />
+          {/* <FaBookOpenReader size={48} /> */}
           <p>
             ASM English Academy
             <br />
