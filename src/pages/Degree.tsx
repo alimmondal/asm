@@ -16,6 +16,11 @@ function Degree() {
               Parts of Speech
             </li>
           </Link>
+          <Link to={"/suffix"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black">
+              Suffix
+            </li>
+          </Link>
           <Link to={"/advertisement"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
               Advertisement
