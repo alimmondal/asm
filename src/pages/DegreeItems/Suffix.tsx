@@ -17,6 +17,15 @@ function Suffix() {
           <Viewer fileUrl="/Suffix.pdf" />
         </Worker>
       </div>
+      <div className="text-center py-4">
+        <a
+          href="/Suffix.pdf"
+          download
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        >
+          Download PDF
+        </a>
+      </div>
     </div>
   );
 }

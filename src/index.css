@@ -6,6 +6,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.category:hover {
+  border-color: #000000;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0.5em 0.5em -0.4em #000000;
+  transform: translateY(-0.5em);
+}
+
 .heading {
   font-family: "Spicy Rice", serif;
   font-weight: 400;

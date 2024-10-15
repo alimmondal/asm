@@ -14,7 +14,7 @@ const Home = () => {
         <div className="my-5">
           <ul className="grid grid-cols-2 md:grid-cols-3 gap-3 px-2 md:px-20 items-center justify-center text-[10px] md:text-sm">
             <Link to={"/hsc"}>
-              <li className=" bg-red-500 text-center py-7 md:py-16 rounded-sm text-white font-bold md:text-3xl text-xl">
+              <li className="border-2 border-green-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 text-green-400 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category">
                 HSC
               </li>
             </Link>
