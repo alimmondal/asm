@@ -1,7 +1,9 @@
 function Punctuation() {
   return (
     <div className="h-full md:w-[85%] mx-auto px-3">
-      <h1 className="my-20">Punctuation & Capitalization</h1>
+      <h1 className="my-20 text-2xl md:text-6xl text-center">
+        Punctuation <br /> & <br /> Capitalization
+      </h1>
       <div className=" bg-white text-gray-800">
         <h3> Punctuation:</h3>
         {/* 1. Assertive, imperative and optative sentence */}

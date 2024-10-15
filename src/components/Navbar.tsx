@@ -194,7 +194,7 @@ const Navbar = () => {
             )}
             <div className="avatar">
               <div className="w-12 rounded-full border-2 border-black">
-                <img src={auth?.user?.photoURL || "/placeholder.jpg"} />
+                <img src={auth?.user?.photoURL || "/man.jpg"} />
               </div>
             </div>
           </div>
