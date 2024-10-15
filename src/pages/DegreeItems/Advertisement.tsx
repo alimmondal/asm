@@ -59,6 +59,7 @@ function Advertisement() {
         </div>
       </div>
       <div className="">
+        <img src="img/advertise2.jpg" alt="" />
         <img src="img/adv1.jpg" alt="" />
       </div>
     </div>

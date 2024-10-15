@@ -1,21 +1,20 @@
 const Paragraph = () => {
   return (
-    <div className="mx-5 md:w-[85%] md:mx-auto bg-gray-100 text-gray-800 shadow-md mb-6 rounded-sm">
+    <div className="mx-5 md:p-16 md:w-[85%] md:mx-auto bg-gray-100 text-gray-800 shadow-md mb-6 rounded-sm">
       <div className="text-center py-20">
         <h1 className="">Paragraph</h1>
       </div>
       <div className="px-2">
         <div>
           {/* Environment pollution */}
-          <div className="my-5">
-            <h3>
-              1. <br />
-              Environment pollution/ <br />
-              water pollution/ <br />
-              air pollution/ <br />
-              Climate Change/ <br />
-              global warming/ <br />
-              Greenhouse effects.
+          <div className="py-5">
+            <h3 className="text-center py-3">
+              ** Environment pollution <br />
+              ** water pollution <br />
+              ** air pollution <br />
+              ** Climate Change <br />
+              ** global warming <br />
+              ** Greenhouse effects.
             </h3>
             <p>
               For healthy living, the main elements of environment such as air,
@@ -53,64 +52,18 @@ const Paragraph = () => {
             </p>
           </div>
 
-          {/* Mobile Phone */}
-          <div className="my-5">
-            <h3>
-              2. <br />
-              Mobile Phone/ <br />
-              Internet/ <br />
-              Facebook/ <br />
-              Computer/ <br />
-              Social networks <br />
-              Television/Satellite TV/
-              <br />
-              Dish Antenna/
-              <br />
-              Modern Technology/ <br />
-              Information technologies <br />
-              The gift of Modern Science
-              <br />
-            </h3>
-            <p>
-              Thanks to science which has changed the world of Adam and Eve by
-              its amazing modern{" "}
-              <strong>(technologies/ discoveries/social networks)</strong> .
-              Mobile phone/ internet/ facebook is one of them. We cannot think
-              of modern life without the gift of modern technology like mobile
-              phone/ internet. Internet/ Facebook/ mobile phone is a system
-              which work without the help of any wire. With the help of mobile
-              phone/ internet, we can see the whole world. It helps us know the
-              economy, education, culture, technology and sports of other
-              countries of the world. Using ………, we can send messages, play
-              games, communicate to anyone to any distant places. We can be
-              aware of different news and views, and can do many other
-              activities. But there is no unmixed blessing on the earth. With
-              all its usefulness, ……. has still some drawbacks in disguise.
-              Using …… weakens our eye-sight and can cause diseases to the user.
-              Terrorist are using it to spread violence. Most times, students
-              prefer enjoying ……… to studying. Obscene scene are shown in …… .
-              This obscene scene hinders the growth of the young generation.Our
-              young generation are led to go astray by this obscenity. So to
-              say, it should be our morality to accept the good and give up the
-              bad. And the government should create public awareness. However,
-              …… is an indispensible part of our modern life and communication.
-              <br />
-            </p>
-          </div>
-
           {/* Your Favorite Person */}
-          <div className="my-5">
-            <h3>
-              3. <br />
-              Your Favorite Person/ leader/ singer/ <br />
-              your favorite sports man/ soccer/ player/ cricketer/ footballer/
+          <div className="py-10">
+            <h3 className="text-center py-3">
+              ** Your Favorite Person/ leader/ singer <br />
+              ** your favorite sports man/ soccer/ player/ cricketer/ footballer
               <br />
-              your intimate friend/ best friend/ bosom friend/
+              ** your intimate friend/ best friend/ bosom friend
               <br />
-              your favorite poet/ author/ novelist/ dramatist <br />
-              your favorite teacher/English teacher/ <br />
-              your mother/ your parents/ grand mother/ your favorite family
-              member.....
+              ** your favorite poet/ author/ novelist/ dramatist <br />
+              ** your favorite teacher/English teacher <br />
+              ** your mother/ your parents/ grand mother/ your favorite family
+              member
             </h3>
             <p>
               Everybody has a favorite person. I have too. Of all the .... Mr.
@@ -125,27 +78,26 @@ const Paragraph = () => {
           </div>
 
           {/*  Your country/homeland/ */}
-          <div className="my-5">
-            <h3>
-              4. <br />
-              (A): Your country/homeland/ <br />
-              Your village/ <br />
-              Your native village/ <br />
-              Your home/
+          <div className="py-10">
+            <h3 className="text-center py-3">
+              (A): Your country/homeland <br />
+              Your village <br />
+              Your native village <br />
+              Your home
               <br />
               An ideal house/ <br />
               Your living place/ <br />
               Your reading room/ <br />
               Your family.
             </h3>
-            <h3>
-              (B): Your college library/ <br />
-              your college campus/ <br />
-              Your college/school/ <br />
-              Your college canteen/ <br />
-              Your college hostel/
+            <h3 className="text-center py-3">
+              (B): ** Your college library <br />
+              ** your college campus <br />
+              ** Your college/school <br />
+              ** Your college canteen <br />
+              ** Your college hostel
               <br />
-              your college common room
+              ** your college common room
             </h3>
             <p>(A): নামবারের জন্য প্রযোজ্য</p>
             <p>
@@ -169,9 +121,8 @@ const Paragraph = () => {
           </div>
 
           {/* Independence Day */}
-          <div className="my-5">
-            <h3>
-              5. <br />
+          <div className="py-5">
+            <h3 className="text-center py-3">
               Independence Day/ <br />
               Victory Day/ Observance of 16th December
               <br />
@@ -209,57 +160,10 @@ const Paragraph = () => {
             </p>
           </div>
 
-          <div className="my-5">
-            <h3>
-              6. <br />
-              Road Accident
-            </h3>
-            <p>
-              Road accident is a pressing issue in Bangladesh, posing a great
-              threat to public safety and aggravating its transportation system.
-              Despite efforts to improve road conditions and enforce traffic
-              regulations, the densely populated streets and highways remain
-              prone to accidents. Factors such as reckless driving, overloading
-              of vehicles, inadequate road maintenance, contribute to the
-              alarming frequency of accidents. The consequences of these
-              accidents are dire, causing not only loss of lives but also
-              inflicting serious injuries and property damage. necessary
-              measures are needed to solve this crisis, including enforcement of
-              traffic laws, investment in road infrastructure, public awareness.
-              Only by these steps, we can hope to reduce road accidents and
-              making its streets safer for all.
-            </p>
-          </div>
-
-          <div className="">
-            <h3>
-              7. <br />
-              Price Hike
-            </h3>
-            <p>
-              Price hikes have become a great concern in Bangladesh, exerting a
-              pressure on its economy and the daily lives of its citizens.
-              inflation, supply chain disruptions, fluctuating global commodity
-              prices, and domestic production challenges are the causes of price
-              hikes. The impact of price increases is felt across various
-              sectors, affecting everything from food and fuel to healthcare and
-              education. Vulnerable populations often bear the brunt of these
-              hikes, as their purchasing power erodes, making it increasingly
-              difficult to make ends meet. The government's efforts to control
-              and mitigate these price hikes through policy interventions,
-              subsidies, and market regulations are crucial in alleviating the
-              burden on the populace. Long-term strategies that focus on
-              bolstering domestic production, improving infrastructure, and a
-              lasting economy are essential to check the bad effects of price
-              hikes and ensuring prosperous future for Bangladesh.
-            </p>
-          </div>
-
           {/* Good Qualities */}
-          <div className="my-5">
-            <h2>Paragraph on Good Qualities</h2>
-            <h3>
-              8. <br />
+          <div className="py-5">
+            <h2 className="text-center py-3">Paragraph on Good Qualities</h2>
+            <h3 className="text-center py-3">
               Importance of moral values/ morality/ humanity <br />
               Discipline/ punctuality / Early rising/ value of time
               <br />
@@ -288,10 +192,10 @@ const Paragraph = () => {
               valuable quality in our lives for our own interest.
             </p>
           </div>
-          <div className="">
-            <h2>Paragraph on Bad Qualities</h2>
-            <h3>
-              9. <br />
+
+          <div className="py-5">
+            <h2 className="text-center py-3">Paragraph on Bad Qualities</h2>
+            <h3 className="text-center py-3">
               Tension/ Frustration/ Depression/ disappointment/ <br />
               Drug Addiction/ smoking/ <br />
               violence in campus/ Terrorism/ Anarchy/ Anger <br />
@@ -316,13 +220,16 @@ const Paragraph = () => {
             </p>
           </div>
 
-          <div className="">
-            <p className="text-center ">Your Leisure / Hobby / Gardening</p>
-            <p className="text-center ">
+          {/* hobby */}
+          <div className="py-5">
+            <h3 className="text-center ">Your Leisure / Hobby / Gardening</h3>
+            <h3 className="text-center ">
               Vegetable Cultivation / Fish Cultivation / Flower Cultivation
-            </p>
-            <p className="text-center ">My Garden / Your Favorite Past Time</p>
-            <p className="text-center ">Fishing as Hobby</p>
+            </h3>
+            <h3 className="text-center ">
+              My Garden / Your Favorite Past Time
+            </h3>
+            <h3 className="text-center ">Fishing as Hobby</h3>
             <p className="mb-4">
               Leisure means one’s free time, and hobby means the activity in
               leisure. Flower cultivation / Gardening is my favorite hobby,
@@ -356,11 +263,12 @@ const Paragraph = () => {
             </p>
           </div>
 
-          <div className="text-center mb-6">
-            <p className="text-center ">Your Favorite TV program</p>
-            <p className="text-center ">The film you have enjoyed</p>
-            <p className="text-center ">Your Favorite TV serial</p>
-            <p className="text-center ">Your Favorite drama / Book / Play</p>
+          {/* tv program */}
+          <div className="text-center my-10">
+            <h3 className="text-center ">Your Favorite TV program</h3>
+            <h3 className="text-center ">The film you have enjoyed</h3>
+            <h3 className="text-center ">Your Favorite TV serial</h3>
+            <h3 className="text-center ">Your Favorite drama / Book / Play</h3>
             <p className="mb-4">
               TV, a film, or a book is a wonderful gift of science. It gives us
               knowledge, education, and recreation. Numerous programs are
@@ -376,6 +284,81 @@ const Paragraph = () => {
               film, or book, they need not read or watch anything else to get a
               true picture of the human mind. I read or watched the program or
               book eagerly. The program or book enticed me very much.
+            </p>
+          </div>
+
+          {/* mobile phone */}
+          <div className="">
+            <h3 className="text-center py-3">
+              Mobile Phone/ <br />
+              Internet/ <br />
+              Facebook/ <br />
+              Computer/ <br />
+              Modern Technology/ <br />
+              Information technologies <br />
+              The gift of Modern Science <br />
+              Social networks <br />
+              Television/Satellite TV/
+              <br />
+              Dish Antenna/
+              <br />
+              <br />
+            </h3>
+            <p className="">
+              Thanks to science which has changed the world of Adam and Eve by
+              its amazing discoveries. _____ is one of them. With the help of
+              _____, we see the whole world on the screen of _____. It helps us
+              to know the economy, culture, education, science, and technology,
+              and sports of the modern advanced world. But it has both good and
+              bad sides because there is no unmixed blessing on earth. It
+              weakens our eyesight and sometimes students prefer enjoying
+              _______ to study. Sometimes obscene films/scene are shown, thus it
+              hinders the growth of young generation. So it should be our
+              morality to accept the good and give up the bad. And the
+              government should create public awareness. However, …… is an
+              indispensible part of our modern life and communication.
+            </p>
+          </div>
+
+          {/* road accident */}
+          <div className="my-5">
+            <h3 className="text-center py-3">Road Accident</h3>
+            <p>
+              Road accident is a pressing issue in Bangladesh, posing a great
+              threat to public safety and aggravating its transportation system.
+              Despite efforts to improve road conditions and enforce traffic
+              regulations, the densely populated streets and highways remain
+              prone to accidents. Factors such as reckless driving, overloading
+              of vehicles, inadequate road maintenance, contribute to the
+              alarming frequency of accidents. The consequences of these
+              accidents are dire, causing not only loss of lives but also
+              inflicting serious injuries and property damage. necessary
+              measures are needed to solve this crisis, including enforcement of
+              traffic laws, investment in road infrastructure, public awareness.
+              Only by these steps, we can hope to reduce road accidents and
+              making its streets safer for all.
+            </p>
+          </div>
+
+          {/* price hike */}
+          <div className="">
+            <h3 className="text-center py-3">Price Hike</h3>
+            <p>
+              Price hikes have become a great concern in Bangladesh, exerting a
+              pressure on its economy and the daily lives of its citizens.
+              inflation, supply chain disruptions, fluctuating global commodity
+              prices, and domestic production challenges are the causes of price
+              hikes. The impact of price increases is felt across various
+              sectors, affecting everything from food and fuel to healthcare and
+              education. Vulnerable populations often bear the brunt of these
+              hikes, as their purchasing power erodes, making it increasingly
+              difficult to make ends meet. The government's efforts to control
+              and mitigate these price hikes through policy interventions,
+              subsidies, and market regulations are crucial in alleviating the
+              burden on the populace. Long-term strategies that focus on
+              bolstering domestic production, improving infrastructure, and a
+              lasting economy are essential to check the bad effects of price
+              hikes and ensuring prosperous future for Bangladesh.
             </p>
           </div>
         </div>

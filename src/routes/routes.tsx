@@ -44,6 +44,7 @@ import Email from "../pages/composition/Email";
 import Pronoun from "../pages/hscItems/Pronoun";
 import TagQuestion from "../pages/sscItems/TagQuestion";
 import SSuggestion from "../pages/sscItems/SSuggestion";
+import Notice from "../pages/DegreeItems/Notice";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -134,6 +135,10 @@ export const router = createBrowserRouter([
       {
         path: "/advertisement",
         element: <Advertisement />,
+      },
+      {
+        path: "/notice",
+        element: <Notice />,
       },
       {
         path: "/dCompleting",
