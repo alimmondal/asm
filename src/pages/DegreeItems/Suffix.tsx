@@ -10,16 +10,16 @@ function Suffix() {
           Suffix and Prefix
         </h1>
       </div>
-      <div className="h-full md:w-[85%] mx-auto">
+      <div className="h-full md:w-[70%] mx-auto">
         <Worker
           workerUrl={`https://unpkg.com/pdfjs-dist@2.9.359/build/pdf.worker.min.js`}
         >
-          <Viewer fileUrl="/Suffix.pdf" />
+          <Viewer fileUrl="/suffix-prefix.pdf" />
         </Worker>
       </div>
       <div className="text-center py-4">
         <a
-          href="/Suffix.pdf"
+          href="/suffix-prefix.pdf"
           download
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >

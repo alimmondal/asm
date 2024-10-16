@@ -17,7 +17,7 @@ function Header() {
         <h1 className="">
           <FaBookReader />
         </h1>
-        <h1 className=" text-green-500 text-xl md:text-2xl dark:text-slate-400 heading2">
+        <h1 className=" text-green-500 text-xl md:text-4xl dark:text-slate-400 heading2">
           ASM English Academy
         </h1>
       </div>

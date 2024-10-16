@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <Banner />
-      <div className="max-w-7xl  mx-auto ">
+      <div className="max-w-7xl  mx-auto pt-9">
         <h1 className="py-4 mt-5 text-center w-full text-4xl font-bold ">
           Category
         </h1>
