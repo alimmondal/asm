@@ -45,7 +45,6 @@ import Pronoun from "../pages/hscItems/Pronoun";
 import TagQuestion from "../pages/sscItems/TagQuestion";
 import SSuggestion from "../pages/sscItems/SSuggestion";
 import Notice from "../pages/DegreeItems/Notice";
-import SuffAndPre from "../pages/DegreeItems/Suffix";
 import Suffix from "../pages/DegreeItems/Suffix";
 export const router = createBrowserRouter([
   {
