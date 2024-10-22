@@ -5,7 +5,7 @@ const Narration = () => {
         <h1 className="text-center md:text-start">Narration</h1>
       </div>
       <div className="">
-        <div className="rule-section">
+        <div className="">
           <h2>Rule-1</h2>
           <p>
             সাধারণত Reporting Verb যদি V2 থাকে তাহলে Reported Speech এর Verb/
@@ -35,7 +35,7 @@ const Narration = () => {
         </div>
 
         {/* Rule-2  */}
-        <div className="rule-section">
+        <div className="">
           <h2>Rule-2</h2>
           <p>
             দ্বিতীয় বাক্যের (অর্থাৎ Reporting Speech এর) Subject/ Pronoun এর
@@ -255,7 +255,7 @@ const Narration = () => {
         </div>
 
         {/* <!-- table of wish --> */}
-        <div className="tableSection overflow-x-auto">
+        <div className="overflow-x-auto">
           <table className="min-w-[800px] table-auto dark:border-slate-400">
             <tr>
               <th>Direct এ থাকলে</th>
