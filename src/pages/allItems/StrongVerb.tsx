@@ -1,18 +1,18 @@
 const StrongVerb = () => {
   return (
-    <div className="bg-gray-100">
-      <div className="">
+    <div className="bg-gray-100 px-3 md:px-10">
+      <div className="w-full mx-auto">
         <div className="py-20">
-          <h1 className="">List of Strong Verb</h1>
+          <h1 className="text-center">Strong Verb</h1>
         </div>
         <div className="">
-          <div className="pb-10 w-full mx-auto">
-            <table className="w-full">
+          <div className="pb-10 w-full overflow-x-auto">
+            <table border={1} className="w-full table-auto">
               <tr>
                 <th>Serial</th>
                 <th>Present</th>
                 <th>Past</th>
-                <th>Past participle</th>
+                <th>Participle</th>
               </tr>
 
               <tr>
@@ -681,15 +681,15 @@ const StrongVerb = () => {
             </table>
           </div>
 
-          <div className="pb-10">
+          <div className="pb-10 w-full overflow-x-auto">
             <h3 className="my-3">
               Note: কিছু Verb আছে যাদের Present, Past ও Past Participle একইরুপঃ
             </h3>
-            <table border={1}>
+            <table border={1} className="w-full table-auto">
               <tr>
                 <th>Present</th>
                 <th>Past</th>
-                <th>Past Participle</th>
+                <th>Participle</th>
                 <th>Serial</th>
               </tr>
               <tr>
