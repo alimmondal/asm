@@ -1,6 +1,6 @@
 const Suggestion = () => {
   return (
-    <div className="w-full bg-gray-100">
+    <div className="w-full ">
       <div className="text-center py-20">
         <h1 className="text-2xl md:text-4xl">Degree Suggestion</h1>
       </div>

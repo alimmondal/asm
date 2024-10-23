@@ -3,15 +3,15 @@ function Advertisement() {
     <div className="h-full md:w-[85%] mx-auto  ">
       <h1 className="text-center font-semibold text-md py-20">Advertisement</h1>
       <div className="px-3">
-        <div className="border p-2 mb-10">
+        <div className="border p-6 mb-10">
           {/* To Let Section */}
           <div className="border p-4 mb-6 max-w-md mx-auto">
             <h3 className="font-semibold underline mb-4 text-center">To Let</h3>
-            <ul className="list-disc pl-6">
+            <ul className="list-disc pl-2">
               <li>Aristocratic Area.</li>
               <li>Overlooking Lake.</li>
               <li>All time Security.</li>
-              <li>Near School/College/Varsity/Market/Hospital.</li>
+              <li>Near School/College/Varsity/Market.</li>
               <li>Pollution Free.</li>
               <li>Beside Highway.</li>
               <li>Reasonable Price/Rent.</li>

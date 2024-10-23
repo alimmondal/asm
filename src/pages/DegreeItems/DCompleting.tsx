@@ -5,7 +5,7 @@ const DCompleting = () => {
         <div className="relative text-9xl italic text-green-400">
           <p>C</p>
         </div>
-        <div className="absolute top-60 left-48">
+        <div className="absolute top-32 md:top-60 left-20 md:left-48">
           <h1 className="text-xl font-bold italic text-green-500">
             ompleting Sentence
           </h1>
@@ -161,8 +161,9 @@ const DCompleting = () => {
           </li>
         </ol>
       </div>
+
       {/* EXERCISE */}
-      <div className="">
+      <div className="px-5">
         <div className="">
           <h2>Exercise</h2>
         </div>

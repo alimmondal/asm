@@ -1,8 +1,15 @@
 function Completing() {
   return (
     <div className="h-full md:w-[85%] mx-auto px-5">
-      <div className="py-10">
-        <h1 className="text-2xl md:text-5xl">Completing Sentence</h1>
+      <div className="">
+        <div className="relative text-9xl italic text-green-400">
+          <p>C</p>
+        </div>
+        <div className="absolute top-32 md:top-60 left-20 md:left-48">
+          <h1 className="text-xl font-bold italic text-green-500">
+            ompleting Sentence
+          </h1>
+        </div>
       </div>
 
       {/* <!-- Rules --> */}

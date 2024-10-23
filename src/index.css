@@ -9,7 +9,7 @@
 .category:hover {
   border-color: #000000;
   color: rgb(0, 0, 0);
-  box-shadow: 0 0.5em 0.5em -0.4em #000000;
+  box-shadow: 0 0.5em 0.5em -0.2em #000;
   transform: translateY(-0.5em);
 }
 
@@ -80,6 +80,7 @@ h2 {
 h3 {
   font-size: 17px;
   font-weight: bold;
+  padding-top: 20px;
 }
 
 .navs {

@@ -1,6 +1,6 @@
 const StrongVerb = () => {
   return (
-    <div className="bg-gray-100 px-3 md:px-10">
+    <div className="px-3 md:px-10">
       <div className="w-full mx-auto">
         <div className="py-20">
           <h1 className="text-center">Strong Verb</h1>

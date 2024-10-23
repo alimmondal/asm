@@ -1,6 +1,6 @@
 function Verbs() {
   return (
-    <div className="h-full bg-gray-100">
+    <div className="h-full ">
       <div className="py-20">
         <h1 className="text-center text-3xl md:text-6xl">
           Right Form of Verbs

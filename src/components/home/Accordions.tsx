@@ -7,7 +7,7 @@ import {
 
 const Accordions = () => {
   return (
-    <div className="py-14 mx-1 md:mx-12">
+    <div className="py-14 mx-5 md:mx-12">
       <Accordion>
         <AccordionPanel>
           <AccordionTitle>What is Tense?</AccordionTitle>

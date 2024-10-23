@@ -4,7 +4,7 @@ import "@react-pdf-viewer/core/lib/styles/index.css";
 import "pdfjs-dist/build/pdf.worker.entry";
 function Suffix() {
   return (
-    <div className="h-full w-full bg-gray-100">
+    <div className="h-full w-full ">
       <div className="">
         <h1 className="text-center font-semibold text-md py-20">
           Suffix and Prefix

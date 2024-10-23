@@ -2,7 +2,9 @@ function Wh() {
   return (
     <div className="h-full  bg-gray-100">
       <div className="">
-        <h1 className="text-center font-semibold text-md py-20">Wh Question</h1>
+        <h1 className="text-center font-semibold text-md py-20 dark:text-gray-300">
+          Wh Question
+        </h1>
       </div>
       <div className="pb-10 md:w-[85%] mx-auto">
         <img src="img/wh1.jpg" alt="" />

@@ -1,6 +1,6 @@
 function Notice() {
   return (
-    <div className="h-full  bg-gray-100">
+    <div className="h-full  ">
       <div className="">
         <h1 className="text-center font-semibold text-md py-20">
           Notice Writing

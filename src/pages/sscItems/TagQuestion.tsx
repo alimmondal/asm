@@ -1,6 +1,6 @@
 const TagQuestion = () => {
   return (
-    <div className="w-full h-full bg-gray-100">
+    <div className="w-full h-full ">
       <div className="h-full px-3 md:w-[85%] mx-auto">
         <div className="py-20">
           <h1 className="text-center">Tag Question</h1>
@@ -219,75 +219,103 @@ const TagQuestion = () => {
         <div className="py-10">
           <h3 className="">Example</h3>
           <p className="">
-            Practice Tag Question Exercises 1. Nothing is impossible. ——–? 2. I
-            think everybody knows it. ——–? 3. The idle always lag behind. ——–?
-            4. Let’s motivate them. ——–? 5. Motivation seldom goes in vain. ——–?
-            6. Congratulations, you have made an excellent result. ——–? 7.
-            Thanks. But my parents and teachers also deserve the credit. ….? 8.
-            We ought to remain grateful to them. ——–? 9. You studied hard. ——–?
-            10. It is our duty to study in a disciplined way. ——–? 11. Let us
-            start our journey. ——–? 12. They used to play football in the
-            afternoon. ——–? 13. Nobody should laugh at the blind. ——–? 14. There
-            is nothing for her to eat. ——–? 15. Mina had better stay at home.
-            ——–? 16. You aren’t doing the work. ——–? 17. Somebody left there
-            house yesterday. ——–? 18. What a beautiful day it is. ——–? 19. A cat
-            catches a mouse. ——–? 20. Bangladesh is our motherland. ——–? 21.
-            Something is burning. ——–? 22. Rahim, as well as his friends, was
-            present. ——–? 23. He did it. ——–? 24. I know nothing about him. ——–?
-            25. Let’s arrange a class party. ——–? Advertisement 26. The moon
-            shines at night. ——–? 27. Everybody loves flowers. ——–? 28. Nothing
-            can satisfy him. ——–? 29. He has few reasons for waiting. ——–? 30.
-            That was my pen. ——–? 31. Nobody believes a liar. ——–? 32. We have
-            to study English. ——–? 33. Let her solve the matter. ——–? 34. You
-            had better leave now. ——–? 35. We ought to love our motherland. ——–?
-            36. Look at this paper. ——–? 37. Let’s phone. ——–? 38. It is a
-            beautiful afternoon. ——–? 39. Let’s go out for a walk. ——–? 40. The
-            police arrested him. ——–? 41. Both are responsible. ——–? 42. Let’s
-            take an oath today. ——–? 43. This is the right way to do it.——–? 44.
-            Life is very busy in the big cities. ——–? 45. We needed a change in
-            thoughts. ——–? 46. Let us make them realize it. ——–? 47. Man is a
-            social being. ——–? 48. He cannot live alone. ——–? 49. It is man who
-            pollutes his environment. ——–? 50. Every mother loves her child.
-            ——–? 51. Don’t forget me.——–? 52. My father and I are happy. ——–?
-            53. Men should not tell a lie.——–? 54. We live in Bangladesh. ——–?
-            55. The weather was fine yesterday. ——–? Answers to Tag Question
-            Exercises 01. Nothing is impossible, is it? 02. I think everybody
-            knows it, don’t they? 03. The idle always lag behind, don’t they?
-            04. Let’s motivate them, shall we? 05. Motivation seldom goes in
-            vain, does it? 06. Congratulations, you have made an excellent
-            result, haven’t you? 07. Thanks. But my parents and teachers also
-            deserve the credit, don’t they? 08. We ought to remain grateful
-            them, oughtn’t we? 09. You too studied hard, didn’t you? 10. It is
-            our duty to study in a disciplined way, isn’t it? Advertisement 11.
-            Let us start our journey, shall we? 12. They used to play football
-            in the afternoon, didn’t they? 13. Nobody should laugh at the blind.
-            Should they? 14. There is nothing for her to eat, is there? 15. Mina
-            had better stay at home, hadn’t she? 16. You aren’t doing the work,
-            are you? 17. Somebody left their house yesterday, didn’t they? 18.
-            What a beautiful day it is, isn’t it? 19. A cat catches a mouse,
-            doesn’t it? 20. Bangladesh is our motherland, isn’t she? 21.
-            Something is burning, aren’t they? 22. Rahim, as well as his
-            friends, were present, wasn’t he? 23. He did it, didn’t he? 24. I
-            know nothing about him, do I? 25. Let’s arrange a class party, shall
-            we? 26. The moon shines at night, isn’t it? 27. Everybody loves
-            flowers, don’t they? 28. Nothing can satisfy him, can it? 29. He has
-            few reasons for waiting, hasn’t he? 30. That was my pen, wasn’t it/
-            that? 31. Nobody believes a liar, do they? 32. We have to study
-            English, haven’t we? 33. Let her solve the matter, will you? 34. You
-            had better leave now, hadn’t you? 35. We ought to love our
-            motherland, oughtn’t we? 36. Look at this paper, will you? 37. Let’s
-            phone, shall we? 38. It is a beautiful afternoon, isn’t it? 39.
-            Let’s go out for a walk, shall we? 40. The police arrested him,
-            didn’t they? 41. Both are responsible, aren’t they? 42. Let’s take
-            an oath today, shall we? 43. This is the right way to do it, isn’t
-            this? 44. Life is very busy in the big cities, isn’t it? 45. We
-            needed a change in thoughts, didn’t we? 46. Let us make them realize
-            it, shall we? 47. Man is a social being, isn’t he? 48. He cannot
-            live alone, can he? 49. It is man, who pollutes his environment,
-            isn’t it? 50. Every mother loves her child, don’t they? 51. Don’t
-            forget me, will you? 52. My father and I are happy, aren’t we? 53.
-            Men should not tell a lie, should they? 54. We live in Bangladesh,
-            don’t we? 55. The weather was fine yesterday, wasn’t it?
+            Practice Tag Question Exercises 1. Nothing is impossible. ——–?{" "}
+            <br /> 2. I think everybody knows it. ——–? <br />
+            3. The idle always lag behind. ——–? <br />
+            4. Let’s motivate them. ——–? <br />
+            5. Motivation seldom goes in vain. ——–? <br />
+            6. Congratulations, you have made an excellent result. ——–? <br />
+            7. Thanks. But my parents and teachers also deserve the credit. ….?
+            <br />
+            8. We ought to remain grateful to them. ——–? <br />
+            9. You studied hard. ——–? <br />
+            10. It is our duty to study in a disciplined way. ——–? <br />
+            11. Let us start our journey. ——–? <br />
+            12. They used to play football in the afternoon. ——–? <br />
+            13. Nobody should laugh at the blind. ——–? <br />
+            14. There is nothing for her to eat. ——–? <br />
+            15. Mina had better stay at home. ——–? <br />
+            16. You aren’t doing the work. ——–? <br />
+            17. Somebody left there house yesterday. ——–? <br />
+            18. What a beautiful day it is. ——–? <br />
+            19. A cat catches a mouse. ——–? <br />
+            20. Bangladesh is our motherland. ——–?
+            <br />
+            21. Something is burning. ——–? <br />
+            22. Rahim, as well as his friends, was present. ——–? <br />
+            23. He did it. ——–? <br />
+            24. I know nothing about him. ——–? <br />
+            25. Let’s arrange a class party. ——–? Advertisement <br />
+            26. The moon shines at night. ——–? <br />
+            27. Everybody loves flowers. ——–? <br />
+            28. Nothing can satisfy him. ——–? <br />
+            29. He has few reasons for waiting. ——–? <br />
+            30. That was my pen. ——–? <br />
+            31. Nobody believes a liar. ——–? <br />
+            32. We have to study English. ——–? <br />
+            33. Let her solve the matter. ——–? <br />
+            34. You had better leave now. ——–?
+            <br />
+            35. We ought to love our motherland. ——–? <br />
+            36. Look at this paper. ——–? <br />
+            37. Let’s phone. ——–? <br />
+            38. It is a beautiful afternoon. ——–? <br />
+            39. Let’s go out for a walk. ——–? <br />
+            40. The police arrested him. ——–? <br />
+            41. Both are responsible. ——–? <br />
+            42. Let’s take an oath today. ——–? <br />
+            43. This is the right way to do it.——–? <br />
+            44. Life is very busy in the big cities. ——–? <br />
+            45. We needed a change in thoughts. ——–? <br />
+            46. Let us make them realize it. ——–? <br />
+            47. Man is a social being. ——–? <br />
+            48. He cannot live alone. ——–? <br />
+            49. It is man who pollutes his environment. ——–? <br />
+            50. Every mother loves her child. ——–? <br />
+            51. Don’t forget me.——–?
+            <br />
+            52. My father and I are happy. ——–? <br />
+            53. Men should not tell a lie.——–? <br />
+            54. We live in Bangladesh. ——–? <br />
+            55. The weather was fine yesterday. ——–? <br />
+            Answers to Tag Question Exercises <br />
+            01. Nothing is impossible, is it? 02. I think everybody knows it,
+            don’t they? 03. The idle always lag behind, don’t they? 04. Let’s
+            motivate them, shall we? 05. Motivation seldom goes in vain, does
+            it? 06. Congratulations, you have made an excellent result, haven’t
+            you? 07. Thanks. But my parents and teachers also deserve the
+            credit, don’t they? 08. We ought to remain grateful them, oughtn’t
+            we? 09. You too studied hard, didn’t you? 10. It is our duty to
+            study in a disciplined way, isn’t it? Advertisement 11. Let us start
+            our journey, shall we? 12. They used to play football in the
+            afternoon, didn’t they? 13. Nobody should laugh at the blind. Should
+            they? 14. There is nothing for her to eat, is there? 15. Mina had
+            better stay at home, hadn’t she? 16. You aren’t doing the work, are
+            you? 17. Somebody left their house yesterday, didn’t they? 18. What
+            a beautiful day it is, isn’t it? 19. A cat catches a mouse, doesn’t
+            it? 20. Bangladesh is our motherland, isn’t she? 21. Something is
+            burning, aren’t they? 22. Rahim, as well as his friends, were
+            present, wasn’t he? 23. He did it, didn’t he? 24. I know nothing
+            about him, do I? 25. Let’s arrange a class party, shall we? 26. The
+            moon shines at night, isn’t it? 27. Everybody loves flowers, don’t
+            they? 28. Nothing can satisfy him, can it? 29. He has few reasons
+            for waiting, hasn’t he? 30. That was my pen, wasn’t it/ that? 31.
+            Nobody believes a liar, do they? 32. We have to study English,
+            haven’t we? 33. Let her solve the matter, will you? 34. You had
+            better leave now, hadn’t you? 35. We ought to love our motherland,
+            oughtn’t we? 36. Look at this paper, will you? 37. Let’s phone,
+            shall we? 38. It is a beautiful afternoon, isn’t it? 39. Let’s go
+            out for a walk, shall we? 40. The police arrested him, didn’t they?
+            41. Both are responsible, aren’t they? 42. Let’s take an oath today,
+            shall we? 43. This is the right way to do it, isn’t this? 44. Life
+            is very busy in the big cities, isn’t it? 45. We needed a change in
+            thoughts, didn’t we? 46. Let us make them realize it, shall we? 47.
+            Man is a social being, isn’t he? 48. He cannot live alone, can he?
+            49. It is man, who pollutes his environment, isn’t it? 50. Every
+            mother loves her child, don’t they? 51. Don’t forget me, will you?
+            52. My father and I are happy, aren’t we? 53. Men should not tell a
+            lie, should they? 54. We live in Bangladesh, don’t we? 55. The
+            weather was fine yesterday, wasn’t it?
           </p>
         </div>
       </div>

@@ -6,7 +6,7 @@ function Voice() {
       </div>
       <div className="">
         <h3 className="underline">From Active to Passive</h3>
-        <p>
+        <p className="text-blue-500 dark:text-gray-300">
           <strong>Rule: </strong>{" "}
           <span className="underline">
             {" "}
@@ -47,7 +47,7 @@ function Voice() {
       {/* PASSIVE TO ACTIVE */}
       <div className="mt-5 mb-10">
         <h3 className="underline">From Passive to Active</h3>
-        <p>
+        <p className="text-blue-500 dark:text-gray-300">
           <strong>Rule: </strong>{" "}
           <span className="underline">
             Obj কে Sub বানাতে হবে + (helping verb)? উঠে যাবে/ + V<sub>?</sub> এর

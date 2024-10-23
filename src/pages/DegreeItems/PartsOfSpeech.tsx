@@ -1,6 +1,6 @@
 function PartsOfSpeech() {
   return (
-    <div className="w-full bg-gray-100">
+    <div className="w-full ">
       <div className="text-center">
         <h1 className="py-20">Parts of Speech</h1>
       </div>

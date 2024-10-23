@@ -5,7 +5,7 @@ function Punctuation() {
         Punctuation <br /> <span className="text-center"> &</span> <br />
         Capitalization
       </h1>
-      <div className=" bg-white text-gray-800">
+      <div className=" text-gray-800">
         <h3> Punctuation:</h3>
         {/* 1. Assertive, imperative and optative sentence */}
         <div className="mb-6">
