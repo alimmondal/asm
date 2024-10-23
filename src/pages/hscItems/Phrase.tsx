@@ -1,40 +1,278 @@
 function Phrase() {
   return (
     <div className="h-full md:w-[85%]  mx-auto">
-      <div className="my-20">
-        <h1 className="text-center text-green-400">Idiom & Phrase</h1>
+      <div className="my-20 px-5">
+        <h1 className="text-center text-green-400">Phrase</h1>
+        <div className="py-10">
+          <div className="mb-6">
+            <h3 className="font-semibold">1. Let alone:</h3>
+            <ul className="list-disc pl-5">
+              <li>বাক্যের শেষে দিকে শূন্যস্থান থাকবে ।</li>
+              <li>শূন্যস্থানের আগে (,) কোমা থাকব</li>
+            </ul>
+            <h3 className="mt-2 font-semibold italic">Less important:</h3>
+            <p>i. বাক্যের শুরুতে sub এর পরে not থাকবে ।</p>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold">
+              2. What's it like/ Would you mind:
+            </h3>
+            <ul className="list-disc pl-5">
+              <li>বাক্যের শুরুতে শূন্যস্থান থাকবে ।</li>
+              <li>শূন্যস্থানের পরে ing যুক্ত verb থাকবে ।</li>
+              <li>বাক্যের শেষে (?) প্রশ্নবোধক চিহ্ন থাকবে ।</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold">
+              3. What's like/ What does look like/ How like:
+            </h3>
+            <ul className="list-disc pl-5">
+              <li>বাক্যের শুরুতে এবং শেষে দুটি শূন্যস্থান থাকবে ।</li>
+              <li>বাক্যের শেষে প্রশ্নবোধক ( ? ) চিহ্ন থাকবে ।</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold">4. Would rather:</h3>
+            <ul className="list-disc pl-5">
+              <li>
+                Sub এবং Verb এর মাঝখানে শূন্যস্থান থাকবে/ শূন্যস্থানের আগে sub
+                এবং পরে verb থাকবে ।
+              </li>
+              <li>শূন্যস্থানের পরে বাক্যের শেষের দিকে than থাকবে ।</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold">5. What if:</h3>
+            <ul className="list-disc pl-5">
+              <li>বাক্যের শুরুতে শূন্যস্থান থাকবে ।</li>
+              <li>শূন্যস্থানের পরে sub থাকবে ।</li>
+              <li>বাক্যের শেষে প্রশ্নবোধক ( ? ) চিহ্ন থাকবে ।</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold">6. Wish/ Fancy:</h3>
+            <ul className="list-disc pl-5">
+              <li>
+                শূন্যস্থানের আগে এবং পরে একই subject থাকবে ।
+                <i>যেমনঃ I ....... I were a king.</i>
+              </li>
+              <li>শূন্যস্থানের পরের subject এর পরে were থাকবে ।</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold">7. Was born:</h3>
+            <ul className="list-disc pl-5">
+              <li>শূন্যস্থানের আগে subject থাকবে এবং পরে verb থাকবে না ।</li>
+              <li>শূন্যস্থানের পরে in/ on/ at/ of থাকবে ।</li>
+              <li>Preposition এর পরে জন্ম সাল বা বছরের উল্লেখ থাকবে ।</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold">
+              8. Had better/ have to/ has to/ had to/ used to:
+            </h3>
+            <ul className="list-disc pl-5">
+              <li>শূন্যস্থানের আগে sub এবং পরে V-1 থাকবে ।</li>
+            </ul>
+            <h3 className="mt-2 font-semibold italic">Less important:</h3>
+            <ul className="list-disc pl-5">
+              <li>শূন্যস্থানের আগে you থাকলে had better বসানোই ভালো।</li>
+              <li>শূন্যস্থানের পরে not থাকলে have to/ has to বসানোই ভালো ।</li>
+              <li>
+                শূন্যস্থানের পরে ing যুক্ত verb থাকলে used to বসানোই ভালো।
+              </li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold">9. There/it:</h3>
+            <ul className="list-disc pl-5">
+              <li>It বাক্যের শুরুতে শূন্যস্থান থাকবে ।</li>
+              <li>
+                শূন্যস্থানের পরে am/ is/ are/ was/ were/had/ been/ has been /
+                V-1 / V-2 থাকবে ।
+              </li>
+            </ul>
+            <h3 className="mt-2 font-semibold italic">অন্যান্য:</h3>
+            <ul className="list-disc pl-5">
+              <li>There এর জন্য বাক্যের শেষে in/on/at থাকবে ।</li>
+              <li>
+                There এর জন্য বাক্যের শুরতে শূন্যস্থানের আগে once/ once upon a
+                time/ long ago থাকতে পারে।
+              </li>
+              <li>
+                বাক্যের শুরতে শূন্যস্থানের আগে once/ once upon a time/ long ago
+                ছাড়া অন্য কোন সময়ের উল্লেখ বাক্যের মধ্যে থাকলে it শূন্যস্থানে
+                বসে পারে।
+              </li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold">10. As if/ as though:</h3>
+            <ul className="list-disc pl-5">
+              <li>দুই বাক্যের মাঝখানে শূন্যস্থান থাকবে ।</li>
+              <li>
+                শূন্যস্থানের পরে sub থাকবে এবং sub এর পরে বেশিরভাগ সময় were থাকে
+                কিছু সময় was/ had/had been/V-2 থাকতে পারে।
+              </li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold">11. As soon as:</h3>
+            <ul className="list-disc pl-5">
+              <li>বাক্যের শুরতে শূন্যস্থান থাকবে ।</li>
+              <li>দুই বাক্যের মাঝখানে কমা(,) থাকবে ।</li>
+            </ul>
+            <h3 className="mt-2 font-semibold italic">অন্যান্য:</h3>
+            <ul className="list-disc pl-5">
+              <li>অনেক সময় দুই বাক্যের মাঝখানে শূন্যস্থানে as soon as বসে।</li>
+              <li>শূন্যস্থানের পরের বাক্যে V-2 থাকে ।</li>
+              <li>অনেক সময় শূন্যস্থানের পরে possible থাকে ।</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold">12. As long as/ as fast as:</h3>
+            <ul className="list-disc pl-5">
+              <li>দুই বাক্যের মাঝখানে শূন্যস্থান থাকবে ।</li>
+              <li>শূন্যস্থানের পরের বাক্যে V-2 থাকবে ।</li>
+              <li>অনেক সময় পরের বাক্যে can/could থাকবে ।</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold">13. Unless:</h3>
+            <ul className="list-disc pl-5">
+              <li>দুই বাক্যের মাঝখানে শূন্যস্থান থাকবে ।</li>
+              <li>
+                প্রথম বাক্যের মধ্যে not থাকবে যদি দুই বাক্যের মাঝখানে শূন্যস্থান
+                থাকে।
+              </li>
+              <li>
+                প্রথম বাক্যের মধ্যে not থাকবে না যদি দুই বাক্যের মাঝখানে
+                শূন্যস্থান না থেকে কোমা থাকে সেক্ষেত্রে প্রথম বাক্যের শুরুতে
+                শূন্যস্থান থাকবে।
+              </li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold">
+              14. No sooner had/ hardly had/ scarcely had:
+            </h3>
+            <ul className="list-disc pl-5">
+              <li>বাক্যের শুরতে শূন্যস্থান থাকবে ।</li>
+              <li>শূন্যস্থানের পরে Sub থাকবে ।</li>
+              <li>দুই বাক্যের মাঝখানে Than/before/ when থাকবে ।</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold"> 15. Whether........... OR:</h3>
+            <ul className="list-disc pl-5">
+              <li>বাক্যের শুরুতে এবং শেষের দিকে দুটি শূন্যস্থান থাকে ।</li>
+              <li>দ্বিতীয় শূন্যস্থানের পরে not থাকে ।</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h2 className="font-semibold italic">Others:</h2>
+            <h3 className="font-semibold"> 1. What do you mean?:</h3>
+            <ul className="list-disc pl-5">
+              <li>
+                বাক্যের শুরতে শূন্যস্থানের পরে প্রশ্নবোধক(?) চিহ্ন থাকবে ।
+              </li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold"> 2. What do the matter?:</h3>
+            <ul className="list-disc pl-5">
+              <li>
+                বাক্যের শুরতে শূন্যস্থানের পরে with থাকবে এবং শেষে (?)
+                প্রশ্নবোধক চিহ্ন থাকবে ।
+              </li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold">3. It is high time:</h3>
+            <ul className="list-disc pl-5">
+              <li>বাক্যের শুরতে শূন্যস্থান থাকবে ।</li>
+              <li>শূন্যস্থানের পরে sub + V-2 থাকবে ।</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold"> 4. Enough / in order to::</h3>
+            <ul className="list-disc pl-5">
+              <li>বাক্যের শেষের দিকে শূন্যস্থান থাকবে ।</li>
+              <li>শূন্যস্থানের পরে to/ to+ V-1 থাকবে ।</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold"> 5. Lest::</h3>
+            <ul className="list-disc pl-5">
+              <li>শূন্যস্থানের পরের বাক্যে Sub এর পরে should/ might থাকবে ।</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="font-semibold"> 6. So that / in order that: :</h3>
+            <ul className="list-disc pl-5">
+              <li>দুই বাক্যের মাঝখানে শূন্যস্থান থাকে।</li>
+              <li>
+                শূন্যস্থানের পরের বাক্যের গঠন হবে Sub+ can/ could/ may/ might +
+                V-1 থাকবে ।
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      {/* Rules */}
+
+      {/* Rules in image*/}
       <div className="">
-        <img src="/phrase1.jpg" alt="" className="w-full h-full" />
-        <img src="/phrase2.jpg" alt="" className="w-full h-full" />
-        <img src="/phrase3.jpg" alt="" className="w-full h-full" />
+        {/* <img src="/phrase1.jpg" alt="" className="w-full h-full" /> */}
+        {/* <img src="/phrase2.jpg" alt="" className="w-full h-full" /> */}
+        {/* <img src="/phrase3.jpg" alt="" className="w-full h-full" /> */}
       </div>
 
       {/* EXAmple */}
       <div className="mt-10">
         {/* EXAmple 1 */}
+        <h3>Exercise - 1 </h3>
         <div className="overflow-x-auto">
           {/* Table for the top section */}
           <table className="min-w-full table-auto border-collapse border border-gray-300">
             <thead>
               <tr className="bg-gray-100">
-                <th className="border border-gray-300 px-4 py-2">there</th>
-                <th className="border border-gray-300 px-4 py-2">
+                <th className="border border-gray-300 px-2 py-1">there</th>
+                <th className="border border-gray-300 px-2 py-1">
                   What does.... look like?
                 </th>
-                <th className="border border-gray-300 px-4 py-2">As soon as</th>
-                <th className="border border-gray-300 px-4 py-2">was born</th>
-                <th className="border border-gray-300 px-4 py-2">let alone</th>
-                <th className="border border-gray-300 px-4 py-2">
+                <th className="border border-gray-300 px-2 py-1">As soon as</th>
+                <th className="border border-gray-300 px-2 py-1">was born</th>
+                <th className="border border-gray-300 px-2 py-1">let alone</th>
+                <th className="border border-gray-300 px-2 py-1">
                   would rather
                 </th>
-                <th className="border border-gray-300 px-4 py-2">
+                <th className="border border-gray-300 px-2 py-1">
                   What's it like?
                 </th>
-                <th className="border border-gray-300 px-4 py-2">it</th>
-                <th className="border border-gray-300 px-4 py-2">have to</th>
-                <th className="border border-gray-300 px-4 py-2">had better</th>
+                <th className="border border-gray-300 px-2 py-1">it</th>
+                <th className="border border-gray-300 px-2 py-1">have to</th>
+                <th className="border border-gray-300 px-2 py-1">had better</th>
               </tr>
             </thead>
           </table>
@@ -135,7 +373,7 @@ function Phrase() {
 
         <div className="p-4 mt-10">
           <div className="mb-2">
-            <h2 className="text-lg font-bold mb-2">Practice - 3</h2>
+            <h3 className="text-lg font-bold mb-2">Practice - 3</h3>
             <div className="grid grid-cols-3 gap-1 border p-2 text-blue-500">
               <div>there</div>
               <div>let alone</div>
@@ -187,7 +425,7 @@ function Phrase() {
 
         <div className="p-4 mt-10">
           <div className="mb-1">
-            <h2 className="text-lg font-bold mb-2">Practice - 4</h2>
+            <h3 className="text-lg font-bold mb-2">Practice - 4</h3>
             <div className="grid grid-cols-3 gap-2 border text-blue-500">
               <div>as soon as</div>
               <div>had better</div>
