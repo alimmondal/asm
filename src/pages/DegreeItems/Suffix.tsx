@@ -15,13 +15,19 @@ function Suffix() {
         <h3 className=""> Suffix & Prefix</h3>
         Prefix & Suffix এর মাধ্যমে conversion of words (শব্দের রূপান্তর)
         সম্পর্কে জানা যায়। Prefix & Suffix এর আলচনা করতে গেলে যে term টা সামনে
-        আসে সেটা হল - Affix. <br />
-        এখন প্রশ্ন হল , what is Affix? <br />
+        আসে সেটা হল - Affix.
+        <br />
+        <br />
+        এখন প্রশ্ন হল , what is Affix?
+        <br />
+        <br />
         Affix : Affix মানে হল জুড়ে দেওয়া। যদি আমরা সরল ভাষায় বলি, তাহেল Affix হল
         semi-words বা অর্ধ শব্দ বা শব্দাংশ । এরা কখেনা সাধীনভােব অর্থ প্রকাশ
         করেত পারে না বা এদের নিজের কোন অর্থ নেই । কিন্তু যখন এটা কােনা Root Word
         বা মূল শব্দের সাথে Attach/Fix বা যুক্ত করা হয়, তখন ইহা অর্থ প্রকাশে
-        সাহায্য করে। <br />
+        সাহায্য করে।
+        <br />
+        <br />
         Affix সাধারণ তিন প্রকারঃ <br />
         1. Prefix <br />
         2. Suffix <br />
@@ -29,8 +35,8 @@ function Suffix() {
         <br />
         <br />
         নিচের Diagram টি লক্ষ্য কর, <br />
-        <img src="img/diagram.png" alt="" />
-        Affix ↙⬇↘ Prefix ↩ Root Word ↪Suffix ⤵ Infix <br />
+        <img src="/diagram.png" alt="" />
+        <br />
         <br />
         Prefix : Root Word বা মূল শব্দের পুর্বে যে Affix গুলো যুক্ত হয়ে নতুন
         শব্দ তৈরি করে, তাদের Prefix বলে। <br />
@@ -62,7 +68,9 @@ function Suffix() {
         2. Unstoppable = un + stop + able <br />
         3. Irregularly = ir + regular + ly <br />
         4. Unhelpful = un + help + ful 5. Disadvantageous = dis + advantage +
-        ous <br />
+        ous
+        <br />
+        <br />
         ▶ যে সকল Prefix এর মাধ্যমে গঠিত শব্দ মূল শব্দের বিপরীত অর্থ দেয়। <br />
         যেমনঃ <br />
         1. Dis + honest = Dishonest <br />
@@ -78,18 +86,49 @@ function Suffix() {
         2. Write + r = Writer
         <br />
         <br />
-        Question Pattern <br />
-        ⬇⬇⬇ <br />
+        <h2 className="text-center">Question Pattern</h2>
+        <p className="text-center">⬇⬇⬇</p>
+        <br />
+        <br />
         “ পরীক্ষায় ১০ টি Root Word বা মূল শব্দ দেওয়া থাকবে। শব্দগুলো বাক্যের
         অর্থ অনুযায়ী Prefix কিংবা Suffix যোগ করে Noun, Verb, Adjective অথবা
-        Adverb এ রূপান্তর করতে হবে। প্রয়োজনে <br />
-        Prefix ও Suffix <br />
+        Adverb এ রূপান্তর করতে হবে। প্রয়োজনে Prefix ও Suffix <br />
         একত্রে ব্যবহার করতে হবে।”
         <br />
         <br />
-        <h2 className="text-green-400"> List of Most Important Prefixes </h2>
-        ✌ At a Glance : <br />
-        dis il im in ir mis non un be en re over <br />
+        <h2 className="text-green-400 text-center">
+          {" "}
+          List of Most Important Prefixes{" "}
+        </h2>
+        ✌ At a Glance :
+        <br />
+        <br />
+        <table className="min-w-[300px] mx-auto table-auto dark:border-slate-400 text-rose-500 font-bold">
+          {/* <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+          </tr> */}
+          <tr>
+            <td className="text-center">dis</td>
+            <td className="text-center">il</td>
+            <td className="text-center">im</td>
+            <td className="text-center">in</td>
+            <td className="text-center">ir</td>
+            <td className="text-center">mis</td>
+          </tr>
+          <tr>
+            <td className="text-center">non</td>
+            <td className="text-center">un</td>
+            <td className="text-center">be</td>
+            <td className="text-center">en</td>
+            <td className="text-center">re</td>
+            <td className="text-center">over</td>
+          </tr>
+        </table>
+        <br />
         <br />
         ▪ Dis - <br />
         1. Dis + allow = Disallow <br />
@@ -209,11 +248,45 @@ function Suffix() {
         Note : Adjective/Noun এর পূেব be prefix যুক্ত হয়ে Verb গঠিত হয়।
         <br />
         <br />
-        List of Most Important Suffixes
+        <h2 className="text-center">List of Most Important Suffixes</h2>
+        <br />✌ At a Glance :
         <br />
-        <br />✌ At a Glance : <br />
-        full al dom ship less ee ment y ness r/er tion ce/cy ly th sion able
-        hood ous ive ial
+        <br />
+        <table className="min-w-[350px] mx-auto table-auto dark:border-slate-400 text-rose-500 font-bold">
+          {/* <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+          </tr> */}
+          <tr>
+            <td className="text-center ">full</td>
+            <td className="text-center">al</td>
+            <td className="text-center">dom</td>
+            <td className="text-center">ship</td>
+            <td className="text-center">less</td>
+            <td className="text-center">ee</td>
+            <td className="text-center">iv</td>
+          </tr>
+          <tr>
+            <td className="text-center">ment</td>
+            <td className="text-center">y</td>
+            <td className="text-center">ness</td>
+            <td className="text-center">r/er</td>
+            <td className="text-center">tion</td>
+            <td className="text-center">ce/cy</td>
+            <td className="text-center">ial</td>
+          </tr>
+          <tr>
+            <td className="text-center">ly</td>
+            <td className="text-center">th</td>
+            <td className="text-center">sion</td>
+            <td className="text-center">able</td>
+            <td className="text-center">hood</td>
+            <td className="text-center">ous</td>
+          </tr>
+        </table>
         <br />
         <br />
         ▪ ful - <br />
