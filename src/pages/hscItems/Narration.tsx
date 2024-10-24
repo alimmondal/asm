@@ -1,12 +1,75 @@
+import {
+  Accordion,
+  AccordionContent,
+  AccordionPanel,
+  AccordionTitle,
+} from "flowbite-react";
+
 const Narration = () => {
   return (
     <div className="px-3 md:w-[85%] mx-auto">
       <div className="my-10">
         <h1 className="text-center md:text-start">Narration</h1>
       </div>
+
+      <div className="py-5">
+        <Accordion>
+          <AccordionPanel>
+            <AccordionTitle>Learning Steps</AccordionTitle>
+            <AccordionContent>
+              <div className="mb-2 dark:text-gray-400">
+                We will learn Narration by 3 steps -
+                <p className="pl-16">
+                  Basic Discussion <br />
+                  Sentence Narration <br />
+                  Passage Narration
+                </p>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+
+          <AccordionPanel>
+            <AccordionTitle>Basic Discussion</AccordionTitle>
+            <AccordionContent>
+              <div className="mb-2 dark:text-gray-400">
+                Basic Discussion : ◼◻ Narration/Speech মনে উক্তি। একজন বক্তার
+                বক্তব্য ব্যক্ত করার উপায়কে Narration/Speech বলে। <br />
+                <br />
+                Narration/Speech দুই প্রকার -
+                <br />
+                Direct Speech ( প্রত্যক্ষ উক্তি )
+                <br />
+                <br />
+                Indirect Speech ( পরোক্ষ উক্তি ) ◽◾ Direct Speech - বক্তার
+                দ্বারা বলা হুবহু বক্তব্য যা সে নিজের মুখ দিয়ে বলে তা হলো <br />
+                Direct Speech. ◽◾ Indirect Speech - বক্তার বক্তব্যের সারাংশ যা
+                অন্য কেউ তার মত করে বলে তখন তা Indirect Speech. <br />
+                এটাতো গেলো Narration এর ভাষাগত পরিচয়। কিন্তু Narration ভালোভাবে
+                শিখতে হলে নিম্নোক্ত ছয়টি টপিক ভালোভাবে বুঝতে হবে -<br />
+                <br />
+                Reporting Verb & Reported Speech <br />
+                Basic Sentence Structure <br />
+                Tense Changing <br />
+                Person Changing Subject-Objective-Possessive <br />
+                Adverbial Phrases
+                <br />
+                <br />
+                1. Reporting Verb & Reported Speech : Direct Speech এর দুইটি অংশ
+                থাকে। একটিকে Reporting Verb এবং অন্যটিকে Reported Speech বলে। ▫
+                Inverted Comma এর বাহিরের Verb কে বলে Reporting Verb. ▫ Inverted
+                Comma এর ভিতরের Sentence কে বলে Reported Speech. Ex. He said to
+                me, “You are involved in this matter.”
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+        </Accordion>
+        <br />
+        <br />
+      </div>
+
       <div className="">
         <div className="">
-          <h2>Rule-1</h2>
+          <h2>Rule-1: Tense Changing</h2>
           <p>
             সাধারণত Reporting Verb যদি V2 থাকে তাহলে Reported Speech এর Verb/
             helping verb পরিবর্তন হয় বাঁ Past Tense হয়। যেমন:
@@ -36,7 +99,7 @@ const Narration = () => {
 
         {/* Rule-2  */}
         <div className="">
-          <h2>Rule-2</h2>
+          <h2 className="">Rule-2: Person Chnaging</h2>
           <p>
             দ্বিতীয় বাক্যের (অর্থাৎ Reporting Speech এর) Subject/ Pronoun এর
             পরিবর্তন হয়। Subject যদি I, We, you হয় তবে পরিবর্তন হবে। I/We প্রথম
@@ -52,8 +115,9 @@ const Narration = () => {
           </p>
         </div>
 
-        {/* pronoun table  */}
-        <div className="w-full mx-auto">
+        {/* Subject-Objective-Possessive  */}
+        <div className="w-full mx-auto my-10">
+          <h3 className="pb-3">Subject-Objective-Possessive: </h3>
           <table className="min-w-[300px] dark:border-slate-400">
             <thead>
               <tr>
@@ -97,12 +161,61 @@ const Narration = () => {
           </table>
         </div>
 
+        {/* Adverbial Clause */}
+        <div className="overflow-x-auto">
+          <h3 className="pb-3">Changing adverbial phrase</h3>
+          <table className="min-w-full text-left text-sm">
+            <thead className="border-b bg-gray-50">
+              <tr>
+                <th className="px-6 py-3">Direct Speech</th>
+                <th className="px-6 py-3">Indirect Speech</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b">
+                <td className="px-6 py-4">Now (এখন)</td>
+                <td className="px-6 py-4">Then</td>
+              </tr>
+              <tr className="border-b bg-gray-50">
+                <td className="px-6 py-4">Here (এখানে)</td>
+                <td className="px-6 py-4">There</td>
+              </tr>
+              <tr className="border-b">
+                <td className="px-6 py-4">This (এখন)</td>
+                <td className="px-6 py-4">That</td>
+              </tr>
+              <tr className="border-b bg-gray-50">
+                <td className="px-6 py-4">These (এগুলো)</td>
+                <td className="px-6 py-4">Those</td>
+              </tr>
+              <tr className="border-b">
+                <td className="px-6 py-4">Ago (আগে)</td>
+                <td className="px-6 py-4">Before</td>
+              </tr>
+              <tr className="border-b bg-gray-50">
+                <td className="px-6 py-4">It (এটি)</td>
+                <td className="px-6 py-4">It</td>
+              </tr>
+              <tr className="border-b">
+                <td className="px-6 py-4">Today (আজ)</td>
+                <td className="px-6 py-4">That day</td>
+              </tr>
+              <tr className="border-b bg-gray-50">
+                <td className="px-6 py-4">Yesterday (গতকাল)</td>
+                <td className="px-6 py-4">The previous day</td>
+              </tr>
+              <tr className="border-b">
+                <td className="px-6 py-4">Tomorrow (আগামীকাল)</td>
+                <td className="px-6 py-4">The next day/The following day</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
         {/* sentence Rules - Part  */}
         <div className="mt-7">
           <div className="rule-section">
-            <p className="text-center md:text-start">
-              Narration Rules - Part 2
-            </p>
+            <p className="text-center md:text-start">Sentence Narration</p>
             <h2 className="text-center md:text-start">বাক্য পরিবর্তন:</h2>
             <h2>Assertive Sentence:</h2>
             <p>
@@ -294,7 +407,7 @@ const Narration = () => {
         </div>
 
         {/* <!-- table sentence rules --> */}
-        <div className="tableSection mt-5" style={{ overflowX: "scroll" }}>
+        {/* <div className="mt-5" style={{ overflowX: "scroll" }}>
           <h2 className="text-center md:text-start">Types Conversions</h2>
 
           <table className="min-w-[800px] table-auto dark:border-slate-400">
@@ -360,7 +473,7 @@ const Narration = () => {
               </tr>
             </tbody>
           </table>
-        </div>
+        </div> */}
 
         {/* <!-- Passage Naration rules --> */}
         <div className="tableSection overflow-x-auto">

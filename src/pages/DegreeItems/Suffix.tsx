@@ -6,8 +6,8 @@ function Suffix() {
   return (
     <div className="h-full w-full ">
       <div className="">
-        <h1 className="text-center font-semibold text-md py-20">
-          Suffix and Prefix
+        <h1 className="text-center font-semibold text-md py-20 text-green-400">
+          Suffix & Prefix
         </h1>
       </div>
 
@@ -395,7 +395,9 @@ function Suffix() {
         11. Enjoy + ment = Enjoyment <br />
         12. Announce + ment = Announcement <br />
         13. Advertise + ment = Advertisement <br />
-        14. Replace + ment = Replacement <br />
+        14. Replace + ment = Replacement
+        <br />
+        <br />
         ▪ tion - <br />
         1. Situate + tion = Situation <br />
         2. Cultivate + tion = Cultivation <br />
@@ -412,7 +414,9 @@ function Suffix() {
         12. Narrate + tion = Narration <br />
         13. Tolerate + tion = Toleration <br />
         14. Transport + tion = Transportation <br />
-        15. Populate + tion = Population <br />
+        15. Populate + tion = Population
+        <br />
+        <br />
         ▪ sion - <br />
         1. Decide + sion = Decision <br />
         2. Conclude + sion = Conclusion <br />
@@ -438,14 +442,18 @@ function Suffix() {
         Note : <br />
         Noun + ous = Adjective
         <br />
-        <br />▪ hood - <br />
+        <br />
+        ▪ hood - <br />
         1. Child + hood = Childhood <br />
         2. Boy + hood = Boyhood <br />
-        3. False + hood = Falsehood <br />
+        3. False + hood = Falsehood
+        <br />
+        <br />
         ▪ dom - <br />
         1. King + dom = Kingdom <br />
         2. Free + dom = Freedom <br />
-        3. Wise + dom = Wisdom <br />
+        3. Wise + dom = Wisdom
+        <br />
         <br />
         Note: <br />
         Any word + hood/dom = Noun.
@@ -456,14 +464,19 @@ function Suffix() {
         2. Fellow + ship = Fellowship <br />
         3. Partner + ship = Partnership <br />
         4. Friend + ship = Friendship
-        <br /> 5. Scholar + ship = Friendship <br />
+        <br />
+        5. Scholar + ship = Friendship
+        <br />
+        <br />
         ▪ ee - <br />
         1. Exam + ee = Examine page:15 <br />
         2. Employ + ee = Employee <br />
         3. Train + ee = Trainee <br />
         4. Nominate + ee = Nominee <br />
         5. Pay + ee = Payee <br />
-        6. Address + ee = Addressee <br />
+        6. Address + ee = Addressee
+        <br />
+        <br />
         ▪ y - <br />
         1. Treasure + y = Treasury <br />
         2. Greed + y = Greedy <br />
@@ -519,9 +532,29 @@ function Suffix() {
         এই Chart মনে রাখার চেষ্টা করবে
         <br />
         <br />
-        Noun Adjective Verb Adverb tion sion ment ance ence ness hood dom ture
-        age ty th er al tive sive ful ous able ible less ant ent ed thy ate ate
-        fy ly
+        <table className="min-w-full mx-auto table-auto dark:border-slate-400 text-rose-500 font-bold">
+          <thead>
+            <tr className="text-black  dark:text-gray-300">
+              <td className="text-center">Noun</td>
+              <th className="text-center">Adjective</th>
+              <th className="text-center">Verb</th>
+              <th className="text-center">Adverb</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="">
+              <td className="py-2 px-4">
+                tion, sion, ment, ance, ence, ness, hood, dom, ture, age, ty,
+                th, er
+              </td>
+              <td className="py-2 px-2">
+                al, tive, sive, ful, ous, able, ible, less, ant, ent, ed, thy
+              </td>
+              <td className="py-2 px-2">ate, ate, fy</td>
+              <td className="py-2 px-2">ly</td>
+            </tr>
+          </tbody>
+        </table>
         <br />
         <br />
         “Suffix এ ভােলা করেত হেল Suffix এর Spelling Rules ভােলাভােব জানেত হবে ”
