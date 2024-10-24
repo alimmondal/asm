@@ -2,7 +2,7 @@ function Verbs() {
   return (
     <div className="h-full ">
       <div className="py-20">
-        <h1 className="text-center text-3xl md:text-6xl">
+        <h1 className="text-center text-3xl md:text-6xl text-green-400">
           Right Form of Verbs
         </h1>
       </div>
@@ -370,41 +370,47 @@ function Verbs() {
             </p>
             <p className="example">
               Q. He (return) home next day.
-              <br />= Will return.
+              <br />= He Will return home next day.
             </p>
 
             <p>
               17. While
               <span className="bengali">
-                এর পরে (sub + V) Past Continuous Tense হয়। যেমন:
+                এর পরে Subject + V থাকলে Past Continuous Tense হয়। কিন্তু While
+                + (V) থাকলে ব্রাকেটের Verb এর সঙ্গে ing যুক্ত হয়। যেমন:
               </span>
             </p>
             <p className="example">
               Q. While (Walk) I saw him.
               <br />
-              = Walking.
+              = While Walking, I saw him.
               <br />
-              Q. While he (Walk) I saw him.
-              <br />= Was walking.
+              Q. While he (Walk), I saw him.
+              <br />= While I Was walking, I saw him.
             </p>
 
             <p>
               18.
               <span className="bengali">
-                এর পরে Not থাকলে Sub + verb এর past tense হয়। যেমন:
+                Subject এর পরে Not থাকলে Subject এবং tense অনুসারে সাহায্যকারী
+                Verb এবং principal verb হয়। যেমন:
               </span>
+              <p className="example">
+                Q. He not always (drink) tea.
+                <br />= He does not always drink tea.
+              </p>
             </p>
 
             <p>
               19.
               <span className="bengali">
-                Clause এর আগে lest থাকলে, verb এর পরে subject থাকে না এবং should
-                থাকে। যেমন:
+                Second Clause এর আগে lest থাকলে, সেই বাক্যাংশের subject এর পরে
+                verb আগে should/ might বসে। যেমন:
               </span>
             </p>
             <p className="example">
               = He walked fast lest he (miss) the train.
-              <br />= Might miss.
+              <br />= He walked fast lest he might miss the train.
             </p>
           </div>
 
@@ -459,6 +465,99 @@ function Verbs() {
               Q. Something (be) wrong.
               <br />= Something is wrong.
             </p>
+          </div>
+
+          {/* exercise */}
+          <div className="mt-10">
+            <h2>Exercise</h2>
+            <p>1. The moon (shine) at night.</p>
+            <p>2. Flowers (be) gift of nature.</p>
+            <p>3. It (dew) in winter.</p>
+            <p>4. The (be) not always happy.</p>
+            <p>5. They (be) blessed.</p>
+            <p>6. (be) happy.</p>
+            <p>7. Ice (float) on water.</p>
+            <p>8. Muni (carry) Jan umbrella daily.</p>
+            <p>9. What you (do) now?</p>
+            <p>10. Why Mr. Roni (look) so angry?</p>
+            <p>11. Munira (watch) television often?</p>
+            <p>
+              12. Mim usually (go) to school by bus, but today he (go) by train.
+            </p>
+            <p>13. Size do not matter (chop) wood.</p>
+            <p>14. The baby (cry) because it is hungry now.</p>
+            <p>15. What you (go) to drink now?</p>
+            <p>16. Rina (return) home just now.</p>
+            <p>17. The play just (begin).</p>
+            <p>18. He not yet (finish) the work.</p>
+            <p>19. I just (have) a snack.</p>
+            <p>20. Have you ever (be) to Cox’s Bazar?</p>
+            <p>21. Why she (look) so nervous?</p>
+            <p>22. My brother just (move) to a new place.</p>
+            <p>23. Rahul can’t help (listen) to them.</p>
+            <p>24. You (see) her lately?</p>
+            <p>25. I have a boy (come) from the orphanage.</p>
+            <p>26. We are none of us (get) any younger.</p>
+            <p>27. I don’t mind (have) asparagus.</p>
+            <p>28. Shikha saw him (go) to the town.</p>
+            <p>29. I answered (thank) her.</p>
+            <p>30. The old sailor went away (leave) the marriage guest.</p>
+            <p>31. They just (reach) playground.</p>
+            <p>32. What you generally (do) for living?</p>
+            <p>33. Salma just (get) her new job.</p>
+            <p>34. I just (receive) my father’s letter.</p>
+            <p>35. The tree not (bear) any fruit yet.</p>
+            <p>36. He recently (return) home from abroad.</p>
+            <p>37. I found the boy (sleep) on the bed.</p>
+            <p>38. They saw the drunk porter (lie) on the floor.</p>
+            <p>39. It is many years since they first (meet).</p>
+            <p>40. Ten years have passed since he (come) here.</p>
+            <p>41. It was wine I (see) her last.</p>
+            <p>42. Eight years have passed since I (come).</p>
+            <p>43. They (play) football since morning.</p>
+            <p>44. Their family (live) in Dhaka for the last five years.</p>
+            <p>45. I not (choose) my career yet.</p>
+            <p>46. I (see) her long since.</p>
+            <p>47. Last night I (have) a wonderful dream.</p>
+            <p>48. He (go) ten minutes ago.</p>
+            <p>49. Lucy (break) her leg in a car accident last year.</p>
+            <p>50. Wrote to Lucy (be) in Dhaka since last week.</p>
+            <p>51. The boy (suffer) from fever for five days.</p>
+            <p>52. It is high time we (start) the work.</p>
+            <p>53. It is high time they (leave) home.</p>
+            <p>54. Imran talks as though he (be) a king.</p>
+            <p>55. I wish she (do) a millionaire.</p>
+            <p>56. Sings as fast as if she (to be) mad.</p>
+            <p>57. He proceeded as though I not (speak).</p>
+            <p>58. It reflects the matter as if he (know) it.</p>
+            <p>59. Fancy (turn) a trifle pale.</p>
+            <p>60. The door was (open) by a Christian.</p>
+            <p>61. Munir was greatly (hug) by Della.</p>
+            <p>62. When was the book (buy)?</p>
+            <p>63. The beggar went away (cry).</p>
+            <p>64. The children came to us (run).</p>
+            <p>65. He looked at his mother (smile).</p>
+            <p>
+              66. They (sail) away to the south until they arrived in cold grey
+              sea.
+            </p>
+            <p>67. Della (save) every penny she could.</p>
+            <p>68. Today she (weight) twenty one stone.</p>
+            <p>69. Fifty miles (be) a long way.</p>
+            <p>70. Why (be) you not with her?</p>
+            <p>71. It (be) like him.</p>
+            <p>72. His eyes (be) fixed upon Della.</p>
+            <p>73. Jim’s income (be) shrunk to twenty dollars.</p>
+            <p>
+              74. The headmaster and the secretary (be) present in the meeting
+              yesterday.
+            </p>
+            <p>75. When you (come) last night?</p>
+            <p>76. When he (go) to market yesterday?</p>
+            <p>77. Where they (see) him last week?</p>
+            <p>78. It is high time we (start) for the station.</p>
+            <p>79. If I were a bird, I (fly) in the sky.</p>
+            <p>80. Would that I (enter) the room.</p>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
-import { Worker, Viewer } from "@react-pdf-viewer/core";
-import "@react-pdf-viewer/core/lib/styles/index.css";
+// import { Worker, Viewer } from "@react-pdf-viewer/core";
+// import "@react-pdf-viewer/core/lib/styles/index.css";
 // Import the worker from the installed `pdfjs-dist` package
 import "pdfjs-dist/build/pdf.worker.entry";
 function Suffix() {
@@ -12,7 +12,7 @@ function Suffix() {
       </div>
 
       <div className="px-5 h-full md:w-[85%] mx-auto">
-        Suffix & Prefix <br />
+        <h3 className=""> Suffix & Prefix</h3>
         Prefix & Suffix এর মাধ্যমে conversion of words (শব্দের রূপান্তর)
         সম্পর্কে জানা যায়। Prefix & Suffix এর আলচনা করতে গেলে যে term টা সামনে
         আসে সেটা হল - Affix. <br />
@@ -21,29 +21,40 @@ function Suffix() {
         semi-words বা অর্ধ শব্দ বা শব্দাংশ । এরা কখেনা সাধীনভােব অর্থ প্রকাশ
         করেত পারে না বা এদের নিজের কোন অর্থ নেই । কিন্তু যখন এটা কােনা Root Word
         বা মূল শব্দের সাথে Attach/Fix বা যুক্ত করা হয়, তখন ইহা অর্থ প্রকাশে
-        সাহায্য করে <br />
+        সাহায্য করে। <br />
         Affix সাধারণ তিন প্রকারঃ <br />
         1. Prefix <br />
         2. Suffix <br />
-        3. Infix নিচের Diagram টি লক্ষ্য কর, <br />
+        3. Infix
+        <br />
+        <br />
+        নিচের Diagram টি লক্ষ্য কর, <br />
+        <img src="img/diagram.png" alt="" />
         Affix ↙⬇↘ Prefix ↩ Root Word ↪Suffix ⤵ Infix <br />
+        <br />
         Prefix : Root Word বা মূল শব্দের পুর্বে যে Affix গুলো যুক্ত হয়ে নতুন
         শব্দ তৈরি করে, তাদের Prefix বলে। <br />
         যেমন: <br />
         1. Dis + honest = Dishonest <br />
         2. Un + happy = Unhappy <br />
-        3. Im + possible = Impossible <br />
+        3. Im + possible = Impossible
+        <br />
+        <br />
         Suffix : Root Word বা মূল শব্দের শেষে যে Affix গুলো যুক্ত হয়ে নতুন শব্দ
         তৈরি করে, তাদের Suffix বলে। <br />
         যেমনঃ <br />
         1. Faith + Full = Faithfull <br />
         2. Read + Able = Readable <br />
-        3. Use + less = Useless <br />
+        3. Use + less = Useless
+        <br />
+        <br />
         Infix : Root Word বা মূল শব্দের ভিতরে যে Affix গুলো যুক্ত হয়ে নতুন শব্দ
         তৈরি করে, তাদের Infix বলে। <br />
         যেমন: <br />
         1. Able - Ability <br />
-        2. Life - live <br />
+        2. Life - live
+        <br />
+        <br />
         Note : <br />▶ এমন অনেক শব্দ আছে যার পুর্বে Prefix এবং পরে Suffix উভয়ই
         বসতে পারে । <br />
         যেমন: <br />
@@ -56,23 +67,30 @@ function Suffix() {
         যেমনঃ <br />
         1. Dis + honest = Dishonest <br />
         2. Non + stop = Nonstop <br />
-        3. Dis + allow = Disallow <br />
+        3. Dis + allow = Disallow
+        <br />
+        <br />
         ▶ যে সকল Suffix এর মাধ্যমে গঠিত শব্দে মূল শব্দের অর্থ পরিবর্তন হয় না,
         তবে Parts of Speech এর পরিবর্তন হয়।
         <br />
         যেমনঃ <br />
         1. Digit + al = Digital <br />
-        2. Write + r = Writer <br />
+        2. Write + r = Writer
+        <br />
+        <br />
         Question Pattern <br />
         ⬇⬇⬇ <br />
         “ পরীক্ষায় ১০ টি Root Word বা মূল শব্দ দেওয়া থাকবে। শব্দগুলো বাক্যের
         অর্থ অনুযায়ী Prefix কিংবা Suffix যোগ করে Noun, Verb, Adjective অথবা
         Adverb এ রূপান্তর করতে হবে। প্রয়োজনে <br />
         Prefix ও Suffix <br />
-        একত্রে ব্যবহার করতে হবে।” <br />
-        List of Most Important Prefixes <br />
+        একত্রে ব্যবহার করতে হবে।”
+        <br />
+        <br />
+        <h2 className="text-green-400"> List of Most Important Prefixes </h2>
         ✌ At a Glance : <br />
         dis il im in ir mis non un be en re over <br />
+        <br />
         ▪ Dis - <br />
         1. Dis + allow = Disallow <br />
         2. Dis + honest = Dishonest <br />

@@ -16,6 +16,11 @@ function Ssc() {
               Tag Question
             </li>
           </Link>
+          <Link to={"/suffix"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
+              Suffix & Prifix
+            </li>
+          </Link>
 
           <Link to={"/completing"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">

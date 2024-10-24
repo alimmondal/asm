@@ -18,7 +18,7 @@ function Degree() {
           </Link>
           <Link to={"/suffix"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black">
-              Suffix
+              Suffix & Prefix
             </li>
           </Link>
           <Link to={"/advertisement"}>
