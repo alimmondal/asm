@@ -48,17 +48,19 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="py-20 ">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/sJRLgLhh7KQ?si=iJfkDV5KhzzdCv4f"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+      <div className="py-20 h-[600px]">
+        <div className="w-[95%] md:w-[50%] mx-auto">
+          <iframe
+            className="min-w-full"
+            height="415"
+            src="https://www.youtube.com/embed/3yrtsZDSZGQ?si=59M4i2zWcaDFGvNc"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
 
       <div className="max-w-7xl w-full mx-auto">
