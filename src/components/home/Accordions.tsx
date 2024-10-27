@@ -81,7 +81,8 @@ const Accordions = () => {
                 <p className="my-3">
                   <strong>গঠন</strong> (<strong>Structure</strong>): <br />
                   হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                  <strong>* Sub + V1(s/es) + obj + others. </strong>
+                  <span className="animateText font-bold">*Rule*: </span>
+                  <strong>Sub + V1(s/es) + obj + others. </strong>
                   <br />
                   যেমনঃ <br />
                   আমরা ভাত খাই - We eat rice. <br />
@@ -158,34 +159,34 @@ const Accordions = () => {
               যেমনঃ খাইতেছি বা খাচ্ছি <br />
               <br />
               <strong>গঠন</strong> (<strong>Structure</strong>): <br />
-              হা-বোধক বাক্যের <strong>গঠন</strong> : <br />
+              হা-বোধক বাক্যের গঠন:
+              <br />
+              <span className="animateText font-bold">*Rule*: </span>
               <strong>
-                * Sub + am/ is/ are + V1 এর সাথে ing + obj + others.{" "}
+                Sub + am/ is/ are + V1 এর সাথে ing + obj + others.{" "}
               </strong>
+              <br />
               <br />
               যেমনঃ <br />
               আমরা ভাত খাইতেছি/খাচ্ছি - We are eating rice. <br />
-              সে ভাত খাচ্ছে/খাইতেছে - He is eating rice. <br />
+              সে ভাত খাচ্ছে/খাইতেছে - He is eating rice.
               <br />
-              <strong> NOTE: </strong>বাক্যের Subject অনুসারে সাহায্যকারি verb
+              <br />
+              <strong> NOTE: </strong>বাক্যে*র Subject অনুসারে সাহায্যকারি verb
               হবে। যেমনঃ <br />
               ১। 3rd person + singular sub এর সাথে = is হয়, <br />
               ২। শুধুমাত্র i এর সাথে = am হয়, <br />
               ৩। অন্যান্য সকল sub এর সাথে = are হয়।
               <br />
               <br />
-              না-বোধক বাক্যের <strong>গঠন</strong>: <br />
-              * Sub + am not/ is not/ are not + V1-ing + obj + extension
+              না-বোধক বাক্যের গঠন: <br />
+              Sub + am not/ is not/ are not + V1-ing + obj + extension
               <br />
-              অথবাঃ <br />
-              * Sub + ain't + V1-ing + obj. <br />
-              প্রশ্ন-বোধক-হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
-              * Am/ is/ are + sub + V1-ing + obj?
+              প্রশ্ন-বোধক-হা-বোধক বাক্যের গঠন: <br />
+              Am/ is/ are + sub + V1-ing + obj?
               <br />
-              প্রশ্ন-বোধক–না-বোধক বাক্যের <strong>গঠন</strong>: <br />
-              Am/ is/ are + sub + not + V1+ing + obj? <br />
-              অথবাঃ <br />
-              Ain't + Sub + V1-ing + obj? <br />
+              প্রশ্ন-বোধক–না-বোধক বাক্যের গঠন: <br />
+              Am/ is/ are + sub + not + V1 + ing + obj? <br />
               যেমনঃ <br />
               আমরা কি ভাত খাইতেছি/খাচ্ছি? - Aren’t we eating rice?/ Are We not
               eating rice?
@@ -211,13 +212,17 @@ const Accordions = () => {
                 চিনার উপায়ঃ বাংলা ক্রিয়ার শেষে - ইয়াছি, ইয়াছ, ইয়াছেন বা য়াছি
                 য়াছ, য়াছেন, ইত্যাদি থাকে।
                 <br />
-                <strong>গঠন</strong> (<strong>Structure</strong>): <br />
-                হা-বোধক বাক্যের <strong>গঠন</strong> :<br />
-                <strong>* Sub + have/ has + V3 + obj + others.</strong>
+                <br />
+                <strong>গঠন</strong> :
+                <br />
+                <span className="animateText font-bold">*Structure*:</span>
+                <strong> Sub + have/ has + V3 + obj + others.</strong>
+                <br />
                 <br />
                 যেমনঃ <br />
                 আমরা ভাত খাইয়াছি/খেয়েছি - We have eaten rice. <br />
-                সে ভাত খাইয়াছে/খেয়েছে - He has eaten rice. <br />
+                সে ভাত খাইয়াছে/খেয়েছে - He has eaten rice.
+                <br />
                 <br />
                 <strong>NOTE: </strong> বাক্যের Subject অনুসারে সাহায্যকারি verb
                 হবে। যেমনঃ <br />
@@ -227,18 +232,18 @@ const Accordions = () => {
                 <br />
                 না-বোধক বাক্যের<strong>গঠন</strong>: <br />
                 * Sub + have not/ has not + V3 + obj + others. <br />
-                অথবাঃ <br />
-                * Sub + ain't + V3 + obj. <br />
                 যেমনঃ আমরা ভাত খাইনি - We have not eaten rice.
                 <br />
+                <br />
                 প্রশ্ন-বোধক-হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                * Have/ has + Sub + V3+ obj? <br />
+                * Have/ has + Sub + V3 + obj? <br />
                 যেমনঃ আমরা কি ভাত খাইইয়াছি/খেয়েছি? - Have we not eaten rice?
+                <br />
                 <br />
                 প্রশ্ন-বোধক–না-বোধক বাক্যের <strong>গঠন</strong>: <br />
                 * Have/ has + Sub + not + V3 + obj? <br />
                 অথবাঃ <br />
-                Haven't/ hasn't + Sub + + obj? <br />
+                Haven't/ hasn't + Sub + V3 + obj? <br />
                 অথবাঃ <br />
                 Ain't + Sub + V3 + obj? <br />
                 যেমনঃ আমরা কি ভাত খাইনি? - Have we not eaten rice?
@@ -267,20 +272,27 @@ const Accordions = () => {
                 তেছেন/চ্ছেন ইত্যাদি বাক্যের মধ্যে ধরিয়া/ধরে, হইতে/হতে,
                 থাকিয়া/থেকে শব্দ থাকবে।
                 <br />
-                <strong>গঠন</strong> (<strong>Structure</strong>): <br />
-                হা-বোধক বাক্যের <strong>গঠন</strong> :<br />
+                <br />
+                <strong>গঠন</strong>:
+                <br />
+                <br />
+                হা-বোধক বাক্যের <strong>গঠন</strong> :
+                <br />
+                <span className="animateText font-bold">Structure: </span>
                 <strong>
-                  * Sub + have been/ has been + V1 এর সাথে ing + obj + others +
+                  Sub + have been/ has been + V1 এর সাথে ing + obj + others +
                   for/since + time.
                 </strong>
+                <br />
                 <br />
                 <strong>NOTE: </strong>বাক্যের মধ্যে ধরিয়া/ধরে থাকলে সময়ের আগে
                 for বসে, হইতে/হতে, থাকিয়া/থেকে থাকলে since বসে। <br />
                 যেমনঃ <br />
                 আমরা ১০ মিনিট ধরে ভাত খাচ্ছি/খাইতেছি - We have been eating rice
                 for ten minutes. <br />
-                সে সকাল থেকে ভাত খাচ্ছে - He has been eating rice since ten
-                minutes.
+                সে সকাল থেকে বল খেলতেছে - He has been playing rice since
+                morning.
+                <br />
                 <br />
                 NOTE: বাক্যের Subject অনুসারে সাহায্যকারি verb হবে। যেমনঃ <br />
                 ১। 3rd person + singular sub এর সাথে = has been হয়, <br />
@@ -291,12 +303,11 @@ const Accordions = () => {
                 * Sub + have not been/ has not been + V1 এর সাথে ing + obj +
                 for/ since + time.
                 <br />
-                অথবাঃ * Sub + ain't been/ ain't been + V1 এর সাথে ing + obj +
-                for/ since + time.
                 <br />
                 প্রশ্ন-বোধক হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
                 * have been/ has been + Sub + V1 এর সাথে ing + obj + for/ since
                 + time?
+                <br />
                 <br />
                 প্রশ্ন–বোধক না-বোধক বাক্যের<strong>গঠন</strong>: <br />
                 Have / has + Sub + not + been + V1 এর সাথে ing + obj + for/
@@ -305,13 +316,12 @@ const Accordions = () => {
                 Haven't / hasn't + Sub + been +V1 এর সাথে ing + obj + for/ since
                 + time?
                 <br />
-                অথবাঃ <br />
-                Ain't + Sub + been +V1 এর সাথে ing + obj + for/ since + time?{" "}
-                <br />
                 যেমনঃ <br />
-                আমরা কি ১০ মিনিট ধরে ভাত খাচ্ছি/খাইতেছি? - Ain't we been eating
-                rice for ten minutes?/ Have we not been eating rice for ten
-                minutes? <br />
+                আমরা কি ১০ মিনিট ধরে ভাত খাচ্ছি/খাইতেছি? - Haven't we been
+                eating rice for ten minutes?/ Have we not been eating rice for
+                ten minutes?
+                <br />
+                <br />
                 সে কি ১০ মিনিট ধরে ভাত খাচ্ছে/খাইতেছে - Ain't he been eating
                 rice for ten minutes?
               </div>
@@ -334,21 +344,35 @@ const Accordions = () => {
                 যেমনঃ আমরা ভাত খাইয়াছিলাম/ খেয়েছিলাম। <br />
                 চিনার উপায়ঃ বাংলা ক্রিয়ার শেষে লে, ল, লাম, তে, ত, তাম থাকবে।
                 <br />
-                যেমনঃ খাইলাম/খেলাম/খাইয়াছিলাম <br />
-                <strong>গঠন</strong> (<strong>Structure</strong>): <br />
-                হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                <strong> * Sub + V2 + obj + others </strong>
+                যেমনঃ খাইলাম/খেলাম/খাইয়াছিলাম
+                <br />
+                <br />
+                <strong>বাক্যের গঠন</strong>:
+                <br />
+                <br />
+                হা-বোধক বাক্যের <strong>গঠন</strong>:
+                <br />
+                <br />
+                <span className="animateText font-bold">Structure:</span>
+                <strong> Sub + V2 + obj + others </strong>
+                <br />
                 <br />
                 যেমনঃ <br />
-                আমরা ভাত খাইলাম/খেলাম/খেয়েছিলাম/খাইয়াছিলাম - We ate rice. <br />
+                আমরা ভাত খাইলাম/খেলাম/খেয়েছিলাম/খাইয়াছিলাম - We ate rice.
+                <br />
+                <br />
                 না-বোধক বাক্যের<strong>গঠন</strong>: <br />
                 <strong> * Sub + did not+ V1 + obj + others.</strong> <br />
                 যেমনঃ <br />
-                আমরা ভাত খেলাম না - We did not eat rice. <br />
+                আমরা ভাত খেলাম না - We did not eat rice.
+                <br />
+                <br />
                 প্রশ্ন-বোধক হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
                 * Did + Sub + V1 + obj + others? <br />
                 যেমনঃ <br />
-                আমরা কি ভাত খাইলাম/খেলাম? – Did we eat rice? <br />
+                আমরা কি ভাত খাইলাম/খেলাম? – Did we eat rice?
+                <br />
+                <br />
                 প্রশ্ন-বোধক না-বোধক বাক্যের <strong>গঠন</strong>: <br />
                 * Didn't + Sub+ V1 + obj + others?
                 <br />
