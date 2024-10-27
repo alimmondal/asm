@@ -5,6 +5,7 @@ function Application() {
         <div className="py-20 text-center">
           <h1>Application</h1>
         </div>
+
         <div className="">
           <h3 className="mt-10">Application: 1</h3>
           <p>

@@ -362,7 +362,8 @@ const Paragraph = () => {
             </p>
           </div>
           <div className="py-10">
-            <h1> All Kinds of Social Problems </h1>
+            <h1 className="text-rose-500">All Paragraph in One Paragraph</h1>
+            <h2> All Kinds of Social Problems </h2>
             <b /> <b />
             Copying in the Examination <br />
             Environment Pollution <br />
