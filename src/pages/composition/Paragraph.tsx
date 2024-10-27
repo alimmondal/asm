@@ -1,6 +1,6 @@
 const Paragraph = () => {
   return (
-    <div className="mx-5 md:p-16 md:w-[85%] md:mx-auto bg-gray-100 text-gray-800 shadow-md mb-6 rounded-sm">
+    <div className="w-[95%] md:w-[70%] mx-auto   ">
       <div className="text-center py-20">
         <h1 className="">Paragraph</h1>
       </div>
@@ -360,6 +360,167 @@ const Paragraph = () => {
               lasting economy are essential to check the bad effects of price
               hikes and ensuring prosperous future for Bangladesh.
             </p>
+          </div>
+          <div className="py-10">
+            <h1> All Kinds of Social Problems </h1>
+            <b /> <b />
+            Copying in the Examination <br />
+            Environment Pollution <br />
+            Air Pollution <br />
+            Terrorism in the Campus <br />
+            Terrorism <br />
+            Traffic Jam <br />
+            Load Shedding <br />
+            Road Accident <br />
+            Drug Addiction <br />
+            Dangerous of Smoking <br />
+            Arsenic Pollution <br />
+            Bribery <br />
+            Child Labor <br />
+            Deforestation <br />
+            Acid Throwing <br />
+            Corruption <br />
+            Population Problem <br />
+            Superstition <br />
+            <br />
+            [TOPIC] is a great and harmful problem. It is not only a common
+            matter for our own country but also for the other countries too.
+            [TOPIC] destroying our social peace and happiness. Day by day it is
+            going out of our control which is very alarming. Keeping this
+            problem we cannot imagine our peace and happy life. Though [TOPIC]
+            is very tough to remove this problem totally from the society but we
+            have to try at any cost. Without removing this acute problem people
+            can’t get relief. Everybody wants a good solution for this problem.
+            Beside govt. should come forward to overcome this problem. The law
+            forces agencies should arrest them who are creating this kind of
+            problem. [TOPIC] is possible to remove by creating public awareness.
+            So we should be more active to get a better solution. <br />
+            <br />
+            বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার সামাজিক সমস্যা বা Social Problem
+            নিয়ে Paragraph বললে ওপরের লেখাটি অনুসরণ করো এবং [TOPIC] এর জায়গায়
+            তোমার নির্দিষ্ট Paragraph এর নাম লিখে বাকী সব অপরিবর্তিত রাখো।{" "}
+            <br />
+            <br />
+            <h1> All Kinds Of Good Qualities</h1>
+            <b /> <b />
+            Brevity <br />
+            Value of time <br />
+            Honesty <br />
+            Discipline <br />
+            Politeness <br />
+            Ambition <br />
+            Hopefulness <br />
+            Truthfulness <br />
+            Friendship <br />
+            Labor <br />
+            Education <br />
+            Patriotism <br />
+            Character <br />
+            Good manner <br />
+            Punctuality <br />
+            Kindness <br />
+            Obedience <br />
+            Faithfulness <br />
+            Industry <br />
+            Charity <br /> <br />
+            [TOPIC] is the most valuable and powerful element of our success in
+            life. It enriches self-confidence in our running life. If we want to
+            reach our aim we must attain such quality. It is need to have for
+            mental faculty. [TOPIC] can bring out rewards for human beings. It
+            is important to have [TOPIC] to retain the existence of human
+            beings. Without [TOPIC] anybody cannot achieve anything great and
+            glorious. A man can lose his prestigious life for its absence. Most
+            of the greatest persons have gained success by it. [TOPIC] is a kind
+            of knowledge which thing no training can teach. [TOPIC] broadens our
+            outlook. Therefore we should have this quality at any cost. <br />
+            <br />
+            বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার ভালো অভ্যাস বা Good Qualities নিয়ে
+            Paragraph বললে ওপরের লেখাটি অনুসরণ করো এবং [TOPIC] এর জায়গায় তোমার
+            নির্দিষ্ট Paragraph এর নাম লিখে বাকী সব অপরিবর্তিত রাখো। <br />
+            <br />
+            <h1>All Kinds Of Scientific Thing</h1>
+            <b /> <b />
+            Dish Antenna <br />
+            Satellite <br />
+            Mobile Phone <br />
+            Cellular Phone <br />
+            Internet <br />
+            Computer <br />
+            E-mail <br />
+            Electricity <br /> <br />
+            We live in the age of science and technology. With the help of
+            science and technology we have invented many wonderful things.
+            [TOPIC] is one of them. It is the blessing of science for the world.
+            Today we can enjoy various objectives of the world through [TOPIC].
+            It brought the remotest places of the world on hand. It has some
+            exceptional power. We should use this technology properly. We can
+            widen our knowledge by it in different fields. [TOPIC] gives us a
+            lot of opportunities and it mainly influence more on young
+            generation. As every things has its both negative and positive side
+            so [TOPIC] also has two sides and we should use only positive sides
+            which provide us useful knowledge. <br />
+            <br />
+            বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার বৈজ্ঞানিক বিষয়বস্তু বা Scientific
+            Thing নিয়ে Paragraph বললে ওপরের লেখাটি অনুসরণ করো এবং [TOPIC] এর
+            জায়গায় তোমার নির্দিষ্ট Paragraph এর নাম লিখে বাকী সব অপরিবর্তিত
+            রাখো।
+            <br />
+            <br />
+            <h1> All Kinds of Hobbies </h1>
+            <br />
+            Writing Poem <br />
+            Singing Song <br />
+            Keeping a Diary <br />
+            Catching Fish <br />
+            Jogging <br />
+            Collecting Stamps <br />
+            Travelling <br />
+            Swimming <br />
+            Gardening <br />
+            Fishing <br />
+            Reading Habit <br />
+            Painting <br /> <br />
+            [TOPIC] is an interesting habit for stubborn life. By this kind of
+            habit we can get rid of boring life. Everyone should have any kind
+            of hobby. [TOPIC] is the shadow of life which gives us vast
+            amusement. It can be a part and parcel of education and
+            entertainment. Someone uses it for passing time. [TOPIC] causes some
+            problems sometimes if we are not concern on working. [TOPIC]
+            refreshes us not only physically but also mentally. To sum up we
+            should have any kind of hobby. It can be entertainment or education
+            for us. <br /> <br />
+            বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার শখ বা Hobbies নিয়ে Paragraph বললে
+            ওপরের লেখাটি অনুসরণ করো এবং [TOPIC] এর জায়গায় তোমার নির্দিষ্ট
+            Paragraph এর নাম লিখে বাকী সব অপরিবর্তিত রাখো। <br /> <br />
+            <h1>All Kinds of Great Personalities</h1>
+            <br /> <br />
+            Hazrat Muhammad (SM) <br />
+            Sheikh Mujibur Rahman <br />
+            A Virtuous Man <br />
+            Rabindranath Tagore <br />
+            KaziNazrul Islam <br />
+            Mother Teresa <br />
+            Influence of a Great Man <br />
+            Your Favorite Player <br />
+            Your Favorite Person <br />
+            Your Mother/Father <br />
+            A Great Politician <br />
+            The Teacher You Like Most <br />
+            Your Ideal Man <br /> <br />
+            My Favorite Friend <br /> <br />
+            [TOPIC] is considered as an ideal in my life. I like most him
+            because of his wonderful activities beside his clear-cut and
+            embedded character. His embedded personality could be impressed my
+            heart. For this reason he is my favorite person. His views on
+            society, love of humanity and duty to the every steps attract one a
+            lot. His clarity of mind, uprightness of thought, glorious ideals,
+            and simplicity of life make one his fan. I respect his creativity,
+            speech and his responsibility. Man like [TOPIC] is very necessary
+            for the state. Everyone should try to build up character, morality
+            and personality like him. It is impossible to be a real person
+            without responsibility, morality, embedded character and lofty
+            ideals. For the peace and happiness we should follow him. <br />{" "}
+            <b />
           </div>
         </div>
       </div>

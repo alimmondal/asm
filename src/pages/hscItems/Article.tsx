@@ -115,6 +115,291 @@ function Article() {
           </p>
         </div>
       </div>
+
+      {/* Exercise */}
+      <div className="py-10 px-5">
+        <h3 className="">Practice</h3>
+        <b />
+        <b />
+        1. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not required an article. Put a cross
+        (x) in those blanks. [Dhaka Board-2019]
+        <b />
+        (a)_____ parliament house of Bangladesh is (b)_____exquisitely designed
+        building. In fact, it is (c)_____wonder of modern architecture and
+        technology. It is one of (d)_____largest and most spectacular parliament
+        buildings in (e)_____world. It is (f)_____ highly expensive building.
+        (g)_____maintenance cost of the parliament house is about 50 million
+        taka per year. An American architect (h) _____Louis I Khan designed this
+        (i) _____building. Everyday many (j)_____visitor comes to visit the
+        building. <b /> <b />
+        2. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not require an article. Put a cross
+        (x) in those blanks. [Rajshahi Board-2019]
+        <b />
+        The national flag represents (a)_____independence of (b)_____country.
+        Ours is (c)_____independent country. Hence, we have a national flag
+        symbolizing our independence. (d)_____ cloth of a national flag is made
+        of (e)_____ cotton, silk or linen. Our flag is rectangular in shape
+        maintaining (f)_____ ratio of its length and breadth 10: 6, There are
+        different sizes of national flag. The background of our flag is green
+        which symbolizes our life and energy. In the middle point of the flag
+        there is (g)_____blood-red circle representing our hard struggle and
+        blood-shed. (h) - red circle also represents the heroic blood-shed of
+        (i)_____ martyrs. The national flag plays (j)_____vital role in the life
+        of a nation. <b /> <b />
+        3. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not require an article. Put a cross
+        (x) in those blanks. [Dinajpur Board-2019; Barisal Board-2012]
+        <b />
+        Childhood or boyhood is (a)_____ man's formative period. During this
+        period (b)_____ child receives training from its mother. (c)- mother's
+        tender heart always looks to (d)_____welfare and well-being of
+        (e)_____child. If during this period (f)_____mother tries to bring
+        (g)_____child up carefully and according to her (h)_____ best ideas
+        (i)_____child is sure to grow with its superiors, parents and teachers
+        and love (j)_____ all irrespective of caste, creed and color. <b />{" "}
+        <b />
+        4. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not required an article. Put a cross
+        (x) in those blanks. [Jashore Board-2019; Dhaka Board-2015]
+        <b />
+        The industry is (a)_____key to success in our life. (b)_____industrious
+        can prosper in life. (c)_____ man who does not undertake (d)_____ hard
+        work can never go (e)_____long way in (f)_____ world. Many (g)_____man
+        is not aware of (h)_____ significance of (i)_____diligence for which.
+        they cannot reap (j)_____benefit of success.hose blanks.
+        <b /> <b />
+        5. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not required an article. Put a cross
+        (x) in those blanks. [Cumilla Board-2019]
+        <b />
+        An honest man is true to his (a)_____ words. He does not deviate from
+        (b)_____ path of honesty. He knows that true happiness consists of
+        (c)_____ honesty. He does not fall victim to (d)_____greed. He does not
+        hanker after (e)_____worldly property. (f)_____honest man abstains from
+        corruption. He does not mix with (g)_____corrupted people. He is
+        (h)_____man who tries to get pleasure from good deeds. (i)_____greed for
+        wealth does not touch him. People should follow the path of
+        (j)_____honest people of the society.
+        <b />
+        <b />
+        6. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not required an article. Put a cross
+        (x) in those blanks. [Chattogram Board- 2019;Dhaka Board-2017]
+        <b />
+        What is patriotism? It is (a)_____ noble virtue. It inspires (b)_____
+        man to dedicate his life to the freedom and development of his
+        (c)_____country. (d)_____man without patriotism is no better than
+        (e)_____ beast. A true patriot is honored by (f)_____ his countrymen. He
+        thinks for (g)_____betterment of his country. On (h)_____contrary,
+        (i)_____ unpatriotic man thinks only of his interest. Those who die for
+        (j)_____country are true patriots.
+        <b />
+        <b />
+        7. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not required an article. Put a cross
+        (x) in those blanks. [Sylhet Board-2019]
+        <b />
+        I have (a)_____uncle who has just retired from (b)_____army. He used to
+        be (c)_____ABI agent, and everybody says he has been an honest man all
+        his life. As a child, I loved him for his stories. He once told me that
+        he met (d)_____one-eyed alien from (e)_____ space. (f)_____ alien did
+        not need any oxygen. And it did not have (g)_____ nose. I now understand
+        that it was (h)_____ hard story to believe. I am not sure he was telling
+        me (i)_____truth. Maybe he is not so (j)_____honest, after all.
+        <b />
+        <b />
+        8. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not required an article. Put a cross
+        (x) in those blanks. [Barishal Board- 2019; Jashore Board-2015]
+        <b />
+        Mr. Bright is (a)_____ European. As he is (b)_____Englishman, he knows
+        (c)-- English well. He is (d) – honorable to everyone though he is
+        (e)_____ one-eyed man. One day having (f)_____SOS, he went to
+        (g)_____UŠA. His brother, Johnson living there joined (h)_____Army last
+        year. He is (i)_____younger of the two brothers. When Mr. Bright met his
+        brother, he could not but shed (j)_____tears [Barishal Board- 2019;
+        Jashore Board-2015] Mr. Bright is (a)_____ European. As he is
+        (b)_____Englishman, he knows (c)-- English well. He is (d) – honorable
+        to everyone though he is (e)_____ one-eyed man. One day having
+        (f)_____SOS, he went to (g)_____UŠA. His brother, Johnson living there
+        joined (h)_____Army last year. He is (i)_____younger of the two
+        brothers. When Mr. Bright met his brother, he could not but shed
+        (j)_____tears
+        <b /> <b />
+        HSC Articles 2018 All Board Questions With Answer <b />
+        9. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not required an article. Put a cross
+        (x) in those blanks. [All Board Question-2018 (Ka Set)]
+        <b />
+        Bangladesh is (a)_____independent country. We won freedom on
+        (b)_____December 16. 1971. This freedom was won as (c)_____result of
+        great sacrifice. (d)_____great many people laid down their lives for
+        (e)--freedom of the country. (f)_____ man who loves his country is
+        (g)-patriot. (h) - real patriot loves his country more than his life.
+        Being patriots, we all should try to make (i)_____effort for the welfare
+        and (j)_____progress of our motherland. <b /> <b />
+        10. Fill the following text blanks with articles (a/an/the) as
+        necessary. Some of the blanks are not required an article. Put a cross
+        (x) in those blanks. [ All Board Question-2018 (Kha Set)]
+        <b />
+        William Shakespeare was born on April 23, 1564 in (a)_____village of
+        Stratford-on-Avon in (b)_____country of Warwickshire. His father John
+        Shakespeare was (c)_____farmer's son who came (d)_____ Stratford about
+        1531 and began to prosper as (e)_____ trader in corn, wheat, leather and
+        agricultural products. His mother Mary Arden was (f)_____daughter of
+        (g)_____prosperous farmer, descended from (h)_____old family of mixed
+        Anglo-Saxon and Norman blood. It is generally believed that neither
+        (i)_____poet's mother nor his father could read or write. In 1582,
+        Shakespeare married Anne Hathaway, the daughter of (j)_____peasant
+        family. She was eight years older than Shakespeare
+        <b /> <b />
+        HSC Articles 2018 All Board Questions With Answer <b /> <b />
+        9. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not required an article. Put a cross
+        (x) in those blanks. [All Board Question-2018 (Ka Set)]
+        <b />
+        Bangladesh is (a)_____independent country. We won freedom on
+        (b)_____December 16. 1971. This freedom was won as (c)_____result of
+        great sacrifice. (d)_____great many people laid down their lives for
+        (e)--freedom of the country. (f)_____ man who loves his country is
+        (g)-patriot. (h) - real patriot loves his country more than his life.
+        Being patriots, we all should try to make (i)_____effort for the welfare
+        and (j)_____progress of our motherland. <b /> <b />
+        10. Fill the following text blanks with articles (a/an/the) as
+        necessary. Some of the blanks are not required an article. Put a cross
+        (x) in those blanks. [ All Board Question-2018 (Kha Set)] <b /> <b />
+        William Shakespeare was born on April 23, 1564 in (a)_____village of
+        Stratford-on-Avon in (b)_____country of Warwickshire. His father John
+        Shakespeare was (c)_____farmer's son who came (d)_____ Stratford about
+        1531 and began to prosper as (e)_____ trader in corn, wheat, leather and
+        agricultural products. His mother Mary Arden was (f)_____daughter of
+        (g)_____prosperous farmer, descended from (h)_____old family of mixed
+        Anglo-Saxon and Norman blood. It is generally believed that neither
+        (i)_____poet's mother nor his father could read or write. In 1582,
+        Shakespeare married Anne Hathaway, the daughter of (j)_____peasant
+        family. She was eight years older than Shakespeare. <b /> <b />
+        HSC Articles 2017 All Board Questions With Answer <b />
+        11. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not required an article. Put a cross
+        (x) in those blanks. [Dhaka Board-2017]
+        <b />
+        Patriotism is (a)_____ noble virtue. It inspires (b)_____ man to
+        dedicate his life to the freedom and development of his (c)_____country.
+        (d)_____man without patriotism is no better than (e)_____ beast. A true
+        patriot is honored by (f)_____ his countrymen. He thinks for
+        (g)_____betterment of his country. On (h)_____contrary, (i)_____
+        unpatriotic man thinks only of his own interest. Those who die for
+        (j)_____country are true patriots. <b /> <b />
+        12. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not require an article. Put a cross
+        (x) in those blanks. [Rajshahi Board-2017;Barishal Board-2017] <b />
+        Truthfulness is (a)_____ greatest of all (b)_____ virtues which make
+        (c)_____ man really great. If we do not cultivate the habit of speaking
+        (d)_____ truth, we cannot command (e)_____ confidence of others.
+        (f)_____ might succeed once or twice by telling (g)_____ lie but it
+        never brings a good result. (h)_____lie never lies hidden. Today or
+        tomorrow it comes to light. Then (i)_____ real character of ()_____ liar
+        is revealed and nobody believes him. <b /> <b />
+        13. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not require an article. Put a cross
+        (x) in those blanks. [Dinajpur Board-2017] <b />
+        What (a)_____ surprise it was! Robin got (b)_____ first prize in
+        (c)_____ competition. I was (d)_____really amazed at his success. Of
+        course he was trained by (e)_____ expert coach for (f)_____ time. He
+        always obeyed (g)_____instructions given by (h)_____ coach. Even he was
+        not found outside (i)_____ camp during practice session. (j)_____boy
+        like him is always appreciated by the people. <b /> <b />
+        14. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not require an article. Put a cross
+        (x) in those blanks. [Jashore Board-2017] <b />
+        The process of learning may very well be compared to
+        (a))_____undertaking of a journey. The learner or the student is
+        (b))_____journey taker or traveller. Just as a traveller has to undergo
+        all (c))_____ botherations of buying his ticket, booking his baggage,
+        showing up his ticket, taking care of things, boarding a train or a bus
+        and suffering every other item of (d))_____tedious journey to reach his
+        (e))_____destination, so a learner has to mange his learning affair
+        himself. It is (f))_____labourious process and no one can do (g))_____
+        labour for him and no one else can undertake (h))_____journey for
+        another. There is no trick or magic in it. It cannot be acquired at
+        second hand. Just as a traveler, he can enquire here and there in case
+        of doubt and difficulty. However, the journey is (i))_____passenger's
+        own concern. In (j))_____same way, learning is entirely the concern of
+        the student or the learner. <b /> <b />
+        15. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not require an article. Put a cross
+        (x) in those blanks. [Cumilla Board-2017] <b />
+        In (a))_____last 25 years (b))_____world has lost one-third of its
+        natural wealth, according to (c))-- international conservation
+        organisation world wild fund. (d))_____earth's forest, wetlands, seas
+        and coasts are in (e))_____worse state today than they were before.
+        Forests are cut down. Moreover, they are being burnt indiscriminately
+        resulting in (f))_____ increase in carbon dioxide and ultimately in
+        (g))_____water level rising as a consequence of global warming. It is
+        anticipated that (h))_____ overwhelming environmental (j)
+        )_____catastrophe. <b /> <b />
+        16. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not require an article. Put a cross
+        (x) in those blanks. [Chattogram Board-2017] <b />
+        'Rifle Roti Aurat' is (a)_____ first Bengali novel on (b)_____
+        Liberation War of Bangladesh. This unique novel is written by Anwar
+        Pasha, (c)_____professor of Bangla department at Dhaka University. He
+        wrote this (d) _____ novel between April and June in 1971. The main
+        characters in this novel is Sudipta Shaheen who shares his dream of
+        (e)_____ new country. Professor Anwar Pasha was picked up from his Dhaka
+        University residence two days before (f)_____victory. Sensing imminent
+        defeat, the member of (g)_____ notorious killing squad Al-Badr picked up
+        (h)_____ novelist Anwar Pasha and many other intellectuals and brutally
+        killed them. According to. (i)_____Banglapedia, around 991 academics, 13
+        journalists, 49 physicians, 42 lawyers, and 16 other intellectuals were
+        killed during (j)_____Liberation War of Bangladesh <b /> <b />
+        17. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not require an article. Put a cross
+        (x) in those blanks. [Sylhet Board-2017] <b />
+        Robi is (a)_____indigent boy. He comes of (b)_____needy family. But he
+        is diligent and upright. He has (c)_____ unique vision for life. He
+        believes that honesty is (d) _____ key to success. Moreover, he has
+        (e)_____deep sense of patriotism. Being imbued with these ideals, he
+        shapes (f)_____dream of his life. From (g)- dawn to dusk, he works hard.
+        He never squanders time, wastes money and dissipates (h)_____energy. His
+        only aim is to reach (i)_____apex of success. We need (j)_____ideal boy
+        like Robi. <b /> <b />
+        18. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not require an article. Put a cross
+        (x) in those blanks. [Barishal Board-2017] <b />
+        Truthfulness is (a)_____ greatest of all (b)_____virtues which makes
+        (c)_____person really great. If we do not cultivate (d)_____ habit of
+        speaking (e)_____truth, we cannot command (f)_____ trust of others. The
+        man whom nobody believes can never be famous in life. It may be that we
+        may succeed once or twice by telling (g)_____lie but it never brings
+        about (h)_____ good result. A lie never lies hidden. Today or tomorrow
+        it comes to light. Then (i)_____ real character of (j)_____liar is
+        revealed and nobody believes him. <b /> <b />
+        HSC Articles 2016 All Board Questions With Answer <b />
+        19. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not require an article. Put a cross
+        (x) in those blanks. [Dhaka Board-2016] <b />
+        Michael Madhusudan Dutt was (a)_____ popular 19th century Bengali poet
+        and dramatist. He was born in (b)_____ in Sagardari on the (c)_____ bank
+        of (d)_____ Kopotaksho river, (e)_____ village in Keshobpur Upazilla
+        under Jessore district. From (f)_____early age, Dutt aspired to be
+        (g)_____Englishman in form and manner. Though he was born in
+        (h)_____sophisticated Hindu family, he took Christianity arousing
+        (i)_____ anger of his family. He contributed much to (j)_____development
+        of Bengali literature. <b /> <b />
+        20. Filling the blanks in the following text with articles (a/an/the) as
+        necessary. Some of the blanks are not require an article. Put a cross
+        (x) in those blanks. [Rajshahi Board-2016] <b />
+        Every student wants to do better in (a)_____examination. But it is not
+        (b)_____easy work. (c)_____ student has to do something for this. From
+        (d)_____very beginning he must be serious. He should read (e)_____texts
+        again and again. He must not memorize (f)_____ answer without knowing
+        the meaning. He must not make notes from (g)_____common source. He
+        should have a good (h)_____command over English. By doing all these
+        things (i)_____student can hope to make a good (j)_____result
+      </div>
     </div>
   );
 }
