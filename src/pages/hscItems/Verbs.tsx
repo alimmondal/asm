@@ -48,7 +48,8 @@ function Verbs() {
 
           <div className="">
             <p>
-              1. Always, regularly, daily, often, sometimes, normally,
+              <span className="animateText font-bold">Rule: 1.</span> Always,
+              regularly, daily, often, sometimes, normally,
               generally,occasionally, everyday( বা every এর পরে কোন সময় থাকলে),{" "}
               <br />
               <span className="bengali">
@@ -86,8 +87,8 @@ function Verbs() {
             </p>
 
             <p>
-              4. বাক্যর মধ্যে Once, last, yesterday, ago, one day, in the past,
-              long since
+              <span className="animateText font-bold">Rule: 4.</span> বাক্যর
+              মধ্যে Once, last, yesterday, ago, one day, in the past, long since
               <span className="bengali">
                 ইত্যাদি অতীত নির্দেশক শব্দ থাকলে ব্রাকেটের Verb টি V2 হবে বা
                 বাক্যটি Past Indefinite Tense হয়। যেমন:
@@ -99,7 +100,8 @@ function Verbs() {
             </p>
 
             <p>
-              5. (a) Am, is, are, was, were, be, being, been,
+              <span className="animateText font-bold">Rule: 5.</span> (a) Am,
+              is, are, was, were, be, being, been,
               <span className="bengali">
                 ইত্যাদির পরে ব্রাকেটে Verb থাকলে passive এর ক্ষেত্রে বাক্যটি
                 passive voice এ হয় বা ব্রাকেটের Verb এর V3 হয়। যেমন:
@@ -151,7 +153,7 @@ function Verbs() {
             </p>
 
             <p>
-              7. (a)
+              <span className="animateText font-bold">Rule: 7.</span> (a)
               <span className="bengali">
                 সাধারণত To এর পরের ব্রাকেটের Verb টি V1 হয়। যেমন:
               </span>
@@ -259,7 +261,8 @@ function Verbs() {
             </p>
 
             <p>
-              11. (a) If দ্বারা শুরু বাক্যটি
+              <span className="animateText font-bold">Rule: 11. </span> (a) If
+              দ্বারা শুরু বাক্যটি
               <span className="bengali">
                 Present Indefinite tense হলে পরের বাক্যের Subject এর পরে will
                 হবে এবং verb এর V1 হয়। যেমন:
@@ -304,7 +307,7 @@ function Verbs() {
             </p>
 
             <p>
-              12.
+              <span className="animateText font-bold">Rule: 12. </span>
               <span className="bengali">
                 V + object + (verb) এর সাথে ing যুক্ত হয়। যেমন:
               </span>

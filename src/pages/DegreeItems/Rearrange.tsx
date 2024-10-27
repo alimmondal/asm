@@ -20,8 +20,8 @@ const Rearrange = () => {
         কোনটা subject, কোনটা verb, কোনটা objective/extra word বুঝে থাকেন তাহলে
         আপনাদের কাছে সহজ হবে আশা করি
         <br /> <br />
-        <h2 className="text-rose-500">
-          rule: 1 <br />
+        <h2 className="text-green-500">
+          <span className="animateText font-bold">Rule: </span>
           subject + verb + obj/extra <br />
           rule: 2 <br />
           Wh + A. v + sub + others?

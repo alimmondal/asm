@@ -11,8 +11,8 @@ function Punctuation() {
         {/* 1. Assertive, imperative and optative sentence */}
         <div className="mb-6">
           <p className="text-base">
-            1. Assertive, imperative এবং optative sentence এর শেষে Full Stop (.)
-            বসে।
+            <span className="animateText font-bold">Rule: 1.</span> Assertive,
+            imperative এবং optative sentence এর শেষে Full Stop (.) বসে।
             <br />
             Example: My you be happy.
           </p>

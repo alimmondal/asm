@@ -8,9 +8,9 @@ function Wh() {
       </div>
 
       <div className="py-10">
-        <h3 className="text-green-300">
-          Rule: Wh + helping verb + Subject + Principal verb (if stayed) +
-          extension?
+        <h3 className="text-green-500">
+          <span className="animateText font-bold">Rule:</span> Wh + helping verb
+          + Subject + Principal verb (if stayed) + extension?
         </h3>
         <br /> <br />
         Note: যেই শব্দের পরিবর্তে ওহ নেওয়া হবে সেই শব্দ উঠে যাবে
