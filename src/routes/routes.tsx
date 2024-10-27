@@ -46,6 +46,7 @@ import TagQuestion from "../pages/sscItems/TagQuestion";
 import SSuggestion from "../pages/sscItems/SSuggestion";
 import Notice from "../pages/DegreeItems/Notice";
 import Suffix from "../pages/DegreeItems/Suffix";
+import Rearrange from "../pages/DegreeItems/Rearrange";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -136,6 +137,10 @@ export const router = createBrowserRouter([
       {
         path: "/advertisement",
         element: <Advertisement />,
+      },
+      {
+        path: "/word-rearrange",
+        element: <Rearrange />,
       },
       {
         path: "/suffix",

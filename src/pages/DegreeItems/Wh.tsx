@@ -10,6 +10,9 @@ function Wh() {
       <div className="py-10">
         Rule: Wh + helping verb + Subject + Principal verb (if stayed) +
         extension? <br /> <br />
+        Note: যেই শব্দের পরিবর্তে ওহ নেওয়া হবে সেই শব্দ উঠে যাবে
+        <br />
+        <br />
         **Rule-1:** <br />
         প্রত্যেক বাক্যের Subject যদি ব্যাক্তিবাচক হয় সে Subject এর স্থলে Who
         এবং যদি বস্তুবাচক হয় তবে সে Subject এর স্থলে What/which ব্যবহার হবে।{" "}

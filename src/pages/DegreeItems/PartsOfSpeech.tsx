@@ -272,6 +272,8 @@ function PartsOfSpeech() {
           -Huh! I don't care! -Huh! I don't care! (Emotion of scorn)
         </div>
       </div>
+      {/* Exercise */}
+      <div className="py-10"></div>
     </div>
   );
 }

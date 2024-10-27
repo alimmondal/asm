@@ -1,6 +1,6 @@
 function Application() {
   return (
-    <div className="mx-3 h-full md:w-[85%] md:mx-auto bg-gray-100 text-gray-800 shadow-md mb-6 rounded-sm">
+    <div className="w-[95%] h-full  md:w-[85%] mx-auto dark:text-gray-300 ">
       <div>
         <div className="py-20 text-center">
           <h1>Application</h1>
@@ -71,6 +71,79 @@ function Application() {
         <div className="text-center mt-10">
           <h3>Job Application:</h3>
           <img src="img/job.jpg" alt="" />
+        </div>
+        <div className="py-10">
+          <h1 className="text-rose-500">Short Technique</h1>
+          <h2 className="pb-10">All Application in one application</h2>
+          <h3 className="text-green-400">
+            কোন সার্টিফিকেট বা সনদপত্র চেয়ে আবেদন পত্র
+          </h3>
+          <br />
+          যেমন: Character Certificate, Transfer Certificate (TC) অথবা
+          Testimonial ইত্যাদি লেখার প্রয়োজন হলে নিচের নিয়মটি অনুসরণ করো: <br />{" "}
+          <br />
+          The Headmaster/ Principal, <br />
+          Your school or college name. <br />
+          Sub: Prayer for (প্রশ্নে উল্লেখিত বিষয়টি) <br /> <br />
+          Sir, <br />
+          I am a student of class (তোমার শ্রেণীর নাম) of your prominent
+          institution. I beg most respectfully to state that my father is a
+          Government service holder. He has been transferred to Dhaka. I have no
+          kith and kin here. It is not possible for me to continue study here.
+          that’s why I have to leave the town with my family. <br /> <br />
+          So, I need a (প্রশ্নে উল্লেখিত বিষয়টি) from you. I therefore, pray and
+          hope that you would be kind enough to grant me and oblige thereby.{" "}
+          <br /> <br />
+          Your most obedient pupil <br />
+          (তোমার নাম) <br />
+          Class: ___ Roll: ___
+          <br />
+          <h3 className="text-green-400 mt-10">সাহায্য চেয়ে আবেদন</h3>
+          <br />
+          যেমন: Financial donation, Financial help, Stipend from the poor fund
+          অথবা A Full free studentship ইত্যাদি লেখার প্রয়োজন হলে নিচের নিয়মটি
+          অনুসরণ করো: <br /> <br />
+          The Headmaster/ Principal, <br />
+          Your school or college name. <br />
+          Sub: Prayer for (প্রশ্নে উল্লেখিত বিষয়টি) <br />
+          Sir, <br />
+          I am a student of class(তোমার শ্রেণীর নাম) of your prominent
+          institution. I beg most respectfully to state that I have come from a
+          very poor family. My father is a daily labor /farmer /rickshaw puller.
+          He is only earning member of our family. My three sisters and brothers
+          also read in your institution. It is more difficult for him to bear
+          our educational expenses. My result in the last Annual examination is
+          satisfactory. <br /> <br />
+          So, I need a (প্রশ্নে উল্লেখিত বিষয়টি) from you. I therefore, pray and
+          hope that you would be kind enough to grant me and oblige thereby.{" "}
+          <br />
+          Your most obedient pupil <br />
+          (তোমার নাম) <br />
+          Class: ___ Roll: ___ <br />
+          <h3 className="text-green-500 pt-10">
+            কোন কিছু স্থাপনের জন্য অনুরোধ করে বা অনুমতি চেয়ে আবেদন
+          </h3>
+          যেমন: A canteen, a common room, A computer club, A debating club, An
+          English debating club, A library room, An English language club অথবা A
+          hall room ইত্যাদি লেখার প্রয়োজন হলে নিচের নিয়মটি অনুসরণ করো: <br />{" "}
+          <br />
+          Date: <br />
+          The Headmaster/ Principal, <br />
+          Your school or college name. <br />
+          Subject: Prayer for setting up (প্রশ্নে উল্লেখিত বিষয়টি) <br />
+          Sir, <br />
+          We, the students of your school, beg most respectfully to state that a
+          large number of students study in our school. Our school is renowned
+          in this district and enriched with a lot of facilities. But we are
+          very unlucky that there is no (প্রশ্নে উল্লেখিত বিষয়টি) in our school.
+          So we deprived of enjoying the facilities of a (প্রশ্নে উল্লেখিত
+          বিষয়টি). <br /> <br />
+          May, we therefore, pray and hope that you would be kind enough to
+          grant us for setting up (প্রশ্নে উল্লেখিত বিষয়টি) in our school and
+          oblige thereby. <br /> <br />
+          We Remain Sir <br />
+          Yours obediently <br />
+          The students of class (তোমার শ্রেণীর নাম) <br />
         </div>
       </div>
     </div>

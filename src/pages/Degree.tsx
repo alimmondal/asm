@@ -16,21 +16,22 @@ function Degree() {
               Parts of Speech
             </li>
           </Link>
+          <Link to={"/wh"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
+              Wh-question
+            </li>
+          </Link>
           <Link to={"/suffix"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black">
               Suffix & Prefix
             </li>
           </Link>
-          <Link to={"/advertisement"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
-              Advertisement
+          <Link to={"/word-rearrange"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black">
+              Word Re-arrange
             </li>
           </Link>
-          <Link to={"/poster"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
-              Poster
-            </li>
-          </Link>
+
           <Link to={"/dCompleting"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
               Completing Sentence
@@ -39,6 +40,22 @@ function Degree() {
           <Link to={"/verbs"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
               Right Form of Verbs
+            </li>
+          </Link>
+
+          <Link to={"/punctuation"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
+              Punctuation
+            </li>
+          </Link>
+          <Link to={"/syn-ant"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
+              Synonym & Antonym
+            </li>
+          </Link>
+          <Link to={"/advertisement"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
+              Advertisement
             </li>
           </Link>
           <Link to={"/dialog"}>
@@ -51,34 +68,19 @@ function Degree() {
               Notice
             </li>
           </Link>
-          <Link to={"/report"}>
+          <Link to={"/poster"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
-              Report
-            </li>
-          </Link>
-          <Link to={"/modifier"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
-              Modifier
-            </li>
-          </Link>
-          <Link to={"/wh"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
-              Wh-question
-            </li>
-          </Link>
-          <Link to={"/punctuation"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
-              Punctuation
-            </li>
-          </Link>
-          <Link to={"/syn-ant"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
-              Synonym & Antonym
+              Poster
             </li>
           </Link>
           <Link to={"/paragraph"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
               Paragraph
+            </li>
+          </Link>
+          <Link to={"/report"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
+              Report
             </li>
           </Link>
           <Link to={"/essay"}>
