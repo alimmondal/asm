@@ -28,12 +28,16 @@ const Banner = () => {
     <div className="h-full">
       <div className="hero h-[600px] bannerBg">
         <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-3xl">
+        <div className="flex flex-col items-center justify-normal text-center text-neutral-content gap-4">
+          <div className="">
             <h1 className="text-2xl md:text-5xl">Welcome to</h1>
+          </div>
+          <div className="max-w-fit ">
             <h1 className="mb-5 text-2xl md:text-5xl font-bold heading2">
               <span className="text-green-400" ref={textRef}></span>
             </h1>
+          </div>
+          <div className="">
             <Button
               gradientDuoTone="purpleToPink"
               onClick={() => scrollToCategory()}

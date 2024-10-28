@@ -1,6 +1,5 @@
 import Banner from "../components/home/Banner";
 import Accordian from "../components/home/Accordions";
-import { Link } from "react-router-dom";
 import Video from "../components/home/Video";
 
 const Home = () => {
