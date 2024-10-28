@@ -173,7 +173,20 @@ function Punctuation() {
           </ul>
         </div>
       </div>
-
+      <div className="py-5">
+        <h3 className="text-green-400 text-center">
+          Want to learn more Punctuation, then download pdf
+        </h3>
+        <div className="text-center py-4">
+          <a
+            href="/punctuation.pdf"
+            download
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Download PDF
+          </a>
+        </div>
+      </div>
       {/* practice */}
       <div className="py-10">
         Exercise For Practice <br />
