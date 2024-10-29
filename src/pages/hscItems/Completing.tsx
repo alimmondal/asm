@@ -1,3 +1,5 @@
+import { Button } from "flowbite-react";
+
 function Completing() {
   return (
     <div className="h-full md:w-[85%] mx-auto px-5">
@@ -14,7 +16,7 @@ function Completing() {
 
       {/* <!-- Rules --> */}
       <div className="">
-        <h3>1. after / before:</h3>
+        <h3 className="animateText">1. after / before:</h3>
         <p>Q. He reached after............</p>
         <p>* He reached after he had / have/ has finished (reading it).</p>
         <p>= He reached after he had finished it.(before থাকলে had হবেনা)</p>
@@ -24,7 +26,7 @@ function Completing() {
         <p>* He read diligently lest he might / should fail / miss (it).</p>
         <p>= He read diligently lest he might miss it.</p>
 
-        <h3>3. It is time/ it is high time:</h3>
+        <h3 className="animateText">3. It is time/ it is high time:</h3>
         <p>Q. It is high time .......</p>
         <p>= It is high time we changed our habit.</p>
 
@@ -51,7 +53,7 @@ function Completing() {
         <p>(i) Saturday is the day (when)............</p>
         <p>* Saturday is the day when he was born / I went there.</p>
         <p>= Saturday is the day when I went there.</p>
-        <p>(ii) It is Rajshahi where ..........</p>
+        <p>(ii) It is Rajshahi where .......... .</p>
         <p>= It is Rajshahi where he was born / I went last year.</p>
 
         <h3>7. Without / By + V1-ing:</h3>
@@ -60,7 +62,7 @@ function Completing() {
         <p>(ii) By eating balance diet..................</p>
         <p>= By eating balance diet you can hope (to attain) it.</p>
 
-        <h3>8. If:</h3>
+        <h3 className="animateText">8. If:</h3>
         <p>(i) if he comes,..................</p>
         <p>= if he comes. I will do it.</p>
         <p>(ii) if he came..................</p>
@@ -104,7 +106,10 @@ function Completing() {
         <p>Q. you are too short to...</p>
         <p>= You are too short to imagine.</p>
 
-        <h3>15. So that / in order that/ provided that:</h3>
+        <h3 className="animateText">
+          {" "}
+          15. So that / in order that/ provided that:
+        </h3>
         <p>Q. He went to the market so that........</p>
         <p>* He went to the market so that he can / could do the work.</p>
         <p>= He went to the market so that he could develop the work.</p>
@@ -167,9 +172,11 @@ function Completing() {
         <p>Q. I wish ....</p>
         <p>= I wish I were a king/ queen/ bird</p>
 
-        <h3>26. Since</h3>
+        <h3 className="animateText">26. Since</h3>
         <p>Q. It is long since ........</p>
-        <p>= It is long since we met/ we had met</p>
+        <p>= It is long since we met.</p>
+        <p>Q. It is long since ........</p>
+        <p>= It was long since we had met</p>
         <p>Q. Since he is honest, ........</p>
         <p>= Since he is honest, we can think otherwise</p>
 
@@ -192,6 +199,12 @@ function Completing() {
         <h3>30. S + v + to:</h3>
         <p>Q. He wants to .........</p>
         <p>Q. He wants to go to home / read more</p>
+      </div>
+
+      <div className="flex items-center justify-center py-10">
+        <a href="/HCompleting" download>
+          <Button gradientDuoTone="purpleToPink">Download PDF</Button>
+        </a>
       </div>
 
       {/* <!-- Exercise --> */}

@@ -1,4 +1,20 @@
+import { Button } from "flowbite-react";
+
 function Phrase() {
+  const images = [
+    { url: "/phrase1.jpg", name: "phrase1.jpg" },
+    { url: "/phrase2.jpg", name: "phrase2.jpg" },
+    { url: "/phrase3.jpg", name: "phrase3.jpg" },
+  ];
+
+  const handleDownload = () => {
+    images.forEach((image) => {
+      const link = document.createElement("a");
+      link.href = image.url;
+      link.download = image.name;
+      link.click();
+    });
+  };
   return (
     <div className="h-full md:w-[85%]  mx-auto">
       <div className="my-20 px-5">
@@ -241,11 +257,14 @@ function Phrase() {
         </div>
       </div>
 
-      {/* Rules in image*/}
-      <div className="">
-        {/* <img src="/phrase1.jpg" alt="" className="w-full h-full" /> */}
-        {/* <img src="/phrase2.jpg" alt="" className="w-full h-full" /> */}
-        {/* <img src="/phrase3.jpg" alt="" className="w-full h-full" /> */}
+      <div className="w-full flex items-center justify-center py-4">
+        <Button
+          gradientDuoTone="purpleToPink"
+          onClick={handleDownload}
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        >
+          Download PDF
+        </Button>
       </div>
 
       {/* EXAmple */}

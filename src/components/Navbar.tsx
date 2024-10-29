@@ -40,7 +40,7 @@ const Navbar = () => {
         className={
           nav
             ? "fixed top-0 left-0 right-0 z-10 transition-all bg-green-400 text-white font-bold"
-            : "bg-transparent text-green-500 font-bold"
+            : "bg-sky-500 font-bold text-black"
         }
       >
         <div className="navbar ">
@@ -76,7 +76,7 @@ const Navbar = () => {
                 tabIndex={0}
                 className={
                   click
-                    ? "menu menu-sm dropdown-content mt-3 z-[1] shadow bg-base-100 rounded-box w-52 text-slate-400 dark:text-slate-400 "
+                    ? "menu menu-sm dropdown-content mt-3 z-[1] shadow bg-base-100 rounded-box w-52 text-green-400 dark:text-slate-400 border-2 border-green-400"
                     : "dropdown-content right-96"
                 }
               >
