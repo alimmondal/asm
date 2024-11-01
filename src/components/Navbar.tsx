@@ -150,7 +150,7 @@ const Navbar = () => {
             </Link>
           </div>
 
-          <div className="">
+          <div className="hidden md:flex">
             <SearchBar />
           </div>
           {/* Desktop menu */}

@@ -483,7 +483,8 @@ const Accordions = () => {
                 <br />
                 <strong>সংজ্ঞাঃ</strong>(2) অতীতে দুইটি কাজ হয়েছিল, সেই দুটি
                 কাজের একটি আরেকটির আগে বা পরে করা হয়েছিল বুঝালে Past Perfect
-                Tense হয় ।
+                Tense হয়। যে কাজটি আগে হওয়া বুঝায় সেই বাক্যটির গঠন Past Perfect
+                Tense এ হবে আর যে কাজটি পরে হয় সেটি Past Indefinite tense এ হবে।
                 <br />
                 <strong>গঠন</strong> (<strong>Structure</strong>):
                 <br />
