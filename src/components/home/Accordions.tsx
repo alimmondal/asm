@@ -378,6 +378,19 @@ const Accordions = () => {
                 <br />
                 যেমনঃ <br />
                 আমরা কি ভাত খাইলাম/খেলাম না? - Do we not eat rice? <br />
+                <div className="pt-10">
+                  <h3 className="animateText">**Rule**</h3>
+                  <p className="">
+                    কিন্তু বাংলা ক্রিয়ার শেষে যদি তে, ত, তাম ইত্যাদি থাকে তবে
+                    বাক্যের গঠন হবে নিম্নরূপঃ
+                    <br />
+                    <br />
+                    Structure: Sub + used to + V <sub>1</sub> + Obj + Extension.
+                    <br />
+                    <br />
+                    যেমনঃ আমি চা খাইতাম। I used to sip/ drink tea.
+                  </p>
+                </div>
               </div>
             </div>
           </AccordionContent>

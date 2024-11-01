@@ -20,7 +20,7 @@ const SearchBar = () => {
 
     const url = queryString.stringifyUrl(
       {
-        url: "/",
+        url: "/search",
         query: {
           searchTerm: data.searchTerm,
         },

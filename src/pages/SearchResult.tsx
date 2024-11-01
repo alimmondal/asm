@@ -5,7 +5,15 @@ const SearchResults = () => {
   const location = useLocation();
   const { searchTerm } = queryString.parse(location.search);
 
-  return <div>Results for: {searchTerm}</div>;
+  return (
+    <div className="h-screen flex items-center justify-center">
+      {searchTerm ? (
+        <p>Results for: {searchTerm}</p>
+      ) : (
+        <p>No search term provided.</p>
+      )}
+    </div>
+  );
 };
 
 export default SearchResults;
