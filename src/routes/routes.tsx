@@ -47,7 +47,7 @@ import SSuggestion from "../pages/sscItems/SSuggestion";
 import Notice from "../pages/DegreeItems/Notice";
 import Suffix from "../pages/DegreeItems/Suffix";
 import Rearrange from "../pages/DegreeItems/Rearrange";
-import SearchResults from "../pages/SearchResult";
+import SearchResults from "../pages/SearchResults";
 export const router = createBrowserRouter([
   {
     path: "/",
