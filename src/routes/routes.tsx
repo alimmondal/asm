@@ -47,6 +47,7 @@ import SSuggestion from "../pages/sscItems/SSuggestion";
 import Notice from "../pages/DegreeItems/Notice";
 import Suffix from "../pages/DegreeItems/Suffix";
 import Rearrange from "../pages/DegreeItems/Rearrange";
+import SearchResults from "../pages/SearchResult";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -57,6 +58,10 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Home />,
         // loader: () => fetch("http://localhost:5000/shoes"),
+      },
+      {
+        path: "/search",
+        element: <SearchResults />,
       },
       {
         path: "/ssc",

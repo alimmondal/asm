@@ -4,6 +4,7 @@ import Header from "./Header";
 import { FaBookReader } from "react-icons/fa";
 import { useState } from "react";
 import { FaRegTimesCircle } from "react-icons/fa";
+import SearchBar from "./SearchBar";
 
 const Navbar = () => {
   const auth = useAuth();
@@ -138,6 +139,7 @@ const Navbar = () => {
                 )}
               </ul>
             </div>
+
             <Link
               onClick={closeMobileMenu}
               to={"/"}
@@ -148,21 +150,15 @@ const Navbar = () => {
             </Link>
           </div>
 
+          <div className="">
+            <SearchBar />
+          </div>
           {/* Desktop menu */}
-          <div className="navbar-center hidden lg:flex">
+          {/* <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-0">
               <li>
                 <Link to={"/"}>Home</Link>
               </li>
-              {/* <li>
-                <Link to={"/ssc"}>SSC</Link>
-              </li>
-              <li>
-                <Link to={"/hsc"}>HSC</Link>
-              </li>
-              <li>
-                <Link to={"/degree"}>Degree</Link>
-              </li> */}
               <li>
                 <Link to={"/about"}>About</Link>
               </li>
@@ -182,7 +178,8 @@ const Navbar = () => {
                 </li>
               )}
             </ul>
-          </div>
+          </div> */}
+
           <div className="navbar-end space-x-2">
             {auth?.user && (
               <button
