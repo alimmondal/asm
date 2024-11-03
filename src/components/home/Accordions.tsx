@@ -469,7 +469,10 @@ const Accordions = () => {
                 যেমনঃ খাইলাম/খেলাম/খাইয়াছিলাম <br />
                 <strong>গঠন</strong> (<strong>Structure</strong>): <br />
                 হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                <strong> * Sub + had + V3 + obj + others. </strong>
+                <strong>
+                  {" "}
+                  * Sub + had + V <sub>3</sub> + obj + others.{" "}
+                </strong>
                 <br />
                 যেমনঃ <br />
                 আমরা ভাত খাইলাম/খেলাম/খেয়েছিলাম/খাইয়াছিলাম - We ate rice. <br />
@@ -485,13 +488,12 @@ const Accordions = () => {
                 কাজের একটি আরেকটির আগে বা পরে করা হয়েছিল বুঝালে Past Perfect
                 Tense হয়। যে কাজটি আগে হওয়া বুঝায় সেই বাক্যটির গঠন Past Perfect
                 Tense এ হবে আর যে কাজটি পরে হয় সেটি Past Indefinite tense এ হবে।
-                <br />
-                <strong>গঠন</strong> (<strong>Structure</strong>):
+                <br />(<strong>Structure</strong>):
                 <br />
                 বাক্যের মধ্যে আগে থাকলেঃ <br />
-                ১. Past Perfect Tense + before + Past Indefinite Tense <br />
+                1. Past Perfect Tense + before + Past Indefinite Tense <br />
                 বাক্যের মধ্যে পরে থাকলেঃ <br />
-                ২. Past Indefinite Tense + after + Past Perfect Tense
+                2. Past Indefinite Tense + after + Past Perfect Tense
               </div>
             </p>
           </AccordionContent>
