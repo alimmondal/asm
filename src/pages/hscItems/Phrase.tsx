@@ -15,6 +15,7 @@ function Phrase() {
       link.click();
     });
   };
+
   return (
     <div className="h-full md:w-[85%]  mx-auto">
       <div className="my-20 px-5">
@@ -111,7 +112,7 @@ function Phrase() {
           <div className="mb-6">
             <h3 className="font-semibold">9. There/it:</h3>
             <ul className="list-disc pl-5">
-              <li>It বাক্যের শুরুতে শূন্যস্থান থাকবে ।</li>
+              <li>বাক্যের শুরুতে শূন্যস্থান থাকবে ।</li>
               <li>
                 শূন্যস্থানের পরে am/ is/ are/ was/ were/had/ been/ has been /
                 V-1 / V-2 থাকবে ।
@@ -119,15 +120,18 @@ function Phrase() {
             </ul>
             <h3 className="mt-2 font-semibold italic">অন্যান্য:</h3>
             <ul className="list-disc pl-5">
-              <li>There এর জন্য বাক্যের শেষে in/on/at থাকবে ।</li>
               <li>
-                There এর জন্য বাক্যের শুরতে শূন্যস্থানের আগে once/ once upon a
-                time/ long ago থাকতে পারে।
+                There এর জন্য ক্ষেত্রে বাক্যের শেষে in/on/at থাকবে এবং স্থানবাচক
+                শব্দ থাকবে।
               </li>
               <li>
+                There এর ক্ষেত্রে বাক্যের শুরতে শূন্যস্থানের আগে once/ once upon
+                a time/ long ago থাকতে পারে।
+              </li>
+              <li>
+                বাক্যের মধ্যে কোন সময়ের উল্লেখ থাকলে শূন্যস্থানে it বসে (তবে
                 বাক্যের শুরতে শূন্যস্থানের আগে once/ once upon a time/ long ago
-                ছাড়া অন্য কোন সময়ের উল্লেখ বাক্যের মধ্যে থাকলে it শূন্যস্থানে
-                বসে পারে।
+                ছাড়া)।
               </li>
             </ul>
           </div>
@@ -151,9 +155,9 @@ function Phrase() {
             </ul>
             <h3 className="mt-2 font-semibold italic">অন্যান্য:</h3>
             <ul className="list-disc pl-5">
+              <li>অনেক সময় শূন্যস্থানের পরে possible থাকে ।</li>
               <li>অনেক সময় দুই বাক্যের মাঝখানে শূন্যস্থানে as soon as বসে।</li>
               <li>শূন্যস্থানের পরের বাক্যে V-2 থাকে ।</li>
-              <li>অনেক সময় শূন্যস্থানের পরে possible থাকে ।</li>
             </ul>
           </div>
 
@@ -175,9 +179,8 @@ function Phrase() {
                 থাকে।
               </li>
               <li>
-                প্রথম বাক্যের মধ্যে not থাকবে না যদি দুই বাক্যের মাঝখানে
-                শূন্যস্থান না থেকে কোমা থাকে সেক্ষেত্রে প্রথম বাক্যের শুরুতে
-                শূন্যস্থান থাকবে।
+                প্রথম বাক্যের শুরুতে শূন্যস্থান থাকলে দুই বাক্যের মাঝখানে কোমা
+                থাকে। সেক্ষেত্রে প্রথম বাক্যের মধ্যে not থাকবে না।
               </li>
             </ul>
           </div>
@@ -327,7 +330,7 @@ function Phrase() {
               than 1000 years ago.
             </li>
             <li className="before:content-['(i)'] before:mr-2 mt-2">
-              I cannot ride a bicycle _____ a motor cycle. I have no money to
+              I cannot ride a bicycle, _____ a motor cycle. I have no money to
               buy any of them.
             </li>
             <li className="before:content-['(j)'] before:mr-2 mt-2">
@@ -341,7 +344,7 @@ function Phrase() {
           <div className="mb-4">
             <h3>Exercise - 2</h3>
 
-            <div className="grid grid-cols-3 gap-4 border p-2">
+            <div className="grid grid-cols-3 gap-4 border p-2 font-bold">
               <div>there</div>
               <div>was born</div>
               <div>what does... look like</div>
@@ -349,13 +352,14 @@ function Phrase() {
               <div>it</div>
               <div>would rather</div>
               <div>as soon as</div>
-              <div>let a</div>
+              <div>let alone</div>
+              <div>have to</div>
               <div>what’s it like</div>
             </div>
           </div>
 
           <div className="space-y-2">
-            <p>(a) Anika can't afford a bus ticket ______ air ticket.</p>
+            <p>(a) Anika can't afford a bus ticket, ______ air ticket.</p>
             <p>(b) It may rain today, you ______ reach home earlier.</p>
             <p>
               (c) ______ is many years since we first met. How time does fly!
@@ -389,11 +393,10 @@ function Phrase() {
         </div>
 
         {/* EXAmple 3*/}
-
         <div className="p-4 mt-10">
           <div className="mb-2">
             <h3 className="text-lg font-bold mb-2">Practice - 3</h3>
-            <div className="grid grid-cols-3 gap-1 border p-2 text-blue-500">
+            <div className="grid grid-cols-3 gap-1 border p-2 text-blue-500 font-bold">
               <div>there</div>
               <div>let alone</div>
               <div>have to</div>
@@ -414,22 +417,14 @@ function Phrase() {
               the same in Bangladesh?
             </p>
             <p>
-              (c) In our country, rainy season is very different. During this
-              season ______ rains heavily without any gap.
+              (c) In our country, rainy season is very different. ______ rains
+              heavily During rainy season without any gap.
             </p>
             <p>
               (d) Socrates was a great Greek philosopher. He ______ in 469 BC.
-              He spoke against the traditional Greek beliefs and so he was
-              sentenced to death by drinking hemlock.
             </p>
-            <p>
-              (e) Long ago, ______ lived a mighty warrior, Kublai Khan. He built
-              an amazing palace in a deep dark and mysterious forest.
-            </p>
-            <p>
-              (f) A warrior ______ die than surrender to enemies. He loves his
-              country more than his life.
-            </p>
+            <p>(e) Long ago, ______ lived a mighty warrior, Kublai Khan.</p>
+            <p>(f) A warrior ______ die than surrender to enemies.</p>
             <p>(g) We ______ take an umbrella. It may rain today.</p>
             <p>(h) ______ the weather ______ today?</p>
             <p>(i) Baby: Mom, ______ a ghost ______?</p>
@@ -445,7 +440,7 @@ function Phrase() {
         <div className="p-4 mt-10">
           <div className="mb-1">
             <h3 className="text-lg font-bold mb-2">Practice - 4</h3>
-            <div className="grid grid-cols-3 gap-2 border text-blue-500">
+            <div className="grid grid-cols-3 gap-2 border text-blue-500 font-bold">
               <div>as soon as</div>
               <div>had better</div>
               <div>has to</div>
@@ -460,10 +455,7 @@ function Phrase() {
           </div>
 
           <div className="space-y-2">
-            <p>
-              (a) A good citizen ______ perform a lot of things. These things
-              will enable him to become a true patriot.
-            </p>
+            <p>(a) A good citizen ______ perform a lot of things.</p>
             <p>(b) ______ is no fish here. It's a swimming pool.</p>
             <p>
               (c) Mr. Habib is an honest man. He ______ starve than take bribe.
@@ -479,14 +471,8 @@ function Phrase() {
               (g) He is very miserly. He doesn't help his neighbors, ______ the
               villagers.
             </p>
-            <p>
-              (h) I went to my village home on foot. ______ took me two hours to
-              reach there.
-            </p>
-            <p>
-              (i) The weather is getting worse. I ______ start for home. My
-              parents will be anxious for me.
-            </p>
+            <p>(h) ______ took me two hours to reach there.</p>
+            <p>(i) The weather is getting worse. I ______ start for home.</p>
             <p>
               (j) Tennyson was a great Victorian poet. He ______ in England.
             </p>
