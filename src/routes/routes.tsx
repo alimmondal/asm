@@ -48,6 +48,7 @@ import Notice from "../pages/DegreeItems/Notice";
 import Suffix from "../pages/DegreeItems/Suffix";
 import Rearrange from "../pages/DegreeItems/Rearrange";
 import SearchResults from "../pages/SearchResults";
+import BoardQuestion from "../pages/hscItems/BoardQuestion";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -74,6 +75,10 @@ export const router = createBrowserRouter([
       {
         path: "/degree",
         element: <Degree />,
+      },
+      {
+        path: "/HQuestion",
+        element: <BoardQuestion />,
       },
       {
         path: "/article",
