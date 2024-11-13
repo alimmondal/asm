@@ -32,7 +32,7 @@ function Phrase() {
           </div>
 
           <div className="mb-6">
-            <h3 className="font-semibold">
+            <h3 className="font-semibold animateText">
               2. What's it like/ Would you mind:
             </h3>
             <ul className="list-disc pl-5">
@@ -93,7 +93,7 @@ function Phrase() {
           </div>
 
           <div className="mb-6">
-            <h3 className="font-semibold">
+            <h3 className="font-semibold animateText">
               8. Had better/ have to/ has to/ had to/ used to:
             </h3>
             <ul className="list-disc pl-5">

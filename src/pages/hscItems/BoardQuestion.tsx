@@ -9,6 +9,26 @@ const BoardQuestion = () => {
       <div className="py-20">
         <h1 className="text-center">HSC Board Question</h1>
       </div>
+
+      <div className="py-5">
+        <div>
+          <Worker
+            workerUrl={`https://unpkg.com/pdfjs-dist@2.9.359/build/pdf.worker.min.js`}
+          >
+            <Viewer fileUrl="/HSC-English-2nd-Test-Paper.pdf" />
+          </Worker>
+        </div>
+        <div className="text-center py-4">
+          <a
+            href="/HSC-English-2nd-Test-Paper.pdf"
+            download
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Download PDF
+          </a>
+        </div>
+      </div>
+
       <div className="py-5">
         <div>
           <Worker
