@@ -16,7 +16,9 @@ function Completing() {
 
       {/* <!-- Rules --> */}
       <div className="">
-        <h3 className="animateText">1. after / before:</h3>
+        <h3 className="">
+          <span className="animateText">***</span> 1. after / before:
+        </h3>
         <p>Q. He reached after............</p>
         <p>* He reached after he had / have/ has finished (reading it).</p>
         <p>= He reached after he had finished it.(before থাকলে had হবেনা)</p>
@@ -26,7 +28,10 @@ function Completing() {
         <p>* He read diligently lest he might / should fail / miss (it).</p>
         <p>= He read diligently lest he might miss it.</p>
 
-        <h3 className="animateText">3. It is time/ it is high time:</h3>
+        <h3 className="">
+          <span className="animateText">***</span>3. It is time/ it is high
+          time:
+        </h3>
         <p>Q. It is high time .......</p>
         <p>= It is high time we changed our habit.</p>
 
@@ -62,7 +67,9 @@ function Completing() {
         <p>(ii) By eating balance diet..................</p>
         <p>= By eating balance diet you can hope (to attain) it.</p>
 
-        <h3 className="animateText">8. If:</h3>
+        <h3 className="">
+          <span className="animateText">***</span> 8. If:
+        </h3>
         <p>(i) if he comes,..................</p>
         <p>= if he comes. I will do it.</p>
         <p>(ii) if he came..................</p>
@@ -106,15 +113,17 @@ function Completing() {
         <p>Q. you are too short to...</p>
         <p>= You are too short to imagine.</p>
 
-        <h3 className="animateText">
-          {" "}
+        <h3 className="">
+          <span className="animateText">***</span>
           15. So that / in order that/ provided that:
         </h3>
         <p>Q. He went to the market so that........</p>
         <p>* He went to the market so that he can / could do the work.</p>
         <p>= He went to the market so that he could develop the work.</p>
 
-        <h3>16. So... that:</h3>
+        <h3>
+          <span className="animateText">*** </span> 16. So... that:
+        </h3>
         <p>Q. He is so interesting (that)...</p>
         <p>* He is so interesting that we cannot / couldn’t imagine.</p>
         <p>= He is so interesting that we cannot imagine.</p>
@@ -172,7 +181,9 @@ function Completing() {
         <p>Q. I wish ....</p>
         <p>= I wish I were a king/ queen/ bird</p>
 
-        <h3 className="animateText">26. Since</h3>
+        <h3 className="">
+          <span className="animateText">***</span> 26. Since
+        </h3>
         <p>Q. It is long since ........</p>
         <p>= It is long since we met.</p>
         <p>Q. It is long since ........</p>
@@ -190,7 +201,9 @@ function Completing() {
         <p>Q. We met him while we ..........</p>
         <p>= We met him while we were walking on the road</p>
 
-        <h3>29. Proverb/maxim:</h3>
+        <h3>
+          <span className="animateText">***</span> 29. Proverb/maxim:
+        </h3>
         <p>Q. There is a proverb ..........</p>
         <p>= There is a proverb that time and tide wait for none</p>
         <p>Q. There goes a proverb ..........</p>
@@ -211,53 +224,43 @@ function Completing() {
       <div className="pb-10">
         <h1>Exercise</h1>
         <p>1. He reached after..........</p>
-        <p>2. He reached after he had/ have/ has finished (reading).</p>
-        <p>3. He read diligently lest..........</p>
-        <p>4. He read diligently lest he might/ should fail/ miss.</p>
-        <p>5. It is high time we gave up smoking.</p>
+        <p>2. He went home before ...........</p>
+        <p>3. He studied hard lest..........</p>
+        <p>4. He read diligently lest ..........</p>
+        <p>5. It is high time .........</p>
         <p>6. He is a doctor (who)..........</p>
         <p>7. He is a doctor who is clever/ honest/ wants to be happy.</p>
-        <p>
-          8. He said that it is/ was favorite to him/ it was beautiful to me.
-        </p>
-        <p>9. This is the house that/ which..........</p>
-        <p>10. Saturday is the day (when)..........</p>
-        <p>11. Saturday is the day when he was born/ I went there.</p>
-        <p>12. It is Rajshahi where he was born/ I went last year.</p>
-        <p>13. Without writing much you cannot hope (to attain) it.</p>
+        <p>8. He said that .................</p>
+        <p>9. This is the house which..........</p>
+        <p>10. Saturday is the day when..........</p>
+
+        <p>12. It is Rajshahi where .........</p>
+        <p>13. Without writing much .........</p>
         <p>14. By eating balanced diet..........</p>
-        <p>15. I will do it if he comes, I will do it.</p>
-        <p>16. I would do it if he came.</p>
-        <p>17. He would have done it if he had come.</p>
+        <p>15. if he comes, .........</p>
+        <p>16. if he came, ...........</p>
+        <p>17. if he had come, ..........</p>
         <p>18. He tells the matter as though..........</p>
-        <p>19. He tells the matter as though he were mad.</p>
         <p>20. It is time to........</p>
-        <p>21. It is time for us to start the work.</p>
         <p>22. No sooner had........ than........</p>
-        <p>23. No sooner had he gone out than he came.</p>
         <p>24. He will stay here until/ till........</p>
-        <p>25. He will stay here until he comes back.</p>
-        <p>26. Unless you read attentively, you will fail.</p>
+        <p>26. Unless you read attentively, ........</p>
         <p>27. You may fail unless........</p>
-        <p>28. You may fail unless you work hard.</p>
         <p>29. You are too short to........</p>
-        <p>30. He went to the market so that he can/ could do the work.</p>
-        <p>31. He is so interesting that we cannot/ couldn’t imagine.</p>
-        <p>32. Due to fog he could not attend the meeting.</p>
+        <p>30. He went to the market so that............</p>
+        <p>31. He is so interesting that.......</p>
+        <p>32. Due to fog .........</p>
         <p>33. They do not eat right food because........</p>
-        <p>
-          34. They do not eat right food because they do not understand/ it is
-          helpful.
-        </p>
-        <p>35. Despite being honest, he was punished.</p>
-        <p>36. He had better read now.</p>
+        <p>34. They do not eat right food because .......</p>
+        <p>35. Despite being honest, ......</p>
+        <p>36. He had better......</p>
         <p>37. I would rather/ better........</p>
-        <p>38. I would rather/ better read than do this.</p>
-        <p>39. Would you mind opening the door?</p>
+
+        <p>39. Would you mind ..........?</p>
         <p>40. He is known to be........</p>
         <p>41. I took the pen in case........</p>
-        <p>42. We can/ will be able to maintain good health if........</p>
-        <p>43. We could/ would/ might/ make good results if........</p>
+        <p>42. We will maintain health if........</p>
+        <p>43. We could make good results if........</p>
         <p>44. We could have made good results if we........</p>
         <p>45. He works day and night in his land in order that........</p>
         <p>46. Sumi is a poor peasant who........</p>
