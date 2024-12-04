@@ -229,7 +229,7 @@ function Completing() {
         <p>4. He read diligently lest ..........</p>
         <p>5. It is high time .........</p>
         <p>6. He is a doctor (who)..........</p>
-        <p>7. He is a doctor who is clever/ honest/ wants to be happy.</p>
+        <p>7. He is a doctor who ..........</p>
         <p>8. He said that .................</p>
         <p>9. This is the house which..........</p>
         <p>10. Saturday is the day when..........</p>

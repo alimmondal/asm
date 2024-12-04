@@ -8,6 +8,9 @@ import {
 const Accordions = () => {
   return (
     <div className="py-14 mx-5 md:mx-12">
+      <h1 className="text-center w-full text-4xl font-bold uppercase mb-10 text-green-400">
+        Tense
+      </h1>
       <Accordion>
         <AccordionPanel>
           <AccordionTitle>What is Tense?</AccordionTitle>

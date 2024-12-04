@@ -50,7 +50,7 @@ const Banner = () => {
       </div>
 
       <div className="h-full max-w-7xl  mx-auto py-20" id="category">
-        <h1 className="py-4 text-center w-full text-4xl font-bold ">
+        <h1 className="py-4 text-center w-full text-4xl font-bold uppercase text-green-400">
           Category
         </h1>
 
