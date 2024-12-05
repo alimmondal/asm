@@ -4,6 +4,7 @@ const Preposition = () => {
       <div className=" dark:bg-white dark:p-4">
         <img src="/prepositionTitle.png" alt="" className=" h-36" />
       </div>
+
       {/* Rules  */}
       <div className="my-10 w-[95%] mx-auto">
         1. শুন্যস্থানের একটি/ দুটি শব্দের পূর্বে যদি a, an, the থাকে তবে
@@ -61,6 +62,15 @@ const Preposition = () => {
         10. V-3 এর পরে শুন্যস্থানে এবং যানবাহনের নামের পূবের শুন্যস্থানে-by বসে।
         *Mim is always helped by me. *Mim will fly to America by plane.
         <br />
+        <div className="text-center py-4">
+          <a
+            href="/preposition.pdf"
+            download
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Download PDF
+          </a>
+        </div>
         <br />
         <br />
         <h3 className=""> EXTRA HITS:</h3>
@@ -101,10 +111,19 @@ const Preposition = () => {
         <br />
         *May Mim shine in life.
       </div>
+      <div className="text-center py-4">
+        <a
+          href="/preposition.pdf"
+          download
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        >
+          Download PDF
+        </a>
+      </div>
+
       {/* Appropriate Preposition */}
       <div className="my-10">
         <h3 className="">APROPRIATE PREPOSITION</h3>
-        <br />
         <br />
         * TO: <br />
         Congenial, confine, contribute, convey,common.cling,compare,callous,
@@ -171,8 +190,7 @@ const Preposition = () => {
         <br />
         INTO: <br />
         Sink, enter, turn, root, admission, divide <br />
-        <br />
-        IDIOMS & PHRASES: <br />
+        <h3>IDIOMS & PHRASES:</h3>
         From the very beginning, *tell about/upon, write about/to, take pity on,
         fight shy of, make out/of/up, *in this respect, bring about/up, look
         for/into/down upon/ after, build up, end in smoke, read out, in time, in
@@ -220,12 +238,15 @@ const Preposition = () => {
         <br />
         <br />
       </div>
-      <div className="pb-10 md:w-[85%] mx-auto">
-        <img src="img/prep1.jpg" alt="" />
-        <img src="img/prep2.jpg" alt="" />
-        <img src="img/prep3.jpg" alt="" />
-        <img src="img/prep4.jpg" alt="" />
-        <img src="img/prep5.jpg" alt="" />
+
+      <div className="text-center py-4">
+        <a
+          href="/preposition.pdf"
+          download
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        >
+          Download PDF
+        </a>
       </div>
     </div>
   );
