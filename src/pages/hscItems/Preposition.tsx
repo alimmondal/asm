@@ -1,9 +1,10 @@
 const Preposition = () => {
   return (
-    <div className="h-full  ">
-      <div className="w-[50%] mx-auto dark:bg-white">
-        <img src="/prepositionTitle.png" alt="" className="h-24 md:h-36" />
+    <div className="h-full w-[95%] mx-auto">
+      <div className=" dark:bg-white dark:p-4">
+        <img src="/prepositionTitle.png" alt="" className=" h-36" />
       </div>
+      {/* Rules  */}
       <div className="my-10 w-[95%] mx-auto">
         1. শুন্যস্থানের একটি/ দুটি শব্দের পূর্বে যদি a, an, the থাকে তবে
         শূন্যস্থানে of বসে। অর্থাৎ দুটি Noun (N+N) এর মাঝখানে of বসে।
@@ -99,6 +100,125 @@ const Preposition = () => {
         Life এর পূর্বে সাধারণত-in বসে।
         <br />
         *May Mim shine in life.
+      </div>
+      {/* Appropriate Preposition */}
+      <div className="my-10">
+        <h3 className="">APROPRIATE PREPOSITION</h3>
+        <br />
+        <br />
+        * TO: <br />
+        Congenial, confine, contribute, convey,common.cling,compare,callous,
+        compliment.belong, regard, ready, respond, refer, reply,rise, hindrence,
+        true,tribute, addicted, accustomed, alien, appoint, devoted,
+        detrimental,due, indifferent, impart, stick, subject, similar, promote,
+        paralell, prefer, prejudi cal.prentend,owe/owing.opposite. obstacle,
+        essential, exception, expose, listen, lead, favourable, marry, invite,
+        injurious, inevitable, addiction,add,h eed, grateful, yield, heed <br />
+        *Mim will contribute ..... social work. <br />
+        =Mim will contribute to social work.
+        <br />
+        <br />
+        ON: <br />
+        Insist, bent, focus, keen, impact, bestow, depend, dependence,
+        emphasis.co ncentrate, determind, afloat, smile, <br />
+        *Mim insisted ......on.....my going her house.
+        <br />
+        <br />
+        AT: <br />
+        Shock, knock, laugh, good, aim, astonish, amaze, arrive, vex, sneer,
+        stare, wink
+        <br />
+        *Mim was knocking.....at....the door. <br />
+        <br />
+        FOR: <br />
+        account, atone, ask, accountable to/for, anxious, aware/awareness,
+        aspire, apply to/for, desire, demand, dream, curse, congratulate, thank,
+        thirst, fond, fit, fight, feel, prepare/preparation, prescribe, ill,
+        sick, sympathize, serious, send, sorry, seek, mourn, ready, effect,
+        prize, ready, remedy, worry, wait, eager, necesity/necessery, pardon,
+        role for/of, harmful, excuse, love, must, long, <br />
+        *Mim must atone...... for.....her misdeed. <br />
+        *Man should not aspire.....for.....wealth.
+        <br />
+        <br />
+        IN: <br />
+        lie, consist, absorb, prevalent, interest, pride, concentrate,
+        believe/belief, trust, succeed, rest, abuond in/with, stay at/in,
+        engross, faith, confide, rich, indulge, breathe, proficient, <br />
+        *Mim is interested.....in....listening stories. <br />
+        <br />
+        WITH: <br />
+        agree with/to, compete, satisfy, trouble, acquaint, fill, comply,
+        communicate, content, couple, cope, contact, contrast, compare to/ with,
+        associate, attack, adorn, angry with/at, beset, provide, popular
+        with/for, please, relate/relation, replace, endow, familiar, part
+        with/from, <br />
+        *Mim cannot agree....with..... you to this proposal. <br />
+        <br />
+        FROM: <br />
+        Deviate, differ, different, derive, absent, aloof, abstain, apart,
+        remove, rescue, refrain, free, far, protect, prevent, expect, eradicate,
+        depart, hinder, borrow, <br />
+        *Mim is different.....from ......other student. <br />
+        <br />
+        OF: <br />
+        Bereft, because, devoid, boast, deprive, despair, dull, capable,
+        conscious, fond, full, relief, remind, rid, hope of/for, hear
+        of/about/from, teeming, think, tired, matter, need, neglect/negligent,
+        want, worthy, use, glad to/of, approve, proud, inform, kind, destitute,
+        lack of/in, ignorant, afraid, <br />
+        *Mim is.....afraid...... of her fate. <br />
+        <br />
+        INTO: <br />
+        Sink, enter, turn, root, admission, divide <br />
+        <br />
+        IDIOMS & PHRASES: <br />
+        From the very beginning, *tell about/upon, write about/to, take pity on,
+        fight shy of, make out/of/up, *in this respect, bring about/up, look
+        for/into/down upon/ after, build up, end in smoke, read out, in time, in
+        no circumstances, come round/of/for, responsible to/for, go through,
+        <br />
+        *consist of/in, give vent to, call at/in/on, giveaway/out, in brief, in
+        line with, with the best wishes, carry on/out, attend to/on, blind
+        to/of, in front of, all on a sudden, get on, run into debt, deal
+        in/with, on the verge of, on leave, at any cost, go on, pass
+        through/away, in(with) this regard, hit upon, day to day, in order to,
+        take into account, sweep over, by dint of, pray to/for, at/on top of,
+        walk into/out, in order of, pick up, good term with, in favor of, in the
+        appearance of, at times, move round, know of/about, rush out, away from,
+        far from, by the grace of, on the occasion of, according to, within a
+        short time, with the help of, with the passage of, result in/from, in
+        course of, abide by/in, in fine, take pride in, fed up with, for the
+        sake of, presided over, slow down, along with, rest in peace, hanker
+        after, run after, give up, take part in, put up with, at first, look
+        forward to, all over the world, without any delay, on earth, on the
+        topic, be to hand, to the letter, walk by the river side, stand on, act
+        upon, with great interest/enthusiasm, in/with advent of, in the guise
+        of, nip in the bud, in a fix, come to a close, a lot of, stretch out,
+        name after,
+        <br />
+        <h3>TRY YOURSELF:</h3>
+        <br />
+        *Mim wrote me.......... her good result. <br />
+        *Mim should take pride.......... her wealth. <br />
+        *Mim was full ......... emotion. <br />
+        *Mim prefers coffee. tea. <br />* Mm divided the mango. two. <br />
+        *Happiness consists.. .contentment. <br />
+        *Mim applied............the principal...........testimonial. <br />
+        *I am in need. .money. <br />
+        *Mim was good...... .English. <br />
+        *Mim is exception..............other women. <br />
+        *Mim should not boast............her wealth. <br />
+        *Mim was looking... her father.
+        <br />
+        *Mim depends ........her father. <br />
+        *Mim was shocked........her father's death. <br />* Mim can not
+        cope......her friend. <br />
+        *Mim was not addicted........drug. <br />
+        *Mim borrowed a book.......me. <br />
+        *Mim was not satisfied..........her result.
+        <br />
+        <br />
       </div>
       <div className="pb-10 md:w-[85%] mx-auto">
         <img src="img/prep1.jpg" alt="" />
