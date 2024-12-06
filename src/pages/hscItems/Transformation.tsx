@@ -4,6 +4,17 @@ const Transformation = () => {
       <div className="my-10">
         <h1 className="text-center md:text-start">Transformation</h1>
       </div>
+      <div className="">
+        Transformation of Sentences: <br />
+        Sentences এর নিম্নলিখিত রূপান্তরকে Transformation-এর অন্তর্ভুক্ত করা হয়।
+        <br />
+        (a) Affirmative to Negative/ Negative to Affirmative, <br />
+        (b) Assertive, Interrogative, Imperative, Exclamatory পারস্পরিক রুপান্তর
+        <br />
+        (c) Active, Passive-এর পারস্পরিক রূপান্তর <br />
+        (d) Simple, Complex, Compound- এর পারারিক রুপান্তর <br />
+        (e) Positive, Comparative, Superlative-এর পারস্পরিক জাগান্তর।
+      </div>
 
       {/* TABLE: AFFIRMATIVE-NEGATIVE */}
       <div className="w-full overflow-x-auto my-10">
@@ -163,237 +174,379 @@ const Transformation = () => {
         </table>
       </div>
 
-      {/* COMPLEX TO SIMPLE VISE-VERSA */}
+      {/* antonyms */}
+      <div className="">
+        কিছু বিপরীতার্থক শব্দের নমুনা:
+        <div className="flex gap-10">
+          <p className="">
+            good- bad <br />
+            friend - foe <br />
+            moral - immoral <br />
+            mortal - Immortal <br />
+            regular - Irregular <br />
+            active - Inactive <br />
+            always - never <br />
+            honour - dishonour. <br />
+            present - absent <br />
+            healthy - unhealthy <br />
+            rich - poor <br />
+            love - hate <br />
+            wise - unwise <br />
+            remember - forget <br />
+            pleasant - unpleasant <br />
+            grateful - ungrateful <br />
+            dishonest - dishonest <br />
+            agreed- disagreed <br />
+          </p>
+          <p className="">
+            honesty - dishonesty <br />
+            sincere - Insincere <br />
+            doubtful - undoubtful <br />
+            wise - unwise/foolish <br />
+            pleased - displeased <br />
+            happy - unhappy <br />
+            possible - impossible <br />
+            litetate - Biterate <br />
+            hard - easy <br />
+            punctual-late <br />
+            ordinary-extraordinary <br />
+            responsible- Irresponsible <br />
+            willing - unwilling <br />
+            obey - disobey <br />
+            obedient - disobedient <br />
+            solvent - insolvent <br />
+            real - unreal <br />
+            right - wrong <br />
+          </p>
+        </div>
+      </div>
+
+      {/* SIMPLE COMPOUND COMPLEX VISE-VERSA */}
       <div className="mt-10">
         <h3>Complex to Simple & Simple to Complex:</h3>
-
-        <p>
-          (i) Since/as/when as/soon as দ্বারা শুরু/যুক্ত বাক্যের Simple sub:
-          Since/as/when + sub উঠিয়ে মূল V₁ এর সঙ্গে ing যুক্ত করলে Simple হবে।
-        </p>
-
-        <p>Since I forget, I want out</p>
-        <p>Forgetting him, I want out</p>
-
-        <p>
-          অনুরূপঃ ing যুক্ত বাক্যের শুরুতে As+Sub+ এবং V পরের বাক্য অনুষঙ্গ করলে
-          Complex হবে।
-        </p>
-
-        <p>Closing the door, I called her.</p>
-        <p>As I closed the door, I called her.</p>
-
-        <p>
-          (ii) কিন্ত As/Since/when বাক্যরে am/is/are/was/were এর পরিবর্তে being
-          এবং have/has/had এর পরিবর্তে having বসালে Simple হবে।
-        </p>
-        <p>As the water was salty, we could not drink.</p>
-        <p>The water being salty, we could not drink.</p>
-
-        <p>
-          অপূর্ণক্রিয়ার উক্তিতে করলে Complex হবে অংশে বসাতে As এবং Being বসলে
-          am/is/are না having এবং এর স্থলে have/has/had বসবে।
-        </p>
-        <p>
-          কিন্ত When দ্বারা বাক্যের দিনের কোন ঘটনা বুঝালে When+ Sub + V উঠিয়ে
-          At, বয়স বুঝালে At the age of এবং ঘটনা বুঝালে In বসে।
-        </p>
-        <p>When it is spring, the cuckoo sings.</p>
-        <p>In spring the cuckoo sings.</p>
-
-        <p>
-          অনুবাদকালে / In / at the age of উঠালে When + it/sub + V বসালে Complex
-          হয়।
-        </p>
-        <p>যেমনঃ At the age of four, he left home</p>
-        <p>When he was four, he left home.</p>
-
-        <p>
-          (3) That/what দ্বারা লুকানো বাক্য বুঝে That/what helping verb (যদি
-          থাকে) উঠিয়ে পরের মূল V1 এর সঙ্গে ing যুক্ত করতে হয়।
-        </p>
-        <p>যেমনঃ I saw man who was walking.</p>
-        <p>I saw a man walking.</p>
-
-        <p>অপূর্ণক্রিয়ার উক্তিতে করলে Complex হয়।</p>
-        <p>I lived a house belonging to me.</p>
-        <p>I lived a house which belonged to me.</p>
-
-        <p>
-          অধিক ing যুক্ত verb এর পরিবর্তে বসাতে হয় কামকে That/Which/What এবং
-          বাক্য থাকলে Who বসিয়ে ing যুক্ত verb ঠিক Tense অনুযায়ী সাজাতে হয়।
-        </p>
-
-        <p>
-          (4) So......that দ্বারা যুক্ত বাক্যে So এর স্থলে too বসে এবং That-not
-          পর্যন্ত উঠিয়ে To বসালে Simple হয়।
-        </p>
-        <p>যেমনঃ He is so weak that he cannot talk.</p>
-        <p>He is too weak to talk.</p>
-
-        <p>অপূর্ণক্রিয়ার উক্তিতে করলে Complex হয়।</p>
-        <p>He walks too slowly to reach in time.</p>
-        <p>He walks so slowly that he cannot reach there in time.</p>
-
-        <p>
-          (5) so that দ্বারা যুক্ত বাক্যগুলো থেকে Can/Could/may/might পর্যন্ত
-          উঠিয়ে to বসালে Simple হয়।
-        </p>
-        <p>We eat so that we may live.</p>
-        <p>We eat to live.</p>
-
-        <p>
-          অপূর্ণক্রিয়ার উক্তি করলে Complex হয়। অর্থাৎ to স্থলে so that+ sub+
-          may/ might/ can/ could বসালে Complex হয়।
-        </p>
-
-        <h3>(6)</h3>
-        <p>
-          If দ্বারা শুরু বাক্যে Negative হলে without এবং If দ্বারা বাক্য হয়
-          বোঝক হলে by বসিয়ে পরের V₁ এর সঙ্গে ing যুক্ত করলে Simple হয়।
-        </p>
-
-        <p>(i) If you study well, you will pass.</p>
-        <p>By studying well, you will pass.</p>
-
-        <p>(ii) If you do not study, you will not pass.</p>
-        <p>Without studying well, you will not pass.</p>
-
-        <h3>(7)</h3>
-        <p>
-          Though / although এর পরিবর্তে In spite of/ Despite of বসিয়ে পরের মূল
-          V₁ এর সঙ্গে ing যুক্ত করলে Simple হয়।
-        </p>
-
-        <p>(i) Though he is poor, he is honest.</p>
-        <p>In spite of being poor, he is honest.</p>
-
-        <p>(ii) Though he read well, he could not pass.</p>
-        <p>In spite of reading well, he could not pass.</p>
-
-        <p>অপূর্ণক্রিয়ার উক্তি করলে Complex হয়।</p>
-      </div>
-
-      {/* COMPOUND TO SIMPLE || VISE-VERSA */}
-      <div className="mt-5">
+        Complex to Simple & Simple to complex:
+        <br />
+        <br />
+        Rule: (i) Since/ as/ when / as soon as দ্বারা শুরু বা যুক্ত বাক্যের
+        Since/ as/ when + subject উঠিয়ে মূল V₁ এর সঙ্গে ing যুক্ত করলে Simple
+        হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. Since I forget, I want out
+        <br />
+        = Forgetting him, I want out
+        <br />
+        <br />
+        <br />
+        অনুরুপঃ ing যুক্ত বাক্যের শুরুতে As + Subject বসিয়ে + এবং V টিকে পরের
+        বাক্যের tense অনুসারে বসালে Complex হবে। যেমনঃ
+        <br />
+        Q. Closing the door, I called her.
+        <br />
+        = As I closed the door, I called her.
+        <br />
+        <br />
+        <br />
+        Rule:(2) কিন্তু As/Since/when বাক্যের am/is/are/was/were এর পরিবর্তে
+        being এবং have/has/had এর পরিবর্তে having বসালে Simple হবে। যেমনঃ
+        <br />
+        Q. As the water was salty, We could not drink. = The water being salty,
+        We could not drink.
+        <br />
+        <br />
+        অনুরুপভাবেঃ উল্লোটা করলেই Complex হবে অর্থাৎ শুরুতে As এবং Being স্থলে
+        am/ is/ are বা having এর স্থলে have/has/had বসে। যেমনঃ
+        <br />
+        Q. The water being salty, We could not drink.
+        <br />
+        = As the water was salty, We could not drink.
+        <br />
+        <br />
+        <br />
+        Rule: কিন্তু When দ্বারা বাক্যে দিনের কোন বেলাকে বুঝালে When + Sub + V
+        উঠিয়ে At বসে , বয়স বুঝালে At the age of এবং ঋতু বুঝালে In বসে । যেমনঃ{" "}
+        <br />
+        Q. When it is spring, the cuckoo sings,
+        <br />
+        = In spring the cuckoo sings.
+        <br />
+        <br />
+        <br />
+        অনুরূপঃ at / In / at the age of উঠিয়ে When + it/ sub + V বসালে Complex
+        হবে।
+        <br />
+        যেমনঃ <br />
+        Q. At the age of four, he left home.
+        <br />
+        = When he was four, he left home.
+        <br />
+        <br />
+        <br />
+        Rule:(3) That/what দ্বারা দুটি বাক্য যুক্ত হলে That/what helping verb
+        (যদি থাকে) উঠিয়ে পরের মুল V₁ এর সঙ্গে ing যুক্ত করতে হবে।
+        <br />
+        যেমনঃ <br />
+        Q. I saw a man who was walking.
+        <br />
+        = I saw a man walking.
+        <br />
+        অনুরুপভাবেঃ উল্টাটে করলে Complex হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. I lived in a house belonging to me.
+        <br />
+        =I lived in a house which belonged to me.
+        <br />
+        অর্থাৎ ing যুক্ত verb এর পূর্বে বস্তুবাচক শব্দ থাকলে That/Which/What এবং
+        ব্যক্তি থাকলে Who বসিয়ে ing যুক্ত verb টিকে Tense অনুসারে সাজাতে হবে।
+        <br />
+        <br />
+        Rule: (4) So......... that দ্বারা যুক্ত বাক্যে So এর স্থলে too এবং
+        That-not পর্যন্ত উঠিয়ে To বসালে simple হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. He is so weak that he cannot talk.
+        <br />
+        = He is too weak to talk.
+        <br />
+        <br />
+        অনুরুপভাবে: উল্টাটা করলে Complex হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. He walks too slowly to reach in time.
+        <br />
+        = He walks so slowly that he cannot reach there in time.
+        <br />
+        <br />
+        <br />
+        Rule:(5) so that দ্বারা যুক্ত বাক্যের so থেকে Can/Could/may/might
+        পর্যন্ত উঠিয়ে উক্ত স্থানে to বসালে Simple হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. We eat so that we may live.
+        <br />
+        = We eat to live,
+        <br />
+        অনুরুপভাবে: উল্টা করলে Complex হবে। অর্থাৎ to স্থলে so that + sub +
+        may/might/can/could বসালে Complex হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. We eat to live.
+        <br />
+        = We eat so that we may live.
+        <br />
+        <br />
+        Rule:(6) If দ্বারা শুরু বাক্যে Negative হলে without এবং If দ্বারা বাক্য
+        হ্যাঁ বোধক হলে by বসিয়ে পরের V-1 এর সাথে ing যুক্ত করলে Simple হবে।
+        যেমনঃ
+        <br />
+        Q. If you study well, you will pass.
+        <br />
+        = By studying well, you will pass.
+        <br />
+        Q. If you do not study, you will not pass.
+        <br />
+        = Without studying well, you will not pass
+        <br />.
+        <br />
+        <br />
+        অনুরুপভাবে উল্টা করলে Complex হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. By studying well, you will pass.
+        <br />
+        = If you study well, you will pass.
+        <br />
+        Q. Without studying well, you will not pass.
+        <br />
+        = If you do not study, you will not pass.
+        <br />
+        <br />
+        Rule:(7) Though/although এর পরিবর্তে In spite of/ Despite of বসিয়ে পরের
+        মূল V₁ এর সঙ্গে ing যুক্ত করলে Simple হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. Though he is poor, he is honest.
+        <br />
+        = In spite of being poor, he is honest.
+        <br />
+        Q. Though he read well, he could not pass.
+        <br />
+        = In spite of reading well, he could not pass.
+        <br />
+        <br />
+        অনুরুপভাবে উল্টা করলে Complex হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. In spite of being poor, he is honest.
+        <br />
+        = Though he is poor, he is honest.
+        <br />
+        Q. In spite of reading well, he could not pass.
+        <br />
+        = Though he read well, he could not pass.
+        <br />
+        <br />
         <h3>Compound to simple & Simple to Compound:</h3>
-
-        <p>
-          (i) And দ্বারা যুক্ত বাক্যের And উঠিয়ে প্রথম বাক্যাংশের Sub: উঠিয়ে
-          মূল V₁ এর সঙ্গে ing যুক্ত করলে Simple হয়। যদি প্রথম বাক্যে be verb
-          থাকে তবে এর পরিবর্তে being এবং have verb থাকলে having বসালে Simple
-          হয়।
-        </p>
-
-        <p>He closed the window and went out,</p>
-        <p>Closing the window, he went out.</p>
-
-        <p>
-          <strong>N.B. যদি বাক্যের Sub ভিন্ন হয় তবে Sub উঠবে না।</strong>
-        </p>
-        <p>* The tea was hot and we could not drink.</p>
-        <p>* The tea being hot, we could not drink.</p>
-
-        <p>অপূর্ণক্রিয়ার:</p>
-        <p>
-          ing/being/having দ্বারা শুরু বাক্যের মাধ্যমে এবং বসিয়ে sub+V তে পরের
-          বাক্য অনুষঙ্গ সাজাতে হয়।
-        </p>
-        <p>* The sun having set, they left home.</p>
-        <p>= By the sun had set and they left home.</p>
-
-        <p>
-          কিন্তু And দ্বারা যুক্ত বাক্যের ক্ষেত্রে sub না থাকলে And উঠিয়ে
-          বাক্যাংশ শুরুতে by বসালে হয় এবং by এর পরের V₁ এর সঙ্গে ing যুক্ত করতে
-          হয়।
-        </p>
-
-        <p>* Work hard and you will succeed.</p>
-        <p>* By working hard, you will succeed.</p>
-
-        <p>অপূর্ণক্রিয়ার - উক্তিতে করলে Compound হয়।</p>
-        <p>
-          (2) But / yet যারা যুক্ত বাক্যের যুক্ত In spite of / Despite of বন্ধন
-          পরের মূল V1 এর সাথে ing যুক্ত করলে Simple হয়। কিন্তু প্রথম বাক্যে
-          verb to be থাকলে এর পরিবর্তে being যুক্ত করে have verb এর পরিবর্তে
-          having বসাতে হয়।
-        </p>
-
-        <p>
-          * He is rich but he is simple minded.
-          <br /> In spite of being rich, he is simple minded.
-          <br /> অনুবর্তীভাবে In spite of / Despite of যুক্তির পরের Possessive
-          থাকলে Subjective বসাতে হবে এবং ing যুক্ত Verb কে পরে বাক্যাংশ অনুসারে
-          verb ঠিক করতে হবে। কিন্তু being থাকলে be verb এবং having থাকলে have
-          verb সরালে Compound হয়।
-        </p>
-
-        <p>
-          (3) Or দ্বারা যুক্ত বাক্যের or যুক্ত বাক্যের জন্য without / by বন্ধন
-          পরের মূল V1 এর সাথে ing যুক্ত করলে Compound হয়।
-        </p>
-
-        <p>
-          * Work hard or you will not shine.
-          <br /> - Without working hard, you will not shine.
-        </p>
-
-        <p>
-          N.B. পরের বাক্যাংশ Negative হলে without এবং ইতিবাচক হলে by বসাতে হয়।
-          <br /> অনুবর্তীভাবে by / without যুক্ত V1 করতে হলে এবং মূল verb এর
-          মাধ্যামে or বসাতে হয়।
-        </p>
-      </div>
-
-      {/* Complex to Compound & Compound to complex: */}
-      <div className="">
-        <h3>Complex to Compound & Compound to complex:</h3>
-
-        <p>
-          (1) Since /as / when / as soon as যখন শুরু / যুক্ত বাক্যের যাথারূপ And
-          এর সাথে Since / as / when যুক্ত দিলে Compound হয়।
-        </p>
-
-        <p>
-          * When I was eight, I was there.
-          <br /> - I was eight and I was there.
-        </p>
-
-        <p>অনুবর্তীভাবে And যুক্ত থাকলে As বসালে Complex হয়।</p>
-
-        <p>(2) Though / Although যুক্ত থাকলে but বসালে Compound হয়।</p>
-
-        <p>
-          * Although he was sick, he was walking.
-          <br /> - He was sick but he was walking.
-        </p>
-
-        <p>
-          অনুবর্তীভাবে যাথারূপ থেকে but / yet যুক্তির জন্য Though / Although
-          বসালে Complex হয়।
-        </p>
-
-        <p>
-          (3) If দ্বারা শুরু বাক্য না হলে মূল verb এর পূর্ব পর্যন্ত যুক্ত
-          বাক্যাংশ or বসাতে হয়। If দ্বারা শুরু বাক্য যাথারূপ হলে বাক্যাংশ And
-          বসালে Compound হয়।
-        </p>
-
-        <p>
-          (i) If you work hard, you will pass.
-          <br /> - Work hard and you will pass.
-        </p>
-
-        <p>
-          (ii) If you do not do, you will die.
-          <br /> - Do or you will die.
-        </p>
-
-        <p>
-          অনুবর্তীভাবে And দ্বারা যুক্ত বাক্যের sub না থাকলে If বসালে And থাকবে
-          Complex হয়। আবার or যুক্ত বাক্যের জন্য If+ sub+ do not বসালে Complex
-          হয়।
-        </p>
+        Rule:(i) And দ্বারা যুক্ত বাক্যের And উঠিয়ে প্রথম বাক্যাংশের Subject
+        উঠিয়ে মূল V₁ এর সঙ্গে ing যুক্ত করতে হবে। যদি প্রথম বাক্যে be verb থাকে
+        তবে এর পরিবর্তে being এবং have verb থাকলে having বসালে Simple হবে।
+        <br />
+        * He closed the window and went out,
+        <br />
+        Closing the window, he went out.
+        <br />
+        <br />
+        N.B.দুটি বাক্যের Subject যদি ভিন্ন হয় তবে Subject উঠবেনা।
+        <br />
+        যেমনঃ
+        <br />
+        Q. The tea was hot and we could not drink.
+        <br />
+        = The tea being hot, we could not drink.
+        <br />
+        অনুরুপভাবেঃ ing/being/having দ্বারা শুরু বাক্যের মাঝখানে and বসিয়ে sub +
+        V কে পরের বাক্য অনুসারে সাজাতে হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. The sun having set, they left home.
+        <br />
+        = The sun had set and they left home.
+        <br />
+        <br />
+        কিন্তু And দ্বারা যুক্ত বাক্যের শুরুতে sub না থাকলে And উঠিয়ে বাক্যের
+        শুরুতে by বসাতে হবে এবং by এর পরের V₁ এর সঙ্গে ing যুক্ত করাতে হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. Work hard and you will succeed.
+        <br />
+        =By working hard, you will succeed.
+        <br />
+        <br />
+        অনুরুপভাবে উল্টোটা করলে Compound হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. By working hard, you will succeed.
+        <br />
+        = Work hard and you will succeed.
+        <br />
+        <br />
+        <br />
+        Rule: (2) But/yet দ্বারা যুক্ত বাক্যের শুরুতে In spite of/ Despite of
+        বসিয়ে পরের মূল V1 এর সঙ্গে ing যুক্ত করলে Simple হবে। কিন্তু প্রথম
+        বাক্যে verb to be থাকলে এর পরিবর্তে being এবং have verb এর পরিবর্তে
+        having বসাতে হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. He is rich but he is simple minded.
+        <br />
+        = In spite of being rich, he is simple minded.
+        <br />
+        অনুরুপভাবেঃ In spite of/ Despite of উঠিয়ে পরের Possessive থাকলে
+        Subjective বসাতে হবে এবং ing যুক্ত Verb কে পরের বাক্যাংশ অনুসারে verb
+        টিকে বসাতে হবে। কিন্তু being থাকলে be verb এবং having থাকলে have verb
+        বসালে Compound হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. In spite of being rich, he is simple minded.
+        <br />
+        = He is rich but he is simple minded.
+        <br />
+        <br />
+        Rule:(3) Or দ্বারা যুক্ত বাক্যের or উঠিয়ে বাক্যের শুরুতে without / by
+        বসিয়ে পরের মূল V₁ এর সঙ্গে ing যুক্ত করলে Compound হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. Work hard or you will not shine.
+        <br />
+        = Without working hard, it will not shine.
+        <br />
+        <br />
+        N.B. পরের বাক্যাংশটি Negative হলে without এবং হ্যাঁবোধক হলে by বসাতে
+        হবে।
+        <br />
+        <br />
+        অনুরুপভাবেঃ by / without উঠিয়ে V₁ করতে হবে এবং মাঝখানে comma উঠিয়ে or
+        বসাতে হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. Without working hard, it will not shine.
+        <br />
+        = Work hard or you will not shine.
+        <br />
+        <br />
+        <h3 className="">Complex to Compound & Compound to complex:</h3>
+        <br />
+        Rule:(1) Since/as/ when / as soon as দ্বারা শুরু / যুক্ত বাক্যের মাঝখানে
+        And বসিয়ে Since /as/ when উঠিয়ে দিলে Compound হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. When I was eight, I was there.
+        <br />
+        = I was eight and I was there.
+        <br />
+        <br />
+        অনুরুপভাবেঃ And উঠিয়ে শুরুতে As বসালে Complex হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Rule:(2) Though/ Although উঠিয়ে মাঝখানে but বসালে Compound হবে। যেমনঃ
+        <br />
+        Q. Although he was sick, he was walking.
+        <br />
+        He was sick but he was walking.
+        <br />
+        অনুরুপভাবেঃ মাঝখানে থেকে but / yet উঠিয়ে শুরুতে Though / Although বসালে
+        Complex হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Rule:(3) If দ্বারা শুরু বাক্য না বোধক হলে মূল verb এর পূর্ব পর্যন্ত
+        উঠিয়ে মাঝখানে or বসাতে হবে। if দ্বারা শুরু বাক্য হ্যাঁবোধক হলে মাঝখানে
+        and বসালে Compound হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. If you work hard, you will pass.
+        <br />
+        = Work hard and you will pass.
+        <br />
+        Q. If you do not do, you will die.
+        <br />
+        = Do or you will die.
+        <br />
+        <br />
+        অনুরুপভাবেঃ And দ্বারা যুক্ত বাক্যের শুরুতে subject না থাকলে If you
+        বসিয়ে And উঠালে Complex হবে। আবার or উঠিয়ে বাক্যের শুরুতে If + sub + do
+        not বসালে Complex হবে।
+        <br />
+        যেমনঃ
+        <br />
+        Q. Work hard and you will pass.
+        <br />
+        = If you work hard, you will pass.
+        <br />
+        Q. Do or you will die.
+        <br />
+        = If you do not do it, you will die.
+        <br />
       </div>
 
       {/* DEGREE */}

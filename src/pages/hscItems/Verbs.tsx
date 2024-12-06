@@ -8,39 +8,52 @@ function Verbs() {
       </div>
       <div className="h-full md:w-[85%] mx-auto px-5">
         <div className="">
-          <h2>Tense:</h2>
+          <h2>Structure of Tense:</h2>
           <div className="">
             <p>
               <strong>(1). Present Indefinite Tense: </strong> <br />
               * (i) S + V1(s/es) + Obj + extension <br />
-              * (ii) S + do not/ does not + V1 + Obj. <br />
-              <strong>(2). Present Continuous Tense:</strong> <br />
-              * S + am/ is/ are + V1-ing + Obj + extension <br />
-              <strong>(3). Present Perfect Tense:</strong> <br />
-              * S + have/ has + V3 + Obj + extension
+              * (ii) S + do not/ does not + V1 + Obj.
               <br />
-              <strong>(4). Present Perfect Tense:</strong> <br />* S + have
-              been/ has been + V1-ing + Obj + for/ since + time.
+              <br />
+              <strong>(2). Present Continuous Tense:</strong> <br />
+              * S + am/ is/ are + V1-ing + Obj + extension. <br />
+              <br />
+              <strong>(3). Present Perfect Tense:</strong> <br />
+              * S + have/ has + V3 + Obj + extension.
+              <br />
+              <br />
+              <strong>(4). Present Perfect Continuous Tense:</strong> <br />
+              * S + have been/ has been + V1-ing + Obj + for/ since + time.
+              <br />
+              <br />
             </p>
 
             <p>
               <strong>(5). Past Indefinite Tense: </strong> <br />
-              * (i) S + V2 + Obj + extension <br />
-              * (ii) S + did not + V1 + Obj + <br />
-              <strong>(6). Past Continuous Tense:</strong> <br />
-              * S + was/ were + V1-ing + Obj + extension <br />
-              <strong>(7). Past Perfect Tense:</strong> <br />
-              * S + had + V3 + Obj + extension
+              * (i) S + V2 + Obj + extension. <br />
+              * (ii) S + did not + V1 + Obj + extension. <br />
               <br />
-              <strong>(8). Past Perfect Tense:</strong> <br />* S + had been +
-              V1-ing + Obj + for/ since + time.
+              <strong>(6). Past Continuous Tense:</strong> <br />
+              * S + was/ were + V1-ing + Obj + extension. <br />
+              <br />
+              <strong>(7). Past Perfect Tense:</strong> <br />
+              * S + had + V3 + Obj + extension.
+              <br />
+              <br />
+              <strong>(8). Past Perfect Continuous Tense:</strong> <br />* S +
+              had been + V1-ing + Obj + for/ since + time.
+              <br />
+              <br />
             </p>
 
             <p>
               <strong>(9). Future Indefinite Tense: </strong> <br />
-              * (i) S + will + V1 + Obj + extension <br />
+              * (i) S + will + V1 + Obj + extension.
+              <br />
+              <br />
               <strong>(10). Future Continuous Tense:</strong> <br />
-              * S + shall be/ will be + V1-ing + Obj + extension <br />
+              * S + shall be/ will be + V1-ing + Obj + extension. <br />
             </p>
           </div>
 

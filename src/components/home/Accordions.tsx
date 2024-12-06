@@ -708,7 +708,6 @@ const Accordions = () => {
                   tense.
                 </p>
                 <p>
-                  <br />
                   <strong>Example:-</strong>
                   আমি সেখানে গিয়া থাকিব। <br />
                   I shall have gone there.
