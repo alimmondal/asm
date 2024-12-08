@@ -24,7 +24,7 @@ import HSuggestion from "./hscItems/HSuggestion";
 import SSuggestion from "./sscItems/SSuggestion";
 import Wh from "./DegreeItems/Wh";
 import SynAnt from "./hscItems/SynAnt";
-import PartsOfSpeech from "./DegreeItems/PartsOfSpeech";
+import PartsOfSpeech from "./allItems/PartsOfSpeech";
 import Dialog from "./DegreeItems/Dialog";
 import Advertisement from "./DegreeItems/Advertisement";
 import Poster from "./DegreeItems/Poster";

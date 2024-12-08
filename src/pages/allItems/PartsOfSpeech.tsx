@@ -505,33 +505,6 @@ function PartsOfSpeech() {
         <img src="img/parts2.jpg" alt="" />
         <img src="img/parts3.jpg" alt="" />
       </div>
-
-      {/* Exercise */}
-      {/* <div className="py-10">
-        <h2 className="py-5 text-center">Exercise</h2>
-        <div className="overflow-x-auto">
-          <table className="min-w-full bg-white border border-gray-300">
-            <thead>
-              <tr className="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
-                <th className="py-1 px-1 text-left">Noun</th>
-                <th className="py-1 px-1 text-left">Verb</th>
-                <th className="py-1 px-1 text-left">Adjective</th>
-                <th className="py-1 px-1 text-left">Adverb</th>
-              </tr>
-            </thead>
-            <tbody className="text-gray-600 text-sm font-light">
-              {data?.partsOfSpeech?.map((item, index) => (
-                <tr key={index} className=" hover:bg-gray-100">
-                  <td className="py-1 px-1 text-center">{item.noun}</td>
-                  <td className="py-1 px-1 text-center">{item.verb}</td>
-                  <td className="py-1 px-1 text-center">{item.adjective}</td>
-                  <td className="py-1 px-1 text-center">{item.adverb}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </div> */}
     </div>
   );
 }

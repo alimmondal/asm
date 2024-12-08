@@ -26,7 +26,7 @@ import Suggestion from "../pages/DegreeItems/Suggestion";
 import Advertisement from "../pages/DegreeItems/Advertisement";
 import DCompleting from "../pages/DegreeItems/DCompleting";
 import Dialog from "../pages/DegreeItems/Dialog";
-import PartsOfSpeech from "../pages/DegreeItems/PartsOfSpeech";
+import PartsOfSpeech from "../pages/allItems/PartsOfSpeech";
 import Poster from "../pages/DegreeItems/Poster";
 import Report from "../pages/DegreeItems/Report";
 import HSuggestion from "../pages/hscItems/HSuggestion";
@@ -49,6 +49,7 @@ import Suffix from "../pages/DegreeItems/Suffix";
 import Rearrange from "../pages/DegreeItems/Rearrange";
 import SearchResults from "../pages/SearchResults";
 import BoardQuestion from "../pages/hscItems/BoardQuestion";
+import DPartsOfSpeech from "../pages/DegreeItems/DPartsOfSpeech";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -147,6 +148,10 @@ export const router = createBrowserRouter([
       {
         path: "/advertisement",
         element: <Advertisement />,
+      },
+      {
+        path: "/DPartsOfSpeech",
+        element: <DPartsOfSpeech />,
       },
       {
         path: "/word-rearrange",

@@ -11,9 +11,9 @@ function Degree() {
               Suggestion
             </li>
           </Link>
-          <Link to={"/partsOfSpeech"}>
+          <Link to={"/DPartsOfSpeech"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black">
-              Parts of Speech
+              Changing Parts of Speech
             </li>
           </Link>
           <Link to={"/wh"}>
