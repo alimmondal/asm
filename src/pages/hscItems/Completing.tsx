@@ -46,13 +46,13 @@ function Completing() {
           * He said that it is / was favorite to him / it was beautiful to me/
           was essential to him.
         </p>
-        <p>= He said that it was was essential to him.</p>
+        <p>= He said that it was essential to him.</p>
         <p>(ii) This is the house which..................</p>
         <p>
           * This is the house that / which is small / favorite to me / beautiful
           to me.
         </p>
-        <p>= He said which was was essential to him.</p>
+        <p>= This is the house which was essential to him.</p>
 
         <h3>6. When / where (time / place):</h3>
         <p>(i) Saturday is the day (when)............</p>

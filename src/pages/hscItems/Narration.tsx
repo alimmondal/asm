@@ -7,7 +7,7 @@ import {
 
 const Narration = () => {
   return (
-    <div className="px-3 md:w-[85%] mx-auto">
+    <div className="px-5 md:w-[85%] mx-auto">
       <div className="my-10">
         <h1 className="text-center md:text-start">Narration</h1>
       </div>
@@ -72,7 +72,9 @@ const Narration = () => {
           <h2>Rule-1: Tense Changing</h2>
           <p>
             সাধারণত Reporting Verb যদি V2 থাকে তাহলে Reported Speech এর Verb/
-            helping verb পরিবর্তন হয় বাঁ Past Tense হয়। যেমন:
+            helping verb পরিবর্তন হয় বাঁ Past Tense হয়।
+            <br />
+            যেমন:
           </p>
 
           <p>Am, is, are - থাকলে - Was, Were হয়</p>
@@ -83,7 +85,7 @@ const Narration = () => {
           <p>Can - থাকলে - could হয়,</p>
           <p>may - থাকলে - might হয়,</p>
           <p>Do not, does not - থাকলে - did not হয়,</p>
-
+          <br />
           <p>
             <strong>Note:</strong> উপরের সাহায্যকারি Verb গুলোর পরে মুল Verb
             থাকলে সেই Verb এর কোন পরিবর্তন হয় না । যদি উপরের সাহায্যকারি Verb
@@ -91,6 +93,7 @@ const Narration = () => {
           </p>
           <p>V1 - থাকলে V2 হয়,</p>
           <p>V2 - থাকলে V2 হয় অথবা had + V3 হয়,</p>
+          <br />
           <p>
             <strong>Note:</strong> দ্বিতীয় বাক্যের (Reported Speech) ing যুক্ত
             Verb এবং to এর পরে Verb এর কোন পরিবর্তন হয় না।
@@ -98,26 +101,21 @@ const Narration = () => {
         </div>
 
         {/* Rule-2  */}
-        <div className="">
-          <h2 className="">Rule-2: Person Chnaging</h2>
+        <div className="pt-5">
+          <h2 className="">Rule-2: Person Changing</h2>
           <p>
-            দ্বিতীয় বাক্যের (অর্থাৎ Reporting Speech এর) Subject/ Pronoun এর
-            পরিবর্তন হয়। Subject যদি I, We, you হয় তবে পরিবর্তন হবে। I/We প্রথম
-            বাক্যের Subject অনুসারে পরিবর্তন হবে। You প্রথম বাক্যের
-            Object-অনুসারে পরিবর্তন হয়। যেমন:
-            <br />
-            Q. He said to me, "I have done my duty". <br />= He said to me{" "}
-            <strong>that</strong>he
-            <strong> had</strong> done<strong> his</strong> duty".
+            দ্বিতীয় বাক্যের (অর্থাৎ Reporting Speech এর) Pronoun এর পরিবর্তন
+            হয়। অর্থাৎ <br />
+            *** I- me - my/ We - us - our প্রথম বাক্যের Subject অনুসারে পরিবর্তন
+            হবে। <br />
+            *** You-you-your প্রথম বাক্যের Object-অনুসারে পরিবর্তন হয়। <br />
+            ## উক্ত Pronoun-গুলো ছাড়া আন্য কোন Pronoun পরিবর্তন হয় না।
           </p>
-          <p>
-            Subject/ Pronoun এর পরিবর্তন বুঝার জন্য নিচের টেবিলটি মনে রাখতে হবেঃ
+          <p className="pt-5">
+            ### Subject/ Pronoun এর পরিবর্তন বুঝার জন্য নিচের টেবিলটি মনে রাখতে
+            হবেঃ
           </p>
-        </div>
-
-        {/* Subject-Objective-Possessive  */}
-        <div className="w-full mx-auto my-10">
-          <h3 className="pb-3">Subject-Objective-Possessive: </h3>
+          {/* Subject-Objective-Possessive  */}
           <table className="min-w-[300px] dark:border-slate-400">
             <thead>
               <tr>
@@ -159,11 +157,17 @@ const Narration = () => {
               </tr>
             </tbody>
           </table>
+          <br />
+          যেমনঃ
+          <br />
+          Q. He said to me, "I have done my duty". <br />= He said to me
+          <strong> that </strong> he
+          <strong> had </strong> done <strong> his</strong> duty".
         </div>
 
         {/* Adverbial Clause */}
-        <div className="overflow-x-auto">
-          <h3 className="pb-3">Changing adverbial phrase</h3>
+        <div className="overflow-x-auto pt-10">
+          <h2 className="pb-3">Rule:3 - Changing adverbial phrase:</h2>
           <table className="min-w-full text-left text-sm">
             <thead className="border-b bg-gray-50">
               <tr>
@@ -215,7 +219,9 @@ const Narration = () => {
         {/* sentence Rules - Part  */}
         <div className="mt-7">
           <div className="rule-section">
-            <p className="text-center md:text-start">Sentence Narration</p>
+            <p className="text-4xl text-center md:text-start">
+              Sentence Narration
+            </p>
             <h2 className="text-center md:text-start">বাক্য পরিবর্তন:</h2>
             <h2>Assertive Sentence:</h2>
             <p>

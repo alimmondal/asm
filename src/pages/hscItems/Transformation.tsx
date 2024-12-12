@@ -173,7 +173,6 @@ const Transformation = () => {
           </tr>
         </table>
       </div>
-
       {/* antonyms */}
       <div className="">
         কিছু বিপরীতার্থক শব্দের নমুনা:
@@ -219,6 +218,189 @@ const Transformation = () => {
             right - wrong <br />
           </p>
         </div>
+      </div>
+
+      {/* INTERROGATIVE, IMPERATIVE, EXCLAMATORY */}
+      <div className="mt-5">
+        <h3 className="">Assertive থেকে Interrogative-এ রূপান্তর</h3>
+        1. বাক্যের মধ্যে Auxiliary verb থাকলে Auxiliary verb বাক্যের শুরুতে
+        বসবে। বাক্যটি Affirmative হলে তা Negative হবে, আর Negative এ থাকলে তা
+        Affirmative হবে। (যেমন: is থাকলে Isn't হবে এবং is not বা isn't থাকলে
+        'ls' হবে। উদাহরণ:
+        <br />
+        i. Aff: Kamal was a good boy. <br />
+        Inter: Wasn't Kamal a good boy?
+        <br />
+        ii . Aff: They are not playing.
+        <br />
+        Inter: Are they playing?
+        <br />
+        <br />
+        2. বাক্যের মধ্যে Auxiliary verb না থাকলে, বাক্যের শুরুতে
+        Don't/Doesn't/Didn't বসিয়ে Interrogative করা হয়। Auxiliary verb বলতে
+        সাধারণত 'to be', 'to have', modal verb গুলোকে বোঝায়। আর Assertive
+        sentence-টি Negative হলে প্রশ্নবোধক Sentence টিতে do/does/did হয়।
+        <br />
+        উদাহরণ:
+        <br />
+        Ass: Liza sings very well.
+        <br />
+        Inter: Doesn't Liza sing very well?
+        <br />
+        Ass: Liza sang very well.
+        <br />
+        Inter: Didn't Liza sing well?
+        <br />
+        <br />
+        3. Everybody. Everyone, All থাকলে এদের পরিবর্তে আয় অনুসারে Who does
+        not/did not বসিয়ে Interrogative করতে হয়।
+        <br />
+        উদাহরণ:
+        <br />
+        i. Ass: Everybody knows him.
+        <br />
+        Inter: Who does not know him?
+        <br />
+        ii. Ass All loved her.
+        <br />
+        Inter: Who did not love her?
+        <br />
+        <br />
+        4. বাক্যে Nobody, None, No one থাকলে এদের পরিবর্তে 'Who' বসবে।
+        <br />
+        উদাহরণ:
+        <br />
+        Ass: Nobody believes a liar.
+        <br />
+        Inter: Who believes a liar?
+        <br />
+        <br />
+        <h3 className="">
+          {" "}
+          Assertive থেকে Imperative (command/request/order/advice) -এ রূপান্তর
+        </h3>
+        1. Assertive sentence-এর subject যদি second person (you) হয় তবে মূল verb
+        দ্বারা বাক্যটি শুরু হবে। এক্ষেত্রে মূল verb-এর পূর্বের অংশ বাদ যাবে। তবে
+        Assertive sentence টি 'না-বোধক' হলে 'Do not + verb' দ্বারা বাক্যটি শুরু
+        হবে।
+        <br />
+        উদাহরণ:
+        <br />
+        i. Ass: You should not run in the sun.
+        <br />
+        Imp: Do not run in the sun.
+        <br />
+        ii. Aff: Obey your parents.
+        <br />
+        2. Assertive sentence টিতে যদি 'request' কথাটি থাকে তবে Imperative করার
+        সময় 'please/kindly + verb' দ্বারা বাক্যটি শুরু হবে।
+        <br />
+        উদাহরণ:
+        <br />
+        1. Ass: I request you to do it.
+        <br />
+        Imp: Please do it.
+        <br />
+        ii. Ass: You are requested to help him.
+        <br />
+        Imp: Please help him.
+        <br />
+        <br />
+        3. Assertive sentence-এর subject যদি 1st person কিংবা 3rd person হয়, তবে
+        Imperative বাক্যটি Let দ্বারা শুরু হবে। <br />
+        Rule: Let + objective pronoun (me/ us/ him/her/ them) + Verb + Others.
+        উদাহরণ:
+        <br />
+        Ass: I must go now.
+        <br />
+        Imp: Let me go now.
+        <br />
+        Ass: He should do the sum.
+        <br />
+        Imp: Let him do the sum.
+        <br />
+        <br />
+        4. Never যুক্ত assertive sentence-কে imperative করার
+        <br />
+        নিয়মে: প্রদত্ত never + প্রদত্ত মূল verb-এর base form + verb-এর পরের অংশ।
+        <br />
+        উদাহরণ:
+        <br />
+        Ass: Never do this.
+        <br />
+        Imp: You should never do this.
+        <br />
+        <br />
+        5. First person বা third person যুক্ত Assertive sentence- এ not থাকলে
+        Imperative করার <br />
+        নিয়ম: Let + প্রদত্ত subject এর objective from + প্রদত্ত verb থেকে শেষ
+        পর্যন্ত।
+        <br />
+        উদাহরণ:
+        <br />
+        Ass: We do not hate the poor.
+        <br />
+        Imp: Let us not hate the poor.
+        <br />
+        Ass: Nilu does not run in the sun.
+        <br />
+        Imp: Let not Nilu run in the sun.
+        <br />
+        <br />
+        <br />
+        <h3 className="">Assertive থেকে Exclamatory -তে রূপান্তর-</h3>
+        1. বাক্যে 'I wish' থাকলে 'I wish'-এর পরিবর্তে 'If' বসিয়ে Exclamatory করা
+        যায়।
+        <br />
+        উদাহরণ:
+        <br />
+        Ass: I wish I were a bird.
+        <br />
+        Exc: If I were a bird!
+        <br />
+        Ass:I wish I could do it.
+        <br />
+        Exc: If I could do it!
+        <br />
+        <br />
+        2. বাক্যের মধ্যে very/ great থাকলে, এদের পরিবর্তে What a/an অথবা How
+        বসিয়ে শুরু করতে হয়। এক্ষেত্রে যদি বাক্যের মধ্যে 'a'/an থাকে তবেই What
+        a/an হবে। আর বাক্যের মধ্যে 'a/ an' না থাকলে 'How' হবে। উদাহরণ
+        <br />
+        Rule: What + a/an + Verb এর পরের অংশ + Subject + Verb + ! (Exclamatory
+        Sign) Rule: How + Verb এর পরের অংশ + Subject + Verb + ! (Exclamatory
+        Sign)
+        <br />
+        Ass:The picture is very nice.
+        <br />
+        Exc: How nice the picture is!
+        <br />
+        Ass: You are a great fool.
+        <br />
+        Exc: What a fool you are!
+        <br />
+        <br />
+        3. <br />
+        i. Hurrah যুক্ত অর্থ্যাৎ যে exclamatory sentence দ্বারা খুশি প্রকাশ করে
+        সেক্ষেত্রে Hurrah-এর পরিবর্তে it is a matter of joy + that + sentence-এর
+        বাকি অংশ।
+        <br />
+        উদাহরণ:
+        <br />
+        Exc: Hurrah! We have done well.
+        <br />
+        Ass: It is a matter of joy that we have done well.
+        <br />
+        <br />
+        ii. Alas বা দুঃখবোধক Exclamatory sentence-এর ক্ষেত্রে also-এর পরিবর্তে
+        it is a matter of sorrow + that বসে + বাক্যের বাকি অংশ বসে।
+        <br />
+        উদাহরণ:
+        <br />
+        Exc: Alas! I am finished.
+        <br />
+        Ass: It is a matter of sorrow that I am finished.
+        <br />
       </div>
 
       {/* SIMPLE COMPOUND COMPLEX VISE-VERSA */}
