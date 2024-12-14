@@ -4,9 +4,10 @@ const Transformation = () => {
       <div className="my-10">
         <h1 className="text-center md:text-start">Transformation</h1>
       </div>
+
       <div className="">
         Transformation of Sentences: <br />
-        Sentences এর নিম্নলিখিত রূপান্তরকে Transformation-এর অন্তর্ভুক্ত করা হয়।
+        Sentences এর নিম্নলিখিত রূপান্তরকে Transformation-এর অন্তর্ভুক্ত করা হয়:
         <br />
         (a) Affirmative to Negative/ Negative to Affirmative, <br />
         (b) Assertive, Interrogative, Imperative, Exclamatory পারস্পরিক রুপান্তর
@@ -91,7 +92,7 @@ const Transformation = () => {
             </td>
           </tr>
           <tr>
-            <td>There is</td>
+            <td>Every</td>
             <td>There is no......but</td>
             <td>
               A: There is no mother but loves her child.
@@ -171,8 +172,27 @@ const Transformation = () => {
               N: He is so weak that he cannot walk.
             </td>
           </tr>
+          <tr>
+            <td>as + Adj-1 + as </td>
+            <td>Not less + Adjective-1 + than</td>
+            <td>
+              A: Ice is as white as snow.
+              <br />
+              N: Ice is not less white than snow.
+            </td>
+          </tr>
+          <tr>
+            <td>Very much </td>
+            <td>Neg + at all</td>
+
+            <td>
+              A: He likes me very much. <br />
+              N: He doesn't dislike me at all.
+            </td>
+          </tr>
         </table>
       </div>
+
       {/* antonyms */}
       <div className="">
         কিছু বিপরীতার্থক শব্দের নমুনা:
@@ -1171,6 +1191,206 @@ const Transformation = () => {
             </tbody>
           </table>
         </div>
+      </div>
+
+      <div className="mt-10">
+        Transform the following Complex Sentences into Simple or Compound:{" "}
+        <br />
+        1.Samira is sitting under a mango tree which is big. 2. She has a cousin
+        whose name is Karim. 3. She is reading a book which is blue. 4. He is
+        looking at some flowers which are beautiful. 5. Samira has a pen friend
+        who is an Australian. 6. Lucy has sent Samira a picture which is full of
+        tall buildings. 7. The cuckoo sings when it is the spring season. 8. It
+        rains when it is the rainy season. 9. We went to the fair when it was
+        evening. 10. He went to the library so that he could read. 11. She works
+        hard so that she can prosper in life, 12. He waited till our arrival.
+        13. I helped a man who was blind. 14 They are fighters who are very
+        brave. 15. I bought a pen which was costly. good health. 17. People
+        build houses so that they may remain safe. 18. He sells milk which is
+        pure 19. He found a bag which was dropped by a passer-by. 21. a man who
+        is needy suffers from many wants. 22. He is a man who possesses good
+        health. 23. I know where he was born New what his father's name was. 25.
+        The girl shone in life because her indust. 26. All love honesty. 27. The
+        man suffered in life because he had idleness. 28. since he worked tha 3.
+        he became rich. 29. He bought a pen which was costly. 30. I want a pen
+        which is white. 31. I saw a man who was lame. 32. We saw a man who was
+        sleeping on the street. 33. The man who is pious leads a peaceful life.
+        34. The man who is patriotic loves his country. 35. The man who is
+        honest is free from greed. 36. Though he is brilliant, he cannot make
+        good results. 37. Although he started late, he finished earlier. 38. The
+        cock crows when it is. morning. 39. When he was four, he left home. 40.
+        you do not speak English if we speak English well. 41. If we do not
+        drink clean water, we can not keep fit. 42. If we eat a balanced diet,
+        we can be healthy.
+        <br />
+        <br />
+        Transform the following Compound Sentences into Simple.
+        <br />
+        1. She has a cousin and his name is Karim. 3. She is reading a book and
+        it is blue. 3. He is looking at some flowers and they are beautiful. 4
+        Santira has a pen friend and she is an Australian. 5. He took the purse
+        and ran away. 6. The sea water was very salty and they could not drink
+        it. 7. Work hard and you will prosper. 8. The culprit ran away and
+        escaped himself. 9. He is healthy but he doesn't work at all. 10. He had
+        all the qualifications but he did not get a job. 11. He behaved rough
+        but he was not punished. 12. The farmers worked day and night but they
+        could not grow a good harvest. 13. Walk fast or you can not get the
+        train. 14. I called him but he did not respond. 15. I forgot him and
+        went outside the room. 16. It is Nie spring season and then the cuckoo
+        sings. 17. We went to the fair and then it was evening 18 He went to
+        read in the library and so he went there. 19. She wants to prosper in fe
+        and so the works hard. 20. He worked hard and so he became rich. 21. The
+        girl studied more and so she stood first. 22. A man was sleeping on the
+        street and we saw that. 23 He is brilliant but he cannot make good
+        results. 24. He started late but he finished earlier. /25 4/19 morning
+        and then cock crows. 26. He was four and then he left home. 27. Speak
+        English or you can not speak English well. 28. We should drink clean
+        water or we can not keep fit.
+        <br />
+        <br />
+        Turn the following sentences into superlative
+        <br />
+        1. Beef was cheaper than any other dish on the menu. 2. Iron is more
+        useful than any other metal. 3. He is nobler than any other person. 4.
+        She was better than any other housewife. 5. "Hamlet" is more popular
+        than most other dramas. 6. Akbar was greater than all other kings of
+        India. 7. Mr. Zaman is wiser than any other man in the village. 8.
+        Chittagong is bigger than any other sea part in Bangladesh. 9. It burns
+        prettier than any other wood. 10. He is better than any other boy I have
+        ever found. 11. "Arabian Nights" is better than most other story books.
+        12. He was cleverer than any other person in the company. 13. Rubel !
+        younger than all other boys in the class. 14. She is worse than any
+        other girl.
+        <br />
+        <br />
+        Turn the following sentences into positive
+        <br />
+        1. A lion is not braver than he. 2. He was not less wise than they. 3.
+        You are older than I. 4 Prevention is better than cure. 5. A train runs
+        faster than a bus. 6. Her teeth were brighter than a string of pearls.
+        7. She is less ugly than you said. 8. Imran Khan is greater than mos
+        other cricketers. 9. He is not less intelligent than any other boy. 10.
+        Her face was not les radiant than the full moon. 11. He was cleverer
+        than any other person in the company. Iron is more useful than any other
+        metal. 13. Tomatoes are cheaper than oranges. I Bhutan is smaller than
+        most other countries in the world.
+        <br />
+        <br />
+        Turn the following Sentences into comparative
+        <br />
+        1. No other food on the menu was so cheap as beef. 2. Very few metals
+        are so precious as gold. 3. A bird can not fly as fast as a train. 4.
+        Very few hotels are as fashionable as Sheraton. 5. Cure is not so good
+        as prevention. 6. Very few boys are as good as Hasan. 7. No other story
+        book is so popular as the Arabian Nights. 8. No other wood burns so
+        pretty as the apple log. 9. No other city in Bangladesh is so big as
+        phaka. 10. No other man in the village was so old as he. 11. You are not
+        as tall as he. 12. No other girl in the class is so beautiful as she.
+        13. They were not as strong as we. 14. Very few bays in the class are so
+        clever as you.
+        <br />
+        <br />
+        Turn the following superlatives into comparative
+        <br />
+        1. She was the best house wife. 2. He is the best boy 3 tron is the most
+        useful of all metals. 4. It burns the prettiest of any wood. 5. He is
+        the noblest person. 6. Dhaka is the largest city in Bangladesh. 7. This
+        is one of the greatest pictures of the world.8. Chittagong is the
+        biggest port in Bangladesh. 9. He is one of the wisest men in the
+        village. 10. Milk is the most nutritious of all foods. 11. Bangladesh is
+        one of the smallest countries in the world. 12. Swimming is the best
+        exercise. 13. Everest is the highest of all peaks in the world. 14. This
+        is one of the most beautiful pictures in the exhibition, 15. He was the
+        most humorous of all men in the company. 16. Akbar was one of the
+        greatest kings of this sub- continent. 17. Australia is the largest of
+        all islands in the world.
+        <br />
+        <br />
+        | Transform the following sentences into superlative
+        <br />
+        1. No other boy in the orphanage is so good as Jamal. 2. No other girl
+        in the class is so fair as Ruma. 3. Very few restaurants are as
+        expensive as Sonargaon. 4. No other city in Bangladesh is so big as
+        Dhaka. 5. Very few pictures in the world are as great as this. 6. Very
+        few metals are so precious as gold 7. Very low animals are as ferocious
+        as a lion. 8. No other mosque is so large as this. 9. No other
+        dramatists so great as Shakespeare. 10. No other woman was as clever as
+        the lady guest. N. No other animal is so useful as the cow. 12. No other
+        food is so nutritious as milk. 13. Very few players in the team are as
+        good as he.
+        <br />
+        <br />
+        Transform the following sentences into Interrogative <br />
+        1. Sonargaon is a restaurant. 2. He liked the late spring. 6. She likes
+        white gloves. 4. Prevention is better than cure. 5. Addiction to
+        drinking is dangerous. 6. I have had my revenge at last. 7. They could
+        not drink salty sea water. 8. They took a mighty pride in their
+        possessions. 9. The smell of the melted butter tickled my Hasirlis 10.
+        The flavour of the food becomes monotonous. 11. I shall never forget
+        your advice. 12. I never went there. 13. Their glory can never fade. 14.
+        He is not a 16. He was not a fool. 17. He is a great fool. 15 Hes not
+        present in the meeting. great scholar. 18. He went there of the own
+        accord. 19. 1 have nothing to say. 20. There was nothing to do bat flop
+        down 21 There is nothing wrong with me. 22. Everybody hankers after
+        happiness. 23. Everybody loves a patriot. 24. Everybody fears death. 25.
+        Everyone hates a criminal. 26. Nobody trusts a llar. 27. No one can
+        depend on an unreliable man. 28. No one hits accurately everyone. 29.
+        Nobody could ever count my love for you. 30. None has ever seen suchra
+        ne sight
+        <br />
+        <br />
+        TRANSFORM THE FOLLOWING SENTENCES INTO AFFIRMATIVE
+        <br />
+        1. None but Allah can help us. 2. None but the fool will say so 3. Never
+        tell a lie. 4. He was never late. 5. You can not help going there. 6. He
+        was not a dishonest boy. 7. I did not find many people there. 8. No
+        sooner had I reached the college than the bell rang. 9. There is no
+        mother but loves her child. 10. No one will any his courage. 11. The boy
+        was not unlike his father 12 All can not but submit to destiny. foreign
+        tour. 14. 1 shall never be ungrateful to you There is nobody but likes
+        to go on a He 19 not dishonoured by anybody: 16. No sooner had he come
+        than the meeting started. 17. We did not find the road bad. 18. A good
+        boy never neglects his lesson. 19. There rase without disagreed with
+        him. 21. 1 can not but shed tears at the sight. a thorn. 20. I never 22.
+        This did not please me. 23. The old man was not kind. 24. He was not
+        solvent 25. There is no cloud without a silver lining.
+        <br />
+        <br />
+        Transform the following sentences into assertive
+        <br />
+        1. How sweetly the cuckoo sings! 2. What a nice flower the rose is! 3.
+        What a big river the Padma is! 4. What a fool you are l 5. How talkative
+        she was! 6. How pretty the girl is! 7. What a fine flower it is! 8. How
+        exciting the first day in Cox's Bazar ts! 9. What a lovely place it is!
+        10. How beautiful the youngest sister wast 11. What a beautiful bird it
+        is! 12. How fortunate the porter was ! 13. How time does fly! 14. How
+        deep her love for her husband was! 15. What wonderful scenery it ist I
+        could be a child again! 17. Had I been a merchant! 18. If I were a
+        millionaire 1 If I were a philosopher like Socrates. 20. "Had I
+        possessed a lot of wealth! 21. flow charining is the first meal in a
+        strange town! 22. How charming still is Italy! 23, Nurrall we have won
+        the match. 24. Hurrah, we are victorious. 25. Alas! I am undone. 26.
+        Would that we could enter the house?
+        <br />
+        <br />
+        Transform the following sentences into negative.
+        <br />
+        1. The old man was alone alive. 2. Only the graduates should apply. 3.
+        Only the brave deserve the fair. Only the moon was visible. 5. He lives
+        alone in the house. Man must submit to destiny. 7. You must obey your
+        teachers. 8. All men must dic. 9. As soon as the teacher entered the
+        classroom, the students stood up. 10. As soon as he saw me, he ran
+        away.. Every rose has thorns, 12. Every map hates a liar. 13. Everybody
+        believes in his honesty. 14. Every mother loves her child. 4. Everyone
+        loves a truthful boy. 16. I shall always remember youThe man was old. 18
+        The man is poor. 19 Man is mortal. 20. missed the tram. 2. I was
+        doubtful of his honesty. 23. I forgot his name. 24. He is present in the
+        meeting. 25. Travelling is always pleasant. 26. The men were pleased to
+        see. 27. They were right to think so. 28. The boy speaks English. 29. He
+        is my friend. 30. Dhaka is an old city. 31. We should always tell the
+        truth. 32. He is the best boy in the class. 33. The man is as ferocious
+        as a lion. 34. He was too honest to take the money. 35. He is as dull as
+        an ass. 36. She was too poor to buy a gift for her husband.
       </div>
     </div>
   );
