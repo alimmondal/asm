@@ -32,8 +32,9 @@ const Narration = () => {
             <AccordionTitle>Basic Discussion</AccordionTitle>
             <AccordionContent>
               <div className="mb-2 dark:text-gray-400">
-                Basic Discussion : ◼◻ Narration/Speech মনে উক্তি। একজন বক্তার
-                বক্তব্য ব্যক্ত করার উপায়কে Narration/Speech বলে। <br />
+                Basic Discussion : <br />
+                ◼◻ Narration/Speech মনে উক্তি। একজন বক্তার বক্তব্য ব্যক্ত করার
+                উপায়কে Narration/Speech বলে। <br />
                 <br />
                 Narration/Speech দুই প্রকার -
                 <br />
@@ -54,16 +55,18 @@ const Narration = () => {
                 <br />
                 * Reporting Verb & Reported Speech <br />
                 * Basic Sentence Structure <br />
-                Tense Changing <br />
-                Person Changing Subject-Objective-Possessive <br />
-                Adverbial Phrases
+                * Tense Changing <br />
+                * Person Changing Subject-Objective-Possessive <br />
+                * Adverbial Phrases
                 <br />
                 <br />
-                1. Reporting Verb & Reported Speech : Direct Speech এর দুইটি অংশ
-                থাকে। একটিকে Reporting Verb এবং অন্যটিকে Reported Speech বলে। ▫
-                Inverted Comma এর বাহিরের Verb কে বলে Reporting Verb. ▫ Inverted
-                Comma এর ভিতরের Sentence কে বলে Reported Speech. Ex. He said to
-                me, “You are involved in this matter.”
+                1. Reporting Verb & Reported Speech : <br />
+                Direct Speech এর দুইটি অংশ থাকে। একটিকে Reporting Verb এবং
+                অন্যটিকে Reported Speech বলে। <br />▫ Inverted Comma এর বাহিরের
+                Verb কে বলে Reporting Verb.
+                <br /> ▫ Inverted Comma এর ভিতরের Sentence কে বলে Reported
+                Speech.
+                <br /> Ex. He said to me, “You are involved in this matter.”
               </div>
             </AccordionContent>
           </AccordionPanel>
@@ -118,13 +121,14 @@ const Narration = () => {
             *** You-you-your প্রথম বাক্যের Object-অনুসারে পরিবর্তন হয়। <br />
             ## উক্ত Pronoun-গুলো ছাড়া আন্য কোন Pronoun পরিবর্তন হয় না।
           </p>
-          <br />
           যেমনঃ
           <br />
-          Q. He said to me, "I have done my duty". <br />= He said to me
+          Q. He said to me, "I have done my duty according to her order". <br />
+          = He said to me
           <strong> that </strong> he
-          <strong> had </strong> done <strong> his</strong> duty.
-          <p className="pt-5">
+          <strong> had </strong> done <strong> his</strong> duty according to
+          her order.
+          <p className="py-2">
             ### Subject/ Pronoun এর পরিবর্তন বুঝার জন্য নিচের টেবিলটি মনে রাখতে
             হবেঃ
           </p>
@@ -241,7 +245,7 @@ const Narration = () => {
               ** সাধারণত প্রথম বাক্যের (Reporting Verb এর) Say বা Said এর
               পরিবর্তন হয় না তবে Said to এর পরিবর্তে tell বা told করা যায়।{" "}
               <br />
-              ** আর দ্বিতীয় বাক্যের Subject এবং Verb এর নিয়ম অনুযায়ী পরিবর্তন
+              ** আর দ্বিতীয় বাক্যের Subject এবং Verb এর পরিবর্তন আগের নিয়মে
               হবে। <br />
               ** দুটি বাক্যের মাঝখানে that বসে।
             </p>
