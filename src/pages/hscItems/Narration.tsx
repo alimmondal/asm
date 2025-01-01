@@ -39,16 +39,21 @@ const Narration = () => {
                 <br />
                 Direct Speech ( প্রত্যক্ষ উক্তি )
                 <br />
+                Indirect Speech ( পরোক্ষ উক্তি )
                 <br />
-                Indirect Speech ( পরোক্ষ উক্তি ) ◽◾ Direct Speech - বক্তার
-                দ্বারা বলা হুবহু বক্তব্য যা সে নিজের মুখ দিয়ে বলে তা হলো <br />
-                Direct Speech. ◽◾ Indirect Speech - বক্তার বক্তব্যের সারাংশ যা
-                অন্য কেউ তার মত করে বলে তখন তা Indirect Speech. <br />
-                এটাতো গেলো Narration এর ভাষাগত পরিচয়। কিন্তু Narration ভালোভাবে
-                শিখতে হলে নিম্নোক্ত ছয়টি টপিক ভালোভাবে বুঝতে হবে -<br />
                 <br />
-                Reporting Verb & Reported Speech <br />
-                Basic Sentence Structure <br />
+                ◽◾ Direct Speech - বক্তার দ্বারা বলা হুবহু বক্তব্য যা সে নিজের
+                মুখ দিয়ে বলে তা হলো Direct Speech
+                <br />
+                ◽◾ Indirect Speech - বক্তার বক্তব্যের সারাংশ যা অন্য কেউ তার
+                মত করে বলে তখন তা Indirect Speech. <br />
+                <br />
+                এটাতো গেলো Narration এর ভাষাগত পরিচয়। <br />
+                কিন্তু Narration ভালোভাবে শিখতে হলে নিম্নোক্ত ছয়টি টপিক
+                ভালোভাবে বুঝতে হবে:-
+                <br />
+                * Reporting Verb & Reported Speech <br />
+                * Basic Sentence Structure <br />
                 Tense Changing <br />
                 Person Changing Subject-Objective-Possessive <br />
                 Adverbial Phrases
@@ -88,8 +93,10 @@ const Narration = () => {
           <br />
           <p>
             <strong>Note:</strong> উপরের সাহায্যকারি Verb গুলোর পরে মুল Verb
-            থাকলে সেই Verb এর কোন পরিবর্তন হয় না । যদি উপরের সাহায্যকারি Verb
-            গুলো না থাকে তাহলে মুল Verb এর পরিবর্তন হয়। যেমন:
+            থাকলে সেই Verb এর কোন পরিবর্তন হয় না ।
+            <br />
+            যদি উপরের সাহায্যকারি Verb গুলো না থাকে তাহলে মুল Verb এর পরিবর্তন
+            হয়। যেমন:
           </p>
           <p>V1 - থাকলে V2 হয়,</p>
           <p>V2 - থাকলে V2 হয় অথবা had + V3 হয়,</p>
@@ -111,6 +118,12 @@ const Narration = () => {
             *** You-you-your প্রথম বাক্যের Object-অনুসারে পরিবর্তন হয়। <br />
             ## উক্ত Pronoun-গুলো ছাড়া আন্য কোন Pronoun পরিবর্তন হয় না।
           </p>
+          <br />
+          যেমনঃ
+          <br />
+          Q. He said to me, "I have done my duty". <br />= He said to me
+          <strong> that </strong> he
+          <strong> had </strong> done <strong> his</strong> duty.
           <p className="pt-5">
             ### Subject/ Pronoun এর পরিবর্তন বুঝার জন্য নিচের টেবিলটি মনে রাখতে
             হবেঃ
@@ -157,12 +170,6 @@ const Narration = () => {
               </tr>
             </tbody>
           </table>
-          <br />
-          যেমনঃ
-          <br />
-          Q. He said to me, "I have done my duty". <br />= He said to me
-          <strong> that </strong> he
-          <strong> had </strong> done <strong> his</strong> duty".
         </div>
 
         {/* Adverbial Clause */}
