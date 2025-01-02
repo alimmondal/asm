@@ -17,7 +17,7 @@ const Narration = () => {
           {/* Steps */}
           <AccordionPanel>
             <AccordionTitle>Steps</AccordionTitle>
-            <AccordionContent>
+            <AccordionContent className="p-2 md:p-5">
               <div className="mb-2 dark:text-gray-400">
                 We will learn Narration by 3 steps -
                 <p className="">
@@ -31,7 +31,7 @@ const Narration = () => {
           {/* basic */}
           <AccordionPanel>
             <AccordionTitle>Basic</AccordionTitle>
-            <AccordionContent>
+            <AccordionContent className="p-2 md:p-5">
               <div className="mb-2 dark:text-gray-400">
                 Basic Discussion : <br />
                 ◼◻ Narration/ Speech মনে উক্তি। একজন বক্তার বক্তব্য ব্যক্ত করার
@@ -75,7 +75,7 @@ const Narration = () => {
           {/* rule1 */}
           <AccordionPanel>
             <AccordionTitle>Rule - 1</AccordionTitle>
-            <AccordionContent className="p-2">
+            <AccordionContent className="p-2 md:p-5">
               <div className="dark:text-gray-400">
                 <div className="">
                   <h2>Rule-1: Tense Changing</h2>
