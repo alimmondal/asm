@@ -7,14 +7,26 @@ import {
 
 function Essays() {
   return (
-    <div className="mx-3 md:w-[85%] md:mx-auto text-gray-800 shadow-md mb-6 rounded-sm">
-      <h1 className="text-center py-5">Composition</h1>
+    <div className="mx-3 md:w-[85%] md:mx-auto mb-6 rounded-sm">
+      <h1 className="text-center py-32 text-green-400">Composition</h1>
       <Accordion>
+        <AccordionPanel>
+          <AccordionTitle>Rules</AccordionTitle>
+          <AccordionContent className="p-2 md:p-5">
+            <div className="">
+              Some rules for writing composition: <br />
+              * Must have an introduction section. <br />
+              * Must have a description section. <br />
+              * Must have a conclusion section. <br />
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
+
         {/* Mobile phone */}
         <AccordionPanel>
           <AccordionTitle>Mobile Phone/ Internet/ Computer</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
-            <div className="py-5 ">
+            <div className=" ">
               <div className="max-w-64 mx-auto">
                 <h3 className="text-center">
                   Mobile Phone/ Internet/ Facebook/ Computer/ Social networks/
@@ -60,8 +72,8 @@ function Essays() {
             Polution/ Climate Change/ Greenhosue Effect
           </AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
-            <div className="py-5">
-              <h3 className="text-center py-3">
+            <div className="">
+              <h3 className="text-center ">
                 ** Environment pollution <br />
                 ** water pollution <br />
                 ** air pollution <br />
@@ -103,10 +115,10 @@ function Essays() {
 
         {/* travel */}
         <AccordionPanel>
-          <AccordionTitle>**Visit/ travelling/journey.</AccordionTitle>
+          <AccordionTitle>Visit/ travelling/ journey.</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div>
-              <h3 className="text-center py-5">
+              <h3 className="text-center ">
                 **Visit to a Historical place <br />
                 Or, Visit to a village. <br /> Or, Importance of
                 travelling/journey. <br /> Or, Journey by boat/train/bus that
@@ -151,48 +163,56 @@ function Essays() {
             </div>
           </AccordionContent>
         </AccordionPanel>
+
+        {/* Aim in Life */}
+        <AccordionPanel>
+          <AccordionTitle>Aim in Life</AccordionTitle>
+          <AccordionContent className="p-2 md:p-5">
+            <div>
+              <h3 className="text-center">
+                ** Your Aim in Life** <br />
+                ** Your Future Plan of Life** <br />
+                ** If you were a Politician/ Teacher/ Doctor** <br />
+                ** Why you want to be a ........**
+              </h3>
+
+              <p>
+                I want to be .... which is my aim in life/ future plan of life.
+                Everybody should have an aim without which a man is like ship
+                without a rudder. So, if a man/ student fails to choose his aim/
+                profession, he suffers in life. <br />
+                I, therefore, want to be a (doctor). There are many reasons for
+                choosing the profession of a doctor. Since my boyhood, it was my
+                cherished desire to serve the nation. The village people in our
+                country are very poor. They suffer from various
+                diseases/problems, but there are few qualified, honest
+                (doctors/Politicians) to serve them. Rather, the helpless people
+                are always exploited by them. Moreover, the village people,
+                being honest, are deprived of basic needs like medical
+                treatment. So, it is my determination to set up a hospital with
+                free distribution of medicines in my village. I have also
+                planned to do some social work like repairing bridges, roads,
+                and other services. Thus, I have decided to serve the nation
+                through my profession.
+                <br />
+                Everyone should continue to work according to his future
+                plan/aim. So, to reach my goal, I am preparing well in all
+                subjects and hope to get a good score in all the exams. After
+                completing my MBBS, I will return to my village to serve my
+                villagers.
+                <br />
+                Success in life depends much on the profession, and my choice is
+                a noble one. I believe that I will be able to achieve it. ---
+                Let me know if there's anything else you need!
+              </p>
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
       </Accordion>
+
       <div className="py-20">
-        <div>
-          <h3 className="text-center py-5">
-            {" "}
-            ** Your Aim in Life** <br />
-            ** Your Future Plan of Life** <br />
-            ** If you were a Politician/ Teacher/ Doctor** <br />
-            ** Why you want to be a ........**
-          </h3>
-
-          <p>
-            I want to be .... which is my aim in life/ future plan of life.
-            Everybody should have an aim without which a man is like ship
-            without a rudder. So, if a man/ student fails to choose his aim/
-            profession, he suffers in life. <br />
-            I, therefore, want to be a (doctor). There are many reasons for
-            choosing the profession of a doctor. Since my boyhood, it was my
-            cherished desire to serve the nation. The village people in our
-            country are very poor. They suffer from various diseases/problems,
-            but there are few qualified, honest (doctors/Politicians) to serve
-            them. Rather, the helpless people are always exploited by them.
-            Moreover, the village people, being honest, are deprived of basic
-            needs like medical treatment. So, it is my determination to set up a
-            hospital with free distribution of medicines in my village. I have
-            also planned to do some social work like repairing bridges, roads,
-            and other services. Thus, I have decided to serve the nation through
-            my profession.
-            <br />
-            Everyone should continue to work according to his future plan/aim.
-            So, to reach my goal, I am preparing well in all subjects and hope
-            to get a good score in all the exams. After completing my MBBS, I
-            will return to my village to serve my villagers.
-            <br />
-            Success in life depends much on the profession, and my choice is a
-            noble one. I believe that I will be able to achieve it. --- Let me
-            know if there's anything else you need!
-          </p>
-        </div>
-
         <div className="py-10">
-          <h1 className="text-rose-500 py-5">Short Technique</h1>
+          <h1 className="text-center text-rose-500 py-5">Short Technique</h1>
           <h3>Composition/Essay on good side</h3>
           1. Discipline <br /> 2. Honesty (is the best policy) <br /> 3. Dignity
           of labour <br /> 4. Ambition (hoope) <br /> 5. Perseverance
