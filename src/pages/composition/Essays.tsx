@@ -1,45 +1,158 @@
+import {
+  Accordion,
+  AccordionContent,
+  AccordionPanel,
+  AccordionTitle,
+} from "flowbite-react";
+
 function Essays() {
   return (
     <div className="mx-3 md:w-[85%] md:mx-auto text-gray-800 shadow-md mb-6 rounded-sm">
+      <h1 className="text-center py-5">Composition</h1>
+      <Accordion>
+        {/* Mobile phone */}
+        <AccordionPanel>
+          <AccordionTitle>Mobile Phone/ Internet/ Computer</AccordionTitle>
+          <AccordionContent className="p-2 md:p-5">
+            <div className="py-5 ">
+              <div className="max-w-64 mx-auto">
+                <h3 className="text-center">
+                  Mobile Phone/ Internet/ Facebook/ Computer/ Social networks/
+                  Television/Satellite TV/ Dish Antenna/ Modern Technology/
+                  Information technologies/ The gift of Modern Science
+                </h3>
+              </div>
+
+              <p>
+                Thanks to science which has changed the world of Adam and Eve by
+                its amazing modern (technologies/ discoveries). ..... is one of
+                them. We cannot think of modern life without the gift of modern
+                technology like mobile phone.
+                <br />
+                Internet/ Facebook/ mobile phone is a system which work without
+                the help of any wire. With the help of mobile phone/ internet,
+                we can see the whole world. It helps us know the economy,
+                education, culture, technology and sports of other countries of
+                the world. Using ………, we can send messages, play games,
+                communicate to anyone to any distant places. We can be aware of
+                different news and views, and can do many other activities. But
+                there is no unmixed blessing on the earth. With all its
+                usefulness, ……. has still some drawbacks in disguise. Using ……
+                weakens our eye-sight and can cause diseases to the user.
+                Terrorist are using it to spread violence. Most times, students
+                prefer enjoying ……… to studying. Obscene scene are shown in …… .
+                This obscene scene hinders the growth of the young
+                generation.Our young generation are led to go astray by this
+                obscenity. <br />
+                So to say, it should be our morality to accept the good and give
+                up the bad. And the government should create public awareness.
+                However, …… is an indispensible part of our modern life and
+                communication.
+                <br />
+              </p>
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
+
+        {/* Polution */}
+        <AccordionPanel>
+          <AccordionTitle>
+            Polution/ Climate Change/ Greenhosue Effect
+          </AccordionTitle>
+          <AccordionContent className="p-2 md:p-5">
+            <div className="py-5">
+              <h3 className="text-center py-3">
+                ** Environment pollution <br />
+                ** water pollution <br />
+                ** air pollution <br />
+                ** Climate Change <br />
+                ** Impact of Climate Change <br />
+                ** global warming <br />
+                ** Greenhouse effects.
+              </h3>
+              <p>
+                The main cause of ... is carbon dioxide(CO2), CFC, methane
+                gasses which are caused by environment pollution. For healthy
+                living, the main elements of environment such as air, water and
+                soil, should be free from pollution. But when the balance of
+                these elements hampered, it is called environment pollution.
+                <br />
+                water is polluted from industrial waste and from chemical
+                fertilizer, insecticides used by farmer. Water pollution causes
+                various water born disease like cholera, dhiaria . These
+                diseases may lead a man to death
+                <br />
+                Air is polluted by smoke and gases from mill, factories,
+                vehicles and by burning trash. Air pollution causes various
+                respiratory human disease like asthma, pneumonia, bronchitis.
+                These diseases may lead a man to death
+                <br />
+                These pollutions are a great threat to our existence. They cause
+                various human diseases. These diseases may lead a man to death.
+                It changes world’s climate and increase temperature. This
+                reduces human capacity to work. It also causes natural disasters
+                like cyclone.
+                <br />
+                Thus the world is getting unsuitable for living. So, to make
+                life healthy and comfortable, we should keep the environment
+                clean and pollution free.
+              </p>
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
+
+        {/* travel */}
+        <AccordionPanel>
+          <AccordionTitle>**Visit/ travelling/journey.</AccordionTitle>
+          <AccordionContent className="p-2 md:p-5">
+            <div>
+              <h3 className="text-center py-5">
+                **Visit to a Historical place <br />
+                Or, Visit to a village. <br /> Or, Importance of
+                travelling/journey. <br /> Or, Journey by boat/train/bus that
+                you have made recently. <br /> Or, a study tour/excursion that
+                you enjoyed.
+              </h3>
+
+              <p>
+                Education involves not only reading books and doing exercises
+                but also acquiring knowledge through doing something
+                practically. In other words, practical experience is a part of
+                education. In this sense, traveling/journey is very important.
+                Traveling/Journey means going from one place to another. By
+                traveling, one can know the unknown, enjoy the unenjoyed things.{" "}
+                <br />
+                Traveling has, therefore, two purposes: acquiring experience and
+                pleasure. In both cases, knowledge comes from traveling or a
+                journey. Now we find traveling very easy. We can travel by bus,
+                train, boat, etc. People make [such] journeys, for it is cheaper
+                and more comfortable than any other journey in Bangladesh. I
+                like this journey very much, and I am fond of traveling. A
+                journey by [mode of transport] can be thought of as immense
+                pleasure and experience. I would like to give a specific account
+                of such a journey. It was a historical place named Paharpur, a
+                remote village from Naogaon district. <br />
+                During the summer vacation, taking financial assistance from our
+                principal, we arranged this study tour/journey. We had taken
+                enough food and fruit with us. It was early in the morning when
+                we had started our journey. It was a sunny day. While passing
+                through, we were glad to see the beautiful scenery of the rural
+                areas. On both sides, we saw green fields of paddy, jute, and
+                plants. We were caught by the natural beauty. But after reaching
+                there, we were really overwhelmed by the architectural beauty of
+                the relics of Buddha Vihar, which was built about seven hundred
+                years ago. It reminds us of the maxim, "seeing is believing."{" "}
+                <br />
+                From this journey, I learned that without traveling, education
+                remains incomplete and imperfect. Traveling removes the boredom
+                and offers us pleasure. Therefore, we should take traveling and
+                tours.
+              </p>
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
+      </Accordion>
       <div className="py-20">
-        <h1 className="text-center py-5">Composition</h1>
-
-        <div className="py-5 ">
-          <div className="max-w-64 mx-auto">
-            <h3 className="text-center">
-              Mobile Phone/ Internet/ Facebook/ Computer/ Social networks/
-              Television/Satellite TV/ Dish Antenna/ Modern Technology/
-              Information technologies/ The gift of Modern Science
-            </h3>
-          </div>
-
-          <p>
-            Thanks to science which has changed the world of Adam and Eve by its
-            amazing modern (technologies/ discoveries). ..... is one of them. We
-            cannot think of modern life without the gift of modern technology
-            like mobile phone.
-            <br />
-            Internet/ Facebook/ mobile phone is a system which work without the
-            help of any wire. With the help of mobile phone/ internet, we can
-            see the whole world. It helps us know the economy, education,
-            culture, technology and sports of other countries of the world.
-            Using ………, we can send messages, play games, communicate to anyone
-            to any distant places. We can be aware of different news and views,
-            and can do many other activities. But there is no unmixed blessing
-            on the earth. With all its usefulness, ……. has still some drawbacks
-            in disguise. Using …… weakens our eye-sight and can cause diseases
-            to the user. Terrorist are using it to spread violence. Most times,
-            students prefer enjoying ……… to studying. Obscene scene are shown in
-            …… . This obscene scene hinders the growth of the young
-            generation.Our young generation are led to go astray by this
-            obscenity. <br />
-            So to say, it should be our morality to accept the good and give up
-            the bad. And the government should create public awareness. However,
-            …… is an indispensible part of our modern life and communication.
-            <br />
-          </p>
-        </div>
-
         <div>
           <h3 className="text-center py-5">
             {" "}
@@ -75,47 +188,6 @@ function Essays() {
             Success in life depends much on the profession, and my choice is a
             noble one. I believe that I will be able to achieve it. --- Let me
             know if there's anything else you need!
-          </p>
-        </div>
-
-        <div>
-          <h3 className="text-center py-5">
-            **Visit to a Historical place <br />
-            Or, Visit to a village. <br /> Or, Importance of travelling/journey.{" "}
-            <br /> Or, Journey by boat/train/bus that you have made recently.{" "}
-            <br /> Or, a study tour/excursion that you enjoyed.
-          </h3>
-
-          <p>
-            Education involves not only reading books and doing exercises but
-            also acquiring knowledge through doing something practically. In
-            other words, practical experience is a part of education. In this
-            sense, traveling/journey is very important. Traveling/Journey means
-            going from one place to another. By traveling, one can know the
-            unknown, enjoy the unenjoyed things. <br />
-            Traveling has, therefore, two purposes: acquiring experience and
-            pleasure. In both cases, knowledge comes from traveling or a
-            journey. Now we find traveling very easy. We can travel by bus,
-            train, boat, etc. People make [such] journeys, for it is cheaper and
-            more comfortable than any other journey in Bangladesh. I like this
-            journey very much, and I am fond of traveling. A journey by [mode of
-            transport] can be thought of as immense pleasure and experience. I
-            would like to give a specific account of such a journey. It was a
-            historical place named Paharpur, a remote village from Naogaon
-            district. <br />
-            During the summer vacation, taking financial assistance from our
-            principal, we arranged this study tour/journey. We had taken enough
-            food and fruit with us. It was early in the morning when we had
-            started our journey. It was a sunny day. While passing through, we
-            were glad to see the beautiful scenery of the rural areas. On both
-            sides, we saw green fields of paddy, jute, and plants. We were
-            caught by the natural beauty. But after reaching there, we were
-            really overwhelmed by the architectural beauty of the relics of
-            Buddha Vihar, which was built about seven hundred years ago. It
-            reminds us of the maxim, "seeing is believing." <br />
-            From this journey, I learned that without traveling, education
-            remains incomplete and imperfect. Traveling removes the boredom and
-            offers us pleasure. Therefore, we should take traveling and tours.
           </p>
         </div>
 
