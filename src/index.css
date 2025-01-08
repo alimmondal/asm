@@ -6,6 +6,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* // animation */
+.LogoIcon {
+  /* margin-top: 10px; */
+  /* height: 30px;
+  width: 30px; */
+  animation: logoBlink 2s infinite ease-in-out;
+}
+@keyframes logoBlink {
+  100% {
+    opacity: 0;
+  }
+}
+
 /* color */
 .animateText {
   color: red;

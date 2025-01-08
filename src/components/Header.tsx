@@ -5,8 +5,8 @@ function Header() {
     <div className="py-2 px-2 md:px-0 w-[85%] mx-auto md:flex items-center justify-between hidden">
       <div className="flex flex-row gap-2 items-center">
         <div className="flex flex-col items-center justify-center">
-          <div className="text-yellow-400">
-            <FaBookReader size={48} />
+          <div className="text-yellow-400 LogoIcon">
+            <FaBookReader size={40} />
           </div>
           <div className="font-bold text-yellow-400 tracking-widest">*ASM*</div>
         </div>
