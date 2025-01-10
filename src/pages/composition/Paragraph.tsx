@@ -1,82 +1,137 @@
+import {
+  Accordion,
+  AccordionContent,
+  AccordionPanel,
+  AccordionTitle,
+} from "flowbite-react";
+
 const Paragraph = () => {
   return (
     <div className="w-[95%] md:w-[70%] mx-auto   ">
       <div className="text-center py-20">
         <h1 className="">Paragraph</h1>
       </div>
+
+      <Accordion>
+        <AccordionPanel>
+          <AccordionTitle>Rules</AccordionTitle>
+          <AccordionContent className="p-2 md:p-5">
+            <div className="">
+              Some rules for writing composition: <br />
+              * Must have an introduction section. <br />
+              * Must have a description section. <br />
+              * Must have a conclusion section. <br />
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
+
+        {/* Environment pollution */}
+        <AccordionPanel>
+          <AccordionTitle>Pollution</AccordionTitle>
+          <AccordionContent className="p-2 md:p-5">
+            <div className="py-5">
+              <h3 className="text-center py-3">
+                Environment pollution <br />
+                water pollution <br />
+                air pollution <br />
+                Climate Change <br />
+                global warming <br />
+                Greenhouse effects.
+              </h3>
+              <p>
+                For healthy living, the main elements of environment such as
+                air, water and soil, should be free from pollution. But when the
+                balance of these elements hampered, it is called environment
+                pollution. <strong>(air pollution/water pollution)</strong>.
+                These pollutions are a great threat to our existence. They cause
+                various human diseases. These diseases may lead a man to death.
+                It changes world’s climate and increase temperature. This
+                reduces human capacity to work. It also causes natural disasters
+                like cyclone. Thus the world is getting unsuitable for living.
+                So, to make life healthy and comfortable, we should keep the
+                environment clean and pollution free.
+              </p>
+              <p>
+                <strong>
+                  Global warming/ Climate Change/ Greenhouse effects:
+                </strong>{" "}
+                The main cause of ... is carbon dioxide(CO2), CFC, methane
+                gasses which are caused by environment pollution. for healthy
+                ........{" "}
+              </p>
+
+              <p>
+                <strong>Water pollution: </strong>water is polluted from
+                industrial waste and from chemical fertilizer, insecticides used
+                by farmer. Water pollution causes various water born disease
+                like cholera, . These diseases may lead a man to death
+              </p>
+
+              <p>
+                <strong>Air pollution:</strong> Air is polluted by smoke and
+                gases from mill, factories, vehicles and by burning trash. Air
+                pollution causes various respiratory human disease like asthma,
+                pneumonia, bronchitis. These diseases may lead a man to death{" "}
+              </p>
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
+
+        {/* Your Favorite Person */}
+        <AccordionPanel>
+          <AccordionTitle>Favorite Person</AccordionTitle>
+          <AccordionContent className="p-2 md:p-5">
+            <div className="py-10">
+              <h3 className="text-center py-3">
+                Your Favorite Person/ leader/ singer <br />
+                your favorite sports man/ soccer/ player/ cricketer/ footballer
+                <br />
+                your intimate friend/ best friend/ bosom friend
+                <br />
+                your favorite poet/ author/ novelist/ dramatist <br />
+                your favorite teacher/English teacher <br />
+                your mother/ your parents/ grand mother/ your favorite family
+                member
+              </h3>
+              <p>
+                Everybody has a favorite person. I have too. Of all the ....
+                [TOPIC] is an ideal in my life. I like most him because of his
+                wonderful activities beside his clear-cut and embedded
+                character. His embedded personality could be impressed my heart.
+                For this reason he is my favorite person. His views on society,
+                love of humanity and duty to the every steps attract one a lot.
+                His clarity of mind, uprightness of thought, glorious ideals,
+                and simplicity of life make one his fan. I respect his
+                creativity, speech and his responsibility. Man like [TOPIC] is
+                very necessary for the state. Everyone should try to build up
+                character, morality and personality like him. It is impossible
+                to be a real person without responsibility, morality, embedded
+                character and lofty ideals. For the peace and happiness we
+                should follow him. I become thrilled when I see/read/heard his
+                ... . His speakings/ playing/writings speak the heart of a man.
+                His .... soothes my soul. His ... give me pleasure even in my
+                boring mood. So, thinking of him, I've got freshness and
+                confidence. He is unique ... not only to me but also to my
+                family members. I follow him in my every step.
+              </p>
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
+        <AccordionPanel>
+          <AccordionTitle>Rules</AccordionTitle>
+          <AccordionContent className="p-2 md:p-5">
+            <div className="">
+              Some rules for writing composition: <br />
+              * Must have an introduction section. <br />
+              * Must have a description section. <br />
+              * Must have a conclusion section. <br />
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
+      </Accordion>
+
       <div className="px-2">
         <div>
-          {/* Environment pollution */}
-          <div className="py-5">
-            <h3 className="text-center py-3">
-              ** Environment pollution <br />
-              ** water pollution <br />
-              ** air pollution <br />
-              ** Climate Change <br />
-              ** global warming <br />
-              ** Greenhouse effects.
-            </h3>
-            <p>
-              For healthy living, the main elements of environment such as air,
-              water and soil, should be free from pollution. But when the
-              balance of these elements hampered, it is called environment
-              pollution. <strong>(air pollution/water pollution)</strong>. These
-              pollutions are a great threat to our existence. They cause various
-              human diseases. These diseases may lead a man to death. It changes
-              world’s climate and increase temperature. This reduces human
-              capacity to work. It also causes natural disasters like cyclone.
-              Thus the world is getting unsuitable for living. So, to make life
-              healthy and comfortable, we should keep the environment clean and
-              pollution free.
-            </p>
-            <p>
-              <strong>
-                Global warming/ Climate Change/ Greenhouse effects:
-              </strong>{" "}
-              The main cause of ... is carbon dioxide(CO2), CFC, methane gasses
-              which are caused by environment pollution. for healthy ........{" "}
-            </p>
-
-            <p>
-              <strong>Water pollution: </strong>water is polluted from
-              industrial waste and from chemical fertilizer, insecticides used
-              by farmer. Water pollution causes various water born disease like
-              cholera, . These diseases may lead a man to death
-            </p>
-
-            <p>
-              <strong>Air pollution:</strong> Air is polluted by smoke and gases
-              from mill, factories, vehicles and by burning trash. Air pollution
-              causes various respiratory human disease like asthma, pneumonia,
-              bronchitis. These diseases may lead a man to death{" "}
-            </p>
-          </div>
-
-          {/* Your Favorite Person */}
-          <div className="py-10">
-            <h3 className="text-center py-3">
-              ** Your Favorite Person/ leader/ singer <br />
-              ** your favorite sports man/ soccer/ player/ cricketer/ footballer
-              <br />
-              ** your intimate friend/ best friend/ bosom friend
-              <br />
-              ** your favorite poet/ author/ novelist/ dramatist <br />
-              ** your favorite teacher/English teacher <br />
-              ** your mother/ your parents/ grand mother/ your favorite family
-              member
-            </h3>
-            <p>
-              Everybody has a favorite person. I have too. Of all the .... Mr.
-              Kodu is my favorite ... . I like him very much. I indeed like him
-              for his work and activities. I become thrilled when I
-              see/read/heard his ... . His speakings/ playing/writings speak the
-              heart of a man. His .... soothes my soul. His ... give me pleasure
-              even in my boring mood. So, thinking of him, I've got freshness
-              and confidence. He is unique ... not only to me but also to my
-              family members. I follow him in my every step.
-            </p>
-          </div>
-
           {/*  Your country/homeland/ */}
           <div className="py-10">
             <h3 className="text-center py-3">
@@ -361,7 +416,9 @@ const Paragraph = () => {
               hikes and ensuring prosperous future for Bangladesh.
             </p>
           </div>
-          <div className="py-10">
+
+          {/* Problems */}
+          <div className="">
             <h1 className="text-rose-500">All Paragraph in One Paragraph</h1>
             <h2> All Kinds of Social Problems </h2>
             <b /> <b />
@@ -400,8 +457,10 @@ const Paragraph = () => {
             বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার সামাজিক সমস্যা বা Social Problem
             নিয়ে Paragraph বললে ওপরের লেখাটি অনুসরণ করো এবং [TOPIC] এর জায়গায়
             তোমার নির্দিষ্ট Paragraph এর নাম লিখে বাকী সব অপরিবর্তিত রাখো।{" "}
-            <br />
-            <br />
+          </div>
+
+          {/* good qualities */}
+          <div className="py-10">
             <h1> All Kinds Of Good Qualities</h1>
             <b /> <b />
             Brevity <br />
