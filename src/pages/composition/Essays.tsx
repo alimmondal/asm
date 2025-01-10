@@ -82,7 +82,7 @@ function Essays() {
                 global warming <br />
                 Greenhouse effects.
               </h3>
-              <p>
+              <p className="text-start">
                 <strong>Answer: </strong>The main cause of ... is carbon
                 dioxide(CO2), CFC, methane gasses which are caused by
                 environment pollution. For healthy living, the main elements of

@@ -39,20 +39,20 @@ const Paragraph = () => {
                 global warming <br />
                 Greenhouse effects.
               </h3>
-              <p>
+              <p className="text-start">
                 <strong>Answer: </strong>For healthy living, the main elements
                 of environment such as air, water and soil, should be free from
                 pollution. But when the balance of these elements hampered, it
-                is called environment pollution.{" "}
-                <strong>(air pollution/water pollution)</strong>. These
-                pollutions are a great threat to our existence. They cause
-                various human diseases. These diseases may lead a man to death.
-                It changes world’s climate and increase temperature. This
-                reduces human capacity to work. It also causes natural disasters
-                like cyclone. Thus the world is getting unsuitable for living.
-                So, to make life healthy and comfortable, we should keep the
-                environment clean and pollution free.
+                is called environment pollution. [air pollution/water
+                pollution]. These pollutions are a great threat to our
+                existence. They cause various human diseases. These diseases may
+                lead a man to death. It changes world’s climate and increase
+                temperature. This reduces human capacity to work. It also causes
+                natural disasters like cyclone. Thus the world is getting
+                unsuitable for living. So, to make life healthy and comfortable,
+                we should keep the environment clean and pollution free.
               </p>
+              <br />
               <p>
                 <strong>
                   Global warming/ Climate Change/ Greenhouse effects:
@@ -61,14 +61,14 @@ const Paragraph = () => {
                 gasses which are caused by environment pollution. for healthy
                 ........{" "}
               </p>
-
+              <br />
               <p>
                 <strong>Water pollution: </strong>water is polluted from
                 industrial waste and from chemical fertilizer, insecticides used
                 by farmer. Water pollution causes various water born disease
                 like cholera, . These diseases may lead a man to death
               </p>
-
+              <br />
               <p>
                 <strong>Air pollution:</strong> Air is polluted by smoke and
                 gases from mill, factories, vehicles and by burning trash. Air
@@ -96,23 +96,27 @@ const Paragraph = () => {
                 Television/Satellite TV
                 <br />
                 Dish Antenna
-                <br />
-                <br />
               </h3>
               <p className="">
                 <strong>Answer: </strong>Thanks to science which has changed the
-                world of Adam and Eve by its amazing discoveries. _____ is one
-                of them. With the help of _____, we see the whole world on the
-                screen of _____. It helps us to know the economy, culture,
+                world of Adam and Eve by its amazing discoveries. [TOPIC] is one
+                of them. With the help of [TOPIC], we see the whole world on the
+                screen of [TOPIC]. It helps us to know the economy, culture,
                 education, science, and technology, and sports of the modern
                 advanced world. But it has both good and bad sides because there
                 is no unmixed blessing on earth. It weakens our eyesight and
-                sometimes students prefer enjoying _______ to study. Sometimes
+                sometimes students prefer enjoying [TOPIC] to study. Sometimes
                 obscene films/scene are shown, thus it hinders the growth of
                 young generation. So it should be our morality to accept the
                 good and give up the bad. And the government should create
-                public awareness. However, …… is an indispensible part of our
-                modern life and communication.
+                public awareness. However, [TOPIC] is an indispensible part of
+                our modern life and communication.
+                <br />
+                <br />
+                বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার বৈজ্ঞানিক বিষয়বস্তু বা
+                Scientific Thing নিয়ে Paragraph বললে ওপরের লেখাটি অনুসরণ করো
+                এবং [TOPIC] এর জায়গায় তোমার নির্দিষ্ট Paragraph এর নাম লিখে
+                বাকী সব অপরিবর্তিত রাখো।
               </p>
             </div>
           </AccordionContent>
@@ -124,17 +128,17 @@ const Paragraph = () => {
           <AccordionContent className="p-2 md:p-5">
             <div className="">
               <h3 className="text-center py-3">
+                your intimate friend/ best friend/ bosom friend
+                <br />
                 Your Favorite Person/ leader/ singer <br />
                 your favorite sports man/ soccer/ player/ cricketer/ footballer
-                <br />
-                your intimate friend/ best friend/ bosom friend
                 <br />
                 your favorite poet/ author/ novelist/ dramatist <br />
                 your favorite teacher/ English teacher <br />
                 your mother/ your parents/ grand mother/ your favorite family
                 member
               </h3>
-              <p>
+              <p className="text-start">
                 <strong>Answer: </strong> Everybody has a favorite person. I
                 have too. Of all the [TOPIC], [NAME] is an ideal in my life. I
                 like him most for his works and activities. His embedded
@@ -167,7 +171,7 @@ const Paragraph = () => {
           <AccordionContent className="p-2 md:p-5">
             <div className="">
               {/* <h2 className="text-center ">Paragraph on Good Qualities</h2> */}
-              <h3 className="text-center py-3">
+              <h3 className="text-center ">
                 Importance of moral values/ morality/ humanity <br />
                 Discipline/ punctuality / Early rising/ value of time
                 <br />
@@ -184,17 +188,18 @@ const Paragraph = () => {
                 confidence/ Gratitude/ gratefulness sacrifice/ love for people/{" "}
                 <br />
               </h3>
-              <p>
-                there is a prover that (it) cost nothing but brings many things.
-                This separates a good man from a bad man. A man who posses this
-                is loved by all. For example, a business man is loved by his
-                customers for this quality. A service holder is loved by his
-                colleagues and bosses. So, success in every sphere of life
-                largely depends on (it) . It's preferable to wealth because one
-                may have vast property but he is hated only for the absence of
-                it. So, to maintain peace in society, we also must have it to be
-                an ideal social being. Hence, all of us should try our best to
-                possess this valuable quality in our lives for our own interest.
+              <p className="text-start">
+                there is a prover that [TOPIC] cost nothing but brings many
+                things. This separates a good man from a bad man. A man who
+                posses this is loved by all. For example, a business man is
+                loved by his customers for this quality. A service holder is
+                loved by his colleagues and bosses. So, success in every sphere
+                of life largely depends on [TOPIC] . It's preferable to wealth
+                because one may have vast property but he is hated only for the
+                absence of it. So, to maintain peace in society, we also must
+                have it to be an ideal social being. Hence, all of us should try
+                our best to possess this valuable quality in our lives for our
+                own interest.
               </p>
             </div>
           </AccordionContent>
@@ -215,19 +220,20 @@ const Paragraph = () => {
                 Corruption/ Bribe/ crime/ selfishness <br />
                 Flattery/Cheating/ Hypocrisy/ forgery/ <br />
               </h3>
-              <p>
-                The word "..." connotes a disturbed state of thing as opposite
-                to peaceful condition. It may be called a mental disease. In our
-                society such person are seen everywhere. When a person fails to
-                achieve his goal, he may be involved in (it). (It), if involved
-                in economic affairs, becomes mostly great and widespread. It is
-                also poverty which is creating (it) among us. But the effect of
-                it is really horrible and shocking. In some cases, people are
-                found to be murdered and commit suicide. So, to maintain peace
-                and prosperity, we need to be free from (it). We should
-                carefully find out the cause of it. And necessary steps should
-                be taken not only by the government, but also by the general
-                people and all kind of organizations for our own sake.
+              <p className="text-start">
+                The word "[TOPIC]" connotes a disturbed state of thing as
+                opposite to peaceful condition. It may be called a mental
+                disease. In our society such person are seen everywhere. When a
+                person fails to achieve his goal, he may be involved in [TOPIC].
+                [TOPIC], if involved in economic affairs, becomes mostly great
+                and widespread. It is also poverty which is creating [TOPIC]
+                among us. But the effect of it is really horrible and shocking.
+                In some cases, people are found to be murdered and commit
+                suicide. So, to maintain peace and prosperity, we need to be
+                free from [TOPIC]. We should carefully find out the cause of it.
+                And necessary steps should be taken not only by the government,
+                but also by the general people and all kind of organizations for
+                our own sake.
               </p>
             </div>
           </AccordionContent>
@@ -238,43 +244,85 @@ const Paragraph = () => {
           <AccordionTitle>Paragraph on Problems</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div className="">
-              Copying in the Examination <br />
-              Environment Pollution <br />
-              Air Pollution <br />
-              Terrorism in the Campus <br />
-              Terrorism <br />
-              Traffic Jam <br />
-              Load Shedding <br />
-              Road Accident <br />
-              Drug Addiction <br />
-              Dangerous of Smoking <br />
-              Arsenic Pollution <br />
-              Bribery <br />
-              Child Labor <br />
-              Deforestation <br />
-              Acid Throwing <br />
-              Corruption <br />
-              Population Problem <br />
-              Superstition <br />
-              <br />
-              <strong>Answer: </strong>[TOPIC] is a great and harmful problem.
-              It is not only a common matter for our own country but also for
-              the other countries too. [TOPIC] destroying our social peace and
-              happiness. Day by day it is going out of our control which is very
-              alarming. Keeping this problem we cannot imagine our peace and
-              happy life. Though [TOPIC] is very tough to remove this problem
-              totally from the society but we have to try at any cost. Without
-              removing this acute problem people can’t get relief. Everybody
-              wants a good solution for this problem. Beside govt. should come
-              forward to overcome this problem. The law forces agencies should
-              arrest them who are creating this kind of problem. [TOPIC] is
-              possible to remove by creating public awareness. So we should be
-              more active to get a better solution. <br />
-              <br />
-              বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার সামাজিক সমস্যা বা Social Problem
-              নিয়ে Paragraph বললে ওপরের লেখাটি অনুসরণ করো এবং [TOPIC] এর জায়গায়
-              তোমার নির্দিষ্ট Paragraph এর নাম লিখে বাকী সব অপরিবর্তিত রাখো।{" "}
+              <h3 className="text-center">
+                Copying in the Examination <br />
+                Environment Pollution <br />
+                Air Pollution <br />
+                Terrorism in the Campus <br />
+                Terrorism <br />
+                Traffic Jam <br />
+                Load Shedding <br />
+                Road Accident <br />
+                Drug Addiction <br />
+                Dangerous of Smoking <br />
+                Arsenic Pollution <br />
+                Bribery <br />
+                Child Labor <br />
+                Deforestation <br />
+                Acid Throwing <br />
+                Corruption <br />
+                Population Problem <br />
+                Superstition
+              </h3>
+
+              <p className="text-start">
+                <strong>Answer: </strong>[TOPIC] is a great and harmful problem.
+                It is not only a common matter for our own country but also for
+                the other countries too. [TOPIC] destroying our social peace and
+                happiness. Day by day it is going out of our control which is
+                very alarming. Keeping this problem we cannot imagine our peace
+                and happy life. Though [TOPIC] is very tough to remove this
+                problem totally from the society but we have to try at any cost.
+                Without removing this acute problem people can’t get relief.
+                Everybody wants a good solution for this problem. Beside govt.
+                should come forward to overcome this problem. The law forces
+                agencies should arrest them who are creating this kind of
+                problem. [TOPIC] is possible to remove by creating public
+                awareness. So we should be more active to get a better solution.
+                <br />
+                <br />
+                বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার সামাজিক সমস্যা বা Social Problem
+                নিয়ে Paragraph বললে ওপরের লেখাটি অনুসরণ করো এবং [TOPIC] এর
+                জায়গায় তোমার নির্দিষ্ট Paragraph এর নাম লিখে বাকী সব অপরিবর্তিত
+                রাখো।
+              </p>
             </div>
+          </AccordionContent>
+        </AccordionPanel>
+
+        {/* All Kinds of Hobbies */}
+        <AccordionPanel>
+          <AccordionTitle>Paragraph All Kinds of Hobbies</AccordionTitle>
+          <AccordionContent className="p-2 md:p-5">
+            <h3 className="text-center">
+              Writing Poem <br />
+              Singing Song <br />
+              Keeping a Diary <br />
+              Catching Fish <br />
+              Jogging <br />
+              Collecting Stamps <br />
+              Travelling <br />
+              Swimming <br />
+              Gardening <br />
+              Fishing <br />
+              Reading Habit <br />
+              Painting
+            </h3>
+
+            <p className="text-start">
+              <strong>Answer: </strong>[TOPIC] is an interesting habit for
+              stubborn life. By this kind of habit we can get rid of boring
+              life. Everyone should have any kind of hobby. [TOPIC] is the
+              shadow of life which gives us vast amusement. It can be a part and
+              parcel of education and entertainment. Someone uses it for passing
+              time. [TOPIC] causes some problems sometimes if we are not concern
+              on working. [TOPIC] refreshes us not only physically but also
+              mentally. To sum up we should have any kind of hobby. It can be
+              entertainment or education for us. <br /> <br />
+              বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার শখ বা Hobbies নিয়ে Paragraph বললে
+              ওপরের লেখাটি অনুসরণ করো এবং [TOPIC] এর জায়গায় তোমার নির্দিষ্ট
+              Paragraph এর নাম লিখে বাকী সব অপরিবর্তিত রাখো।
+            </p>
           </AccordionContent>
         </AccordionPanel>
 
@@ -343,8 +391,8 @@ const Paragraph = () => {
               </h3>
               <p>
                 <strong>Answer: </strong>Every nation has some red letter days.
-                These days are celebrated every year.{" "}
-                <strong>Victory day</strong> is such a day in our national life.{" "}
+                These days are celebrated every year.
+                <strong>Victory day</strong> is such a day in our national life.
                 <strong>(Definition)</strong>. <strong>This day</strong> is
                 observed with great enthusiasm in a splendid way across the
                 country by arranging many programs both in towns and
@@ -464,6 +512,7 @@ const Paragraph = () => {
           </AccordionContent>
         </AccordionPanel>
       </Accordion>
+
       <div className="">
         {/* road accident */}
         <div className="my-5 text-center">
@@ -502,6 +551,7 @@ const Paragraph = () => {
           </p>
         </div>
       </div>
+
       <div className="px-2 text-center">
         <div>
           <h1 className="text-rose-500 pt-20 text-center">
@@ -530,7 +580,7 @@ const Paragraph = () => {
             Obedience <br />
             Faithfulness <br />
             Industry <br />
-            Charity <br /> <br />
+            Charity <br />
             <div className="text-start">
               <strong>Answer: </strong> [TOPIC] is the most valuable and
               powerful element of our success in life. It enriches
@@ -560,7 +610,7 @@ const Paragraph = () => {
             Internet <br />
             Computer <br />
             E-mail <br />
-            Electricity <br /> <br />
+            Electricity <br />
             <p className="text-start">
               <strong>Answer: </strong>We live in the age of science and
               technology. With the help of science and technology we have
@@ -582,34 +632,6 @@ const Paragraph = () => {
             </p>
             <br />
             <br />
-            <h1> All Kinds of Hobbies </h1>
-            <br />
-            Writing Poem <br />
-            Singing Song <br />
-            Keeping a Diary <br />
-            Catching Fish <br />
-            Jogging <br />
-            Collecting Stamps <br />
-            Travelling <br />
-            Swimming <br />
-            Gardening <br />
-            Fishing <br />
-            Reading Habit <br />
-            Painting <br /> <br />
-            <p className="text-start">
-              <strong>Answer: </strong>[TOPIC] is an interesting habit for
-              stubborn life. By this kind of habit we can get rid of boring
-              life. Everyone should have any kind of hobby. [TOPIC] is the
-              shadow of life which gives us vast amusement. It can be a part and
-              parcel of education and entertainment. Someone uses it for passing
-              time. [TOPIC] causes some problems sometimes if we are not concern
-              on working. [TOPIC] refreshes us not only physically but also
-              mentally. To sum up we should have any kind of hobby. It can be
-              entertainment or education for us. <br /> <br />
-              বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার শখ বা Hobbies নিয়ে Paragraph বললে
-              ওপরের লেখাটি অনুসরণ করো এবং [TOPIC] এর জায়গায় তোমার নির্দিষ্ট
-              Paragraph এর নাম লিখে বাকী সব অপরিবর্তিত রাখো।
-            </p>
             <br /> <br />
             <h1>All Kinds of Great Personalities</h1>
             Hazrat Muhammad (SM) <br />
@@ -624,7 +646,7 @@ const Paragraph = () => {
             Your Mother/Father <br />
             A Great Politician <br />
             The Teacher You Like Most <br />
-            Your Ideal Man <br /> <br />
+            Your Ideal Man <br />
             My Favorite Friend <br />
             <p className="text-start">
               <strong>Answer: </strong>[TOPIC] is considered as an ideal in my
