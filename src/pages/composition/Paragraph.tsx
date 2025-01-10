@@ -377,7 +377,7 @@ const Paragraph = () => {
 
         {/* Independence Day */}
         <AccordionPanel>
-          <AccordionTitle> Paragraph on Days</AccordionTitle>
+          <AccordionTitle> Paragraph on National Days</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div className="py-5">
               <h3 className="text-center py-3">
@@ -389,32 +389,44 @@ const Paragraph = () => {
                 Shahid Dibosh/ <br />
                 Pahela Baishakh / Bangla New Year <br />
               </h3>
-              <p>
-                <strong>Answer: </strong>Every nation has some red letter days.
-                These days are celebrated every year.
-                <strong>Victory day</strong> is such a day in our national life.
-                <strong>(Definition)</strong>. <strong>This day</strong> is
-                observed with great enthusiasm in a splendid way across the
-                country by arranging many programs both in towns and
-                villages.The pleasure of people know no bounds. The day's first
-                program begins at Romna Botmul. Many organizations like
-                Shilpokola Academy bring out colorful rallies. Daily newspapers
-                publish special supplements. Bangladesh TV channels also
-                broadcast special programs. Thus the day is undoubtedly a
-                remarkable day in our lives and the day inspires us most to
-                sacrifice ourselves for the country.
+              <p className="text-start pb-5">
+                <strong>Answer: </strong>
+                <strong>[Definition]</strong>. <strong>This day </strong> is
+                observed with great enthusiasm in a splendid way in our country
+                by arranging many programs both in towns and villages. The
+                pleasure of people know no bounds. The day's first program
+                begins at Romna Botmul. Many organizations like Shilpokola
+                Academy bring out colorful rallies. Daily newspapers broadcast
+                special programs. Thus the day is undoubtedly a remarkable day
+                in our lives and the day inspires us most to sacrifice ourselves
+                for the country.
               </p>
 
+              <p className="">
+                <strong>Definition of Pahela Boishakh: </strong> Pahela Baishakh
+                is the first day of the first month, Baishakh, of Bangali new
+                year. This day is first invented and celebrated by the Mughol
+                emperor Akbor.
+              </p>
               <p>
-                <strong>Independence Day: </strong> On this day, we got
+                <strong>Definition of Independence Day: </strong> [TOPIC] is a
+                red-letter day in our national life. On this day, we got
                 independence from Pakistan after a bloody war of nine months
               </p>
 
               <p>
-                <strong>International Mother Language Day: </strong> On this day
-                in 1952, we got Bangla as state language from Pakistan by
+                <strong>
+                  Definition of International Mother Language Day:{" "}
+                </strong>
+                [TOPIC] is a red-letter day in our national life. On this day in
+                1952, we got Bangla as state language from Pakistan by
                 sacrificing many lives. In 1997, this day is declared as
                 International mother language day by UNICEF.
+              </p>
+              <p className="py-5">
+                বিশেষ দ্রষ্টব্য: [TOPIC] এর জায়গায় তোমার নির্দিষ্ট Paragraph এর
+                নাম এবং [Definition] এর জায়গায় তোমার নির্দিষ্ট Paragraph এর নাম
+                অনুসারে নিচে থেকে Definition লিখে বাকী সব অপরিবর্তিত রাখো।
               </p>
             </div>
           </AccordionContent>
