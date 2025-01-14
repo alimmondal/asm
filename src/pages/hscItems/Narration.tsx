@@ -72,38 +72,48 @@ const Narration = () => {
             </AccordionContent>
           </AccordionPanel>
 
-          {/* rule1 */}
+          {/* rule 1 */}
           <AccordionPanel>
-            <AccordionTitle>Rule - 1</AccordionTitle>
+            <AccordionTitle>Tense/ Verb Changing</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="dark:text-gray-400">
                 <div className="">
-                  <h2>Rule-1: Tense Changing</h2>
+                  {/* <h2>Rule-1: Tense Changing</h2> */}
                   <p>
-                    সাধারণত Reporting Verb যদি V2 থাকে তাহলে Reported Speech এর
-                    Verb/ helping verb পরিবর্তন হয় বাঁ Past Tense হয়।
+                    সাধারণত Reporting Verb(বা ইনভারটেড কোমার বাইরের বাক্যের Verb
+                    টি) যদি V2 থাকে তাহলে Reported Speech এর (বা ইনভারটেড কোমার
+                    ভেতরের বাক্যের) Verb/ helping verb টিকে পরিবর্তন করতে হয় বা
+                    Past Tense করতে হয়।
                     <br />
                     যেমন:
                   </p>
-
                   <p>Am, is, are - থাকলে - Was, Were হয়</p>
                   <p>Was, were - থাকলে - had been হয়,</p>
                   <p>Have, has - থাকলে - had হয়,</p>
-                  <p>Shall, will - থাকলে - would হয়,</p>
+                  <p>will - থাকলে - would হয়,</p>
                   <p>Shall - থাকলে - Should হয়,</p>
                   <p>Can - থাকলে - could হয়,</p>
                   <p>may - থাকলে - might হয়,</p>
                   <p>Do not, does not - থাকলে - did not হয়,</p>
                   <br />
                   <p>
-                    <strong>Note:</strong> উপরের সাহায্যকারি Verb গুলোর পরে মুল
-                    Verb থাকলে সেই Verb এর কোন পরিবর্তন হয় না ।
+                    <strong>Note:</strong>
+                    <br /> ### উপরের সাহায্যকারি Verb গুলোর পরে মুল Verb থাকলে
+                    সেই Verb এর কোন পরিবর্তন হয় না ।
                     <br />
-                    যদি উপরের সাহায্যকারি Verb গুলো না থাকে তাহলে মুল Verb এর
-                    পরিবর্তন হয়। যেমন:
+                    *** যদি উপরের সাহায্যকারি Verb গুলো না থাকে তাহলে মুল Verb
+                    এর পরিবর্তন হয়।
+                    <br /> যেমন:
                   </p>
                   <p>V1 - থাকলে V2 হয়,</p>
                   <p>V2 - থাকলে V2 হয় অথবা had + V3 হয়,</p>
+                  যেমনঃ
+                  <br />
+                  Q. He said to me, "I have done my duty according to her
+                  order". <br />= He said to me
+                  <strong> that </strong> he
+                  <strong> had </strong> done <strong> his</strong> duty
+                  according to her order.
                   <br />
                   <p>
                     <strong>Note:</strong> দ্বিতীয় বাক্যের (Reported Speech)
@@ -114,20 +124,21 @@ const Narration = () => {
             </AccordionContent>
           </AccordionPanel>
 
-          {/* rule2 */}
+          {/* rule 2 */}
           <AccordionPanel>
-            <AccordionTitle>Rule - 2</AccordionTitle>
+            <AccordionTitle>Person Changing</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="dark:text-gray-400">
                 <div className="text-start">
-                  <h2 className="">Person Changing:</h2>
+                  {/* <h2 className="">Person Changing:</h2> */}
                   <p className="text-start">
                     দ্বিতীয় বাক্যের (অর্থাৎ Reporting Speech এর) Pronoun এর
                     পরিবর্তন হয়। অর্থাৎ <br />
-                    * I - me - my/ We - us - our প্রথম বাক্যের Subject অনুসারে
-                    পরিবর্তন হবে। <br />* You - you - your প্রথম বাক্যের Object
-                    - অনুসারে পরিবর্তন হয়। <br /># উক্ত Pronoun-গুলো ছাড়া আন্য
-                    কোন Pronoun পরিবর্তন হয় না।
+                    *** I - me - my/ We - us - our প্রথম বাক্যের Subject অনুসারে
+                    পরিবর্তন হবে। <br />
+                    *** You - you - your প্রথম বাক্যের Object - অনুসারে পরিবর্তন
+                    হয়। <br />
+                    ### উক্ত Pronoun-গুলো ছাড়া আন্য কোন Pronoun পরিবর্তন হয় না।
                   </p>
                   যেমনঃ
                   <br />
@@ -189,12 +200,12 @@ const Narration = () => {
 
           {/* rule3 */}
           <AccordionPanel>
-            <AccordionTitle>Rule - 3</AccordionTitle>
+            <AccordionTitle>Changing adverbial phrase</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="dark:text-gray-400">
                 {/* Adverbial Clause */}
                 <div className="overflow-x-auto">
-                  <h2 className="pb-3">Changing adverbial phrase:</h2>
+                  {/* <h2 className="pb-3">Changing adverbial phrase:</h2> */}
                   <table className="min-w-full text-left text-sm">
                     <thead className="border-b bg-gray-50">
                       <tr>

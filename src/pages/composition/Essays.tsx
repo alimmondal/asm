@@ -124,7 +124,7 @@ function Essays() {
 
         {/* travel */}
         <AccordionPanel>
-          <AccordionTitle>journey/ Visit/ travelling .</AccordionTitle>
+          <AccordionTitle>journey/ Visit/ travelling</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div>
               <h3 className="text-center ">

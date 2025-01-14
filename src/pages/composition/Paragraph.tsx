@@ -28,7 +28,7 @@ const Paragraph = () => {
 
         {/* Environment pollution */}
         <AccordionPanel>
-          <AccordionTitle>Paragraph on Pollutions</AccordionTitle>
+          <AccordionTitle>Pollutions</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div className="">
               <h3 className="text-center ">
@@ -81,7 +81,7 @@ const Paragraph = () => {
 
         {/* mobile phone */}
         <AccordionPanel>
-          <AccordionTitle>Paragraph on Technology</AccordionTitle>
+          <AccordionTitle>Science/ Technology</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div className="">
               <h3 className="text-center py-3">
@@ -124,7 +124,7 @@ const Paragraph = () => {
 
         {/* Your Favorite Person */}
         <AccordionPanel>
-          <AccordionTitle>Paragraph on Favorite Person</AccordionTitle>
+          <AccordionTitle>Persons</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div className="">
               <h3 className="text-center py-3">
@@ -167,7 +167,7 @@ const Paragraph = () => {
 
         {/* Good Qualities */}
         <AccordionPanel>
-          <AccordionTitle>Paragraph on Good Qualities</AccordionTitle>
+          <AccordionTitle>Good Qualities</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div className="">
               {/* <h2 className="text-center ">Paragraph on Good Qualities</h2> */}
@@ -207,7 +207,7 @@ const Paragraph = () => {
 
         {/* Bad Qualities */}
         <AccordionPanel>
-          <AccordionTitle>Paragraph on Bad Qualities</AccordionTitle>
+          <AccordionTitle>Bad Qualities</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div className="py-5">
               {/* <h2 className="text-center py-3">Paragraph on Bad Qualities</h2> */}
@@ -241,7 +241,7 @@ const Paragraph = () => {
 
         {/* Problems */}
         <AccordionPanel>
-          <AccordionTitle>Paragraph on Problems</AccordionTitle>
+          <AccordionTitle>Problems</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div className="">
               <h3 className="text-center">
@@ -290,94 +290,9 @@ const Paragraph = () => {
           </AccordionContent>
         </AccordionPanel>
 
-        {/* All Kinds of Hobbies */}
-        <AccordionPanel>
-          <AccordionTitle>Paragraph All Kinds of Hobbies</AccordionTitle>
-          <AccordionContent className="p-2 md:p-5">
-            <h3 className="text-center">
-              Writing Poem <br />
-              Singing Song <br />
-              Keeping a Diary <br />
-              Catching Fish <br />
-              Jogging <br />
-              Collecting Stamps <br />
-              Travelling <br />
-              Swimming <br />
-              Gardening <br />
-              Fishing <br />
-              Reading Habit <br />
-              Painting
-            </h3>
-
-            <p className="text-start">
-              <strong>Answer: </strong>[TOPIC] is an interesting habit for
-              stubborn life. By this kind of habit we can get rid of boring
-              life. Everyone should have any kind of hobby. [TOPIC] is the
-              shadow of life which gives us vast amusement. It can be a part and
-              parcel of education and entertainment. Someone uses it for passing
-              time. [TOPIC] causes some problems sometimes if we are not concern
-              on working. [TOPIC] refreshes us not only physically but also
-              mentally. To sum up we should have any kind of hobby. It can be
-              entertainment or education for us. <br /> <br />
-              বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার শখ বা Hobbies নিয়ে Paragraph বললে
-              ওপরের লেখাটি অনুসরণ করো এবং [TOPIC] এর জায়গায় তোমার নির্দিষ্ট
-              Paragraph এর নাম লিখে বাকী সব অপরিবর্তিত রাখো।
-            </p>
-          </AccordionContent>
-        </AccordionPanel>
-
-        {/* country/homeland */}
-        <AccordionPanel>
-          <AccordionTitle>Your country/home/village</AccordionTitle>
-          <AccordionContent className="p-2 md:p-5">
-            <div className="">
-              <h3 className="text-center py-3">
-                (A): Your country/homeland <br />
-                Your village <br />
-                Your native village <br />
-                Your home
-                <br />
-                An ideal house/ <br />
-                Your living place/ <br />
-                Your reading room/ <br />
-                Your family.
-              </h3>
-              <h3 className="text-center py-3">
-                (B): ** Your college library <br />
-                ** your college campus <br />
-                ** Your college/school <br />
-                ** Your college canteen <br />
-                ** Your college hostel
-                <br />
-                ** your college common room
-              </h3>
-              <p>(A): নামবারের জন্য প্রযোজ্য</p>
-              <p>
-                Everybody must have .... . There is no doubt that he loves his
-                ... . I have also ... . I really love. It's small but
-              </p>
-              <p>B: নামবারের জন্য প্রযোজ্য</p>
-              <p>
-                <strong>Answer: </strong> I read in a college. The name of
-                college is ... . It's two storied building and it has 38 class
-                rooms , one mosque and library in which student can read paper
-                and borrow books. It's not so big but
-              </p>
-              <p>(A + B): উভয় নামবারের জন্য প্রযোজ্য</p>
-              <p>
-                It's very beautiful. All the .... of my ... are so good and
-                polite. The natural surrounding around ... is charming. Though
-                it lacks in modern amenities, it has all the essentials (:
-                ...self, table, chairs) etc. I'm proud of my .... . I like my
-                ... most. I wish it would be more glorified one day.
-              </p>
-            </div>
-          </AccordionContent>
-        </AccordionPanel>
-
         {/* Independence Day */}
         <AccordionPanel>
-          <AccordionTitle> Paragraph on National Days</AccordionTitle>
+          <AccordionTitle> National Days</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div className="py-5">
               <h3 className="text-center py-3">
@@ -432,9 +347,58 @@ const Paragraph = () => {
           </AccordionContent>
         </AccordionPanel>
 
-        {/* hobby */}
+        {/* country/homeland */}
         <AccordionPanel>
-          <AccordionTitle>Hobby/ liesure</AccordionTitle>
+          <AccordionTitle>Places</AccordionTitle>
+          <AccordionContent className="p-2 md:p-5">
+            <div className="">
+              <h3 className="text-center py-3">
+                (A): Your country/homeland <br />
+                Your village <br />
+                Your native village <br />
+                Your home
+                <br />
+                An ideal house/ <br />
+                Your living place/ <br />
+                Your reading room/ <br />
+                Your family.
+              </h3>
+              <h3 className="text-center py-3">
+                (B): ** Your college library <br />
+                ** your college campus <br />
+                ** Your college/school <br />
+                ** Your college canteen <br />
+                ** Your college hostel
+                <br />
+                ** your college common room
+              </h3>
+              <p>(A): নামবারের জন্য প্রযোজ্য</p>
+              <p>
+                Everybody must have .... . There is no doubt that he loves his
+                ... . I have also ... . I really love. It's small but
+              </p>
+              <p>B: নামবারের জন্য প্রযোজ্য</p>
+              <p>
+                <strong>Answer: </strong> I read in a college. The name of
+                college is ... . It's two storied building and it has 38 class
+                rooms , one mosque and library in which student can read paper
+                and borrow books. It's not so big but
+              </p>
+              <p>(A + B): উভয় নামবারের জন্য প্রযোজ্য</p>
+              <p>
+                It's very beautiful. All the .... of my ... are so good and
+                polite. The natural surrounding around ... is charming. Though
+                it lacks in modern amenities, it has all the essentials (:
+                ...self, table, chairs) etc. I'm proud of my .... . I like my
+                ... most. I wish it would be more glorified one day.
+              </p>
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
+
+        {/* hobby 1*/}
+        <AccordionPanel>
+          <AccordionTitle>Hobby 1</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div className="py-5">
               <h3 className="text-center ">Your Leisure / Hobby / Gardening</h3>
@@ -476,6 +440,75 @@ const Paragraph = () => {
                 I grow different types of fish—rui, mrigal, catfish, grass carp,
                 perch, silver carp, etc.
               </p>
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
+
+        {/* Hobby2 */}
+        <AccordionPanel>
+          <AccordionTitle>Hobby 2</AccordionTitle>
+          <AccordionContent className="p-2 md:p-5">
+            <h3 className="text-center">
+              Writing Poem <br />
+              Singing Song <br />
+              Keeping a Diary <br />
+              Catching Fish <br />
+              Jogging <br />
+              Collecting Stamps <br />
+              Travelling <br />
+              Swimming <br />
+              Gardening <br />
+              Fishing <br />
+              Reading Habit <br />
+              Painting
+            </h3>
+
+            <p className="text-start">
+              <strong>Answer: </strong>[TOPIC] is an interesting habit for
+              stubborn life. By this kind of habit we can get rid of boring
+              life. Everyone should have any kind of hobby. [TOPIC] is the
+              shadow of life which gives us vast amusement. It can be a part and
+              parcel of education and entertainment. Someone uses it for passing
+              time. [TOPIC] causes some problems sometimes if we are not concern
+              on working. [TOPIC] refreshes us not only physically but also
+              mentally. To sum up we should have any kind of hobby. It can be
+              entertainment or education for us. <br /> <br />
+              বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার শখ বা Hobbies নিয়ে Paragraph বললে
+              ওপরের লেখাটি অনুসরণ করো এবং [TOPIC] এর জায়গায় তোমার নির্দিষ্ট
+              Paragraph এর নাম লিখে বাকী সব অপরিবর্তিত রাখো।
+            </p>
+          </AccordionContent>
+        </AccordionPanel>
+
+        {/* hoby3 */}
+        <AccordionPanel>
+          <AccordionTitle>hobby3</AccordionTitle>
+          <AccordionContent className="p-2 md:p-5">
+            <div className="">
+              <h2 className="">All kinds of hobbies সমস্ত প্রকারের সাখ</h2>
+              <br />
+              1. Singing song 2. Keeping a Diary* 3. Catching Fish 4. Collecting
+              stamp 5. Flying kite 6. Morning walk 7. Reading habit 8. Writing
+              poem 9. Jogging 10. Travelling 11. Swimming 12 Gardening 13. A
+              Boat Race 14. Boating 15. Playing chess * 16. Joking 17. Writing
+              letter 18. Making a new voyage 19. Painting 20. Buying thing or
+              shopping * 21. Early Rising 22. An Evening walk
+              <br />
+              <strong>Answer: </strong>(Name) is a kind of hobby. Everybody
+              tends to have a hobby. It is a work of diversion. When our main
+              occupation become boring and monotonous, we turn to our hobby
+              (Name)is also an interesting habit. One can build this habit if
+              one likes. We can get more pleasare of life from (Name). It serves
+              the life both physically and mentally. It is the most advisable
+              exercise occupation for the aging, youth and the old. The people
+              who become accustomed to (Name) cannot but impressed by it. It
+              turns into a habit of a man and he cannot but do it. (Name) helps
+              keep the mind Jolly and jovial and also refreshes the mind. But it
+              should be an object of leisure time. So one should have thinking
+              for a while before enjoying (Name) for its greatest enjoyment.
+              (Name) it, therefore, congenial to health. So it is never a waste
+              of time as some people may erroneously take it for granted.
+              <p className="text-center">.........0........</p>
             </div>
           </AccordionContent>
         </AccordionPanel>
