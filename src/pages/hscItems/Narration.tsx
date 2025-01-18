@@ -74,7 +74,7 @@ const Narration = () => {
 
           {/* rule 1 */}
           <AccordionPanel>
-            <AccordionTitle>Tense/ Verb Changing</AccordionTitle>
+            <AccordionTitle>Rule-1: Tense/ Verb Changing</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="dark:text-gray-400">
                 <div className="">
@@ -126,7 +126,7 @@ const Narration = () => {
 
           {/* rule 2 */}
           <AccordionPanel>
-            <AccordionTitle>Person Changing</AccordionTitle>
+            <AccordionTitle>Rule-2: Person Changing</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="dark:text-gray-400">
                 <div className="text-start">
@@ -316,14 +316,15 @@ const Narration = () => {
                       পর বসাতে হয়।
                     </p>
                     <p>
-                      Q. He said to me, "How are you?" <br />= He asked me how I
-                      was.
+                      Q. He said to me, "How are you?"
+                      <br />= He asked me how I was.
                     </p>
                     <p>
-                      (iv) দ্বিতীয় বাক্যের Helping verb যদি Do/does হয় তবে তা
-                      তুলে দিয়ে মুল verb এর V2 হবে। <br />
+                      (iv) দ্বিতীয় বাক্যের Helping Verb যদি Do/does হয় তবে তা
+                      তুলে দিয়ে মুল Verb এর V<sub>2</sub> হবে। <br />
                       ** কিন্তু দ্বিতীয় বাক্যের Helping verb যদি did হয় তবে তা
-                      তুলে দিয়ে মুল verb এর V2 রাখা যাবে অথবা had+ V3 করা যাবে।
+                      তুলে দিয়ে মুল Verb এর V2 করা যাবে। অথবা had + V
+                      <sub>3</sub> করা যাবে।
                     </p>
                     <p>
                       Q. He said, "Which book does he want?" <br />
@@ -558,10 +559,12 @@ const Narration = () => {
         {/* <!-- table of wish --> */}
         <div className="py-10 overflow-x-auto">
           <table className="min-w-[800px] table-auto dark:border-slate-400">
-            <tr>
-              <th>Direct এ থাকলে</th>
-              <th>Indirect এ হবে</th>
-            </tr>
+            <thead>
+              <tr>
+                <th>Direct এ থাকলে</th>
+                <th>Indirect এ হবে</th>
+              </tr>
+            </thead>
             <tr>
               <td>Good Morning/ Good Evening/ Happy Christmas:</td>
               <td>

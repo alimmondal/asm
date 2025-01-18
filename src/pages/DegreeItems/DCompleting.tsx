@@ -12,6 +12,64 @@ const DCompleting = () => {
         </div>
       </div>
 
+      <div className="">
+        For Degree ompleting Sentence for degree/honors 1. Of, for, from, on,
+        in, into, by, about, without, before, after ইত্যাদি preposition এর পর
+        verb থাকলে ing যোগ হয়। যেমন: I went to field for playing football. 2.
+        Preposition 'to এর পর verb-এর present form ব্যবহত হয়। যেমন: want to meet
+        you. 3. Look forward to (প্রত্যাশা করা), with a view to (উদ্দেশে),
+        prefer to ( অধিকতর পছন্দ করা) accustomed to (অভ্যস্ত হওয়া), be used to
+        (অভ্যন্ত হওয়া), get used to (অভ্যস্ত হওয়া) - এর পর verb এরশেষে ing যোগ
+        করতে হয়। যেমন: I am looking forward to hearing you. (আমি আপনার কথা শোনার
+        প্রত্যাশা করছি।) He is used to living in cold climate no (সে ঠান্ডা
+        জলবায়ুতে বাস করতে অভ্যন্ত।) 4. Active voice-এ subject-এর পর am, is,
+        are, was, were, shall be, will be, may be, should be, must be, can be,
+        could be, might be, ought to be ইত্যাদিও য কোনো একটি দেয়া থাকলে
+        ব্র্যাকেটের verb ing যোগ করতে হয়। যেমন: Kamala is sleeping now. (কামাল
+        এখন ঘুমাচ্ছে।) 5. Passive voice-এ subject-এর পর am, is are, was, were,
+        shall be, will be, can be, could be, may be, might be, must be, should
+        be থাকলে ব্র্যাকেটের verb-এর past participle. হবে। যেমন (ঘরটি সাজানে
+        হবে) 6. Active voice এ can, could, should, would, will, shall, may,
+        might, must ইত্যাদির পর ব্র্যাকেটে verb থাকলে তার মৌালক রুপ বা base form
+        হয়, যেমন: I will go home. (আমি বাড়ি যাব) 7. Active voice can have, could
+        have, should have, will have, would have, may have, might have, must
+        have এর পর ব্র্যাকেটের verb এর past participle হয়. 8. Passive voice এ
+        can have been, could have been, shall have been, should have been, may
+        have been, might have been, must have been এর পর ব্র্যাকেটে verb-এর past
+        participle from হয়. 9. If যুক্ত বাক্যটি যদি Present tense-এ হয় তাহলে
+        পরের clause টি present বা future tense-4 হয়. যেমন: If you come, I will
+        go. (যদি তুমি আস, তহিলে আমি যাব।) 10. If যুক্ত বাক্যটি যদি past
+        indefinite tense-এ হয় তবে পরবর্তী clause টিতে would/could /might ব্যবহৃত
+        হবে। যেমন: If you come, I would go. (যদি তুমি আস, তাহলে আমি যাব।)
+        Written by: MA Alim, Lecturer in English, TM College. Mob: 01724507006
+        কা De
+        <br />
+        11. If যুক্ত clause-টি যদি past perfect tense-এ হয় তবে পরবর্তী clause
+        -টিতে could have would have, might have ব্যবহৃত হয়, যেমন: If you had
+        come, Iwould have gone. (যদি তুমি আ তে আমি যেতাম।) 12. Have to, has to,
+        had to, will have to এর পর present from হয়, যেমন: I have to go market.
+        (আমাকে বাজারে যেতে হয়।) 13. While এর পর ব্র্যাকেটের verb এর সাথে ing যোগ
+        করতে হয়। যেমন: While waking on the road, I saw a dead cow. (রাস্তা দিয়ে
+        হাঁটার সময় আমি একটি মৃত গরু দেখলাম।) 14. Article 'The' এর পর noun বসে,
+        যেমন: The destruction of forest is dangerous. (বন ভূমি ধ্বংস করা
+        বিপদজ্জনক) 15. Co-ordinate conjunction (যেমন: and, but, or, nor, not
+        only....but also) দ্বারা যুক্ত দুটি clause-এর conjunction এর পূর্বের
+        verb-টি যে tense এ হবে, পরের verb-টি ও একই tense-এ হবে। যেমন: I went to
+        market and bought a shirt. (আমি মার্কেটে গিয়েছিলাম এবং একটি শার্ট
+        কিনেছিলাম।) 16. Having-এর পর verb থাকলে verb-টির past participle হয়।
+        যেমন: Having done the work, I went home. (কাজ টি কওে আমি বাড়ি
+        গিয়েছিলাম।) 17. Cannot but, Could not but-এর পর verb-এর present form হয়।
+        যেমন: I cannot but laugh. (আমি না হেসে পরি না।) 18. Cannot help, Could
+        not help -এর পর verb-এর সাথে ing যুক্ত হয়। যেমন: I cannot help laughing.
+        (আমি না হেসে পরি না।) 19. Used to-এর পর verb-এর present from হয়। যেমন: I
+        used to go to school. (আমি স্কুলে যেতাম।) 20. Be used to -এর পর verb
+        থাকলে এর সাথে ing যুক্ত হয়। যেমন: I am used to smoking. (আমি ধুম পানে
+        অভ্যস্ত।) 21. One of, each of the-এর পর plural noun ব্যবৃত হয়। যেমন: One
+        of my friends went there. (আমার একটি বন্ধু সেখানে গিয়েছিল।) 22. Despite,
+        besides, in spite of -এর পর verb থাকলে ing যুক্ত হয়। যেমন: In spite of
+        working hard, he failed. (কঠোর পরিশ্রম করা সত্ত্বেও, সে ফেল করল।)
+        Written by: MA Alim, Lecturer in English, TM College. Mob: 01724507006
+      </div>
       <div className="py-4">
         <h1 className="text-2xl font-bold mb-4">For Degree</h1>
         <h2 className="text-xl font-semibold mb-2">Completing Sentence</h2>

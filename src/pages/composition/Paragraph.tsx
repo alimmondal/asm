@@ -347,6 +347,111 @@ const Paragraph = () => {
           </AccordionContent>
         </AccordionPanel>
 
+        {/* hobby 1*/}
+        <AccordionPanel>
+          <AccordionTitle>Hobby/ Liesure</AccordionTitle>
+          <AccordionContent className="p-2 md:p-5">
+            <div className="py-5">
+              <h2 className="text-center">
+                All kinds of hobbies সমস্ত প্রকারের সাখ
+              </h2>
+              <h3 className="text-center ">
+                1. Your Leisure 2. Your Hobby 3. Gardening as Your Hobby 4.
+                Vegetable Cultivation 5. Fish Cultivation 6. Flower Cultivation
+                7. My Garden 8. Your Favorite Past Time 9. Fishing as Hobby 10.
+                Reading as your Hobby
+                <br />
+                1. Singing song 2. Keeping a Diary 3. Catching Fish 4.
+                Collecting stamp 5. Flying kite 6. Morning walk 7. Reading habit
+                8. Writing poem 9. Jogging 10. Travelling 11. Swimming 12
+                Gardening 13. A Boat Race 14. Boating 15. Playing chess * 16.
+                Joking 17. Writing letter 18. Making a new voyage 19. Painting
+                20. Buying thing or shopping * 21. Early Rising 22. An Evening
+                walk 23. Fishing
+              </h3>
+              <br />
+              <br />{" "}
+              <div className="">
+                <p className="">
+                  <strong>Answer: </strong>[Name] is a kind of hobby. Hobby
+                  means the activity in leisure like [Name], Leisure means one’s
+                  free time. Everybody tends to have a hobby. It is a work of
+                  diversion. When our main occupation become boring and
+                  monotonous, we turn to our hobby. We can get more pleasare of
+                  from [Name]. It serves us both physically and mentally.
+                  [DEFINITION/ DESCRIPTION] It is the most advisable exercise
+                  occupation for the aging, youth and the old. [Name] helps keep
+                  the mind Jolly and jovial and also refreshes our mind. [TOPIC]
+                  is, Therefore, congenial to health. My [TOPIC/ hoby] costs me
+                  nothing but is a source of pleasure. I like it most.
+                </p>
+
+                <p className="text-center py-5">--------0-------</p>
+
+                <p className="py-5">
+                  বিশেষ দ্রষ্টব্য: [TOPIC] এর জায়গায় তোমার নির্দিষ্ট Paragraph
+                  এর নাম এবং [Definition] এর জায়গায় তোমার নির্দিষ্ট Paragraph
+                  এর নাম অনুসারে নিচে থেকে Definition লিখে বাকী সব অপরিবর্তিত
+                  রাখো।
+                </p>
+                <h3 className="">Description for all others:</h3>
+                <p className="">
+                  One can build this habit if one likes. But it should be an
+                  object of leisure time. The people who become accustomed to
+                  [Name] cannot but impressed by it. It turns into a habit of a
+                  man and he cannot but do it. [Name]is also an interesting
+                  habit. So one should have thinking for a while before enjoying
+                  [Name] for its greatest enjoyment.
+                </p>
+              </div>
+              {/* <p className="mb-4">
+                <strong>Answer: </strong>Leisure means one’s free time, and
+                hobby means the activity in leisure. [TOPIC] is my favorite
+                hobby. I feel strong attraction for [TOPIC]. [Definition] . My
+                hobby costs me nothing but is a source of pleasure. I like it
+                most.
+              </p> */}
+              <h3 className="pt-5">
+                Definition of Garden/ Gardening/ Liesure/ hobby:{" "}
+              </h3>
+              <p>
+                I have made [a garden of flowers] in front of my house. I grow
+                different types of flowers, fish, and vegetables—rose,
+                raganiganda, kamini, marigold, belli, etc. I weed out grass,
+                give fertilizers, and water the plants. I have made a strong
+                fence and bank around the garden and pond. My joys know no bound
+                when I see the [TOPIC]. They not only satisfy my eyes, but they
+                are also money-makers. I can also help my family through my
+                [TOPIC]
+              </p>
+              <h3 className="text-xl font-semibold mb-2">
+                Vegetable Cultivation:
+              </h3>
+              <p className="mb-4">
+                I also cultivate some vegetables in front of my house. I grow
+                different types of vegetables—pui-sakh, lal-sakh, kolmi,
+                palon-sakh, etc. I weed out grass, give fertilizers, and water
+                the plants. I have made a strong fence and bank around field. My
+                joys know no bound when I see the vegetables. They not only
+                satisfy my eyes, but they are also money-makers. I can also help
+                my family through my [TOPIC]
+              </p>
+              <h3 className="text-xl font-semibold mb-2">
+                Fishing as Hobby / Fish Cultivation:
+              </h3>
+              <p className="mb-4">
+                I have made pond in front of my house. It covers 0.50 acres of
+                land. I work with fish there in my leisure, especially in the
+                afternoon. I grow different types of fish—rui, mrigal, catfish,
+                grass carp, perch, silver carp, etc. I have made a strong fence
+                and bank around field. My joys know no bound when I see the
+                vegetables. They not only satisfy my eyes, but they are also
+                money-makers. I can also help my family through my [TOPIC]
+              </p>
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
+
         {/* country/homeland */}
         <AccordionPanel>
           <AccordionTitle>Places</AccordionTitle>
@@ -396,56 +501,39 @@ const Paragraph = () => {
           </AccordionContent>
         </AccordionPanel>
 
-        {/* hobby 1*/}
+        {/* tv program */}
         <AccordionPanel>
-          <AccordionTitle>Hobby 1</AccordionTitle>
+          <AccordionTitle>Favorite Program</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
-            <div className="py-5">
-              <h3 className="text-center ">Your Leisure / Hobby / Gardening</h3>
+            <div className="text-center ">
+              <h3 className="text-center ">Your Favorite TV program</h3>
+              <h3 className="text-center ">The film you have enjoyed</h3>
+              <h3 className="text-center ">Your Favorite TV serial</h3>
               <h3 className="text-center ">
-                Vegetable Cultivation / Fish Cultivation / Flower Cultivation
-              </h3>
-              <h3 className="text-center ">
-                My Garden / Your Favorite Past Time
-              </h3>
-              <h3 className="text-center ">Fishing as Hobby</h3>
-              <p className="mb-4">
-                Leisure means one’s free time, and hobby means the activity in
-                leisure. Flower cultivation / Gardening is my favorite hobby,
-                which I usually do in my leisure. I feel strong attraction for
-                gardening and flower cultivation. I have made a garden of
-                flowers and a pond in front of my house. It covers 0.50 acres of
-                land. I work with fish there in my leisure, especially in the
-                afternoon. I grow different types of flowers, fish, and
-                vegetables—rose, raganiganda, kamini, marigold, belli, etc. I
-                also cultivate some vegetables. I weed out grass, give
-                fertilizers, and water the plants. I have made a strong fence
-                and bank around the garden and pond. My joys know no bound when
-                I see the flowers and vegetables. They not only satisfy my eyes,
-                but they are also money-makers. I can also help my family
-                through my gardening and flower cultivation. My hobby costs me
-                nothing but is a source of pleasure. I like it most.
-              </p>
-              <h3 className="text-xl font-semibold mb-2">
-                Vegetable Cultivation:
+                Your Favorite drama / Book / Play
               </h3>
               <p className="mb-4">
-                I grow different types of vegetables—pui-sakh, lal-sakh, kolmi,
-                palon-sakh, etc. I also cultivate some flowers.
-              </p>
-              <h3 className="text-xl font-semibold mb-2">
-                Fishing as Hobby / Fish Cultivation:
-              </h3>
-              <p className="mb-4">
-                I grow different types of fish—rui, mrigal, catfish, grass carp,
-                perch, silver carp, etc.
+                <strong>Answer: </strong> TV, a film, or a book is a wonderful
+                gift of science. It gives us knowledge, education, and
+                recreation. Numerous programs are telecast on it. My favorite TV
+                program, film, or book is Hamlet, by Shakespeare, which I have
+                enjoyed. In it, Hamlet, Prince of Scotland, is the tragic hero
+                whose father is murdered by his uncle. His uncle also married
+                his mother. For this reason, he tried to take revenge on his
+                uncle, but he hesitated again and again. Ultimately, he
+                succeeded. Here, the theme of hesitation is a great lesson for
+                us. Thus, the book, film, program, or TV serial gives us
+                entertainment as well as instruction. It also refreshes our
+                mind. I think if anyone watches or reads this program, serial,
+                film, or book, they need not read or watch anything else to get
+                a true picture of the human mind. I read or watched the program
+                or book eagerly. The program or book enticed me very much.
               </p>
             </div>
           </AccordionContent>
         </AccordionPanel>
-
         {/* Hobby2 */}
-        <AccordionPanel>
+        {/* <AccordionPanel>
           <AccordionTitle>Hobby 2</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <h3 className="text-center">
@@ -478,74 +566,47 @@ const Paragraph = () => {
               Paragraph এর নাম লিখে বাকী সব অপরিবর্তিত রাখো।
             </p>
           </AccordionContent>
-        </AccordionPanel>
+        </AccordionPanel> */}
 
         {/* hoby3 */}
-        <AccordionPanel>
+        {/* <AccordionPanel>
           <AccordionTitle>hobby3</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div className="">
-              <h2 className="">All kinds of hobbies সমস্ত প্রকারের সাখ</h2>
+              <h2 className="text-center">
+                All kinds of hobbies সমস্ত প্রকারের সাখ
+              </h2>
               <br />
-              1. Singing song 2. Keeping a Diary* 3. Catching Fish 4. Collecting
+              1. Singing song 2. Keeping a Diary 3. Catching Fish 4. Collecting
               stamp 5. Flying kite 6. Morning walk 7. Reading habit 8. Writing
               poem 9. Jogging 10. Travelling 11. Swimming 12 Gardening 13. A
               Boat Race 14. Boating 15. Playing chess * 16. Joking 17. Writing
               letter 18. Making a new voyage 19. Painting 20. Buying thing or
-              shopping * 21. Early Rising 22. An Evening walk
+              shopping * 21. Early Rising 22. An Evening walk 23. Fishing
               <br />
-              <strong>Answer: </strong>(Name) is a kind of hobby. Everybody
-              tends to have a hobby. It is a work of diversion. When our main
-              occupation become boring and monotonous, we turn to our hobby
-              (Name)is also an interesting habit. One can build this habit if
-              one likes. We can get more pleasare of life from (Name). It serves
-              the life both physically and mentally. It is the most advisable
-              exercise occupation for the aging, youth and the old. The people
-              who become accustomed to (Name) cannot but impressed by it. It
-              turns into a habit of a man and he cannot but do it. (Name) helps
-              keep the mind Jolly and jovial and also refreshes the mind. But it
-              should be an object of leisure time. So one should have thinking
-              for a while before enjoying (Name) for its greatest enjoyment.
-              (Name) it, therefore, congenial to health. So it is never a waste
-              of time as some people may erroneously take it for granted.
-              <p className="text-center">.........0........</p>
+              <br />
+              <strong>Answer: </strong>[Name] is a kind of hobby. Hobby means
+              the activity in leisure like [Name]. Everybody tends to have a
+              hobby. It is a work of diversion. When our main occupation become
+              boring and monotonous, we turn to our hobby. We can get more
+              pleasare of life from (Name). It serves us both physically and
+              mentally. It is the most advisable exercise occupation for the
+              aging, youth and the old. (Name) helps keep the mind Jolly and
+              jovial and also refreshes the mind. Therefore, congenial to
+              health. My hobby costs me nothing but is a source of pleasure. I
+              like it most.
+              <p className="text-center">--------0-------</p>
+              One can build this habit if one likes.But it should be an object
+              of leisure time. The people who become accustomed to (Name) cannot
+              but impressed by it.It turns into a habit of a man and he cannot
+              but do it.(Name)is also an interesting habit. So one should have
+              thinking for a while before enjoying (Name) for its greatest
+              enjoyment.
             </div>
           </AccordionContent>
-        </AccordionPanel>
+        </AccordionPanel> */}
 
-        {/* tv program */}
-        <AccordionPanel>
-          <AccordionTitle>Program</AccordionTitle>
-          <AccordionContent className="p-2 md:p-5">
-            <div className="text-center ">
-              <h3 className="text-center ">Your Favorite TV program</h3>
-              <h3 className="text-center ">The film you have enjoyed</h3>
-              <h3 className="text-center ">Your Favorite TV serial</h3>
-              <h3 className="text-center ">
-                Your Favorite drama / Book / Play
-              </h3>
-              <p className="mb-4">
-                <strong>Answer: </strong> TV, a film, or a book is a wonderful
-                gift of science. It gives us knowledge, education, and
-                recreation. Numerous programs are telecast on it. My favorite TV
-                program, film, or book is Hamlet, by Shakespeare, which I have
-                enjoyed. In it, Hamlet, Prince of Scotland, is the tragic hero
-                whose father is murdered by his uncle. His uncle also married
-                his mother. For this reason, he tried to take revenge on his
-                uncle, but he hesitated again and again. Ultimately, he
-                succeeded. Here, the theme of hesitation is a great lesson for
-                us. Thus, the book, film, program, or TV serial gives us
-                entertainment as well as instruction. It also refreshes our
-                mind. I think if anyone watches or reads this program, serial,
-                film, or book, they need not read or watch anything else to get
-                a true picture of the human mind. I read or watched the program
-                or book eagerly. The program or book enticed me very much.
-              </p>
-            </div>
-          </AccordionContent>
-        </AccordionPanel>
-
-        <AccordionPanel>
+        {/* <AccordionPanel>
           <AccordionTitle>Rules</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div className="">
@@ -555,7 +616,7 @@ const Paragraph = () => {
               * Must have a conclusion section. <br />
             </div>
           </AccordionContent>
-        </AccordionPanel>
+        </AccordionPanel> */}
       </Accordion>
 
       <div className="">
@@ -596,13 +657,13 @@ const Paragraph = () => {
           </p>
         </div>
       </div>
-
-      <div className="px-2 text-center">
+      {/* good qualities */}
+      {/* <div className="px-2 text-center">
         <div>
           <h1 className="text-rose-500 pt-20 text-center">
             All Paragraph in One Paragraph
           </h1>
-          {/* good qualities */}
+          
           <div className="">
             <h1 className="pt-10"> All Kinds Of Good Qualities</h1>
             <b /> <b />
@@ -670,10 +731,6 @@ const Paragraph = () => {
               sides and we should use only positive sides which provide us
               useful knowledge. <br />
               <br />
-              বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার বৈজ্ঞানিক বিষয়বস্তু বা Scientific
-              Thing নিয়ে Paragraph বললে ওপরের লেখাটি অনুসরণ করো এবং [TOPIC] এর
-              জায়গায় তোমার নির্দিষ্ট Paragraph এর নাম লিখে বাকী সব অপরিবর্তিত
-              রাখো।
             </p>
             <br />
             <br />
@@ -707,10 +764,14 @@ const Paragraph = () => {
               impossible to be a real person without responsibility, morality,
               embedded character and lofty ideals. For the peace and happiness
               we should follow him.
-            </p>
+            </p>{" "}
+            বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার বৈজ্ঞানিক বিষয়বস্তু বা Scientific
+            Thing নিয়ে Paragraph বললে ওপরের লেখাটি অনুসরণ করো এবং [TOPIC] এর
+            জায়গায় তোমার নির্দিষ্ট Paragraph এর নাম লিখে বাকী সব অপরিবর্তিত
+            রাখো।
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
