@@ -377,17 +377,13 @@ const Paragraph = () => {
                   means the activity in leisure like [Name], Leisure means one’s
                   free time. Everybody tends to have a hobby. It is a work of
                   diversion. When our main occupation become boring and
-                  monotonous, we turn to our hobby.
-                  <br />
-                  [DESCRIPTION]
-                  <br />
-                  We can get more pleasare of from [Name]. It serves us both
-                  physically and mentally. [DESCRIPTION] It is the most
-                  advisable exercise occupation for the aging, youth and the
-                  old. [Name] helps keep the mind Jolly and jovial and also
-                  refreshes our mind. [TOPIC] is, Therefore, congenial to
-                  health. My [TOPIC/ hoby] costs me nothing but is a source of
-                  pleasure. I like it most.
+                  monotonous, we turn to our hobby. We can get more pleasare of
+                  from [Name]. It serves us both physically and mentally.
+                  [DESCRIPTION] It is the most advisable exercise occupation for
+                  the aging, youth and the old. [Name] helps keep the mind Jolly
+                  and jovial and also refreshes our mind. [TOPIC] is, Therefore,
+                  congenial to health. My [TOPIC/ hoby] costs me nothing but is
+                  a source of pleasure. I like it most.
                 </p>
 
                 <p className="text-center py-5">--------0-------</p>
