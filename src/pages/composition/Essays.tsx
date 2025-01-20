@@ -122,6 +122,112 @@ function Essays() {
           </AccordionContent>
         </AccordionPanel>
 
+        {/* hobby*/}
+        <AccordionPanel>
+          <AccordionTitle>Hobby/ Liesure</AccordionTitle>
+          <AccordionContent className="p-2 md:p-5">
+            <div className="py-5">
+              <h2 className="text-center">
+                All kinds of hobbies সমস্ত প্রকারের সাখ
+              </h2>
+              <h3 className="text-center ">
+                1. Your Leisure 2. Your Hobby 3. Gardening as Your Hobby 4.
+                Vegetable Cultivation 5. Fish Cultivation 6. Flower Cultivation
+                7. My Garden 8. Your Favorite Past Time 9. Fishing as Hobby 10.
+                Reading as your Hobby
+                <br />
+                1. Singing song 2. Keeping a Diary 3. Catching Fish 4.
+                Collecting stamp 5. Flying kite 6. Morning walk 7. Reading habit
+                8. Writing poem 9. Jogging 10. Travelling 11. Swimming 12
+                Gardening 13. A Boat Race 14. Boating 15. Playing chess * 16.
+                Joking 17. Writing letter 18. Making a new voyage 19. Painting
+                20. Buying thing or shopping * 21. Early Rising 22. An Evening
+                walk 23. Fishing
+              </h3>
+              <br />
+              <br />{" "}
+              <div className="">
+                <p className="">
+                  <strong>Answer: </strong>[Name] is a kind of hobby. Hobby
+                  means the activity in leisure like [Name], Leisure means one’s
+                  free time. Everybody tends to have a hobby. It is a work of
+                  diversion. When our main occupation become boring and
+                  monotonous, we turn to our hobby. We can get more pleasare of
+                  from [Name]. It serves us both physically and mentally.
+                  [DESCRIPTION] It is the most advisable exercise occupation for
+                  the aging, youth and the old. [Name] helps keep the mind Jolly
+                  and jovial and also refreshes our mind. [TOPIC] is, Therefore,
+                  congenial to health. My [TOPIC/ hoby] costs me nothing but is
+                  a source of pleasure. I like it most.
+                </p>
+
+                <p className="text-center py-5">--------0-------</p>
+
+                <p className="py-5">
+                  বিশেষ দ্রষ্টব্য: [TOPIC] এর জায়গায় তোমার নির্দিষ্ট Paragraph
+                  এর নাম এবং [DESCRIPTION] এর জায়গায় তোমার নির্দিষ্ট Paragraph
+                  এর নাম অনুসারে নিচে থেকে DESCRIPTION লিখে বাকী সব অপরিবর্তিত
+                  রাখো। যদি পূর্ণ মার্কস পেতে চাও তাহলে DESCRIPTION লিখবে তা না
+                  হলে DESCRIPTION লাগবেনা ।
+                </p>
+                <h3 className="">DESCRIPTION for all others:</h3>
+                <p className="">
+                  One can build this habit if one likes. But it should be an
+                  object of leisure time. The people who become accustomed to
+                  [Name] cannot but impressed by it. It turns into a habit of a
+                  man and he cannot but do it. [Name]is also an interesting
+                  habit. So one should have thinking for a while before enjoying
+                  [Name] for its greatest enjoyment.
+                </p>
+              </div>
+              {/* <p className="mb-4">
+                <strong>Answer: </strong>Leisure means one’s free time, and
+                hobby means the activity in leisure. [TOPIC] is my favorite
+                hobby. I feel strong attraction for [TOPIC]. [Definition] . My
+                hobby costs me nothing but is a source of pleasure. I like it
+                most.
+              </p> */}
+              <h3 className="pt-5">
+                DESCRIPTION of Garden/ Gardening/ Liesure/ hobby:{" "}
+              </h3>
+              <p>
+                I have made [a garden of flowers] in front of my house. I grow
+                different types of flowers, fish, and vegetables—rose,
+                raganiganda, kamini, marigold, belli, etc. I weed out grass,
+                give fertilizers, and water the plants. I have made a strong
+                fence and bank around the garden and pond. My joys know no bound
+                when I see the [TOPIC]. They not only satisfy my eyes, but they
+                are also money-makers. I can also help my family through my
+                [TOPIC]
+              </p>
+              <h3 className="text-xl font-semibold mb-2">
+                Vegetable Cultivation:
+              </h3>
+              <p className="mb-4">
+                I also cultivate some vegetables in front of my house. I grow
+                different types of vegetables—pui-sakh, lal-sakh, kolmi,
+                palon-sakh, etc. I weed out grass, give fertilizers, and water
+                the plants. I have made a strong fence and bank around field. My
+                joys know no bound when I see the vegetables. They not only
+                satisfy my eyes, but they are also money-makers. I can also help
+                my family through my [TOPIC]
+              </p>
+              <h3 className="text-xl font-semibold mb-2">
+                Fishing as Hobby / Fish Cultivation:
+              </h3>
+              <p className="mb-4">
+                I have made pond in front of my house. It covers 0.50 acres of
+                land. I work with fish there in my leisure, especially in the
+                afternoon. I grow different types of fish—rui, mrigal, catfish,
+                grass carp, perch, silver carp, etc. I have made a strong fence
+                and bank around field. My joys know no bound when I see the
+                vegetables. They not only satisfy my eyes, but they are also
+                money-makers. I can also help my family through my [TOPIC]
+              </p>
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
+
         {/* travel */}
         <AccordionPanel>
           <AccordionTitle>journey/ Visit/ travelling</AccordionTitle>

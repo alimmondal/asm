@@ -1,3 +1,4 @@
+import { MdLocalPhone } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -8,14 +9,25 @@ const Footer = () => {
           <img
             src="/man.jpg"
             alt=""
-            className="w-24 h-24 rounded-full border-4 border-rose-300"
+            className="w-24 h-24 rounded-full border-4 border-rose-300 hover:scale-75"
           />
-          {/* <FaBookOpenReader size={48} /> */}
           <p>
             ASM English Academy
             <br />
             An E-Learning platform for English
           </p>
+          <ul className="flex items-center justify-center gap-2">
+            <li className="border p-2 rounded hover:text-rose-500 transition-all">
+              <a href="tel:+8801751337773">
+                <MdLocalPhone size={40} /> Call ME
+              </a>
+            </li>
+            <li className="flex flex-col">
+              <a href="tel:+8801860060068">+8801860060068 </a>
+              <a href="tel:+8801751337773">+8801751337773</a>
+            </li>
+            <li></li>
+          </ul>
         </aside>
         <nav>
           <h6 className="footer-title">Menu</h6>
@@ -25,16 +37,16 @@ const Footer = () => {
                 <Link to={"/"}>Home</Link>
               </li>
               <li>
-                <Link to={"/"}>SSC</Link>
+                <Link to={"/ssc"}>SSC</Link>
               </li>
               <li>
-                <Link to={"/"}>HSC</Link>
+                <Link to={"/hsc"}>HSC</Link>
               </li>
               <li>
-                <Link to={"/"}>Degree</Link>
+                <Link to={"/degree"}>Degree</Link>
               </li>
               <li>
-                <Link to={"/"}>About</Link>
+                <Link to={"/about"}>About</Link>
               </li>
             </ul>
           </div>
@@ -44,16 +56,16 @@ const Footer = () => {
           <div className="">
             <ul>
               <li>
-                <Link to={"/"}>Login</Link>
+                <Link to={"/login"}>Login</Link>
               </li>
               <li>
-                <Link to={"/"}>Register</Link>
+                <Link to={"/register"}>Register</Link>
               </li>
               <li>
-                <Link to={"/"}>Dashboard</Link>
+                <Link to={"/dashboard"}>Dashboard</Link>
               </li>
               <li>
-                <Link to={"/"}>About</Link>
+                <Link to={"/about"}>About</Link>
               </li>
             </ul>
           </div>
