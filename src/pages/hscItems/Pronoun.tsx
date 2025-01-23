@@ -1,9 +1,12 @@
 const Pronoun = () => {
   return (
-    <div className="px-3 md:w-[85%] mx-auto">
-      <h1 className="text-2xl font-bold ">Question No: 08</h1>
-      <h2 className="text-xl font-semibold ">Clear the unclear pronoun</h2>
-      <h3 className="text-lg font-semibold">Pronoun</h3>
+    <div className="w-[95%] md:w-[85%] mx-auto">
+      <div className="text-center">
+        <h1 className="text-2xl font-bold ">Question No: 08</h1>
+        <h2 className="text-xl font-semibold ">Clear the unclear pronoun</h2>
+        <h3 className="text-lg font-semibold">Pronoun</h3>
+      </div>
+
       <p className="">
         **Noun এর পরিবর্তে যে সকল শব্দ ব্যবহার হয় তাকে pronoun বলে।
         <br />
@@ -85,7 +88,7 @@ const Pronoun = () => {
         </table>
       </div>
 
-      <div className="">
+      {/* <div className="">
         <h4 className="font-semibold">
           1. Verb এর আগে Subject বলে এবং verb এর পরে object বলে।
         </h4>
@@ -93,58 +96,68 @@ const Pronoun = () => {
           <li>I have a pen.</li>
           <li>Let me and he go home.</li>
         </ul>
-      </div>
-
+      </div> */}
+      {/* <img src="img/pro1.jpg" alt="" />
+      <img src="img/pro2.jpg" alt="" /> */}
       <div className="">
         No: 08 Clear the unclear pronoun Pronoun
         <br /> **Noun এর পরিবর্তে যে সকল শব্দ ব্যবহার হয় তাকে pronoun বলে।
         **Pronoun অনেক প্রকার হতে পারেঃ
         <br /> 1. Verb এর আগে Subject বসে এবং verb এর পরে object বসে।
         <br /> যেমনঃ
-        <br /> * My have a pen. I have a pen. * Let me and he go home. Let me
-        and go home.
+        <br /> Q. My have a pen.
+        <br /> Ans: <span className="font-bold">I </span> have a pen.
+        <br /> Q. Let me and he go home.
+        <br /> Ans: Let me and <span className="font-bold">him</span> go home.
         <br /> 2. He/ him/his দ্বারা পুরুষ ব্যক্তিকে বুঝায় কিন্তু she/her/ her
         দ্বারা মহিলাকে বুঝায়।
         <br />
         যেমনঃ
-        <br /> **Salam and Salma are siblings; Salam is in class five who was
+        <br /> Q. Salam and Salma are siblings; Salam is in class five who was
         her sister, Salma, reads in class three.
         <br /> 3. বাক্যের Subjerct অনুসারে possessive বসে।
         <br /> যেমনঃ
-        <br /> ** Salma answered that she knew his mother's name.
+        <br /> Q. Salma answered that she knew his mother's name.
+        <br /> Ans: Salma answered that she knew her mother's name.
         <br />
         Sifat Rabbani
         <br /> 4. বাক্যের প্রথমে Subject যদি one হয় তবে শেষের দিকে his/her এর
-        স্থলে one's হয়। যেমনঃ *One should do his duty. One should do one's duty.
-        কিন্তু one of এর পরে পুরুষ থাকলে পরে his হবে এবং স্ত্রীবাচক শব্দ থাকলে
-        her হবে।
+        স্থলে one's হয়।
+        <br /> যেমনঃ <br /> Q. One should do his duty.
+        <br /> Ans: One should do one's duty.
+        <br /> কিন্তু one of এর পরে পুরুষ থাকলে পরে his হবে এবং স্ত্রীবাচক শব্দ
+        থাকলে her হবে।
         <br /> যেমনঃ
-        <br /> *One of the boys should do her duty. One of the boys should do
-        his duty.
+        <br /> Q. One of the boys should do her duty.
+        <br /> Ans: One of the boys should do his duty.
         <br /> 5. Anyone, everyone, everybody, someone, somebody, no one, none,
         nobody each, either, neither ইত্যাদি বাক্যের প্রথমে Subject হিসেবে
         ব্যবহার হলে, বাক্যের শেষের দিকে their/ our এর পরিবর্তে his/her বসে।
         <br /> যেমনঃ
-        <br /> *Every one should do their duty. Every one should do his/her
-        duty. কিন্তু উপরিউক্ত pronoun গুলো দ্বারা যদি পূর্বের আলোচিত কোন
+        <br /> Q. Every one should do their duty.
+        <br /> Ans: Every one should do his/her duty.
+        <br /> কিন্তু উপরিউক্ত pronoun গুলো দ্বারা যদি পূর্বের আলোচিত কোন
         স্ত্রীবাচক শব্দকে বুঝায় তাহলে her এবং পুরুষকে ইঙ্গিত করলে his বসবে।
         <br /> 6. Myself, ourself, himself, ইত্যাদি পূর্বের আলোচিত পূং লিঙ্গ এবং
         স্ত্রী লিঙ্গ অনুসারে ব্যবহার হয়।
         <br /> যেমনঃ
-        <br /> *The girl killed himself. The girl killed herself.
+        <br /> Q. The girl killed himself.
+        <br /> Ans: The girl killed herself.
         <br /> 7. দুটি বাক্যের মাঝখানে who/who/which/that থাকে। এগুলোর পূর্বে
         যদি ব্যক্তিবাচক শব্দ থাকে তবে that/which এর পরিবর্তে who বসে। আবার
         এগুলোর পূর্বে যদি বস্তুবাচক শব্দ থাকে তবে who/whom এর পরিবর্তে
         which/that বসে।
         <br /> যেমনঃ
-        <br /> *I know the boy which came here. I know the boy who came here.
-        *He killed a bird who made noise. He killed a bird which made noise.
-        অর্থাৎwho/whom-that/which. কিন্তু who এর পূর্বে they থাকলে they এর
-        পরিবর্তে those বসে।
+        <br /> Q. I know the boy which came here.
+        <br /> Ans: I know the boy who came here.
+        <br /> Q. He killed a bird who made noise.
+        <br /> Ans: He killed a bird which made noise.
+        <br /> অর্থাৎ who/ whom-that/which. কিন্তু who এর পূর্বে they থাকলে they
+        এর পরিবর্তে those বসে।
         <br /> 8. Noun এর repetition (পুনরাবৃত্তি) রোধ করার জন্য pronoun ব্যবহার
         হয়।
         <br /> যেমনঃ
-        <br /> *Bina lost her pen. তিন্তু পরবর্তী pronoun গুলো যদি অস্পষ্ট হয়
+        <br /> Q. Bina lost her pen. তিন্তু পরবর্তী pronoun গুলো যদি অস্পষ্ট হয়
         তবে তাকে স্পষ্ট করতে হবে। অর্থাৎ pronoun গুলোর দ্বারা পূর্বের কোন
         ব্যক্তি/বস্তুকে বুঝাচ্ছে সেই ব্যক্তি/বস্তুকে ঐ pronoun এর স্থলে বসে এবং
         সেগুলো বচন অনুসারে বসবে। আর এজন্য একবচন/বহুবচন বুঝতে হবে।
@@ -174,14 +187,16 @@ const Pronoun = () => {
         first.
         <br /> 10. Verb এবং preposition এর পরে pronoun এর objective case বসে।
         <br /> যেমনঃ
-        <br /> *Bina's aunt took great care of their. Bina's aunt took care of
-        them.
-        <br /> *His teacher loved he very much. His teacher loved him very much.
+        <br /> *Bina's aunt took great care of their. <br /> Ans: Bina's aunt
+        took care of them.
+        <br /> *His teacher loved he very much. <br /> Ans: His teacher loved
+        him very much.
         <br /> 11. বাক্যের Subject একবচন হলে object এবং possessive case ও একবচন
         হবে। আবার subject বহুবচন হলে obj/possessive বহুবচন হবে।
         <br /> যেমনঃ
-        <br /> *My parents tried my best to bring me up well in my childhood. My
-        parents tried their best to bring me well in my childhood.
+        <br /> *My parents tried my best to bring me up well in my childhood.{" "}
+        <br /> Ans: My parents tried their best to bring me well in my
+        childhood.
         <br /> 12. বাক্যের শুরুতে That থাকলে this/it হয় কিন্তু বাক্যের শেষে
         that/those/these হয়।
         <br /> যেমনঃ
@@ -196,7 +211,7 @@ const Pronoun = () => {
         <br />
       </div>
 
-      <div className="">
+      {/* <div className="">
         <h4 className="font-semibold">
           2. He/ him/ his দ্বারা পুলক বাচক কুবাযা কিন্তু she/ her/ her দ্বারা
           মহিলাকে বুঝায়।
@@ -292,7 +307,7 @@ const Pronoun = () => {
           <strong>➔</strong> Milton took his M.A degree at the age of 24 and
           went to his father's house in the village of Horton.
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };
