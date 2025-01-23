@@ -25,46 +25,75 @@ const Accordions = () => {
                 আমরা ভাত খাবো।
                 <br />
               </p>
+              <div className="py-5 dark:text-gray-400">
+                Tense তিন প্রকারঃ <br />
+                ১। Present tense বা বর্তমান কাল <br />
+                ২। Future tense বা ভবিষ্যৎ কাল। <br />
+                ৩। Past tense বা অতীত কাল।
+                <br />
+                <br />
+                Present tense (বর্তমান কাল) আবার চার প্রকারঃ <br />
+                ১। Present Indefinite Tense (অনির্দিষ্ট বর্তমান কাে)। <br />
+                ২। Present Continuous Tense (বর্তমান চলামান কাল)। <br />
+                ৩। Present Perfect Tense (পুরঘটিত বর্তমান কাল)। <br />
+                ৪। Present Perfect Continuous Tense (পুরঘটিত চলমান বর্তমান কাল)।
+                <br />
+                <br />
+                {/* PAST TENSE */}
+                <strong>Past Tense </strong>(অতীত কাল) চার প্রকারঃ <br />
+                ১। Past Indefinite Tense (অনির্দিষ্ট অতীত কাল)। <br />
+                ২। Past Continuous Tense (চলমান অতীত কাল)। <br />
+                ৩। Past Perfect Tense (পুরঘটিত অতীত কাল)। <br />
+                ৪। Past Perfect Continuous Tense (পুরঘটিত চলমান অতীত কাল)।
+                <br />
+                <br />
+                {/* <!-- FUTURE TENSE --> */}
+                <strong>Future Tense </strong>(ভবিষ্যৎ কাল) চার প্রকারঃ <br />
+                ১। Future Indefinite Tense (অনির্দিষ্ট ভবিষ্যৎ কাল)। <br />
+                ২। Future Continuous Tense (চলমান ভবিষ্যৎ কাল)। <br />
+                ৩। Future Perfect Tense (পুরঘটিত ভবিষ্যৎ কাল)। <br />
+                ৪। Future Perfect Continuous Tense (পুরঘটিত চলমান ভবিষ্যৎ কাল)।
+              </div>
             </div>
           </AccordionContent>
         </AccordionPanel>
 
-        {/* Classifications of tense */}
         <AccordionPanel>
-          <AccordionTitle>Classifications fo Tense?</AccordionTitle>
+          <AccordionTitle>Classification of Tense?</AccordionTitle>
           <AccordionContent>
             <div className="mb-2 dark:text-gray-400">
-              Tense তিন প্রকারঃ <br />
-              ১। Present tense বা বর্তমান কাল <br />
-              ২। Future tense বা ভবিষ্যৎ কাল। <br />
-              ৩। Past tense বা অতীত কাল।
-              <br />
-              <br />
-              Present tense (বর্তমান কাল) আবার চার প্রকারঃ <br />
-              ১। Present Indefinite Tense (অনির্দিষ্ট বর্তমান কাে)। <br />
-              ২। Present Continuous Tense (বর্তমান চলামান কাল)। <br />
-              ৩। Present Perfect Tense (পুরঘটিত বর্তমান কাল)। <br />
-              ৪। Present Perfect Continuous Tense (পুরঘটিত চলমান বর্তমান কাল)।
-              <br />
-              <br />
-              {/* PAST TENSE */}
-              <strong>Past Tense </strong>(অতীত কাল) চার প্রকারঃ <br />
-              ১। Past Indefinite Tense (অনির্দিষ্ট অতীত কাল)। <br />
-              ২। Past Continuous Tense (চলমান অতীত কাল)। <br />
-              ৩। Past Perfect Tense (পুরঘটিত অতীত কাল)। <br />
-              ৪। Past Perfect Continuous Tense (পুরঘটিত চলমান অতীত কাল)।
-              <br />
-              <br />
-              {/* <!-- FUTURE TENSE --> */}
-              <strong>Future Tense </strong>(ভবিষ্যৎ কাল) চার প্রকারঃ <br />
-              ১। Future Indefinite Tense (অনির্দিষ্ট ভবিষ্যৎ কাল)। <br />
-              ২। Future Continuous Tense (চলমান ভবিষ্যৎ কাল)। <br />
-              ৩। Future Perfect Tense (পুরঘটিত ভবিষ্যৎ কাল)। <br />
-              ৪। Future Perfect Continuous Tense (পুরঘটিত চলমান ভবিষ্যৎ কাল)।
+              <div className="py-5 dark:text-gray-400">
+                Tense তিন প্রকারঃ <br />
+                ১। Present tense বা বর্তমান কাল <br />
+                ২। Future tense বা ভবিষ্যৎ কাল। <br />
+                ৩। Past tense বা অতীত কাল।
+                <br />
+                <br />
+                Present tense (বর্তমান কাল) আবার চার প্রকারঃ <br />
+                ১। Present Indefinite Tense (অনির্দিষ্ট বর্তমান কাে)। <br />
+                ২। Present Continuous Tense (বর্তমান চলামান কাল)। <br />
+                ৩। Present Perfect Tense (পুরঘটিত বর্তমান কাল)। <br />
+                ৪। Present Perfect Continuous Tense (পুরঘটিত চলমান বর্তমান কাল)।
+                <br />
+                <br />
+                {/* PAST TENSE */}
+                <strong>Past Tense </strong>(অতীত কাল) চার প্রকারঃ <br />
+                ১। Past Indefinite Tense (অনির্দিষ্ট অতীত কাল)। <br />
+                ২। Past Continuous Tense (চলমান অতীত কাল)। <br />
+                ৩। Past Perfect Tense (পুরঘটিত অতীত কাল)। <br />
+                ৪। Past Perfect Continuous Tense (পুরঘটিত চলমান অতীত কাল)।
+                <br />
+                <br />
+                {/* <!-- FUTURE TENSE --> */}
+                <strong>Future Tense </strong>(ভবিষ্যৎ কাল) চার প্রকারঃ <br />
+                ১। Future Indefinite Tense (অনির্দিষ্ট ভবিষ্যৎ কাল)। <br />
+                ২। Future Continuous Tense (চলমান ভবিষ্যৎ কাল)। <br />
+                ৩। Future Perfect Tense (পুরঘটিত ভবিষ্যৎ কাল)। <br />
+                ৪। Future Perfect Continuous Tense (পুরঘটিত চলমান ভবিষ্যৎ কাল)।
+              </div>
             </div>
           </AccordionContent>
         </AccordionPanel>
-
         {/* 1। Present Indefinite Tense */}
         <AccordionPanel>
           <AccordionTitle>১। Present Indefinite Tense</AccordionTitle>
@@ -85,7 +114,9 @@ const Accordions = () => {
                   <strong>গঠন</strong> (<strong>Structure</strong>): <br />
                   হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
                   <span className="animateText font-bold">*Rule*: </span>
-                  <strong>Sub + V1(s/es) + obj + others. </strong>
+                  <strong>
+                    Sub + V<sub>1</sub> (s/es) + obj + others.{" "}
+                  </strong>
                   <br />
                   যেমনঃ <br />
                   আমরা ভাত খাই - We eat rice. <br />
@@ -115,7 +146,9 @@ const Accordions = () => {
                 <br />
                 <br />
                 না-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                <strong>* Sub + do not/ does not + V1 + obj + others. </strong>
+                <strong>
+                  * Sub + do not/ does not + V<sub>1</sub> + obj + others.{" "}
+                </strong>
                 <br />
                 যেমনঃ <br />
                 আমরা ভাত খাই না - We do not eat rice. <br />
@@ -127,16 +160,16 @@ const Accordions = () => {
                 সাথে = do হয়।
                 <br />
                 <br />
-                প্রশ্ন-বোধক - হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                * Do/ does + Sub + V1 + obj? <br />
+                প্রশ্ন-বোধক - হা-বোধক বাক্যের <strong>গঠন</strong>: <br />* Do/
+                does + Sub + V<sub>1</sub> + obj? <br />
                 যেমনঃ <br />
                 আমরা কি ভাত খাই? - Do we eat rice? <br />
                 সে কি ভাত খায়? - Does he eat rice? <br />
                 <br />
-                প্রশ্ন-বোধক না-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                * Don't/ doesn't + Sub+ V1 + obj? <br />
+                প্রশ্ন-বোধক না-বোধক বাক্যের <strong>গঠন</strong>: <br />* Don't/
+                doesn't + Sub+ V<sub>1</sub> + obj? <br />
                 অথবাঃ <br />
-                Do/ does + Sub + not + V1 + obj?
+                Do/ does + Sub + not + V<sub>1</sub> + obj?
                 <br />
                 যেমনঃ <br />
                 আমরা কি ভাত খাই না? – Do we not eat rice? <br />
@@ -166,7 +199,7 @@ const Accordions = () => {
               <br />
               <span className="animateText font-bold">*Rule*: </span>
               <strong>
-                Sub + am/ is/ are + V1 এর সাথে ing + obj + others.{" "}
+                Sub + am/ is/ are + V<sub>1</sub> এর সাথে ing + obj + others.{" "}
               </strong>
               <br />
               <br />
@@ -183,13 +216,14 @@ const Accordions = () => {
               <br />
               <br />
               না-বোধক বাক্যের গঠন: <br />
-              Sub + am not/ is not/ are not + V1-ing + obj + extension
+              Sub + am not/ is not/ are not + V<sub>1</sub>-ing + obj +
+              extension
               <br />
               প্রশ্ন-বোধক-হা-বোধক বাক্যের গঠন: <br />
-              Am/ is/ are + sub + V1-ing + obj?
+              Am/ is/ are + sub + V<sub>1</sub>-ing + obj?
               <br />
               প্রশ্ন-বোধক–না-বোধক বাক্যের গঠন: <br />
-              Am/ is/ are + sub + not + V1 + ing + obj? <br />
+              Am/ is/ are + sub + not + V<sub>1</sub> + ing + obj? <br />
               যেমনঃ <br />
               আমরা কি ভাত খাইতেছি/খাচ্ছি? - Aren’t we eating rice?/ Are We not
               eating rice?
@@ -219,7 +253,10 @@ const Accordions = () => {
                 <strong>গঠন</strong> :
                 <br />
                 <span className="animateText font-bold">*Structure*:</span>
-                <strong> Sub + have/ has + V3 + obj + others.</strong>
+                <strong>
+                  {" "}
+                  Sub + have/ has + V<sub>3</sub> + obj + others.
+                </strong>
                 <br />
                 <br />
                 যেমনঃ <br />
@@ -229,26 +266,26 @@ const Accordions = () => {
                 <br />
                 <strong>NOTE: </strong> বাক্যের Subject অনুসারে সাহায্যকারি verb
                 হবে। যেমনঃ <br />
-                ১। 3rd person + singular sub এর সাথে = has হয়, <br />
+                ১। <sub>3</sub>rd person + singular sub এর সাথে = has হয়, <br />
                 ২। অন্যান্য সকল sub এর সাথে = have হয়।
                 <br />
                 <br />
-                না-বোধক বাক্যের<strong>গঠন</strong>: <br />
-                * Sub + have not/ has not + V3 + obj + others. <br />
+                না-বোধক বাক্যের<strong>গঠন</strong>: <br />* Sub + have not/ has
+                not + V<sub>3</sub> + obj + others. <br />
                 যেমনঃ আমরা ভাত খাইনি - We have not eaten rice.
                 <br />
                 <br />
-                প্রশ্ন-বোধক-হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                * Have/ has + Sub + V3 + obj? <br />
+                প্রশ্ন-বোধক-হা-বোধক বাক্যের <strong>গঠন</strong>: <br />* Have/
+                has + Sub + V<sub>3</sub> + obj? <br />
                 যেমনঃ আমরা কি ভাত খাইইয়াছি/খেয়েছি? - Have we not eaten rice?
                 <br />
                 <br />
-                প্রশ্ন-বোধক–না-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                * Have/ has + Sub + not + V3 + obj? <br />
+                প্রশ্ন-বোধক–না-বোধক বাক্যের <strong>গঠন</strong>: <br />* Have/
+                has + Sub + not + V<sub>3</sub> + obj? <br />
                 অথবাঃ <br />
-                Haven't/ hasn't + Sub + V3 + obj? <br />
+                Haven't/ hasn't + Sub + V<sub>3</sub> + obj? <br />
                 অথবাঃ <br />
-                Ain't + Sub + V3 + obj? <br />
+                Ain't + Sub + V<sub>3</sub> + obj? <br />
                 যেমনঃ আমরা কি ভাত খাইনি? - Have we not eaten rice?
                 <br />
                 <br />
@@ -302,22 +339,22 @@ const Accordions = () => {
                 ২। অন্যান্য সকল sub এর সাথে = have been হয়।
                 <br />
                 <br />
-                না-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                * Sub + have not been/ has not been + V1 এর সাথে ing + obj +
-                for/ since + time.
+                না-বোধক বাক্যের <strong>গঠন</strong>: <br />* Sub + have not
+                been/ has not been + V<sub>1</sub> এর সাথে ing + obj + for/
+                since + time.
                 <br />
                 <br />
-                প্রশ্ন-বোধক হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                * have been/ has been + Sub + V1 এর সাথে ing + obj + for/ since
-                + time?
+                প্রশ্ন-বোধক হা-বোধক বাক্যের <strong>গঠন</strong>: <br />* have
+                been/ has been + Sub + V<sub>1</sub> এর সাথে ing + obj + for/
+                since + time?
                 <br />
                 <br />
                 প্রশ্ন–বোধক না-বোধক বাক্যের<strong>গঠন</strong>: <br />
-                Have / has + Sub + not + been + V1 এর সাথে ing + obj + for/
-                since + time? <br />
+                Have / has + Sub + not + been + V<sub>1</sub> এর সাথে ing + obj
+                + for/ since + time? <br />
                 অথবাঃ <br />
-                Haven't / hasn't + Sub + been +V1 এর সাথে ing + obj + for/ since
-                + time?
+                Haven't / hasn't + Sub + been +V<sub>1</sub> এর সাথে ing + obj +
+                for/ since + time?
                 <br />
                 যেমনঃ <br />
                 আমরা কি ১০ মিনিট ধরে ভাত খাচ্ছি/খাইতেছি? - Haven't we been
@@ -357,7 +394,10 @@ const Accordions = () => {
                 <br />
                 <br />
                 <span className="animateText font-bold">Structure:</span>
-                <strong> Sub + V2 + obj + others </strong>
+                <strong>
+                  {" "}
+                  Sub + V<sub>2</sub> + obj + others{" "}
+                </strong>
                 <br />
                 <br />
                 যেমনঃ <br />
@@ -365,19 +405,23 @@ const Accordions = () => {
                 <br />
                 <br />
                 না-বোধক বাক্যের<strong>গঠন</strong>: <br />
-                <strong> * Sub + did not+ V1 + obj + others.</strong> <br />
+                <strong>
+                  {" "}
+                  * Sub + did not + V<sub>1</sub> + obj + others.
+                </strong>{" "}
+                <br />
                 যেমনঃ <br />
                 আমরা ভাত খেলাম না - We did not eat rice.
                 <br />
                 <br />
-                প্রশ্ন-বোধক হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                * Did + Sub + V1 + obj + others? <br />
+                প্রশ্ন-বোধক হা-বোধক বাক্যের <strong>গঠন</strong>: <br />* Did +
+                Sub + V<sub>1</sub> + obj + others? <br />
                 যেমনঃ <br />
                 আমরা কি ভাত খাইলাম/খেলাম? – Did we eat rice?
                 <br />
                 <br />
-                প্রশ্ন-বোধক না-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                * Didn't + Sub+ V1 + obj + others?
+                প্রশ্ন-বোধক না-বোধক বাক্যের <strong>গঠন</strong>: <br />* Didn't
+                + Sub+ V<sub>1</sub> + obj + others?
                 <br />
                 যেমনঃ <br />
                 আমরা কি ভাত খাইলাম/খেলাম না? - Do we not eat rice? <br />
@@ -391,7 +435,7 @@ const Accordions = () => {
                     Structure: Sub + used to + V <sub>1</sub> + Obj + Extension.
                     <br />
                     <br />
-                    যেমনঃ আমি চা খাইতাম। I used to sip/ drink tea.
+                    যেমনঃ আমি চা খাইতাম। I used to sip tea.
                   </p>
                 </div>
               </div>
@@ -418,7 +462,7 @@ const Accordions = () => {
                 হা-বোধক বাক্যের <strong>গঠন</strong> :<br />
                 <strong>
                   {" "}
-                  * Sub + was/ were + V1 এর সাথে ing + obj + others.
+                  * Sub + was/ were + V<sub>1</sub> এর সাথে ing + obj + others.
                 </strong>
                 <br />
                 যেমনঃ <br />
@@ -427,23 +471,26 @@ const Accordions = () => {
                 <br />
                 <strong>NOTE: </strong>বাক্যের Subject অনুসারে সাহায্যকারি verb
                 হবে। যেমনঃ <br />
-                ১। 3rd person এবং 1st person + singular sub এর সাথে = was হয়,{" "}
-                <br />
+                ১। 3rd person এবং <sub>1</sub>st person + singular sub এর সাথে =
+                was হয়, <br />
                 ২। অন্যান্য সকল sub এর সাথে = were হয়।
                 <br />
                 <br />
-                না-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                * Sub + was not/ were not + V1 এর সাথে ing + obj + others.
+                না-বোধক বাক্যের <strong>গঠন</strong>: <br />* Sub + was not/
+                were not + V<sub>1</sub> এর সাথে ing + obj + others.
                 <br />
-                অথবাঃ * Sub + was not/ were not + V1 এর সাথে ing + obj + others.
+                অথবাঃ * Sub + was not/ were not + V<sub>1</sub> এর সাথে ing +
+                obj + others.
                 <br />
-                প্রশ্ন-বোধক হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                * Was/Were + Sub + V1 এর সাথে ing + obj + others.
+                প্রশ্ন-বোধক হা-বোধক বাক্যের <strong>গঠন</strong>: <br />*
+                Was/Were + Sub + V<sub>1</sub> এর সাথে ing + obj + others.
                 <br />
                 প্রশ্ন–বোধক না-বোধক বাক্যের<strong>গঠন</strong>: <br />
-                Was/ Were + Sub + not + V1 এর সাথে ing + obj + others? <br />
+                Was/ Were + Sub + not + V<sub>1</sub> এর সাথে ing + obj +
+                others? <br />
                 অথবাঃ <br />
-                Wasn't / Weren't + Sub + V1 এর সাথে ing + obj + others?
+                Wasn't / Weren't + Sub + V<sub>1</sub> এর সাথে ing + obj +
+                others?
                 <br />
                 অথবাঃ <br />
                 যেমনঃ <br />
@@ -461,10 +508,10 @@ const Accordions = () => {
           <AccordionContent>
             <p className="mb-2 dark:text-gray-400">
               <div className="">
-                <strong> ৩। Past Perfect Tense </strong>( পুরঘটিত অতীত কাে )।{" "}
+                <strong> ৩। Past Perfect Tense </strong>( পুরঘটিত অতীত কাল )।
                 <br />
                 <strong>সংজ্ঞাঃ</strong> (১) অতীতে কোন কাজ করা হয়েছিল বুঝালে
-                Past Perfect Tense হয় ।
+                Past Perfect Tense হয়।
                 <br />
                 যেমনঃ আমরা ভাত খাইয়াছিলাম/ খেয়েছিলাম। <br />
                 চিনার উপায়ঃ বাংলা ক্রিয়ার শেষে লে, ল, লাম থাকবে।
@@ -473,8 +520,7 @@ const Accordions = () => {
                 <strong>গঠন</strong> (<strong>Structure</strong>): <br />
                 হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
                 <strong>
-                  {" "}
-                  * Sub + had + V <sub>3</sub> + obj + others.{" "}
+                  * Sub + had + V <sub>3</sub> + obj + others.
                 </strong>
                 <br />
                 যেমনঃ <br />
@@ -523,8 +569,8 @@ const Accordions = () => {
                 <strong>গঠন</strong> (<strong>Structure</strong>): <br />
                 হা-বোধক বাক্যের <strong>গঠন</strong> :<br />
                 <strong>
-                  * (1) Sub + had been + V1 এর সাথে ing + obj + for/since + time
-                  + others
+                  * (1) Sub + had been + V<sub>1</sub> এর সাথে ing + obj +
+                  for/since + time + others
                 </strong>
                 <br />
                 <strong>NOTE: </strong>বাক্যের মধ্যে ধরিয়া/ধরে থাকলে সময়ের আগে
@@ -546,17 +592,17 @@ const Accordions = () => {
                 যেমনঃ <br />
                 সে আসার পূর্বে আমরা ১০ মিনিট ধরে ভাত খাচ্ছিলাম/খাইতেছিলাম
                 <strong>
-                  * (2) Sub + had been + V1 এর সাথে ing + obj + others +
-                  for/since + time + before + Past Indefinite Tense/ Past
-                  Perfect Tense.
+                  * (2) Sub + had been + V<sub>1</sub> এর সাথে ing + obj +
+                  others + for/since + time + before + Past Indefinite Tense/
+                  Past Perfect Tense.
                 </strong>
                 <br />
                 যেমনঃ <br />
                 সে আসার পূর্বে আমরা ১০ মিনিট ধরে ভাত খাচ্ছিলাম/খাইতেছিলাম He had
                 been eating rice for ten minutes before he came
                 <br />
-                না-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                * Sub + had not been + V1 এর সাথে ing + obj + for/ since + time.
+                না-বোধক বাক্যের <strong>গঠন</strong>: <br />* Sub + had not been
+                + V<sub>1</sub> এর সাথে ing + obj + for/ since + time.
                 <br />
                 আমরা ১০ মিনিট ধরে ভাত খাচ্ছিলাম/খাইতেছিলাম না - We had not been
                 eating rice for ten minutes? <br />
@@ -585,7 +631,9 @@ const Accordions = () => {
                 </strong>
                 <br />
                 হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                <strong>* Sub + shall/ will + V1 + obj + others. </strong>
+                <strong>
+                  * Sub + shall/ will + V<sub>1</sub> + obj + others.
+                </strong>
                 <br />
                 যেমনঃ <br />
                 আমরা ভাত খাইবো/ খাবো - We will eat rice/ We'll eat rice. <br />
@@ -598,23 +646,25 @@ const Accordions = () => {
                 will ব্যবহার হয়। <br />
                 না-বোধক বাক্যের <strong>গঠন</strong>: <br />
                 <strong>
-                  * Sub + Will not(/ shall not) + V1 + obj + others.{" "}
+                  * Sub + Will not(/ shall not) + V<sub>1</sub> + obj + others.{" "}
                 </strong>
                 <br />
                 or, <br />
-                <strong>* Sub + Won't(/ shan't) + V1 + obj + others. </strong>
+                <strong>
+                  * Sub + Won't(/ shan't) + V<sub>1</sub> + obj + others.{" "}
+                </strong>
                 <br />
                 যেমনঃ <br />
                 আমরা ভাত খাইবো/ খাবো না - We Will not eat rice. <br />
                 সে ভাত খাবে না - He Will not eat rice. <br />
-                প্রশ্ন-বোধক - হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                * Will(/ Shall) + Sub + V1 + obj? <br />
+                প্রশ্ন-বোধক - হা-বোধক বাক্যের <strong>গঠন</strong>: <br />*
+                Will(/ Shall) + Sub + V<sub>1</sub> + obj? <br />
                 যেমনঃ <br />
                 আমরা কি ভাত খাইবো/ খাবো? - Will we eat rice? <br />
-                প্রশ্ন-বোধক না-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                * Will(/ Shall) + Sub+ V1 + obj? <br />
+                প্রশ্ন-বোধক না-বোধক বাক্যের <strong>গঠন</strong>: <br />* Will(/
+                Shall) + Sub+ V<sub>1</sub> + obj? <br />
                 অথবাঃ <br />
-                Will(/ Shall) + Sub + not + V1 + obj?
+                Will(/ Shall) + Sub + not + V<sub>1</sub> + obj?
                 <br />
                 যেমনঃ <br />
                 আমরা কি ভাত খাইবো/ খাবো না? – Will we not eat rice? <br />
@@ -644,7 +694,8 @@ const Accordions = () => {
                 <strong>গঠন</strong> (<strong>Structure</strong>): <br />
                 হা-বোধক বাক্যের <strong>গঠন</strong> :<br />
                 <strong>
-                  * Sub + shall be/ will be + V1 এর সাথে ing + obj + others.
+                  * Sub + shall be/ will be + V<sub>1</sub> এর সাথে ing + obj +
+                  others.
                 </strong>
                 <br />
                 যেমনঃ <br />
@@ -655,21 +706,22 @@ const Accordions = () => {
                 ১। 1st person subject এর সাথে = shall হয়, <br />
                 ২। অন্যান্য সকল sub এর সাথে = will হয়।
                 <br />
-                না-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                * Sub + shall not be/ will not be + V1 এর সাথে ing + obj +
-                others.
+                না-বোধক বাক্যের <strong>গঠন</strong>: <br />* Sub + shall not
+                be/ will not be + V<sub>1</sub> এর সাথে ing + obj + others.
                 <br />
-                অথবাঃ * Sub + shan't be/ won't be + V1 এর সাথে ing + obj +
-                others.
+                অথবাঃ * Sub + shan't be/ won't be + V<sub>1</sub> এর সাথে ing +
+                obj + others.
                 <br />
-                প্রশ্ন-বোধক হা-বোধক বাক্যের <strong>গঠন</strong>: <br />
-                * Shall/Will + Sub + be + V1 এর সাথে ing + obj + others?
+                প্রশ্ন-বোধক হা-বোধক বাক্যের <strong>গঠন</strong>: <br />*
+                Shall/Will + Sub + be + V<sub>1</sub> এর সাথে ing + obj +
+                others?
                 <br />
                 প্রশ্ন–বোধক না-বোধক বাক্যের<strong>গঠন</strong>: <br />*
-                Shall/Will + Sub + not + be + V1 এর সাথে ing + obj + others.?{" "}
-                <br />
+                Shall/Will + Sub + not + be + V<sub>1</sub> এর সাথে ing + obj +
+                others.? <br />
                 অথবাঃ <br />
-                Shan't/ Won't + Sub + be + V1 এর সাথে ing + obj + others?
+                Shan't/ Won't + Sub + be + V<sub>1</sub> এর সাথে ing + obj +
+                others?
                 <br />
                 যেমনঃ <br />
                 -আমরা কি ভাত খাইতে থাকিবো/ খেতে থাকবো না? - Will we not be
@@ -700,11 +752,11 @@ const Accordions = () => {
                 </p>
                 <p className="">
                   <strong>Structure-1</strong>: subject + shall have /will have
-                  + verb 3rd form + others.
+                  + V<sub>3</sub> + others.
                 </p>
                 <p className="">
                   <strong>Structure-2</strong>: subject + shall have /will have
-                  + verb 3rd form + others + before/ after + future indefinite
+                  + V<sub>3</sub> + others + before/ after + future indefinite
                   tense.
                 </p>
                 <p>
@@ -760,16 +812,16 @@ const Accordions = () => {
                   </strong>{" "}
                   <br />
                   <strong>Structure - 1: </strong> Sub + shall have been / will
-                  have been + V1+ing + before + present / future indefinite
-                  tense.
+                  have been + V<sub>1</sub>-ing + before + present / future
+                  indefinite tense.
                   <br />
                   <strong>Structure - 2: </strong> Sub + shall have been / will
-                  have been + V1-ing + for + period of time / since + point of
-                  time.
+                  have been + V<sub>3</sub>-ing + for + period of time / since +
+                  point of time.
                   <br />
                   <strong>Structure - 3: </strong> Sub + shall have been / will
-                  have been + V1-ing + until + present / future indefinite
-                  tense.
+                  have been + V<sub>1</sub>-ing + until + present / future
+                  indefinite tense.
                   <br />
                 </p>
                 <p className="">

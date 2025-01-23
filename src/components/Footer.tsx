@@ -19,7 +19,7 @@ const Footer = () => {
           <ul className="flex items-center justify-center gap-2">
             <li className="border p-2 rounded hover:text-rose-500 transition-all">
               <a href="tel:+8801751337773">
-                <MdLocalPhone size={40} /> Call ME
+                <MdLocalPhone size={40} className="LogoIcon" /> Call ME
               </a>
             </li>
             <li className="flex flex-col">

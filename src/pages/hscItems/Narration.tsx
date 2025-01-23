@@ -278,11 +278,16 @@ const Narration = () => {
                       ** দ্বিতীয় বাক্যটি Subject দ্বারা শুরু হয় এবং <br />
                       ** বাক্যের শেষে full stop থাকে।
                     </p>
-                    <p>পরিবর্তনের নিয়ম:</p>
+                    <h3>পরিবর্তনের নিয়ম:</h3>
                     <p>
                       ** সাধারণত প্রথম বাক্যের (Reporting Verb এর) Say বা Said
-                      এর পরিবর্তন হয় না তবে Said to এর পরিবর্তে tell বা told
-                      করা যায়।
+                      এর পরিবর্তন হয় না তবে <br />
+                      (i) say/ says/ said এর পরে যদি to যদি থাকে তাহলে- <br />
+                      <span className="text-rose-400"># </span>Say/ says to =
+                      tell করা যায়।
+                      <br />
+                      <span className="text-rose-400">#</span> Said to এর
+                      পরিবর্তে = told করা যায়।
                       <br />
                       ** আর দ্বিতীয় বাক্যের Subject এবং Verb এর পরিবর্তন আগের
                       নিয়মে হবে। <br />
@@ -301,8 +306,12 @@ const Narration = () => {
                     </p>
                     <h3>পরিবর্তনের নিয়ম:</h3>
                     <p>
-                      (i) প্রথম বাক্যের say, said to, said, said to এর পরিবর্তে
-                      ask/asked হবে।
+                      (i) say/ says/ said to যদি থাকে তাহলে- <br />
+                      <span className="text-rose-400"># </span>Say/ says to =
+                      ask হবে।
+                      <br />
+                      <span className="text-rose-400">#</span> Said to এর
+                      পরিবর্তে = asked হবে।
                     </p>
                     <p>
                       (ii) দ্বিতীয় বাক্যটি Wh দ্বারা শুরু হলে দুই বাকের মাঝখানে
@@ -342,9 +351,13 @@ const Narration = () => {
                     </p>
                     <h3>পরিবর্তনের নিয়ম:</h3>
                     <p>
-                      (i) say, say to, said, said to এর পরিবর্তে ask/ asked/
-                      tell/ told হবে। <br />
-                      ** দ্বিতীয় বাক্যটি to দ্বারা শুরু হবে। <br />
+                      (i) say/ says/ said to যদি থাকে তাহলে- <br />
+                      <span className="text-rose-400"># </span>Say/ says to =
+                      tell/ ask হবে।
+                      <br />
+                      <span className="text-rose-400">#</span> Said to এর
+                      পরিবর্তে = asked/ told হবে। <br /> ** দ্বিতীয় বাক্যটি to
+                      দ্বারা শুরু হবে। <br />
                       Q. He said to me, "Go home directly". <br />= He asked me
                       to Go home directly.
                     </p>
@@ -381,8 +394,13 @@ const Narration = () => {
                     </p>
                     <h3>পরিবর্তনের নিয়ম:</h3>
                     <p>
-                      (i) প্রথম বাক্যের Say/ Said to এর পরিবর্তে Exclaimed with
-                      joy বা Exclaimed with sorrow হবে।
+                      (i) say/ says/ said to যদি থাকে তাহলে- <br />
+                      <span className="text-rose-400"># </span>Say/ says to =
+                      Exclaim/ Exclaim with joy বা Exclaim with sorrow হবে।
+                      <br />
+                      <span className="text-rose-400">#</span> Said to এর
+                      পরিবর্তে = Exclaimed/ Exclaimed with joy বা Exclaimed with
+                      sorrow হবে।
                     </p>
                     <p>(ii) বাক্যের মাঝখানে that হবে।</p>
                     <p>
@@ -415,8 +433,12 @@ const Narration = () => {
                     </p>
                     <h3>পরিবর্তনের নিয়ম:</h3>
                     <p>
-                      (i) প্রথম বাক্যের say to/said to এর পরিবর্তে Pray(ed)/
-                      wish(ed) হবে।
+                      (i) say/ says/ said to যদি থাকে তাহলে- <br />
+                      <span className="text-rose-400"># </span>Say/ says to =
+                      Pray/ wish হবে।
+                      <br />
+                      <span className="text-rose-400">#</span> Said to এর
+                      পরিবর্তে = Prayed/ wished হবে।
                       <p>
                         (ii) দ্বিতীয় বাক্যের May কে might করতে হবে এবং subject
                         এর এর পরে বসাতে হবে
@@ -695,54 +717,56 @@ const Narration = () => {
           </p>
           <h2>Imperative Sentences:</h2>
           <p>
-            The teacher said to me, "Be attentive and listen to my lecture."
+            1. The teacher said to me, "Be attentive and listen to my lecture."
           </p>
-          <p>He said, "Let us go for a walk in the open field."</p>
+          <p>2. He said, "Let us go for a walk in the open field."</p>
           <p>"Leave me alone", said I.</p>
           <p>
-            "Hold you tongue!" he said to the dervishes, glaring fiercely in
+            3. "Hold you tongue!" he said to the dervishes, glaring fiercely in
             their faces.
           </p>
           <p>
-            She told me, "Take your hat off and let’s have a sight at the looks
-            of it."
+            4. She told me, "Take your hat off and let’s have a sight at the
+            looks of it."
           </p>
           <p>
-            "Twenty dollars," said Madame, lifting the mass with a practiced
+            5. "Twenty dollars," said Madame, lifting the mass with a practiced
             hand.
           </p>
-          <p>"Follow my example," she said as we shook hands.</p>
-          <p>She said to me, "Never eat more than one thing for luncheon."</p>
+          <p>6. "Follow my example," she said as we shook hands.</p>
           <p>
-            The teacher said to the boy, "Learn to be honest from your boyhood."
+            7. She said to me, "Never eat more than one thing for luncheon."
           </p>
-          <p>"Let us go for a walk in the open field," said he.</p>
-          <p>"Ten cents and hour?" I said.</p>
+          <p>
+            8. The teacher said to the boy, "Learn to be honest from your
+            boyhood."
+          </p>
+          <p>9. "Let us go for a walk in the open field," said he.</p>
           <h2>Optative Sentences:</h2>
-          <p>Father said to me, "May God bless you."</p>
-          <p>We said, "May our president live long."</p>
-          <p>Mother said to his son, "May you live long."</p>
-          <p>Father said to his son, "May you pass the examination."</p>
-          <p>The teacher said to the student, "May you come round soon."</p>
-          <p>The President said, "May Bangladesh live long."</p>
-          <p>The dervish said to me, "May you shine in life."</p>
-          <p>The women said to his son, "May you be happy."</p>
-          <p>"May Allah help you," she said.</p>
+          <p>1.Father said to me, "May God bless you."</p>
+          <p>2. We said, "May our president live long."</p>
+          <p>3. Mother said to his son, "May you live long."</p>
+          <p>4. Father said to his son, "May you pass the examination."</p>
+          <p>5. The teacher said to the student, "May you come round soon."</p>
+          <p>6. The President said, "May Bangladesh live long."</p>
+          <p>7. The dervish said to me, "May you shine in life."</p>
+          <p>8. The women said to his son, "May you be happy."</p>
+          <p>9. "May Allah help you," she said.</p>
           <h2>Exclamatory Sentences:</h2>
-          <p>You said to me, "How nice your handwriting is!"</p>
-          <p>I said to her, "What a nice girl you are!"</p>
-          <p>"What terrible cousins poor Samira had!" said Mr. Rahim.</p>
-          <p>He said to me, "May you have wealth."</p>
-          <p>We said, "What cheering report it is."</p>
-          <p>He said, "Alas! I am undone."</p>
-          <p>They said, "How sweet the mango is!"</p>
-          <p>I said to him "What a brave man you are!"</p>
-          <p>He said, "What a pity!"</p>
-          <p>I said to my friend, "What a nice fellow your father is!"</p>
-          <p>Navid said to Suman, "What a nice gift I have for you!"</p>
-          <p>The man said to boy, "Bravo! You have done very well!"</p>
-          <p>The traveler said, "How wicked the boys are!"</p>
-          <p>I said, "Had I the wings of a bird."</p>
+          <p>1. You said to me, "How nice your handwriting is!"</p>
+          <p>2. I said to her, "What a nice girl you are!"</p>
+          <p>3. "What terrible cousins poor Samira had!" said Mr. Rahim.</p>
+          <p>4. He said to me, "May you have wealth."</p>
+          <p>5. We said, "What cheering report it is."</p>
+          <p>6. He said, "Alas! I am undone."</p>
+          <p>7. They said, "How sweet the mango is!"</p>
+          <p>8. I said to him "What a brave man you are!"</p>
+          <p>9. He said, "What a pity!"</p>
+          <p>10. I said to my friend, "What a nice fellow your father is!"</p>
+          <p>11. Navid said to Suman, "What a nice gift I have for you!"</p>
+          <p>12. The man said to boy, "Bravo! You have done very well!"</p>
+          <p>13. The traveler said, "How wicked the boys are!"</p>
+          <p>14. I said, "Had I the wings of a bird."</p>
           <h1 className="text-center md:text-start">Textual Exercise</h1>
           <h2 className="text-center md:text-start md:text-xl text-sm font-medium">
             Change the Following Sentences into Indirect Speech:
