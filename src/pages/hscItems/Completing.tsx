@@ -1,4 +1,4 @@
-import { Button } from "flowbite-react";
+// import { Button } from "flowbite-react";
 
 function Completing() {
   return (
@@ -214,11 +214,11 @@ function Completing() {
         <p>Q. He wants to go to home / read more</p>
       </div>
 
-      <div className="flex items-center justify-center py-10">
+      {/* <div className="flex items-center justify-center py-10">
         <a href="/HCompleting" download>
           <Button gradientDuoTone="purpleToPink">Download PDF</Button>
         </a>
-      </div>
+      </div> */}
 
       {/* <!-- Exercise --> */}
       <div className="pb-10">
