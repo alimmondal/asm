@@ -2,10 +2,10 @@ function Modifier() {
   return (
     <div className="h-full w-[95%] md:w-[70%] mx-auto ">
       <div className="py-20">
-        <h1 className="text-center text-rose-400">Modifier</h1>
+        <h1 className="text-center text-green-400 uppercase">Modifier</h1>
       </div>
       <div className="">
-        Modifier কি? <br />
+        <h3 className="">Modifier কি?</h3>
         Modify মানে বিশেষায়িত করা। এটি একটি Verb, যেমন: Play থেকে আসে Player,
         Drive থেকে আসে Driver। ঠিক তেমনি Modify থেকে আসে <br />
         Modifier। সুতরাং, Modifier অর্থ হল কোন Word কে বিশেষায়িত করা বা অতিরিক্ত
@@ -13,9 +13,9 @@ function Modifier() {
         Modifier Grammar এর বিস্তারিত ব্যখ্যায় যাওয়ার আগে ব্রাকেটের অংশটা
         ভালভাবে বুঝে নেওয়া দরকার। ব্রাকেটে কোন Modifier ব্যবহার করতে হবে তা ২
         ভাবে উল্লেখ থাকে। যেমন, একটি noun কে pre modify করতে বলা হচ্ছে, তখন সেটা
-        নিম্নোক্ত ২ পদ্ধতিতে উল্লেখ থাকতে পারে। <br /> <br />
-        Pre modify the noun with an adjective <br />
-        Use an adjective to pre modify the noun
+        নিম্নোক্ত ২ পদ্ধতিতে উল্লেখ থাকতে পারে। <br />
+        1. Pre modify the noun with an adjective <br />
+        2. Use an adjective to pre modify the noun
         <br />
         <br />
         এখানে খেয়াল করো, দুটি ব্রাকেটেই কিন্তু একই কথা বলা আছে, প্রথমটির অর্থ হল
@@ -26,111 +26,119 @@ function Modifier() {
         সে ক্ষেত্র আমরা আমাদের সুবিধা মত অর্থাৎ যে Modifier টা মিলবে সেটিই Use
         করব। সেটা হতে পারে একটি Adjective, Intendifier etc ইত্যাদি। <br />{" "}
         <br />
-        Modifier এর প্রকারভেদ। Modifier কে মূলত দুই ভাগে ভাগ করা যায়। <br />
+        <h3 className="">Modifier এর প্রকারভেদ।</h3>
+        Modifier কে মূলত দুই ভাগে ভাগ করা যায়। <br />
         1. Pre-Modifier <br />
         2. Post Modifier <br /> <br />
-        Pre-Modifier: যে Modifier কোন Word বা Noun এর পূর্বে বসে সেই Word
-        সম্পর্কে অতিরিক্ত তথ্য প্রদান করে তাকে Pre-Modifier বলে। <br />
-        যেমন: He is a _____ (pre modify the noun with an adjective) boy. <br />
+        <strong>Pre-Modifier:</strong> যে Modifier কোন Word বা Noun এর পূর্বে
+        বসে সেই Word সম্পর্কে অতিরিক্ত তথ্য প্রদান করে তাকে Pre-Modifier বলে।{" "}
+        <br />
+        যেমন: <br />
+        He is a _____ (pre modify the noun with an adjective) boy. <br />
         উত্তর: good//bad/excellent/meritorious ইত্যাদি।
         <br />
         <br />
-        NOTE: এখানে, Noun হল "boy" এবং এটাকে একটি Adjective দিয়ে Pre-Modify করতে
-        বলা হয়েছিল। তাহলে, এখন বোঝা গেল যে, Pre- Modify ব্যবহার করতে বলা হলে
-        খালি ঘরটা সব সময় Noun এর আগে বসে। <br /> <br />
-        Post-Modifier: যে Modifier কোন Word বা Noun পরে বসে সেই Word বা Noun কে
-        বিশেষায়িত করে তাকেই বলা হয় Post- Modifier. <br />
-        যেমন: I saw a blind man ____ (use a present participle to post modify
-        the noun). <br />
+        <strong>NOTE: </strong> এখানে, Noun হল "boy" এবং এটাকে একটি Adjective
+        দিয়ে Pre-Modify করতে বলা হয়েছিল। তাহলে, এখন বোঝা গেল যে, Pre- Modify
+        ব্যবহার করতে বলা হলে খালি ঘরটা সব সময় Noun এর আগে বসে। <br /> <br />
+        <strong>Post-Modifier: </strong> যে Modifier কোন Word বা Noun পরে বসে
+        সেই Word বা Noun কে বিশেষায়িত করে তাকেই বলা হয় Post- Modifier. <br />
+        যেমন: <br /> I saw a blind man ____ (use a present participle to post
+        modify the noun). <br />
         উত্তর: walking/running/talking ইত্যাদি। <br />
         সুতরাং, Post-Modify করতে বলা হলে খালি ঘরটা সব সময় Noun এর পরে বসে।{" "}
         <br /> <br />
-        চলো, আমরা Pre-Modifier এর উপাদান (elements) গুলো খুব সহজে সংক্ষেপে বুঝে
-        নেই: <br />
+        <h2>চলো, Pre-Modifier গুলো সংক্ষেপে বুঝে নেই:</h2>
+        1. Determiner (the, one) <br />
+        2. Pre-determiner (all, few) <br />
+        3. Adjective (noun এর দোষ, গুণ, অবস্থা, পরিমাণ ইত্যাদি) <br />
+        4. Intensifier (very, much: তীব্রতা বোঝাতে) <br />
+        5. Possessive pronoun (my, our, their, your, his, her, its) <br />
+        6. Demonstrative (this, that, these, those)
         <br />
-        Determiner (the, one) <br />
-        Pre-determiner (all, few) <br />
-        Adjective (noun এর দোষ, গুণ, অবস্থা, পরিমাণ ইত্যাদি) <br />
-        Intensifier (very, much: তীব্রতা বোঝাতে) <br />
-        Possessive pronoun (my, our, their, your, his, her, its) <br />
-        Demonstrative (this, that, these, those)
+        7. Article (a, an, the)
+        <br /> 8. Quantifier: পরিমাণবাচক (many, more, much)
+        <br /> 9. Infinitive (to+v1) <b />
         <br />
-        Article (a, an, the) Quantifier: পরিমাণবাচক (many, more, much)
-        <br />
-        Infinitive (to+v1) <b />
-        <br />
-        Present participle (v1+ing) <br />
-        Past participle (V3) <br />
-        Nominal (mixing word) <br />
-        Noun Adjective (noun যখন adjective হয়ে যায়)
+        10. Present participle (v1+ing) <br />
+        11. Past participle (V3) <br />
+        12. Nominal (mixing word) <br />
+        13. Noun Adjective (noun যখন adjective হয়ে যায়)
         <br /> <br />
-        উপরিউক্ত Element গুলো সম্পর্কে বিস্তারিত: <br />
-        <br />
-        Determiner:
-        <br />
+        <h3 className="">উপরিউক্ত Element গুলো সম্পর্কে বিস্তারিত:</h3>
+        <strong>Determiner: </strong>
         Determiner মানে হল নির্দেশক। সুতরাং, যখন কোন Noun কে নির্দেশ করতে বলা হয়
         ঠিক তখনই Determiner "the" ব্যবহৃত হয়। <br />
-        <br />
         "The" ছাড়াও আরও কয়েকটি Determiner আছে তবে সবচেয়ে বহুল ব্যবহৃত Determiner
         হল "the".
         <br />
         Example:
         <br />
-        <br />
         Jamuna is _____(pre modify the adjective with determiner) longest river
         in our country. Ans: the
         <br /> <br />
-        Pre-determiner: পূর্ব নির্দেশককে ইংরেজীতে Pre-determiner বলা হয়। এই
-        Modifier টি সাধারণত Determiner এর আগে বসে। <br />
+        <strong>Pre-determiner: </strong> পূর্ব নির্দেশককে ইংরেজীতে
+        Pre-determiner বলা হয়। এই Modifier টি সাধারণত Determiner এর আগে বসে।{" "}
         <br />
         ** বহুল ব্যবহৃত Pre-determiner টি হল "all".
-        <br /> Example: _____(use a pre determiner) the students are present
-        today. Ans: All
+        <br /> Example:
+        <br /> _____(use a pre determiner) the students are present today.
+        <br /> Ans: All
         <br />
         <br />
-        Adjective:
-        <br />
+        <strong>Adjective: </strong>
         আমরা সবাই জানি যে Adjective দ্বারা Noun এর দোষ, গুণ, অবস্থা ও পরিমাপ
         বোঝায়। সুতরাং, যখন Pre-Modifier হিসাবে Adjective ব্যবহার করতে বলা হবে
         তখন Passage এর সাথে প্রসঙ্গ ঠিক রেখে Noun এর দোষ বা গুণ বাচক একটি
         Adjective দিতে হবে। Modifier এর প্রশ্নটি পড়ার সময় খালিঘরে কেমন' প্রশ্ন
         করে উত্তর মিলানোর চেষ্টা করতে হবে। <br />
-        Example: I saw a ____(use an adjective to pre modify the noun) car.{" "}
+        Example:
+        <br /> I saw a ____(use an adjective to pre modify the noun) car.
         <br />
+        Ans: red/black/new/old/Bangladeshi/broken
         <br />
-        Ans: red/black/new/old/Bangladeshi/broken <br />
+        (এখানে সব উত্তর গুলোই সঠিক, কারণ সবগুলোই গাড়িটির দোষ, গুণ, অবস্থা
+        নির্দেশ করে। তবে passage এ গাড়িটি সম্পর্কে যে কথা বলা থাকবে আমাদেরও সে
+        অনুযায়ী adjecive নির্বাচন করতে হবে। মনে করো passage টি পুরানো গাড়ি নিয়ে
+        লেখা, তাহলে আমাদের "old" adjective ব্যবহার করতে হবে।)
+        <br /> <br />
+        <strong>Intensifier: </strong> কোন কিছু জোর দিয়ে বলার জন্য Intensifier
+        ব্যবহার করা হয়। সবচেয়ে বেশী ব্যবহার হওয়া Intensifier হলো "very"। এখানে
+        কোন Grammar এর নিয়ম মেনে চলা লাগে না। শুধু "very" এবং "much" ব্যবহার করে
+        Modifier সম্পন্ন করা যায়।
+        <br /> Example:
+        <br /> Shakib is a (pre modify the adjective with an intensifier) good
+        player.
+        <br /> Ans: very
+        <br /> <br />
+        <strong>Possessive Pronoun: </strong>আমার, তোমার, তার, তাদের, আমাদের,
+        এটার এগুলোর ইংরেজী my, your, his, her, their, our, it's; এগুলোকেই
+        Possessive Pronoun বলা হয়। এখানেও কোন Grammar লাগে না। ব্রাকেটে
+        Possessive দেখলেই Subject অনুযায়ী উপরোক্ত একটি Pronoun ব্যবহার করলেই হয়ে
+        যাবে। Example: They completed (use possessive) task. Ans: their
+        <br /> <br />
+        <strong>Demonstrative Pronoun: </strong>এই Modifier টিতেও কোন Grammar
+        লাগে না। তোমাকে শুধু this, that, these, those এই চারটি Word রাখতে হবে।
+        যখন ব্রাকেটের ভিতর Demonstrative লেখা থাকবে, তখন Subject এর Singular,
+        Plural দেখে this, that বসাতে হবে। এই, এটা বোঝালে this, ঐ, ঐটা বোঝালে
+        that, এইগুলো বোঝালে these, ঐগুলো বোঝালে those। সুতরাং, this, that হলো
+        singular এবং these, those হলো
+        <br /> Singular Example:
+        <br /> (use demonstrative to pre modify the noun) _____mobile works
+        well.
+        <br /> Ans: this/that (এখানে mobile একটি বুঝিয়েছে তাই এটা Singular)
+        <br /> Plural example:
+        <br /> ____mobiles work well.
         <br />
-        (সব গুলোই সঠিক, কারণ সবগুলোই গাড়িটির দোষ, গুণ, অবস্থা নির্দেশ করে। তবে
-        passage এ গাড়িটি সম্পর্কে যে কথা বলা থাকবে আমাদেরও সে অনুযায়ী adjecive
-        নির্বাচন করতে হবে। মনে করো passage টি পুরানো গাড়ি নিয়ে লেখা, তাহলে
-        আমাদের "old" adjective ব্যবহার করতে হবে।)
+        Ans: those (কারণ, এখানে অনেকগুলো mobile এর কথা বোঝানো হয়েছে)।
         <br /> <br />
-        Intensifier: কোন কিছু জোর দিয়ে বলার জন্য Intensifier ব্যবহার করা হয়।
-        সবচেয়ে বেশী ব্যবহার হওয়া Intensifier হলো "very"। এখানে কোন Grammar এর
-        নিয়ম মেনে চলা লাগে না। শুধু "very" এবং "much" ব্যবহার করে Modifier
-        সম্পন্ন করা যায়। Example: Shakib is a (pre modify the adjective with an
-        intensifier) good player. Ans: very
-        <br /> <br />
-        Possessive Pronoun: আমার, তোমার, তার, তাদের, আমাদের, এটার এগুলোর ইংরেজী
-        my, your, his, her, their, our, it's; এগুলোকেই Possessive Pronoun বলা
-        হয়। এখানেও কোন Grammar লাগে না। ব্রাকেটে Possessive দেখলেই Subject
-        অনুযায়ী উপরোক্ত একটি Pronoun ব্যবহার করলেই হয়ে যাবে। Example: They
-        completed (use possessive) task. Ans: their
-        <br /> <br />
-        Demonstrative Pronoun: এই Modifier টিতেও কোন Grammar লাগে না। তোমাকে
-        শুধু this, that, these, those এই চারটি Word রাখতে হবে। যখন ব্রাকেটের
-        ভিতর Demonstrative লেখা থাকবে, তখন Subject এর Singular, Plural দেখে
-        this, that বসাতে হবে। এই, এটা বোঝালে this, ঐ, ঐটা বোঝালে that, এইগুলো
-        বোঝালে these, ঐগুলো বোঝালে those। সুতরাং, this, that হলো singular এবং
-        these, those হলো plural Example: (use demonstrative to pre modify the
-        noun) mobile works well. Ans: this/that (এখানে mobile একটি বুঝিয়েছে তাই
-        এটা Singular) Plural example: mobiles work well. Ans: those (কারণ, এখানে
-        অনেকগুলো mobile এর কথা বোঝানো হয়েছে)।
-        <br /> <br />
-        Article: Article ব্যবহারের জন্যেও কোন Grammar লাগে । অর্থ এবং Singular
-        Plural ঠিক রেখে a, an, the article ব্যবহার করলেই যথেষ্ঠ। Example: They
-        bought (pre-modify the noun with article) football from the market. Ans:
-        a
+        <strong> Article: </strong>Article ব্যবহারের জন্যেও কোন Grammar লাগে ।
+        অর্থ এবং Singular Plural ঠিক রেখে a, an, the article ব্যবহার করলেই
+        যথেষ্ঠ। <br />
+        Example: <br />
+        They bought (pre-modify the noun with article) football from the market.{" "}
+        <br />
+        Ans: a
         <br /> <br />
         Quantifier: Quantifier word টি এসেছে Quantity থেকে, যেটা দ্বারা
         পরিমাণবাচক অর্থ বোঝায়। যেমনঃ many, more। এখানেও তেমন Grammar লাগে না।
@@ -172,12 +180,20 @@ function Modifier() {
         এটি Adjective এ পরিণত হয়ে গেছে।
         <br />
         <br />
-        চলো, আমরা Post-Modifier এর উপাদান (elements) গুলো খুব সহজে সংক্ষেপে বুঝে
-        নেই: Appositive (Subject সম্পর্কে ছোট বর্ণনা) Present participle Past
-        participle Infinitive phrase Prepositional phrase Adverb
-        <br /> <br />
-        উপরিউক্ত Element গুলো সম্পর্কে বিস্তারিত:
+        <h2 className="">চলো, Post-Modifier গুলো বুঝে নেই:</h2>
+        <p className="ml-10">
+          1. Appositive
+          <br /> 2. (Subject সম্পর্কে ছোট বর্ণনা)
+          <br /> 3. Present
+          <br />
+          4. participle
+          <br /> 5. Past participle
+          <br /> 6. Infinitive phrase
+          <br /> 7. Prepositional phrase
+          <br /> 8. Adverb
+        </p>
         <br />
+        <h3 className="">উপরিউক্ত Element গুলো সম্পর্কে বিস্তারিত: </h3>
         Apositive: কোন Subject (ব্যক্তি, বস্তু, জায়গা, বিষয়) সম্পর্কে ছোট
         ব্যখ্যা বা বর্ণনাকেই বলা হয় Appositive। Appositive এ পুরো বাক্য লেখা
         লাগে না। Subject সম্পর্কে দুই একটা কথা কয়েকটি Phrase এর মাধ্যমে উল্লেখ
