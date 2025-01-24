@@ -188,18 +188,18 @@ const Paragraph = () => {
                 confidence/ Gratitude/ gratefulness sacrifice/ love for people/{" "}
                 <br />
               </h3>
-              <p className="text-start">
-                there is a prover that [TOPIC] cost nothing but brings many
-                things. This separates a good man from a bad man. A man who
-                posses this is loved by all. For example, a business man is
-                loved by his customers for this quality. A service holder is
-                loved by his colleagues and bosses. So, success in every sphere
-                of life largely depends on [TOPIC] . It's preferable to wealth
-                because one may have vast property but he is hated only for the
-                absence of it. So, to maintain peace in society, we also must
-                have it to be an ideal social being. Hence, all of us should try
-                our best to possess this valuable quality in our lives for our
-                own interest.
+              <p className="text-start pt-3">
+                <strong>Answer: </strong>there is a prover that [TOPIC] cost
+                nothing but brings many things. This separates a good man from a
+                bad man. A man who posses this is loved by all. For example, a
+                business man is loved by his customers for this quality. A
+                service holder is loved by his colleagues and bosses. So,
+                success in every sphere of life largely depends on [TOPIC] .
+                It's preferable to wealth because one may have vast property but
+                he is hated only for the absence of it. So, to maintain peace in
+                society, we also must have it to be an ideal social being.
+                Hence, all of us should try our best to possess this valuable
+                quality in our lives for our own interest.
               </p>
             </div>
           </AccordionContent>
@@ -220,20 +220,20 @@ const Paragraph = () => {
                 Corruption/ Bribe/ crime/ selfishness <br />
                 Flattery/Cheating/ Hypocrisy/ forgery/ <br />
               </h3>
-              <p className="text-start">
-                The word "[TOPIC]" connotes a disturbed state of thing as
-                opposite to peaceful condition. It may be called a mental
-                disease. In our society such person are seen everywhere. When a
-                person fails to achieve his goal, he may be involved in [TOPIC].
-                [TOPIC], if involved in economic affairs, becomes mostly great
-                and widespread. It is also poverty which is creating [TOPIC]
-                among us. But the effect of it is really horrible and shocking.
-                In some cases, people are found to be murdered and commit
-                suicide. So, to maintain peace and prosperity, we need to be
-                free from [TOPIC]. We should carefully find out the cause of it.
-                And necessary steps should be taken not only by the government,
-                but also by the general people and all kind of organizations for
-                our own sake.
+              <p className="text-start pt-2">
+                <strong>Answer: </strong>The word "[TOPIC]" connotes a disturbed
+                state of thing as opposite to peaceful condition. It may be
+                called a mental disease. In our society such person are seen
+                everywhere. When a person fails to achieve his goal, he may be
+                involved in [TOPIC]. [TOPIC], if involved in economic affairs,
+                becomes mostly great and widespread. It is also poverty which is
+                creating [TOPIC] among us. But the effect of it is really
+                horrible and shocking. In some cases, people are found to be
+                murdered and commit suicide. So, to maintain peace and
+                prosperity, we need to be free from [TOPIC]. We should carefully
+                find out the cause of it. And necessary steps should be taken
+                not only by the government, but also by the general people and
+                all kind of organizations for our own sake.
               </p>
             </div>
           </AccordionContent>
@@ -352,8 +352,8 @@ const Paragraph = () => {
           <AccordionTitle>Hobby/ Liesure</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div className="py-5">
-              <h2 className="text-center">
-                All kinds of hobbies সমস্ত প্রকারের সাখ
+              <h2 className="text-center text-xl md:text-4xl">
+                All kinds of hobbies সমস্ত প্রকারের সখ
               </h2>
               <h3 className="text-center ">
                 1. Your Leisure 2. Your Hobby 3. Gardening as Your Hobby 4.
@@ -372,7 +372,7 @@ const Paragraph = () => {
               <br />
               <br />{" "}
               <div className="">
-                <p className="">
+                <p className="text-start">
                   <strong>Answer: </strong>[Name] is a kind of hobby. Hobby
                   means the activity in leisure like [Name], Leisure means one’s
                   free time. Everybody tends to have a hobby. It is a work of

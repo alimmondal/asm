@@ -14,7 +14,7 @@ const Pronoun = () => {
         <p className="">
           Noun এর পরিবর্তে যে সকল শব্দ ব্যবহার হয় তাকে pronoun বলে।
           <br />
-          Pronoun আটকে প্রকার হতে পারে:-
+          Pronoun আট প্রকার:-
         </p>
         <ul className="list-decimal list-inside pl-10">
           <li>Personal: he, she, i, we, they, you.</li>
@@ -32,65 +32,65 @@ const Pronoun = () => {
         <p className="py-3">
           Personal Pronoun বুঝতে হলে নিচের টেবিলটি মনে রাখতে হবেঃ{" "}
         </p>
-        <table className="md:w-full table-auto border-collapse border border-gray-500 min-w-[500px] overflow-x-auto">
+        <table className="md:w-full table-auto border-collapse border border-gray-500 min-w-[300px] overflow-x-auto">
           <thead>
             <tr>
-              <th className="border border-gray-500 px-4 py-2">Subjective</th>
-              <th className="border border-gray-500 px-4 py-2">Objective</th>
-              <th className="border border-gray-500 px-4 py-2">Possessive</th>
-              <th className="border border-gray-500 px-4 py-2">
-                Possessive Adj
+              <th className="border border-gray-500 px-2 py-2">Subjective</th>
+              <th className="border border-gray-500 px-2 py-2">Objective</th>
+              <th className="border border-gray-500 px-2 py-2">Possessive</th>
+              <th className="border border-gray-500 px-2 py-2">
+                Possessive Adj/Reflexive
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td className="border border-gray-500 px-4 py-2">I</td>
-              <td className="border border-gray-500 px-4 py-2">me</td>
-              <td className="border border-gray-500 px-4 py-2">my</td>
-              <td className="border border-gray-500 px-4 py-2">myself</td>
+              <td className="border border-gray-500 px-2 py-2">I</td>
+              <td className="border border-gray-500 px-2 py-2">me</td>
+              <td className="border border-gray-500 px-2 py-2">my</td>
+              <td className="border border-gray-500 px-2 py-2">myself</td>
             </tr>
             <tr>
-              <td className="border border-gray-500 px-4 py-2">We</td>
-              <td className="border border-gray-500 px-4 py-2">us</td>
-              <td className="border border-gray-500 px-4 py-2">our</td>
-              <td className="border border-gray-500 px-4 py-2">ourselves</td>
+              <td className="border border-gray-500 px-2 py-2">We</td>
+              <td className="border border-gray-500 px-2 py-2">us</td>
+              <td className="border border-gray-500 px-2 py-2">our</td>
+              <td className="border border-gray-500 px-2 py-2">ourselves</td>
             </tr>
             <tr>
-              <td className="border border-gray-500 px-4 py-2">You</td>
-              <td className="border border-gray-500 px-4 py-2">you</td>
-              <td className="border border-gray-500 px-4 py-2">your</td>
-              <td className="border border-gray-500 px-4 py-2">yourselves</td>
+              <td className="border border-gray-500 px-2 py-2">You</td>
+              <td className="border border-gray-500 px-2 py-2">you</td>
+              <td className="border border-gray-500 px-2 py-2">your</td>
+              <td className="border border-gray-500 px-2 py-2">yourselves</td>
             </tr>
             <tr>
-              <td className="border border-gray-500 px-4 py-2">They</td>
-              <td className="border border-gray-500 px-4 py-2">them</td>
-              <td className="border border-gray-500 px-4 py-2">their</td>
-              <td className="border border-gray-500 px-4 py-2">themselves</td>
+              <td className="border border-gray-500 px-2 py-2">They</td>
+              <td className="border border-gray-500 px-2 py-2">them</td>
+              <td className="border border-gray-500 px-2 py-2">their</td>
+              <td className="border border-gray-500 px-2 py-2">themselves</td>
             </tr>
             <tr>
-              <td className="border border-gray-500 px-4 py-2">She</td>
-              <td className="border border-gray-500 px-4 py-2">her</td>
-              <td className="border border-gray-500 px-4 py-2">her</td>
-              <td className="border border-gray-500 px-4 py-2">herself</td>
+              <td className="border border-gray-500 px-2 py-2">She</td>
+              <td className="border border-gray-500 px-2 py-2">her</td>
+              <td className="border border-gray-500 px-2 py-2">her</td>
+              <td className="border border-gray-500 px-2 py-2">herself</td>
             </tr>
             <tr>
-              <td className="border border-gray-500 px-4 py-2">He</td>
-              <td className="border border-gray-500 px-4 py-2">him</td>
-              <td className="border border-gray-500 px-4 py-2">his</td>
-              <td className="border border-gray-500 px-4 py-2">himself</td>
+              <td className="border border-gray-500 px-2 py-2">He</td>
+              <td className="border border-gray-500 px-2 py-2">him</td>
+              <td className="border border-gray-500 px-2 py-2">his</td>
+              <td className="border border-gray-500 px-2 py-2">himself</td>
             </tr>
             <tr>
-              <td className="border border-gray-500 px-4 py-2">It</td>
-              <td className="border border-gray-500 px-4 py-2">it</td>
-              <td className="border border-gray-500 px-4 py-2">its</td>
-              <td className="border border-gray-500 px-4 py-2">itself</td>
+              <td className="border border-gray-500 px-2 py-2">It</td>
+              <td className="border border-gray-500 px-2 py-2">it</td>
+              <td className="border border-gray-500 px-2 py-2">its</td>
+              <td className="border border-gray-500 px-2 py-2">itself</td>
             </tr>
             <tr>
-              <td className="border border-gray-500 px-4 py-2">One</td>
-              <td className="border border-gray-500 px-4 py-2">one</td>
-              <td className="border border-gray-500 px-4 py-2">one's</td>
-              <td className="border border-gray-500 px-4 py-2">oneself</td>
+              <td className="border border-gray-500 px-2 py-2">One</td>
+              <td className="border border-gray-500 px-2 py-2">one</td>
+              <td className="border border-gray-500 px-2 py-2">one's</td>
+              <td className="border border-gray-500 px-2 py-2">oneself</td>
             </tr>
           </tbody>
         </table>
