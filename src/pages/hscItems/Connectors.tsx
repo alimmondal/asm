@@ -1,25 +1,26 @@
 function Connectors() {
   return (
-    <div className="h-full w-[95%] md:w-[70%] mx-auto ">
+    <div className="h-full w-[95%] md:w-[65%] mx-auto ">
       <div className="text-center py-20">
         <h1 className="text-green-400">Connectors</h1>
-        <p className="">
-          Sentence connectors or Linking words for SSC and HSSC
-        </p>
+        <p className="">For SSC and HSSC</p>
       </div>
       <div className="py-10">
         <div className="">
           <h3 className="">Sentence Connector কি? </h3>
           পূর্বের Sentence এর সাথে পরের Sentence এর সম্পর্ক স্থাপনকারী শব্দকেই
           Connector বলে। <br />
-          Example:
-          <br />
+          Example: <br />
           Adeel did not read his lesson carefully when he was in class ten. As a
           result/Apart from this/Therefore, he failed in SSC.
         </div>
-        <br />
-        <div className="">
-          <h3 className="">Connector এবং Linker কি একই জিনিস?</h3>
+
+        <div className="pt-2">
+          <h3 className="">
+            <span className="text-rose-500 font-bold">Connector</span> এবং{" "}
+            <span className="text-rose-500 font-bold">Linker</span> কি একই
+            জিনিস?
+          </h3>
           ▪ একটা উদাহরণ এর মাধ্যমে ব্যাপারটা Clear করা যাক :
           <br />
           ▫ He is Educated but Impolite. <br />

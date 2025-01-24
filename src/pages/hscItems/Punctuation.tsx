@@ -1,19 +1,27 @@
 function Punctuation() {
   return (
-    <div className="h-full md:w-[85%] mx-auto px-3">
-      <h1 className="py-20 text-2xl md:text-6xl text-center">
+    <div className="h-full md:w-[65%] mx-auto px-3">
+      <h1 className="py-20 text-2xl md:text-4xl text-center text-green-400">
         Punctuation
         <br />
-        <span className="text-center"> &</span>
+        <span className="text-center text-rose-500"> &</span>
         <br />
         Capitalization
       </h1>
       {/* punctuate */}
       <div className="dark:text-gray-300">
-        <h3> Punctuation:</h3>
+        <h3> Punctuation কাকে বলেঃ </h3>
+        <p className="">
+          Punctuation English Language এর অন্যতম component. Punctuation শব্দটি
+          Latin শব্দ Punctum থেকে উৎপন্ন হয়েছে | Punctum শব্দের অর্থ Point বা
+          বিন্দু । Punctuation হল বক্তব্যের tone বা variations বা বিভিন্নতা
+          প্রকাশক বিরতি চিহ্ন | এর উদ্দেশ্য হল বক্তব্যকে সুস্পষ্ট করা ।
+        </p>
+
         {/* 1. Assertive, imperative and optative sentence */}
-        <div className="mb-6">
-          <p className="text-base">
+        <h2 className="pt-5">Rules of Punctuation</h2>
+        <div className="mb-3">
+          <p className="text-lg">
             <span className="animateText font-bold">Rule: 1.</span> Assertive,
             imperative এবং optative sentence এর শেষে Full Stop (.) বসে।
             <br />
@@ -22,66 +30,70 @@ function Punctuation() {
         </div>
 
         {/* 2. Interrogative sentence */}
-        <div className="mt-6">
+        <div className="mt-3">
           <h2 className="text-lg font-semibold">
             2. Interrogative বাক্যের শেষে প্রশ্নবোধক (?) চিহ্ন বসে।
           </h2>
           <p className="text-base">Examples:</p>
-          <ul className="list-disc ml-6">
+          <ul className="list-disc ml-3">
             <li>Do you want to pass?</li>
             <li>What is he?</li>
           </ul>
         </div>
 
         {/* 3. Exclamatory sentence */}
-        <div className="mt-6">
+        <div className="mt-3">
           <h2 className="text-lg font-semibold">
             3. Exclamatory বাক্যের শেষে এবং Interjection এর পরে Note of
             exclamation (!) বসে।
           </h2>
           <p className="text-base">Examples:</p>
-          <ul className="list-disc ml-6">
+          <ul className="list-disc ml-3">
             <li>Alas! I am undone.</li>
             <li>How fine it is!</li>
           </ul>
-          <p className="text-base">
-            Interjection এর Examples: Alas, Hurrah, Oh, Hush, Hi, etc.
+          <p className="text-base py-3">
+            Interjection এর Examples: <br /> Alas, Hurrah, Oh, Hush, Hi, etc.
           </p>
         </div>
 
         {/* 4. Say/Said, tell/told, replied, etc */}
-        <div className="mb-6">
+        <div className="mb-3">
           <p className="text-base">
             4. Say/said, tell/told, reply(ied), ask(ed), pray(ed)/ wish(ed),
             exclaim(ed) with joy, order(ed), request(ed) এর পরে that/ If/
             whether না থাকলে এগুলোর পরে Comma (,) বসে।
             <br />
-            কিন্তু এগুলোর পরে object থাকলে obj এর পরে কোমা (,) বসে। আবার এগুলোর
-            পরে কমা বসলে পরের বাক্যের উপরে ইনভারটেড ("-") কমা বসে। ইনভারটেড
-            ("-") কমা শেষে হলে বাক্যানুসারে (.)/ (?)/ (!) এর যেকোন একটি বসে।
+            <span className="text-rose-500 font-bold">কিন্তু, </span> <br />
+            এগুলোর পরে object থাকলে obj এর পরে কোমা (,) বসে। আর এগুলোর পরে কমা
+            বসলে কমার পরের বাক্যের উপরে ইনভারটেড ("-") কমা বসে। ইনভারটেড ("-")
+            কমা শেষে হলে বাক্যানুসারে (.)/ (?)/ (!) এর যেকোন একটি বসে।
             <br />
-            যেমনঃ The man said to me, "Are you hungry"? ।<br />
-            কিন্তু এগুলোর পরে that/ If/ whether/to থাকলে এর পরের বাক্যের শেষে
-            ফুলস্টপ বসে
+            যেমনঃ <br />
+            The man said to me, "Are you hungry?" <br />
+            <span className="text-rose-500 font-bold">কিন্তু, </span> <br />
+            এগুলোর পরে that/ If/ whether/to থাকলে এর পরের বাক্যের শেষে ফুলস্টপ
+            বসে ।
             <br />
-            Examples:The man asked me if I was hungry.
+            Examples: <br />
+            The man asked me if I was hungry.
           </p>
         </div>
-
         {/* 5. As, since, though, etc */}
-        <div className="mb-6">
+        <div className="mb-3">
           <p className="text-base">
             5. As, since, though, although, if, when এর পরে যদি বাক্য থাকে তবে
             Comma (,) বসে। Example:
           </p>
           <p className="text-base">Though he was ill, he attended the class.</p>
         </div>
-
         {/* 6. So, yes, sir, sorry, hello */}
-        <div className="mb-6">
+        <div className="mb-3">
           <p className="text-base">
-            6. So, yes, sir, sorry, Hi, hello এগুলির পরে সাধারণত কমা (,) বসে।
-            Example: Yes, I've understood.
+            6. So, yes, sir, sorry, Hi, hello এগুলির পরে সাধারণত কমা (,) বসে।{" "}
+            <br />
+            Example: <br />
+            Yes, I've understood.
             <br />
             কিন্তু সম্বোধনসুচক শব্দ যদি বাক্যের শুরুতে থাকে তবে এর পরে কোমা বসে,
             যদি বাক্যের শেষে থাকে তবে এর আগে কোমা বসে, যদি বাক্যের মাঝখানে থাকে
@@ -93,7 +105,6 @@ function Punctuation() {
             </ul>
           </p>
         </div>
-
         {/* 7. Contractions */}
         <div className="mb-6">
           <h2 className="text-lg font-semibold">
@@ -104,7 +115,6 @@ function Punctuation() {
             have) gone there.
           </p>
         </div>
-
         {/* 8. Possessive case */}
         <div className="mb-6">
           <h2 className="text-lg font-semibold">8. Possessive case</h2>

@@ -9,8 +9,8 @@ const Home = () => {
     <div>
       <Banner />
       {/* <Video /> */}
-      <GrammarItem />
-      <div className="max-w-7xl w-full mx-auto">
+      <div className="max-w-[65%]  mx-auto">
+        <GrammarItem />
         <Accordian />
       </div>
     </div>

@@ -7,7 +7,7 @@ import {
 
 const Paragraph = () => {
   return (
-    <div className="w-[95%] md:w-[70%] mx-auto   ">
+    <div className="w-[95%] md:w-[65%] mx-auto   ">
       <div className="text-center py-20">
         <h1 className="text-green-400">Paragraph</h1>
       </div>
