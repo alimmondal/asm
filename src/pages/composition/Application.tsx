@@ -68,6 +68,37 @@ function Application() {
           </p>
         </div>
 
+        <div className="py-5">
+          <h3 className="">
+            <h3>JoApplication 3:</h3>
+          </h3>
+          <p className="">
+            Application On: Application for constructing/repairing a bridge,
+            road, for sinking a tube-well, for supplying relief goods/relief,
+            camp, for setting up/for opening charitable dispensary/ clinic.
+            Supplying food/ Medicine/ repairing drainage systems.
+          </p>
+          <p className="">
+            April 2, 2009. <br />
+            The Dc/ Upazilla Chairman/K Union Chairman. <br />
+            Joypurhat District, Joypurhat. <br />
+            Sub: Prayer for Centre <br />
+            Sir, <br />
+            We, the inhabitants <br />
+            of "B" locality, beg respectfully to approach that we are the
+            poverty stricken people. Besides, a devastating flood has recently
+            visited this area. As a result, we are struggling for food, shelter
+            and other basic things. But people are suffering most for want of
+            ..... in our locality be <br />
+            We, There fore, pray and hope that you would be kind enough to pass
+            necessary order for ....... . For your kindness, we shall remain
+            grateful to you forever. <br />
+            Yours obediently <br />
+            Md. ...... <br />
+            behalf of the.........
+          </p>
+        </div>
+
         <div className="text-center mt-10">
           <h3>Job Application:</h3>
           <img src="img/job.jpg" alt="" />
