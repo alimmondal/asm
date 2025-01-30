@@ -80,6 +80,11 @@ function Ssc() {
               Application
             </li>
           </Link>
+          <Link to={"/dialog"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
+              Dialog
+            </li>
+          </Link>
         </ul>
 
         {/* <div className="">

@@ -7,7 +7,7 @@ import {
 
 const Accordions = () => {
   return (
-    <div className="py-14 mx-5 md:mx-12">
+    <div className="py-14 mx-2 md:mx-12">
       <h1 className="text-center w-full text-4xl font-bold uppercase mb-10 text-green-400">
         Tense
       </h1>
@@ -133,7 +133,6 @@ const Accordions = () => {
                 <strong>(২)</strong> Verb এর শেষে যদি = s, sh, ch, x, o, y, z
                 থাকে তবে Verb এর শেষে = es যুক্ত হয়, যেমনঃ He goes (go = goes) ।
                 অন্যান্য সকল verb এর শেষে = s যুক্ত হয়,
-                <br />
                 <br />
                 <strong>কিন্তু O এবং Y ব্যতিক্রম: </strong> <br />
                 O এবং Y এর আগের অক্ষরটি যদি Consonant হয় তবে es যুক্ত হয়।

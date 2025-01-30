@@ -50,6 +50,7 @@ import Rearrange from "../pages/DegreeItems/Rearrange";
 import SearchResults from "../pages/SearchResults";
 import BoardQuestion from "../pages/hscItems/BoardQuestion";
 import DPartsOfSpeech from "../pages/DegreeItems/DPartsOfSpeech";
+import Sentence from "../pages/allItems/Sentence";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -194,6 +195,10 @@ export const router = createBrowserRouter([
         element: <Suggestion />,
       },
       // all items
+      {
+        path: "/sentence",
+        element: <Sentence />,
+      },
       {
         path: "/tense",
         element: <Tense />,

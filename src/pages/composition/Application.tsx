@@ -25,12 +25,12 @@ function Application() {
             Sub: prayer for ..... <br />
             Sir, <br />
             I/we beg most respectfully to state that we are greatly suffering
-            for want of .... in our college. ....is essential. Without it we may
-            fail to cope with the modern time. The importance of ... cannot be
-            over stated.
+            for want of [TOPIC] in our college. [TOPIC] is essential. Without it
+            we may fail to cope with the modern time. The importance of [TOPIC]
+            cannot be over stated.
             <br />
-            We, therefore, pray and hope that you would be kind enough to pass
-            necessary orders for .... and oblige thereby
+            We, therefore, pray and hope that you would be kind enough to grant
+            me/ us [TOPIC] and oblige thereby
             <br />
             Yours obediently
             <br />
@@ -56,10 +56,10 @@ function Application() {
             Sub: prayer for ..... <br />
             Sir, <br />
             I beg most respectfully to state that I am a student of your
-            school/college. My father is too poor to bear my educational expense
-            here. So, I'm badly in need of.... .<br />
-            I, therefore, pray and hope that you would be kind enough to pass
-            necessary orders for .... and oblige thereby
+            college. My father is too poor to bear my educational expense here.
+            So, I'm badly in need of.... .<br />
+            I, therefore, pray and hope that you would be kind enough to grant
+            me/ us [প্রশ্নে উল্লেখিত বিষয়টি] and oblige thereby
             <br />
             Yours obediently
             <br />
@@ -72,30 +72,30 @@ function Application() {
           <h3 className="">
             <h3>JoApplication 3:</h3>
           </h3>
-          <p className="">
-            Application On: Application for constructing/repairing a bridge,
-            road, for sinking a tube-well, for supplying relief goods/relief,
-            camp, for setting up/for opening charitable dispensary/ clinic.
-            Supplying food/ Medicine/ repairing drainage systems.
+          <p className="pb-3">
+            Write application for constructing/repairing a bridge, for
+            constructing/repairing a road, for sinking a tube-well, for
+            supplying relief goods/relief, for supplying relief camp, for
+            setting up/for opening charitable dispensary/ clinic, Supplying
+            food/ Medicine/ repairing drainage systems.
           </p>
           <p className="">
+            <strong>Answer:</strong> <br />
             April 2, 2009. <br />
             The Dc/ Upazilla Chairman/K Union Chairman. <br />
             Joypurhat District, Joypurhat. <br />
             Sub: Prayer for Centre <br />
             Sir, <br />
-            We, the inhabitants <br />
-            of "B" locality, beg respectfully to approach that we are the
-            poverty stricken people. Besides, a devastating flood has recently
-            visited this area. As a result, we are struggling for food, shelter
-            and other basic things. But people are suffering most for want of
-            ..... in our locality be <br />
-            We, There fore, pray and hope that you would be kind enough to pass
-            necessary order for ....... . For your kindness, we shall remain
-            grateful to you forever. <br />
+            We, the inhabitants of "B" locality, beg respectfully to state that
+            we are the poverty stricken people. A devastating flood has recently
+            visited this area. So, we are struggling for food, shelter and other
+            basic things. But people are suffering most for want of [প্রশ্নে
+            উল্লেখিত বিষয়টি] in our locality <br />
+            We, therefore, pray and hope that you would be kind enough to grant
+            me/ us [প্রশ্নে উল্লেখিত বিষয়টি] and oblige thereby <br />
             Yours obediently <br />
             Md. ...... <br />
-            behalf of the.........
+            On behalf of the.........
           </p>
         </div>
 
@@ -121,10 +121,11 @@ function Application() {
           institution. I beg most respectfully to state that my father is a
           Government service holder. He has been transferred to Dhaka. I have no
           kith and kin here. It is not possible for me to continue study here.
-          that’s why I have to leave the town with my family. <br /> <br />
-          So, I need a (প্রশ্নে উল্লেখিত বিষয়টি) from you. I therefore, pray and
-          hope that you would be kind enough to grant me and oblige thereby.{" "}
-          <br /> <br />
+          that’s why I have to leave the town with my family. So, I need a
+          (প্রশ্নে উল্লেখিত বিষয়টি) from you.
+          <br />
+          I, therefore, pray and hope that you would be kind enough to grant me
+          and oblige thereby. <br /> <br />
           Your most obedient pupil <br />
           (তোমার নাম) <br />
           Class: ___ Roll: ___
@@ -144,10 +145,10 @@ function Application() {
           He is only earning member of our family. My three sisters and brothers
           also read in your institution. It is more difficult for him to bear
           our educational expenses. My result in the last Annual examination is
-          satisfactory. <br /> <br />
-          So, I need a (প্রশ্নে উল্লেখিত বিষয়টি) from you. I therefore, pray and
-          hope that you would be kind enough to grant me and oblige thereby.{" "}
+          satisfactory. So, I need a (প্রশ্নে উল্লেখিত বিষয়টি) from you.
           <br />
+          I, therefore, pray and hope that you would be kind enough to grant me
+          and oblige thereby. <br />
           Your most obedient pupil <br />
           (তোমার নাম) <br />
           Class: ___ Roll: ___ <br />

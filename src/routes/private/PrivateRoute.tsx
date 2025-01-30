@@ -3,7 +3,6 @@ import LoadingSpinner from "../../components/LoadingSpinner";
 import { ReactNode } from "react";
 import useAuth from "../../hooks/useAuth";
 
-// eslint-disable-next-line react/prop-types
 const PrivateRoute = ({ children }: { children: ReactNode }) => {
   const auth = useAuth();
   const location = useLocation();
