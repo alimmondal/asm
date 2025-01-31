@@ -504,7 +504,7 @@ const Transformation = () => {
             যেমনঃ <br />
             Q. Work hard and you will succeed. <br />
             =By working hard, you will succeed. <br />
-            অনুরুপভাবে <br />
+            <strong>অনুরুপভাবে:</strong> <br />
             উল্টোটা করলে - by এবং ing ঊঠিয়ে কোমা এর স্থলে and বসালে Compound
             হবে। <br />
             যেমনঃ <br />
@@ -547,7 +547,7 @@ const Transformation = () => {
             Q. Do it or you will die.
             <br />= By doing you will die.
             <br />
-            অনুরুপভাবেঃ <br />
+            <strong> অনুরুপভাবে: </strong> <br />
             by / without এবং V₁ এর ing উঠিয়ে V₁ করতে হবে এবং মাঝখানে comma উঠিয়ে
             or বসালে Compound হবে। <br />
             যেমনঃ <br />
@@ -570,7 +570,7 @@ const Transformation = () => {
             Q. Since I forgot, I went out. <br />
             = Forgetting him, I went out.
             <br />
-            অনুরুপঃ <br />
+            <strong>অনুরুপভাবে:</strong> <br />
             ing যুক্ত Verb দ্বারা শুরু বাক্যের শুরুতে As/Since/When + Subject
             বসিয়ে + এবং V টিকে পরের বাক্যের tense অনুসারে বসালে Complex হবে।{" "}
             <br />
@@ -589,7 +589,7 @@ const Transformation = () => {
             Q. As the water was salty, We could not drink. <br />
             = The water being salty, We could not drink.
             <br />
-            অনুরুপভাবেঃ <br />
+            <strong>অনুরুপভাবে:</strong> <br />
             উল্লোটা করলেই Complex হবে অর্থাৎ শুরুতে As/Since এবং Being স্থলে am/
             is/ are বা having এর স্থলে have/has/had বসে। <br />
             যেমনঃ <br />
@@ -607,7 +607,7 @@ const Transformation = () => {
             Q. When it is spring, the cuckoo sings. <br />
             = In spring the cuckoo sings.
             <br />
-            অনুরূপঃ <br />
+            <strong>অনুরুপভাবে:</strong> <br />
             at / In / at the age of উঠিয়ে When + it/ sub (আগের বাক্য অনুসারে) +
             V বসালে Complex হবে। <br />
             যেমনঃ <br />
@@ -622,7 +622,7 @@ const Transformation = () => {
             যেমনঃ <br />
             Q. I saw a man who was walking. <br />
             = I saw a man walking. <br />
-            অনুরুপভাবেঃ <br />
+            <strong>অনুরুপভাবে:</strong> <br />
             উল্টাটে করলে Complex হবে। <br />
             যেমনঃ <br />
             Q. I lived in a house belonging to me. <br />
@@ -658,7 +658,7 @@ const Transformation = () => {
             যেমনঃ <br />
             Q. We eat so that we may live. <br />
             = We eat to live. <br />
-            অনুরুপভাবে: <br />
+            <strong>অনুরুপভাবেঃ </strong> <br />
             উল্টা করলে Complex হবে। অর্থাৎ to স্থলে so that + sub +
             may/might/can/could বসালে Complex হবে। <br />
             যেমনঃ <br />
@@ -678,7 +678,7 @@ const Transformation = () => {
             যেমনঃ <br />
             Q. If you study well, you will pass. <br />
             = By studying well, you will pass. <br />
-            অনুরুপভাবে: <br />
+            <strong>অনুরুপভাবেঃ </strong> <br />
             উল্টা করলে Complex হবে। <br />
             যেমনঃ <br />
             Q. By studying well, you will pass. <br />
@@ -712,8 +712,6 @@ const Transformation = () => {
             <br />= Though he read well, he could not pass.
           </div>
         </div>
-
-        <br />
       </div>
 
       {/* DEGREE */}
