@@ -25,35 +25,6 @@ const Accordions = () => {
                 আমরা ভাত খাবো।
                 <br />
               </p>
-              <div className="py-5 dark:text-gray-400">
-                Tense তিন প্রকারঃ <br />
-                ১। Present tense বা বর্তমান কাল <br />
-                ২। Future tense বা ভবিষ্যৎ কাল। <br />
-                ৩। Past tense বা অতীত কাল।
-                <br />
-                <br />
-                Present tense (বর্তমান কাল) আবার চার প্রকারঃ <br />
-                ১। Present Indefinite Tense (অনির্দিষ্ট বর্তমান কাে)। <br />
-                ২। Present Continuous Tense (বর্তমান চলামান কাল)। <br />
-                ৩। Present Perfect Tense (পুরঘটিত বর্তমান কাল)। <br />
-                ৪। Present Perfect Continuous Tense (পুরঘটিত চলমান বর্তমান কাল)।
-                <br />
-                <br />
-                {/* PAST TENSE */}
-                <strong>Past Tense </strong>(অতীত কাল) চার প্রকারঃ <br />
-                ১। Past Indefinite Tense (অনির্দিষ্ট অতীত কাল)। <br />
-                ২। Past Continuous Tense (চলমান অতীত কাল)। <br />
-                ৩। Past Perfect Tense (পুরঘটিত অতীত কাল)। <br />
-                ৪। Past Perfect Continuous Tense (পুরঘটিত চলমান অতীত কাল)।
-                <br />
-                <br />
-                {/* <!-- FUTURE TENSE --> */}
-                <strong>Future Tense </strong>(ভবিষ্যৎ কাল) চার প্রকারঃ <br />
-                ১। Future Indefinite Tense (অনির্দিষ্ট ভবিষ্যৎ কাল)। <br />
-                ২। Future Continuous Tense (চলমান ভবিষ্যৎ কাল)। <br />
-                ৩। Future Perfect Tense (পুরঘটিত ভবিষ্যৎ কাল)। <br />
-                ৪। Future Perfect Continuous Tense (পুরঘটিত চলমান ভবিষ্যৎ কাল)।
-              </div>
             </div>
           </AccordionContent>
         </AccordionPanel>

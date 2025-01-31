@@ -716,8 +716,8 @@ const Transformation = () => {
 
       {/* DEGREE */}
 
-      <div className="mt-6 pt-6 bg-gray-100 text-gray-900">
-        <h1 className="text-xl font-bold mb-4">Degree Rules and Examples</h1>
+      <div className="mt-6 pt-6  text-gray-900">
+        <h1 className="font-bold mb-4">Degree Rules and Examples</h1>
         <table className="table-auto w-full border-collapse border border-gray-400">
           <thead>
             <tr className="bg-gray-200">
@@ -1157,6 +1157,7 @@ const Transformation = () => {
       </div>
 
       <div className="mt-10">
+        <h1 className="">Exercise</h1>
         <h3 className="">Transform the Sentences into Simple or Compound:</h3>
         <p className="">
           1.Samira is sitting under a mango tree which is big. 2. She has a

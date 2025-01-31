@@ -39,11 +39,11 @@ const SearchBar = () => {
         autoComplete="off"
         placeholder="Explore e-learning"
         type="text"
-        className="p-2 border border-gray-300 rounded-r-md focus:outline-none focus:border-[0.5px] focus:border-slate-500 w-80"
+        className="p-2 border border-gray-300 rounded-md focus:outline-none focus:border-[0.5px] focus:border-slate-500 md:w-80"
       />
       <button
         onClick={handleSubmit(onSubmit)}
-        className="bg-slate-700 hover:opacity-80 text-white p-2 rounded-md"
+        className="bg-white hover:opacity-80 text-black p-2 rounded-md"
       >
         Search
       </button>

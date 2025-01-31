@@ -2,6 +2,7 @@ import { Button } from "flowbite-react";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import SearchBar from "../SearchBar";
 const Banner = () => {
   const textRef = useRef<HTMLSpanElement | null>(null);
 
@@ -46,6 +47,9 @@ const Banner = () => {
               Let's Get Started
             </Button>
           </div>
+          {/* <div className="">
+            <SearchBar />
+          </div> */}
         </div>
       </div>
 

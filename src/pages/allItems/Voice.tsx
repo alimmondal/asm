@@ -1,44 +1,44 @@
 function Voice() {
   return (
-    <div className="h-full md:w-[85%] mx-auto px-5">
-      <div className="py-10">
-        <h1 className="text-center md:text-start">Voice</h1>
+    <div className="h-full md:w-[65%] mx-auto px-5">
+      <div className="py-20">
+        <h1 className="text-center text-green-400">Voice</h1>
       </div>
       <div className="">
         <h3 className="underline">From Active to Passive</h3>
-        <p className="text-blue-500 dark:text-gray-300">
-          <strong>Rule: </strong>{" "}
-          <span className="underline">
-            {" "}
-            Obj কে Sub বানাতে হবে + (helping verb) + V<sub>3</sub> + by + sub কে
-            obj বানাতে হবে।
-          </span>
+        <p className="text-blue-500 dark:text-gray-300 font-extrabold">
+          <span className="text-rose-500">Rule: </span> Obj কে Sub বানাতে হবে +
+          (helping verb) + V<sub>3</sub> + by + sub কে obj বানাতে হবে।
         </p>
-        <p>
+        <p className="py-2">
           (i) মুল Verb যদি V<sub>1</sub> থাকে তাহলে Passive voice এর helping
-          verb হয় = am/is/are যেমনঃ <br />
+          verb হয় = am/is/are <br />
+          যেমনঃ <br />
           Q. She makes tea.
           <br />= Tea is made by her.
         </p>
-        <p>
+        <p className="py-2">
           (ii) মুল Verb যদি V<sub>2</sub> থাকে তাহলে Passive voice এর helping
-          verb হয় = Was/ were যেমনঃ
+          verb হয় = Was/ were <br />
+          যেমনঃ
           <br />
           Q. She made tea.
           <br />= Tea was made by her.
         </p>
 
-        <p>
+        <p className="py-2">
           (iii) যদি am/is/are, was/ were, shall be/ will be থাকে তাহলে এগুলোর
-          সাথে Passive voice এর helping verb হয় = being যেমনঃ <br />
+          সাথে Passive voice এর helping verb হয় = being <br />
+          যেমনঃ <br />
           Q. She was making tea.
           <br />= Tea was being made by her.
         </p>
-        <p>
+        <p className="py-2">
           (vi) যদি can/ could/ may/ might/ shall/ should/ will/ would/ must/
           ought to/ have to/ has to/ had to/ am going to/ is going to/ are going
-          to থাকে তাহলে এগুলোর সাথে Passive voice এর helping verb হয় = be যেমনঃ{" "}
+          to থাকে তাহলে এগুলোর সাথে Passive voice এর helping verb হয় = be,{" "}
           <br />
+          যেমনঃ <br />
           Q. She can make tea.
           <br />= Tea can be made by her.
         </p>
@@ -48,11 +48,11 @@ function Voice() {
       <div className="mt-5 mb-10">
         <h3 className="underline">From Passive to Active</h3>
         <p className="text-blue-500 dark:text-gray-300">
-          <strong>Rule: </strong>{" "}
-          <span className="underline">
-            Obj কে Sub বানাতে হবে + (helping verb)? উঠে যাবে/ + V<sub>?</sub> এর
-            Form পরিবর্তন হতে পারে + sub কে obj বানাতে হবে।
-          </span>
+          <p className="font-extrabold">
+            <span className="text-rose-500">Rule: </span> Obj কে Sub + (helping
+            verb)? উঠে যাবে/ + V<sub>?</sub> এর Form পরিবর্তন হতে পারে + Sub কে
+            obj বানাতে হবে।
+          </p>
         </p>
         <p>** By উঠিয়ে দিতে হবে।</p>
         <p>
@@ -62,28 +62,34 @@ function Voice() {
           = She makes tea.
           <br />
           কিন্তু Helping verb এর সাথে not থাকলে Helping verb উঠিয়ে do not/does
-          not + V<sub>1</sub> হবে। যেমনঃ <br />
+          not + V<sub>1</sub> হবে। <br />
+          যেমনঃ <br />
           Q. Tea is not made by her. <br />= She does not make tea.
         </p>
         <p>
-          (ii) Helping verb যদি was/ were থাকে উঠিয়ে V<sub>2</sub> হবে। যেমনঃ
+          (ii) Helping verb যদি was/ were থাকে উঠিয়ে V<sub>2</sub> হবে। <br />
+          যেমনঃ
           <br />
           Q. Tea was made by her. <br />
           = She made tea.
           <br />
           কিন্তু Helping verb এর সাথে not থাকলে Helping verb উঠিয়ে did not + V
-          <sub>1</sub> হবে। যেমনঃ <br />
+          <sub>1</sub> হবে। <br />
+          যেমনঃ <br />
           Q. Tea was not made by her. <br />= She did not make tea.
         </p>
         (iii) am being, is being, are being, was being,were being, shall be
         being, will be being, থাকলে being উঠিয়ে V<sub>1</sub> এর সাথে ing হবে।
+        <br />
         যেমনঃ <br />
-        Q. Tea was being made by her. <br />= She was making tea.
+        Q. Tea was being made by her.
+        <br />= She was making tea.
         <p>
           (vi) যদি can/ could/ may/ might/ shall/ should/ will/ would/ must/
           ought to/ have to/ has to/ had to/ am going to/ is going to/ are going
           to এগুলোর সাথে be থাকে তাহলে be উঠিয়ে V<sub>1</sub>
-          হয় যেমনঃ <br />
+          হয় <br />
+          যেমনঃ <br />
           Q. Tea can be made by her.
           <br />= She can make tea.
         </p>
