@@ -1,8 +1,8 @@
 const Transformation = () => {
   return (
     <div className="h-full md:w-[85%] mx-auto px-3">
-      <div className="my-10">
-        <h1 className="text-center md:text-start">Transformation</h1>
+      <div className="my-20">
+        <h1 className="text-center text-green-500">Transformation</h1>
       </div>
 
       <div className="">
@@ -195,7 +195,8 @@ const Transformation = () => {
 
       {/* antonyms */}
       <div className="">
-        কিছু বিপরীতার্থক শব্দের নমুনা:
+        <h3 className="">কিছু বিপরীতার্থক শব্দের নমুনা:</h3>
+
         <div className="flex gap-10">
           <p className="">
             good- bad <br />
@@ -246,33 +247,26 @@ const Transformation = () => {
         1. বাক্যের মধ্যে Auxiliary verb থাকলে Auxiliary verb বাক্যের শুরুতে
         বসবে। বাক্যটি Affirmative হলে তা Negative হবে, আর Negative এ থাকলে তা
         Affirmative হবে। (যেমন: is থাকলে Isn't হবে এবং is not বা isn't থাকলে
-        'ls' হবে। উদাহরণ:
-        <br />
+        'ls' হবে। <br />
+        উদাহরণ: <br />
         i. Aff: Kamal was a good boy. <br />
         Inter: Wasn't Kamal a good boy? <br />
         ii . Aff: They are not playing. <br />
-        Inter: Are they playing?
-        <br />
+        Inter: Are they playing? <br />
         <br />
         2. বাক্যের মধ্যে Auxiliary verb না থাকলে, বাক্যের শুরুতে
         Don't/Doesn't/Didn't বসিয়ে Interrogative করা হয়। Auxiliary verb বলতে
         সাধারণত 'to be', 'to have', modal verb গুলোকে বোঝায়। আর Assertive
-        sentence-টি Negative হলে প্রশ্নবোধক Sentence টিতে do/does/did হয়।
-        <br />
-        উদাহরণ:
-        <br />
+        sentence-টি Negative হলে প্রশ্নবোধক Sentence টিতে do/does/did হয়। <br />
+        উদাহরণ: <br />
         Ass: Liza sings very well. <br />
         Inter: Doesn't Liza sing very well? <br />
-        Ass: Liza sang very well.
-        <br />
-        Inter: Didn't Liza sing well?
-        <br />
+        Ass: Liza sang very well. <br />
+        Inter: Didn't Liza sing well? <br />
         <br />
         3. Everybody. Everyone, All থাকলে এদের পরিবর্তে আয় অনুসারে Who does
-        not/did not বসিয়ে Interrogative করতে হয়।
-        <br />
-        উদাহরণ:
-        <br />
+        not/did not বসিয়ে Interrogative করতে হয়। <br />
+        উদাহরণ: <br />
         i. Ass: Everybody knows him.
         <br />
         Inter: Who does not know him?
@@ -421,309 +415,304 @@ const Transformation = () => {
 
       {/* SIMPLE COMPOUND COMPLEX VISE-VERSA */}
       <div className="mt-10">
-        <h2>Complex to Simple & Simple to Complex:</h2>
-        <h3 className="">Complex to Simple & Simple to complex:</h3>
+        <h2 className="">SIMPLE, COMPOUND, COMPLEX, VISE-VERSA </h2>
+        {/* Complex to Compound & Compound to complex: */}
         <div className="">
-          <strong>Rule- (i): </strong> Since/ as/ when / as soon as দ্বারা শুরু
-          বা যুক্ত বাক্যের Since/ as/ when + subject উঠিয়ে মূল V₁ এর সঙ্গে ing
-          যুক্ত করলে Simple হবে।
+          <h3 className="">Complex to Compound & Compound to complex:</h3>
+          <div className="">
+            <strong>Rule:(1) </strong>Since/as/ when / as soon as/ because
+            দ্বারা শুরু / যুক্ত বাক্যের মাঝখানে And বসিয়ে Since /as/ when উঠিয়ে
+            দিলে Compound হবে। <br />
+            যেমনঃ <br />
+            Q. When I was eight, I was there. <br />
+            = I was eight and I was there. <br />
+            <strong>অনুরুপভাবেঃ</strong> <br />
+            And উঠিয়ে শুরুতে As বসালে Complex হবে। <br />
+            যেমনঃ <br />
+            Q. I was sick and I could not attend the meeting. <br />= As I was
+            sick, I could not attend the meeting.
+          </div>
           <br />
-          যেমনঃ
+          <div className="">
+            <strong>Rule:(2) </strong> Though/ Although উঠিয়ে মাঝখানে but বসালে
+            Compound হবে। <br />
+            যেমনঃ <br />
+            Q. Although he was sick, he was walking. <br />
+            = He was sick but he was walking. <br />
+            <strong>অনুরুপভাবেঃ</strong> <br />
+            মাঝখানে থেকে but / yet উঠিয়ে শুরুতে Though / Although বসালে Complex
+            হবে।
+            <br />
+            যেমনঃ <br />
+            Q. He was honest but was punished. <br />
+            = Though He was honest, he was punished. <br />
+          </div>
           <br />
-          Q. Since I forgot, I went out. <br />
-          = Forgetting him, I went out.
+          <div className="">
+            <strong>Rule:(3) </strong> If দ্বারা শুরু বাক্য না বোধক হলে মূল if +
+            Subject উঠিয়ে মাঝখানে or বসাতে হবে। <br />
+            যেমনঃ <br />
+            Q. If you work hard, you will pass. <br />
+            = Work hard and you will pass. <br />
+            কিন্তু- <br />
+            if দ্বারা শুরু বাক্য হ্যাঁবোধক হলে if - থেকে - not পর্যন্ত উঠিয়ে
+            মাঝখানে and বসালে Compound হবে। <br />
+            যেমনঃ <br />
+            Q. If you do not do, you will die. <br />
+            = Do or you will die. <br />
+            <strong>অনুরুপভাবেঃ</strong> <br />
+            And দ্বারা যুক্ত বাক্যের শুরুতে subject না থাকলে If + Sub (you)
+            বসিয়ে And উঠালে Complex হবে। আবার or উঠিয়ে বাক্যের শুরুতে If + sub
+            (you) + do not বসালে Complex হবে। <br />
+            যেমনঃ <br />
+            Q. Work hard and you will pass. <br />
+            = If you work hard, you will pass. <br />
+            Q. Do or you will die.
+            <br />= If you do not do it, you will die.
+          </div>
+
           <br />
-          অনুরুপঃ <br />
-          ing যুক্ত Verb দ্বারা শুরু বাক্যের শুরুতে As/Since/When + Subject
-          বসিয়ে + এবং V টিকে পরের বাক্যের tense অনুসারে বসালে Complex হবে।{" "}
+        </div>
+
+        {/* Compound to simple & Simple to Compound: */}
+        <div className="">
+          <h3>Compound to simple & Simple to Compound:</h3>
+          <div className="">
+            <strong>Rule:(1) </strong>And দ্বারা যুক্ত বাক্যের And উঠিয়ে প্রথম
+            বাক্যাংশের Subject উঠিয়ে মূল V₁ এর সঙ্গে ing যুক্ত করতে হবে। যদি
+            প্রথম বাক্যে be verb থাকে তবে এর পরিবর্তে being এবং have verb থাকলে
+            having বসালে Simple হবে। <br />
+            যেমনঃ <br />
+            Q. He closed the window and went out, <br />
+            = Closing the window, he went out. <br />
+            <strong>NOTE: </strong> <br />
+            দুটি বাক্যের Subject যদি ভিন্ন হয় তবে Subject উঠবেনা। <br />
+            যেমনঃ <br />
+            Q. The tea was hot and we could not drink. <br />
+            = The tea being hot, we could not drink. <br />
+            <strong>অনুরুপভাবেঃ</strong> <br />
+            ing/ being/ having দ্বারা শুরু বাক্যের মাঝখানে and বসিয়ে Subject + V
+            কে পরের বাক্যের Tense অনুসারে সাজাতে হবে। <br />
+            যেমনঃ <br />
+            Q. The sun having set, they left home. <br />
+            = The sun had set and they left home. <br />
+            <br />
+            <span className="text-rose-600 font-bold">কিন্তু:-</span> <br />
+            And দ্বারা যুক্ত বাক্যের শুরুতে sub না থাকলে And উঠিয়ে বাক্যের
+            শুরুতে by বসাতে হবে এবং by এর পরের V₁ এর সঙ্গে ing যুক্ত করাতে হবে।{" "}
+            <br />
+            যেমনঃ <br />
+            Q. Work hard and you will succeed. <br />
+            =By working hard, you will succeed. <br />
+            অনুরুপভাবে <br />
+            উল্টোটা করলে - by এবং ing ঊঠিয়ে কোমা এর স্থলে and বসালে Compound
+            হবে। <br />
+            যেমনঃ <br />
+            Q. By working hard, you will succeed.
+            <br />= Work hard and you will succeed.
+          </div>
+
           <br />
-          যেমনঃ <br />
-          Q. Closing the door, I called her. <br />= As I closed the door, I
-          called her.
+          <div className="">
+            <strong>Rule: (2) </strong>
+            But/yet দ্বারা যুক্ত বাক্যের শুরুতে In spite of/ Despite of বসিয়ে
+            পরের মূল V1 এর সঙ্গে ing যুক্ত করলে Simple হবে। কিন্তু প্রথম বাক্যে
+            verb to be থাকলে এর পরিবর্তে being এবং have verb এর পরিবর্তে having
+            বসাতে হবে।
+            <br />
+            যেমনঃ <br />
+            Q. He is rich but he is simple minded. <br />
+            = In spite of being rich, he is simple minded. <br />
+            <strong> অনুরুপভাবেঃ</strong> <br />
+            In spite of/ Despite of উঠিয়ে পরের Possessive থাকলে Subjective বসাতে
+            হবে এবং ing যুক্ত Verb কে পরের বাক্যাংশ অনুসারে verb টিকে বসাতে হবে।
+            কিন্তু being থাকলে be verb এবং having থাকলে have verb বসালে Compound
+            হবে। <br />
+            যেমনঃ <br />
+            Q. In spite of being rich, he is simple minded.
+            <br />= He is rich but he is simple minded.
+          </div>
+          <br />
+          <div className="">
+            <strong>Rule:(3) </strong>Or দ্বারা যুক্ত বাক্যের Or পরের বাক্যাংশটি
+            Negative হলে or উঠিয়ে বাক্যের শুরুতে without বসিয়ে এর পরের মূল V₁ এর
+            সঙ্গে ing যুক্ত করলে Compound হবে। <br />
+            যেমনঃ <br />
+            Q. Work hard or you will not shine. <br />
+            = Without working hard, you will not shine. <br />
+            <strong>কিন্তু:- </strong> <br />
+            Or দ্বারা যুক্ত বাক্যের পরের বাক্যাংশটি হ্যাঁবোধক হলে by বসাতে হবে।
+            <br />
+            যেমনঃ <br />
+            Q. Do it or you will die.
+            <br />= By doing you will die.
+            <br />
+            অনুরুপভাবেঃ <br />
+            by / without এবং V₁ এর ing উঠিয়ে V₁ করতে হবে এবং মাঝখানে comma উঠিয়ে
+            or বসালে Compound হবে। <br />
+            যেমনঃ <br />
+            Q. Without working hard, it will not shine.
+            <br />= Work hard or you will not shine.
+          </div>
         </div>
         <br />
+
+        {/* Complex to Simple & Simple to Complex: */}
         <div className="">
-          <strong>কিন্তু-</strong> <br />
-          <strong>Rule - (2): </strong> As/Since/when বাক্যের am/is/are/was/were
-          এর পরিবর্তে being এবং have/has/had এর পরিবর্তে having বসালে Simple
-          হবে। <br />
-          যেমনঃ
+          <h3 className="">Complex to Simple & Simple to complex:</h3>
+          <div className="">
+            <strong>Rule- (i): </strong> Since/ as/ when / as soon as দ্বারা
+            শুরু বা যুক্ত বাক্যের Since/ as/ when + subject উঠিয়ে মূল V₁ এর
+            সঙ্গে ing যুক্ত করলে Simple হবে।
+            <br />
+            যেমনঃ
+            <br />
+            Q. Since I forgot, I went out. <br />
+            = Forgetting him, I went out.
+            <br />
+            অনুরুপঃ <br />
+            ing যুক্ত Verb দ্বারা শুরু বাক্যের শুরুতে As/Since/When + Subject
+            বসিয়ে + এবং V টিকে পরের বাক্যের tense অনুসারে বসালে Complex হবে।{" "}
+            <br />
+            যেমনঃ <br />
+            Q. Closing the door, I called her. <br />= As I closed the door, I
+            called her.
+          </div>
           <br />
-          Q. As the water was salty, We could not drink. <br />
-          = The water being salty, We could not drink.
+          <div className="">
+            <strong>কিন্তু-</strong> <br />
+            <strong>Rule - (2): </strong> As/Since/when বাক্যের
+            am/is/are/was/were এর পরিবর্তে being এবং have/has/had এর পরিবর্তে
+            having বসালে Simple হবে। <br />
+            যেমনঃ
+            <br />
+            Q. As the water was salty, We could not drink. <br />
+            = The water being salty, We could not drink.
+            <br />
+            অনুরুপভাবেঃ <br />
+            উল্লোটা করলেই Complex হবে অর্থাৎ শুরুতে As/Since এবং Being স্থলে am/
+            is/ are বা having এর স্থলে have/has/had বসে। <br />
+            যেমনঃ <br />
+            Q. The water being salty, We could not drink. <br />= As the water
+            was salty, We could not drink.{" "}
+          </div>
           <br />
-          অনুরুপভাবেঃ <br />
-          উল্লোটা করলেই Complex হবে অর্থাৎ শুরুতে As/Since এবং Being স্থলে am/
-          is/ are বা having এর স্থলে have/has/had বসে। <br />
-          যেমনঃ <br />
-          Q. The water being salty, We could not drink. <br />= As the water was
-          salty, We could not drink.{" "}
-        </div>
-        <br />
-        <div className="">
-          <strong>কিন্তু-</strong>
+          <div className="">
+            <strong>কিন্তু-</strong>
+            <br />
+            <strong>Rule - (3): </strong> When দ্বারা বাক্যে দিনের কোন বেলাকে
+            বুঝালে When + Sub + V উঠিয়ে At বসে , বয়স বুঝালে At the age of এবং
+            ঋতু বুঝালে In বসে । <br />
+            যেমনঃ <br />
+            Q. When it is spring, the cuckoo sings. <br />
+            = In spring the cuckoo sings.
+            <br />
+            অনুরূপঃ <br />
+            at / In / at the age of উঠিয়ে When + it/ sub (আগের বাক্য অনুসারে) +
+            V বসালে Complex হবে। <br />
+            যেমনঃ <br />
+            Q. At the age of four, he left home. <br />= When he was four, he
+            left home.
+          </div>
           <br />
-          <strong>Rule - (3): </strong> When দ্বারা বাক্যে দিনের কোন বেলাকে
-          বুঝালে When + Sub + V উঠিয়ে At বসে , বয়স বুঝালে At the age of এবং ঋতু
-          বুঝালে In বসে । <br />
-          যেমনঃ <br />
-          Q. When it is spring, the cuckoo sings. <br />
-          = In spring the cuckoo sings.
+          <div className="">
+            <strong> Rule - (4): </strong>Who/ Which/ That/ what দ্বারা দুটি
+            বাক্য যুক্ত হলে who/ which/ that/ what + helping Verb (যদি থাকে)
+            উঠিয়ে পরের মুল V₁ এর সঙ্গে ing যুক্ত করতে হবে। <br />
+            যেমনঃ <br />
+            Q. I saw a man who was walking. <br />
+            = I saw a man walking. <br />
+            অনুরুপভাবেঃ <br />
+            উল্টাটে করলে Complex হবে। <br />
+            যেমনঃ <br />
+            Q. I lived in a house belonging to me. <br />
+            =I lived in a house which belonged to me. <br />
+            অর্থাৎ- <br />
+            ing যুক্ত verb এর পূর্বে বস্তুবাচক শব্দ থাকলে That/Which/What এবং
+            ব্যক্তি থাকলে Who বসিয়ে ing যুক্ত verb টিকে Tense অনুসারে সাজাতে
+            হবে।
+          </div>
           <br />
-          অনুরূপঃ <br />
-          at / In / at the age of উঠিয়ে When + it/ sub (আগের বাক্য অনুসারে) + V
-          বসালে Complex হবে। <br />
-          যেমনঃ <br />
-          Q. At the age of four, he left home. <br />= When he was four, he left
-          home.
-        </div>
-        <br />
-        <div className="">
-          <strong> Rule - (4): </strong>Who/ Which/ That/ what দ্বারা দুটি বাক্য
-          যুক্ত হলে who/ which/ that/ what + helping Verb (যদি থাকে) উঠিয়ে পরের
-          মুল V₁ এর সঙ্গে ing যুক্ত করতে হবে। <br />
-          যেমনঃ <br />
-          Q. I saw a man who was walking. <br />
-          = I saw a man walking. <br />
-          অনুরুপভাবেঃ <br />
-          উল্টাটে করলে Complex হবে। <br />
-          যেমনঃ <br />
-          Q. I lived in a house belonging to me. <br />
-          =I lived in a house which belonged to me. <br />
-          অর্থাৎ- <br />
-          ing যুক্ত verb এর পূর্বে বস্তুবাচক শব্দ থাকলে That/Which/What এবং
-          ব্যক্তি থাকলে Who বসিয়ে ing যুক্ত verb টিকে Tense অনুসারে সাজাতে হবে।
-        </div>
-        <br />
-        <div className="">
-          <strong>Rule: (5) </strong> So ......... that দ্বারা যুক্ত বাক্যে So
-          এর স্থলে too এবং That থেকা not পর্যন্ত উঠিয়ে To বসালে simple হবে।{" "}
+          <div className="">
+            <strong>Rule: (5) </strong> So ......... that দ্বারা যুক্ত বাক্যে So
+            এর স্থলে too এবং That থেকা not পর্যন্ত উঠিয়ে To বসালে simple হবে।{" "}
+            <br />
+            যেমনঃ <br />
+            Q. He is so weak that he cannot talk. <br />
+            = He is too weak to talk. <br />
+            <strong>অনুরুপভাবে:</strong> <br />
+            উল্টাটা করলে Complex হবে। <br />
+            যেমনঃ <br />
+            Q. He walks too slowly to reach in time. <br />
+            = He walks so slowly that he cannot reach there on time. <br />
+            <strong>অর্থাৎ-</strong> <br />
+            too এর স্থলে so এবং to উঠিয়ে to এর স্থলে That + Subject (আগের বাক্য
+            অনুসারে) + cannot/ couldnot/ may not/ might not + Verb থেকে বাকি অংশ
+            হবে।
+          </div>
           <br />
-          যেমনঃ <br />
-          Q. He is so weak that he cannot talk. <br />
-          = He is too weak to talk. <br />
-          <strong>অনুরুপভাবে:</strong> <br />
-          উল্টাটা করলে Complex হবে। <br />
-          যেমনঃ <br />
-          Q. He walks too slowly to reach in time. <br />
-          = He walks so slowly that he cannot reach there on time. <br />
-          <strong>অর্থাৎ-</strong> <br />
-          too এর স্থলে so এবং to উঠিয়ে to এর স্থলে That + Subject (আগের বাক্য
-          অনুসারে) + cannot/ couldnot/ may not/ might not + Verb থেকে বাকি অংশ
-          হবে।
-        </div>
-        <br />
-        <div className="">
-          <strong>Rule:(6) </strong>so that দ্বারা যুক্ত বাক্যের so থেকে
-          Can/Could/may/might পর্যন্ত উঠিয়ে উক্ত স্থানে to বসালে Simple হবে।{" "}
+          <div className="">
+            <strong>Rule:(6) </strong>so that দ্বারা যুক্ত বাক্যের so থেকে
+            Can/Could/may/might পর্যন্ত উঠিয়ে উক্ত স্থানে to বসালে Simple হবে।{" "}
+            <br />
+            যেমনঃ <br />
+            Q. We eat so that we may live. <br />
+            = We eat to live. <br />
+            অনুরুপভাবে: <br />
+            উল্টা করলে Complex হবে। অর্থাৎ to স্থলে so that + sub +
+            may/might/can/could বসালে Complex হবে। <br />
+            যেমনঃ <br />
+            Q. We eat to live. <br />= We eat so that we may live.
+          </div>
           <br />
-          যেমনঃ <br />
-          Q. We eat so that we may live. <br />
-          = We eat to live. <br />
-          অনুরুপভাবে: <br />
-          উল্টা করলে Complex হবে। অর্থাৎ to স্থলে so that + sub +
-          may/might/can/could বসালে Complex হবে। <br />
-          যেমনঃ <br />
-          Q. We eat to live. <br />= We eat so that we may live.
+          <div className="">
+            Rule:(7) If দ্বারা শুরু বাক্যে Negative হলে if থেকে not পর্যন্ত
+            উঠিয়ে without বসাতে হবে এবং without এর পরের V1 এর সাথে ing যুক্ত
+            করলে Simple হবে। <br />
+            যেমনঃ <br />
+            Q. If you do not study, you will not pass. <br />
+            = Without studying well, you will not pass. <br />
+            <span className="text-rose-600 font-bold">এবং</span> <br />
+            If দ্বারা বাক্য হ্যাঁ বোধক হলে if থেকে Subject পর্যন্ত উঠিয়ে by
+            বসিয়ে পরের V-1 এর সাথে ing যুক্ত করলে Simple হবে। <br />
+            যেমনঃ <br />
+            Q. If you study well, you will pass. <br />
+            = By studying well, you will pass. <br />
+            অনুরুপভাবে: <br />
+            উল্টা করলে Complex হবে। <br />
+            যেমনঃ <br />
+            Q. By studying well, you will pass. <br />
+            = If you study well, you will pass. <br />
+            Q. Without studying well, you will not pass.
+            <br />= If you do not study, you will not pass.
+          </div>
+          <br />
+          <div className="">
+            <strong> Rule - (8): </strong> Though/although এর পরিবর্তে In spite
+            of/ Despite of বসিয়ে পরের মূল V₁ এর সঙ্গে ing যুক্ত করলে Simple হবে।{" "}
+            <br />
+            যেমনঃ <br />
+            Q. Though he is poor, he is honest. <br />
+            = In spite of being poor, he is honest.
+            <br />
+            Q. Though he read well, he could not pass.
+            <br />
+            = In spite of reading well, he could not pass.
+            <br />
+            <span className="text-rose-600 font-bold">অনুরুপভাবে:-</span> <br />
+            উল্টা করলে Complex হবে।
+            <br />
+            যেমনঃ
+            <br />
+            Q. In spite of being poor, he is honest.
+            <br />
+            = Though he is poor, he is honest.
+            <br />
+            Q. In spite of reading well, he could not pass.
+            <br />= Though he read well, he could not pass.
+          </div>
         </div>
-        <br />
-        <div className="">
-          Rule:(7) If দ্বারা শুরু বাক্যে Negative হলে if থেকে not পর্যন্ত উঠিয়ে
-          without বসাতে হবে এবং without এর পরের V1 এর সাথে ing যুক্ত করলে Simple
-          হবে। <br />
-          যেমনঃ <br />
-          Q. If you do not study, you will not pass. <br />
-          = Without studying well, you will not pass. <br />
-          এবং <br />
-          If দ্বারা বাক্য হ্যাঁ বোধক হলে if থেকে Subject পর্যন্ত উঠিয়ে by বসিয়ে
-          পরের V-1 এর সাথে ing যুক্ত করলে Simple হবে। <br />
-          যেমনঃ <br />
-          Q. If you study well, you will pass. <br />
-          = By studying well, you will pass. <br />
-          অনুরুপভাবে: <br />
-          উল্টা করলে Complex হবে। <br />
-          যেমনঃ <br />
-          Q. By studying well, you will pass. <br />
-          = If you study well, you will pass. <br />
-          Q. Without studying well, you will not pass. <br />= If you do not
-          study, you will not pass.
-        </div>
-        <br />
-        <br />
-        Rule:(8) Though/although এর পরিবর্তে In spite of/ Despite of বসিয়ে পরের
-        মূল V₁ এর সঙ্গে ing যুক্ত করলে Simple হবে। <br />
-        যেমনঃ <br />
-        Q. Though he is poor, he is honest. <br />
-        = In spite of being poor, he is honest.
-        <br />
-        Q. Though he read well, he could not pass.
-        <br />
-        = In spite of reading well, he could not pass.
-        <br />
-        <br />
-        অনুরুপভাবে উল্টা করলে Complex হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. In spite of being poor, he is honest.
-        <br />
-        = Though he is poor, he is honest.
-        <br />
-        Q. In spite of reading well, he could not pass.
-        <br />
-        = Though he read well, he could not pass.
-        <br />
-        <br />
-        <h3>Compound to simple & Simple to Compound:</h3>
-        Rule:(i) And দ্বারা যুক্ত বাক্যের And উঠিয়ে প্রথম বাক্যাংশের Subject
-        উঠিয়ে মূল V₁ এর সঙ্গে ing যুক্ত করতে হবে। যদি প্রথম বাক্যে be verb থাকে
-        তবে এর পরিবর্তে being এবং have verb থাকলে having বসালে Simple হবে।
-        <br />
-        * He closed the window and went out,
-        <br />
-        Closing the window, he went out.
-        <br />
-        <br />
-        N.B.দুটি বাক্যের Subject যদি ভিন্ন হয় তবে Subject উঠবেনা।
-        <br />
-        যেমনঃ
-        <br />
-        Q. The tea was hot and we could not drink.
-        <br />
-        = The tea being hot, we could not drink.
-        <br />
-        অনুরুপভাবেঃ ing/being/having দ্বারা শুরু বাক্যের মাঝখানে and বসিয়ে sub +
-        V কে পরের বাক্য অনুসারে সাজাতে হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. The sun having set, they left home.
-        <br />
-        = The sun had set and they left home.
-        <br />
-        <br />
-        কিন্তু And দ্বারা যুক্ত বাক্যের শুরুতে sub না থাকলে And উঠিয়ে বাক্যের
-        শুরুতে by বসাতে হবে এবং by এর পরের V₁ এর সঙ্গে ing যুক্ত করাতে হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. Work hard and you will succeed.
-        <br />
-        =By working hard, you will succeed.
-        <br />
-        <br />
-        অনুরুপভাবে উল্টোটা করলে Compound হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. By working hard, you will succeed.
-        <br />
-        = Work hard and you will succeed.
-        <br />
-        <br />
-        <br />
-        Rule: (2) But/yet দ্বারা যুক্ত বাক্যের শুরুতে In spite of/ Despite of
-        বসিয়ে পরের মূল V1 এর সঙ্গে ing যুক্ত করলে Simple হবে। কিন্তু প্রথম
-        বাক্যে verb to be থাকলে এর পরিবর্তে being এবং have verb এর পরিবর্তে
-        having বসাতে হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. He is rich but he is simple minded.
-        <br />
-        = In spite of being rich, he is simple minded.
-        <br />
-        অনুরুপভাবেঃ In spite of/ Despite of উঠিয়ে পরের Possessive থাকলে
-        Subjective বসাতে হবে এবং ing যুক্ত Verb কে পরের বাক্যাংশ অনুসারে verb
-        টিকে বসাতে হবে। কিন্তু being থাকলে be verb এবং having থাকলে have verb
-        বসালে Compound হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. In spite of being rich, he is simple minded.
-        <br />
-        = He is rich but he is simple minded.
-        <br />
-        <br />
-        Rule:(3) Or দ্বারা যুক্ত বাক্যের or উঠিয়ে বাক্যের শুরুতে without / by
-        বসিয়ে পরের মূল V₁ এর সঙ্গে ing যুক্ত করলে Compound হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. Work hard or you will not shine.
-        <br />
-        = Without working hard, it will not shine.
-        <br />
-        <br />
-        N.B. পরের বাক্যাংশটি Negative হলে without এবং হ্যাঁবোধক হলে by বসাতে
-        হবে।
-        <br />
-        <br />
-        অনুরুপভাবেঃ by / without উঠিয়ে V₁ করতে হবে এবং মাঝখানে comma উঠিয়ে or
-        বসাতে হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. Without working hard, it will not shine.
-        <br />
-        = Work hard or you will not shine.
-        <br />
-        <br />
-        <h3 className="">Complex to Compound & Compound to complex:</h3>
-        <br />
-        Rule:(1) Since/as/ when / as soon as দ্বারা শুরু / যুক্ত বাক্যের মাঝখানে
-        And বসিয়ে Since /as/ when উঠিয়ে দিলে Compound হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. When I was eight, I was there.
-        <br />
-        = I was eight and I was there.
-        <br />
-        <br />
-        অনুরুপভাবেঃ And উঠিয়ে শুরুতে As বসালে Complex হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Rule:(2) Though/ Although উঠিয়ে মাঝখানে but বসালে Compound হবে। যেমনঃ
-        <br />
-        Q. Although he was sick, he was walking.
-        <br />
-        He was sick but he was walking.
-        <br />
-        অনুরুপভাবেঃ মাঝখানে থেকে but / yet উঠিয়ে শুরুতে Though / Although বসালে
-        Complex হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Rule:(3) If দ্বারা শুরু বাক্য না বোধক হলে মূল verb এর পূর্ব পর্যন্ত
-        উঠিয়ে মাঝখানে or বসাতে হবে। if দ্বারা শুরু বাক্য হ্যাঁবোধক হলে মাঝখানে
-        and বসালে Compound হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. If you work hard, you will pass.
-        <br />
-        = Work hard and you will pass.
-        <br />
-        Q. If you do not do, you will die.
-        <br />
-        = Do or you will die.
-        <br />
-        <br />
-        অনুরুপভাবেঃ And দ্বারা যুক্ত বাক্যের শুরুতে subject না থাকলে If you
-        বসিয়ে And উঠালে Complex হবে। আবার or উঠিয়ে বাক্যের শুরুতে If + sub + do
-        not বসালে Complex হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. Work hard and you will pass.
-        <br />
-        = If you work hard, you will pass.
-        <br />
-        Q. Do or you will die.
-        <br />
-        = If you do not do it, you will die.
+
         <br />
       </div>
 
