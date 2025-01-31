@@ -151,7 +151,8 @@ function Verbs() {
               <p>
                 <span className="animateText font-bold">*** </span>
                 <strong>Rule: 5. </strong>
-                <br /> (a). Am, is, are, was, were, be, being, been,
+                <br />
+                <strong> (a). </strong> Am, is, are, was, were, be, being, been,
                 <span className="bengali">
                   ইত্যাদির পরে ব্রাকেটে Verb থাকলে passive এর ক্ষেত্রে বাক্যটি
                   passive voice এ হয় বা ব্রাকেটের Verb এর V<sub>3</sub> হয়।
@@ -162,10 +163,11 @@ function Verbs() {
                 Q. Rice is (sell) in the market.
                 <br />= Rice is sold in the market.
               </p>
-              আবার
+              <strong> আবার- </strong>
               <p>
-                (b). having এবং get, got, gotten এবং Linking-verb (be, become)
-                এর পর ব্রাকেটে Verb থাকলে Verb টি V<sub>3</sub> হয়। <br />
+                <strong> (b). </strong>having এবং get, got, gotten এবং
+                Linking-verb (be, become) এর পর ব্রাকেটে Verb থাকলে Verb টি V
+                <sub>3</sub> হয়। <br />
                 যেমনঃ
                 <br />
                 Q. I went out having (close) the door.
@@ -173,7 +175,8 @@ function Verbs() {
               </p>
               <strong className="text-rose-500">কিন্তু</strong>
               <p>
-                (c) বাক্যের মধ্যে Now, at this moment, day by day,
+                <strong> (c). </strong> বাক্যের মধ্যে Now, at this moment, day
+                by day,
                 <span className="bengali">
                   ইত্যাদি থাকলে বাক্যটি সাধারণত Present Continuous tense হয়।
                   যেমন:
@@ -184,10 +187,11 @@ function Verbs() {
                 =She is writing now.
               </p>
               <p>
-                (d)
+                <strong> (d). </strong>
                 <span className="bengali">
                   Hold, locate, bear, situate ইত্যাদি Verb ব্রাকেটে থাকলে
-                  বাক্যটি passive voice এ হয়। যেমনঃ
+                  বাক্যটি passive voice এ হয়। <br />
+                  যেমনঃ
                 </span>
                 <br />
                 Q. The festival (hold). <br />= The festival was held.
@@ -199,11 +203,8 @@ function Verbs() {
               <p>
                 <strong>Rule: 6. </strong> Can, could, may, might, shall,
                 should, will, would, must, need, dare, had better, would rather,
-                would better
-                <span className="bengali">
-                  এর পরের ব্রাকেটের Verb টি V1 হয় । <br />
-                  যেমন:
-                </span>
+                would better এর পরের ব্রাকেটের Verb টি V<sub>1</sub> হয় । <br />
+                যেমন:
               </p>
               <p className="example">
                 Q. Imran can (play) football.
@@ -215,8 +216,8 @@ function Verbs() {
             <div className="pb-3">
               <p>
                 <span className="animateText font-bold">Rule: 7.</span> <br />
-                (a). সাধারণত To এর পরের ব্রাকেটের Verb টি V<sub>1</sub> হয়।{" "}
-                <br />
+                <strong> (a). </strong>সাধারণত To এর পরের ব্রাকেটের Verb টি V
+                <sub>1</sub> হয়। <br />
                 যেমন:
               </p>
               <p className="example">
@@ -225,10 +226,11 @@ function Verbs() {
               </p>
               <strong className="text-rose-600 font-bold">কিন্তু:-</strong>
               <p>
-                (b). Be used to, with a view to, look forward to, get used to,
-                addicted to, devoted to, with an eye to, be accustomed to, be
-                opposed to, worth, cannot help, could not help, confess to
-                ইত্যাদির পরে ব্রাকেটের Verb এর সাথে ing যুক্ত হয় । <br />
+                <strong> (b). </strong> Be used to, with a view to, look forward
+                to, get used to, addicted to, devoted to, with an eye to, be
+                accustomed to, be opposed to, worth, cannot help, could not
+                help, confess to ইত্যাদির পরে ব্রাকেটের Verb এর সাথে ing যুক্ত
+                হয় । <br />
                 যেমন:
               </p>
               <p className="example">
@@ -237,7 +239,8 @@ function Verbs() {
               </p>
               <strong>কিন্তু:-</strong>
               <p>
-                (c). শুধু used to এর পরে verb এর V<sub>1</sub> হয়। <br />
+                <strong> (c). </strong> শুধু used to এর পরে verb এর V
+                <sub>1</sub> হয়। <br />
                 যেমন:
               </p>
               <p className="example">
@@ -250,9 +253,9 @@ function Verbs() {
             <strong className="text-rose-600 font-bold">কিন্তু-</strong>
             <div className="pb-3">
               <p>
-                Rule: 8. অনান্য সকল preposition (যেমনঃ in, on, over, upon, into,
-                of, by, with, without, before, after, away) এর পরের ব্রাকেটের
-                verb এর সাথে ing হয়। <br />
+                <strong>Rule: 8. </strong> অনান্য সকল preposition (যেমনঃ in,
+                into, on, over, up, upon, of, by, with, without, before, after,
+                away) এর পরের ব্রাকেটের verb এর সাথে ing হয়। <br />
                 যেমন:
               </p>
               <p className="example">
@@ -264,10 +267,10 @@ function Verbs() {
             {/* 9 */}
             <div className="pb-3">
               <p>
-                9. Stop, mind, finish, miss, risk, answer, continue, admit,
-                deny, avoid, enjoy, fancy, imagine, delay, suggest, postpone,
-                involve, practice ইত্যাদি Verb গুলোর পরে ব্রাকেটের Verb এর সাথে
-                ing হয়।
+                <strong>Rule: 9. </strong> Stop, mind, finish, miss, risk,
+                answer, continue, admit, deny, avoid, enjoy, fancy, imagine,
+                delay, suggest, postpone, involve, practice ইত্যাদি Verb গুলোর
+                পরে ব্রাকেটের Verb এর সাথে ing হয়।
               </p>
               যেমনঃ
               <p className="example">
@@ -287,12 +290,10 @@ function Verbs() {
             {/* 10 */}
             <div className="pb-3">
               <p>
-                <strong>Rule: 10. </strong> (a). প্রথম বক্যে Fancy, wish, it is
-                time, it is high time
-                <span className="bengali">
-                  থাকলে পরের বাক্যের ব্রাকেটের verb এর V2 হয়। <br />
-                  যেমন:
-                </span>
+                <strong>Rule: 10. </strong> <br />
+                <strong> (a). </strong> প্রথম বক্যে Fancy, wish, it is time, it
+                is high time থাকলে পরের বাক্যের ব্রাকেটের verb এর V2 হয়। <br />
+                যেমন:
               </p>
               <p className="example">
                 Q. He wishes he (sing) a song.
@@ -300,8 +301,8 @@ function Verbs() {
               </p>
 
               <p>
-                (b)কিন্তু প্রথম বক্যে Fancy, wish, it is time, it is high time,
-                as if, as though, if
+                <strong> (b). </strong>কিন্তু প্রথম বক্যে Fancy, wish, it is
+                time, it is high time, as if, as though, if
                 <span className="bengali">
                   থাকলে পরের বাক্যের ব্রাকেটে be এর স্থলে were হয়। <br />
                   যেমনঃ
@@ -335,16 +336,16 @@ function Verbs() {
               </p>
             </div>
 
-            {/* 13 */}
+            {/* 12 */}
             <div className="pb-3">
               <p>
                 <span className="animateText font-bold">*** </span>
-                <strong>Rule: 13. </strong>
+                <strong>Rule: 12. </strong>
                 <br />
-                (a). If দ্বারা শুরু বাক্যটি
+                <strong> (a). </strong> If দ্বারা শুরু বাক্যটি
                 <span className="bengali">
-                  Present Indefinite tense হলে পরের বাক্যের Subject এর পরে will
-                  হবে এবং verb এর V1 হয়। <br />
+                  Present Indefinite tense হলে পরের বাক্যের/ if ছাড়া বাক্যের
+                  Subject এর পরে will হবে এবং Verb এর V1 হয়। <br />
                   যেমন:
                 </span>
                 <br />
@@ -353,9 +354,9 @@ function Verbs() {
               </p>
 
               <p>
-                (b). If দ্বারা শুরু বাক্যটি Past Indefinite tense হলে পরের
-                বাক্যের Subject এর পরে would/ could / might হবে এবং verb এর V1
-                হয়। <br />
+                <strong>(b). </strong>If দ্বারা শুরু বাক্যটি Past Indefinite
+                tense হলে পরের বাক্যের/ if ছাড়া বাক্যের Subject এর পরে would/
+                could / might হবে এবং verb এর V1 হয়। <br />
                 যেমন:
                 <br />
                 Q. If he came, I (go) there.
@@ -363,9 +364,10 @@ function Verbs() {
               </p>
 
               <p>
-                (c). If দ্বারা শুরু বাক্যটি Past Perfect tense হলে পরের বাক্যের
-                Subject এর পরে would have/ could have/ might have হবে এবং verb
-                এর V<sub>3</sub> হয়। <br />
+                <strong> (c). </strong> If দ্বারা শুরু বাক্যটি Past Perfect
+                tense হলে পরের বাক্যের/ if ছাড়া বাক্যের Subject এর পরে would
+                have/ could have/ might have হবে এবং verb এর V<sub>3</sub> হয়।{" "}
+                <br />
                 যেমন:
                 <br />
                 Q. If you had told me this, I (buy) a car.
@@ -373,74 +375,84 @@ function Verbs() {
               </p>
 
               <p>
-                (d) Had + Past Perfect tense-এ থাকলে পরের বাক্যের Subject এর পরে
-                would have/ could have/ might have হবে এবং verb এর V<sub>3</sub>{" "}
-                হয়। brযেমন:
+                <strong> (d) </strong> Had + Subject + V<sub>3</sub>- থাকলে পরের
+                বাক্যের/ had ছাড়া বাক্যের Subject এর পরে would have/ could have/
+                might have হবে এবং Verb এর V<sub>3</sub> হয়। <br />
+                যেমন:
               </p>
               <p className="example">
                 Q. Had Muni told me this, I (buy) a car.
                 <br />= Had Muni told me this, I would have bought a car.
               </p>
             </div>
+            {/* 13 */}
             <div className="pb-3">
               <p>
-                <span className="animateText font-bold">Rule: 14. </span>V +
-                object + (verb) এর সাথে ing যুক্ত হয়। যেমন:
+                <span className="animateText font-bold">Rule: 13. </span>V +
+                object + (Verb) এভাবে ব্যবহার হলে ব্রাকেটে Verb এর সাথে ing
+                যুক্ত হয়। <br />
+                যেমন:
               </p>
               <p className="example">
                 Q. I saw him (play) card.
                 <br />= I saw him playing card.
               </p>
             </div>
+
+            {/* 14 */}
             <div className="pb-3">
               <p className="bengali">
-                15.
+                <strong>Rule: 14. </strong>
                 <span>
                   সাধারণত ব্রাকেটে verb দ্বারা বাক্য শুরু হলে সেই verb এর সাথে
-                  ing যুক্ত হয়। যেমন:
+                  ing যুক্ত হয়। <br />
+                  যেমন:
                 </span>
               </p>
               <p className="example">
-                Q. (Go) home, Ruhul will sleep. <br />= Going home, Ruhul will
-                sleep.
+                Q. (Go) home, Ruhul will sleep.
+                <br />= Going home, Ruhul will sleep.
               </p>
             </div>
+
+            {/* 15 */}
             <div className="pb-3">
               <p>
-                16. objective এবং
-                <span className="bengali">
-                  possessive case এর পর verb এর সাথে ing হয়। <br />
-                  যেমন:
-                </span>
+                <strong>Rule: 15. </strong> objective এবং possessive case এর পর
+                verb এর সাথে ing হয়। <br />
+                যেমন:
               </p>
               <p className="example">
                 Q. Zahid insisted on my (go) his home.
                 <br />= Zahid insisted on my going his home.
               </p>
-              <div className="pb-3">
-                <p>
-                  17. Since/for
-                  <span className="bengali">
-                    এর পর সময় বা (period of time) থাকলে Present Perfect
-                    Continuous tense হয়। যেমন:
-                  </span>
-                </p>
-                <p className="example">
-                  Q. Ruhul (read) in Tilokpur College for two years.
-                  <br />= Ruhul has been reading in Tilokpur College for two
-                  years.
-                </p>
-                <p>
-                  <span className="bengali">
-                    Since/for এর পরে সময় বা (period of time) থাকলে এবং ব্রাকেটে
-                    be থাকলে Present Perfect tense হয়। যেমন:
-                  </span>
-                </p>
-                <p className="example">
-                  Q. He (be) in Tilokpur College for two years.
-                  <br />= He has been in Tilokpur College for two years.
-                </p>
-              </div>
+            </div>
+
+            {/* 16 */}
+            <div className="pb-3">
+              <p>
+                <strong>Rule: 16. </strong> Since/for এর পর সময় বা (period of
+                time) থাকলে Present Perfect Continuous tense হয়। <br />
+                যেমন:
+                <br />
+                Q. Ruhul (read) in Tilokpur College for two years.
+                <br />= Ruhul has been reading in Tilokpur College for two
+                years.
+                <br />
+                <strong className="text-rose-600 font-bold">
+                  কিন্তু-
+                </strong>{" "}
+                <br />
+                Since/ for এর পরে সময় বা (period of time) থাকলে এবং ব্রাকেটে be
+                থাকলে Present Perfect tense হয়। <br />
+                যেমন:
+                <br />
+                Q. He (be) in Tilokpur College for two years.
+                <br />= He has been in Tilokpur College for two years.
+              </p>
+            </div>
+
+            <div className="pb-3">
               <div className="pb-3">
                 <p>
                   18. Next, tomorrow,

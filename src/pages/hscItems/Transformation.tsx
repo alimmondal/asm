@@ -249,10 +249,8 @@ const Transformation = () => {
         'ls' হবে। উদাহরণ:
         <br />
         i. Aff: Kamal was a good boy. <br />
-        Inter: Wasn't Kamal a good boy?
-        <br />
-        ii . Aff: They are not playing.
-        <br />
+        Inter: Wasn't Kamal a good boy? <br />
+        ii . Aff: They are not playing. <br />
         Inter: Are they playing?
         <br />
         <br />
@@ -263,10 +261,8 @@ const Transformation = () => {
         <br />
         উদাহরণ:
         <br />
-        Ass: Liza sings very well.
-        <br />
-        Inter: Doesn't Liza sing very well?
-        <br />
+        Ass: Liza sings very well. <br />
+        Inter: Doesn't Liza sing very well? <br />
         Ass: Liza sang very well.
         <br />
         Inter: Didn't Liza sing well?
@@ -425,159 +421,139 @@ const Transformation = () => {
 
       {/* SIMPLE COMPOUND COMPLEX VISE-VERSA */}
       <div className="mt-10">
-        <h3>Complex to Simple & Simple to Complex:</h3>
-        Complex to Simple & Simple to complex:
+        <h2>Complex to Simple & Simple to Complex:</h2>
+        <h3 className="">Complex to Simple & Simple to complex:</h3>
+        <div className="">
+          <strong>Rule- (i): </strong> Since/ as/ when / as soon as দ্বারা শুরু
+          বা যুক্ত বাক্যের Since/ as/ when + subject উঠিয়ে মূল V₁ এর সঙ্গে ing
+          যুক্ত করলে Simple হবে।
+          <br />
+          যেমনঃ
+          <br />
+          Q. Since I forgot, I went out. <br />
+          = Forgetting him, I went out.
+          <br />
+          অনুরুপঃ <br />
+          ing যুক্ত Verb দ্বারা শুরু বাক্যের শুরুতে As/Since/When + Subject
+          বসিয়ে + এবং V টিকে পরের বাক্যের tense অনুসারে বসালে Complex হবে।{" "}
+          <br />
+          যেমনঃ <br />
+          Q. Closing the door, I called her. <br />= As I closed the door, I
+          called her.
+        </div>
+        <br />
+        <div className="">
+          <strong>কিন্তু-</strong> <br />
+          <strong>Rule - (2): </strong> As/Since/when বাক্যের am/is/are/was/were
+          এর পরিবর্তে being এবং have/has/had এর পরিবর্তে having বসালে Simple
+          হবে। <br />
+          যেমনঃ
+          <br />
+          Q. As the water was salty, We could not drink. <br />
+          = The water being salty, We could not drink.
+          <br />
+          অনুরুপভাবেঃ <br />
+          উল্লোটা করলেই Complex হবে অর্থাৎ শুরুতে As/Since এবং Being স্থলে am/
+          is/ are বা having এর স্থলে have/has/had বসে। <br />
+          যেমনঃ <br />
+          Q. The water being salty, We could not drink. <br />= As the water was
+          salty, We could not drink.{" "}
+        </div>
+        <br />
+        <div className="">
+          <strong>কিন্তু-</strong>
+          <br />
+          <strong>Rule - (3): </strong> When দ্বারা বাক্যে দিনের কোন বেলাকে
+          বুঝালে When + Sub + V উঠিয়ে At বসে , বয়স বুঝালে At the age of এবং ঋতু
+          বুঝালে In বসে । <br />
+          যেমনঃ <br />
+          Q. When it is spring, the cuckoo sings. <br />
+          = In spring the cuckoo sings.
+          <br />
+          অনুরূপঃ <br />
+          at / In / at the age of উঠিয়ে When + it/ sub (আগের বাক্য অনুসারে) + V
+          বসালে Complex হবে। <br />
+          যেমনঃ <br />
+          Q. At the age of four, he left home. <br />= When he was four, he left
+          home.
+        </div>
+        <br />
+        <div className="">
+          <strong> Rule - (4): </strong>Who/ Which/ That/ what দ্বারা দুটি বাক্য
+          যুক্ত হলে who/ which/ that/ what + helping Verb (যদি থাকে) উঠিয়ে পরের
+          মুল V₁ এর সঙ্গে ing যুক্ত করতে হবে। <br />
+          যেমনঃ <br />
+          Q. I saw a man who was walking. <br />
+          = I saw a man walking. <br />
+          অনুরুপভাবেঃ <br />
+          উল্টাটে করলে Complex হবে। <br />
+          যেমনঃ <br />
+          Q. I lived in a house belonging to me. <br />
+          =I lived in a house which belonged to me. <br />
+          অর্থাৎ- <br />
+          ing যুক্ত verb এর পূর্বে বস্তুবাচক শব্দ থাকলে That/Which/What এবং
+          ব্যক্তি থাকলে Who বসিয়ে ing যুক্ত verb টিকে Tense অনুসারে সাজাতে হবে।
+        </div>
+        <br />
+        <div className="">
+          <strong>Rule: (5) </strong> So ......... that দ্বারা যুক্ত বাক্যে So
+          এর স্থলে too এবং That থেকা not পর্যন্ত উঠিয়ে To বসালে simple হবে।{" "}
+          <br />
+          যেমনঃ <br />
+          Q. He is so weak that he cannot talk. <br />
+          = He is too weak to talk. <br />
+          <strong>অনুরুপভাবে:</strong> <br />
+          উল্টাটা করলে Complex হবে। <br />
+          যেমনঃ <br />
+          Q. He walks too slowly to reach in time. <br />
+          = He walks so slowly that he cannot reach there on time. <br />
+          <strong>অর্থাৎ-</strong> <br />
+          too এর স্থলে so এবং to উঠিয়ে to এর স্থলে That + Subject (আগের বাক্য
+          অনুসারে) + cannot/ couldnot/ may not/ might not + Verb থেকে বাকি অংশ
+          হবে।
+        </div>
+        <br />
+        <div className="">
+          <strong>Rule:(6) </strong>so that দ্বারা যুক্ত বাক্যের so থেকে
+          Can/Could/may/might পর্যন্ত উঠিয়ে উক্ত স্থানে to বসালে Simple হবে।{" "}
+          <br />
+          যেমনঃ <br />
+          Q. We eat so that we may live. <br />
+          = We eat to live. <br />
+          অনুরুপভাবে: <br />
+          উল্টা করলে Complex হবে। অর্থাৎ to স্থলে so that + sub +
+          may/might/can/could বসালে Complex হবে। <br />
+          যেমনঃ <br />
+          Q. We eat to live. <br />= We eat so that we may live.
+        </div>
+        <br />
+        <div className="">
+          Rule:(7) If দ্বারা শুরু বাক্যে Negative হলে if থেকে not পর্যন্ত উঠিয়ে
+          without বসাতে হবে এবং without এর পরের V1 এর সাথে ing যুক্ত করলে Simple
+          হবে। <br />
+          যেমনঃ <br />
+          Q. If you do not study, you will not pass. <br />
+          = Without studying well, you will not pass. <br />
+          এবং <br />
+          If দ্বারা বাক্য হ্যাঁ বোধক হলে if থেকে Subject পর্যন্ত উঠিয়ে by বসিয়ে
+          পরের V-1 এর সাথে ing যুক্ত করলে Simple হবে। <br />
+          যেমনঃ <br />
+          Q. If you study well, you will pass. <br />
+          = By studying well, you will pass. <br />
+          অনুরুপভাবে: <br />
+          উল্টা করলে Complex হবে। <br />
+          যেমনঃ <br />
+          Q. By studying well, you will pass. <br />
+          = If you study well, you will pass. <br />
+          Q. Without studying well, you will not pass. <br />= If you do not
+          study, you will not pass.
+        </div>
         <br />
         <br />
-        Rule: (i) Since/ as/ when / as soon as দ্বারা শুরু বা যুক্ত বাক্যের
-        Since/ as/ when + subject উঠিয়ে মূল V₁ এর সঙ্গে ing যুক্ত করলে Simple
-        হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. Since I forget, I want out
-        <br />
-        = Forgetting him, I want out
-        <br />
-        <br />
-        <br />
-        অনুরুপঃ ing যুক্ত বাক্যের শুরুতে As + Subject বসিয়ে + এবং V টিকে পরের
-        বাক্যের tense অনুসারে বসালে Complex হবে। যেমনঃ
-        <br />
-        Q. Closing the door, I called her.
-        <br />
-        = As I closed the door, I called her.
-        <br />
-        <br />
-        <br />
-        Rule:(2) কিন্তু As/Since/when বাক্যের am/is/are/was/were এর পরিবর্তে
-        being এবং have/has/had এর পরিবর্তে having বসালে Simple হবে। যেমনঃ
-        <br />
-        Q. As the water was salty, We could not drink. = The water being salty,
-        We could not drink.
-        <br />
-        <br />
-        অনুরুপভাবেঃ উল্লোটা করলেই Complex হবে অর্থাৎ শুরুতে As এবং Being স্থলে
-        am/ is/ are বা having এর স্থলে have/has/had বসে। যেমনঃ
-        <br />
-        Q. The water being salty, We could not drink.
-        <br />
-        = As the water was salty, We could not drink.
-        <br />
-        <br />
-        <br />
-        Rule: কিন্তু When দ্বারা বাক্যে দিনের কোন বেলাকে বুঝালে When + Sub + V
-        উঠিয়ে At বসে , বয়স বুঝালে At the age of এবং ঋতু বুঝালে In বসে । যেমনঃ{" "}
-        <br />
-        Q. When it is spring, the cuckoo sings,
-        <br />
-        = In spring the cuckoo sings.
-        <br />
-        <br />
-        <br />
-        অনুরূপঃ at / In / at the age of উঠিয়ে When + it/ sub + V বসালে Complex
-        হবে।
-        <br />
+        Rule:(8) Though/although এর পরিবর্তে In spite of/ Despite of বসিয়ে পরের
+        মূল V₁ এর সঙ্গে ing যুক্ত করলে Simple হবে। <br />
         যেমনঃ <br />
-        Q. At the age of four, he left home.
-        <br />
-        = When he was four, he left home.
-        <br />
-        <br />
-        <br />
-        Rule:(3) That/what দ্বারা দুটি বাক্য যুক্ত হলে That/what helping verb
-        (যদি থাকে) উঠিয়ে পরের মুল V₁ এর সঙ্গে ing যুক্ত করতে হবে।
-        <br />
-        যেমনঃ <br />
-        Q. I saw a man who was walking.
-        <br />
-        = I saw a man walking.
-        <br />
-        অনুরুপভাবেঃ উল্টাটে করলে Complex হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. I lived in a house belonging to me.
-        <br />
-        =I lived in a house which belonged to me.
-        <br />
-        অর্থাৎ ing যুক্ত verb এর পূর্বে বস্তুবাচক শব্দ থাকলে That/Which/What এবং
-        ব্যক্তি থাকলে Who বসিয়ে ing যুক্ত verb টিকে Tense অনুসারে সাজাতে হবে।
-        <br />
-        <br />
-        Rule: (4) So......... that দ্বারা যুক্ত বাক্যে So এর স্থলে too এবং
-        That-not পর্যন্ত উঠিয়ে To বসালে simple হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. He is so weak that he cannot talk.
-        <br />
-        = He is too weak to talk.
-        <br />
-        <br />
-        অনুরুপভাবে: উল্টাটা করলে Complex হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. He walks too slowly to reach in time.
-        <br />
-        = He walks so slowly that he cannot reach there in time.
-        <br />
-        <br />
-        <br />
-        Rule:(5) so that দ্বারা যুক্ত বাক্যের so থেকে Can/Could/may/might
-        পর্যন্ত উঠিয়ে উক্ত স্থানে to বসালে Simple হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. We eat so that we may live.
-        <br />
-        = We eat to live,
-        <br />
-        অনুরুপভাবে: উল্টা করলে Complex হবে। অর্থাৎ to স্থলে so that + sub +
-        may/might/can/could বসালে Complex হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. We eat to live.
-        <br />
-        = We eat so that we may live.
-        <br />
-        <br />
-        Rule:(6) If দ্বারা শুরু বাক্যে Negative হলে without এবং If দ্বারা বাক্য
-        হ্যাঁ বোধক হলে by বসিয়ে পরের V-1 এর সাথে ing যুক্ত করলে Simple হবে।
-        যেমনঃ
-        <br />
-        Q. If you study well, you will pass.
-        <br />
-        = By studying well, you will pass.
-        <br />
-        Q. If you do not study, you will not pass.
-        <br />
-        = Without studying well, you will not pass
-        <br />.
-        <br />
-        <br />
-        অনুরুপভাবে উল্টা করলে Complex হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. By studying well, you will pass.
-        <br />
-        = If you study well, you will pass.
-        <br />
-        Q. Without studying well, you will not pass.
-        <br />
-        = If you do not study, you will not pass.
-        <br />
-        <br />
-        Rule:(7) Though/although এর পরিবর্তে In spite of/ Despite of বসিয়ে পরের
-        মূল V₁ এর সঙ্গে ing যুক্ত করলে Simple হবে।
-        <br />
-        যেমনঃ
-        <br />
-        Q. Though he is poor, he is honest.
-        <br />
+        Q. Though he is poor, he is honest. <br />
         = In spite of being poor, he is honest.
         <br />
         Q. Though he read well, he could not pass.
@@ -1194,203 +1170,221 @@ const Transformation = () => {
       </div>
 
       <div className="mt-10">
-        Transform the following Complex Sentences into Simple or Compound:{" "}
+        <h3 className="">Transform the Sentences into Simple or Compound:</h3>
+        <p className="">
+          1.Samira is sitting under a mango tree which is big. 2. She has a
+          cousin whose name is Karim. 3. She is reading a book which is blue. 4.
+          He is looking at some flowers which are beautiful. 5. Samira has a pen
+          friend who is an Australian. 6. Lucy has sent Samira a picture which
+          is full of tall buildings. 7. The cuckoo sings when it is the spring
+          season. 8. It rains when it is the rainy season. 9. We went to the
+          fair when it was evening. 10. He went to the library so that he could
+          read. 11. She works hard so that she can prosper in life, 12. He
+          waited till our arrival. 13. I helped a man who was blind. 14 They are
+          fighters who are very brave. 15. I bought a pen which was costly. good
+          health. 17. People build houses so that they may remain safe. 18. He
+          sells milk which is pure 19. He found a bag which was dropped by a
+          passer-by. 21. a man who is needy suffers from many wants. 22. He is a
+          man who possesses good health. 23. I know where he was born New what
+          his father's name was. 25. The girl shone in life because her indust.
+          26. All love honesty. 27. The man suffered in life because he had
+          idleness. 28. since he worked tha 3. he became rich. 29. He bought a
+          pen which was costly. 30. I want a pen which is white. 31. I saw a man
+          who was lame. 32. We saw a man who was sleeping on the street. 33. The
+          man who is pious leads a peaceful life. 34. The man who is patriotic
+          loves his country. 35. The man who is honest is free from greed. 36.
+          Though he is brilliant, he cannot make good results. 37. Although he
+          started late, he finished earlier. 38. The cock crows when it is.
+          morning. 39. When he was four, he left home. 40. you do not speak
+          English if we speak English well. 41. If we do not drink clean water,
+          we can not keep fit. 42. If we eat a balanced diet, we can be healthy.
+        </p>
         <br />
-        1.Samira is sitting under a mango tree which is big. 2. She has a cousin
-        whose name is Karim. 3. She is reading a book which is blue. 4. He is
-        looking at some flowers which are beautiful. 5. Samira has a pen friend
-        who is an Australian. 6. Lucy has sent Samira a picture which is full of
-        tall buildings. 7. The cuckoo sings when it is the spring season. 8. It
-        rains when it is the rainy season. 9. We went to the fair when it was
-        evening. 10. He went to the library so that he could read. 11. She works
-        hard so that she can prosper in life, 12. He waited till our arrival.
-        13. I helped a man who was blind. 14 They are fighters who are very
-        brave. 15. I bought a pen which was costly. good health. 17. People
-        build houses so that they may remain safe. 18. He sells milk which is
-        pure 19. He found a bag which was dropped by a passer-by. 21. a man who
-        is needy suffers from many wants. 22. He is a man who possesses good
-        health. 23. I know where he was born New what his father's name was. 25.
-        The girl shone in life because her indust. 26. All love honesty. 27. The
-        man suffered in life because he had idleness. 28. since he worked tha 3.
-        he became rich. 29. He bought a pen which was costly. 30. I want a pen
-        which is white. 31. I saw a man who was lame. 32. We saw a man who was
-        sleeping on the street. 33. The man who is pious leads a peaceful life.
-        34. The man who is patriotic loves his country. 35. The man who is
-        honest is free from greed. 36. Though he is brilliant, he cannot make
-        good results. 37. Although he started late, he finished earlier. 38. The
-        cock crows when it is. morning. 39. When he was four, he left home. 40.
-        you do not speak English if we speak English well. 41. If we do not
-        drink clean water, we can not keep fit. 42. If we eat a balanced diet,
-        we can be healthy.
+        <h3 className="">
+          Transform the following Compound Sentences into Simple/ Complex.
+        </h3>
+        <p className="">
+          1. She has a cousin and his name is Karim. 3. She is reading a book
+          and it is blue. 3. He is looking at some flowers and they are
+          beautiful. 4 Santira has a pen friend and she is an Australian. 5. He
+          took the purse and ran away. 6. The sea water was very salty and they
+          could not drink it. 7. Work hard and you will prosper. 8. The culprit
+          ran away and escaped himself. 9. He is healthy but he doesn't work at
+          all. 10. He had all the qualifications but he did not get a job. 11.
+          He behaved rough but he was not punished. 12. The farmers worked day
+          and night but they could not grow a good harvest. 13. Walk fast or you
+          can not get the train. 14. I called him but he did not respond. 15. I
+          forgot him and went outside the room. 16. It is Nie spring season and
+          then the cuckoo sings. 17. We went to the fair and then it was evening
+          18 He went to read in the library and so he went there. 19. She wants
+          to prosper in fe and so the works hard. 20. He worked hard and so he
+          became rich. 21. The girl studied more and so she stood first. 22. A
+          man was sleeping on the street and we saw that. 23 He is brilliant but
+          he cannot make good results. 24. He started late but he finished
+          earlier. /25 4/19 morning and then cock crows. 26. He was four and
+          then he left home. 27. Speak English or you can not speak English
+          well. 28. We should drink clean water or we can not keep fit.
+        </p>
         <br />
+        <h3 className="">Turn the sentences into Superlative/Positive:</h3>
+        <p className="">
+          1. Beef was cheaper than any other dish on the menu. 2. Iron is more
+          useful than any other metal. 3. He is nobler than any other person. 4.
+          She was better than any other housewife. 5. "Hamlet" is more popular
+          than most other dramas. 6. Akbar was greater than all other kings of
+          India. 7. Mr. Zaman is wiser than any other man in the village. 8.
+          Chittagong is bigger than any other sea part in Bangladesh. 9. It
+          burns prettier than any other wood. 10. He is better than any other
+          boy I have ever found. 11. "Arabian Nights" is better than most other
+          story books. 12. He was cleverer than any other person in the company.
+          13. Rubel ! younger than all other boys in the class. 14. She is worse
+          than any other girl.
+        </p>
         <br />
-        Transform the following Compound Sentences into Simple.
+        <h3 className="">Turn the sentences into positive:</h3>
+        <p className="">
+          1. A lion is not braver than he. 2. He was not less wise than they. 3.
+          You are older than I. 4 Prevention is better than cure. 5. A train
+          runs faster than a bus. 6. Her teeth were brighter than a string of
+          pearls. 7. She is less ugly than you said. 8. Imran Khan is greater
+          than mos other cricketers. 9. He is not less intelligent than any
+          other boy. 10. Her face was not les radiant than the full moon. 11. He
+          was cleverer than any other person in the company. Iron is more useful
+          than any other metal. 13. Tomatoes are cheaper than oranges. I Bhutan
+          is smaller than most other countries in the world.
+        </p>
         <br />
-        1. She has a cousin and his name is Karim. 3. She is reading a book and
-        it is blue. 3. He is looking at some flowers and they are beautiful. 4
-        Santira has a pen friend and she is an Australian. 5. He took the purse
-        and ran away. 6. The sea water was very salty and they could not drink
-        it. 7. Work hard and you will prosper. 8. The culprit ran away and
-        escaped himself. 9. He is healthy but he doesn't work at all. 10. He had
-        all the qualifications but he did not get a job. 11. He behaved rough
-        but he was not punished. 12. The farmers worked day and night but they
-        could not grow a good harvest. 13. Walk fast or you can not get the
-        train. 14. I called him but he did not respond. 15. I forgot him and
-        went outside the room. 16. It is Nie spring season and then the cuckoo
-        sings. 17. We went to the fair and then it was evening 18 He went to
-        read in the library and so he went there. 19. She wants to prosper in fe
-        and so the works hard. 20. He worked hard and so he became rich. 21. The
-        girl studied more and so she stood first. 22. A man was sleeping on the
-        street and we saw that. 23 He is brilliant but he cannot make good
-        results. 24. He started late but he finished earlier. /25 4/19 morning
-        and then cock crows. 26. He was four and then he left home. 27. Speak
-        English or you can not speak English well. 28. We should drink clean
-        water or we can not keep fit.
+        <h3 className="">Turn the Sentences into comparative/Superlative:</h3>
+        <p className="">
+          1. No other food on the menu was so cheap as beef. 2. Very few metals
+          are so precious as gold. 3. A bird can not fly as fast as a train. 4.
+          Very few hotels are as fashionable as Sheraton. 5. Cure is not so good
+          as prevention. 6. Very few boys are as good as Hasan. 7. No other
+          story book is so popular as the Arabian Nights. 8. No other wood burns
+          so pretty as the apple log. 9. No other city in Bangladesh is so big
+          as phaka. 10. No other man in the village was so old as he. 11. You
+          are not as tall as he. 12. No other girl in the class is so beautiful
+          as she. 13. They were not as strong as we. 14. Very few bays in the
+          class are so clever as you.
+        </p>
         <br />
+        <h3 className=""> Turn the sentences into Comparative/Positive:</h3>
+        <p className="">
+          {" "}
+          1. She was the best house wife. 2. He is the best boy 3 tron is the
+          most useful of all metals. 4. It burns the prettiest of any wood. 5.
+          He is the noblest person. 6. Dhaka is the largest city in Bangladesh.
+          7. This is one of the greatest pictures of the world.8. Chittagong is
+          the biggest port in Bangladesh. 9. He is one of the wisest men in the
+          village. 10. Milk is the most nutritious of all foods. 11. Bangladesh
+          is one of the smallest countries in the world. 12. Swimming is the
+          best exercise. 13. Everest is the highest of all peaks in the world.
+          14. This is one of the most beautiful pictures in the exhibition, 15.
+          He was the most humorous of all men in the company. 16. Akbar was one
+          of the greatest kings of this sub- continent. 17. Australia is the
+          largest of all islands in the world.
+        </p>
         <br />
-        Turn the following sentences into superlative
+        <h3 className="">
+          Transform the sentences into superlative/ Comperative
+        </h3>
+        <p className="">
+          1. No other boy in the orphanage is so good as Jamal. 2. No other girl
+          in the class is so fair as Ruma. 3. Very few restaurants are as
+          expensive as Sonargaon. 4. No other city in Bangladesh is so big as
+          Dhaka. 5. Very few pictures in the world are as great as this. 6. Very
+          few metals are so precious as gold 7. Very low animals are as
+          ferocious as a lion. 8. No other mosque is so large as this. 9. No
+          other dramatists so great as Shakespeare. 10. No other woman was as
+          clever as the lady guest. N. No other animal is so useful as the cow.
+          12. No other food is so nutritious as milk. 13. Very few players in
+          the team are as good as he.
+        </p>
         <br />
-        1. Beef was cheaper than any other dish on the menu. 2. Iron is more
-        useful than any other metal. 3. He is nobler than any other person. 4.
-        She was better than any other housewife. 5. "Hamlet" is more popular
-        than most other dramas. 6. Akbar was greater than all other kings of
-        India. 7. Mr. Zaman is wiser than any other man in the village. 8.
-        Chittagong is bigger than any other sea part in Bangladesh. 9. It burns
-        prettier than any other wood. 10. He is better than any other boy I have
-        ever found. 11. "Arabian Nights" is better than most other story books.
-        12. He was cleverer than any other person in the company. 13. Rubel !
-        younger than all other boys in the class. 14. She is worse than any
-        other girl.
+        <h3 className="">
+          Transform the following sentences into Interrogative
+        </h3>
+        <p className="">
+          1. Sonargaon is a restaurant. 2. He liked the late spring. 6. She
+          likes white gloves. 4. Prevention is better than cure. 5. Addiction to
+          drinking is dangerous. 6. I have had my revenge at last. 7. They could
+          not drink salty sea water. 8. They took a mighty pride in their
+          possessions. 9. The smell of the melted butter tickled my Hasirlis 10.
+          The flavour of the food becomes monotonous. 11. I shall never forget
+          your advice. 12. I never went there. 13. Their glory can never fade.
+          14. He is not a 16. He was not a fool. 17. He is a great fool. 15 Hes
+          not present in the meeting. great scholar. 18. He went there of the
+          own accord. 19. 1 have nothing to say. 20. There was nothing to do bat
+          flop down 21 There is nothing wrong with me. 22. Everybody hankers
+          after happiness. 23. Everybody loves a patriot. 24. Everybody fears
+          death. 25. Everyone hates a criminal. 26. Nobody trusts a llar. 27. No
+          one can depend on an unreliable man. 28. No one hits accurately
+          everyone. 29. Nobody could ever count my love for you. 30. None has
+          ever seen suchra ne sight
+        </p>
         <br />
+        <h3 className="">
+          TRANSFORM THE FOLLOWING SENTENCES INTO AFFIRMATIVE:
+        </h3>
+        <p className="">
+          1. None but Allah can help us. 2. None but the fool will say so 3.
+          Never tell a lie. 4. He was never late. 5. You can not help going
+          there. 6. He was not a dishonest boy. 7. I did not find many people
+          there. 8. No sooner had I reached the college than the bell rang. 9.
+          There is no mother but loves her child. 10. No one will any his
+          courage. 11. The boy was not unlike his father 12 All can not but
+          submit to destiny. foreign tour. 14. 1 shall never be ungrateful to
+          you There is nobody but likes to go on a He 19 not dishonoured by
+          anybody: 16. No sooner had he come than the meeting started. 17. We
+          did not find the road bad. 18. A good boy never neglects his lesson.
+          19. There rase without disagreed with him. 21. 1 can not but shed
+          tears at the sight. a thorn. 20. I never 22. This did not please me.
+          23. The old man was not kind. 24. He was not solvent 25. There is no
+          cloud without a silver lining.
+        </p>
         <br />
-        Turn the following sentences into positive
+        <h3 className="">Transform the following sentences into assertive:</h3>
+
+        <p className="">
+          1. How sweetly the cuckoo sings! 2. What a nice flower the rose is! 3.
+          What a big river the Padma is! 4. What a fool you are l 5. How
+          talkative she was! 6. How pretty the girl is! 7. What a fine flower it
+          is! 8. How exciting the first day in Cox's Bazar ts! 9. What a lovely
+          place it is! 10. How beautiful the youngest sister wast 11. What a
+          beautiful bird it is! 12. How fortunate the porter was ! 13. How time
+          does fly! 14. How deep her love for her husband was! 15. What
+          wonderful scenery it ist I could be a child again! 17. Had I been a
+          merchant! 18. If I were a millionaire 1 If I were a philosopher like
+          Socrates. 20. "Had I possessed a lot of wealth! 21. flow charining is
+          the first meal in a strange town! 22. How charming still is Italy! 23,
+          Nurrall we have won the match. 24. Hurrah, we are victorious. 25.
+          Alas! I am undone. 26. Would that we could enter the house?
+        </p>
+
         <br />
-        1. A lion is not braver than he. 2. He was not less wise than they. 3.
-        You are older than I. 4 Prevention is better than cure. 5. A train runs
-        faster than a bus. 6. Her teeth were brighter than a string of pearls.
-        7. She is less ugly than you said. 8. Imran Khan is greater than mos
-        other cricketers. 9. He is not less intelligent than any other boy. 10.
-        Her face was not les radiant than the full moon. 11. He was cleverer
-        than any other person in the company. Iron is more useful than any other
-        metal. 13. Tomatoes are cheaper than oranges. I Bhutan is smaller than
-        most other countries in the world.
+        <h3 className="">Transform the following sentences into negative:</h3>
+
+        <p className="">
+          {" "}
+          1. The old man was alone alive. 2. Only the graduates should apply. 3.
+          Only the brave deserve the fair. Only the moon was visible. 5. He
+          lives alone in the house. Man must submit to destiny. 7. You must obey
+          your teachers. 8. All men must dic. 9. As soon as the teacher entered
+          the classroom, the students stood up. 10. As soon as he saw me, he ran
+          away.. Every rose has thorns, 12. Every map hates a liar. 13.
+          Everybody believes in his honesty. 14. Every mother loves her child.
+          4. Everyone loves a truthful boy. 16. I shall always remember youThe
+          man was old. 18 The man is poor. 19 Man is mortal. 20. missed the
+          tram. 2. I was doubtful of his honesty. 23. I forgot his name. 24. He
+          is present in the meeting. 25. Travelling is always pleasant. 26. The
+          men were pleased to see. 27. They were right to think so. 28. The boy
+          speaks English. 29. He is my friend. 30. Dhaka is an old city. 31. We
+          should always tell the truth. 32. He is the best boy in the class. 33.
+          The man is as ferocious as a lion. 34. He was too honest to take the
+          money. 35. He is as dull as an ass. 36. She was too poor to buy a gift
+          for her husband.
+        </p>
         <br />
-        <br />
-        Turn the following Sentences into comparative
-        <br />
-        1. No other food on the menu was so cheap as beef. 2. Very few metals
-        are so precious as gold. 3. A bird can not fly as fast as a train. 4.
-        Very few hotels are as fashionable as Sheraton. 5. Cure is not so good
-        as prevention. 6. Very few boys are as good as Hasan. 7. No other story
-        book is so popular as the Arabian Nights. 8. No other wood burns so
-        pretty as the apple log. 9. No other city in Bangladesh is so big as
-        phaka. 10. No other man in the village was so old as he. 11. You are not
-        as tall as he. 12. No other girl in the class is so beautiful as she.
-        13. They were not as strong as we. 14. Very few bays in the class are so
-        clever as you.
-        <br />
-        <br />
-        Turn the following superlatives into comparative
-        <br />
-        1. She was the best house wife. 2. He is the best boy 3 tron is the most
-        useful of all metals. 4. It burns the prettiest of any wood. 5. He is
-        the noblest person. 6. Dhaka is the largest city in Bangladesh. 7. This
-        is one of the greatest pictures of the world.8. Chittagong is the
-        biggest port in Bangladesh. 9. He is one of the wisest men in the
-        village. 10. Milk is the most nutritious of all foods. 11. Bangladesh is
-        one of the smallest countries in the world. 12. Swimming is the best
-        exercise. 13. Everest is the highest of all peaks in the world. 14. This
-        is one of the most beautiful pictures in the exhibition, 15. He was the
-        most humorous of all men in the company. 16. Akbar was one of the
-        greatest kings of this sub- continent. 17. Australia is the largest of
-        all islands in the world.
-        <br />
-        <br />
-        | Transform the following sentences into superlative
-        <br />
-        1. No other boy in the orphanage is so good as Jamal. 2. No other girl
-        in the class is so fair as Ruma. 3. Very few restaurants are as
-        expensive as Sonargaon. 4. No other city in Bangladesh is so big as
-        Dhaka. 5. Very few pictures in the world are as great as this. 6. Very
-        few metals are so precious as gold 7. Very low animals are as ferocious
-        as a lion. 8. No other mosque is so large as this. 9. No other
-        dramatists so great as Shakespeare. 10. No other woman was as clever as
-        the lady guest. N. No other animal is so useful as the cow. 12. No other
-        food is so nutritious as milk. 13. Very few players in the team are as
-        good as he.
-        <br />
-        <br />
-        Transform the following sentences into Interrogative <br />
-        1. Sonargaon is a restaurant. 2. He liked the late spring. 6. She likes
-        white gloves. 4. Prevention is better than cure. 5. Addiction to
-        drinking is dangerous. 6. I have had my revenge at last. 7. They could
-        not drink salty sea water. 8. They took a mighty pride in their
-        possessions. 9. The smell of the melted butter tickled my Hasirlis 10.
-        The flavour of the food becomes monotonous. 11. I shall never forget
-        your advice. 12. I never went there. 13. Their glory can never fade. 14.
-        He is not a 16. He was not a fool. 17. He is a great fool. 15 Hes not
-        present in the meeting. great scholar. 18. He went there of the own
-        accord. 19. 1 have nothing to say. 20. There was nothing to do bat flop
-        down 21 There is nothing wrong with me. 22. Everybody hankers after
-        happiness. 23. Everybody loves a patriot. 24. Everybody fears death. 25.
-        Everyone hates a criminal. 26. Nobody trusts a llar. 27. No one can
-        depend on an unreliable man. 28. No one hits accurately everyone. 29.
-        Nobody could ever count my love for you. 30. None has ever seen suchra
-        ne sight
-        <br />
-        <br />
-        TRANSFORM THE FOLLOWING SENTENCES INTO AFFIRMATIVE
-        <br />
-        1. None but Allah can help us. 2. None but the fool will say so 3. Never
-        tell a lie. 4. He was never late. 5. You can not help going there. 6. He
-        was not a dishonest boy. 7. I did not find many people there. 8. No
-        sooner had I reached the college than the bell rang. 9. There is no
-        mother but loves her child. 10. No one will any his courage. 11. The boy
-        was not unlike his father 12 All can not but submit to destiny. foreign
-        tour. 14. 1 shall never be ungrateful to you There is nobody but likes
-        to go on a He 19 not dishonoured by anybody: 16. No sooner had he come
-        than the meeting started. 17. We did not find the road bad. 18. A good
-        boy never neglects his lesson. 19. There rase without disagreed with
-        him. 21. 1 can not but shed tears at the sight. a thorn. 20. I never 22.
-        This did not please me. 23. The old man was not kind. 24. He was not
-        solvent 25. There is no cloud without a silver lining.
-        <br />
-        <br />
-        Transform the following sentences into assertive
-        <br />
-        1. How sweetly the cuckoo sings! 2. What a nice flower the rose is! 3.
-        What a big river the Padma is! 4. What a fool you are l 5. How talkative
-        she was! 6. How pretty the girl is! 7. What a fine flower it is! 8. How
-        exciting the first day in Cox's Bazar ts! 9. What a lovely place it is!
-        10. How beautiful the youngest sister wast 11. What a beautiful bird it
-        is! 12. How fortunate the porter was ! 13. How time does fly! 14. How
-        deep her love for her husband was! 15. What wonderful scenery it ist I
-        could be a child again! 17. Had I been a merchant! 18. If I were a
-        millionaire 1 If I were a philosopher like Socrates. 20. "Had I
-        possessed a lot of wealth! 21. flow charining is the first meal in a
-        strange town! 22. How charming still is Italy! 23, Nurrall we have won
-        the match. 24. Hurrah, we are victorious. 25. Alas! I am undone. 26.
-        Would that we could enter the house?
-        <br />
-        <br />
-        Transform the following sentences into negative.
-        <br />
-        1. The old man was alone alive. 2. Only the graduates should apply. 3.
-        Only the brave deserve the fair. Only the moon was visible. 5. He lives
-        alone in the house. Man must submit to destiny. 7. You must obey your
-        teachers. 8. All men must dic. 9. As soon as the teacher entered the
-        classroom, the students stood up. 10. As soon as he saw me, he ran
-        away.. Every rose has thorns, 12. Every map hates a liar. 13. Everybody
-        believes in his honesty. 14. Every mother loves her child. 4. Everyone
-        loves a truthful boy. 16. I shall always remember youThe man was old. 18
-        The man is poor. 19 Man is mortal. 20. missed the tram. 2. I was
-        doubtful of his honesty. 23. I forgot his name. 24. He is present in the
-        meeting. 25. Travelling is always pleasant. 26. The men were pleased to
-        see. 27. They were right to think so. 28. The boy speaks English. 29. He
-        is my friend. 30. Dhaka is an old city. 31. We should always tell the
-        truth. 32. He is the best boy in the class. 33. The man is as ferocious
-        as a lion. 34. He was too honest to take the money. 35. He is as dull as
-        an ass. 36. She was too poor to buy a gift for her husband.
       </div>
     </div>
   );
