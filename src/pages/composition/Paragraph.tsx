@@ -296,13 +296,16 @@ const Paragraph = () => {
           <AccordionContent className="p-2 md:p-5">
             <div className="py-5">
               <h3 className="text-center py-3">
-                Independence Day/ <br />
-                Victory Day/ Observance of 16th December
+                1. Independence Day <br />
+                2. Victory Day <br />
+                3. Observance of 16th December
                 <br />
-                International Mother Language Day/ <br />
-                21st February/ Observance of 21st February <br />
-                Shahid Dibosh/ <br />
-                Pahela Baishakh / Bangla New Year <br />
+                4. International Mother Language Day <br />
+                5. 21st February <br />
+                6. Observance of 21st February <br />
+                7. Shahid Dibosh <br />
+                8. Pahela Baishakh <br />
+                9. Bangla New Year <br />
               </h3>
               <p className="text-start pb-5">
                 <strong>Answer: </strong>
@@ -317,13 +320,18 @@ const Paragraph = () => {
                 for the country.
               </p>
 
-              <p className="">
+              <p className="py-5">
+                বিশেষ দ্রষ্টব্য: [TOPIC] এর জায়গায় তোমার নির্দিষ্ট Paragraph এর
+                নাম এবং [Definition] এর জায়গায় তোমার নির্দিষ্ট Paragraph এর নাম
+                অনুসারে নিচে থেকে Definition লিখে বাকী সব অপরিবর্তিত রাখো।
+              </p>
+              <p className="py-3">
                 <strong>Definition of Pahela Boishakh: </strong> Pahela Baishakh
                 is the first day of the first month, Baishakh, of Bangali new
                 year. This day is first invented and celebrated by the Mughol
                 emperor Akbor.
               </p>
-              <p>
+              <p className="py-3">
                 <strong>Definition of Independence Day: </strong> [TOPIC] is a
                 red-letter day in our national life. On this day, we got
                 independence from Pakistan after a bloody war of nine months
@@ -337,11 +345,6 @@ const Paragraph = () => {
                 1952, we got Bangla as state language from Pakistan by
                 sacrificing many lives. In 1997, this day is declared as
                 International mother language day by UNICEF.
-              </p>
-              <p className="py-5">
-                বিশেষ দ্রষ্টব্য: [TOPIC] এর জায়গায় তোমার নির্দিষ্ট Paragraph এর
-                নাম এবং [Definition] এর জায়গায় তোমার নির্দিষ্ট Paragraph এর নাম
-                অনুসারে নিচে থেকে Definition লিখে বাকী সব অপরিবর্তিত রাখো।
               </p>
             </div>
           </AccordionContent>
@@ -533,6 +536,7 @@ const Paragraph = () => {
             </div>
           </AccordionContent>
         </AccordionPanel>
+
         {/* Hobby2 */}
         {/* <AccordionPanel>
           <AccordionTitle>Hobby 2</AccordionTitle>

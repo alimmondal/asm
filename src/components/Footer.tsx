@@ -1,7 +1,9 @@
 import { MdLocalPhone } from "react-icons/md";
 import { Link } from "react-router-dom";
+import useAuth from "../hooks/useAuth";
 
 const Footer = () => {
+  const auth = useAuth();
   return (
     <>
       <footer className="footer p-10 bg-neutral text-neutral-content">
@@ -14,7 +16,10 @@ const Footer = () => {
           <p>
             ASM English Academy
             <br />
-            An E-Learning platform for English
+            An E-Learning platform for English <br />
+            <span className="text-rose-500 hover:text-xl">
+              Feel freedom to call me on any questions!
+            </span>
           </p>
           <ul className="flex items-center justify-center gap-2">
             <li className="border p-2 rounded hover:text-rose-500 transition-all">
@@ -29,6 +34,7 @@ const Footer = () => {
             <li></li>
           </ul>
         </aside>
+
         <nav>
           <h6 className="footer-title">Menu</h6>
           <div className="">
@@ -37,13 +43,34 @@ const Footer = () => {
                 <Link to={"/"}>Home</Link>
               </li>
               <li>
-                <Link to={"/ssc"}>SSC</Link>
+                <Link
+                  to={"/ssc"}
+                  className={
+                    !auth?.user ? "pointer-events-none opacity-50" : ""
+                  }
+                >
+                  SSC
+                </Link>
               </li>
               <li>
-                <Link to={"/hsc"}>HSC</Link>
+                <Link
+                  to={"/hsc"}
+                  className={
+                    !auth?.user ? "pointer-events-none opacity-50" : ""
+                  }
+                >
+                  HSC
+                </Link>
               </li>
               <li>
-                <Link to={"/degree"}>Degree</Link>
+                <Link
+                  to={"/degree"}
+                  className={
+                    !auth?.user ? "pointer-events-none opacity-50" : ""
+                  }
+                >
+                  Degree
+                </Link>
               </li>
               <li>
                 <Link to={"/about"}>About</Link>
@@ -51,6 +78,7 @@ const Footer = () => {
             </ul>
           </div>
         </nav>
+
         <nav>
           <h6 className="footer-title">Auth Menu</h6>
           <div className="">
@@ -62,7 +90,14 @@ const Footer = () => {
                 <Link to={"/register"}>Register</Link>
               </li>
               <li>
-                <Link to={"/dashboard"}>Dashboard</Link>
+                <Link
+                  to={"/"}
+                  className={
+                    !auth?.user ? "pointer-events-none opacity-50" : ""
+                  }
+                >
+                  Dashboard
+                </Link>
               </li>
               <li>
                 <Link to={"/about"}>About</Link>
@@ -70,6 +105,7 @@ const Footer = () => {
             </ul>
           </div>
         </nav>
+
         <nav>
           <h6 className="footer-title">Social</h6>
           <div className="grid grid-flow-col gap-4">

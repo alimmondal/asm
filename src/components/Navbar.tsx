@@ -86,21 +86,7 @@ const Navbar = () => {
                     Home
                   </Link>
                 </li>
-                <li>
-                  <Link onClick={closeMobileMenu} to={"/ssc"}>
-                    SSC
-                  </Link>
-                </li>
-                <li>
-                  <Link onClick={closeMobileMenu} to={"/hsc"}>
-                    HSC
-                  </Link>
-                </li>
-                <li>
-                  <Link onClick={closeMobileMenu} to={"/degree"}>
-                    Degree
-                  </Link>
-                </li>
+
                 <li>
                   <Link onClick={closeMobileMenu} to={"/about"}>
                     About
@@ -120,13 +106,32 @@ const Navbar = () => {
                     </li>
                   </>
                 )}
+
                 {auth?.user && (
-                  <li>
-                    <Link onClick={closeMobileMenu} to={"/dashboard"}>
-                      Dashboard
-                    </Link>
-                  </li>
+                  <>
+                    <li>
+                      <Link onClick={closeMobileMenu} to={"/ssc"}>
+                        SSC
+                      </Link>
+                    </li>
+                    <li>
+                      <Link onClick={closeMobileMenu} to={"/hsc"}>
+                        HSC
+                      </Link>
+                    </li>
+                    <li>
+                      <Link onClick={closeMobileMenu} to={"/degree"}>
+                        Degree
+                      </Link>
+                    </li>
+                    <li>
+                      <Link onClick={closeMobileMenu} to={"/dashboard"}>
+                        Dashboard
+                      </Link>
+                    </li>
+                  </>
                 )}
+
                 {auth?.user && (
                   <li>
                     <button

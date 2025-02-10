@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-
+import "pdfjs-dist/build/pdf.worker.entry";
 function Verbs() {
   return (
     <div className="h-full ">
       <div className="py-20">
-        <h1 className="text-center text-3xl md:text-6xl text-green-400">
+        <h1 className="text-center text-2xl md:text-4xl text-green-400">
           Right Form of Verbs
         </h1>
       </div>
@@ -130,9 +130,9 @@ function Verbs() {
             {/* 4 */}
             <div className="pb-3">
               <p>
-                <span className="animateText font-bold">***</span>{" "}
-                <strong>Rule: 4. </strong> বাক্যর মধ্যে Once, last, yesterday,
-                ago, one day, in the past, long since
+                <span className="animateText font-bold">Rule: 4. </span> বাক্যর
+                মধ্যে Once, last, yesterday, ago, one day, in the past, long
+                since
                 <span className="bengali">
                   ইত্যাদি অতীত নির্দেশক শব্দ থাকলে ব্রাকেটের Verb টি V2 হবে বা
                   বাক্যটি Past Indefinite Tense হয়।
@@ -149,8 +149,7 @@ function Verbs() {
             {/* 5 */}
             <div className="pb-3">
               <p>
-                <span className="animateText font-bold">*** </span>
-                <strong>Rule: 5. </strong>
+                <span className="animateText font-bold">Rule: 5. </span>
                 <br />
                 <strong> (a). </strong> Am, is, are, was, were, be, being, been,
                 <span className="bengali">
@@ -170,31 +169,32 @@ function Verbs() {
                 <sub>3</sub> হয়। <br />
                 যেমনঃ
                 <br />
-                Q. I went out having (close) the door.
-                <br />= I went out having closed the door.
+                <span className="example">
+                  Q. I went out having (close) the door.
+                  <br />= I went out having closed the door.
+                </span>
               </p>
               <strong className="text-rose-500">কিন্তু</strong>
               <p>
                 <strong> (c). </strong> বাক্যের মধ্যে Now, at this moment, day
-                by day,
-                <span className="bengali">
-                  ইত্যাদি থাকলে বাক্যটি সাধারণত Present Continuous tense হয়।
-                  যেমন:
+                by day, ইত্যাদি থাকলে বাক্যটি সাধারণত Present Continuous tense
+                হয়। যেমন:
+                <br />
+                <span className="example">
+                  Q. She is (write) now.
+                  <br />
+                  =She is writing now.
                 </span>
-                <br />
-                Q. She is (write) now.
-                <br />
-                =She is writing now.
               </p>
               <p>
                 <strong> (d). </strong>
-                <span className="bengali">
-                  Hold, locate, bear, situate ইত্যাদি Verb ব্রাকেটে থাকলে
-                  বাক্যটি passive voice এ হয়। <br />
-                  যেমনঃ
-                </span>
+                Hold, locate, bear, situate ইত্যাদি Verb ব্রাকেটে থাকলে বাক্যটি
+                passive voice এ হয়। <br />
+                যেমনঃ
                 <br />
-                Q. The festival (hold). <br />= The festival was held.
+                <span className="example">
+                  Q. The festival (hold). <br />= The festival was held.
+                </span>
               </p>
             </div>
 
@@ -282,8 +282,12 @@ function Verbs() {
                 সাধারণত এই Verb গুলো ছাড়া অন্য কোন Verb এর পরে ব্রাকেটের verb এর
                 V1 হয়। <br />
                 যেমনঃ <br />
-                Q. He tried (do) the work.
-                <br />= He tried to do the work.
+                <span className="example">
+                  {" "}
+                  Q. He tried (do) the work.
+                </span>{" "}
+                <br />
+                <span className="example">= He tried to do the work.</span>
               </p>
             </div>
 
@@ -339,9 +343,7 @@ function Verbs() {
             {/* 12 */}
             <div className="pb-3">
               <p>
-                <span className="animateText font-bold">*** </span>
-                <strong>Rule: 12. </strong>
-                <br />
+                <span className="animateText font-bold">Rule: 12. </span>
                 <strong> (a). </strong> If দ্বারা শুরু বাক্যটি
                 <span className="bengali">
                   Present Indefinite tense হলে পরের বাক্যের/ if ছাড়া বাক্যের
@@ -435,9 +437,10 @@ function Verbs() {
                 time) থাকলে Present Perfect Continuous tense হয়। <br />
                 যেমন:
                 <br />
-                Q. Ruhul (read) in Tilokpur College for two years.
-                <br />= Ruhul has been reading in Tilokpur College for two
-                years.
+                <span className="example">
+                  Q. Ruhul (read) in Tilokpur College for two years. <br />=
+                  Ruhul has been reading in Tilokpur College for two years.
+                </span>
                 <br />
                 <strong className="text-rose-600 font-bold">
                   কিন্তু-
@@ -447,19 +450,19 @@ function Verbs() {
                 থাকলে Present Perfect tense হয়। <br />
                 যেমন:
                 <br />
-                Q. He (be) in Tilokpur College for two years.
-                <br />= He has been in Tilokpur College for two years.
+                <span className="example">
+                  Q. He (be) in Tilokpur College for two years.
+                  <br />= He has been in Tilokpur College for two years.
+                </span>
               </p>
             </div>
 
+            {/* 17 */}
             <div className="pb-3">
               <div className="pb-3">
                 <p>
-                  18. Next, tomorrow,
-                  <span className="bengali">
-                    ইত্যাদি phrase থাকলে Future Indefinite হয়। Subject এর পরে
-                    will থাকে।
-                  </span>
+                  <strong>Rule-17: </strong> Next, tomorrow, ইত্যাদি phrase
+                  থাকলে Future Indefinite হয়। Subject এর পরে will থাকে।
                 </p>
                 <p className="example">
                   Q. He (return) home next day.
@@ -468,12 +471,11 @@ function Verbs() {
               </div>
               <div className="pb-3">
                 <p>
-                  19. While
-                  <span className="bengali">
-                    এর পরে Subject + V থাকলে Past Continuous Tense হয়। কিন্তু
-                    While + (V) থাকলে ব্রাকেটের Verb এর সঙ্গে ing যুক্ত হয়।
-                    যেমন:
-                  </span>
+                  <strong>Rule-18: </strong> 19. While এর পরে Subject + V থাকলে
+                  Past Continuous Tense হয়। কিন্তু While + (V) থাকলে ব্রাকেটের
+                  Verb এর সঙ্গে ing যুক্ত হয়।
+                  <br />
+                  যেমন:
                 </p>
                 <p className="example">
                   Q. While (Walk) I saw him.
@@ -486,10 +488,11 @@ function Verbs() {
               </div>
               <div className="pb-3">
                 <p className="bengali">
-                  20.
+                  <strong>Rule-19: </strong>
                   <span>
                     Subject এর পরে Not থাকলে Subject এবং tense অনুসারে
-                    সাহায্যকারী Verb এবং principal verb হয়। যেমন:
+                    সাহায্যকারী Verb এবং principal verb হয়। <br />
+                    যেমন:
                   </span>
                   <p className="example">
                     Q. He not always (drink) tea.
@@ -499,8 +502,10 @@ function Verbs() {
               </div>
               <div className="pb-3">
                 <p className="bengali">
-                  21. Second Clause এর আগে lest থাকলে, সেই বাক্যাংশের subject এর
-                  পরে verb আগে should/ might বসে। যেমন:
+                  <strong>Rule-20: </strong> Second Clause এর আগে lest থাকলে,
+                  সেই বাক্যাংশের subject এর পরে verb আগে should/ might বসে।
+                  <br />
+                  যেমন:
                 </p>
                 <p className="example">
                   = He walked fast lest he (miss) the train.
@@ -514,8 +519,10 @@ function Verbs() {
 
               <div className="pb-3">
                 <p className="bengali">
-                  22. ব্রাকেটে Be/to be থাকলে be এর স্থলে Tense অনুসারে am, is,
-                  are, was, were, be, being, been এর যেকোন একটি হতে পারে। যেমন:
+                  <strong>Rule-21: </strong> ব্রাকেটে Be/to be থাকলে be এর স্থলে
+                  Tense অনুসারে am, is, are, was, were, be, being, been এর যেকোন
+                  একটি হতে পারে। <br />
+                  যেমন:
                 </p>
                 <p className="example">
                   Q. The rich (to be) not always happy.
@@ -525,8 +532,9 @@ function Verbs() {
 
               <div className="pb-3">
                 <p className="bengali">
-                  23. দৈঘ বা পরিমাণ বাচক শব্দ Sub হেল সেই Sub এর পরে verb
-                  singular হয়। যেমন:
+                  <strong>Rule-22: </strong> দৈঘ বা পরিমাণ বাচক শব্দ Sub হেল সেই
+                  Sub এর পরে verb singular হয়। <br />
+                  যেমন:
                 </p>
                 <p className="example">
                   Q. Ten kgs (be) heavy weight.
@@ -536,8 +544,9 @@ function Verbs() {
 
               <div className="pb-3">
                 <p className="bengali">
-                  24. Wh (who, which) এর পরে Verb থাকলে Wh এর পূর্বের subject
-                  অনুসারে verb হয়। যেমন:
+                  <strong>Rule-23: </strong> Wh (who, which) এর পরে Verb থাকলে
+                  Wh এর পূর্বের subject অনুসারে verb হয়। <br />
+                  যেমন:
                 </p>
                 <p className="example">
                   Q. It is I who (be) to blame.
@@ -547,10 +556,11 @@ function Verbs() {
 
               <div className="pb-3">
                 <p className="bengali">
-                  25. Nobody, no one, none, somebody, someone, something, each,
-                  every, either of, neither of, any, one, each of, every এগুলো
-                  Subject হলে থাকলে বা এগুলোর পরে Noun থাকলে Subject singular হয়
-                  এবং verb singular হয়। যেমন:
+                  <strong>Rule-24: </strong> Nobody, no one, none, somebody,
+                  someone, something, each, every, either of, neither of, any,
+                  one, each of, every এগুলো Subject হলে থাকলে বা এগুলোর পরে Noun
+                  থাকলে Subject singular হয় এবং verb singular হয়। <br />
+                  যেমন:
                 </p>
                 <p className="example">
                   Q. Something (be) wrong.
@@ -559,8 +569,18 @@ function Verbs() {
               </div>
             </div>
 
+            {/* <div className="text-center py-4">
+              <a
+                href="/Right-form of verbs.pdf"
+                download
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              >
+                Download PDF
+              </a>
+            </div> */}
+
             {/* exercise */}
-            <div className="mt-10">
+            <div className="my-10">
               <h2>Exercise</h2>
               <p>1. The moon (shine) at night.</p>
               <p>2. Flowers (be) gift of nature.</p>

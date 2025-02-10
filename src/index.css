@@ -11,10 +11,12 @@
   /* margin-top: 10px; */
   /* height: 30px;
   width: 30px; */
+  /* color: blue; */
   animation: logoBlink 2s infinite ease-in-out;
 }
 @keyframes logoBlink {
   100% {
+    /* color: red; */
     opacity: 0;
   }
 }
@@ -60,7 +62,7 @@
 
 .example {
   margin-left: 20px;
-  color: darkblue;
+  color: blue;
 }
 .menus {
   position: sticky;

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Ssc() {
   return (
-    <div className="max-w-[65%] h-screen mx-auto ">
+    <div className="max-w-[95%] md:max-w-[65%] h-screen mx-auto ">
       <h1 className="py-24 text-center w-full text-4xl font-bold ">SSC</h1>
       <div className="mb-10">
         <ul className="flex items-center justify-center flex-wrap gap-3 px-2 md:px-20">
