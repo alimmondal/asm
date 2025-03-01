@@ -51,6 +51,7 @@ import SearchResults from "../pages/SearchResults";
 import BoardQuestion from "../pages/hscItems/BoardQuestion";
 import DPartsOfSpeech from "../pages/DegreeItems/DPartsOfSpeech";
 import Sentence from "../pages/allItems/Sentence";
+import SscQuestion from "../pages/sscItems/SscQuestion";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -97,6 +98,10 @@ export const router = createBrowserRouter([
       {
         path: "/completing",
         element: <Completing />,
+      },
+      {
+        path: "/sscQuestion",
+        element: <SscQuestion />,
       },
       {
         path: "/tag",

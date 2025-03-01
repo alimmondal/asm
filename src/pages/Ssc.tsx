@@ -85,6 +85,11 @@ function Ssc() {
               Dialog
             </li>
           </Link>
+          <Link to={"/sscQuestion"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
+              Board Question
+            </li>
+          </Link>
         </ul>
 
         {/* <div className="">
