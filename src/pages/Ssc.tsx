@@ -18,7 +18,7 @@ function Ssc() {
           </Link>
           <Link to={"/suffix"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
-              Suffix & Prifix
+              Suffix-Prefix
             </li>
           </Link>
 

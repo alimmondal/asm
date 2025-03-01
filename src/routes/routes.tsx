@@ -52,6 +52,7 @@ import BoardQuestion from "../pages/hscItems/BoardQuestion";
 import DPartsOfSpeech from "../pages/DegreeItems/DPartsOfSpeech";
 import Sentence from "../pages/allItems/Sentence";
 import SscQuestion from "../pages/sscItems/SscQuestion";
+import ModelTest from "../pages/hscItems/ModelTest";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -82,6 +83,10 @@ export const router = createBrowserRouter([
       {
         path: "/HQuestion",
         element: <BoardQuestion />,
+      },
+      {
+        path: "/modelTest",
+        element: <ModelTest />,
       },
       {
         path: "/article",
