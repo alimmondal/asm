@@ -7,12 +7,18 @@ const GraphChart = () => {
         </h1>
       </div>
       <div className="">
+        <p className="py-10">
+          The graph chart/ pie chart shows [shows er por theke full stop
+          porjontu]. In the [pie chart] the data shown are of [farming,
+          business, govt. job and intellectual work]. The highest percentage is
+          [name] which is [%] and the least is [name] which is [%].
+        </p>
         <p className="">
           Question: Look at the following pie-chart. It shows the pollution of
           Dhaka city by different sources in Bangladesh. Now, describe the
           pie-chart in your own words.{" "}
         </p>
-        <img src="/pieChart.png" alt="" />
+        <img src="/pieChart.png" alt="" className="w-96 " />
       </div>
       <div className="text-center py-4 sticky bottom-0 left-0 right-0">
         <a
