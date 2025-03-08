@@ -40,6 +40,7 @@ function Graph() {
           </p>
         </div>
 
+        {/* pollution-1 */}
         <div className="">
           <h2 className="">Example of Model-1</h2>
           <p className="">
@@ -48,7 +49,9 @@ function Graph() {
             pie-chart in your own words. Highlight and Summarize the information
             given in the pie chart.
           </p>
-          <img src="/pieChart.png" alt="" className="w-96 " />
+          <div className="w-full flex items-center justify-center py-5">
+            <img src="/pieChart.png" alt="" className="w-[600px] " />
+          </div>
           <h3 className="">Answer:</h3>
           <p className="">
             {" "}
@@ -59,7 +62,8 @@ function Graph() {
           </p>
         </div>
 
-        <div className="">
+        {/* family expenditure-2 */}
+        <div className="py-10">
           <h2 className="">Example of Model-1</h2>
           <p className="">
             <strong>Question-2:</strong> Look at the following pie-chart. It
@@ -68,7 +72,7 @@ function Graph() {
             words. Highlight and Summarize the information given in the pie
             chart.
           </p>
-          <img src="/pollutionPie.png" alt="" className="w-[600px] " />
+          <img src="/familyExpenditure.jpg" alt="" className="w-[600px] " />
           <h3 className="">Answer:</h3>
           <p className="">
             {" "}
@@ -86,7 +90,7 @@ function Graph() {
             describe the pie-chart in your own words. Highlight and Summarize
             the information given in the pie chart.
           </p>
-          <img src="/pollutionPie.png" alt="" className="w-[600px] " />
+          <img src="/profession.jpg" alt="" className="w-[600px] " />
           <h3 className="">Answer:</h3>
           <p className="">
             {" "}
@@ -96,7 +100,7 @@ function Graph() {
           </p>
         </div>
 
-        <div className="">
+        <div className="py-10">
           <h2 className="">Example of Model-2</h2>
           <p className="">
             <strong>Question-4:</strong> Look at the following graph-chart. It
@@ -105,7 +109,7 @@ function Graph() {
             pie-chart in your own words. Highlight and Summarize the information
             given in the pie chart.
           </p>
-          <img src="/pollutionPie.png" alt="" className="w-[600px] " />
+          <img src="/roadAccident.jpg" alt="" className="w-[600px] " />
           <h3 className="">Answer:</h3>
           <p className="">
             {" "}
