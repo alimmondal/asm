@@ -2,7 +2,7 @@ const CompetingStory = () => {
   return (
     <div className="px-5 h-full md:w-[65%] mx-auto pb-10">
       <div className="">
-        <h1 className="text-center font-semibold text-md py-20 text-green-400">
+        <h1 className="text-center font-semibold text-md py-20 text-green-500">
           Completing Story
         </h1>
       </div>

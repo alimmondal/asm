@@ -53,8 +53,8 @@ import DPartsOfSpeech from "../pages/DegreeItems/DPartsOfSpeech";
 import Sentence from "../pages/allItems/Sentence";
 import SscQuestion from "../pages/sscItems/SscQuestion";
 import ModelTest from "../pages/hscItems/ModelTest";
-import GraphChart from "../pages/hscItems/graphChart";
 import CompetingStory from "../pages/hscItems/CompetingStory";
+import Graph from "../pages/hscItems/Graph";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -100,7 +100,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/graph",
-        element: <GraphChart />,
+        element: <Graph />,
       },
       {
         path: "/preposition",
