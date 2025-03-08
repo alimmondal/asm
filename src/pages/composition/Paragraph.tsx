@@ -39,7 +39,7 @@ const Paragraph = () => {
                 global warming <br />
                 Greenhouse effects.
               </h3>
-              <p className="text-start">
+              <p className="text-justify">
                 <strong>Answer: </strong>For healthy living, the main elements
                 of environment such as air, water and soil, should be free from
                 pollution. But when the balance of these elements hampered, it
@@ -53,7 +53,7 @@ const Paragraph = () => {
                 we should keep the environment clean and pollution free.
               </p>
               <br />
-              <p>
+              <p className="text-justify">
                 <strong>
                   Global warming/ Climate Change/ Greenhouse effects:
                 </strong>{" "}
@@ -62,14 +62,14 @@ const Paragraph = () => {
                 ........{" "}
               </p>
               <br />
-              <p>
+              <p className="text-justify">
                 <strong>Water pollution: </strong>water is polluted from
                 industrial waste and from chemical fertilizer, insecticides used
                 by farmer. Water pollution causes various water born disease
                 like cholera, . These diseases may lead a man to death
               </p>
               <br />
-              <p>
+              <p className="text-justify">
                 <strong>Air pollution:</strong> Air is polluted by smoke and
                 gases from mill, factories, vehicles and by burning trash. Air
                 pollution causes various respiratory human disease like asthma,
@@ -97,7 +97,7 @@ const Paragraph = () => {
                 <br />
                 Dish Antenna
               </h3>
-              <p className="">
+              <p className="text-justify">
                 <strong>Answer: </strong>Thanks to science which has changed the
                 world of Adam and Eve by its amazing discoveries. [TOPIC] is one
                 of them. With the help of [TOPIC], we see the whole world on the
@@ -138,7 +138,7 @@ const Paragraph = () => {
                 your mother/ your parents/ grand mother/ your favorite family
                 member
               </h3>
-              <p className="text-start">
+              <p className="text-justify">
                 <strong>Answer: </strong> Everybody has a favorite person. I
                 have too. Of all the [TOPIC], [NAME] is an ideal in my life. I
                 like him most for his works and activities. His embedded
@@ -188,7 +188,7 @@ const Paragraph = () => {
                 confidence/ Gratitude/ gratefulness sacrifice/ love for people/{" "}
                 <br />
               </h3>
-              <p className="text-start pt-3">
+              <p className="text-justify pt-3">
                 <strong>Answer: </strong>there is a prover that [TOPIC] cost
                 nothing but brings many things. This separates a good man from a
                 bad man. A man who posses this is loved by all. For example, a
@@ -220,7 +220,7 @@ const Paragraph = () => {
                 Corruption/ Bribe/ crime/ selfishness <br />
                 Flattery/Cheating/ Hypocrisy/ forgery/ <br />
               </h3>
-              <p className="text-start pt-2">
+              <p className="text-justify pt-2">
                 <strong>Answer: </strong>The word "[TOPIC]" connotes a disturbed
                 state of thing as opposite to peaceful condition. It may be
                 called a mental disease. In our society such person are seen
@@ -265,7 +265,7 @@ const Paragraph = () => {
                 Superstition
               </h3>
 
-              <p className="text-start">
+              <p className="text-justify">
                 <strong>Answer: </strong>[TOPIC] is a great and harmful problem.
                 It is not only a common matter for our own country but also for
                 the other countries too. [TOPIC] destroying our social peace and
@@ -307,7 +307,7 @@ const Paragraph = () => {
                 8. Pahela Baishakh <br />
                 9. Bangla New Year <br />
               </h3>
-              <p className="text-start pb-5">
+              <p className="text-justify pb-5">
                 <strong>Answer: </strong>
                 <strong>[Definition]</strong>. <strong>This day </strong> is
                 observed with great enthusiasm in a splendid way in our country
@@ -375,7 +375,7 @@ const Paragraph = () => {
               <br />
               <br />{" "}
               <div className="">
-                <p className="text-start">
+                <p className="text-justify">
                   <strong>Answer: </strong>[Name] is a kind of hobby. Hobby
                   means the activity in leisure like [Name], Leisure means one’s
                   free time. Everybody tends to have a hobby. It is a work of
@@ -418,7 +418,7 @@ const Paragraph = () => {
               <h3 className="pt-5">
                 DESCRIPTION of Garden/ Gardening/ Liesure/ hobby:{" "}
               </h3>
-              <p>
+              <p className="text-justify">
                 I have made [a garden of flowers] in front of my house. I grow
                 different types of flowers, fish, and vegetables—rose,
                 raganiganda, kamini, marigold, belli, etc. I weed out grass,

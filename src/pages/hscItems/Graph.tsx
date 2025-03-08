@@ -12,15 +12,16 @@ function Graph() {
           <h3 className="">Model-1</h3>
 
           <p className="text-rose-500">[##] ডাটা এবং পারচেন্টেজ দেওয়া থাকলেঃ</p>
-          <p className="pb-10">
+          <p className="pb-10 text-justify">
             The [graph/ pie] chart shows [shows er por theke full stop
             porjontu]. In the [ graph/pie chart] the data shown are of [farming,
-            business, govt. job and intellectual work]. The graph chart/ pie
-            chart shows that [DESCRIPTION].............. . Analyzing the
-            graph/pie we find that the highest percentage is [name] which is [%]
-            and the lowest percentage is [name] which is [%]. Finally we can say
-            that the information given in the [graph/pie chart] are highly
-            significant for us.
+            business, govt. job and intellectual work]. The [graph/ pie] chart
+            shows that .............[DESCRIPTION]
+            ............................... . Analyzing the [graph/pie] we find
+            that the highest percentage is [name] which is [%] and the lowest
+            percentage is [name] which is [%]. Finally we can say that the
+            information given in the [graph/pie chart] are highly significant
+            for us.
           </p>
         </div>
 
@@ -29,14 +30,15 @@ function Graph() {
           <h3 className="">Model-2</h3>
           <p className="text-green-500">[##] সাল এবং পারচেন্টেজ দেওয়া থাকলেঃ</p>
 
-          <p className="pb-10">
+          <p className="pb-10 text-justify">
             The graph/ pie chart shows [shows er por theke full stop porjontu].
             The most striking feature of the graph/ pie chart is the increase/
             decrease of [NAME] users during this period. The graph chart/ pie
-            chart shows that..........[DESCRIPTION] . Analyzing the graph/pie we
-            find that the highest percentage is [%] in [DATE] and the least
-            percentage is [%] in [DATE]. Finally we can say that the information
-            given in the [graph/pie chart] are highly significant for us.
+            chart shows that..........[DESCRIPTION]............ . Analyzing the
+            graph/pie we find that the highest percentage is [%] in [DATE] and
+            the least percentage is [%] in [DATE]. Finally we can say that the
+            information given in the [graph/pie chart] are highly significant
+            for us.
           </p>
         </div>
 
@@ -65,14 +67,16 @@ function Graph() {
         {/* family expenditure-2 */}
         <div className="py-10">
           <h2 className="">Example of Model-1</h2>
-          <p className="">
+          <p className="text-justify">
             <strong>Question-2:</strong> Look at the following pie-chart. It
             shows the percentage of a family's household expenditure distributed
             into different categories. Now, describe the pie-chart in your own
             words. Highlight and Summarize the information given in the pie
             chart.
           </p>
-          <img src="/familyExpenditure.jpg" alt="" className="w-[600px] " />
+          <div className="w-full flex items-center justify-center py-5">
+            <img src="/familyExpenditure.jpg" alt="" className="w-[600px] " />
+          </div>
           <h3 className="">Answer:</h3>
           <p className="">
             {" "}
@@ -84,13 +88,15 @@ function Graph() {
 
         <div className="">
           <h2 className="">Example of Model-1</h2>
-          <p className="">
+          <p className="text-justify">
             <strong>Question-3:</strong> Look at the following pie-chart. It
             shows the choice of profession by different educated people. Now,
             describe the pie-chart in your own words. Highlight and Summarize
             the information given in the pie chart.
           </p>
-          <img src="/profession.jpg" alt="" className="w-[600px] " />
+          <div className="w-full flex items-center justify-center py-5">
+            <img src="/profession.jpg" alt="" className="w-[600px] " />
+          </div>
           <h3 className="">Answer:</h3>
           <p className="">
             {" "}
@@ -102,17 +108,18 @@ function Graph() {
 
         <div className="py-10">
           <h2 className="">Example of Model-2</h2>
-          <p className="">
+          <p className="text-justify">
             <strong>Question-4:</strong> Look at the following graph-chart. It
             shows the comparative number of death caused by road accident in the
             first six months of the year 2022 and 2023. Now, describe the
             pie-chart in your own words. Highlight and Summarize the information
             given in the pie chart.
           </p>
-          <img src="/roadAccident.jpg" alt="" className="w-[600px] " />
+          <div className="w-full flex items-center justify-center py-5">
+            <img src="/roadAccident.jpg" alt="" className="w-[600px] " />
+          </div>
           <h3 className="">Answer:</h3>
           <p className="">
-            {" "}
             [DESCRIPTION]: there were [427] death in February [2022] while
             [private job] is liked by [%] . On the contrary, [DATA NAME]..... .
             Then [DATA NAME]...... . Lastly, [DATA NAME]..... .
@@ -130,7 +137,7 @@ function Graph() {
           Download PDF
         </a>
       </div>
-      <div className="text-center">
+      <div className="text-center pb-10">
         <p className="">
           Note: পিডিএফ ফাইল ডাউনলড করলে মোবাইলের File manager/ My File-এ জমা হয়।
           গেলারিতে পাওয়া যাবে না।

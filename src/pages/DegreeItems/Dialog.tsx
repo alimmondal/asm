@@ -6,6 +6,7 @@ function Dialog() {
           Dialog Writing
         </h1>
       </div>
+
       <div className="">
         Dialog: 4 <br />
         QUESTION: <br />
@@ -35,7 +36,7 @@ function Dialog() {
         25. Unemployment problem. <br />
         <br />
         <br />
-        Answer: A dialog between two friends about. <br />
+        Answer: A dialog between two friends about............. . <br />
         Mim: Good morning, Muni. <br />
         Muni: Good morning, Mim, how are you? <br />
         Mim: I am well. But it has been a long time since we last met. How are
@@ -59,13 +60,59 @@ function Dialog() {
         Muni: Welcome, see you again.
         <br />
         <br />
-        Written by: MA Alim, Lecturer in English, TM College. Моb: 01751337773
+        Written by: MA Alim,English Lecturer, TM College. Моb: 01751337773
+      </div>
+
+      <div className="py-10">
+        DIALOG <br />
+        Dialog: 1 <br />
+        QUESTION: <br />
+        1. A dialog between two friends about their preparation of the ensuing/
+        coming <br />
+        S.S.C/H.S.C examination. <br />
+        2. A dialog about how to do well in the coming examination. <br />
+        3. A dialog about the necessity/importance of learning English. <br />
+        4. A dialog on how to learn English. <br />
+        5. How to improve in English/how to be good at English. <br />
+        6. A dialog about the cause of failure in English and its solution.{" "}
+        <br />
+        7. A dialog between two friends who I haven't seen in a long time.{" "}
+        <br />
+        8. A dialog between two friends about how to make good results.
+        <br />
+        <br />
+        <strong>Answer: </strong> A dialog between my friend Sumi and myself
+        (Mim). <br />
+        Sumi: How are you, Mim? Isn't it long since we met? <br />
+        Mim: Yes, it is. I am well. <br />
+        Sumi: But you seem to be anxious, but why? How is your preparation for
+        the coming examination? <br />
+        Mim: Well but English. But to be good at English is to do well (make
+        good results) in the exam. Tell me the cause of failure in English (and
+        how to make good results)? <br />
+        Sumi: Well, English is a foreign language and our student is fearful of
+        English, not to understand the importance of learning English is another
+        reason of failure <br />
+        in English. Mim: Then what's the importance of learning English? <br />
+        Sumi: English is an international language. For communication, for being
+        an expert doctor, engineer, politician and to get a good job, English is
+        essential. <br />
+        Mim: Then how to be good at English in order to get a good result in the
+        examination. <br />
+        Sumi: To be good at English one has to shake off the fear of English,
+        build up vocabulary (and follow the rules-listening, speaking, writing
+        and reading.....). <br />
+        Mim: Thank you, Sumi, for your advice. <br />
+        Sumi: Welcome. I wish you good results and see you again.
+        <br />
+        <br />
+        Written by: MA Alim, English Lecturer, Mob: 01860060068
       </div>
       <div className="">
-        <img src="img/dialog1.jpg" alt="" />
+        {/* <img src="img/dialog1.jpg" alt="" /> */}
         <img src="img/dialog2.jpg" alt="" />
         <img src="img/dialog3.jpg" alt="" />
-        <img src="img/dialog4.jpg" alt="" />
+        {/* <img src="img/dialog4.jpg" alt="" /> */}
         <img src="img/dialog5.jpg" alt="" />
       </div>
       {/* DOwnload button */}

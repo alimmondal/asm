@@ -26,6 +26,46 @@ const Letter = () => {
           </p>
         </div>
 
+        <div className="">
+          <h3>Complain Letter Writing</h3>
+          <p>
+            <strong>Q1 : </strong> Write a letter to M/s. Oxford Publishing
+            House, London complaining that the books sent by them were not those
+            you had ordered for. Ask for a replacement. You are Varun Joshi,
+            Sector-20, Chandigarh. <br />
+            <br />
+            <strong>Answer: </strong> <br />
+            Examination Hall
+            <br />
+            Sector-20, Chandigarh <br />
+            February 20, 2024 <br />
+            M/s. Oxford Publishing House
+            <br />
+            Consumer Complaint Division <br />
+            London
+            <br />
+            Subject- Complaint regarding receipt of wrong set of books. <br />
+            Sir/Madam <br />
+            On February 1, 2024 I bought a book set (Order No. 000154) to be
+            delivered to Chandigarh, Sector-20. To my dismay, I have not
+            received the set I ordered for and have instead, received the wrong
+            book set. I am highly disappointed. <br />
+            To resolve the problem, I would appreciate it if you could replace
+            the wrong book set with the one originally ordered. Please let me
+            know as soon as possible what action you propose to take.I look
+            forward to hearing from you within the next ten days. Enclosed are
+            copies of the transaction document and the receipt. I look forward
+            to your reply and a resolution to my problem and will wait until the
+            aforementioned time before seeking help from a consumer protection
+            agency or the Better Business Bureau. Please contact me at the above
+            address or by phone at 098100XXXXX. <br />
+            Sincerely, <br />
+            Varun Joshi <br />
+            Enclosure(s)- Copy of receipt and transaction <br />
+            docs.
+          </p>
+        </div>
+
         <div className="mt-5">
           <h3>Email Writing:</h3>
           <p>
