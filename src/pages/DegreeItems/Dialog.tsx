@@ -1,10 +1,11 @@
 function Dialog() {
   return (
     <div className="h-full md:w-[85%] mx-auto">
-      <div className="">
-        <h1 className="text-center font-semibold text-md py-20">
+      <div className="w-full flex items-center justify-center py-20">
+        {/* <h1 className="text-center font-semibold text-md py-20">
           Dialog Writing
-        </h1>
+        </h1> */}
+        <img src="/dialogTitle.png" alt="" />
       </div>
 
       <div className="">
@@ -108,13 +109,126 @@ function Dialog() {
         <br />
         Written by: MA Alim, English Lecturer, Mob: 01860060068
       </div>
+
+      <div className="">
+        DIALOG <br />
+        Dialog:2 <br />
+        Question: <br />
+        1.A dialog about the good effects of morning walk. <br />
+        2.A dialog about the necessity of reading newspapers. <br />
+        3.about physical exercise. <br />
+        4.A dialog after visiting a book fair. <br />
+        5.A dialog between two friends about their leisure. <br />
+        6.A dialog between two friends about the habit of reading books/buying
+        books. <br />
+        7.A dialog between two friends about the habit of early rising. <br />
+        8.A dialog between two friends about gardening. <br />
+        9.A dialog between two friends about their feelings. <br />
+        10. A dialog between two friends about the importance of traveling/
+        picnic/ study tour. <br />
+        11.A dialog between two friends about their hobbies.
+        <br />
+        <br />
+        Answer: A dialog between Zahid and Ruhul about <br />
+        Zahid: Good morning, Ruhul. <br />
+        Ruhul: Good morning, Zahid. How are you? <br />
+        Zahid: I am well. But it has been a long time since we last met. <br />
+        Ruhul: But how are you? <br />
+        Zahid: I am so and so. You seem to think of something. <br />
+        Ruhul: Yes I am thinking of (my)........in man's life. What do you know
+        about it? <br />
+        Zahid: ...........is a kind of hobby, an activity of leisure. When our
+        main occupation becomes boring, we turn to our hobby. It is also an
+        interesting habit. <br />
+        Ruhul: It surely has a usefulness? <br />
+        Zahid: Surely, it serves life both mentally and physically. It is the
+        most advisable occupation for the aging, youth and adult...helps keep
+        the mind jolly and jovial and also refreshes our mind. <br />
+        Ruhul:oh, yes. So it is never a waste of time as some people erroneously
+        may take it for granted. <br />
+        Zahid: Oh, I think you have understood the fact. <br />
+        Ruhul: Thank you very much to make me aware about <br />
+        Zahid: I welcome you.
+        <br />
+        <br />
+        Early rising/Morning walk: Early to bed, early to rise make a man
+        healthy, wealthy and wise.
+        <br />
+        <br />
+        Written by: MA Alim, Lecturer in English, TM College. Мов: 01724507006
+        <br />
+      </div>
+
+      <div className="py-10">
+        DIALOG: <br />
+        Dialog: 3 <br />
+        Question: <br />
+        1. between you and the book seller/shopkeepers on buying books/things.{" "}
+        <br />
+        2. between you and the principal on issuing transfer
+        certificate/testimonial. <br />
+        3. between a student and principal asking for leave. <br />
+        4. for a seat in the college hostel. <br />
+        6. between you and a Liberian of your college on issuing library cards.{" "}
+        <br />
+        7. between you and a hotel recipient for booking a room. <br />
+        8. between you and a manager of a bank on opening a bank account. <br />
+        9. between you and a Liberian of your college on borrowing books. <br />
+        10.between you and the principal on changing elective subject.
+        <br />
+        <br />
+        Answer: A dialog between myself and a [book seller] about....... <br />
+        Myself: Good morning, may I come in, (sir)? <br />
+        Manager: Good morning, have a seat (please). Tell me what I can do for
+        you? <br />
+        Myself: I am Zahid a student of H.S.C first year. I extremely need
+        (to/a)............. <br />
+        Manager: Well, we have, but you have to maintain the rule. You have to
+        fill a form. <br />
+        Myself: Here it is. I have done the work as it is said. <br />
+        Manager: Exactly so, and now you have to pay at least tk.500. <br />
+        Myself: Isn't it too much? Can't you reduce some? <br />
+        Manager: Sorry, it is fixed for everybody. <br />
+        Myself: Okay, here it is. Thank you very much (sir). <br />
+        Manager: You are always welcome in our bank/office/library. <br />
+        <br />
+        Written by: MA Alim, Lecturer in English, TM College. Mob: 01860060068
+      </div>
+
+      <div className="pb-10">
+        MODEL DIALOG Dialog: 5 <br />
+        A dialog between two friends about ………… .<br />
+        Mim: Good morning, Muni. <br />
+        Muni: Good morning, Mim, how are you? <br />
+        Mim: I am well. But it has been a long time since we last met. How are
+        you? <br />
+        Muni: I am so and so. But what is your news, you seem to be anxious.{" "}
+        <br />
+        Mim: Not so good. I am thinking on the bad/ good (bad and good) effect{" "}
+        <br />
+        Muni: ..........is really a great problem/thing/matter. <br />
+        Mim: It is <br />
+        Muni: Yes, it is a <br />
+        Mim: And <br />
+        Muni: <br />
+        Mim: <br />
+        Muni: Yes, I am thinking so. I agree with you in this matter. <br />
+        Mim: Thank you very much for having a good time with you. <br />
+        Muni: Welcome, see you again. <br />
+        <br />
+        <br />
+        Written by: MA Alim, English Lecturer , TM College. Моb: 01860060068
+      </div>
+
       <div className="">
         {/* <img src="img/dialog1.jpg" alt="" /> */}
-        <img src="img/dialog2.jpg" alt="" />
-        <img src="img/dialog3.jpg" alt="" />
+        {/* <img src="img/dialog2.jpg" alt="" /> */}
+        {/* <img src="img/dialog3.jpg" alt="" /> */}
         {/* <img src="img/dialog4.jpg" alt="" /> */}
-        <img src="img/dialog5.jpg" alt="" />
+        {/* <img src="img/dialog5.jpg" alt="" /> */}
+        {/* <img src="img/dialog5.jpg" alt="" /> */}
       </div>
+
       {/* DOwnload button */}
       <div className="text-center py-4 sticky bottom-0 left-0 right-0">
         <a
@@ -125,7 +239,7 @@ function Dialog() {
           Download PDF
         </a>
       </div>
-      <div className="text-center">
+      <div className="text-center py-5">
         <p className="">
           Note: পিডিএফ ফাইল ডাউনলড করলে মোবাইলের File manager/ My File-এ জমা হয়।
           গেলারিতে পাওয়া যাবে না।
