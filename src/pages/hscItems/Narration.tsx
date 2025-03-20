@@ -7,7 +7,7 @@ import {
 
 const Narration = () => {
   return (
-    <div className="px-2 md:w-[85%] mx-auto">
+    <div className="px-2 md:w-[65%] mx-auto">
       <div className="my-10">
         <h1 className="text-center text-green-400">Narration</h1>
       </div>
@@ -72,7 +72,7 @@ const Narration = () => {
             </AccordionContent>
           </AccordionPanel>
 
-          {/* rule 1 */}
+          {/* rule 1 Tense changing */}
           <AccordionPanel>
             <AccordionTitle>Rule-1: Tense/ Verb Changing</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
@@ -133,20 +133,32 @@ const Narration = () => {
                   {/* <h2 className="">Person Changing:</h2> */}
                   <p className="text-start">
                     দ্বিতীয় বাক্যের (অর্থাৎ Reporting Speech এর) Pronoun এর
-                    পরিবর্তন হয়। অর্থাৎ <br />
-                    *** I - me - my/ We - us - our প্রথম বাক্যের Subject অনুসারে
-                    পরিবর্তন হবে। <br />
-                    *** You - you - your প্রথম বাক্যের Object - অনুসারে পরিবর্তন
+                    পরিবর্তন হয়। <br /> অর্থাৎ- <br />
+                    ### I - me - my/ We - us - our প্রথম বাক্যের Subject অনুসারে
+                    পরিবর্তন হবে।
+                    <br />
+                    যেমনঃ
+                    <br />
+                    Q. He said to me, "I have done my duty according to her
+                    order". <br />= He said to me tha <strong>he </strong>
+                    had done <strong> his </strong> duty according to her order.
+                    <br />
+                    <br />
+                    ### You - you - your প্রথম বাক্যের Object - অনুসারে পরিবর্তন
                     হয়। <br />
+                  </p>
+
+                  <p className="">
+                    যেমনঃ
+                    <br />
+                    Q. He said to me, "You had done.your duty." <br />= He said
+                    to me that <strong> I </strong>had done <strong> my</strong>{" "}
+                    duty according to her order.
+                  </p>
+
+                  <p className="py-3 text-rose-500 font-bold">
                     ### উক্ত Pronoun-গুলো ছাড়া আন্য কোন Pronoun পরিবর্তন হয় না।
                   </p>
-                  যেমনঃ
-                  <br />
-                  Q. He said to me, "I have done my duty according to her
-                  order". <br />= He said to me
-                  <strong> that </strong> he
-                  <strong> had </strong> done <strong> his</strong> duty
-                  according to her order.
                   <p className="py-2">
                     ### Subject/ Pronoun এর পরিবর্তন বুঝার জন্য নিচের টেবিলটি
                     মনে রাখতে হবেঃ

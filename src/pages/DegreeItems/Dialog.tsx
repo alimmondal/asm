@@ -1,7 +1,7 @@
 function Dialog() {
   return (
-    <div className="h-full md:w-[85%] mx-auto">
-      <div className="w-full flex items-center justify-center py-20">
+    <div className="h-full px-5 md:w-[65%] mx-auto">
+      <div className="px-5 w-full flex items-center justify-center py-20">
         {/* <h1 className="text-center font-semibold text-md py-20">
           Dialog Writing
         </h1> */}
@@ -9,11 +9,12 @@ function Dialog() {
       </div>
 
       <div className="">
-        Dialog: 4 <br />
+        Dialog: 1 <br />
         QUESTION: <br />
         1. How to spend summer vacation. <br />
+        2. How to spend your spare Time after HSC. <br />
         3. Present political situation. <br />
-        5.Acid throwing. <br />
+        5. Acid throwing. <br />
         7. Price hike/price spiral in essential commodities. <br />
         8. Bad effects of mobile phones. 10. Eve teasing. <br />
         12. Bad effect of smoking. <br />
@@ -23,7 +24,6 @@ function Dialog() {
         20. Road accident. <br />
         22.Student politics. <br />
         24. Population problem. <br />
-        2.How to spend your spare Time after HSC. <br />
         4. Drug addiction. <br />
         6. Recent food adulteration. <br />
         9. Frequent flood/Cyclone. <br />
@@ -37,36 +37,38 @@ function Dialog() {
         25. Unemployment problem. <br />
         <br />
         <br />
-        Answer: A dialog between two friends about............. . <br />
+        <strong>Answer: </strong> A dialog between two friends about
+        ............. . <br />
         Mim: Good morning, Muni. <br />
         Muni: Good morning, Mim, how are you? <br />
         Mim: I am well. But it has been a long time since we last met. How are
         you? <br />
-        Muni:I am so and so. But what is your news, you seem to be anxious.
+        Muni: I am so and so. But what is your idea about [ প্রশ্নের about এর পর
+        থেকে শেষ পর্যন্ত ].
         <br />
-        Mim: Not so good. I am thinking on the bad effect of <br />
-        Muni:...........is really a great problem. <br />
-        Mim: It is nothing new. All the areas of the countries/world are badly
-        affected by it. It also hampers our economic progress. <br />
-        Muni: Yes,......is a common incident. But recently it's risen to an
+        Mim: I am thinking of spending free time by creating awareness of
+        [SMOKING] <br />
+        Muni: [SMOKING] is really a great problem. <br />
+        Mim: It is nothing new. All the areas of the [countries/ world] are
+        badly affected by it. It also hampers our economic progress. <br />
+        Muni: Yes, [SMOKING] is a common incident. But recently it's risen to an
         intolerable level. <br />
-        Mim: And snatches away many lives every year. <br />
+        Mim: And [SMOKING] snatches away many lives every year. <br />
         Muni: The root cause of it is the lack of awareness as most of us are
         illiterate. <br />
-        Mim:So in my summer vacation (after HSC exam) I decided to make a
-        campaign to create awareness of.......... in our locality. Will you join
-        me? <br />
+        Mim: So in my [ free time ] I decided to make a campaign to create
+        awareness of [SMOKING] in our locality. Will you join me? <br />
         Muni: Yes, I am thinking so. <br />
         Mim: Thank you very much. <br />
         Muni: Welcome, see you again.
         <br />
         <br />
-        Written by: MA Alim,English Lecturer, TM College. Моb: 01751337773
+        Written by: MA Alim, English Lecturer, TM College. Моb: 01751337773
       </div>
 
       <div className="py-10">
         DIALOG <br />
-        Dialog: 1 <br />
+        Dialog: 2 <br />
         QUESTION: <br />
         1. A dialog between two friends about their preparation of the ensuing/
         coming <br />
@@ -112,7 +114,7 @@ function Dialog() {
 
       <div className="">
         DIALOG <br />
-        Dialog:2 <br />
+        Dialog: 3 <br />
         Question: <br />
         1.A dialog about the good effects of morning walk. <br />
         2.A dialog about the necessity of reading newspapers. <br />
@@ -129,7 +131,7 @@ function Dialog() {
         11.A dialog between two friends about their hobbies.
         <br />
         <br />
-        Answer: A dialog between Zahid and Ruhul about <br />
+        <strong>Answer: </strong> A dialog between Zahid and Ruhul about <br />
         Zahid: Good morning, Ruhul. <br />
         Ruhul: Good morning, Zahid. How are you? <br />
         Zahid: I am well. But it has been a long time since we last met. <br />
@@ -161,7 +163,7 @@ function Dialog() {
 
       <div className="py-10">
         DIALOG: <br />
-        Dialog: 3 <br />
+        Dialog: 4 <br />
         Question: <br />
         1. between you and the book seller/shopkeepers on buying books/things.{" "}
         <br />
@@ -177,7 +179,8 @@ function Dialog() {
         10.between you and the principal on changing elective subject.
         <br />
         <br />
-        Answer: A dialog between myself and a [book seller] about....... <br />
+        <strong>Answer: </strong> A dialog between myself and a [book seller]
+        about....... <br />
         Myself: Good morning, may I come in, (sir)? <br />
         Manager: Good morning, have a seat (please). Tell me what I can do for
         you? <br />
@@ -220,15 +223,6 @@ function Dialog() {
         Written by: MA Alim, English Lecturer , TM College. Моb: 01860060068
       </div>
 
-      <div className="">
-        {/* <img src="img/dialog1.jpg" alt="" /> */}
-        {/* <img src="img/dialog2.jpg" alt="" /> */}
-        {/* <img src="img/dialog3.jpg" alt="" /> */}
-        {/* <img src="img/dialog4.jpg" alt="" /> */}
-        {/* <img src="img/dialog5.jpg" alt="" /> */}
-        {/* <img src="img/dialog5.jpg" alt="" /> */}
-      </div>
-
       {/* DOwnload button */}
       <div className="text-center py-4 sticky bottom-0 left-0 right-0">
         <a
@@ -244,6 +238,14 @@ function Dialog() {
           Note: পিডিএফ ফাইল ডাউনলড করলে মোবাইলের File manager/ My File-এ জমা হয়।
           গেলারিতে পাওয়া যাবে না।
         </p>
+      </div>
+      <div className="">
+        {/* <img src="img/dialog1.jpg" alt="" /> */}
+        {/* <img src="img/dialog2.jpg" alt="" /> */}
+        {/* <img src="img/dialog3.jpg" alt="" /> */}
+        <img src="img/dialog4.jpg" alt="" />
+        {/* <img src="img/dialog5.jpg" alt="" /> */}
+        {/* <img src="img/dialog5.jpg" alt="" /> */}
       </div>
     </div>
   );
