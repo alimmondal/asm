@@ -1,40 +1,53 @@
 const Preposition = () => {
   return (
     <div className="h-full w-[95%] mx-auto">
-      <div className=" dark:bg-white dark:p-4">
-        <img src="/prepositionTitle.png" alt="" className=" h-36" />
+      <div className=" dark:bg-white dark:p-4 text-center py-20">
+        <img
+          src="/prepositionTitle.png"
+          alt=""
+          className="w-auto mx-auto h-36"
+        />
       </div>
 
       {/* Rules  */}
-      <div className="my-10 w-[95%] mx-auto">
-        1. শুন্যস্থানের একটি/ দুটি শব্দের পূর্বে যদি a, an, the থাকে তবে
-        শূন্যস্থানে of বসে। অর্থাৎ দুটি Noun (N+N) এর মাঝখানে of বসে।
+      <div className="my-10 px-3 md:w-[65%] mx-auto">
+        <span className="animateText text-4xl">***</span> 1. শুন্যস্থানের একটি/
+        দুটি শব্দের পূর্বে যদি a, an, the থাকে তবে শূন্যস্থানে of বসে। অর্থাৎ
+        দুটি Noun (N + of + N) এর মাঝখানে of বসে।
         <br />
-        *Zahid will buy the gold. ...Arabia. =Zahid will buy the gold of Arabia.{" "}
+        Q. Zahid will buy the gold. ...Arabia. <br />
+        = Zahid will buy the gold of Arabia. <br />
         <br />
-        <br />
-        2. সংখ্যার পরের শুন্যস্থানের= of বসে এবং সংখ্যার পূর্বের শুন্যস্থানে
+        2. সংখ্যার পরের শুন্যস্থানের = of বসে এবং সংখ্যার পূর্বের শুন্যস্থানে
         about বসে। <br />
-        Mith is one.............my friends. Mim is one of my friends.
-        .........three hundred million people speak English. About three hundred
-        million people speak English. <br />
+        Q. Mim is one.............my friends. <br />
+        = Mim is one of my friends. <br />
+        Q. .........three hundred million people speak English. <br />
+        = About three hundred million people speak English. <br />
         <br />
-        3. of এর আগের ফাকা জায়গায় =out বসে। <br />
-        *Ruhul is now out...........his room. Ruhul is now out of his room.
-        *Ruhul is now .......of his room. = Ruhul is now out of his room. <br />
+        3. Of এর আগের ফাকা জায়গায় = Out বসে এবং Out এর পরের ফাকা জায়গায় = Of
+        বসে।
         <br />
-        4. দুটি verb এর মাঝখানের শূন্যস্থানের-To-বসে। অর্থাৎ শুন্যস্থানের পরে
-        verb থাকলে শুন্যস্থানে to বসে। কোন কিছুর দিকে যাওয়া বুঝাতে-to- বসে।
+        Q. Ruhul is now out...........his room. <br />
+        = Ruhul is now out of his room. <br />
+        Q. Ruhul is now .......of his room. <br />
+        = Ruhul is now out of his room. <br />
         <br />
-        *Mim is glad......hear of her good result. -Mim is glad to hear of her
-        good result. *Mim will fly to America by plane. <br />
+        4. দুটি verb এর মাঝখানের শূন্যস্থানের- To -বসে। অর্থাৎ শুন্যস্থানের পরে
+        Verb এর V1 থাকলে শুন্যস্থানে to বসে। <br />
+        ## কোন কিছুর দিকে যাওয়া বুঝাতে-to- বসে।
+        <br />
+        Q. Mim is glad ...... hear of her good result. <br />
+        = Mim is glad to hear of her good result. <br />
+        = Mim will fly to America by plane. <br />
         <br />
         5. বড় স্থানের পূর্বে/স্থানের মধ্যে বুঝাতে/সালের পূর্বে/ season এর
-        পূর্বে/মাস বা মাসের নামের পূর্বে/ স্থান বা সময়রে পূর্বে a/an/the থাকলে
-        সেই স্থান বা সময়ের (a/an/the) পূর্বের শূন্যস্থানে-in বসে। *Mim lives in
-        America. <br />
-        *Mim is in her room. *Mim was reading in our college in 2011. *Mim and
-        her father work in a bank. <br />
+        পূর্বে/ মাস বা মাসের নামের পূর্বে/ স্থান বা সময়রে পূর্বে a/an/the থাকলে
+        সেই স্থান বা সময়ের (a/an/the) পূর্বের শূন্যস্থানে-in বসে। <br />
+        *Mim lives in America. <br />
+        *Mim is in her room. <br />
+        *Mim was reading in our college in 2011. <br />
+        *Mim and her father work in a bank. <br />
         <br />
         6. ভাষার নামের পূর্বে এবং সাধারনত Be verb (am, is, are) এর পূর্বের
         শুন্যস্থানে in বসে। <br />

@@ -101,7 +101,8 @@ const Narration = () => {
                     <br /> ### উপরের সাহায্যকারি Verb গুলোর পরে মুল Verb থাকলে
                     সেই Verb এর কোন পরিবর্তন হয় না ।
                     <br />
-                    *** যদি উপরের সাহায্যকারি Verb গুলো না থাকে তাহলে মুল Verb
+                    <br />
+                    ### যদি উপরের সাহায্যকারি Verb গুলো না থাকে তাহলে মুল Verb
                     এর পরিবর্তন হয়।
                     <br /> যেমন:
                   </p>
@@ -115,7 +116,7 @@ const Narration = () => {
                   <strong> had </strong> done <strong> his</strong> duty
                   according to her order.
                   <br />
-                  <p>
+                  <p className="py-5">
                     <strong>Note:</strong> দ্বিতীয় বাক্যের (Reported Speech)
                     ing যুক্ত Verb এবং to এর পরে Verb এর কোন পরিবর্তন হয় না।
                   </p>
