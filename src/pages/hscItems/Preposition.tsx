@@ -1,6 +1,6 @@
 const Preposition = () => {
   return (
-    <div className="h-full w-[95%] mx-auto">
+    <div className="h-full px-3 md:w-[65%] mx-auto ">
       <div className=" dark:bg-white dark:p-4 text-center py-20">
         <img
           src="/prepositionTitle.png"
@@ -10,7 +10,7 @@ const Preposition = () => {
       </div>
 
       {/* Rules  */}
-      <div className="my-10 px-3 md:w-[65%] mx-auto">
+      <div className="my-10 px-3 md:w-[65%] mx-auto text-lg md:text-xl">
         <span className="animateText text-4xl">***</span> 1. শুন্যস্থানের একটি/
         দুটি শব্দের পূর্বে যদি a, an, the থাকে তবে শূন্যস্থানে of বসে। অর্থাৎ
         দুটি Noun (N + of + N) এর মাঝখানে of বসে।
@@ -42,8 +42,9 @@ const Preposition = () => {
         = Mim will fly to America by plane. <br />
         <br />
         5. বড় স্থানের পূর্বে/স্থানের মধ্যে বুঝাতে/সালের পূর্বে/ season এর
-        পূর্বে/ মাস বা মাসের নামের পূর্বে/ স্থান বা সময়রে পূর্বে a/an/the থাকলে
-        সেই স্থান বা সময়ের (a/an/the) পূর্বের শূন্যস্থানে-in বসে। <br />
+        পূর্বে/ মাস বা মাসের নামের পূর্বের শূন্যস্থানে- in বসে/ <br />
+        ##স্থান বা সময়রে পূর্বে a/an/the থাকলে সেই স্থান বা সময়ের (a/an/the)
+        পূর্বের শূন্যস্থানে- in বসে। <br />
         *Mim lives in America. <br />
         *Mim is in her room. <br />
         *Mim was reading in our college in 2011. <br />

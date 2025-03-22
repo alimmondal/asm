@@ -1,10 +1,10 @@
 const Letter = () => {
   return (
-    <div className="h-screen mx-3 md:w-[85%] md:mx-auto bg-gray-100 text-gray-800 shadow-md mb-6 rounded-sm p-3">
+    <div className="h-full mx-3 md:w-[85%] md:mx-auto bg-gray-100 text-gray-800 shadow-md mb-6 rounded-sm p-3">
       <div className="py-10">
-        <h1>Letter Writing</h1>
+        <h1 className="text-green-500 text-center">Letter Writing</h1>
       </div>
-      <div className="">
+      <div className="text-lg md:text-xl">
         <div className="">
           <h3>Letter Writing</h3>
           <p>

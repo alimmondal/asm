@@ -1,11 +1,13 @@
 function Advertisement() {
   return (
     <div className="h-full md:w-[85%] mx-auto  ">
-      <h1 className="text-center font-semibold text-md py-20">Advertisement</h1>
-      <div className="px-3">
-        <div className="border p-6 mb-10">
+      <h1 className="text-center font-semibold text-md py-20 text-green-400">
+        Advertisement
+      </h1>
+      <div className="px-3 text-lg md:text-xl">
+        <div className="border p-6 mb-10 ">
           {/* To Let Section */}
-          <div className="border p-4 mb-6 max-w-md mx-auto">
+          <div className="border p-6 mb-6 max-w-md mx-auto shadow-md transition-transform duration-300 ease-in-out hover:scale-105">
             <h3 className="font-semibold underline mb-4 text-center">To Let</h3>
             <ul className="list-disc pl-2">
               <li>Aristocratic Area.</li>
@@ -22,7 +24,7 @@ function Advertisement() {
           </div>
 
           {/* Rent A Car Section */}
-          <div className="border p-4 mb-6 max-w-md mx-auto">
+          <div className="border p-4 mb-6 max-w-md mx-auto shadow-md">
             <h3 className="font-semibold underline mb-4 text-center">
               Rent A Car
             </h3>
@@ -39,7 +41,7 @@ function Advertisement() {
           </div>
 
           {/* First Come, First Served Section */}
-          <div className="border p-4 mb-6 max-w-md mx-auto">
+          <div className="border p-4 mb-6 max-w-md mx-auto shadow-2xl">
             <h3 className="font-semibold underline mb-4 text-center">
               First Come, First Served
             </h3>
@@ -60,7 +62,7 @@ function Advertisement() {
       </div>
       <div className="">
         <img src="img/advertise2.jpg" alt="" />
-        <img src="img/adv1.jpg" alt="" />
+        {/* <img src="img/adv1.jpg" alt="" /> */}
       </div>
     </div>
   );

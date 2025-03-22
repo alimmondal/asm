@@ -7,7 +7,7 @@ import {
 
 const Narration = () => {
   return (
-    <div className="px-2 md:w-[65%] mx-auto">
+    <div className="px-3 md:w-[65%] mx-auto ">
       <div className="my-10">
         <h1 className="text-center text-green-400">Narration</h1>
       </div>
@@ -18,7 +18,7 @@ const Narration = () => {
           <AccordionPanel>
             <AccordionTitle>Steps</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="mb-2 dark:text-gray-400">
+              <div className="mb-2 dark:text-gray-400 text-lg text-lg md:text-xl">
                 We will learn Narration by 3 steps -
                 <p className="">
                   * Basic Discussion <br />
@@ -32,7 +32,7 @@ const Narration = () => {
           <AccordionPanel>
             <AccordionTitle>Basic</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="mb-2 dark:text-gray-400">
+              <div className="mb-2 dark:text-gray-400 text-lg md:text-xl">
                 Basic Discussion : <br />
                 ◼◻ Narration/ Speech মনে উক্তি। একজন বক্তার বক্তব্য ব্যক্ত করার
                 উপায়কে Narration/Speech বলে। <br />
@@ -76,7 +76,7 @@ const Narration = () => {
           <AccordionPanel>
             <AccordionTitle>Rule-1: Tense/ Verb Changing</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="dark:text-gray-400">
+              <div className="dark:text-gray-400 text-lg md:text-xl">
                 <div className="">
                   {/* <h2>Rule-1: Tense Changing</h2> */}
                   <p>
@@ -129,7 +129,7 @@ const Narration = () => {
           <AccordionPanel>
             <AccordionTitle>Rule-2: Person Changing</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="dark:text-gray-400">
+              <div className="dark:text-gray-400 text-lg md:text-xl">
                 <div className="text-start">
                   {/* <h2 className="">Person Changing:</h2> */}
                   <p className="text-start">
@@ -214,12 +214,12 @@ const Narration = () => {
           {/* rule3 */}
           <AccordionPanel>
             <AccordionTitle>Changing adverbial phrase</AccordionTitle>
-            <AccordionContent className="p-2 md:p-5">
-              <div className="dark:text-gray-400">
+            <AccordionContent className="p-2 md:p-5 ">
+              <div className="dark:text-gray-400 ">
                 {/* Adverbial Clause */}
                 <div className="overflow-x-auto">
                   {/* <h2 className="pb-3">Changing adverbial phrase:</h2> */}
-                  <table className="min-w-full text-left text-sm">
+                  <table className="min-w-full text-center text-lg">
                     <thead className="border-b bg-gray-50">
                       <tr>
                         <th className="px-3 py-2">Direct Speech</th>
@@ -276,7 +276,7 @@ const Narration = () => {
           <AccordionPanel>
             <AccordionTitle>Sentence Narration</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="dark:text-gray-400">
+              <div className="dark:text-gray-400 ttext-lg md:text-xl">
                 <div className="">
                   <div className="rule-section">
                     <p className="text-4xl text-center md:text-start">
@@ -477,7 +477,7 @@ const Narration = () => {
                   <h2 className="text-center md:text-start">
                     Passage Narration
                   </h2>
-                  <table className="min-w-[800px] md:w-full table-auto dark:border-slate-400">
+                  <table className="min-w-[800px] md:w-full table-auto dark:border-slate-400 text-lg md:text-xl">
                     <thead>
                       <tr>
                         <th>Description</th>
@@ -593,7 +593,7 @@ const Narration = () => {
       <div className="">
         {/* <!-- table of wish --> */}
         <div className="py-10 overflow-x-auto">
-          <table className="min-w-[800px] table-auto dark:border-slate-400">
+          <table className="min-w-[800px] table-auto dark:border-slate-400 text-lg md:text-xl">
             <thead>
               <tr>
                 <th>Direct এ থাকলে</th>
@@ -635,7 +635,7 @@ const Narration = () => {
         {/* <!-- Passage Naration rules --> */}
 
         {/* <!-- Excercise --> */}
-        <div className="section my-10">
+        <div className="section my-10 text-lg md:text-xl">
           <h1 className="text-center md:text-start">Exercise</h1>
           <h2>Assertive Sentences:</h2>
           <p>
