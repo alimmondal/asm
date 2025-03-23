@@ -253,7 +253,7 @@ const Preposition = () => {
         <br />
       </div>
 
-      <div className="text-center py-4">
+      <div className="text-center py-4 sticky bottom-0 left-0 right-0">
         <a
           href="/preposition.pdf"
           download
@@ -261,6 +261,12 @@ const Preposition = () => {
         >
           Download PDF
         </a>
+      </div>
+      <div className="text-center">
+        <p className="">
+          Note: পিডিএফ ফাইল ডাউনলড করলে মোবাইলের File manager/ My File-এ জমা হয়।
+          গেলারিতে পাওয়া যাবে না।
+        </p>
       </div>
     </div>
   );

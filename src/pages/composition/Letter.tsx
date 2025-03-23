@@ -180,13 +180,16 @@ const Letter = () => {
         <div className="pt-10">
           <h2>😂 Complain Letter</h2>
           <p className="text-justify">
-            Q. Suppose, you are Karim/Kabita, one of the inhabitants of Dinajpur
-            City Corporation. Recently the roads of your locality have been
-            unusable due to heavy rainfalls and the sewerage drains are being
-            hampered to flow water. People and the school going students cannot
-            go to their offices, shops, schools and other places. Now, write a
-            letter to the Mayor of your City Corporation complaining about the
-            sufferings of the common people.
+            Q-1. Suppose, you are Karim/Kabita, one of the inhabitants of
+            Dinajpur City Corporation. Recently the roads of your locality have
+            been unusable due to heavy rainfalls and the sewerage drains are
+            being hampered to flow water. People and the school going students
+            cannot go to their offices, shops, schools and other places. Now,
+            write a letter to the Mayor of your City Corporation complaining
+            about the sufferings of the common people.
+            <br />
+            <br />
+            কোন অফিসে অভিযোগ করার ক্ষেএে প্রজয্য
             <br />
             <br />
             <strong>Answer: </strong> <br />
@@ -212,6 +215,62 @@ const Letter = () => {
             Raisul Islam <br />
             For the residents of Moulvibazar district.
             <br />
+          </p>
+        </div>
+        <div className="py-10">
+          <p className="text-justify">
+            Q-2. Suppose, you have bought some books on general knowledge. But
+            the books are damaged and have printing mistakes. Now, write a
+            letter to the publishing company "Diamond Publishing" complaining
+            about it.
+            <br />
+            <br />
+            কোন জিনিস ক্রয় / বিক্রয়ের ক্ষেএে প্রজয্য
+            <br />
+            <br />
+            Answer: <br />
+            Examination Hall <br />
+            Sector-20, Chandigarh <br />
+            February 20, 2024 <br />
+            M/s. Oxford Publishing House <br />
+            Consumer Complaint Division London <br />
+            Subject- Complaint regarding receipt of wrong set of books. <br />
+            Sir/Madam On <br />
+            February 1, 2024 I/ we{" "}
+            <strong>
+              [SUPPOSE, YOU এর পর থেকে Now এর আগের ফুল স্টপ পর্যন্ত].
+            </strong>{" "}
+            . To my dismay, I have not received the [NAME] I ordered for and
+            have instead, received the wrong [NAME]. I am highly disappointed.
+            To resolve the problem, I would appreciate it if you could replace
+            [NAME]. Please let me know as soon as possible what action you
+            propose to take. (I look forward to hearing from you within the next
+            ten days. Enclosed are copies of the transaction document and the
+            receipt). <br />
+            I look forward to your reply and a resolution to my problem and will
+            wait (until the aforementioned time before seeking help from a
+            consumer protection agency or the Better Business Bureau). Please
+            contact me at the above address or by phone at 098100XXXXX. <br />
+            Sincerely, <br />
+            Varun Joshi <br />
+            Enclosure(s)- Copy of receipt and transaction docs.
+          </p>
+        </div>
+
+        {/* Download button */}
+        <div className="text-center py-4 sticky bottom-0 left-0 right-0">
+          <a
+            href="/suffix-prefix.pdf"
+            download
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Download PDF
+          </a>
+        </div>
+        <div className="text-center">
+          <p className="">
+            Note: পিডিএফ ফাইল ডাউনলড করলে মোবাইলের File manager/ My File-এ জমা
+            হয়। গেলারিতে পাওয়া যাবে না।
           </p>
         </div>
       </div>
