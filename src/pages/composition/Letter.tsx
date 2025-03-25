@@ -1,6 +1,6 @@
 const Letter = () => {
   return (
-    <div className="h-full px-5 md:w-[65%] mx-auto ">
+    <div className="h-full px-5 md:w-[95%] mx-auto ">
       <div className="py-20">
         <h1 className="text-green-500 text-center">Letter & Email</h1>
       </div>
@@ -58,12 +58,10 @@ const Letter = () => {
             <br />
             Or, A letter to your friend inviting him to a tea party.
             <br />
-            <strong>Answer: </strong> You will be glad to know that during this
-            summer vacation the 10th June is the date of my
-            birth/picnic/marriage ceremony of my elder sister. We are going to
-            have a (tea) party on that occasion. (I can't even think of passing
-            this happy occasion without you). I hope that you will join us and
-            stay with us a few days to increase our pleasure. <br />
+            <strong>Answer: </strong> You will be glad to know that [10th June]
+            is the date of [marriage ceremony] of my [elder sister/ own]. I
+            can't even think of passing this happy occasion without you. I hope
+            that you will join us to increase our pleasure. <br />
             <br />
           </p>
           <p className="">
@@ -100,7 +98,7 @@ const Letter = () => {
             <br />
           </p>
           <p className="">
-            4. Q. Write a letter to your father asking to send you some money.{" "}
+            4. Q. Write a letter to your father asking to send you some money.
             <br />
             Or, A letter to your father telling him about your progress in your
             studies. <br />
@@ -118,11 +116,10 @@ const Letter = () => {
             <br />
             Or, Informing him about the bad effects of smoking.
             <br />
-            <strong>Answer: </strong> Bad company is as bad as committing
-            suicide. Smoking harms your health and badly affects your brain and
-            bad company will spoil your career. As a result you have failed in
-            all subjects. But it is said that smoking/ keeping bad company is as
-            bad as committing suicide
+            <strong>Answer: </strong> it is said that [smoking/ keeping bad
+            company] is as bad as committing suicide. [] affects your brain and
+            will spoil your career. As a result, you have failed in all
+            subjects. So, you should gave up [it].
           </p>
           <br />
 
@@ -178,25 +175,28 @@ const Letter = () => {
         </div>
 
         <div className="pt-10">
-          <h2>😂 Complain Letter</h2>
+          <h2 className="pb-5">😂 Complain Letter</h2>
           <p className="text-justify">
-            Q-1. Suppose, you are Karim/Kabita, one of the inhabitants of
-            Dinajpur City Corporation. Recently the roads of your locality have
-            been unusable due to heavy rainfalls and the sewerage drains are
-            being hampered to flow water. People and the school going students
-            cannot go to their offices, shops, schools and other places. Now,
-            write a letter to the Mayor of your City Corporation complaining
-            about the sufferings of the common people.
+            <strong> Model-1</strong> <br />
+            <span className="text-rose-500 font-bold">
+              কোন অফিসে অভিযোগ করার ক্ষেএে প্রজয্য
+            </span>
             <br />
             <br />
-            কোন অফিসে অভিযোগ করার ক্ষেএে প্রজয্য
-            <br />
+            <p className="font-semibold">
+              Q. Suppose, you are Karim/Kabita, one of the inhabitants of
+              Dinajpur City Corporation. Recently the roads of your locality
+              have been unusable due to heavy rainfalls and the sewerage drains
+              are being hampered to flow water. People and the school going
+              students cannot go to their offices, shops, schools and other
+              places. Now, write a letter to the Mayor of your City Corporation
+              complaining about the sufferings of the common people.
+            </p>
             <br />
             <strong>Answer: </strong> <br />
             To, <br />
             Dinajpur City Mayor, <br />
             Dinajpur City Corporation, Dinajpur, <br />
-            Sylhet. <br />
             Subject: Complaint regarding drainage system. <br />
             Sir, <br />
             With due respect we state that{" "}
@@ -219,24 +219,26 @@ const Letter = () => {
         </div>
         <div className="py-10">
           <p className="text-justify">
-            Q-2. Suppose, you have bought some books on general knowledge. But
-            the books are damaged and have printing mistakes. Now, write a
-            letter to the publishing company "Diamond Publishing" complaining
-            about it.
+            <strong>Model-2</strong> <br />
+            <span className="text-rose-500 font-bold">
+              কোন জিনিস ক্রয় / বিক্রয়ের ক্ষেএে প্রজয্য
+            </span>
             <br />
             <br />
-            কোন জিনিস ক্রয় / বিক্রয়ের ক্ষেএে প্রজয্য
+            <p className="font-semibold">
+              Q-2. Suppose, you have bought some books on general knowledge. But
+              the books are damaged and have printing mistakes. Now, write a
+              letter to the publishing company "Diamond Publishing" complaining
+              about it.
+            </p>
             <br />
-            <br />
-            Answer: <br />
-            Examination Hall <br />
-            Sector-20, Chandigarh <br />
-            February 20, 2024 <br />
-            M/s. Oxford Publishing House <br />
-            Consumer Complaint Division London <br />
-            Subject- Complaint regarding receipt of wrong set of books. <br />
-            Sir/Madam On <br />
-            February 1, 2024 I/ we{" "}
+            <strong>Answer: </strong> <br />
+            To, <br />
+            The Manager, <br />
+            Diamond Publishing, Dhaka, <br />
+            Subject: Complaint regarding supply of defective goods, <br />
+            Sir/Madam <br />
+            On February 1, 2024 I/ we{" "}
             <strong>
               [SUPPOSE, YOU এর পর থেকে Now এর আগের ফুল স্টপ পর্যন্ত].
             </strong>{" "}
@@ -270,7 +272,7 @@ const Letter = () => {
         <div className="text-center">
           <p className="">
             Note: পিডিএফ ফাইল ডাউনলড করলে মোবাইলের File manager/ My File-এ জমা
-            হয়। গেলারিতে পাওয়া যাবে না।
+            হয়। গ্যালারিতে পাওয়া যাবে না।
           </p>
         </div>
       </div>
