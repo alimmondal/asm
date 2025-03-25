@@ -89,12 +89,11 @@ const Letter = () => {
             <br />
             or. A letter describing your visit to the national zoo. <br />
             or. A letter describing a memorable day of your life. <br />
-            <strong>Answer: </strong> (You will be glad to know that) we went on
-            a picnic by train/boat to we enjoyed gossiping with other
-            passengers. After reaching On the way -I was really overwhelmed to
-            see various things/ scenery/ animals. However, the journey/ picnic
-            excursion in my hart I bore. It gave me much pleasure. (indeed it
-            was one of the most memorable days in my life). <br />
+            <strong>Answer: </strong> we went on a picnic by [boat] to we
+            enjoyed gossiping with other passengers. I was really overwhelmed to
+            see various [scenery/ animals]. However, [the journey] in my hart I
+            bore. It gave me much pleasure. It was a memorable day in my life.{" "}
+            <br />
             <br />
           </p>
           <p className="">
@@ -102,10 +101,9 @@ const Letter = () => {
             <br />
             Or, A letter to your father telling him about your progress in your
             studies. <br />
-            <strong>Answer: </strong> My annual exam is near at hand. You will
-            be glad to know that I have prepared well for it. But just after the
-            exam I have to buy some books. Please send me the money as soon as
-            possible. <br />
+            <strong>Answer: </strong> My exam is at hand. I have prepared well
+            for it. Please send me some money to buy books after the exam.{" "}
+            <br />
             <br />
           </p>
           <p className="">
