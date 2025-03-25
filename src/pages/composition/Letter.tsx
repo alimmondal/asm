@@ -1,6 +1,6 @@
 const Letter = () => {
   return (
-    <div className="h-full px-5 md:w-[95%] mx-auto ">
+    <div className="h-full px-5 md:w-[55%] mx-auto ">
       <div className="py-20">
         <h1 className="text-green-500 text-center">Letter & Email</h1>
       </div>
@@ -46,7 +46,7 @@ const Letter = () => {
         {/* Description */}
         <div className="py-5">
           <h2 className="">DESCRIPTION</h2>
-          <p className="">
+          <p className="text-justify">
             1. Write a letter to your Friend inviting him on the occasion of the
             marriage ceremony of your sister. <br />
             Or. A letter to your friend to attend your birthday party.
@@ -64,7 +64,8 @@ const Letter = () => {
             that you will join us to increase our pleasure. <br />
             <br />
           </p>
-          <p className="">
+          {/* 2 */}
+          <p className="text-justify">
             2. Q. A letter describing your native village. <br />
             Or, A litter describing foods and food habits in Bangladesh. <br />
             Or. A letter telling about Bangladesh and her people. <br />
@@ -73,15 +74,15 @@ const Letter = () => {
             Dr. A letter informing some customs and ways of behaving in your
             country.
             <br />
-            <strong>Answer: </strong> The name of my [COUNTRY] is [TILAKPUR]. It
-            is a small low-lying island on the bay of Bengal. The people of this
-            are mostly Muslim, Hindu and Christians. We love to live in peace
-            and harmony. We have three meals a day and our staple food is rice,
-            vegetables and beef. I love my country/ Village and I am proud of
-            it. <br />
+            <strong>Answer: </strong> The name of my [COUNTRY] is [TILAKPUR].
+            The people of this [COUNTRY] are mostly Muslim, Hindu and
+            Christians. We love to live in peace and harmony. We have three
+            meals a day and our staple food is rice. I love my country/ Village
+            and I am proud of [COUNTRY]. <br />
             <br />
           </p>
-          <p className="">
+          {/* 3 */}
+          <p className="text-justify">
             3 Q. A letter describing a picnic/ excursion/study tour. <br />
             or. A letter describing your experience, about a train journey.
             <br />
@@ -89,13 +90,14 @@ const Letter = () => {
             <br />
             or. A letter describing your visit to the national zoo. <br />
             or. A letter describing a memorable day of your life. <br />
-            <strong>Answer: </strong> we went on a picnic by [boat] to we
-            enjoyed gossiping with other passengers. I was really overwhelmed to
-            see various [scenery/ animals]. However, [the journey] in my hart I
-            bore. It gave me much pleasure. It was a memorable day in my life.{" "}
+            <strong>Answer: </strong> We went on a picnic by [boat] to [the
+            zoo]. I was really overwhelmed to see various [scenery/ animals].
+            However, It gave me much pleasure. It was a memorable day in my
+            life.
             <br />
             <br />
           </p>
+          {/* 4 */}
           <p className="">
             4. Q. Write a letter to your father asking to send you some money.
             <br />
@@ -106,6 +108,7 @@ const Letter = () => {
             <br />
             <br />
           </p>
+          {/* 5 */}
           <p className="">
             5. Q. A letter to your younger brother advising him to be sincere
             and attentive to his studies.
@@ -115,13 +118,13 @@ const Letter = () => {
             Or, Informing him about the bad effects of smoking.
             <br />
             <strong>Answer: </strong> it is said that [smoking/ keeping bad
-            company] is as bad as committing suicide. [] affects your brain and
-            will spoil your career. As a result, you have failed in all
-            subjects. So, you should gave up [it].
+            company] is as bad as committing suicide. [NAME] affects your brain
+            and will spoil your career. As a result, you have failed in all
+            subjects. So, it is high time you gave up [NAME].
           </p>
           <br />
-
-          <p className="">
+          {/* 6 */}
+          <p className="text-justify">
             6. Q. Write a letter to your friend about your future plan of life.
             <br />
             Or, A letter about your aim in life.
@@ -139,39 +142,48 @@ const Letter = () => {
           </p>
 
           <br />
-
-          <p className="">
-            7. Q. A letter to your friend congratulating you on her/ his
+          {/* 7 */}
+          <p className="text-justify">
+            7-Q. A letter to your friend congratulating you on her/ his
             brilliant result/ success in the SSC/ HSC/ BA examination.
             <br />
-            Or, A letter to your friend asking him to return the book that
-            he/she borrowed.
             <br />
             <strong>Answer: </strong> My joys know no bounds that you have got
             GPA 5 in the exam. Please accept my heartiest congratulation because
-            you are really worthy of it. But I am badly in need of the book that
-            you borrowed from me, kindly return it as soon as possible.
+            you are really worthy of it.
           </p>
-
+          {/* 8 */}
+          <p className="text-justify">
+            {" "}
+            Q-8. A letter to your friend asking him to return the book that
+            he/she borrowed. <br />
+            <strong>Answer: </strong> Accept my heartiest congratulation for
+            getting GPA-5 because you are really worthy of it. But I am badly in
+            need of the book that you borrowed from me, kindly return it as soon
+            as possible.
+          </p>
           <br />
-
-          <p className="">
-            8. Q. A letter to your friend expressing your condolence to her/his
+          {/* 9 */}
+          <p className="text-justify">
+            9. Q. A letter to your friend expressing your condolence to her/his
             father's death.
             <br />
-            Or, A letter to your friend consoling him at his failure in the
-            SSC/HSC/BA exam.
-            <br />
             <strong>Answer: </strong> I am very shocked to hear that your [
-            father/ mother ] is no more on earth/ you have failed in the exam.
-            Your grief is so great that my words will fail to console you. But
-            What is lotted cannot be blotted but your failure/ the loss of a
-            father is irrecoverable. So you should try to do better in future.
+            father/ mother ] is no more on earth. But none can escape death. It
+            is irrecoverable. So you should try to do better in future.
           </p>
-
+          <br />
+          <p className="">
+            10-Q. A letter to your friend consoling him at his failure in the
+            SSC/HSC/BA exam. <br />
+            <strong>Answer: </strong> I am very shocked to hear that you have
+            failed in the exam. But What is lotted cannot be blotted. So you
+            should try to do better in future.
+          </p>
           <br />
         </div>
 
+        {/* Complaint Letter */}
         <div className="pt-10">
           <h2 className="pb-5">😂 Complain Letter</h2>
           <p className="text-justify">
@@ -260,7 +272,7 @@ const Letter = () => {
         {/* Download button */}
         <div className="text-center py-4 sticky bottom-0 left-0 right-0">
           <a
-            href="/suffix-prefix.pdf"
+            href="/Letter.pdf"
             download
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
