@@ -39,42 +39,43 @@ const Preposition = () => {
         <br />
         Q. Mim is glad ...... hear of her good result. <br />
         = Mim is glad to hear of her good result. <br />
-        = Mim will fly to America by plane. <br />
+        👉 Mim will fly to America by plane. <br />
         <br />
         5. বড় স্থানের পূর্বে/স্থানের মধ্যে বুঝাতে/সালের পূর্বে/ season এর
         পূর্বে/ মাস বা মাসের নামের পূর্বের শূন্যস্থানে- in বসে/ <br />
         ##স্থান বা সময়রে পূর্বে a/an/the থাকলে সেই স্থান বা সময়ের (a/an/the)
         পূর্বের শূন্যস্থানে- in বসে। <br />
-        *Mim lives in America. <br />
-        *Mim is in her room. <br />
-        *Mim was reading in our college in 2011. <br />
-        *Mim and her father work in a bank. <br />
+        👉 Mim lives in America. <br />
+        👉 Mim is in her room. <br />
+        👉 Mim was reading in our college in 2011. <br />
+        👉 Mim and her father work in a bank. <br />
         <br />
-        6. ভাষার নামের পূর্বে এবং সাধারনত Be verb (am, is, are) এর পূর্বের
+        6. ভাষার নামের পূর্বে এবং সাধারনত Be verb (am, is, are) এর পরের
         শুন্যস্থানে in বসে। <br />
-        *Mim can speak in English. *Mim is in great danger.
+        👉 Mim can speak in English. <br />
+        👉 Mim is in great danger.
         <br />
         <br />
-        7. ছোট স্থান (জায়গার নাম) এর পূর্বে- নির্দিষ্ট সময়ের পূর্বে at বসে।{" "}
+        7. ছোট স্থান (জায়গার নাম) এর পূর্বে - নির্দিষ্ট সময়ের পূর্বে at বসে।
         <br />
-        <br />
-        *Mim will stay at Tilokpur at 9pm. *কিন্তু ব্যপক সময় বুঝালে -for বসে
-        *Mim has been reading in our college for two years.
-        <br />
+        👉 Mim will stay at Tilokpur at 9pm. <br />
+        👉 কিন্তু ব্যপক সময় বুঝালে -for বসে <br />
+        👉 Mim has been reading in our college for two years.
         <br />
         <br />
         ৪. নির্দিষ্ট দিন বা দিনের নামের পূর্বে তারিখে পূর্বে, Tv, Radio,
-        Telivision, mobile ইত্যাদির পূর্বে-on বসে। <br />
-        *On Monday Mim heard the news on TV.
+        Telivision, mobile ইত্যাদির পূর্বে- on বসে। <br />
+        👉 On Monday Mim heard the news on TV.
         <br />
         <br />
         9. বাক্যের শুরুতে শুন্যস্থানের পরে যদি-ing যুক্ত verb থাকে তবে
         শুন্যস্থানে-by/without (অর্থ বুঝে বসাতে হবে) বসে। <br />
-        *By workimg hard, Mim made a good result. *Without working, Mim cannot
-        make good result. <br />
+        👉 By workimg hard, Mim made a good result. <br />
+        👉 Without working, Mim cannot make good result. <br />
         <br />
-        10. V-3 এর পরে শুন্যস্থানে এবং যানবাহনের নামের পূবের শুন্যস্থানে-by বসে।
-        *Mim is always helped by me. *Mim will fly to America by plane.
+        10. V-3 এর পরে শুন্যস্থানে এবং যানবাহনের নামের পূবের শুন্যস্থানে- by
+        বসে। *Mim is always helped by me. <br />
+        👉 Mim will fly to America by plane.
         <br />
         <div className="text-center py-4">
           <a
@@ -125,18 +126,9 @@ const Preposition = () => {
         <br />
         *May Mim shine in life.
       </div>
-      <div className="text-center py-4">
-        <a
-          href="/preposition.pdf"
-          download
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-        >
-          Download PDF
-        </a>
-      </div>
 
       {/* Appropriate Preposition */}
-      <div className="my-10">
+      <div className="my-10 text-lg md:text-xl">
         <h3 className="">APROPRIATE PREPOSITION</h3>
         <br />
         * TO: <br />
@@ -262,7 +254,7 @@ const Preposition = () => {
           Download PDF
         </a>
       </div>
-      <div className="text-center">
+      <div className="text-center pb-10">
         <p className="">
           Note: পিডিএফ ফাইল ডাউনলড করলে মোবাইলের File manager/ My File-এ জমা হয়।
           গেলারিতে পাওয়া যাবে না।
