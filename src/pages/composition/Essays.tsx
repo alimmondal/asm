@@ -71,9 +71,7 @@ function Essays() {
 
         {/* Pollution */}
         <AccordionPanel>
-          <AccordionTitle>
-            Pollution/ Climate Change/ Greenhouse Effect
-          </AccordionTitle>
+          <AccordionTitle>Pollution/ Greenhouse Effect</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div className="">
               <h3 className="text-center py-3">
@@ -84,9 +82,7 @@ function Essays() {
               <p className="text-justify">
                 <strong>Answer: </strong>Environmental pollution is the main
                 cause for{" "}
-                <span className="font-semibold">
-                  [global warming/ climate change/ greenhouse effect]
-                </span>
+                <span className="font-semibold">[climate change]</span>
                 . The greenhouse effect is the process by which certain gases in
                 Earth's atmosphere trap heat from the Sun, keeping the planet
                 warm enough to support life. Environmental pollution intensifies
@@ -108,28 +104,21 @@ function Essays() {
                 life healthy and comfortable, we should keep the environment
                 clean and pollution free. <br />
               </p>
-              <p className="text-center">---------0---------</p>
+              <p className="text-center py-5">---------0---------</p>
               <p className="">
                 The main cause of [climate change] is carbon dioxide(CO2), CFC,
                 methane gasses.
               </p>
-              <p className="pt-5">
-                Greenhouse Effect: The greenhouse effect is the process by which
-                certain gases in Earth's atmosphere trap heat from the Sun,
-                keeping the planet warm enough to support life. Environmental
-                pollution intensifies this effect by increasing greenhouse gas
-                concentrations, leading to global warming and climate change.
-              </p>
-              <p className="pt-5 hidden">
+
+              <p className="hidden">
                 Greenhouse Effect: The greenhouse effect is the natural process
                 by which certain gases in Earth's atmosphere, like carbon
-                dioxide and methane, trap heat from the Sun, keeping the planet
-                warm enough to support life. However, human activities have
-                intensified this effect by increasing greenhouse gas
+                dioxide,CFC and methane, trap heat from the Sun, keeping the
+                planet warm enough to support life. However, human activities
+                have intensified this effect by increasing greenhouse gas
                 concentrations, leading to global warming and climate change.
               </p>
               <p className="">
-                {" "}
                 Water is polluted from industrial waste, chemical fertilizer,
                 and insecticides used by farmers. Water pollution causes various
                 water borne diseases like cholera, diarrhoea. Air is polluted by
