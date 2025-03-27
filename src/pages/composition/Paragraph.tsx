@@ -74,18 +74,16 @@ const Paragraph = () => {
               <p className="text-justify">
                 <strong>Water pollution: </strong>
                 <br />
-                water is polluted from industrial waste and from chemical
-                fertilizer, insecticides used by farmer. Water pollution causes
-                various water born disease like cholera, . These diseases may
-                lead a man to death
+                water is polluted from industrial waste, fertilizer,
+                insecticides. Water pollution causes various water born disease
+                like cholera.
               </p>
 
               <p className="text-justify">
                 <strong>Air pollution:</strong> <br />
-                Air is polluted by smoke and gases from mill, factories,
-                vehicles and by burning trash. Air pollution causes various
-                respiratory human disease like asthma, pneumonia, bronchitis.
-                These diseases may lead a man to death{" "}
+                Air is polluted by smoke, gases from mill, factories, vehicles
+                and by burning trash. Air pollution causes various respiratory
+                human disease like asthma, bronchitis.
               </p>
             </div>
           </AccordionContent>
