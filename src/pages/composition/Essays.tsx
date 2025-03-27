@@ -76,50 +76,66 @@ function Essays() {
           </AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div className="">
-              <h3 className="text-center ">
-                Environment pollution <br />
-                water pollution <br />
-                air pollution <br />
-                Climate Change <br />
-                Impact of Climate Change <br />
-                global warming <br />
+              <h3 className="text-center py-3">
+                1. Environment pollution 2. water pollution 3. air pollution 4.
+                Climate Change 5. Impact of Climate Change 6. global warming 7.
                 Greenhouse effects.
               </h3>
               <p className="text-justify">
-                <strong>Answer: </strong>The main cause of ... is carbon
-                dioxide(CO2), CFC, methane gasses which are caused by
-                environment pollution. For healthy living, the main elements of
-                environment such as air, water and soil, should be free from
-                pollution. But when the balance of these elements hampered, it
-                is called environment pollution.
-                <br />
-                water is polluted from industrial waste and from chemical
-                fertilizer, insecticides used by farmer. Water pollution causes
-                various water born disease like cholera, dhiaria . These
-                diseases may lead a man to death
-                <br />
-                Air is polluted by smoke and gases from mill, factories,
-                vehicles and by burning trash. Air pollution causes various
-                respiratory human disease like asthma, pneumonia, bronchitis.
-                These diseases may lead a man to death
-                <br />
-                These pollutions are a great threat to our existence. They cause
+                <strong>Answer: </strong>Environmental pollution is the main
+                cause for{" "}
+                <span className="font-semibold">
+                  [global warming/ climate change/ greenhouse effect]
+                </span>
+                . The greenhouse effect is the process by which certain gases in
+                Earth's atmosphere trap heat from the Sun, keeping the planet
+                warm enough to support life. Environmental pollution intensifies
+                this effect by increasing greenhouse gas concentrations, leading
+                to global warming and climate change. <br />
+                For healthy living, the main elements of the environment such as
+                air, water and soil, should be free from pollution. But when the
+                balance of these elements is hampered, it is called
+                environmental pollution. <br />
+                This pollution is a great threat to our existence. They cause
                 various human diseases. These diseases may lead a man to death.
-                It changes world’s climate and increase temperature. This
+                It changes the world's climate and increases temperature. This
                 reduces human capacity to work. It also causes natural disasters
-                like cyclone.
+                like cyclones. This temperature will melt polar ice-caps and sea
+                levels will increase. As result, coastal areas will go under
+                water.
                 <br />
                 Thus the world is getting unsuitable for living. So, to make
                 life healthy and comfortable, we should keep the environment
-                clean and pollution free.
+                clean and pollution free. <br />
+              </p>
+              <p className="text-center">---------0---------</p>
+              <p className="">
+                The main cause of [climate change] is carbon dioxide(CO2), CFC,
+                methane gasses.
               </p>
               <p className="pt-5">
-                Greenhosue Effect: The greenhouse effect is the natural process
+                Greenhouse Effect: The greenhouse effect is the process by which
+                certain gases in Earth's atmosphere trap heat from the Sun,
+                keeping the planet warm enough to support life. Environmental
+                pollution intensifies this effect by increasing greenhouse gas
+                concentrations, leading to global warming and climate change.
+              </p>
+              <p className="pt-5 hidden">
+                Greenhouse Effect: The greenhouse effect is the natural process
                 by which certain gases in Earth's atmosphere, like carbon
                 dioxide and methane, trap heat from the Sun, keeping the planet
                 warm enough to support life. However, human activities have
                 intensified this effect by increasing greenhouse gas
                 concentrations, leading to global warming and climate change.
+              </p>
+              <p className="">
+                {" "}
+                Water is polluted from industrial waste, chemical fertilizer,
+                and insecticides used by farmers. Water pollution causes various
+                water borne diseases like cholera, diarrhoea. Air is polluted by
+                smoke created by fire. Air pollution causes various respiratory
+                human diseases like asthma, pneumonia, and bronchitis. These
+                diseases may lead a man to death. <br />
               </p>
             </div>
           </AccordionContent>

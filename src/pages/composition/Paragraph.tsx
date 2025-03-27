@@ -31,49 +31,61 @@ const Paragraph = () => {
           <AccordionTitle>Pollutions</AccordionTitle>
           <AccordionContent className="p-2 md:p-5">
             <div className="">
-              <h3 className="text-center ">
-                Environment pollution <br />
-                water pollution <br />
-                air pollution <br />
-                Climate Change <br />
-                global warming <br />
+              <h3 className="text-center py-3">
+                1. Environment pollution 2. water pollution 3. air pollution 4.
+                Climate Change 5. Impact of Climate Change 6. global warming 7.
                 Greenhouse effects.
               </h3>
               <p className="text-justify">
-                <strong>Answer: </strong>For healthy living, the main elements
-                of environment such as air, water and soil, should be free from
-                pollution. But when the balance of these elements hampered, it
-                is called environment pollution. [air pollution/water
-                pollution]. These pollutions are a great threat to our
-                existence. They cause various human diseases. These diseases may
-                lead a man to death. It changes world’s climate and increase
-                temperature. This reduces human capacity to work. It also causes
-                natural disasters like cyclone. Thus the world is getting
-                unsuitable for living. So, to make life healthy and comfortable,
-                we should keep the environment clean and pollution free.
+                <strong>Answer: </strong> [DEFINITION]. This pollution is a
+                great threat to our existence. They cause various human
+                diseases. These diseases may lead a man to death. It changes
+                world’s climate and increase temperature. This reduces human
+                capacity to work. It also causes natural disasters like cyclone.
+                Thus the world is getting unsuitable for living. So, to make
+                life healthy and comfortable, we should keep the environment
+                clean and pollution free.
               </p>
-              <br />
-              <p className="text-justify">
+
+              <p className="text-center py-5">---------0---------</p>
+              <h3 className="">DEFINITION</h3>
+              <p className="py-3">
+                <span className="font-bold">Environmental pollution:</span>{" "}
+                <br />
+                For healthy living, the main elements of environment such as
+                air, water and soil, should be free from pollution. But when the
+                balance of these elements hampered, it is called environment
+                pollution.
+              </p>
+              <p className="text-start">
                 <strong>
                   Global warming/ Climate Change/ Greenhouse effects:
                 </strong>{" "}
-                The main cause of ... is carbon dioxide(CO2), CFC, methane
-                gasses which are caused by environment pollution. for healthy
-                ........{" "}
+                <br />
+                Environmental pollution is the main cause for{" "}
+                <span className="font-semibold">[global warming]</span>. The
+                greenhouse effect is the process by which certain gases in
+                Earth's atmosphere trap heat from the Sun, keeping the planet
+                warm enough to support life. Environmental pollution intensifies
+                this effect by increasing greenhouse gas concentrations, leading
+                to global warming and climate change.
               </p>
-              <br />
+
               <p className="text-justify">
-                <strong>Water pollution: </strong>water is polluted from
-                industrial waste and from chemical fertilizer, insecticides used
-                by farmer. Water pollution causes various water born disease
-                like cholera, . These diseases may lead a man to death
+                <strong>Water pollution: </strong>
+                <br />
+                water is polluted from industrial waste and from chemical
+                fertilizer, insecticides used by farmer. Water pollution causes
+                various water born disease like cholera, . These diseases may
+                lead a man to death
               </p>
-              <br />
+
               <p className="text-justify">
-                <strong>Air pollution:</strong> Air is polluted by smoke and
-                gases from mill, factories, vehicles and by burning trash. Air
-                pollution causes various respiratory human disease like asthma,
-                pneumonia, bronchitis. These diseases may lead a man to death{" "}
+                <strong>Air pollution:</strong> <br />
+                Air is polluted by smoke and gases from mill, factories,
+                vehicles and by burning trash. Air pollution causes various
+                respiratory human disease like asthma, pneumonia, bronchitis.
+                These diseases may lead a man to death{" "}
               </p>
             </div>
           </AccordionContent>
@@ -85,18 +97,12 @@ const Paragraph = () => {
           <AccordionContent className="p-2 md:p-5">
             <div className="">
               <h3 className="text-center py-3">
-                Mobile Phone <br />
-                Internet <br />
-                Facebook <br />
-                Computer <br />
-                Modern Technology <br />
-                Information technologies <br />
-                The gift of Modern Science <br />
-                Social networks <br />
-                Television/Satellite TV
-                <br />
-                Dish Antenna
+                1. The gift of Modern Science 2.Mobile Phone 3.Internet 4.
+                Facebook 5. Computer 6. Social networks 7. Television 8.
+                Satellite TV 9. Dish Antenna 10. Modern Technology 11.
+                Information technologies
               </h3>
+
               <p className="text-justify">
                 <strong>Answer: </strong>Thanks to science which has changed the
                 world of Adam and Eve by its amazing discoveries. [TOPIC] is one
@@ -111,8 +117,7 @@ const Paragraph = () => {
                 good and give up the bad. And the government should create
                 public awareness. However, [TOPIC] is an indispensible part of
                 our modern life and communication.
-                <br />
-                <br />
+                <p className="text-center py-5">---------0---------</p>
                 বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার বৈজ্ঞানিক বিষয়বস্তু বা
                 Scientific Thing নিয়ে Paragraph বললে ওপরের লেখাটি অনুসরণ করো
                 এবং [TOPIC] এর জায়গায় তোমার নির্দিষ্ট Paragraph এর নাম লিখে
@@ -140,7 +145,7 @@ const Paragraph = () => {
               </h3>
               <p className="text-justify">
                 <strong>Answer: </strong> Everybody has a favorite person. I
-                have too. Of all the [TOPIC], [NAME] is an ideal in my life. I
+                have too. Of all the [PLAYER], [NAME] is an ideal in my life. I
                 like him most for his works and activities. His embedded
                 personality could be impressed my heart. For this reason he is
                 my favorite person. His views on society, love of humanity and
@@ -149,13 +154,14 @@ const Paragraph = () => {
                 make one his fan. Man like [NAME] is very necessary for the
                 state. Everyone should try to build up character, morality and
                 personality like him. I become thrilled when I [see/read/heard]
-                his [PLAYING/SINGING/writings] . His
-                [speakings/playing/writings] speak the heart of a man. His
-                [speakings/playing/writings] soothes my soul. His ... give me
-                pleasure even in my boring mood. So, thinking of him, I've got
-                freshness and confidence. He is unique ... not only to me but
-                also to my family members. I follow him in my every step.
+                his [PLAYING/ SINGING/ writings]. His [speakings/ playing/
+                writings] speak the heart of a man. His [speakings/ playing/
+                writings] soothes my soul. His [playing] give me pleasure even
+                in my boring mood. So, thinking of him, I've got freshness and
+                confidence. He is unique [player] not only to me but also to my
+                family members. I follow him in my every step.
               </p>
+              <p className="text-center py-5">---------0---------</p>
               <p className="">
                 বিশেষ দ্রষ্টব্য: [TOPIC] এর জায়গায় তোমার নির্দিষ্ট Paragraph এর
                 নাম লিখে [NAME] জায়গায় PERSON এর নাম লিখে বাকী সব অপরিবর্তিত
@@ -279,8 +285,7 @@ const Paragraph = () => {
                 agencies should arrest them who are creating this kind of
                 problem. [TOPIC] is possible to remove by creating public
                 awareness. So we should be more active to get a better solution.
-                <br />
-                <br />
+                <p className="text-center py-5">---------0---------</p>
                 বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার সামাজিক সমস্যা বা Social Problem
                 নিয়ে Paragraph বললে ওপরের লেখাটি অনুসরণ করো এবং [TOPIC] এর
                 জায়গায় তোমার নির্দিষ্ট Paragraph এর নাম লিখে বাকী সব অপরিবর্তিত
@@ -319,8 +324,8 @@ const Paragraph = () => {
                 in our lives and the day inspires us most to sacrifice ourselves
                 for the country.
               </p>
-
-              <p className="py-5">
+              <p className="text-center py-5">---------0---------</p>
+              <p className="">
                 বিশেষ দ্রষ্টব্য: [TOPIC] এর জায়গায় তোমার নির্দিষ্ট Paragraph এর
                 নাম এবং [Definition] এর জায়গায় তোমার নির্দিষ্ট Paragraph এর নাম
                 অনুসারে নিচে থেকে Definition লিখে বাকী সব অপরিবর্তিত রাখো।
