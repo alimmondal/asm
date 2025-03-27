@@ -173,82 +173,6 @@ const Paragraph = () => {
             </AccordionContent>
           </AccordionPanel>
 
-          {/* Good Qualities */}
-          <AccordionPanel>
-            <AccordionTitle>Good Qualities</AccordionTitle>
-            <AccordionContent className="p-2 md:p-5">
-              <div className="">
-                {/* <h2 className="text-center ">Paragraph on Good Qualities</h2> */}
-                <h3 className="text-center ">
-                  Importance of moral values/ morality/ humanity <br />
-                  Discipline/ punctuality / Early rising/ value of time
-                  <br />
-                  importance of education/ knowledge/ Common sense <br />
-                  Obedience to parents/ Patriotism/ Love of Country
-                  <br />
-                  Cleanliness/ dutifulness/ perseverance(diligence)/ industry{" "}
-                  <br />
-                  charity/ generosity/ kindness/ mercy/ character/ patience{" "}
-                  <br />
-                  friendship/co-operative/ self-reliance
-                  <br />
-                  Modesty/ politeness/ Courtesy/ Good behavior/ civility/ <br />
-                  Faithfulness/ Truthfulness/ honesty/ integrity/ <br />
-                  confidence/ Gratitude/ gratefulness sacrifice/ love for
-                  people/ <br />
-                </h3>
-                <p className="text-justify pt-3">
-                  <strong>Answer: </strong>there is a prover that [TOPIC] cost
-                  nothing but brings many things. This separates a good man from
-                  a bad man. A man who posses this is loved by all. For example,
-                  a business man is loved by his customers for this quality. A
-                  service holder is loved by his colleagues and bosses. So,
-                  success in every sphere of life largely depends on [TOPIC] .
-                  It's preferable to wealth because one may have vast property
-                  but he is hated only for the absence of it. So, to maintain
-                  peace in society, we also must have it to be an ideal social
-                  being. Hence, all of us should try our best to possess this
-                  valuable quality in our lives for our own interest.
-                </p>
-              </div>
-            </AccordionContent>
-          </AccordionPanel>
-
-          {/* Bad Qualities */}
-          <AccordionPanel>
-            <AccordionTitle>Bad Qualities</AccordionTitle>
-            <AccordionContent className="p-2 md:p-5">
-              <div className="py-5">
-                {/* <h2 className="text-center py-3">Paragraph on Bad Qualities</h2> */}
-                <h3 className="text-center">
-                  Tension/ Frustration/ Depression/ disappointment/ <br />
-                  Drug Addiction/ smoking/ <br />
-                  violence in campus/ Terrorism/ Anarchy/ Anger <br />
-                  Bad-temper/ ill-tempered/ angry/ sick mind and illiteracy{" "}
-                  <br />
-                  Rumour/ Superstition/ idleness <br />
-                  Corruption/ Bribe/ crime/ selfishness <br />
-                  Flattery/Cheating/ Hypocrisy/ forgery/ <br />
-                </h3>
-                <p className="text-justify pt-2">
-                  <strong>Answer: </strong>The word "[TOPIC]" connotes a
-                  disturbed state of thing as opposite to peaceful condition. It
-                  may be called a mental disease. In our society such person are
-                  seen everywhere. When a person fails to achieve his goal, he
-                  may be involved in [TOPIC]. [TOPIC], if involved in economic
-                  affairs, becomes mostly great and widespread. It is also
-                  poverty which is creating [TOPIC] among us. But the effect of
-                  it is really horrible and shocking. In some cases, people are
-                  found to be murdered and commit suicide. So, to maintain peace
-                  and prosperity, we need to be free from [TOPIC]. We should
-                  carefully find out the cause of it. And necessary steps should
-                  be taken not only by the government, but also by the general
-                  people and all kind of organizations for our own sake.
-                </p>
-              </div>
-            </AccordionContent>
-          </AccordionPanel>
-
           {/* Problems */}
           <AccordionPanel>
             <AccordionTitle>Problems</AccordionTitle>
@@ -513,6 +437,77 @@ const Paragraph = () => {
                   it lacks in modern amenities, it has all the essentials (:
                   ...self, table, chairs) etc. I'm proud of my .... . I like my
                   ... most. I wish it would be more glorified one day.
+                </p>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+
+          {/* Good Qualities */}
+          <AccordionPanel>
+            <AccordionTitle>Good Qualities</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="">
+                {/* <h2 className="text-center ">Paragraph on Good Qualities</h2> */}
+                <p className="text-center font-semibold px-5 md:px-10">
+                  1. Discipline 2. Honesty (is the best policy) 3. Dignity of
+                  labour 4. Ambition (hope) 5. Perseverance (diligence) 6.
+                  Truthfulness 7. Obedience (to parents) 8. Industry (is the
+                  mother of good have) 9. Cleanliness 10. Civility (Costs
+                  Nothing) 11. Dutifulness 12. Knowledge 13. Charity 14. Common
+                  sense 15. Friendship 16. Morally Humanity 17. Patriotism 18.
+                  Love (for people) 19. Kindness/mercy 20. Integrity 21.
+                  Co-operative 22. Patience 23. Faithfulness 24. Confidence 25.
+                  Courtesy 26. Sacrifice 27. Punctuality 28. Gratitude Or
+                  Gratefulness 29. Value of time 30. Character 31. Early rising
+                  32. Good behavior 33. Modesty 34. Politeness 35. Self-reliance
+                  36. Education
+                </p>
+                <p className="text-justify pt-3">
+                  <strong>Answer: </strong>there is a prover that [TOPIC] cost
+                  nothing but brings many things. This separates a good man from
+                  a bad man. A man who posses this is loved by all. For example,
+                  a business man is loved by his customers for this quality. A
+                  service holder is loved by his colleagues and bosses. So,
+                  success in every sphere of life largely depends on [TOPIC] .
+                  It's preferable to wealth because one may have vast property
+                  but he is hated only for the absence of it. So, to maintain
+                  peace in society, we also must have it to be an ideal social
+                  being. Hence, all of us should try our best to possess this
+                  valuable quality in our lives for our own interest.
+                </p>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+
+          {/* Bad Qualities */}
+          <AccordionPanel>
+            <AccordionTitle>Bad Qualities</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="py-5">
+                {/* <h2 className="text-center py-3">Paragraph on Bad Qualities</h2> */}
+                <p className="text-center font-semibold px-10 md px-20">
+                  (1)Tension (2) Frustration (3) Depression (4) disappointment
+                  (5) Drug Addiction (6) smoking (7) violence in campus (88)
+                  Terrorism (9) Anarchy (10) Ange (11) Bad-temper (12)
+                  ill-tempered (13) angry (14) sick mind and (15) illiteracy
+                  (25) Rumour (16) Superstition (17) idlenes (18) Corruption
+                  (19) Bribe (20) crime (21) selfishnessF (22) Flattery (23)
+                  Cheating (24) Hypocrisy (26) forgery
+                </p>
+                <p className="text-justify pt-2">
+                  <strong>Answer: </strong>The word "[TOPIC]" connotes a
+                  disturbed state of thing as opposite to peaceful condition. It
+                  may be called a mental disease. In our society such person are
+                  seen everywhere. When a person fails to achieve his goal, he
+                  may be involved in [TOPIC]. [TOPIC], if involved in economic
+                  affairs, becomes mostly great and widespread. It is also
+                  poverty which is creating [TOPIC] among us. But the effect of
+                  it is really horrible and shocking. In some cases, people are
+                  found to be murdered and commit suicide. So, to maintain peace
+                  and prosperity, we need to be free from [TOPIC]. We should
+                  carefully find out the cause of it. And necessary steps should
+                  be taken not only by the government, but also by the general
+                  people and all kind of organizations for our own sake.
                 </p>
               </div>
             </AccordionContent>

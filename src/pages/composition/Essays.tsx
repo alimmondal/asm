@@ -363,6 +363,7 @@ function Essays() {
               </div>
             </AccordionContent>
           </AccordionPanel>
+
           {/* good sides */}
           <AccordionPanel>
             <AccordionTitle>Good Sides</AccordionTitle>
