@@ -36,7 +36,6 @@ function Dialog() {
         23. World terrorism. <br />
         25. Unemployment problem. <br />
         <br />
-        <br />
         <strong>Answer: </strong> A dialog between two friends about
         ............. . <br />
         Mim: Good morning, Muni. <br />
@@ -66,9 +65,35 @@ function Dialog() {
         Written by: MA Alim, English Lecturer, TM College. Моb: 01751337773
       </div>
 
-      <div className="py-10">
-        DIALOG <br />
+      <div className="py-5">
         Dialog: 2 <br />
+        QUESTION: <br />
+        <h3>মানুষের জীবনের জন্য ক্ষতিকর এমন কিছু নিয়ে Dialogue</h3>
+        (Deforestation, Any pollution, Bad effect of smoking etc) <br />
+        <br />
+        Ans: A dialogue between x and y. <br />
+        X: Good morning. How are you? <br />
+        Y: Good morning. I'm fine and you? <br />
+        Y: No. Why? <br />
+        Y: The adverse effect of <br />
+        is acute that it can not be expressed in words. Most of the people of
+        our country are unconscious. Because of unconsciousness this problem is
+        increasing day by day. It impedes our normal life. It has become an
+        ailment. It is indeed a problem for our society. <br />
+        X: How can we stop it? <br />
+        Y: In order to solve this problem we have to make our people conscious.
+        Everybody should come forward to make possible contribution to solve
+        this problem. We should stop this ill-practice for our own sake and our
+        next generation. So,b there is no room for doubt that all our efforts
+        from all corners of the society is needed. Developing awareness in all
+        classes of people and proper implementation can solve this problem.
+        <br />
+        X: Thank you very much. I have learnt many things from you, <br />
+        Y: Welcome. I have to go now. Good bye. <br />
+      </div>
+
+      <div className="py-10">
+        Dialog: 3 <br />
         QUESTION: <br />
         1. A dialog between two friends about their preparation of the ensuing/
         coming <br />
@@ -113,8 +138,7 @@ function Dialog() {
       </div>
 
       <div className="">
-        DIALOG <br />
-        Dialog: 3 <br />
+        Dialog: 4 <br />
         Question: <br />
         1.A dialog about the good effects of morning walk. <br />
         2.A dialog about the necessity of reading newspapers. <br />
@@ -162,8 +186,7 @@ function Dialog() {
       </div>
 
       <div className="py-10">
-        DIALOG: <br />
-        Dialog: 4 <br />
+        Dialog: 5 <br />
         Question: <br />
         1. between you and the book seller/shopkeepers on buying books/things.{" "}
         <br />
@@ -199,7 +222,7 @@ function Dialog() {
       </div>
 
       <div className="pb-10">
-        MODEL DIALOG Dialog: 5 <br />
+        Dialog: 6 <br />
         A dialog between two friends about ………… .<br />
         Mim: Good morning, Muni. <br />
         Muni: Good morning, Mim, how are you? <br />
@@ -221,6 +244,34 @@ function Dialog() {
         <br />
         <br />
         Written by: MA Alim, English Lecturer , TM College. Моb: 01860060068
+      </div>
+
+      <div className="py-5">
+        ((Dialog: 7 <br />
+        QUESTION: <br />
+        )) <br />
+        মানুষের জীবনের জন্য দরকারি/ ভালো দিক নিয়ে Dialogue <br />
+        (Tree plantation, Importance of reading newspaper, Importance of
+        learning English Importance of taking physical exercise, Morning walk,
+        Importance of carly rising <br />
+        <br />
+        Ans: A dialogue between and about <br />
+        X: Good morning. How are you? <br />
+        Y: Good morning. I'm fine and you? <br />
+        X: I'm also fine. Are you busy now? <br />
+        Y: No. Why? <br />
+        X: I want to talk with you about a serious matter. <br />
+        Y: Obviously. I am always ready to tell you whatever you wish to know.{" "}
+        <br />
+        X: Can you tell me about it ? <br />
+        Y: The importance of it is so much that cannot be expressed in words. It
+        is the most essential thing that is necessary in every step in our life.
+        It is very important for human beings. To lead a happy and peaceful
+        life, every person should know the importance of [it]. A man can not
+        shine in life without giving importance to it. <br />
+        X: Thank you very much. I have learnt many things from you. <br />
+        Y: Welcome. I have to go now. Good bye. <br />
+        X: Good bye <br />
       </div>
 
       {/* DOwnload button */}
