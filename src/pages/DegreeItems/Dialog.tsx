@@ -7,9 +7,9 @@ function Dialog() {
         </h1> */}
         <img src="/dialogTitle.png" alt="" />
       </div>
-
+      {/* 1 */}
       <div className="">
-        Dialog: 1 <br />
+        <strong>Dialog: 1 </strong> <br />
         QUESTION: <br />
         1. How to spend summer vacation. <br />
         2. How to spend your spare Time after HSC. <br />
@@ -36,55 +36,61 @@ function Dialog() {
         23. World terrorism. <br />
         25. Unemployment problem. <br />
         <br />
-        <strong>Answer: </strong> A dialog between two friends about
-        ............. . <br />
-        Mim: Good morning, Muni. <br />
-        Muni: Good morning, Mim, how are you? <br />
-        Mim: I am well. But it has been a long time since we last met. How are
-        you? <br />
-        Muni: I am so and so. But what is your idea about [ প্রশ্নের about এর পর
-        থেকে শেষ পর্যন্ত ].
+        <strong>Answer: </strong> A dialog between two friends about [it] .{" "}
         <br />
-        Mim: I am thinking of spending free time by creating awareness of
+        Ans: A dialogue between x and y. <br />
+        X: Good morning. How are you? <br />
+        Y: Good morning. I'm fine and you? <br />
+        X: I'm fine. Are you busy now? <br />
+        Y: No. Why? <br />
+        X: Can you tell me about [ প্রশ্নের about এর পর থেকে শেষ পর্যন্ত ].
+        <br />
+        Y: I am thinking of spending free time by creating awareness of
         [SMOKING] <br />
-        Muni: [SMOKING] is really a great problem. <br />
-        Mim: It is nothing new. All the areas of the [countries/ world] are
-        badly affected by it. It also hampers our economic progress. <br />
-        Muni: Yes, [SMOKING] is a common incident. But recently it's risen to an
-        intolerable level. <br />
-        Mim: And [SMOKING] snatches away many lives every year. <br />
-        Muni: The root cause of it is the lack of awareness as most of us are
-        illiterate. <br />
-        Mim: So in my [ free time ] I decided to make a campaign to create
+        X: What is the root cause of it. <br />
+        Y: The root cause of it is the lack of awareness as most of us are
+        illiterate. It also hampers our economic progress. And [SMOKING]
+        snatches away many lives every year. <br />
+        X: Yes, but how to solve it. <br />
+        Y: In order to solve this problem we have to make our people conscious.
+        Government also should come forward with developing steps.
+        <br />
+        X: So in my [ free time ] I decided to make a campaign to create
         awareness of [SMOKING] in our locality. Will you join me? <br />
-        Muni: Yes, I am thinking so. <br />
-        Mim: Thank you very much. <br />
-        Muni: Welcome, see you again.
+        Y: Yes, I am thinking so. <br />
+        X: Thank you very much. <br />
+        Y: Welcome, see you again.
         <br />
         <br />
         Written by: MA Alim, English Lecturer, TM College. Моb: 01751337773
       </div>
 
-      <div className="py-5">
-        Dialog: 2 <br />
-        QUESTION: <br />
+      {/* 2 */}
+      <div className="py-10">
+        <strong>Dialog: 2 </strong>
+        <br />
         <h3>মানুষের জীবনের জন্য ক্ষতিকর এমন কিছু নিয়ে Dialogue</h3>
+        QUESTION: <br />
         (Deforestation, Any pollution, Bad effect of smoking etc) <br />
         <br />
         Ans: A dialogue between x and y. <br />
         X: Good morning. How are you? <br />
         Y: Good morning. I'm fine and you? <br />
+        X: I'm fine. Are you busy now? <br />
         Y: No. Why? <br />
-        Y: The adverse effect of <br />
-        is acute that it can not be expressed in words. Most of the people of
-        our country are unconscious. Because of unconsciousness this problem is
-        increasing day by day. It impedes our normal life. It has become an
-        ailment. It is indeed a problem for our society. <br />
+        X: I want to talk with you about a serious matter. <br />
+        Y: Obviously. I'm ready to tell you whatever you wish to know. <br />
+        X: Can you tell me about [it]. <br />
+        Y: The adverse effect of [it] so is acute that it can not be expressed
+        in words. Most of the people of our country are unconscious. Because of
+        unconsciousness this problem is increasing day by day. It impedes our
+        normal life. It has become an ailment. It is indeed a problem for our
+        society. <br />
         X: How can we stop it? <br />
         Y: In order to solve this problem we have to make our people conscious.
         Everybody should come forward to make possible contribution to solve
         this problem. We should stop this ill-practice for our own sake and our
-        next generation. So,b there is no room for doubt that all our efforts
+        next generation. So, there is no room for doubt that all our efforts
         from all corners of the society is needed. Developing awareness in all
         classes of people and proper implementation can solve this problem.
         <br />
@@ -92,8 +98,36 @@ function Dialog() {
         Y: Welcome. I have to go now. Good bye. <br />
       </div>
 
+      {/* 3 */}
+      <div className="py-5">
+        <strong>Dialog: 3</strong> <br />
+        <h3 className="">মানুষের জীবনের জন্য দরকারি/ ভালো দিক নিয়ে Dialogue</h3>
+        (Tree plantation, Importance of reading newspaper, Importance of
+        learning English Importance of taking physical exercise, Morning walk,
+        Importance of carly rising <br />
+        <br />
+        Ans: A dialogue between and about <br />
+        X: Good morning. How are you? <br />
+        Y: Good morning. I'm fine and you? <br />
+        X: I'm also fine. Are you busy now? <br />
+        Y: No. Why? <br />
+        X: I want to talk with you about a serious matter. <br />
+        Y: Obviously. I am always ready to tell you whatever you wish to know.{" "}
+        <br />
+        X: Can you tell me about it ? <br />
+        Y: The importance of it is so much that cannot be expressed in words. It
+        is the most essential thing that is necessary in every step in our life.
+        It is very important for human beings. To lead a happy and peaceful
+        life, every person should know the importance of [it]. A man can not
+        shine in life without giving importance to it. <br />
+        X: Thank you very much. I have learnt many things from you. <br />
+        Y: Welcome. I have to go now. Good bye. <br />
+        X: Good bye <br />
+      </div>
+
+      {/* 4 */}
       <div className="py-10">
-        Dialog: 3 <br />
+        <strong>Dialog: 4 </strong> <br />
         QUESTION: <br />
         1. A dialog between two friends about their preparation of the ensuing/
         coming <br />
@@ -109,36 +143,33 @@ function Dialog() {
         8. A dialog between two friends about how to make good results.
         <br />
         <br />
-        <strong>Answer: </strong> A dialog between my friend Sumi and myself
-        (Mim). <br />
-        Sumi: How are you, Mim? Isn't it long since we met? <br />
-        Mim: Yes, it is. I am well. <br />
-        Sumi: But you seem to be anxious, but why? How is your preparation for
-        the coming examination? <br />
-        Mim: Well but English. But to be good at English is to do well (make
-        good results) in the exam. Tell me the cause of failure in English (and
-        how to make good results)? <br />
-        Sumi: Well, English is a foreign language and our student is fearful of
-        English, not to understand the importance of learning English is another
-        reason of failure <br />
-        in English. Mim: Then what's the importance of learning English? <br />
-        Sumi: English is an international language. For communication, for being
-        an expert doctor, engineer, politician and to get a good job, English is
-        essential. <br />
-        Mim: Then how to be good at English in order to get a good result in the
-        examination. <br />
-        Sumi: To be good at English one has to shake off the fear of English,
-        build up vocabulary (and follow the rules-listening, speaking, writing
-        and reading.....). <br />
-        Mim: Thank you, Sumi, for your advice. <br />
-        Sumi: Welcome. I wish you good results and see you again.
+        <strong>Answer: </strong> A dialog between my friend X and myself (Mim).{" "}
+        <br />
+        X: How are you, Mim? Isn't it long since we met? <br />
+        Y: Yes, it is. I am well. <br />
+        X: How is your preparation for the coming examination? <br />
+        Y: Well but English. Can you tell me the cause of failure in English and
+        how to make good results? <br />
+        X: Students are afraid of English and do not to understand the
+        importance of English.
+        <br />
+        Y: Then what's the importance of learning English? <br />
+        X: English is an international language. English is essential for
+        communication, for being an doctor, engineer and to get a good job, etc.
+        <br />
+        Y: Then how to be good at English.
+        <br />
+        X: To be good at English, one has to shake off the fear of English,
+        build up a vast vocabulary. <br />
+        Y: Thank you, X, for your advice. <br />
+        X: Welcome. I wish you good results and see you again.
         <br />
         <br />
         Written by: MA Alim, English Lecturer, Mob: 01860060068
       </div>
 
       <div className="">
-        Dialog: 4 <br />
+        <strong>Dialog: 5 </strong> <br />
         Question: <br />
         1.A dialog about the good effects of morning walk. <br />
         2.A dialog about the necessity of reading newspapers. <br />
@@ -156,25 +187,22 @@ function Dialog() {
         <br />
         <br />
         <strong>Answer: </strong> A dialog between Zahid and Ruhul about <br />
-        Zahid: Good morning, Ruhul. <br />
-        Ruhul: Good morning, Zahid. How are you? <br />
-        Zahid: I am well. But it has been a long time since we last met. <br />
-        Ruhul: But how are you? <br />
-        Zahid: I am so and so. You seem to think of something. <br />
-        Ruhul: Yes I am thinking of (my)........in man's life. What do you know
-        about it? <br />
-        Zahid: ...........is a kind of hobby, an activity of leisure. When our
-        main occupation becomes boring, we turn to our hobby. It is also an
+        X: I'm fine. Are you busy now? <br />
+        Y: No. Why? <br />
+        X: I want to talk with you about a serious matter. <br />
+        Y: Obviously. I'm ready to tell you whatever you wish to know. <br />
+        X: Can you tell me about [it]. <br />
+        X: [it] is a kind of hobby, an activity of leisure. When our main
+        occupation becomes boring, we turn to our hobby. It is also an
         interesting habit. <br />
-        Ruhul: It surely has a usefulness? <br />
-        Zahid: Surely, it serves life both mentally and physically. It is the
-        most advisable occupation for the aging, youth and adult...helps keep
-        the mind jolly and jovial and also refreshes our mind. <br />
-        Ruhul:oh, yes. So it is never a waste of time as some people erroneously
+        Y: Has it usefulness? <br />
+        X: Surely, it serves life both mentally and physically. It is the most
+        advisable occupation for the aging, youth and adult...helps keep the
+        mind jolly and jovial and also refreshes our mind. <br />
+        Y: oh, yes. So it is never a waste of time as some people erroneously
         may take it for granted. <br />
-        Zahid: Oh, I think you have understood the fact. <br />
-        Ruhul: Thank you very much to make me aware about <br />
-        Zahid: I welcome you.
+        X: Thank you very much. I have learnt many things from you. <br />
+        Y: Welcome. I have to go now. Good bye.
         <br />
         <br />
         Early rising/Morning walk: Early to bed, early to rise make a man
@@ -186,7 +214,7 @@ function Dialog() {
       </div>
 
       <div className="py-10">
-        Dialog: 5 <br />
+        <strong>Dialog: 6 </strong> <br />
         Question: <br />
         1. between you and the book seller/shopkeepers on buying books/things.{" "}
         <br />
@@ -221,8 +249,8 @@ function Dialog() {
         Written by: MA Alim, Lecturer in English, TM College. Mob: 01860060068
       </div>
 
-      <div className="pb-10">
-        Dialog: 6 <br />
+      {/* <div className="pb-10">
+        <strong>Dialog: 6 </strong> <br />
         A dialog between two friends about ………… .<br />
         Mim: Good morning, Muni. <br />
         Muni: Good morning, Mim, how are you? <br />
@@ -244,35 +272,7 @@ function Dialog() {
         <br />
         <br />
         Written by: MA Alim, English Lecturer , TM College. Моb: 01860060068
-      </div>
-
-      <div className="py-5">
-        ((Dialog: 7 <br />
-        QUESTION: <br />
-        )) <br />
-        মানুষের জীবনের জন্য দরকারি/ ভালো দিক নিয়ে Dialogue <br />
-        (Tree plantation, Importance of reading newspaper, Importance of
-        learning English Importance of taking physical exercise, Morning walk,
-        Importance of carly rising <br />
-        <br />
-        Ans: A dialogue between and about <br />
-        X: Good morning. How are you? <br />
-        Y: Good morning. I'm fine and you? <br />
-        X: I'm also fine. Are you busy now? <br />
-        Y: No. Why? <br />
-        X: I want to talk with you about a serious matter. <br />
-        Y: Obviously. I am always ready to tell you whatever you wish to know.{" "}
-        <br />
-        X: Can you tell me about it ? <br />
-        Y: The importance of it is so much that cannot be expressed in words. It
-        is the most essential thing that is necessary in every step in our life.
-        It is very important for human beings. To lead a happy and peaceful
-        life, every person should know the importance of [it]. A man can not
-        shine in life without giving importance to it. <br />
-        X: Thank you very much. I have learnt many things from you. <br />
-        Y: Welcome. I have to go now. Good bye. <br />
-        X: Good bye <br />
-      </div>
+      </div> */}
 
       {/* DOwnload button */}
       <div className="text-center py-4 sticky bottom-0 left-0 right-0">
@@ -289,14 +289,6 @@ function Dialog() {
           Note: পিডিএফ ফাইল ডাউনলড করলে মোবাইলের File manager/ My File-এ জমা হয়।
           গেলারিতে পাওয়া যাবে না।
         </p>
-      </div>
-      <div className="">
-        {/* <img src="img/dialog1.jpg" alt="" /> */}
-        {/* <img src="img/dialog2.jpg" alt="" /> */}
-        {/* <img src="img/dialog3.jpg" alt="" /> */}
-        <img src="img/dialog4.jpg" alt="" />
-        {/* <img src="img/dialog5.jpg" alt="" /> */}
-        {/* <img src="img/dialog5.jpg" alt="" /> */}
       </div>
     </div>
   );
