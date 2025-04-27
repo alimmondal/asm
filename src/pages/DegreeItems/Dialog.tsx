@@ -19,7 +19,7 @@ function Dialog() {
         8. Bad effects of mobile phones. 10. Eve teasing. <br />
         12. Bad effect of smoking. <br />
         14. Load shedding. <br />
-        16. Environment pollution. <br />
+        16. Environmental pollution. <br />
         18. Air pollution. <br />
         20. Road accident. <br />
         22.Student politics. <br />
@@ -27,7 +27,7 @@ function Dialog() {
         4. Drug addiction. <br />
         6. Recent food adulteration. <br />
         9. Frequent flood/Cyclone. <br />
-        11.Climate change/ Green house effect/Global Warming. <br />
+        11.Climate change/ Greenhouse effect/Global Warming. <br />
         13. Deforestation/tree plantation. <br />
         15. Corruption/terrorism. <br />
         17. Arsenic pollution. <br />
