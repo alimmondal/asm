@@ -4,12 +4,9 @@ import { Link } from "react-router-dom";
 const Welcome = () => {
   return (
     <div className="h-screen w-full flex flex-col items-center justify-center gap-4 bg-rose-50">
-      <div className="heading2 ">
-        <p className="text-xl">
-          <span className="text-lg">তোমাকে</span>
-          <br />
-          সুস্বাগতম !
-        </p>
+      <div className="heading2 flex flex-col justify-center items-center">
+          <p className="text-lg">তোমাকে</p>
+        <p className="text-xl"> সুস্বাগতম ! </p>
       </div>
       <div className="relative">
         <div className="">
