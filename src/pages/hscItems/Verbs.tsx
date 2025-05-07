@@ -90,7 +90,7 @@ function Verbs() {
                   যেমন:
                 </span>
               </p>
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. He often (take) tea.
                 <br />= He often takes tea.
               </p>
@@ -106,7 +106,7 @@ function Verbs() {
                   যেমন:
                 </span>
               </p>
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. He came after I (eat) rice.
                 <br />= He came after I had eaten rice.
               </p>
@@ -121,7 +121,7 @@ function Verbs() {
                   যেমন:
                 </span>
               </p>
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. He not (choose) her career yet.
                 <br />= He has not chosen her career yet.
               </p>
@@ -140,7 +140,7 @@ function Verbs() {
                   যেমন:
                 </span>
               </p>
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. He (return) last night.
                 <br />= He returned last night.
               </p>
@@ -158,7 +158,7 @@ function Verbs() {
                   <br /> যেমন:
                 </span>
               </p>
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. Rice is (sell) in the market.
                 <br />= Rice is sold in the market.
               </p>
@@ -169,7 +169,7 @@ function Verbs() {
                 <sub>3</sub> হয়। <br />
                 যেমনঃ
                 <br />
-                <span className="example">
+                <span className="dark:text-green-400">
                   Q. I went out having (close) the door.
                   <br />= I went out having closed the door.
                 </span>
@@ -180,7 +180,7 @@ function Verbs() {
                 by day, ইত্যাদি থাকলে বাক্যটি সাধারণত Present Continuous tense
                 হয়। যেমন:
                 <br />
-                <span className="example">
+                <span className="dark:text-green-400">
                   Q. She is (write) now.
                   <br />
                   =She is writing now.
@@ -192,7 +192,7 @@ function Verbs() {
                 passive voice এ হয়। <br />
                 যেমনঃ
                 <br />
-                <span className="example">
+                <span className="dark:text-green-400">
                   Q. The festival (hold). <br />= The festival was held.
                 </span>
               </p>
@@ -206,7 +206,7 @@ function Verbs() {
                 would better এর পরের ব্রাকেটের Verb টি V<sub>1</sub> হয় । <br />
                 যেমন:
               </p>
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. Imran can (play) football.
                 <br />= Imran can play football.
               </p>
@@ -220,7 +220,7 @@ function Verbs() {
                 <sub>1</sub> হয়। <br />
                 যেমন:
               </p>
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. He wanted to (live) in Dhaka.
                 <br />= He wanted to live in Dhaka.
               </p>
@@ -233,7 +233,7 @@ function Verbs() {
                 হয় । <br />
                 যেমন:
               </p>
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. She is used to (read) Quran.
                 <br />= She is devoted to reading Quran.
               </p>
@@ -243,7 +243,7 @@ function Verbs() {
                 <sub>1</sub> হয়। <br />
                 যেমন:
               </p>
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. He used to (drive) a car.
                 <br />= He used to drive a car.
               </p>
@@ -258,7 +258,7 @@ function Verbs() {
                 away) এর পরের ব্রাকেটের verb এর সাথে ing হয়। <br />
                 যেমন:
               </p>
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. He is tired of (drive) car.
                 <br />= He is tired of driving car.
               </p>
@@ -273,7 +273,7 @@ function Verbs() {
                 পরে ব্রাকেটের Verb এর সাথে ing হয়।
               </p>
               যেমনঃ
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. You tried to finish (write).
                 <br />= You tried to finish writing.
               </p>
@@ -282,12 +282,12 @@ function Verbs() {
                 সাধারণত এই Verb গুলো ছাড়া অন্য কোন Verb এর পরে ব্রাকেটের verb এর
                 V1 হয়। <br />
                 যেমনঃ <br />
-                <span className="example">
+                <span className="dark:text-green-400">
                   {" "}
                   Q. He tried (do) the work.
                 </span>{" "}
                 <br />
-                <span className="example">= He tried to do the work.</span>
+                <span className="dark:text-green-400">= He tried to do the work.</span>
               </p>
             </div>
 
@@ -299,7 +299,7 @@ function Verbs() {
                 is high time থাকলে পরের বাক্যের ব্রাকেটের verb এর V2 হয়। <br />
                 যেমন:
               </p>
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. He wishes he (sing) a song.
                 <br />= He wishes he sang a song.
               </p>
@@ -312,7 +312,7 @@ function Verbs() {
                   যেমনঃ
                 </span>
               </p>
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. He wishes he (be) a king.
                 <br />= He wishes he were a king.
               </p>
@@ -330,7 +330,7 @@ function Verbs() {
                   যেমন:
                 </span>
               </p>
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. Shohel talks as though he (become) a leader.
                 <br />
                 = Shohel talks as though he became a leader.
@@ -382,7 +382,7 @@ function Verbs() {
                 might have হবে এবং Verb এর V<sub>3</sub> হয়। <br />
                 যেমন:
               </p>
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. Had Muni told me this, I (buy) a car.
                 <br />= Had Muni told me this, I would have bought a car.
               </p>
@@ -395,7 +395,7 @@ function Verbs() {
                 যুক্ত হয়। <br />
                 যেমন:
               </p>
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. I saw him (play) card.
                 <br />= I saw him playing card.
               </p>
@@ -411,7 +411,7 @@ function Verbs() {
                   যেমন:
                 </span>
               </p>
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. (Go) home, Ruhul will sleep.
                 <br />= Going home, Ruhul will sleep.
               </p>
@@ -424,7 +424,7 @@ function Verbs() {
                 verb এর সাথে ing হয়। <br />
                 যেমন:
               </p>
-              <p className="example">
+              <p className="dark:text-green-400">
                 Q. Zahid insisted on my (go) his home.
                 <br />= Zahid insisted on my going his home.
               </p>
@@ -437,7 +437,7 @@ function Verbs() {
                 time) থাকলে Present Perfect Continuous tense হয়। <br />
                 যেমন:
                 <br />
-                <span className="example">
+                <span className="dark:text-green-400">
                   Q. Ruhul (read) in Tilokpur College for two years. <br />=
                   Ruhul has been reading in Tilokpur College for two years.
                 </span>
@@ -450,7 +450,7 @@ function Verbs() {
                 থাকলে Present Perfect tense হয়। <br />
                 যেমন:
                 <br />
-                <span className="example">
+                <span className="dark:text-green-400">
                   Q. He (be) in Tilokpur College for two years.
                   <br />= He has been in Tilokpur College for two years.
                 </span>
@@ -464,7 +464,7 @@ function Verbs() {
                   <strong>Rule-17: </strong> Next, tomorrow, ইত্যাদি phrase
                   থাকলে Future Indefinite হয়। Subject এর পরে will থাকে।
                 </p>
-                <p className="example">
+                <p className="dark:text-green-400">
                   Q. He (return) home next day.
                   <br />= He Will return home next day.
                 </p>
@@ -477,7 +477,7 @@ function Verbs() {
                   <br />
                   যেমন:
                 </p>
-                <p className="example">
+                <p className="dark:text-green-400">
                   Q. While (Walk) I saw him.
                   <br />
                   = While Walking, I saw him.
@@ -494,7 +494,7 @@ function Verbs() {
                     সাহায্যকারী Verb এবং principal verb হয়। <br />
                     যেমন:
                   </span>
-                  <p className="example">
+                  <p className="dark:text-green-400">
                     Q. He not always (drink) tea.
                     <br />= He does not always drink tea.
                   </p>
@@ -507,7 +507,7 @@ function Verbs() {
                   <br />
                   যেমন:
                 </p>
-                <p className="example">
+                <p className="dark:text-green-400">
                   = He walked fast lest he (miss) the train.
                   <br />= He walked fast lest he might miss the train.
                 </p>
@@ -524,7 +524,7 @@ function Verbs() {
                   একটি হতে পারে। <br />
                   যেমন:
                 </p>
-                <p className="example">
+                <p className="dark:text-green-400">
                   Q. The rich (to be) not always happy.
                   <br />= The poor are happy.
                 </p>
@@ -536,7 +536,7 @@ function Verbs() {
                   Sub এর পরে verb singular হয়। <br />
                   যেমন:
                 </p>
-                <p className="example">
+                <p className="dark:text-green-400">
                   Q. Ten kgs (be) heavy weight.
                   <br />= Ten kgs is heavy weight.
                 </p>
@@ -548,7 +548,7 @@ function Verbs() {
                   Wh এর পূর্বের subject অনুসারে verb হয়। <br />
                   যেমন:
                 </p>
-                <p className="example">
+                <p className="dark:text-green-400">
                   Q. It is I who (be) to blame.
                   <br />= It is I who am to blame.
                 </p>
@@ -562,7 +562,7 @@ function Verbs() {
                   থাকলে Subject singular হয় এবং verb singular হয়। <br />
                   যেমন:
                 </p>
-                <p className="example">
+                <p className="dark:text-green-400">
                   Q. Something (be) wrong.
                   <br />= Something is wrong.
                 </p>

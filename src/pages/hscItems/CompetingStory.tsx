@@ -247,6 +247,8 @@ const CompetingStory = () => {
         part in independence war. He defeated the illicit ruler and regained his
         throne.
       </div>
+
+
       <div className="text-center py-4 sticky bottom-0 left-0 right-0">
         <a
           href="/suffix-prefix.pdf"
