@@ -17,6 +17,11 @@ function Hsc() {
               Suggestion
             </li>
           </Link>
+          <Link to={"/modelTestFirstPaper"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:hover:border border-green-400">
+              MODEL TEST 1st-Part
+            </li>
+          </Link>
           <Link to={"/article"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white transition hover:bg-black dark:border dark:border-slate-400">
               Article

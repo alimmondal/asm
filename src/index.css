@@ -62,7 +62,7 @@
 
 .example {
   margin-left: 20px;
-  color: blue;
+  /* color: blue; */
 }
 .menus {
   position: sticky;

@@ -1,41 +1,45 @@
 function HSuggestion() {
   return (
-    <div className="h-full md:w-[85%] mx-auto px-5">
+    <div className="h-full md:w-[50%] mx-auto px-5">
       <div className="py-10">
         <h1 className="text-xl md:text-4xl">HSC Suggestion</h1>
       </div>
       <div className="h-full w-full ">
         <h2>English First Paper</h2>
+
+        <p className="py-2">
+          Passage: (Question no-1-3) <br />
+          1. In civic engagement                                		 Unit: 5, L-3 <br />
+          2. Nelson Mandela guided South Africa.    ***          		 Unit: 01,L-2 <br />
+          3. Dreams have fascinated philosophers for.. ***     		 Unit: 03, L-1 <br />
+          4. The success of Kalsindur girls         ***        		 Unit: 07,L-5 <br />
+          5. As a child you must have been taught.            		 Umit: 04, L-1<br />
+          6. I was ten years old. My grandmother.....   **       		 Unit: 04, L-3 <br />
+          7. Children must pass through several stages....		 Urrit:06, L-1 <br />
+          8. Shilpi was only 15 years dd when                   		 Unit 06, L-4 <br />
+          9. My name is Amerigo.                                       		 Unit 08,L-4 <br />
+          10. World health                		 			 Unit: 09,L-1 <br />
+          11. One of the sources of water in our..... ***         		 Unit: 12, L-1 <br />
+          12. Water, water, water                 ***                      		 Unit:12. L-2 <br />
+          13. kuakata locally known as Sagar konnya.       		 Unit: 12.L-5 <br />
+          14. When a girl gets married				Unit: 9, Lesson: 2<br />
+          15. In traditional society					Unit: 7, Lesson: 5<br />
+          16. Eco-tourism 			***			Unit: 13, Lesson: 3
+          17. Hold fast to dreams….		***		Unit: 6, Lesson: 2<br />
+          18. The orphanage is high 			**		Unit: 8, Lesson: 3<br />
+          19. The famous Greek Philosopher 				Unit: 8, Lesson: 1<br />
+          20.  Nishat Majumder						 Unit: 7, Lesson: 4<br />
+          21.   The act of thinking 					Unit: 10, Lesson: 4	<br />
+          22.  Adolescents constitute 	      ****				Unit: 9, Lesson: 2<br />
+          23.  A plate of hot French fries  ***			Unit: 10, Lesson: 3<br />
+          24. Junk foods are processed 				Unit: 10, Lesson: 3<br />
+          25. The island of St. Martin’s				Unit: 13, Lesson: 3<br />
+          26. Frequent consumption of				Unit: 10, Lesson: 3<br />
+        </p>
+        <br />
         <p>
-          <strong> Question: 1, 2 , 3</strong> <br />
-          1. Unforgettable history [ u-1] *** <br />
-          2. Nelson Mendala*** [U-1] <br />
-          3. What is a dream ( U-3) <br />
-          4. The orphanage was high ( U-6 ) <br />
-          5. Time of adolescence *** [ U-] <br />
-          6. Adolescence [ U-4 ] <br />
-          7. Greek philosopher *** [U-12, L-1] <br />
-          8. Education *** <br />
-          9. Amerigo <br />
-          10. Hakaluki haor [U-12, L-2] <br />
-          11. Valentina Terskova [U-1, L-3] <br />
-          12. Kalpana Chawla [U-1]
-          <br />
-          <br />
-          <strong>Q. 3 Summery:</strong>
-          <br />
-          1. All people dream <br />
-          2. Amerigo <br />
-          3. I love to rise in summer morn <br />
-          4. Blow, Blow thou winter wind*** <br />
-          5. Hold fast dream *****
-          <br />
-          6. Water, water everywhere <br />
-          7. Education aims*** <br />
-          8. The Greek philosopher <br />
-          9. Nelson Mendela*****
-          <br />
-          <br />
+
+
           <strong>Q: 4. with clues:</strong>
           <br />
           1. Every year <br />
@@ -249,6 +253,23 @@ function HSuggestion() {
           25. The importance of learning English
           <br />
           26. The railway station/ a bus station
+        </p>
+      </div>
+
+      {/* DOwnload button */}
+      <div className="text-center py-4 sticky bottom-0 left-0 right-0">
+        <a
+          href="/HSCSuggestion.pdf"
+          download
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        >
+          Download PDF
+        </a>
+      </div>
+      <div className="text-center">
+        <p className="">
+          Note: পিডিএফ ফাইল ডাউনলড করলে মোবাইলের File manager/ My File-এ জমা হয়।
+          গেলারিতে পাওয়া যাবে না।
         </p>
       </div>
     </div>

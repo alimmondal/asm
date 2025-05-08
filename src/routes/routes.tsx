@@ -55,6 +55,7 @@ import SscQuestion from "../pages/sscItems/SscQuestion";
 import ModelTest from "../pages/hscItems/ModelTest";
 import CompetingStory from "../pages/hscItems/CompetingStory";
 import Graph from "../pages/hscItems/Graph";
+import FirstPaperModel from "../pages/hscItems/FirstPaperModel";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -73,6 +74,10 @@ export const router = createBrowserRouter([
       {
         path: "/ssc",
         element: <Ssc />,
+      },
+      {
+        path: "/modelTestFirstPaper",
+        element: <FirstPaperModel />,
       },
       {
         path: "/hsc",

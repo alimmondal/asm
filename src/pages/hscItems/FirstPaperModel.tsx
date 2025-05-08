@@ -7,19 +7,19 @@ import "pdfjs-dist/build/pdf.worker.entry";
 const FirstPaperModel = () => {
   return (
     <div className="h-full w-full md:w-[85%] mx-auto">
-          <div className="py-20">
-            <h1 className="text-center">HSC Model Test 1st-Part</h1>
-          </div>
-    
-        <div>
-          <Worker
-            workerUrl={`https://unpkg.com/pdfjs-dist@2.9.359/build/pdf.worker.min.js`}
-          >
-            <Viewer fileUrl="/HSEModelTest1st.pdf" />
-          </Worker>
-        </div>
+      <div className="py-20">
+        <h1 className="text-center">HSC Model Test 1st-Part</h1>
+      </div>
 
-        {/* DOwnload button */}
+      <div>
+        <Worker
+          workerUrl={`https://unpkg.com/pdfjs-dist@2.9.359/build/pdf.worker.min.js`}
+        >
+          <Viewer fileUrl="/HSEModelTest1st.pdf" />
+        </Worker>
+      </div>
+
+      {/* DOwnload button */}
       <div className="text-center py-4 sticky bottom-0 left-0 right-0">
         <a
           href="/suffix-prefix.pdf"
@@ -35,7 +35,7 @@ const FirstPaperModel = () => {
           গেলারিতে পাওয়া যাবে না।
         </p>
       </div>
-        </div>
+    </div>
   )
 }
 

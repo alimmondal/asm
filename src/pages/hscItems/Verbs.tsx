@@ -8,7 +8,7 @@ function Verbs() {
           Right Form of Verbs
         </h1>
       </div>
-      <div className="h-full w-[95%] md:w-[65%] mx-auto">
+      <div className="h-full w-[95%] md:w-[60%] mx-auto">
         <div className="">
           <h2>Structure of Tense:</h2>
           <div className="">

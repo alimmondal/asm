@@ -152,7 +152,7 @@ const Narration = () => {
                   <p className="">
                     যেমনঃ
                     <br />
-                    Q. He said to me, "You had done.your duty." <br />= He said
+                    Q. He said to me, "You had done your duty." <br />= He said
                     to me that <strong> I </strong>had done <strong> my</strong>{" "}
                     duty according to her order.
                   </p>
