@@ -1,6 +1,5 @@
 import { Worker, Viewer } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
-// Import the worker from the installed `pdfjs-dist` package
 import "pdfjs-dist/build/pdf.worker.entry";
 
 const BoardQuestion = () => {
@@ -15,7 +14,7 @@ const BoardQuestion = () => {
           <Worker
             workerUrl={`https://unpkg.com/pdfjs-dist@2.9.359/build/pdf.worker.min.js`}
           >
-            <Viewer fileUrl="/HSC-English-2nd-Test-Paper.pdf" />
+            <Viewer fileUrl="/HSCEnglish2ndTestPaper.pdf" />
           </Worker>
         </div>
         <div className="text-center py-4">

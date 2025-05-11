@@ -56,6 +56,7 @@ import ModelTest from "../pages/hscItems/ModelTest";
 import CompetingStory from "../pages/hscItems/CompetingStory";
 import Graph from "../pages/hscItems/Graph";
 import FirstPaperModel from "../pages/hscItems/FirstPaperModel";
+import Correction from "../pages/DegreeItems/Correction";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -174,6 +175,10 @@ export const router = createBrowserRouter([
       {
         path: "/advertisement",
         element: <Advertisement />,
+      },
+      {
+        path: "/correction",
+        element: <Correction />,
       },
       {
         path: "/DPartsOfSpeech",
