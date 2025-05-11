@@ -75,8 +75,8 @@ function Verbs() {
           </div>
 
           {/* Rules */}
-          <h2 className="mt-5">Rules of Right Form of Verbs:</h2>
-          <div className="">
+          <h2 className="mt-5">Rules:</h2>
+          <div className="text-lg md:text-xl">
             {/* 1 */}
             <div className="pb-3">
               <p>
@@ -569,7 +569,8 @@ function Verbs() {
               </div>
             </div>
 
-            {/* <div className="text-center py-4">
+            {/* DOwnload button */}
+            <div className="text-center py-4 sticky bottom-0 left-0 right-0">
               <a
                 href="/Right-form of verbs.pdf"
                 download
@@ -577,7 +578,14 @@ function Verbs() {
               >
                 Download PDF
               </a>
-            </div> */}
+            </div>
+            <div className="text-center">
+              <p className="">
+                Note: পিডিএফ ফাইল ডাউনলড করলে মোবাইলের File manager/ My File-এ জমা হয়।
+                গেলারিতে পাওয়া যাবে না।
+              </p>
+            </div>
+
 
             {/* exercise */}
             <div className="my-10">

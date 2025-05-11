@@ -1,9 +1,9 @@
 function Graph() {
   return (
-    <div className="px-5 h-full md:w-[65%] mx-auto">
+    <div className="px-5 h-full md:w-[60%] mx-auto">
       <div className="">
         <h1 className="text-center font-semibold text-md py-20 text-green-400">
-          Graph Chart
+          Graph-Chart
         </h1>
       </div>
       <div className="">
