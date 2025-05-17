@@ -4,37 +4,51 @@ function Voice() {
       <div className="py-20">
         <h1 className="text-center text-green-400">Voice</h1>
       </div>
-      <div className="">
+      <div className="text-lg md:text-xl">
         <h3 className="underline">From Active to Passive</h3>
         <p className="text-blue-500 dark:text-gray-300 font-extrabold">
           <span className="text-rose-500">Rule: </span> Obj কে Sub বানাতে হবে +
           (helping verb) + V<sub>3</sub> + by + sub কে obj বানাতে হবে।
         </p>
         <p className="py-2">
-          (i) মুল Verb যদি V<sub>1</sub> থাকে তাহলে Passive voice এর helping
+          (1) মুল Verb যদি V<sub>1</sub> থাকে তাহলে Passive voice এর helping
           verb হয় = am/is/are <br />
           যেমনঃ <br />
           Q. She makes tea.
           <br />= Tea is made by her.
         </p>
         <p className="py-2">
-          (ii) মুল Verb যদি V<sub>2</sub> থাকে তাহলে Passive voice এর helping
+          (2) সাহায্যকারী Verb যদি do not/ does not থাকে তাহলে এগুলোর
+          পরিবর্তে Passive voice এর helping verb হবে = am not/ is not/ are not <br />
+          যেমনঃ <br />
+          Q. She does not make tea.
+          <br />= Tea is not made by her.
+        </p>
+        <p className="py-2">
+          (3) মুল Verb যদি V<sub>2</sub> থাকে তাহলে Passive voice এর helping
           verb হয় = Was/ were <br />
           যেমনঃ
           <br />
           Q. She made tea.
           <br />= Tea was made by her.
         </p>
+        <p className="py-2">
+          (2) সাহায্যকারী Verb যদি did not থাকে তাহলে এগুলোর
+          পরিবর্তে Passive voice এর helping verb হবে = was not/ were not <br />
+          যেমনঃ <br />
+          Q. She did not make tea.
+          <br />= Tea was not made by her.
+        </p>
 
         <p className="py-2">
-          (iii) যদি am/is/are, was/ were, shall be/ will be থাকে তাহলে এগুলোর
+          (4) যদি am/is/are, was/ were, shall be/ will be থাকে তাহলে এগুলোর
           সাথে Passive voice এর helping verb হয় = being <br />
           যেমনঃ <br />
           Q. She was making tea.
           <br />= Tea was being made by her.
         </p>
         <p className="py-2">
-          (vi) যদি can/ could/ may/ might/ shall/ should/ will/ would/ must/
+          (5) যদি can/ could/ may/ might/ shall/ should/ will/ would/ must/
           ought to/ have to/ has to/ had to/ am going to/ is going to/ are going
           to থাকে তাহলে এগুলোর সাথে Passive voice এর helping verb হয় = be,{" "}
           <br />
@@ -54,7 +68,7 @@ function Voice() {
             obj বানাতে হবে।
           </p>
         </p>
-        <p>** By উঠিয়ে দিতে হবে।</p>
+        <p>** By/ In/ at/ with উঠিয়ে দিতে হবে।</p>
         <p>
           (i) Helping verb যদি am/is/are থাকে উঠিয়ে V<sub>1</sub>(s/es) হবে।
           যেমনঃ <br />
