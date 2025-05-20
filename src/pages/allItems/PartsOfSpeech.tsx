@@ -9,7 +9,7 @@ function PartsOfSpeech() {
 
       <div className="pt-10 px-5 md:w-[50%] mx-auto">
 
-        <h3 className="">Parts of Speech</h3>
+        <h3 className="text-green-500">Parts of Speech</h3>
         <div className="text-lg md:text-xl">
           {/* definition */}
           <div className="">

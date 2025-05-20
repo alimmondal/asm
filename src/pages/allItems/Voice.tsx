@@ -5,7 +5,8 @@ function Voice() {
         <h1 className="text-center text-green-400">Voice</h1>
       </div>
       <div className="text-lg md:text-xl">
-        <h3 className="underline">From Active to Passive</h3>
+
+        <h3 className="underline text-green-500">From Active to Passive</h3>
         <p className="text-blue-500 dark:text-gray-300 font-extrabold">
           <span className="text-rose-500">Rule: </span> Obj কে Sub বানাতে হবে +
           (helping verb) + V<sub>3</sub> + by + sub কে obj বানাতে হবে।
@@ -59,12 +60,12 @@ function Voice() {
       </div>
 
       {/* PASSIVE TO ACTIVE */}
-      <div className="mt-5 mb-10">
-        <h3 className="underline">From Passive to Active</h3>
+      <div className="mt-5 mb-10 text-lg md:text-xl">
+        <h3 className="underline text-green-400">From Passive to Active</h3>
         <p className="text-blue-500 dark:text-gray-300">
           <p className="font-extrabold">
             <span className="text-rose-500">Rule: </span> Obj কে Sub + (helping
-            verb)? উঠে যাবে/ + V<sub>?</sub> এর Form পরিবর্তন হতে পারে + Sub কে
+            verb)? উঠে যাবে + V<sub>?</sub> এর Form পরিবর্তন হতে পারে + Sub কে
             obj বানাতে হবে।
           </p>
         </p>
@@ -78,7 +79,8 @@ function Voice() {
           কিন্তু Helping verb এর সাথে not থাকলে Helping verb উঠিয়ে do not/does
           not + V<sub>1</sub> হবে। <br />
           যেমনঃ <br />
-          Q. Tea is not made by her. <br />= She does not make tea.
+          Q. Tea is not made by her. <br />
+          = She does not make tea.
         </p>
         <p>
           (ii) Helping verb যদি was/ were থাকে উঠিয়ে V<sub>2</sub> হবে। <br />
@@ -90,7 +92,8 @@ function Voice() {
           কিন্তু Helping verb এর সাথে not থাকলে Helping verb উঠিয়ে did not + V
           <sub>1</sub> হবে। <br />
           যেমনঃ <br />
-          Q. Tea was not made by her. <br />= She did not make tea.
+          Q. Tea was not made by her. <br />
+          = She did not make tea.
         </p>
         (iii) am being, is being, are being, was being,were being, shall be
         being, will be being, থাকলে being উঠিয়ে V<sub>1</sub> এর সাথে ing হবে।
@@ -111,11 +114,11 @@ function Voice() {
 
       {/* Exercise */}
 
-      <div className="pt-4">
-        <h3 className="font-bold">
+      <div className="pt-4 text-lg md:text-xl">
+        <h3 className="font-bold text-green-400">
           Change the following sentences into passive
         </h3>
-        <ol className="list-decimal list-inside mt-2">
+        <ol className="list-decimal list-inside ">
           <li>Blacksmiths make spades.</li>
           <li>Mr. Ahmed teaches us English.</li>
           <li>Who can see you in the picture?</li>

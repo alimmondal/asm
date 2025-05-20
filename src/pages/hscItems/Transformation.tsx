@@ -1,6 +1,6 @@
 const Transformation = () => {
   return (
-    <div className="h-full md:w-[85%] mx-auto px-3">
+    <div className="h-full md:w-[55%] mx-auto px-3">
       <div className="my-20">
         <h1 className="text-center text-green-500">Transformation</h1>
       </div>
@@ -19,7 +19,7 @@ const Transformation = () => {
 
       {/* TABLE: AFFIRMATIVE-NEGATIVE */}
       <div className="w-full overflow-x-auto my-10">
-        <h3 className="text-center md:text-start">
+        <h3 className="text-center md:text-start text-green-500">
           [A] Affirmative to Negative/ Negative to Affirmative
         </h3>
         <table className="md:w-full min-w-[800px] table-auto dark:border-slate-400">
@@ -242,184 +242,193 @@ const Transformation = () => {
       </div>
 
       {/* INTERROGATIVE, IMPERATIVE, EXCLAMATORY */}
-      <div className="mt-5">
-        <h3 className="">Assertive থেকে Interrogative-এ রূপান্তর</h3>
-        1. বাক্যের মধ্যে Auxiliary verb থাকলে Auxiliary verb বাক্যের শুরুতে
-        বসবে। বাক্যটি Affirmative হলে তা Negative হবে, আর Negative এ থাকলে তা
-        Affirmative হবে। (যেমন: is থাকলে Isn't হবে এবং is not বা isn't থাকলে
-        'ls' হবে। <br />
-        উদাহরণ: <br />
-        i. Aff: Kamal was a good boy. <br />
-        Inter: Wasn't Kamal a good boy? <br />
-        ii . Aff: They are not playing. <br />
-        Inter: Are they playing? <br />
-        <br />
-        2. বাক্যের মধ্যে Auxiliary verb না থাকলে, বাক্যের শুরুতে
-        Don't/Doesn't/Didn't বসিয়ে Interrogative করা হয়। Auxiliary verb বলতে
-        সাধারণত 'to be', 'to have', modal verb গুলোকে বোঝায়। আর Assertive
-        sentence-টি Negative হলে প্রশ্নবোধক Sentence টিতে do/does/did হয়। <br />
-        উদাহরণ: <br />
-        Ass: Liza sings very well. <br />
-        Inter: Doesn't Liza sing very well? <br />
-        Ass: Liza sang very well. <br />
-        Inter: Didn't Liza sing well? <br />
-        <br />
-        3. Everybody. Everyone, All থাকলে এদের পরিবর্তে আয় অনুসারে Who does
-        not/did not বসিয়ে Interrogative করতে হয়। <br />
-        উদাহরণ: <br />
-        i. Ass: Everybody knows him.
-        <br />
-        Inter: Who does not know him?
-        <br />
-        ii. Ass All loved her.
-        <br />
-        Inter: Who did not love her?
-        <br />
-        <br />
-        4. বাক্যে Nobody, None, No one থাকলে এদের পরিবর্তে 'Who' বসবে।
-        <br />
-        উদাহরণ:
-        <br />
-        Ass: Nobody believes a liar.
-        <br />
-        Inter: Who believes a liar?
-        <br />
-        <br />
-        <h3 className="">
-          {" "}
-          Assertive থেকে Imperative (command/request/order/advice) -এ রূপান্তর
-        </h3>
-        1. Assertive sentence-এর subject যদি second person (you) হয় তবে মূল verb
-        দ্বারা বাক্যটি শুরু হবে। এক্ষেত্রে মূল verb-এর পূর্বের অংশ বাদ যাবে। তবে
-        Assertive sentence টি 'না-বোধক' হলে 'Do not + verb' দ্বারা বাক্যটি শুরু
-        হবে।
-        <br />
-        উদাহরণ:
-        <br />
-        i. Ass: You should not run in the sun.
-        <br />
-        Imp: Do not run in the sun.
-        <br />
-        ii. Aff: Obey your parents.
-        <br />
-        2. Assertive sentence টিতে যদি 'request' কথাটি থাকে তবে Imperative করার
-        সময় 'please/kindly + verb' দ্বারা বাক্যটি শুরু হবে।
-        <br />
-        উদাহরণ:
-        <br />
-        1. Ass: I request you to do it.
-        <br />
-        Imp: Please do it.
-        <br />
-        ii. Ass: You are requested to help him.
-        <br />
-        Imp: Please help him.
-        <br />
-        <br />
-        3. Assertive sentence-এর subject যদি 1st person কিংবা 3rd person হয়, তবে
-        Imperative বাক্যটি Let দ্বারা শুরু হবে। <br />
-        Rule: Let + objective pronoun (me/ us/ him/her/ them) + Verb + Others.
-        উদাহরণ:
-        <br />
-        Ass: I must go now.
-        <br />
-        Imp: Let me go now.
-        <br />
-        Ass: He should do the sum.
-        <br />
-        Imp: Let him do the sum.
-        <br />
-        <br />
-        4. Never যুক্ত assertive sentence-কে imperative করার
-        <br />
-        নিয়মে: প্রদত্ত never + প্রদত্ত মূল verb-এর base form + verb-এর পরের অংশ।
-        <br />
-        উদাহরণ:
-        <br />
-        Ass: Never do this.
-        <br />
-        Imp: You should never do this.
-        <br />
-        <br />
-        5. First person বা third person যুক্ত Assertive sentence- এ not থাকলে
-        Imperative করার <br />
-        নিয়ম: Let + প্রদত্ত subject এর objective from + প্রদত্ত verb থেকে শেষ
-        পর্যন্ত।
-        <br />
-        উদাহরণ:
-        <br />
-        Ass: We do not hate the poor.
-        <br />
-        Imp: Let us not hate the poor.
-        <br />
-        Ass: Nilu does not run in the sun.
-        <br />
-        Imp: Let not Nilu run in the sun.
-        <br />
-        <br />
-        <br />
-        <h3 className="">Assertive থেকে Exclamatory -তে রূপান্তর-</h3>
-        1. বাক্যে 'I wish' থাকলে 'I wish'-এর পরিবর্তে 'If' বসিয়ে Exclamatory করা
-        যায়।
-        <br />
-        উদাহরণ:
-        <br />
-        Ass: I wish I were a bird.
-        <br />
-        Exc: If I were a bird!
-        <br />
-        Ass:I wish I could do it.
-        <br />
-        Exc: If I could do it!
-        <br />
-        <br />
-        2. বাক্যের মধ্যে very/ great থাকলে, এদের পরিবর্তে What a/an অথবা How
-        বসিয়ে শুরু করতে হয়। এক্ষেত্রে যদি বাক্যের মধ্যে 'a'/an থাকে তবেই What
-        a/an হবে। আর বাক্যের মধ্যে 'a/ an' না থাকলে 'How' হবে। উদাহরণ
-        <br />
-        Rule: What + a/an + Verb এর পরের অংশ + Subject + Verb + ! (Exclamatory
-        Sign) Rule: How + Verb এর পরের অংশ + Subject + Verb + ! (Exclamatory
-        Sign)
-        <br />
-        Ass:The picture is very nice.
-        <br />
-        Exc: How nice the picture is!
-        <br />
-        Ass: You are a great fool.
-        <br />
-        Exc: What a fool you are!
-        <br />
-        <br />
-        3. <br />
-        i. Hurrah যুক্ত অর্থ্যাৎ যে exclamatory sentence দ্বারা খুশি প্রকাশ করে
-        সেক্ষেত্রে Hurrah-এর পরিবর্তে it is a matter of joy + that + sentence-এর
-        বাকি অংশ।
-        <br />
-        উদাহরণ:
-        <br />
-        Exc: Hurrah! We have done well.
-        <br />
-        Ass: It is a matter of joy that we have done well.
-        <br />
-        <br />
-        ii. Alas বা দুঃখবোধক Exclamatory sentence-এর ক্ষেত্রে also-এর পরিবর্তে
-        it is a matter of sorrow + that বসে + বাক্যের বাকি অংশ বসে।
-        <br />
-        উদাহরণ:
-        <br />
-        Exc: Alas! I am finished.
-        <br />
-        Ass: It is a matter of sorrow that I am finished.
-        <br />
+      <div className="mt-5 text-lg md:text-xl">
+        <h3 className="text-green-500">Assertive থেকে Interrogative-এ রূপান্তর</h3>
+        <div className="">
+          1. বাক্যের মধ্যে Auxiliary verb থাকলে Auxiliary verb বাক্যের শুরুতে
+          বসবে। বাক্যটি Affirmative হলে তা Negative হবে, আর Negative এ থাকলে তা
+          Affirmative হবে। (যেমন: is থাকলে Isn't হবে এবং is not বা isn't থাকলে
+          'ls' হবে। <br />
+          উদাহরণ: <br />
+          i. Aff: Kamal was a good boy. <br />
+          Inter: Wasn't Kamal a good boy? <br />
+          ii . Aff: They are not playing. <br />
+          Inter: Are they playing? <br />
+          <br />
+          2. বাক্যের মধ্যে Auxiliary verb না থাকলে, বাক্যের শুরুতে
+          Don't/Doesn't/Didn't বসিয়ে Interrogative করা হয়। Auxiliary verb বলতে
+          সাধারণত 'to be', 'to have', modal verb গুলোকে বোঝায়। আর Assertive
+          sentence-টি Negative হলে প্রশ্নবোধক Sentence টিতে do/does/did হয়। <br />
+          উদাহরণ: <br />
+          Ass: Liza sings very well. <br />
+          Inter: Doesn't Liza sing very well? <br />
+          Ass: Liza sang very well. <br />
+          Inter: Didn't Liza sing well? <br />
+          <br />
+          3. Everybody. Everyone, All থাকলে এদের পরিবর্তে আয় অনুসারে Who does
+          not/did not বসিয়ে Interrogative করতে হয়। <br />
+          উদাহরণ: <br />
+          i. Ass: Everybody knows him.
+          <br />
+          Inter: Who does not know him?
+          <br />
+          ii. Ass All loved her.
+          <br />
+          Inter: Who did not love her?
+          <br />
+          <br />
+          4. বাক্যে Nobody, None, No one থাকলে এদের পরিবর্তে 'Who' বসবে।
+          <br />
+          উদাহরণ:
+          <br />
+          Ass: Nobody believes a liar.
+          <br />
+          Inter: Who believes a liar?
+        </div>
+
+
+        <br />
+
+        <div className="">
+          <h3 className="text-green-500">
+
+            Assertive থেকে Imperative (command/request/order/advice) -এ রূপান্তর
+          </h3>
+          1. Assertive sentence-এর subject যদি second person (you) হয় তবে মূল verb
+          দ্বারা বাক্যটি শুরু হবে। এক্ষেত্রে মূল verb-এর পূর্বের অংশ বাদ যাবে। তবে
+          Assertive sentence টি 'না-বোধক' হলে 'Do not + verb' দ্বারা বাক্যটি শুরু
+          হবে।
+          <br />
+          উদাহরণ:
+          <br />
+          i. Ass: You should not run in the sun.
+          <br />
+          Imp: Do not run in the sun.
+          <br />
+          ii. Aff: Obey your parents.
+          <br />
+          2. Assertive sentence টিতে যদি 'request' কথাটি থাকে তবে Imperative করার
+          সময় 'please/kindly + verb' দ্বারা বাক্যটি শুরু হবে।
+          <br />
+          উদাহরণ:
+          <br />
+          1. Ass: I request you to do it.
+          <br />
+          Imp: Please do it.
+          <br />
+          ii. Ass: You are requested to help him.
+          <br />
+          Imp: Please help him.
+          <br />
+          <br />
+          3. Assertive sentence-এর subject যদি 1st person কিংবা 3rd person হয়, তবে
+          Imperative বাক্যটি Let দ্বারা শুরু হবে। <br />
+          Rule: Let + objective pronoun (me/ us/ him/her/ them) + Verb + Others.
+          উদাহরণ:
+          <br />
+          Ass: I must go now.
+          <br />
+          Imp: Let me go now.
+          <br />
+          Ass: He should do the sum.
+          <br />
+          Imp: Let him do the sum.
+          <br />
+          <br />
+          4. Never যুক্ত assertive sentence-কে imperative করার
+          <br />
+          নিয়মে: প্রদত্ত never + প্রদত্ত মূল verb-এর base form + verb-এর পরের অংশ।
+          <br />
+          উদাহরণ:
+          <br />
+          Ass: Never do this.
+          <br />
+          Imp: You should never do this.
+          <br />
+          <br />
+          5. First person বা third person যুক্ত Assertive sentence- এ not থাকলে
+          Imperative করার <br />
+          নিয়ম: Let + প্রদত্ত subject এর objective from + প্রদত্ত verb থেকে শেষ
+          পর্যন্ত।
+          <br />
+          উদাহরণ:
+          <br />
+          Ass: We do not hate the poor.
+          <br />
+          Imp: Let us not hate the poor.
+          <br />
+          Ass: Nilu does not run in the sun.
+          <br />
+          Imp: Let not Nilu run in the sun.
+        </div>
+
+
+        <br />
+        <div className="">
+          <h3 className="text-green-500">Assertive থেকে Exclamatory -তে রূপান্তর-</h3>
+          1. বাক্যে 'I wish' থাকলে 'I wish'-এর পরিবর্তে 'If' বসিয়ে Exclamatory করা
+          যায়।
+          <br />
+          উদাহরণ:
+          <br />
+          Ass: I wish I were a bird.
+          <br />
+          Exc: If I were a bird!
+          <br />
+          Ass:I wish I could do it.
+          <br />
+          Exc: If I could do it!
+          <br />
+          <br />
+          2. বাক্যের মধ্যে very/ great থাকলে, এদের পরিবর্তে What a/an অথবা How
+          বসিয়ে শুরু করতে হয়। এক্ষেত্রে যদি বাক্যের মধ্যে 'a'/an থাকে তবেই What
+          a/an হবে। আর বাক্যের মধ্যে 'a/ an' না থাকলে 'How' হবে। উদাহরণ
+          <br />
+          Rule: What + a/an + Verb এর পরের অংশ + Subject + Verb + ! (Exclamatory
+          Sign) Rule: How + Verb এর পরের অংশ + Subject + Verb + ! (Exclamatory
+          Sign)
+          <br />
+          Ass:The picture is very nice.
+          <br />
+          Exc: How nice the picture is!
+          <br />
+          Ass: You are a great fool.
+          <br />
+          Exc: What a fool you are!
+          <br />
+          <br />
+          3. <br />
+          i. Hurrah যুক্ত অর্থ্যাৎ যে exclamatory sentence দ্বারা খুশি প্রকাশ করে
+          সেক্ষেত্রে Hurrah-এর পরিবর্তে it is a matter of joy + that + sentence-এর
+          বাকি অংশ।
+          <br />
+          উদাহরণ:
+          <br />
+          Exc: Hurrah! We have done well.
+          <br />
+          Ass: It is a matter of joy that we have done well.
+          <br />
+          <br />
+          ii. Alas বা দুঃখবোধক Exclamatory sentence-এর ক্ষেত্রে also-এর পরিবর্তে
+          it is a matter of sorrow + that বসে + বাক্যের বাকি অংশ বসে।
+          <br />
+          উদাহরণ:
+          <br />
+          Exc: Alas! I am finished.
+          <br />
+          Ass: It is a matter of sorrow that I am finished.
+        </div>
+
+
       </div>
 
       {/* SIMPLE COMPOUND COMPLEX VISE-VERSA */}
-      <div className="mt-10">
+      <div className="mt-10 text-lg md:text-xl">
         <h2 className="">SIMPLE, COMPOUND, COMPLEX, VISE-VERSA </h2>
         {/* Complex to Compound & Compound to complex: */}
         <div className="">
-          <h3 className="">Complex to Compound & Compound to complex:</h3>
-          <div className="">
+          <h3 className="text-green-500">Complex to Compound & Compound to complex:</h3>
+          <p className="">
             <strong>Rule:(1) </strong>Since/as/ when / as soon as/ because
             দ্বারা শুরু / যুক্ত বাক্যের মাঝখানে And বসিয়ে Since /as/ when উঠিয়ে
             দিলে Compound হবে। <br />
@@ -429,11 +438,12 @@ const Transformation = () => {
             <strong>অনুরুপভাবেঃ</strong> <br />
             And উঠিয়ে শুরুতে As বসালে Complex হবে। <br />
             যেমনঃ <br />
-            Q. I was sick and I could not attend the meeting. <br />= As I was
+            Q. I was sick and I could not attend the meeting. <br />
+            = As I was
             sick, I could not attend the meeting.
-          </div>
+          </p>
           <br />
-          <div className="">
+          <p className="">
             <strong>Rule:(2) </strong> Though/ Although উঠিয়ে মাঝখানে but বসালে
             Compound হবে। <br />
             যেমনঃ <br />
@@ -446,9 +456,9 @@ const Transformation = () => {
             যেমনঃ <br />
             Q. He was honest but was punished. <br />
             = Though He was honest, he was punished. <br />
-          </div>
+          </p>
           <br />
-          <div className="">
+          <p className="">
             <strong>Rule:(3) </strong> If দ্বারা শুরু বাক্য না বোধক হলে মূল if +
             Subject উঠিয়ে মাঝখানে or বসাতে হবে। <br />
             যেমনঃ <br />
@@ -469,15 +479,15 @@ const Transformation = () => {
             = If you work hard, you will pass. <br />
             Q. Do or you will die.
             <br />= If you do not do it, you will die.
-          </div>
+          </p>
 
           <br />
         </div>
 
         {/* Compound to simple & Simple to Compound: */}
         <div className="">
-          <h3>Compound to simple & Simple to Compound:</h3>
-          <div className="">
+          <h3 className="text-green-500">Compound to simple & Simple to Compound:</h3>
+          <p className="">
             <strong>Rule:(1) </strong>And দ্বারা যুক্ত বাক্যের And উঠিয়ে প্রথম
             বাক্যাংশের Subject উঠিয়ে মূল V₁ এর সঙ্গে ing যুক্ত করতে হবে। যদি
             প্রথম বাক্যে be verb থাকে তবে এর পরিবর্তে being এবং have verb থাকলে
@@ -510,10 +520,10 @@ const Transformation = () => {
             যেমনঃ <br />
             Q. By working hard, you will succeed.
             <br />= Work hard and you will succeed.
-          </div>
+          </p>
 
           <br />
-          <div className="">
+          <p className="">
             <strong>Rule: (2) </strong>
             But/yet দ্বারা যুক্ত বাক্যের শুরুতে In spite of/ Despite of বসিয়ে
             পরের মূল V1 এর সঙ্গে ing যুক্ত করলে Simple হবে। কিন্তু প্রথম বাক্যে
@@ -531,9 +541,9 @@ const Transformation = () => {
             যেমনঃ <br />
             Q. In spite of being rich, he is simple minded.
             <br />= He is rich but he is simple minded.
-          </div>
+          </p>
           <br />
-          <div className="">
+          <p className="">
             <strong>Rule:(3) </strong>Or দ্বারা যুক্ত বাক্যের Or পরের বাক্যাংশটি
             Negative হলে or উঠিয়ে বাক্যের শুরুতে without বসিয়ে এর পরের মূল V₁ এর
             সঙ্গে ing যুক্ত করলে Compound হবে। <br />
@@ -553,13 +563,13 @@ const Transformation = () => {
             যেমনঃ <br />
             Q. Without working hard, it will not shine.
             <br />= Work hard or you will not shine.
-          </div>
+          </p>
         </div>
         <br />
 
         {/* Complex to Simple & Simple to Complex: */}
         <div className="">
-          <h3 className="">Complex to Simple & Simple to complex:</h3>
+          <h3 className="text-green-500">Complex to Simple & Simple to complex:</h3>
           <div className="">
             <strong>Rule- (i): </strong> Since/ as/ when / as soon as দ্বারা
             শুরু বা যুক্ত বাক্যের Since/ as/ when + subject উঠিয়ে মূল V₁ এর
@@ -715,185 +725,165 @@ const Transformation = () => {
       </div>
 
       {/* DEGREE */}
-
       <div className="mt-6 pt-6  text-gray-900">
-        <h1 className="font-bold mb-4">Degree Rules and Examples</h1>
-        <table className="table-auto w-full border-collapse border border-gray-400">
-          <thead>
-            <tr className="bg-gray-200">
-              <th className="border border-gray-400 p-2">Rules</th>
-              <th className="border border-gray-400 p-2">Examples</th>
-            </tr>
-          </thead>
-          <tbody>
-            {/* Row 1 */}
-            <tr>
-              <td
-                colSpan={2}
-                className="border border-gray-400 p-2 md:text-center font-bold bg-gray-300"
-              >
-                Superlative to Positive
-              </td>
-            </tr>
+        <div className="p-6 bg-gray-100">
+          <h1 className="font-bold mb-4 text-green-500">Degree Rules and Examples</h1>
+          {/* Superlative to Positive */}
+          <table className="table-auto w-full border-collapse border  border-gray-400">
+            <thead>
+              <tr className="bg-gray-200">
+                <th className="border border-gray-400 p-2">Rules</th>
+                <th className="border border-gray-400 p-2">Examples</th>
+              </tr>
+            </thead>
 
-            <tr>
-              <td className="border border-gray-400 p-2">
-                <strong>1. Structure: </strong> No other + Superlative Degree-এর
-                পরের অংশ + Verb + so/as + Superlative degree er Positive form +
-                as + প্রদত্ত sentence এর Subject.
-              </td>
-              <td className="border border-gray-400 p-2">
-                <strong>Super:</strong> Hira is the best girl in our locality.
-                <br />
-                <strong>Super:</strong> No other girl in our locality is as good
-                as Hira.
-              </td>
-            </tr>
-            <tr>
-              <td className="border border-gray-400 p-2">
-                Note:উপরের: all other, most other, many other, few other, very
-                few... এর পর Noun/Pronoun-এর Plural form বসে। Superlative
-                Degree-এর পর of all/any বসলে তা উঠে যায়।
-              </td>
-              <td className="border border-gray-400 p-2">
-                <strong>Super:</strong> Romeo is the best of all boys.
-                <br />
-                <strong>Super:</strong> No other boy is as good as Romeo.
-                <br />
-                <strong>Super:</strong> It burns the prettiest of any wood.
-                <br />
-                <strong>Positive:</strong> No other wood burns as pretty as it.
-              </td>
-            </tr>
+            <tbody>
+              {/* Row 1 */}
+              <tr>
+                <td
+                  colSpan={2}
+                  className="border border-gray-400 p-2 md:text-center font-bold bg-gray-300"
+                >
+                  Superlative to Positive
+                </td>
+              </tr>
 
-            {/* Row 2 */}
-            <tr>
-              <td className="border border-gray-400 p-2">
-                2. One of the যুক্ত Superlative Degree-এর Positive Degree-তে
-                প্রকাশ করার নিয়মঃ-
-                <br />
-                Structure: Very few + Superlative degree-এর plural form +
-                verb-এর plural form + so/as + Positive form + as + প্রথম
-                Sentence-এর Subject.
-              </td>
-              <td className="border border-gray-400 p-2">
-                <strong>Super:</strong> Habib is one of the cleverest boys.
-                <br />
-                <strong>Positive:</strong> Very few boys are so/as clever as
-                Habib.
-                <br />
-                <strong>Super:</strong> Murad was one of the most industrious
-                young men.
-                <br />
-                <strong>Positive:</strong> Very few young men were so/as
-                industrious as Murad.
-              </td>
-            </tr>
+              <tr>
+                <td className="border border-gray-400 p-2 dark:text-gray-300">
+                  <strong>1. Structure: </strong> No other + Adj-3-এর
+                  পরের অংশ + Verb + so/as + Adjective এর Positive(Adj-1) form +
+                  as + প্রদত্ত sentence এর Subject.
+                </td>
+                <td className="border border-gray-400 p-2">
+                  <strong>Super:</strong> Hira is the best girl in our locality.
+                  <br />
+                  <strong>Postive:</strong> No other girl in our locality is as good
+                  as Hira.
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-gray-400 p-2">
+                  Note:উপরের: all other, most other, many other, few other, very
+                  few... এর পর Noun/Pronoun-এর Plural form বসে। Superlative
+                  Degree-এর পর of all/any বসলে তা উঠে যায়।
+                </td>
+                <td className="border border-gray-400 p-2">
+                  <strong>Super:</strong> Romeo is the best of all boys.
+                  <br />
+                  <strong>Positive:</strong> No other boy is as good as Romeo.
 
-            {/* Comparative to Positive */}
-            <tr>
-              <td
-                colSpan={2}
-                className="border border-gray-400 p-2 text-center font-bold bg-gray-300"
-              >
-                Comparative to Positive
-              </td>
-            </tr>
+                </td>
+              </tr>
 
-            {/* Row 3 */}
-            <tr>
-              <td className="border border-gray-400 p-2">
-                Than any other/all other যুগ Comparative Degree-কে Positive
-                Degree-তে রূপান্তর করা হয়।
-                <br />
-                Structure: No other + any other/all other + plural + Verb +
-                so/as + Comparative Degree-এর Positive form + as + প্রথম
-                Sentence-এর Subject।
-              </td>
-              <td className="border border-gray-400 p-2">
-                <strong>Comp:</strong> Boby is taller than any other girl in the
-                class.
-                <br />
-                <strong>Positive:</strong> No other girl in the class is as tall
-                as Boby.
-                <br />
-                <strong>Comp:</strong> Tanvir is more intelligent than any other
-                boy.
-                <br />
-                <strong>Positive:</strong> No other boy is so/as intelligent as
-                Tanvir.
-              </td>
-            </tr>
+              {/* Row 2 */}
+              <tr>
+                <td className="border border-gray-400 p-2">
+                  2. One of the যুক্ত Superlative Degree-এর Positive Degree-তে
+                  প্রকাশ করার নিয়মঃ-
+                  <br />
+                  Structure: Very few + Superlative degree-এর plural form +
+                  verb-এর plural form + so/as + Positive form + as + প্রথম
+                  Sentence-এর Subject.
+                </td>
+                <td className="border border-gray-400 p-2">
+                  <strong>Super:</strong> Habib is one of the cleverest boys.
+                  <br />
+                  <strong>Positive:</strong> Very few boys are so/as clever as
+                  Habib.
 
-            {/* Row 4 */}
-            <tr>
-              <td className="border border-gray-400 p-2">
-                Than most other/than few other যুগ Comparative Degree-কে
-                Positive Degree-তে রূপান্তর করা হয়।
-                <br />
-                Structure: Than-যুক্ত Comparative Degree-কে Positive Degree-তে
-                রূপান্তর করা হয়: Than-এর পরে বসা + Verb + না + so/as +
-                Comparative Degree-এর Positive form + as + প্রথম Sentence-এর
-                Subject।
-              </td>
-              <td className="border border-gray-400 p-2">
-                <strong>Comp:</strong> Panna is taller than Hira.
-                <br />
-                <strong>Positive:</strong> Hira is not so/as tall as Panna.
-                <br />
-                <strong>Comp:</strong> Shawn is not cleverer than Romeo.
-                <br />
-                <strong>Positive:</strong> Romeo is so/as clever as Shawn.
-              </td>
-            </tr>
+                </td>
+              </tr>
 
-            {/* Row 5 */}
-            <tr>
-              <td className="border border-gray-400 p-2">
-                Than most other/than few other যুগ Comparative Degree-কে
-                Positive Degree-তে রূপান্তর করা হয়।
-                <br />
-                Structure: Very few + most other/ few other-এর পরে বসা + verb-এর
-                plural form + so + as + Comparative-এর Positive form + as +
-                প্রথম Sentence-এর Subject।
-              </td>
-              <td className="border border-gray-400 p-2">
-                <strong>Comp:</strong> Javed is stronger than most other boys.
-                <br />
-                <strong>Positive:</strong> Few boys are as strong as Javed.
-                <br />
-                <strong>Comp:</strong> Romeo is more handsome than few other
-                students.
-                <br />
-                <strong>Positive:</strong> Very few students are so/as handsome
-                as Tito.
-              </td>
-            </tr>
+              {/* Comparative to Positive */}
+              <tr>
+                <td
+                  colSpan={2}
+                  className="border border-gray-400 p-2 text-center font-bold bg-gray-300"
+                >
+                  Comparative to Positive
+                </td>
+              </tr>
 
-            {/* Row 6 */}
-            <tr>
-              <td className="border border-gray-400 p-2">
-                No less/Not less... than যুগ Comparative Degree-কে Positive
-                Degree-তে রূপান্তর করা হয়।
-                <br />
-                Structure: No less বা Not less-এর পরে বসা + Adjective-এর
-                Positive form-এর পরে বসা + than-যুক্ত Sentence এর subject.
-              </td>
-              <td className="border border-gray-400 p-2">
-                <strong>Comp:</strong> Sabrina is no less wise than Saguppta.
-                <br />
-                <strong>Positive:</strong> Sabrina is as wise as Saguppta.
-                <br />
-                <strong>Comp:</strong> Sachden was no less active than Asad.
-                <br />
-                <strong>Positive:</strong> He is not so/as strong as his friend.
-              </td>
-            </tr>
-          </tbody>
-        </table>
+              {/* Row 3 */}
+              <tr>
+                <td className="border border-gray-400 p-2">
+                  Than any other/all other যুগ Comparative Degree-কে Positive
+                  Degree-তে রূপান্তর করা হয়।
+                  <br />
+                  Structure: No other + any other/all other + plural + Verb +
+                  so/as + Comparative Degree-এর Positive form + as + প্রথম
+                  Sentence-এর Subject।
+                </td>
+                <td className="border border-gray-400 p-2">
+                  <strong>Comp:</strong> Boby is taller than any other girl in the
+                  class.
+                  <br />
+                  <strong>Positive:</strong> No other girl in the class is as tall
+                  as Boby.
+
+                </td>
+              </tr>
+
+              {/* Row 4 */}
+              <tr>
+                <td className="border border-gray-400 p-2">
+                  Than most other/than few other যুগ Comparative Degree-কে
+                  Positive Degree-তে রূপান্তর করা হয়।
+                  <br />
+                  Structure: Than-যুক্ত Comparative Degree-কে Positive Degree-তে
+                  রূপান্তর করা হয়: Than-এর পরে বসা + Verb + না + so/as +
+                  Comparative Degree-এর Positive form + as + প্রথম Sentence-এর
+                  Subject।
+                </td>
+                <td className="border border-gray-400 p-2">
+                  <strong>Comp:</strong> Panna is taller than Hira.
+                  <br />
+                  <strong>Positive:</strong> Hira is not so/as tall as Panna.
+
+                </td>
+              </tr>
+
+              {/* Row 5 */}
+              <tr>
+                <td className="border border-gray-400 p-2">
+                  Than most other/than few other যুগ Comparative Degree-কে
+                  Positive Degree-তে রূপান্তর করা হয়।
+                  <br />
+                  Structure: Very few + most other/ few other-এর পরে বসা + verb-এর
+                  plural form + so + as + Comparative-এর Positive form + as +
+                  প্রথম Sentence-এর Subject।
+                </td>
+                <td className="border border-gray-400 p-2">
+                  <strong>Comp:</strong> Javed is stronger than most other boys.
+                  <br />
+                  <strong>Positive:</strong> Few boys are as strong as Javed.
+
+                </td>
+              </tr>
+
+              {/* Row 6 */}
+              <tr>
+                <td className="border border-gray-400 p-2">
+                  No less/Not less... than যুগ Comparative Degree-কে Positive
+                  Degree-তে রূপান্তর করা হয়।
+                  <br />
+                  Structure: No less বা Not less-এর পরে বসা + Adjective-এর
+                  Positive form-এর পরে বসা + than-যুক্ত Sentence এর subject.
+                </td>
+                <td className="border border-gray-400 p-2">
+                  <strong>Comp:</strong> Sabrina is no less wise than Saguppta.
+                  <br />
+                  <strong>Positive:</strong> Sabrina is as wise as Saguppta.
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
 
         <div className="p-6 bg-gray-100 text-gray-900">
-          <h1 className="text-xl font-bold mb-4">
+          <h1 className="text-xl font-bold mb-4 text-green-500">
             Superlative to Comparative and Positive to Comparative
             Transformation
           </h1>
@@ -1056,7 +1046,7 @@ const Transformation = () => {
         </div>
 
         <div className="p-6 bg-gray-100 text-gray-900">
-          <h1 className="text-xl font-bold mb-4">
+          <h1 className="text-xl font-bold mb-4 text-green-500">
             Comparative into Superlative and Positive into Superlative
             Transformation
           </h1>
@@ -1156,8 +1146,8 @@ const Transformation = () => {
         </div>
       </div>
 
-      <div className="mt-10">
-        <h1 className="">Exercise</h1>
+      <div className="my-10 bg-gray-100 p-6">
+        <h1 className="text-green-500">Exercise</h1>
         <h3 className="">Transform the Sentences into Simple or Compound:</h3>
         <p className="">
           1.Samira is sitting under a mango tree which is big. 2. She has a
