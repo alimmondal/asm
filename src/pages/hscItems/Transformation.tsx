@@ -1033,8 +1033,9 @@ const Transformation = () => {
               {/* Row 1 */}
               <tr>
                 <td className="border border-gray-400 p-2">
-                  সাধারণ নিয়ম: <br />
-                  Structure: Subject + verb + adjective + other-এর পরবর্তী বসা।
+                  Than any other/ than all other এর নিয়মঃ <br />
+                  <strong>Rule: </strong> Subject + Verb + one of the + adjective-এর-3/ most + than any other ঊঠিয়ে
+                  বাক্যের বাকি অংশ।
                 </td>
                 <td className="border border-gray-400 p-2">
                   <strong>Positive:</strong> He is better than any other boy in
@@ -1049,7 +1050,7 @@ const Transformation = () => {
                 <td className="border border-gray-400 p-2">
                   Than most other/than few other নিয়ম: <br />
 
-                  <strong>Struct: </strong> Subject + Verb + one of the + adjective-এর-3/ most + than any other ঊঠিয়ে
+                  <strong>Rule: </strong> Subject + Verb + one of the + adjective-এর-3/ most + than most other ঊঠিয়ে
                   বাক্যের বাকি অংশ।
                 </td>
                 <td className="border border-gray-400 p-2">
@@ -1073,12 +1074,13 @@ const Transformation = () => {
 
               {/* Row 3 */}
               <tr>
-                <td className="border border-gray-400 p-2">
-                  No other যুগ Positive Degree-কে Superlative Degree-তে রূপান্তর
-                  করা হয়: <br />
-                  Structure: subject + verb + the + adj + বাক্যের subject.
+                <td colSpan={1} className="border border-gray-400 p-2">
+                  <strong> No other এর নিয়মঃ</strong>  <br />
+                  <strong>Rule: </strong>as/so... as এর
+                  পরের অংশ + verb + one of the + adj-3 + প্রদত্ত বাক্যের
+                  subject।
                 </td>
-                <td className="border border-gray-400 p-2">
+                <td colSpan={1} className="border border-gray-400 p-2">
                   <strong>Positive:</strong> No other girl in the class is as
                   tall as Sumi.
                   <br />
@@ -1089,9 +1091,10 @@ const Transformation = () => {
               {/* Row 4 */}
               <tr>
                 <td className="border border-gray-400 p-2">
-                  Very few যুগ Positive Degree-কে Superlative Degree-তে রূপান্তর
-                  করা হয়: <br />
-                  Structure: লেগে subject + verb + one of the + adj + বাক্যের
+
+                  <strong>Very few এর নিয়মঃ </strong> <br />
+                  <strong>Rule: </strong>as/so... as এর
+                  পরের অংশ + Verb (Singular) + one of the + adj-3 + প্রদত্ত বাক্যের
                   subject।
                 </td>
                 <td className="border border-gray-400 p-2">
