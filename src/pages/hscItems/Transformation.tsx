@@ -749,12 +749,13 @@ const Transformation = () => {
               </tr>
 
               <tr>
-                <td className="border border-gray-400 p-1 md:p-3 dark:text-gray-300">
+                <td colSpan={1} className="border border-gray-400 p-1 md:p-3 dark:text-gray-300">
+                  সাধারণ নিয়মঃ <br />
                   <strong>(1). </strong> No other + Adj-এর
                   পরের অংশ + Verb + so/as + Adj-1 +
                   as + প্রদত্ত sentence এর Subject.
                 </td>
-                <td className="border border-gray-400 p-1 md:p-3">
+                <td colSpan={1} className="border border-gray-400 p-1 md:p-3">
                   <strong>Super:</strong> Hira is the best girl in our locality.
                   <br />
                   <strong>Postive:</strong> No other girl in our locality is as good
@@ -765,14 +766,14 @@ const Transformation = () => {
 
               {/* Row 2 */}
               <tr>
-                <td className="border border-gray-400 p-1 md:p-3">
-                  <strong>One of the যুক্ত  নিয়মঃ- </strong>
+                <td colSpan={1} className="border border-gray-400 p-1 md:p-3">
+                  <strong>One of the এর নিয়মঃ- </strong>
                   <br />
                   <strong>(2). </strong>  Very few + Adjective-এর
                   পরের অংশ  + Verb + so/as + Adj-1 +
                   as + প্রদত্ত sentence এর Subject.
                 </td>
-                <td className="border border-gray-400 p-1 md:p-3">
+                <td colSpan={1} className="border border-gray-400 p-1 md:p-3">
                   <strong>Super:</strong> Habib is one of the cleverest boys.
                   <br />
                   <strong>Positive:</strong> Very few boys are so/as clever as
@@ -782,12 +783,12 @@ const Transformation = () => {
               </tr>
 
               <tr>
-                <td className="border border-gray-400 p-1 md:p-3">
+                <td colSpan={1} className="border border-gray-400 p-1 md:p-3">
                   <strong>Note: </strong> উপরের: all other, most other, many other, few other, very
                   few... এর পর Noun/Pronoun-এর Plural form বসে। Superlative
                   Degree-এর পর of all/any বসলে তা উঠে যায়।
                 </td>
-                <td className="border border-gray-400 p-1 md:p-3">
+                <td colSpan={1} className="border border-gray-400 p-1 md:p-3">
                   <strong>Super:</strong> Romeo is the best of all boys.
                   <br />
                   <strong>Positive:</strong> No other boy is as good as Romeo.
@@ -807,15 +808,15 @@ const Transformation = () => {
 
               {/* Row 3 */}
               <tr>
-                <td className="border border-gray-400 p-1 md:p-3">
-                  <strong>Than any other/all other:</strong>
+                <td colSpan={1} className="border border-gray-400 p-1 md:p-3">
+                  <strong>Than any other/all other এর নিয়মঃ</strong>
                   <br />
                   <strong>Rule: </strong> No other + any other/all other এর
                   পরের অংশ + Verb +
                   so/as + Adj-1 + as + প্রথম
                   Sentence-এর Subject।
                 </td>
-                <td className="border border-gray-400 p-1 md:p-3">
+                <td colSpan={1} className="border border-gray-400 p-1 md:p-3">
                   <strong>Comp:</strong> Boby is taller than any other girl in the
                   class.
                   <br />
@@ -825,8 +826,8 @@ const Transformation = () => {
                 </td>
               </tr>
               <tr>
-                <td className="border border-gray-400 p-1 md:p-3">
-                  <strong>Than most other/than few other:</strong>
+                <td colSpan={1} className="border border-gray-400 p-1 md:p-3">
+                  <strong>Than most other/than few other এর নিয়মঃ</strong>
                   <br />
                   <strong>Rule: </strong> Very few + than most other এর
                   পরের অংশ + Verb +
@@ -835,7 +836,7 @@ const Transformation = () => {
                   <br />
                   <strong>Note: </strong> এখানে Helping Verb টি বহুবচন হয়।
                 </td>
-                <td className="border border-gray-400 p-1 md:p-3">
+                <td colSpan={1} className="border border-gray-400 p-1 md:p-3">
                   <strong>Comp:</strong> Boby is taller than most other girls in the
                   class.
                   <br />
@@ -846,16 +847,16 @@ const Transformation = () => {
 
               {/* Row 4 */}
               <tr>
-                <td className="border border-gray-400 p-1 md:p-3">
-                  <strong>Than: </strong>
+                <td colSpan={1} className="border border-gray-400 p-1 md:p-3">
+                  <strong>Than এর নিয়মঃ </strong>
                   <br />
                   <strong>Rule: </strong> Than-এর
                   পরের অংশ + Verb + so/as +
                   Adj-1 + as + প্রথম Sentence-এর
                   Subject। <br />
-                  <strong>Note: </strong> not not not
+                  <strong>Note: </strong> <strong>Note: </strong>প্রদত্ত বাক্যে Not না থাকলে Not নিতে হবে আর Not থাকলে বাদ দিতে হবে।
                 </td>
-                <td className="border border-gray-400 p-1 md:p-3">
+                <td colSpan={1} className="border border-gray-400 p-1 md:p-3">
                   <strong>Comp:</strong> Panna is taller than Hira.
                   <br />
                   <strong>Positive:</strong> Hira is not so/as tall as Panna.
@@ -867,13 +868,13 @@ const Transformation = () => {
 
               {/* Row 6 */}
               <tr>
-                <td className="border border-gray-400 p-1 md:p-3">
-                  <strong>No less/Not less... than</strong>
+                <td colSpan={1} className="border border-gray-400 p-1 md:p-3">
+                  <strong>No less/Not less... than এর নিয়মঃ</strong>
                   <br />
                   <strong>Rule: </strong> less than-এর
                   পরের অংশ + Verb + as/so + Adj-1 + as + than-যুক্ত Sentence এর subject.
                 </td>
-                <td className="border border-gray-400 p-1 md:p-3">
+                <td colSpan={1} className="border border-gray-400 p-1 md:p-3">
                   <strong>Comp:</strong> Sabrina is no less wise than Saguppta.
                   <br />
                   <strong>Positive:</strong> Sabrina is as wise as Saguppta.
@@ -887,8 +888,8 @@ const Transformation = () => {
 
         <div className="p-4 md:p-6 bg-gray-100 text-gray-900">
           <h1 className="text-xl font-bold mb-4 text-green-500">
-            Superlative to Comparative <br />
-            & <br />
+            Superlative to Comparative
+            &
             Positive to Comparative
 
           </h1>
@@ -913,7 +914,7 @@ const Transformation = () => {
               {/* Row 1 */}
               <tr>
                 <td className="border border-gray-400 p-1 md:p-3">
-
+                  than any other এর নিয়মঃ <br />
                   <strong>Struct: </strong> Subject + Verb + adjective-এর-2 + than any other +
                   বাক্যের বাকি অংশ।
                 </td>
@@ -929,7 +930,7 @@ const Transformation = () => {
               {/* Row 2 */}
               <tr>
                 <td colSpan={1} className="border border-gray-400 p-1 md:p-3">
-                  <strong>One of the থাকলেঃ </strong> <br />
+                  <strong>One of the থাকলে এর নিয়মঃ </strong> <br />
                   <strong>Struct: </strong> Subject + Verb + adjective-এর-2 + than any other +
                   বাক্যের বাকি অংশ।
                 </td>
@@ -954,7 +955,7 @@ const Transformation = () => {
               {/* Row 3 */}
               <tr>
                 <td className="border border-gray-400 p-1 md:p-3">
-                  <strong>No other থাকলেঃ</strong> <br />
+                  <strong>No other এর নিয়মঃ</strong> <br />
                   <ol className="list-decimal ml-4">
                     <li><strong>Rule: </strong> as/so...as এর
                       পরের অংশ + verb + adjective-2 + than any other + প্রদত্ত sentence এর Subject.</li>
@@ -974,8 +975,8 @@ const Transformation = () => {
               {/* Row 4 */}
               <tr>
                 <td className="border border-gray-400 p-1 md:p-3">
-                  <strong>Very few থাকলেঃ</strong> <br />
-                  <strong>Rule: </strong> as/so...as এর
+                  <strong>Very few এর নিয়মঃ</strong> <br />
+                  <strong>Rule: </strong>  as/so...as এর
                   পরের অংশ + verb (plural) + adjective-2 + than most other + প্রদত্ত sentence এর Subject.
                 </td>
                 <td className="border border-gray-400 p-1 md:p-3">
@@ -990,7 +991,7 @@ const Transformation = () => {
               {/* Row 5 */}
               <tr>
                 <td className="border border-gray-400 p-1 md:p-3">
-                  <strong>শুধু As ...... as থাকলেঃ</strong> <br />
+                  <strong>শুধু As ...... as এর নিয়মঃ</strong> <br />
                   <strong>Rule: </strong> as/so...as এর
                   পরের অংশ + verb (plural) + adjective-2 + than  + প্রদত্ত sentence এর Subject. <br />
                   <strong>Note: </strong>প্রদত্ত বাক্যে not না থাকলে not নিতে হবে আর not থাকলে বাদ দিতে হবে।
@@ -1009,8 +1010,8 @@ const Transformation = () => {
 
         <div className="p-4 md:p-6 bg-gray-100 text-gray-900">
           <h1 className="text-xl font-bold mb-4 text-green-500">
-            Comparative into Superlative and Positive into Superlative
-            Transformation
+            Comparative to Superlative & Positive to Superlative
+
           </h1>
           <table className="table-auto w-full border-collapse border border-gray-400">
             <thead>
@@ -1019,8 +1020,8 @@ const Transformation = () => {
                 <th className="border border-gray-400 p-1 md:p-3">Examples</th>
               </tr>
             </thead>
+            {/* Comparative into Superlative */}
             <tbody>
-              {/* Comparative into Superlative */}
               <tr>
                 <td
                   colSpan={2}
