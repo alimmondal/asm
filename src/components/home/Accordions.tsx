@@ -268,7 +268,7 @@ const Accordions = () => {
         <AccordionPanel>
           <AccordionTitle>৪। Present Perfect Continuous Tense</AccordionTitle>
           <AccordionContent>
-            <p className="mb-2 dark:text-gray-400">
+            <div className="mb-2 dark:text-gray-400">
               <div className="">
                 <strong> ৪। Present Perfect Continuous Tense </strong>(পুরঘটিত
                 চলমান বর্তমান কাল):
@@ -335,7 +335,7 @@ const Accordions = () => {
                 সে কি ১০ মিনিট ধরে ভাত খাচ্ছে/খাইতেছে - Ain't he been eating
                 rice for ten minutes?
               </div>
-            </p>
+            </div>
           </AccordionContent>
         </AccordionPanel>
 
@@ -417,7 +417,7 @@ const Accordions = () => {
         <AccordionPanel>
           <AccordionTitle>২। Past Continuous Tense</AccordionTitle>
           <AccordionContent>
-            <p className="mb-2 dark:text-gray-400">
+            <div className="mb-2 dark:text-gray-400">
               <div className="">
                 <p>
                   <strong>২। Past Continuous Tense </strong>(চলমান অতীত কাল)।
@@ -468,7 +468,7 @@ const Accordions = () => {
                 Were we not eating rice? <br />
                 সে কি ভাত খাচ্ছিল/খাইতেছিল? - Wasn't he eating rice?
               </div>
-            </p>
+            </div>
           </AccordionContent>
         </AccordionPanel>
 
@@ -476,7 +476,7 @@ const Accordions = () => {
         <AccordionPanel>
           <AccordionTitle>৩। Past Perfect Tense </AccordionTitle>
           <AccordionContent>
-            <p className="mb-2 dark:text-gray-400">
+            <div className="mb-2 dark:text-gray-400">
               <div className="">
                 <strong> ৩। Past Perfect Tense </strong>( পুরঘটিত অতীত কাল )।
                 <br />
@@ -514,7 +514,7 @@ const Accordions = () => {
                 বাক্যের মধ্যে পরে থাকলেঃ <br />
                 2. Past Indefinite Tense + after + Past Perfect Tense
               </div>
-            </p>
+            </div>
           </AccordionContent>
         </AccordionPanel>
 
@@ -522,7 +522,7 @@ const Accordions = () => {
         <AccordionPanel>
           <AccordionTitle>৪। Past Perfect Continuous Tense </AccordionTitle>
           <AccordionContent>
-            <p className="mb-2 dark:text-gray-400">
+            <div className="mb-2 dark:text-gray-400">
               <div className="">
                 <strong> ৪। Past Perfect Continuous Tense </strong>(পুরঘটিত
                 চলমান অতীত কাল):
@@ -577,7 +577,7 @@ const Accordions = () => {
                 আমরা ১০ মিনিট ধরে ভাত খাচ্ছিলাম/খাইতেছিলাম না - We had not been
                 eating rice for ten minutes? <br />
               </div>
-            </p>
+            </div>
           </AccordionContent>
         </AccordionPanel>
 
@@ -585,7 +585,7 @@ const Accordions = () => {
         <AccordionPanel>
           <AccordionTitle>১। Future Indefinite Tense</AccordionTitle>
           <AccordionContent>
-            <p className="mb-2 dark:text-gray-400">
+            <div className="mb-2 dark:text-gray-400">
               <div className="">
                 <strong> ১। Future Indefinite Tense </strong>( অনির্দিষ্ট
                 ভবিষ্যৎ কাল ) : <br />
@@ -641,7 +641,7 @@ const Accordions = () => {
                 সে কি ভাত খাবে না? -Will he not eat rice? <br />
                 <br />
               </div>
-            </p>
+            </div>
           </AccordionContent>
         </AccordionPanel>
 
@@ -649,7 +649,7 @@ const Accordions = () => {
         <AccordionPanel>
           <AccordionTitle>২। Future Continuous Tense </AccordionTitle>
           <AccordionContent>
-            <p className="mb-2 dark:text-gray-400">
+            <div className="mb-2 dark:text-gray-400">
               <div className="">
                 <p>
                   <strong>২। Future Continuous Tense </strong>(চলমান ভবিষ্যৎ
@@ -699,7 +699,7 @@ const Accordions = () => {
                 <br />
                 -সে কি ভাত খাইতে থাকিবে/ খেতে থাকবে? - Won't he be eating rice?
               </div>
-            </p>
+            </div>
           </AccordionContent>
         </AccordionPanel>
 
@@ -707,7 +707,7 @@ const Accordions = () => {
         <AccordionPanel>
           <AccordionTitle>৩। Future Perfect Tense </AccordionTitle>
           <AccordionContent>
-            <p className="mb-2 dark:text-gray-400">
+            <div className="mb-2 dark:text-gray-400">
               <div className="">
                 <strong>৩। Future Perfect Tense (পুরঘটিত ভবিষ্যৎ কাল)।</strong>
                 <p className="">
@@ -746,7 +746,7 @@ const Accordions = () => {
                   লোকটি বাজারে যাওয়ার পূর্বে এ বিষয় চিন্তা করিয়া থাকিবে।
                 </p>
               </div>
-            </p>
+            </div>
           </AccordionContent>
         </AccordionPanel>
 

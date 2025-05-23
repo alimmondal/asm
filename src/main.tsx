@@ -10,7 +10,9 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <AuthProvider>
       <Toaster />
-      <RouterProvider router={router} />
+      <RouterProvider router={router} future={{
+        v7_startTransition: true,
+      }} />
     </AuthProvider>
   </React.StrictMode>
 );

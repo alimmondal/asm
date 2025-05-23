@@ -3,6 +3,7 @@ const Transformation = () => {
     <div className="h-full md:w-[55%] mx-auto px-3">
       <div className="my-20">
         <h1 className="text-center text-green-500">Transformation</h1>
+        <p className="text-center">Changing Sentence without changing meaning</p>
       </div>
 
       <div className="">
@@ -726,7 +727,7 @@ const Transformation = () => {
 
       {/* DEGREE */}
       <div className="mt-6 pt-6  text-gray-900">
-        <div className="p-6 bg-gray-100">
+        <div className="p-4 md:p-6 bg-gray-100">
           <h1 className="font-bold mb-4 text-green-500">Degree </h1>
           {/* Superlative to Positive */}
           <table className="table-auto w-full border-collapse border  border-gray-400">
@@ -900,6 +901,7 @@ const Transformation = () => {
                 <th className="border border-gray-400 p-1 md:p-3">Examples</th>
               </tr>
             </thead>
+
             <tbody>
               {/* Superlative into Comparative */}
               <tr>
@@ -1013,6 +1015,7 @@ const Transformation = () => {
             Comparative to Superlative & Positive to Superlative
 
           </h1>
+
           <table className="table-auto w-full border-collapse border border-gray-400">
             <thead>
               <tr className="bg-gray-200">

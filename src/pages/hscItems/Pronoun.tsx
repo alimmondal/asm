@@ -19,7 +19,7 @@ const Pronoun = () => {
         <ul className="list-decimal list-inside pl-10">
           <li>Personal: he, she, i, we, they, you.</li>
           <li>Impersonal: each, every, any, one.</li>
-          <li>Reflexive: himself, herself, themself.</li>
+          <li>Reflexive: himself, herself, themselves.</li>
           <li>Reciprocal: each other, one another.</li>
           <li>Possessive: his, her, our, my, their.</li>
           <li>Relative: who, what, which, whom.</li>
