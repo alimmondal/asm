@@ -8,8 +8,8 @@ import {
 const Narration = () => {
   return (
     <div className="px-3 md:w-[65%] mx-auto ">
-      <div className="my-10">
-        <h1 className="text-center text-green-400">Narration</h1>
+      <div className="py-20 md:py-40">
+        <h1 className="text-center text-green-400 animate-smooth-ping">Narration</h1>
       </div>
 
       <div className="py-5">

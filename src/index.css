@@ -32,6 +32,27 @@
   }
 }
 
+
+
+/* In your CSS file or Tailwind config */
+@layer utilities {
+  @keyframes smooth-ping {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+
+    100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+
+  .animate-smooth-ping {
+    animation: smooth-ping 3s ease-in-out infinite;
+  }
+}
+
 .category:hover {
   border-color: #000000;
   color: rgb(0, 0, 0);

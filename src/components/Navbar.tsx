@@ -195,7 +195,7 @@ const Navbar = () => {
               </button>
             )}
             <div className="avatar">
-              <div className="w-12 rounded-full border-2 border-black">
+              <div className="w-12 rounded-full border-2 border-black animate-pulse">
                 <img src={auth?.user?.photoURL || "/man.jpg"} />
               </div>
             </div>

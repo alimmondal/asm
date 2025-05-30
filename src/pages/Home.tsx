@@ -3,6 +3,7 @@ import Accordian from "../components/home/Accordions";
 import GrammarItem from "../components/home/GrammarItem";
 import useAuth from "../hooks/useAuth";
 import Welcome from "../components/Welcome";
+import Glob from "../components/home/Glob";
 
 const Home = () => {
   const auth = useAuth();
@@ -13,6 +14,10 @@ const Home = () => {
         <div>
           <Banner />
           {/* <Video /> */}
+          <div className="py-10">
+
+            <Glob />
+          </div>
           <div className="md:max-w-[65%]  mx-auto">
             <GrammarItem />
             <Accordian />
