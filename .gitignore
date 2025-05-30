@@ -27,3 +27,4 @@ dist-ssr
 # .netlify
 firebase
 firebase.config.ts
+.vercel
