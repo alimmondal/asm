@@ -5,6 +5,7 @@ import { FaBookReader } from "react-icons/fa";
 import { useState } from "react";
 import { FaRegTimesCircle } from "react-icons/fa";
 import SearchBar from "./SearchBar";
+import { Button } from "flowbite-react";
 
 const Navbar = () => {
   const auth = useAuth();
@@ -134,12 +135,16 @@ const Navbar = () => {
 
                 {auth?.user && (
                   <li>
-                    <button
+                    <Button
+                      type="button"
+                      gradientDuoTone="purpleToPink"
+                      className="w-flexDirection: 'column',"
+
                       onClick={handleLogout}
-                      className="btn bg-red-500 text-white"
+                    // className="btn bg-red-500 text-white"
                     >
                       Logout
-                    </button>
+                    </Button>
                   </li>
                 )}
               </ul>
@@ -187,12 +192,16 @@ const Navbar = () => {
 
           <div className="navbar-end space-x-2">
             {auth?.user && (
-              <button
+              <Button
+                type="button"
+                gradientDuoTone="purpleToPink"
+                className="w-flexDirection: 'column',"
+
                 onClick={handleLogout}
-                className="btn bg-red-500 text-white hidden lg:block"
+              // className="btn bg-red-500 text-white"
               >
                 Logout
-              </button>
+              </Button>
             )}
             <div className="avatar">
               <div className="w-12 rounded-full border-2 border-black animate-pulse">

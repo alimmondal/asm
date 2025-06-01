@@ -5,12 +5,12 @@ import useAuth from "../../hooks/useAuth";
 
 const PrivateRoute = ({ children }: { children: ReactNode }) => {
   const auth = useAuth();
+  // console.log("authstate", auth)
   const location = useLocation();
 
   if (auth?.loading) {
     return <LoadingSpinner />;
   }
-
   if (auth?.user) {
     return children;
   }

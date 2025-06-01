@@ -18,8 +18,8 @@ const Dashboard = () => {
           Welcome to your dashboard
         </h1>
         <div className="w-320 h- self-center cursor-pointer shadow-md overflow-hidden rounded-full">
-          <Link className="w-full" to={`/dashboard/profile`}>
-            <img src="/giphy.gif" alt="" />
+          <Link className="w-full " to={`/dashboard/profile`}>
+            <img src="/giphy.gif" className="" alt="" />
           </Link>
         </div>
         <div className="w-full flex items-center justify-center">

@@ -4,10 +4,14 @@ import GrammarItem from "../components/home/GrammarItem";
 import useAuth from "../hooks/useAuth";
 import Welcome from "../components/Welcome";
 import Glob from "../components/home/Glob";
+import LoadingSpinner from "../components/LoadingSpinner";
 
 const Home = () => {
   const auth = useAuth();
   // console.log(auth);
+  if (auth?.loading) {
+    return <LoadingSpinner />;
+  }
   return (
     <div className="">
       {auth?.user ? (

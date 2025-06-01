@@ -39,6 +39,7 @@ export default function DashboardLayout() {
               <li>
                 <Link to={"profile"}>Profile</Link>
               </li>
+
               <li>
                 <Link to={"profile/edit/:id"}>Update Profile</Link>
               </li>

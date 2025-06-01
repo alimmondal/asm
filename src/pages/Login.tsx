@@ -2,6 +2,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import GoogleLogin from "../components/Login-Registration/GoogleLogin";
 import useAuth from "../hooks/useAuth";
 import { useEffect } from "react";
+import LoadingSpinner from "../components/LoadingSpinner";
 
 const Login = () => {
   const auth = useAuth();
@@ -24,9 +25,14 @@ const Login = () => {
 
   useEffect(() => {
     if (auth?.user) {
+
       navigate(from, { replace: true });
     }
   }, [auth, from, navigate]);
+
+  if (auth?.loading) {
+    return <div className="h-screen flex justify-center items-center"><LoadingSpinner /></div>;
+  }
 
   return (
     <form onSubmit={handleSUbmit} className="hero min-h-screen bg-base-200">

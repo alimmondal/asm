@@ -10,6 +10,7 @@ const Narration = () => {
     <div className="px-3 md:w-[65%] mx-auto ">
       <div className="py-20 md:py-40">
         <h1 className="text-center text-green-400 animate-smooth-ping">Narration</h1>
+        <h3 className="text-center">Narration</h3>
       </div>
 
       <div className="py-5">
@@ -18,7 +19,7 @@ const Narration = () => {
           <AccordionPanel>
             <AccordionTitle>Steps</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="mb-2 dark:text-gray-400 text-lg text-lg md:text-xl">
+              <div className="mb-2 dark:text-gray-400 text-lg md:text-xl">
                 We will learn Narration by 3 steps -
                 <p className="">
                   * Basic Discussion <br />
