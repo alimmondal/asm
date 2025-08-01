@@ -10,6 +10,8 @@ import {
 import { createContext, ReactNode, useEffect, useState } from "react";
 import { User, UserCredential } from "firebase/auth";
 import { app } from "../firebase/firebase.config";
+// import { app } from "../firebase/firebase.config.ts";
+
 
 // Define the AuthContext type
 interface AuthContextType {
