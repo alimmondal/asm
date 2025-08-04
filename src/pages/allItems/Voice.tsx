@@ -1,10 +1,71 @@
 function Voice() {
+
+
+  const assertiveSentences = [
+    "Farmers grow vegetables.",
+    "I don't like him.",
+    "The boys are flying kites.",
+    "Everybody loves him very much.",
+    "The Chinese invented paper.",
+    "Books introduce us to the realm of knowledge.",
+    "We all should read books.",
+    "Pramila has painted the picture.",
+    "My mother was making tea.",
+    "The police have arrested him.",
+    "Bees gather honey.",
+    "I did not do it.",
+    "My father will build a new house.",
+    "Saif sent the parcel yesterday.",
+    "We use them for various purposes.",
+    "Every student should go through many good books.",
+    "So, we should never forget this thing.",
+    "Ruplal wanted a peaceful life.",
+    "People of all ages enjoy this game.",
+    "I gladly accepted the invitation.",
+    "Some books give us immense pleasure.",
+    "They built the house long ago.",
+    "They are repairing the car now.",
+    "They don't sell stamps in book shops.",
+    "I have lost my purse.",
+    "I have lent him the book for a week.",
+    "The giant told the children to leave his garden.",
+    "The idle only curse their fate.",
+    "Tourists from home and abroad visit its shore.",
+    "We should follow him."
+  ];
+
+  const imperativeSentences = [
+    "Don't look at the tree.",
+    "Empty the glass.",
+    "Do not look down upon the poor.",
+    "Change the form of voice.",
+    "Pluck me a flower.",
+    "Write a letter to your friend.",
+    "Stop talking.",
+    "Get out of here.",
+    "Don't touch it.",
+    "Carry him home.",
+    "Do not insult the beggar.",
+    "Obey the rules of the road.",
+    "Do not abuse others.",
+    "Please help the needy.",
+    "Clean the floor immediately.",
+    "Please speak a bit loudly.",
+    "Listen to him carefully.",
+    "Solve these sums without any help.",
+    "Follow his instructions strictly.",
+    "Finish your work in time."
+  ];
+
   return (
     <div className="h-full md:w-[65%] mx-auto px-5">
       <div className="py-20">
         <h1 className="text-center text-green-400">Voice</h1>
       </div>
       <div className="text-lg md:text-xl">
+        <div className="">
+          <p className="py-3">Verb এর যে রুপ তার Subject সক্রিয় না নিস্ক্রিয় তা বুঝায় তাকে Voice বলে।</p>
+        </div>
 
         <h3 className="underline text-green-500">From Active to Passive</h3>
         <p className="text-blue-500 dark:text-gray-300 font-extrabold">
@@ -118,6 +179,26 @@ function Voice() {
         <h3 className="font-bold text-green-400">
           Change the following sentences into passive
         </h3>
+
+<div className="">
+  
+  <div>
+      <h2>Voice Self Assessment (Assertive Sentences)</h2>
+      <ol>
+        {assertiveSentences.map((sentence, index) => (
+          <li key={`assertive-${index}`}>{sentence}</li>
+        ))}
+      </ol>
+
+      <h2>Voice Self Assessment (Imperative Sentences)</h2>
+      <ol>
+        {imperativeSentences.map((sentence, index) => (
+          <li key={`imperative-${index}`}>{sentence}</li>
+        ))}
+      </ol>
+    </div>
+</div>
+
         <ol className="list-decimal list-inside ">
           <li>Blacksmiths make spades.</li>
           <li>Mr. Ahmed teaches us English.</li>
