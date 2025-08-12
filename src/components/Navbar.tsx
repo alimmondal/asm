@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
-import Header from "./Header";
+// import Header from "./Header";
 import { FaBookReader } from "react-icons/fa";
 import { useState } from "react";
 import { FaRegTimesCircle } from "react-icons/fa";
@@ -24,7 +24,7 @@ const Navbar = () => {
   };
 
   const changedBackground = () => {
-    if (window.scrollY >= 105) {
+    if (window.scrollY >= 10) {
       setNav(true);
     } else {
       setNav(false);
@@ -35,9 +35,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="">
-        <Header />
-      </div>
+      <div className="">{/* <Header /> */}</div>
       <div
         className={
           nav
@@ -139,9 +137,8 @@ const Navbar = () => {
                       type="button"
                       gradientDuoTone="purpleToPink"
                       className="w-flexDirection: 'column',"
-
                       onClick={handleLogout}
-                    // className="btn bg-red-500 text-white"
+                      // className="btn bg-red-500 text-white"
                     >
                       Logout
                     </Button>
@@ -153,7 +150,7 @@ const Navbar = () => {
             <Link
               onClick={closeMobileMenu}
               to={"/"}
-              className="btn btn-ghost text-xl"
+              className="btn btn-ghost text-xl ml-[-25px]"
             >
               <FaBookReader size={32} />
               <span className="heading2 md:hidden">ASM E-Learning</span>
@@ -196,9 +193,8 @@ const Navbar = () => {
                 type="button"
                 gradientDuoTone="purpleToPink"
                 className="w-flexDirection: 'column',"
-
                 onClick={handleLogout}
-              // className="btn bg-red-500 text-white"
+                // className="btn bg-red-500 text-white"
               >
                 Logout
               </Button>
