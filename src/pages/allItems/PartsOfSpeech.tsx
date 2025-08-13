@@ -8,21 +8,22 @@ function PartsOfSpeech() {
       </div>
 
       <div className="pt-10 px-5 md:w-[50%] mx-auto">
-
         <h3 className="text-green-500">Parts of Speech</h3>
         <div className="text-lg md:text-xl">
           {/* definition */}
           <div className="">
-            Parts মানে হলো অংশ আর Speech মানে হলো বক্তব্য। বাক্যের মধ্যে ব্যবহৃত প্রত্যেকটি শব্দকে Parts of
-            Speech বলে। (Parts means part and
-            speech means sentence. The word which is used in a sentence is called Parts of Speech.) <br />
-            আমরা জানি speech বা বক্তব্য হয় Sentence বা
-            বাক্যের মাধ্যমে। আবার Sentence গঠিত হয় Word এর সাহায্যে।  We know that
-            speech is through sentences or sentences.  Sentences are formed
-            with the help of words. Word এর এই শ্রেনীবিন্যাসকেই বলা হয় Parts of
-            Speech. This classification of Word is called Parts of Speech. <br />
-            Parts of speech আট প্রকার (There are eight types of parts of speech) :{" "}
+            Parts মানে হলো অংশ/শব্দ(word) আর Speech মানে হলো
+            বক্তব্য/বাক্য(sentence) । বাক্যের মধ্যে ব্যবহৃত প্রত্যেকটি শব্দকে
+            Parts of Speech বলে। (Parts means part and speech means sentence.
+            The word which is used in a sentence is called Parts of Speech.){" "}
             <br />
+            আমরা জানি speech বা বক্তব্য হয় Sentence বা বাক্যের মাধ্যমে। আবার
+            Sentence গঠিত হয় Word এর সাহায্যে। (We know that speech is through
+            sentences or sentences. Sentences are formed with the help of words.
+            Word এর এই শ্রেনীবিন্যাসকেই বলা হয় Parts of Speech. This
+            classification of Word is called Parts of Speech). <br />
+            Parts of speech আট প্রকার (There are eight types of parts of speech)
+            : <br />
             1. Noun ( বিশেষ্য ) <br />
             2. Pronoun <br />
             3. Verb ( ক্রিয়া/ কাজ ) <br />
@@ -32,74 +33,64 @@ function PartsOfSpeech() {
             7. Conjunction ( সংযোজক অব্যয় ) <br />
             8. Interjection ( আবেগসূচক অব্যয় )
           </div>
-
           <br />
-
-
           {/* noun */}
           <div className="">
             <span className="dark:text-green-400 font-bold">Noun:</span>
             <br />
             Noun অর্থ নাম। সেজন্য যে কোন নামবাচক পদকে Noun বলে। <br />
-            (Noun means name.
-            That is why any noun is called noun.) <br />
-            Noun মূলত দুই প্রকার ( There are basically two types of nouns ): <br />
+            (Noun means name. That is why any noun is called noun.) <br />
+            Noun মূলত দুই প্রকার ( There are basically two types of nouns ):{" "}
+            <br />
             1. Concrete Noun : <br />
-            যার বাহ্যিক অস্তিত্ব এবং শারীরিক গঠন আছে। (Concrete
-            Noun: Which has external existence and physical structure.)
+            যার বাহ্যিক অস্তিত্ব এবং শারীরিক গঠন আছে। (Concrete Noun: Which has
+            external existence and physical structure.)
             <br />
             যেমন : <br />
             Table, Chair, Rahim, Karim, Dhaka, London ইত্যাদি
             <br />
             2. Abstract Noun : <br />
-            এটা মূলত ব্যাক্তি বা বস্তুর অবস্থা, গুণ, প্রকৃতি
-            সম্পর্কিত নামগুলো বুঝায়। এদের বাহ্যিক অস্তিত্ব নেই। <br />
-            ( Abstract Noun: It
-            basically means the names related to the condition, quality, nature of
-            a person or thing. They have no external existence.)
+            এটা মূলত ব্যাক্তি বা বস্তুর অবস্থা, গুণ, প্রকৃতি সম্পর্কিত নামগুলো
+            বুঝায়। এদের বাহ্যিক অস্তিত্ব নেই। <br />
+            ( Abstract Noun: It basically means the names related to the
+            condition, quality, nature of a person or thing. They have no
+            external existence.)
             <br />
-            যেমন : <br /> Forgiveness, Honesty, Happiness, Friendship, Beauty, Love
-            ইত্যাদি...
+            যেমন : <br /> Forgiveness, Honesty, Happiness, Friendship, Beauty,
+            Love ইত্যাদি...
             <br />
-            এছাড়া, <br /> প্রত্যেক প্রকার Noun এর আবার দু'টি ভাগ আছে ( In addition, each
-            type of noun has two parts): <br />
+            এছাড়া, <br /> প্রত্যেক প্রকার Noun এর আবার দু'টি ভাগ আছে ( In
+            addition, each type of noun has two parts): <br />
             Countable Noun : যে Noun গণনা করা যায়।
             <br />
             1. Singular / Plural দুইটাই হতে পারে. <br />
             2. শেষে s/es যুক্ত হয়। (S/es is added at the end. )<br />
             যেমন : <br />
-            Boy - Boys, Mango - Mangos For example: boy - age, mango -
-            mangos <br />
+            Boy - Boys, Mango - Mangos For example: boy - age, mango - mangos{" "}
+            <br />
             Uncountable Noun : যে Noun গণনা করা যায় না <br />
-            (Uncountable Noun: Noun
-            that cannot be counted): <br />
+            (Uncountable Noun: Noun that cannot be counted): <br />
             1. always Singular. <br />
-            2. এদের সাথে s/es বসে না  (S/Es does not sit with
-            them. ) ।<br />
+            2. এদের সাথে s/es বসে না (S/Es does not sit with them. ) ।<br />
             যেমন : <br />
             Fun, News, Information, Wind etc. . <br />
             <br />
-
           </div>
-
           {/* Pronoun */}
           <div className="">
             <span className="dark:text-green-400 font-bold">Pronoun:</span>
             <br />
-            Pronoun: Pro শব্দের অর্থ পরিবর্তে আর Noun শব্দের অর্থ নাম। অর্থাৎ, Noun/নামের
-            পরিবর্তে যে Word ব্যবহার করা হয় সেটাই Pronoun. (The word
-            pro means instead and the word noun means name.  That is, the word used
-            instead of noun/name is the pronoun.) <br />
+            Pronoun: Pro শব্দের অর্থ পরিবর্তে আর Noun শব্দের অর্থ নাম। অর্থাৎ,
+            Noun/নামের পরিবর্তে যে Word ব্যবহার করা হয় সেটাই Pronoun. (The word
+            pro means instead and the word noun means name. That is, the word
+            used instead of noun/name is the pronoun.) <br />
             যেমন :Such as: I, you, she, they, who, what, this, that, myself,
             themselves etc. I, you, she, they, who, what, this, that, myself,
             themselves etc.
           </div>
           <br />
-
-
           <br />
           {/* Adjective */}
-
           <p className="">
             Adjective <br />
             Adjective: যে word দ্বারা Noun/Pronoun এর দোষ, গুণ, অবস্থা, সংখ্যা,
@@ -108,18 +99,18 @@ function PartsOfSpeech() {
             Noun / Pronoun, is called Adjective. <br />
             Examples: <br />
             দোষ বা গুণ : Bad, lazy, clever, honest etc. <br />
-            অবস্থা : Poor, rich, noble, weak, old, Asian, Bangladeshi etc. <br />
+            অবস্থা : Poor, rich, noble, weak, old, Asian, Bangladeshi etc.{" "}
+            <br />
             পরিমাণ : Much, little, a few, Enough etc. <br />
             সংখ্যা : First, one, two, Single, double etc.
           </p>
           <br />
-
           {/* Verb */}
           <p className="">
             Verb <br />
-            Verb: যে word দ্বারা কোনো কিছু করা বা হওয়া বা থাকা কে বুঝায়, তাকে Verb
-            বলে (The word that means to do or to be or to be something is called
-            verb.) । <br />
+            Verb: যে word দ্বারা কোনো কিছু করা বা হওয়া বা থাকা কে বুঝায়, তাকে
+            Verb বলে (The word that means to do or to be or to be something is
+            called verb.) । <br />
             যেমন : <br />
             Sing, Think, Laugh, Cry, Jump etc. <br />
             Verb দুই প্রকার: <br />
@@ -131,19 +122,20 @@ function PartsOfSpeech() {
             (i) Principle verb (প্রধান ক্রিয়া) <br />
             (ii) Auxiliary verb (সাহায্যকারী ক্রিয়া) <br />
             Principle Verb : <br />
-            যে verb অন্য কোন Verb এর সাহায্য ছাড়া স্বাধীনভাবে
-            সম্পূর্ণ অর্থ প্রকাশ করতে পারে, তাকে Principle Verb বলে (The verb that
-            can express the complete meaning independently without the help of any
-            other verb is called Principle Verb.) । <br />
+            যে verb অন্য কোন Verb এর সাহায্য ছাড়া স্বাধীনভাবে সম্পূর্ণ অর্থ
+            প্রকাশ করতে পারে, তাকে Principle Verb বলে (The verb that can express
+            the complete meaning independently without the help of any other
+            verb is called Principle Verb.) । <br />
             Principal Verb আবার দুই প্রকার: <br />
             1. Transitive Verb : সকর্মক ক্রিয়া <br />
-            Transitive verb বৈশিষ্ট্য :
-            যে Verb, object ছাড়া অর্থ প্রকাশ করতে পারে না (Properties: Verbs
-            cannot express meaning without objects.) ।
+            Transitive verb বৈশিষ্ট্য : যে Verb, object ছাড়া অর্থ প্রকাশ করতে
+            পারে না (Properties: Verbs cannot express meaning without objects.)
+            ।
             <br />
             2. Intransitive Verb - অকর্মক ক্রিয়া: <br />
             Intransitive Verb বৈশিষ্ট্য : যে Verb, object ছাড়াই অর্থ প্রকাশ করতে
-            পারে (Properties: Verbs can express meaning without objects.)। <br />
+            পারে (Properties: Verbs can express meaning without objects.)।{" "}
+            <br />
             Examples: <br />
             <table className="min-w-[800px] table-auto dark:border-slate-400">
               <tr>
@@ -163,24 +155,22 @@ function PartsOfSpeech() {
                 <td>Birds flew in the sky.</td>
               </tr>
             </table>
-
-
-            Auxiliary Verb : যে verb ক্রিয়ার কাল বা ভাব প্রকাশ করতে Principle Verb
-            কে সাহায্য করে, তাকে Auxiliary verb বলে। এজন্য একে Helping Verb ও বলা
-            হয়। The verb that helps the principle verb to express the tense or
-            expression of the verb is called the auxiliary verb. That's why it's
-            called a helping verb.
+            Auxiliary Verb : যে verb ক্রিয়ার কাল বা ভাব প্রকাশ করতে Principle
+            Verb কে সাহায্য করে, তাকে Auxiliary verb বলে। এজন্য একে Helping Verb
+            ও বলা হয়। The verb that helps the principle verb to express the
+            tense or expression of the verb is called the auxiliary verb. That's
+            why it's called a helping verb.
             <br />
             List of Auxiliary Verbs :<br />
             1. Be Verb : am, is, are, was, were, be, being, been. <br />
             2. Do Verb : do, does, did <br />
             3. Have Verb : have, has, had, hast
             <br />
-            4.Modals : <br />can, could, shall, should, will, would, may, might, must,
-            need, dare, had better, would rather. <br />
-            5. to যুক্ত Modals : <br />ought to, have to, be to, used to, be going to,
-            be about to..
-
+            4.Modals : <br />
+            can, could, shall, should, will, would, may, might, must, need,
+            dare, had better, would rather. <br />
+            5. to যুক্ত Modals : <br />
+            ought to, have to, be to, used to, be going to, be about to..
             <br />
             Non-Finite Verb: <br />
             Non-Finit Verb আবার তিন প্রকার: <br />
@@ -189,7 +179,6 @@ function PartsOfSpeech() {
             2. Participle <br />
             3. Infinitive
             <br />
-
             Gerund:
             <br /> Gerund = ( verb + ing ) = Noun এর মত আচরণ করবে। <br />
             Gerund = ( verb + ing ) = will behave like noun. <br />
@@ -205,9 +194,9 @@ function PartsOfSpeech() {
             Technique : Gerund দ্বারা স্থির অবস্থা বোঝায়। <br />
             Technique: Gerund refers to the state of station.
             <br />
-
             Participle: <br />
-            Participle = ( verb + ing ) = Adjective/ Adverb এর মত আচরণ করবে। <br />
+            Participle = ( verb + ing ) = Adjective/ Adverb এর মত আচরণ করবে।{" "}
+            <br />
             যেমন:
             <br />
             1. I saw him passing the shop.
@@ -221,8 +210,8 @@ function PartsOfSpeech() {
             Participle refers to the state of moving. <br />
             Infinitive:
             <br />
-            Infinitive = ( to + verb ) = অর্থাৎ to যুক্ত verb. Infinitive = ( to +
-            V-1 ) = অর্থাৎ to যুক্ত verb. <br />
+            Infinitive = ( to + verb ) = অর্থাৎ to যুক্ত verb. Infinitive = ( to
+            + V-1 ) = অর্থাৎ to যুক্ত verb. <br />
             যেমন : <br />
             1. I'm glad to receive your letter. <br />
             2. We eat food to live. <br />
@@ -233,26 +222,21 @@ function PartsOfSpeech() {
             5. This car is to hair. <br />
             6. To speak the truth, he's honest.
           </p>
-
-
-
-
           <br />
           {/* adverb */}
           <p className="">
             Adverb <br />
-            Adverb: যে  Word Adjective, Verb বা কোনো Adverb
-            কে modify বা qualify করে, তাকে Adverb বলে। Adverbs that modify or
-            qualify adverbs without word noun / pronoun are called adverbs. <br />
+            Adverb: যে Word Adjective, Verb বা কোনো Adverb কে modify বা qualify
+            করে, তাকে Adverb বলে। Adverbs that modify or qualify adverbs without
+            word noun / pronoun are called adverbs. <br />
             যেমন: <br />
             1. He started early.
             <br />
             2. He runs very fast. <br />
             3. I know better. <br />
-            Short Techniq: Adverbs can also be found by asking questions by how, when, where,
-            why.
+            Short Techniq: Adverbs can also be found by asking questions by how,
+            when, where, why.
             <br />
-
             “Adverb - Time (সময়), Place (স্থান), Manner (ধরণ), Number (সংখ্যা),
             Degree (মাত্রা), Reason (কারণ), Purpose (উদ্দেশ্য), Condition (শর্ত)
             ইত্যাদি প্রকাশ করবে।” <br />
@@ -266,11 +250,9 @@ function PartsOfSpeech() {
             Degree : very, much, partly, wholly etc. D<br />
             Reason : as, so, because etc. <br />
             Condition : if, unless etc. Condition : if, unless etc. <br />
-            Technic : How, When, Where, Why দ্বারা প্রশ্ন করলেও Adverb পাওয়া যায়।{" "}
-            <br />
-
+            Technic : How, When, Where, Why দ্বারা প্রশ্ন করলেও Adverb পাওয়া
+            যায়। <br />
           </p>
-
           <br />
           <br />
           Preposition
