@@ -4,7 +4,7 @@ function Advertisement() {
       <h1 className="text-center font-semibold text-md py-20 text-green-400">
         Advertisement
       </h1>
-      <div className="px-3 text-lg md:text-xl">
+      <div className="px-3 text-lg md:text-xl max-w-4xl mx-auto">
         <div className="border p-6 mb-10 ">
           {/* To Let Section */}
           <div className="border p-6 mb-6 max-w-md mx-auto shadow-md transition-transform duration-300 ease-in-out hover:scale-105">

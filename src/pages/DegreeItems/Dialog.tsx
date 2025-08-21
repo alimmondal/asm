@@ -1,11 +1,12 @@
 function Dialog() {
   return (
     <div className="h-full px-5 md:w-[65%] mx-auto">
-      <div className="px-5 w-full flex items-center justify-center py-20">
-        {/* <h1 className="text-center font-semibold text-md py-20">
-          Dialog Writing
-        </h1> */}
-        <img src="/dialogTitle.png" alt="" />
+      <div className="px-5 w-full h-full flex items-center justify-center py-20">
+        <div className="card">
+          <span className="text-6xl">Dialog</span>
+          <div className="effect"></div>
+        </div>
+        {/* <img src="/dialogTitle.png" alt="" /> */}
       </div>
       {/* 1 */}
       <div className="">
