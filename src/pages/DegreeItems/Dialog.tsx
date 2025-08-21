@@ -1,9 +1,9 @@
 function Dialog() {
   return (
     <div className="h-full px-5 md:w-[65%] mx-auto">
-      <div className="px-5 w-full h-full flex items-center justify-center py-20">
-        <div className="card">
-          <span className="text-6xl">Dialog</span>
+      <div className="px-5 w-full flex items-center justify-center py-20">
+        <div className="relative w-[600px] h-[200px] bg-black text-white flex items-center justify-center text-2xl md:text-6xl font-bold rounded-2xl overflow-hidden">
+          <span className="">Dialog</span>
           <div className="effect"></div>
         </div>
         {/* <img src="/dialogTitle.png" alt="" /> */}
