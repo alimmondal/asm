@@ -54,16 +54,16 @@ const Banner = () => {
       </div>
 
       <div className="h-full max-w-7xl  mx-auto py-20" id="category">
-        <div className="px-5 w-full flex items-center justify-center py-20">
+        {/* <div className="px-5 w-full flex items-center justify-center py-20">
           <div className="relative w-[600px] h-[300px] bg-black text-white flex items-center justify-center text-2xl font-bold rounded-2xl overflow-hidden">
             <span className="text-6xl text-green-400">Category</span>
             <div className="effect"></div>
           </div>
-          {/* <img src="/dialogTitle.png" alt="" /> */}
-        </div>
-        {/* <h1 className="py-4 text-center w-full text-4xl font-bold uppercase text-green-400">
+          <img src="/dialogTitle.png" alt="" />
+        </div> */}
+        <h1 className="py-4 text-center w-full text-4xl font-bold uppercase text-green-400">
           Category
-        </h1> */}
+        </h1>
 
         <div className="my-5">
           <ul className="grid grid-cols-2 md:grid-cols-3  gap-5 px-2 md:px-20 items-center justify-center">

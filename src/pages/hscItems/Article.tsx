@@ -1,8 +1,12 @@
 function Article() {
   return (
     <div className="h-full md:w-[85%] mx-auto">
-      <div className="py-10">
-        <h1 className="text-center ">Article</h1>
+      <div className="px-5 w-full flex items-center justify-center py-20">
+        <div className="relative w-[600px] h-[200px] bg-black text-white flex items-center justify-center text-2xl md:text-6xl font-bold rounded-2xl overflow-hidden">
+          <span className="text-white">Article</span>
+          {/* <img src="/dialogTitle.png" alt="" /> */}
+          <div className="effect"></div>
+        </div>
       </div>
       <div className="h-full px-5">
         <div className=" pb-10">

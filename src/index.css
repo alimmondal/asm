@@ -166,7 +166,7 @@ h3 {
   inherits: false;
 }
 
-.card {
+/* .card {
   width: 200px;
   height: 300px;
   position: relative;
@@ -179,7 +179,7 @@ h3 {
   font-size: 1.2rem;
   overflow: hidden;
   border-radius: 12px;
-}
+} */
 
 .effect {
   background: conic-gradient(
@@ -190,16 +190,16 @@ h3 {
   );
   position: absolute;
   inset: 0;
-  animation: rotate 5s linear infinite;
+  animation: rotate 2s linear infinite;
 }
 
 /* .effect::after {
   content: "";
   position: absolute;
   inset: 4px;
-  background-color: white;
+  background-color: black;
   border-radius: 10px;
-}*/
+} */
 
 @keyframes rotate {
   to {
