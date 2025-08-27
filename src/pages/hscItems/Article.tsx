@@ -43,19 +43,18 @@ function Article() {
           </p>
 
           <p className="pt-5">
-            <strong>4. </strong>
+            <strong>4. </strong> শুন্যস্থানের আগে Both, All, on থাকলে
+            শুন্যস্থানে The বসে। <br />
+            যেমনঃ I've read all <strong>the</strong> book.
+          </p>
+          <p className="pt-5">
+            <strong>5. </strong>
             শুন্যস্থানের পরে ক্রমিক নাম্বার/ সংখ্যা/ সংখ্যাবাচক শব্দ থাকলে,
             ধর্মীয় জিনিসের নাম, নদীর নাম, সাগরের নাম,পর্বত শ্রেণী নাম,ঋতুর নাম,
             তারিখ, চাঁদ, সূর্য, পৃথিবী, ঐতিহাসিক স্থান/ প্রতিষ্ঠান থাকলে
             শুন্যস্থানে The বসে। <br />
             যেমনঃ <strong>The</strong> Padma is a big river.
           </p>
-          <p className="pt-5">
-            <strong>5. </strong> শুন্যস্থানের আগে Both, All, on থাকলে
-            শুন্যস্থানে The বসে। <br />
-            যেমনঃ I've read all <strong>the</strong> book.
-          </p>
-
           {/* Use of Cross */}
           <h3 className="pt-5">
             <strong> X (ক্রস) এর ব্যবহার</strong>:

@@ -114,7 +114,7 @@ function Voice() {
         </p>
 
         <p className="py-2">
-          (4) প্রদত্ত বাক্যে যদি am/is/are, was/ were, shall be/ will be থাকে
+          (4) প্রদত্ত বাক্যে am/is/are, was/ were, shall be/ will be যদি থাকে
           তাহলে এগুলোর সাথে Passive voice এর helping verb হয় = being <br />
           যেমনঃ <br />
           Q. She was making tea.
@@ -130,13 +130,20 @@ function Voice() {
           হবে 👉 shall be being/ will be being. <br />
         </p>
         <p className="py-2">
-          (5) প্রদত্ত বাক্যে যদি can/ could/ may/ might/ shall/ should/ will/
-          would/ must/ ought to/ have to/ has to/ had to/ am going to/ is going
-          to/ are going to থাকে তাহলে এগুলোর সাথে Passive voice এর helping verb
-          হয় = be, <br />
+          (5) প্রদত্ত বাক্যে can/ could/ may/ might/ shall/ should/ will/ would/
+          must/ ought to/ have to/ has to/ had to/ am going to/ is going to/ are
+          going to যদি থাকে তাহলে এগুলোর সাথে Passive voice এর helping verb হবে
+          = be. <br />
           যেমনঃ <br />
           Q. She can make tea. <br />
           👉 Tea can be made by her.
+        </p>
+        <p className="py-2">
+          (5) প্রদত্ত বাক্যে have/ has/ had যদি থাকে তাহলে এগুলোর সাথে Passive
+          voice এর helping verb হবে = been. <br />
+          যেমনঃ <br />
+          Q. She has made tea. <br />
+          👉 Tea has been made by her.
         </p>
       </div>
 
@@ -177,18 +184,30 @@ function Voice() {
           Q. Tea was not made by her. <br />
           👉 She did not make tea.
         </p>
-        (iii) প্রদত্ত বাক্যে am being, is being, are being, was being,were
-        being, shall be being, will be being, থাকলে being উঠিয়ে V<sub>1</sub> এর
-        সাথে ing হবে।
-        <br />
-        যেমনঃ <br />
-        Q. Tea was being made by her. <br />
-        👉 She was making tea.
+
+        <p className="">
+          (iii) প্রদত্ত বাক্যে am being, is being, are being, was being, were
+          being, shall be being, will be being থাকলে being উঠিয়ে V<sub>1</sub>{" "}
+          এর সাথে ing হবে।
+          <br />
+          যেমনঃ <br />
+          Q. Tea was being made by her. <br />
+          👉 She was making tea.
+        </p>
+        <p className="">
+          (iii) প্রদত্ত বাক্যে have been/ has been/ had been থাকলে been উঠিয়ে
+          Verb এর V<sub>3</sub> হবে।
+          <br />
+          যেমনঃ <br />
+          Q. Tea was being made by her. <br />
+          👉 She was making tea.
+        </p>
+
         <p>
-          (vi)প্রদত্ত বাক্যে যদি can/ could/ may/ might/ shall/ should/ will/
-          would/ must/ ought to/ have to/ has to/ had to/ am going to/ is going
-          to/ are going to ইত্যাদি Modal Verb গুলোর সাথে be থাকে তাহলে be উঠিয়ে
-          মুল Verb এর V<sub>1</sub>
+          (vi)প্রদত্ত বাক্যে যদি can be/ could be/ may be/ might be/ shall be/
+          should be/ will be/ would be/ must be/ ought to be/ have to be/ has to
+          be/ had to be/ am going to be/ is going to be/ are going to be ইত্যাদি
+          থাকলে be উঠিয়ে মুল Verb এর V<sub>1</sub>
           করতে হবে। <br />
           যেমনঃ <br />
           Q. Tea can be made by her. <br />
