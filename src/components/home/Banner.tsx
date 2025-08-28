@@ -73,12 +73,12 @@ const Banner = () => {
               </li>
             </Link>
             <Link to={"/hsc"}>
-              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700 border-2 border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category hover:dark:shadow-md">
+              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category hover:dark:shadow-md">
                 HSC
               </li>
             </Link>
             <Link to={"/ssc"}>
-              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700 border-2 border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category">
+              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category">
                 SSC
               </li>
             </Link>

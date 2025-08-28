@@ -58,6 +58,7 @@ import Graph from "../pages/hscItems/Graph";
 import FirstPaperModel from "../pages/hscItems/FirstPaperModel";
 import Correction from "../pages/DegreeItems/Correction";
 import EBook from "../pages/allItems/EBook";
+import Test from "../pages/allItems/Test";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -226,6 +227,10 @@ export const router = createBrowserRouter([
         element: <Suggestion />,
       },
       // all items
+      {
+        path: "/test",
+        element: <Test />,
+      },
       {
         path: "/eBook",
         element: <EBook />,
