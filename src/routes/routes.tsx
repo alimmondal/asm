@@ -57,6 +57,7 @@ import CompetingStory from "../pages/hscItems/CompetingStory";
 import Graph from "../pages/hscItems/Graph";
 import FirstPaperModel from "../pages/hscItems/FirstPaperModel";
 import Correction from "../pages/DegreeItems/Correction";
+import EBook from "../pages/allItems/EBook";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -225,6 +226,10 @@ export const router = createBrowserRouter([
         element: <Suggestion />,
       },
       // all items
+      {
+        path: "/eBook",
+        element: <EBook />,
+      },
       {
         path: "/sentence",
         element: <Sentence />,

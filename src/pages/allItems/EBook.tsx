@@ -5,7 +5,7 @@ import { pageNavigationPlugin } from "@react-pdf-viewer/page-navigation";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "pdfjs-dist/build/pdf.worker.entry";
 
-const FirstPaperModel = () => {
+const EBook = () => {
   const scrollModePluginInstance = scrollModePlugin();
   const { switchScrollMode } = scrollModePluginInstance;
 
@@ -52,16 +52,14 @@ const FirstPaperModel = () => {
   return (
     <div className="h-full w-full md:w-[85%] mx-auto">
       <div className="py-10">
-        <h1 className="text-center text-xl font-bold">
-          HSC Model Test 1st-Part
-        </h1>
+        <h1 className="text-center text-xl font-bold">E-Book</h1>
       </div>
 
       {/* PDF viewer */}
-      <div className="h-[80vh] border rounded relative">
+      <div className="h-[100vh] border rounded relative">
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.9.359/build/pdf.worker.min.js">
           <Viewer
-            fileUrl="/FirstPaperModel.pdf"
+            fileUrl="/Oxford-Fluency-Essentials.pdf"
             plugins={[scrollModePluginInstance, pageNavigationPluginInstance]}
             onDocumentLoad={(e) => {
               handleDocumentLoad();
@@ -128,19 +126,8 @@ const FirstPaperModel = () => {
           );
         })}
       </div>
-
-      {/* Download */}
-      <div className="text-center py-6">
-        <a
-          href="/FirstPaperModel.pdf"
-          download
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-        >
-          Download PDF
-        </a>
-      </div>
     </div>
   );
 };
 
-export default FirstPaperModel;
+export default EBook;
