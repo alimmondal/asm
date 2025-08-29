@@ -1,6 +1,6 @@
 // import { Link } from "react-router-dom";
 import "pdfjs-dist/build/pdf.worker.entry";
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
 
 function Verbs() {
@@ -36,14 +36,6 @@ function Verbs() {
   }, []);
   return (
     <div className="h-full ">
-      {/* <div className="px-5 w-full flex items-center justify-center py-20">
-        <div className="relative w-11/12 md:w-10/12 h-[400px] bg-black text-white flex items-center justify-center text-2xl md:text-6xl font-bold rounded-2xl overflow-hidden">
-          <span className="text-white">Right Form of Verbs</span>
-
-          <div className="effect"></div>
-        </div>
-      </div> */}
-
       <div className="flex flex-col items-center py-20 px-5">
         <FlipBook
           width={isPortrait ? 400 : 800} // smaller width for portrait
@@ -465,6 +457,13 @@ function Verbs() {
       </div>
 
       <div className="h-full w-[95%] md:w-[60%] mx-auto">
+        <div className="px-5 w-full flex items-center justify-center py-20">
+          <div className="relative w-11/12 md:w-10/12 h-[400px] bg-black text-white flex items-center justify-center text-2xl md:text-6xl font-bold rounded-2xl overflow-hidden">
+            <span className="text-white">Right Form of Verbs</span>
+
+            <div className="effect"></div>
+          </div>
+        </div>
         <div className="">
           {/* <h2>Structure of Tense:</h2>
           <div className="">
