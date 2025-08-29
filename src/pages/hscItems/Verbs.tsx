@@ -278,14 +278,110 @@ function Verbs() {
           {/* page 5 */}
           <div className="p-6 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 5</h2>
+            {/* 9 */}
+            <strong className="text-rose-600 font-bold">কিন্তু-</strong>
+            <div className="pb-3">
+              <p>
+                <strong>Rule: 9. </strong> অনান্য সকল preposition (যেমনঃ in,
+                into, on, over, up, upon, of, by, with, without, before, after,
+                away) এর পরের ব্রাকেটের verb এর সাথে ing হয়। <br />
+                যেমন:
+              </p>
+              <p className="dark:text-green-400">
+                Q. He is tired of (drive) car.
+                <br />= He is tired of <u>driving</u> car.
+              </p>
+            </div>
+
+            {/* 10 */}
+            <div className="pb-3">
+              <p>
+                <strong>Rule: 10. </strong> Stop, mind, finish, miss, risk,
+                answer, continue, admit, deny, avoid, enjoy, fancy, imagine,
+                delay, suggest, postpone, involve, practice ইত্যাদি Verb গুলোর
+                পরে ব্রাকেটের Verb এর সাথে ing হয়।
+              </p>
+              যেমনঃ
+              <p className="dark:text-green-400">
+                Q. You tried to finish (write).
+                <br />= You tried to finish <u>writing</u>.
+              </p>
+              <strong>কিন্তু:-</strong>
+              <p className="">
+                সাধারণত এই Verb গুলো ছাড়া অন্য কোন Verb এর পরে ব্রাকেটের verb এর
+                V1 হয়। <br />
+                যেমনঃ <br />
+                <span className="dark:text-green-400">
+                  {" "}
+                  Q. He tried hard (pass) the exam.
+                </span>{" "}
+                <br />
+                <span className="dark:text-green-400">
+                  = He tried har <u>pass</u> the exam
+                </span>
+              </p>
+            </div>
+          </div>
+          {/* page 6 */}
+          <div className="p-6 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 6</h2>
+            {/* 11 */}
+            <div className="pb-3">
+              <p>
+                <strong>Rule: 11. </strong> <br />
+                <strong> (a). </strong> প্রথম বক্যে Fancy, wish, it is time, it
+                is high time থাকলে পরের বাক্যের ব্রাকেটের verb এর V <sub>2</sub>{" "}
+                হয়। <br />
+                যেমন:
+              </p>
+              <p className="dark:text-green-400">
+                Q. He wishes he (sing) a song.
+                <br />= He wishes he <u>sang</u> a song.
+              </p>
+
+              <p>
+                <strong> (b). </strong>কিন্তু প্রথম বক্যে Fancy, wish, it is
+                time, it is high time, as if, as though, if
+                <span className="bengali">
+                  থাকলে পরের বাক্যের ব্রাকেটে be এর স্থলে সাধারণত were হয়।{" "}
+                  <br />
+                  যেমনঃ
+                </span>
+              </p>
+              <p className="dark:text-green-400">
+                Q. He wishes he (be) a king.
+                <br />= He wishes he <u>were</u> a king.
+              </p>
+            </div>
+          </div>
+
+          {/* page 7 */}
+          <div className="p-6 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 7</h2>
             <p>
               When sentences contain <b>now, at this moment, at present</b> →
               use <b>Present Continuous</b>.
             </p>
           </div>
-          {/* page 6 */}
+          {/* page 8 */}
           <div className="p-6 bg-white shadow-inner">
-            <h2 className="text-xl font-bold mb-2">Page 6</h2>
+            <h2 className="text-xl font-bold mb-2">Page 8</h2>
+            <p>
+              When sentences contain <b>now, at this moment, at present</b> →
+              use <b>Present Continuous</b>.
+            </p>
+          </div>
+          {/* page 9 */}
+          <div className="p-6 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 9</h2>
+            <p>
+              When sentences contain <b>now, at this moment, at present</b> →
+              use <b>Present Continuous</b>.
+            </p>
+          </div>
+          {/* page 9 */}
+          <div className="p-6 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 10</h2>
             <p>
               When sentences contain <b>now, at this moment, at present</b> →
               use <b>Present Continuous</b>.
