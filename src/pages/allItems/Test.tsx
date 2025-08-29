@@ -1,11 +1,11 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
 
 const Test: React.FC = () => {
   const flipBook = useRef<any>(null);
   const [currentPage, setCurrentPage] = useState(0);
-  // Add this state at the top
   const [jumpPage, setJumpPage] = useState<number | "">("");
+  const [isPortrait, setIsPortrait] = useState(false); // 🔥 auto mode
 
   const totalPages = 8; // Update when you add more pages
 
@@ -15,23 +15,44 @@ const Test: React.FC = () => {
 
   const FlipBook = HTMLFlipBook as any;
 
+  // 🔥 Detect screen size & adjust orientation
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        // Mobile & small tablets → Portrait
+        setIsPortrait(true);
+      } else {
+        // Desktop → Landscape
+        setIsPortrait(false);
+      }
+    };
+
+    handleResize(); // Run once on mount
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <div className="flex flex-col items-center py-20 px-5">
       <FlipBook
-        width={500}
-        height={300}
+        width={isPortrait ? 400 : 800} // smaller width for portrait
+        height={isPortrait ? 600 : 500} // taller height for portrait
         className="shadow-2xl rounded"
-        style={{ margin: "0 auto" }}
+        style={{
+          margin: "0 auto",
+          backgroundImage: "url('/bookBg.jpg')",
+          backgroundSize: "cover",
+        }}
         showCover={true}
         size="stretch"
-        minWidth={315}
-        maxWidth={1000}
+        minWidth={300}
+        maxWidth={1200}
         minHeight={400}
-        maxHeight={1536}
+        maxHeight={900}
         drawShadow={true}
         flippingTime={800}
-        usePortrait={true}
-        startPage={0}
+        usePortrait={isPortrait} // 🔥 auto toggle
         autoSize={true}
         clickEventForward={true}
         startZIndex={0}
@@ -45,35 +66,33 @@ const Test: React.FC = () => {
         ref={flipBook}
       >
         {/* Cover Page */}
-        <div className="flex items-center justify-center bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-3xl font-bold">
+        <div className="flex items-center justify-center bg-[#E3D0B5] shadow-inner text-white text-3xl font-bold">
           📖 Right Form of Verbs
+          <img src="/glob.png" className="w-64 h-64 object-cover" alt="" />
         </div>
-
         {/* Rule Pages */}
-        <div className="p-6 bg-white">
+        {/* page1 */}
+        <div className="p-6 bg-white shadow-inner">
           <h2 className="text-xl font-bold mb-2">Rule 1</h2>
           <p>
             When sentences contain <b>always, regularly, daily, every day</b> →
             use <b>Present Indefinite</b>.
           </p>
         </div>
-
-        <div className="p-6 bg-white">
+        <div className="p-6 bg-white shadow-inner">
           <h2 className="text-xl font-bold mb-2">Rule 2</h2>
           <p>
             When sentences contain <b>now, at this moment, at present</b> → use{" "}
             <b>Present Continuous</b>.
           </p>
         </div>
-
-        <div className="p-6 bg-white" data-density="hard">
+        <div className="p-6 bg-white">
           <h2 className="text-xl font-bold mb-2">Rule 3</h2>
           <p>
             When sentences contain <b>yesterday, ago, last night</b> → use{" "}
             <b>Past Indefinite</b>.
           </p>
         </div>
-
         <div className="p-6 bg-white">
           <h2 className="text-xl font-bold mb-2">Rule 4</h2>
           <p>
@@ -81,7 +100,6 @@ const Test: React.FC = () => {
             <b>Future Indefinite</b>.
           </p>
         </div>
-
         <div className="p-6 bg-white">
           <h2 className="text-xl font-bold mb-2">Rule 5</h2>
           <p>
@@ -89,7 +107,6 @@ const Test: React.FC = () => {
             <b>Present Perfect</b>.
           </p>
         </div>
-
         <div className="p-6 bg-white">
           <h2 className="text-xl font-bold mb-2">Rule 6</h2>
           <p>
@@ -98,7 +115,7 @@ const Test: React.FC = () => {
           </p>
         </div>
         {/* Back Cover */}
-        <div className="flex items-center justify-center bg-gray-800 text-white text-xl font-bold">
+        <div className="flex items-center justify-center bg-gradient-to-r from-indigo-600 to-purple-600  text-white text-xl font-bold">
           🔚 The End
         </div>
       </FlipBook>

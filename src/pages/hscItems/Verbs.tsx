@@ -1,20 +1,373 @@
 // import { Link } from "react-router-dom";
 import "pdfjs-dist/build/pdf.worker.entry";
+import React, { useRef, useState, useEffect } from "react";
+import HTMLFlipBook from "react-pageflip";
+
 function Verbs() {
+  const flipBook = useRef<any>(null);
+  const [currentPage, setCurrentPage] = useState(0);
+  const [jumpPage, setJumpPage] = useState<number | "">("");
+  const [isPortrait, setIsPortrait] = useState(false); // 🔥 auto mode
+
+  const totalPages = 8; // Update when you add more pages
+
+  const onFlip = (e: any) => {
+    setCurrentPage(e.data);
+  };
+
+  const FlipBook = HTMLFlipBook as any;
+
+  // 🔥 Detect screen size & adjust orientation
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        // Mobile & small tablets → Portrait
+        setIsPortrait(true);
+      } else {
+        // Desktop → Landscape
+        setIsPortrait(false);
+      }
+    };
+
+    handleResize(); // Run once on mount
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <div className="h-full ">
-      <div className="px-5 w-full flex items-center justify-center py-20">
+      {/* <div className="px-5 w-full flex items-center justify-center py-20">
         <div className="relative w-11/12 md:w-10/12 h-[400px] bg-black text-white flex items-center justify-center text-2xl md:text-6xl font-bold rounded-2xl overflow-hidden">
           <span className="text-white">Right Form of Verbs</span>
-          {/* <img src="/dialogTitle.png" alt="" /> */}
+
           <div className="effect"></div>
         </div>
-      </div>
-      {/* <div className="py-20">
-        <h1 className="text-center text-2xl md:text-4xl text-green-400">
-          
-        </h1>
       </div> */}
+
+      <div className="flex flex-col items-center py-20 px-5">
+        <FlipBook
+          width={isPortrait ? 400 : 800} // smaller width for portrait
+          height={isPortrait ? 600 : 500} // taller height for portrait
+          className="shadow-2xl rounded"
+          style={{
+            margin: "0 auto",
+            backgroundImage: "url('/bookBg.jpg')",
+            backgroundSize: "cover",
+          }}
+          showCover={true}
+          size="stretch"
+          minWidth={300}
+          maxWidth={1200}
+          minHeight={400}
+          maxHeight={900}
+          drawShadow={true}
+          flippingTime={800}
+          usePortrait={isPortrait} // 🔥 auto toggle
+          autoSize={true}
+          clickEventForward={true}
+          startZIndex={0}
+          maxShadowOpacity={0.5}
+          mobileScrollSupport={true}
+          useMouseEvents={true}
+          swipeDistance={30}
+          showPageCorners={true}
+          disableFlipByClick={false}
+          onFlip={onFlip}
+          ref={flipBook}
+        >
+          {/* Cover Page */}
+          <div className="flex items-center justify-center bg-[#E3D0B5] shadow-inner text-white text-3xl font-bold">
+            📖 Right Form of Verbs
+            <img src="/glob.png" className="w-64 h-64 object-cover" alt="" />
+          </div>
+
+          {/* page1 */}
+          <div className="p-6 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 1</h2>
+            {/* 1 */}
+            <div className="pb-3">
+              <p>
+                <span className="animateText font-bold">Rule: 1.</span> Always,
+                regularly, daily, often, sometimes, normally,
+                generally,occasionally, every + time (যেমন: Everyday),
+                <br />
+                <span className="bengali">
+                  ইত্যাদি থাকলে, বা বাক্যটি চির সত্য হলে - বাক্যটি Present
+                  Indefinite Tense-এ হয়। <br />
+                  যেমন:
+                </span>
+              </p>
+              <p className="dark:text-green-400">
+                Q. I often (take) tea. <br />= I often <u>take</u> tea. <br />{" "}
+                Q. He often (take) tea. <br />= He often <u>takes</u> tea.
+              </p>
+
+              {/* 2 */}
+              <p className="pt-3">
+                <strong>Rule:-2. </strong> বাক্যের মধ্যে Now, at this moment,
+                day by day, ইত্যাদি থাকলে বাক্যটি সাধারণত Present Continuous
+                Tense এ হয়। <br />
+                যেমন:
+                <br />
+                <span className="dark:text-green-400">
+                  Q. She is (write) an email now.
+                  <br />
+                  =She is <u>writing</u> an email now.
+                </span>
+              </p>
+              {/* 3 */}
+              <div className="pt-3">
+                <p>
+                  <strong>Rule: 3. </strong> Before/after দ্বারা দুটি বাক্য
+                  যুক্ত হলে
+                  <span className="bengali">
+                    এদের একটি Past Indefinite Tense হলে অন্যটি Past Perfect
+                    Tense হয়। Before-এ-Before এবং after-এ-after হয় । <br />
+                    যেমন:
+                  </span>
+                </p>
+                <p className="dark:text-green-400">
+                  Q. He came home after I (eat) rice.
+                  <br />= He came home after I <u> had eaten</u> rice.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* page 2 */}
+          <div className="p-6 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 2</h2>
+            {/* 4 */}
+            <div className="pb-3">
+              <p>
+                <strong>Rule: 4. </strong> বাক্যর মধ্যে Already, recently, just,
+                just now, lately, yet, ever, immediately, in the mean time
+                <span className="bengali">
+                  থাকলে - বাক্যটি Present Perfect Tense এ হয়। <br />
+                  যেমন:
+                </span>
+              </p>
+              <p className="dark:text-green-400">
+                Q. He not (choose) her career yet.
+                <br />= He <u>has not chosen</u> her career yet.
+              </p>
+            </div>
+
+            {/* 5 */}
+            <div className="pb-3">
+              <p>
+                <span className="animateText font-bold">Rule: 5. </span> বাক্যর
+                মধ্যে Once, last, yesterday, ago, one day, in the past, long
+                since
+                <span className="bengali">
+                  ইত্যাদি অতীত নির্দেশক শব্দ থাকলে ব্রাকেটের Verb টি V2 হবে বা
+                  বাক্যটি Past Indefinite Tense হয়।
+                  <br />
+                  যেমন:
+                </span>
+              </p>
+              <p className="dark:text-green-400">
+                Q. He (return) last night.
+                <br />= He <u>returned</u> last night.
+              </p>
+            </div>
+
+            {/* 6 */}
+            <div className="pb-3">
+              <p>
+                <span className="animateText font-bold">Rule: 6. </span>
+                <br />
+                <strong> (a). </strong> Am, is, are, was, were, be, being, been,
+                <span className="bengali">
+                  ইত্যাদির পরে ব্রাকেটে Verb থাকলে passive Voice এর ক্ষেত্রে
+                  ব্রাকেটের Verb এর V<sub>3</sub> হয়।
+                  <br /> যেমন:
+                </span>
+              </p>
+              <p className="dark:text-green-400">
+                Q. Rice is (sell) in the market.
+                <br />= Rice is <u>sold</u> in the market.
+              </p>
+              <strong> আবার- p.t.o.</strong>
+            </div>
+          </div>
+
+          {/* page 3 */}
+          <div className="p-6 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 3</h2>
+            <p>
+              Rule 6 er baki- <br />
+              <strong> (b). </strong>having এবং get, got, gotten এবং
+              Linking-verb (be, become) এর পর ব্রাকেটের Verb টি V<sub>3</sub>{" "}
+              হয়। <br />
+              যেমনঃ
+              <br />
+              <span className="dark:text-green-400">
+                Q. I went out having (close) the door.
+                <br />= I went out having closed the door.
+              </span>
+            </p>
+            <p className="text-rose-500 mt-3 font-semibold">কিন্তু</p>
+            <p>
+              <strong> (c). </strong>
+              Hold, locate, bear, situate ইত্যাদি Verb ব্রাকেটে থাকলে বাক্যটি
+              passive voice এ হয়। <br />
+              যেমনঃ
+              <br />
+              <span className="dark:text-green-400">
+                Q. The festival (hold). <br />= The festival was held.
+              </span>
+            </p>
+
+            {/* 7 */}
+            <div className="pt-5">
+              <p>
+                <strong>Rule: 7. </strong> Can, could, may, might, shall,
+                should, will, would, must, need, dare, had better, would rather,
+                would better এর পরের ব্রাকেটের Verb টি V<sub>1</sub> হয় । <br />
+                যেমন:
+              </p>
+              <p className="dark:text-green-400">
+                Q. Imran can (play) football.
+                <br />= Imran can <u>play</u> football.
+              </p>
+            </div>
+          </div>
+
+          {/* page 4 */}
+          <div className="p-6 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 4</h2>
+            {/* 8 */}
+            <div className="pb-3">
+              <p>
+                <span className="animateText font-bold">Rule: 8.</span> <br />
+                <strong> (a). </strong>সাধারণত To এর পরের ব্রাকেটের Verb টি V
+                <sub>1</sub> হয়। <br />
+                যেমন:
+              </p>
+              <p className="dark:text-green-400">
+                Q. He wanted to (live) in Dhaka.
+                <br />= He wanted to <u>live</u> in Dhaka.
+              </p>
+              <strong className="text-rose-600 font-bold">কিন্তু:-</strong>
+              <p>
+                <strong> (b). </strong> Be used to, with a view to, look forward
+                to, get used to, addicted to, devoted to, with an eye to, be
+                accustomed to, be opposed to, worth, cannot help, could not
+                help, confess to ইত্যাদির পরে ব্রাকেটের Verb এর সাথে ing যুক্ত
+                হয় । <br />
+                যেমন:
+              </p>
+              <p className="dark:text-green-400">
+                Q. She is used to (read) Quran.
+                <br />= She is used to <u>reading</u> Quran.
+              </p>
+              <strong>কিন্তু:-</strong>
+              <p>
+                <strong> (c). </strong> শুধু used to এর পরে verb এর V
+                <sub>1</sub> হয়। <br />
+                যেমন:
+              </p>
+              <p className="dark:text-green-400">
+                Q. He used to (drive) a car.
+                <br />= He used to <u>drive</u> a car.
+              </p>
+            </div>
+          </div>
+
+          {/* page 5 */}
+          <div className="p-6 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 5</h2>
+            <p>
+              When sentences contain <b>now, at this moment, at present</b> →
+              use <b>Present Continuous</b>.
+            </p>
+          </div>
+          {/* page 6 */}
+          <div className="p-6 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 6</h2>
+            <p>
+              When sentences contain <b>now, at this moment, at present</b> →
+              use <b>Present Continuous</b>.
+            </p>
+          </div>
+
+          {/* Back Cover */}
+          <div className="flex items-center justify-center bg-gradient-to-r from-indigo-600 to-purple-600  text-white text-xl font-bold">
+            🔚 The End
+          </div>
+        </FlipBook>
+
+        {/* Navigation Controls */}
+        <div className="flex items-center gap-4 mt-6">
+          <button
+            className="px-3 py-1 bg-gray-700 text-white rounded"
+            onClick={() => flipBook.current.pageFlip().turnToPrevPage()}
+          >
+            ◀ Prev
+          </button>
+
+          <span className="text-lg font-semibold">
+            Page {currentPage + 1} / {totalPages}
+          </span>
+
+          <button
+            className="px-3 py-1 bg-gray-700 text-white rounded"
+            onClick={() => flipBook.current.pageFlip().turnToNextPage()}
+          >
+            Next ▶
+          </button>
+        </div>
+
+        {/* Jump to Page */}
+        <div className="mt-4 flex items-center gap-2">
+          <input
+            type="number"
+            min="1"
+            max={totalPages}
+            value={jumpPage}
+            onChange={(e) => {
+              const value = e.target.value;
+              setJumpPage(value === "" ? "" : parseInt(value, 10));
+            }}
+            className="border px-2 py-1 rounded w-20 text-center"
+            placeholder="Go to..."
+          />
+          <button
+            className="px-3 py-1 bg-indigo-600 text-white rounded disabled:opacity-50"
+            disabled={jumpPage === "" || jumpPage < 1 || jumpPage > totalPages}
+            onClick={() => {
+              if (
+                typeof jumpPage === "number" &&
+                jumpPage >= 1 &&
+                jumpPage <= totalPages
+              ) {
+                flipBook.current.pageFlip().flip(jumpPage - 1);
+              }
+            }}
+          >
+            Go
+          </button>
+        </div>
+
+        {/* Numbered Page Buttons */}
+        <div className="flex flex-wrap justify-center gap-2 mt-4">
+          {Array.from({ length: totalPages }, (_, i) => (
+            <button
+              key={i}
+              className={`px-3 py-1 rounded border ${
+                currentPage === i
+                  ? "bg-indigo-600 text-white"
+                  : "bg-gray-200 hover:bg-gray-300"
+              }`}
+              onClick={() => flipBook.current.pageFlip().flip(i)}
+            >
+              {i + 1}
+            </button>
+          ))}
+        </div>
+      </div>
+
       <div className="h-full w-[95%] md:w-[60%] mx-auto">
         <div className="">
           {/* <h2>Structure of Tense:</h2>
