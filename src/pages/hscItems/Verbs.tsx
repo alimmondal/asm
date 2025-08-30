@@ -412,7 +412,7 @@ function Verbs() {
           </div>
 
           {/* page 10 */}
-          <div className="p-6 bg-white shadow-inner">
+          <div className="p-3 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 10</h2>
             <p className="dark:text-green-400">
               Q. Shohel talks as though he (become) a leader.
