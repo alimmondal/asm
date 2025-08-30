@@ -10,7 +10,7 @@ function Verbs() {
   const [jumpPage, setJumpPage] = useState<number | "">("");
   const [isPortrait, setIsPortrait] = useState(false); // 🔥 auto mode
 
-  const totalPages = 10; // Update when you add more pages
+  const totalPages = 14; // Update when you add more pages
 
   const onFlip = (e: any) => {
     setCurrentPage(e.data);
@@ -38,10 +38,10 @@ function Verbs() {
 
   return (
     <div className="h-full ">
-      <div className="flex flex-col items-center py-10 px-5">
+      <div className="flex flex-col items-center py-10 px-3">
         <FlipBook
-          width={isPortrait ? 400 : 800} // smaller width for portrait
-          height={isPortrait ? 600 : 500} // taller height for portrait
+          width={isPortrait ? 400 : 500} // smaller width for portrait
+          height={isPortrait ? 600 : 300} // taller height for portrait
           className="shadow-2xl rounded"
           style={{
             margin: "0 auto",
@@ -52,7 +52,7 @@ function Verbs() {
           size="stretch"
           minWidth={300}
           maxWidth={1200}
-          minHeight={400}
+          minHeight={300}
           maxHeight={900}
           drawShadow={true}
           flippingTime={800}
@@ -241,7 +241,6 @@ function Verbs() {
           {/* page 5 */}
           <div className="p-6 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 5</h2>
-            {/* 9 */}
             {/* 7 */}
             <div className="pt-5">
               <p>
@@ -265,84 +264,119 @@ function Verbs() {
               </p>
               <p className="dark:text-green-400">
                 Q. He wanted to (live) in Dhaka.
-                <br />= He wanted to <u>live</u> in Dhaka.
-              </p>
-              <strong className="text-rose-600 font-bold">কিন্তু:-</strong>
-              <p>
-                <strong> (b). </strong> Be used to, with a view to, look forward
-                to, get used to, addicted to, devoted to, with an eye to, be
-                accustomed to, be opposed to, worth, cannot help, could not
-                help, confess to ইত্যাদির পরে ব্রাকেটের Verb এর সাথে ing যুক্ত
-                হয় । <br />
-                যেমন:
-              </p>
-              <p className="dark:text-green-400">
-                Q. She is used to (read) Quran.
-                <br />= She is used to <u>reading</u> Quran.
-              </p>
-              <strong>কিন্তু:-</strong>
-              <p>
-                <strong> (c). </strong> শুধু used to এর পরে verb এর V
-                <sub>1</sub> হয়। <br />
-                যেমন:
-              </p>
-              <p className="dark:text-green-400">
-                Q. He used to (drive) a car.
-                <br />= He used to <u>drive</u> a car.
-              </p>
-            </div>
-            <strong className="text-rose-600 font-bold">কিন্তু-</strong>
-            <div className="pb-3">
-              <p>
-                <strong>Rule: 9. </strong> অনান্য সকল preposition (যেমনঃ in,
-                into, on, over, up, upon, of, by, with, without, before, after,
-                away) এর পরের ব্রাকেটের verb এর সাথে ing হয়। <br />
-                যেমন:
-              </p>
-              <p className="dark:text-green-400">
-                Q. He is tired of (drive) car.
-                <br />= He is tired of <u>driving</u> car.
-              </p>
-            </div>
-
-            {/* 10 */}
-            <div className="pb-3">
-              <p>
-                <strong>Rule: 10. </strong> Stop, mind, finish, miss, risk,
-                answer, continue, admit, deny, avoid, enjoy, fancy, imagine,
-                delay, suggest, postpone, involve, practice ইত্যাদি Verb গুলোর
-                পরে ব্রাকেটের Verb এর সাথে ing হয়।
-              </p>
-              যেমনঃ
-              <p className="dark:text-green-400">
-                Q. You tried to finish (write).
-                <br />= You tried to finish <u>writing</u>.
-              </p>
-              <strong>কিন্তু:-</strong>
-              <p className="">
-                সাধারণত এই Verb গুলো ছাড়া অন্য কোন Verb এর পরে ব্রাকেটের verb এর
-                V1 হয়। <br />
-                যেমনঃ <br />
-                <span className="dark:text-green-400">
-                  {" "}
-                  Q. He tried hard (pass) the exam.
-                </span>{" "}
-                <br />
-                <span className="dark:text-green-400">
-                  = He tried har <u>pass</u> the exam
-                </span>
+                <br />= He wanted to <u>live</u> in Dhaka. <br />
+                <span className="text-rose-600 font-bold">কিন্তু:-</span>
               </p>
             </div>
           </div>
+
           {/* page 6 */}
           <div className="p-6 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 6</h2>
+            <p>
+              <strong> (b). </strong> Be used to, with a view to, look forward
+              to, get used to, addicted to, devoted to, with an eye to, be
+              accustomed to, be opposed to, worth, cannot help, could not help,
+              confess to ইত্যাদির পরে ব্রাকেটের Verb এর সাথে ing যুক্ত হয় ।{" "}
+              <br />
+              যেমন:
+            </p>
+            <p className="dark:text-green-400">
+              Q. She is used to (read) Quran.
+              <br />= She is used to <u>reading</u> Quran.
+            </p>
+            <strong>কিন্তু:-</strong>
+            <p>
+              <strong> (c). </strong> শুধু used to এর পরে verb এর V<sub>1</sub>{" "}
+              হয়। <br />
+              যেমন:
+            </p>
+            <p className="dark:text-green-400">
+              Q. He used to (drive) a car.
+              <br />= He used to <u>drive</u> a car. <br />
+              <strong className="text-rose-600 font-bold">কিন্তু-</strong>
+            </p>
+          </div>
+
+          {/* page 7 */}
+          <div className="p-3 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 7</h2>
+            {/* 9 */}
+            <p>
+              <strong>Rule: 9. </strong> অনান্য সকল preposition (যেমনঃ in, into,
+              on, over, up, upon, of, by, with, without, before, after, away) এর
+              পরের ব্রাকেটের verb এর সাথে ing হয়। <br />
+              যেমন:
+            </p>
+            <p className="dark:text-green-400">
+              Q. He is tired of (drive) car.
+              <br />= He is tired of <u>driving</u> car.
+            </p>
+            {/* 10 */}
+            <p className="pt-4">
+              <strong>Rule: 10. </strong> Stop, mind, finish, miss, risk,
+              answer, continue, admit, deny, avoid, enjoy, fancy, imagine,
+              delay, suggest, postpone, involve, practice ইত্যাদি Verb গুলোর পরে
+              ব্রাকেটের Verb এর সাথে ing হয়।
+            </p>
+            যেমনঃ
+            <p className="dark:text-green-400">
+              Q. You tried to finish (write).
+              <br />= You tried to finish <u>writing</u>.
+            </p>
+            <strong>কিন্তু:-</strong>
+          </div>
+
+          {/* page 8 */}
+          <div className="p-3 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 8</h2>
+            <p className="">
+              সাধারণত এই Verb গুলো ছাড়া অন্য কোন Verb এর পরে ব্রাকেটের verb এর
+              V1 হয়। <br />
+              যেমনঃ <br />
+              <span className="dark:text-green-400">
+                {" "}
+                Q. He tried hard (pass) the exam.
+              </span>{" "}
+              <br />
+              <span className="dark:text-green-400">
+                = He tried har <u>pass</u> the exam
+              </span>
+            </p>
             {/* 11 */}
+            <p>
+              <strong>Rule: 11. </strong> <br />
+              <strong> (a). </strong> প্রথম বক্যে Fancy, wish, it is time, it is
+              high time থাকলে পরের বাক্যের ব্রাকেটের verb এর V <sub>2</sub> হয়।{" "}
+              <br />
+              যেমন:
+            </p>
+            <p className="dark:text-green-400">
+              Q. He wishes he (sing) a song.
+              <br />= He wishes he <u>sang</u> a song.
+            </p>
+            <p>
+              <strong> (b). </strong>কিন্তু প্রথম বক্যে Fancy, wish, it is time,
+              it is high time, as if, as though, if
+              <span className="bengali">
+                থাকলে পরের বাক্যের ব্রাকেটে be এর স্থলে সাধারণত were হয়। <br />
+                যেমনঃ
+              </span>
+            </p>
+            <p className="dark:text-green-400">
+              Q. He wishes he (be) a king.
+              <br />= He wishes he <u>were</u> a king.
+            </p>
+          </div>
+
+          {/* page 9 */}
+          <div className="p-3 bg-white shadow-inner">
+            <p className="text-xl font-bold mb-1">Page 9</p>
             <div className="pb-3">
               <p>
                 <strong>Rule: 11. </strong> <br />
                 <strong> (a). </strong> প্রথম বক্যে Fancy, wish, it is time, it
-                is high time থাকলে পরের বাক্যের ব্রাকেটের verb এর V <sub>2</sub>{" "}
+                is high time থাকলে পরের বাক্যের ব্রাকেটের Verb এর V<sub>2</sub>{" "}
                 হয়। <br />
                 যেমন:
               </p>
@@ -364,36 +398,104 @@ function Verbs() {
                 Q. He wishes he (be) a king.
                 <br />= He wishes he <u>were</u> a king.
               </p>
+              <p>
+                <strong>Rule: 12. </strong> As if, as though, এবং since দ্বারা
+                দুটি বক্য যুক্ত
+                <span className="bengali">
+                  হলে এদের প্রথমটি Present Indefinite tense পরেরটি Past
+                  Indefinite tense হয়, এবং প্রথমটি Past Indefinite tense হলে
+                  পরেরটি Past Perfect tense হয়। <br />
+                  যেমন:
+                </span>
+              </p>
             </div>
           </div>
 
-          {/* page 7 */}
-          <div className="p-6 bg-white shadow-inner">
-            <h2 className="text-xl font-bold mb-2">Page 7</h2>
-            <p>
-              When sentences contain <b>now, at this moment, at present</b> →
-              use <b>Present Continuous</b>.
-            </p>
-          </div>
-          {/* page 8 */}
-          <div className="p-6 bg-white shadow-inner">
-            <h2 className="text-xl font-bold mb-2">Page 8</h2>
-            <p>
-              When sentences contain <b>now, at this moment, at present</b> →
-              use <b>Present Continuous</b>.
-            </p>
-          </div>
-          {/* page 9 */}
-          <div className="p-6 bg-white shadow-inner">
-            <h2 className="text-xl font-bold mb-2">Page 9</h2>
-            <p>
-              When sentences contain <b>now, at this moment, at present</b> →
-              use <b>Present Continuous</b>.
-            </p>
-          </div>
-          {/* page 9 */}
+          {/* page 10 */}
           <div className="p-6 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 10</h2>
+            <p className="dark:text-green-400">
+              Q. Shohel talks as though he (become) a leader.
+              <br />= Shohel talks as though he <u>became</u> a leader.
+              <br />
+              Q. Rohim talks as though he (be) a leader. <br />= Rohim talks as
+              though he <u>had been</u> a leader.
+            </p>
+
+            {/* 13 */}
+            <div className="pb-3">
+              <p>
+                <span className="animateText font-bold">Rule: 13. </span>
+                <strong> (a). </strong> If দ্বারা শুরু বাক্যটি
+                <span className="bengali">
+                  Present Indefinite tense হলে পরের বাক্যের/ if ছাড়া বাক্যের
+                  Subject এর পরে will হবে এবং Verb এর V<sub>1</sub> হয়। <br />
+                  যেমন:
+                </span>
+                <br />
+                Q. If He comes, I (go) to his house.
+                <br />= If He comes, I <u>will go</u> to his house.
+              </p>
+
+              <p>
+                <strong>(b). </strong>If দ্বারা শুরু বাক্যটি Past Indefinite
+                tense হলে পরের বাক্যের/ if ছাড়া বাক্যের Subject এর পরে would/
+                could / might হবে এবং verb এর V<sub>1</sub> হয়। <br />
+              </p>
+            </div>
+          </div>
+
+          {/* page 11 */}
+          <div className="p-3 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 11</h2>
+            <p className="">
+              যেমন:
+              <br />
+              Q. If he came, I (go) there.
+              <br />= If he came, I <u>would go</u> there.
+            </p>
+
+            <p>
+              <strong> (c). </strong> If দ্বারা শুরু বাক্যটি Past Perfect tense
+              হলে পরের বাক্যের/ if ছাড়া বাক্যের Subject এর পরে would have/ could
+              have/ might have হবে এবং verb এর V<sub>3</sub> হয়। <br />
+              যেমন:
+              <br />
+              Q. If you had told me this, I (buy) a car.
+              <br />= If you had told me this, I <u>would have bought</u> a car.
+            </p>
+
+            <p>
+              <strong> (d) </strong> Had + Subject + V<sub>3</sub>- থাকলে পরের
+              বাক্যের/ had ছাড়া বাক্যের Subject এর পরে would have/ could have/
+              might have হবে এবং Verb এর V<sub>3</sub> হয়। <br />
+              যেমন:
+            </p>
+            <p className="dark:text-green-400">
+              Q. Had Muni told me this, I (buy) a car.
+              <br />= Had Muni told me this, I<u> would have bought</u> a car.
+            </p>
+          </div>
+
+          {/* page 12 */}
+          <div className="p-3 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 12</h2>
+            <p>
+              When sentences contain <b>now, at this moment, at present</b> →
+              use <b>Present Continuous</b>.
+            </p>
+          </div>
+          {/* page 13 */}
+          <div className="p-6 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 13</h2>
+            <p>
+              When sentences contain <b>now, at this moment, at present</b> →
+              use <b>Present Continuous</b>.
+            </p>
+          </div>
+          {/* page 14 */}
+          <div className="p-6 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 14</h2>
             <p>
               When sentences contain <b>now, at this moment, at present</b> →
               use <b>Present Continuous</b>.
@@ -484,71 +586,9 @@ function Verbs() {
             <div className="effect"></div>
           </div>
         </div>
+
+        {/* scrolling page */}
         <div className="">
-          {/* <h2>Structure of Tense:</h2>
-          <div className="">
-            <div>
-              <h3>(1). Present Indefinite Tense: </h3>
-              <p className="">
-                * (i) Sub + V<sub>1</sub>(s/es) + obj + extension.
-              </p>
-              <p className="">
-                * (ii) S + do not/ does not + V<sub>1</sub> + obj.
-              </p>
-              <h3>(2). Present Continuous Tense:</h3>
-              <p className="">
-                * Sub + am/ is/ are + V<sub>1</sub>-ing + obj + extension.
-              </p>
-              <h3>(3). Present Perfect Tense:</h3>
-              <p className="">
-                * Sub + have/ has + V<sub>3</sub> + obj + extension.
-              </p>
-              <h3>(4). Present Perfect Continuous Tense:</h3>
-              <p className="">
-                * Sub + have been/ has been + V<sub>1</sub>-ing + obj + for/
-                since + time.
-              </p>
-            </div>
-
-            <div>
-              <h3>(5). Past Indefinite Tense: </h3>
-              <p className="">
-                * (i) Sub + V<sub>2</sub> + obj + extension.{" "}
-              </p>
-              <p className="">
-                * (ii) Sub + did not + V<sub>1</sub> + obj + extension.
-              </p>
-              <h3>(6). Past Continuous Tense:</h3>
-              <p className="">
-                * Sub + was/ were + V<sub>1</sub>-ing + obj + extension.
-              </p>
-              <h3>(7). Past Perfect Tense:</h3>
-              <p className="">
-                * Sub + had + V<sub>3</sub> + obj + extension.
-              </p>
-              <h3>(8). Past Perfect Continuous Tense:</h3>
-              <p className="">
-                * Sub + had been + V<sub>1</sub>-ing + obj + for/ since + time.
-              </p>
-            </div>
-            <div>
-              <h3>(9). Future Indefinite Tense: </h3>
-              <p className="">
-                * (i) Sub + will + V<sub>1</sub> + obj + extension.
-              </p>
-              <h3>(10). Future Continuous Tense:</h3>
-              <p className="">
-                * Sub + shall be/ will be + V<sub>1</sub>-ing + obj + extension.
-              </p>
-            </div>
-            <Link to={"/tense"}>
-              <p className="pt-5 hover:text-rose-500 ">
-                ### Want to learn more on Tense?{" "}
-                <span className="text-blue-600border p-2">Click Here</span>
-              </p>
-            </Link>
-          </div> */}
-
           {/* Rules */}
           <h2 className="mt-5">Rules:</h2>
           <div className="text-lg md:text-xl">
