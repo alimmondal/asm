@@ -2,6 +2,7 @@
 import "pdfjs-dist/build/pdf.worker.entry";
 import { useRef, useState, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
+import frontCover from "../../../public/bookCover.jpg";
 
 function Verbs() {
   const flipBook = useRef<any>(null);
@@ -9,7 +10,7 @@ function Verbs() {
   const [jumpPage, setJumpPage] = useState<number | "">("");
   const [isPortrait, setIsPortrait] = useState(false); // 🔥 auto mode
 
-  const totalPages = 8; // Update when you add more pages
+  const totalPages = 10; // Update when you add more pages
 
   const onFlip = (e: any) => {
     setCurrentPage(e.data);
@@ -34,9 +35,10 @@ function Verbs() {
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
   return (
     <div className="h-full ">
-      <div className="flex flex-col items-center py-20 px-5">
+      <div className="flex flex-col items-center py-10 px-5">
         <FlipBook
           width={isPortrait ? 400 : 800} // smaller width for portrait
           height={isPortrait ? 600 : 500} // taller height for portrait
@@ -68,16 +70,36 @@ function Verbs() {
           ref={flipBook}
         >
           {/* Cover Page */}
-          <div className="flex items-center justify-center bg-[#E3D0B5] shadow-inner text-white text-3xl font-bold">
-            📖 Right Form of Verbs
-            <img src="/glob.png" className="w-64 h-64 object-cover" alt="" />
+          <div
+            data-density="hard"
+            className=" font-bold relative"
+            // style={{
+            //   backgroundImage: `url(${frontCover})`,
+            //   backgroundSize: "cover",
+            //   backgroundPosition: "center",
+            //   backgroundRepeat: "no-repeat",
+            //   width: "100%",
+            //   height: "100%",
+            // }}
+          >
+            <div className="absolute top-1/4 md:top-1/2 left-1/4 md:left-1/3">
+              {/* <h1 className="">📖</h1> */}
+              <h1 className="text-green-400 text-3xl text-center">
+                📖Right Form of Verbs
+              </h1>
+              <p className="text-center text-white">
+                Click/touch to read the book
+              </p>
+            </div>
+
+            <img src="/bookCover3.jpg" className="w-full h-full" alt="" />
           </div>
 
           {/* page1 */}
           <div className="p-6 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 1</h2>
             {/* 1 */}
-            <div className="pb-3">
+            <div className="">
               <p>
                 <span className="animateText font-bold">Rule: 1.</span> Always,
                 regularly, daily, often, sometimes, normally,
@@ -107,30 +129,30 @@ function Verbs() {
                   =She is <u>writing</u> an email now.
                 </span>
               </p>
-              {/* 3 */}
-              <div className="pt-3">
-                <p>
-                  <strong>Rule: 3. </strong> Before/after দ্বারা দুটি বাক্য
-                  যুক্ত হলে
-                  <span className="bengali">
-                    এদের একটি Past Indefinite Tense হলে অন্যটি Past Perfect
-                    Tense হয়। Before-এ-Before এবং after-এ-after হয় । <br />
-                    যেমন:
-                  </span>
-                </p>
-                <p className="dark:text-green-400">
-                  Q. He came home after I (eat) rice.
-                  <br />= He came home after I <u> had eaten</u> rice.
-                </p>
-              </div>
             </div>
           </div>
 
           {/* page 2 */}
-          <div className="p-6 bg-white shadow-inner">
+          <div className="p-3 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 2</h2>
+            {/* 3 */}
+            <div className="">
+              <p>
+                <strong>Rule: 3. </strong> Before/after দ্বারা দুটি বাক্য যুক্ত
+                হলে
+                <span className="bengali">
+                  এদের একটি Past Indefinite Tense হলে অন্যটি Past Perfect Tense
+                  হয়। Before-এ-Before এবং after-এ-after হয় । <br />
+                  যেমন:
+                </span>
+              </p>
+              <p className="dark:text-green-400">
+                Q. He came home after I (eat) rice.
+                <br />= He came home after I <u> had eaten</u> rice.
+              </p>
+            </div>
             {/* 4 */}
-            <div className="pb-3">
+            <div className="pt-3">
               <p>
                 <strong>Rule: 4. </strong> বাক্যর মধ্যে Already, recently, just,
                 just now, lately, yet, ever, immediately, in the mean time
@@ -144,7 +166,11 @@ function Verbs() {
                 <br />= He <u>has not chosen</u> her career yet.
               </p>
             </div>
+          </div>
 
+          {/* page 3 */}
+          <div className="p-6 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 3</h2>
             {/* 5 */}
             <div className="pb-3">
               <p>
@@ -184,9 +210,9 @@ function Verbs() {
             </div>
           </div>
 
-          {/* page 3 */}
+          {/* page 4 */}
           <div className="p-6 bg-white shadow-inner">
-            <h2 className="text-xl font-bold mb-2">Page 3</h2>
+            <h2 className="text-xl font-bold mb-2">Page 4</h2>
             <p>
               Rule 6 er baki- <br />
               <strong> (b). </strong>having এবং get, got, gotten এবং
@@ -210,7 +236,12 @@ function Verbs() {
                 Q. The festival (hold). <br />= The festival was held.
               </span>
             </p>
+          </div>
 
+          {/* page 5 */}
+          <div className="p-6 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 5</h2>
+            {/* 9 */}
             {/* 7 */}
             <div className="pt-5">
               <p>
@@ -224,11 +255,6 @@ function Verbs() {
                 <br />= Imran can <u>play</u> football.
               </p>
             </div>
-          </div>
-
-          {/* page 4 */}
-          <div className="p-6 bg-white shadow-inner">
-            <h2 className="text-xl font-bold mb-2">Page 4</h2>
             {/* 8 */}
             <div className="pb-3">
               <p>
@@ -265,12 +291,6 @@ function Verbs() {
                 <br />= He used to <u>drive</u> a car.
               </p>
             </div>
-          </div>
-
-          {/* page 5 */}
-          <div className="p-6 bg-white shadow-inner">
-            <h2 className="text-xl font-bold mb-2">Page 5</h2>
-            {/* 9 */}
             <strong className="text-rose-600 font-bold">কিন্তু-</strong>
             <div className="pb-3">
               <p>
