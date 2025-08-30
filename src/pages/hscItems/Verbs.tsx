@@ -2,7 +2,7 @@
 import "pdfjs-dist/build/pdf.worker.entry";
 import { useRef, useState, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
-import frontCover from "../../../public/bookCover.jpg";
+// import frontCover from "../../../public/bookCover.jpg";
 
 function Verbs() {
   const flipBook = useRef<any>(null);
@@ -10,7 +10,7 @@ function Verbs() {
   const [jumpPage, setJumpPage] = useState<number | "">("");
   const [isPortrait, setIsPortrait] = useState(false); // 🔥 auto mode
 
-  const totalPages = 14; // Update when you add more pages
+  const totalPages = 24; // Update when you add more pages
 
   const onFlip = (e: any) => {
     setCurrentPage(e.data);
@@ -82,7 +82,7 @@ function Verbs() {
             //   height: "100%",
             // }}
           >
-            <div className="absolute top-1/4 md:top-1/2 left-1/4 md:left-1/3">
+            <div className="absolute top-1/3 md:top-[45%] left-[15%] md:left-1/3">
               {/* <h1 className="">📖</h1> */}
               <h1 className="text-green-400 text-3xl text-center">
                 📖Right Form of Verbs
@@ -96,7 +96,7 @@ function Verbs() {
           </div>
 
           {/* page1 */}
-          <div className="p-6 bg-white shadow-inner">
+          <div className="p-6 md:p-24 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 1</h2>
             {/* 1 */}
             <div className="">
@@ -133,7 +133,7 @@ function Verbs() {
           </div>
 
           {/* page 2 */}
-          <div className="p-3 bg-white shadow-inner">
+          <div className="p-3 md:p-24 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 2</h2>
             {/* 3 */}
             <div className="">
@@ -169,7 +169,7 @@ function Verbs() {
           </div>
 
           {/* page 3 */}
-          <div className="p-6 bg-white shadow-inner">
+          <div className="p-6 md:p-24 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 3</h2>
             {/* 5 */}
             <div className="pb-3">
@@ -211,7 +211,7 @@ function Verbs() {
           </div>
 
           {/* page 4 */}
-          <div className="p-6 bg-white shadow-inner">
+          <div className="p-6 md:p-24 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 4</h2>
             <p>
               Rule 6 er baki- <br />
@@ -239,7 +239,7 @@ function Verbs() {
           </div>
 
           {/* page 5 */}
-          <div className="p-6 bg-white shadow-inner">
+          <div className="p-6 md:p-24 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 5</h2>
             {/* 7 */}
             <div className="pt-5">
@@ -271,7 +271,7 @@ function Verbs() {
           </div>
 
           {/* page 6 */}
-          <div className="p-6 bg-white shadow-inner">
+          <div className="p-6 md:p-24 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 6</h2>
             <p>
               <strong> (b). </strong> Be used to, with a view to, look forward
@@ -299,7 +299,7 @@ function Verbs() {
           </div>
 
           {/* page 7 */}
-          <div className="p-3 bg-white shadow-inner">
+          <div className="p-3 md:p-24 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 7</h2>
             {/* 9 */}
             <p>
@@ -328,7 +328,7 @@ function Verbs() {
           </div>
 
           {/* page 8 */}
-          <div className="p-3 bg-white shadow-inner">
+          <div className="p-3 md:p-24 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 8</h2>
             <p className="">
               সাধারণত এই Verb গুলো ছাড়া অন্য কোন Verb এর পরে ব্রাকেটের verb এর
@@ -370,7 +370,7 @@ function Verbs() {
           </div>
 
           {/* page 9 */}
-          <div className="p-3 bg-white shadow-inner">
+          <div className="p-3 md:p-24 bg-white shadow-inner">
             <p className="text-xl font-bold mb-1">Page 9</p>
             <div className="pb-3">
               <p>
@@ -412,7 +412,7 @@ function Verbs() {
           </div>
 
           {/* page 10 */}
-          <div className="p-3 bg-white shadow-inner">
+          <div className="p-3 md:p-24 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 10</h2>
             <p className="dark:text-green-400">
               Q. Shohel talks as though he (become) a leader.
@@ -446,8 +446,9 @@ function Verbs() {
           </div>
 
           {/* page 11 */}
-          <div className="p-3 bg-white shadow-inner">
+          <div className="p-3 md:p-24 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 11</h2>
+            {/* rule13 er baki */}
             <p className="">
               যেমন:
               <br />
@@ -466,9 +467,9 @@ function Verbs() {
             </p>
 
             <p>
-              <strong> (d) </strong> Had + Subject + V<sub>3</sub>- থাকলে পরের
-              বাক্যের/ had ছাড়া বাক্যের Subject এর পরে would have/ could have/
-              might have হবে এবং Verb এর V<sub>3</sub> হয়। <br />
+              <strong> (d) </strong>যদি Had + Subject + V<sub>3</sub>- থাকে
+              তাহলে পরের বাক্যের/ had ছাড়া বাক্যেটি- Subj + would have/could
+              have/might have + V<sub>3</sub> হবে/হয়। <br />
               যেমন:
             </p>
             <p className="dark:text-green-400">
@@ -478,24 +479,315 @@ function Verbs() {
           </div>
 
           {/* page 12 */}
-          <div className="p-3 bg-white shadow-inner">
+          <div className="p-3 md:p-24 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 12</h2>
-            <p>
-              When sentences contain <b>now, at this moment, at present</b> →
-              use <b>Present Continuous</b>.
-            </p>
+            {/* 14 */}
+            <div className="pb-3">
+              <p>
+                <span className="animateText font-bold">Rule: 14. </span>V +
+                object + (Verb) এভাবে ব্যবহার হলে ব্রাকেটে Verb এর সাথে ing
+                যুক্ত হয়। <br />
+                যেমন:
+              </p>
+              <p className="dark:text-green-400">
+                Q. I saw him (play) card.
+                <br />= I saw him playing card.
+              </p>
+            </div>
+
+            {/* 15 */}
+            <div className="pb-3">
+              <p className="bengali">
+                <strong>Rule: 15. </strong>
+                <span>
+                  সাধারণত ব্রাকেটে verb দ্বারা বাক্য শুরু হলে সেই verb এর সাথে
+                  ing যুক্ত হয়। <br />
+                  যেমন:
+                </span>
+              </p>
+              <p className="dark:text-green-400">
+                Q. (Go) home, Ruhul will sleep.
+                <br />= Going home, Ruhul will sleep.
+              </p>
+            </div>
+            <div className="pb-3">
+              <p>
+                <strong>Rule: 16. </strong> objective এবং possessive case এর পর
+                verb এর সাথে ing হয়। <br />
+                যেমন:
+              </p>
+              <p className="dark:text-green-400">
+                Q. Zahid insisted on my (go) his home.
+                <br />= Zahid insisted on my going his home.
+              </p>
+            </div>
           </div>
+
           {/* page 13 */}
-          <div className="p-6 bg-white shadow-inner">
+          <div className="p-3 md:p-24 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 13</h2>
-            <p>
-              When sentences contain <b>now, at this moment, at present</b> →
-              use <b>Present Continuous</b>.
-            </p>
+            {/* 17 */}
+            <div className="pb-3">
+              <p>
+                <strong>Rule: 17. </strong> Since/for এর পর সময় বা (period of
+                time) থাকলে Present Perfect Continuous tense হয়। <br />
+                যেমন:
+                <br />
+                <span className="dark:text-green-400">
+                  Q. Ruhul (read) in our college for two years. <br />= Ruhul
+                  has been reading in our college for two years.
+                </span>
+                <p className="text-rose-600 font-bold pt-3">কিন্তু-</p>
+                Since/ for এর পরে সময় বা (period of time) থাকলে এবং ব্রাকেটে be
+                থাকলে Present Perfect tense হয়। <br />
+                যেমন:
+                <br />
+                <span className="dark:text-green-400">
+                  Q. He (be) in Dhaka for two years.
+                  <br />= He has been in Dhaka for two years.
+                </span>
+              </p>
+              <p>
+                <strong>Rule-18: </strong> Next, tomorrow, ইত্যাদি বাক্যে থাকলে
+                Future Indefinite হয়। যেমনঃ
+              </p>
+              <p className="dark:text-green-400">
+                Q. He (return) home next day.
+                <br />= He Will return home next day.
+              </p>
+            </div>
           </div>
+
           {/* page 14 */}
-          <div className="p-6 bg-white shadow-inner">
+          <div className="p-3 md:p-24 bg-white shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 14</h2>
+            {/* 19 */}
+            <div className="pb-3">
+              <p>
+                <strong>Rule-19: </strong>While এর পরে Subject + V থাকলে Past
+                Continuous Tense হয়। কিন্তু While + (V) থাকলে ব্রাকেটের Verb এর
+                সঙ্গে ing যুক্ত হয়।
+                <br />
+                যেমন:
+              </p>
+              <p className="dark:text-green-400">
+                Q. While (Walk) I saw him.
+                <br />
+                = While Walking, I saw him.
+                <br />
+                Q. While he (Walk), I saw him.
+                <br />= While I Was walking, I saw him.
+              </p>
+            </div>
+
+            {/* 20 */}
+            <div className="pb-3">
+              <p className="bengali">
+                <strong>Rule-20: </strong>
+                <span>
+                  Subject এর পরে Not থাকলে Subject এবং tense অনুসারে সাহায্যকারী
+                  Verb এবং principal verb হয়। <br />
+                  যেমন:
+                </span>
+                <p className="dark:text-green-400">
+                  Q. He not always (drink) tea.
+                  <br />= He does not always drink tea.
+                </p>
+              </p>
+            </div>
+            {/* 21 */}
+            <div className="">
+              <p className="bengali">
+                <strong>Rule-21: </strong>Lest এর বাক্যাংশের subject এর পরে verb
+                আগে should/ might বসে। যেমন:
+              </p>
+              <p className="dark:text-green-400">
+                = He walked fast lest he (miss) the train.
+                <br />= He walked fast lest he might miss the train.
+              </p>
+            </div>
+          </div>
+
+          {/* page 15 */}
+          <div className="p-3 md:p-24 bg-white shadow-inner">
+            <p className="text-xl font-bold mb-2">Page 15</p>
+            {/* 22 */}
+            <p>Subject-verb Agreement</p>
+            <div className="pb-3">
+              <p className="bengali">
+                <strong>Rule-22: </strong> ব্রাকেটে Be/to be এর স্থলে Tense
+                অনুসারে am, is, are, was, were, be, being, been এর যেকোন একটি
+                হতে পারে। <br />
+                যেমন:
+              </p>
+              <p className="dark:text-green-400">
+                Q. The rich (to be) not always happy.
+                <br />= The poor are happy.
+              </p>
+            </div>
+
+            {/* 23 */}
+            <div className="pb-3">
+              <p className="bengali">
+                <strong>Rule-23: </strong> দৈঘ বা পরিমাণ বাচক শব্দ Sub হেল সেটি
+                Singular হয়। যেমন:
+              </p>
+              <p className="dark:text-green-400">
+                Q. Ten kgs (be) heavy weight.
+                <br />= Ten kgs is heavy weight.
+              </p>
+            </div>
+            {/* 24 */}
+            <div className="">
+              <p className="bengali">
+                <strong>Rule-24: </strong> Wh (who, which) এর পরে Verb থাকলে Wh
+                এর পূর্বের subject অনুসারে verb হয়। যেমন:
+              </p>
+              <p className="dark:text-green-400">
+                Q. It is I who (be) to blame.
+                <br />= It is I who am to blame.
+              </p>
+            </div>
+          </div>
+
+          {/* page 16 */}
+          <div className="p-4 md:p-24 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 16</h2>
+            {/* 25 */}
+            <div className="pb-3">
+              <p className="bengali">
+                <strong>Rule-25: </strong> Nobody, no one, none, one, somebody,
+                someone, something এগুলো Subject হলে বা No, each, every, any,
+                either of, neither of, each of বা এগুলোর পরে Noun থাকলে Subject
+                singular হয়। <br />
+                যেমন:
+              </p>
+              <p className="dark:text-green-400">
+                Q. Something (be) wrong.
+                <br />= Something is wrong.
+              </p>
+            </div>
+          </div>
+
+          {/* page 17 */}
+          <div className="p-6 md:p-24 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 17</h2>
+            <h2>Exercise</h2>
+            <p>1. The moon (shine) at night.</p>
+            <p>2. Flowers (be) gift of nature.</p>
+            <p>3. It (dew) in winter.</p>
+            <p>4. The (be) not always happy.</p>
+            <p>5. They (be) blessed.</p>
+            <p>6. (be) happy.</p>
+            <p>7. Ice (float) on water.</p>
+            <p>8. Muni (carry) Jan umbrella daily.</p>
+            <p>9. What you (do) now?</p>
+            <p>10. Why Mr. Roni (look) so angry?</p>
+            <p>11. Munira (watch) television often?</p>
+            <p>
+              12. Mim usually (go) to school by bus, but today he (go) by train.
+            </p>
+            <p>13. Size do not matter (chop) wood.</p>
+            <p>14. The baby (cry) because it is hungry now.</p>
+          </div>
+
+          {/* page 18 */}
+          <div className="p-6 md:p-24 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 18</h2>
+            <p>15. What you (go) to drink now?</p>
+            <p>16. Rina (return) home just now.</p>
+            <p>17. The play just (begin).</p>
+            <p>18. He not yet (finish) the work.</p>
+            <p>19. I just (have) a snack.</p>
+            <p>20. Have you ever (be) to Cox’s Bazar?</p>
+            <p>21. Why she (look) so nervous?</p>
+            <p>22. My brother just (move) to a new place.</p>
+            <p>23. Rahul can’t help (listen) to them.</p>
+            <p>24. You (see) her lately?</p>
+            <p>25. I have a boy (come) from the orphanage.</p>
+            <p>26. We are none of us (get) any younger.</p>
+            <p>27. I don’t mind (have) asparagus.</p>
+            <p>28. Shikha saw him (go) to the town.</p>
+            <p>29. I answered (thank) her.</p>
+          </div>
+          {/* page 19 */}
+          <div className="p-3 md:p-24 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 19</h2>
+            <p>30. The old sailor went away (leave) the marriage guest.</p>
+            <p>31. They just (reach) playground.</p>
+            <p>32. What you generally (do) for living?</p>
+            <p>33. Salma just (get) her new job.</p>
+            <p>34. I just (receive) my father’s letter.</p>
+            <p>35. The tree not (bear) any fruit yet.</p>
+            <p>36. He recently (return) home from abroad.</p>
+            <p>37. I found the boy (sleep) on the bed.</p>
+            <p>38. They saw the drunk porter (lie) on the floor.</p>
+            <p>39. It is many years since they first (meet).</p>
+            <p>40. Ten years have passed since he (come) here.</p>
+            <p>41. It was wine I (see) her last.</p>
+            <p>42. Eight years have passed since I (come).</p>
+            <p>43. They (play) football since morning.</p>
+          </div>
+
+          {/* page 20 */}
+          <div className="p-6 md:p-24 text-black bg-white shadow-inner">
+            <h2 className="text-xl  font-bold mb-2">Page 20</h2>
+            <p>45. I not (choose) my career yet.</p>
+            <p>46. I (see) her long since.</p>
+            <p>47. Last night I (have) a wonderful dream.</p>
+            <p>48. He (go) ten minutes ago.</p>
+            <p>49. Lucy (break) her leg in a car accident last year.</p>
+            <p>50. Wrote to Lucy (be) in Dhaka since last week.</p>
+            <p>51. The boy (suffer) from fever for five days.</p>
+            <p>52. It is high time we (start) the work.</p>
+            <p>53. It is high time they (leave) home.</p>
+            <p>54. Imran talks as though he (be) a king.</p>
+            <p>55. I wish she (do) a millionaire.</p>
+            <p>56. Sings as fast as if she (to be) mad.</p>
+            <p>57. He proceeded as though I not (speak).</p>
+            <p>58. It reflects the matter as if he (know) it.</p>
+          </div>
+
+          {/* page 21 */}
+          <div className="p-6 md:p-24 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 21</h2>
+            <p>59. Fancy (turn) a trifle pale.</p>
+            <p>60. The door was (open) by a Christian.</p>
+            <p>61. Munir was greatly (hug) by Della.</p>
+            <p>62. When was the book (buy)?</p>
+            <p>63. The beggar went away (cry).</p>
+            <p>64. The children came to us (run).</p>
+            <p>65. He looked at his mother (smile).</p>
+            <p>
+              66. They (sail) away to the south until they arrived in cold grey
+              sea.
+            </p>
+            <p>67. Della (save) every penny she could.</p>
+            <p>68. Today she (weight) twenty one stone.</p>
+            <p>69. Fifty miles (be) a long way.</p>
+            <p>70. Why (be) you not with her?</p>
+            <p>71. It (be) like him.</p>
+            <p>72. His eyes (be) fixed upon Della.</p>
+            <p>73. Jim’s income (be) shrunk to twenty dollars.</p>
+          </div>
+
+          {/* page 22 */}
+          <div className="p-6 md:p-24 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 22</h2>
+            <p>
+              74. The headmaster and the secretary (be) present in the meeting
+              yesterday.
+            </p>
+            <p>75. When you (come) last night?</p>
+            <p>76. When he (go) to market yesterday?</p>
+            <p>77. Where they (see) him last week?</p>
+            <p>78. It is high time we (start) for the station.</p>
+            <p>79. If I were a bird, I (fly) in the sky.</p>
+            <p>80. Would that I (enter) the room.</p>
+          </div>
+          {/* page 23 */}
+          <div className="p-6 md:p-24 bg-white shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 23</h2>
             <p>
               When sentences contain <b>now, at this moment, at present</b> →
               use <b>Present Continuous</b>.
@@ -503,81 +795,88 @@ function Verbs() {
           </div>
 
           {/* Back Cover */}
-          <div className="flex items-center justify-center bg-gradient-to-r from-indigo-600 to-purple-600  text-white text-xl font-bold">
-            🔚 The End
+          <div className="bg-gradient-to-r from-indigo-600 to-purple-600  text-white text-xl font-bold">
+            <div className="w-full h-full text-7xl flex flex-col items-center justify-center">
+              <p className="">🔚 </p>
+              <p className="">The End</p>
+            </div>
           </div>
         </FlipBook>
 
-        {/* Navigation Controls */}
-        <div className="flex items-center gap-4 mt-6">
-          <button
-            className="px-3 py-1 bg-gray-700 text-white rounded"
-            onClick={() => flipBook.current.pageFlip().turnToPrevPage()}
-          >
-            ◀ Prev
-          </button>
-
-          <span className="text-lg font-semibold">
-            Page {currentPage + 1} / {totalPages}
-          </span>
-
-          <button
-            className="px-3 py-1 bg-gray-700 text-white rounded"
-            onClick={() => flipBook.current.pageFlip().turnToNextPage()}
-          >
-            Next ▶
-          </button>
-        </div>
-
-        {/* Jump to Page */}
-        <div className="mt-4 flex items-center gap-2">
-          <input
-            type="number"
-            min="1"
-            max={totalPages}
-            value={jumpPage}
-            onChange={(e) => {
-              const value = e.target.value;
-              setJumpPage(value === "" ? "" : parseInt(value, 10));
-            }}
-            className="border px-2 py-1 rounded w-20 text-center"
-            placeholder="Go to..."
-          />
-          <button
-            className="px-3 py-1 bg-indigo-600 text-white rounded disabled:opacity-50"
-            disabled={jumpPage === "" || jumpPage < 1 || jumpPage > totalPages}
-            onClick={() => {
-              if (
-                typeof jumpPage === "number" &&
-                jumpPage >= 1 &&
-                jumpPage <= totalPages
-              ) {
-                flipBook.current.pageFlip().flip(jumpPage - 1);
-              }
-            }}
-          >
-            Go
-          </button>
-        </div>
-
-        {/* Numbered Page Buttons */}
-        <div className="flex flex-wrap justify-center gap-2 mt-4">
-          {Array.from({ length: totalPages }, (_, i) => (
+        {/* Button section */}
+        <div className="flex flex-col items-center">
+          {/* Navigation Controls */}
+          <div className="flex items-center gap-4 mt-6">
             <button
-              key={i}
-              className={`px-3 py-1 rounded border ${
-                currentPage === i
-                  ? "bg-indigo-600 text-white"
-                  : "bg-gray-200 hover:bg-gray-300"
-              }`}
-              onClick={() => flipBook.current.pageFlip().flip(i)}
+              className="px-3 py-1 bg-gray-700 text-white rounded"
+              onClick={() => flipBook.current.pageFlip().turnToPrevPage()}
             >
-              {i + 1}
+              ◀ Prev
             </button>
-          ))}
+
+            <span className="text-lg font-semibold">
+              Page {currentPage + 1} / {totalPages}
+            </span>
+
+            <button
+              className="px-3 py-1 bg-gray-700 text-white rounded"
+              onClick={() => flipBook.current.pageFlip().turnToNextPage()}
+            >
+              Next ▶
+            </button>
+          </div>
+          {/* Jump to Page */}
+          <div className="mt-4 flex items-center gap-2">
+            <input
+              type="number"
+              min="1"
+              max={totalPages}
+              value={jumpPage}
+              onChange={(e) => {
+                const value = e.target.value;
+                setJumpPage(value === "" ? "" : parseInt(value, 10));
+              }}
+              className="border px-2 py-1 rounded w-20 text-center"
+              placeholder="Go to..."
+            />
+            <button
+              className="px-3 py-1 bg-indigo-600 text-white rounded disabled:opacity-50"
+              disabled={
+                jumpPage === "" || jumpPage < 1 || jumpPage > totalPages
+              }
+              onClick={() => {
+                if (
+                  typeof jumpPage === "number" &&
+                  jumpPage >= 1 &&
+                  jumpPage <= totalPages
+                ) {
+                  flipBook.current.pageFlip().flip(jumpPage - 1);
+                }
+              }}
+            >
+              Go
+            </button>
+          </div>
+          {/* Numbered Page Buttons */}
+          <div className="flex flex-wrap justify-center gap-2 mt-4">
+            {Array.from({ length: totalPages }, (_, i) => (
+              <button
+                key={i}
+                className={`px-3 py-1 rounded border ${
+                  currentPage === i
+                    ? "bg-indigo-600 text-white"
+                    : "bg-gray-200 hover:bg-gray-300"
+                }`}
+                onClick={() => flipBook.current.pageFlip().flip(i)}
+              >
+                {i + 1}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 
+      {/* scrolling page */}
       <div className="h-full w-[95%] md:w-[60%] mx-auto">
         <div className="px-5 w-full flex items-center justify-center py-20">
           <div className="relative w-11/12 md:w-10/12 h-[400px] bg-black text-white flex items-center justify-center text-2xl md:text-6xl font-bold rounded-2xl overflow-hidden">
@@ -586,8 +885,6 @@ function Verbs() {
             <div className="effect"></div>
           </div>
         </div>
-
-        {/* scrolling page */}
         <div className="">
           {/* Rules */}
           <h2 className="mt-5">Rules:</h2>
@@ -1045,8 +1342,8 @@ function Verbs() {
             </div>
 
             <div className="mt-5">
-              <h2>Subject-verb Agreement</h2>
               {/* 22 */}
+              <h2>Subject-verb Agreement</h2>
               <div className="pb-3">
                 <p className="bengali">
                   <strong>Rule-22: </strong> ব্রাকেটে Be/to be থাকলে be এর স্থলে
@@ -1059,7 +1356,8 @@ function Verbs() {
                   <br />= The poor are happy.
                 </p>
               </div>
-              {/*  */}
+
+              {/* 23 */}
               <div className="pb-3">
                 <p className="bengali">
                   <strong>Rule-23: </strong> দৈঘ বা পরিমাণ বাচক শব্দ Sub হেল সেই
@@ -1074,7 +1372,7 @@ function Verbs() {
 
               <div className="pb-3">
                 <p className="bengali">
-                  <strong>Rule-23: </strong> Wh (who, which) এর পরে Verb থাকলে
+                  <strong>Rule-24: </strong> Wh (who, which) এর পরে Verb থাকলে
                   Wh এর পূর্বের subject অনুসারে verb হয়। <br />
                   যেমন:
                 </p>
@@ -1084,9 +1382,10 @@ function Verbs() {
                 </p>
               </div>
 
+              {/* 25 */}
               <div className="pb-3">
                 <p className="bengali">
-                  <strong>Rule-24: </strong> Nobody, no one, none, somebody,
+                  <strong>Rule-25: </strong> Nobody, no one, none, somebody,
                   someone, something, each, every, either of, neither of, any,
                   one, each of, every এগুলো Subject হলে থাকলে বা এগুলোর পরে Noun
                   থাকলে Subject singular হয় এবং verb singular হয়। <br />
