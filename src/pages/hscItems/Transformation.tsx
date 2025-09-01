@@ -29,6 +29,7 @@ const Transformation = () => {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
   return (
     <div className="h-full">
       <div className="flex flex-col items-center py-10 px-2 sm:px-5">

@@ -671,9 +671,9 @@ function Verbs() {
             <p>1. The moon (shine) at night.</p>
             <p>2. Flowers (be) gift of nature.</p>
             <p>3. It (dew) in winter.</p>
-            <p>4. The (be) not always happy.</p>
+            <p>4. The rich (be) not always happy.</p>
             <p>5. They (be) blessed.</p>
-            <p>6. (be) happy.</p>
+            <p>6. The pious (be) always happy.</p>
             <p>7. Ice (float) on water.</p>
             <p>8. Muni (carry) Jan umbrella daily.</p>
             <p>9. What you (do) now?</p>
@@ -1416,9 +1416,9 @@ function Verbs() {
               <p>1. The moon (shine) at night.</p>
               <p>2. Flowers (be) gift of nature.</p>
               <p>3. It (dew) in winter.</p>
-              <p>4. The (be) not always happy.</p>
+              <p>4. The rich (be) not always happy.</p>
               <p>5. They (be) blessed.</p>
-              <p>6. (be) happy.</p>
+              <p>6. The pious(be) are happy.</p>
               <p>7. Ice (float) on water.</p>
               <p>8. Muni (carry) Jan umbrella daily.</p>
               <p>9. What you (do) now?</p>
