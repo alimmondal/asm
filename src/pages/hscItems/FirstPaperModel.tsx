@@ -60,9 +60,21 @@ const FirstPaperModel = () => {
           className="shadow-2xl rounded-lg"
         >
           {/* --- Cover Page --- */}
-          <div className="w-full h-full bg-blue-600 text-white flex flex-col items-center justify-center text-center px-3 md:px-6">
-            <h1 className="text-3xl font-bold">📖 First Paper Model book</h1>
-            <p className="mt-2">Welcome! Swipe or click to begin.</p>
+          <div
+            className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center text-center px-3 md:px-6"
+            // style={{
+            //   backgroundImage: `url('/bookCover2.jpg')`,
+            //   backgroundSize: "cover",
+            //   backgroundPosition: "center",
+            //   backgroundRepeat: "no-repeat",
+            //   width: "100%",
+            //   height: "100%",
+            // }}
+          >
+            <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center">
+              <h1 className="text-3xl font-bold">📖 First Paper Model book</h1>
+              <p className="mt-2">Welcome! Swipe or click to begin.</p>
+            </div>
           </div>
 
           {/* --- PDF Pages --- */}
