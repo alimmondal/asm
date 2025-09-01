@@ -405,10 +405,11 @@ const Transformation = () => {
             Assertive থেকে Interrogative-এ রূপান্তর
           </h3>
           <div className="">
-            1. বাক্যের মধ্যে Auxiliary verb থাকলে Auxiliary verb বাক্যের শুরুতে
-            বসবে। বাক্যটি Affirmative হলে তা Negative হবে, আর Negative এ থাকলে
-            তা Affirmative হবে। (যেমন: is থাকলে Isn't হবে এবং is not বা isn't
-            থাকলে 'ls' হবে। <br />
+            Rule:-1. সাধারণ নিয়মঃ <br />
+            (a) বাক্যের Auxiliary verb বাক্যের শুরুতে বসবে। <br />
+            (b) বাক্যটি Affirmative হলে তা Negative হবে, আর Negative এ থাকলে তা
+            Affirmative হবে। <br />
+            (c) বাক্যের শেষে ? বসবে। <br />
             উদাহরণ: <br />
             i. Aff: Kamal was a good boy. <br />
             Inter: Wasn't Kamal a good boy? <br />
@@ -449,6 +450,62 @@ const Transformation = () => {
 
           <br />
 
+          <div className="">
+            <h3 className="text-green-500">
+              Assertive থেকে Exclamatory -তে রূপান্তর-
+            </h3>
+            Rule:-1. সাধারণ নিয়মঃ <br />
+            (i) বাক্যের শুরুতে What/ How + <br />
+            (ii) Verb এর পরের অংশ + <br />
+            (iii) Subject + Verb + <br />
+            (iv) ! (Exclamatory Sign) <br />
+            <br />
+            Ass:The picture is very nice.
+            <br />
+            Exc: How nice the picture is!
+            <br />
+            Note: <br />
+            (i) যদি বাক্যের মধ্যে 'a'/an থাকে তবেই What a/an হবে। আর বাক্যের
+            মধ্যে 'a/ an' না থাকলে 'How' হবে।
+            <br />
+            (ii) বাক্যের মধ্যে very/ great থাকলে উঠে যায়, <br />
+            2. বাক্যে 'I wish' থাকলে 'I wish'-এর পরিবর্তে 'If' বসিয়ে Exclamatory
+            করা যায়।
+            <br />
+            উদাহরণ:
+            <br />
+            Ass: I wish I were a bird.
+            <br />
+            Exc: If I were a bird!
+            <br />
+            Ass:I wish I could do it.
+            <br />
+            Exc: If I could do it!
+            <br />
+            <br />
+            <br />
+            <br />
+            3. <br />
+            i. Hurrah যুক্ত অর্থ্যাৎ যে exclamatory sentence দ্বারা খুশি প্রকাশ
+            করে সেক্ষেত্রে Hurrah-এর পরিবর্তে it is a matter of joy + that +
+            sentence-এর বাকি অংশ।
+            <br />
+            উদাহরণ:
+            <br />
+            Exc: Hurrah! We have done well.
+            <br />
+            Ass: It is a matter of joy that we have done well.
+            <br />
+            <br />
+            ii. Alas বা দুঃখবোধক Exclamatory sentence-এর ক্ষেত্রে also-এর
+            পরিবর্তে it is a matter of sorrow + that বসে + বাক্যের বাকি অংশ বসে।
+            <br />
+            উদাহরণ:
+            <br />
+            Exc: Alas! I am finished.
+            <br />
+            Ass: It is a matter of sorrow that I am finished.
+          </div>
           <div className="">
             <h3 className="text-green-500">
               Assertive থেকে Imperative (command/request/order/advice) -এ
@@ -524,62 +581,6 @@ const Transformation = () => {
           </div>
 
           <br />
-          <div className="">
-            <h3 className="text-green-500">
-              Assertive থেকে Exclamatory -তে রূপান্তর-
-            </h3>
-            1. বাক্যে 'I wish' থাকলে 'I wish'-এর পরিবর্তে 'If' বসিয়ে Exclamatory
-            করা যায়।
-            <br />
-            উদাহরণ:
-            <br />
-            Ass: I wish I were a bird.
-            <br />
-            Exc: If I were a bird!
-            <br />
-            Ass:I wish I could do it.
-            <br />
-            Exc: If I could do it!
-            <br />
-            <br />
-            2. বাক্যের মধ্যে very/ great থাকলে, এদের পরিবর্তে What a/an অথবা How
-            বসিয়ে শুরু করতে হয়। এক্ষেত্রে যদি বাক্যের মধ্যে 'a'/an থাকে তবেই
-            What a/an হবে। আর বাক্যের মধ্যে 'a/ an' না থাকলে 'How' হবে। উদাহরণ
-            <br />
-            Rule: What + a/an + Verb এর পরের অংশ + Subject + Verb + !
-            (Exclamatory Sign) Rule: How + Verb এর পরের অংশ + Subject + Verb + !
-            (Exclamatory Sign)
-            <br />
-            Ass:The picture is very nice.
-            <br />
-            Exc: How nice the picture is!
-            <br />
-            Ass: You are a great fool.
-            <br />
-            Exc: What a fool you are!
-            <br />
-            <br />
-            3. <br />
-            i. Hurrah যুক্ত অর্থ্যাৎ যে exclamatory sentence দ্বারা খুশি প্রকাশ
-            করে সেক্ষেত্রে Hurrah-এর পরিবর্তে it is a matter of joy + that +
-            sentence-এর বাকি অংশ।
-            <br />
-            উদাহরণ:
-            <br />
-            Exc: Hurrah! We have done well.
-            <br />
-            Ass: It is a matter of joy that we have done well.
-            <br />
-            <br />
-            ii. Alas বা দুঃখবোধক Exclamatory sentence-এর ক্ষেত্রে also-এর
-            পরিবর্তে it is a matter of sorrow + that বসে + বাক্যের বাকি অংশ বসে।
-            <br />
-            উদাহরণ:
-            <br />
-            Exc: Alas! I am finished.
-            <br />
-            Ass: It is a matter of sorrow that I am finished.
-          </div>
         </div>
         {/* SIMPLE COMPOUND COMPLEX VISE-VERSA */}
         <div className="mt-10 text-lg md:text-xl">
