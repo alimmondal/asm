@@ -206,3 +206,15 @@ h3 {
     --rotate: 360deg;
   }
 }
+
+.book-shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* soft shadow around page */
+  /* border-radius: 6px; */
+  /* optional rounded page corners */
+}
+
+.book {
+  background: #fdfcf8; /* light beige background for book feel */
+  /* padding: 10px; */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25); /* shadow around whole book */
+}
