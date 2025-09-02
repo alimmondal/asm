@@ -27,14 +27,16 @@ const BoardQuestion = () => {
           </a>
         </div>
       </div>
+
       <div className="py-5">
-        <div>
+        {/* <div>
           <Worker
             workerUrl={`https://unpkg.com/pdfjs-dist@2.9.359/build/pdf.worker.min.js`}
           >
             <Viewer fileUrl="/hsc-1st-Paper.pdf" />
           </Worker>
-        </div>
+        </div> */}
+
         <div className="text-center py-4">
           <a
             href="/hsc-1st-Paper.pdf"

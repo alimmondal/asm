@@ -1396,7 +1396,7 @@ function Verbs() {
             {/* DOwnload button */}
             <div className="text-center py-4 sticky bottom-0 left-0 right-0">
               <a
-                href="/Right-form of verbs.pdf"
+                href="/RightFormOfVerbs.pdf"
                 download
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               >
