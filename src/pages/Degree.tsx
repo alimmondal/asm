@@ -75,7 +75,7 @@ function Degree() {
           </Link>
           <Link to={"/poster"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black hover:border hover: border-green-400 transition">
-              Poster
+              Poster & Slogan
             </li>
           </Link>
           <Link to={"/paragraph"}>
