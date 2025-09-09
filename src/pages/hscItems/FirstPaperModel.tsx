@@ -58,7 +58,7 @@ const FirstPaperModel = () => {
     setScale((prevScale) => Math.max(prevScale - 0.2, 0.5)); // 📉 Min zoom 0.5
   };
 
-  // pinch zoom without any library
+  // ZoomWrapper with Pinch Zoom
   const ZoomWrapper = ({
     children,
     zoom,
@@ -66,12 +66,75 @@ const FirstPaperModel = () => {
     children: React.ReactNode;
     zoom: number;
   }) => {
+    const wrapperRef = useRef<HTMLDivElement>(null);
+    const [initialDistance, setInitialDistance] = useState<number | null>(null);
+    const [initialScale, setInitialScale] = useState(zoom);
+    const [isPinching, setIsPinching] = useState(false);
+
+    // Calculate distance between two touch points
+    const getDistance = (t1: Touch, t2: Touch) => {
+      const dx = t2.clientX - t1.clientX;
+      const dy = t2.clientY - t1.clientY;
+      return Math.sqrt(dx * dx + dy * dy);
+    };
+
+    // Handle touch start
+    const handleTouchStart = (e: TouchEvent) => {
+      if (e.touches.length === 2) {
+        e.preventDefault();
+        e.stopPropagation(); // Prevent page flip during pinch
+        setIsPinching(true);
+        const distance = getDistance(e.touches[0], e.touches[1]);
+        setInitialDistance(distance);
+        setInitialScale(zoom);
+      }
+    };
+
+    // Handle touch move
+    const handleTouchMove = (e: TouchEvent) => {
+      if (e.touches.length === 2 && initialDistance !== null) {
+        e.preventDefault();
+        e.stopPropagation();
+        const distance = getDistance(e.touches[0], e.touches[1]);
+        const newScale = initialScale * (distance / initialDistance);
+        setScale(Math.min(Math.max(newScale, 0.5), 2.5));
+      }
+    };
+
+    // Handle touch end
+    const handleTouchEnd = () => {
+      setInitialDistance(null);
+      setIsPinching(false);
+    };
+
+    // Add touch event listeners
+    useEffect(() => {
+      const wrapper = wrapperRef.current;
+      if (!wrapper) return;
+
+      wrapper.addEventListener("touchstart", handleTouchStart, {
+        passive: false,
+      });
+      wrapper.addEventListener("touchmove", handleTouchMove, {
+        passive: false,
+      });
+      wrapper.addEventListener("touchend", handleTouchEnd);
+
+      return () => {
+        wrapper.removeEventListener("touchstart", handleTouchStart);
+        wrapper.removeEventListener("touchmove", handleTouchMove);
+        wrapper.removeEventListener("touchend", handleTouchEnd);
+      };
+    }, [initialDistance, initialScale, zoom]);
+
     return (
       <div
-        className="w-full h-full flex items-center justify-center overflow-hidden touch-pan-y"
+        ref={wrapperRef}
+        className="w-full h-full flex items-center justify-center overflow-hidden"
         style={{
           transform: `scale(${zoom})`,
           transformOrigin: "center center",
+          transition: isPinching ? "none" : "transform 0.1s ease-out",
         }}
       >
         {children}
@@ -80,24 +143,25 @@ const FirstPaperModel = () => {
   };
 
   return (
-    <div className="">
+    <div className="h-full flex flex-col items-center justify-center gap-1 mt-1">
       {/* 🆕 Zoom Buttons */}
-      <div className="hidden md:flex gap-4 mt-2 absolute right-0  ">
+      <div className="flex  gap-4 ">
         <button
           onClick={zoomIn}
           className="px-4 py-2 bg-blue-500 text-white rounded"
         >
-          Zoom In ➕
+          ➕
         </button>
 
         <button
           onClick={zoomOut}
           className="px-4 py-2 bg-red-500 text-white rounded"
         >
-          Zoom Out ➖
+          ➖
         </button>
       </div>
-      <div className="flex flex-col items-center py-6">
+
+      <div className="flex flex-col items-center py-1">
         <div className="w-[100%], h-[100%] ">
           <Document
             file="/FirstPaperModel.pdf"
@@ -115,9 +179,8 @@ const FirstPaperModel = () => {
               {/* --- Cover Page --- */}
               <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center text-center">
                 <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center">
-                  <h1 className="text-3xl font-bold">
-                    📖 First Paper Model book
-                  </h1>
+                  <h1 className="">📖 </h1>
+                  <h1 className="text-3xl font-bold">First Paper Model book</h1>
                   <p className="mt-2">Welcome! Swipe or click to begin.</p>
                 </div>
               </div>
@@ -236,6 +299,7 @@ const FirstPaperModel = () => {
           </div>
         </div>
       </div>
+
       {/* scrolling effect */}
       <div className="py-10">
         <div>

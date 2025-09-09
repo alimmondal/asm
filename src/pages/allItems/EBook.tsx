@@ -94,9 +94,7 @@ const EBook = () => {
               {/* --- Cover Page --- */}
               <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center text-center">
                 <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center">
-                  <h1 className="text-3xl font-bold">
-                    📖 First Paper Model book
-                  </h1>
+                  <h1 className="text-3xl font-bold">📖 English E-book</h1>
                   <p className="mt-2">Welcome! Swipe or click to begin.</p>
                 </div>
               </div>
