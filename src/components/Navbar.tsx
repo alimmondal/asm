@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
 // import Header from "./Header";
-import { FaBookReader } from "react-icons/fa";
+// import { FaBookReader } from "react-icons/fa";
 import { useState } from "react";
 import { FaRegTimesCircle } from "react-icons/fa";
 import SearchBar from "./SearchBar";
 import { Button } from "flowbite-react";
+import { MdLocalPhone } from "react-icons/md";
 
 const Navbar = () => {
   const auth = useAuth();
@@ -152,8 +153,12 @@ const Navbar = () => {
               to={"/"}
               className="btn btn-ghost text-xl ml-[-25px]"
             >
-              <FaBookReader size={32} />
-              <span className="heading2 md:hidden">ASM E-Learning</span>
+              {/* <FaBookReader size={32} /> */}
+              <img
+                src={auth?.user?.photoURL || "/man.jpg"}
+                className="w-11 border-2 rounded-full"
+              />
+              <span className="heading2 md:hidden">ASM </span>
             </Link>
           </div>
 
@@ -200,8 +205,15 @@ const Navbar = () => {
               </Button>
             )}
             <div className="avatar">
-              <div className="w-12 rounded-full border-2 border-black animate-pulse">
-                <img src={auth?.user?.photoURL || "/man.jpg"} />
+              <div className="w-11 rounded-full border-2 border-white">
+                <ul className="flex items-center justify-center gap-2">
+                  <li className=" p-2  hover:text-rose-500 transition-all">
+                    <a href="tel:+8801751337773">
+                      <MdLocalPhone size={25} className="LogoIcon" />
+                    </a>
+                  </li>
+                </ul>
+                {/* <img src={auth?.user?.photoURL || "/man.jpg"} /> */}
               </div>
             </div>
           </div>
