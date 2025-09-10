@@ -198,13 +198,13 @@ const Pronunciation = () => {
           <h2 className="text-xl font-bold mb-2">Page 4</h2>
           {/* 1 */}
           <div className="">
-            <p className="font-bold">Aspirated Sound</p>
+            <p className="font-bold">Aspirated Sound: P, T & K</p>
             <div className="text-sm md:text-base">
               <p className="">
-                P, T & K P, T & K এই ৩টি অক্ষরের উচ্চারণ সঠিক হলে শুদ্ধ
-                উচ্চারণের ৩০% সঠিক হয়ে যাবে। সাধারণতঃ আমরা বাংলাদেশীরা এ ৩টি
-                লেটারকে পি, টি, কে এর মত উচ্চারণ করি, কিন্তু Native speaker রা
-                এগুলো P (ফি), T (ঠি), K (খেই) উচ্চারণ করে থাকে। <br />
+                P, T & K এই ৩টি অক্ষরের উচ্চারণ সঠিক হলে শুদ্ধ উচ্চারণের ৩০%
+                সঠিক হয়ে যাবে। সাধারণতঃ আমরা বাংলাদেশীরা এ ৩টি লেটারকে পি, টি,
+                কে এর মত উচ্চারণ করি, কিন্তু Native speaker রা এগুলো P (ফি), T
+                (ঠি), K (খেই) উচ্চারণ করে থাকে। <br />
                 Ph -ফ <br />
                 Th - 'ঠ' <br />
                 Kh - খ <br />
@@ -223,90 +223,88 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 4 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6]  book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 4</h2>
-          <p>
-            Rule 6 er baki- <br />
-            <strong> (b). </strong>having এবং get, got, gotten এবং Linking-verb
-            (be, become) এর পর ব্রাকেটের Verb টি V<sub>3</sub> হয়। <br />
-            যেমনঃ
-            <br />
-            <span className="dark:text-green-400">
-              Q. I went out having (close) the door.
-              <br />= I went out having closed the door.
-            </span>
-          </p>
-          <p className="text-rose-500 mt-3 font-semibold">কিন্তু</p>
-          <p>
-            <strong> (c). </strong>
-            Hold, locate, bear, situate ইত্যাদি Verb ব্রাকেটে থাকলে বাক্যটি
-            passive voice এ হয়। <br />
-            যেমনঃ
-            <br />
-            <span className="dark:text-green-400">
-              Q. The festival (hold). <br />= The festival was held.
-            </span>
-          </p>
-        </div>
-
-        {/* page 5 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] shadow-inner">
+        {/* page5 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 5</h2>
-          {/* 7 */}
-          <div className="pt-5">
-            <p>
-              <strong>Rule: 7. </strong> Can, could, may, might, shall, should,
-              will, would, must, need, dare, had better, would rather, would
-              better এর পরের ব্রাকেটের Verb টি V<sub>1</sub> হয় । <br />
-              যেমন:
-            </p>
-            <p className="dark:text-green-400">
-              Q. Imran can (play) football.
-              <br />= Imran can <u>play</u> football.
-            </p>
-          </div>
-          {/* 8 */}
-          <div className="pb-3">
-            <p>
-              <span className="animateText font-bold">Rule: 8.</span> <br />
-              <strong> (a). </strong>সাধারণত To এর পরের ব্রাকেটের Verb টি V
-              <sub>1</sub> হয়। <br />
-              যেমন:
-            </p>
-            <p className="dark:text-green-400">
-              Q. He wanted to (live) in Dhaka.
-              <br />= He wanted to <u>live</u> in Dhaka. <br />
-              <span className="text-rose-600 font-bold">কিন্তু:-</span>
+
+          <div className="">
+            <p className="font-bold">Example of T, C, Q & K</p>
+            <div className="flex justify-between text-sm md:text-base">
+              <p className="">
+                <span className="font-semibold">❇️ 'T' Sound বা উচ্চারণঃ </span>
+                <br />
+                Time = ঠাইম <br />
+                Table = ঠেইবল <br />
+                Talk = ঠোক <br />
+                Today = ঠুডেই <br />
+                Touch = ঠাচ <br />
+                Tense = ঠেনস <br />
+                Tuition = ঠিউশন <br />
+                <span className="font-semibold">❇️'K, C, Q' Sound' </span>
+                <br />
+                Cat = খ্যাট <br />
+                question = খোয়েশচন <br />
+                Cute = খিউট <br />
+              </p>
+              <p className="">
+                Country = খান্ট্রি <br />
+                Carry = খ্যারি <br />
+                Caption = খ্যাপশন <br />
+                Comment = খমেন্ট <br />
+                Curious = খিউওরিয়াশ <br />
+                Kick = খিক <br />
+                kind = খাইন্ড <br />
+                Kite = খাইট <br />
+                king = খিং <br />
+                queen = খুইন <br />
+                quarrel = খুআরল <br />
+                quarter = খুআটা
+              </p>
+            </div>
+            <p className="pt-2">
+              Note: উচ্চারণে সম্পূর্ণ পারফেকশন আনার জন্য ক্যামব্রিজসহ অন্যান্য
+              অনলাইন ডিকশনারীতে যে কোন শব্দ লিখে সার্চ দিয়ে অডিও শুনে শুনে
+              প্র্যাকটিস করতে হবে। অনলাইন ডিকশনারীঃ www.dictionary.cambridge.org
             </p>
           </div>
         </div>
 
-        {/* page 6 */}
+        {/* page6 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 6</h2>
-          <p>
-            <strong> (b). </strong> Be used to, with a view to, look forward to,
-            get used to, addicted to, devoted to, with an eye to, be accustomed
-            to, be opposed to, worth, cannot help, could not help, confess to
-            ইত্যাদির পরে ব্রাকেটের Verb এর সাথে ing যুক্ত হয় । <br />
-            যেমন:
-          </p>
-          <p className="dark:text-green-400">
-            Q. She is used to (read) Quran.
-            <br />= She is used to <u>reading</u> Quran.
-          </p>
-          <strong>কিন্তু:-</strong>
-          <p>
-            <strong> (c). </strong> শুধু used to এর পরে verb এর V<sub>1</sub>{" "}
-            হয়। <br />
-            যেমন:
-          </p>
-          <p className="dark:text-green-400">
-            Q. He used to (drive) a car.
-            <br />= He used to <u>drive</u> a car. <br />
-            <strong className="text-rose-600 font-bold">কিন্তু-</strong>
-          </p>
+          {/* 1 */}
+          <div className="">
+            <p className="font-bold">সবসময় কি Aspirated হবে? </p>
+            <div className=" text-sm md:text-base">
+              না, এটা কখনো Aspirated হবে কখনো হবে না। <br />
+              নিচের রুলগুলোতে শিখবো কখন Aspirated হবে আর কখন হবে না। <br />
+              Rule-1 <br />
+              'Word' এর শুরুতে 'p, t, k, c, q' থাকলে সেই Sound-গুলো Aspirated
+              হয়। অর্থাৎ সেই অক্ষরগুলোর উচ্চারণ 'ফ' , 'ঠ' , ও 'k, c, q' এর স্থলে
+              'খ' এর মত করে উচ্চারণ করে থাকে। <br />
+              যেমনঃ Pot (ফট), Team (ঠিম), Time (ঠাইম), kind (খাইন্ড) <br />
+              Rule-2 <br />
+              'S' এর পর 'p, t, k' থাকলে সেই Sound- টি Aspirated হবে না। এ
+              ক্ষেত্রে বাংলা প, ট, ক এর মতই উচ্চারিত হবে। যেমনঃ <br />
+              'Sp' স্প <br />
+              Spot-স্পট <br />
+              Spy- স্পাই <br />
+              Spicy- স্পাইসি Spacious- স্পেইশস <br />
+              Spread- স্প্রেড <br />
+              'St' স্ট <br />
+              stop - স্টপ <br />
+              Star - স্টা (র) <br />
+              Study- স্টাডি <br />
+              Stay- স্টেই <br />
+              Straight- স্ট্রেইট <br />
+              'Sk' স্ক <br />
+              Sky – স্কাই <br />
+              Skill - স্কিল <br />
+              Skull - স্কাল <br />
+              Skin - স্কিন <br />
+              Basket - বাস্কিট <br />
+            </div>
+          </div>
         </div>
 
         {/* page 7 */}
