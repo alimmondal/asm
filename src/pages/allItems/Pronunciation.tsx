@@ -97,7 +97,7 @@ const Pronunciation = () => {
         {/* page1 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 1</h2>
-          {/* 1 */}
+
           <div className="">
             <p className="text-xs md:text-base">
               ভূমিকা <br />
@@ -127,12 +127,13 @@ const Pronunciation = () => {
             </p>
           </div>
         </div>
+
         {/* page2 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 1</h2>
+          <h2 className="text-xl font-bold mb-2">Page 2</h2>
           {/* 1 */}
           <div className="">
-            Alphabet (এ্যালফাবেট) এর সঠিক উচ্চারণ <br />
+            <p className="font-bold">Alphabet (এ্যালফাবেট) এর সঠিক উচ্চারণ</p>
             <div className="w-full flex  justify-between text-sm md:text-base">
               <p className="">
                 A = এই <br />
@@ -162,44 +163,63 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 3 */}
-        <div className="p-3 text-black md:p-20 bg-[#EFE5D6]  book-shadow">
+        {/* page3 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 3</h2>
-          {/* 5 */}
-          <div className="pb-3">
-            <p>
-              <span className="animateText font-bold">Rule: 5. </span> বাক্যর
-              মধ্যে Once, last, yesterday, ago, one day, in the past, long since
-              <span className="bengali">
-                ইত্যাদি অতীত নির্দেশক শব্দ থাকলে ব্রাকেটের Verb টি V2 হবে বা
-                বাক্যটি Past Indefinite Tense হয়।
-                <br />
-                যেমন:
-              </span>
-            </p>
-            <p className="dark:text-green-400">
-              Q. He (return) last night.
-              <br />= He <u>returned</u> last night.
-            </p>
-          </div>
+          {/* 1 */}
+          <div className="">
+            <p className="font-bold">কখন “দা” এবং কখন "দি” হবে</p>
 
-          {/* 6 */}
-          <div className="pb-3">
-            <p>
-              <span className="animateText font-bold">Rule: 6. </span>
-              <br />
-              <strong> (a). </strong> Am, is, are, was, were, be, being, been,
-              <span className="bengali">
-                ইত্যাদির পরে ব্রাকেটে Verb থাকলে passive Voice এর ক্ষেত্রে
-                ব্রাকেটের Verb এর V<sub>3</sub> হয়।
-                <br /> যেমন:
-              </span>
-            </p>
-            <p className="dark:text-green-400">
-              Q. Rice is (sell) in the market.
-              <br />= Rice is <u>sold</u> in the market.
-            </p>
-            <strong> আবার- p.t.o.</strong>
+            <div className="text-sm md:text-base">
+              <p className="">
+                সূত্রঃ "দাদির CV" <br />
+                দি = V (Vowel) <br />
+                দা = C (Consonant) <br /> <br />
+                ✨ The এর পর যদি Vowel sound থাকে তবে এর উচ্চারণ 'দি' এর মতো
+                হবে। যেমন: <br />
+                The egg = দি এগ <br />
+                The apple = দি অ্যাপল <br />
+                The honest boy = দি অনিষ্ট বয় <br /> <br />
+                ✨ The এর পর যদি Consonant sound থাকে তবে এর উচ্চারণ 'দা' এর মতো
+                হবে। <br />
+                যেমন: <br />
+                The ball = দা বল <br />
+                The holy Quran = দা হৌলি কুরআন <br />
+                The country = দা খানট্টি <br />
+                The book = দা বুক <br />
+              </p>
+              <p className=""></p>
+            </div>
+          </div>
+        </div>
+
+        {/* page4 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-2">Page 4</h2>
+          {/* 1 */}
+          <div className="">
+            <p className="font-bold">Aspirated Sound</p>
+            <div className="text-sm md:text-base">
+              <p className="">
+                P, T & K P, T & K এই ৩টি অক্ষরের উচ্চারণ সঠিক হলে শুদ্ধ
+                উচ্চারণের ৩০% সঠিক হয়ে যাবে। সাধারণতঃ আমরা বাংলাদেশীরা এ ৩টি
+                লেটারকে পি, টি, কে এর মত উচ্চারণ করি, কিন্তু Native speaker রা
+                এগুলো P (ফি), T (ঠি), K (খেই) উচ্চারণ করে থাকে। <br />
+                Ph -ফ <br />
+                Th - 'ঠ' <br />
+                Kh - খ <br />
+                Aspirated Sound এর বৈশিষ্ট্যঃ <br />
+                এগুলো উচ্চারণের সময় মুখ দিয়ে বেশি পরিমানে বাতাস বের হবে। <br />
+                যেমনঃ P এর উচ্চারণ ph অনেকটা 'ফ' এর মত হবে। <br />
+                T এর উচ্চারণ th অনেকটা 'ঠ' এর মত হবে। <br />
+                K এর উচ্চারণ kh অনেকটা 'খ' এর মত হবে। <br />
+                'P Sound' বা উচ্চারণ' <br />
+                Pen ফেন <br />
+                Pin ফিন <br />
+                Peace ফীচ <br />
+                Pain ফেইন <br />
+              </p>
+            </div>
           </div>
         </div>
 
