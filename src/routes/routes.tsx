@@ -57,8 +57,9 @@ import CompetingStory from "../pages/hscItems/CompetingStory";
 import Graph from "../pages/hscItems/Graph";
 import FirstPaperModel from "../pages/hscItems/FirstPaperModel";
 import Correction from "../pages/DegreeItems/Correction";
-import EBook from "../pages/allItems/EBook";
 import Test from "../pages/allItems/Test";
+import Words from "../pages/allItems/Words";
+import Pronunciation from "../pages/allItems/Pronunciation";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -227,13 +228,14 @@ export const router = createBrowserRouter([
         element: <Suggestion />,
       },
       // all items
+      { path: "/pronunciation", element: <Pronunciation /> },
       {
         path: "/test",
         element: <Test />,
       },
       {
-        path: "/eBook",
-        element: <EBook />,
+        path: "/words",
+        element: <Words />,
       },
       {
         path: "/sentence",

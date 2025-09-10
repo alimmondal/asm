@@ -151,20 +151,21 @@ const Navbar = () => {
             <Link
               onClick={closeMobileMenu}
               to={"/"}
-              className="btn btn-ghost text-xl ml-[-25px]"
+              className="btn btn-ghost text-xl ml-[-20px]"
             >
               {/* <FaBookReader size={32} /> */}
               <img
                 src={auth?.user?.photoURL || "/man.jpg"}
                 className="w-11 border-2 rounded-full"
               />
-              <span className="heading2 md:hidden">ASM </span>
+              <span className="heading2 ">ASM</span>
             </Link>
           </div>
 
           <div className="hidden md:flex z-50">
             <SearchBar />
           </div>
+
           {/* Desktop menu */}
           {/* <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-0">
@@ -193,16 +194,29 @@ const Navbar = () => {
           </div> */}
 
           <div className="navbar-end space-x-2">
-            {auth?.user && (
+            {auth?.user ? (
               <Button
+                pill
+                size="sm"
                 type="button"
                 gradientDuoTone="purpleToPink"
-                className="w-flexDirection: 'column',"
+                // className="w-flexDirection: 'column',"
                 onClick={handleLogout}
                 // className="btn bg-red-500 text-white"
               >
                 Logout
               </Button>
+            ) : (
+              <Link to={"/login"}>
+                <Button
+                  pill
+                  size="sm"
+                  type="button"
+                  gradientDuoTone="purpleToPink"
+                >
+                  Sign In
+                </Button>
+              </Link>
             )}
             <div className="avatar">
               <div className="w-11 rounded-full border-2 border-white">

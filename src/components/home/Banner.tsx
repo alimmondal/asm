@@ -67,14 +67,16 @@ const Banner = () => {
 
         <div className="my-5">
           <ul className="grid grid-cols-2 md:grid-cols-3  gap-5 px-2 md:px-20 items-center justify-center">
-            <Link to={"/eBook"}>
+            <Link to={"/words"}>
               <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category hover:dark:shadow-md">
-                E-Book
+                Words
+                <br />
+                {/* <span className="text-xs">Essential words</span> */}
               </li>
             </Link>
-            <Link to={"/hsc"}>
-              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category hover:dark:shadow-md">
-                HSC
+            <Link to={"/pronunciation"}>
+              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category">
+                Pronunciation
               </li>
             </Link>
             <Link to={"/ssc"}>
@@ -82,6 +84,12 @@ const Banner = () => {
                 SSC
               </li>
             </Link>
+            <Link to={"/hsc"}>
+              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category hover:dark:shadow-md">
+                HSC
+              </li>
+            </Link>
+
             <Link to={"/degree"}>
               <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category">
                 Degree
@@ -107,11 +115,7 @@ const Banner = () => {
                 parts Of Speech
               </li>
             </Link>
-            <Link to={"/sentence"}>
-              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category">
-                Sentence
-              </li>
-            </Link>
+
             <Link to={"/social"}>
               <li className=" md:hidden text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category  ">
                 Social English

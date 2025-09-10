@@ -11,9 +11,9 @@ function GrammarItem() {
 
       <div className="mt-10 mb-20 max-w-7xl h-full mx-auto ">
         <ul className="flex items-center justify-center flex-wrap gap-3 px-2 md:px-20">
-          <Link to={"/HSuggestion"}>
+          <Link to={"/sentence"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
-              Suggestion
+              Sentence
             </li>
           </Link>
           <Link to={"/article"}>

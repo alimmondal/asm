@@ -10,7 +10,7 @@ import "@react-pdf-viewer/core/lib/styles/index.css";
 import pdfWorker from "pdfjs-dist/build/pdf.worker.min?url"; // ✅ worker import for Vite/CRA
 import { Viewer, Worker } from "@react-pdf-viewer/core";
 
-const EBook = () => {
+const Words = () => {
   const flipBook = useRef<any>(null);
   const [numPages, setNumPages] = useState(0);
   const [currentPage, setCurrentPage] = useState(0);
@@ -94,7 +94,10 @@ const EBook = () => {
               {/* --- Cover Page --- */}
               <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center text-center">
                 <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center">
-                  <h1 className="text-3xl font-bold">📖 English E-book</h1>
+                  <h1 className="text-9xl">📖</h1>
+                  <h2 className="md:text-3xl font-bold">
+                    Oxford-Essentials-Words
+                  </h2>
                   <p className="mt-2">Welcome! Swipe or click to begin.</p>
                 </div>
               </div>
@@ -227,7 +230,7 @@ const EBook = () => {
   );
 };
 
-export default EBook;
+export default Words;
 
 // import { useRef, useState, useEffect } from "react";
 // import HTMLFlipBook from "react-pageflip";
