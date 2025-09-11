@@ -1,4 +1,4 @@
-import data from "../../data.json";
+import data from "../../synAnt.json";
 
 const SynAnt = () => {
   return (

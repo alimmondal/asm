@@ -218,3 +218,22 @@ h3 {
   /* padding: 10px; */
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25); /* shadow around whole book */
 }
+/* .container {
+  max-width: 800px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 2px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+} */

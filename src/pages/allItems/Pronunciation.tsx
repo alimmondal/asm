@@ -303,7 +303,6 @@ const Pronunciation = () => {
         {/* page7 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 7</h2>
-          {/* 1 */}
           <div className="">
             {/* <p className="font-bold"> Aspirated rules: </p>  */}
             <div className=" text-sm md:text-base">
@@ -343,6 +342,98 @@ const Pronunciation = () => {
               encourageইনখারিজ <br />
               remarkableরিমাখাবল <br />
               ticketটিখিট */}
+            </div>
+          </div>
+        </div>
+
+        {/* page8 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-2">Page 8</h2>
+          <div className="">
+            <p className="font-bold"> Pronunciation of "R"</p>
+            <div className=" text-sm md:text-base">
+              ব্রিটিশরা কোথাও কোথাও 'R' এর উচ্চারণ করে; আবার কোথাও কোথাও 'R' এর
+              উচ্চারণ করে না। আবার আমেরিকানরা সর্বদাই 'R' এর উচ্চারণ করতে
+              অভ্যস্ত। <br />
+              আমরা বাংলাদেশিরা আবার আমেরিকানদের মতো 'Accent' অর্থাৎ বাচনভঙ্গি না
+              করতে পারলেও প্রায় সবখানেই 'R' এর উচ্চারণ করে থাকি। তবে, ইংরেজি
+              বলার সময় আমাদের ব্রিটিশ ও আমেরিকান: এই দুই ধরনের উচ্চারণের মিশ্রণ
+              সমীচীন নয়। কাজেই, চলুন জেনে নিই ব্রিটিশরা কোথায় 'R' এর উচ্চারণ
+              করে; আর কোথায় করে না।
+              <br />
+              <br />
+              ব্রিটিশরা 'R' যখন উচ্চারণ করে থাকেঃ <br />
+              ১. শব্দের এর শুরুতে 'R' থাকলে ব্রিটিশরা 'R' এর উচ্চারণ করে থাকে।
+              যেমনঃ <br />
+              {/* 'Word' বা 'British Pronunciation' বা উচ্চারণ Rateরেইট <br /> */}
+              Read = রিড <br />
+              Rice = রাইস <br />
+              Ring = রিং <br />
+              Road = রৌড <br />
+            </div>
+          </div>
+        </div>
+
+        {/* page9 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-2">Page 9</h2>
+          <div className="">
+            {/* <p className="font-bold"> Aspirated rules: </p>  */}
+            <div className=" text-sm md:text-base">
+              ২. শব্দের এর শুরুতে 'Wr' থাকলে ব্রিটিশরা 'R' এর উচ্চারণ করে থাকে।
+              যেমনঃ <br />
+              ব্রিটিশরা 'R' যখন উচ্চারণ করে নাঃ <br />
+              ১. 'word' এর শেষে 'R' থাকলে ব্রিটিশরা 'R' এর উচ্চারণ করে না। যেমনঃ{" "}
+              <br />
+              {/* 'Word' বা শব্দ 'British Pronunciation' বা উচ্চারণ actorঅ্যাকটো{" "}
+              <br /> */}
+              Brother = ব্রাদা <br />
+              Doctor = ডকঠো <br />
+              Father = ফাদা <br />
+              Teacher = ঠিচা <br />
+              ২. 'word এর শেষে 'Re' থাকলেও ব্রিটিশরা 'R' এর উচ্চারণ করে না।
+              যেমনঃ <br />
+              {/* 'Word' বা শব্দ 'British Pronunciation' বা উচ্চারণ careখ্যায়া{" "} */}
+              fare = ফ্যায়া <br />
+              here = হিয়া <br />
+              there = দেয়া <br />
+              more = মো <br />
+              ৩. 'word' এর মধ্যে 'R' এর পর pure consonant থাকলে ব্রিটিশরা 'R' এর
+              উচ্চারণ করে না। যেমনঃ <br />
+              {/* 'Word' বা শব্দ 
+              'British Pronunciation' বা উচ্চারণ */}
+              cart = খাট <br />
+              chart = চাট <br />
+              Saturday = স্যটাডেই <br />
+              dark = ডাখ <br />
+              {/* partফাট <br /> */}
+            </div>
+          </div>
+        </div>
+
+        {/* page10 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-2">Page 10</h2>
+          <div className="">
+            <p className="font-bold"> IPA (International Phonetic Alphabet) </p>
+            <div className=" text-sm md:text-base">
+              Vowel & Consonant sound <br />
+              ইংরেজিতে মোট ৪৪টি সাউন্ড রয়েছে। বিদেশীরা যেভাবে শুদ্ধ উচ্চারণে কথা
+              বলে এর মূল ভিত্তি মূলতঃ ৪৪টি সাউন্ড। এই ৪৪টি সাউন্ড সঠিকভাবে
+              উচ্চারণ শিখতে পারলে আমরাও ন্যাটিভদের মত শুদ্ধ ও স্মার্ট উচ্চারণে
+              ইংরেজিতে কথা বলতে পারবো। ৪৪টি সাউন্ড এর মধ্যে 20 Vowel sound & 24
+              consonant sound. <br />
+              Vowel sound ২ ধরনেরঃ <br />
+              Single vowel sound <br />
+              Double Vowel sound <br />
+              এই সাউন্ডগুলোর উচ্চারণ মূলতঃ IPA (International Phonetic Alphabet)
+              দিয়ে লেখা হয়। IPA হচ্ছে সঠিকভাবে ইংরেজি উচ্চারণের আন্তর্জাতিক
+              সিম্বল। IPA সিম্বলগুলো slash /-/ বন্ধনীর মাধ্যমে দেখানো হয়। <br />
+              যেমনঃ A-/ex/, Day - /der/, Good - /gud/ <br />
+              আমি আপনাদেরকে পর্যায়ক্রমে ব্যাসিক থেকে IPA সিম্বল অনুযায়ী বিভিন্ন
+              উদাহরণের মাধ্যমে শেখানোর চেষ্টা করবো। <br />
+              প্রথমেই আমি 24 consonant sound এর বিস্তারিত আলোচনা করবো। Let's get
+              started. <br />
             </div>
           </div>
         </div>

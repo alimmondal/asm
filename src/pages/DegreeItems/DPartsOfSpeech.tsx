@@ -1,4 +1,4 @@
-import data from "../../data.json";
+import data from "../../synAnt.json";
 const DPartsOfSpeech = () => {
   return (
     <div className="px-5 md:w-[65%] mx-auto">
