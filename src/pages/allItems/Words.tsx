@@ -88,10 +88,10 @@ const Words = () => {
             //   height: "100%",
             // }}
           >
-            <div className="absolute top-1/4 md:top-[30%] left-[25%] md:left-1/3">
+            <div className="absolute top-1/4 md:top-[30%] left-[15%] md:left-1/3">
               <div className="">
                 <h1 className="text-9xl text-center pb-3">📖</h1>
-                <h2 className="text-green-400 text-3xl text-center">
+                <h2 className="text-green-500 text-3xl text-center">
                   Oxford 3000 Essential Words
                 </h2>
                 <p className="text-center text-white">
