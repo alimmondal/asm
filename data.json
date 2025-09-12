@@ -1,191 +1,1460 @@
 [
   {
-    "word": "Indefinite Article A1",
+    "word": "A - Article",
     "phonetic": "/ə/",
-    "banglaPronunciation": "একটি",
-    "meaning": "একটি",
-    "examples": "PRESENT IND: A cat is sitting on the mat, PAST IND: A dog barked outside yesterday, FUTURE IND: There will be a meeting next week."
+    "banglaPronunciation": "আ",
+    "BengaliMeaning": "একটি",
+    "examples": "A cat is sitting on the mat.",
+    "link": "https://dictionary.cambridge.org/dictionary/english/a"
   },
   {
-    "word": "Abandon v. B2",
-    "phonetic": "/əˈbændən/",
-    "banglaPronunciation": "অবহেলা করা",
-    "meaning": "পরিত্যাগ করা",
-    "examples": "PRESENT IND: They abandon their old habits easily, PAST IND: He abandoned his car after it broke down on the highway, FUTURE IND: She will abandon her current project if it doesn’t work out."
+    "word": "Abandon",
+    "phonetic": "/ə'bændən/",
+    "banglaPronunciation": "অ্যাব্যান্ডন",
+    "BengaliMeaning": "পরিত্যাগ করা",
+    "examples": "They abandon their old habits.",
+    "link": "https://dictionary.cambridge.org/dictionary/english/abandon"
   },
   {
-    "word": "Ability N. A2",
-    "phonetic": "/əˈbɪlɪti/",
-    "banglaPronunciation": "ক্ষমতা",
-    "meaning": "সম্পন্ন করার ক্ষমতা",
-    "examples": "PRESENT IND: He has the ability to solve complex problems, PAST IND: She had the ability to sing beautifully when she was younger, FUTURE IND: They will develop their ability to communicate effectively through practice."
+    "word": "Ability",
+    "phonetic": "/ə'biliti/",
+    "banglaPronunciation": "অ্যাবিলিটি",
+    "BengaliMeaning": "ক্ষমতা",
+    "link": "https://dictionary.cambridge.org/dictionary/english/ability",
+    "examples": "He has the ability to solve complex problems. "
   },
   {
-    "word": "Able Adj, A2",
-    "phonetic": "/ˈeɪbl/",
-    "banglaPronunciation": "সক্ষম",
-    "meaning": "সম্পন্ন করার ক্ষমতা আছে",
-    "examples": "PRESENT IND: She is able to complete the task on time, PAST IND: I was able to finish the report before the deadline, FUTURE IND: They will be able to join us for dinner tomorrow."
+    "word": "Able",
+    "phonetic": "/'eibəl/",
+    "banglaPronunciation": "এইবল",
+    "BengaliMeaning": "সক্ষম",
+    "link": "https://dictionary.cambridge.org/dictionary/english/able",
+    "examples": "She is able to complete the task on time."
   },
   {
-    "word": "About Prep, Adv. A1",
-    "phonetic": "/əˈbaʊt/",
-    "banglaPronunciation": "সম্পর্কিত",
-    "meaning": "সম্পর্কে",
-    "examples": "PRESENT IND: I’m thinking about his problem, PAST IND: He thought about his options before deciding, FUTURE IND: She will be thinking about her next steps."
+    "word": "About",
+    "phonetic": "/ə'baʊt/",
+    "banglaPronunciation": "অ্যাবাউট",
+    "BengaliMeaning": "সম্পর্কে",
+    "link": "https://dictionary.cambridge.org/dictionary/english/about",
+    "examples": "I'm thinking about the problem."
   },
   {
-    "word": "Above Prep, Adv. A1",
-    "phonetic": "/əˈbʌv/",
-    "banglaPronunciation": "উপরে",
-    "meaning": "উপরে",
-    "examples": "PRESENT IND: The airplane flies above the clouds, PAST IND: The bird flew above the trees yesterday, FUTURE IND: We will look above for any signs of trouble."
+    "word": "Above",
+    "phonetic": "/ə'bʌv/",
+    "banglaPronunciation": "অ্যাবাভ",
+    "BengaliMeaning": "উপরে",
+    "link": "https://dictionary.cambridge.org/dictionary/english/above",
+    "examples": "The airplane flies above the clouds."
   },
   {
-    "word": "Abroad Adv. A2",
-    "phonetic": "/əˈbrɔːd/",
-    "banglaPronunciation": "বিদেশে",
-    "meaning": "বিদেশে",
-    "examples": "PRESENT IND: She often travels abroad for work, PAST IND: He studied abroad last year, FUTURE IND: They will move abroad next month."
+    "word": "Abroad",
+    "phonetic": "/ə'brɔ:d/",
+    "banglaPronunciation": "অ্যাব্রড",
+    "BengaliMeaning": "বিদেশে",
+    "link": "https://dictionary.cambridge.org/dictionary/english/abroad",
+    "examples": "She often travels abroad for work."
   },
   {
-    "word": "Absolute Adj, B2",
-    "phonetic": "/ˈæbsəluːt/",
-    "banglaPronunciation": "নির্ঘণ্ট",
-    "meaning": "নির্দিষ্ট",
-    "examples": "PRESENT IND: The results are absolute and cannot be disputed, PAST IND: His victory was absolute in the last election, FUTURE IND: They will seek absolute clarity on the issue."
+    "word": "Absolute",
+    "phonetic": "/'æbsəlu:t/",
+    "banglaPronunciation": "অ্যাবস্যাল্যুট",
+    "BengaliMeaning": "সম্পূর্ণ",
+    "link": "https://dictionary.cambridge.org/dictionary/english/absolute",
+    "examples": "The results are absolute and cannot be disputed."
   },
   {
-    "word": "Absolutely A dv. B1",
-    "phonetic": "/ˈæb.sə.luːt.li/",
-    "banglaPronunciation": "পরম",
-    "meaning": "সম্পূর্ণভাবে",
-    "examples": "PRESENT IND: She absolutely loves her new job, PAST IND: He was absolutely certain about his decision yesterday, FUTURE IND: They will absolutely support the new policy."
+    "word": "Absolutely",
+    "phonetic": "/'æbsəlu:tli/",
+    "banglaPronunciation": "অ্যাবস্যাল্যুটলি",
+    "BengaliMeaning": "সম্পূর্ণভাবে",
+    "link": "",
+    "examples": "I absolutely agree with your opinion."
   },
   {
-    "word": "Academic Adj. B1, N. B2",
-    "phonetic": "/ˌæk.əˈdem.ɪk/",
-    "banglaPronunciation": "শিক্ষাগত",
-    "meaning": "শিক্ষা সম্পর্কিত",
-    "examples": "PRESENT IND: He is an academic who teaches history, PAST IND: She was an academic at the university last year, FUTURE IND: They will become academics in their field."
+    "word": "Academic",
+    "phonetic": "/ækə'demik/",
+    "banglaPronunciation": "অ্যাকাডেমিক",
+    "BengaliMeaning": "শিক্ষাগত",
+    "link": "",
+    "examples": "He has an academic background in physics."
   },
   {
-    "word": "Accept V.82",
-    "phonetic": "/əkˈsept/",
-    "banglaPronunciation": "গ্রহণ করা",
-    "meaning": "গ্রহণ করা",
-    "examples": "PRESENT IND: She accepts the offer gladly, PAST IND: He accepted the award yesterday, FUTURE IND: They will accept the challenge next week."
+    "word": "Accept",
+    "phonetic": "/ək'sept/",
+    "banglaPronunciation": "অ্যাকসেপ্ট",
+    "BengaliMeaning": "গ্রহণ করা",
+    "link": "",
+    "examples": "They accept the terms of the agreement."
   },
   {
-    "word": "Access N. V.81",
-    "phonetic": "/ˈæk.ses/",
-    "banglaPronunciation": "প্রবেশাধিকার",
-    "meaning": "প্রবেশের অধিকার",
-    "examples": "PRESENT IND: He has access to the database, PAST IND: She accessed the files yesterday, FUTURE IND: They will access the system tomorrow."
+    "word": "Acceptable",
+    "phonetic": "/ək'septəbəl/",
+    "banglaPronunciation": "অ্যাকসেপ্টেবল",
+    "BengaliMeaning": "গ্রহণযোগ্য",
+    "link": "",
+    "examples": "The solution is acceptable to everyone involved."
   },
   {
-    "word": "Accident N. V.81",
-    "phonetic": "/ˈæk.sɪ.dənt/",
-    "banglaPronunciation": "দুর্ঘটনা",
-    "meaning": "অপ্রত্যাশিত দুর্ঘটনা",
-    "examples": "PRESENT IND: A car accident occurs daily, PAST IND: An accident happened on the highway yesterday, FUTURE IND: There will be an accident if they drive carelessly."
+    "word": "Access",
+    "phonetic": "/'ækses/",
+    "banglaPronunciation": "অ্যাকসেস",
+    "BengaliMeaning": "প্রবেশাধিকার/কার",
+    "link": "",
+    "examples": "PRESENT IND: You can access the files from your computer. PAST IND: I accessed the information yesterday. FUTURE IND: They will access the database online."
   },
   {
-    "word": "Accompany V.82",
-    "phonetic": "/əˈkʌm.pə.ni/",
-    "banglaPronunciation": "সঙ্গী হওয়া",
-    "meaning": "সঙ্গে যাওয়া",
-    "examples": "PRESENT IND: She accompanies him to school, PAST IND: He accompanied her to the event yesterday, FUTURE IND: They will accompany us on the trip."
+    "word": "Accident",
+    "phonetic": "/'æksidənt/",
+    "banglaPronunciation": "অ্যাক্সিডেন্ট",
+    "BengaliMeaning": "দুর্ঘটনা",
+    "link": "",
+    "examples": "The accident happens unexpectedly."
   },
   {
-    "word": "According To Prep.A2",
-    "phonetic": "/əˈkɔːr.dɪŋ/",
-    "banglaPronunciation": "অনুযায়ী",
-    "meaning": "অনুসারে",
-    "examples": "PRESENT IND: According to the news, it will rain today, PAST IND: According to him, it rained yesterday, FUTURE IND: According to the forecast, it will snow tomorrow."
+    "word": "Accommodation ",
+    "phonetic": "/ə'komə'deɪʃən/",
+    "banglaPronunciation": "অ্যাকমমডেশন",
+    "BengaliMeaning": "থাকার ব্যবস্থা",
+    "link": "",
+    "examples": "We need a place for accommodation during our stay."
   },
   {
-    "word": "Accurate Adj. B2",
-    "phonetic": "/ˈæk.jə.rət/",
-    "banglaPronunciation": "ঠিক",
-    "meaning": "সঠিক",
-    "examples": "PRESENT IND: His calculations are accurate, PAST IND: Her prediction was accurate last week, FUTURE IND: They will ensure the data is accurate."
+    "word": "Accompany",
+    "phonetic": "/ə'kʌmpəni/",
+    "banglaPronunciation": "অ্যাকাম্পানি",
+    "BengaliMeaning": "সাথে থাকা",
+    "link": "",
+    "examples": "PRESENT IND: She will accompany him to the event. PAST IND: I accompanied her to the concert last year. FUTURE IND: They will accompany us on our trip."
   },
   {
-    "word": "Accuse V. B2",
-    "phonetic": "/əˈkjuːz/",
-    "banglaPronunciation": "অভিযোগ করা",
-    "meaning": "to say that someone has done something wrong",
+    "word": "According",
+    "phonetic": "/ə'kɔ:rdɪŋ tʊ/",
+    "banglaPronunciation": "অ্যাকোর্ডিং টু",
+    "BengaliMeaning": "অনুযায়ী",
+    "link": "",
+    "examples": "PRESENT IND: According to the report, sales have increased. PAST IND: According to her, it was a good decision. FUTURE IND: According to the forecast, it will rain tomorrow."
+  },
+  {
+    "word": "Account",
+    "phonetic": "/ə'kaʊnt/",
+    "banglaPronunciation": "অ্যাকাউন্ট",
+    "BengaliMeaning": "হিসাব",
+    "link": "",
+    "examples": "PRESENT IND: He has a bank account with a local branch. PAST IND: She opened an account last summer. FUTURE IND: They will create a new account before the meeting."
+  },
+  {
+    "word": "Accurate",
+    "phonetic": "/'ækjərət/",
+    "banglaPronunciation": "অ্যাক্যুরেট",
+    "BengaliMeaning": "সঠিক",
+    "link": "",
+    "examples": "PRESENT IND: The data is accurate and up to date. PAST IND: His calculations were accurate. FUTURE IND: They will ensure the report is accurate before submission."
+  },
+
+  {
+    "word": "Accuse",
+    "phonetic": "/ə'kju:z/",
+    "banglaPronunciation": "অ্যাকিউজ",
+    "BengaliMeaning": "দোষারোপ করা",
+    "link": "",
     "examples": "PRESENT IND: They accuse him of cheating. PAST IND: She accused him of theft last year. FUTURE IND: The prosecutor will accuse the suspect in court."
   },
   {
-    "word": "Achieve V. A2",
-    "phonetic": "/əˈtʃiːv/",
-    "banglaPronunciation": "সফলতা লাভ করা",
-    "meaning": "to successfully complete or obtain something",
+    "word": "Achieve ",
+    "phonetic": "/ə'tʃi:v/",
+    "banglaPronunciation": "অ্যাচিভ",
+    "BengaliMeaning": "অর্জন করা",
+    "link": "",
     "examples": "PRESENT IND: She will achieve her goals with hard work. PAST IND: He achieved his dreams after many years. FUTURE IND: They will achieve success together."
   },
   {
-    "word": "Achievement N. B1",
-    "phonetic": "/əˈtʃiːv.mənt/",
-    "banglaPronunciation": "সাফল্য",
-    "meaning": "something successfully done",
+    "word": "Achievement",
+    "phonetic": "/ə'tʃi:vmənt/",
+    "banglaPronunciation": "অ্যাচিভমেন্ট",
+    "BengaliMeaning": "অর্জন",
+    "link": "",
     "examples": "PRESENT IND: Winning the award is a significant achievement. PAST IND: Her graduation was a major achievement for her family. FUTURE IND: They will celebrate their achievement next week."
   },
   {
-    "word": "Acknowledge e V. B2",
-    "phonetic": "/əkˈnɒl.ɪdʒ/",
-    "banglaPronunciation": "স্বীকার করা",
-    "meaning": "to accept or admit the existence or truth of",
+    "word": "Acknowledge",
+    "phonetic": "/ək'nɒlədʒ/",
+    "banglaPronunciation": "অ্যাকনলেজ",
+    "BengaliMeaning": "স্বীকার করা",
+    "link": "",
     "examples": "PRESENT IND: We must acknowledge his contributions. PAST IND: They acknowledged her efforts in the meeting. FUTURE IND: She will acknowledge the support she received."
   },
   {
-    "word": "Acquire V. B2",
-    "phonetic": "/əˈkwaɪər/",
-    "banglaPronunciation": "অর্জন করা",
-    "meaning": "to gain possession or control of something",
+    "word": "Acquire",
+    "phonetic": "/ə'kwaɪə/",
+    "banglaPronunciation": "অ্যাকোয়ায়া",
+    "BengaliMeaning": "অধিকার করা",
+    "link": "",
     "examples": "PRESENT IND: They acquire new skills through practice. PAST IND: He acquired a taste for fine wines after traveling in Europe. FUTURE IND: She will acquire additional knowledge by attending workshops."
   },
   {
-    "word": "Across Prep., Adv. A1",
-    "phonetic": "/əˈkrɒs/",
-    "banglaPronunciation": "অতিক্রমণ",
-    "meaning": "from one side to the other of something",
+    "word": "Across",
+    "phonetic": "/ə'krɒs/",
+    "banglaPronunciation": "অ্যাক্রস",
+    "BengaliMeaning": "পারাপার করা",
+    "link": "",
     "examples": "PRESENT IND: She travels across the country for work. PAST IND: They walked across the bridge yesterday. FUTURE IND: He will run across the field tomorrow."
   },
   {
-    "word": "Act V. A2, N. B1",
+    "word": "Act",
     "phonetic": "/ækt/",
-    "banglaPronunciation": "অভিনয় করা",
-    "meaning": "to perform in a play or movie",
+    "banglaPronunciation": "অ্যাক্ট",
+    "BengaliMeaning": "কাজ করা",
+    "link": "",
     "examples": "PRESENT IND: I will act in the school play. PAST IND: They acted well during the performance. FUTURE IND: She will act on her instincts."
   },
   {
-    "word": "Action N. A1",
-    "phonetic": "/ˈæk.ʃən/",
-    "banglaPronunciation": "কর্ম",
-    "meaning": "the process of doing something",
+    "word": "Action",
+    "phonetic": "/'ækʃən/",
+    "banglaPronunciation": "অ্যাকশন",
+    "BengaliMeaning": "ক্রিয়া",
+    "link": "",
     "examples": "PRESENT IND: The action takes place in the city. PAST IND: The action was thrilling to watch. FUTURE IND: They will plan their next action carefully."
   },
   {
-    "word": "Active Adj. A2",
-    "phonetic": "/ˈæk.tɪv/",
-    "banglaPronunciation": "সক্রিয়",
-    "meaning": "doing things and involving a lot of movement",
+    "word": "Active",
+    "phonetic": "/'æktɪv/",
+    "banglaPronunciation": "অ্যাক্টিভ",
+    "BengaliMeaning": "সক্রিয়",
+    "link": "",
     "examples": "PRESENT IND: She remains active in the community. PAST IND: He was active in sports during college. FUTURE IND: They will stay active through regular exercise."
   },
   {
-    "word": "Activity N. A1",
-    "phonetic": "/ækˈtɪv.ɪ.ti/",
-    "banglaPronunciation": "কার্যকলাপ",
-    "meaning": "a thing that you do for interest or pleasure",
+    "word": "Activity",
+    "phonetic": "/æk'tɪvɪti/",
+    "banglaPronunciation": "অ্যাক্টিভিটি",
+    "BengaliMeaning": "কার্যকলাপ",
+    "link": "",
     "examples": "PRESENT IND: Physical activity is important for health. PAST IND: The school organized a fun activity last week. FUTURE IND: There will be an exciting activity planned for the weekend."
   },
   {
     "word": "Actor N. A1",
-    "phonetic": "/ˈæk.tər/",
-    "banglaPronunciation": "অভিনেতা",
-    "meaning": "a person who performs in plays or movies",
-    "examples": "PRESENT IND: He is a talented actor. PAST IND: She always wanted to be an actor."
+    "phonetic": "/'æktə/",
+    "banglaPronunciation": "অ্যাক্টর",
+    "BengaliMeaning": "অভিনেতা",
+    "link": "",
+    "examples": "PRESENT IND: He is a talented actor. PAST IND: She always wanted to be an actor but chose a different career path. FUTURE IND: The new movie will feature a famous actor."
+  },
+
+  {
+    "word": "Actress N. A1",
+    "phonetic": "/'æktrəs/",
+    "banglaPronunciation": "অ্যাক্ট্রেস",
+    "BengaliMeaning": "অভিনেত্রী",
+    "link": "",
+    "examples": "PRESENT IND: The actress performs beautifully. PAST IND: The actress received an award last year. FUTURE IND: She will become a famous actress one day."
+  },
+  {
+    "word": "Actual Adj. B2",
+    "phonetic": "/'æktʃuəl/",
+    "banglaPronunciation": "অ্যাকচুয়াল",
+    "BengaliMeaning": "বাস্তব",
+    "link": "",
+    "examples": "PRESENT IND: The actual cost was higher than expected. PAST IND: The actual event took place last night. FUTURE IND: They will reveal the actual figures tomorrow."
+  },
+  {
+    "word": "Actually Adv. A2",
+    "phonetic": "/'æktʃuəli/",
+    "banglaPronunciation": "অ্যাকচুয়ালি",
+    "BengaliMeaning": "প্রকৃতপক্ষে",
+    "link": "",
+    "examples": "PRESENT IND: I actually enjoy doing my homework. PAST IND: She actually finished the project early. FUTURE IND: They will actually go to the party if they can."
+  },
+  {
+    "word": "Ad N. B1",
+    "phonetic": "/æd/",
+    "banglaPronunciation": "অ্যাড",
+    "BengaliMeaning": "বিজ্ঞাপন",
+    "link": "",
+    "examples": "PRESENT IND: I saw an ad for the new movie. PAST IND: The ad was effective in getting attention. FUTURE IND: They will run an ad on social media next week."
+  },
+  {
+    "word": "Adapt V. B2",
+    "phonetic": "/ə'dæpt/",
+    "banglaPronunciation": "অ্যাডাপ্ট",
+    "BengaliMeaning": "মানিয়ে নেওয়া",
+    "link": "",
+    "examples": "PRESENT IND: Animals adapt to their environment over time. PAST IND: The team adapted their strategy after the feedback. FUTURE IND: They will adapt to the new regulations as needed."
+  },
+  {
+    "word": "Add V. A1",
+    "phonetic": "/æd/",
+    "banglaPronunciation": "অ্যাড",
+    "BengaliMeaning": "যোগ করা",
+    "link": "",
+    "examples": "PRESENT IND: Please add your signature here. PAST IND: I added some spice to the dish yesterday. FUTURE IND: They will add more features to the app."
+  },
+  {
+    "word": "Addition N. B1",
+    "phonetic": "/ə'dɪʃən/",
+    "banglaPronunciation": "অ্যাডিশন",
+    "BengaliMeaning": "সংযোজন",
+    "link": "",
+    "examples": "PRESENT IND: In addition, we will provide training. PAST IND: The addition of new equipment improved efficiency. FUTURE IND: They will make an addition to the building next year."
+  },
+  {
+    "word": "Additional Adj. B2",
+    "phonetic": "/ə'dɪʃənl/",
+    "banglaPronunciation": "অ্যাডিশনাল",
+    "BengaliMeaning": "অতিরিক্ত",
+    "link": "",
+    "examples": "PRESENT IND: We require additional information. PAST IND: He requested additional resources last week. FUTURE IND: They will provide additional support during the project."
+  },
+  {
+    "word": "Address N. A1, V. B2",
+    "phonetic": "/ə'dres/",
+    "banglaPronunciation": "অ্যাড্রেস",
+    "BengaliMeaning": "ঠিকানা",
+    "link": "",
+    "examples": "PRESENT IND: Please address the envelope carefully. PAST IND: He addressed the crowd with confidence. FUTURE IND: She will address the issues in her next meeting."
+  },
+  {
+    "word": "Administration N. B2",
+    "phonetic": "/əd'mɪnɪ'streɪʃən/",
+    "banglaPronunciation": "অ্যাডমিনিস্ট্রেশন",
+    "BengaliMeaning": "প্রশাসন",
+    "link": "",
+    "examples": "PRESENT IND: The administration is implementing new policies. PAST IND: The administration made changes last year. FUTURE IND: They will announce new administration guidelines soon."
+  },
+  {
+    "word": "Admire V. B1",
+    "phonetic": "/əd'maɪə/",
+    "banglaPronunciation": "অ্যাডমায়া",
+    "BengaliMeaning": "প্রশংসা করা",
+    "link": "",
+    "examples": "PRESENT IND: I admire her dedication to her work. PAST IND: Many people admired his courage during the crisis. FUTURE IND: They will admire his achievements in the future."
+  },
+  {
+    "word": "Admit V. B1",
+    "phonetic": "/əd'mɪt/",
+    "banglaPronunciation": "অ্যাডমিট",
+    "BengaliMeaning": "স্বীকার করা",
+    "link": "",
+    "examples": "PRESENT IND: She admits her mistakes. PAST IND: He admitted he was wrong. FUTURE IND: They will admit to their errors if necessary."
+  },
+  {
+    "word": "Adopt V. B2",
+    "phonetic": "/ə'dɒpt/",
+    "banglaPronunciation": "অ্যাডপ্ট",
+    "BengaliMeaning": "গ্রহণ করা",
+    "link": "",
+    "examples": "PRESENT IND: They will adopt a new approach. PAST IND: The couple adopted a child last year. FUTURE IND: She will adopt the new policy next month."
+  },
+  {
+    "word": "Adult N. A1, Adj. A2",
+    "phonetic": "/'ædʌlt/",
+    "banglaPronunciation": "অ্যাডাল্ট",
+    "BengaliMeaning": "প্রাপ্তবয়স্ক",
+    "link": "",
+    "examples": "PRESENT IND: An adult must supervise the children. PAST IND: They were adults at the time of the decision. FUTURE IND: You will become an adult soon."
+  },
+  {
+    "word": "Advance N., V., Adj. B2",
+    "phonetic": "/əd'vɑ:ns/",
+    "banglaPronunciation": "অ্যাডভান্স",
+    "BengaliMeaning": "অগ্রসর হওয়া",
+    "link": "",
+    "examples": "PRESENT IND: Technology continues to advance rapidly. PAST IND: The project advanced significantly last year. FUTURE IND: They will advance their skills through training."
+  },
+  {
+    "word": "Advanced Adj. B1",
+    "phonetic": "/əd'vɑ:nst/",
+    "banglaPronunciation": "অ্যাডভান্সড",
+    "BengaliMeaning": "উন্নত",
+    "link": "",
+    "examples": "PRESENT IND: He is taking an advanced math course. PAST IND: She completed an advanced program last year. FUTURE IND: They will offer advanced classes next semester."
+  },
+  {
+    "word": "Advantage N. A2",
+    "phonetic": "/əd'vɑ:ntɪdʒ/",
+    "banglaPronunciation": "অ্যাডভান্টিজ",
+    "BengaliMeaning": "সুবিধা",
+    "link": "",
+    "examples": "PRESENT IND: Having a mentor gives you an advantage. PAST IND: She had a great advantage in the competition. FUTURE IND: They will have a strategic advantage over their competitors."
+  },
+  {
+    "word": "Adventure N. A2",
+    "phonetic": "/əd'ventʃə/",
+    "banglaPronunciation": "অ্যাডভেঞ্চার",
+    "BengaliMeaning": "অভিযান",
+    "link": "",
+    "examples": "PRESENT IND: What an exciting adventure we had! PAST IND: Their trip was an unforgettable adventure. FUTURE IND: They will embark on a new adventure soon."
+  },
+  {
+    "word": "Advertise V. A2",
+    "phonetic": "/'ædvətaɪz/",
+    "banglaPronunciation": "অ্যাডভারটাইজ",
+    "BengaliMeaning": "বিজ্ঞাপন দেওয়া",
+    "link": "",
+    "examples": "PRESENT IND: They advertise their products online. PAST IND: He advertised the event last week. FUTURE IND: She will advertise the sale in the newspaper."
+  },
+  {
+    "word": "Advertisement N. A2",
+    "phonetic": "/əd'vɜ:tɪsmənt/",
+    "banglaPronunciation": "অ্যাডভার্টিসমেন্ট",
+    "BengaliMeaning": "বিজ্ঞাপন",
+    "link": "",
+    "examples": "PRESENT IND: The advertisement caught my attention. PAST IND: The advertisement was effective and generated interest. FUTURE IND: They will create a new advertisement for the campaign."
+  },
+  {
+    "word": "Advertising N. A2",
+    "phonetic": "/'ædvətaɪzɪŋ/",
+    "banglaPronunciation": "অ্যাডভারটাইজিং",
+    "BengaliMeaning": "বিজ্ঞাপন কর্মসূচি",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: They are ADVERTISING their new product on social media. 2. PAST CONTINUOUS: They were ADVERTISING the event last week. 3. FUTURE CONTINUOUS: They will be ADVERTISING the sale next month."
+  },
+  {
+    "word": "Advice N. A1",
+    "phonetic": "/əd'vaɪs/",
+    "banglaPronunciation": "অ্যাডভাইস",
+    "BengaliMeaning": "পরামর্শ",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: She is giving ADVICE on how to improve your resume. 2. PAST CONTINUOUS: He was offering ADVICE during the meeting. 3. FUTURE CONTINUOUS: They will be providing ADVICE to the new employees next week."
+  },
+  {
+    "word": "Advise V. B1",
+    "phonetic": "/əd'vaɪz/",
+    "banglaPronunciation": "অ্যাডভাইজ",
+    "BengaliMeaning": "পরামর্শ দেওয়া",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: He is ADVISING his friend on career choices. 2. PAST CONTINUOUS: She was ADVISING him when he needed help. 3. FUTURE CONTINUOUS: They will be ADVISING clients on their investments next month."
+  },
+  {
+    "word": "Affair N. B2",
+    "phonetic": "/ə'feə/",
+    "banglaPronunciation": "অ্যাফেয়ার",
+    "BengaliMeaning": "সম্পর্ক",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: The committee is discussing the AFFAIR in the meeting. 2. PAST CONTINUOUS: They were reviewing the AFFAIR last night. 3. FUTURE CONTINUOUS: We will be addressing the AFFAIR during the next session."
+  },
+  {
+    "word": "Affect V. A2",
+    "phonetic": "/ə'fekt/",
+    "banglaPronunciation": "অ্যাফেক্ট",
+    "BengaliMeaning": "প্রভাবিত করা",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: The changes are AFFECTING the team's performance. 2. PAST CONTINUOUS: The weather was AFFECTING the travel plans yesterday. 3. FUTURE CONTINUOUS: These decisions will be AFFECTING our future strategies."
+  },
+  {
+    "word": "Afford V. B1",
+    "phonetic": "/ə'fɔ:d/",
+    "banglaPronunciation": "অ্যাফোর্ড",
+    "BengaliMeaning": "সামর্থ্য থাকা",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: They are AFFORDING a new car this year. 2. PAST CONTINUOUS: We were AFFORDING our expenses last month. 3. FUTURE CONTINUOUS: They will be AFFORDING a larger house soon."
+  },
+  {
+    "word": "Advise V. B1",
+    "phonetic": "/əd'vaɪz/",
+    "banglaPronunciation": "অ্যাডভাইজ",
+    "BengaliMeaning": "পরামর্শ দেওয়া",
+    "link": "",
+    "examples": "PRESENT IND: He advises clients on their investments. PAST IND: She advised him to study for the exam. FUTURE IND: I will advise you on the best course of action."
+  },
+  {
+    "word": "Afar Adv. B2",
+    "phonetic": "/ə'fɑ:r/",
+    "banglaPronunciation": "আফার",
+    "BengaliMeaning": "দূর থেকে",
+    "link": "",
+    "examples": "PRESENT IND: We can see the mountains afar. PAST IND: He watched the event from afar. FUTURE IND: They will observe the migration from afar."
+  },
+  {
+    "word": "Affection N. B2",
+    "phonetic": "/ə'fekʃən/",
+    "banglaPronunciation": "অ্যাফেকশন",
+    "BengaliMeaning": "স্নেহ",
+    "link": "",
+    "examples": "PRESENT IND: She shows affection for her pets. PAST IND: He felt great affection for his old teacher. FUTURE IND: The new puppy will bring a lot of affection into the home."
+  },
+  {
+    "word": "Affordable Adj. B1",
+    "phonetic": "/ə'fɔ:dəbəl/",
+    "banglaPronunciation": "অ্যাফোর্ডেবল",
+    "BengaliMeaning": "সুলভ",
+    "link": "",
+    "examples": "PRESENT IND: The store sells affordable clothing. PAST IND: The concert tickets were affordable for students. FUTURE IND: We will find an affordable place to live."
+  },
+  {
+    "word": "Afraid Adj. A1",
+    "phonetic": "/ə'freɪd/",
+    "banglaPronunciation": "অ্যাফ্রেইড",
+    "BengaliMeaning": "ভীত",
+    "link": "",
+    "examples": "PRESENT IND: I am afraid of spiders. PAST IND: She was afraid of the dark as a child. FUTURE IND: Don't be afraid to ask for help."
+  },
+  {
+    "word": "After Prep., Conj., Adv. A1",
+    "phonetic": "/'ɑ:ftər/",
+    "banglaPronunciation": "আফটার",
+    "BengaliMeaning": "পরে",
+    "link": "",
+    "examples": "PRESENT IND: He will go for a walk after lunch. PAST IND: We left after the movie ended. FUTURE IND: After the meeting, we will discuss the plan."
+  },
+  {
+    "word": "Afternoon N. A1",
+    "phonetic": "/ˌɑ:ftər'nu:n/",
+    "banglaPronunciation": "আফটারনুন",
+    "BengaliMeaning": "বিকেল",
+    "link": "",
+    "examples": "PRESENT IND: We usually have tea in the afternoon. PAST IND: They met this afternoon. FUTURE IND: I will finish my work by late afternoon."
+  },
+  {
+    "word": "Again Adv. A1",
+    "phonetic": "/ə'gen/",
+    "banglaPronunciation": "অ্যাগেইন",
+    "BengaliMeaning": "আবার",
+    "link": "",
+    "examples": "PRESENT IND: Please say that again. PAST IND: He tried again and again to solve the problem. FUTURE IND: We will meet again next week."
+  },
+  {
+    "word": "Against Prep. B1",
+    "phonetic": "/ə'geɪnst/",
+    "banglaPronunciation": "অ্যাগেইনস্ট",
+    "BengaliMeaning": "বিরুদ্ধে",
+    "link": "",
+    "examples": "PRESENT IND: He is leaning against the wall. PAST IND: The team played against their rivals. FUTURE IND: They will vote against the new proposal."
+  },
+  {
+    "word": "Age N. A1",
+    "phonetic": "/eɪdʒ/",
+    "banglaPronunciation": "এইজ",
+    "BengaliMeaning": "বয়স",
+    "link": "",
+    "examples": "PRESENT IND: What is your age? PAST IND: She looked older than her age. FUTURE IND: The new policy will affect people of all ages."
+  },
+  {
+    "word": "Agency N. B2",
+    "phonetic": "/'eɪdʒənsi/",
+    "banglaPronunciation": "এইজেন্সি",
+    "BengaliMeaning": "সংস্থা",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: They are hiring an AGENCY to handle their marketing. 2. PAST CONTINUOUS: We were working with the AGENCY last year. 3. FUTURE CONTINUOUS: They will be collaborating with the AGENCY on new projects."
+  },
+  {
+    "word": "Agenda N. B2",
+    "phonetic": "/ə'dʒendə/",
+    "banglaPronunciation": "অ্যাজেন্ডা",
+    "BengaliMeaning": "কর্মসূচি",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: We are preparing the AGENDA for the meeting. 2. PAST CONTINUOUS: They were discussing the AGENDA items yesterday. 3. FUTURE CONTINUOUS: She will be reviewing the AGENDA before the conference."
+  },
+  {
+    "word": "Agent N. B1",
+    "phonetic": "/'eɪdʒənt/",
+    "banglaPronunciation": "এইজেন্ট",
+    "BengaliMeaning": "প্রতিনিধি",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: The AGENT is negotiating the contract. 2. PAST CONTINUOUS: The AGENT was working on the project last month. 3. FUTURE CONTINUOUS: He will be representing the company as an AGENT next year."
+  },
+  {
+    "word": "Aggressive Adj. B2",
+    "phonetic": "/ə'gresɪv/",
+    "banglaPronunciation": "অ্যাগ্রেসিভ",
+    "BengaliMeaning": "আক্রমণাত্মক",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: The dog is being AGGRESSIVE towards strangers. 2. PAST CONTINUOUS: His behavior was AGGRESSIVE during the game. 3. FUTURE CONTINUOUS: She will be adopting an AGGRESSIVE strategy for the campaign."
+  },
+  {
+    "word": "Ago Adv. A1",
+    "phonetic": "/ə'gəʊ/",
+    "banglaPronunciation": "অ্যাগো",
+    "BengaliMeaning": "আগে",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: We are looking at events from long AGO. 2. PAST CONTINUOUS: They were reminiscing about their trip two years AGO. 3. FUTURE CONTINUOUS: I will be thinking about the time spent AGO next week."
+  },
+  {
+    "word": "Agree V. A1",
+    "phonetic": "/ə'gri:/",
+    "banglaPronunciation": "অ্যাগ্ৰি",
+    "BengaliMeaning": "একমত হওয়া",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: They are AGREEING on the terms of the contract. 2. PAST CONTINUOUS: We were AGREEING to meet at noon yesterday. 3. FUTURE CONTINUOUS: She will be AGREEING to the changes during the discussion."
+  },
+  {
+    "word": "Agreement N. B1",
+    "phonetic": "/ə'gri:mənt/",
+    "banglaPronunciation": "অ্যাগ্ৰিমেন্ট",
+    "BengaliMeaning": "অনুরোধ",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: They are drafting the AGREEMENT right now. 2. PAST CONTINUOUS: I was reviewing the AGREEMENT during the meeting. 3. FUTURE CONTINUOUS: We will be finalizing the AGREEMENT next month."
+  },
+  {
+    "word": "Ah Exclamation A2",
+    "phonetic": "/ɑ:/",
+    "banglaPronunciation": "আহ",
+    "BengaliMeaning": "আহ",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: AH, I understand now! 2. PAST CONTINUOUS: AH, that was a delicious meal. 3. FUTURE CONTINUOUS: AH, the new policy will benefit everyone."
+  },
+  {
+    "word": "Ahead Adv. B1",
+    "phonetic": "/ə'hed/",
+    "banglaPronunciation": "আহেড",
+    "BengaliMeaning": "সামনে",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: They are moving AHEAD with their plans. 2. PAST CONTINUOUS: We were looking AHEAD to the future last year. 3. FUTURE CONTINUOUS: She will be thinking AHEAD about her career path."
+  },
+  {
+    "word": "Aid N., V. B2",
+    "phonetic": "/eɪd/",
+    "banglaPronunciation": "এইড",
+    "BengaliMeaning": "সাহায্য করা/দেওয়া",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: They are providing AID to the victims. 2. PAST CONTINUOUS: He was giving AID during the crisis last year. 3. FUTURE CONTINUOUS: We will be offering AID to those in need next month."
+  },
+  {
+    "word": "Aim V., N. B1",
+    "phonetic": "/eɪm/",
+    "banglaPronunciation": "এইম",
+    "BengaliMeaning": "লক্ষ্য",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: She is AIMING for a promotion at work. 2. PAST CONTINUOUS: They were AIMING to finish the project last week. 3. FUTURE CONTINUOUS: He will be AIMING to improve his skills next year."
+  },
+  {
+    "word": "Air N. A1",
+    "phonetic": "/eər/",
+    "banglaPronunciation": "এয়া",
+    "BengaliMeaning": "বায়ু",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: The AIR is fresh and clean this morning. 2. PAST CONTINUOUS: The AIR was filled with excitement during the event. 3. FUTURE CONTINUOUS: The AIR will be cooler in the evening."
+  },
+  {
+    "word": "Aircraft N. B2",
+    "phonetic": "/'eəkrɑ:ft/",
+    "banglaPronunciation": "এয়ারক্রাফট",
+    "BengaliMeaning": "বিমান",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: The AIRCRAFT is landing at the airport. 2. PAST CONTINUOUS: The AIRCRAFT was flying over the mountains yesterday. 3. FUTURE CONTINUOUS: They will be inspecting the AIRCRAFT before takeoff."
+  },
+  {
+    "word": "Airline N. A2",
+    "phonetic": "/'eəlaɪn/",
+    "banglaPronunciation": "এয়ালাইন",
+    "BengaliMeaning": "বিমান সংস্থা",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: The AIRLINE is offering discounts on flights. 2. PAST CONTINUOUS: The AIRLINE was expanding its routes last year. 3. FUTURE CONTINUOUS: They will be launching a new AIRLINE next month."
+  },
+  {
+    "word": "Airport N. A1",
+    "phonetic": "/'eəpɔ:t/",
+    "banglaPronunciation": "এয়াফঃট",
+    "BengaliMeaning": "বিমান বন্দর",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: We are arriving at the AIRPORT early. 2. PAST CONTINUOUS: They were waiting at the AIRPORT for their flight. 3. FUTURE CONTINUOUS: We will be picking them up from the AIRPORT tomorrow."
+  },
+  {
+    "word": "Alarm N. B1, V. B2",
+    "phonetic": "/ə'lɑ:m/",
+    "banglaPronunciation": "আলাম",
+    "BengaliMeaning": "অ্যালার্ম",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: The ALARM is ringing loudly. 2. PAST CONTINUOUS: The ALARM was going off when I woke up. 3. FUTURE CONTINUOUS: They will be setting the ALARM for early tomorrow."
+  },
+  {
+    "word": "Album N. B1",
+    "phonetic": "/'ælbəm/",
+    "banglaPronunciation": "অ্যালবাম",
+    "BengaliMeaning": "অ্যালবাম",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: She is listening to her favorite ALBUM. 2. PAST CONTINUOUS: They were reviewing the ALBUM last night. 3. FUTURE CONTINUOUS: He will be releasing a new ALBUM next year."
+  },
+  {
+    "word": "Alcohol N. B1",
+    "phonetic": "/'ælkəhɒl/",
+    "banglaPronunciation": "অ্যালকোহল",
+    "BengaliMeaning": "অ্যালকোহল",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: They are consuming ALCOHOL at the party. 2. PAST CONTINUOUS: He was avoiding ALCOHOL during his training. 3. FUTURE CONTINUOUS: She will be limiting her ALCOHOL intake for health reasons."
+  },
+  {
+    "word": "Alcoholic Adj. B1",
+    "phonetic": "/ˌælkə'hɒlɪk/",
+    "banglaPronunciation": "অ্যালকোহলিক",
+    "BengaliMeaning": "অ্যালকোহলিক",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: The ALCOHOLIC beverage is being served at the event. 2. PAST CONTINUOUS: They were discussing ALCOHOLIC drinks at the party. 3. FUTURE CONTINUOUS: He will be attending an ALCOHOLIC beverage tasting next week."
+  },
+  {
+    "word": "Alive Adj. A2",
+    "phonetic": "/ə'laɪv/",
+    "banglaPronunciation": "আলাইভ",
+    "BengaliMeaning": "জীবিত",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: The flowers are ALIVE with color this spring. 2. PAST CONTINUOUS: The city was ALIVE with activity during the festival. 3. FUTURE CONTINUOUS: The event will be ALIVE with music and laughter."
+  },
+  {
+    "word": "All",
+    "phonetic": "/ɔ:l/",
+    "banglaPronunciation": "ও;ল",
+    "BengaliMeaning": "সব",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: They are ALL working together on the project. 2. PAST CONTINUOUS: We were ALL enjoying the concert last night. 3. FUTURE CONTINUOUS: They will be ALL attending the meeting next week."
+  },
+  {
+    "word": "All Right Adj. Adv.",
+    "phonetic": "/ɔ:l raɪt/",
+    "banglaPronunciation": "অল রাইট",
+    "BengaliMeaning": "ঠিক আছে",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: Everything is ALL RIGHT with the plan. 2. PAST CONTINUOUS: They were feeling ALL RIGHT after the long journey. 3. FUTURE CONTINUOUS: The new system will be ALL RIGHT to use."
+  },
+  {
+    "word": "Exclam. A2",
+    "phonetic": "",
+    "banglaPronunciation": "",
+    "BengaliMeaning": "",
+    "link": "",
+    "examples": "She will be feeling ALL RIGHT after some rest."
+  },
+  {
+    "word": "Allow V. A2",
+    "phonetic": "/ə'laʊ/",
+    "banglaPronunciation": "অ্যালাউ",
+    "BengaliMeaning": "অনুমোদন দেওয়া",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: They are ALLOWING extra time for the project. 2. PAST CONTINUOUS: The teacher was ALLOWING students to use notes during the exam. 3. FUTURE CONTINUOUS: She will be ALLOWING more flexibility in the schedule next month."
+  },
+  {
+    "word": "Almost Adv. A2",
+    "phonetic": "/ˈɔːlməʊst/",
+    "banglaPronunciation": "অ:লমৌস্ট",
+    "BengaliMeaning": "প্রায়",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: I am ALMOST finished with my homework. 2. PAST CONTINUOUS: They were ALMOST ready to leave when it started raining. 3. FUTURE CONTINUOUS: He will be ALMOST done with the project by next week."
+  },
+  {
+    "word": "Alone Adj./Adv. A2",
+    "phonetic": "/ə'ləʊn/",
+    "banglaPronunciation": "আলৌন",
+    "BengaliMeaning": "একা",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: She is feeling ALONE in the crowd. 2. PAST CONTINUOUS: He was ALONE at home during the storm. 3. FUTURE CONTINUOUS: They will be ALONE in the office next weekend."
+  },
+  {
+    "word": "Along Prep., Adv. A2",
+    "phonetic": "/ə'lɒŋ/",
+    "banglaPronunciation": "অ্যালং",
+    "BengaliMeaning": "পাশাপাশি",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: They are walking ALONG the beach. 2. PAST CONTINUOUS: We were driving ALONG the highway last night. 3. FUTURE CONTINUOUS: She will be traveling ALONG the coast next summer."
+  },
+  {
+    "word": "Already Adv. A2",
+    "phonetic": "/ɔːlˈredi/",
+    "banglaPronunciation": "অলরেডি",
+    "BengaliMeaning": "ইতিমধ্যে",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: They are ALREADY planning their vacation. 2. PAST CONTINUOUS: She was ALREADY finished with her work when I arrived. 3. FUTURE CONTINUOUS: He will be ALREADY preparing for the exam by next week."
+  },
+  {
+    "word": "Also Adv. A1",
+    "phonetic": "/ˈɔːlsəʊ/",
+    "banglaPronunciation": "অ:লসৌ",
+    "BengaliMeaning": "এছাড়াও",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: She is ALSO studying for her exams. 2. PAST CONTINUOUS: They were ALSO attending the conference last year. 3. FUTURE CONTINUOUS: He will be ALSO working on the new project next month."
+  },
+  {
+    "word": "Alter V. B2",
+    "phonetic": "/'ɔ:ltər/",
+    "banglaPronunciation": "ওল্ঠা",
+    "BengaliMeaning": "পরিবর্তন করা",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: They are ALTERING the design of the product. 2. PAST CONTINUOUS: She was ALTERING her plans due to the weather. 3. FUTURE CONTINUOUS: They will be ALTERING the schedule next week."
+  },
+  {
+    "word": "Alternative N. A2, Adj. B1",
+    "phonetic": "/ɔ:l'tɜ:nətɪv/",
+    "banglaPronunciation": "ও:লঠানাটিভ",
+    "BengaliMeaning": "বিকল্প",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: They are exploring ALTERNATIVE solutions to the problem. 2. PAST CONTINUOUS: We were considering ALTERNATIVE options last month. 3. FUTURE CONTINUOUS: She will be presenting ALTERNATIVE ideas during the meeting."
+  },
+  {
+    "word": "Although Conj. A2",
+    "phonetic": "/ɔ:l'ðəʊ/",
+    "banglaPronunciation": "ওল:দৌ",
+    "BengaliMeaning": "যদিও",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: Although they are tired, they are continuing to work. 2. PAST CONTINUOUS: Although it was raining, we were enjoying the picnic. 3. FUTURE CONTINUOUS: Although she will be busy, she will join us later."
+  },
+  {
+    "word": "Always Adv. A1",
+    "phonetic": "/'ɔ:lweɪz/",
+    "banglaPronunciation": "অল্ওয়েইজ",
+    "BengaliMeaning": "সর্বদা",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: He is ALWAYS helping others. 2. PAST CONTINUOUS: She was ALWAYS smiling during the event. 3. FUTURE CONTINUOUS: They will be ALWAYS supporting each other in their endeavors."
+  },
+  {
+    "word": "Amazed Adj. B1",
+    "phonetic": "/ə'meɪzd/",
+    "banglaPronunciation": "আমেইজড",
+    "BengaliMeaning": "হতবুদ্ধি",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: I am AMAZED by the performance. 2. PAST CONTINUOUS: They were AMAZED at the results of the experiment. 3. FUTURE CONTINUOUS: She will be AMAZED by the surprise party next week."
+  },
+  {
+    "word": "Amazing Adj. A1",
+    "phonetic": "/ə'meɪzɪŋ/",
+    "banglaPronunciation": "আমেইজিং",
+    "BengaliMeaning": "চমকপ্রদ",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: The view is AMAZING from here. 2. PAST CONTINUOUS: The performance was AMAZING last night. 3. FUTURE CONTINUOUS: They will be experiencing AMAZING adventures during their trip."
+  },
+  {
+    "word": "Ambition N. B1",
+    "phonetic": "/æm'bɪʃən/",
+    "banglaPronunciation": "অ্যাম্বিশন",
+    "BengaliMeaning": "উচ্চাকাঙ্ক্ষা",
+    "link": "",
+    "examples": "1. PRESENT CONTINUOUS: She is pursuing her AMBITION to become a doctor. 2. PAST CONTINUOUS: He was nurturing his AMBITION to travel the world last year. 3. FUTURE CONTINUOUS: They will be following their AMBITION to start a business next month."
+  },
+  {
+    "word": "Ambitious N. B1",
+    "phonetic": "/æmˈbɪʃəs/",
+    "banglaPronunciation": "অ্যাম্বিশাস",
+    "BengaliMeaning": "উচ্চাকাঙ্খী",
+    "link": "",
+    "examples": "She is being AMBITIOUS in her careergoals. "
+  },
+  {
+    "word": "Among",
+    "phonetic": "/ə'mʌŋ/",
+    "banglaPronunciation": "আমাং",
+    "BengaliMeaning": "এর মধ্যে",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: He has always felt comfortable AMONG friends. 2. PAST PERFECT: She had never been AMONG such talented individuals before. 3. FUTURE PERFECT: They will have settled AMONG the community by next year."
+  },
+  {
+    "word": "Amount N. A2, V. B2",
+    "phonetic": "/ə'maʊnt/",
+    "banglaPronunciation": "আমাউন্ট",
+    "BengaliMeaning": "পরিমাণ",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: The total AMOUNT has increased significantly. 2. PAST PERFECT: They had calculated the AMOUNT before the meeting. 3. FUTURE PERFECT: She will have determined the AMOUNT needed for the project by tomorrow."
+  },
+  {
+    "word": "Analyse V. B1",
+    "phonetic": "/'ænəlaɪz/",
+    "banglaPronunciation": "অ্যানালাইয",
+    "BengaliMeaning": "বিশ্লেষণ করা",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: They have ANALYSED the data thoroughly. 2. PAST PERFECT: He had ANALYSED the situation before making a decision. 3. FUTURE PERFECT: She will have ANALYSED all the information by next week."
+  },
+  {
+    "word": "Analysis N. B1",
+    "phonetic": "/ə'næləsɪs/",
+    "banglaPronunciation": "আন্যালিসিস",
+    "BengaliMeaning": "বিশ্লেষণ",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: The team has completed the ANALYSIS of the results. 2. PAST PERFECT: They had finished the ANALYSIS before the deadline. 3. FUTURE PERFECT: He will have submitted the ANALYSIS by the end of the month."
+  },
+  {
+    "word": "Ancient Adj. A2",
+    "phonetic": "/'eɪnʃənt/",
+    "banglaPronunciation": "এইনশন্ট",
+    "BengaliMeaning": "প্রাচীন",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: They have discovered ANCIENT artifacts in the ruins. 2. PAST PERFECT: She had studied ANCIENT history in college. 3. FUTURE PERFECT: We will have learned about ANCIENT civilizations by the end of the semester."
+  },
+  {
+    "word": "And Conj. A1",
+    "phonetic": "/ænd/",
+    "banglaPronunciation": "অ্যান্ড",
+    "BengaliMeaning": "এবং",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: He has studied hard AND passed all his exams. 2. PAST PERFECT: She had finished her work AND left early. 3. FUTURE PERFECT: They will have completed the project AND submitted it by Friday."
+  },
+  {
+    "word": "Anger N. B2",
+    "phonetic": "/'æŋgə/",
+    "banglaPronunciation": "অ্যাঙ্গা",
+    "BengaliMeaning": "রাগ",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: She has expressed her ANGER about the situation. 2. PAST PERFECT: He had controlled his ANGER during the meeting. 3. FUTURE PERFECT: They will have resolved their ANGER issues by next session."
+  },
+  {
+    "word": "Angle N. B2",
+    "phonetic": "/'æŋgl/",
+    "banglaPronunciation": "অ্যাঙ্গল",
+    "BengaliMeaning": "কোণ",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: The photographer has captured the perfect ANGLE for the shot. 2. PAST PERFECT: They had discussed the ANGLE of the issue before the presentation. 3. FUTURE PERFECT: She will have adjusted the ANGLE by the time we arrive."
+  },
+  {
+    "word": "Angry Adj. A1",
+    "phonetic": "/'æŋgri/",
+    "banglaPronunciation": "অ্যাংরি",
+    "BengaliMeaning": "রাগান্বিত",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: He has been ANGRY about the decision. 2. PAST PERFECT: She had felt ANGRY before they talked it over. 3. FUTURE PERFECT: They will have gotten over their ANGRY feelings by next week."
+  },
+  {
+    "word": "Animal N. A1",
+    "phonetic": "/'ænɪməl/",
+    "banglaPronunciation": "অ্যানিমল",
+    "BengaliMeaning": "পশু",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: They have rescued an ANIMAL from the shelter. 2. PAST PERFECT: He had adopted an ANIMAL before he moved. 3. FUTURE PERFECT: She will have trained her ANIMAL well by the end of the year."
+  },
+  {
+    "word": "Ankle N. A2",
+    "phonetic": "/'æŋkl/",
+    "banglaPronunciation": "অ্যাঙ্কল",
+    "BengaliMeaning": "গোড়ালি",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: She has injured her ANKLE while playing soccer. 2. PAST PERFECT: He had twisted his ANKLE before the game started. 3. FUTURE PERFECT: They will have healed their ANKLE injuries by summer."
+  },
+  {
+    "word": "Anniversary N. B2",
+    "phonetic": "/ˌænɪ'vɜ:səri/",
+    "banglaPronunciation": "অ্যানিভাসারি",
+    "BengaliMeaning": "বার্ষিকী",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: They have celebrated their ANNIVERSARY every year. 2. PAST PERFECT: She had forgotten their ANNIVERSARY last year. 3. FUTURE PERFECT: They will have planned their ANNIVERSARY party by the end of the month."
+  },
+  {
+    "word": "Announce V. B1",
+    "phonetic": "/ə'naʊns/",
+    "banglaPronunciation": "আনাউন্স",
+    "BengaliMeaning": "ঘোষণা করা",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: The company has ANNOUNCED the new product launch. 2. PAST PERFECT: They had ANNOUNCED the results before the meeting. 3. FUTURE PERFECT: She will have ANNOUNCED her decision by the end of the day."
+  },
+  {
+    "word": "Announcement N. B1",
+    "phonetic": "/ə'naʊnsmənt/",
+    "banglaPronunciation": "আনাউন্সমেন্ট",
+    "BengaliMeaning": "ঘোষণা",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: We have made an important ANNOUNCEMENT today. 2. PAST PERFECT: He had received the ANNOUNCEMENT before the public. 3. FUTURE PERFECT: They will have issued the ANNOUNCEMENT by tomorrow morning."
+  },
+  {
+    "word": "Annoy V. B1",
+    "phonetic": "/ə'nɔɪ/",
+    "banglaPronunciation": "আনয়:ই",
+    "BengaliMeaning": "বিরক্ত করা",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: She has ANNOYED her friends with constant questions. 2. PAST PERFECT: He had ANNOYED his sister before he apologized. 3. FUTURE PERFECT: They will have ANNOYED their neighbors if they continue making noise."
+  },
+  {
+    "word": "Annoyed Adj. B1",
+    "phonetic": "/ə'nɔɪd/",
+    "banglaPronunciation": "আনয়:ইড",
+    "BengaliMeaning": "বিরক্ত",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: He has been ANNOYED by the delays. 2. PAST PERFECT: She had felt ANNOYED before the explanation was given. 3. FUTURE PERFECT: They will have gotten over being ANNOYED by next week."
+  },
+  {
+    "word": "Annoying Adj. B1",
+    "phonetic": "/ə'nɔɪɪŋ/",
+    "banglaPronunciation": "আনয়িং",
+    "BengaliMeaning": "বিরক্তিকর",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: This noise has been ANNOYING her for hours. 2. PAST PERFECT: The delay had been ANNOYING for many passengers. 3. FUTURE PERFECT: They will have found the constant interruptions ANNOYING by the end of the meeting."
+  },
+  {
+    "word": "Annual Adj. B2",
+    "phonetic": "/'ænjuəl/",
+    "banglaPronunciation": "অ্যানিউয়াল",
+    "BengaliMeaning": "বার্ষিক",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: They have held the ANNUAL meeting every year since 2010. 2. PAST PERFECT: The team had prepared for the ANNUAL event ahead of time. 3. FUTURE PERFECT: She will have finished the ANNUAL report by Friday."
+  },
+  {
+    "word": "Another Det./Pron. A1",
+    "phonetic": "/ə'nʌðə/",
+    "banglaPronunciation": "আনাদা",
+    "BengaliMeaning": "একটি আরও",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: He has chosen ANOTHER option for his project. 2. PAST PERFECT: She had found ANOTHER way to solve the problem. 3. FUTURE PERFECT: They will have selected ANOTHER location for the event by next week."
+  },
+  {
+    "word": "Answer N., V. A1",
+    "phonetic": "/'ɑːnsə/",
+    "banglaPronunciation": "আনসা",
+    "BengaliMeaning": "উত্তর",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: She has provided the correct ANSWER to the question. 2. PAST PERFECT: He had given an ANSWER before she finished. 3. FUTURE PERFECT: They will have found the ANSWER by the time the meeting starts."
+  },
+  {
+    "word": "Anxious Adj. B2",
+    "phonetic": "/'æŋkʃəs/",
+    "banglaPronunciation": "অ্যাঙ্কশাস",
+    "BengaliMeaning": "অস্থির",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: She has been ANXIOUS about the results. 2. PAST PERFECT: He had felt ANXIOUS before the interview. 3. FUTURE PERFECT: They will have become ANXIOUS if the delay continues."
+  },
+  {
+    "word": "Any Det., Pron. A1, Adv. A2",
+    "phonetic": "/'eni/",
+    "banglaPronunciation": "এনি",
+    "BengaliMeaning": "যে কোনো",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: I have not received ANY feedback yet. 2. PAST PERFECT: They had not found ANY solutions before the deadline. 3. FUTURE PERFECT: She will have completed ANY tasks by tomorrow."
+  },
+  {
+    "word": "Anybody Pron. A2",
+    "phonetic": "/'enɪbɒdi/",
+    "banglaPronunciation": "এনি-বডি",
+    "BengaliMeaning": "কেউ",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: Has ANYBODY seen my keys? 2. PAST PERFECT: Had ANYBODY contacted you before the meeting? 3. FUTURE PERFECT: She will have informed ANYBODY who needs to know by the end of the day."
+  },
+  {
+    "word": "Any More Adv. A2",
+    "phonetic": "/eni mɔː/",
+    "banglaPronunciation": "এনি মো;",
+    "BengaliMeaning": "আরও",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: I don't want ANY MORE problems. 2. PAST PERFECT: They had not seen ANY MORE issues after the update. 3. FUTURE PERFECT: He will have resolved ANY MORE concerns by next week."
+  },
+  {
+    "word": "Anyone Pron. A1",
+    "phonetic": "/'enɪwʌn/",
+    "banglaPronunciation": "এনি-ওয়ান",
+    "BengaliMeaning": "কেউ",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: Has ANYONE called me today? 2. PAST PERFECT: Had ANYONE mentioned the news before the meeting? 3. FUTURE PERFECT: She will have asked ANYONE who is available to help."
+  },
+  {
+    "word": "Anything Pro n. A1",
+    "phonetic": "/ˈeniθɪŋ/",
+    "banglaPronunciation": "এনি-থিং",
+    "BengaliMeaning": "কিছুই",
+    "link": "",
+    "examples": "PRESENT PERFECT: I haven't seen ANYTHING unusual today. PAST PERFECT: They had not found ANYTHING worth keeping before the move. FUTURE PERFECT: She will have discovered ANYTHING interesting by the end of the day."
+  },
+  {
+    "word": "Anyway Adv. A2",
+    "phonetic": "/ˈeniweɪ/",
+    "banglaPronunciation": "এনি-ওয়েই",
+    "BengaliMeaning": "যাই হোক",
+    "link": "",
+    "examples": "PRESENT PERFECT: He has decided to go ANYWAY, despite the weather. PAST PERFECT: She had planned to leave, but went ANYWAY. FUTURE PERFECT: They will have figured it out ANYWAY by tomorrow."
+  },
+  {
+    "word": "Anywhere Ad V., Pron. A2",
+    "phonetic": "/ˈeniweə/",
+    "banglaPronunciation": "এনি-ওয়্যা",
+    "BengaliMeaning": "কোথাও",
+    "link": "",
+    "examples": "PRESENT PERFECT: I haven't been ANYWHERE exciting lately. PAST PERFECT: He had never traveled ANYWHERE before last year. FUTURE PERFECT: She will have visited ANYWHERE on her bucket list by the time she retires."
+  },
+  {
+    "word": "Apart Adv. B1",
+    "phonetic": "/əˈpɑːt/",
+    "banglaPronunciation": "আ'ফাট",
+    "BengaliMeaning": "আলাদা",
+    "link": "",
+    "examples": "PRESENT PERFECT: They have grown APART over the years. PAST PERFECT: We had drifted APART before the reunion. FUTURE PERFECT: She will have kept her feelings APART from her work life by next month."
+  },
+  {
+    "word": "Apartment N. A1",
+    "phonetic": "/əˈpɑːtmənt/",
+    "banglaPronunciation": "আ'ফা:টমন্ট",
+    "BengaliMeaning": "অ্যাপার্টমেন্ট",
+    "link": "",
+    "examples": "PRESENT PERFECT: They have moved into a new APARTMENT recently. PAST PERFECT: She had lived in that APARTMENT for two years before relocating. FUTURE PERFECT: He will have decorated his APARTMENT by the time of the party."
+  },
+  {
+    "word": "Apologize V. B1",
+    "phonetic": "/əˈpɒlədʒaɪz/",
+    "banglaPronunciation": "আপোলোজাইজ",
+    "BengaliMeaning": "দুঃখ প্রকাশ করা",
+    "link": "",
+    "examples": "PRESENT PERFECT: She has APOLOGIZED for her mistake. PAST PERFECT: He had APOLOGIZED before the argument escalated. FUTURE PERFECT: They will have APOLOGIZED by the time the meeting starts."
+  },
+  {
+    "word": "App N. A2",
+    "phonetic": "/æp/",
+    "banglaPronunciation": "অ্যাপ",
+    "BengaliMeaning": "অ্যাপ",
+    "link": "",
+    "examples": "PRESENT PERFECT: I have downloaded a new APP on my phone."
+  },
+  {
+    "word": "Apparent Adj. B2",
+    "phonetic": "/əˈpærənt/",
+    "banglaPronunciation": "আফেয়ারেন্ট",
+    "BengaliMeaning": "দৃশ্যমান",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: It has become APPARENT that changes are needed. 2. PAST PERFECT: It had been APPARENT that he was struggling. 3. FUTURE PERFECT: She will have made it APPARENT by then."
+  },
+  {
+    "word": "Apparently Adv. B2",
+    "phonetic": "/əˈpærəntli/",
+    "banglaPronunciation": "আফারেন্টলি",
+    "BengaliMeaning": "আপাত দৃষ্টিতে",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: They have been APPARENTLY mistaken about the time. 2. PAST PERFECT: He had been APPARENTLY unaware of the issue. 3. FUTURE PERFECT: She will have been APPARENTLY correct about the situation by then."
+  },
+  {
+    "word": "Appeal N., V. B2",
+    "phonetic": "/əˈpiːl/",
+    "banglaPronunciation": "আফী:ল",
+    "BengaliMeaning": "আপীল",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: They have made an APPEAL for donations. 2. PAST PERFECT: She had filed an APPEAL before the deadline. 3. FUTURE PERFECT: He will have submitted the APPEAL by next week."
+  },
+  {
+    "word": "Appear V. A2",
+    "phonetic": "/əˈpɪə/",
+    "banglaPronunciation": "আফি:য়া",
+    "BengaliMeaning": "আবির্ভূত হওয়া",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: She has APPEARED on television several times. 2. PAST PERFECT: He had APPEARED nervous before the performance. 3. FUTURE PERFECT: They will have APPEARED in the show by the end of the season."
+  },
+  {
+    "word": "Appearance N. A2",
+    "phonetic": "/əˈpɪərəns/",
+    "banglaPronunciation": "আফি:য়ারান্স",
+    "BengaliMeaning": "উপস্থিতি",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: Her APPEARANCE has changed over the years. 2. PAST PERFECT: His APPEARANCE had improved after the makeover. 3. FUTURE PERFECT: They will have made a significant APPEARANCE by next week."
+  },
+  {
+    "word": "Apple N. A1",
+    "phonetic": "/ˈæpl/",
+    "banglaPronunciation": "অ্যাপল",
+    "BengaliMeaning": "আপেল",
+    "link": "",
+    "examples": ""
+  },
+  {
+    "word": "Application N. B1",
+    "phonetic": "/ˌæplɪˈkeɪʃən/",
+    "banglaPronunciation": "অ্যাপ্লিখেইশন",
+    "BengaliMeaning": "আবেদন",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: They have submitted their APPLICATION for the program. 2. PAST PERFECT: He had completed his APPLICATION before the deadline. 3. FUTURE PERFECT: She will have finished her APPLICATION by the end of the week."
+  },
+  {
+    "word": "Apply V. A2",
+    "phonetic": "/əˈplaɪ/",
+    "banglaPronunciation": "আফ্লা:ই",
+    "BengaliMeaning": "আবেদন করা",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: She has APPLIED for several jobs this month. 2. PAST PERFECT: He had APPLIED the new rules before the game started. 3. FUTURE PERFECT: They will have APPLIED the changes by the end of the month."
+  },
+  {
+    "word": "Appointment N. B1",
+    "phonetic": "/əˈpɔɪntmənt/",
+    "banglaPronunciation": "আফ্রৌ:ইন্টমান্ট",
+    "BengaliMeaning": "নিয়োগ",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: I have made an APPOINTMENT for the doctor. 2. PAST PERFECT: She had canceled her APPOINTMENT before the meeting. 3. FUTURE PERFECT: He will have rescheduled his APPOINTMENT by tomorrow."
+  },
+  {
+    "word": "Appreciate V. B1",
+    "phonetic": "/əˈpriːʃieɪt/",
+    "banglaPronunciation": "আফ্রৌশিয়েইট",
+    "BengaliMeaning": "কৃতজ্ঞতা প্রকাশ করা",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: I have always APPRECIATED your help. 2. PAST PERFECT: She had APPRECIATED his honesty before the conflict. 3. FUTURE PERFECT: They will have APPRECIATED the support by the end of the project."
+  },
+  {
+    "word": "Approach N. V. B2",
+    "phonetic": "/əˈprəʊtʃ/",
+    "banglaPronunciation": "আফ্রৌচ",
+    "BengaliMeaning": "পদ্ধতি",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: They have taken a different APPROACH to the problem. 2. PAST PERFECT: He had always used a unique APPROACH in his work. 3. FUTURE PERFECT: She will have developed her APPROACH by the time of the presentation."
+  },
+  {
+    "word": "Appropriate Adj. B2",
+    "phonetic": "/əˈprəʊpriət/",
+    "banglaPronunciation": "আফ্রৌপ্রিয়েট",
+    "BengaliMeaning": "উপযুক্ত",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: That behavior has not been APPROPRIATE for this setting. 2. PAST PERFECT: His comments had been APPROPRIATE at the meeting. 3. FUTURE PERFECT: They will have ensured that the materials are APPROPRIATE for the audience."
+  },
+  {
+    "word": "Approval N. B2",
+    "phonetic": "/əˈpruːvəl/",
+    "banglaPronunciation": "আফ্রু:ভাল",
+    "BengaliMeaning": "সম্মতি",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: We have received APPROVAL for the project. 2. PAST PERFECT: They had sought APPROVAL before proceeding. 3. FUTURE PERFECT: She will have secured APPROVAL from the board by next month."
+  },
+  {
+    "word": "Approve V. B2",
+    "phonetic": "/əˈpruːv/",
+    "banglaPronunciation": "আফ্রু:ভ",
+    "BengaliMeaning": "অনুমোদন করা",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: The committee has APPROVED the new policy. 2. PAST PERFECT: He had already APPROVED the project budget. 3. FUTURE PERFECT: They will have APPROVED the changes by the time the meeting starts."
+  },
+  {
+    "word": "Approximately Adv. B1",
+    "phonetic": "/əˈprɒksɪmətli/",
+    "banglaPronunciation": "আফ্রক্সিমাটলি",
+    "BengaliMeaning": "আনুমানিক",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: The cost has been APPROXIMATELY $100. 2. PAST PERFECT: They had estimated the time as APPROXIMATELY two hours. 3. FUTURE PERFECT: She will have calculated the distance as APPROXIMATELY five miles by the end of the trip."
+  },
+  {
+    "word": "April N. A1",
+    "phonetic": "/ˈeɪprəl/",
+    "banglaPronunciation": "এইপ্রল",
+    "BengaliMeaning": "এপ্রিল",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: The event has been scheduled for APRIL. 2. PAST PERFECT: They had planned the trip for APRIL last year. 3. FUTURE PERFECT: She will have finished the project by the end of APRIL."
+  },
+  {
+    "word": "Architect N. A2",
+    "phonetic": "/ˈɑːkɪtekt/",
+    "banglaPronunciation": "আখিটেক",
+    "BengaliMeaning": "স্থপতি",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: He has worked as an ARCHITECT for ten years. 2. PAST PERFECT: She had interviewed the ARCHITECT before starting the project. 3. FUTURE PERFECT: They will have hired a new ARCHITECT by next month."
+  },
+  {
+    "word": "Architecture N. A2",
+    "phonetic": "/ˈɑːkɪtektʃər/",
+    "banglaPronunciation": "আর্খিটেকচা",
+    "BengaliMeaning": "স্থাপত্য",
+    "link": "",
+    "examples": "1. PRESENT PERFECT: They have studied ARCHITECTURE at the university. 2. PAST PERFECT: He had admired the ARCHITECTURE of the old buildings. 3. FUTURE PERFECT: She will have completed her degree in ARCHITECTURE by next year."
+  },
+  {
+    "word": "Area N. A1",
+    "phonetic": "/ˈeəriə/",
+    "banglaPronunciation": "এরিয়া",
+    "BengaliMeaning": "এলাকা",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: They have been exploring the AREA for hours. 2. PAST PERFECT CONTINUOUS: She had been studying the AREA before the exam. 3. FUTURE PERFECT CONTINUOUS: He will have been working in this AREA for five years by next month."
+  },
+  {
+    "word": "Argue V. A2",
+    "phonetic": "/ˈɑːɡjuː/",
+    "banglaPronunciation": "আ:গিউ",
+    "BengaliMeaning": "বিতর্ক করা",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: They have been ARGUING about the best solution. 2. PAST PERFECT CONTINUOUS: He had been ARGUING with his friend all evening. 3. FUTURE PERFECT CONTINUOUS: She will have been ARGUING her point for an hour by the time the meeting starts."
+  },
+  {
+    "word": "Argument N. A2",
+    "phonetic": "/ˈɑːɡjʊmənt/",
+    "banglaPronunciation": "আ:গিউমন্ট",
+    "BengaliMeaning": "বিতর্ক",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: The ARGUMENT has been ongoing for days. 2. PAST PERFECT CONTINUOUS: Their ARGUMENT had been escalating before they made up. 3. FUTURE PERFECT CONTINUOUS: They will have been discussing their ARGUMENT for weeks by the end of the month."
+  },
+  {
+    "word": "Arise V. B2",
+    "phonetic": "/əˈraɪz/",
+    "banglaPronunciation": "আরাইজ",
+    "BengaliMeaning": "উত্থিত হওয়া",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: Issues have been ARISING since the new policy was implemented. 2. PAST PERFECT CONTINUOUS: Problems had been ARISING before the changes were made. 3. FUTURE PERFECT"
+  },
+  {
+    "word": "Arm N. A1",
+    "phonetic": "/ɑːm/",
+    "banglaPronunciation": "আ:ম",
+    "BengaliMeaning": "বাহু",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: He has been strengthening his ARM through exercise. 2. PAST PERFECT CONTINUOUS: She had been injured in her ARM before the competition. 3. FUTURE PERFECT CONTINUOUS: They will have been training their ARM muscles for months by the time of the event."
+  },
+  {
+    "word": "Armed Adj. B2",
+    "phonetic": "/ɑːmd/",
+    "banglaPronunciation": "আ:র্মড",
+    "BengaliMeaning": "সশস্ত্র",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: The soldiers have been ARMED and ready for deployment. 2. PAST PERFECT CONTINUOUS: They had been ARMED with the necessary equipment before the mission. 3. FUTURE PERFECT CONTINUOUS: He will have been ARMED with knowledge by the time he starts the project."
+  },
+  {
+    "word": "Arms N. B2",
+    "phonetic": "/ɑːmz/",
+    "banglaPronunciation": "আ:র্মস",
+    "BengaliMeaning": "অস্ত্র",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: They have been carrying ARMS for their protection. 2. PAST PERFECT CONTINUOUS: He had been storing ARMS in a secure location. 3. FUTURE PERFECT CONTINUOUS: She will have been managing the ARMS inventory for years by the end of the contract."
+  },
+  {
+    "word": "Army N. A2",
+    "phonetic": "/ˈɑːmi/",
+    "banglaPronunciation": "আ:র্মি",
+    "BengaliMeaning": "সেনাবাহিনী",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: They have been serving in the ARMY for over a decade. 2. PAST PERFECT CONTINUOUS: He had been training with the ARMY before he was deployed. 3. FUTURE PERFECT CONTINUOUS: She will have been part of the ARMY for three years by next month."
+  },
+  {
+    "word": "Around Prep., Adv. A1",
+    "phonetic": "/əˈraʊnd/",
+    "banglaPronunciation": "আ'রাউন্ড",
+    "BengaliMeaning": "চারপাশে",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: We have been looking AROUND for a good restaurant. 2. PAST PERFECT CONTINUOUS: They had been wandering AROUND the city before they found a place to eat. 3. FUTURE"
+  },
+  {
+    "word": "Arrange V. A2",
+    "phonetic": "/əˈreɪndʒ/",
+    "banglaPronunciation": "আরেইঞ্জ",
+    "BengaliMeaning": "ব্যবস্থা করা",
+    "link": "",
+    "examples": "PERFECT CONTINUOUS: She will have been searching ARROUND the neighborhood for weeks by then. 1. PRESENT PERFECT CONTINUOUS: They have been ARRANGING the chairs for the event. 2. PAST PERFECT CONTINUOUS: She had been ARRANGING her schedule before the trip. 3. FUTURE PERFECT CONTINUOUS: He will have been ARRANGING the details for the meeting for days by the time it starts."
+  },
+  {
+    "word": "Arrangement N. A2",
+    "phonetic": "/əˈreɪndʒmənt/",
+    "banglaPronunciation": "আরেইঞ্জমান্ট",
+    "BengaliMeaning": "ব্যবস্থা",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: We have been making ARRANGEMENTS for the conference. 2. PAST PERFECT CONTINUOUS: She had been working on the ARRANGEMENT before the deadline. 3. FUTURE PERFECT CONTINUOUS: They will have been finalizing the ARRANGEMENT for weeks before the event."
+  },
+  {
+    "word": "Arrest V., N. B1",
+    "phonetic": "/əˈrest/",
+    "banglaPronunciation": "আরেস্ট",
+    "BengaliMeaning": "গ্রেফতার করা",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: The police have been making ARRESTS related to the case. 2. PAST PERFECT CONTINUOUS: He had been aware of the ARREST before the news broke. 3. FUTURE PERFECT CONTINUOUS: They will have been processing ARRESTS for several hours by the time the trial starts."
+  },
+  {
+    "word": "Arrival N. B1",
+    "phonetic": "/əˈraɪvəl/",
+    "banglaPronunciation": "আরাইভাল",
+    "BengaliMeaning": "আগমন",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: We have been waiting for the ARRIVAL of the guests. 2. PAST PERFECT CONTINUOUS: They had been excited about the ARRIVAL of their friends. 3. FUTURE PERFECT CONTINUOUS: She will have been preparing for the ARRIVAL of the team all day."
+  },
+  {
+    "word": "Arrive V. A1",
+    "phonetic": "/əˈraɪv/",
+    "banglaPronunciation": "আরাইভ",
+    "BengaliMeaning": "পৌঁছানো",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: They have been waiting to ARRIVE at their destination. 2. PAST PERFECT CONTINUOUS: He had been"
+  },
+  {
+    "word": "Art N. A1",
+    "phonetic": "/ɑːt/",
+    "banglaPronunciation": "আঠ",
+    "BengaliMeaning": "শিল্প",
+    "link": "",
+    "examples": "FUTURE PERFECT CONTINUOUS: She will have been eager to ARRIVE by the time the concert begins. 1. PRESENT PERFECT CONTINUOUS: They have been creating ART for years. 2. PAST PERFECT CONTINUOUS: She had been studying ART history before choosing her major. 3. FUTURE PERFECT CONTINUOUS: He will have been producing ART for the exhibition by next month."
+  },
+  {
+    "word": "Article N. A1",
+    "phonetic": "/ˈɑːtɪkl/",
+    "banglaPronunciation": "আঠিকল",
+    "BengaliMeaning": "নিবন্ধ",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: She has been writing an ARTICLE for the magazine. 2. PAST PERFECT CONTINUOUS: He had been editing the ARTICLE before submission. 3. FUTURE PERFECT CONTINUOUS: They will have been reviewing the ARTICLE for several weeks by the time it goes to print."
+  },
+  {
+    "word": "Artificial Adj. B2",
+    "phonetic": "/ˌɑːtɪˈfɪʃl/",
+    "banglaPronunciation": "আ:ঠিফিশাল",
+    "BengaliMeaning": "কৃত্রিম",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: The scientists have been developing ARTIFICIAL intelligence for years. 2. PAST PERFECT CONTINUOUS: They had been researching ARTIFICIAL materials before the project began. 3. FUTURE PERFECT CONTINUOUS: She will have been experimenting with ARTIFICIAL components by the end of the year."
+  },
+  {
+    "word": "Artist N. A1",
+    "phonetic": "/ˈɑːtɪst/",
+    "banglaPronunciation": "আটিস্ট",
+    "BengaliMeaning": "শিল্পী",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: She has been working as an ARTIST for over a decade. 2. PAST PERFECT CONTINUOUS: He had been recognized as an ARTIST before his first exhibition. 3. FUTURE PERFECT CONTINUOUS: They will have been showcasing their work as an ARTIST for several years by then."
+  },
+  {
+    "word": "Artisttic",
+    "phonetic": "/ɑːˈtɪstɪk/",
+    "banglaPronunciation": "আ:টিস্টিক",
+    "BengaliMeaning": "শিল্পিসুলভ",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: She has been developing"
+  },
+  {
+    "word": "Artistic Adj. B2",
+    "phonetic": "",
+    "banglaPronunciation": "",
+    "BengaliMeaning": "",
+    "link": "",
+    "examples": "her ARTISTIC skills through practice. 2. PAST PERFECT CONTINUOUS: He had been exploring his ARTISTIC side before pursuing a career. 3. FUTURE PERFECT CONTINUOUS: They will have been enhancing their ARTISTIC vision by the time of the exhibition."
+  },
+  {
+    "word": "As Prep. A1, Adv., Conj. A2",
+    "phonetic": "/æz/",
+    "banglaPronunciation": "অ্যায",
+    "BengaliMeaning": "হিসাবে",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: She has been working AS a teacher for five years. 2. PAST PERFECT CONTINUOUS: They had been recognized AS leaders in their field. 3. FUTURE PERFECT CONTINUOUS: He will have been serving AS the president by next year."
+  },
+  {
+    "word": "Ashamed Adj. B2",
+    "phonetic": "/əˈʃeɪmd/",
+    "banglaPronunciation": "অশেইমড",
+    "BengaliMeaning": "লজ্জিত",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: He has been feeling ASHAMED of his behavior. 2. PAST PERFECT CONTINUOUS: She had been ASHAMED of her actions until she apologized. 3. FUTURE PERFECT CONTINUOUS: They will have been feeling ASHAMED if they do not change their ways."
+  },
+  {
+    "word": "Ask V. A1",
+    "phonetic": "/ɑːsk/",
+    "banglaPronunciation": "আস্ক",
+    "BengaliMeaning": "জিজ্ঞাসা করা",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: She has been ASKING for assistance with her project. 2. PAST PERFECT CONTINUOUS: He had been ASKING questions during the lecture. 3. FUTURE PERFECT CONTINUOUS: They will have been ASKING for updates by the time the meeting starts."
+  },
+  {
+    "word": "Asleep Adj. A2",
+    "phonetic": "/əˈsliːp/",
+    "banglaPronunciation": "অস্লীপ",
+    "BengaliMeaning": "ঘুমিয়ে থাকা",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: He has been feeling ASLEEP during the afternoon meetings. 2. PAST PERFECT CONTINUOUS: She had been ASLEEP for hours before the alarm rang. 3. FUTURE PERFECT CONTINUOUS: They will have been ASLEEP for a long time by the time we arrive."
+  },
+  {
+    "word": "Aspect N. B2",
+    "phonetic": "/ˈæspekt/",
+    "banglaPronunciation": "অ্যাসপেক্ট",
+    "BengaliMeaning": "দিক",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: They have been considering every ASPECT of the project. 2. PAST PERFECT CONTINUOUS: She had been focusing on one ASPECT of the issue before the discussion. 3. FUTURE PERFECT CONTINUOUS: He will have been analyzing each ASPECT for weeks by the deadline."
+  },
+  {
+    "word": "Assess V. B2",
+    "phonetic": "/əˈses/",
+    "banglaPronunciation": "অ্যাসেস",
+    "BengaliMeaning": "মূল্যায়ন করা",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: The team has been ASSESSING the risks involved in the project. 2. PAST PERFECT CONTINUOUS: They had been ASSESSING the situation before making a decision. 3. FUTURE PERFECT CONTINUOUS: She will have been ASSESSING the data for several days by the time the report is due."
+  },
+  {
+    "word": "Assessment N. B2",
+    "phonetic": "/əˈses.mənt/",
+    "banglaPronunciation": "অ্যাসেসম্যান্ট",
+    "BengaliMeaning": "মূল্যায়ন",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: They have been conducting an ASSESSMENT of the program's effectiveness. 2. PAST PERFECT CONTINUOUS: He had been preparing for the ASSESSMENT for weeks. 3. FUTURE PERFECT CONTINUOUS: She will have been finalizing the ASSESSMENT results by the end of the month."
+  },
+  {
+    "word": "Assignment N. B1",
+    "phonetic": "/əˈsaɪnmənt/",
+    "banglaPronunciation": "অ্যাসাইনমেন্ট",
+    "BengaliMeaning": "কর্মসূচি",
+    "link": "",
+    "examples": "1. PRESENT PERFECT CONTINUOUS: She has been working on her ASSIGNMENT for hours. 2. PAST PERFECT CONTINUOUS: He had been struggling with the ASSIGNMENT before asking for help. 3. FUTURE PERFECT CONTINUOUS: They will have been completing their ASSIGNMENT by the time it is due."
+  },
+  {
+    "word": "Assist N. B1",
+    "phonetic": "/əˈsɪst/",
+    "banglaPronunciation": "আসিস্ট",
+    "BengaliMeaning": "সাহায্য করা/দেওয়া",
+    "link": "",
+    "examples": "He has been ASSISTING his colleagues with their tasks"
   }
 ]
