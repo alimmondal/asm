@@ -69,9 +69,7 @@ const Banner = () => {
           <ul className="grid grid-cols-2 md:grid-cols-3  gap-5 px-2 md:px-20 items-center justify-center">
             <Link to={"/words"}>
               <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category hover:dark:shadow-md">
-                Essential Words
-                <br />
-                {/* <span className="text-xs">Essential words</span> */}
+                Oxford Words
               </li>
             </Link>
             <Link to={"/pronunciation"}>
@@ -79,6 +77,12 @@ const Banner = () => {
                 Pronunciation
               </li>
             </Link>
+            <Link to={"/storyVocabulary"}>
+              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category">
+                গল্পে গল্পে
+              </li>
+            </Link>
+
             <Link to={"/ssc"}>
               <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category">
                 SSC
@@ -108,11 +112,6 @@ const Banner = () => {
             <Link to={"/strongVerb"}>
               <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category">
                 Strong Verb
-              </li>
-            </Link>
-            <Link to={"/partsOfSpeech"}>
-              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category">
-                parts Of Speech
               </li>
             </Link>
 

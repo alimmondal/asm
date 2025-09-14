@@ -60,6 +60,7 @@ import Correction from "../pages/DegreeItems/Correction";
 import Test from "../pages/allItems/Test";
 import Words from "../pages/allItems/Words";
 import Pronunciation from "../pages/allItems/Pronunciation";
+import StoryVocabulary from "../pages/allItems/StoryVocabulary";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -229,6 +230,7 @@ export const router = createBrowserRouter([
       },
       // all items
       { path: "/pronunciation", element: <Pronunciation /> },
+      { path: "/storyVocabulary", element: <StoryVocabulary /> },
       {
         path: "/test",
         element: <Test />,

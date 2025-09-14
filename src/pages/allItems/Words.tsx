@@ -7,7 +7,7 @@ import "pdfjs-dist/build/pdf.worker.entry";
 // import { Worker, Viewer } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 
-import { Viewer, Worker } from "@react-pdf-viewer/core";
+// import { Viewer, Worker } from "@react-pdf-viewer/core";
 
 import data from "../../../data.json";
 
@@ -286,9 +286,9 @@ const Words = () => {
 
       {/* scrolling effect */}
       <div className="py-10">
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto p-2">
           <div className="overflow-x-auto">
-            <table className="md:w-full min-w-[800px] table-auto  border border-gray-300">
+            <table className="md:w-full min-w-[300px] table-auto  border border-gray-300">
               <thead>
                 <tr className="bg-gray-100">
                   <th className="py-1 px-1 border-b">Words</th>
@@ -326,7 +326,7 @@ const Words = () => {
           </div>
         </div>
       </div>
-      <div className="py-10 w-[60%] mx-auto h-screen">
+      {/* <div className="py-10 w-[60%] mx-auto h-screen">
         <div>
           <Worker
             workerUrl={`https://unpkg.com/pdfjs-dist@2.9.359/build/pdf.worker.min.js`}
@@ -334,7 +334,7 @@ const Words = () => {
             <Viewer fileUrl="/Oxford-Fluency-Essentials.pdf" />
           </Worker>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
