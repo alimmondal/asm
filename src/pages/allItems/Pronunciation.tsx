@@ -410,7 +410,6 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-
         {/* page10 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 10</h2>
@@ -434,6 +433,129 @@ const Pronunciation = () => {
               উদাহরণের মাধ্যমে শেখানোর চেষ্টা করবো। <br />
               প্রথমেই আমি 24 consonant sound এর বিস্তারিত আলোচনা করবো। Let's get
               started. <br />
+            </div>
+          </div>
+        </div>
+
+        {/* page11 */}
+        <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold ">Page 11</h2>
+          <div className="">
+            <p className="font-bold"> IPA (International Phonetic Alphabet) </p>
+            <div className=" text-sm md:text-base">
+              <div className="flex  md:flex-row gap-4 p-1 bg-white">
+                {/* Left Table */}
+                <table className="table-auto border-collapse border border-gray-300  shadow-md">
+                  <thead className="bg-gray-100">
+                    <tr>
+                      <th className="border border-gray-300 px-1 py-2 text-left font-bold text-orange-300">
+                        IPA Symbol
+                      </th>
+                      <th className="border border-gray-300 px-1 py-2 text-left font-bold">
+                        Bangla
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="border px-1 py-2">/iː/</td>
+                      <td className="border px-1 py-2">ঈ (ee)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/ɪ/</td>
+                      <td className="border px-1 py-2">ই (i)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/eɪ/</td>
+                      <td className="border px-1 py-2">এই (ei)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/æ/</td>
+                      <td className="border px-1 py-2">এ্যা (æ)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/ɑː/</td>
+                      <td className="border px-1 py-2">আ (aa)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/ʌ/</td>
+                      <td className="border px-1 py-2">আ (a)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/ɒ/</td>
+                      <td className="border px-1 py-2">অ (ô)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/oʊ/</td>
+                      <td className="border px-1 py-2">উ (ou)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/ɔː/</td>
+                      <td className="border px-1 py-2">অ (ɔ)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/ʊ/</td>
+                      <td className="border px-1 py-2">উ (u)</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                {/* Right Table */}
+                <table className="table-auto border-collapse border border-gray-300 shadow-md">
+                  <thead className="bg-gray-100">
+                    <tr>
+                      <th className="border border-gray-300 px-1 py-2 text-left font-bold text-orange-300">
+                        Symbol
+                      </th>
+                      <th className="border border-gray-300 px-1 py-2 text-left font-bold">
+                        Bangla
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="border px-1 py-2">/uː/</td>
+                      <td className="border px-1 py-2">ঊ (oo)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/ʌ/</td>
+                      <td className="border px-1 py-2">আ (a)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/ə/</td>
+                      <td className="border px-1 py-2">অ (ô)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/p/</td>
+                      <td className="border px-1 py-2">ফ (p)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/b/</td>
+                      <td className="border px-1 py-2">ব (b)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/t/</td>
+                      <td className="border px-1 py-2">ট (t)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/d/</td>
+                      <td className="border px-1 py-2">ড (d)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/k/</td>
+                      <td className="border px-1 py-2">খ (k)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/g/</td>
+                      <td className="border px-1 py-2">গ (g)</td>
+                    </tr>
+                    <tr>
+                      <td className="border px-1 py-2">/f/</td>
+                      <td className="border px-1 py-2">ফ (f)</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
