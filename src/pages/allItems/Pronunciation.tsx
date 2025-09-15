@@ -1,5 +1,4 @@
 // import { Link } from "react-router-dom";
-import "pdfjs-dist/build/pdf.worker.entry";
 import { useRef, useState, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
 // import frontCover from "../../../public/bookCover.jpg";
@@ -442,6 +441,10 @@ const Pronunciation = () => {
           <h2 className="text-xl font-bold ">Page 11</h2>
           <div className="">
             <p className="font-bold"> IPA (International Phonetic Alphabet) </p>
+            <p className="text-xs md:text-base">
+              প্রতিটি সিম্বলগুলো আয়ত্ব করে ফেলুন। কারণ, এ সিম্বলগুলো রপ্ত করলেই
+              শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
+            </p>
             <div className=" text-sm md:text-base">
               <div className="flex  md:flex-row gap-3 p-1 ">
                 {/* Left Table */}
@@ -523,7 +526,7 @@ const Pronunciation = () => {
                     </tr>
                     <tr>
                       <td className="border px-1 py-1">/ə/</td>
-                      <td className="border px-1 py-1">অ (ô)</td>
+                      <td className="border px-1 py-1">অ(ô)/এ/আ</td>
                     </tr>
                     <tr>
                       <td className="border px-1 py-1">/j/</td>
@@ -689,6 +692,213 @@ const Pronunciation = () => {
                   </tbody>
                 </table>
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* page13 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-2">Page 13</h2>
+          <div className="">
+            <p className="font-semibold">উচ্চারণ শেখার শর্টকাট টেকনিক</p>
+            <div className=" text-sm md:text-base">
+              <p className="">
+                Rule-1 <br />
+                শব্দের শেষে "e" থাকলে "e" এর উচ্চারণ হয়না। তবে "ee" থাকলে
+                উচ্চারিত হবে। উদাহরণ: <br />
+                Name (নেইম) নাম। <br />
+                See (সী) দেখা। <br />
+                Rule-2 <br />
+                শব্দের শুরুতে KN থাকলে তার উচ্চারণ হবে "ন" এক্ষেত্রে K
+                অনুচ্চারিত থাকে। <br />
+                Know নৌ (জানা) <br />
+                Knack ন্যাক (কৌশল/দক্ষতা) <br />
+                কিন্তু এগুলোর আগে vowel থাকলে, K উচ্চারিত হয়। যেমন: <br />
+                Acknowledge অ্যাক্সলিজ <br />
+                Rule-3
+                <br />
+                ইংরেজি শব্দের শেষে gh থাকলে তার উচ্চারণ হয় "ফ” অথবা কখনো তা
+                অনুচ্চারিত থাকে। উদাহরণ:
+                <br />
+                Tough (টাফ) কঠিন।
+                <br />
+                High (হাই) - উচ্চ।
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page14 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-2">Page 14</h2>
+          <div className="">
+            <p className="font-bold"> উচ্চারণ শেখার শর্টকাট টেকনিক</p>
+            <div className=" text-sm md:text-base">
+              <p className="">
+                Rule- 4<br />
+                word-এর শেষে 'tion' পাশাপাশি থাকলে 'শন'-এর মতো উচ্চারণ হয়। যেমন:
+                <br />
+                Nation- (নেইশন) - জাতি
+                <br />
+                Rule- 5<br />
+                M+B পর পর থাকলে এবং B এর পর কোন Vowel না থাকলে B উচ্চারিত হয় না।
+                উদাহরণ:
+                <br />
+                Bomb- (বম)- বোমা।
+                <br />
+                Rule-6
+                <br />
+                L+ M পর পর থাকলে এবং পরে vowel না থাকলে L অনুচ্চারিত থাকে।
+                উদাহরণ:
+                <br />
+                Calm- (কাম)- শান্ত।
+                <br />
+                Rule-7 word-এর মাঝামাঝি 'tu' থাকলে সাধারণত 'চ'-এর মতো উচ্চারণ
+                হয়। যেমন:
+                <br />
+                Nature- (নেইচার)- প্রকৃতি
+                <br />
+                Rule-8 <br />
+                P+ S পরপর থাকলে এবং P এর আগে কোন vowel না থাকলে P অনুচ্চারিত
+                থাকে। উদাহরণ: <br />
+                Psycho- (সাইকো)- মন।
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page15 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-2">Page 15</h2>
+          <div className="">
+            <p className="font-bold"> উচ্চারণ শেখার শর্টকাট টেকনিক</p>
+            <div className=" text-sm md:text-base">
+              <p className="">
+                Rule-9 <br />
+                Word-এর মধ্যে Mpt এর উচ্চারণে p উহ্য। এর উচ্চারণ হবে "মট্”।
+                যেমন: <br />
+                Attempt - (অ্যাটেম্‌ট্) - চেষ্টা/প্রয়াস। <br />
+                Rule-10 <br />Y সাধারণত One-syllable এর শব্দে "আই" হিসেবে
+                উচ্চারিত হয়। উদাহরণ: <br />
+                Fly -(ফ্লাই) - উড়া। <br />
+                ➡️ Two-syllable এর শব্দে Y "ই" হিসেবে উচ্চারিত হয়। <br />
+                City - (সিটি) - শহর। <br />
+                Rule-11 <br />
+                'Wh'-এর উচ্চারনে সাধারণত 'h' এর উচ্চারণ উহ্য থাকবে। যেমন: <br />
+                What (ওএ্যঅট) = কী <br />
+                কিন্তু , <br />
+                Who - (হু) - কে/কারা <br />
+                Whom - (হুম) - কাকে/কাদের
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page16 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-2">Page 16</h2>
+          <div className="">
+            <p className="font-bold"> উচ্চারণের শর্ট টেকনিক</p>
+            <div className=" text-sm md:text-base">
+              <p className="">
+                Rule-12 <br />
+                'w'-এরপর 'r' থাকলে সাধারণত 'w' উচ্চারিত হয় না। যেমন: <br />
+                Write (রাইট) - লেখা <br />
+                Rule-13 <br />
+                শব্দের শেষে /consonant+y/ থাকলে এবং তা যদি এক syllable-এ
+                উচ্চারিত হয়, তখন তার উচ্চারণ হবে বাংলা 'আই' এর মতো। যেমন: <br />
+                Fly (ফ্লাই) - উড়ানো, মাছি <br />
+                Rule-14 <br />
+                শব্দের শেষে ous থাকলে সাধারনতঃ "আস" উচ্চারিত হয়। উদাহরণ:
+                <br />
+                Delicious (ডেলিশাস) - সুস্বাদু <br />
+                Rule-15 <br />
+                Word এর শেষে IGN থাকলে তার উচ্চারণ "আইন” হয়। এ ক্ষেত্রে G
+                অনুচ্চারিত থাকে। <br />
+                Sign (সাইন) - দস্তখত <br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page17 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-2">Page 17</h2>
+          <div className="">
+            <p className="font-bold"> উচ্চারণ শেখার শর্ট টেকনিক</p>
+            <div className=" text-sm md:text-base">
+              <p className="">
+                Rule-16 <br />
+                শব্দের শেষে Sure থাকলে এর উচ্চারণ সাধারণত 'জ' হয়। উদাহরণ: <br />
+                Pleasure - প্লেজা (র) <br />
+                কিন্তু <br />
+                ➡️২টি 's' (ssure) হলে এর উচ্চারণ 'শ' হবে। <br />
+                pressure - প্রেশা(র) <br />
+                Assure - আশুআ (র) <br />
+                Rule-17 <br />
+                C এর পরে i, e, y এই তিন অক্ষর থাকলে তার উচ্চারণ হবে বাংলা
+                ছ/'স'-এর মতো হয়। যেমন: <br />
+                Cease - সিস - বিরতি; স্থগিত <br />
+                ➡️ C এর পরে i, e, y না থাকলে উচ্চারণ হবে 'ক'/'খ' এর মতো। যেমন:{" "}
+                <br />
+                Cat - ক্যাট (UK খ্যাট) - বিড়াল <br />
+                Rule-18 <br />
+                G এর পরে i, e, y এই তিন অক্ষর থাকলে তার উচ্চারণ হবে সফট্ অর্থাৎ
+                বাংলা 'জ'-এর মতো। যেমন: <br />
+                Age - এইজ - বয়স; যুগ <br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page18 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-2">Page 18</h2>
+          <div className="">
+            <p className="font-bold"> উচ্চারণের শর্ট টেকনিক</p>
+            <div className=" text-sm md:text-base">
+              <p className="">
+                ➡️G এর পরে i, e, y এই তিন অক্ষর না থাকলে তার উচ্চারণ হবে 'গ'-এর
+                মতো। যেমন: <br />
+                Again - অ্যগেন/অ্যগেইন - আবার; পুনরায় <br />
+                Rule-19 <br />
+                শব্দের শেষে que এর উচ্চারণ "ক" হয়ে থাকে। উদাহরণ: <br />
+                Cheque - (চেক) - কিস্তি, হুন্ডি। <br />
+                Rule-20 <br />
+                Consonant+ U+ Consonant এভাবে word গঠিত হলে U এর উচ্চারণ "আ" এর
+                মত হয়। উদাহরণ: <br />
+                Null - (নাল) - বাতিল <br />
+                ব্যতিক্রমঃ <br />
+                Put - (পুট) <br />
+                Rule-21 <br />
+                EA+ R+ consonant এভাবে word গঠিত হলে, EA এর উচ্চারণ "আ" হবে।
+                উদাহরণ: <br />
+                Heart -(হার্ট) - হৃদয়। <br />
+                Rule-22 <br />
+                "IO" এর উচ্চারণ সাধারণত "আইয়" হয়। উদাহরণ: <br />
+                Violet - (ভাইয়লেইট) - বেগুনী রঙ।
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page19 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-2">Page 19</h2>
+          <div className="">
+            <p className="font-bold"> উচ্চারণের শর্ট টেকনিক</p>
+            <div className=" text-sm md:text-base">
+              <p className=""></p>
+            </div>
+          </div>
+        </div>
+        {/* page20 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-2">Page 20</h2>
+          <div className="">
+            <p className="font-bold"> উচ্চারণের শর্ট টেকনিক</p>
+            <div className=" text-sm md:text-base">
+              <p className=""></p>
             </div>
           </div>
         </div>

@@ -1,7 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
 // import { Link } from "react-router-dom";
-import "pdfjs-dist/build/pdf.worker.entry";
 // import frontCover from "../../../public/bookCover.jpg";
 
 // import { Worker, Viewer } from "@react-pdf-viewer/core";

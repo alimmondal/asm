@@ -2310,5 +2310,362 @@
     "banglaPronunciation": "বৌট",
     "BengaliMeaning": "নৌকা",
     "examples": "If we take the BOAT, we will enjoy the view of the lake."
+  },
+  {
+    "word": "Body",
+    "phonetic": "/bɒdi/",
+    "banglaPronunciation": "বডি",
+    "BengaliMeaning": "দেহ",
+    "examples": "1. She EXERCISES her BODY every day."
+  },
+  {
+    "word": "Boil",
+    "phonetic": "/bɔɪl/",
+    "banglaPronunciation": "বয়ইল",
+    "BengaliMeaning": "ফুটানো",
+    "examples": "1. I BOIL the water for tea."
+  },
+  {
+    "word": "Bomb",
+    "phonetic": "/bɒm/",
+    "banglaPronunciation": "বোম",
+    "BengaliMeaning": "বোমা",
+    "examples": "1. He THREW a BOMB during the game."
+  },
+  {
+    "word": "Bond",
+    "phonetic": "/bɒnd/",
+    "banglaPronunciation": "বন্ড",
+    "BengaliMeaning": "সম্পর্ক",
+    "examples": "1. They FORM a strong BOND with their pets."
+  },
+  {
+    "word": "Bone",
+    "phonetic": "/bəʊn/",
+    "banglaPronunciation": "বৌন",
+    "BengaliMeaning": "হাড়",
+    "examples": "1. She BROKE a BONE during the game."
+  },
+  {
+    "word": "Book",
+    "phonetic": "/bʊk/",
+    "banglaPronunciation": "বুক",
+    "BengaliMeaning": "বই",
+    "examples": "1. She READS a BOOK every month."
+  },
+  {
+    "word": "Boot",
+    "phonetic": "/buːt/",
+    "banglaPronunciation": "বু:ট",
+    "BengaliMeaning": "বুট",
+    "examples": "1. He WORE his BOOT to the hiking trip."
+  },
+  {
+    "word": "Border",
+    "phonetic": "/bɔːdə/",
+    "banglaPronunciation": "বো:ড",
+    "BengaliMeaning": "সীমানা",
+    "examples": "1. They CROSSED the BORDER without any issues."
+  },
+  {
+    "word": "Bored",
+    "phonetic": "/bɔːd/",
+    "banglaPronunciation": "বো:ড",
+    "BengaliMeaning": "বিরক্ত",
+    "examples": "1. He FELT BORED during the lecture."
+  },
+  {
+    "word": "Boring",
+    "phonetic": "/ˈbɔːrɪŋ/",
+    "banglaPronunciation": "বো:রিং",
+    "BengaliMeaning": "বিরক্তিক",
+    "examples": "The movie was SO BORING that I fell asleep."
+  },
+  {
+    "word": "Born",
+    "phonetic": "/bɔːn/",
+    "banglaPronunciation": "ব:ন",
+    "BengaliMeaning": "জন্ম নেওয়া",
+    "examples": "She was BORN in a small village."
+  },
+  {
+    "word": "Borrow",
+    "phonetic": "/ˈbɒrəʊ/",
+    "banglaPronunciation": "বোরউ",
+    "BengaliMeaning": "ধার করা",
+    "examples": "Can I BORROW your pen for a moment?"
+  },
+  {
+    "word": "Boss",
+    "phonetic": "/bɒs/",
+    "banglaPronunciation": "ব:স",
+    "BengaliMeaning": "বস",
+    "examples": "My BOSS GAVE me a raise."
+  },
+  {
+    "word": "Both",
+    "phonetic": "/bəʊθ/",
+    "banglaPronunciation": "বৌথ",
+    "BengaliMeaning": "উভয়",
+    "examples": "BOTH friends came to the party."
+  },
+  {
+    "word": "Bother",
+    "phonetic": "/ˈbɒðə/",
+    "banglaPronunciation": "বদা",
+    "BengaliMeaning": "বিরক্ত করা",
+    "examples": "Don't BOTHER me while I'm working."
+  },
+  {
+    "word": "Bottle",
+    "phonetic": "/ˈbɒtl/",
+    "banglaPronunciation": "বটল",
+    "BengaliMeaning": "বোতল",
+    "examples": "She filled the BOTTLE with water."
+  },
+  {
+    "word": "Bottom",
+    "phonetic": "/ˈbɒtəm/",
+    "banglaPronunciation": "বটম",
+    "BengaliMeaning": "নিচের অংশ",
+    "examples": "The BOTTOM of the lake is muddy."
+  },
+  {
+    "word": "Bowl",
+    "phonetic": "/bəʊl/",
+    "banglaPronunciation": "বৌল",
+    "BengaliMeaning": "বাটি",
+    "examples": "She SERVED the soup in a BOWL."
+  },
+  {
+    "word": "Box",
+    "phonetic": "/bɒks/",
+    "banglaPronunciation": "বক্স",
+    "BengaliMeaning": "বাক্স",
+    "examples": "I PLACED the toys in a BOX."
+  },
+  {
+    "word": "Boy",
+    "phonetic": "/bɔɪ/",
+    "banglaPronunciation": "বয়",
+    "BengaliMeaning": "ছেলে",
+    "examples": "The BOY played soccer in the park."
+  },
+  {
+    "word": "Boyfriend",
+    "phonetic": "/ˈbɔɪfrend/",
+    "banglaPronunciation": "বয়ফ্রেন্ড",
+    "BengaliMeaning": "প্রেমিক",
+    "examples": "She introduced her BOYFRIEND to her friends."
+  },
+  {
+    "word": "Brain",
+    "phonetic": "/breɪn/",
+    "banglaPronunciation": "ব্রেইন",
+    "BengaliMeaning": "মস্তিষ্ক",
+    "examples": "She studies the human BRAIN in her research."
+  },
+  {
+    "word": "Classical",
+    "phonetic": "/ˈklæsɪkl/",
+    "banglaPronunciation": "ক্লাসিকাল",
+    "BengaliMeaning": "ক্লাসিক",
+    "examples": "She enjoys CLASSICAL music in her free time."
+  },
+  {
+    "word": "Classroom",
+    "phonetic": "/ˈklɑːsruːm/",
+    "banglaPronunciation": "ক্লা:সরু:ম",
+    "BengaliMeaning": "শ্রেণীকক্ষ",
+    "examples": "The CLASSROOM was filled with students."
+  },
+  {
+    "word": "Clause",
+    "phonetic": "/klɔːz/",
+    "banglaPronunciation": "ক্ল:জ",
+    "BengaliMeaning": "ধারা",
+    "examples": "The contract contains a CLAUSE about payment."
+  },
+  {
+    "word": "Clean",
+    "phonetic": "/kliːn/",
+    "banglaPronunciation": "ক্লি:ন",
+    "BengaliMeaning": "পরিষ্কার",
+    "examples": "She likes to keep her room CLEAN."
+  },
+  {
+    "word": "Clear",
+    "phonetic": "/klɪə/",
+    "banglaPronunciation": "ক্লিয়া",
+    "BengaliMeaning": "পরিষ্কার",
+    "examples": "The sky is CLEAR today."
+  },
+  {
+    "word": "Clearly",
+    "phonetic": "/ˈklɪəli/",
+    "banglaPronunciation": "ক্লিয়ারলি",
+    "BengaliMeaning": "স্পষ্টভাবে",
+    "examples": "He spoke CLEARLY during the presentation."
+  },
+  {
+    "word": "Clever",
+    "phonetic": "/ˈklɛvə/",
+    "banglaPronunciation": "ক্লেভার",
+    "BengaliMeaning": "চতুর",
+    "examples": "He is a CLEVER student."
+  },
+  {
+    "word": "Click",
+    "phonetic": "/klɪk/",
+    "banglaPronunciation": "ক্লিক",
+    "BengaliMeaning": "চাপ দেওয়া",
+    "examples": "Please CLICK the link to open the page."
+  },
+  {
+    "word": "Client",
+    "phonetic": "/ˈklaɪənt/",
+    "banglaPronunciation": "ক্লায়েন্ট",
+    "BengaliMeaning": "গ্রাহক",
+    "examples": "The CLIENT was satisfied with the service."
+  },
+  {
+    "word": "Climate",
+    "phonetic": "/ˈklaɪmət/",
+    "banglaPronunciation": "খলাইমিট",
+    "BengaliMeaning": "জলবায়ু",
+    "examples": "The CLIMATE is changing due to global warming."
+  },
+  {
+    "word": "Climb ",
+    "phonetic": "/klaɪm/",
+    "banglaPronunciation": "ক্লাইম",
+    "BengaliMeaning": "ওঠাই",
+    "examples": "They LOVE to CLIMB mountains on weekends."
+  },
+  {
+    "word": "Clock ",
+    "phonetic": "/klɒk/",
+    "banglaPronunciation": "ক্লক",
+    "BengaliMeaning": "ঘড়ি",
+    "examples": "The CLOCK on the wall is BROKEN."
+  },
+  {
+    "word": "Close  ",
+    "phonetic": "/kləʊz/",
+    "banglaPronunciation": "ক্লোজ",
+    "BengaliMeaning": "বন্ধ করা",
+    "examples": "Please CLOSE the door quietly."
+  },
+  {
+    "word": "Close  ",
+    "phonetic": "/kləʊs/",
+    "banglaPronunciation": "ক্লোস",
+    "BengaliMeaning": "কাছে",
+    "examples": "They live in a CLOSE community."
+  },
+  {
+    "word": "Closed ",
+    "phonetic": "/kləʊzd/",
+    "banglaPronunciation": "ক্লোজড",
+    "BengaliMeaning": "বন্ধ",
+    "examples": "The store is CLOSED on Sundays."
+  },
+  {
+    "word": "Closely ",
+    "phonetic": "/ˈkləʊsli/",
+    "banglaPronunciation": "ক্লোসলি",
+    "BengaliMeaning": "ঘনিষ্ঠভাবে",
+    "examples": "She examined the document CLOSELY."
+  },
+  {
+    "word": "Cloth ",
+    "phonetic": "/klɒθ/",
+    "banglaPronunciation": "ক্লথ",
+    "BengaliMeaning": "কাপড়",
+    "examples": "The dress is made of soft CLOTH."
+  },
+  {
+    "word": "Branch ",
+    "phonetic": "/brɑːntʃ/",
+    "banglaPronunciation": "ব্রাঞ্চ",
+    "BengaliMeaning": "শাখা",
+    "examples": "The BRANCH of the tree was heavy with fruit."
+  },
+  {
+    "word": "Brand  ",
+    "phonetic": "/brænd/",
+    "banglaPronunciation": "ব্র্যান্ড",
+    "BengaliMeaning": "ব্র্যান্ড",
+    "examples": "She prefers that BRAND of shoes."
+  },
+  {
+    "word": "Brave Adj. B1",
+    "phonetic": "/breɪv/",
+    "banglaPronunciation": "ব্রেভ",
+    "BengaliMeaning": "সাহসী",
+    "examples": "The BRAVE soldier saved his comrades."
+  },
+  {
+    "word": "Bread ",
+    "phonetic": "/bred/",
+    "banglaPronunciation": "ব্রেড",
+    "BengaliMeaning": "রুটি",
+    "examples": "I bake fresh BREAD for breakfast."
+  },
+  {
+    "word": "Break",
+    "phonetic": "/breik/",
+    "banglaPronunciation": "ব্রেইক",
+    "BengaliMeaning": "ভাঙা",
+    "examples": "Be careful not to BREAK the glass."
+  },
+  {
+    "word": "Breakfast",
+    "phonetic": "/ˈbrekfəst/",
+    "banglaPronunciation": "ব্রেকফাস্ট",
+    "BengaliMeaning": "প্রাতঃরাশ",
+    "examples": "He always eats BREAKFAST before work."
+  },
+  {
+    "word": "Breast",
+    "phonetic": "/brest/",
+    "banglaPronunciation": "ব্রেস্ট",
+    "BengaliMeaning": "বক্ষ",
+    "examples": "The BREAST of the chicken was juicy and tender."
+  },
+  {
+    "word": "Breath",
+    "phonetic": "/breθ/",
+    "banglaPronunciation": "ব্রেথ",
+    "BengaliMeaning": "শ্বাস",
+    "examples": "He took a deep BREATH before speaking."
+  },
+  {
+    "word": "Breathe",
+    "phonetic": "/briːð/",
+    "banglaPronunciation": "ব্রিদ",
+    "BengaliMeaning": "শ্বাস নেওয়া",
+    "examples": "Remember to BREATHE deeply during meditation."
+  },
+  {
+    "word": "Breathing",
+    "phonetic": "/ˈbriːðɪŋ/",
+    "banglaPronunciation": "ব্রিদিং",
+    "BengaliMeaning": "শ্বাস প্রশ্বাস",
+    "examples": "BREATHING exercises can help reduce stress."
+  },
+  {
+    "word": "Bride",
+    "phonetic": "/braid/",
+    "banglaPronunciation": "ব্রাইড",
+    "BengaliMeaning": "কনে",
+    "examples": "The BRIDE looked stunning in her wedding dress."
+  },
+  {
+    "word": "Bridge",
+    "phonetic": "/brɪdʒ/",
+    "banglaPronunciation": "ব্রিজ",
+    "BengaliMeaning": "সেতু",
+    "examples": "The BRIDGE connects two cities."
   }
 ]

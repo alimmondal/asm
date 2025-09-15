@@ -1,4 +1,3 @@
-import "pdfjs-dist/build/pdf.worker.entry";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import { useRef, useState, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
@@ -6,11 +5,10 @@ import { Document, Page, pdfjs } from "react-pdf";
 
 // Set up the real worker
 pdfjs.GlobalWorkerOptions.workerSrc = pdfWorker;
-// import { Worker, Viewer } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 
 import pdfWorker from "pdfjs-dist/build/pdf.worker.min?url"; // ✅ worker import for Vite/CRA
-import { Viewer, Worker } from "@react-pdf-viewer/core";
+// import { Viewer, Worker } from "@react-pdf-viewer/core";
 
 const StoryVocabulary = () => {
   const flipBook = useRef<any>(null);
@@ -61,17 +59,17 @@ const StoryVocabulary = () => {
   };
 
   // Function to scroll up
-  const scrollUp = () => {
-    window.scrollBy({ top: -window.innerHeight / 2, behavior: "smooth" });
-  };
+  // const scrollUp = () => {
+  //   window.scrollBy({ top: -window.innerHeight / 2, behavior: "smooth" });
+  // };
 
-  // Function to scroll down
-  const scrollDown = () => {
-    window.scrollBy({ top: window.innerHeight / 2, behavior: "smooth" });
-  };
+  // // Function to scroll down
+  // const scrollDown = () => {
+  //   window.scrollBy({ top: window.innerHeight / 2, behavior: "smooth" });
+  // };
 
   return (
-    <div className="h-full w-full lg:w-4/5 mx-auto relative">
+    <div className="w-full h-full lg:w-4/5 mx-auto relative">
       <div className="h-full flex flex-col items-center justify-center gap-1 mt-1">
         {/* 🆕 Zoom Buttons */}
         <div className="flex  gap-4 ">
@@ -90,8 +88,8 @@ const StoryVocabulary = () => {
           </button>
         </div>
 
-        <div className="flex flex-col items-center py-1">
-          <div className="w-[100%], h-[100%] ">
+        <div className="w-full flex flex-col items-center justify-center py-1">
+          <div className="">
             <Document
               file="/গল্পেগল্পেVocabulary.pdf"
               onLoadSuccess={onDocumentLoadSuccess}
@@ -106,8 +104,8 @@ const StoryVocabulary = () => {
                 className="shadow-2xl rounded-lg"
               >
                 {/* --- Cover Page --- */}
-                <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center text-center">
-                  <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center">
+                <div className="w-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center text-center">
+                  <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center gap-5 justify-center">
                     <h1 className="text-9xl">📖</h1>
                     <h1 className="text-3xl font-bold">
                       গল্পে গল্পে Vocabulary
@@ -120,14 +118,15 @@ const StoryVocabulary = () => {
                 {Array.from(new Array(numPages), (_, i) => (
                   <div
                     key={i}
-                    className="bg-white flex items-center justify-center"
+                    className="bg-white flex justify-center items-center "
                     style={{
                       width: "100%",
                       height: "100%",
-                      overflow: "hidden",
+                      //   overflow: "hidden",
                     }}
                   >
                     <div
+                      className=""
                       style={{
                         transform: `scale(${scale})`,
                         transformOrigin: "center center",
@@ -135,8 +134,7 @@ const StoryVocabulary = () => {
                     >
                       <Page
                         pageNumber={i + 1}
-                        // scale={scale}
-                        width={(dimensions.width - 40) * scale}
+                        width={dimensions.width - 40}
                         renderTextLayer={false}
                         renderAnnotationLayer={false}
                         renderMode="canvas"
@@ -159,6 +157,25 @@ const StoryVocabulary = () => {
 
           {/* Controls */}
           <div className="flex flex-col items-center gap-4 mt-6">
+            {/* Go To Page Input */}
+            <div className="flex gap-2 items-center mt-2">
+              <input
+                type="number"
+                min="0"
+                max={numPages + 1}
+                value={gotoPage}
+                onChange={(e) => setGotoPage(e.target.value)}
+                onKeyDown={(e) => e.key === "Enter" && handleGotoPage()}
+                placeholder={`0 - ${numPages + 1}`}
+                className="w-28 px-2 py-1 border rounded text-center"
+              />
+              <button
+                onClick={handleGotoPage}
+                className="px-4 py-1 bg-blue-600 text-white rounded"
+              >
+                Go
+              </button>
+            </div>
             {/* Prev / Next */}
             <div className="flex gap-4">
               <button
@@ -194,31 +211,11 @@ const StoryVocabulary = () => {
                 </button>
               ))}
             </div>
-
-            {/* Go To Page Input */}
-            <div className="flex gap-2 items-center mt-2">
-              <input
-                type="number"
-                min="0"
-                max={numPages + 1}
-                value={gotoPage}
-                onChange={(e) => setGotoPage(e.target.value)}
-                onKeyDown={(e) => e.key === "Enter" && handleGotoPage()}
-                placeholder={`0 - ${numPages + 1}`}
-                className="w-28 px-2 py-1 border rounded text-center"
-              />
-              <button
-                onClick={handleGotoPage}
-                className="px-4 py-1 bg-blue-600 text-white rounded"
-              >
-                Go
-              </button>
-            </div>
           </div>
         </div>
       </div>
 
-      <div className="py-10">
+      {/* <div className="py-10">
         <div>
           <Worker
             workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}
@@ -226,10 +223,10 @@ const StoryVocabulary = () => {
             <Viewer fileUrl="/গল্পেগল্পেVocabulary.pdf" />
           </Worker>
         </div>
-      </div>
+      </div> */}
 
       {/* Scroll Buttons */}
-      <div className="fixed right-0 top-1/2 transform -translate-y-1/2 flex flex-col gap-4 z-50">
+      {/* <div className="fixed right-0 top-1/2 transform -translate-y-1/2 flex flex-col gap-4 z-50">
         <button
           onClick={scrollUp}
           className="bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-colors focus:outline-none"
@@ -270,7 +267,7 @@ const StoryVocabulary = () => {
             />
           </svg>
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
