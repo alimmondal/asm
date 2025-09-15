@@ -1610,5 +1610,705 @@
     "banglaPronunciation": "ওথ:রিটি/অথরিটি",
     "BengaliMeaning": "কর্তৃপক্ষ",
     "examples": "The organization has been gaining AUTHORITY in the field."
+  },
+  {
+    "word": "Autumn ",
+    "phonetic": "/ˈɔːtəm/",
+    "banglaPronunciation": "ও:টাম/অটাম",
+    "BengaliMeaning": "শরৎ",
+    "examples": "When it is AUTUMN, the leaves change color."
+  },
+  {
+    "word": "Available ",
+    "phonetic": "/əˈveɪləbl/",
+    "banglaPronunciation": "আ'ভেইলবল/অ্যাভেইলবল",
+    "BengaliMeaning": "উপলব্ধ/থাকা",
+    "examples": "If the information is AVAILABLE, we share it."
+  },
+  {
+    "word": "Average ",
+    "phonetic": "/ˈævərɪdʒ/",
+    "banglaPronunciation": "অ্যাভারিজ",
+    "BengaliMeaning": "গড়",
+    "examples": "If you calculate the total, you find the AVERAGE."
+  },
+  {
+    "word": "Avoid ",
+    "phonetic": "/əˈvɔɪd/",
+    "banglaPronunciation": "আ'ভয়ইড/অ্যাভয়েড",
+    "BengaliMeaning": "এড়ানো",
+    "examples": "If you AVOID sugar, you lose weight."
+  },
+  {
+    "word": "Award ",
+    "phonetic": "/əˈwɔːd/",
+    "banglaPronunciation": "আ'ওয়াড/অ্যা'ওয়ার্ড",
+    "BengaliMeaning": "পুরস্কার",
+    "examples": "If you win the AWARD, you receive a trophy."
+  },
+  {
+    "word": "Aware ",
+    "phonetic": "/əˈweə/",
+    "banglaPronunciation": "আওয়েয়া/আওয়্যা",
+    "BengaliMeaning": "সচেতন",
+    "examples": "If they are AWARE of the rules, they follow them."
+  },
+  {
+    "word": "Away ",
+    "phonetic": "/əˈweɪ/",
+    "banglaPronunciation": "আওয়েই/আওয়য়ে",
+    "BengaliMeaning": "দূরে",
+    "examples": "If you go AWAY, you will miss the event."
+  },
+  {
+    "word": "Awful ",
+    "phonetic": "/ˈɔːfl/",
+    "banglaPronunciation": "ও:ফল",
+    "BengaliMeaning": "ভয়ংকর",
+    "examples": "If the food tastes AWFUL, we don't eat it."
+  },
+  {
+    "word": "Baby ",
+    "phonetic": "/ˈbeɪbi/",
+    "banglaPronunciation": "বেইবি",
+    "BengaliMeaning": "শিশু",
+    "examples": "If a BABY is hungry, it cries."
+  },
+  {
+    "word": "Back ",
+    "phonetic": "/bæk/",
+    "banglaPronunciation": "ব্যাক",
+    "BengaliMeaning": "পিছনে",
+    "examples": "If you fall BACK, you might hurt yourself."
+  },
+  {
+    "word": "Background ",
+    "phonetic": "/ˈbækɡraʊnd/",
+    "banglaPronunciation": "ব্যাকগ্রাউন্ড",
+    "BengaliMeaning": "পটভূমি",
+    "examples": "If you have a strong BACKGROUND, you excel in interviews."
+  },
+  {
+    "word": "Backwards",
+    "phonetic": "/ˈbækwədz/",
+    "banglaPronunciation": "ব্যাকওয়ার্ডজ",
+    "BengaliMeaning": "পিছনে",
+    "examples": "If you walk BACKWARDS, you might trip."
+  },
+  {
+    "word": "Bacteria ",
+    "phonetic": "/bækˈtɪəriə/",
+    "banglaPronunciation": "ব্যাকটিয়ারিয়া",
+    "BengaliMeaning": "ব্যাকটেরিয়া",
+    "examples": "If there are harmful BACTERIA, they can cause sickness."
+  },
+  {
+    "word": "Bad Adj. A1",
+    "phonetic": "/bæd/",
+    "banglaPronunciation": "ব্যাড",
+    "BengaliMeaning": "খারাপ",
+    "examples": "If the weather is BAD, we stay indoors."
+  },
+  {
+    "word": "Badly ",
+    "phonetic": "/ˈbædli/",
+    "banglaPronunciation": "ব্যাডলি",
+    "BengaliMeaning": "খারাপভাবে",
+    "examples": "If you play BADLY, you lose the game."
+  },
+  {
+    "word": "Bag",
+    "phonetic": "/bæɡ/",
+    "banglaPronunciation": "ব্যাগ",
+    "BengaliMeaning": "ব্যাগ",
+    "examples": "1. ZERO CONDITIONAL: If you carry a BAG, it holds your belongings."
+  },
+  {
+    "word": "Bake ",
+    "phonetic": "/beɪk/",
+    "banglaPronunciation": "বেইক",
+    "BengaliMeaning": "সেঁকা",
+    "examples": "If you BAKE bread, it smells delicious."
+  },
+  {
+    "word": "Balance ",
+    "phonetic": "/ˈbæləns/",
+    "banglaPronunciation": "ব্যালান্স",
+    "BengaliMeaning": "ভারসাম্য",
+    "examples": "If you maintain your BALANCE, you stay upright."
+  },
+  {
+    "word": "Ball ",
+    "phonetic": "/bɔːl/",
+    "banglaPronunciation": "বল",
+    "BengaliMeaning": "বল",
+    "examples": "If you throw a BALL, it rolls."
+  },
+  {
+    "word": "Ban",
+    "phonetic": "/bæn/",
+    "banglaPronunciation": "ব্যান",
+    "BengaliMeaning": "নিষিদ্ধ করা",
+    "examples": "1. ZERO CONDITIONAL: If there is a BAN on smoking, people cannot smoke."
+  },
+  {
+    "word": "Banana ",
+    "phonetic": "/bəˈnɑːnə/",
+    "banglaPronunciation": "ব্যানানা",
+    "BengaliMeaning": "কলা",
+    "examples": "If you peel a BANANA, it turns brown quickly."
+  },
+  {
+    "word": "Band ",
+    "phonetic": "/bænd/",
+    "banglaPronunciation": "ব্যান্ড",
+    "BengaliMeaning": "ব্যান্ড",
+    "examples": "If the BAND plays, everyone dances."
+  },
+  {
+    "word": "Bank (Money)",
+    "phonetic": "/bæŋk/",
+    "banglaPronunciation": "ব্যাংক",
+    "BengaliMeaning": "ব্যাংক",
+    "examples": "If you deposit money in the BANK, it is secure."
+  },
+  {
+    "word": "Bank (River) ",
+    "phonetic": "/bæŋk/",
+    "banglaPronunciation": "ব্যাংক",
+    "BengaliMeaning": "তীর",
+    "examples": "If you walk along the BANK, you can see many birds."
+  },
+  {
+    "word": "Bar ",
+    "phonetic": "/bɑː/",
+    "banglaPronunciation": "বা",
+    "BengaliMeaning": "বার",
+    "examples": "If you go to the BAR, you can order drinks."
+  },
+  {
+    "word": "Barrier",
+    "phonetic": "/ˈbæriə/",
+    "banglaPronunciation": "ব্যারিয়া",
+    "BengaliMeaning": "বাধা",
+    "examples": "If there is a BARRIER, you cannot cross it."
+  },
+  {
+    "word": "Base",
+    "phonetic": "/beɪs/",
+    "banglaPronunciation": "বেইস",
+    "BengaliMeaning": "ভিত্তি",
+    "examples": "If you BASE your decision on facts, it is usually better."
+  },
+  {
+    "word": "Baseball",
+    "phonetic": "/ˈbeɪs.bɔːl/",
+    "banglaPronunciation": "বেইসবল",
+    "BengaliMeaning": "বেসবল",
+    "examples": "If it is sunny, we play BASEBALL outside."
+  },
+  {
+    "word": "Based",
+    "phonetic": "/beɪst/",
+    "banglaPronunciation": "বেইস্ট",
+    "BengaliMeaning": "ভিত্তিক",
+    "examples": "If the project is BASED on research, it usually succeeds."
+  },
+  {
+    "word": "Basic",
+    "phonetic": "/ˈbeɪsɪk/",
+    "banglaPronunciation": "বেইসিক",
+    "BengaliMeaning": "মৌলিক",
+    "examples": "If you learn the BASIC rules, you can play the game."
+  },
+  {
+    "word": "Basically",
+    "phonetic": "/ˈbeɪsɪkli/",
+    "banglaPronunciation": "বেইসিকলি",
+    "BengaliMeaning": "মূলত",
+    "examples": "If you understand the concept, you BASICALLY know the topic."
+  },
+  {
+    "word": "Basis",
+    "phonetic": "/'beisis/",
+    "banglaPronunciation": "বেইসিস",
+    "BengaliMeaning": "ভিত্তি",
+    "examples": "If you have a strong BASIS, your argument stands firm."
+  },
+  {
+    "word": "Basketball ",
+    "phonetic": "/'ba:skitbɔ:l/",
+    "banglaPronunciation": "বাস্কেটবল",
+    "BengaliMeaning": "বাস্কেটবল",
+    "examples": "If you play BASKETBALL, you need a ball and hoop."
+  },
+  {
+    "word": "Bath",
+    "phonetic": "/ba:θ/",
+    "banglaPronunciation": "বাথ",
+    "BengaliMeaning": "গোসল",
+    "examples": "If you take a BATH, you feel relaxed."
+  },
+  {
+    "word": "Bathroom",
+    "phonetic": "/'ba:θru:m/",
+    "banglaPronunciation": "বাথরুম",
+    "BengaliMeaning": "বাথরুম",
+    "examples": "If the BATHROOM is clean, it smells fresh."
+  },
+  {
+    "word": "Battery",
+    "phonetic": "/'bætəri/",
+    "banglaPronunciation": "ব্যাটারি",
+    "BengaliMeaning": "ব্যাটারি",
+    "examples": "If the BATTERY is low, the device stops working."
+  },
+  {
+    "word": "Battle ",
+    "phonetic": "/'bæt.əl/",
+    "banglaPronunciation": "ব্যাট.ল",
+    "BengaliMeaning": "যুদ্ধ",
+    "examples": "If there is a BATTLE, soldiers fight for their cause."
+  },
+  {
+    "word": "Be V., Auxiliary V. A1",
+    "phonetic": "/bi:/",
+    "banglaPronunciation": "বি:",
+    "BengaliMeaning": "হওয়া",
+    "examples": "If you BE kind, people appreciate it."
+  },
+  {
+    "word": "Beach",
+    "phonetic": "/bi:tʃ/",
+    "banglaPronunciation": "বী:চ",
+    "BengaliMeaning": "সৈকত",
+    "examples": "If it is hot, people go to the BEACH."
+  },
+  {
+    "word": "Bean",
+    "phonetic": "/bi:n/",
+    "banglaPronunciation": "বি:ন",
+    "BengaliMeaning": "বিন",
+    "examples": "If you plant a BEAN, it grows into a plant."
+  },
+  {
+    "word": "Bear (Deal With)",
+    "phonetic": "/beə/",
+    "banglaPronunciation": "বেয়া",
+    "BengaliMeaning": "সহ্য করা",
+    "examples": "If you BEAR the burden, you grow stronger."
+  },
+  {
+    "word": "Bear (Animal)",
+    "phonetic": "/beə/",
+    "banglaPronunciation": "বেয়া",
+    "BengaliMeaning": "ভালুক",
+    "examples": "If it is autumn, the BEAR hibernates."
+  },
+  {
+    "word": "Beat ",
+    "phonetic": "/bi:t/",
+    "banglaPronunciation": "বি:ট",
+    "BengaliMeaning": "হারানো",
+    "examples": "If you BEAT the egg, it becomes fluffy."
+  },
+  {
+    "word": "Beautiful",
+    "phonetic": "/'bju:tɪfəl/",
+    "banglaPronunciation": "বিউ:টিফল",
+    "BengaliMeaning": "সুন্দর",
+    "examples": "If the weather is BEAUTIFUL, we go outside."
+  },
+  {
+    "word": "Beauty N. B1",
+    "phonetic": "/'bju:ti/",
+    "banglaPronunciation": "বিউটি",
+    "BengaliMeaning": "সৌন্দর্য",
+    "examples": "If you appreciate BEAUTY, you notice details."
+  },
+  {
+    "word": "Because Con J. A1",
+    "phonetic": "/bɪˈkɔz/",
+    "banglaPronunciation": "বিকজ",
+    "BengaliMeaning": "কারণ",
+    "examples": "If it rains, we stay inside BECAUSE we don't want to get wet."
+  },
+  {
+    "word": "Become V. A1",
+    "phonetic": "/bɪˈkʌm/",
+    "banglaPronunciation": "বিকাম",
+    "BengaliMeaning": "হয়ে উঠা",
+    "examples": "If you study hard, you BECOME smarter."
+  },
+  {
+    "word": "Bed N. A1",
+    "phonetic": "/bɛd/",
+    "banglaPronunciation": "বেড",
+    "BengaliMeaning": "বিছানা",
+    "examples": "If you are tired, you go to BED."
+  },
+  {
+    "word": "Bedroom N. A1",
+    "phonetic": "/ˈbɛdruːm/",
+    "banglaPronunciation": "বেডরু:ম",
+    "BengaliMeaning": "শয়নকক্ষ",
+    "examples": "If the BEDROOM is clean, it feels more comfortable."
+  },
+  {
+    "word": "Bee N. B1",
+    "phonetic": "/biː/",
+    "banglaPronunciation": "বি:",
+    "BengaliMeaning": "মৌমাছি",
+    "examples": "If a BEE stings you, it hurts."
+  },
+  {
+    "word": "Beef",
+    "phonetic": "/bi:f/",
+    "banglaPronunciation": "বি:ফ",
+    "BengaliMeaning": "গরুর মাংস",
+    "examples": "If we cook the BEEF properly, it will taste great."
+  },
+  {
+    "word": "Beer ",
+    "phonetic": "/biə/",
+    "banglaPronunciation": "বিয়া",
+    "BengaliMeaning": "বিয়ার",
+    "examples": "If it is hot, I will drink a cold BEER."
+  },
+  {
+    "word": "Before ",
+    "phonetic": "/bɪˈfɔː/",
+    "banglaPronunciation": "বি'ফোর:",
+    "BengaliMeaning": "আগে",
+    "examples": "If you finish your work BEFORE dinner, we can go out."
+  },
+  {
+    "word": "Beg ",
+    "phonetic": "/bɛɡ/",
+    "banglaPronunciation": "বেগ",
+    "BengaliMeaning": "ভিক্ষা করা",
+    "examples": "If I BEG for help, he will assist me."
+  },
+  {
+    "word": "Begin ",
+    "phonetic": "/bɪˈɡɪn/",
+    "banglaPronunciation": "বি'গিন",
+    "BengaliMeaning": "শুরু করা",
+    "examples": "If the meeting starts on time, we will BEGIN promptly."
+  },
+  {
+    "word": "Beginning",
+    "phonetic": "/bɪˈgɪnɪŋ/",
+    "banglaPronunciation": "বি'গিনিং",
+    "BengaliMeaning": "শুরু",
+    "examples": "If we reach the BEGINNING of the path, we will find the sign."
+  },
+  {
+    "word": "Behave ",
+    "phonetic": "/bɪˈheɪv/",
+    "banglaPronunciation": "বি'হেইভ",
+    "BengaliMeaning": "আচরণ করা",
+    "examples": "If you BEHAVE well, you will get a reward."
+  },
+  {
+    "word": "Behaviour N. A2",
+    "phonetic": "/bɪˈheɪvjə/",
+    "banglaPronunciation": "বি'হেইভিয়া",
+    "BengaliMeaning": "আচরণ",
+    "examples": "If your BEHAVIOUR improves, you will be more successful."
+  },
+  {
+    "word": "Behind ",
+    "phonetic": "/bɪˈhaɪnd/",
+    "banglaPronunciation": "বি'হাইন্ড",
+    "BengaliMeaning": "পেছনে",
+    "examples": "If you look BEHIND you, you might see something interesting."
+  },
+  {
+    "word": "Being ",
+    "phonetic": "/ˈbiːɪŋ/",
+    "banglaPronunciation": "বি:ইং",
+    "BengaliMeaning": "বীর, অস্তিত্ব",
+    "examples": "If you focus on BEING kind, you will attract good people."
+  },
+  {
+    "word": "Belief",
+    "phonetic": "/bɪˈliːf/",
+    "banglaPronunciation": "বি'লি:ফ",
+    "BengaliMeaning": "বিশ্বাস",
+    "examples": "If your BELIEF is strong, you will succeed."
+  },
+  {
+    "word": "Believe ",
+    "phonetic": "/bɪˈliːv/",
+    "banglaPronunciation": "বি'লি:ভ",
+    "BengaliMeaning": "বিশ্বাস করা",
+    "examples": "If you BELIEVE in yourself, you can achieve great things."
+  },
+  {
+    "word": "Bell ",
+    "phonetic": "/bel/",
+    "banglaPronunciation": "বেল",
+    "BengaliMeaning": "ঘন্টা",
+    "examples": "If I ring the BELL, everyone will come."
+  },
+  {
+    "word": "Belong ",
+    "phonetic": "/bɪˈlɒŋ/",
+    "banglaPronunciation": "বি'লং",
+    "BengaliMeaning": "অন্তর্গত হওয়া",
+    "examples": "If you feel like you BELONG, you will be happier."
+  },
+  {
+    "word": "Below ",
+    "phonetic": "/bɪˈləʊ/",
+    "banglaPronunciation": "বি'লৌ",
+    "BengaliMeaning": "নীচে",
+    "examples": "If the temperature drops BELOW freezing, the water will freeze."
+  },
+  {
+    "word": "Belt ",
+    "phonetic": "/bɛlt/",
+    "banglaPronunciation": "বেল্ট",
+    "BengaliMeaning": "বেল্ট",
+    "examples": "If you wear a BELT, your pants will fit better."
+  },
+  {
+    "word": "Bend",
+    "phonetic": "/bɛnd/",
+    "banglaPronunciation": "বেন্ড",
+    "BengaliMeaning": "বাঁকানো",
+    "examples": "If you BEND the wire, it will break."
+  },
+  {
+    "word": "Benefit ",
+    "phonetic": "/ˈbenɪfɪt/",
+    "banglaPronunciation": "বেনিফিট",
+    "BengaliMeaning": "উপকারিতা",
+    "examples": "If you exercise, you will BENEFIT your health."
+  },
+  {
+    "word": "Bent ",
+    "phonetic": "/bent/",
+    "banglaPronunciation": "বেন্ট",
+    "BengaliMeaning": "বাঁকা",
+    "examples": "If the metal is BENT, it can lose its strength."
+  },
+  {
+    "word": "Best ",
+    "phonetic": "/best/",
+    "banglaPronunciation": "বেস্ট",
+    "BengaliMeaning": "সেরা",
+    "examples": "If you try your BEST, you will succeed."
+  },
+  {
+    "word": "Bet ",
+    "phonetic": "/bet/",
+    "banglaPronunciation": "বেট",
+    "BengaliMeaning": "বাজি",
+    "examples": "If you BET wisely, you might win."
+  },
+  {
+    "word": "Better ",
+    "phonetic": "/ˈbetə/",
+    "banglaPronunciation": "বেটা",
+    "BengaliMeaning": "ভালো",
+    "examples": "If you practice, you will do BETTER next time."
+  },
+  {
+    "word": "Between ",
+    "phonetic": "/bɪˈtwiːn/",
+    "banglaPronunciation": "বি'টুই:ন",
+    "BengaliMeaning": "মাঝে",
+    "examples": "If you sit BETWEEN us, you will hear better."
+  },
+  {
+    "word": "Beyond",
+    "phonetic": "/bɪˈjɒnd/",
+    "banglaPronunciation": "বি'য়ন্ড",
+    "BengaliMeaning": "বিয়ন্ড, পার",
+    "examples": "If we go BEYOND the hill, we will find a hidden lake."
+  },
+  {
+    "word": "Bicycle ",
+    "phonetic": "/ˈbaɪsɪkəl/",
+    "banglaPronunciation": "বাইসাইকল",
+    "BengaliMeaning": "সাইকেল",
+    "examples": "If I ride my BICYCLE, I will enjoy the fresh air."
+  },
+  {
+    "word": "Big ",
+    "phonetic": "/bɪɡ/",
+    "banglaPronunciation": "বিগ",
+    "BengaliMeaning": "বড়",
+    "examples": "If you eat a BIG meal, you will feel full."
+  },
+  {
+    "word": "Bike ",
+    "phonetic": "/baɪk/",
+    "banglaPronunciation": "বাইক",
+    "BengaliMeaning": "বাইক",
+    "examples": "If it is sunny, I will ride my BIKE to the park."
+  },
+  {
+    "word": "Bill",
+    "phonetic": "/bɪl/",
+    "banglaPronunciation": "বিল",
+    "BengaliMeaning": "বিল",
+    "examples": "If I receive the BILL, I will pay it immediately."
+  },
+  {
+    "word": "Billion ",
+    "phonetic": "/ˈbɪljən/",
+    "banglaPronunciation": "বিলইয়ান",
+    "BengaliMeaning": "বিলিয়ন",
+    "examples": "If the company earns a BILLION dollars, they will expand."
+  },
+  {
+    "word": "Bin",
+    "phonetic": "/bɪn/",
+    "banglaPronunciation": "বিন",
+    "BengaliMeaning": "বিন",
+    "examples": "If you throw your trash in the BIN, it will be recycled."
+  },
+  {
+    "word": "Biology ",
+    "phonetic": "/baɪˈɒlədʒi/",
+    "banglaPronunciation": "বায়োলজি",
+    "BengaliMeaning": "জীববিদ্যা",
+    "examples": "If you study BIOLOGY, you will learn about living organisms."
+  },
+  {
+    "word": "Bird ",
+    "phonetic": "/bɜːd/",
+    "banglaPronunciation": "বা:ড",
+    "BengaliMeaning": "পাখি",
+    "examples": "If you feed the BIRD, it will come to you."
+  },
+  {
+    "word": "Birth ",
+    "phonetic": "/bɜːθ/",
+    "banglaPronunciation": "বা:থ",
+    "BengaliMeaning": "জন্ম",
+    "examples": "If the BIRTH is successful, everyone will celebrate."
+  },
+  {
+    "word": "Birthday",
+    "phonetic": "/ˈbɜːθdeɪ/",
+    "banglaPronunciation": "বা:থডে",
+    "BengaliMeaning": "জন্মদিন",
+    "examples": "If it's your BIRTHDAY, we will throw a party."
+  },
+  {
+    "word": "Biscuit ",
+    "phonetic": "/ˈbɪskɪt/",
+    "banglaPronunciation": "বিস্কিট",
+    "BengaliMeaning": "বিস্কুট",
+    "examples": "If you bake a BISCUIT, it will smell delicious."
+  },
+  {
+    "word": "Bit ",
+    "phonetic": "/bɪt/",
+    "banglaPronunciation": "বিট",
+    "BengaliMeaning": "ছোট অংশ",
+    "examples": "If you take a BIT of chocolate, you will feel happy."
+  },
+  {
+    "word": "Bite ",
+    "phonetic": "/baɪt/",
+    "banglaPronunciation": "বাইট",
+    "BengaliMeaning": "মুখে কামড়/দেওয়া",
+    "examples": "If you take a BITE, it will taste sweet."
+  },
+  {
+    "word": "Bitter",
+    "phonetic": "/ˈbɪtə/",
+    "banglaPronunciation": "বিটা",
+    "BengaliMeaning": "তিক্ত",
+    "examples": "If the coffee is BITTER, you can add sugar."
+  },
+  {
+    "word": "Black ",
+    "phonetic": "/blæk/",
+    "banglaPronunciation": "ব্ল্যাক",
+    "BengaliMeaning": "কালো",
+    "examples": "If you wear BLACK, it will match with everything."
+  },
+  {
+    "word": "Blame ",
+    "phonetic": "/bleɪm/",
+    "banglaPronunciation": "ব্লেইম",
+    "BengaliMeaning": "দোষারোপ করা",
+    "examples": "If you BLAME others, they will not trust you."
+  },
+  {
+    "word": "Blank ",
+    "phonetic": "/blæŋk/",
+    "banglaPronunciation": "ব্ল্যাঙ্ক",
+    "BengaliMeaning": "খালি",
+    "examples": "If you leave a page BLANK, it can be filled later."
+  },
+  {
+    "word": "Blind ",
+    "phonetic": "/blaɪnd/",
+    "banglaPronunciation": "ব্লাইন্ড",
+    "BengaliMeaning": "অন্ধ",
+    "examples": "If you are BLIND to the truth, you will miss important details."
+  },
+  {
+    "word": "Block ",
+    "phonetic": "/blɒk/",
+    "banglaPronunciation": "ব্লক",
+    "BengaliMeaning": "ব্লক",
+    "examples": "If you BLOCK the road, no one can pass."
+  },
+  {
+    "word": "Blog ",
+    "phonetic": "/blɒɡ/",
+    "banglaPronunciation": "ব্লগ",
+    "BengaliMeaning": "ব্লগ",
+    "examples": "If you start a BLOG, you will share your ideas with the world."
+  },
+  {
+    "word": "Blonde ",
+    "phonetic": "/blɒnd/",
+    "banglaPronunciation": "ব্লন্ড",
+    "BengaliMeaning": "শ্যামল",
+    "examples": "If you dye your BLONDE hair, it will require maintenance."
+  },
+  {
+    "word": "Blood",
+    "phonetic": "/blʌd/",
+    "banglaPronunciation": "ব্লাড",
+    "BengaliMeaning": "রক্ত",
+    "examples": "If you donate BLOOD, you can save lives."
+  },
+  {
+    "word": "Blow ",
+    "phonetic": "/bləʊ/",
+    "banglaPronunciation": "ব্লৌ",
+    "BengaliMeaning": "ফুঁ দেওয়া",
+    "examples": "If you BLOW on the soup, it will cool down."
+  },
+  {
+    "word": "Blue ",
+    "phonetic": "/bluː/",
+    "banglaPronunciation": "ব্লু",
+    "BengaliMeaning": "নীল",
+    "examples": "If you wear BLUE, you will look calm and collected."
+  },
+  {
+    "word": "Board N. A2, V. B1",
+    "phonetic": "/bɔːd/",
+    "banglaPronunciation": "বোড ",
+    "BengaliMeaning": "বোর্ড",
+    "examples": "If you BOARD the plane early, you will find space for your luggage."
+  },
+  {
+    "word": "Boat ",
+    "phonetic": "/bəʊt/",
+    "banglaPronunciation": "বৌট",
+    "BengaliMeaning": "নৌকা",
+    "examples": "If we take the BOAT, we will enjoy the view of the lake."
   }
 ]
