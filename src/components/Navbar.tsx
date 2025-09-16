@@ -219,11 +219,11 @@ const Navbar = () => {
               </Link>
             )}
             <div className="avatar">
-              <div className="w-11 rounded-full border-2 border-white">
+              <div className="w-11 rounded-full border-2 border-white animate-pulse">
                 <ul className="flex items-center justify-center gap-2">
-                  <li className=" p-2  hover:text-rose-500 transition-all">
+                  <li className="p-2  hover:text-rose-500 transition-all">
                     <a href="tel:+8801751337773">
-                      <MdLocalPhone size={25} className="LogoIcon" />
+                      <MdLocalPhone size={25} className="" />
                     </a>
                   </li>
                 </ul>

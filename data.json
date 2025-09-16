@@ -2667,5 +2667,348 @@
     "banglaPronunciation": "ব্রিজ",
     "BengaliMeaning": "সেতু",
     "examples": "The BRIDGE connects two cities."
+  },
+  {
+    "word": "BRIEF",
+    "phonetic": "/bri:f/",
+    "banglaPronunciation": "ব্রি:ফ",
+    "BengaliMeaning": "সংক্ষিপ্ত",
+    "examples": "The meeting was BRIEF."
+  },
+  {
+    "word": "BRIGHT",
+    "phonetic": "/brait/",
+    "banglaPronunciation": "ব্রাইট",
+    "BengaliMeaning": "উজ্জ্বল",
+    "examples": "The sun is very BRIGHT today."
+  },
+  {
+    "word": "BRILLIANT",
+    "phonetic": "/briljənt/",
+    "banglaPronunciation": "ব্রিলিইয়ান্ট",
+    "BengaliMeaning": "উজ্জ্বল",
+    "examples": "He is a BRILLIANT student."
+  },
+  {
+    "word": "BRING ",
+    "phonetic": "/briŋ/",
+    "banglaPronunciation": "ব্রিং",
+    "BengaliMeaning": "নিয়ে আসা",
+    "examples": "Please BRING your book."
+  },
+  {
+    "word": "BROAD ",
+    "phonetic": "/brɔ:d/",
+    "banglaPronunciation": "ব্র:ড",
+    "BengaliMeaning": "প্রশস্ত",
+    "examples": "The river is very BROAD here."
+  },
+  {
+    "word": "BROADCAST",
+    "phonetic": "/brɔ:dkɑ:st/",
+    "banglaPronunciation": "ব্রডকা:স্ট",
+    "BengaliMeaning": "সম্প্রচার করা",
+    "examples": "They will BROADCAST the event live."
+  },
+  {
+    "word": "BROKEN ",
+    "phonetic": "/brəʊkən/",
+    "banglaPronunciation": "ব্রউকেন",
+    "BengaliMeaning": "ভাঙ্গা",
+    "examples": "The vase is BROKEN. "
+  },
+  {
+    "word": "BROTHER",
+    "phonetic": "/brʌðə/",
+    "banglaPronunciation": "ব্রাদা",
+    "BengaliMeaning": "ভাই",
+    "examples": "My BROTHER is very funny."
+  },
+  {
+    "word": "BROWN",
+    "phonetic": "/braʊn/",
+    "banglaPronunciation": "ব্রাউন",
+    "BengaliMeaning": "বাদামী",
+    "examples": "The dog is BROWN."
+  },
+  {
+    "word": "BRUSH 2",
+    "phonetic": "/brʌʃ/",
+    "banglaPronunciation": "ব্রাশ",
+    "BengaliMeaning": "ব্রাশ",
+    "examples": "I will BRUSH my hair."
+  },
+  {
+    "word": "BUBBLE ",
+    "phonetic": "/bʌbl/",
+    "banglaPronunciation": "বাবল",
+    "BengaliMeaning": "বুদ্বুদ",
+    "examples": "A BUBBLE popped loudly."
+  },
+  {
+    "word": "BUDGET",
+    "phonetic": "/bʌdʒɪt/",
+    "banglaPronunciation": "বাজিট",
+    "BengaliMeaning": "বাজেট",
+    "examples": "We need to create a BUDGET."
+  },
+  {
+    "word": "BUILD",
+    "phonetic": "/bɪld/",
+    "banglaPronunciation": "বিল্ড",
+    "BengaliMeaning": "নির্মাণ করা",
+    "examples": "They will BUILD a new house."
+  },
+  {
+    "word": "BUILDING",
+    "phonetic": "/bɪldɪŋ/",
+    "banglaPronunciation": "বিল্ডিং",
+    "BengaliMeaning": "ভবন",
+    "examples": "That BUILDING is tall."
+  },
+  {
+    "word": "BULLET",
+    "phonetic": "/bʊlɪt/",
+    "banglaPronunciation": "বুলিট",
+    "BengaliMeaning": "গুলি",
+    "examples": "The BULLET was found at the crime scene."
+  },
+  {
+    "word": "BUNCH",
+    "phonetic": "/bʌntʃ/",
+    "banglaPronunciation": "বানচ",
+    "BengaliMeaning": "গুচ্ছ",
+    "examples": "She bought a BUNCH of grapes."
+  },
+  {
+    "word": "BURN ",
+    "phonetic": "/bɜːn/",
+    "banglaPronunciation": "বা:ন",
+    "BengaliMeaning": "পোড়ানো",
+    "examples": "Be careful not to BURN your hand."
+  },
+  {
+    "word": "BURY ",
+    "phonetic": "/beri/",
+    "banglaPronunciation": "বেরি",
+    "BengaliMeaning": "কবর দেওয়া",
+    "examples": "They will BURY the time capsule."
+  },
+  {
+    "word": "BUS",
+    "phonetic": "/bʌs/",
+    "banglaPronunciation": "বাস",
+    "BengaliMeaning": "বাস",
+    "examples": "The BUS is late."
+  },
+  {
+    "word": "BUSH",
+    "phonetic": "/bʊʃ/",
+    "banglaPronunciation": "বুশ",
+    "BengaliMeaning": "ঝোপঝাড়",
+    "examples": "The BUSH is full of berries."
+  },
+  {
+    "word": "BUSINESS N. A1",
+    "phonetic": "/bɪznəs/",
+    "banglaPronunciation": "বিজনস",
+    "BengaliMeaning": "ব্যবসা",
+    "examples": "She runs a small BUSINESS."
+  },
+  {
+    "word": "BUSINESSMAN",
+    "phonetic": "/bɪznɪsmən/",
+    "banglaPronunciation": "বিজনিসম্যান",
+    "BengaliMeaning": "ব্যবসায়ী",
+    "examples": "He is a successful BUSINESSMAN."
+  },
+  {
+    "word": "BUSY",
+    "phonetic": "/bɪzi/",
+    "banglaPronunciation": "বিজি",
+    "BengaliMeaning": "ব্যস্ত",
+    "examples": "I am BUSY right now."
+  },
+  {
+    "word": "BUT",
+    "phonetic": "/bʌt/",
+    "banglaPronunciation": "বাট",
+    "BengaliMeaning": "কিন্তু",
+    "examples": "I like tea, BUT I prefer coffee. She is smart, BUT she is also humble."
+  },
+  {
+    "word": "BUTTER",
+    "phonetic": "/bʌtə/",
+    "banglaPronunciation": "বাটা",
+    "BengaliMeaning": "মাখন",
+    "examples": "She spread BUTTER on her toast. "
+  },
+  {
+    "word": "BUTTON",
+    "phonetic": "/bʌtn/",
+    "banglaPronunciation": "বাটন",
+    "BengaliMeaning": "বোতাম",
+    "examples": "I need a new BUTTON for my shirt."
+  },
+  {
+    "word": "BUY",
+    "phonetic": "/bai/",
+    "banglaPronunciation": "বাই",
+    "BengaliMeaning": "কেনা",
+    "examples": "I want to BUY a new car. "
+  },
+  {
+    "word": "BY",
+    "phonetic": "/bai/",
+    "banglaPronunciation": "বাই",
+    "BengaliMeaning": "দ্বারা",
+    "examples": "The book is BY my favorite author."
+  },
+  {
+    "word": "BYE",
+    "phonetic": "/bai/",
+    "banglaPronunciation": "বাই",
+    "BengaliMeaning": "বিদায়",
+    "examples": "We waved BYE, and I felt sad."
+  },
+  {
+    "word": "CABLE",
+    "phonetic": "/keɪbl/",
+    "banglaPronunciation": "খেইবল",
+    "BengaliMeaning": "ক্যাবল",
+    "examples": "The CABLE is too short to reach the outlet."
+  },
+  {
+    "word": "CAFE",
+    "phonetic": "/kæˈfeɪ/",
+    "banglaPronunciation": "ক্যাফেই",
+    "BengaliMeaning": "ক্যাফে",
+    "examples": "We met at the CAFE for coffee."
+  },
+  {
+    "word": "CAKE",
+    "phonetic": "/keɪk/",
+    "banglaPronunciation": "খেইক",
+    "BengaliMeaning": "কেক",
+    "examples": "She baked a chocolate CAKE."
+  },
+  {
+    "word": "CALCULATE",
+    "phonetic": "/kælkjʊleɪt/",
+    "banglaPronunciation": "খ্যালখিউলেইট",
+    "BengaliMeaning": "হিসাব করা",
+    "examples": "I need to CALCULATE the total cost."
+  },
+  {
+    "word": "CALL",
+    "phonetic": "/kɔ:l/",
+    "banglaPronunciation": "খোল",
+    "BengaliMeaning": "ফোন করা",
+    "examples": "I will CALL you later."
+  },
+  {
+    "word": "CALM ",
+    "phonetic": "/kɑ:m/",
+    "banglaPronunciation": "কাম",
+    "BengaliMeaning": "শান্ত",
+    "examples": "She took a CALM breath."
+  },
+  {
+    "word": "CAMERA",
+    "phonetic": "/kæmrə/",
+    "banglaPronunciation": "ক্যামরা",
+    "BengaliMeaning": "ক্যামেরা",
+    "examples": "She bought a new CAMERA."
+  },
+  {
+    "word": "CAMP",
+    "phonetic": "/kæmp/",
+    "banglaPronunciation": "ক্যাম্প",
+    "BengaliMeaning": "শিবির",
+    "examples": "They decided to CAMP in the mountains."
+  },
+  {
+    "word": "CAMPAIGN",
+    "phonetic": "/kæmˈpeɪn/",
+    "banglaPronunciation": "ক্যাম্পেইন",
+    "BengaliMeaning": "প্রচারণা",
+    "examples": "They started a CAMPAIGN for charity."
+  },
+  {
+    "word": "CAMPING ",
+    "phonetic": "/kæmpɪŋ/",
+    "banglaPronunciation": "ক্যাম্পিং",
+    "BengaliMeaning": "শিবিরে থাকা",
+    "examples": "We enjoy CAMPING in the summer."
+  },
+  {
+    "word": "CAMPUS ",
+    "phonetic": "/kæmpəs/",
+    "banglaPronunciation": "ক্যাম্পাস",
+    "BengaliMeaning": "ক্যাম্পাস",
+    "examples": "The university CAMPUS is beautiful."
+  },
+  {
+    "word": "CAN ",
+    "phonetic": "/kæn/",
+    "banglaPronunciation": "খ্যান",
+    "BengaliMeaning": "পারা",
+    "examples": "I CAN swim."
+  },
+  {
+    "word": "CAN ",
+    "phonetic": "/kæn/",
+    "banglaPronunciation": "খ্যান",
+    "BengaliMeaning": "ডাকপিট",
+    "examples": "The CAN was empty"
+  },
+  {
+    "word": "CANCEL ",
+    "phonetic": "/kænsəl/",
+    "banglaPronunciation": "খ্যানসেল",
+    "BengaliMeaning": "বাতিল করা",
+    "examples": "I need to CANCEL my appointment."
+  },
+  {
+    "word": "CANCER",
+    "phonetic": "/kæn.sə/",
+    "banglaPronunciation": "খ্যানসা",
+    "BengaliMeaning": "ক্যান্সার",
+    "examples": "She is raising awareness about CANCER."
+  },
+  {
+    "word": "CANDIDATE",
+    "phonetic": "/kændɪdət/",
+    "banglaPronunciation": "খ্যানডিডেট",
+    "BengaliMeaning": "প্রার্থী",
+    "examples": "She is a strong CANDIDATE for the job."
+  },
+  {
+    "word": "CANNOT ",
+    "phonetic": "/kænɒt/",
+    "banglaPronunciation": "খ্যানট",
+    "BengaliMeaning": "পারে না",
+    "examples": "I CANNOT swim."
+  },
+  {
+    "word": "CAP ",
+    "phonetic": "/kæp/",
+    "banglaPronunciation": "খ্যাপ",
+    "BengaliMeaning": "টুপি",
+    "examples": "He wore a CAP to protect himself from the sun."
+  },
+  {
+    "word": "CAPABLE",
+    "phonetic": "/keɪpəbl/",
+    "banglaPronunciation": "খেইপবল",
+    "BengaliMeaning": "সক্ষম",
+    "examples": "She is CAPABLE of finishing the project."
+  },
+  {
+    "word": "CAPACITY ",
+    "phonetic": "/kəˈpæsəti/",
+    "banglaPronunciation": "কা'ফ্যাসিটি",
+    "BengaliMeaning": "ক্ষমতা",
+    "examples": "The CAPACITY of the room is 100 people."
   }
 ]
