@@ -68,55 +68,55 @@ const Banner = () => {
         <div className="my-5">
           <ul className="grid grid-cols-2 md:grid-cols-3  gap-5 px-2 md:px-20 items-center justify-center">
             <Link to={"/words"}>
-              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category hover:dark:shadow-md">
-                Vocabulary1
+              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
+                Oxford Words
               </li>
             </Link>
             <Link to={"/pronunciation"}>
-              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category">
-                উচ্চারণ
+              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-2xl text-xl category">
+                Pronunciation
               </li>
             </Link>
             <Link to={"/storyVocabulary"}>
-              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category">
-                Vocabulary2
+              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-2xl text-xl category">
+                গল্পে গল্পে
               </li>
             </Link>
 
             <Link to={"/ssc"}>
-              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category">
+              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-2xl text-xl category">
                 SSC
               </li>
             </Link>
             <Link to={"/hsc"}>
-              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category hover:dark:shadow-md">
+              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 HSC
               </li>
             </Link>
 
             <Link to={"/degree"}>
-              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category">
+              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-2xl text-xl category">
                 Degree
               </li>
             </Link>
             <Link to={"/tense"}>
-              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category">
+              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-2xl text-xl category">
                 Tense
               </li>
             </Link>
             <Link to={"/voice"}>
-              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category">
+              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-2xl text-xl category">
                 Voice
               </li>
             </Link>
             <Link to={"/strongVerb"}>
-              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category">
+              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-2xl text-xl category">
                 Strong Verb
               </li>
             </Link>
 
             <Link to={"/social"}>
-              <li className=" md:hidden text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-3xl text-xl category  ">
+              <li className=" md:hidden text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-2xl text-xl category  ">
                 Social English
               </li>
             </Link>

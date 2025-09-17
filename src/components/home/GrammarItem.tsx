@@ -16,6 +16,11 @@ function GrammarItem() {
               Sentence
             </li>
           </Link>
+          <Link to={"/partsOfSpeech"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black">
+              Parts of Speech
+            </li>
+          </Link>
           <Link to={"/article"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white transition hover:bg-black dark:border dark:border-slate-400">
               Article
@@ -81,11 +86,7 @@ function GrammarItem() {
               Punctuation
             </li>
           </Link>
-          <Link to={"/partsOfSpeech"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black">
-              Parts of Speech
-            </li>
-          </Link>
+
           <Link to={"/wh"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
               Wh-question

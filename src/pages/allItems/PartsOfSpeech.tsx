@@ -137,24 +137,26 @@ function PartsOfSpeech() {
             পারে (Properties: Verbs can express meaning without objects.)।{" "}
             <br />
             Examples: <br />
-            <table className="min-w-[800px] table-auto dark:border-slate-400">
-              <tr>
-                <th>Transitive Verb</th>
-                <th>Intransitive Verb</th>
-              </tr>
-              <tr>
-                <td>Ring the bell.</td>
-                <td>The bell Ringed.</td>
-              </tr>
-              <tr>
-                <td>The driver stopped the bus.</td>
-                <td>The bus stopped. </td>
-              </tr>
-              <tr>
-                <td>the boys flew kites in the sky.</td>
-                <td>Birds flew in the sky.</td>
-              </tr>
-            </table>
+            <div className="overflow-x-auto">
+              <table className="min-w-[800px] table-auto dark:border-slate-400">
+                <tr>
+                  <th>Transitive Verb</th>
+                  <th>Intransitive Verb</th>
+                </tr>
+                <tr>
+                  <td>Ring the bell.</td>
+                  <td>The bell Ringed.</td>
+                </tr>
+                <tr>
+                  <td>The driver stopped the bus.</td>
+                  <td>The bus stopped. </td>
+                </tr>
+                <tr>
+                  <td>the boys flew kites in the sky.</td>
+                  <td>Birds flew in the sky.</td>
+                </tr>
+              </table>
+            </div>
             Auxiliary Verb : যে verb ক্রিয়ার কাল বা ভাব প্রকাশ করতে Principle
             Verb কে সাহায্য করে, তাকে Auxiliary verb বলে। এজন্য একে Helping Verb
             ও বলা হয়। The verb that helps the principle verb to express the
@@ -304,7 +306,7 @@ function PartsOfSpeech() {
       </div>
 
       {/* Short technic */}
-      <div className="h-full w-[85%] mx-auto pt-10">
+      {/* <div className="h-full w-[85%] mx-auto pt-10">
         <h1 className="text-rose-500 text-center"> Short technique </h1>
 
         <div className="my-5">
@@ -537,7 +539,7 @@ function PartsOfSpeech() {
         <img src="img/parts1.jpg" alt="" />
         <img src="img/parts2.jpg" alt="" />
         <img src="img/parts3.jpg" alt="" />
-      </div>
+      </div> */}
     </div>
   );
 }

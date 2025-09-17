@@ -154,10 +154,7 @@ const Navbar = () => {
               className="btn btn-ghost text-xl ml-[-20px]"
             >
               {/* <FaBookReader size={32} /> */}
-              <img
-                src={auth?.user?.photoURL || "/man.jpg"}
-                className="w-11 border-2 rounded-full"
-              />
+              <img src={"/man.jpg"} className="w-10 border-2 rounded-full" />
               <span className="heading2 ">ASM</span>
             </Link>
           </div>
@@ -219,11 +216,11 @@ const Navbar = () => {
               </Link>
             )}
             <div className="avatar">
-              <div className="w-11 rounded-full border-2 border-white animate-pulse">
+              <div className="w-10 rounded-full border-2 border-white animate-pulse">
                 <ul className="flex items-center justify-center gap-2">
                   <li className="p-2  hover:text-rose-500 transition-all">
                     <a href="tel:+8801751337773">
-                      <MdLocalPhone size={25} className="" />
+                      <MdLocalPhone size={20} className="" />
                     </a>
                   </li>
                 </ul>
