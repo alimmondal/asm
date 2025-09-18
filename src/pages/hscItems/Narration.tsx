@@ -8,7 +8,7 @@ import {
 const Narration = () => {
   return (
     <div className="px-3 md:w-[65%] mx-auto ">
-      <div className="py-20 md:py-40">
+      <div className="py-20 md:py-40 overflow-hidden">
         <h1 className="text-center text-green-400 animate-smooth-ping">
           Narration
         </h1>
@@ -401,64 +401,66 @@ const Narration = () => {
                   {/* Imperative sentence  */}
                   <div className="rule-section">
                     <h2>Imperative Sentence:</h2>
-                    <p>
-                      চিনার উপায়ঃ <br />
-                      (দ্বিতীয়) Verb দ্বারা বাক্যে শুরু হয় এবং
-                      আদেশ/অনুরোধ/উপদেশ বোঝায়।
-                    </p>
-                    <h3>পরিবর্তনের নিয়ম:</h3>
-                    <p>
-                      (i) say/ says/ said to যদি থাকে তাহলে- <br />
-                      <span className="text-rose-400"># </span>Say/ says to
-                      পরিবর্তে = tell/ ask হবে।
-                      <br />
-                      <span className="text-rose-400">#</span> Said to এর
-                      পরিবর্তে = asked/ told হবে। <br /> ** দ্বিতীয় বাক্যটি to
-                      দ্বারা শুরু হবে। <br />
-                      Q. He said to me, "Go home directly". <br />= He asked me
-                      to Go home directly.
-                    </p>
-                    <p>
-                      (ii) কিন্তু দ্বিতীয় বাক্যটি Let us/ Let's দ্বারা শুরু হলে
-                      say, say to, said, said to এর পরিবর্তে propose(d)/
-                      suggest(ed) হবে এবং Let us/ Let's উঠিয়ে Let us এর পরের V1
-                      এর সাথে ing যোগ করতে হয় <br />
-                      Q. He said, "Let us/ Let's rectify ourselves". <br />= He
-                      proposed rectifying themselves.
-                    </p>
-                    <p>
-                      (ii) কিন্তু দ্বিতীয় বাক্যটি Let me/ him/ them/ her দ্বারা
-                      শুরু হলে say, say to, said, said to এর পরিবর্তে
-                      tell/told/wish(ed)/ request(ed)/order(ed) হবে এবং <br />
-                      ** Let এর পরের Object কে Subject বানিয়ে এর পরে might/might
-                      be allowed to যোগ করতে হয় <br />
-                      ** মাঝখানে that বসে। <br />
-                      Q. He said, "Let me play in field". <br />
-                      = He told that I might play in the field. <br />= He
-                      wished that I might be allowed to play in the field.
-                    </p>
-                    <p className="pt-5">
-                      Exercise <br />
-                      (i) The teacher said to the students, "Sit down." (ii) The
-                      boy said to me, "Let me write a letter." (iii) The teacher
-                      said to the boy, "Do not read so fast." (iv) "Take off
-                      your hat," Madam said to Della. (v) He said to me, "Wait
-                      until I come." (vi) Teacher said to Joy, "Read this book."
-                      (vii) The master said to the servant, "Bring me a glass of
-                      milk." (viii) "Let us drop the matter," he said. (ix)
-                      "Hurry up," he said to his maid, "Do not waste time." (x)
-                      We said, "Let us wait till the rain stops." (xi) Mother
-                      said to me, "Let me do the work." (xii) He said to his
-                      brother, "Always speak the truth." (xiii) He said to me,
-                      "Let us go to picnic." (xiv) Kamrul said to me, "Do it at
-                      once." (xv) The teacher said to the students, "Never tell
-                      a lie." (xvi) He said to me, "Be careful about yourself".
-                      (xvii) "Let him do whatever he likes," Kajol said to
-                      jerin. (xviii) Mother said to her son, "Don't quarrel with
-                      anybody." (xix) The prisoner said to the judge, "Let me
-                      see the real matter." (xx) The boy said, "Brothers, please
-                      help me.”
-                    </p>
+                    <div className="">
+                      <p>
+                        চিনার উপায়ঃ <br />
+                        (দ্বিতীয় বাক্যে) Verb দ্বারা বাক্যে শুরু হয় এবং
+                        আদেশ/অনুরোধ/উপদেশ বোঝায়।
+                      </p>
+                      <h3>পরিবর্তনের নিয়ম:</h3>
+                      <p>
+                        (i) say/ says/ said to যদি থাকে তাহলে- <br />
+                        <span className="text-rose-400"># </span>Say/ says to
+                        পরিবর্তে = tell/ ask হবে।
+                        <br />
+                        <span className="text-rose-400">#</span> Said to এর
+                        পরিবর্তে = asked/ told হবে। <br /> ** দ্বিতীয় বাক্যটি
+                        to দ্বারা শুরু হবে। <br />
+                        Q. He said to me, "Go home directly". <br />= He asked
+                        me to Go home directly.
+                      </p>
+                      <p>
+                        (ii) কিন্তু দ্বিতীয় বাক্যটি Let us/ Let's দ্বারা শুরু
+                        হলে say, say to, said, said to এর পরিবর্তে propose(d)/
+                        suggest(ed) হবে এবং Let us/ Let's উঠিয়ে Let us এর পরের
+                        V1 এর সাথে ing যোগ করতে হয় <br />
+                        Q. He said, "Let us/ Let's rectify ourselves". <br />=
+                        He proposed rectifying themselves.
+                      </p>
+                      <p>
+                        (ii) কিন্তু দ্বিতীয় বাক্যটি Let me/ him/ them/ her
+                        দ্বারা শুরু হলে say, say to, said, said to এর পরিবর্তে
+                        tell/told/wish(ed)/ request(ed)/order(ed) হবে এবং <br />
+                        ** Let এর পরের Object কে Subject বানিয়ে এর পরে
+                        might/might be allowed to যোগ করতে হয় <br />
+                        ** মাঝখানে that বসে। <br />
+                        Q. He said, "Let me play in field". <br />
+                        = He told that I might play in the field. <br />= He
+                        wished that I might be allowed to play in the field.
+                      </p>
+                      <p className="pt-5">
+                        Exercise <br />
+                        (i) The teacher said to the students, "Sit down." (ii)
+                        The boy said to me, "Let me write a letter." (iii) The
+                        teacher said to the boy, "Do not read so fast." (iv)
+                        "Take off your hat," Madam said to Della. (v) He said to
+                        me, "Wait until I come." (vi) Teacher said to Joy, "Read
+                        this book." (vii) The master said to the servant, "Bring
+                        me a glass of milk." (viii) "Let us drop the matter," he
+                        said. (ix) "Hurry up," he said to his maid, "Do not
+                        waste time." (x) We said, "Let us wait till the rain
+                        stops." (xi) Mother said to me, "Let me do the work."
+                        (xii) He said to his brother, "Always speak the truth."
+                        (xiii) He said to me, "Let us go to picnic." (xiv)
+                        Kamrul said to me, "Do it at once." (xv) The teacher
+                        said to the students, "Never tell a lie." (xvi) He said
+                        to me, "Be careful about yourself". (xvii) "Let him do
+                        whatever he likes," Kajol said to jerin. (xviii) Mother
+                        said to her son, "Don't quarrel with anybody." (xix) The
+                        prisoner said to the judge, "Let me see the real
+                        matter." (xx) The boy said, "Brothers, please help me.”
+                      </p>
+                    </div>
                   </div>
 
                   {/* Exclamatory Sentence  */}
@@ -726,154 +728,8 @@ const Narration = () => {
           </table>
         </div>
 
-        {/* <!-- Passage Naration rules --> */}
-
         {/* <!-- Excercise --> */}
         <div className="section my-10 text-lg md:text-xl">
-          <h1 className="text-center md:text-start">Exercise</h1>
-          <h2>Assertive Sentences:</h2>
-          <p>
-            1. Jack said to his father, “He is sent for playing with friends.”
-          </p>
-          <p>2. Father said, “You are sent to learn, to read and write”.</p>
-          <p>3. Jack said, “But I won’t read and write.”</p>
-          <p>4. Father insisted his son, “You will read and write.”</p>
-          <p>5. “I like both democracy and socialism”, answered Lucy.</p>
-          <p>6. “People usually advocate either of the two,” he said.</p>
-          <p>7. He said to me, “I came to Dhaka this morning.”</p>
-          <p>
-            8. He said to me, “I sent you a telegram before starting from home.”
-          </p>
-          <p>
-            9. She cleverly said to me, “I know my mother’s name but I won’t
-            tell you that.”
-          </p>
-          <p>10. “I’m not in hilarious spirits,” Monika said.</p>
-          <p>11. She sighed, “It’s Pintu.”</p>
-          <p>
-            12. “You have done everything in the world for him,” he said to her.
-          </p>
-          <p>
-            13. He said to her, “You must know by now that he is quite
-            hopeless.”
-          </p>
-          <p>
-            14. He said to his sons, “A great treasure lies hidden in the
-            state.”
-          </p>
-          <p>
-            15. The old man said to them, “I am about to tell you, but you must
-            dig for it.”
-          </p>
-          <p>
-            16. Shyamal said to Jamal, “I went to your house yesterday, but did
-            not find you.”
-          </p>
-          <p>17. “I went to the station”, said Karim.</p>
-          <p>18. “I had to receive my maternal uncle.” he said.</p>
-          <p>
-            19. I said, “I went to my friend’s house to borrow an essential
-            book; but he was not at home.”
-          </p>
-          <p>20. I said, “I had to wait for him.”</p>
-          <h2>Interrogative Sentences:</h2>
-          <p>1. She said to him, “How can she let you go away again?”</p>
-          <p>2. “How are you?” Dabir asked Manika.</p>
-          <p>3. “Is it Pintu again?” Dabir said.</p>
-          <p>4. “Why don’t you chuck him?” Dabir said to her.</p>
-          <p>5. “Where is it hidden?” said the sons.</p>
-          <p>6. Shamim said to Karim, “How are you?”</p>
-          <p>7. He said to Karim, “Where did you go?”</p>
-          <p>
-            8. My father looked at me in anger and said to me, “Where have you
-            been so long?”
-          </p>
-          <p>9. He asked me, “Why are you wasting your time?”</p>
-          <p>
-            10. After a moment, he said to me, “Will you not appear in the final
-            examination?”
-          </p>
-          <p>
-            11. “Nasica, have you done your English lesson today?” asked the
-            teacher.
-          </p>
-          <p>
-            12. “Are you brothers?” asked the mistress of the house, turning to
-            the dervishes.
-          </p>
-          <p>13. He asked them, “Have you not read the warning on the door?”</p>
-          <p>14. Della asked Madam, “Will you buy my hair?”</p>
-          <p>
-            15. He said to the peasant, “Can you tell me the way to the nearest
-            inn?”
-          </p>
-          <p>
-            16. He said to the peasant, “Do you want one in which you can spend
-            the night?”
-          </p>
-          <p>
-            17. “You have remembered how she looked, all these years?” said the
-            writer to Jerry.
-          </p>
-          <p>18. “Have you seen her, Jerry, lately?”</p>
-          <p>
-            19. I wanted to cry out and said to him, “Why are you not with her?”
-          </p>
-          <p>
-            20. Once I asked a sweet little girl, “What is your mother’s name?”
-          </p>
-          <h2>Imperative Sentences:</h2>
-          <p>
-            1. The teacher said to me, "Be attentive and listen to my lecture."
-          </p>
-          <p>2. He said, "Let us go for a walk in the open field."</p>
-          <p>"Leave me alone", said I.</p>
-          <p>
-            3. "Hold you tongue!" he said to the dervishes, glaring fiercely in
-            their faces.
-          </p>
-          <p>
-            4. She told me, "Take your hat off and let’s have a sight at the
-            looks of it."
-          </p>
-          <p>
-            5. "Twenty dollars," said Madame, lifting the mass with a practiced
-            hand.
-          </p>
-          <p>6. "Follow my example," she said as we shook hands.</p>
-          <p>
-            7. She said to me, "Never eat more than one thing for luncheon."
-          </p>
-          <p>
-            8. The teacher said to the boy, "Learn to be honest from your
-            boyhood."
-          </p>
-          <p>9. "Let us go for a walk in the open field," said he.</p>
-          <h2>Optative Sentences:</h2>
-          <p>1.Father said to me, "May God bless you."</p>
-          <p>2. We said, "May our president live long."</p>
-          <p>3. Mother said to his son, "May you live long."</p>
-          <p>4. Father said to his son, "May you pass the examination."</p>
-          <p>5. The teacher said to the student, "May you come round soon."</p>
-          <p>6. The President said, "May Bangladesh live long."</p>
-          <p>7. The dervish said to me, "May you shine in life."</p>
-          <p>8. The women said to his son, "May you be happy."</p>
-          <p>9. "May Allah help you," she said.</p>
-          <h2>Exclamatory Sentences:</h2>
-          <p>1. You said to me, "How nice your handwriting is!"</p>
-          <p>2. I said to her, "What a nice girl you are!"</p>
-          <p>3. "What terrible cousins poor Samira had!" said Mr. Rahim.</p>
-          <p>4. He said to me, "May you have wealth."</p>
-          <p>5. We said, "What cheering report it is."</p>
-          <p>6. He said, "Alas! I am undone."</p>
-          <p>7. They said, "How sweet the mango is!"</p>
-          <p>8. I said to him "What a brave man you are!"</p>
-          <p>9. He said, "What a pity!"</p>
-          <p>10. I said to my friend, "What a nice fellow your father is!"</p>
-          <p>11. Navid said to Suman, "What a nice gift I have for you!"</p>
-          <p>12. The man said to boy, "Bravo! You have done very well!"</p>
-          <p>13. The traveler said, "How wicked the boys are!"</p>
-          <p>14. I said, "Had I the wings of a bird."</p>
           <h1 className="text-center md:text-start">Textual Exercise</h1>
           <h2 className="text-center md:text-start md:text-xl text-sm font-medium">
             Change the Following Sentences into Indirect Speech:
