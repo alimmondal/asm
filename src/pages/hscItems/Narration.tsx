@@ -9,7 +9,9 @@ const Narration = () => {
   return (
     <div className="px-3 md:w-[65%] mx-auto ">
       <div className="py-20 md:py-40">
-        <h1 className="text-center text-green-400 animate-smooth-ping">Narration</h1>
+        <h1 className="text-center text-green-400 animate-smooth-ping">
+          Narration
+        </h1>
         <h3 className="text-center">Narration</h3>
       </div>
 
@@ -279,14 +281,8 @@ const Narration = () => {
             <AccordionContent className="p-2 md:p-5">
               <div className="dark:text-gray-400 ttext-lg md:text-xl">
                 <div className="">
+                  <h2>Assertive Sentence:</h2>
                   <div className="rule-section">
-                    <p className="text-4xl text-center md:text-start">
-                      Sentence Narration
-                    </p>
-                    <h2 className="text-center md:text-start">
-                      বাক্য পরিবর্তন:
-                    </h2>
-                    <h2>Assertive Sentence:</h2>
                     <p>
                       চিনার উপায়ঃ <br />
                       ** দ্বিতীয় বাক্যটি Subject দ্বারা শুরু হয় এবং <br />
@@ -307,52 +303,99 @@ const Narration = () => {
                       নিয়মে হবে। <br />
                       ** দুটি বাক্যের মাঝখানে that বসে।
                     </p>
+                    <p className="pt-5">
+                      Exercise <br />
+                      (i) Kabir said to me, "You have done your duty properly."
+                      (ii) Father said to his daughters, "The more you read, the
+                      more you learn." (iii) Rahim says, "I shall not do the
+                      work tomorrow." (iv) Mother said to her son, "You are not
+                      attentive." (v) Mr. Khan said to Alina, "I know you and
+                      your father." (vi) Kamal said to Jamal, "I met him long
+                      ago." (vii) I said to him, "You do not do your duty."
+                      (viii) Iqra said to me, "I was ill." (ix) Elma said to her
+                      mother, "I need a pencil." (x) They said, "It is time we
+                      thought about settling this matter." (xi) Keya said to me,
+                      "I went to market yesterday". (xii) Shila said to Mina
+                      "You are wasting your time". (xiii) Father said to me,
+                      "You should behave yourself." (xiv) He said, "I was ill".
+                      (xv) "I have done the work." Kabir said to me. (xvi)
+                      Rahman said to his brother, "You should study regularly."
+                      (xvii) "I am going to open a bank account." he said to me.
+                      (xviii) He said to Shila, "You were a lazy girl." (xix)
+                      Karima said to me, "I always speak the truth." (xx) Shanta
+                      said, "I have got GPA-5.”
+                    </p>
                   </div>
 
                   <div className="rule-section">
                     <h2>Interrogative Sentence:</h2>
-                    <p>
-                      চিনার উপায়ঃ
-                      <br />
-                      ** দ্বিতীয় বাক্যটি Wh/ helping verb দ্বারা শুরু হয় এবং{" "}
-                      <br />
-                      ** বাক্যের শেষে প্রশ্নবোধক চিহ্ন থাকে (?)।
-                    </p>
-                    <h3>পরিবর্তনের নিয়ম:</h3>
-                    <p>
-                      (i) say/ says/ said to যদি থাকে তাহলে- <br />
-                      <span className="text-rose-400"># </span>Say/ says to =
-                      ask হবে।
-                      <br />
-                      <span className="text-rose-400">#</span> Said to এর
-                      পরিবর্তে = asked হবে।
-                    </p>
-                    <p>
-                      (ii) দ্বিতীয় বাক্যটি Wh দ্বারা শুরু হলে দুই বাকের মাঝখানে
-                      কিছু বসে না। <br />
-                      ** কিন্তু দ্বিতীয় বাক্যটি helping verb দ্বারা শুরু হলে
-                      দুই বাকের মাঝখানে if বসে
-                    </p>
-                    <p>
-                      (iii) দ্বিতীয় বাক্যটির Verb/ helping verb আগের নিয়মে
-                      পরিবর্তন হবে। তবে সাহায্যকারি verb পরিবর্তন করে Subject এর
-                      পর বসাতে হয়।
-                    </p>
-                    <p>
-                      Q. He said to me, "How are you?"
-                      <br />= He asked me how I was.
-                    </p>
-                    <p>
-                      (iv) দ্বিতীয় বাক্যের Helping Verb যদি Do/does হয় তবে তা
-                      তুলে দিয়ে মুল Verb এর V<sub>2</sub> হবে। <br />
-                      ** কিন্তু দ্বিতীয় বাক্যের Helping verb যদি did হয় তবে তা
-                      তুলে দিয়ে মুল Verb এর V2 করা যাবে। অথবা had + V
-                      <sub>3</sub> করা যাবে।
-                    </p>
-                    <p>
-                      Q. He said, "Which book does he want?" <br />
-                      He asked which book he wanted.
-                    </p>
+                    <div className="">
+                      <p>
+                        চিনার উপায়ঃ
+                        <br />
+                        ** দ্বিতীয় বাক্যটি Wh/ helping verb দ্বারা শুরু হয় এবং{" "}
+                        <br />
+                        ** বাক্যের শেষে প্রশ্নবোধক চিহ্ন থাকে (?)।
+                      </p>
+                      <h3>পরিবর্তনের নিয়ম:</h3>
+                      <p>
+                        (i) say/ says/ said to যদি থাকে তাহলে- <br />
+                        <span className="text-rose-400"># </span>Say/ says to =
+                        ask হবে।
+                        <br />
+                        <span className="text-rose-400">#</span> Said to এর
+                        পরিবর্তে = asked হবে।
+                      </p>
+                      <p>
+                        (ii) দ্বিতীয় বাক্যটি Wh দ্বারা শুরু হলে দুই বাকের
+                        মাঝখানে কিছু বসে না। <br />
+                        ** কিন্তু দ্বিতীয় বাক্যটি helping verb দ্বারা শুরু হলে
+                        দুই বাকের মাঝখানে if বসে
+                      </p>
+                      <p>
+                        (iii) দ্বিতীয় বাক্যটির Verb/ helping verb আগের নিয়মে
+                        পরিবর্তন হবে। তবে সাহায্যকারি verb পরিবর্তন করে Subject
+                        এর পর বসাতে হয়।
+                      </p>
+                      <p>
+                        Q. He said to me, "How are you?"
+                        <br />= He asked me how I was.
+                      </p>
+                      <p>
+                        (iv) দ্বিতীয় বাক্যের Helping Verb যদি Do/does হয় তবে
+                        তা তুলে দিয়ে মুল Verb এর V<sub>2</sub> হবে। <br />
+                        ** কিন্তু দ্বিতীয় বাক্যের Helping verb যদি did হয় তবে
+                        তা তুলে দিয়ে মুল Verb এর V2 করা যাবে। অথবা had + V
+                        <sub>3</sub> করা যাবে।
+                      </p>
+                      <p>
+                        Q. He said, "Which book does he want?" <br />
+                        He asked which book he wanted.
+                      </p>
+                      <p className="">
+                        Exercise <br />
+                        (i) Mother said to father, "Where did you go yesterday?"
+                        (ii) The teacher said to me, "Which book do you want?"
+                        (iii) He said to me, "Are you coming home with me?" (iv)
+                        Kamal said to Jamal, "Which way did he go?" (v) Iqra
+                        said to Elma, "Have you done your homework?" (vi) He
+                        said, "How is your father?" (vii) He said to me, "Where
+                        have you come from?" (viii) He said to me, "Do you know
+                        him?" (ix) The teacher said to me, "Why did you not go
+                        to school yesterday?" (x) "Do you really come from
+                        China?" said the man. (xi) "What do you want?" he said
+                        to me. (xii) Rana said to Rita," Do you go there?"
+                        (xiii) Karim said to me, "What are do doing now?" (xiv)
+                        He said to me, "When did you come there?" (xv) Rayhan
+                        said to me, "Which book do you like most? (xvi) "Where
+                        do you go today?" he said to me. (xvii) The boy said to
+                        his friend, "How did you go there?" (xviii) The Queen
+                        said to the King, "Can you tell me which are the real
+                        flowers?" (xix) Shawmpa said to me, "What are you
+                        studying?" (xx) He said to me, "What do you intend to do
+                        with the large amount of money?”
+                      </p>
+                    </div>
                   </div>
 
                   {/* Imperative sentence  */}
@@ -360,14 +403,14 @@ const Narration = () => {
                     <h2>Imperative Sentence:</h2>
                     <p>
                       চিনার উপায়ঃ <br />
-                      দ্বিতীয় বাক্যে Verb দ্বারা শুরু হয় এবং আদেশ/অনুরোধ/উপদেশ
-                      বোঝায়।
+                      (দ্বিতীয়) Verb দ্বারা বাক্যে শুরু হয় এবং
+                      আদেশ/অনুরোধ/উপদেশ বোঝায়।
                     </p>
                     <h3>পরিবর্তনের নিয়ম:</h3>
                     <p>
                       (i) say/ says/ said to যদি থাকে তাহলে- <br />
-                      <span className="text-rose-400"># </span>Say/ says to =
-                      tell/ ask হবে।
+                      <span className="text-rose-400"># </span>Say/ says to
+                      পরিবর্তে = tell/ ask হবে।
                       <br />
                       <span className="text-rose-400">#</span> Said to এর
                       পরিবর্তে = asked/ told হবে। <br /> ** দ্বিতীয় বাক্যটি to
@@ -394,75 +437,125 @@ const Narration = () => {
                       = He told that I might play in the field. <br />= He
                       wished that I might be allowed to play in the field.
                     </p>
+                    <p className="pt-5">
+                      Exercise <br />
+                      (i) The teacher said to the students, "Sit down." (ii) The
+                      boy said to me, "Let me write a letter." (iii) The teacher
+                      said to the boy, "Do not read so fast." (iv) "Take off
+                      your hat," Madam said to Della. (v) He said to me, "Wait
+                      until I come." (vi) Teacher said to Joy, "Read this book."
+                      (vii) The master said to the servant, "Bring me a glass of
+                      milk." (viii) "Let us drop the matter," he said. (ix)
+                      "Hurry up," he said to his maid, "Do not waste time." (x)
+                      We said, "Let us wait till the rain stops." (xi) Mother
+                      said to me, "Let me do the work." (xii) He said to his
+                      brother, "Always speak the truth." (xiii) He said to me,
+                      "Let us go to picnic." (xiv) Kamrul said to me, "Do it at
+                      once." (xv) The teacher said to the students, "Never tell
+                      a lie." (xvi) He said to me, "Be careful about yourself".
+                      (xvii) "Let him do whatever he likes," Kajol said to
+                      jerin. (xviii) Mother said to her son, "Don't quarrel with
+                      anybody." (xix) The prisoner said to the judge, "Let me
+                      see the real matter." (xx) The boy said, "Brothers, please
+                      help me.”
+                    </p>
                   </div>
 
                   {/* Exclamatory Sentence  */}
                   <div className="rule-section">
                     <h2>Exclamatory Sentence:</h2>
-                    <p>
-                      চিনার উপায়ঃ <br />
-                      ** Alas, hurrah দ্বারা শুরু হয়ে এদের পরে exclaimation
-                      চিহ্ন থাকে এবং বাকের শেষে ফুল স্টপ থাকে। <br />
-                      ** কিন্তু what, how দ্বারা শুরু হলে বাক্যের শেষে
-                      Exclaimation (!) চিহ্ন থাকে।
-                    </p>
-                    <h3>পরিবর্তনের নিয়ম:</h3>
-                    <p>
-                      (i) say/ says/ said to যদি থাকে তাহলে- <br />
-                      <span className="text-rose-400"># </span>Say/ says to =
-                      Exclaim/ Exclaim with joy বা Exclaim with sorrow হবে।
-                      <br />
-                      <span className="text-rose-400">#</span> Said to এর
-                      পরিবর্তে = Exclaimed/ Exclaimed with joy বা Exclaimed with
-                      sorrow হবে।
-                    </p>
-                    <p>(ii) বাক্যের মাঝখানে that হবে।</p>
-                    <p>
-                      (iii) Alas, hurrah দ্বারা শুরু হলে এগুলো উঠিয়ে
-                      subject/verb আগের নিয়মে পরিবর্তন হবে।
-                    </p>
-
-                    <p>
-                      Q. "Alas! I am undone", he said.
-                      <br />= He exclaimed with sorrow that he was undone.
-                    </p>
-                    <p>
-                      (iii) what how দ্বারা শুরু হলে এগুলো উঠিয়ে বাক্যটিকে
-                      Assertive বাক্য বানাতে হবে।
-                    </p>
-                    <p>
-                      Q. He said to me, "How nice your handwriting is!"
-                      <br />= He exclaimed with joy that my handwriting was very
-                      nice.
-                    </p>
+                    <div className="">
+                      <p>
+                        চিনার উপায়ঃ <br />
+                        ** Alas, hurrah দ্বারা শুরু হয়ে এদের পরে exclaimation
+                        চিহ্ন থাকে এবং বাকের শেষে ফুল স্টপ থাকে। <br />
+                        ** কিন্তু what, how দ্বারা শুরু হলে বাক্যের শেষে
+                        Exclaimation (!) চিহ্ন থাকে।
+                      </p>
+                      <h3>পরিবর্তনের নিয়ম:</h3>
+                      <p>
+                        (i) say/ says/ said to যদি থাকে তাহলে- <br />
+                        <span className="text-rose-400"># </span>Say/ says to =
+                        Exclaim/ Exclaim with joy বা Exclaim with sorrow হবে।
+                        <br />
+                        <span className="text-rose-400">#</span> Said to এর
+                        পরিবর্তে = Exclaimed/ Exclaimed with joy বা Exclaimed
+                        with sorrow হবে।
+                      </p>
+                      <p>(ii) বাক্যের মাঝখানে that হবে।</p>
+                      <p>
+                        (iii) Alas, hurrah দ্বারা শুরু হলে এগুলো উঠিয়ে
+                        subject/verb আগের নিয়মে পরিবর্তন হবে।
+                      </p>
+                      <p>
+                        Q. "Alas! I am undone", he said.
+                        <br />= He exclaimed with sorrow that he was undone.
+                      </p>
+                      <p>
+                        (iii) what how দ্বারা শুরু হলে এগুলো উঠিয়ে বাক্যটিকে
+                        Assertive বাক্য বানাতে হবে।
+                      </p>
+                      <p>
+                        Q. He said to me, "How nice your handwriting is!"
+                        <br />= He exclaimed with joy that my handwriting was
+                        very nice.
+                      </p>
+                      <p className="">
+                        Exercise <br />
+                        (i) He said, 'How time does fly!" (ii) He said, "Alas!
+                        Our foes are too strong." (iv) Teacher said to the girl,
+                        "What a beautiful girl you are!" (v) He angrily are!"
+                        (vi) He said, "What a fool you are!" (vii) Rashed said,
+                        "How charming (iii) He said, "How cruel he was!" said,
+                        "What a stupid fellow you the picture is!" (viii) Rudro
+                        said, "Alas! I am undone!" (ix) Pias said, "Hurrah! We
+                        won the match!" (x) Pinky said, "What an honest man he
+                        is!”
+                      </p>
+                    </div>
                   </div>
 
                   {/* <!-- Optative sentence --> */}
                   <div className="rule-section">
                     <h2>Optative Sentence:</h2>
-                    <p>
-                      চিনার উপায়ঃ <br />
-                      দ্বিতীয় বাক্যে May দ্বারা শুরু হয় এবং বাকের শেষে ফুল
-                      স্টপ থাকে।
-                    </p>
-                    <h3>পরিবর্তনের নিয়ম:</h3>
-                    <p>
-                      (i) say/ says/ said to যদি থাকে তাহলে- <br />
-                      <span className="text-rose-400"># </span>Say/ says to =
-                      Pray/ wish হবে।
-                      <br />
-                      <span className="text-rose-400">#</span> Said to এর
-                      পরিবর্তে = Prayed/ wished হবে।
+                    <div className="">
                       <p>
-                        (ii) দ্বিতীয় বাক্যের May কে might করতে হবে এবং subject
-                        এর এর পরে বসাতে হবে
+                        চিনার উপায়ঃ <br />
+                        দ্বিতীয় বাক্যে May দ্বারা শুরু হয় এবং বাকের শেষে ফুল
+                        স্টপ থাকে।
                       </p>
-                    </p>
-                    <p>(iii) মাঝখানে that হবে।</p>
-                    <p>
-                      Q. The teacher said, "May Allah help you." = The teacher
-                      prayed that Allah might help me.
-                    </p>
+                      <h3>পরিবর্তনের নিয়ম:</h3>
+                      <p>
+                        (i) say/ says/ said to যদি থাকে তাহলে- <br />
+                        <span className="text-rose-400"># </span>Say/ says to =
+                        Pray/ wish হবে।
+                        <br />
+                        <span className="text-rose-400">#</span> Said to এর
+                        পরিবর্তে = Prayed/ wished হবে।
+                        <p>
+                          (ii) দ্বিতীয় বাক্যের May কে might করতে হবে এবং
+                          subject এর এর পরে বসাতে হবে
+                        </p>
+                      </p>
+                      <p>(iii) মাঝখানে that হবে।</p>
+                      <p>
+                        Q. The teacher said, "May Allah help you." = The teacher
+                        prayed that Allah might help me.
+                      </p>
+                      <p className="">
+                        Exercise <br />
+                        (i) Helal said, "Long live our President." (ii) Saif
+                        said, "May Bangladesh live long." (iii) "May Allah help
+                        you," the teacher said to the student. (iv) Father said
+                        to me, "May you live long." Father said to me, "May you
+                        be happy in your life." (vi) He said to me, "May you
+                        help me." (vii) The man said to me, "May you shine in
+                        life." (viii) My friend said to me, "May you be happy."
+                        (ix) The teacher said to the students, "May you be
+                        happy." (x) I said to my students, "May Allah shower all
+                        his blessings on you.”
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
