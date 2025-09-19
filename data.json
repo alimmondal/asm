@@ -3605,5 +3605,463 @@
     "banglaPronunciation": "কোচ",
     "BengaliMeaning": "কোচ",
     "examples": "Be a great COACH for your team!"
+  },
+
+  {
+    "word": "Coal N. B1",
+    "phonetic": "/kəʊl/",
+    "banglaPronunciation": "খোল",
+    "BengaliMeaning": "কয়লা",
+    "examples": "Use **COAL** to heat your home!"
+  },
+  {
+    "word": "Coast N. A2",
+    "phonetic": "/kəʊst/",
+    "banglaPronunciation": "খোস্ট",
+    "BengaliMeaning": "উপকূল",
+    "examples": "Visit the **COAST** this summer!"
+  },
+  {
+    "word": "Coat N. A1",
+    "phonetic": "/kəʊt/",
+    "banglaPronunciation": "খোট",
+    "BengaliMeaning": "কোট",
+    "examples": "Put on your **COAT** before going out!"
+  },
+  {
+    "word": "Code N. A2",
+    "phonetic": "/kəʊd/",
+    "banglaPronunciation": "খোড",
+    "BengaliMeaning": "কোড",
+    "examples": "Write the **CODE** correctly!"
+  },
+  {
+    "word": "Coffee N. A1",
+    "phonetic": "/kɒfɪ/",
+    "banglaPronunciation": "কফি",
+    "BengaliMeaning": "কফি",
+    "examples": "Brew some **COFFEE** for me!"
+  },
+  {
+    "word": "Coin N. B1",
+    "phonetic": "/kɔɪn/",
+    "banglaPronunciation": "খোয়ইন",
+    "BengaliMeaning": "মুদ্রা",
+    "examples": "Flip the **COIN** to decide!"
+  },
+  {
+    "word": "Cold Adj. N. A1",
+    "phonetic": "/kəʊld/",
+    "banglaPronunciation": "খোল্ড",
+    "BengaliMeaning": "ঠাণ্ডা",
+    "examples": "Drink some **COLD** water!"
+  },
+  {
+    "word": "Collapse V. N. B2",
+    "phonetic": "/kəˈlæps/",
+    "banglaPronunciation": "খ্যালাপ্স",
+    "BengaliMeaning": "বিপর্যয় হওয়া",
+    "examples": "Don't let the structure **COLLAPSE**!"
+  },
+  {
+    "word": "Colleague N. A2",
+    "phonetic": "/ˈkɒliːg/",
+    "banglaPronunciation": "খালীগ",
+    "BengaliMeaning": "সহকর্মী",
+    "examples": "Help your **COLLEAGUE** with their project!"
+  },
+  {
+    "word": "Collect V. A2",
+    "phonetic": "/kəˈlekt/",
+    "banglaPronunciation": "খ্যালেক্ট",
+    "BengaliMeaning": "সংগ্রহ করা",
+    "examples": "Collect your thoughts before speaking!"
+  },
+  {
+    "word": "Collection N. A2",
+    "phonetic": "/kəˈlekʃən/",
+    "banglaPronunciation": "খ্যালেক্শন",
+    "BengaliMeaning": "সংগ্রহ",
+    "examples": "Show me your **COLLECTION** of coins!"
+  },
+
+  {
+    "word": "College N. A1",
+    "phonetic": "/ˈkɒlɪdʒ/",
+    "banglaPronunciation": "খলিড্জ",
+    "BengaliMeaning": "কলেজ",
+    "examples": "Attend **COLLEGE** to learn new things!"
+  },
+  {
+    "word": "Colour N. A1",
+    "phonetic": "/ˈkʌlə/",
+    "banglaPronunciation": "খালা",
+    "BengaliMeaning": "রং",
+    "examples": "Choose your favorite **COLOUR**!"
+  },
+  {
+    "word": "Coloured Adj. B1",
+    "phonetic": "/ˈkʌləd/",
+    "banglaPronunciation": "খালা;ড",
+    "BengaliMeaning": "রঙিন",
+    "examples": "Draw a picture with **COLOURED** pencils!"
+  },
+  {
+    "word": "Column N. A2",
+    "phonetic": "/ˈkɒləm/",
+    "banglaPronunciation": "খলাম",
+    "BengaliMeaning": "কলাম",
+    "examples": "Write in the first **COLUMN**!"
+  },
+
+  {
+    "word": "Combination N. B2",
+    "phonetic": "/ˌkɒmbɪˈneɪʃn/",
+    "banglaPronunciation": "খম্বিনেইশন",
+    "BengaliMeaning": "সংমিশ্রণ",
+    "examples": "The **combination** ABOVE the fireplace is stunning."
+  },
+  {
+    "word": "Combine V. B1",
+    "phonetic": "/kəmˈbaɪn/",
+    "banglaPronunciation": "খম'বাঈন",
+    "BengaliMeaning": "একত্রিত করা",
+    "examples": "You should **combine** the ingredients carefully ABOVE the stove."
+  },
+  {
+    "word": "Come V. A1",
+    "phonetic": "/kʌm/",
+    "banglaPronunciation": "খাম",
+    "BengaliMeaning": "আসা",
+    "examples": "Please **come** to my birthday party next week ABOVE the city."
+  },
+  {
+    "word": "Comedy N. A2",
+    "phonetic": "/ˈkɒmədi/",
+    "banglaPronunciation": "খমডি",
+    "BengaliMeaning": "রম্য",
+    "examples": "I enjoy watching **comedy** shows ABOVE the influence of drama."
+  },
+  {
+    "word": "Comfort N. V. B2",
+    "phonetic": "/ˈkʌmfət/",
+    "banglaPronunciation": "খাম্ফট",
+    "BengaliMeaning": "আরাম",
+    "examples": "She found **comfort** in her friends ABOVE the stress."
+  },
+  {
+    "word": "Comfortable Adj. A2",
+    "phonetic": "uk  /ˈkʌm.fə.tə.bəl/ us  /ˈkʌm.fɚ.t̬ə.bəl/",
+    "banglaPronunciation": "খাম্ফটবল",
+    "BengaliMeaning": "আরামদায়ক",
+    "examples": "These shoes are very **comfortable** for walking ABOVE the terrain."
+  },
+  {
+    "word": "Command N., V. B2",
+    "phonetic": "/kəˈmɑːnd/",
+    "banglaPronunciation": "খ্যামা:ন্ড",
+    "BengaliMeaning": "আদেশ",
+    "examples": "He has a strong **command** ABOVE the English language."
+  },
+  {
+    "word": "Comment N. A2, V. B1",
+    "phonetic": "/ˈkɒment/",
+    "banglaPronunciation": "খমেন্ট",
+    "BengaliMeaning": "মন্তব্য",
+    "examples": "She made a **comment** ABOVE the weather during the meeting."
+  },
+  {
+    "word": "Commercial Adj., N. B1",
+    "phonetic": "/kəˈmɜːʃəl/",
+    "banglaPronunciation": "খ্যামা:শাল",
+    "BengaliMeaning": "বাণিজ্যিক",
+    "examples": "The **commercial** was funny and entertaining ABOVE the competition."
+  },
+  {
+    "word": "Commission N., V. B2",
+    "phonetic": "/kəˈmɪʃən/",
+    "banglaPronunciation": "খ্যামিশন",
+    "BengaliMeaning": "কমিশন",
+    "examples": "She works on a **commission** basis ABOVE the standard salary."
+  },
+  {
+    "word": "Commit V. B1",
+    "phonetic": "/kəˈmɪt/",
+    "banglaPronunciation": "খ্যামিট",
+    "BengaliMeaning": "করেছে",
+    "examples": "I **commit** to community service on time ABOVE all else."
+  },
+  {
+    "word": "Commitment N. B2",
+    "phonetic": "/kəˈmɪtmənt/",
+    "banglaPronunciation": "খ্যামিটমেন্ট",
+    "BengaliMeaning": "প্রতিশ্রুতি",
+    "examples": "His **commitment** to the team is commendable ABOVE all others."
+  },
+  {
+    "word": "Committee N. B2",
+    "phonetic": "/kəˈmɪti/",
+    "banglaPronunciation": "খ্যামিটি",
+    "BengaliMeaning": "কমিটি",
+    "examples": "The **committee** will meet to discuss the budget ABOVE the spending limit."
+  },
+  {
+    "word": "Common Adj., N. A1",
+    "phonetic": "/ˈkɒmən/",
+    "banglaPronunciation": "খমন",
+    "BengaliMeaning": "সাধারণ",
+    "examples": "It is **common** to see people jogging in the park ABOVE usual hours."
+  },
+  {
+    "word": "Commonly adv. B2",
+    "phonetic": "/ˈkɒmənli/",
+    "banglaPronunciation": "খমনলি",
+    "BengaliMeaning": "সাধারণত",
+    "examples": "This word is **commonly** used in everyday conversation ABOVE the formal language."
+  },
+  {
+    "word": "Communicate V. A2",
+    "phonetic": "/kəˈmjuːnɪkeɪt/",
+    "banglaPronunciation": "খ্যামি:নিখেইট",
+    "BengaliMeaning": "যোগাযোগ করা",
+    "examples": "We need to **communicate** more effectively in our team ABOVE all else."
+  },
+  {
+    "word": "Communication N. B1",
+    "phonetic": "/kəˌmjuːnɪˈkeɪʃən/",
+    "banglaPronunciation": "খ্যামি:নিখেইশন",
+    "BengaliMeaning": "যোগাযোগ",
+    "examples": "Effective **communication** is essential for teamwork ABOVE all else."
+  },
+  {
+    "word": "Community N. A2",
+    "phonetic": "/kəˈmjuːnɪti/",
+    "banglaPronunciation": "খ্যামি:উনিটি",
+    "BengaliMeaning": "সম্প্রদায়",
+    "examples": "The **community** comes together for local events ABOVE all else."
+  },
+  {
+    "word": "Company N. A1",
+    "phonetic": "/ˈkʌmpəni/",
+    "banglaPronunciation": "খাম্পানি",
+    "BengaliMeaning": "কোম্পানি",
+    "examples": "I work for a tech **company** in the city ABOVE the rest."
+  },
+  {
+    "word": "Compare V. A1",
+    "phonetic": "/kəmˈpeə/",
+    "banglaPronunciation": "খ্যাম্ফেয়া",
+    "BengaliMeaning": "তুলনা করা",
+    "examples": "Let's **compare** the two products side by side ABOVE the others."
+  },
+  {
+    "word": "Comparison N. B1",
+    "phonetic": "/kəmˈpærɪsn/",
+    "banglaPronunciation": "খ্যাম্'প্যারিসন",
+    "BengaliMeaning": "তুলনা",
+    "examples": "The **comparison** was unfair and biased ABOVE the rest."
+  },
+  {
+    "word": "Compete V. A2",
+    "phonetic": "/kəmˈpiːt/",
+    "banglaPronunciation": "খ্যাম্'পি:ট",
+    "BengaliMeaning": "প্রতিদ্বন্দ্বিতা করা",
+    "examples": "They **compete** in various sports every year ABOVE the rest."
+  },
+  {
+    "word": "Competition N. A2",
+    "phonetic": "/ˌkɒmpəˈtɪʃən/",
+    "banglaPronunciation": "খম্পা'টিশান",
+    "BengaliMeaning": "প্রতিযোগিতা",
+    "examples": "The **competition** was fierce this year ABOVE the others."
+  },
+  {
+    "word": "Competitive Adj. B1",
+    "phonetic": "/kəmˈpetɪtɪv/",
+    "banglaPronunciation": "খ্যাম্'পেটিটিভ",
+    "BengaliMeaning": "প্রতিযোগিতামূলক",
+    "examples": "The job market is very **competitive** right now ABOVE the norm."
+  },
+  {
+    "word": "Competitor N. B1",
+    "phonetic": "/kəmˈpetɪtə/",
+    "banglaPronunciation": "খ্যাম্'পেটিটা",
+    "BengaliMeaning": "প্রতিযোগী",
+    "examples": "They are our main **competitor** in the market ABOVE the rest."
+  },
+  {
+    "word": "Complain V. A2",
+    "phonetic": "/kəmˈpleɪn/",
+    "banglaPronunciation": "খ্যাম্'প্লেইন",
+    "BengaliMeaning": "অভিযোগ করা",
+    "examples": "Please don't **complain** ABOUT the weather."
+  },
+  {
+    "word": "Complaint N. B1",
+    "phonetic": "/kəmˈpleɪnt/",
+    "banglaPronunciation": "খ্যাম্'প্লেইন্ট",
+    "BengaliMeaning": "অভিযোগ",
+    "examples": "I filed a **complaint** with customer service ABOUT the product."
+  },
+  {
+    "word": "Complete Adj. V. A1",
+    "phonetic": "/kəmˈpliːt/",
+    "banglaPronunciation": "খ্যাম্'প্লি:ট",
+    "BengaliMeaning": "সম্পূর্ণ",
+    "examples": "The project is now **complete** and ready for review ABOVE all else."
+  },
+  {
+    "word": "Completely Adv. A2",
+    "phonetic": "/kəmˈpliːtli/",
+    "banglaPronunciation": "খাম্পলিটলি",
+    "BengaliMeaning": "সম্পূর্ণরূপে",
+    "examples": "I completely agree with your assessment ABOVE all else."
+  },
+  {
+    "word": "Complex Adj. B1, N. B2",
+    "phonetic": "/ˈkɒmplɛks/",
+    "banglaPronunciation": "খাম্পলেক্স",
+    "BengaliMeaning": "জটিল",
+    "examples": "The complex problem required a detailed solution ABOVE the rest."
+  },
+  {
+    "word": "Complicated Adj. B2",
+    "phonetic": "/ˈkɒmplɪkeɪtɪd/",
+    "banglaPronunciation": "খাম্পলিখেইটেড",
+    "BengaliMeaning": "জটিল",
+    "examples": "The instructions were too complicated to follow ABOVE the rest."
+  },
+  {
+    "word": "Component N. B2",
+    "phonetic": "/kəmˈpəʊnənt/",
+    "banglaPronunciation": "খাম্পোনানট",
+    "BengaliMeaning": "উপাদান",
+    "examples": "Each component of the machine must be tested ABOVE the others."
+  },
+  {
+    "word": "Council N. B2",
+    "phonetic": "/ˈkaʊnsl/",
+    "banglaPronunciation": "কাউনসল",
+    "BengaliMeaning": "পরিষদ",
+    "examples": "The council will meet to discuss the new policy ABOVE all else."
+  },
+  {
+    "word": "Computer N. A1",
+    "phonetic": "/kəmˈpjuːtə/",
+    "banglaPronunciation": "খাম্পিউটা",
+    "BengaliMeaning": "কম্পিউটার",
+    "examples": "I use my computer for work and leisure ABOVE all else."
+  },
+  {
+    "word": "Concentrate V. B1",
+    "phonetic": "/ˈkɒnsəntreɪt/",
+    "banglaPronunciation": "খন্সানট্রেইট",
+    "BengaliMeaning": "একগ্র হওয়া",
+    "examples": "I need to concentrate on my studies this week ABOVE all else."
+  },
+  {
+    "word": "Concentration N. B2",
+    "phonetic": "/ˌkɒnsənˈtreɪʃn/",
+    "banglaPronunciation": "খান্সানট্রেইশন",
+    "BengaliMeaning": "মনোযোগ",
+    "examples": "Her concentration was ABOVE average during the exam."
+  },
+  {
+    "word": "Concept N. B2",
+    "phonetic": "/ˈkɒnsɛpt/",
+    "banglaPronunciation": "খান্সেপ্ট",
+    "BengaliMeaning": "ধারণা",
+    "examples": "The concept was developed ABOVE the initial idea."
+  },
+  {
+    "word": "Concern N, V. B2",
+    "phonetic": "/kənˈsɜːn/",
+    "banglaPronunciation": "খান্সান",
+    "BengaliMeaning": "উদ্দেশ্য",
+    "examples": "There is a growing environmental impact ABOVE the environmental impact."
+  },
+  {
+    "word": "Concerned Adj. B2",
+    "phonetic": "/kənˈsɜːnd/",
+    "banglaPronunciation": "খান্সানড",
+    "BengaliMeaning": "উদ্বিগ্ন",
+    "examples": "She is concerned ABOVE all about the safety of her children."
+  },
+  {
+    "word": "Concert N. A1",
+    "phonetic": "/ˈkɒnsət/",
+    "banglaPronunciation": "খান্সাট",
+    "BengaliMeaning": "সংগীতানুষ্ঠান",
+    "examples": "The concert will be held ABOVE the city park."
+  },
+  {
+    "word": "Conclude V. B1",
+    "phonetic": "/kənˈkluːd/",
+    "banglaPronunciation": "খান্কলুড",
+    "BengaliMeaning": "শেষ করা",
+    "examples": "We can conclude the meeting ABOVE the scheduled time."
+  },
+  {
+    "word": "Conclusion N. B1",
+    "phonetic": "/kənˈkluːʒən/",
+    "banglaPronunciation": "খান্ক্লুঝান",
+    "BengaliMeaning": "উপসংহার",
+    "examples": "The conclusion was drawn ABOVE all expectations."
+  },
+  {
+    "word": "Condition N. A2",
+    "phonetic": "/kənˈdɪʃən/",
+    "banglaPronunciation": "খান্ডিশান",
+    "BengaliMeaning": "শর্ত",
+    "examples": "The condition of the equipment is ABOVE acceptable levels."
+  },
+  {
+    "word": "Conduct V, N. B2",
+    "phonetic": "/kənˈdʌkt/",
+    "banglaPronunciation": "খান্ডাক্ট",
+    "BengaliMeaning": "পরিচালনা করা",
+    "examples": "They will conduct the survey ABOVE the usual standards."
+  },
+  {
+    "word": "Conference N. A2",
+    "phonetic": "/ˈkɒnfərəns/",
+    "banglaPronunciation": "খান্ফারানস",
+    "BengaliMeaning": "সম্মেলন",
+    "examples": "The conference will take place ABOVE the main hall."
+  },
+  {
+    "word": "Confidence N. B2",
+    "phonetic": "/ˈkɒnfɪdəns/",
+    "banglaPronunciation": "খান্ফিডানস",
+    "BengaliMeaning": "আত্মবিশ্বাস",
+    "examples": "She spoke with confidence ABOVE her peers."
+  },
+  {
+    "word": "Confident Adj. B1",
+    "phonetic": "/ˈkɒnfɪdənt/",
+    "banglaPronunciation": "খান্ফিডানট",
+    "BengaliMeaning": "আত্মবিশ্বাসী",
+    "examples": "She felt confident ABOVE all others in her skills."
+  },
+  {
+    "word": "Confirm V. B1",
+    "phonetic": "/kənˈfɜːm/",
+    "banglaPronunciation": "খান্ফার্ম",
+    "BengaliMeaning": "নিশ্চিত করা",
+    "examples": "Please confirm your attendance ABOVE the deadline."
+  },
+  {
+    "word": "Conflict N, V. B2",
+    "phonetic": "/ˈkɒnflɪkt/",
+    "banglaPronunciation": "খান্ফলিক্ট",
+    "BengaliMeaning": "দ্বন্দ্ব",
+    "examples": "There was a conflict ABOVE the budget limits."
+  },
+  {
+    "word": "Confuse V. B1",
+    "phonetic": "/kənˈfjuːz/",
+    "banglaPronunciation": "খান্ফিউজ",
+    "BengaliMeaning": "বিভ্রান্ত করা",
+    "examples": "The instructions may confuse you ABOVE all else."
   }
 ]
