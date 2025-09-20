@@ -10,7 +10,7 @@ import "@react-pdf-viewer/core/lib/styles/index.css";
 
 import data from "../../../data.json";
 
-const Words = () => {
+const OxfordWords = () => {
   const flipBook = useRef<any>(null);
   const [currentPage, setCurrentPage] = useState(0);
   const [jumpPage, setJumpPage] = useState<number | "">("");
@@ -338,7 +338,7 @@ const Words = () => {
   );
 };
 
-export default Words;
+export default OxfordWords;
 
 //  <table className="md:w-full min-w-[800px] table-auto   border border-gray-400 w-full text-sm">
 //               <thead className="">

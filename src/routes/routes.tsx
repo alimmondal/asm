@@ -58,7 +58,7 @@ import Graph from "../pages/hscItems/Graph";
 import FirstPaperModel from "../pages/hscItems/FirstPaperModel";
 import Correction from "../pages/DegreeItems/Correction";
 import Test from "../pages/allItems/Test";
-import Words from "../pages/allItems/Words";
+import OxfordWords from "../pages/allItems/OxfordWords";
 import Pronunciation from "../pages/allItems/Pronunciation";
 import StoryVocabulary from "../pages/allItems/StoryVocabulary";
 export const router = createBrowserRouter([
@@ -237,7 +237,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/words",
-        element: <Words />,
+        element: <OxfordWords />,
       },
       {
         path: "/sentence",
