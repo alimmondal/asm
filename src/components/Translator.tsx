@@ -37,13 +37,30 @@ export default function Translator() {
     setResult("");
 
     try {
-      const res = await fetch("https://libretranslate.de/translate", {
+      const res = await fetch("https://translate.astian.org/translate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ q: text, source, target, format: "text" }),
+        body: JSON.stringify({
+          q: text,
+          source,
+          target,
+          format: "text",
+        }),
       });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+      console.log({
+        q: text,
+        source,
+        target,
+        format: "text",
+      });
+
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status}`);
+      }
+
       const data = await res.json();
+
       const translated = (data.translatedText as string) ?? "";
       setResult(translated);
       setHistory((h) =>
