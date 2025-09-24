@@ -1,6 +1,6 @@
 const Sentence = () => {
   return (
-    <div className="w-full ">
+    <div className="md:w-3/4 mx-auto">
       <div className="text-center py-20">
         <h1 className="">Sentence</h1>
         <p className="">A brief discussion on Sentence</p>
@@ -8,11 +8,12 @@ const Sentence = () => {
 
       <div className="px-5">
         <p className="">
-          Sentence কাকে বলে? Definition:  পাশাপাশি অবস্থিত কিছু অর্থবোধক শব্দ বা
-          শব্দ সমষ্টি দ্বারা যদি সম্পূর্ণভাবে মনের ভাব প্রকাশ পায় তখন ঐ শব্দ
-          সমস্টিকে Sentence বা বাক্য বলে। আবার, পাশা পাশি অর্থবোধক শব্দ আছে
-          কিন্তু মনের ভাব সম্পূর্ণ ভাবে প্রকাশ করতে পারছে না এমন হলে Sentence বা
-          বাক্য বলা যাবে না। নিচে উদাহরণ গুলো লক্ষ্য করুন।  <br />
+          Sentence কাকে বলে? <br />
+          Definition:  পাশাপাশি অবস্থিত কিছু অর্থবোধক শব্দ বা শব্দ সমষ্টি দ্বারা
+          যদি সম্পূর্ণভাবে মনের ভাব প্রকাশ পায় তখন ঐ শব্দ সমস্টিকে Sentence বা
+          বাক্য বলে। আবার, পাশা পাশি অর্থবোধক শব্দ আছে কিন্তু মনের ভাব সম্পূর্ণ
+          ভাবে প্রকাশ করতে পারছে না এমন হলে Sentence বা বাক্য বলা যাবে না। নিচে
+          উদাহরণ গুলো লক্ষ্য করুন।  <br />
           Example:
           <br />
           Correct: We speak English everyday. (Here We is subject, speak is

@@ -1,6 +1,7 @@
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import { useState } from "react";
+import { Button } from "flowbite-react";
 
 interface Phonetic {
   text?: string;
@@ -55,13 +56,20 @@ function DictionaryApi() {
       <h1 className="">Hello!</h1>
       <div className="">
         <input
+          type="text"
           onChange={(e) => setWord(e.target.value)}
           value={word}
           placeholder="Search your word"
+          className="input input-secondary"
         />
-        <button onClick={searchWord} disabled={loading}>
+        {/* <input
+          onChange={(e) => setWord(e.target.value)}
+          value={word}
+          placeholder="Search your word"
+        /> */}
+        <Button onClick={searchWord} disabled={loading}>
           {loading ? "Loading" : "Search"}
-        </button>
+        </Button>
         <div className="">
           {wordDetails ? (
             <div>

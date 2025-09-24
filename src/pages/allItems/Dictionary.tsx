@@ -33,7 +33,7 @@ const Dictionary = () => {
               : "text-gray-500"
           }`}
         >
-          Translate Widget
+          GTranslate
         </button>
         <button
           onClick={() => setActiveTab("translator")}
@@ -50,14 +50,7 @@ const Dictionary = () => {
       {/* Tab Content */}
       <div className="bg-white rounded-xl shadow-md p-6 overflow-x-auto">
         {activeTab === "dictionary" && <DictionaryApi />}
-        {activeTab === "translate" && (
-          <div className="">
-            <p className="">
-              আপনার ভাষা নির্বাচন করুন এবং তারপর গুগল আইকনে ক্লিক করুন।
-            </p>
-            <TranslateWidget />
-          </div>
-        )}
+        {activeTab === "translate" && <TranslateWidget />}
         {activeTab === "translator" && <Translator />}
       </div>
     </div>

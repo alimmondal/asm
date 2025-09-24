@@ -24,6 +24,11 @@ function Test() {
 
   return (
     <div className="py-10">
+      <div className="py-10 ">
+        <a href="https://translate.google.com/?sl=en&tl=bn&op=translate">
+          Gtranslate
+        </a>
+      </div>
       <div className="container mx-auto p-2">
         {/* Search box */}
         <div className="mb-4 relative w-full ">
