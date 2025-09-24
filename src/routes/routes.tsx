@@ -61,6 +61,7 @@ import Test from "../pages/allItems/Test";
 import OxfordWords from "../pages/allItems/OxfordWords";
 import Pronunciation from "../pages/allItems/Pronunciation";
 import StoryVocabulary from "../pages/allItems/StoryVocabulary";
+import Dictionary from "../pages/allItems/Dictionary";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -238,6 +239,10 @@ export const router = createBrowserRouter([
       {
         path: "/words",
         element: <OxfordWords />,
+      },
+      {
+        path: "/dictionary",
+        element: <Dictionary />,
       },
       {
         path: "/sentence",
