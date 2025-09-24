@@ -52,24 +52,23 @@ function DictionaryApi() {
   };
 
   return (
-    <div className="w-1/2 mx-auto flex flex-col items-center justify-center">
+    <div className="md:w-1/2 mx-auto flex flex-col items-center justify-center">
       <h1 className="">Hello!</h1>
       <div className="">
-        <input
-          type="text"
-          onChange={(e) => setWord(e.target.value)}
-          value={word}
-          placeholder="Search your word"
-          className="input input-secondary"
-        />
-        {/* <input
-          onChange={(e) => setWord(e.target.value)}
-          value={word}
-          placeholder="Search your word"
-        /> */}
-        <Button onClick={searchWord} disabled={loading}>
-          {loading ? "Loading" : "Search"}
-        </Button>
+        <div className="flex pb-10">
+          <input
+            type="text"
+            onChange={(e) => setWord(e.target.value)}
+            value={word}
+            placeholder="Search your word"
+            className="input input-secondary"
+          />
+
+          <Button onClick={searchWord} disabled={loading}>
+            {loading ? "Loading" : "Search"}
+          </Button>
+        </div>
+
         <div className="">
           {wordDetails ? (
             <div>
@@ -115,7 +114,9 @@ function DictionaryApi() {
               ))}
             </div>
           ) : (
-            <p>Your search result shown here!</p>
+            <p className="text-center">
+              Your search result will be shown here!
+            </p>
           )}
         </div>
       </div>

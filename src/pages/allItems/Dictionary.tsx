@@ -5,8 +5,8 @@ import Translator from "../../components/Translator";
 
 const Dictionary = () => {
   const [activeTab, setActiveTab] = useState<
-    "dictionary" | "translate" | "translator"
-  >("dictionary");
+    "translate" | "dictionary" | "translator"
+  >("translate");
 
   return (
     <div className="p-4 bg-gray-100 min-h-screen md:w-1/2 mx-auto">
@@ -14,30 +14,30 @@ const Dictionary = () => {
         <h1 className="">Dictionary</h1>
       </div>
       {/* Tabs */}
-      <div className="flex space-x-4 mb-6 border-b border-gray-300">
-        <button
-          onClick={() => setActiveTab("dictionary")}
-          className={`py-2 px-4 font-semibold ${
-            activeTab === "dictionary"
-              ? "border-b-2 border-blue-500 text-blue-500"
-              : "text-gray-500"
-          }`}
-        >
-          Dictionary
-        </button>
+      <div className="flex justify-center space-x-4 mb-6 border-b border-gray-300">
         <button
           onClick={() => setActiveTab("translate")}
-          className={`py-2 px-4 font-semibold ${
+          className={`py-2 px-2 font-semibold ${
             activeTab === "translate"
               ? "border-b-2 border-blue-500 text-blue-500"
               : "text-gray-500"
           }`}
         >
-          GTranslate
+          G-Translate
+        </button>
+        <button
+          onClick={() => setActiveTab("dictionary")}
+          className={`py-2 px-2 font-semibold ${
+            activeTab === "dictionary"
+              ? "border-b-2 border-blue-500 text-blue-500"
+              : "text-gray-500"
+          }`}
+        >
+          E-To-E
         </button>
         <button
           onClick={() => setActiveTab("translator")}
-          className={`py-2 px-4 font-semibold ${
+          className={`py-2 px-2 font-semibold ${
             activeTab === "translator"
               ? "border-b-2 border-blue-500 text-blue-500"
               : "text-gray-500"
@@ -48,9 +48,9 @@ const Dictionary = () => {
       </div>
 
       {/* Tab Content */}
-      <div className="bg-white rounded-xl shadow-md p-6 overflow-x-auto">
-        {activeTab === "dictionary" && <DictionaryApi />}
+      <div className="bg-white rounded-xl shadow-2xl p-6 overflow-x-auto">
         {activeTab === "translate" && <TranslateWidget />}
+        {activeTab === "dictionary" && <DictionaryApi />}
         {activeTab === "translator" && <Translator />}
       </div>
     </div>

@@ -1,12 +1,15 @@
 const TranslateWidget = () => {
   return (
     <div>
-      {/* <div className="">
-        <h1 className="text-center">G-Translate</h1>
-      </div> */}
-      <div className="text-center border">
-        <a href="https://translate.google.com/?sl=en&tl=bn&op=translate">
-          Choose A Language
+      <div className="">
+        <p className="text-center pb-6">Translate any Language</p>
+      </div>
+      <div className="text-center border py-4 border-blue-500 rounded-lg ">
+        <a
+          className="p-8 text-blue-600 "
+          href="https://translate.google.com/?sl=en&tl=bn&op=translate"
+        >
+          Choose a word
         </a>
       </div>
     </div>
