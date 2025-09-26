@@ -85,6 +85,7 @@ const Pronunciation = () => {
               <h2 className="text-green-500 text-3xl text-center">
                 Pronunciation
               </h2>
+              <p className="text-white">ইংরেজি শুদ্ধ উচ্চরণ শেখার সহজ উপায়</p>
               <p className="text-center text-white">
                 Click/touch to read the book
               </p>
@@ -411,7 +412,7 @@ const Pronunciation = () => {
                 Alphabet) দিয়ে লেখা হয়। IPA হচ্ছে সঠিকভাবে ইংরেজি উচ্চারণের
                 আন্তর্জাতিক সিম্বল। IPA সিম্বলগুলো slash /-/ বন্ধনীর মাধ্যমে
                 দেখানো হয়। <br />
-                যেমনঃ A-/ex/, Day - /der/, Good - /gud/ <br />
+                যেমনঃ A-/eɪ/, Day - /deɪ/, Good - /gud/ <br />
                 আমি আপনাদেরকে পর্যায়ক্রমে ব্যাসিক থেকে IPA সিম্বল অনুযায়ী
                 বিভিন্ন উদাহরণের মাধ্যমে শেখানোর চেষ্টা করবো।
               </p>
@@ -630,9 +631,9 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page11 */}
+        {/* page12  */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 11</h2>
+          <h2 className="text-xl font-bold ">Page 12 </h2>
           <div className="">
             <p className="font-bold"> IPA (Vowel-2) </p>
             <p className="text-xs md:text-base">
@@ -676,7 +677,7 @@ const Pronunciation = () => {
                         /fuːd/
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        ফুড
+                        ফু:ড
                       </td>
                     </tr>
                     <tr>
@@ -710,7 +711,7 @@ const Pronunciation = () => {
                         /əˈbaʊt/
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        অবাউট
+                        আ'বাউট
                       </td>
                     </tr>
                     <tr>
@@ -761,7 +762,7 @@ const Pronunciation = () => {
                         /aɪˈdiə/
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        আইডিয়া
+                        আই'ডিয়া
                       </td>
                     </tr>
                     <tr>
@@ -839,7 +840,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page12 */}
+        {/* page13 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold ">Page 12</h2>
           <div className="">
@@ -1068,7 +1069,7 @@ const Pronunciation = () => {
 
         {/* page12 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 12</h2>
+          <h2 className="text-xl font-bold ">Page 13</h2>
           <div className="">
             <p className="font-bold"> IPA (Consonant-2) </p>
             <p className="text-xs md:text-base">
@@ -1294,9 +1295,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page12 */}
+        {/* page14 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 12</h2>
+          <h2 className="text-xl font-bold ">Page 14</h2>
           <div className="">
             <p className="font-bold"> IPA (Diphthongs) </p>
             <div className="">
@@ -1324,7 +1325,7 @@ const Pronunciation = () => {
                         এ<sup>ই</sup>
                       </td>
                       <td className="border border-gray-400 px-4 py-1">
-                        Able (এবল)
+                        Able (এইবল)
                       </td>
                     </tr>
                     <tr>
@@ -1398,9 +1399,185 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page13 */}
+        {/* page15 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 15</h2>
+          <div className="">
+            <p className="font-medium">Verb Contraction (সংকোচন):</p>
+            <div className=" text-sm md:text-base">
+              <p className="">
+                Contraction হল Subject + Verb একত্রে উচ্চারণ করা। Spoken English
+                এ এটি গুরুত্বপূর্ণ। এক্ষেত্রে আমাদের IPA সিম্বলকেই ফলো করতে হবে।
+              </p>
+              <div className="overflow-x-auto p-1">
+                <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
+                  <thead className="bg-gray-100">
+                    <tr>
+                      <th className="border border-gray-300 px-1 py-1 font-bold">
+                        Short form
+                      </th>
+                      <th className="border border-gray-300 px-1 py-1 font-bold">
+                        IPA
+                      </th>
+                      <th className="border border-gray-300 px-1 py-1 font-bold">
+                        উচ্চারণ
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {[
+                      ["I’m", "/aɪm/", "আইম"],
+                      ["I’ve", "/aɪv/", "আইভ"],
+                      ["I’d", "/aɪd/", "আইড"],
+                      ["I’ll", "/aɪl/", "আইল"],
+                      ["We’re", "/wɪə/", "উইআ"],
+                      ["We’ve", "/wiːv/", "উইভ"],
+                      ["We’d", "/wiːd/", "উইড"],
+                      ["We’ll", "/wiːl/", "উইল"],
+                      ["You’re", "/jʊə/", "ইউআ"],
+                      ["You’ve", "/juːv/", "ইউভ"],
+                    ].map(([shortForm, ipa, bangla], index) => (
+                      <tr key={index} className="hover:bg-gray-50">
+                        <td className="border border-gray-300 px-1 py-1">
+                          {shortForm}
+                        </td>
+                        <td className="border border-gray-300 px-1 py-1">
+                          {ipa}
+                        </td>
+                        <td className="border border-gray-300 px-1 py-1">
+                          {bangla}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* page16 */}
+        <div className="p-2 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 16</h2>
+          <div className="">
+            <p className="font-medium">Contraction(সংকোচন): </p>
+
+            <div className=" text-sm md:text-base">
+              <div className="overflow-x-auto p-1">
+                <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
+                  <thead className="bg-gray-100">
+                    <tr>
+                      <th className="border border-gray-300 px-1 py-1 font-bold">
+                        Short form
+                      </th>
+                      <th className="border border-gray-300 px-1 py-1 font-bold">
+                        IPA
+                      </th>
+                      <th className="border border-gray-300 px-1 py-1 font-bold">
+                        উচ্চারণ
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {[
+                      ["You’d", "/juːd/", "ইউড"],
+                      ["Don’t", "/dəʊnt/", "ডোন্ট"],
+                      ["Doesn’t", "/dʌznt/", "ডাজন্"],
+                      ["Didn’t", "/dɪdnt/", "ডিডন্"],
+                      ["Shouldn’t", "/ˈʃʊdnt/", "শুডন্"],
+                      ["Won’t", "/wəʊnt/", "উওন্"],
+                      ["Wouldn’t", "/wʊdnt/", "উডন্"],
+                      ["Can’t", "/kɑːnt/", "কান্ট"],
+                      ["Couldn’t", "/ˈkʊdnt/", "কুডন্"],
+                      ["Mayn’t", "/ˈmeɪənt/", "মেইআন্ট"],
+                      ["Mightn’t", "/maɪtnt/", "মাইঠন্"],
+                      ["Mustn’t", "/ˈmʌsnt/", "মাসন্"],
+                    ].map(([shortForm, ipa, bangla], index) => (
+                      <tr key={index} className="hover:bg-gray-50">
+                        <td className="border border-gray-300 px-1 py-1">
+                          {shortForm}
+                        </td>
+                        <td className="border border-gray-300 px-1 py-1">
+                          {ipa}
+                        </td>
+                        <td className="border border-gray-300 px-1 py-1">
+                          {bangla}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* page17 */}
+        <div className="p-2 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 17</h2>
+          <div className="">
+            <p className="font-medium">Contraction(সংকোচন): </p>
+
+            <div className=" text-sm md:text-base">
+              <div className="overflow-x-auto p-1">
+                <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
+                  <thead className="bg-gray-100">
+                    <tr>
+                      <th className="border border-gray-300 px-1 py-1 font-bold">
+                        Short form
+                      </th>
+                      <th className="border border-gray-300 px-1 py-1 font-bold">
+                        IPA
+                      </th>
+                      <th className="border border-gray-300 px-1 py-1 font-bold">
+                        উচ্চারণ
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {[
+                      ["He’s", "/hiːz/", "হিজ"],
+                      ["He’d", "/hiːd/", "হিড"],
+                      ["He’ll", "/hiːl/", "হিল"],
+                      ["She’s", "/ʃiːz/", "শিজ"],
+                      ["She’d", "/ʃiːd/", "শিড"],
+                      ["She’ll", "/ʃiːl/", "শিল"],
+                    ].map(([shortForm, ipa, bangla], index) => (
+                      <tr key={index} className="hover:bg-gray-50">
+                        <td className="border border-gray-300 px-1 py-1">
+                          {shortForm}
+                        </td>
+                        <td className="border border-gray-300 px-1 py-1">
+                          {ipa}
+                        </td>
+                        <td className="border border-gray-300 px-1 py-1">
+                          {bangla}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <p className="heading2 font-bold pt-20 text-center">
+              ASM ENGLISH ACADEMY
+            </p>
+          </div>
+        </div>
+
+        {/* page20 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 13</h2>
+          <h2 className="text-xl font-bold mb-2">Page 20</h2>
+          <div className="">
+            <p className="font-medium">উচ্চারণের টেকনিক</p>
+            <div className=" text-sm md:text-base">
+              <p className=""></p>
+            </div>
+          </div>
+        </div>
+
+        {/* page15 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-2">Page 15</h2>
           <div className="">
             <p className="font-semibold">উচ্চারণ শেখার শর্টকাট টেকনিক</p>
             <div className=" text-sm md:text-base">

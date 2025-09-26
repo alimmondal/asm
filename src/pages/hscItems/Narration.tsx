@@ -680,30 +680,11 @@ const Narration = () => {
                     </tbody>
                   </table>
                 </div>
+                {/* Exercise */}
                 <div className="">
-                  <p className="">
+                  <p className="pt-10">
                     Board Questions with Answers <br />
-                    2. Change the narrative style by using indirect speeches :{" "}
-                    <br />
-                    "Have you killed the rats?" said the Mayor. "Yes, I have,"
-                    replied the piper. "Give me the promised money." "How funny
-                    you are!" said the Mayor. "Take only fifty." "I was supposed
-                    to be given fifty thousand guilders," said the piper. "What
-                    have you done? The work you have done is very simple," said
-                    the Mayor. [R. B. '25] <br />
-                    Ans: The Mayor asked the piper if he (p) had killed the
-                    rats. The piper replied in the affirmative and said that he
-                    (p) had killed the rats and told him (m) to give him (p) the
-                    promised money. The Mayor exclaimed with wonder that he (p)
-                    was very funny and ordered him (p) to take only fifty. The
-                    piper said that he (p) had been supposed to be given fifty
-                    thousand guilders. The Mayor asked the piper what he (p) had
-                    done and added that the work he (p) had done was very
-                    simple. <br />
-                    SAMSAU HSC English Model Questions with Grammar &
-                    Composition 328.
-                    <br />
-                    3. Change the narrative style by using indirect speeches:{" "}
+                    1. Change the narrative style by using indirect speeches:{" "}
                     <br />
                     "I will pay for it." he said. "I broke it. I brought the axe
                     down careless." "But no one hits accurately every time." I
@@ -716,35 +697,7 @@ const Narration = () => {
                     time. I added that the fault had been in the wood of the
                     handle. I also said that I would see the man from whoin I
                     had bought it. He thanked me <br />
-                    4. Change the narrative style by using indirect speeches:{" "}
-                    <br />
-                    "What kind of stories did Aesop tell?" asked Anwar.
-                    "Fables", replied Mrs. Amin. "Do you know what fables are?"
-                    "No", replied Anwar. "Well," said Mrs Amin. "Fables are
-                    stories with a message or a moral "Who is Aesop and where
-                    does he live?" asked Anwar. "Aesop entertained people
-                    telling stories," said Mrs Amin. [C. B. 251 <br />
-                    Ans: Anwar asked Mrs. Amin what kind of stories Aesop had
-                    told. Mrs. Amin replied that Aesop had told fables. She
-                    asked Anwar if he (A) knew what fables were. Anwar replied
-                    in the negative. Mrs. Amin said well and added that fables
-                    are stories with a message or a moral. Anwar asked her who
-                    Aesop was and where he (Aesop) lived. Mrs. Amin replied that
-                    Aesop had entertained people telling stories,h <br />
-                    5. Change the narrative style by using indirect speeches:{" "}
-                    <br />
-                    "Oh, my Lord, do not kill the child", said the woman. "Let
-                    her have it." The king said, "Now everything is clear to
-                    me". Pointing to the woman, he said to the servant, "Give
-                    her the child. She is the mother of the child." [Ctg, B.
-                    '25] <br />
-                    Ans: Addressing the king as her lord, the woman requested
-                    him not to kill the child and also requested the king to let
-                    her (the other woman) have it (the child). Then, the King
-                    told that everything was clear to him. Pointing to the
-                    woman, he ordered the servant to give her (w) the child and
-                    assured that she was the mother of the child. <br />
-                    6. Change the narrative style by using indirect speeches:{" "}
+                    2. Change the narrative style by using indirect speeches:{" "}
                     <br />
                     "Have you seen your mother, Jerry?" "I see her in every
                     summer. She sends for me". The authoress wanted to cry out.
@@ -759,28 +712,8 @@ const Narration = () => {
                     Jerry replied that his mother came up there from Mannville
                     whenever she could and added that she (his mother) did not
                     have a job then. <br />
-                    7. Change the narrative style by using indirect speeches:{" "}
                     <br />
-                    After telling the story of a sinking ship, the teacher asked
-                    the students, "What do you think the drowning woman told to
-                    her husband?" According to most of the students, the woman
-                    said, "Please, save my life." From the back bench, a boy
-                    said, "I believe, she would have told- take care of our
-                    child." Being surprised, the teacher asked him, "Have you
-                    heard the story before?" "No, sir. Actually these were also
-                    my mom's last words to my dad before she died from a serious
-                    disease." B. B. '25 <br />
-                    Ans: After telling the story of a sinking ship, the teacher
-                    asked the students what they thought the drowning woman had
-                    told to her husband. According to most of the students, the
-                    woman requested her husband to save her life. From the back
-                    bench, a boy said that he believed that she would have told
-                    her husband to take care of their child. Being surprised,
-                    the teacher asked him if he had heard the story before. The
-                    boy replied respectfully in the negative and added that
-                    actually those had been also his mom's last words to his dad
-                    before she had died from a serious disease <br />
-                    8. Change the narrative style by using indirect speeches:{" "}
+                    3. Change the narrative style by using indirect speeches:{" "}
                     <br />
                     "Why are you putting up the food in your pocket, Sir? Why
                     don't you eat?" asked the noble man. "I am doing the right
@@ -794,37 +727,8 @@ const Narration = () => {
                     dress deserved those rich dishes. The noble man said that he
                     (n) didn't understand what he (s) meant to say and added
                     that he was sorry. <br />
-                    Narr 9. Change the narrative style by using indirect
-                    speeches: <br />
-                    The three witches stood amidst the swirling mist. <br />
-                    "When shall we three meet again?" asked the first witch.{" "}
                     <br />
-                    "When the hurly-burly is done; when the battle is lost and
-                    won," replied the second witch. <br />
-                    "Where is the place?" inquired the third with her impatient
-                    tone <br />
-                    "Upon the health," answered the first. [My. B. '25] <br />
-                    Ans: The three witches stood amidst the swirling mist. The
-                    first witch asked the two others when the three of them
-                    would meet again. The second witch replied that they would
-                    meet again when the hurly-burly was done and when the battle
-                    was lost and won. The third witch inquired with her
-                    impatient tone where the place was. The first witch answered
-                    that the place was upon the health. <br />
-                    10. Change the form of narrative style by using indirect
-                    speeches: <br />
-                    "Oh, my Lord! Please do not kill the child," cried the
-                    woman, "Let her have the child." The king said, "Now
-                    everything is clear to me." Pointing to the woman, the king
-                    again said to the servant, "Give her the child. She is the
-                    real mother. [D. B. '24] <br />
-                    Ans: Addressing the king as her lord, the woman requested
-                    the king not to kill the child. She added that the other
-                    woman could have the child. The king said that everything
-                    was clear to him then. Pointing to the woman, he ordered the
-                    servant to give the child to the woman and added that she
-                    was the real mother of the baby <br />
-                    11. Change the narrative style be using indirect speeches:{" "}
+                    4. Change the narrative style be using indirect speeches:{" "}
                     <br />
                     "Why are your children crying, my daughter?" "They have been
                     starving." said the woman. "Have you none else in the
@@ -841,7 +745,7 @@ const Narration = () => {
                     they were in great distress and added that they had to
                     starve sometimes. Then the caliph exclaimed with grief and
                     said that it was a great pity. <br />
-                    15. Change the narrative style by using indirect speeches:{" "}
+                    5. Change the narrative style by using indirect speeches:{" "}
                     <br />
                     The old man said, "Can you give me some food? I have been
                     starving for two days." The maid said, "Why do you beg?
@@ -858,7 +762,7 @@ const Narration = () => {
                     didn't have anyone to look after him. Then the old man
                     replied negatively and said that he had none on the earth
                     who could take care of him. <br />
-                    16. Change the narrative style by using indirect speeches:{" "}
+                    6. Change the narrative style by using indirect speeches:{" "}
                     <br />
                     The class teacher said to the students, "Do you like to go
                     for study tour?" "Yes," said all the students. Then he said,
@@ -873,7 +777,7 @@ const Narration = () => {
                     their parents. One of the students proposed to the teacher
                     that they should go to Cox's Bazar. Then the principal
                     wished that their journey might be safe and sound. <br />
-                    17. Change the narrative style by using indirect speeches:{" "}
+                    7. Change the narrative style by using indirect speeches:{" "}
                     <br />
                     The king said to the astrologer, "How long do you want to
                     live? For you will be hanged very soon." Looking at the sky
@@ -891,7 +795,7 @@ const Narration = () => {
                     Then the astrologer bade him (K) good bye. The king turned
                     pale and ordered his courtiers to drive that wretch away and
                     never allow him to come for disturbing peace. <br />
-                    18. Change the narrative style be using indirect speeches:{" "}
+                    8. Change the narrative style be using indirect speeches:{" "}
                     <br />
                     "Where will you get admission after your HSC Examination? Do
                     you have any choice?" said the teacher to Susmita. "I'm not
@@ -905,7 +809,7 @@ const Narration = () => {
                     do because everything depended on her result. The teacher
                     encouraged her to have a choice and to remain positive and
                     optimistic. <br />
-                    19. Change the narrative style be using indirect speeches:{" "}
+                    9. Change the narrative style be using indirect speeches:{" "}
                     <br />
                     "I can chop some wood today," said Jerry. "But I have a boy
                     coming from the orphanage." "I am the boy." "You? But you
@@ -922,23 +826,8 @@ const Narration = () => {
                     chopping wood and added that some of the big boys did not
                     chop wood. Jerry further said that he had been chopping wood
                     for a long time. <br />
-                    20. Change the narrative style be using indirect speeches:{" "}
                     <br />
-                    "I have won a lottery and got 10 lakh taka," said Samira.
-                    "Congratulations!" I said. "What do you intend to do with
-                    the large amount of money?" "I want to serve my poor village
-                    people. So, I have made up my mind to establish a hospital
-                    in our rural area," Samira replied. "Thank you," I said. "I
-                    shall also help you in this respect." <br />
-                    [J. B. '231 <br />
-                    Ans: Samira told me that she had won a lottery and got 10
-                    lakh taka. I congratulated her and asked what she intended
-                    to do with the large amount of money. She(s) replied that
-                    she (s) wanted to serve her (s) poor village people and so
-                    she(s) had made up her(s) mind to establish a hospital in
-                    their(s) rural area. I thanked her and added that I would
-                    also help her(s) in that respect. <br />
-                    21. Change the narrative style be using indirect speeches:{" "}
+                    10. Change the narrative style be using indirect speeches:{" "}
                     <br />
                     "What's a puppet show?" Mita said to her father. Father
                     said, "Let's go inside and you can see yourself." Inside the
@@ -952,26 +841,8 @@ const Narration = () => {
                     that it was very strange that a doll was dancing and
                     talking. Her father replied that a man behind the screen was
                     moving the doll and asked her if she understood who was
-                    talking. 22. Change the narrative style be using indirect
-                    speeches: <br />
-                    Mr. Kalam said to the bank manager, "May I get in, sir?"
-                    "Yes, come in," said the bank manager. Mr. Kalam said, "I
-                    want to open a bank account." The manager said, "What type
-                    of account will you open?" "I want to open a savings
-                    account, "said Mr. Kalam. "Please go to the front desk. The
-                    officer will help you." "Thank you very much," Mr. Kalam
-                    said. <br />
-                    [Syl. B. '231 <br />
-                    Ans: Mr. Kalam respectfully asked the manager if he
-                    might/could get in. The bank manager replied affirmatively
-                    and told him (K) to come in. Mr. Kalam said that he (K)
-                    wanted to open a bank account. Then the bank manager asked
-                    him what type of account he (K) would open. Mr. Kalam
-                    replied that he (K) wanted to open a savings account. The
-                    bank manager requested him (K) to go to the front desk and
-                    added that the officer would help him (K). Mr. Kalam thanked
-                    the manager very much. <br />
-                    23. Change the narrative style of the passage by using
+                    talking. <br />
+                    11. Change the narrative style of the passage by using
                     indirect speeches: <br />
                     "How is your mother, Habib?" said Fahim. "She is better
                     today," said Habib. "Did you take her to any doctor?" "Yes,
@@ -986,34 +857,8 @@ const Narration = () => {
                     take a good care of her then and to ensure all medications
                     that had been prescribed. Habib assured him (F) and thanked
                     him (F) a lot. <br />
-                    24. Change the form of narrative style be using indirect
-                    speeches: <br />
-                    "Why do you stop me?" asked Rubel. "Have I done any wrong?"
-                    "You are driving so fast. It is not the rule," said the
-                    traffic sergeant. "Sorry, Sir. My mother is in the hospital.
-                    So, I am in a hurry." said Ruble. <br />
-                    [Dinaj. B. '23] <br />
-                    Ans: Rubel asked the traffic sergent why he (T) stopped him
-                    (R). Rubel again asked if he (R) had done any wrong. The
-                    traffic sergent replied that he (R) was driving so fast and
-                    added that it was not the rule. Rubel appologised with
-                    respect and said that his (R) mother was in the hospital and
-                    so, he (R) was in a hurry. <br />
-                    25. Change the narrative style be using indirect speeches:{" "}
                     <br />
-                    "What kind of stories did Aesop tell?" asked Anwar. "Fables.
-                    "replied Mr. Rahman. "Do you know what fables are?" "No,"
-                    replied Anwar. "Well," continued Mr. Rahman. "Fables are
-                    stories with a moral. And Aesop entertained people by
-                    telling these stories." <br />
-                    [My. B. '231 <br />
-                    Ans: Anwar asked Mr. Rahman what kind of stories. Aesop had
-                    told. Mr. Rahman replied that they were Fables and asked if
-                    he (A) knew what Fables are. Anwar replied in negative. Mr.
-                    Rahman nodded and continued that Fables are stories with a
-                    moral and added that Aesop had entertained people by telling
-                    those stories. <br />
-                    26. Change the narrative style by using indirect speeches: 7{" "}
+                    12. Change the narrative style by using indirect speeches: 7{" "}
                     <br />
                     "What's your dream? Do you have any dream?" said Zayed.
                     "Yes, I have a dream. My dream is a full plate of rice."
@@ -1027,7 +872,7 @@ const Narration = () => {
                     go with him (Z) and said that he (2) was going to
                     meterialize his (R) dream. Robi exclaimed with wonder that
                     he (Z) was very kind. <br />
-                    27 . Change the narrative style be using indirect speeches;{" "}
+                    13 . Change the narrative style be using indirect speeches;{" "}
                     <br />
                     "Follow my example," she said as we shook hands, "and never
                     eat more than one thing for luncheon." "Iוויז do better than
@@ -1041,22 +886,8 @@ const Narration = () => {
                     also told her that I would eat nothing for dinner that
                     night. Jumping into a cab, she cried gaily and called me a
                     humorist, <br />
-                    28. Change the narrative style by using indirect speeches:{" "}
                     <br />
-                    "What happened to you, Tareq?" said Rashed. "I was sick with
-                    the flu. Have you heard anything about our exam?" said
-                    Tareq. "It is on 23 Ocotober. You need to collect the admit
-                    card of the exam," said Rashed. "From where can I get it?"
-                    said Tareq. "It is in the office room," said Rashed. <br />
-                    [R. B. '22] <br />
-                    Ans: Rashed asked Tareq what had happened to him (T) Tareq
-                    replied that he (T) had been sick with flue He (1) asked
-                    Rashed if he (R) had heard anything about their exam. Rashed
-                    replied that the exam was on 23 October. He (R) added that
-                    Tareq needed to collect the admit card of the exam. Tareq
-                    asked where he could get the admit card from. Then Rashed
-                    replied that it was in the office room. <br />
-                    29. Change the narrative style by using indirect speeches:{" "}
+                    14. Change the narrative style by using indirect speeches:{" "}
                     <br />
                     "Why are you crying? Do you have any problem?" asked the
                     passer-by. "I am crying because I have none to look after
@@ -1070,33 +901,7 @@ const Narration = () => {
                     asked the child if he (s) was hungry. The street child
                     replied in the affirmative and said that he was hungry.{" "}
                     <br />
-                    30. Change the narrative style by using indirect speech:{" "}
                     <br />
-                    "Stop. Didn't I tell you to stop? You cannot go there," said
-                    the sergeant. "Oh! very well, it is hard thing to be very
-                    poor. All the world is against the poor," said the man.{" "}
-                    <br />
-                    [C. B. '221 <br />
-                    Ans: The sergant ordered the man to stop and asked angrily
-                    if he (s) had not told him (m) to stop. The sergant also
-                    said that he (m) could not go there. The man replied with
-                    grief that it was very well and added that it was hard thing
-                    to be very poor. The man further said that all the world was
-                    against the poor. <br />
-                    31. Change the narrative style by uisng indirect speeches:{" "}
-                    <br />
-                    He said, "I can chop some wood today." "You? But you're
-                    small." "Size don't matter, chopping wood," Jerry said,
-                    "Some of the big boys don't chop good. I've been chopping
-                    wood at the orphanage for a longtime." <br />
-                    [Ctg. B. '221
-                    <br />
-                    Ans: Jerry told me that he could chop some wood that day. I
-                    wondered and asked him if he could do this since he was
-                    small. He told me that size do not matter for chopping wood
-                    and he added some of the big boys did not chop good. He
-                    further added that he had been chopping wood at the
-                    orphanage for a long time. <br />
                     32. Change the narrative style by using indirect speeches:{" "}
                     <br />
                     "Could I help you, Sir?" said the receptionist. The man
@@ -1112,20 +917,8 @@ const Narration = () => {
                     appointment. He (M) replied in the affirmative and said that
                     he (M) had an appointment. Then the receptionist told him
                     (M) to wait for a while. <br />
-                    33. Change the narrative style by using indirect speeches:{" "}
+                    34. Change the narrative style by using indirect speeches:{" "}
                     <br />
-                    "Oh, my Lord, please do not kill the child," said the woman.
-                    "Let her have him." The king said, "Now everything is clear
-                    to me." Pointing to the woman, he said to the servant, "Give
-                    her the child. She is the mother of the baby." <br />
-                    Β. Β. '22] <br />
-                    Ans: Addressing the king as her lord, the woman begged the
-                    king not to kill the child. She added that the other woman
-                    child have the child. The king said that everything was
-                    clear to him, then Pointing to the woman, he ordered the
-                    servant to give the child to the woman and added that she
-                    was the mother of the baby. 34. Change the narrative style
-                    by using indirect speeches: <br />
                     "Where is the cattle which these people graze and where are
                     the fields they plough, uncle?" he asked, turning to Daya
                     Ram, "They have no cattle and no fields here," said the
