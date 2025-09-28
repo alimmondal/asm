@@ -1598,31 +1598,44 @@ const Pronunciation = () => {
             <div className=" text-sm md:text-base">
               <p className="">
                 Unvoiced sound গুলো হলোঃ <br />
-                p/প;
+                {/* p/প;
                 <br />
-                t/ট; <br /> k/ক; <br /> f/ ফ; <br /> sh/শ; <br /> ch/চ; <br />
-                <br />
-                ১. শব্দের শেষে Unvoiced sound-এরপর 'S' থাকলে 'S' এর উচ্চারণ
-                'স'/'চ'-এর মত হবে।
+                t/ট; <br /> k/ক; <br /> f/ ফ; <br /> sh/শ; <br /> ch/চ; <br /> */}
+                <table className="table-auto border-collapse border border-gray-300 shadow-md max-w-fit text-center">
+                  <tbody>
+                    {[["p/প;", "t/ট;", "k/ক;", "f/ ফ;", "sh/শ;", "ch/চ;"]].map(
+                      ([one, two, three, four, five], index) => (
+                        <tr key={index} className="hover:bg-gray-50">
+                          <td className="border border-gray-300 px-1 py-1">
+                            {one}
+                          </td>
+                          <td className="border border-gray-300 px-1 py-1">
+                            {two}
+                          </td>
+                          <td className="border border-gray-300 px-1 py-1">
+                            {three}
+                          </td>
+                          <td className="border border-gray-300 px-1 py-1">
+                            {four}
+                          </td>
+                          <td className="border border-gray-300 px-1 py-1">
+                            {five}
+                          </td>
+                        </tr>
+                      )
+                    )}
+                  </tbody>
+                </table>
               </p>
+              <br />
+
               <div className="overflow-x-auto p-1">
+                <p className="">
+                  Rule-1. <br />
+                  শব্দের শেষে Unvoiced sound/consonant - এরপর 'S' থাকলে 'S' এর
+                  উচ্চারণ 'স'/'চ'-এর মত হবে।
+                </p>
                 <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
-                  <thead className="bg-gray-100">
-                    <tr>
-                      <th className="border border-gray-300 px-1 py-1 font-bold">
-                        Word
-                      </th>
-                      <th className="border border-gray-300 px-1 py-1 font-bold">
-                        Example
-                      </th>
-                      <th className="border border-gray-300 px-1 py-1 font-bold">
-                        IPA
-                      </th>
-                      <th className="border border-gray-300 px-1 py-1 font-bold">
-                        উচ্চারণ
-                      </th>
-                    </tr>
-                  </thead>
                   <tbody>
                     {[
                       ["app", "apps", "/æps/", "অ্যাপস"],
@@ -1646,11 +1659,33 @@ const Pronunciation = () => {
                   </tbody>
                 </table>
               </div>
-              <p className="">
-                ১. শব্দের শেষে Unvoiced sound-এরপর 'S' থাকলে 'S' এর উচ্চারণ
-                'স'/'চ'-এর মত হবে।১. শব্দের শেষে Unvoiced sound-এরপর 'S' থাকলে
-                'S' এর উচ্চারণ 'স'/'চ'-এর মত হবে।
+              <p className="pt-1">
+                ২. Unvoiced sound/Consonant ছাড়া শব্দের শেষে 'S' থাকলে 'S' এর
+                উচ্চারণ 'z'/'য'/'জ' - এর মত হবে।
               </p>
+              <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
+                <tbody>
+                  {[
+                    ["app", "apps", "/æps/", "অ্যাপস"],
+                    ["Bat", "Bats", "/bæts/", "ব্যাঠস"],
+                  ].map(([word, Example, IPA, BPA], index) => (
+                    <tr key={index} className="hover:bg-gray-50">
+                      <td className="border border-gray-300 px-1 py-1">
+                        {word}
+                      </td>
+                      <td className="border border-gray-300 px-1 py-1">
+                        {Example}
+                      </td>
+                      <td className="border border-gray-300 px-1 py-1">
+                        {IPA}
+                      </td>
+                      <td className="border border-gray-300 px-1 py-1">
+                        {BPA}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
