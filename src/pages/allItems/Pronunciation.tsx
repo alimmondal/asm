@@ -1575,16 +1575,81 @@ const Pronunciation = () => {
               <p className="">
                 আরো মনে রাখতে Schwa (/ǝ/) প্রকৃতপক্ষে জোর দিয়ে উচ্চারণ করা হয়ে
                 থাকে না। যেমনঃ <br />
-                1. Diff(e)rent = 'difrent/ ডিফরেন্ট = ডিফ্রেন্ট <br />
-                2. Int(e)rest = 'intrest/ ইন+ট্রেস্ট = ইসট্রেস্ট <br />
-                3. Libr(a)ry = 'laibri/ - লাই+ব্রি = লাইব্রি <br />
-                Magic Rules of English Pronunciation 76 4. Rest(au)rant =
-                restront/- রেস-ট্রন্ট = রেসট্রন্ট <br />
-                5. Sim(i)lar similo/ সিম+লো = সিমলা <br />
-                6. T(o)night = T'night/ ঠ+নাইট ঠনাইট <br />
-                7. Veg(e)tables = veg'table - ভেজ+টেবল ভেজটেবল <br />
-                8. Yest(er)day = yestoday ইয়েস-টডেই = ইয়েসটডেই <br />
+                1. Diff(e)rent = /'difrent/ - ডিফরেন্ট = ডিফ্রেন্ট <br />
+                2. Int(e)rest = /'intrest/ - ইন+ট্রেস্ট = ইনট্রেস্ট <br />
+                3. Libr(a)ry = /'laibri/ - লাই+ব্রি = লাইব্রি <br />
+                4. Rest(au)rant = restront/- রেস-ট্রন্ট = রেসট্রন্ট <br />
+                5. Sim(i)lar = /similo/ সিম+লো = সিমলা <br />
+                6. T(o)night = /T'night/ = ঠ+নাইট = ঠনাইট <br />
+                7. Veg(e)tables = /veg'table - ভেজ+টেবল = ভেজটেবল <br />
+                8. Yest(er)day = /yestoday - ইয়েস-টডেই = ইয়েসটডেই <br />
                 <br />
+              </p>
+            </div>
+          </div>
+          <p className="heading2 text-center pt-20">ASM English Academy</p>
+        </div>
+
+        {/* page21 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 21</h2>
+          <div className="">
+            <p className="font-medium">Unvoiced Sound + S:</p>
+            <div className=" text-sm md:text-base">
+              <p className="">
+                Unvoiced sound গুলো হলোঃ <br />
+                p/প;
+                <br />
+                t/ট; <br /> k/ক; <br /> f/ ফ; <br /> sh/শ; <br /> ch/চ; <br />
+                <br />
+                ১. শব্দের শেষে Unvoiced sound-এরপর 'S' থাকলে 'S' এর উচ্চারণ
+                'স'/'চ'-এর মত হবে।
+              </p>
+              <div className="overflow-x-auto p-1">
+                <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
+                  <thead className="bg-gray-100">
+                    <tr>
+                      <th className="border border-gray-300 px-1 py-1 font-bold">
+                        Word
+                      </th>
+                      <th className="border border-gray-300 px-1 py-1 font-bold">
+                        Example
+                      </th>
+                      <th className="border border-gray-300 px-1 py-1 font-bold">
+                        IPA
+                      </th>
+                      <th className="border border-gray-300 px-1 py-1 font-bold">
+                        উচ্চারণ
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {[
+                      ["app", "apps", "/æps/", "অ্যাপস"],
+                      ["Bat", "Bats", "/bæts/", "ব্যাঠস"],
+                    ].map(([word, Example, IPA, BPA], index) => (
+                      <tr key={index} className="hover:bg-gray-50">
+                        <td className="border border-gray-300 px-1 py-1">
+                          {word}
+                        </td>
+                        <td className="border border-gray-300 px-1 py-1">
+                          {Example}
+                        </td>
+                        <td className="border border-gray-300 px-1 py-1">
+                          {IPA}
+                        </td>
+                        <td className="border border-gray-300 px-1 py-1">
+                          {BPA}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className="">
+                ১. শব্দের শেষে Unvoiced sound-এরপর 'S' থাকলে 'S' এর উচ্চারণ
+                'স'/'চ'-এর মত হবে।১. শব্দের শেষে Unvoiced sound-এরপর 'S' থাকলে
+                'S' এর উচ্চারণ 'স'/'চ'-এর মত হবে।
               </p>
             </div>
           </div>
