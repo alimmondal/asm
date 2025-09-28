@@ -79,14 +79,16 @@ const Pronunciation = () => {
           //   height: "100%",
           // }}
         >
-          <div className="absolute top-1/4 md:top-[30%] left-[22%] md:left-[42%]">
+          <div className="absolute top-1/4 md:top-[30%] left-[12%] md:left-[42%] px-5">
             <div className="">
               <h1 className="text-9xl text-center mb-5">📖</h1>
               <h2 className="text-green-500 text-3xl text-center">
                 Pronunciation
               </h2>
-              <p className="text-white">ইংরেজি শুদ্ধ উচ্চরণ শেখার সহজ উপায়</p>
-              <p className="text-center text-white">
+              <p className="text-black text-center font-bold">
+                শুদ্ধ উচ্চারণ শেখার সহজ উপায়
+              </p>
+              <p className="text-center text-blue-500">
                 Click/touch to read the book
               </p>
             </div>
@@ -141,12 +143,13 @@ const Pronunciation = () => {
                 K = খেই <br />
                 L = এল্ <br />
                 M = এ্যম্ <br />
+                N = এন্‌ <br />
               </p>
               <p className="">
                 {" "}
-                N = এন্‌ <br />
                 0 = ওউ <br />
-                P = ফী <br />Q = খীউ R = আ (র) <br />S = এস্ <br />T = ঠী <br />
+                P = ফী <br />Q = খীউ <br />
+                R = আ (র) <br />S = এস্ <br />T = ঠী <br />
                 U = ইউ <br />V = ভীই <br />W = ডাবল্ইউ <br />X = এক্স <br />Y =
                 ওয়াই <br />Z = জেড/জি <br />
                 (British-জেড, American- জি) <br />
@@ -165,9 +168,10 @@ const Pronunciation = () => {
             <div className="text-sm md:text-base">
               <p className="">
                 সূত্রঃ "দাদির CV" <br />
+                দা = C (Consonant) <br />
                 দি = V (Vowel) <br />
-                দা = C (Consonant) <br /> <br />
-                ✨ The এর পর যদি Vowel sound থাকে তবে এর উচ্চারণ 'দি' এর মতো
+                <br />
+                ➡️ The এর পর যদি Vowel sound থাকে তবে এর উচ্চারণ 'দি' এর মতো
                 হবে। যেমন: <br />
                 The egg = দি এগ <br />
                 The apple = দি অ্যাপল <br />
@@ -188,9 +192,8 @@ const Pronunciation = () => {
         {/* page4 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 4</h2>
-          {/* 1 */}
           <div className="">
-            <p className="font-bold">Aspirated Sound: P, T & K</p>
+            <p className="font-bold">Sound: P, T & K</p>
             <div className="text-sm md:text-base">
               <p className="">
                 P, T & K এই ৩টি অক্ষরের উচ্চারণ সঠিক হলে শুদ্ধ উচ্চারণের ৩০%
@@ -201,15 +204,15 @@ const Pronunciation = () => {
                 Th - 'ঠ' <br />
                 Kh - খ <br />
                 Aspirated Sound এর বৈশিষ্ট্যঃ <br />
-                এগুলো উচ্চারণের সময় মুখ দিয়ে বেশি পরিমানে বাতাস বের হবে। <br />
-                যেমনঃ P এর উচ্চারণ ph অনেকটা 'ফ' এর মত হবে। <br />
+                এগুলো উচ্চারণের সময় মুখ দিয়ে বেশি পরিমানে বাতাস বের হবে। যেমনঃ{" "}
+                <br />
+                P এর উচ্চারণ ph অনেকটা 'ফ' এর মত হবে। <br />
                 T এর উচ্চারণ th অনেকটা 'ঠ' এর মত হবে। <br />
                 K এর উচ্চারণ kh অনেকটা 'খ' এর মত হবে। <br />
                 'P Sound' বা উচ্চারণ' <br />
                 Pen ফেন <br />
                 Pin ফিন <br />
-                Peace ফীচ <br />
-                Pain ফেইন <br />
+                Pain ফেইন
               </p>
             </div>
           </div>
@@ -218,19 +221,17 @@ const Pronunciation = () => {
         {/* page5 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 5</h2>
-
           <div className="">
-            <p className="font-bold">Example of T, C, Q & K</p>
+            <p className="font-bold">Example of P, T, C, Q & K</p>
             <div className="flex justify-between text-sm md:text-base">
               <p className="">
-                <span className="font-semibold">❇️ 'T' Sound বা উচ্চারণঃ </span>
+                <span className="font-semibold">❇️'T' Sound বা উচ্চারণঃ </span>
                 <br />
                 Time = ঠাইম <br />
                 Table = ঠেইবল <br />
                 Talk = ঠোক <br />
                 Today = ঠুডেই <br />
                 Touch = ঠাচ <br />
-                Tense = ঠেনস <br />
                 Tuition = ঠিউশন <br />
                 <span className="font-semibold">❇️'K, C, Q' Sound' </span>
                 <br />
@@ -242,7 +243,6 @@ const Pronunciation = () => {
                 Country = খান্ট্রি <br />
                 Carry = খ্যারি <br />
                 Caption = খ্যাপশন <br />
-                Comment = খমেন্ট <br />
                 Curious = খিউওরিয়াশ <br />
                 Kick = খিক <br />
                 kind = খাইন্ড <br />
@@ -264,7 +264,6 @@ const Pronunciation = () => {
         {/* page6 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 6</h2>
-          {/* 1 */}
           <div className="">
             <p className="font-bold">সবসময় কি Aspirated হবে? </p>
             <div className=" text-sm md:text-base">
@@ -296,46 +295,25 @@ const Pronunciation = () => {
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 7</h2>
           <div className="">
-            {/* <p className="font-bold"> Aspirated rules: </p>  */}
+            <p className="font-bold">'p, t, k, c, q' </p>
             <div className=" text-sm md:text-base">
               <span className="font-semibold">Rule-3</span> <br />
               'Word' এর শেষে 'p, t, k, c, q' থাকলে সেই Sound-গুলো Aspirated হয়
               না। অর্থাৎ সেই অক্ষরগুলোর উচ্চারণ 'প', 'ট', 'ক' এর মত হয়। 'ফ','ঠ',
               'খ' এর মত নয়। যেমনঃ <br />
-              {/* 10 Words ending with 'P' <br />
-              'No Aspirated Sound' বা উচ্চারণ Capখ্যাপ <br /> */}
               Clap = ফ্ল্যাপ <br />
               Deep = ডিপ <br />
-              Camp = খ্যাম্প <br />
-              {/* Copখপ <br />
-              Cupখাপ <br />
-              Cheapচিপ <br />
-              Slapস্ন্যাপ <br />
-              Sleepস্লিপ <br />
-              Sipসিপ <br />
-              Backupব্যাকআপ <br /> */}
               <span className="font-semibold">Rule-4</span> <br />
               'Word' এর মাঝখানে যখন 'p, t, k' থাকে সেই Sound- কখনও Aspirated হয়,
               আবার কখনও Aspirated হয় না। যদি মাঝের অক্ষরটির 'p/t/k' উপর stress
               দেয়া হয়, তাহলে Sound-টি Aspirated হবে; আর যদি stress দেয়া না হয়,
               তাহলে Sound-টি Aspirated হবে না। যেমনঃ <br />
-              {/* Words with 'P/T/K' with stress <br />
-              'Aspirated Sound বা উচ্চারণ <br /> */}
               appoint = অফোইন্ট <br />
               Fatal = ফেইঠল <br />
               compose = খমফৌজ <br />
-              metal = মেঠল <br />
-              {/* appealঅফিল <br />
-              completeখমফিট <br />
-              leopardলেফাড <br />
-              actorঅ্যাকটো <br />
-              Important ইমফঠান্ট <br />
-              Water ওয়াঠা (র) <br />
-              encourageইনখারিজ <br />
-              remarkableরিমাখাবল <br />
-              ticketটিখিট */}
             </div>
           </div>
+          <p className="heading2 text-center pt-3">ASM English Academy</p>
         </div>
 
         {/* page8 */}
@@ -842,7 +820,7 @@ const Pronunciation = () => {
 
         {/* page13 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 12</h2>
+          <h2 className="text-xl font-bold ">Page 13</h2>
           <div className="">
             <p className="font-bold"> IPA (Consonant-1) </p>
             <p className="text-xs md:text-base">
@@ -1067,9 +1045,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page12 */}
+        {/* page14 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 13</h2>
+          <h2 className="text-xl font-bold ">Page 14</h2>
           <div className="">
             <p className="font-bold"> IPA (Consonant-2) </p>
             <p className="text-xs md:text-base">
@@ -1295,9 +1273,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page14 */}
+        {/* page15 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 14</h2>
+          <h2 className="text-xl font-bold ">Page 15</h2>
           <div className="">
             <p className="font-bold"> IPA (Diphthongs) </p>
             <div className="">
@@ -1399,9 +1377,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page15 */}
+        {/* page16 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 15</h2>
+          <h2 className="text-xl font-bold mb-1">Page 16</h2>
           <div className="">
             <p className="font-medium">Verb Contraction (সংকোচন):</p>
             <div className=" text-sm md:text-base">
@@ -1456,9 +1434,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page16 */}
+        {/* page17 */}
         <div className="p-2 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 16</h2>
+          <h2 className="text-xl font-bold mb-1">Page 17</h2>
           <div className="">
             <p className="font-medium">Contraction(সংকোচন): </p>
 
@@ -1511,9 +1489,9 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page17 */}
+        {/* page18 */}
         <div className="p-2 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 17</h2>
+          <h2 className="text-xl font-bold mb-1">Page 18</h2>
           <div className="">
             <p className="font-medium">Contraction(সংকোচন): </p>
 
@@ -1558,15 +1536,62 @@ const Pronunciation = () => {
                 </table>
               </div>
             </div>
-            <p className="heading2 font-bold pt-20 text-center">
-              ASM ENGLISH ACADEMY
-            </p>
+            <p className="heading2 text-center pt-20">ASM English Academy</p>
           </div>
         </div>
 
+        {/* page19 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 19</h2>
+          <div className="">
+            <p className="font-medium">Elision: </p>
+            <div className=" text-sm md:text-base">
+              <p className="">
+                ইংরেজি দ্রুত বলার আরেকটি মাধ্যম হলো Elision বা ধ্বনিলোপ যেখানে
+                ২টি sound এর মধ্যে যে কোন একটি sound এর অনুচ্চারিত থাকে। <br />
+                Rule: <br />
+                যদি কোন শব্দের শেষ অক্ষর /t/,/d/, /k/থাকে এবং পরবর্তী শব্দের ১ম
+                অক্ষর consonant sound থাকে তাহলে ঐ /t/,/d/, /k/এর উচ্চারণ লোপ
+                পায়, অর্থাৎ উচ্চারিত হয় না। সেক্ষেত্রে /t/,/d/, /k/এর স্থলে একটা
+                ধাক্কা দিয়ে উচ্চারিত হয়। যেমনঃ <br />
+                First boy: <br />
+                Firs'boy - ফার্স + বয় = ফার্সবয় <br />
+                Great poet: <br />
+                Grea' poet - গ্রেই + ফৌইট = গ্রেইফৌইট <br />
+                Second chance: <br />
+                Secon' chance সেকন চ্যান্স = সেকনচ্যান্স <br />
+                That man: <br />
+                Tha' man- দ্য + ম্যান = দ্যম্যান <br />
+              </p>
+            </div>
+          </div>
+        </div>
         {/* page20 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 20</h2>
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 20</h2>
+          <div className="">
+            <p className="font-medium">Elision:</p>
+            <div className=" text-sm md:text-base">
+              <p className="">
+                আরো মনে রাখতে Schwa (/ǝ/) প্রকৃতপক্ষে জোর দিয়ে উচ্চারণ করা হয়ে
+                থাকে না। যেমনঃ <br />
+                1. Diff(e)rent = 'difrent/ ডিফরেন্ট = ডিফ্রেন্ট <br />
+                2. Int(e)rest = 'intrest/ ইন+ট্রেস্ট = ইসট্রেস্ট <br />
+                3. Libr(a)ry = 'laibri/ - লাই+ব্রি = লাইব্রি <br />
+                Magic Rules of English Pronunciation 76 4. Rest(au)rant =
+                restront/- রেস-ট্রন্ট = রেসট্রন্ট <br />
+                5. Sim(i)lar similo/ সিম+লো = সিমলা <br />
+                6. T(o)night = T'night/ ঠ+নাইট ঠনাইট <br />
+                7. Veg(e)tables = veg'table - ভেজ+টেবল ভেজটেবল <br />
+                8. Yest(er)day = yestoday ইয়েস-টডেই = ইয়েসটডেই <br />
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* page20 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 20</h2>
           <div className="">
             <p className="font-medium">উচ্চারণের টেকনিক</p>
             <div className=" text-sm md:text-base">
