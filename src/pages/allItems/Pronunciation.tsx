@@ -1853,7 +1853,7 @@ const Pronunciation = () => {
 
                     
               <p className="pt-2">
-                ইংরেজি ব্যাকরণে Syllable দুই ধরণের আছেঃ <br /> 
+                Syllable দুই ধরণের আছেঃ <br /> 
                     (i) Open syllable এবং 
                     (ii) Closed syllable
               </p></p>
@@ -1867,13 +1867,34 @@ const Pronunciation = () => {
           <div className="">
             <p className="font-bold text-green-500">Syllable</p>
             <div className=" text-sm md:text-base">
-              <p className="">
+              <p className="pt-2">
                  Closed Syllable: <br /> 
                     যদি syllable-এর শেষে consonant থাকে, তাকে closed syllable বলা হয়ে থাকে। তাছাড়া, closed syllable vowel-এর উচ্চারণ short vowel sound এর মত হয়ে থাকে। <br /> 
                     Can - /kæn/ - [ক্যান] <br /> 
                     Hen - /hen/ - [হেন] <br /> 
               </p>
-              <p className="">
+              <p className="pt-3">
+                 Open Syllable: <br /> 
+                    যদি syllable-এর শেষে Vowel থাকে, তাকে open syllable বলা হয়ে থাকে। তাছাড়া, open syllable vowel-এর উচ্চারণ long vowel sound এর মত হয়ে থাকে। <br /> 
+                    Do - /du:/ - [ডূ:] <br /> 
+                    See - /si:/ - [সী:] <br /> 
+              </p>
+                
+
+              
+            </div>
+          </div>
+          <p className="heading2 text-center pt-10">ASM English Academy</p>
+        </div>
+
+        {/* page 26 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 26</h2>
+          <div className="">
+            <p className="font-bold text-green-400">Stress:</p>
+            <div className=" text-sm md:text-base">
+              <p className=""></p>
+              <p className="pt-2">
                 মনে রাখতে হবে, দুই syllable word যদি noun অথবা adjective হয়, তাহলে অধিকাংশ সময় প্রথম syllable এ stress হবে। যেমনঃ <br />
                     Leader/'li: dər / [লি:ডার] <br />
                     Danger / dein:dzər / [ডেইন:জার] <br />
@@ -1894,7 +1915,7 @@ const Pronunciation = () => {
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-1">Page 20</h2>
           <div className="">
-            <p className="font-medium text-green-400">Assimilation</p>
+            <p className="font-bold text-green-400">Assimilation</p>
             <div className=" text-sm md:text-base">
               <p className=""></p>
             </div>
