@@ -420,7 +420,7 @@ const Pronunciation = () => {
         {/* page11 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold ">Page 11</h2>
-          <div className="">
+          <div className=""><div className=""></div>
             <p className="font-bold"> IPA (Vowel-1) </p>
             <p className="text-xs md:text-base">
               প্রতিটি সিম্বলগুলো আয়ত্ব করে ফেলুন। কারণ, এ সিম্বলগুলো রপ্ত করলেই
@@ -840,10 +840,10 @@ const Pronunciation = () => {
           <h2 className="text-xl font-bold ">Page 13</h2>
           <div className="">
             <p className="font-bold"> IPA (Consonant-1) </p>
-            <p className="text-xs md:text-base">
+            <div className="text-sm md:text-base">
+              <p className="text-xs md:text-base">
               এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
             </p>
-            <div className="text-sm md:text-base">
               <div className="flex justify-center pt-1 ">
                 <div className="">
                   <table className="table-auto border-collapse border border-gray-400 shadow-md">
@@ -1067,10 +1067,11 @@ const Pronunciation = () => {
           <h2 className="text-xl font-bold ">Page 14</h2>
           <div className="">
             <p className="font-bold"> IPA (Consonant-2) </p>
-            <p className="text-xs md:text-base">
+            
+            <div className="text-sm md:text-base">
+              <p className="text-xs md:text-base">
               এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
             </p>
-            <div className="text-sm md:text-base">
               <div className="flex justify-center pt-1 ">
                 <div className="flex md:flex-row gap-3 p-1">
                   {/* Right Table */}
@@ -1891,21 +1892,81 @@ const Pronunciation = () => {
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-1">Page 26</h2>
           <div className="">
-            <p className="font-bold text-green-400">Stress:</p>
+            <p className="font-bold text-green-400">Stress (শ্বাসাঘাত)/চাপ:</p>
             <div className=" text-sm md:text-base">
-              <p className=""></p>
+              <p className="pt-2">
+                Stress:
+                যে syllable এর শুরুতে শ্বাসাঘাত (stress) চিহ্ন দেয়া থাকে, উক্ত syllable কে stressed syllable বলে। শ্বাসাঘাত উত্তোলিত তিলক চিহ্নের /'/ মাধ্যমে দেখানো হয়। শ্বাসাঘাত যুক্ত syllable এর উচ্চারণ একটু উচ্চ ও দীর্ঘ অর্থাৎ Louder এবং longer হয়। <br /> 
+
+                যেমন: <br /> 
+                Attention - /ə'ten.ʃ'ǝn/ - [আ'টেনশান। <br /> 
+                ব্যাখ্যাঃ এখানে Attention শব্দের দ্বিতীয় syllable এর শুরুতে stress চিহ্ন দেওয়া হয়েছে। তার মানে দ্বিতীয় syllable টি একটু জোরালো এবং দীর্ঘ হবে। <br /> 
+                উদাহরণ: <br /> 
+                Important - /ım'pɔːtənt/ - [ইম'পটান্ট] <br /> 
+                Belief -/br'li:f/ - [বি'লি:ফ] <br /> 
+              </p>
+              <p className="pt-2">
+                সাফ কথাঃ <br /> 
+                এক syllable বিশিষ্ট word সকল সময় stress হবে। যেমনঃ <br /> 
+                But - /bat / -  [ব্যাট] <br /> 
+                Rat -  / ræt / -  [র‍্যাট]
+                </p>
+              
+            </div>
+          </div>
+        </div>
+        {/* page 27 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 27</h2>
+          <div className="">
+            <p className="font-bold text-green-400">Stressed:</p>
+            <div className=" text-sm md:text-base">
               <p className="pt-2">
                 মনে রাখতে হবে, দুই syllable word যদি noun অথবা adjective হয়, তাহলে অধিকাংশ সময় প্রথম syllable এ stress হবে। যেমনঃ <br />
-                    Leader/'li: dər / [লি:ডার] <br />
-                    Danger / dein:dzər / [ডেইন:জার] <br />
+                    Leader - /'li:dər/ -  [লি:ডার] <br />
+                    Danger -  /dein:dzər/ -  [ডেইন:জার] <br />
               </p>
               <p className="">
                 ব্যতিক্রমঃ <br />
                 এই নিয়মগুলোরও মাঝে মাঝে ব্যবহার দেখা যায় না। এদেরও বেশ কিছু ব্যতিক্রম আছে যা আমাদের কিছু মানসম্মত অভিধান দেখে দেখে চর্চা করতে
                 হবে। যেমনঃ <br />
-                1st Syllable Stress: <br />
-                Anyone / 'εniwan / [এনীওয়ান] <br />
-                Beautiful / 'bju:tifel / [বিউটিফল্] <br />
+                Anyone - /'εniwan/ - [এনীওয়ান] <br />
+                Beautiful - /'bju:tifəl/-  [বিউটিফল্] <br />
+              </p>
+              <p className="pt-2">
+                জানতে হবেঃ <br /> 
+                Unstressed syllable এ vowel এর উচ্চারণ /ə/ কখনও [আ],
+                আবার কখনও [অ্য], এবং আবার কখনও [অ্যা] হবে। যেমনঃ <br /> 
+                Ability -  /ə'bıləti / -  [আ'বিলিটি] <br /> 
+                Apple -/'æpəl/ - [অ্যাপল]<br /> 
+                Police  -/pə'li:s/ - [প্য'লী:স] <br /> 
+
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* page 28 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 28</h2>
+          <div className="">
+            <p className="font-bold text-green-400">Assimilation</p>
+            <div className=" text-sm md:text-base">
+              <p className="">
+                /ɪ/E দিয়ে লেখা unstressed prefixes (de, re, pre, ex etc) এর ক্ষেত্রে unstressed syllable এর উচ্চারণ /ɪ/ [ই] হয়। <br />
+                Debate / dr'bert / [ডি'বেইট] <br />
+                Delete /dr'li:t/ [ডি'লিট] <br />
+                Develop / dı velap / [ডি'ভেলাপ] <br />
+                Demand /dı'ma:nd / [ডি'মা:ন্ড] <br />
+                Effect/ɪ'fekt/ [ই'ফেকট] <br />
+                Exam/ɪg zæm/ [ইগ'জ্যাম.] <br />
+                Excel/ık'sel/ [ইক'সেল.] <br />
+                Exercise /'ek.se.sarz/ [ইক'সা. সাইজ) <br />
+                Expel/ɪk'spel/ [ইক'স্পেল] <br />
+                Expert/'ek.sp3: t/ [ইক'স্পাট] <br />
+                Prefer / prz'f3r: / [প্রি'ফা: (র)] <br />
+                Rebirth / ri: 'b3:0/ [রি.'বাথ] <br />
+                Relate /rr'lert/ [রি'লেইট] <br />
+                Renew/rt'nju:/ [রি'নিউ]
 
               </p>
             </div>
