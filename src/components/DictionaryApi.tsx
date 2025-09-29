@@ -52,10 +52,10 @@ function DictionaryApi() {
   };
 
   return (
-    <div className="md:w-1/2 mx-auto flex flex-col items-center justify-center">
+    <div className="flex flex-col gap-10 items-center justify-center">
       <h1 className="">Hello!</h1>
       <div className="">
-        <div className="flex pb-10">
+        <div className="w-full flex justify-center pb-10">
           <input
             type="text"
             onChange={(e) => setWord(e.target.value)}

@@ -161,10 +161,9 @@ const Pronunciation = () => {
         {/* page3 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 3</h2>
-          {/* 1 */}
           <div className="">
-            <p className="font-bold">কখন “দা” এবং কখন "দি” হবে</p>
-
+            <p className="font-bold">Article - the</p>
+            <p className="font- pt-2">কখন “দা” এবং কখন "দি” হবেঃ</p>
             <div className="text-sm md:text-base">
               <p className="">
                 সূত্রঃ "দাদির CV" <br />
@@ -187,6 +186,27 @@ const Pronunciation = () => {
               <p className=""></p>
             </div>
           </div>
+        </div>
+        {/* page3 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-2">Page 3</h2>
+
+          <div className="">
+            <p className="font-bold">Article - a</p>
+            <div className="text-sm md:text-base">
+              <p className="">
+                'a' যখন article হিসেবে ব্যবহৃত হবে তখন 'a' এর উচ্চারণ //ə/ - [আ/অ্য] হবে এবং [আ] ধ্বনিটি পরের শব্দের সাথে একসাথে উচ্চারিত হবে। এই দু'টি উচ্চারণের মধ্যে তেমন কোন পার্থক্য নেই।  <br />
+                যেমনঃ <br />
+                a pen [আ'পেন] ('এ পেন' নয়) <br />
+                a book [আ'বুক] ('এ বুক' নয়) <br /> <br />
+
+                /ə/ ধ্বনিটি একটি short neutral sound তাই স্বরটি ছোট বোঝাতে [আ]
+                বা [অ্য] ধ্বনিটি একটু ছোট অক্ষরে প্রকাশ করা হয়েছে। <br />
+
+                </p>
+            </div>
+          </div>
+          <p className="font-bold text-center heading2 py-20">ASM English Academy</p>
         </div>
 
         {/* page4 */}
@@ -278,13 +298,10 @@ const Pronunciation = () => {
               <span className="font-semibold">Rule-2</span> <br />
               'S' এর পর 'p, t, k' থাকলে সেই Sound- টি Aspirated হবে না। এ
               ক্ষেত্রে বাংলা প, ট, ক এর মতই উচ্চারিত হবে। যেমনঃ <br />
-              {/* 'Sp' স্প <br /> */}
               Spot-স্পট <br />
               Spy- স্পাই <br />
-              {/* 'St' স্ট <br /> */}
               stop - স্টপ <br />
               Stay- স্টেই <br />
-              {/* 'Sk' স্ক <br /> */}
               Sky – স্কাই <br />
               Basket - বাস্কিট <br />
             </div>
@@ -1276,6 +1293,7 @@ const Pronunciation = () => {
         {/* page15 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold ">Page 15</h2>
+          <div className=""></div>
           <div className="">
             <p className="font-bold"> IPA (Diphthongs) </p>
             <div className="">
@@ -1439,7 +1457,6 @@ const Pronunciation = () => {
           <h2 className="text-xl font-bold mb-1">Page 17</h2>
           <div className="">
             <p className="font-medium">Contraction(সংকোচন): </p>
-
             <div className=" text-sm md:text-base">
               <div className="overflow-x-auto p-1">
                 <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
@@ -1579,10 +1596,10 @@ const Pronunciation = () => {
                 2. Int(e)rest = /'intrest/ - ইন+ট্রেস্ট = ইনট্রেস্ট <br />
                 3. Libr(a)ry = /'laibri/ - লাই+ব্রি = লাইব্রি <br />
                 4. Rest(au)rant = restront/- রেস-ট্রন্ট = রেসট্রন্ট <br />
-                5. Sim(i)lar = /similo/ সিম+লো = সিমলা <br />
+                5. Sim(i)lar = /sɪm.ɪ.lər/ সিমিলা = সিমলা <br />
                 6. T(o)night = /T'night/ = ঠ+নাইট = ঠনাইট <br />
-                7. Veg(e)tables = /veg'table - ভেজ+টেবল = ভেজটেবল <br />
-                8. Yest(er)day = /yestoday - ইয়েস-টডেই = ইয়েসটডেই <br />
+                7. Veg(e)tables = /veg'table/ - ভেজ+টেবল = ভেজটেবল <br />
+                8. Yest(er)day = /yestoday/ - ইয়েস-টডেই = ইয়েসটডেই <br />
                 <br />
               </p>
             </div>
@@ -1594,32 +1611,26 @@ const Pronunciation = () => {
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-1">Page 21</h2>
           <div className="">
-            <p className="font-medium">Unvoiced Sound + S:</p>
+            <p className="font-medium text-green-500">Unvoiced Sound + S:</p>
             <div className=" text-sm md:text-base">
-              <p className="">
+              <p className="py-3">
                 Unvoiced sound গুলো হলোঃ <br />
-                {/* p/প;
-                <br />
-                t/ট; <br /> k/ক; <br /> f/ ফ; <br /> sh/শ; <br /> ch/চ; <br /> */}
                 <table className="table-auto border-collapse border border-gray-300 shadow-md max-w-fit text-center">
                   <tbody>
-                    {[["p/প;", "t/ট;", "k/ক;", "f/ ফ;", "sh/শ;", "ch/চ;"]].map(
-                      ([one, two, three, four, five], index) => (
+                    {[["p/প;", "t/ট;", "k/ক;", "f/ ফ;"]].map(
+                      ([one, two, three, four], index) => (
                         <tr key={index} className="hover:bg-gray-50">
-                          <td className="border border-gray-300 px-1 py-1">
+                          <td className="border border-black px-2 py-2">
                             {one}
                           </td>
-                          <td className="border border-gray-300 px-1 py-1">
+                          <td className="border border-black px-2 py-2">
                             {two}
                           </td>
-                          <td className="border border-gray-300 px-1 py-1">
+                          <td className="border border-black px-2 py-2">
                             {three}
                           </td>
-                          <td className="border border-gray-300 px-1 py-1">
+                          <td className="border border-black px-2 py-2">
                             {four}
-                          </td>
-                          <td className="border border-gray-300 px-1 py-1">
-                            {five}
                           </td>
                         </tr>
                       )
@@ -1627,13 +1638,12 @@ const Pronunciation = () => {
                   </tbody>
                 </table>
               </p>
-              <br />
 
               <div className="overflow-x-auto p-1">
                 <p className="">
                   Rule-1. <br />
-                  শব্দের শেষে Unvoiced sound/consonant - এরপর 'S' থাকলে 'S' এর
-                  উচ্চারণ 'স'/'চ'-এর মত হবে।
+                  p/প; t/ট; k/ক; f/ ফ; - এরপর 'S' থাকলে 'S' এর উচ্চারণ
+                  'স'/'চ'-এর মত হবে। যেমনঃ
                 </p>
                 <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
                   <tbody>
@@ -1660,14 +1670,15 @@ const Pronunciation = () => {
                 </table>
               </div>
               <p className="pt-1">
-                ২. Unvoiced sound/Consonant ছাড়া শব্দের শেষে 'S' থাকলে 'S' এর
-                উচ্চারণ 'z'/'য'/'জ' - এর মত হবে।
+                Rule-2. <br />
+                p/প; t/ট; k/ক; f/ফ; - ছাড়া শব্দের শেষে অন্য কোন অক্ষর এর পরে 'S'
+                থাকলে 'S' এর উচ্চারণ 'z'/'য'/'জ' - এর মত হবে। যেমনঃ
               </p>
               <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
                 <tbody>
                   {[
-                    ["app", "apps", "/æps/", "অ্যাপস"],
-                    ["Bat", "Bats", "/bæts/", "ব্যাঠস"],
+                    ["hand", "hands", "/hænz/", "হ্যাঞ্জ"],
+                    ["Pen", "pens", "/penz/", "ফেঞ্জ"],
                   ].map(([word, Example, IPA, BPA], index) => (
                     <tr key={index} className="hover:bg-gray-50">
                       <td className="border border-gray-300 px-1 py-1">
@@ -1689,20 +1700,210 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page20 */}
+        {/* page22 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 22</h2>
+          <div className="">
+            <p className="font-medium text-green-500">Unvoiced Sound + S:</p>
+            <div className=" text-sm md:text-base">
+              <p className="pt-1">
+                Rule-3. <br />
+                শব্দের শেষে 'es'- থাকলে 'es 'এর উচ্চারণ 'ইয'-এর মত হবে। যেমনঃ
+                <br />
+              </p>
+              <table className="table-auto border-collapse border border-gray-300 shadow-2xl w-full text-center">
+                <tbody>
+                  {[
+                    ["Ass", "Asss", "/æsız/", "অ্যাসিয"],
+                    ["Bus", "Buss", "/BASIZ/", "বাসিয"],
+                  ].map(([word, Example, IPA, BPA], index) => (
+                    <tr key={index} className="hover:bg-gray-50">
+                      <td className="border border-gray-300 px-1 py-1">
+                        {word}
+                      </td>
+                      <td className="border border-gray-300 px-1 py-1">
+                        {Example}
+                      </td>
+                      <td className="border border-gray-300 px-1 py-1">
+                        {IPA}
+                      </td>
+                      <td className="border border-gray-300 px-1 py-1">
+                        {BPA}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+
+              <div className="pt-3">
+                <div className="">
+                  <p className="">
+                    Rule-4. <br />
+                    Verb এর শেষে যদি (ed)- এর পূর্বে "p/প;", "t/ট;", "k/ক;", "f/
+                    ফ;", থাকে তাহলে 'ed' এর উচ্চারণ /t/ -এর মত হবে। যেমনঃ
+                  </p>
+                  <div className="pt-3">
+                    <table className="table-auto border-collapse border border-gray-300 shadow-2xl w-full text-center py-5">
+                      <tbody>
+                        {[
+                          ["p/প/ফ", "P", "Develop", "Developed", "ডিভ'লফট"],
+                          ["t/ট/ঠ", "T", "walk", "walked", "ওয়াক্ট"],
+                          ["k/ক/খ", "K", "talked", "talked", "টক্ট"],
+                          ["f/ফ", "F", "laugh", "laughed", "লাফট"],
+                        ].map(
+                          (
+                            [Sound, Letter, Word, participle, উচ্চারণ],
+                            index
+                          ) => (
+                            <tr key={index} className="hover:bg-gray-50">
+                              <td className="border border-gray-300 px-1 py-1">
+                                {Sound}
+                              </td>
+                              <td className="border border-gray-300 px-1 py-1">
+                                {Letter}
+                              </td>
+                              <td className="border border-gray-300 px-1 py-1">
+                                {Word}
+                              </td>
+                              <td className="border border-gray-300 px-1 py-1">
+                                {participle}
+                              </td>
+                              <td className="border border-gray-300 px-1 py-1">
+                                {উচ্চারণ}
+                              </td>
+                            </tr>
+                          )
+                        )}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* page23 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 23</h2>
+          <div className="">
+            <p className="font-medium text-green-500">Unvoiced Sound + S:</p>
+            <div className=" text-sm md:text-base">
+              <div className="">
+                <p className="pt-3">
+                  Rule-5. <br />
+                  কিন্তু যদি (ed)- এর পূর্বে /t-ট/ অথবা /d-ড/ থাকে তাহলে 'ed' এর
+                  উচ্চারণ/id/ অর্থাৎ 'ইড'-এর মত হবে।
+                </p>
+                <div className="pt-3">
+                  <table className="table-auto border-collapse border border-gray-300 shadow-2xl w-full text-center py-5">
+                    <tbody>
+                      {[
+                        ["t/ট/ঠ", "T", "Create", "created", "ক্রিয়েটিড"],
+                        ["d/ড ", "D", "amend", "amended", "অ্যমেনডিড"],
+                      ].map(
+                        ([Sound, Letter, Word, participle, উচ্চারণ], index) => (
+                          <tr key={index} className="hover:bg-gray-50">
+                            <td className="border border-gray-300 px-1 py-1">
+                              {Sound}
+                            </td>
+                            <td className="border border-gray-300 px-1 py-1">
+                              {Letter}
+                            </td>
+                            <td className="border border-gray-300 px-1 py-1">
+                              {Word}
+                            </td>
+                            <td className="border border-gray-300 px-1 py-1">
+                              {participle}
+                            </td>
+                            <td className="border border-gray-300 px-1 py-1">
+                              {উচ্চারণ}
+                            </td>
+                          </tr>
+                        )
+                      )}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p className="heading2 pt-20 font-bold text-center">
+            ASM English Academy
+          </p>
+        </div>
+
+        {/* page 24 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 24</h2>
+          <div className="">
+            <p className="font-bold text-green-600">Syllable:</p>
+            <div className=" text-sm md:text-base">
+              <p className="py-2">
+                ইংরেজি শব্দ গঠন শিখতে syllable খুব গুরত্বপূর্ণ একটা অংশ। ইংরেজি শব্দের সঠিক উচ্চারণ করতে হলে Syllable সম্পর্কে অবশ্যই পরিষ্কার ধারণা থাকতে হবে। মোটা দাগে বলতে গেলে- syllable হলো শব্দের সেই part বা অংশ যেটা ছাড়া ইংরেজির সঠিক উচ্চারণ সম্ভব নয়। <br /> 
+                যেমনঃ <br /> 
+                Badminton/bæd.minton/ [ব্যাড. মিনট্যন] <br />
+              </p>
+              <p className="">
+                     
+                    Badminton শব্দের দুইটি অংশ 'bæd.minton এবং এই শব্দের মধ্যে তিনটি স্বরধ্বনি রয়েছে যথা: /æ, I, ǝ/| কাজেই, Badminton শব্দটি তিন syllable word। একটি শব্দে যতগুলো স্বরধ্বনি (vowel sound) থাকবে উক্ত শব্দের ততগুলো syllable হবে। যেমন: <br /> 
+                    Bat/b/æ/t/ (১ টি syllable) <br /> 
+                    Teacher/teacher / (২ টি syllable) <br /> 
+                    Intelligent/in/telligent / (৪ টি syllable) <br /> 
+
+                    
+              <p className="pt-2">
+                ইংরেজি ব্যাকরণে Syllable দুই ধরণের আছেঃ <br /> 
+                    (i) Open syllable এবং 
+                    (ii) Closed syllable
+              </p></p>
+            
+            </div>
+          </div>
+        </div>
+        {/* page 25 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 25</h2>
+          <div className="">
+            <p className="font-bold text-green-500">Syllable</p>
+            <div className=" text-sm md:text-base">
+              <p className="">
+                 Closed Syllable: <br /> 
+                    যদি syllable-এর শেষে consonant থাকে, তাকে closed syllable বলা হয়ে থাকে। তাছাড়া, closed syllable vowel-এর উচ্চারণ short vowel sound এর মত হয়ে থাকে। <br /> 
+                    Can - /kæn/ - [ক্যান] <br /> 
+                    Hen - /hen/ - [হেন] <br /> 
+              </p>
+              <p className="">
+                মনে রাখতে হবে, দুই syllable word যদি noun অথবা adjective হয়, তাহলে অধিকাংশ সময় প্রথম syllable এ stress হবে। যেমনঃ <br />
+                    Leader/'li: dər / [লি:ডার] <br />
+                    Danger / dein:dzər / [ডেইন:জার] <br />
+              </p>
+              <p className="">
+                ব্যতিক্রমঃ <br />
+                এই নিয়মগুলোরও মাঝে মাঝে ব্যবহার দেখা যায় না। এদেরও বেশ কিছু ব্যতিক্রম আছে যা আমাদের কিছু মানসম্মত অভিধান দেখে দেখে চর্চা করতে
+                হবে। যেমনঃ <br />
+                1st Syllable Stress: <br />
+                Anyone / 'εniwan / [এনীওয়ান] <br />
+                Beautiful / 'bju:tifel / [বিউটিফল্] <br />
+
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* page 20 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-1">Page 20</h2>
           <div className="">
-            <p className="font-medium">উচ্চারণের টেকনিক</p>
+            <p className="font-medium text-green-400">Assimilation</p>
             <div className=" text-sm md:text-base">
               <p className=""></p>
             </div>
           </div>
         </div>
 
-        {/* page15 */}
+        {/* page 30 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 15</h2>
+          <h2 className="text-xl font-bold mb-2">Page 30</h2>
           <div className="">
             <p className="font-semibold">উচ্চারণ শেখার শর্টকাট টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -1771,9 +1972,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page15 */}
+        {/* page31 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 15</h2>
+          <h2 className="text-xl font-bold mb-2">Page 31</h2>
           <div className="">
             <p className="font-bold"> উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -1798,9 +1999,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page16 */}
+        {/* page32 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 16</h2>
+          <h2 className="text-xl font-bold mb-2">Page32</h2>
           <div className="">
             <p className="font-bold"> উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -1825,9 +2026,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page17 */}
+        {/* page33 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 17</h2>
+          <h2 className="text-xl font-bold mb-2">Page 33</h2>
           <div className="">
             <p className="font-bold"> উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -1855,9 +2056,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page18 */}
+        {/* page34 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 18</h2>
+          <h2 className="text-xl font-bold mb-2">Page 34</h2>
           <div className="">
             <p className="font-bold"> উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -1886,9 +2087,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page19 */}
+        {/* page35 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 19</h2>
+          <h2 className="text-xl font-bold mb-2">Page 35</h2>
           <div className="">
             <p className="font-medium">উচ্চারণ টেকনিকঃ</p>
             <div className=" text-sm md:text-base">
@@ -1916,9 +2117,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page20 */}
+        {/* page 36 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 20</h2>
+          <h2 className="text-xl font-bold mb-2">Page 36</h2>
           <div className="">
             <p className="font-bold"> উচ্চারণের টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -1943,9 +2144,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page21 */}
+        {/* page 37 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 21</h2>
+          <h2 className="text-xl font-bold mb-2">Page 37</h2>
           <div className="">
             <p className="font-bold"> উচ্চারণের টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -1974,9 +2175,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page22 */}
+        {/* page 38 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 22</h2>
+          <h2 className="text-xl font-bold mb-2">Page 38</h2>
           <div className="">
             <p className="font-bold"> উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -1984,7 +2185,6 @@ const Pronunciation = () => {
                 Rule-34 <br />
                 Vowel এর পর BT এর উচ্চারণ "ট" এক্ষেত্রে "B" অনুচ্চারিত থাকে।
                 উদাহরণ: <br />
-                {/* Debt (ডেট) - ঋণ। <br /> */}
                 Doubtful (ডাউটফুল) - সন্দিহান। <br />
                 Rule-35 <br />
                 শব্দস্থিত OA+ Consonant এভাবে ব্যবহৃত হলে OA এর উচ্চারণ হয় "ও"।
@@ -1994,21 +2194,19 @@ const Pronunciation = () => {
                 Rule-36 <br />
                 শব্দের শেষে MN থাকলে সাধারণতঃ N অনুচ্চারিত থাকে। উদাহরণ: <br />
                 Damn (ড্যাম) অভিশাপ দেয়া। <br />
-                {/* Solemn (সলেম) গুরুগম্ভীর। <br /> */}
                 Rule-37 <br />
                 Word-এর মধ্যে।I+ R+ Consonant এভাবে Word গঠিত হলে "।" এর উচ্চারণ
                 "আই" না হয়ে "আ" হয়। উদাহরণ: <br />
                 First (ফাস্ট) - প্রথম। <br />
                 Bird (বাড) - পাখি। <br />
-                {/* Birth (বাথ) জন্ম। <br /> */}
               </p>
             </div>
           </div>
         </div>
 
-        {/* page23 */}
+        {/* page 39 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 23</h2>
+          <h2 className="text-xl font-bold mb-2">Page 39</h2>
           <div className="">
             <p className="font-medium">উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2022,7 +2220,7 @@ const Pronunciation = () => {
                 সাধারণত "ইউ" হয়। <br />
                 Mute - (মিউট) - স্তব্ধ, নির্বাক। <br />
                 Rule-40 <br />
-                কোন শব্দে CC+OU/ consonant থাকলে CC এর উচ্চারণ হবে "ক"। উদাহরণ:{" "}
+                কোন শব্দে CC+O/U consonant থাকলে CC এর উচ্চারণ হবে "ক"। উদাহরণ:{" "}
                 <br />
                 Accuse - (এ্যাকিউজ) - অভিযুক্ত করা। <br />
                 According - (এ্যাকর্ডিং) - অনুযায়ী। <br />
@@ -2036,9 +2234,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page24 */}
+        {/* page 40 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 24</h2>
+          <h2 className="text-xl font-bold mb-2">Page 40</h2>
           <div className="">
             <p className="font-medium">উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2065,9 +2263,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page25 */}
+        {/* page 41 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 25</h2>
+          <h2 className="text-xl font-bold mb-2">Page 41</h2>
           <div className="">
             <p className="font-medium text-base">উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2096,9 +2294,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page26 */}
+        {/* page 42 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 26</h2>
+          <h2 className="text-xl font-bold mb-2">Page 42</h2>
           <div className="">
             <p className="font-medium">উচ্চারণ টেকনিক</p>
             <div className="text-sm md:text-base">
@@ -2124,9 +2322,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page27 */}
+        {/* page 43 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 27</h2>
+          <h2 className="text-xl font-bold mb-2">Page 43</h2>
           <div className="">
             <p className="font-medium">উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2177,9 +2375,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page29 */}
+        {/* page 44 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 29</h2>
+          <h2 className="text-xl font-bold mb-2">Page 44</h2>
           <div className="">
             <p className="font-medium">উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2206,9 +2404,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page30 */}
+        {/* page 45 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 30</h2>
+          <h2 className="text-xl font-bold mb-2">Page 45</h2>
           <div className="">
             <p className="font-medium">উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2228,13 +2426,14 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page20 */}
+        {/* page 20 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 20</h2>
           <div className="">
             <p className="font-medium">উচ্চারণের টেকনিক</p>
             <div className=" text-sm md:text-base">
               <p className=""></p>
+              <div className=""></div>
             </div>
           </div>
         </div>
