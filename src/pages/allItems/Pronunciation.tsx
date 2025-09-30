@@ -9,7 +9,7 @@ const Pronunciation = () => {
   const [jumpPage, setJumpPage] = useState<number | "">("");
   const [isPortrait, setIsPortrait] = useState(false); // 🔥 auto mode
 
-  const totalPages = 50; // Update when you add more pages
+  const totalPages = 70; // Update when you add more pages
 
   const onFlip = (e: any) => {
     setCurrentPage(e.data);
@@ -34,6 +34,35 @@ const Pronunciation = () => {
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+
+
+
+   const contents = [
+    { title: "Alphabet এর সঠিক উচ্চারণ", pages: "4-6" },
+    { title: 'Article', pages: "7-8" },
+    { title: "P, T, C, Q & K Sound", pages: "9 - 12" },
+    { title: '"R" এর উচ্চারণ', pages: "13 - 14" },
+    { title: "IPA (Phonetics)", pages: "15 - 20" },
+    { title: "Verb contractions", pages: "21 - 23" },
+    { title: "Elision ধ্বনিলোপ ", pages: "24-25" },
+    { title: "S এর সঠিক উচ্চারণ", pages: "26 - 28" },
+    { title: "Syllable", pages: "29-30" },
+    { title: "Stress (শ্বাসাঘাত)", pages: "31 - 33" },
+    { title: "Linking ", pages: "34 -36" },
+    { title: "Assimilation সন্ধি", pages: "37 - 40" },
+    { title: "উচ্চারণ শেখার টেকনিক", pages: "41 - 58" },
+    { title: "Chunking", pages: "59" },
+    { title: "24 consonant sounds", pages: "60" },
+  ];
+
+  const goToPage = (page: number) => {
+  if (flipBook.current) {
+    flipBook.current.pageFlip().flip(page + 1);
+  }
+};
+
+
   return (
     <div className="flex flex-col items-center py-10 px-5 md:px-10">
       <FlipBook
@@ -113,9 +142,11 @@ const Pronunciation = () => {
               পন্থা। কারণ, ইংরেজির এমন কিছু ধ্বনি বা উচ্চারণ রয়েছে যা প্রকাশের
               জন্য বাংলায় কোন বর্ণ নেই। উদাহরণস্বরুপ, 'Pen' শব্দটির 'P' উচ্চারণ
               করতে অনেকটা 'ফ' এর মত মনে হয়, অর্থাৎ, 'প' ও 'ফ' এর মাঝামাঝি একটি
-              উচ্চারণ যেটি বাংলায় কোন বর্ণ নেই। এজন্য, মূলতঃ বইটিতে উল্লেখিত
+              উচ্চারণ যেটি বাংলায় কোন বর্ণ নেই। 
+              {/* এজন্য, মূলতঃ বইটিতে উল্লেখিত
               উদাহরণ বার বার প্র্যাকটিসের মাধ্যমে শুদ্ধ উচ্চারণ আয়ত্ত্ব করতে
-              হবে। <br />
+              হবে।  */}
+              <br />
               {/* সবশেষে সুপ্রিয় শিক্ষার্থীদের প্রতি অনুরোধ বইটিতে কোন ভুল/অসংগতি
               চোঁখে পরলে নীচের ই-মেইলে জানালে কৃতজ্ঞ থাকবো। <br /> */}
               ধন্যবাদান্তে,
@@ -124,8 +155,105 @@ const Pronunciation = () => {
         </div>
 
         {/* page2 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 2</h2>
+          <div className="">
+            <div className="">
+              <p className="pb-3">Click/touch on any page no./ item to go the targeted page.</p>
+              <h2 className="text-sm font-bold mb-1 text-center">
+                Contents (সূচিপত্র)
+              </h2>
+              <div className="overflow-x-auto">
+                <table className="table-auto w-full border border-gray-300 shadow-2xl rounded-lg">
+                  <thead className="bg-gray-100">
+                    <tr>
+                      <th className="border border-gray-300 px-2 py-2 text-left">
+                        Contents
+                      </th>
+                      <th className="border border-gray-300 px-2 py-2 text-left">
+                        Pages
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      {contents.slice(0, 7).map((item, index) => {
+                        // Take the first page from the range "7-8" → 7
+                        const targetPage = parseInt(item.pages.split("-")[0].trim());
+
+                        return (
+                          <tr
+                            key={index}
+                            className={`${index % 2 === 0 ? "bg-white" : "bg-gray-50"} cursor-pointer hover:bg-blue-100`}
+                            onClick={() => goToPage(targetPage)}
+                          >
+                            <td className="border border-gray-300 text-blue-600 px-2 py-2 md:text-base">
+                              {item.title}
+                            </td>
+                            <td className="border border-gray-300 px-2 py-2 text-sm md:text-base text-blue-600 underline">
+                              {item.pages}
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* page3 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-2">Page 3</h2>
+          <div className="">
+            <div className="p-">
+               <p className="pb-3">Click/touch on any page no./ item to go the targeted page.</p>
+              {/* <h2 className="text-sm font-bold mb-1 text-center">
+                Contents (সূচিপত্র)
+              </h2> */}
+              <div className="overflow-x-auto">
+                <table className="table-auto w-full border border-gray-300 shadow-md rounded-lg">
+                  <thead className="bg-gray-100">
+                    <tr>
+                      <th className="border border-gray-300 px-2 py-2 text-left">
+                        Contents
+                      </th>
+                      <th className="border border-gray-300 px-2 py-2 text-left">
+                        Pages
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      {contents.slice(8, 15).map((item, index) => {
+                        // Take the first page from the range "7-8" → 7
+                        const targetPage = parseInt(item.pages.split("-")[0].trim());
+
+                        return (
+                          <tr
+                            key={index}
+                            className={`${index % 2 === 0 ? "bg-white" : "bg-gray-50"} cursor-pointer hover:bg-blue-100`}
+                            onClick={() => goToPage(targetPage)}
+                          >
+                            <td className="border border-gray-300 text-blue-600 px-2 py-2 md:text-base">
+                              {item.title}
+                            </td>
+                            <td className="border border-gray-300 px-2 py-2 text-sm md:text-base text-blue-600 underline">
+                              {item.pages}
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* page 4 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-2">Page 4</h2>
           <div className="">
             <p className="font-bold">Alphabet (এ্যালফাবেট) এর সঠিক উচ্চারণ</p>
             <div className="w-full flex  justify-evenly text-sm md:text-base">
@@ -158,9 +286,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page2 */}
+        {/* page 5 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold">Page 2</h2>
+          <h2 className="text-xl font-bold">Page 5</h2>
           <div className="">
             <p className="font-bold py-2">Alphabet এর সঠিক উচ্চারণ</p>
             <div className="text-sm md:text-base text-justify">
@@ -179,9 +307,9 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page2 */}
+        {/* page 6 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold">Page 2</h2>
+          <h2 className="text-xl font-bold">Page 6</h2>
           <div className="">
             <p className="font-bold py-2">Alphabet এর সঠিক উচ্চারণ</p>
             <div className="text-sm md:text-base ">
@@ -205,9 +333,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page3 */}
+        {/* page 7 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 3</h2>
+          <h2 className="text-xl font-bold mb-2">Page 7</h2>
           <div className="">
             <p className="font-bold">Article - the</p>
             <p className="font- pt-2">কখন “দা” এবং কখন "দি” হবেঃ</p>
@@ -235,9 +363,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page3 */}
+        {/* page 8 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 3</h2>
+          <h2 className="text-xl font-bold mb-2">Page 8</h2>
           <div className="">
             <p className="font-bold">Article - a</p>
             <div className="text-sm md:text-base">
@@ -256,9 +384,9 @@ const Pronunciation = () => {
           <p className="font-bold text-center heading2 py-20">ASM English Academy</p>
         </div>
 
-        {/* page4 */}
+        {/* page 9  */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 4</h2>
+          <h2 className="text-xl font-bold mb-2">Page 9</h2>
           <div className="">
             <p className="font-bold">Sound: P, T & K</p>
             <div className="text-sm md:text-base">
@@ -285,9 +413,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page5 */}
+        {/* page 10 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 5</h2>
+          <h2 className="text-xl font-bold mb-2">Page 10</h2>
           <div className="">
             <p className="font-bold">Example of P, T, C, Q & K</p>
             <div className="flex justify-between text-sm md:text-base">
@@ -328,9 +456,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page6 */}
+        {/* page 11 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 6</h2>
+          <h2 className="text-xl font-bold mb-2">Page 11</h2>
           <div className="">
             <p className="font-bold">সবসময় কি Aspirated হবে? </p>
             <div className=" text-sm md:text-base">
@@ -355,9 +483,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page7 */}
+        {/* page 12 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 7</h2>
+          <h2 className="text-xl font-bold mb-2">Page 12</h2>
           <div className="">
             <p className="font-bold">'p, t, k, c, q' </p>
             <div className=" text-sm md:text-base">
@@ -380,9 +508,9 @@ const Pronunciation = () => {
           <p className="heading2 text-center pt-3">ASM English Academy</p>
         </div>
 
-        {/* page8 */}
+        {/* page 13 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 8</h2>
+          <h2 className="text-xl font-bold mb-2">Page 13</h2>
           <div className="">
             <p className="font-bold"> Pronunciation of "R"</p>
             <div className=" text-sm md:text-base">
@@ -407,9 +535,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page9 */}
+        {/* page 14 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 9</h2>
+          <h2 className="text-xl font-bold mb-2">Page 14</h2>
           <div className="">
             <p className="font-medium"> R এর উচ্চারণ: </p>
             <div className=" text-sm md:text-base">
@@ -438,9 +566,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page10 */}
+        {/* page 15 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 10</h2>
+          <h2 className="text-xl font-bold mb-2">Page 15</h2>
           <div className="">
             <p className="font-bold"> IPA </p>
             <div className=" text-sm md:text-base">
@@ -464,9 +592,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page11 */}
+        {/* page 16 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 11</h2>
+          <h2 className="text-xl font-bold ">Page 16</h2>
           <div className=""><div className=""></div>
             <p className="font-bold"> IPA (Vowel-1) </p>
             <p className="text-xs md:text-base">
@@ -673,9 +801,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page12  */}
+
+        {/* page 17  */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 12 </h2>
+          <h2 className="text-xl font-bold ">Page 17 </h2>
           <div className="">
             <p className="font-bold"> IPA (Vowel-2) </p>
             <p className="text-xs md:text-base">
@@ -882,13 +1011,13 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page13 */}
+        {/* page 18 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 13</h2>
+          <h2 className="text-xl font-bold ">Page 18</h2>
           <div className="">
             <p className="font-bold"> IPA (Consonant-1) </p>
             <div className="text-sm md:text-base">   
-              <div className="flex justify-center pt-1 ">
+              <div className="ustify-center pt-1 ">
                 <p className="text-xs md:text-base">
               এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
             </p>
@@ -1109,9 +1238,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page14 */}
+        {/* page 19 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 14</h2>
+          <h2 className="text-xl font-bold ">Page 19</h2>
           <div className="">
             <p className="font-bold"> IPA (Consonant-2) </p> 
             <div className="text-sm md:text-base">
@@ -1337,9 +1466,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page15 */}
+        {/* page 20 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 15</h2>
+          <h2 className="text-xl font-bold ">Page 20</h2>
           <div className=""></div>
           <div className="">
             <p className="font-bold"> IPA (Diphthongs) </p>
@@ -1442,9 +1571,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page16 */}
+        {/* page 21 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 16</h2>
+          <h2 className="text-xl font-bold mb-1">Page 21</h2>
           <div className="">
             <p className="font-medium">Verb Contraction (সংকোচন):</p>
             <div className=" text-sm md:text-base">
@@ -1499,9 +1628,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page17 */}
+        {/* page 22 */}
         <div className="p-2 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 17</h2>
+          <h2 className="text-xl font-bold mb-1">Page 22</h2>
           <div className="">
             <p className="font-medium">Contraction(সংকোচন): </p>
             <div className=" text-sm md:text-base">
@@ -1553,9 +1682,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page18 */}
+
+        {/* page 23 */}
         <div className="p-2 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 18</h2>
+          <h2 className="text-xl font-bold mb-1">Page 23</h2>
           <div className="">
             <p className="font-medium">Contraction(সংকোচন): </p>
 
@@ -1604,9 +1734,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page19 */}
+        {/* page 24 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 19</h2>
+          <h2 className="text-xl font-bold mb-1">Page 24</h2>
           <div className="">
             <p className="font-medium">Elision: </p>
             <div className=" text-sm md:text-base">
@@ -1630,9 +1760,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page20 */}
+
+        {/* page 25 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 20</h2>
+          <h2 className="text-xl font-bold mb-1">Page 25</h2>
           <div className="">
             <p className="font-medium">Elision:</p>
             <div className=" text-sm md:text-base">
@@ -1654,9 +1785,9 @@ const Pronunciation = () => {
           <p className="heading2 text-center pt-20">ASM English Academy</p>
         </div>
 
-        {/* page21 */}
+        {/* page 26 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 21</h2>
+          <h2 className="text-xl font-bold mb-1">Page 26</h2>
           <div className="">
             <p className="font-medium text-green-500">Unvoiced Sound + S:</p>
             <div className=" text-sm md:text-base">
@@ -1747,9 +1878,9 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page22 */}
+        {/* page 27 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 22</h2>
+          <h2 className="text-xl font-bold mb-1">Page 27</h2>
           <div className="">
             <p className="font-medium text-green-500">Unvoiced Sound + S:</p>
             <div className=" text-sm md:text-base">
@@ -1830,9 +1961,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page23 */}
+        {/* page 28 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 23</h2>
+          <h2 className="text-xl font-bold mb-1">Page 28</h2>
           <div className="">
             <p className="font-medium text-green-500">Unvoiced Sound + S:</p>
             <div className=" text-sm md:text-base">
@@ -1880,9 +2011,9 @@ const Pronunciation = () => {
           </p>
         </div>
 
-        {/* page 24 */}
+        {/* page 29 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 24</h2>
+          <h2 className="text-xl font-bold mb-1">Page 29</h2>
           <div className="">
             <p className="font-bold text-green-600">Syllable:</p>
             <div className=" text-sm md:text-base">
@@ -1908,9 +2039,9 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 25 */}
+        {/* page 30 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 25</h2>
+          <h2 className="text-xl font-bold mb-1">Page 30</h2>
           <div className="">
             <p className="font-bold text-green-500">Syllable</p>
             <div className=" text-sm md:text-base">
@@ -1934,9 +2065,9 @@ const Pronunciation = () => {
           <p className="heading2 text-center pt-10">ASM English Academy</p>
         </div>
 
-        {/* page 26 */}
+        {/* page 31 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 26</h2>
+          <h2 className="text-xl font-bold mb-1">Page 31</h2>
           <div className="">
             <p className="font-bold text-green-400">Stress (শ্বাসাঘাত)/চাপ:</p>
             <div className=" text-sm md:text-base">
@@ -1961,9 +2092,9 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 27 */}
+        {/* page 32 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 27</h2>
+          <h2 className="text-xl font-bold mb-1">Page 32</h2>
           <div className="">
             <p className="font-bold text-green-400">Stress (শ্বাসাঘাত)/চাপ::</p>
             <div className=" text-sm md:text-base">
@@ -1991,9 +2122,9 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 28 */}
+        {/* page 33 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 28</h2>
+          <h2 className="text-xl font-bold mb-1">Page 33</h2>
           <div className="">
             <p className="font-bold text-green-400">Stress (শ্বাসাঘাত)/চাপ:</p>
             <div className=" text-sm md:text-base">
@@ -2016,9 +2147,9 @@ const Pronunciation = () => {
               <p className="heading2 text-center pt-10">ASM English Academy</p>
           </div>
         </div>
-        {/* page 30 */}
+        {/* page 34 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 30</h2>
+          <h2 className="text-xl font-bold mb-1">Page 34</h2>
           <div className="">
             <p className="font-bold text-green-400 "> Linking (সংযুক্তকরণ):</p>
             <div className=" text-sm md:text-base pt-2">
@@ -2043,9 +2174,9 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 31 */}
+        {/* page 35 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 31</h2>
+          <h2 className="text-xl font-bold mb-1">Page 35</h2>
           <div className="">
             <p className="font-bold text-green-400 pt-2">Linking (সংযুক্তকরণ):</p>
             <div className=" text-sm md:text-base text-justify">
@@ -2072,9 +2203,9 @@ const Pronunciation = () => {
           </div>
         </div> 
 
-        {/* page 32 */}
+        {/* page 36 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 32</h2>
+          <h2 className="text-xl font-bold mb-1">Page 36</h2>
           <div className="">
             <p className="font-bold text-green-400 py-1">Linking (সংযুক্তকরণ):</p>
             <div className=" text-sm md:text-base">
@@ -2097,9 +2228,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 33 */}
+        {/* page 37 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 33</h2>
+          <h2 className="text-xl font-bold ">Page 37</h2>
           <div className="">
             <p className="font-bold text-green-400 py-2">Assimilation:</p>
             <div className=" text-sm md:text-base">
@@ -2126,9 +2257,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 34 */}
+        {/* page 38 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold">Page 34</h2>
+          <h2 className="text-xl font-bold">Page 38</h2>
           <div className="">
             <p className="font-bold text-green-400 py-1">Assimilation</p>
             <div className=" text-sm md:text-base text-justify">
@@ -2156,9 +2287,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 35 */}
+        {/* page 39 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold">Page 35</h2>
+          <h2 className="text-xl font-bold">Page 39</h2>
           <div className="">
             <p className="font-bold text-green-400 py-1">Assimilation</p>
             <div className=" text-sm md:text-base text-justify">
@@ -2188,9 +2319,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 36 */}
+        {/* page 40 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold">Page 36</h2>
+          <h2 className="text-xl font-bold">Page 40</h2>
           <div className="">
             <p className="font-bold text-green-400 py-1">Assimilation</p>
             <div className=" text-sm md:text-base text-justify">
@@ -2220,9 +2351,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 30 */}
+        {/* page 41 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 30</h2>
+          <h2 className="text-xl font-bold mb-2">Page 41</h2>
           <div className="">
             <p className="font-semibold">উচ্চারণ শেখার শর্টকাট টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2252,9 +2383,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page14 */}
+        {/* page 42 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 14</h2>
+          <h2 className="text-xl font-bold mb-2">Page 42</h2>
           <div className="">
             <p className="font-bold">উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2291,9 +2422,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page31 */}
+        {/* page 43 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 31</h2>
+          <h2 className="text-xl font-bold mb-2">Page 43</h2>
           <div className="">
             <p className="font-bold"> উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2318,9 +2449,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page32 */}
+        {/* page 44 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page32</h2>
+          <h2 className="text-xl font-bold mb-2">Page 44</h2>
           <div className="">
             <p className="font-bold"> উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2345,9 +2476,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page33 */}
+        {/* page 45 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 33</h2>
+          <h2 className="text-xl font-bold mb-2">Page 45</h2>
           <div className="">
             <p className="font-bold"> উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2375,9 +2506,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page34 */}
+        {/* page 46 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 34</h2>
+          <h2 className="text-xl font-bold mb-2">Page 46</h2>
           <div className="">
             <p className="font-bold"> উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2406,9 +2537,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page35 */}
+        {/* page 47 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 35</h2>
+          <h2 className="text-xl font-bold mb-2">Page 47</h2>
           <div className="">
             <p className="font-medium">উচ্চারণ টেকনিকঃ</p>
             <div className=" text-sm md:text-base">
@@ -2436,9 +2567,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 36 */}
+        {/* page 48 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 36</h2>
+          <h2 className="text-xl font-bold mb-2">Page 48</h2>
           <div className="">
             <p className="font-bold"> উচ্চারণের টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2463,9 +2594,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 37 */}
+        {/* page 49 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 37</h2>
+          <h2 className="text-xl font-bold mb-2">Page 49</h2>
           <div className="">
             <p className="font-bold"> উচ্চারণের টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2494,9 +2625,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 38 */}
+        {/* page 50 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 38</h2>
+          <h2 className="text-xl font-bold mb-2">Page 50</h2>
           <div className="">
             <p className="font-bold"> উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2523,9 +2654,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 39 */}
+        {/* page 51 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 39</h2>
+          <h2 className="text-xl font-bold mb-2">Page 51</h2>
           <div className="">
             <p className="font-medium">উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2553,9 +2684,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 40 */}
+        {/* page 52 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 40</h2>
+          <h2 className="text-xl font-bold mb-2">Page 52</h2>
           <div className="">
             <p className="font-medium">উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2582,9 +2713,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 41 */}
+        {/* page 53 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 41</h2>
+          <h2 className="text-xl font-bold mb-2">Page 53</h2>
           <div className="">
             <p className="font-medium text-base">উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2613,9 +2744,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 42 */}
+        {/* page 54 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 42</h2>
+          <h2 className="text-xl font-bold mb-2">Page 54</h2>
           <div className="">
             <p className="font-medium">উচ্চারণ টেকনিক</p>
             <div className="text-sm md:text-base">
@@ -2641,9 +2772,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 43 */}
+        {/* page 55 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 43</h2>
+          <h2 className="text-xl font-bold mb-2">Page 55</h2>
           <div className="">
             <p className="font-medium">উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2668,9 +2799,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page28 */}
+        {/* page 56 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 28</h2>
+          <h2 className="text-xl font-bold mb-2">Page 56</h2>
           <div className="">
             <p className="font-medium">উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2694,9 +2825,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 44 */}
+        {/* page 57 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 44</h2>
+          <h2 className="text-xl font-bold mb-2">Page 57</h2>
           <div className="">
             <p className="font-medium">উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2723,9 +2854,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 45 */}
+        {/* page 58 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 45</h2>
+          <h2 className="text-xl font-bold mb-2">Page 58</h2>
           <div className="">
             <p className="font-medium">উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
@@ -2745,13 +2876,22 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 20 */}
+        {/* page 59 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 20</h2>
+          <h2 className="text-xl font-bold mb-2">Page 59</h2>
           <div className="">
-            <p className="font-medium">উচ্চারণের টেকনিক</p>
+            <p className="font-semibold">Chunking: </p>
             <div className=" text-sm md:text-base">
-              <p className=""></p>
+              <p className="">
+                  ব্রিটিশ ও আমেরিকানরা একেকটি word এক সাথে নয়; বরং গুচ্ছ আকারে করে থাকেন। এই ধরনের মাধ্যমকে 'Chunking' বলা হয়ে থাকে। 'Chunk' শব্দের অর্থ 'বেশ খানিকটা'। কাজেই এই পদ্ধতিতে ব্রিটিশ ও আমেরিকানরা বেশ কয়েকটি শব্দকে একসাথে যতখানি মনে রেখে বলা যায় ততখানিই একসাথেই উচ্চারণ করে থাকে। <br />
+                  যেমনঃ <br />
+                  It's my new smartphone.= It'smy newsmartphone. <br />
+                  এখানে প্রথমে /It'smy newsmartphone/ এক সাথে অর্থাৎ "ইটসমাই নিউস্মাটফৌন" একসাথে উচ্চারণ করা হয়েছে <br />
+                  একইভাবে, <br />
+                  I would like to order. = /IWoul<sup>dʒ</sup>liketo order/ "আউজলাইখঠু অডা (র)" <br />
+                  I know his father.= /Iknowwizfather/ "আনৌইজফাদা (র)" <br />
+
+              </p>
               <div className=""></div>
             </div>
           </div>
