@@ -841,10 +841,11 @@ const Pronunciation = () => {
           <div className="">
             <p className="font-bold"> IPA (Consonant-1) </p>
             <div className="text-sm md:text-base">
-              <p className="text-xs md:text-base">
+              
+              <div className="flex justify-center pt-1 ">
+                <p className="text-xs md:text-base">
               এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
             </p>
-              <div className="flex justify-center pt-1 ">
                 <div className="">
                   <table className="table-auto border-collapse border border-gray-400 shadow-md">
                     <thead className="bg-gray-100">
@@ -1919,7 +1920,7 @@ const Pronunciation = () => {
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-1">Page 27</h2>
           <div className="">
-            <p className="font-bold text-green-400">Stressed:</p>
+            <p className="font-bold text-green-400">Stress (শ্বাসাঘাত)/চাপ::</p>
             <div className=" text-sm md:text-base">
               <p className="pt-2">
                 মনে রাখতে হবে, দুই syllable word যদি noun অথবা adjective হয়, তাহলে অধিকাংশ সময় প্রথম syllable এ stress হবে। যেমনঃ <br />
@@ -1949,25 +1950,96 @@ const Pronunciation = () => {
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-1">Page 28</h2>
           <div className="">
-            <p className="font-bold text-green-400">Assimilation</p>
+            <p className="font-bold text-green-400">Stress (শ্বাসাঘাত)/চাপ:</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                /ɪ/E দিয়ে লেখা unstressed prefixes (de, re, pre, ex etc) এর ক্ষেত্রে unstressed syllable এর উচ্চারণ /ɪ/ [ই] হয়। <br />
-                Debate / dr'bert / [ডি'বেইট] <br />
-                Delete /dr'li:t/ [ডি'লিট] <br />
-                Develop / dı velap / [ডি'ভেলাপ] <br />
-                Demand /dı'ma:nd / [ডি'মা:ন্ড] <br />
-                Effect/ɪ'fekt/ [ই'ফেকট] <br />
-                Exam/ɪg zæm/ [ইগ'জ্যাম.] <br />
-                Excel/ık'sel/ [ইক'সেল.] <br />
-                Exercise /'ek.se.sarz/ [ইক'সা. সাইজ) <br />
-                Expel/ɪk'spel/ [ইক'স্পেল] <br />
-                Expert/'ek.sp3: t/ [ইক'স্পাট] <br />
-                Prefer / prz'f3r: / [প্রি'ফা: (র)] <br />
-                Rebirth / ri: 'b3:0/ [রি.'বাথ] <br />
-                Relate /rr'lert/ [রি'লেইট] <br />
-                Renew/rt'nju:/ [রি'নিউ]
+                /ɪ/ <br /> 
+                E দিয়ে লেখা unstressed prefixes (de, re, pre, ex etc) এর ক্ষেত্রে unstressed syllable এর উচ্চারণ /ɪ/ [ই] হয়। <br />
+                Debate - /dr'bert/-  [ডি'বেইট] <br />
+                Delete - /dr'li:t/-  [ডি'লিট] <br />
+                Develop - /dı veləp/-  [ডি'ভেলাপ] <br />
+                Demand - /dı'ma:nd /-  [ডি'মা:ন্ড] <br />
+                Exam- /ɪgzæm/-  [ইগ'জ্যাম.] <br />
+                Excel- /ık'sel/-  [ইক'সেল.] <br />
+                Exercise - /'ɪk.se.sarz/-  [ইক'সা. সাইজ) <br />
+                Expert- /'ɪk.sp3: t/-  [ইক'স্পাট] <br />
+                Prefer - /prɪ'f3r: /-  [প্রি'ফা: (র)] <br />
+                Renew - /rt'nju:/ -  [রি'নিউ]
 
+              </p>
+            </div>
+              <p className="heading2 text-center pt-10">ASM English Academy</p>
+          </div>
+        </div>
+        {/* page 30 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 30</h2>
+          <div className="">
+            <p className="font-bold text-green-400 "> Linking (সংযুক্তকরণ):</p>
+            <div className=" text-sm md:text-base pt-2">
+              <p className="text-justify">
+               
+                ইংরেজি listening এর ক্ষেত্রে linking খুবই গুরুত্বপূর্ণ ভূমিকা পালন করে।
+                কেননা প্রতিটি native speaker ইংরেজি বলার সময় sentence এর মধ্যে বিশেষ বিশেষ শব্দের কোন কোন ধ্বনির সংযোজন, বিয়োজন ও পরিবর্তন ঘটায় এবং একটি শব্দের সাথে অপর শব্দ সংযুক্ত করে ভিন্ন একটি বাচনভঙ্গি বা rhythm এ কথা বলে। <br />
+
+                আর এই প্রক্রিয়াকে আমরা linking বলে থাকি। সাধারণত linking তিন ধরনের। <br />
+                যেমন: <br />
+                i. Consonant to consonant <br />
+                ii. Vowel to vowel ও <br />
+                iii. Consonant to vowel <br />
+                
+              </p>
+              <p className="pt-2">
+                i. Consonant to consonant: <br />
+                যদি একটি শব্দের শেষে consonant sound থাকে এবং তার পরের শব্দ যদি ঐ একই consonant sound দিয়ে শুরু হয়, তাহলে consonant টি দুইবার উচ্চারিত না হয়ে একবার একটু টেনে পরের শব্দের সাথে পড়তে হবে। <br />
+                
+                </p>
+
+            </div>
+          </div>
+        </div>
+        {/* page 31 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 31</h2>
+          <div className="">
+            <p className="font-bold text-green-400 pt-2">Linking (সংযুক্তকরণ):</p>
+            <div className=" text-sm md:text-base text-justify">
+              <p className="">
+                এবং শব্দ দুটি বলার সময় দুটি শব্দের মাঝে কোন প্রকার বিরতি দেয়া যাবে না। <br />
+                যেমন: <br />
+                Big grade - /bɪ_greid/ -  [বিগ্রেইড] <br />
+                Don't try - /dǝun_traɪ/ -  [ডৌনট্রাই] <br />
+                Feel lucky - /fi:_'laki/ -  [ফী'লাকী] 
+                </p>
+                <p className="pt-2">
+                  মনে রাখতে হবেঃ <br />
+                  /tʃ/ & /dʒ/ ধ্বনির ক্ষেত্রে দুটি শব্দের যুক্ত করা যাবেনা। একটি শব্দের শেষে অপর শব্দ বলতে হবে। যেমনঃ <br />
+                  Beach chair /bitʃ tʃeər / [বিচ চেঅ্য (র)] <br />
+                  Each chapter /ɪ:tʃ tʃæp.tər / [ইচ চ্যাপটা (র)] <br />
+                  Change jeans /tfeindz dzi:nz / [চেঞ্জ জিন্‌ন্জ] <br />
+                  Orange juice /'prindz dzuis / [অরিঞ্জ জুস]
+                </p>
+                <p className="pt-2">
+                  ii. Vowel to vowel: <br /> 
+                  যদি একটি শব্দের শেষে vowel sound থাকে এবং তার পরের শব্দের শুরুতেও vowel sound থাকে তাহলে দুটি vowel এর মাঝে একটি /j/ [ইয়া] অথবা 
+
+                </p>
+
+            </div>
+          </div>
+        </div>
+        {/* page 32 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 32</h2>
+          <div className="">
+            <p className="font-bold text-green-400 pt-2">Linking (সংযুক্তকরণ):</p>
+            <div className=" text-sm md:text-base">
+              <p className="">
+                /w/ (ওয়া) consonant যুক্ত করে দুটি শব্দের মাঝে কোন প্রকার বিরতি না দিয়ে একটি শব্দের মত করে বলতে হবে। <br /> 
+
+                  যেমন: <br /> 
+                  Do or die/ou 'ɔ:rdar / [ডু'অরডাই] <br /> 
+                  Go out/geu aut / [গৌয়াউট) <br /> 
               </p>
             </div>
           </div>
@@ -1976,7 +2048,7 @@ const Pronunciation = () => {
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-1">Page 20</h2>
           <div className="">
-            <p className="font-bold text-green-400">Assimilation</p>
+            <p className="font-bold text-green-400 pt-2">Assimilation</p>
             <div className=" text-sm md:text-base">
               <p className=""></p>
             </div>
