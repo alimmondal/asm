@@ -100,7 +100,7 @@ const Pronunciation = () => {
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 1</h2>
           <div className="">
-            <p className="text-xs md:text-base">
+            <p className="text-sm md:text-base">
               ভূমিকা <br />
               ইংরেজিতে যারা দক্ষ হতে চান, বিশেষ করে ন্যাটিভ স্পিকারদের মত যারা
               শুদ্ধ উচ্চারণে কথা বলতে চান বা বিদেশীদের কথা বুঝতে চান তাদের জন্য
@@ -116,8 +116,8 @@ const Pronunciation = () => {
               উচ্চারণ যেটি বাংলায় কোন বর্ণ নেই। এজন্য, মূলতঃ বইটিতে উল্লেখিত
               উদাহরণ বার বার প্র্যাকটিসের মাধ্যমে শুদ্ধ উচ্চারণ আয়ত্ত্ব করতে
               হবে। <br />
-              সবশেষে সুপ্রিয় শিক্ষার্থীদের প্রতি অনুরোধ বইটিতে কোন ভুল/অসংগতি
-              চোঁখে পরলে নীচের ই-মেইলে জানালে কৃতজ্ঞ থাকবো। <br />
+              {/* সবশেষে সুপ্রিয় শিক্ষার্থীদের প্রতি অনুরোধ বইটিতে কোন ভুল/অসংগতি
+              চোঁখে পরলে নীচের ই-মেইলে জানালে কৃতজ্ঞ থাকবো। <br /> */}
               ধন্যবাদান্তে,
             </p>
           </div>
@@ -158,6 +158,53 @@ const Pronunciation = () => {
           </div>
         </div>
 
+        {/* page2 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold">Page 2</h2>
+          <div className="">
+            <p className="font-bold py-2">Alphabet এর সঠিক উচ্চারণ</p>
+            <div className="text-sm md:text-base text-justify">
+              <p className="">
+                Consonant Digraphs <br /> 
+                বাংলা ভাষায় যেমন কিছু যুক্ত অক্ষর আছে, ইংরেজি ভাষাতেও দুই বা ততোধিক শব্দ তেমনি যুক্ত অক্ষরের কাজ করে থাকে যার মাধ্যমে একটি আলাদা ব্যঞ্জনধ্বনি বা স্বরধ্বনি প্রকাশ করে। এই Lesson-এ আমরা Consonant Digraphs নিয়ে আলোচনা করবো যা একসাথে বসে একেকটি স্বতন্ত্র ব্যঞ্জনধ্বনি প্রকাশ করে আর তাই একে Consonant Digraphs বলা হয়ে থাকে। উল্লেখ্য, Consonant Digraphs শব্দের শুরুতে বা শেষে ব্যবহার হয়ে থাকে। নিচে উদাহরনসহ কয়েকটি দেয়া হলো: <br /> 
+                Digraph Initial/Last Sound  Examples <br /> 
+                "ph-"ফ - [শব্দের শুরুতে] - Phone; Physics; <br /> 
+                "-ph"ফ - [শব্দের শেষে] - Graph; morph triumph <br /> 
+                "kn-"ন - [শব্দের শুরুতে] - Know; knight; kneel <br /> 
+                "ch-"চ - [শব্দের শুরুতে] - Cheer; chat; chocolate <br /> 
+                "-ch"চ - [শব্দের শেষে] - Catch; match; batch <br /> 
+                "-ck"ক - [শব্দের শেষে] - Check; neck; deck <br /> 
+              </p>
+             
+            </div>
+          </div>
+        </div>
+        {/* page2 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold">Page 2</h2>
+          <div className="">
+            <p className="font-bold py-2">Alphabet এর সঠিক উচ্চারণ</p>
+            <div className="text-sm md:text-base ">
+              <p className="">
+                Consonant Digraphs <br /> 
+                
+                "th-"থ [শব্দের শুরুতে।Thank; think; thumb <br /> 
+                "th-"দ [শব্দের শুরুতে]Though; thou; thee <br /> 
+                "-th"থ শব্দের শেষেBath; earth; math; <br /> 
+                "-th"দ [শব্দের শেষে]Bathe; breathe; with <br /> 
+                "sh-"শ [শব্দের শুরুতেShower; sheet; shout <br /> 
+                "-sh"শ [শব্দের শেষে]Dish; fish; push <br /> 
+                "-ss"স [শব্দের শেষে)Loss; Mass; press <br /> 
+                ⁹"wh-"ওয়া [শব্দের শুরুতে।What; where; why <br /> 
+                "wr-" র [শব্দের শুরুতে]Write; wrong; wreath <br /> 
+                "-ng"ইং [শব্দের শেষে।Ring; sing; ting <br /> 
+                "-nk"ইংক [শব্দের শেষে]Link; pink; sink <br /> 
+              </p>
+            </div>
+               <p className="heading2 text-center pt-10">ASM English Academy</p>
+          </div>
+        </div>
+
         {/* page3 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 3</h2>
@@ -187,10 +234,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
+
         {/* page3 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 3</h2>
-
           <div className="">
             <p className="font-bold">Article - a</p>
             <div className="text-sm md:text-base">
@@ -840,8 +887,7 @@ const Pronunciation = () => {
           <h2 className="text-xl font-bold ">Page 13</h2>
           <div className="">
             <p className="font-bold"> IPA (Consonant-1) </p>
-            <div className="text-sm md:text-base">
-              
+            <div className="text-sm md:text-base">   
               <div className="flex justify-center pt-1 ">
                 <p className="text-xs md:text-base">
               এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
@@ -1067,8 +1113,7 @@ const Pronunciation = () => {
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold ">Page 14</h2>
           <div className="">
-            <p className="font-bold"> IPA (Consonant-2) </p>
-            
+            <p className="font-bold"> IPA (Consonant-2) </p> 
             <div className="text-sm md:text-base">
               <p className="text-xs md:text-base">
               এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
@@ -2014,44 +2059,164 @@ const Pronunciation = () => {
                 <p className="pt-2">
                   মনে রাখতে হবেঃ <br />
                   /tʃ/ & /dʒ/ ধ্বনির ক্ষেত্রে দুটি শব্দের যুক্ত করা যাবেনা। একটি শব্দের শেষে অপর শব্দ বলতে হবে। যেমনঃ <br />
-                  Beach chair /bitʃ tʃeər / [বিচ চেঅ্য (র)] <br />
-                  Each chapter /ɪ:tʃ tʃæp.tər / [ইচ চ্যাপটা (র)] <br />
-                  Change jeans /tfeindz dzi:nz / [চেঞ্জ জিন্‌ন্জ] <br />
-                  Orange juice /'prindz dzuis / [অরিঞ্জ জুস]
+                  Beach chair  - /bitʃ tʃeər / -  [বিচ চেঅ্য (র)] <br />
+                  Each chapter  - /ɪ:tʃ tʃæp.tər/ -  [ইচ চ্যাপটা (র)] <br />
+                  Change jeans  - /tfeindz dzi:nz/ -  [চেঞ্জ জিন্‌ন্জ] <br />
+                  Orange juice  - /'prindz dzuis/ -  [অরিঞ্জ জুস]
                 </p>
                 <p className="pt-2">
                   ii. Vowel to vowel: <br /> 
                   যদি একটি শব্দের শেষে vowel sound থাকে এবং তার পরের শব্দের শুরুতেও vowel sound থাকে তাহলে দুটি vowel এর মাঝে একটি /j/ [ইয়া] অথবা 
-
                 </p>
-
             </div>
           </div>
-        </div>
+        </div> 
+
         {/* page 32 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-1">Page 32</h2>
           <div className="">
-            <p className="font-bold text-green-400 pt-2">Linking (সংযুক্তকরণ):</p>
+            <p className="font-bold text-green-400 py-1">Linking (সংযুক্তকরণ):</p>
             <div className=" text-sm md:text-base">
               <p className="">
                 /w/ (ওয়া) consonant যুক্ত করে দুটি শব্দের মাঝে কোন প্রকার বিরতি না দিয়ে একটি শব্দের মত করে বলতে হবে। <br /> 
-
                   যেমন: <br /> 
-                  Do or die/ou 'ɔ:rdar / [ডু'অরডাই] <br /> 
-                  Go out/geu aut / [গৌয়াউট) <br /> 
+                  Do or - die/du 'ɔ:rdaɪ/ - [ডু'অরডাই] <br /> 
+                  Go out - /gəʊ_əʊt/ - [গৌয়াউট) <br /> 
+              </p>
+              <p className="pt-2">
+                  iii. Consonant to vowel <br /> 
+                  যদি একটি শব্দের শেষে consonant sound থাকে এবং তার পরের শব্দের শুরুতে যদি vowel sound থাকে তাহলে পূর্বের consonant টি পরের vowel এর সাথে সংযুক্ত করে একটি শব্দের মতো করে বলতে হবে। 
+                  যেমনঃ <br /> 
+                  In and out- /ɪ_nænd.aʊt/ - [ইন্যান্ডাউট] <br /> 
+                  Beat it - /br_txt/ - [বিটিট] <br /> 
+                  Look at - / lv_kæt/ - [লুক্যাট] <br />  
+                </p>
+            </div>
+                <p className="heading2 text-center pt-8">ASM English Academy</p>
+          </div>
+        </div>
+
+        {/* page 33 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold ">Page 33</h2>
+          <div className="">
+            <p className="font-bold text-green-400 py-2">Assimilation:</p>
+            <div className=" text-sm md:text-base">
+              <p className="">
+                  ইংরেজিতে দ্রুত বা অনর্গল কথা বলার আরেকটি মাধ্যম হলো Assimilation বা 'সন্ধি' যার অর্থ হলো একসাথে ২টি বা ৩টি ইংরেজি শব্দ একত্রে উচ্চারণ করা।
+                  <br /> 
+                  এখানে মনে রাখতে হবে যে এখানে প্রথম শব্দের শেষ sound-এর সাথে ২য় শব্দের প্রথম sound এর Assimilation বা সন্ধি হবে। <br /> 
+                  নিম্নে অনেকগুলো উদাহরণ প্রদত্ত হলঃ <br /> 
+
+                  
+              </p>
+              <p className="pt-2">
+                Assimilation-1 <br /> 
+                  d + y = জ (/d/→/dʒ/) <br /> 
+                  /d/ sound এর পরিবর্তে/dʒ/ (জ) sound উচ্চারণ করুন। <br /> 
+                  Would you <br />
+                  Would3d you - উজ + ইউ = উজিউ <br /> 
+                  Did you <br /> 
+                  Did you - ডিজ + ইউ = ডিজিউ <br /> 
+                  Had you <br /> 
+                  Ha<sup>dʒ</sup>d you - হ্যাজ + ইউ = হ্যাজিউ
+               </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 34 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold">Page 34</h2>
+          <div className="">
+            <p className="font-bold text-green-400 py-1">Assimilation</p>
+            <div className=" text-sm md:text-base text-justify">
+              <p className="">
+                    Assimilation-2 <br /> 
+                    t + y = (/t/ → /t∫/) <br /> 
+                    /t/ sound এর পরিবর্তে /tʃ/ (চ) sound উচ্চারণ করুন। <br /> 
+                    Meet you <br /> 
+                    Meets you - মিচ + ইউ = মিচিউ <br /> 
+                    Get you <br /> 
+                    Gets you - গেচ + ইউ = গেচিউ <br />  
+                    But you <br /> 
+                    But you - বাচ + ইউ = বাচিউ <br /> 
+              </p>
+              <p className="pt-2">
+                Assimilation-3 <br /> 
+                  N + M = ম (/n/ → /m/) <br />  
+                  /n/ sound এর পরিবর্তে /m/ (ম) sound উচ্চারণ করুন। <br /> 
+                  One more: <br /> 
+                  Omne more ওয়াম + মো = ওয়ামো <br /> 
+                  Can make: <br /> 
+                  Can make -খ্যাম + মেইখ = খ্যামেইখ <br /> 
               </p>
             </div>
           </div>
         </div>
-        {/* page 20 */}
+
+        {/* page 35 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 20</h2>
+          <h2 className="text-xl font-bold">Page 35</h2>
           <div className="">
-            <p className="font-bold text-green-400 pt-2">Assimilation</p>
-            <div className=" text-sm md:text-base">
-              <p className=""></p>
+            <p className="font-bold text-green-400 py-1">Assimilation</p>
+            <div className=" text-sm md:text-base text-justify">
+              <p className="">
+                 Assimilation-4 <br /> 
+                /d/→/b/ অর্থাৎ/d/ sound এর পরিবর্তে /b/ sound উচ্চারণ করা হয়ে থাকে। <br /> 
+                Good morning: <br /> 
+                Goo'd morning - গুব + মনিং = গুবমনিং <br /> 
+                Good bye: <br /> 
+                Goo'd bye - গুব + বাই = গুবাই <br /> 
+                
+                Bad boy: <br /> 
+                Ba'd boy - ব্যাব + বয় = ব্যাবয় <br />  
+                Stand by: <br /> 
+                Stan'd by - স্ট্যাম্ব + বাই = স্ট্যাম্ববাই <br /> 
+              </p>
+              <p className="pt-2">
+                Assimilation-5 <br /> 
+                /t/ /k/ অর্থাৎ/t/ sound এর পরিবর্তে /k/ sound উচ্চারণ করা হয়ে থাকে। <br /> 
+                Bad girls: <br /> 
+                Bad girl - ব্যাখ + গাল = ব্যাকগাল <br /> 
+                Bold crew: <br /> 
+                Bold crew - বৌল্ক + ক্রু = বৌল্কখ্রু <br /> 
+                
+              </p>
             </div>
+          </div>
+        </div>
+
+        {/* page 36 */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold">Page 36</h2>
+          <div className="">
+            <p className="font-bold text-green-400 py-1">Assimilation</p>
+            <div className=" text-sm md:text-base text-justify">
+              <p className="">
+               
+                Assimilation-6 <br /> 
+                /n/ ⇒ /n/ অর্থাৎ /n/ sound এর পরিবর্তে /ŋ/ sound উচ্চারণ করা হয়ে থাকে। <br /> 
+
+                Can cook: <br /> 
+                Ca'n cook - খ্যাং + খুক = খ্যাংখুক <br /> 
+                Open court: <br /> 
+                Ope'n court - ঔফেং + খোট = ঔফেংখোট <br /> 
+              </p>
+              <p className="pt-2">
+                Assimilation-7 <br /> 
+                /θ/থ ⇒ /s/ অর্থাৎ /0/থ sound এর পরিবর্তে /s/ sound উচ্চারণ করা হয়ে থাকে। <br /> 
+                Both players: <br /> 
+                Both players - বৌস + ফ্লেইআজ = বৌসফ্রেইআজ <br /> 
+                North-south: <br />
+                North-south নর্স + সাউদ = নর্সাউদ <br /> 
+                With students: <br /> 
+                With students উইস + স্টুডেন্টস = উইস্টুডেন্টস <br /> 
+              </p>
+            </div>
+              <p className="heading2 text-center pt-7">ASM English Academy</p>
+
           </div>
         </div>
 
