@@ -82,12 +82,12 @@ function Verbs() {
             //   height: "100%",
             // }}
           >
-            <div className="absolute top-1/3 md:top-[45%] left-[15%] md:left-1/3">
-              {/* <h1 className="">📖</h1> */}
-              <h1 className="text-green-400 text-3xl text-center">
-                📖Right Form of Verbs
+            <div className="absolute top-[25%] md:top-[45%] left-[15%] md:left-1/3 px-5">
+              <h1 className="text-center text-9xl">📖</h1>
+              <h1 className="text-sky-400 text-xl md:text-3xl text-center py-3">
+                Right Form of Verbs
               </h1>
-              <p className="text-center text-white">
+              <p className="text-center text-blue-600">
                 Click/touch to read the book
               </p>
             </div>
@@ -99,7 +99,7 @@ function Verbs() {
           <div className="p-3 text-black md:p-16 bg-[#FDFAF7] book-shadow">
             <h2 className="text-xl font-bold mb-2">Page 1</h2>
             {/* 1 */}
-            <div className="">
+            <div className="text-sm">
               <p>
                 <span className="animateText font-bold">Rule: 1.</span> Always,
                 regularly, daily, often, sometimes, normally,
@@ -117,7 +117,7 @@ function Verbs() {
               </p>
 
               {/* 2 */}
-              <p className="pt-3">
+              <p className="pt-1">
                 <strong>Rule:-2. </strong> বাক্যের মধ্যে Now, at this moment,
                 day by day, ইত্যাদি থাকলে বাক্যটি সাধারণত Present Continuous
                 Tense এ হয়। <br />
@@ -820,6 +820,7 @@ function Verbs() {
               Next ▶
             </button>
           </div>
+
           {/* Jump to Page */}
           <div className="mt-4 flex items-center gap-2">
             <input
@@ -852,6 +853,7 @@ function Verbs() {
               Go
             </button>
           </div>
+          
           {/* Numbered Page Buttons */}
           <div className="flex flex-wrap justify-center gap-2 mt-4">
             {Array.from({ length: totalPages }, (_, i) => (

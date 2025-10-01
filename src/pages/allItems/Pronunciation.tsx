@@ -35,9 +35,6 @@ const Pronunciation = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-
-
-
    const contents = [
     { title: "Alphabet এর সঠিক উচ্চারণ", pages: "4-6" },
     { title: 'Article', pages: "7-8" },
@@ -62,6 +59,11 @@ const Pronunciation = () => {
   }
 };
 
+const goToContents = () => {
+  if (flipBook.current) {
+    flipBook.current.pageFlip().flip(2); // 👈 contents page (Page 2 visually)
+  }
+};
 
   return (
     <div className="flex flex-col items-center py-10 px-5 md:px-10">
@@ -158,8 +160,7 @@ const Pronunciation = () => {
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 2</h2>
           <div className="">
-            <div className="">
-              <p className="pb-3">Click/touch on any page no./ item to go the targeted page.</p>
+            <div className="p-3">
               <h2 className="text-sm font-bold mb-1 text-center">
                 Contents (সূচিপত্র)
               </h2>
@@ -201,17 +202,17 @@ const Pronunciation = () => {
               </div>
             </div>
           </div>
+          <p className="pt-3 text-center">Click/touch any page number to read.</p>
         </div>
 
         {/* page3 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 3</h2>
-          <div className="">
-            <div className="p-">
-               <p className="pb-3">Click/touch on any page no./ item to go the targeted page.</p>
-              {/* <h2 className="text-sm font-bold mb-1 text-center">
+          <div className="p-3">
+            <div className="">
+              <h2 className="text-sm font-bold mb-1 text-center">
                 Contents (সূচিপত্র)
-              </h2> */}
+              </h2>
               <div className="overflow-x-auto">
                 <table className="table-auto w-full border border-gray-300 shadow-md rounded-lg">
                   <thead className="bg-gray-100">
@@ -233,9 +234,10 @@ const Pronunciation = () => {
                           <tr
                             key={index}
                             className={`${index % 2 === 0 ? "bg-white" : "bg-gray-50"} cursor-pointer hover:bg-blue-100`}
-                            onClick={() => goToPage(targetPage)}
-                          >
-                            <td className="border border-gray-300 text-blue-600 px-2 py-2 md:text-base">
+                            >
+                            <td onClick={() => goToPage(targetPage)} 
+                            className="border border-gray-300 text-blue-600 px-2 py-2 md:text-base"
+                            >
                               {item.title}
                             </td>
                             <td className="border border-gray-300 px-2 py-2 text-sm md:text-base text-blue-600 underline">
@@ -249,11 +251,23 @@ const Pronunciation = () => {
               </div>
             </div>
           </div>
+           <p className="pt-3 text-center">Click/touch any page number to read.</p> 
+
         </div>
 
         {/* page 4 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 4</h2>
+          <div className="flex justify-between md:justify-start md:gap-96 mb-2">
+
+            <h2 className="text-xl font-bold ">Page 4</h2>
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
+                >
+                  ⬅ Back to index
+              </button>
+
+          </div>
           <div className="">
             <p className="font-bold">Alphabet (এ্যালফাবেট) এর সঠিক উচ্চারণ</p>
             <div className="w-full flex  justify-evenly text-sm md:text-base">
@@ -2896,6 +2910,17 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
+        {/* page 60 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-2">Page 60</h2>
+          <div className="">
+            <p className="font-semibold">Chunking: </p>
+            <div className=" text-sm md:text-base">
+              <p className="">Coming sooooooon.....</p>
+              <div className=""></div>
+            </div>
+          </div>
+        </div>
 
         {/* Back Cover */}
         <div className="bg-gradient-to-r from-indigo-600 to-purple-600  text-white text-xl font-bold">
@@ -2928,36 +2953,40 @@ const Pronunciation = () => {
             Next ▶
           </button>
         </div>
+        
         {/* Jump to Page */}
-        <div className="mt-4 flex items-center gap-2">
-          <input
-            type="number"
-            min="1"
-            max={totalPages}
-            value={jumpPage}
-            onChange={(e) => {
-              const value = e.target.value;
-              setJumpPage(value === "" ? "" : parseInt(value, 10));
-            }}
-            className="border px-2 lg:px-8 py-1 rounded w-20 text-center"
-            placeholder="Go to..."
-          />
-          <button
-            className="px-3 py-1 bg-indigo-600 text-white rounded disabled:opacity-50"
-            disabled={jumpPage === "" || jumpPage < 1 || jumpPage > totalPages}
-            onClick={() => {
-              if (
-                typeof jumpPage === "number" &&
-                jumpPage >= 1 &&
-                jumpPage <= totalPages
-              ) {
-                flipBook.current.pageFlip().flip(jumpPage - 1);
+          <div className="mt-4 flex items-center gap-2">
+            <input
+              type="number"
+              min="1"
+              max={totalPages}
+              value={jumpPage}
+              onChange={(e) => {
+                const value = e.target.value;
+                setJumpPage(value === "" ? "" : parseInt(value, 10));
+              }}
+              className="border px-2 py-1 rounded w-20 text-center"
+              placeholder="Go to..."
+            />
+            <button
+              className="px-3 py-1 bg-indigo-600 text-white rounded disabled:opacity-50"
+              disabled={
+                jumpPage === "" || jumpPage < 1 || jumpPage > totalPages
               }
-            }}
-          >
-            Go
-          </button>
-        </div>
+              onClick={() => {
+                if (
+                  typeof jumpPage === "number" &&
+                  jumpPage >= 1 &&
+                  jumpPage <= totalPages
+                ) {
+                  flipBook.current.pageFlip().flip(jumpPage);
+                }
+              }}
+            >
+              Go
+            </button>
+          </div>
+
         {/* Numbered Page Buttons */}
         <div className="flex flex-wrap justify-center gap-2 mt-4">
           {Array.from({ length: totalPages }, (_, i) => (
