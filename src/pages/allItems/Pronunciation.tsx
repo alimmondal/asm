@@ -44,11 +44,11 @@ const Pronunciation = () => {
     { title: "Verb contractions", pages: "21 - 23" },
     { title: "Elision ধ্বনিলোপ ", pages: "24-25" },
     { title: "S এর সঠিক উচ্চারণ", pages: "26 - 28" },
-    { title: "Syllable", pages: "29-30" },
+    { title: "Syllable শব্দাংশ", pages: "29-30" },
     { title: "Stress (শ্বাসাঘাত)", pages: "31 - 33" },
-    { title: "Linking ", pages: "34 -36" },
+    { title: "Linking সংযুক্তি", pages: "34 -36" },
     { title: "Assimilation সন্ধি", pages: "37 - 40" },
-    { title: "উচ্চারণ শেখার টেকনিক", pages: "41 - 58" },
+    { title: "শব্দ উচ্চারণ টেকনিক", pages: "41 - 58" },
     { title: "Chunking", pages: "59" },
     { title: "24 consonant sounds", pages: "60" },
   ];
@@ -2380,9 +2380,18 @@ const goToContents = () => {
         </div>
         {/* page 33 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 33</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 33</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-400">Stress (শ্বাসাঘাত)/চাপ:</p>
+            <p className="font-bold text-green-400 pt-1">Stress (শ্বাসাঘাত)/চাপ:</p>
             <div className=" text-sm md:text-base">
               <p className="">
                 /ɪ/ <br /> 
@@ -2405,10 +2414,19 @@ const goToContents = () => {
         </div>
         {/* page 34 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 34</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 34</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-400 "> Linking (সংযুক্তকরণ):</p>
-            <div className=" text-sm md:text-base pt-2">
+            <p className="font-bold text-green-400 py-1"> Linking (সংযুক্তকরণ):</p>
+            <div className=" text-sm md:text-base">
               <p className="text-justify">
                
                 ইংরেজি listening এর ক্ষেত্রে linking খুবই গুরুত্বপূর্ণ ভূমিকা পালন করে।
@@ -2423,7 +2441,7 @@ const goToContents = () => {
               </p>
               <p className="pt-2">
                 i. Consonant to consonant: <br />
-                যদি একটি শব্দের শেষে consonant sound থাকে এবং তার পরের শব্দ যদি ঐ একই consonant sound দিয়ে শুরু হয়, তাহলে consonant টি দুইবার উচ্চারিত না হয়ে একবার একটু টেনে পরের শব্দের সাথে পড়তে হবে। <br />
+                যদি একটি শব্দের শেষে consonant sound থাকে এবং তার পরের শব্দ যদি ঐ একই consonant sound দিয়ে শুরু হয়, তাহলে consonant টি দুইবার উচ্চারিত না হয়ে একবার একটু টেনে <br />
                 
                 </p>
 
@@ -2432,12 +2450,21 @@ const goToContents = () => {
         </div>
         {/* page 35 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 35</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 35</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-400 pt-2">Linking (সংযুক্তকরণ):</p>
+            <p className="font-bold text-green-400 py-1">Linking (সংযুক্তকরণ):</p>
             <div className=" text-sm md:text-base text-justify">
               <p className="">
-                এবং শব্দ দুটি বলার সময় দুটি শব্দের মাঝে কোন প্রকার বিরতি দেয়া যাবে না। <br />
+                পরের শব্দের সাথে পড়তে হবে। এবং শব্দ দুটি বলার সময় দুটি শব্দের মাঝে কোন প্রকার বিরতি দেয়া যাবে না। <br />
                 যেমন: <br />
                 Big grade - /bɪ_greid/ -  [বিগ্রেইড] <br />
                 Don't try - /dǝun_traɪ/ -  [ডৌনট্রাই] <br />
@@ -2453,7 +2480,7 @@ const goToContents = () => {
                 </p>
                 <p className="pt-2">
                   ii. Vowel to vowel: <br /> 
-                  যদি একটি শব্দের শেষে vowel sound থাকে এবং তার পরের শব্দের শুরুতেও vowel sound থাকে তাহলে দুটি vowel এর মাঝে একটি /j/ [ইয়া] অথবা 
+                  যদি একটি শব্দের শেষে Vowel sound থাকে এবং তার পরের শব্দের শুরুতেও vowel sound থাকে  
                 </p>
             </div>
           </div>
@@ -2461,12 +2488,21 @@ const goToContents = () => {
 
         {/* page 36 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 36</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 36</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
             <p className="font-bold text-green-400 py-1">Linking (সংযুক্তকরণ):</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                /w/ (ওয়া) consonant যুক্ত করে দুটি শব্দের মাঝে কোন প্রকার বিরতি না দিয়ে একটি শব্দের মত করে বলতে হবে। <br /> 
+               তাহলে দুটি vowel এর মাঝে একটি /j/ [ইয়া] অথবা /w/ (ওয়া) consonant যুক্ত করে দুটি শব্দের মাঝে কোন প্রকার বিরতি না দিয়ে একটি শব্দের মত করে বলতে হবে। <br /> 
                   যেমন: <br /> 
                   Do or - die/du 'ɔ:rdaɪ/ - [ডু'অরডাই] <br /> 
                   Go out - /gəʊ_əʊt/ - [গৌয়াউট) <br /> 
@@ -2480,15 +2516,24 @@ const goToContents = () => {
                   Look at - / lv_kæt/ - [লুক্যাট] <br />  
                 </p>
             </div>
-                <p className="heading2 text-center pt-8">ASM English Academy</p>
+                <p className="heading2 text-center pt-5">ASM English Academy</p>
           </div>
         </div>
 
         {/* page 37 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 37</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 37</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-400 py-2">Assimilation:</p>
+            <p className="font-bold text-green-400 py-1">Assimilation('সন্ধি'):</p>
             <div className=" text-sm md:text-base">
               <p className="">
                   ইংরেজিতে দ্রুত বা অনর্গল কথা বলার আরেকটি মাধ্যম হলো Assimilation বা 'সন্ধি' যার অর্থ হলো একসাথে ২টি বা ৩টি ইংরেজি শব্দ একত্রে উচ্চারণ করা।
@@ -2503,7 +2548,7 @@ const goToContents = () => {
                   d + y = জ (/d/→/dʒ/) <br /> 
                   /d/ sound এর পরিবর্তে/dʒ/ (জ) sound উচ্চারণ করুন। <br /> 
                   Would you <br />
-                  Would3d you - উজ + ইউ = উজিউ <br /> 
+                  Would<sup>dʒ</sup>d you - উজ + ইউ = উজিউ <br /> 
                   Did you <br /> 
                   Did you - ডিজ + ইউ = ডিজিউ <br /> 
                   Had you <br /> 
@@ -2515,12 +2560,21 @@ const goToContents = () => {
 
         {/* page 38 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold">Page 38</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 38</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-400 py-1">Assimilation</p>
+            <p className="font-bold text-green-400 py-1">Assimilation(সন্ধি):</p>
             <div className=" text-sm md:text-base text-justify">
               <p className="">
-                    Assimilation-2 <br /> 
+                    Assimilation-2. <br /> 
                     t + y = (/t/ → /t∫/) <br /> 
                     /t/ sound এর পরিবর্তে /tʃ/ (চ) sound উচ্চারণ করুন। <br /> 
                     Meet you <br /> 
@@ -2545,13 +2599,22 @@ const goToContents = () => {
 
         {/* page 39 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold">Page 39</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 39</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-400 py-1">Assimilation</p>
+            <p className="font-bold text-green-400 py-1">Assimilation(সন্ধি):</p>
             <div className=" text-sm md:text-base text-justify">
               <p className="">
                  Assimilation-4 <br /> 
-                /d/→/b/ অর্থাৎ/d/ sound এর পরিবর্তে /b/ sound উচ্চারণ করা হয়ে থাকে। <br /> 
+                /d/ → /b/ অর্থাৎ/d/ sound এর পরিবর্তে /b/ sound উচ্চারণ করা হয়ে থাকে। <br /> 
                 Good morning: <br /> 
                 Goo'd morning - গুব + মনিং = গুবমনিং <br /> 
                 Good bye: <br /> 
@@ -2564,12 +2627,11 @@ const goToContents = () => {
               </p>
               <p className="pt-2">
                 Assimilation-5 <br /> 
-                /t/ /k/ অর্থাৎ/t/ sound এর পরিবর্তে /k/ sound উচ্চারণ করা হয়ে থাকে। <br /> 
+                /t/ → /k/ অর্থাৎ/t/ sound এর পরিবর্তে /k/ sound উচ্চারণ করা হয়ে থাকে। <br /> 
                 Bad girls: <br /> 
                 Bad girl - ব্যাখ + গাল = ব্যাকগাল <br /> 
                 Bold crew: <br /> 
-                Bold crew - বৌল্ক + ক্রু = বৌল্কখ্রু <br /> 
-                
+                Bold crew - বৌল্ক + ক্রু = বৌল্কখ্রু <br />               
               </p>
             </div>
           </div>
@@ -2577,9 +2639,18 @@ const goToContents = () => {
 
         {/* page 40 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold">Page 40</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 40</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-400 py-1">Assimilation</p>
+            <p className="font-bold text-green-400 py-1">Assimilation(সন্ধি):</p>
             <div className=" text-sm md:text-base text-justify">
               <p className="">
                
@@ -2602,16 +2673,25 @@ const goToContents = () => {
                 With students উইস + স্টুডেন্টস = উইস্টুডেন্টস <br /> 
               </p>
             </div>
-              <p className="heading2 text-center pt-7">ASM English Academy</p>
+              <p className="heading2 text-center pt-5">ASM English Academy</p>
 
           </div>
         </div>
 
         {/* page 41 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 41</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 41</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-semibold">উচ্চারণ শেখার শর্টকাট টেকনিক</p>
+            <p className="font-semibold py-1">শব্দ উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
               <p className="">
                 Rule-1 <br />
@@ -2641,9 +2721,18 @@ const goToContents = () => {
 
         {/* page 42 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 42</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 42</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold">উচ্চারণ টেকনিক</p>
+            <p className="font-bold py-1">শব্দ উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
               <p className="">
                 Rule- 4<br />
@@ -2671,8 +2760,7 @@ const goToContents = () => {
                 <br />
                 Rule-8 <br />
                 P+ S পরপর থাকলে এবং P এর আগে কোন vowel না থাকলে P অনুচ্চারিত
-                থাকে। উদাহরণ: <br />
-                Psycho- (সাইকো)- মন।
+                থাকে। 
               </p>
             </div>
           </div>
@@ -2680,10 +2768,21 @@ const goToContents = () => {
 
         {/* page 43 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 43</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 43</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold"> উচ্চারণ টেকনিক</p>
+            <p className="font-bold py-1">শব্দ উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
+              <p className="">উদাহরণ: <br />
+                Psycho- (সাইকো)- মন।</p>
               <p className="">
                 Rule-9 <br />
                 Word-এর মধ্যে Mpt এর উচ্চারণে p উহ্য। এর উচ্চারণ হবে "মট্”।
@@ -2698,8 +2797,7 @@ const goToContents = () => {
                 'Wh'-এর উচ্চারনে সাধারণত 'h' এর উচ্চারণ উহ্য থাকবে। যেমন: <br />
                 What (ওএ্যঅট) = কী <br />
                 কিন্তু , <br />
-                Who - (হু) - কে/কারা <br />
-                Whom - (হুম) - কাকে/কাদের
+                
               </p>
             </div>
           </div>
@@ -2707,11 +2805,22 @@ const goToContents = () => {
 
         {/* page 44 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 44</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 44</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold"> উচ্চারণ টেকনিক</p>
+            <p className="font-semibold py-1">শব্দ উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
               <p className="">
+                Who - (হু) - কে/কারা <br />
+                Whom - (হুম) - কাকে/কাদের <br />
                 Rule-12 <br />
                 'w'-এরপর 'r' থাকলে সাধারণত 'w' উচ্চারিত হয় না। যেমন: <br />
                 Write (রাইট) - লেখা <br />
@@ -2733,11 +2842,20 @@ const goToContents = () => {
         </div>
 
         {/* page 45 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 45</h2>
+        <div className="px-3 py-2 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 45 </h2>  
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold"> উচ্চারণ টেকনিক</p>
-            <div className=" text-sm md:text-base">
+            <p className="font-semibold py-1">শব্দ উচ্চারণ টেকনিক</p>
+            <div className=" text-sm md:text-base text-justify">
               <p className="">
                 Rule-16 <br />
                 শব্দের শেষে Sure থাকলে এর উচ্চারণ সাধারণত 'জ' হয়। উদাহরণ: <br />
@@ -2755,21 +2873,30 @@ const goToContents = () => {
                 Cat - ক্যাট (UK খ্যাট) - বিড়াল <br />
                 Rule-18 <br />
                 G এর পরে i, e, y এই তিন অক্ষর থাকলে তার উচ্চারণ হবে সফট্ অর্থাৎ
-                বাংলা 'জ'-এর মতো। যেমন: <br />
-                Age - এইজ - বয়স; যুগ <br />
+                বাংলা 'জ'-এর মতো। যেমন: 
+                Age - এইজ - বয়স; যুগ 
               </p>
             </div>
           </div>
         </div>
 
         {/* page 46 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 46</h2>
+        <div className="px-3 py-2 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 46</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold"> উচ্চারণ টেকনিক</p>
+            <p className="font-bold py-1">শব্দ উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                ➡️G এর পরে i, e, y এই তিন অক্ষর না থাকলে তার উচ্চারণ হবে 'গ'-এর
+                ➡️ G এর পরে i, e, y এই তিন অক্ষর না থাকলে তার উচ্চারণ হবে 'গ'-এর
                 মতো। যেমন: <br />
                 Again - অ্যগেন/অ্যগেইন - আবার; পুনরায় <br />
                 Rule-19 <br />
