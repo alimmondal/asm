@@ -804,9 +804,15 @@ const Transformation = () => {
               <br />= Work hard or you will not shine.
             </p>
             <p className="pt-5">
-              Exercise
-Transform the following simple sentences into compound :
-(i) Taking up his basket, the porter followed the girl. (ii) Finishing the work, we went to the playground. (iii) Closing the door, I went back to sleep. (iv) Sitting by the fire, he told me of their two days together. (v) Sitting on a log of a tree, the old woman watched the people walking past her. (vi) Writing novels, he wanted to earn (vii) The day being sunny, the sun shone brightly. (viii) Having taken the money, he went outside. (ix) In spite of his weakness, the man has vast knowledge. (x) The weather being very cold, there were no birds outside.
+              Exercise <br /> 
+              Transform the following simple sentences into compound : <br /> 
+              (i) Taking up his basket, the porter followed the girl. (ii) Finishing the work, we went to the playground. (iii) Closing the door, I went back to sleep. (iv) Sitting by the fire, he told me of their two days together. (v) Sitting on a log of a tree, the old woman watched the people walking past her. (vi) Writing novels, he wanted to earn (vii) The day being sunny, the sun shone brightly. (viii) Having taken the money, he went outside. (ix) In spite of his weakness, the man has vast knowledge. (x) The weather being very cold, there were no birds outside.
+
+            </p>
+            <p className="">
+              Exercise <br />
+              Transform the following Compound sentences into Simple : <br />
+              (i) He took the purse and ran away. (ii) They are very nice and can not be used just at present. (iii) Jim drew a package from his overcoat and threw it upon the table. (iv) Jerry was honest and could not take the money. (v) The marriage ceremony was over and the guests were going to the feast. (vi) I was ill and I could not attend the meeting. (vii) The sea water was very salty and they could not drink it. (viii) Work hard and you will prosper in life. (ix) The docoit ran away and escaped himself. (x) She jumped into a cab and cried gaily. (xi) He had ali the qualifications but he did not get a job. (xii) Raj behaved rough but he was not punished. (xiii) The fishermen worked day and night but they could not lead a happy life. (xiv) The weather was very cold and there were no birds or animals in that snow covered country. (xv) Della finished her cry and attended to her cheeks. (xvi) Write much or you can not write well. (xvii) Walk fast or you can not get the train. (xviii) He sat by the fire with me and told me of their two days together. (xix) He is healthy but he does not work at ali. (xx) My mother closed the door and went back to sleep. (xxi) The sun set and I came back home. (xxii) Work hard or you will not prosper. (xxiii) Work hard and you will prosper. (xiv) It was 1990 and I passed the SSC exam. (xv) He went to the zoo and saw a big tiger.
 
             </p>
           </div>
@@ -969,14 +975,29 @@ Transform the following simple sentences into compound :
               Q. In spite of reading well, he could not pass.
               <br />= Though he read well, he could not pass.
             </div>
+            <p className="">
+              Exercise <br />
+                Transform the following Complex sentences into Simple :  <br />
+                (i) When Asha stood by the window, she looked out. (ii) They saw the drunken porter who was lying on the
+                floor. (iii) When lunch was over, the lady went away. (iv) The authoress went to the Carolina mountains when it was autumn. (v) They are so nice that any can not be used just at present. (vi) The old sailor woke up when it was raining. (vii) He is so weak that he can not speak a single word. (viii) The boy was so foolish that he could not understand a simple matter. (ix) You came here when you were only four. (x) We eat so that we may live. (xi) The sailors saw a ship that was coming to them. (xii) Since the boy worked hard, he shone in life: (xiii) As Ratan saw a tiger, he ran away in fear. (xiv) When it was daylight, I was half awakened by the sound of chopping. (xv) Since the water was salty, the sailors could not drink it. (xvi) As the set of combs is costly, I can not buy it. (xvii) As the writer was poor, he could not visit Foyot's earlier. (xviii) Since he was meritorious, he made a good result. (xix) I was saved since I had shown a true love for all living things. (xx) The writer lived in a cabin which belonged to the orphanage. (xxi) The man who is industrious can shine in life. (xxii) When I was reading, Rahat came to me. (xxiii) The writer lived in a cabin that belonged to the orphanage. (xxiv) Though he was brilliant, he could not make a good result. (xxv) My father went there so that he could attend the meeting.
+            </p>
+            <p className="">
+              Exercise <br />
+              Transform the following sentences from simple to complex: <br />
+              (i) The load being very heavy, he cannot carry it. (ii) The farmers sow good seeds to get good crops. (iii) We read to learn. (iv) Shahana went to the market to buy a freezer. (v) The authoress wanted quiet isolation to do some troublesome writing. (vi) Helal walked too slowly to catch the bus. (vii) They saw the drunken porter lying on the floor. (viii) I saw a bird flying in the sky. (ix) Taking exercise regularly, he built good health. (x) Knowledge is power. (xi) Standing by the window, Della looked out (xii) Jumping into a cab, she cried gaily. (xiii) Entering the classroom, my father found me gossipping. (xiv) Running fast, he got the first prize. (xv) One day, the old man watched some water snakes swimming round the ship. (xvi) The marriage ceremony being over, the guests were going to the feast. (xvii) He is too weak to move. (xviii) Having forgotten him, I went outside the cabin. (xix) The sun having set, we reached home. (xx) The sun having risen, the fog dispersed. (xxi) Coming to me, he borrowed a book. (xxii) At the age of sixteen, I passed the SSC exam. (xxiii) In spite of his poverty, he is honest. (xxiv) Because of his having much wealth, he helped the poor. (xxv) By studying hard, you will make a good result.
+
+            </p>
           </div>
         </div>
+
+
         {/* DEGREE */}
-        <div className="mt-6 pt-6  text-gray-900">
-          <div className="p-4 md:p-6 bg-gray-100">
+        <div className="mt-6   text-gray-900">
             <h1 className="font-bold mb-4 text-green-500">Degree </h1>
-            {/* Superlative to Positive */}
-            <table className="table-auto w-full border-collapse border  border-gray-400">
+            {/* Superlative to Positive  Comparative to positive */}
+          <div className="p-4 md:p-6 bg-gray-100 my-5">
+            <div className="">
+              <table className="table-auto w-full border-collapse border  border-gray-400">
               <thead>
                 <tr className="bg-gray-200">
                   <th className="border border-gray-400 p-2">Rules</th>
@@ -1122,9 +1143,22 @@ Transform the following simple sentences into compound :
                 </tr>
               </tbody>
             </table>
+            <p className="">
+              Exercise  <br />
+              Transform the following sentences into positive : <br />
+              (a) The lady admirer was the cleverest woman the writer had ever seen. (b) Chattogram is the biggest port in Bangladesh. (c) He is the noblest person I have ever found. (d) Shakespeare is the greatest of all dramatists. January is the coldest month in Bangladesh. (f) It burns the prettiest of any wood. (g) The Magi were the wisest of all men who give presents. (h) Foyot's is one of the most expensive restaurants. (i) Rumi is the class. (j) The rose is the finest of all flowers. (k) Dhaka is the biggest city in Bangladesh. (1) Kamal is one of tallest boys in the class. (m) Jeba is the most obedient student in the class. (n) Mr Rahaman is the greatest doctor in the city.(o) Iron is one of the heaviest metals.
+
+            </p>
+            <p className="pt-5">
+              Exercise <br />
+              Transform the following sentences into positive : <br />
+              (a) Summer is warmer than all other seasons. (b) A lion is not braver than he. (c) Jim and Della were not less wise than the Magi. (d) You are older than I. (e) I guess her hands are bigger than yours. (f) A train runs faster than a bus. (g) Her teeth were brighter than a string of pearls. (h) The Padma is larger than any other river in Bangladesh. (i) Della's hair was better than the jewels of the Queen of Sheba. (j) Her face was not less radiant than the full moon. (k) You are not less beautiful than your sister. (1) No sooner had he seen the police ran away. (m) He is faster than all other boys. (n) Suman is more brilliant than most other boys. (0) Iron is more useful than most other metals. (p) The Padma is larger than any other rivers in Bangladesh. (q) You are older than I. (r) Jim's watch was more valuable than the treasures of king Solomon. (s) No sooner had he seen the police than he ran away.
+            </p>
+            </div>
           </div>
 
-          <div className="p-4 md:p-6 bg-gray-100 text-gray-900">
+            {/* Superlative to Comparative & Positive to Comparative */}
+          <div className="p-4 md:p-6 bg-gray-100 text-gray-900 mb-5">
             <h1 className="text-xl font-bold mb-4 text-green-500">
               Superlative to Comparative & Positive to Comparative
             </h1>
@@ -1152,8 +1186,8 @@ Transform the following simple sentences into compound :
                 {/* Row 1 */}
                 <tr>
                   <td className="border border-gray-400 p-1 md:p-3">
-                    than any other এর নিয়মঃ <br />
-                    <strong>Struct: </strong> Subject + Verb + adjective-এর-2 +
+                   সাধারণ নিয়মঃ <br />
+                    <strong>Struct: </strong> Subject + Verb + adj-2 +
                     than any other + বাক্যের বাকি অংশ।
                   </td>
                   <td className="border border-gray-400 p-1 md:p-3">
@@ -1167,9 +1201,9 @@ Transform the following simple sentences into compound :
                 {/* Row 2 */}
                 <tr>
                   <td colSpan={1} className="border border-gray-400 p-1 md:p-3">
-                    <strong>One of the থাকলে এর নিয়মঃ </strong> <br />
-                    <strong>Struct: </strong> Subject + Verb + adjective-এর-2 +
-                    than any other + বাক্যের বাকি অংশ।
+                    <strong>One of the - এর নিয়মঃ </strong> <br />
+                    <strong>Struct: </strong> Subject + Verb + adj-2 +
+                    than most other + বাক্যের বাকি অংশ।
                   </td>
                   <td colSpan={1} className="border border-gray-400 p-1 md:p-3">
                     <strong>Super:</strong> Hadiduzzaman is one of the best
@@ -1246,13 +1280,27 @@ Transform the following simple sentences into compound :
                 </tr>
               </tbody>
             </table>
+            <div className="pt-5">
+              <p className="">Exercise <br />
+              Transform the following sentences into comparative : <br />
+              (a) Dhaka is the largest city in Bangladesh. (b) Shakespeare is the greatest of all dramatists. (c) The cow is the most useful of all animals. (d) The Magi were the wisest of all men who give present. (e) Sohel is the noblest person I have ever found. (f) English is the richest of all languages in the world. (g) Milk is the most nutritious of all kinds of the food. (h) Foyot's is one of the most expensive restaurants. (i) Della was the best housewife. (j) Iron is the most useful of all metals. (k) He is the noblest person I have ever found. (1) The rose is the best of all flowers. (m) Meherpur is the smallest town in Bangladesh. (n) Gold is the most valuable of all metals. (0) Nazrul is the most favourite of all poets to me. (p) Chattogram is the busiest port in Bangladesh.
+              </p>
+              
+              
+              <p className="pt-5">
+                Exercise <br />
+                Transform the following sentences into comparative: <br />
+                (a) As soon as she saw it, she knew that it must be Jim's. (b) A bird cannot fly as fast as a plane. (c) Honesty is not as much as it is. (d) Eagle's eyes were not so bright as hers. (e) Orange is not as cheap as you said. (f) The lady was not so young as I expected. (g) She is not as ugly as you said. (h) No other boy in the orphanage is as good as jerry. (i) You have done as much as a man. (j) Very few metals are as precious as gold. (k) No other virtue is as great as truthfulness (1) Very few kings of India were as great as Akbar. (m) Very few books are as updated as Puthiniloy's book. (n) He is as tall as Palm tree. (o) As soon as the teacher entered the classroom, the students stood up
+
+              </p>
+            </div>
           </div>
 
+         {/* Comparative to Superlative & Positive to Superlative */}
           <div className="p-4 md:p-6 bg-gray-100 text-gray-900">
             <h1 className="text-xl font-bold mb-4 text-green-500">
               Comparative to Superlative & Positive to Superlative
             </h1>
-
             <table className="table-auto w-full border-collapse border border-gray-400">
               <thead>
                 <tr className="bg-gray-200">
@@ -1349,7 +1397,27 @@ Transform the following simple sentences into compound :
                 </tr>
               </tbody>
             </table>
+            {/* Exercise */}
+          <div className="pt-5">
+            <div className="">
+              <p className="">
+                Exercise <br />
+                Transform the following sentences into superlative: <br />
+                (a) The lady guest was cleverer than any other woman. (b) He is not less intelligent than any other boy. (c) Mutton was cheaper than any other food on the menu. (d) Ruma is fairer than any other girl. (e) It burns prettier than any other wood. (f) Imran Khan is faster than most other cricketers. (g) He is wiser than any other  villagers. (h) Rokeya is better than most other girls in the class. (i) Nazrul is more favourite than any other poet. (j) Shima is one of the most active workers in the factory. (k) Asia is larger than any other continent in the world. other man in all other
+
+              </p>
+            </div>
+            <div className="">
+              <p className="">
+              Exercise <br />
+              Transform the following sentences into superlative: <br />
+              (a) Very few problems are as serious as Illiteracy. (b) No other boy is as good as he. (c) Very few dramatists are as successful as Shakespeare. (d) No other boy is as intelligent as Rahman. (e) No other emperor was as great as Akbar. (f) No other animal is as useful as the cow. (g) Very few boys are as good as Jerry the author has ever found. (h) Very few animals are as ferocious as a lion. (i) No other city in Bangladesh is as big as Dhaka. (j) No other woman was as clever as the lady guest. (k) No other continent in the world is so large as Asia. (1) No other dramatist is as great as Shakespeare. (m) Very few poets in Bangla are so good as Nazrul. (n) Very few people in the village are as friendly as Mr. Kashem. (0) No other girl is as beautiful as Labiba.
+
+              </p>
+            </div>
           </div>
+          </div>
+          
         </div>
         {/* Excersise */}
         <div className="my-10 bg-gray-100 p-4 md:p-6">

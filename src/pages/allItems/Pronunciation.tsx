@@ -1921,7 +1921,7 @@ const goToContents = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="pt-1">
-            <p className="font-medium">Elision: </p>
+            <p className="font-medium">Elision (ধ্বনিলোপ): </p>
             <div className=" text-sm md:text-base">
               <p className="">
                 ইংরেজি দ্রুত বলার আরেকটি মাধ্যম হলো Elision বা ধ্বনিলোপ যেখানে
@@ -1946,9 +1946,18 @@ const goToContents = () => {
 
         {/* page 25 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 25</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 25</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button> 
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-medium">Elision:</p>
+            <p className="font-medium py-1">Elision (ধ্বনিলোপ):</p>
             <div className=" text-sm md:text-base">
               <p className="">
                 আরো মনে রাখতে Schwa (/ǝ/) প্রকৃতপক্ষে জোর দিয়ে উচ্চারণ করা হয়ে
@@ -1970,9 +1979,18 @@ const goToContents = () => {
 
         {/* page 26 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 26</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 26</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-medium text-green-500">Unvoiced Sound + S:</p>
+            <p className="font-medium text-green-500 py-1">Unvoiced Sound + S:</p>
             <div className=" text-sm md:text-base">
               <p className="py-3">
                 Unvoiced sound গুলো হলোঃ <br />
@@ -2063,9 +2081,18 @@ const goToContents = () => {
         </div>
         {/* page 27 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 27</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 27</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-medium text-green-500">Unvoiced Sound + S:</p>
+            <p className="font-medium text-green-500 pt-1">Unvoiced Sound + S:</p>
             <div className=" text-sm md:text-base">
               <p className="pt-1">
                 Rule-3. <br />
@@ -2146,9 +2173,18 @@ const goToContents = () => {
 
         {/* page 28 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 28</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 28</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-medium text-green-500">Unvoiced Sound + S:</p>
+            <p className="font-medium text-green-500 pt-1">Unvoiced Sound + S:</p>
             <div className=" text-sm md:text-base">
               <div className="">
                 <p className="pt-3">
@@ -2196,14 +2232,23 @@ const goToContents = () => {
 
         {/* page 29 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 29</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 29</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-600">Syllable:</p>
+            <p className="font-bold text-green-600 pt-1">Syllable(শব্দাংশ):</p>
             <div className=" text-sm md:text-base">
-              <p className="py-2">
+              <p className="pt-2">
                 ইংরেজি শব্দ গঠন শিখতে syllable খুব গুরত্বপূর্ণ একটা অংশ। ইংরেজি শব্দের সঠিক উচ্চারণ করতে হলে Syllable সম্পর্কে অবশ্যই পরিষ্কার ধারণা থাকতে হবে। মোটা দাগে বলতে গেলে- syllable হলো শব্দের সেই part বা অংশ যেটা ছাড়া ইংরেজির সঠিক উচ্চারণ সম্ভব নয়। <br /> 
                 যেমনঃ <br /> 
-                Badminton/bæd.minton/ [ব্যাড. মিনট্যন] <br />
+                Badminton/bæd.minton/ [ব্যাড.মিনট্যন] <br />
               </p>
               <p className="">
                      
@@ -2222,11 +2267,21 @@ const goToContents = () => {
             </div>
           </div>
         </div>
+
         {/* page 30 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 30</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 30</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-500">Syllable</p>
+            <p className="font-bold text-green-500 pt-1">Syllable</p>
             <div className=" text-sm md:text-base">
               <p className="pt-2">
                  Closed Syllable: <br /> 
@@ -2250,9 +2305,18 @@ const goToContents = () => {
 
         {/* page 31 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 31</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 31</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-400">Stress (শ্বাসাঘাত)/চাপ:</p>
+            <p className="font-bold text-green-400">Stress (শ্বাসাঘাত/চাপ):</p>
             <div className=" text-sm md:text-base">
               <p className="pt-2">
                 Stress:
@@ -2266,7 +2330,7 @@ const goToContents = () => {
                 Belief -/br'li:f/ - [বি'লি:ফ] <br /> 
               </p>
               <p className="pt-2">
-                সাফ কথাঃ <br /> 
+                ➡️ সাফ কথাঃ <br /> 
                 এক syllable বিশিষ্ট word সকল সময় stress হবে। যেমনঃ <br /> 
                 But - /bat / -  [ব্যাট] <br /> 
                 Rat -  / ræt / -  [র‍্যাট]
@@ -2277,12 +2341,21 @@ const goToContents = () => {
         </div>
         {/* page 32 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 32</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 32</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-400">Stress (শ্বাসাঘাত)/চাপ::</p>
+            <p className="font-bold text-green-400 pt-1">Stress (শ্বাসাঘাত/চাপ):</p>
             <div className=" text-sm md:text-base">
               <p className="pt-2">
-                মনে রাখতে হবে, দুই syllable word যদি noun অথবা adjective হয়, তাহলে অধিকাংশ সময় প্রথম syllable এ stress হবে। যেমনঃ <br />
+                ➡️ দুই syllable word যদি noun অথবা adjective হয়, তাহলে অধিকাংশ সময় প্রথম syllable এ stress হবে। যেমনঃ <br />
                     Leader - /'li:dər/ -  [লি:ডার] <br />
                     Danger -  /dein:dzər/ -  [ডেইন:জার] <br />
               </p>
