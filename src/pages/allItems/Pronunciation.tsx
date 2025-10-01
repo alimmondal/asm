@@ -185,9 +185,9 @@ const goToContents = () => {
                           <tr
                             key={index}
                             className={`${index % 2 === 0 ? "bg-white" : "bg-gray-50"} cursor-pointer hover:bg-blue-100`}
-                            onClick={() => goToPage(targetPage)}
+                            
                           >
-                            <td className="border border-gray-300 text-blue-600 px-2 py-2 md:text-base">
+                            <td onClick={() => goToPage(targetPage)} className="border border-gray-300 text-blue-600 px-2 py-2 md:text-base">
                               {item.title}
                             </td>
                             <td className="border border-gray-300 px-2 py-2 text-sm md:text-base text-blue-600 underline">
@@ -229,13 +229,12 @@ const goToContents = () => {
                       {contents.slice(8, 15).map((item, index) => {
                         // Take the first page from the range "7-8" → 7
                         const targetPage = parseInt(item.pages.split("-")[0].trim());
-
                         return (
                           <tr
                             key={index}
                             className={`${index % 2 === 0 ? "bg-white" : "bg-gray-50"} cursor-pointer hover:bg-blue-100`}
                             >
-                            <td onClick={() => goToPage(targetPage)} 
+                            <td onClick={() => goToPage(targetPage)}  
                             className="border border-gray-300 text-blue-600 px-2 py-2 md:text-base"
                             >
                               {item.title}
@@ -252,22 +251,20 @@ const goToContents = () => {
             </div>
           </div>
            <p className="pt-3 text-center">Click/touch any page number to read.</p> 
-
         </div>
 
         {/* page 4 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-between md:justify-start md:gap-96 mb-2">
-
             <h2 className="text-xl font-bold ">Page 4</h2>
               <button
                   onClick={goToContents}
                   className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
                 >
                   ⬅ Back to index
-              </button>
-
+              </button> 
           </div>
+          
           <div className="">
             <p className="font-bold">Alphabet (এ্যালফাবেট) এর সঠিক উচ্চারণ</p>
             <div className="w-full flex  justify-evenly text-sm md:text-base">
@@ -302,7 +299,15 @@ const goToContents = () => {
 
         {/* page 5 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-between md:justify-start md:gap-96 mb-2">
           <h2 className="text-xl font-bold">Page 5</h2>
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
+                >
+                  ⬅ Back to index
+              </button>
+          </div>
           <div className="">
             <p className="font-bold py-2">Alphabet এর সঠিক উচ্চারণ</p>
             <div className="text-sm md:text-base text-justify">
@@ -323,7 +328,15 @@ const goToContents = () => {
         </div>
         {/* page 6 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-between md:justify-start md:gap-96 mb-2">
           <h2 className="text-xl font-bold">Page 6</h2>
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
+                >
+                  ⬅ Back to index
+              </button>
+          </div>
           <div className="">
             <p className="font-bold py-2">Alphabet এর সঠিক উচ্চারণ</p>
             <div className="text-sm md:text-base ">
@@ -349,7 +362,15 @@ const goToContents = () => {
 
         {/* page 7 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 7</h2>
+          <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
+          <h2 className="text-xl font-bold ">Page 7</h2>
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
+                >
+                  ⬅ Back to index
+              </button>
+          </div>
           <div className="">
             <p className="font-bold">Article - the</p>
             <p className="font- pt-2">কখন “দা” এবং কখন "দি” হবেঃ</p>
@@ -379,8 +400,16 @@ const goToContents = () => {
 
         {/* page 8 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 8</h2>
-          <div className="">
+          <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
+          <h2 className="text-xl font-bold ">Page 8</h2>
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
+                >
+                  ⬅ Back to index
+              </button>
+          </div>
+        <div className="">
             <p className="font-bold">Article - a</p>
             <div className="text-sm md:text-base">
               <p className="">
@@ -400,7 +429,15 @@ const goToContents = () => {
 
         {/* page 9  */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 9</h2>
+          <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
+          <h2 className="text-xl font-bold ">Page 9</h2>
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
+                >
+                  ⬅ Back to index
+              </button>
+          </div>
           <div className="">
             <p className="font-bold">Sound: P, T & K</p>
             <div className="text-sm md:text-base">
@@ -429,7 +466,15 @@ const goToContents = () => {
 
         {/* page 10 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 10</h2>
+          <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
+          <h2 className="text-xl font-bold ">Page 10</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
+                >
+                  ⬅ Back to index
+              </button>
+          </div>
           <div className="">
             <p className="font-bold">Example of P, T, C, Q & K</p>
             <div className="flex justify-between text-sm md:text-base">
@@ -472,7 +517,16 @@ const goToContents = () => {
 
         {/* page 11 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 11</h2>
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+          <h2 className="text-xl font-bold ">Page 11</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          
           <div className="">
             <p className="font-bold">সবসময় কি Aspirated হবে? </p>
             <div className=" text-sm md:text-base">
@@ -499,7 +553,16 @@ const goToContents = () => {
 
         {/* page 12 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 12</h2>
+           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+          <h2 className="text-xl font-bold ">Page 12</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
             <p className="font-bold">'p, t, k, c, q' </p>
             <div className=" text-sm md:text-base">
@@ -524,7 +587,16 @@ const goToContents = () => {
 
         {/* page 13 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 13</h2>
+           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+          <h2 className="text-xl font-bold ">Page 13</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
             <p className="font-bold"> Pronunciation of "R"</p>
             <div className=" text-sm md:text-base">
@@ -551,9 +623,18 @@ const goToContents = () => {
 
         {/* page 14 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 14</h2>
+           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+          <h2 className="text-xl font-bold ">Page 14</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-medium"> R এর উচ্চারণ: </p>
+            <p className="font-semibold py-1"> R এর উচ্চারণ: </p>
             <div className=" text-sm md:text-base">
               <p className="">
                 ২. শব্দের এর শুরুতে 'Wr' থাকলে ব্রিটিশরা 'R' এর উচ্চারণ করে
@@ -562,8 +643,6 @@ const goToContents = () => {
                 ব্রিটিশরা 'R' যখন উচ্চারণ করে নাঃ <br />
                 ১. 'word' এর শেষে 'R' থাকলে ব্রিটিশরা 'R' এর উচ্চারণ করে না।
                 যেমনঃ <br />
-                {/* actorঅ্যাকটো
-              <br />  */}
                 Brother = ব্রাদা <br />
                 Teacher = ঠিচা <br />
                 ২. 'word এর শেষে 'Re' থাকলেও ব্রিটিশরা 'R' এর উচ্চারণ করে না।
@@ -573,22 +652,30 @@ const goToContents = () => {
                 ৩. 'word' এর মধ্যে 'R' এর পর pure consonant থাকলে ব্রিটিশরা 'R'
                 এর উচ্চারণ করে না। যেমনঃ <br />
                 cart = খাট <br />
-                Saturday = স্যটাডেই{" "}
+                Saturday = স্যটাডেই
               </p>
-              <p className="text-center pt-7 heading2">ASM English Academy</p>
+              <p className="text-center pt-5 heading2">ASM English Academy</p>
             </div>
           </div>
         </div>
 
         {/* page 15 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 15</h2>
+           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+              <h2 className="text-xl font-bold ">Page 15</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold"> IPA </p>
+            <p className="font-bold py-1"> IPA(Phonetics) </p>
             <div className=" text-sm md:text-base">
-              Vowel & Consonant sound <br />
-              <p className="">
-                ইংরেজিতে মোট ৪৪টি সাউন্ড রয়েছে। এই ৪৪টি সাউন্ড সঠিকভাবে উচ্চারণ
+              <p className="text-justify">
+                ইংরেজিতে মোট ৪৪টি Vowel & Consonant sound রয়েছে। এই ৪৪টি সাউন্ড সঠিকভাবে উচ্চারণ
                 শিখতে পারলে আমরাও ন্যাটিভদের মত শুদ্ধ ও স্মার্ট উচ্চারণে
                 ইংরেজিতে কথা বলতে পারবো। ৪৪টি সাউন্ড এর মধ্যে 20 Vowel sound &
                 24 consonant sound. <br />
@@ -608,14 +695,24 @@ const goToContents = () => {
 
         {/* page 16 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 16</h2>
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+              <h2 className="text-xl font-bold ">Page 16</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className=""><div className=""></div>
-            <p className="font-bold"> IPA (Vowel-1) </p>
-            <p className="text-xs md:text-base">
+            <p className="font-bold py-1"> IPA (Vowel-1) </p>
+            
+            <div className=" text-sm md:text-base">
+              <p className="text-xs md:text-base">
               প্রতিটি সিম্বলগুলো আয়ত্ব করে ফেলুন। কারণ, এ সিম্বলগুলো রপ্ত করলেই
               শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
             </p>
-            <div className=" text-sm md:text-base">
               <div className="flex justify-center pt-1">
                 {/* Left Table */}
                 <table className="table-auto border-collapse border border-gray-400 shadow-md">
@@ -818,9 +915,18 @@ const goToContents = () => {
 
         {/* page 17  */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 17 </h2>
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+              <h2 className="text-xl font-bold ">Page 17</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold"> IPA (Vowel-2) </p>
+            <p className="font-bold py-1"> IPA (Vowel-2) </p>
             <p className="text-xs md:text-base">
               প্রতিটি সিম্বলগুলো আয়ত্ব করে ফেলুন। কারণ, এ সিম্বলগুলো রপ্ত করলেই
               শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
@@ -1027,7 +1133,16 @@ const goToContents = () => {
 
         {/* page 18 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 18</h2>
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+              <h2 className="text-xl font-bold ">Page 18</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
             <p className="font-bold"> IPA (Consonant-1) </p>
             <div className="text-sm md:text-base">   
@@ -1254,7 +1369,16 @@ const goToContents = () => {
 
         {/* page 19 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 19</h2>
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+              <h2 className="text-xl font-bold ">Page 19</h2> 
+                <button
+                    onClick={goToContents}
+                    className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                  >
+                  Back to index
+                </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
             <p className="font-bold"> IPA (Consonant-2) </p> 
             <div className="text-sm md:text-base">
@@ -1482,7 +1606,16 @@ const goToContents = () => {
 
         {/* page 20 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold ">Page 20</h2>
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+              <h2 className="text-xl font-bold ">Page 20</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className=""></div>
           <div className="">
             <p className="font-bold"> IPA (Diphthongs) </p>
@@ -1587,7 +1720,16 @@ const goToContents = () => {
 
         {/* page 21 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 21</h2>
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+              <h2 className="text-xl font-bold ">Page 21</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
             <p className="font-medium">Verb Contraction (সংকোচন):</p>
             <div className=" text-sm md:text-base">
@@ -1595,7 +1737,7 @@ const goToContents = () => {
                 Contraction হল Subject + Verb একত্রে উচ্চারণ করা। Spoken English
                 এ এটি গুরুত্বপূর্ণ। এক্ষেত্রে আমাদের IPA সিম্বলকেই ফলো করতে হবে।
               </p>
-              <div className="overflow-x-auto p-1">
+              <div className="overflow-x-auto px-3">
                 <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
                   <thead className="bg-gray-100">
                     <tr>
@@ -1644,11 +1786,20 @@ const goToContents = () => {
 
         {/* page 22 */}
         <div className="p-2 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 22</h2>
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+              <h2 className="text-xl font-bold ">Page 22</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-medium">Contraction(সংকোচন): </p>
+            <p className="font-medium pt-1">Verb Contraction(সংকোচন): </p>
             <div className=" text-sm md:text-base">
-              <div className="overflow-x-auto p-1">
+              <div className="overflow-x-auto p-1 px-3">
                 <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
                   <thead className="bg-gray-100">
                     <tr>
@@ -1699,8 +1850,17 @@ const goToContents = () => {
 
         {/* page 23 */}
         <div className="p-2 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 23</h2>
-          <div className="">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+              <h2 className="text-xl font-bold ">Page 23</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="pt-1">
             <p className="font-medium">Contraction(সংকোচন): </p>
 
             <div className=" text-sm md:text-base">
@@ -1750,8 +1910,17 @@ const goToContents = () => {
 
         {/* page 24 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-1">Page 24</h2>
-          <div className="">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 24</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="pt-1">
             <p className="font-medium">Elision: </p>
             <div className=" text-sm md:text-base">
               <p className="">

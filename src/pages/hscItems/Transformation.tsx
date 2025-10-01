@@ -56,7 +56,7 @@ const Transformation = () => {
               height: "100%",
             }}
           >
-            <h1 className="text-2xl font-bold">📖 Right Form of Verbs</h1>
+            <h1 className="text-2xl font-bold">📖 Transformation</h1>
           </article>
           <article className="p-6">
             <h2 className="text-xl font-bold">Rule 1</h2>
@@ -190,7 +190,7 @@ const Transformation = () => {
               <th>Example</th>
             </tr>
             <tr>
-              <td>Only / Alone</td>
+              <td>Only / Alone (ব্যক্তির ক্ষেত্রে)</td>
               <td>None but</td>
               <td>
                 A: Only the brave deserve the fair.
@@ -199,7 +199,7 @@ const Transformation = () => {
               </td>
             </tr>
             <tr>
-              <td>Only/Alone</td>
+              <td>Only/Alone (বস্তুর ক্ষেত্রে)</td>
               <td>Nothing but</td>
               <td>
                 A: Only the Moon was visible.
@@ -208,7 +208,7 @@ const Transformation = () => {
               </td>
             </tr>
             <tr>
-              <td>Only/Alone</td>
+              <td>Only/Alone (সংখ্যার ক্ষেত্রে)</td>
               <td>Not more than/Not less than</td>
               <td>
                 A: He is only thirteen.
@@ -352,8 +352,7 @@ const Transformation = () => {
               </td>
             </tr>
           </table>
-        </div>
-        {/* antonyms */}
+{/* antonyms */}
         <div className="">
           <h3 className="">কিছু বিপরীতার্থক শব্দের নমুনা:</h3>
 
@@ -400,12 +399,27 @@ const Transformation = () => {
             </p>
           </div>
         </div>
+        <div className="pt-5">
+          <p className="">
+             Exercise <br />
+
+        Transform the following sentences into Negative sentences : <br />
+
+        (i) The baby alone was alive after the disaster. (ii) Only the sail of the ship was visible. (iii) Only mango-juice is sufficient for our health. (iv) She ate only two bananas. (v) Mr. Shafiq will always obey the rules and regulation of the institution. (vi) Man must submit to destiny. (vii) As soon as I reached home, she rang me. was too busy to gossip with us. (ix) I have read a few pages of the book. (viii) Bashir (x) He is as meritorious as his brother. (xi) You must help the poor man. (xii) Every patriot loves his country. (xiii) Everybody wants a good friend. (xiv) You are as clever as fox. (xv) He goes to school everyday.
+
+          </p>
+         
+        </div>
+        </div>
+        
         {/* INTERROGATIVE, IMPERATIVE, EXCLAMATORY */}
         <div className="mt-5 text-lg md:text-xl">
-          <h3 className="text-green-500">
+          
+          <div className="">
+            <h3 className="text-green-500">
             Assertive থেকে Interrogative-এ রূপান্তর
           </h3>
-          <div className="">
+          <div className="pt-5">
             Rule:-1. সাধারণ নিয়মঃ <br />
             (a) বাক্যের Auxiliary verb বাক্যের শুরুতে বসবে। <br />
             (b) বাক্যটি Affirmative হলে তা Negative হবে, আর Negative এ থাকলে তা
@@ -447,6 +461,18 @@ const Transformation = () => {
             Ass: Nobody believes a liar.
             <br />
             Inter: Who believes a liar?
+              <p className="pt-5">
+              Exercise <br />
+
+                Transform the following sentences into Interrogative sentences : <br />
+
+                (i) The girl likes hot tea. (ii) I prefer coffee to tea. (iii) My father is a man of words. (iv) He goes to bed late at night everyday. (v) The boy has a good command in English. (vi) Everybody is longing for prosperity. (vii) No accurately everytime. (viii) Courtesy is nothing but a manner. (ix) There is nothing wrong with them. one hits (x) Frienship is nothing but a name. (xi) Everybody wishes to get the 1st prize. (xii) They would not drink polluted water. (xiii) There is nothing in my pocket. (xiv) Nobody could ever judge it. (xv) Life is nothing but a fight.
+
+            </p>
+
+          </div>
+            
+            
           </div>
 
           <br />
@@ -455,7 +481,8 @@ const Transformation = () => {
             <h3 className="text-green-500">
               Assertive থেকে Exclamatory -তে রূপান্তর-
             </h3>
-            Rule:-1. সাধারণ নিয়মঃ <br />
+            <div className="pt-3">
+              Rule:-1. সাধারণ নিয়মঃ <br />
             (i) বাক্যের শুরুতে What/ How + <br />
             (ii) Verb এর পরের অংশ + <br />
             (iii) Subject + Verb + <br />
@@ -506,12 +533,32 @@ const Transformation = () => {
             Exc: Alas! I am finished.
             <br />
             Ass: It is a matter of sorrow that I am finished.
+             <p className="pt-5">
+              Exercise  <br /> 
+                  Transform the following sentences into Exclamatory sentences: <br /> 
+
+                  (i) She is very talkative. (ii) It was a very competitive race. (iii) The accident was very terrible. (iv) He leads a very unhappy life. (v) A little learning is a very dangerous thing. (vi) My hair grows very fast. (vii) I got a very rare opportunity to talk to her yesterday. (viii) Swapan is a very well-known figure of this area. (ix) It was a very lucky day for me. (x) It is a very attractive dress. (xi) it is a very long tree. (xii) We rejoice that our team has won the match. (xiii) I wish I were the king of England. (xiv) It is a matter of Shame that he does not take care of his parents. (xv) I wish I could be a child again.
+
+            </p>
+
+            <p className="">
+              Exercise <br />
+                Transform the following sentences into Assertive sentence : <br />
+
+                (i) What a big river the Padma is! (ii) What a nice gift she has given on your birthday! (iii) What a fool your brother was! (iv) How amazing the incident is! (v) How fortunate the porter was! (vi) What a nice flower it is! (vii) How charming the surroundings of your house is! (viii) What a nice design it is! (ix) Alas! He has lost his father. (x) How nice the bird is! (xi) Would that I could be a bird! (xii) If I were a child again! (xiii) Had I been a millionaire!
+
+            </p>
+            </div>
+            
+           
           </div>
+
           <div className="">
             <h3 className="text-green-500">
               Assertive থেকে Imperative (command/request/order/advice) -এ
               রূপান্তর
             </h3>
+            <div className="pt-5">
             1. Assertive sentence-এর subject যদি second person (you) হয় তবে মূল
             verb দ্বারা বাক্যটি শুরু হবে। এক্ষেত্রে মূল verb-এর পূর্বের অংশ বাদ
             যাবে। তবে Assertive sentence টি 'না-বোধক' হলে 'Do not + verb' দ্বারা
@@ -579,6 +626,19 @@ const Transformation = () => {
             Ass: Nilu does not run in the sun.
             <br />
             Imp: Let not Nilu run in the sun.
+
+            <p className="pt-5">
+              Exercise <br /> 
+
+                Transform the following sentences into imperative sentences : <br /> 
+
+                (i) You should obey the rules of the company. (ii) You do not waste your time. (iii) She sings a beautiful song.
+
+                (iv) We should go out for a walk. (v) You should maintain good health. (vi) You should strike the iron while it is hot. (vii) You should not run in the sun. (viii) We should not hate the poor. (ix) He plays football. (x) You should not spit on the floor.
+
+            </p>
+            </div>
+           
           </div>
 
           <br />
@@ -644,6 +704,20 @@ const Transformation = () => {
             </p>
 
             <br />
+            <p className="pt-5">
+            Exercise <br />
+
+            Transform the following Compound sentences into Complex: <br />
+
+            (i) Follow my example and you will feel better. (ii) Speak the truth and I will let you go. (iii) He paid the bill and he had no money in his pocket. (iv) Walk fast or you can not get the train. (v) Drive carefully or there may be accident. (vi) He worked hard but failed. (vii) There was water everywhere around them but they had not a drop to drink. (viii) I knew I could not afford caviare but I could not very well tell her that. (ix) For seven days he tried to pray but could not break the sailors' curse. (x) It disturbed me but I did not know the reason. (xi) Their throats were very dry and they could not speak. (xii) The sailors gave the albatross food and water and it became tame. (xiii) Badsha saw the tiger and went away. (xiv) The dog lay close to him and found comfort there. (xv) Della finished her cry and attended to her cheeks. (xvi) Do and die. (xvii) Della saw it and she knew that it must be Jim's. (xviii) He had finished the work and took rest. (xix) The ship came nearer and they saw, it had no crew. (xx) Jerry sat by the fire with me and told me of their two days together. (xxi) I took a cabin and asked for a man to chop wood. (xxii) He has much money and he can buy a car. (xxiii) She finished her work and started writing. (xxiv) Read attentively or you fail. (xxv) Do or die. (xxvi) He worked hard but he could not succeed.
+
+            </p>
+            <p className="">
+              Exercise <br />
+              Transform the following sentences from complex to compound : <br />
+              saw the police, he did not eat (i) We went to the market so that we could buy the necessities. (ii) Though he was poor, he was honest. (iii) He admitted that he was responsible for breaking the handle. (iv) If we read books, we can enrich our mind. (v) When an earthquake occurs, people become panic-stricken. (vi) Since he was poor, he could not be able to buy a new shirt. (vii) Since the weather was very cold, we could not go out. (viii) When the thief ran away. (ix) Though there is a law to punish the terrorists, it is not properly applied. (x) If you do balanced diet you will lose your health. (xi) As there was a traffic jam on the road, I was late for school. (xii) Unless you read, you will not pass. (xiii) He was so weak that he could not speak. (xiv) Although they tried hard, they could not win the match.
+
+            </p>
           </div>
 
           {/* Compound to simple & Simple to Compound: */}
@@ -728,6 +802,12 @@ const Transformation = () => {
               যেমনঃ <br />
               Q. Without working hard, it will not shine.
               <br />= Work hard or you will not shine.
+            </p>
+            <p className="pt-5">
+              Exercise
+Transform the following simple sentences into compound :
+(i) Taking up his basket, the porter followed the girl. (ii) Finishing the work, we went to the playground. (iii) Closing the door, I went back to sleep. (iv) Sitting by the fire, he told me of their two days together. (v) Sitting on a log of a tree, the old woman watched the people walking past her. (vi) Writing novels, he wanted to earn (vii) The day being sunny, the sun shone brightly. (viii) Having taken the money, he went outside. (ix) In spite of his weakness, the man has vast knowledge. (x) The weather being very cold, there were no birds outside.
+
             </p>
           </div>
           <br />
