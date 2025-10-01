@@ -2898,23 +2898,27 @@ const goToContents = () => {
               <p className="">
                 ➡️ G এর পরে i, e, y এই তিন অক্ষর না থাকলে তার উচ্চারণ হবে 'গ'-এর
                 মতো। যেমন: <br />
-                Again - অ্যগেন/অ্যগেইন - আবার; পুনরায় <br />
+                Again - অ্যগেন/অ্যগেইন - আবার; পুনরায় 
+              </p>
+              <p className="py-2">
                 Rule-19 <br />
                 শব্দের শেষে que এর উচ্চারণ "ক" হয়ে থাকে। উদাহরণ: <br />
-                Cheque - (চেক) - কিস্তি, হুন্ডি। <br />
+                Cheque - (চেক) - কিস্তি, হুন্ডি। 
+              </p>
+              <p className="">
                 Rule-20 <br />
                 Consonant+ U+ Consonant এভাবে word গঠিত হলে U এর উচ্চারণ "আ" এর
                 মত হয়। উদাহরণ: <br />
                 Null - (নাল) - বাতিল <br />
                 ব্যতিক্রমঃ <br />
-                Put - (পুট) <br />
+                Put - (পুট) 
+              </p>
+              <p className="pt-2">                                           
                 Rule-21 <br />
                 EA+ R+ consonant এভাবে word গঠিত হলে, EA এর উচ্চারণ "আ" হবে।
                 উদাহরণ: <br />
                 Heart -(হার্ট) - হৃদয়। <br />
-                Rule-22 <br />
-                "IO" এর উচ্চারণ সাধারণত "আইয়" হয়। উদাহরণ: <br />
-                Violet - (ভাইয়লেইট) - বেগুনী রঙ।
+                
               </p>
             </div>
           </div>
@@ -3178,6 +3182,7 @@ const goToContents = () => {
                 May - মেই - সম্ভাবনা সূচক ক্রিয়া <br />
                 Pay - ফেই
               </p>
+              
             </div>
           </div>
         </div>
@@ -3255,11 +3260,17 @@ const goToContents = () => {
                 Fool - ফু('ল) - বোকা <br />
                 Little - লিট ('ল) - অল্প; ছোট্ট <br />
               </p>
+              <p className="">
+                Rule-22 <br />
+                "IO" এর উচ্চারণ সাধারণত "আইয়" হয়। উদাহরণ: <br />
+                Violet - (ভাইয়লেইট) - বেগুনী রঙ।
+              </p>
               <p className="text-center pt-16 heading2">ASM English Academy</p>
             </div>
           </div>
         </div>
-        {/* page 59 */}
+
+        {/* page 59 Chunking */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 59</h2>
           <div className="">
