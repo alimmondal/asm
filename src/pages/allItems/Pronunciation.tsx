@@ -36,7 +36,7 @@ const Pronunciation = () => {
   }, []);
 
   const contents = [
-    { title: "Alphabet এর সঠিক উচ্চারণ", pages: "4-6" },
+    { title: "Alphabet sound", pages: "4-6" },
     { title: "Article", pages: "7-8" },
     { title: "P, T, C, Q & K Sound", pages: "9 - 12" },
     { title: '"R" এর উচ্চারণ', pages: "13 - 14" },
@@ -48,7 +48,7 @@ const Pronunciation = () => {
     { title: "Stress (শ্বাসাঘাত)", pages: "31 - 33" },
     { title: "Linking সংযুক্তি", pages: "34 -36" },
     { title: "Assimilation সন্ধি", pages: "37 - 40" },
-    { title: "শব্দ উচ্চারণ টেকনিক", pages: "41 - 58" },
+    { title: "উচ্চারণ টেকনিক", pages: "41 - 58" },
     { title: "Y এর উচ্চারণ", pages: "55 - 58" },
     { title: "X এর উচ্চারণ", pages: "56 - 58" },
     { title: "Chunking", pages: "59" },
@@ -161,13 +161,13 @@ const Pronunciation = () => {
         {/* page2 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 2</h2>
-          <div className="">
+          <div className="w-full flex flex-col items-center">
             <div className="p-3">
               <h2 className="text-sm font-bold mb-1 text-center">
                 index (সূচিপত্র)
               </h2>
               <div className="overflow-x-auto">
-                <table className="table-auto w-full border border-gray-300 shadow-2xl rounded-lg">
+                <table className="table-auto max-w-fit border border-gray-300 shadow-2xl rounded-lg">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="border border-gray-300 px-2 py-2 text-left">
@@ -191,9 +191,10 @@ const Pronunciation = () => {
                           className={`${
                             index % 2 === 0 ? "bg-white" : "bg-gray-50"
                           } cursor-pointer hover:bg-blue-100`}
+                          onClick={() => goToPage(targetPage)}
                         >
                           <td
-                            onClick={() => goToPage(targetPage)}
+                            
                             className="border border-gray-300 text-blue-600 px-2 py-2 md:text-base"
                           >
                             {item.title}
@@ -217,13 +218,13 @@ const Pronunciation = () => {
         {/* page3 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 3</h2>
-          <div className="p-3">
+          <div className="w-full flex flex-col items-center">
             <div className="">
               <h2 className="text-sm font-bold mb-1 text-center">
                 index (সূচিপত্র)
               </h2>
               <div className="overflow-x-auto">
-                <table className="table-auto w-full border border-gray-300 shadow-md rounded-lg">
+                <table className="table-auto max-w-fit border border-gray-300 shadow-md rounded-lg">
                   <thead className="bg-gray-100">
                     <tr>
                       <th className="border border-gray-300 px-2 py-2 text-left">
@@ -246,14 +247,15 @@ const Pronunciation = () => {
                           className={`${
                             index % 2 === 0 ? "bg-white" : "bg-gray-50"
                           } cursor-pointer hover:bg-blue-100`}
+                          onClick={() => goToPage(targetPage)}
                         >
                           <td
-                            onClick={() => goToPage(targetPage)}
-                            className="border border-gray-300 text-blue-600 px-2 py-2 md:text-base"
+                            
+                            className="border border-gray-300 text-blue-600 px-2 py-1 md:text-base"
                           >
                             {item.title}
                           </td>
-                          <td className="border border-gray-300 px-2 py-2 text-sm md:text-base text-blue-600 underline">
+                          <td className="border border-gray-300 px-2 py-1 text-sm md:text-base text-blue-600 underline">
                             {item.pages}
                           </td>
                         </tr>
@@ -1851,7 +1853,7 @@ const Pronunciation = () => {
                       ["Couldn’t", "/ˈkʊdnt/", "কুডন্"],
                       ["Mayn’t", "/ˈmeɪənt/", "মেইআন্ট"],
                       ["Mightn’t", "/maɪtnt/", "মাইঠন্"],
-                      ["Mustn’t", "/ˈmʌsnt/", "মাসন্"],
+                      
                     ].map(([shortForm, ipa, bangla], index) => (
                       <tr key={index} className="hover:bg-gray-50">
                         <td className="border border-gray-300 px-1 py-1">
@@ -1905,6 +1907,7 @@ const Pronunciation = () => {
                   </thead>
                   <tbody>
                     {[
+                      ["Mustn’t", "/ˈmʌsnt/", "মাসন্"],
                       ["He’s", "/hiːz/", "হিজ"],
                       ["He’d", "/hiːd/", "হিড"],
                       ["He’ll", "/hiːl/", "হিল"],
