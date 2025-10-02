@@ -49,8 +49,10 @@ const Pronunciation = () => {
     { title: "Linking সংযুক্তি", pages: "34 -36" },
     { title: "Assimilation সন্ধি", pages: "37 - 40" },
     { title: "শব্দ উচ্চারণ টেকনিক", pages: "41 - 58" },
+    { title: "Y এর উচ্চারণ", pages: "55 - 58" },
+    { title: "X এর উচ্চারণ", pages: "56 - 58" },
     { title: "Chunking", pages: "59" },
-    { title: "24 consonant sounds", pages: "60" },
+    // { title: "24 consonant sounds", pages: "60" },
   ];
 
   const goToPage = (page: number) => {
@@ -162,7 +164,7 @@ const Pronunciation = () => {
           <div className="">
             <div className="p-3">
               <h2 className="text-sm font-bold mb-1 text-center">
-                Contents (সূচিপত্র)
+                index (সূচিপত্র)
               </h2>
               <div className="overflow-x-auto">
                 <table className="table-auto w-full border border-gray-300 shadow-2xl rounded-lg">
@@ -218,7 +220,7 @@ const Pronunciation = () => {
           <div className="p-3">
             <div className="">
               <h2 className="text-sm font-bold mb-1 text-center">
-                Contents (সূচিপত্র)
+                index (সূচিপত্র)
               </h2>
               <div className="overflow-x-auto">
                 <table className="table-auto w-full border border-gray-300 shadow-md rounded-lg">
@@ -3128,83 +3130,105 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold">শব্দের উচ্চারণ টেকনিক</p>
+            <p className="font-bold py-1">শব্দের উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                Rule-30 <br />
-                i + Consonant + E এভাবে ব্যবহৃত হলে তার উচ্চারণ "আই" এর মত হয়।
+                <span className="font-medium text-pink-600">Rule-30. </span> <br />
+                i + Consonant + E এভাবে ব্যবহৃত হলে তার উচ্চারণ "আই" এর মত হয়। <br />
                 উদাহরণ: <br />
                 Rice - (রাইস) - চাউল। <br />
                 Size - (সাইজ) - আয়তন। <br />
-                Rule-31 <br />
+              </p>
+
+              <p className="py-2">
+                 <span className="font-medium text-pink-600">Rule-31. </span> <br />
                 শব্দস্থিত EE + R এভাবে ব্যবহৃত হলে R যদি word শেষ অক্ষর হয় তাহলে
-                EE এর উচ্চারণ "ইঅ্যা" হবে উদাহরণ: <br />
+                EE এর উচ্চারণ "ইঅ্যা" হবে <br />
+                 উদাহরণ: <br />
                 Deer - (ডিয়্যার) - হরিণ। <br />
                 Peer - (পিয়‍্যার) - সমকক্ষ। <br />
-                Rule-32 <br />
-                EE+ consonant (R ছাড়া) এভাবে ব্যবহৃত হলে, EE এর উচ্চরণ "ঈ" হয়।
+              </p>
+              <p className="">
+                <span className="font-medium text-pink-600">Rule-32. </span> <br />
+                EE+ consonant (R ছাড়া) এভাবে ব্যবহৃত হলে, EE এর উচ্চরণ "ঈ" হয়। <br />
                 উদাহরণ: <br />
                 Need - (নীড) - প্রয়োজন। <br />
-                {/* Meek - (মীক) - বিনম্র <br /> */}
-                Rule-33 <br />
-                শব্দস্থিত STL এর উচ্চারণ হয় "সল্” এখানে। অনুচ্চারিত থাকে।
-                উদাহরণ: <br />
-                Nestle - (নেসল) - বাসা বাঁধা
+                Meek - (মীক) - বিনম্র <br />
               </p>
+              
             </div>
           </div>
         </div>
 
         {/* page 50 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 50</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 50</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold">শব্দের উচ্চারণ টেকনিক</p>
+            <p className="font-bold py-1">শব্দের উচ্চারণ টেকনিক:</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                Rule-34 <br />
-                Vowel এর পর BT এর উচ্চারণ "ট" এক্ষেত্রে "B" অনুচ্চারিত থাকে।
+                <span className="font-medium text-pink-600">Rule-33. </span> <br />
+                Vowel এর পর BT এর উচ্চারণ "ট" এক্ষেত্রে "B" অনুচ্চারিত থাকে। <br />
                 উদাহরণ: <br />
-                Doubtful (ডাউটফুল) - সন্দিহান। <br />
-                Rule-35 <br />
-                শব্দস্থিত OA+ Consonant এভাবে ব্যবহৃত হলে OA এর উচ্চারণ হয় "ও"।
-                উদাহরণ: <br />
-                Road (রৌড) - রাস্তা। <br />
-                Loan (লৌন) ঋণ। <br />
-                Rule-36 <br />
-                শব্দের শেষে MN থাকলে সাধারণতঃ N অনুচ্চারিত থাকে। উদাহরণ: <br />
-                Damn (ড্যাম) অভিশাপ দেয়া। <br />
-                Rule-37 <br />
-                Word-এর মধ্যে।I+ R+ Consonant এভাবে Word গঠিত হলে "।" এর উচ্চারণ
-                "আই" না হয়ে "আ" হয়। উদাহরণ: <br />
-                First (ফাস্ট) - প্রথম। <br />
-                Bird (বাড) - পাখি। <br />
+                Doubtful -  (ডাউটফুল) - সন্দিহান। <br />
               </p>
+              <p className="py-2">
+                <span className="font-medium text-pink-600">Rule-34. </span> <br />
+                শব্দস্থিত OA+ Consonant এভাবে ব্যবহৃত হলে OA এর উচ্চারণ হয় "ও"। <br />
+                উদাহরণ: <br />
+                Road -  (রৌড) - রাস্তা। <br />
+                Loan  - (লৌন) -  ঋণ। <br />
+              </p>
+              <p className="">
+                <span className="font-medium text-pink-600">Rule-35. </span> <br />
+                শব্দের শেষে MN থাকলে সাধারণতঃ N অনুচ্চারিত থাকে। <br /> উদাহরণ: <br />
+                Damn -  (ড্যাম) -  অভিশাপ দেয়া। <br />
+                Condemn - (/Cɔːndem/) -
+              </p>
+              
             </div>
           </div>
         </div>
 
         {/* page 51 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 51</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 51</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-medium">শব্দের উচ্চারণ টেকনিক</p>
+            <p className="font-medium py-1">শব্দের উচ্চারণ টেকনিক:</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                Rule-38 <br />
+                <span className="font-medium text-pink-600">Rule-36. </span> <br />
                 Word এর মধ্যে GH পাশাপাশি থাকলে তা উচ্চারিত হয় না। <br />
                 Right - (রাইট) - সঠিক <br />
                 Night - (নাইট) - রাত <br />
-                Rule-39 <br />
+                <span className="font-medium text-pink-600">Rule-37. </span> <br />
                 কোন শব্দে U এরপর consonant + vowel+..... থাকলে U এর উচ্চারণ
                 সাধারণত "ইউ" হয়। <br />
                 Mute - (মিউট) - স্তব্ধ, নির্বাক। <br />
-                Rule-40 <br />
-                কোন শব্দে CC+O/U consonant থাকলে CC এর উচ্চারণ হবে "ক"। উদাহরণ:{" "}
+                <span className="font-medium text-pink-600">Rule-38. </span>  <br />
+                কোন শব্দে CC+O/U consonant থাকলে CC এর উচ্চারণ হবে "ক"। উদাহরণ:
                 <br />
                 Accuse - (এ্যাকিউজ) - অভিযুক্ত করা। <br />
                 According - (এ্যাকর্ডিং) - অনুযায়ী। <br />
-                Rule-41 <br />
+                <span className="font-medium text-pink-600">Rule-39. </span> <br />
                 Consonant এর পর "AI" এর উচ্চারণ সবসময় "এই" বা "এয়‍্যা" হয়।
                 উদাহরণ: <br />
                 Rail - (রেইল) - রেলের লাইন। <br />
@@ -3216,22 +3240,31 @@ const Pronunciation = () => {
 
         {/* page 52 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 52</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 52</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-medium">শব্দের উচ্চারণ টেকনিক</p>
+            <p className="font-medium py-1">শব্দের উচ্চারণ টেকনিক:</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                Rule-42 <br />
+                <span className="font-medium text-pink-600">Rule-41. </span> <br />
                 I+ R+ E বর্ণ তিনটি যদি word এর শেষে থাকে তবে এর উচ্চারণ "আয়‍্যা"
                 <br />
                 Dire - (ডায়‍্যার) - ভয়ংকর। <br />
                 Admire - (এ্যাডমায়‍্যার) - তারিফ করা। <br />
-                Rule-43 <br />
+                <span className="font-medium text-pink-600">Rule-42. </span> <br />
                 কোন শব্দে U এর পূর্বে consonant + R/L+...... থাকলে U এর উচ্চারণ
                 সাধারণত "উ" হয়। উদাহরণ: <br />
                 Blue - (ব্লু) - নীল। <br />
                 True - (ট্র) - সত্য। <br />
-                Rule-44 <br />
+                <span className="font-medium text-pink-600">Rule-43. </span>  <br />
                 U এর পর যদি এমন দুটি Consonant থাকে যাদেরকে আলাদাভাবে উচ্চারণ
                 করতে হয় (ফলে প্রথমটিতে একটি syllable শেষ হয় এবং পরেরটিতে আরেকটি
                 syllable শুরু হয়) তাহলে ঐ দুটি consonant এর পর E/I/A থাকা সত্বেও
@@ -3245,26 +3278,35 @@ const Pronunciation = () => {
 
         {/* page 53 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 53</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 53</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-medium text-base">শব্দের উচ্চারণ টেকনিক</p>
+            <p className="font-medium text-base py-1">শব্দের উচ্চারণ টেকনিক:</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                Rule-45 <br />
+                <span className="font-medium text-pink-600">Rule-44. </span><br />
                 শব্দের মধ্যে DG বা DJ একত্রে থাকলে তার উচ্চারণ হবে 'জ'। D এর
                 উচ্চারণ উহ্য থাকবে। <br />
                 Badge - (ব্যায) <br />
                 Adjective - (অ্যাযিকটিভ) <br />
-                Rule-46 <br />
+                <span className="font-medium text-pink-600">Rule-45. </span> <br />
                 শব্দের শেষে GUE থাকলে তার উচ্চারণ হবে "গ"। <br />
                 Fatigue - (ফেটিগ) <br />
                 Rogue - (রৌগ) <br />
-                Rule-47 <br />
+                <span className="font-medium text-pink-600">Rule-46. </span> <br />
                 Consonant + IA+ Consonant এভাবে Word গঠিত হলে, IA এর উচ্চারণ
                 (আইঅ্যা) মত হয়। উদাহরণ: <br />
                 Dialogue - (ডায়ালগ) - কথোপকথন। <br />
                 Diamond - (ডায়ামন্ড) - হীরক। <br />
-                Rule-48 <br />
+                <span className="font-medium text-pink-600">Rule-47. </span> <br />
                 শব্দের মধ্যে Ph একসাথে থাকলে Ph' এর উচ্চারণ (ফ) হবে।উদাহরণ:
                 <br />
                 Phone -ফৌন <br />
@@ -3290,51 +3332,117 @@ const Pronunciation = () => {
             <p className="font-medium py-1">শব্দের উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
               <p className=""> 
-               <span className="font-medium text-pink-600">Rule-8 </span> <br />
+               <span className="font-medium text-pink-600">Rule-48 </span> <br />
                 P+ S পরপর থাকলে এবং P এর আগে কোন vowel না থাকলে P অনুচ্চারিত
                 থাকে। উদাহরণ: <br />
                 Psycho- (সাইকো)- মন।
               </p>
               <p className="">        
-                Rule-15 <br />
+                <span className="font-medium text-pink-600">Rule-49. </span> <br />
                 Word এর শেষে IGN থাকলে তার উচ্চারণ "আইন” হয়। এ ক্ষেত্রে G
                 অনুচ্চারিত থাকে। <br />
                 Sign (সাইন) - দস্তখত <br />
               </p>
               <p className="pt-2">
-                Rule-21 <br />
+                <span className="font-medium text-pink-600">Rule-50. </span> <br />
                 EA+ R+ consonant এভাবে word গঠিত হলে, EA এর উচ্চারণ "আ" হবে।
                 উদাহরণ: <br />
                 Heart -(হার্ট) - হৃদয়। <br />
               </p>
+              <p className="">
+                <span className="font-medium text-pink-600">Rule-51. </span> <br />
+                শব্দস্থিত STL এর উচ্চারণ হয় "সল্” এখানে T অনুচ্চারিত থাকে। <br />
+                উদাহরণ: <br />
+                Nestle - (নেসল) - বাসা বাঁধা
+                Feed - (fid) -
+              </p>
+             
             </div>
           </div>
         </div>
 
-
-        {/* page 54 */}
+        {/* page 00 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 54</h2>
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 00</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-medium">শব্দের উচ্চারণ টেকনিক</p>
-            <div className="text-sm md:text-base">
+            <p className="font-bold py-1">শব্দের উচ্চারণ টেকনিক:</p>
+            <div className=" text-sm md:text-base">
+              
               <p className="">
-                Rule-49 <br />
+                <span className="font-medium text-pink-600">Rule-52. </span> <br />
+                Word-এর মধ্যে।I+ R+ Consonant এভাবে Word গঠিত হলে "।" এর উচ্চারণ
+                "আই" না হয়ে "আ" হয়। <br /> উদাহরণ: <br />
+                First (ফাস্ট) - প্রথম। <br />
+                Bird (বাড) - পাখি। <br />
+              </p>
+              <p className="py-2">
+                <span className="font-medium text-pink-600">Rule-53. </span> <br />
                 EA + R এভাবে ব্যবহৃত হলে এবং R যদি word এর শেষ বর্ণ হয় তাহলে EA
                 এর উচ্চারণ "ঈঅ্যা" হবে। <br />
                 Dear - (ডিয়্যার) - প্রিয়। <br />
                 Fear - (ফিয়্যার) - ভয়। <br />
               </p>
-              <p className="pt-8 font-bold">আরো গুরুত্বপূর্ণ টেকনিক</p>
               <p className="">
-                ইংরেজিতে Y এর উচ্চারণঃ <br />
+                <span className="font-medium text-pink-600">Rule-54. </span> <br />
+                "IO" এর উচ্চারণ সাধারণত "আইয়" হয়।  <br /> উদাহরণ: <br />
+                Violet - (ভাইয়লেইট) - বেগুনী রঙ।
+              </p>
+            </div>
+          </div>
+                    <p className="heading2 text-center pt-3">ASM English Academy</p>
+
+        </div>
+        
+
+
+        {/* page 54 */}
+        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 54</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold py-2">Y এর উচ্চারণঃ</p>
+            <div className="text-sm md:text-base">
+              <p className="">
                 👉 ইংরেজিতে Y এর উচ্চারণ কখনও long 'e' অর্থাৎ বাংলা "ঈ” উচ্চারণ
                 হয়। আবার কখনও short/e/ অর্থাৎ "ই" এবং কখনও "এই" এর মতো উচ্চারণ
                 হবে। <br />
-                Rule No. 1: <br /> শব্দের শেষে 'ly' থাকলে তার উচ্চারণ হবে এর মতো
-                হয়। যেমন: <br />
+                
+                
+              </p>
+              <p className="py-2">
+                <span className="font-medium text-pink-600">Rule-1. </span> 
+                <br /> শব্দের শেষে 'ly' থাকলে তার উচ্চারণ হবে এর মতো
+                হয়। <br />
+                যেমন: <br />
                 Friendly - ফ্রেন্ডলি - বন্ধুত্বপূর্ণ; বন্ধুসুলভ <br />
                 Hardly - হাডলি - খুব কমই <br />
+                
+              </p>
+              <p className="">
+               <span className="font-medium text-pink-600">Rule-2. </span> 
+                <br /> 
+                 শব্দের শেষে 'ty' থাকলে তার উচ্চারণ হবে long
+                'e' অর্থাৎ বাংলা "ঈ" এর মতো। <br />
+                 যেমন: <br />
+                Ability - অ্যবিলিটি - সক্ষমতা <br />
+                Activity - অ্যকটিভ্যটি - কর্মকান্ড <br />
               </p>
             </div>
           </div>
@@ -3342,21 +3450,30 @@ const Pronunciation = () => {
 
         {/* page 55 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 55</h2>
+           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 55</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-medium">শব্দের উচ্চারণ টেকনিক</p>
+            <p className="font-bold py-1">Y এর উচ্চারণঃ</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                Rule No. 2: <br /> শব্দের শেষে 'ty' থাকলে তার উচ্চারণ হবে long
-                'e' অর্থাৎ বাংলা "ঈ" এর মতো। যেমন: <br />
-                Ability - অ্যবিলিটি - সক্ষমতা <br />
-                Activity - অ্যকটিভ্যটি - কর্মকান্ড <br />
-                Rule No 3: <br />
+                
+                <span className="font-medium text-pink-600">Rule-3. </span> <br />
                 শব্দের শেষে /ey/ থাকলে এবং তা যদি এক syllable-এ উচ্চারিত হয়, তখন
                 তার উচ্চারণ হবে long /e/ অর্থাৎ বাংলা "ঈ" এর মতো।যেমন: <br />
                 Honey - হানি - মধু <br />
                 Key - কী - চাবি <br />
-                Rule No 4: <br />
+                
+              </p>
+              <p className="pt-2">
+                <span className="font-medium text-pink-600">Rule-4. </span> <br />
                 শব্দের শেষে /ay/ থাকলে এবং তা যদি এক syllable-এ উচ্চারিত হয়, তখন
                 তার উচ্চারণ হবে বাংলা "এই" এর মতো। যেমন: <br />
                 Bay - বেই - উপসাগর <br />
@@ -3365,41 +3482,63 @@ const Pronunciation = () => {
               </p>
             </div>
           </div>
+                    <p className="heading2 text-center pt-10">ASM English Academy</p>
+
         </div>
 
         {/* page 56 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 56</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 56</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-medium">X এর উচ্চারণঃ</p>
+            <p className="font-bold py-1">X এর উচ্চারণঃ</p>
             <div className=" text-sm md:text-base">
               <p className="font-semibold"> </p>
               <p className="">
                 👉 ইংরেজিতে X এর উচ্চারণ কখনও 'ks'; কখনও বা /gz/ এর মতো হয়; আবার
                 কখনও শুধু /z/ এর মতো হয়। <br />
-                Rule No. 1: <br /> শব্দের শেষে বা মাঝে 'X' থাকলে তা 'ks' অর্থাৎ
+                <span className="font-medium text-pink-600">Rule-1. </span> <br /> 
+                শব্দের শেষে বা মাঝে 'X' থাকলে তা 'ks' অর্থাৎ
                 বাংলায় 'ক্স' এর মতো হয়। যেমন: <br />
                 Fox - ফক্স - শেয়াল <br />
                 Extra - এক্সট্রা - অতিরিক্ত <br />
-                Rule No. 3: <br />
+                <span className="font-medium text-pink-600">Rule-2. </span> <br />
                 শব্দের শুরুতে 'vowel+x+vowel' থাকলে তা জোর দিয়ে উচ্চারণ করতে হয়,
                 তখন তা 'gz' অর্থাৎ বাংলায় 'ইগ্‌জ' এর মতো হয়। এক্ষেত্রে 'x'
                 stressed syllable এর আগে বসে। যেমন: <br />
                 Exam - ইগজ্যাম - পরীক্ষা <br />
                 Exactly - ইগজাক্টলি - হুবুহু; যথাযথভাবে <br />
-                Example - ইগজাম্পল
+                Example - ইগজাম্পল -
               </p>
             </div>
           </div>
+                    <p className="heading2 text-center pt-5">ASM English Academy</p>
+
         </div>
 
         {/* page 57 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 57</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 57</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-medium">L এর উচ্চারণঃ</p>
+            <p className="font-bold py-1">L এর উচ্চারণঃ</p>
             <div className=" text-sm md:text-base">
-              <p className="font-semibold"></p>
               <p className="">
                 👉 ইংরেজিতে L এর উচ্চারণ কখনও স্পষ্ট অর্থাৎ 'Clear L' sound হয়;
                 আবার কখনও অস্পষ্ট হয় অর্থাৎ 'Dark L' sound । <br />
@@ -3407,7 +3546,7 @@ const Pronunciation = () => {
                 তাকে 'Clear L' sound বলে; <br />
                 ❇️ আর যে L - এর উচ্চারণ জিহ্বার পেছনের অংশ দিয়ে উচ্চারণ করা হয়
                 তাকে 'Dark L' sound বলে। <br />
-                Rule No. 1: <br />
+                <span className="font-medium text-pink-600">Rule-1. </span> <br />
                 'L+vowel' থাকলে তা স্পষ্ট অর্থাৎ 'Clear L' sound হয়। অর্থাৎ
                 এখানে L-এর উচ্চারণ করতে হবে জিহ্বার সামনের অংশ দিয়ে। <br />
                 যেমনঃ শব্দের শুরুতে 'L' থাকলে উচ্চারণ হবে স্পষ্ট অর্থাৎ 'Clear
@@ -3424,12 +3563,21 @@ const Pronunciation = () => {
 
         {/* page 58 */}
         <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 58</h2>
+            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 58</h2> 
+              <button
+                  onClick={goToContents}
+                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                >
+                Back to index
+              </button>
+          </div>
+          <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-medium">উচ্চারণ টেকনিক</p>
+            <p className="font-bold py-1">L Sound:</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                Rule No. 2: <br />
+                <span className="font-medium text-pink-600">Rule-2. </span> <br />
                 L + consonant' অথবা 'L' যদি শব্দের শেষে বসে, কিংবা শব্দের শেষে
                 যদি 'll' বা 'le' হয়, তাহলেও সেখানে L-এর উচ্চারণ করতে হবে জিহ্বার
                 পেছনের অংশ দিয়ে, তখন তাকে বলা হবে অস্পষ্ট বা 'Dark L' sound ।
@@ -3440,11 +3588,7 @@ const Pronunciation = () => {
                 Fool - ফু('ল) - বোকা <br />
                 Little - লিট ('ল) - অল্প; ছোট্ট <br />
               </p>
-              <p className="">
-                Rule-22 <br />
-                "IO" এর উচ্চারণ সাধারণত "আইয়" হয়। উদাহরণ: <br />
-                Violet - (ভাইয়লেইট) - বেগুনী রঙ।
-              </p>
+              
               <p className="text-center pt-16 heading2">ASM English Academy</p>
             </div>
           </div>
