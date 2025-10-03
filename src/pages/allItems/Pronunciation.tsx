@@ -112,7 +112,7 @@ const Pronunciation = () => {
           //   height: "100%",
           // }}
         >
-          <div className="absolute top-1/4 md:top-[30%] left-[12%] md:left-[42%] px-5">
+          <div className="absolute top-1/4 md:top-[50%] left-[12%] md:left-[42%] px-5">
             <div className="">
               <h1 className="text-9xl text-center mb-5">📖</h1>
               <h2 className="text-green-500 text-3xl text-center">
