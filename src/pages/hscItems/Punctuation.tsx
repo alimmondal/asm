@@ -1,6 +1,6 @@
 function Punctuation() {
   return (
-    <div className="h-full md:w-[65%] mx-auto px-3">
+    <div className="h-full md:w-[65%] mx- px-3">
       <h1 className="py-20 text-2xl md:text-4xl text-center text-green-400">
         Punctuation
         <br />
@@ -8,6 +8,7 @@ function Punctuation() {
         <br />
         Capitalization
       </h1>
+
       {/* punctuate */}
       <div className="dark:text-gray-300">
         <h3> Punctuation কাকে বলেঃ </h3>
@@ -17,6 +18,418 @@ function Punctuation() {
           বিন্দু । Punctuation হল বক্তব্যের tone বা variations বা বিভিন্নতা
           প্রকাশক বিরতি চিহ্ন | এর উদ্দেশ্য হল বক্তব্যকে সুস্পষ্ট করা ।
         </p>
+
+        <div className="hidden">
+          <div className="bg-white text-black font-sans px-6 py-8">
+            {/* Title */}
+            <h1 className="text-3xl font-bold text-center underline mb-6">
+              Punctuation
+            </h1>
+
+            {/* Bengali intro */}
+            <p className="text-[15px] mb-4 leading-relaxed">
+              এই topic টি পরীক্ষায় আসে Question No. 12 তে। Punctuation & use of
+              capitals ব্যবহারে করতে হবে সাধারণত ১০ টা, পাস=৫। এই topic এ ৫ out
+              of ৫ পাবার জন্য নিম্নলিখিত ৩-টি{" "}
+              <span className="font-semibold">Technique</span> ভালোভাবে করতে
+              হবে। এই বিশেষ বছরগুলির Board Question practice এর কোন প্রয়োজন
+              নেই।
+            </p>
+
+            {/* Table Section */}
+            <div className="border border-black w-full mb-6">
+              <div className="bg-white text-[15px] border-b border-black p-2 font-semibold">
+                ❖ Punctuation marks সাধারণত ১২ ধরনের। যেমনঃ
+              </div>
+              <table className="w-full border-collapse text-[15px]">
+                <tbody>
+                  <tr className="border border-black">
+                    <td className="border border-black px-2 py-1 text-center w-1/12">
+                      1
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Fullstop (.)
+                    </td>
+                    <td className="border border-black px-2 py-1 text-center w-1/12">
+                      7
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Apostrophe (’)
+                    </td>
+                  </tr>
+                  <tr className="border border-black">
+                    <td className="border border-black px-2 py-1 text-center">
+                      2
+                    </td>
+                    <td className="border border-black px-2 py-1">Comma (,)</td>
+                    <td className="border border-black px-2 py-1 text-center">
+                      8
+                    </td>
+                    <td className="border border-black px-2 py-1">Dash (–)</td>
+                  </tr>
+                  <tr className="border border-black">
+                    <td className="border border-black px-2 py-1 text-center">
+                      3
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Semicolon (;)
+                    </td>
+                    <td className="border border-black px-2 py-1 text-center">
+                      9
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Hyphen (-)
+                    </td>
+                  </tr>
+                  <tr className="border border-black">
+                    <td className="border border-black px-2 py-1 text-center">
+                      4
+                    </td>
+                    <td className="border border-black px-2 py-1">Colon (:)</td>
+                    <td className="border border-black px-2 py-1 text-center">
+                      10
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Parenthesis/Bracket ()
+                    </td>
+                  </tr>
+                  <tr className="border border-black">
+                    <td className="border border-black px-2 py-1 text-center">
+                      5
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Question Mark (?)
+                    </td>
+                    <td className="border border-black px-2 py-1 text-center">
+                      11
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Asterisk (*)
+                    </td>
+                  </tr>
+                  <tr className="border border-black">
+                    <td className="border border-black px-2 py-1 text-center">
+                      6
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Exclamation Mark (!)
+                    </td>
+                    <td className="border border-black px-2 py-1 text-center">
+                      12
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Question mark/Inverted comma (“ ”)
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            {/* Technique Section */}
+            <div className="text-center font-semibold mb-2">
+              মাত্র তিনটি Technique এর মাধ্যমে Punctuation Complete
+            </div>
+
+            <div className="border border-black p-3 mb-6">
+              <h2 className="font-bold text-center underline mb-3">
+                Technique - 1
+              </h2>
+
+              {/* Flow chart */}
+              <div className="flex flex-wrap justify-center text-[15px] mb-4 leading-tight">
+                <div className="flex flex-col items-center mx-2">
+                  <span>ok/oh</span>
+                  <span className="text-xs">↑</span>
+                  <span>Sir</span>
+                  <span className="text-xs">↖</span>
+                  <span className="text-xs">↖</span>
+                  <span>So</span>
+                </div>
+
+                <div className="flex flex-col items-center mx-2">
+                  <span>Very well</span>
+                  <span className="text-xs">↓</span>
+                  <span>MR</span>
+                  <span className="text-xs">↓</span>
+                  <span>VG</span>
+                  <span>এর</span>
+                </div>
+
+                <div className="flex flex-col items-center mx-2">
+                  <span>Hello/hi</span>
+                  <span className="text-xs">↓</span>
+                  <span>HW</span>
+                  <span className="text-xs">↓</span>
+                  <span>Well</span>
+                </div>
+
+                <div className="flex flex-col items-center mx-2">
+                  <span>Fine</span>
+                  <span className="text-xs">↓</span>
+                  <span>TY</span>
+                  <span className="text-xs">↓</span>
+                  <span>Thank you/Then</span>
+                </div>
+
+                <div className="flex flex-col items-center mx-2">
+                  <span>FINE</span>
+                  <span className="text-xs">↓</span>
+                  <span>Yes</span>
+                  <span className="text-xs">↓</span>
+                  <span>I see</span>
+                  <span className="text-xs">↓</span>
+                  <span>No</span>
+                </div>
+
+                <div className="flex flex-col items-center mx-2">
+                  <span>Excuse me</span>
+                </div>
+              </div>
+
+              {/* Notes */}
+              <ul className="text-[15px] list-disc pl-6 space-y-1 text-left">
+                <li>উচ্চ শব্দ + Comma + Small Letter = Excuse me, sir.</li>
+                <li>
+                  উচ্চ শব্দ + Fullstop + Capital Letter = Very well. There’s the
+                  axe.
+                </li>
+                <li>Really + (!) হয়। = Really! You are good.</li>
+                <li>
+                  (I) সর্বদা Capital Letter হয়। = Then, I will start reading
+                  newspaper.
+                </li>
+                <li>
+                  সবসময় নাম বড় হাতের Letter দিয়ে শুরু হয়। = Hi, Zakir.
+                </li>
+                <li>
+                  May I coming / How is your father + comma হয়। = May I come in,
+                  sir?
+                </li>
+                <li>= How is your father, Rana?</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="hidden py-10">
+          <div className="bg-white text-black font-sans px-6 py-8">
+            {/* Title */}
+            <h1 className="text-3xl font-bold text-center mb-6">
+              <span className="inline-block px-6 py-2 border-2 border-red-500 rounded-lg">
+                Punctuation
+              </span>
+            </h1>
+
+            {/* Bengali intro */}
+            {/* <p className="text-[15px] mb-4 leading-relaxed">
+              এই topic টি পরীক্ষায় আসে Question No. 12 তে। Punctuation & use of
+              capitals ব্যবহারে করতে হবে সাধারণত ১০ টা, পাস=৫। এই topic এ ৫ out
+              of ৫ পাবার জন্য নিম্নলিখিত{" "}
+              <span className="font-semibold">৩-টি Technique</span> ভালোভাবে
+              practice করতে হবে। এবং বিশেষ বছরের Board Question practice এর কোন
+              প্রয়োজন নেই।
+            </p> */}
+
+            {/* Table Section */}
+            {/* <div className="border border-black w-full mb-6">
+              <div className="bg-white text-[15px] border-b border-black p-2 font-semibold">
+                ❖ Punctuation marks সাধারণত ১২ ধরনের। যেমনঃ
+              </div>
+
+              <table className="w-full border-collapse text-[15px]">
+                <tbody>
+                  <tr className="border border-black">
+                    <td className="border border-black px-2 py-1 text-center w-1/12">
+                      1
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Fullstop (.)
+                    </td>
+                    <td className="border border-black px-2 py-1 text-center w-1/12">
+                      7
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Apostrophe (’)
+                    </td>
+                  </tr>
+                  <tr className="border border-black">
+                    <td className="border border-black px-2 py-1 text-center">
+                      2
+                    </td>
+                    <td className="border border-black px-2 py-1">Comma (,)</td>
+                    <td className="border border-black px-2 py-1 text-center">
+                      8
+                    </td>
+                    <td className="border border-black px-2 py-1">Dash (–)</td>
+                  </tr>
+                  <tr className="border border-black">
+                    <td className="border border-black px-2 py-1 text-center">
+                      3
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Semicolon (;)
+                    </td>
+                    <td className="border border-black px-2 py-1 text-center">
+                      9
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Hyphen (-)
+                    </td>
+                  </tr>
+                  <tr className="border border-black">
+                    <td className="border border-black px-2 py-1 text-center">
+                      4
+                    </td>
+                    <td className="border border-black px-2 py-1">Colon (:)</td>
+                    <td className="border border-black px-2 py-1 text-center">
+                      10
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Parenthesis/Bracket ()
+                    </td>
+                  </tr>
+                  <tr className="border border-black">
+                    <td className="border border-black px-2 py-1 text-center">
+                      5
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Question Mark (?)
+                    </td>
+                    <td className="border border-black px-2 py-1 text-center">
+                      11
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Asterisk (*)
+                    </td>
+                  </tr>
+                  <tr className="border border-black">
+                    <td className="border border-black px-2 py-1 text-center">
+                      6
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Exclamation Mark (!)
+                    </td>
+                    <td className="border border-black px-2 py-1 text-center">
+                      12
+                    </td>
+                    <td className="border border-black px-2 py-1">
+                      Question mark/Inverted comma (“ ”)
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div> */}
+
+            {/* Technique Section */}
+            {/* <div className="text-center font-semibold mb-2">
+              মাত্র তিনটি <span className="italic">Technique</span> এর মাধ্যমে
+              Punctuation Complete
+            </div> */}
+
+            <div className="border border-black p-3 mb-6">
+              <div className="w-full flex flex-col gap-10 items-center justify-center">
+                {/* <h2 className="font-bold text-center underline mb-3">
+                  Technique - 1
+                </h2> */}
+                <img src="/pucnTec.png" className="w-full h-full" alt="" />
+              </div>
+              {/* Flow chart (approximation using text & arrows) */}
+              {/* <div className="flex flex-wrap justify-center items-start gap-6 text-[15px] mb-4">
+                <div className="flex flex-col items-center">
+                  <span>ok/oh</span>
+                  <span className="text-xs mt-1">↘</span>
+                  <span className="mt-1">Sir</span>
+                  <span className="text-xs mt-1">↓</span>
+                  <span className="font-semibold mt-1">So</span>
+                </div> */}
+
+              {/* MR block (connected from So) */}
+              {/* <div className="flex flex-col items-center">
+                  <span className="font-semibold text-lg">MR</span>
+                  <div className="mt-2 text-sm">
+                    <div className="flex items-center">
+                      <span className="mr-2 text-xs">↙</span>
+                      <span>Madam</span>
+                    </div>
+                    <div className="flex items-center mt-1">
+                      <span className="mr-2 text-xs">↘</span>
+                      <span>Really/Remember</span>
+                    </div>
+                  </div>
+                </div> */}
+
+              {/* VG column */}
+              {/* <div className="flex flex-col items-center">
+                  <span className="mb-1">Very well</span>
+                  <span className="text-xs mb-1">↘</span>
+                  <span className="font-semibold">VG</span>
+                  <span className="text-xs mt-1">↓</span>
+                  <span className="mt-1">Good morning</span>
+                  <div className="mt-1 text-xs">এর</div>
+                </div> */}
+
+              {/* HW column */}
+              {/* <div className="flex flex-col items-center">
+                  <span className="mb-1">Hello/hi</span>
+                  <span className="text-xs mb-1">↑</span>
+                  <span className="font-semibold">HW</span>
+                  <span className="text-xs mt-1">↓</span>
+                  <span className="mt-1">Well</span>
+                </div> */}
+
+              {/* TY column */}
+              {/* <div className="flex flex-col items-center">
+                  <span className="mb-1">Thank you/Then</span>
+                  <span className="text-xs mb-1">↖</span>
+                  <span className="font-semibold">TY</span>
+                  <span className="text-xs mt-1">↙</span>
+                  <span className="mt-1">Yes</span>
+                </div> */}
+
+              {/* FINE column */}
+              {/* <div className="flex flex-col items-center">
+                  <span className="mb-1">Fine</span>
+                  <span className="text-xs mb-1">↑</span>
+                  <span className="font-semibold">FINE</span>
+
+                  <div className="mt-2 text-sm">
+                    <div className="flex items-center">
+                      <span className="mr-2 text-xs">↗</span>
+                      <span>Excuse me</span>
+                    </div>
+                    <div className="flex items-center mt-1">
+                      <span className="mr-2 text-xs">↘</span>
+                      <span>I see</span>
+                    </div>
+                    <div className="flex items-center mt-1">
+                      <span className="mr-2 text-xs">↘</span>
+                      <span>No</span>
+                    </div>
+                  </div>
+                </div> */}
+              {/* </div> */}
+
+              {/* Notes */}
+              <ul className="text-[15px] list-disc pl-6 space-y-1 text-left">
+                <li>উক্ত শব্দ + Comma + Small Letter = Excuse me, sir.</li>
+                <li>
+                  উক্ত শব্দ + Fullstop + Capital Letter = Very well. There’s the
+                  axe.
+                </li>
+                <li>Really + (!) হয়। = Really! You are good.</li>
+                <li>
+                  (I) সর্বদা Capital Letter হয়। = Then, I will start reading
+                  newspaper.
+                </li>
+                <li>সব নাম বড় হাতের Letter দিয়ে শুরু হয়। = Hi, Zakir.</li>
+                <li>
+                  May I coming / How is your father + comma হয়। = May I come in,
+                  sir?
+                </li>
+                <li>= How is your father, Rana?</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
         {/* 1. Assertive, imperative and optative sentence */}
         <h2 className="pt-5">Rules of Punctuation</h2>

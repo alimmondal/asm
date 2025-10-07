@@ -2,6 +2,7 @@ import { useState } from "react";
 import GoogleLogin from "../components/Login-Registration/GoogleLogin";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
+import { updateProfile } from "firebase/auth"; // ✅ Import this
 
 const Registration = () => {
   const [passMatch, setPassMatch] = useState(true);
@@ -11,106 +12,116 @@ const Registration = () => {
 
   const from = location?.state?.from?.pathname || "/";
 
-  const handleSUbmit = (e: any) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const form = e.target;
-    const name = form.name.value;
-    const email = form.email.value;
-    const password = form.password.value;
-    const confirm_password = form.confirm_password.value;
-    if (password !== confirm_password) {
+
+    const form = e.currentTarget;
+    const name = (form.elements.namedItem("name") as HTMLInputElement).value;
+    const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+    const password = (form.elements.namedItem("password") as HTMLInputElement)
+      .value;
+    const confirmPassword = (
+      form.elements.namedItem("confirm_password") as HTMLInputElement
+    ).value;
+
+    if (password !== confirmPassword) {
       setPassMatch(false);
+      return;
     }
-    // console.log(email, password, confirm_password);
-    if (password === confirm_password) {
-      auth?.createUser(email, password).then((data) => {
-        if (data?.user?.email) {
-          const userInfo = {
-            email: data.user.email,
-            name: name,
-          };
-          fetch("http://localhost:5000/user", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(userInfo),
-          }).then((res) => res.json());
-          // .then((data) => console.log(data));
-        }
-      });
-      if (auth?.user) {
-        navigate(from);
+    setPassMatch(true);
+
+    try {
+      const data = await auth?.createUser(email, password);
+
+      if (data?.user) {
+        // ✅ Proper TypeScript-safe way to update display name in Firebase
+        await updateProfile(data.user, { displayName: name });
+
+        // ✅ Redirect after success
+        navigate(from, { replace: true });
       }
+    } catch (error) {
+      console.error("Registration error:", error);
     }
   };
 
   return (
-    <form onSubmit={handleSUbmit} className="hero min-h-screen bg-base-200">
+    <form onSubmit={handleSubmit} className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col lg:flex-row-reverse">
+        {/* Left Side Info */}
         <div className="text-center lg:text-left">
           <h1 className="text-5xl font-bold">Register now!</h1>
           <p className="py-6">
-            Before Register/ signup, you should contact with me on mobile which
-            is given on footer section otherwise your account may be disabled by
-            me. So, feel freedom to contact me.
+            Before registering, please contact me via the number in the footer —
+            otherwise, your account may be disabled. Feel free to reach out.
           </p>
         </div>
+
+        {/* Form Card */}
         <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <div className="card-body">
+            {/* Name */}
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Name</span>
               </label>
               <input
-                type="name"
+                type="text"
                 placeholder="Name"
                 className="input input-bordered"
                 name="name"
                 required
               />
             </div>
+
+            {/* Email */}
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Email</span>
               </label>
               <input
                 type="email"
-                placeholder="email"
+                placeholder="Email"
                 className="input input-bordered"
                 name="email"
                 required
               />
             </div>
+
+            {/* Password */}
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Password</span>
               </label>
               <input
                 type="password"
-                placeholder="password"
+                placeholder="Password"
                 className="input input-bordered"
                 name="password"
                 required
               />
             </div>
+
+            {/* Confirm Password */}
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Confirm Password</span>
               </label>
               <input
                 type="password"
-                placeholder="confirm password"
+                placeholder="Confirm password"
                 className="input input-bordered"
                 name="confirm_password"
                 required
               />
             </div>
+
+            {/* Password mismatch message */}
             {!passMatch && (
-              <div className="my-2">
-                <p className="text-red-500">Passwords do not match!</p>
-              </div>
+              <p className="text-red-500 my-2">Passwords do not match!</p>
             )}
+
+            {/* Submit */}
             <div className="form-control mt-6">
               <input
                 className="btn bg-red-500 text-white"
@@ -118,10 +129,14 @@ const Registration = () => {
                 value="Register"
               />
             </div>
+
+            {/* Google Login */}
             <div className="mt-6">
               <GoogleLogin />
             </div>
-            <div className="mt-6">
+
+            {/* Redirect to login */}
+            <div className="mt-6 text-center">
               <p>
                 Already have an account?{" "}
                 <Link to="/login" className="text-red-500">

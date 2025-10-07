@@ -1,41 +1,51 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import GoogleLogin from "../components/Login-Registration/GoogleLogin";
 import useAuth from "../hooks/useAuth";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import LoadingSpinner from "../components/LoadingSpinner";
 
 const Login = () => {
   const auth = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
+  const [loginLoading, setLoginLoading] = useState(false);
 
   const from = location?.state?.from?.pathname || "/";
 
-  const handleSUbmit = async (e: any) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    const form = e.currentTarget;
+    const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+    const password = (form.elements.namedItem("password") as HTMLInputElement)
+      .value;
 
-    const form = e.target;
-    const email = form.email.value;
-    const password = form.password.value;
-
-    // console.log(email, password);
-
-    await auth?.signIn(email, password);
+    setLoginLoading(true);
+    try {
+      await auth?.signIn(email, password);
+    } finally {
+      // Don’t stop loading here; it will stop after navigation when auth.user updates
+    }
   };
 
   useEffect(() => {
     if (auth?.user) {
-
       navigate(from, { replace: true });
     }
-  }, [auth, from, navigate]);
+  }, [auth?.user, from, navigate]);
 
-  if (auth?.loading) {
-    return <div className="h-screen flex justify-center items-center"><LoadingSpinner /></div>;
+  // show spinner when:
+  // - auth is globally loading (initial auth check)
+  // - OR local loginLoading (after login click)
+  if (auth?.loading || loginLoading) {
+    return (
+      <div className="h-screen flex justify-center items-center">
+        <LoadingSpinner />
+      </div>
+    );
   }
 
   return (
-    <form onSubmit={handleSUbmit} className="hero min-h-screen bg-base-200">
+    <form onSubmit={handleSubmit} className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left">
           <h1 className="text-5xl font-bold">Login now!</h1>
@@ -79,9 +89,11 @@ const Login = () => {
                 value="Login"
               />
             </div>
+
             <div className="mt-6">
               <GoogleLogin />
             </div>
+
             <div className="mt-6">
               <p>
                 New here?{" "}

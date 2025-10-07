@@ -82,7 +82,7 @@ function Verbs() {
             //   height: "100%",
             // }}
           >
-            <div className="absolute top-[25%] md:top-[45%] left-[15%] md:left-1/3 px-5">
+            <div className="absolute top-1/4 left-[18%] sm:left-[27%] sm:top-[30%]  md:top-[12%] md:left-[20%] lg:top-[10%] lg:left-[25%] xl:left-[30%] 2xl:left-[35%] 2xl:top-[25%] px-5">
               <h1 className="text-center text-9xl">📖</h1>
               <h1 className="text-sky-400 text-xl md:text-3xl text-center py-3">
                 Right Form of Verbs
@@ -96,7 +96,7 @@ function Verbs() {
           </div>
 
           {/* page1 */}
-          <div className="p-3 text-black md:p-16 bg-[#FDFAF7] book-shadow">
+          <div className="p-3 text-black lg:p-5 bg-[#FDFAF7] book-shadow">
             <h2 className="text-xl font-bold mb-2">Page 1</h2>
             {/* 1 */}
             <div className="text-sm">
@@ -133,7 +133,7 @@ function Verbs() {
           </div>
 
           {/* page 2 */}
-          <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
             <h2 className="text-xl font-bold mb-2">Page 2</h2>
             {/* 3 */}
             <div className="">
@@ -211,7 +211,7 @@ function Verbs() {
           </div>
 
           {/* page 4 */}
-          <div className="p-3 text-black md:p-16 bg-[#EFE5D6]  book-shadow">
+          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6]  book-shadow">
             <h2 className="text-xl font-bold mb-2">Page 4</h2>
             <p>
               Rule 6 er baki- <br />
@@ -239,7 +239,7 @@ function Verbs() {
           </div>
 
           {/* page 5 */}
-          <div className="p-3 text-black md:p-16 bg-[#EFE5D6] shadow-inner">
+          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] shadow-inner">
             <h2 className="text-xl font-bold mb-2">Page 5</h2>
             {/* 7 */}
             <div className="pt-5">
@@ -271,7 +271,7 @@ function Verbs() {
           </div>
 
           {/* page 6 */}
-          <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
             <h2 className="text-xl font-bold mb-2">Page 6</h2>
             <p>
               <strong> (b). </strong> Be used to, with a view to, look forward
@@ -299,7 +299,7 @@ function Verbs() {
           </div>
 
           {/* page 7 */}
-          <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
             <h2 className="text-xl font-bold mb-2">Page 7</h2>
             {/* 9 */}
             <p>
@@ -328,7 +328,7 @@ function Verbs() {
           </div>
 
           {/* page 8 */}
-          <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
             <h2 className="text-xl font-bold mb-2">Page 8</h2>
             <p className="">
               সাধারণত এই Verb গুলো ছাড়া অন্য কোন Verb এর পরে ব্রাকেটের verb এর
@@ -369,7 +369,7 @@ function Verbs() {
           </div>
 
           {/* page 9 */}
-          <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
             <p className="text-xl font-bold mb-1">Page 9</p>
             <div className="pb-3">
               <p>
@@ -478,7 +478,7 @@ function Verbs() {
           </div>
 
           {/* page 12 */}
-          <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
             <h2 className="text-xl font-bold mb-2">Page 12</h2>
             {/* 14 */}
             <div className="pb-3">
@@ -604,7 +604,7 @@ function Verbs() {
           </div>
 
           {/* page 15 */}
-          <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
             <p className="text-xl font-bold mb-2">Page 15</p>
             {/* 22 */}
             <p>Subject-verb Agreement</p>
@@ -646,7 +646,7 @@ function Verbs() {
           </div>
 
           {/* page 16 */}
-          <div className="p-4 md:p-16 text-black bg-[#EFE5D6] book-shadow">
+          <div className="p-4 lg:p-5 text-black bg-[#EFE5D6] book-shadow">
             <h2 className="text-xl font-bold mb-2">Page 16</h2>
             {/* 25 */}
             <div className="pb-3">
@@ -665,7 +665,7 @@ function Verbs() {
           </div>
 
           {/* page 17 */}
-          <div className="p-6 md:p-16 text-black bg-[#EFE5D6] book-shadow">
+          <div className="p-6 lg:p-5 text-black bg-[#EFE5D6] book-shadow">
             <h2 className="text-xl font-bold mb-2">Page 17</h2>
             <h2>Exercise</h2>
             <p>1. The moon (shine) at night.</p>
@@ -687,7 +687,7 @@ function Verbs() {
           </div>
 
           {/* page 18 */}
-          <div className="p-6 md:p-16 text-black bg-[#EFE5D6] book-shadow">
+          <div className="p-6 lg:p-5 text-black bg-[#EFE5D6] book-shadow">
             <h2 className="text-xl font-bold mb-2">Page 18</h2>
             <p>15. What you (go) to drink now?</p>
             <p>16. Rina (return) home just now.</p>
@@ -853,7 +853,7 @@ function Verbs() {
               Go
             </button>
           </div>
-          
+
           {/* Numbered Page Buttons */}
           <div className="flex flex-wrap justify-center gap-2 mt-4">
             {Array.from({ length: totalPages }, (_, i) => (

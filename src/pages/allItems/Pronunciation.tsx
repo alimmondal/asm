@@ -68,7 +68,7 @@ const Pronunciation = () => {
   };
 
   return (
-    <div className="flex flex-col items-center py-10 px-5 md:px-10">
+    <div className="flex flex-col items-center py-4 md:py-10 px-5 md:px-10 gap-80">
       <FlipBook
         width={isPortrait ? 400 : 500} // smaller width for portrait
         height={isPortrait ? 600 : 300} // taller height for portrait
@@ -112,9 +112,11 @@ const Pronunciation = () => {
           //   height: "100%",
           // }}
         >
-          <div className="absolute top-1/4 md:top-[50%] left-[12%] md:left-[42%] px-5">
+          <div className="absolute top-1/4 left-[18%] sm:left-[27%] sm:top-[30%]  md:top-[12%] md:left-[20%] lg:top-[10%] lg:left-[25%] xl:left-[30%] 2xl:left-[35%] 2xl:top-[25%] px-5">
             <div className="">
-              <h1 className="text-9xl text-center mb-5">📖</h1>
+              <h1 className="text-9xl md:text-5xl lg:text-9xl text-center mb-3">
+                📖
+              </h1>
               <h2 className="text-green-500 text-3xl text-center">
                 Pronunciation
               </h2>
@@ -130,10 +132,10 @@ const Pronunciation = () => {
         </div>
 
         {/* page1 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 1</h2>
+        <div className="p-3 text-black md:p-5 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 1</h2>
           <div className="">
-            <p className="text-sm md:text-base">
+            <p className="text-xs md:text-sm lg:text-base">
               ভূমিকা <br />
               ইংরেজিতে যারা দক্ষ হতে চান, বিশেষ করে ন্যাটিভ স্পিকারদের মত যারা
               শুদ্ধ উচ্চারণে কথা বলতে চান বা বিদেশীদের কথা বুঝতে চান তাদের জন্য
@@ -159,10 +161,10 @@ const Pronunciation = () => {
         </div>
 
         {/* page2 */}
-        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-xl font-bold mb-2">Page 2</h2>
+        <div className="p-2 text-black md:p-5 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-xl font-bold mb-1">Page 2</h2>
           <div className="w-full flex flex-col items-center">
-            <div className="p-3">
+            <div className="">
               <h2 className="text-sm font-bold mb-1 text-center">
                 index (সূচিপত্র)
               </h2>
@@ -170,10 +172,10 @@ const Pronunciation = () => {
                 <table className="table-auto max-w-fit border border-gray-300 shadow-2xl rounded-lg">
                   <thead className="bg-gray-100">
                     <tr>
-                      <th className="border border-gray-300 px-2 py-2 text-left">
+                      <th className="border border-gray-300 px-2 py-1 text-left">
                         Contents
                       </th>
-                      <th className="border border-gray-300 px-2 py-2 text-left">
+                      <th className="border border-gray-300 px-2 py-1 text-left">
                         Pages
                       </th>
                     </tr>
@@ -193,13 +195,10 @@ const Pronunciation = () => {
                           } cursor-pointer hover:bg-blue-100`}
                           onClick={() => goToPage(targetPage)}
                         >
-                          <td
-                            
-                            className="border border-gray-300 text-blue-600 px-2 py-2 md:text-base"
-                          >
+                          <td className="border border-gray-300 text-blue-600 px-2 py-1 md:text-base">
                             {item.title}
                           </td>
-                          <td className="border border-gray-300 px-2 py-2 text-sm md:text-base text-blue-600 underline">
+                          <td className="border border-gray-300 px-2 py-1 text-sm md:text-base text-blue-600 underline">
                             {item.pages}
                           </td>
                         </tr>
@@ -216,7 +215,7 @@ const Pronunciation = () => {
         </div>
 
         {/* page3 */}
-        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black md:p-5 lg:p-10 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 3</h2>
           <div className="w-full flex flex-col items-center">
             <div className="">
@@ -249,10 +248,7 @@ const Pronunciation = () => {
                           } cursor-pointer hover:bg-blue-100`}
                           onClick={() => goToPage(targetPage)}
                         >
-                          <td
-                            
-                            className="border border-gray-300 text-blue-600 px-2 py-1 md:text-base"
-                          >
+                          <td className="border border-gray-300 text-blue-600 px-2 py-1 md:text-base">
                             {item.title}
                           </td>
                           <td className="border border-gray-300 px-2 py-1 text-sm md:text-base text-blue-600 underline">
@@ -272,7 +268,7 @@ const Pronunciation = () => {
         </div>
 
         {/* page 4 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-between md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 4</h2>
             <button
@@ -316,7 +312,7 @@ const Pronunciation = () => {
         </div>
 
         {/* page 5 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-between md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold">Page 5</h2>
             <button
@@ -349,8 +345,9 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
+
         {/* page 6 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-between md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold">Page 6</h2>
             <button
@@ -365,17 +362,17 @@ const Pronunciation = () => {
             <div className="text-sm md:text-base ">
               <p className="">
                 Consonant Digraphs <br />
-                "th-"থ [শব্দের শুরুতে।Thank; think; thumb <br />
-                "th-"দ [শব্দের শুরুতে]Though; thou; thee <br />
-                "-th"থ শব্দের শেষেBath; earth; math; <br />
-                "-th"দ [শব্দের শেষে]Bathe; breathe; with <br />
-                "sh-"শ [শব্দের শুরুতেShower; sheet; shout <br />
-                "-sh"শ [শব্দের শেষে]Dish; fish; push <br />
-                "-ss"স [শব্দের শেষে)Loss; Mass; press <br />
-                ⁹"wh-"ওয়া [শব্দের শুরুতে।What; where; why <br />
-                "wr-" র [শব্দের শুরুতে]Write; wrong; wreath <br />
-                "-ng"ইং [শব্দের শেষে।Ring; sing; ting <br />
-                "-nk"ইংক [শব্দের শেষে]Link; pink; sink <br />
+                "th-"- থ - [শব্দের শুরুতে] - Thank; think; thumb <br />
+                "th-"- দ - [শব্দের শুরুতে] - Though; thou; thee <br />
+                "-th"- থ - [শব্দের শেষে] - Bath; earth; math; <br />
+                "-th"- দ - [শব্দের শেষে] - Bathe; breathe; with <br />
+                "sh-"- শ - [শব্দের শুরুতে] - Shower; sheet; shout <br />
+                "-sh"- শ - [শব্দের শেষে] - Dish; fish; push <br />
+                "-ss"- স - [শব্দের শেষে] - Loss; Mass; press <br />
+                ⁹"wh-"- ওয়া - [শব্দের শুরুতে।] - What; where; why <br />
+                "wr-" - র - [শব্দের শুরুতে] - Write; wrong; wreath <br />
+                "-ng"- ইং - [শব্দের শেষে।] - Ring; sing; ting <br />
+                "-nk"- ইংক - [শব্দের শেষে] - Link; pink; sink <br />
               </p>
             </div>
             <p className="heading2 text-center pt-10">ASM English Academy</p>
@@ -383,7 +380,7 @@ const Pronunciation = () => {
         </div>
 
         {/* page 7 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 7</h2>
             <button
@@ -421,7 +418,7 @@ const Pronunciation = () => {
         </div>
 
         {/* page 8 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 8</h2>
             <button
@@ -452,7 +449,7 @@ const Pronunciation = () => {
         </div>
 
         {/* page 9  */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 9</h2>
             <button
@@ -489,7 +486,7 @@ const Pronunciation = () => {
         </div>
 
         {/* page 10 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 10</h2>
             <button
@@ -540,12 +537,12 @@ const Pronunciation = () => {
         </div>
 
         {/* page 11 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 11</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500 hover:text-blue-500"
             >
               Back to index
             </button>
@@ -576,12 +573,12 @@ const Pronunciation = () => {
         </div>
 
         {/* page 12 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 12</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -610,12 +607,12 @@ const Pronunciation = () => {
         </div>
 
         {/* page 13 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 13</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -646,12 +643,12 @@ const Pronunciation = () => {
         </div>
 
         {/* page 14 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 14</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -684,12 +681,12 @@ const Pronunciation = () => {
         </div>
 
         {/* page 15 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 15</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -718,12 +715,12 @@ const Pronunciation = () => {
         </div>
 
         {/* page 16 */}
-        <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 16</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -880,57 +877,6 @@ const Pronunciation = () => {
                         হট
                       </td>
                     </tr>
-                    <tr>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        /oʊ/
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        উ
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        go
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        /ɡoʊ/
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        গো
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        /ɔː/
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        ও
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        law
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        /lɔː/
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        ল’
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        /ʊ/
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        উ
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        book
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        /bʊk/
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        বুক
-                      </td>
-                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -944,7 +890,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 17</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -1098,6 +1044,104 @@ const Pronunciation = () => {
                         এয়ার
                       </td>
                     </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* page 17  */}
+        <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 17</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold py-1"> IPA (Vowel-3) </p>
+            <p className="text-xs md:text-base">
+              প্রতিটি সিম্বলগুলো আয়ত্ব করে ফেলুন। কারণ, এ সিম্বলগুলো রপ্ত করলেই
+              শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
+            </p>
+            <div className=" text-sm md:text-base">
+              <div className="flex justify-center">
+                <table className="table-auto border-collapse border border-gray-400 shadow-md">
+                  <thead className="bg-gray-100">
+                    <tr>
+                      <th className="border border-gray-400 px-2 lg:px-8 py-1 font-bold text-orange-300">
+                        IPA
+                      </th>
+                      <th className="border border-gray-400 px-2 lg:px-8 py-1 font-bold">
+                        B.P.
+                      </th>
+                      <th className="border border-gray-400 px-2 lg:px-8 py-1 font-bold text-orange-300">
+                        Word
+                      </th>
+                      <th className="border border-gray-400 px-2 lg:px-8 py-1 font-bold text-orange-300">
+                        IPA
+                      </th>
+                      <th className="border border-gray-400 px-2 lg:px-8 py-1 font-bold">
+                        B.P.W
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                        /oʊ/
+                      </td>
+                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                        উ
+                      </td>
+                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                        go
+                      </td>
+                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                        /ɡoʊ/
+                      </td>
+                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                        গো
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                        /ɔː/
+                      </td>
+                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                        ও
+                      </td>
+                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                        law
+                      </td>
+                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                        /lɔː/
+                      </td>
+                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                        ল’
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                        /ʊ/
+                      </td>
+                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                        উ
+                      </td>
+                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                        book
+                      </td>
+                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                        /bʊk/
+                      </td>
+                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                        বুক
+                      </td>
+                    </tr>
                     <tr>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
                         /ʊə/
@@ -1162,7 +1206,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 18</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -1351,40 +1395,6 @@ const Pronunciation = () => {
                           জব
                         </td>
                       </tr>
-                      <tr>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          /m/
-                        </td>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          ম (m)
-                        </td>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          man
-                        </td>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          /mæn/
-                        </td>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          ম্যান
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          /n/
-                        </td>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          ন (n)
-                        </td>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          net
-                        </td>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          /net/
-                        </td>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          নেট
-                        </td>
-                      </tr>
                     </tbody>
                   </table>
                 </div>
@@ -1399,7 +1409,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 19</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -1588,6 +1598,89 @@ const Pronunciation = () => {
                           খ্যাট
                         </td>
                       </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* page 19 */}
+        <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 19</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold"> IPA (Consonant-2) </p>
+            <div className="text-sm md:text-base">
+              <p className="text-xs md:text-base">
+                এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
+              </p>
+              <div className="flex justify-center pt-1 ">
+                <div className="flex md:flex-row gap-3 p-1">
+                  {/* Right Table */}
+                  <table className="table-auto border-collapse border border-gray-400 shadow-md">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-400 px-2 lg:px-8 py-1 font-bold text-orange-300">
+                          IPA
+                        </th>
+                        <th className="border border-gray-400 px-2 lg:px-8 py-1 font-bold">
+                          Bangla
+                        </th>
+                        <th className="border border-gray-400 px-2 lg:px-8 py-1 font-bold text-orange-300">
+                          Word
+                        </th>
+                        <th className="border border-gray-400 px-2 lg:px-8 py-1 font-bold text-orange-300">
+                          IPA
+                        </th>
+                        <th className="border border-gray-400 px-2 lg:px-8 py-1 font-bold">
+                          Bangla
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          /m/
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          ম (m)
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          man
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          /mæn/
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          ম্যান
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          /n/
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          ন (n)
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          net
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          /net/
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          নেট
+                        </td>
+                      </tr>
                       <tr>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
                           /g/
@@ -1636,7 +1729,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 20</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -1739,7 +1832,7 @@ const Pronunciation = () => {
                   </tbody>
                 </table>
               </div>
-              <p className="pt-8 heading2 text-center">ASM English Academy</p>
+              <p className="pt-3 heading2 text-center">ASM English Academy</p>
             </div>
           </div>
         </div>
@@ -1750,7 +1843,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 21</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -1816,7 +1909,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 22</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -1853,7 +1946,6 @@ const Pronunciation = () => {
                       ["Couldn’t", "/ˈkʊdnt/", "কুডন্"],
                       ["Mayn’t", "/ˈmeɪənt/", "মেইআন্ট"],
                       ["Mightn’t", "/maɪtnt/", "মাইঠন্"],
-                      
                     ].map(([shortForm, ipa, bangla], index) => (
                       <tr key={index} className="hover:bg-gray-50">
                         <td className="border border-gray-300 px-1 py-1">
@@ -1880,7 +1972,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 23</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -1941,7 +2033,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 24</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -1977,7 +2069,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 25</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2010,7 +2102,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 26</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2114,7 +2206,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 27</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2208,7 +2300,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 28</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2269,7 +2361,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 29</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2309,7 +2401,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 30</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2345,7 +2437,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 31</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2383,7 +2475,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 32</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2426,7 +2518,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 33</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2462,7 +2554,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 34</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2502,7 +2594,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 35</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2545,7 +2637,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 36</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2585,7 +2677,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 37</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2626,7 +2718,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 38</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2667,7 +2759,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 39</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2710,7 +2802,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 40</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2747,12 +2839,12 @@ const Pronunciation = () => {
         </div>
 
         {/* page 41 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 41</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2762,22 +2854,22 @@ const Pronunciation = () => {
             <p className="font-semibold py-1">শব্দের উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
               <p className="">
-             <span className="font-medium text-pink-600">Rule-1 </span>  <br />
+                <span className="font-medium text-pink-600">Rule-1 </span>{" "}
+                <br />
                 শব্দের শেষে "e" থাকলে "e" এর উচ্চারণ হয়না। তবে "ee" থাকলে
                 উচ্চারিত হবে। উদাহরণ: <br />
                 Name - (নেইম) - নাম। <br />
-                See - (সী) - দেখা। 
+                See - (সী) - দেখা।
               </p>
               <p className="py-1">
                 <span className="font-medium text-pink-600">Rule-2 </span>
-                 <br />
+                <br />
                 শব্দের শুরুতে KN থাকলে তার উচ্চারণ হবে "ন" এক্ষেত্রে K
                 অনুচ্চারিত থাকে। <br />
                 Know - নৌ - (জানা) <br />
                 Knack - ন্যাক - (কৌশল/দক্ষতা) <br />
                 👉কিন্তু এগুলোর আগে vowel থাকলে, K উচ্চারিত হয়। যেমন: <br />
                 Acknowledge - অ্যাক্সলিজ <br />
-                
               </p>
               <p className="">
                 <span className="font-medium text-pink-600">Rule-3 </span>
@@ -2794,35 +2886,36 @@ const Pronunciation = () => {
         </div>
 
         {/* page 42 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 42</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold py-1 text-green-600">শব্দের উচ্চারণ টেকনিক</p>
+            <p className="font-bold py-1 text-green-600">
+              শব্দের উচ্চারণ টেকনিক
+            </p>
             <div className=" text-sm md:text-base ">
               <p className="">
-                 <span className="font-medium text-pink-600">Rule-4 </span>
+                <span className="font-medium text-pink-600">Rule-4 </span>
                 <br />
                 word-এর শেষে 'tion' পাশাপাশি থাকলে 'শন'-এর মতো উচ্চারণ হয়। যেমন:
                 <br />
                 Nation- (নেইশন) - জাতি
-                
               </p>
               <p className="py-1">
-                 <span className="font-medium text-pink-600">Rule-5 </span> <br /> 
+                <span className="font-medium text-pink-600">Rule-5 </span>{" "}
+                <br />
                 M+B পর পর থাকলে এবং B এর পর কোন Vowel না থাকলে B উচ্চারিত হয় না।
                 উদাহরণ:
                 <br />
                 Bomb- (বম)/ USA -/bɑːm/ (বা:ম)- বোমা।
-                
               </p>
               <p className="">
                 <span className="font-medium text-pink-600">Rule-6 </span>
@@ -2831,29 +2924,27 @@ const Pronunciation = () => {
                 উদাহরণ:
                 <br />
                 Calm- (কাম)- শান্ত।
-                
               </p>
               <p className="py-1">
-                <span className="font-medium text-pink-600">Rule-7 </span> <br />
-                word-এর মাঝামাঝি 'tu' থাকলে সাধারণত 'চ'-এর মতো উচ্চারণ
-                হয়। যেমন:
+                <span className="font-medium text-pink-600">Rule-7 </span>{" "}
+                <br />
+                word-এর মাঝামাঝি 'tu' থাকলে সাধারণত 'চ'-এর মতো উচ্চারণ হয়। যেমন:
                 <br />
                 Nature - (নেইচার)- প্রকৃতি <br />
-                Future - (ফিউচার) - 
+                Future - (ফিউচার) -
                 <br />
               </p>
-              
             </div>
           </div>
         </div>
 
         {/* page 43 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 43</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2863,22 +2954,25 @@ const Pronunciation = () => {
             <p className="font-bold py-1">শব্দের উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                <span className="font-medium text-pink-600">Rule-8 </span> <br />
-                Word-এর মধ্যে Mpt এর উচ্চারণে p উহ্য। এর উচ্চারণ হবে "মট্”। <br />
-
+                <span className="font-medium text-pink-600">Rule-8 </span>{" "}
+                <br />
+                Word-এর মধ্যে Mpt এর উচ্চারণে p উহ্য। এর উচ্চারণ হবে "মট্”।{" "}
+                <br />
                 যেমন: <br />
                 Attempt - (অ্যাটেম্‌ট্) - চেষ্টা/ প্রয়াস। <br />
               </p>
               <p className="py-2">
-                <span className="font-medium text-pink-600">Rule-9 </span> <br /> 
-                Y সাধারণত One-syllable এর শব্দে "আই" হিসেবে
-                উচ্চারিত হয়। উদাহরণ: <br />
+                <span className="font-medium text-pink-600">Rule-9 </span>{" "}
+                <br />
+                Y সাধারণত One-syllable এর শব্দে "আই" হিসেবে উচ্চারিত হয়। উদাহরণ:{" "}
+                <br />
                 Fly -(ফ্লাই) - উড়া। <br />
                 ➡️ Two-syllable এর শব্দে Y "ই" হিসেবে উচ্চারিত হয়। <br />
                 City - (সিটি) - শহর। <br />
               </p>
               <p className="">
-                <span className="font-medium text-pink-600">Rule-10 </span>  <br />
+                <span className="font-medium text-pink-600">Rule-10 </span>{" "}
+                <br />
                 'Wh'-এর উচ্চারনে সাধারণত 'h' এর উচ্চারণ উহ্য থাকবে। যেমন: <br />
                 What (ওএ্যঅট) = কী <br />
                 কিন্তু , <br />
@@ -2888,12 +2982,12 @@ const Pronunciation = () => {
         </div>
 
         {/* page 44 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 44</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2907,36 +3001,38 @@ const Pronunciation = () => {
                 Whom - (হুম) - কাকে/কাদের <br />
               </p>
               <p className="py-1">
-                 <span className="font-medium text-pink-600">Rule-12 </span> <br />
+                <span className="font-medium text-pink-600">Rule-12 </span>{" "}
+                <br />
                 'w'-এরপর 'r' থাকলে সাধারণত 'w' উচ্চারিত হয় না। যেমন: <br />
-                Write (রাইট) - লেখা 
+                Write (রাইট) - লেখা
               </p>
               <p className="">
-                <span className="font-medium text-pink-600">Rule-13 </span> <br />
+                <span className="font-medium text-pink-600">Rule-13 </span>{" "}
+                <br />
                 শব্দের শেষে /consonant+y/ থাকলে এবং তা যদি এক syllable-এ
                 উচ্চারিত হয়, তখন তার উচ্চারণ হবে বাংলা 'আই' এর মতো। <br />
-                 যেমন: <br />
-                Fly - (ফ্লাই) - উড়ানো, মাছি  <br />
-                dry - (ড্রাই) - 
+                যেমন: <br />
+                Fly - (ফ্লাই) - উড়ানো, মাছি <br />
+                dry - (ড্রাই) -
               </p>
               <p className="py-2">
-                <span className="font-medium text-pink-600">Rule-14 </span> <br />
+                <span className="font-medium text-pink-600">Rule-14 </span>{" "}
+                <br />
                 শব্দের শেষে ous থাকলে সাধারনতঃ "আস" উচ্চারিত হয়। উদাহরণ:
                 <br />
                 Delicious (ডেলিশাস) - সুস্বাদু <br />
               </p>
-              
             </div>
           </div>
         </div>
 
         {/* page 45 */}
-        <div className="px-3 py-2 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="px-3 py-2 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 45 </h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -2946,62 +3042,58 @@ const Pronunciation = () => {
             <p className="font-semibold py-1">শব্দের উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base text-justify">
               <p className="pb-2">
-                <span className="font-medium text-pink-600">Rule-15 </span> <br />
+                <span className="font-medium text-pink-600">Rule-15 </span>{" "}
+                <br />
                 শব্দের শেষে Sure থাকলে এর উচ্চারণ সাধারণত 'জ' হয়। <br />
                 উদাহরণ: <br />
-                Pleasure - প্লেজা (র) 
-                
+                Pleasure - প্লেজা (র)
               </p>
               <p className="">
-                <span className="font-medium text-pink-600">কিন্তু</span>  <br />
+                <span className="font-medium text-pink-600">কিন্তু</span> <br />
                 ➡️ ২টি 's' (ssure) হলে এর উচ্চারণ 'শ' হবে। <br />
                 pressure - প্রেশা(র) <br />
-                Assure - আশুআ (র) 
+                Assure - আশুআ (র)
               </p>
               <p className="py-2">
-                    <span className="font-medium text-pink-600">Rule-16 </span>
-                      C এর পরে i, e, y এই তিন অক্ষর থাকলে তার উচ্চারণ হবে বাংলা 
-                      ছ/'স'-এর মতো হয়। <br />
-                      যেমন: <br />
-                      Cease - সিস - বিরতি; স্থগিত <br />
-                      
-               </p>
-               
-               <p className="">
+                <span className="font-medium text-pink-600">Rule-16 </span>
+                C এর পরে i, e, y এই তিন অক্ষর থাকলে তার উচ্চারণ হবে বাংলা
+                ছ/'স'-এর মতো হয়। <br />
+                যেমন: <br />
+                Cease - সিস - বিরতি; স্থগিত <br />
+              </p>
+
+              <p className="">
                 <span className="font-medium text-pink-600">But- </span> <br />
                 ➡️ C এর পরে i, e, y না থাকলে উচ্চারণ হবে 'ক'/'খ' এর মতো। <br />
                 যেমন: <br />
                 Cat - ক্যাট (UK খ্যাট) - বিড়াল <br />
-               </p>
-
-              
+              </p>
             </div>
           </div>
         </div>
 
         {/* page 46 */}
-        <div className="px-3 py-2 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="px-3 py-2 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
               <h2 className="text-xl font-bold ">Page 46</h2>
               <button
                 onClick={goToContents}
-                className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+                className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
               >
                 Back to index
               </button>
             </div>
             <hr className="border border-gray-400" />
-            
           </div>
           <hr className="border border-gray-400" />
           <div className="">
             <p className="font-bold py-1">শব্দের উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                <span className="font-medium text-pink-600">Rule-17. </span> <br />
-                G এর পরে i, e, y এই তিন অক্ষর থাকলে তার উচ্চারণ
-                হবে সফট্ অর্থাৎ বাংলা 'জ'-এর মতো। যেমন: Age - এইজ - বয়স; যুগ
+                <span className="font-medium text-pink-600">Rule-17. </span>{" "}
+                <br />G এর পরে i, e, y এই তিন অক্ষর থাকলে তার উচ্চারণ হবে সফট্
+                অর্থাৎ বাংলা 'জ'-এর মতো। যেমন: Age - এইজ - বয়স; যুগ
               </p>
               <p className="pt-1">
                 <span className="font-medium text-pink-600">but- </span> <br />
@@ -3010,31 +3102,31 @@ const Pronunciation = () => {
                 Again - অ্যগেন/অ্যগেইন - আবার; পুনরায়
               </p>
               <p className="py-2">
-                <span className="font-medium text-pink-600">Rule-18 </span> <br />
+                <span className="font-medium text-pink-600">Rule-18 </span>{" "}
+                <br />
                 শব্দের শেষে que এর উচ্চারণ "ক" হয়ে থাকে। উদাহরণ: <br />
                 Cheque - (চেক) - কিস্তি, হুন্ডি।
               </p>
               <p className="">
                 <span className="font-medium text-pink-600">Rule-19 </span>
-                 <br />
+                <br />
                 Consonant+ U+ Consonant এভাবে word গঠিত হলে U এর উচ্চারণ "আ" এর
                 মত হয়। উদাহরণ: <br />
                 Null - (নাল) - বাতিল <br />
                 ব্যতিক্রমঃ <br />
                 Put - (পুট)
               </p>
-              
             </div>
           </div>
         </div>
 
         {/* page 47 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 47</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -3044,12 +3136,12 @@ const Pronunciation = () => {
             <p className="font-medium py-1">শব্দের উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base text-justify">
               <p className="">
-              <span className="font-medium text-pink-600">Rule-23 </span> <br />
+                <span className="font-medium text-pink-600">Rule-23 </span>{" "}
+                <br />
                 যেসব শব্দের মধ্যে দু বা তার অধিক syllable থাকে সেখানে যদি শব্দের
                 শেষে 'al' থাকে তবে 'a' এর উচ্চারণ উহ্য থাকবে। যেমন: <br />
                 Animal - অ্যানিমল্ <br />
                 Practical - প্র্যাকটিকল্ <br />
-                
               </p>
               <p className="py-2">
                 👉এছাড়া, শব্দের শেষে 'ally' থাকলেও 'a' এর উচ্চারণ হবে না। <br />
@@ -3058,14 +3150,16 @@ const Pronunciation = () => {
               </p>
 
               <p className="">
-                 <span className="font-medium text-pink-600">Rule-24 </span><br />
+                <span className="font-medium text-pink-600">Rule-24 </span>
+                <br />
                 'IGH'-এর উচ্চারণ 'G' উচ্চারিত না হয়ে সে অংশটুকুর উচ্চারণ "আই"
                 হয়। যেমন: <br />
                 {/* Delight (ডিলাইট) - (আনন্দ) <br /> */}
                 Light - (লাইট) - (আলো) <br />
               </p>
               <p className="pt-2">
-                <span className="font-medium text-pink-600">Rule-25 </span> <br />
+                <span className="font-medium text-pink-600">Rule-25 </span>{" "}
+                <br />
                 শব্দস্থিত OA+ R এভাবে ব্যবহৃত হলে, OA এর উচ্চারণ হবে "অ্য"।
                 উদাহরণ: <br />
                 Road - (রোড) - রাস্তা। <br />
@@ -3075,24 +3169,24 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        
         {/* page 48 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 48</h2> 
-              <button
-                  onClick={goToContents}
-                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
-                >
-                Back to index
-              </button>
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 48</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
           </div>
           <hr className="border border-gray-400" />
           <div className="">
             <p className="font-bold py-1">শব্দের উচ্চারণ টেকনিক:</p>
             <div className=" text-sm md:text-base">
               <p className="">
-               <span className="font-medium text-pink-600">Rule-26. </span> <br />
+                <span className="font-medium text-pink-600">Rule-26. </span>{" "}
+                <br />
                 Consonant + EA + consonant (R ছাড়া) এভাবে ব্যবহৃত হলে EA এর
                 উচ্চারণ "ঈ" হবে। <br />
                 Feather - (ফেদার) - পালক। <br />
@@ -3100,18 +3194,20 @@ const Pronunciation = () => {
               </p>
 
               <p className="py-2">
-                 <span className="font-medium text-pink-600">Rule-27. </span> <br />
+                <span className="font-medium text-pink-600">Rule-27. </span>{" "}
+                <br />
                 Consonant এরপর ০। এর উচ্চারণ "অই" হয়। উদাহরণ: <br />
                 Join - (জইন) - যোগদান করা। <br />
               </p>
               <p className="">
-                <span className="font-medium text-pink-600">Rule-28. </span> <br />
+                <span className="font-medium text-pink-600">Rule-28. </span>{" "}
+                <br />
                 শব্দস্থিত OE এর উচ্চারণ হয় "ঈ"। <br />
                 Phoenix - (ফীনিক্স) - রুপ কথার পাখি বিশেষ। <br />
                 Amoeba - (এ্যামিবা) - ক্ষুদ্র এক কোষী প্রাণী। <br />
               </p>
               <p className="pt-2">
-                <span className="font-medium text-pink-600">Rule-29. </span> 
+                <span className="font-medium text-pink-600">Rule-29. </span>
                 <br />
                 ইংরেজি শব্দের শেষে TCH থাকলে এর উচ্চারণ হয় "চ"। উদাহরণ: <br />
                 Batch - (ব্যাচ) ক্ষুদ্রদল। <br />
@@ -3121,117 +3217,136 @@ const Pronunciation = () => {
         </div>
 
         {/* page 49 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 49</h2> 
-              <button
-                  onClick={goToContents}
-                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
-                >
-                Back to index
-              </button>
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 49</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
           </div>
           <hr className="border border-gray-400" />
           <div className="">
             <p className="font-bold py-1">শব্দের উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                <span className="font-medium text-pink-600">Rule-30. </span> <br />
-                i + Consonant + E এভাবে ব্যবহৃত হলে তার উচ্চারণ "আই" এর মত হয়। <br />
+                <span className="font-medium text-pink-600">Rule-30. </span>{" "}
+                <br />
+                i + Consonant + E এভাবে ব্যবহৃত হলে তার উচ্চারণ "আই" এর মত হয়।{" "}
+                <br />
                 উদাহরণ: <br />
                 Rice - (রাইস) - চাউল। <br />
                 Size - (সাইজ) - আয়তন। <br />
               </p>
 
               <p className="py-2">
-                 <span className="font-medium text-pink-600">Rule-31. </span> <br />
+                <span className="font-medium text-pink-600">Rule-31. </span>{" "}
+                <br />
                 শব্দস্থিত EE + R এভাবে ব্যবহৃত হলে R যদি word শেষ অক্ষর হয় তাহলে
                 EE এর উচ্চারণ "ইঅ্যা" হবে <br />
-                 উদাহরণ: <br />
+                উদাহরণ: <br />
                 Deer - (ডিয়্যার) - হরিণ। <br />
                 Peer - (পিয়‍্যার) - সমকক্ষ। <br />
               </p>
               <p className="">
-                <span className="font-medium text-pink-600">Rule-32. </span> <br />
-                EE+ consonant (R ছাড়া) এভাবে ব্যবহৃত হলে, EE এর উচ্চরণ "ঈ" হয়। <br />
+                <span className="font-medium text-pink-600">Rule-32. </span>{" "}
+                <br />
+                EE+ consonant (R ছাড়া) এভাবে ব্যবহৃত হলে, EE এর উচ্চরণ "ঈ" হয়।{" "}
+                <br />
                 উদাহরণ: <br />
                 Need - (নীড) - প্রয়োজন। <br />
                 Meek - (মীক) - বিনম্র <br />
               </p>
-              
             </div>
           </div>
         </div>
 
         {/* page 50 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 50</h2> 
-              <button
-                  onClick={goToContents}
-                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
-                >
-                Back to index
-              </button>
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 50</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
           </div>
           <hr className="border border-gray-400" />
           <div className="">
             <p className="font-bold py-1">শব্দের উচ্চারণ টেকনিক:</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                <span className="font-medium text-pink-600">Rule-33. </span> <br />
-                Vowel এর পর BT এর উচ্চারণ "ট" এক্ষেত্রে "B" অনুচ্চারিত থাকে। <br />
+                <span className="font-medium text-pink-600">Rule-33. </span>{" "}
+                <br />
+                Vowel এর পর BT এর উচ্চারণ "ট" এক্ষেত্রে "B" অনুচ্চারিত থাকে।{" "}
+                <br />
                 উদাহরণ: <br />
-                Doubtful -  (ডাউটফুল) - সন্দিহান। <br />
+                Doubtful - (ডাউটফুল) - সন্দিহান। <br />
               </p>
               <p className="py-2">
-                <span className="font-medium text-pink-600">Rule-34. </span> <br />
-                শব্দস্থিত OA+ Consonant এভাবে ব্যবহৃত হলে OA এর উচ্চারণ হয় "ও"। <br />
+                <span className="font-medium text-pink-600">Rule-34. </span>{" "}
+                <br />
+                শব্দস্থিত OA+ Consonant এভাবে ব্যবহৃত হলে OA এর উচ্চারণ হয় "ও"।{" "}
+                <br />
                 উদাহরণ: <br />
-                Road -  (রৌড) - রাস্তা। <br />
-                Loan  - (লৌন) -  ঋণ। <br />
+                Road - (রৌড) - রাস্তা। <br />
+                Loan - (লৌন) - ঋণ। <br />
               </p>
               <p className="">
-                <span className="font-medium text-pink-600">Rule-35. </span> <br />
-                শব্দের শেষে MN থাকলে সাধারণতঃ N অনুচ্চারিত থাকে। <br /> উদাহরণ: <br />
-                Damn -  (ড্যাম) -  অভিশাপ দেয়া। <br />
+                <span className="font-medium text-pink-600">Rule-35. </span>{" "}
+                <br />
+                শব্দের শেষে MN থাকলে সাধারণতঃ N অনুচ্চারিত থাকে। <br /> উদাহরণ:{" "}
+                <br />
+                Damn - (ড্যাম) - অভিশাপ দেয়া। <br />
                 Condemn - (/Cɔːndem/) -
               </p>
-              
             </div>
           </div>
         </div>
 
         {/* page 51 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 51</h2> 
-              <button
-                  onClick={goToContents}
-                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
-                >
-                Back to index
-              </button>
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 51</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
           </div>
           <hr className="border border-gray-400" />
           <div className="">
             <p className="font-medium py-1">শব্দের উচ্চারণ টেকনিক:</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                <span className="font-medium text-pink-600">Rule-36. </span> <br />
+                <span className="font-medium text-pink-600">Rule-36. </span>{" "}
+                <br />
                 Word এর মধ্যে GH পাশাপাশি থাকলে তা উচ্চারিত হয় না। <br />
                 Right - (রাইট) - সঠিক <br />
                 Night - (নাইট) - রাত <br />
-                <span className="font-medium text-pink-600">Rule-37. </span> <br />
+                <span className="font-medium text-pink-600">
+                  Rule-37.{" "}
+                </span>{" "}
+                <br />
                 কোন শব্দে U এরপর consonant + vowel+..... থাকলে U এর উচ্চারণ
                 সাধারণত "ইউ" হয়। <br />
                 Mute - (মিউট) - স্তব্ধ, নির্বাক। <br />
-                <span className="font-medium text-pink-600">Rule-38. </span>  <br />
+                <span className="font-medium text-pink-600">
+                  Rule-38.{" "}
+                </span>{" "}
+                <br />
                 কোন শব্দে CC+O/U consonant থাকলে CC এর উচ্চারণ হবে "ক"। উদাহরণ:
                 <br />
                 Accuse - (এ্যাকিউজ) - অভিযুক্ত করা। <br />
                 According - (এ্যাকর্ডিং) - অনুযায়ী। <br />
-                <span className="font-medium text-pink-600">Rule-39. </span> <br />
+                <span className="font-medium text-pink-600">
+                  Rule-39.{" "}
+                </span>{" "}
+                <br />
                 Consonant এর পর "AI" এর উচ্চারণ সবসময় "এই" বা "এয়‍্যা" হয়।
                 উদাহরণ: <br />
                 Rail - (রেইল) - রেলের লাইন। <br />
@@ -3242,32 +3357,39 @@ const Pronunciation = () => {
         </div>
 
         {/* page 52 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 52</h2> 
-              <button
-                  onClick={goToContents}
-                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
-                >
-                Back to index
-              </button>
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 52</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
           </div>
           <hr className="border border-gray-400" />
           <div className="">
             <p className="font-medium py-1">শব্দের উচ্চারণ টেকনিক:</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                <span className="font-medium text-pink-600">Rule-41. </span> <br />
+                <span className="font-medium text-pink-600">Rule-41. </span>{" "}
+                <br />
                 I+ R+ E বর্ণ তিনটি যদি word এর শেষে থাকে তবে এর উচ্চারণ "আয়‍্যা"
                 <br />
                 Dire - (ডায়‍্যার) - ভয়ংকর। <br />
                 Admire - (এ্যাডমায়‍্যার) - তারিফ করা। <br />
-                <span className="font-medium text-pink-600">Rule-42. </span> <br />
+                <span className="font-medium text-pink-600">
+                  Rule-42.{" "}
+                </span>{" "}
+                <br />
                 কোন শব্দে U এর পূর্বে consonant + R/L+...... থাকলে U এর উচ্চারণ
                 সাধারণত "উ" হয়। উদাহরণ: <br />
                 Blue - (ব্লু) - নীল। <br />
                 True - (ট্র) - সত্য। <br />
-                <span className="font-medium text-pink-600">Rule-43. </span>  <br />
+                <span className="font-medium text-pink-600">
+                  Rule-43.{" "}
+                </span>{" "}
+                <br />
                 U এর পর যদি এমন দুটি Consonant থাকে যাদেরকে আলাদাভাবে উচ্চারণ
                 করতে হয় (ফলে প্রথমটিতে একটি syllable শেষ হয় এবং পরেরটিতে আরেকটি
                 syllable শুরু হয়) তাহলে ঐ দুটি consonant এর পর E/I/A থাকা সত্বেও
@@ -3280,36 +3402,46 @@ const Pronunciation = () => {
         </div>
 
         {/* page 53 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 53</h2> 
-              <button
-                  onClick={goToContents}
-                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
-                >
-                Back to index
-              </button>
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 53</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
           </div>
           <hr className="border border-gray-400" />
           <div className="">
             <p className="font-medium text-base py-1">শব্দের উচ্চারণ টেকনিক:</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                <span className="font-medium text-pink-600">Rule-44. </span><br />
+                <span className="font-medium text-pink-600">Rule-44. </span>
+                <br />
                 শব্দের মধ্যে DG বা DJ একত্রে থাকলে তার উচ্চারণ হবে 'জ'। D এর
                 উচ্চারণ উহ্য থাকবে। <br />
                 Badge - (ব্যায) <br />
                 Adjective - (অ্যাযিকটিভ) <br />
-                <span className="font-medium text-pink-600">Rule-45. </span> <br />
+                <span className="font-medium text-pink-600">
+                  Rule-45.{" "}
+                </span>{" "}
+                <br />
                 শব্দের শেষে GUE থাকলে তার উচ্চারণ হবে "গ"। <br />
                 Fatigue - (ফেটিগ) <br />
                 Rogue - (রৌগ) <br />
-                <span className="font-medium text-pink-600">Rule-46. </span> <br />
+                <span className="font-medium text-pink-600">
+                  Rule-46.{" "}
+                </span>{" "}
+                <br />
                 Consonant + IA+ Consonant এভাবে Word গঠিত হলে, IA এর উচ্চারণ
                 (আইঅ্যা) মত হয়। উদাহরণ: <br />
                 Dialogue - (ডায়ালগ) - কথোপকথন। <br />
                 Diamond - (ডায়ামন্ড) - হীরক। <br />
-                <span className="font-medium text-pink-600">Rule-47. </span> <br />
+                <span className="font-medium text-pink-600">
+                  Rule-47.{" "}
+                </span>{" "}
+                <br />
                 শব্দের মধ্যে Ph একসাথে থাকলে Ph' এর উচ্চারণ (ফ) হবে।উদাহরণ:
                 <br />
                 Phone -ফৌন <br />
@@ -3320,12 +3452,12 @@ const Pronunciation = () => {
         </div>
 
         {/* page 00 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 00</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -3334,43 +3466,46 @@ const Pronunciation = () => {
           <div className="">
             <p className="font-medium py-1">শব্দের উচ্চারণ টেকনিক</p>
             <div className=" text-sm md:text-base">
-              <p className=""> 
-               <span className="font-medium text-pink-600">Rule-48 </span> <br />
+              <p className="">
+                <span className="font-medium text-pink-600">Rule-48 </span>{" "}
+                <br />
                 P+ S পরপর থাকলে এবং P এর আগে কোন vowel না থাকলে P অনুচ্চারিত
                 থাকে। উদাহরণ: <br />
                 Psycho- (সাইকো)- মন।
               </p>
-              <p className="">        
-                <span className="font-medium text-pink-600">Rule-49. </span> <br />
+              <p className="">
+                <span className="font-medium text-pink-600">Rule-49. </span>{" "}
+                <br />
                 Word এর শেষে IGN থাকলে তার উচ্চারণ "আইন” হয়। এ ক্ষেত্রে G
                 অনুচ্চারিত থাকে। <br />
                 Sign (সাইন) - দস্তখত <br />
               </p>
               <p className="pt-2">
-                <span className="font-medium text-pink-600">Rule-50. </span> <br />
+                <span className="font-medium text-pink-600">Rule-50. </span>{" "}
+                <br />
                 EA+ R+ consonant এভাবে word গঠিত হলে, EA এর উচ্চারণ "আ" হবে।
                 উদাহরণ: <br />
                 Heart -(হার্ট) - হৃদয়। <br />
               </p>
               <p className="">
-                <span className="font-medium text-pink-600">Rule-51. </span> <br />
-                শব্দস্থিত STL এর উচ্চারণ হয় "সল্” এখানে T অনুচ্চারিত থাকে। <br />
+                <span className="font-medium text-pink-600">Rule-51. </span>{" "}
+                <br />
+                শব্দস্থিত STL এর উচ্চারণ হয় "সল্” এখানে T অনুচ্চারিত থাকে।{" "}
+                <br />
                 উদাহরণ: <br />
-                Nestle - (নেসল) - বাসা বাঁধা
-                Feed - (fid) -
+                Nestle - (নেসল) - বাসা বাঁধা Feed - (fid) -
               </p>
-             
             </div>
           </div>
         </div>
 
         {/* page 00 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 00</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -3379,44 +3514,43 @@ const Pronunciation = () => {
           <div className="">
             <p className="font-bold py-1">শব্দের উচ্চারণ টেকনিক:</p>
             <div className=" text-sm md:text-base">
-              
               <p className="">
-                <span className="font-medium text-pink-600">Rule-52. </span> <br />
+                <span className="font-medium text-pink-600">Rule-52. </span>{" "}
+                <br />
                 Word-এর মধ্যে।I+ R+ Consonant এভাবে Word গঠিত হলে "।" এর উচ্চারণ
                 "আই" না হয়ে "আ" হয়। <br /> উদাহরণ: <br />
                 First (ফাস্ট) - প্রথম। <br />
                 Bird (বাড) - পাখি। <br />
               </p>
               <p className="py-2">
-                <span className="font-medium text-pink-600">Rule-53. </span> <br />
+                <span className="font-medium text-pink-600">Rule-53. </span>{" "}
+                <br />
                 EA + R এভাবে ব্যবহৃত হলে এবং R যদি word এর শেষ বর্ণ হয় তাহলে EA
                 এর উচ্চারণ "ঈঅ্যা" হবে। <br />
                 Dear - (ডিয়্যার) - প্রিয়। <br />
                 Fear - (ফিয়্যার) - ভয়। <br />
               </p>
               <p className="">
-                <span className="font-medium text-pink-600">Rule-54. </span> <br />
-                "IO" এর উচ্চারণ সাধারণত "আইয়" হয়।  <br /> উদাহরণ: <br />
+                <span className="font-medium text-pink-600">Rule-54. </span>{" "}
+                <br />
+                "IO" এর উচ্চারণ সাধারণত "আইয়" হয়। <br /> উদাহরণ: <br />
                 Violet - (ভাইয়লেইট) - বেগুনী রঙ।
               </p>
             </div>
           </div>
-                    <p className="heading2 text-center pt-3">ASM English Academy</p>
-
+          <p className="heading2 text-center pt-3">ASM English Academy</p>
         </div>
-        
-
 
         {/* page 54 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 54</h2> 
-              <button
-                  onClick={goToContents}
-                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
-                >
-                Back to index
-              </button>
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 54</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
           </div>
           <hr className="border border-gray-400" />
           <div className="">
@@ -3426,24 +3560,20 @@ const Pronunciation = () => {
                 👉 ইংরেজিতে Y এর উচ্চারণ কখনও long 'e' অর্থাৎ বাংলা "ঈ” উচ্চারণ
                 হয়। আবার কখনও short/e/ অর্থাৎ "ই" এবং কখনও "এই" এর মতো উচ্চারণ
                 হবে। <br />
-                
-                
               </p>
               <p className="py-2">
-                <span className="font-medium text-pink-600">Rule-1. </span> 
-                <br /> শব্দের শেষে 'ly' থাকলে তার উচ্চারণ হবে এর মতো
-                হয়। <br />
+                <span className="font-medium text-pink-600">Rule-1. </span>
+                <br /> শব্দের শেষে 'ly' থাকলে তার উচ্চারণ হবে এর মতো হয়। <br />
                 যেমন: <br />
                 Friendly - ফ্রেন্ডলি - বন্ধুত্বপূর্ণ; বন্ধুসুলভ <br />
                 Hardly - হাডলি - খুব কমই <br />
-                
               </p>
               <p className="">
-               <span className="font-medium text-pink-600">Rule-2. </span> 
-                <br /> 
-                 শব্দের শেষে 'ty' থাকলে তার উচ্চারণ হবে long
-                'e' অর্থাৎ বাংলা "ঈ" এর মতো। <br />
-                 যেমন: <br />
+                <span className="font-medium text-pink-600">Rule-2. </span>
+                <br />
+                শব্দের শেষে 'ty' থাকলে তার উচ্চারণ হবে long 'e' অর্থাৎ বাংলা "ঈ"
+                এর মতো। <br />
+                যেমন: <br />
                 Ability - অ্যবিলিটি - সক্ষমতা <br />
                 Activity - অ্যকটিভ্যটি - কর্মকান্ড <br />
               </p>
@@ -3452,31 +3582,31 @@ const Pronunciation = () => {
         </div>
 
         {/* page 55 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 55</h2> 
-              <button
-                  onClick={goToContents}
-                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
-                >
-                Back to index
-              </button>
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 55</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
           </div>
           <hr className="border border-gray-400" />
           <div className="">
             <p className="font-bold py-1">Y এর উচ্চারণঃ</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                
-                <span className="font-medium text-pink-600">Rule-3. </span> <br />
+                <span className="font-medium text-pink-600">Rule-3. </span>{" "}
+                <br />
                 শব্দের শেষে /ey/ থাকলে এবং তা যদি এক syllable-এ উচ্চারিত হয়, তখন
                 তার উচ্চারণ হবে long /e/ অর্থাৎ বাংলা "ঈ" এর মতো।যেমন: <br />
                 Honey - হানি - মধু <br />
                 Key - কী - চাবি <br />
-                
               </p>
               <p className="pt-2">
-                <span className="font-medium text-pink-600">Rule-4. </span> <br />
+                <span className="font-medium text-pink-600">Rule-4. </span>{" "}
+                <br />
                 শব্দের শেষে /ay/ থাকলে এবং তা যদি এক syllable-এ উচ্চারিত হয়, তখন
                 তার উচ্চারণ হবে বাংলা "এই" এর মতো। যেমন: <br />
                 Bay - বেই - উপসাগর <br />
@@ -3485,20 +3615,19 @@ const Pronunciation = () => {
               </p>
             </div>
           </div>
-                    <p className="heading2 text-center pt-10">ASM English Academy</p>
-
+          <p className="heading2 text-center pt-10">ASM English Academy</p>
         </div>
 
         {/* page 56 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 56</h2> 
-              <button
-                  onClick={goToContents}
-                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
-                >
-                Back to index
-              </button>
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 56</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
           </div>
           <hr className="border border-gray-400" />
           <div className="">
@@ -3508,12 +3637,14 @@ const Pronunciation = () => {
               <p className="">
                 👉 ইংরেজিতে X এর উচ্চারণ কখনও 'ks'; কখনও বা /gz/ এর মতো হয়; আবার
                 কখনও শুধু /z/ এর মতো হয়। <br />
-                <span className="font-medium text-pink-600">Rule-1. </span> <br /> 
-                শব্দের শেষে বা মাঝে 'X' থাকলে তা 'ks' অর্থাৎ
-                বাংলায় 'ক্স' এর মতো হয়। যেমন: <br />
+                <span className="font-medium text-pink-600">Rule-1. </span>{" "}
+                <br />
+                শব্দের শেষে বা মাঝে 'X' থাকলে তা 'ks' অর্থাৎ বাংলায় 'ক্স' এর মতো
+                হয়। যেমন: <br />
                 Fox - ফক্স - শেয়াল <br />
                 Extra - এক্সট্রা - অতিরিক্ত <br />
-                <span className="font-medium text-pink-600">Rule-2. </span> <br />
+                <span className="font-medium text-pink-600">Rule-2. </span>{" "}
+                <br />
                 শব্দের শুরুতে 'vowel+x+vowel' থাকলে তা জোর দিয়ে উচ্চারণ করতে হয়,
                 তখন তা 'gz' অর্থাৎ বাংলায় 'ইগ্‌জ' এর মতো হয়। এক্ষেত্রে 'x'
                 stressed syllable এর আগে বসে। যেমন: <br />
@@ -3523,20 +3654,19 @@ const Pronunciation = () => {
               </p>
             </div>
           </div>
-                    <p className="heading2 text-center pt-5">ASM English Academy</p>
-
+          <p className="heading2 text-center pt-5">ASM English Academy</p>
         </div>
 
         {/* page 57 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 57</h2> 
-              <button
-                  onClick={goToContents}
-                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
-                >
-                Back to index
-              </button>
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 57</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
           </div>
           <hr className="border border-gray-400" />
           <div className="">
@@ -3549,7 +3679,8 @@ const Pronunciation = () => {
                 তাকে 'Clear L' sound বলে; <br />
                 ❇️ আর যে L - এর উচ্চারণ জিহ্বার পেছনের অংশ দিয়ে উচ্চারণ করা হয়
                 তাকে 'Dark L' sound বলে। <br />
-                <span className="font-medium text-pink-600">Rule-1. </span> <br />
+                <span className="font-medium text-pink-600">Rule-1. </span>{" "}
+                <br />
                 'L+vowel' থাকলে তা স্পষ্ট অর্থাৎ 'Clear L' sound হয়। অর্থাৎ
                 এখানে L-এর উচ্চারণ করতে হবে জিহ্বার সামনের অংশ দিয়ে। <br />
                 যেমনঃ শব্দের শুরুতে 'L' থাকলে উচ্চারণ হবে স্পষ্ট অর্থাৎ 'Clear
@@ -3565,22 +3696,23 @@ const Pronunciation = () => {
         </div>
 
         {/* page 58 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
-            <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 58</h2> 
-              <button
-                  onClick={goToContents}
-                  className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white"
-                >
-                Back to index
-              </button>
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 58</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
           </div>
           <hr className="border border-gray-400" />
           <div className="">
             <p className="font-bold py-1">L Sound:</p>
             <div className=" text-sm md:text-base">
               <p className="">
-                <span className="font-medium text-pink-600">Rule-2. </span> <br />
+                <span className="font-medium text-pink-600">Rule-2. </span>{" "}
+                <br />
                 L + consonant' অথবা 'L' যদি শব্দের শেষে বসে, কিংবা শব্দের শেষে
                 যদি 'll' বা 'le' হয়, তাহলেও সেখানে L-এর উচ্চারণ করতে হবে জিহ্বার
                 পেছনের অংশ দিয়ে, তখন তাকে বলা হবে অস্পষ্ট বা 'Dark L' sound ।
@@ -3591,14 +3723,14 @@ const Pronunciation = () => {
                 Fool - ফু('ল) - বোকা <br />
                 Little - লিট ('ল) - অল্প; ছোট্ট <br />
               </p>
-              
+
               <p className="text-center pt-16 heading2">ASM English Academy</p>
             </div>
           </div>
         </div>
 
         {/* page 59 Chunking */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 59</h2>
           <div className="">
             <p className="font-semibold">Chunking: </p>
@@ -3622,7 +3754,7 @@ const Pronunciation = () => {
           </div>
         </div>
         {/* page 60 */}
-        <div className="p-3 text-black md:p-16 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 60</h2>
           <div className="">
             <p className="font-semibold">Chunking: </p>
