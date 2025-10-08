@@ -133,7 +133,7 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-          <ul className="flex items-center justify-center gap-2">
+          <ul className="flex items-center justify-center gap-2 pt-5">
             <li className="border p-2 rounded hover:text-rose-500 transition-all">
               <a href="tel:+8801751337773">
                 <MdLocalPhone size={40} className="LogoIcon" /> Call ME

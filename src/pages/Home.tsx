@@ -25,7 +25,7 @@ const Home = () => {
           <div className="md:max-w-[65%]  mx-auto">
             <GrammarItem />
             <Composition />
-            <Accordian />
+            {/* <Accordian /> */}
           </div>
         </div>
       ) : (
