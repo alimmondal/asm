@@ -39,7 +39,7 @@ function PartsOfSpeech() {
             <br />
             Noun অর্থ নাম। সেজন্য যে কোন নামবাচক পদকে Noun বলে। <br />
             (Noun means name. That is why any noun is called noun.) <br />
-            Noun মূলত দুই প্রকার ( There are basically two types of nouns ):{" "}
+            Noun মূলত দুই প্রকার ( There are basically two types of nouns ):
             <br />
             1. Concrete Noun : <br />
             যার বাহ্যিক অস্তিত্ব এবং শারীরিক গঠন আছে। (Concrete Noun: Which has

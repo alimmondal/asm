@@ -6,37 +6,27 @@ const Footer = () => {
   const auth = useAuth();
   return (
     <>
-      <footer className="footer p-10  bg-[#F1B81E] text-gray-600">
+      <footer className="footer p-10  bg-[#F1B81E] text-gray-700">
         <aside>
+          <h6 className="footer-title text-xl text-black">About</h6>
           <img
             src="/man.jpg"
             alt=""
             className="w-24 h-24 rounded-full border-4 border-rose-300 hover:scale-75"
           />
           <p>
-            ASM English Academy
+            Alim;
             <br />
-            An E-Learning platform for English <br />
+            Lecturer of English, Tilakpur Degree College; <br />
+            Tilakpur, Akkelpur, Joypurhat. <br />
             <span className="text-rose-500 hover:text-xl">
               Feel freedom to call me on any questions!
             </span>
           </p>
-          <ul className="flex items-center justify-center gap-2">
-            <li className="border p-2 rounded hover:text-rose-500 transition-all">
-              <a href="tel:+8801751337773">
-                <MdLocalPhone size={40} className="LogoIcon" /> Call ME
-              </a>
-            </li>
-            <li className="flex flex-col">
-              <a href="tel:+8801860060068">+8801860060068 </a>
-              <a href="tel:+8801751337773">+8801751337773</a>
-            </li>
-            <li></li>
-          </ul>
         </aside>
 
         <nav>
-          <h6 className="footer-title">Menu</h6>
+          <h6 className="footer-title text-xl text-black">Menu</h6>
           <div className="">
             <ul>
               <li>
@@ -80,7 +70,7 @@ const Footer = () => {
         </nav>
 
         <nav>
-          <h6 className="footer-title">Auth Menu</h6>
+          <h6 className="footer-title text-xl text-black">Auth Menu</h6>
           <div className="">
             <ul>
               <li>
@@ -107,7 +97,7 @@ const Footer = () => {
         </nav>
 
         <nav>
-          <h6 className="footer-title">Social</h6>
+          <h6 className="footer-title text-xl text-black">Social</h6>
           <div className="grid grid-flow-col gap-4">
             <a href="https://twitter.com">
               <svg
@@ -143,6 +133,18 @@ const Footer = () => {
               </svg>
             </a>
           </div>
+          <ul className="flex items-center justify-center gap-2">
+            <li className="border p-2 rounded hover:text-rose-500 transition-all">
+              <a href="tel:+8801751337773">
+                <MdLocalPhone size={40} className="LogoIcon" /> Call ME
+              </a>
+            </li>
+            <li className="flex flex-col">
+              <a href="tel:+8801860060068">+8801860060068 </a>
+              <a href="tel:+8801751337773">+8801751337773</a>
+            </li>
+            <li></li>
+          </ul>
         </nav>
       </footer>
     </>
