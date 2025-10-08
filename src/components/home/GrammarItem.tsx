@@ -21,6 +21,21 @@ function GrammarItem() {
               Parts of Speech
             </li>
           </Link>
+          <Link to={"/tense"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white transition hover:bg-black dark:border dark:border-slate-400">
+              Tense
+            </li>
+          </Link>
+          <Link to={"/voice"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white transition hover:bg-black dark:border dark:border-slate-400">
+              Voice
+            </li>
+          </Link>
+          <Link to={"/strongVerb"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white transition hover:bg-black dark:border dark:border-slate-400">
+              Strong Verb/ Weak Verb
+            </li>
+          </Link>
           <Link to={"/article"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white transition hover:bg-black dark:border dark:border-slate-400">
               Article
@@ -31,26 +46,13 @@ function GrammarItem() {
               Tag Question
             </li>
           </Link>
-          <Link to={"/suffix"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
-              Suffix & Prifix
-            </li>
-          </Link>
+
           <Link to={"/preposition"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
               Preposition
             </li>
           </Link>
-          <Link to={"/phrase"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
-              Phrase
-            </li>
-          </Link>
-          <Link to={"/completing"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
-              Completing Sentence
-            </li>
-          </Link>
+
           <Link to={"/verbs"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
               Right Form of Verbs
@@ -66,21 +68,7 @@ function GrammarItem() {
               Transformation
             </li>
           </Link>
-          <Link to={"/pronoun"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
-              Pronoun
-            </li>
-          </Link>
-          <Link to={"/modifier"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
-              Modifier
-            </li>
-          </Link>
-          <Link to={"/connectors"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
-              Connectors
-            </li>
-          </Link>
+
           <Link to={"/punctuation"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
               Punctuation
@@ -90,67 +78,6 @@ function GrammarItem() {
           <Link to={"/wh"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
               Wh-question
-            </li>
-          </Link>
-          <Link to={"/syn-ant"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
-              Synonym & Antonym
-            </li>
-          </Link>
-          <Link to={"/paragraph"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
-              Paragraph
-            </li>
-          </Link>
-          <Link to={"/essay"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
-              Composition
-            </li>
-          </Link>
-          <Link to={"/email"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
-              Email
-            </li>
-          </Link>
-          <Link to={"/letter"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
-              Letter
-            </li>
-          </Link>
-          <Link to={"/application"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
-              Application
-            </li>
-          </Link>
-          <Link to={"/HQuestion"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black transition dark:border dark:border-slate-400">
-              Board Question
-            </li>
-          </Link>
-          <Link to={"/advertisement"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
-              Advertisement
-            </li>
-          </Link>
-          <Link to={"/dialog"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
-              Dialog
-            </li>
-          </Link>
-          <Link to={"/notice"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
-              Notice
-            </li>
-          </Link>
-          <Link to={"/poster"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
-              Poster
-            </li>
-          </Link>
-
-          <Link to={"/report"}>
-            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white">
-              Report
             </li>
           </Link>
         </ul>

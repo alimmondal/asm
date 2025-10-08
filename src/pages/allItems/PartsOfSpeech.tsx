@@ -1,4 +1,3 @@
-// import data from "../../synAnt.json";
 function PartsOfSpeech() {
   return (
     <div className="w-full ">

@@ -36,6 +36,7 @@ const Login = () => {
   // show spinner when:
   // - auth is globally loading (initial auth check)
   // - OR local loginLoading (after login click)
+
   if (auth?.loading || loginLoading) {
     return (
       <div className="h-screen flex justify-center items-center">
@@ -98,7 +99,7 @@ const Login = () => {
               <p>
                 New here?{" "}
                 <Link to="/register" className="text-red-500">
-                  Register
+                  Signup/ Register
                 </Link>
               </p>
             </div>

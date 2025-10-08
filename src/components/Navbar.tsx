@@ -36,11 +36,11 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="">{/* <Header /> */}</div>
+      {/* <div className=""><Header /</div> */}
       <div
         className={
           nav
-            ? "fixed top-0 left-0 right-0 z-10 transition-all bg-green-400 text-white font-bold"
+            ? "lg:fixed top-0 left-0 right-0 z-10 transition-all bg-green-400 text-white font-bold"
             : "bg-sky-500 font-bold text-black"
         }
       >

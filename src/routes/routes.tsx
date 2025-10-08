@@ -62,6 +62,7 @@ import OxfordWords from "../pages/allItems/OxfordWords";
 import Pronunciation from "../pages/allItems/Pronunciation";
 import StoryVocabulary from "../pages/allItems/StoryVocabulary";
 import Dictionary from "../pages/allItems/Dictionary";
+import Grammar from "../pages/allItems/Grammar";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -237,6 +238,10 @@ export const router = createBrowserRouter([
         element: <Test />,
       },
       {
+        path: "/grammar",
+        element: <Grammar />,
+      },
+      {
         path: "/words",
         element: <OxfordWords />,
       },
@@ -319,6 +324,7 @@ export const router = createBrowserRouter([
           </PrivateRoute>
         ),
       },
+
       {
         path: "profile",
         element: <Profile />,

@@ -5,6 +5,7 @@ import useAuth from "../hooks/useAuth";
 import Welcome from "../components/Welcome";
 import Glob from "../components/home/Glob";
 import LoadingSpinner from "../components/LoadingSpinner";
+import Composition from "../components/Composition";
 
 const Home = () => {
   const auth = useAuth();
@@ -19,11 +20,11 @@ const Home = () => {
           <Banner />
           {/* <Video /> */}
           <div className="py-10">
-
             <Glob />
           </div>
           <div className="md:max-w-[65%]  mx-auto">
             <GrammarItem />
+            <Composition />
             <Accordian />
           </div>
         </div>

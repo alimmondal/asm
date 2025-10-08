@@ -6,7 +6,7 @@ const Footer = () => {
   const auth = useAuth();
   return (
     <>
-      <footer className="footer p-10 bg-neutral text-neutral-content">
+      <footer className="footer p-10  bg-[#F1B81E] text-gray-600">
         <aside>
           <img
             src="/man.jpg"

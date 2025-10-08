@@ -66,7 +66,12 @@ const Banner = () => {
         </h1>
 
         <div className="my-5">
-          <ul className="grid grid-cols-2 md:grid-cols-3  gap-5 px-2 md:px-20 items-center justify-center">
+          <ul className="grid grid-cols-2 md:grid-cols-3  gap-5 px-2 md:px-20 ">
+            <Link to={"grammar"}>
+              <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
+                Grammar
+              </li>
+            </Link>
             <Link to={"/dictionary"}>
               <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Dictionary
@@ -114,11 +119,11 @@ const Banner = () => {
                 Voice
               </li>
             </Link>
-            <Link to={"/strongVerb"}>
+            {/* <Link to={"/strongVerb"}>
               <li className="text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-2xl text-xl category">
                 Strong Verb
               </li>
-            </Link>
+            </Link> */}
 
             <Link to={"/social"}>
               <li className="hidden text-gray-300 bg-gradient-to-r from-sky-500 to-rose-700  border-yellow-400 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-7 md:py-16 rounded-md font-bold md:text-2xl text-xl category  ">
