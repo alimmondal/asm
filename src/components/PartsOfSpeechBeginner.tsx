@@ -6,7 +6,7 @@ function PartsOfSpeechBeginner() {
         <p className="">A brief discussion on Parts of Speech</p>
       </div>
 
-      <div className="pt-10 px-5 md:w-[50%] mx-auto">
+      <div className="pt-10 px-5 lg:w-[50%] mx-auto">
         <h3 className="text-green-500">Parts of Speech</h3>
         <div className="text-lg md:text-xl">
           {/* definition */}

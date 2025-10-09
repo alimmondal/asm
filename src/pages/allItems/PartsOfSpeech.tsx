@@ -12,40 +12,38 @@ import {
   Cog6ToothIcon,
 } from "@heroicons/react/24/solid";
 import PartsOfSpeechBeginner from "../../components/PartsOfSpeechBeginner";
+import DPartsOfSpeech from "../DegreeItems/DPartsOfSpeech";
+import { PartsOfSpeechAdvanced } from "../../components/PartsOfSpeechAdvanced";
 
 function PartsOfSpeech() {
   const data = [
     {
-      label: "Dashboard",
-      value: "dashboard",
+      label: "Beginner",
+      value: "beginner",
       icon: Square3Stack3DIcon,
-      desc: `It really matters and then like it really doesn't matter.
-        What matters is the people who are sparked by it. And the people
-        who are like offended by it, it doesn't matter.`,
-    },
-    {
-      label: "Profile",
-      value: "profile",
-      icon: UserCircleIcon,
-      desc: `Because it's about motivating the doers. Because I'm here
-        to follow my dreams and inspire other people to follow their dreams, too.`,
-    },
-    {
-      label: "Settings",
-      value: "settings",
-      icon: Cog6ToothIcon,
       desc: <PartsOfSpeechBeginner />,
+    },
+    {
+      label: "Short ",
+      value: "short",
+      icon: UserCircleIcon,
+      desc: <DPartsOfSpeech />,
+    },
+    {
+      label: "Advanced",
+      value: "advanced",
+      icon: Cog6ToothIcon,
+      desc: <PartsOfSpeechAdvanced />,
     },
   ];
   return (
-    <div className="w-full ">
-      <div className="text-center py-20">
+    <div className="w-full h-full">
+      <div className="text-center py-28">
         <h1 className="">Parts of Speech</h1>
-        <p className="">A brief discussion on Parts of Speech</p>
       </div>
 
-      <div className="w-[60%]">
-        <Tabs value="dashboard">
+      <div className="px-3 ">
+        <Tabs value="beginner">
           <TabsHeader>
             {data.map(({ label, value, icon }) => (
               <Tab key={value} value={value}>
@@ -59,7 +57,7 @@ function PartsOfSpeech() {
           <TabsBody>
             {data.map(({ value, desc }) => (
               <TabPanel key={value} value={value}>
-                <div className="text-gray-300">{desc}</div>
+                <div className="text-gray-400 dark:text-gray-300">{desc}</div>
               </TabPanel>
             ))}
           </TabsBody>

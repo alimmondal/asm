@@ -1,11 +1,13 @@
 import data from "../../synAnt.json";
 const DPartsOfSpeech = () => {
   return (
-    <div className="px-5 md:w-[65%] mx-auto">
+    <div className="px-5 lg:w-[65%] mx-auto">
       {/* Short technic */}
 
       <div className="text-center">
-        <h1 className="py-20 text-green-400">Changing Words</h1>
+        <h1 className="py-20 text-green-400">
+          A Short Technique for identifying Parts of Speech
+        </h1>
       </div>
 
       <div className="my-10 text-lg md:text-xl">
