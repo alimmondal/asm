@@ -5,9 +5,9 @@ const DPartsOfSpeech = () => {
       {/* Short technic */}
 
       <div className="text-center">
-        <h1 className="py-20 text-green-400">
+        <h2 className="py-20 text-green-400">
           A Short Technique for identifying Parts of Speech
-        </h1>
+        </h2>
       </div>
 
       <div className="my-10 text-lg md:text-xl">
@@ -85,7 +85,8 @@ const DPartsOfSpeech = () => {
           <br />
           <br />
           (3) Adjective এর শেষে ar/ or থাকলে (ity যোগ করলে Noun হয় -
-          Popular-Popularity. অনুরুপ - ity তুলে দিলে Adjective হবে।
+          Popular-Popularity. <br />
+          অনুরুপ - ity তুলে দিলে Adjective হবে।
           <br />
           যেমন-যেমন- Cruelty - cruel
           <br />

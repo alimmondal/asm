@@ -37,7 +37,7 @@ function PartsOfSpeech() {
     },
   ];
   return (
-    <div className="w-full h-full">
+    <div className="w-[95%] h-full">
       <div className="text-center py-28">
         <h1 className="">Parts of Speech</h1>
       </div>

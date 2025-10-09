@@ -1,0 +1,13 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import { useState } from "react";
+import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+import data from "../../../data.json";
+function Test() {
+    const typedData = data;
+    // state for search
+    const [searchTerm, setSearchTerm] = useState("");
+    // filter data
+    const filteredData = typedData.filter((item) => item.word.toLowerCase().includes(searchTerm.toLowerCase()));
+    return (_jsxs("div", { className: "py-10", children: [_jsx("div", { className: "py-10 ", children: _jsx("a", { href: "https://translate.google.com/?sl=en&tl=bn&op=translate", children: "Gtranslate" }) }), _jsxs("div", { className: "container mx-auto p-2", children: [_jsxs("div", { className: "mb-4 relative w-full ", children: [_jsx(MagnifyingGlassIcon, { className: "absolute right-3 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" }), _jsx("input", { type: "text", placeholder: "Search words...", value: searchTerm, onChange: (e) => setSearchTerm(e.target.value), className: "w-full  border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" })] }), _jsx("div", { className: "overflow-x-auto", children: _jsxs("table", { className: "md:w-full min-w-[300px] table-auto border border-gray-300", children: [_jsx("thead", { children: _jsxs("tr", { className: "bg-gray-100", children: [_jsx("th", { className: "py-1 px-1 border-b", children: "Words" }), _jsx("th", { className: "py-1 px-1 border-b", children: "Phonemic transcription" }), _jsx("th", { className: "py-1 px-1 border-b", children: "Bangla Pronunciation" }), _jsx("th", { className: "py-1 px-1 border-b", children: "Meaning" }), _jsx("th", { className: "py-1 px-1 border-b", children: "Examples" })] }) }), _jsxs("tbody", { children: [filteredData.map((item, index) => (_jsxs("tr", { className: "hover:bg-gray-50", children: [_jsx("td", { className: "py-1 px-1 border-b hover:bg-blue-50", children: _jsxs("a", { target: "_blank", rel: "noopener noreferrer", href: item.link, className: "text-blue-600 hover:underline", children: [index + 1, ". ", _jsx("br", {}), " ", item.word] }) }), _jsx("td", { className: "py-1 px-1 border-b", children: item.phonetic }), _jsx("td", { className: "py-1 px-1 border-b", children: item.banglaPronunciation }), _jsx("td", { className: "py-1 px-1 border-b", children: item.BengaliMeaning }), _jsx("td", { className: "py-1 px-1 border-b", children: item.examples })] }, index))), filteredData.length === 0 && (_jsx("tr", { children: _jsx("td", { colSpan: 5, className: "text-center py-3 text-gray-500 italic", children: "No matching words found" }) }))] })] }) })] })] }));
+}
+export default Test;
