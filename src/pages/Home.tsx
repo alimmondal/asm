@@ -1,5 +1,4 @@
 import Banner from "../components/home/Banner";
-import Accordian from "../components/home/Accordions";
 import GrammarItem from "../components/home/GrammarItem";
 import useAuth from "../hooks/useAuth";
 import Welcome from "../components/Welcome";

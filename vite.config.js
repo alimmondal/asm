@@ -16,6 +16,6 @@ export default defineConfig({
         include: ["react-pdf"],
     },
     build: {
-        chunkSizeWarningLimit: 4000, // Increase the limit to 1000 kB
+        chunkSizeWarningLimit: 5000, // Increase the limit to 1000 kB
     },
 });

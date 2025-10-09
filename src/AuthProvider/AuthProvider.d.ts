@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { User, UserCredential } from "firebase/auth";
-interface AuthContextType {
+export interface AuthContextType {
     user: User | null;
     googleLogin: () => Promise<UserCredential>;
     createUser: (email: string, password: string) => Promise<UserCredential>;

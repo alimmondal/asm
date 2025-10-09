@@ -12,9 +12,8 @@ import { User, UserCredential } from "firebase/auth";
 import { app } from "../firebase/firebase.config";
 // import { app } from "../firebase/firebase.config.ts";
 
-
 // Define the AuthContext type
-interface AuthContextType {
+export interface AuthContextType {
   user: User | null;
   googleLogin: () => Promise<UserCredential>;
   createUser: (email: string, password: string) => Promise<UserCredential>;
