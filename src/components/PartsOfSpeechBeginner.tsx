@@ -1,13 +1,13 @@
 function PartsOfSpeechBeginner() {
   return (
-    <div className="w-full ">
-      <div className="text-center py-20">
+    <div className="w-full px-3">
+      <div className="text-center py-10">
         <h2 className="text-green-500">
           A brief discussion on Parts of Speech
         </h2>
       </div>
 
-      <div className="pt-10 px-5 lg:w-[50%] mx-auto">
+      <div className="lg:w-[50%] mx-auto">
         <h3 className="text-pink-600">Parts of Speech</h3>
         <div className="text-lg md:text-xl">
           {/* definition */}
@@ -18,8 +18,7 @@ function PartsOfSpeechBeginner() {
             <br />
             আমরা জানি speech বা বক্তব্য হয় Sentence বা বাক্যের মাধ্যমে। আবার
             Sentence গঠিত হয় Word এর সাহায্যে। <br />
-            Parts of speech আট প্রকার (There are eight types of parts of speech)
-            : <br />
+            Parts of speech আট প্রকার: : <br />
             1. Noun ( বিশেষ্য ) <br />
             2. Pronoun <br />
             3. Verb ( ক্রিয়া/ কাজ ) <br />
@@ -243,11 +242,8 @@ function PartsOfSpeechBeginner() {
           <div className="">
             <h2 className="text-pink-600">Preposition</h2>
             Preposition: Pre শব্দের অর্থ পূর্বে আর Position শব্দের অর্থ অবস্থান।
-            The word Pre means before and the word Position means position.
             অর্থাৎ, যে Word Noun/Pronoun এর পূর্বে বসে পূর্ববর্তী Word এর সাথে
-            সম্পর্ক স্থাপন করে, তাকে Preposition বলে। That is, the word that
-            sits before the word noun / pronoun and establishes the relation to
-            the previous word, it is called preposition. <br />
+            সম্পর্ক স্থাপন করে, তাকে Preposition বলে। <br />
             যেমন : to, of, in, at, on, into, below, under, beside, around, over,
             above, across, through etc..
           </div>

@@ -26,7 +26,6 @@ import Suggestion from "../pages/DegreeItems/Suggestion";
 import Advertisement from "../pages/DegreeItems/Advertisement";
 import DCompleting from "../pages/DegreeItems/DCompleting";
 import Dialog from "../pages/DegreeItems/Dialog";
-import PartsOfSpeech from "../pages/allItems/PartsOfSpeech";
 import Poster from "../pages/DegreeItems/Poster";
 import Report from "../pages/DegreeItems/Report";
 import HSuggestion from "../pages/hscItems/HSuggestion";
@@ -63,6 +62,8 @@ import Pronunciation from "../pages/allItems/Pronunciation";
 import StoryVocabulary from "../pages/allItems/StoryVocabulary";
 import Dictionary from "../pages/allItems/Dictionary";
 import Grammar from "../pages/allItems/Grammar";
+import PaOfSp from "../pages/allItems/PartsOfSpeech";
+import There from "../pages/allItems/There";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -211,9 +212,14 @@ export const router = createBrowserRouter([
         element: <Dialog />,
       },
       {
-        path: "/partsOfSpeech",
-        element: <PartsOfSpeech />,
+        path: "/paOfSp",
+        element: <PaOfSp />,
       },
+      {
+        path: "/there",
+        element: <There />,
+      },
+
       {
         path: "/poster",
         element: <Poster />,

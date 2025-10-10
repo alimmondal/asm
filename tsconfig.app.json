@@ -10,7 +10,7 @@
     "moduleResolution": "bundler",
     "isolatedModules": true,
     "moduleDetection": "force",
-    "noEmit": false,
+    "noEmit": true,
     "jsx": "react-jsx",
 
     /* Linting */
@@ -23,6 +23,8 @@
     
     "resolveJsonModule": true,
     "esModuleInterop": true,
+
+    "baseUrl": "."
    
   },
   "include": ["src"]

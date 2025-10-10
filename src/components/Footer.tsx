@@ -25,9 +25,9 @@ const Footer = () => {
           </p>
         </aside>
 
-        <nav>
-          <h6 className="footer-title text-xl text-black">Menu</h6>
+        <nav className="hidden lg:flex">
           <div className="">
+            <h6 className="footer-title text-xl text-black">Menu</h6>
             <ul>
               <li>
                 <Link to={"/"}>Home</Link>
@@ -69,9 +69,9 @@ const Footer = () => {
           </div>
         </nav>
 
-        <nav>
-          <h6 className="footer-title text-xl text-black">Auth Menu</h6>
+        <nav className="hidden lg:flex">
           <div className="">
+            <h6 className="footer-title text-xl text-black">Auth Menu</h6>
             <ul>
               <li>
                 <Link to={"/login"}>Login</Link>

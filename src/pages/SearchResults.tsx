@@ -24,11 +24,11 @@ import HSuggestion from "./hscItems/HSuggestion";
 import SSuggestion from "./sscItems/SSuggestion";
 import Wh from "./DegreeItems/Wh";
 import SynAnt from "./hscItems/SynAnt";
-import PartsOfSpeech from "./allItems/PartsOfSpeech";
 import Dialog from "./DegreeItems/Dialog";
 import Advertisement from "./DegreeItems/Advertisement";
 import Poster from "./DegreeItems/Poster";
 import Notice from "./DegreeItems/Notice";
+import PaOfSp from "./allItems/PartsOfSpeech";
 
 // Define mockData with components
 const mockData = [
@@ -156,7 +156,7 @@ const mockData = [
   {
     id: 25,
     title: "PartsOfSpeech adjective noun conjunction",
-    content: <PartsOfSpeech />,
+    content: <PaOfSp />,
   },
   {
     id: 26,

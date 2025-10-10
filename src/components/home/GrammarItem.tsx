@@ -16,9 +16,14 @@ function GrammarItem() {
               Sentence
             </li>
           </Link>
-          <Link to={"/partsOfSpeech"}>
+          <Link to={"/there"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black">
-              Parts of Speech
+              Use of There
+            </li>
+          </Link>
+          <Link to={"/paOfSp"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white transition hover:bg-black dark:border dark:border-slate-400">
+              Parts Of Speech
             </li>
           </Link>
           <Link to={"/tense"}>

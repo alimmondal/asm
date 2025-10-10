@@ -1,7 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import { FaBookReader } from "react-icons/fa";
-import { MdLocalPhone } from "react-icons/md";
-function Header() {
-    return (_jsxs("div", { className: "py-2 px-2 md:px-0 w-[85%] mx-auto md:flex items-center justify-between hidden", children: [_jsxs("div", { className: "flex flex-row gap-2 items-center", children: [_jsxs("div", { className: "flex flex-col items-center justify-center", children: [_jsx("div", { className: "text-yellow-400 ", children: _jsx(FaBookReader, { size: 40 }) }), _jsx("div", { className: "font-bold text-yellow-400 tracking-widest", children: "*ASM*" })] }), _jsxs("div", { className: "", children: [_jsx("h1", { className: " text-green-500 text-xl md:text-3xl dark:text-slate-400 heading2", children: "ASM English Academy" }), _jsx("div", { className: "dark:text-slate-400 ", children: _jsxs("ul", { className: "flex flex-row gap-1 items-center", children: [_jsx("li", { children: _jsx("a", { href: "tel:+8801860060068", children: _jsx(MdLocalPhone, {}) }) }), _jsx("li", { children: _jsx("a", { href: "tel:+8801860060068", children: "01860060068/ " }) }), _jsx("li", { children: _jsx("a", { href: "tel:+8801751337773", children: "01751337773" }) })] }) })] })] }), _jsx("div", { className: "", children: _jsx("img", { src: "/man.jpg", alt: "", className: "w-24 h-24 rounded-full border border-slate-500 " }) })] }));
-}
-export default Header;

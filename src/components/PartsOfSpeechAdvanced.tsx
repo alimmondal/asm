@@ -1,8 +1,10 @@
 export const PartsOfSpeechAdvanced = () => {
   return (
-    <div className="h-full lg:w-[60%] mx-auto ">
-      <h2 className="py-20 text-center">Parts Of Speech for Advanced</h2>
-      <p className="py-20 text-center"> Parts of Speech: A Quick Glance</p>
+    <div className="h-full lg:w-[60%] mx-auto px-3">
+      <div className="py-20 ">
+        <h2 className="text-center">Parts Of Speech for Advanced</h2>
+        <p className="text-center"> Parts of Speech: A Quick Glance</p>
+      </div>
 
       <div className="h-full">
         <div className="">
@@ -117,7 +119,6 @@ export const PartsOfSpeechAdvanced = () => {
           যেমন: education. <br />
           2. এর সংগে শুধু singular verb ব্যবহৃত হয়। যেমন : Education is
           important for every man. <br />
-          32 FRIENDS' Language <br />
           3. এটা singular হলে এর আগে ৫, an, অথবা one ব্যবহৃত হতে পারে। যেমন: 1.
           It is a book 2. It is an egg. 3. There is one book on the table.{" "}
           <br />

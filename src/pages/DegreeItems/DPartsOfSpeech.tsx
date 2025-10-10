@@ -1,16 +1,16 @@
 import data from "../../synAnt.json";
 const DPartsOfSpeech = () => {
   return (
-    <div className="px-5 lg:w-[65%] mx-auto">
+    <div className="px-3 lg:w-[65%] mx-auto">
       {/* Short technic */}
 
       <div className="text-center">
-        <h2 className="py-20 text-green-400">
+        <h2 className="py-10 text-green-400">
           A Short Technique for identifying Parts of Speech
         </h2>
       </div>
 
-      <div className="my-10 text-lg md:text-xl">
+      <div className="text-base">
         <div className="">
           <h3 className="text-rose-500 my-5">Parts of Speech চিনিবার উপায়</h3>
           Adjective চিনিবার উপায়ঃ <br />

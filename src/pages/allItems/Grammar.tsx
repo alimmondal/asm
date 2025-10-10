@@ -3,8 +3,7 @@ import GrammarItem from "../../components/home/GrammarItem";
 const Grammar = () => {
   return (
     <div>
-      Grammar
-      <div className="py-20">
+      <div className="py-20 min-h-screen">
         <GrammarItem />
       </div>
     </div>
