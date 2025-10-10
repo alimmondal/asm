@@ -90,7 +90,7 @@ function PartsOfSpeechBeginner() {
           {/* Verb */}
           <div className="">
             <h2 className="text-pink-500">Verb</h2>
-            <p className="">
+            <div className="">
               Verb: যে word দ্বারা কোনো কিছু করা বা হওয়া বা থাকা কে বুঝায়, তাকে
               Verb বলে (The word that means to do or to be or to be something is
               called verb.) । <br />
@@ -204,7 +204,7 @@ function PartsOfSpeechBeginner() {
               4. To err is human.
               <br />
               5. To speak the truth, he's honest.
-            </p>
+            </div>
           </div>
           <br />
           {/* adverb */}

@@ -50,14 +50,11 @@ const table5: TableData[] = [
   { singular: "tooth", plural: "teeth" },
 ];
 
-const table6: TableData[] = [
+// ---------- PAGE 35 ----------
+const table7: TableData[] = [
   { singular: "amoeba", foreignPlural: "amoebae", englishPlural: "amoebas" },
   { singular: "antenna", foreignPlural: "antennae", englishPlural: "antennas" },
   { singular: "formula", foreignPlural: "formulae", englishPlural: "formulas" },
-];
-
-// ---------- PAGE 35 ----------
-const table7: TableData[] = [
   { singular: "nebula", foreignPlural: "nebulae", englishPlural: "nebulas" },
   { singular: "apex", foreignPlural: "apices", englishPlural: "apexes" },
   { singular: "index", foreignPlural: "indices", englishPlural: "indexes" },
@@ -109,7 +106,7 @@ const TableSection = ({
   data: TableData[];
 }) => (
   <div className="mb-10">
-    <h2 className="text-lg font-semibold mb-3 text-gray-800">{title}</h2>
+    <h2 className="text-lg font-semibold mb-3 text-gray-400">{title}</h2>
     <div className="overflow-x-auto">
       <table className="min-w-full border border-gray-300 rounded-lg text-sm">
         <thead className="bg-gray-100">
@@ -153,58 +150,49 @@ const TableSection = ({
 
 const PluralForms: React.FC = () => {
   return (
-    <div className="p-6 max-w-5xl mx-auto text-gray-300">
-      <h1 className="text-2xl font-bold text-center mb-6 text-blue-700">
-        English Pluralisation Tables (Page 33–35)
-      </h1>
-
+    <div className="p-5 max-w-5xl mx-auto text-gray-300">
       {/* PAGE 33 */}
       <TableSection
-        title="1. Words ending with s, ch, sh, tch, x → add 'es'"
+        title="1. শব্দের শেষে s, ch, sh, tch, x, থাকলে plural-এ es যোগ হয়:"
         headers={["Singular", "Plural"]}
         data={table1}
       />
       <TableSection
-        title="2. Words ending with f or fe → change to 'ves'"
+        title="2. কোন কোন noun-এর ক্ষেত্রে শব্দের শেষে-f, বা-fe থাকলে plural-এ-ves হয়, :"
         headers={["Singular", "Plural"]}
         data={table2}
       />
 
       {/* PAGE 34 */}
       <TableSection
-        title="3. Only 's' is added"
+        title="3. কোন কোন noun-এর ক্ষেত্রে শব্দের শেষে শুধু 's' যুক্ত  হয়"
         headers={["Singular", "Plural"]}
         data={table3}
       />
       <TableSection
-        title="4. Nouns ending with -th"
+        title="4. শব্দের শেষে -th থাকলে plural-এ s যোগ হয়: [Nouns ending with th]"
         headers={["Singular", "Plural"]}
         data={table4}
       />
       <TableSection
-        title="5. Old English plural forms"
+        title="5. কিছু কিছু noun-এর ক্ষেত্রে Old English plural forms এখনও  ব্যবহার  হয় "
         headers={["Singular", "Plural"]}
         data={table5}
-      />
-      <TableSection
-        title="6. Latin and Greek nouns (Part 1)"
-        headers={["Singular", "Foreign plural", "English plural"]}
-        data={table6}
       />
 
       {/* PAGE 35 */}
       <TableSection
-        title="7. Latin and Greek nouns (Part 2)"
+        title="6. Latin এবং Greek noun  এর উক্ত ভাষার plural form আছে, আবার  তাদের English plural forms -ও আছে"
         headers={["Singular", "Foreign plural", "English plural"]}
         data={table7}
       />
       <TableSection
-        title="8. Words ending with consonant + 'o' → add 'es'"
+        title="7. শব্দের শেষে consonant + 'o' → থাকলে 'es' যুক্ত করে plural করতে হয়ঃ"
         headers={["Singular", "Plural"]}
         data={table8}
       />
       <TableSection
-        title="9. Hyphenated compound nouns → plural on main word"
+        title="8. (-) হাইফেন যুক্ত Noun এর মূল শব্দের শেষে/ প্রথম শব্দের শেষে S যুক্ত করে প করতে হয়ঃ  (Hyphenated compound nouns → plural on main word)"
         headers={["Singular", "Plural"]}
         data={table9}
       />
