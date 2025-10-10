@@ -1,3 +1,5 @@
+import PluralForms from "../../components/PluralForms";
+
 const Number = () => {
   return (
     <div>
@@ -31,6 +33,7 @@ const Number = () => {
         <br />
         English plural <br />
         nebulas apex apexes indexes memorandums funguses syllabuses <br />
+        <PluralForms />
         6. শেষে consonant + "o" থাকলে -es যোগ করে plural করা হয়, কোন কোন সময়:{" "}
         <br />
         Singular Plural

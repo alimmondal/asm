@@ -64,7 +64,7 @@ import Dictionary from "../pages/allItems/Dictionary";
 import Grammar from "../pages/allItems/Grammar";
 import PaOfSp from "../pages/allItems/PartsOfSpeech";
 import There from "../pages/allItems/There";
-import Number from "../components/Number";
+import Number from "../pages/allItems/Number";
 import UseOfIt from "../components/UseOfIt";
 export const router = createBrowserRouter([
   {
