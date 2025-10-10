@@ -7,21 +7,38 @@ type TableData = {
   englishPlural?: string;
 };
 
-// ---------- PAGE 34 DATA ----------
-const data1: TableData[] = [
+// ---------- PAGE 33 ----------
+const table1: TableData[] = [
+  { singular: "bus", plural: "buses" },
+  { singular: "bunch", plural: "bunches" },
+  { singular: "bush", plural: "bushes" },
+  { singular: "patch", plural: "patches" },
+  { singular: "fox", plural: "foxes" },
+];
+
+const table2: TableData[] = [
+  { singular: "calf", plural: "calves" },
+  { singular: "half", plural: "halves" },
+  { singular: "hoof", plural: "hooves" },
+  { singular: "knife", plural: "knives" },
+  { singular: "life", plural: "lives" },
+];
+
+// ---------- PAGE 34 ----------
+const table3: TableData[] = [
   { singular: "proof", plural: "proofs" },
   { singular: "roof", plural: "roofs" },
   { singular: "relief", plural: "reliefs" },
   { singular: "belief", plural: "beliefs" },
 ];
 
-const data2: TableData[] = [
+const table4: TableData[] = [
   { singular: "breath", plural: "breaths" },
   { singular: "cloth", plural: "cloths" },
   { singular: "wreath", plural: "wreaths" },
 ];
 
-const data3: TableData[] = [
+const table5: TableData[] = [
   { singular: "man", plural: "men" },
   { singular: "child", plural: "children" },
   { singular: "woman", plural: "women" },
@@ -33,14 +50,14 @@ const data3: TableData[] = [
   { singular: "tooth", plural: "teeth" },
 ];
 
-const data4: TableData[] = [
+const table6: TableData[] = [
   { singular: "amoeba", foreignPlural: "amoebae", englishPlural: "amoebas" },
   { singular: "antenna", foreignPlural: "antennae", englishPlural: "antennas" },
   { singular: "formula", foreignPlural: "formulae", englishPlural: "formulas" },
 ];
 
-// ---------- PAGE 35 DATA ----------
-const data5: TableData[] = [
+// ---------- PAGE 35 ----------
+const table7: TableData[] = [
   { singular: "nebula", foreignPlural: "nebulae", englishPlural: "nebulas" },
   { singular: "apex", foreignPlural: "apices", englishPlural: "apexes" },
   { singular: "index", foreignPlural: "indices", englishPlural: "indexes" },
@@ -67,14 +84,14 @@ const data5: TableData[] = [
   { singular: "terminus", foreignPlural: "termini" },
 ];
 
-const data6: TableData[] = [
+const table8: TableData[] = [
   { singular: "veto", plural: "vetoes" },
   { singular: "hero", plural: "heroes" },
   { singular: "potato", plural: "potatoes" },
   { singular: "tomato", plural: "tomatoes" },
 ];
 
-const data7: TableData[] = [
+const table9: TableData[] = [
   { singular: "father-in-law", plural: "fathers-in-law" },
   { singular: "mother-in-law", plural: "mothers-in-law" },
   { singular: "brother-in-law", plural: "brothers-in-law" },
@@ -136,48 +153,60 @@ const TableSection = ({
 
 const PluralForms: React.FC = () => {
   return (
-    <div className="p-6 max-w-4xl mx-auto">
+    <div className="p-6 max-w-5xl mx-auto text-gray-300">
       <h1 className="text-2xl font-bold text-center mb-6 text-blue-700">
-        English Plural Forms (Page 34–35)
+        English Pluralisation Tables (Page 33–35)
       </h1>
+
+      {/* PAGE 33 */}
+      <TableSection
+        title="1. Words ending with s, ch, sh, tch, x → add 'es'"
+        headers={["Singular", "Plural"]}
+        data={table1}
+      />
+      <TableSection
+        title="2. Words ending with f or fe → change to 'ves'"
+        headers={["Singular", "Plural"]}
+        data={table2}
+      />
 
       {/* PAGE 34 */}
       <TableSection
-        title="1. Only 's' is added"
+        title="3. Only 's' is added"
         headers={["Singular", "Plural"]}
-        data={data1}
+        data={table3}
       />
       <TableSection
-        title="2. Nouns ending with -th"
+        title="4. Nouns ending with -th"
         headers={["Singular", "Plural"]}
-        data={data2}
+        data={table4}
       />
       <TableSection
-        title="3. Old English plural forms"
+        title="5. Old English plural forms"
         headers={["Singular", "Plural"]}
-        data={data3}
+        data={table5}
       />
       <TableSection
-        title="4. Latin and Greek nouns (Page 34)"
+        title="6. Latin and Greek nouns (Part 1)"
         headers={["Singular", "Foreign plural", "English plural"]}
-        data={data4}
+        data={table6}
       />
 
       {/* PAGE 35 */}
       <TableSection
-        title="5. Latin and Greek nouns (Page 35)"
+        title="7. Latin and Greek nouns (Part 2)"
         headers={["Singular", "Foreign plural", "English plural"]}
-        data={data5}
+        data={table7}
       />
       <TableSection
-        title="6. Consonant + 'o' nouns"
+        title="8. Words ending with consonant + 'o' → add 'es'"
         headers={["Singular", "Plural"]}
-        data={data6}
+        data={table8}
       />
       <TableSection
-        title="7. Hyphenated compound nouns"
+        title="9. Hyphenated compound nouns → plural on main word"
         headers={["Singular", "Plural"]}
-        data={data7}
+        data={table9}
       />
     </div>
   );
