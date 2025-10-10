@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const PartsOfSpeechAdvanced = () => {
   return (
     <div className="h-full lg:w-[60%] mx-auto px-3">
@@ -172,68 +174,12 @@ export const PartsOfSpeechAdvanced = () => {
           -ness, -ance, -ence, ity যুক্ত শব্দ: <br />
           brightness, selfishness, ignorance, adolescence, serenity, ইত্যাদি।{" "}
           <br />
-          Noun-এর বহুবচনে রূপান্তর (Pluralisation) <br />
-          অধিকাংশ noun-এর শেষে ১ যোগ করলে plural হয়। তবে pluralisation-এর
-          ব্যাপারে নিচে কিছু গুরুত্বপূর্ণ আলোচনা করা হলো: <br />
-          Singular অবস্থায় বিশেষ বানান হলে plural-এ বিশেষ রূপ ধারণ করে এরূপ কিছু
-          শব্দ নিচে দেয়া হলো: <br />
-          1. শেষে s, ch, sh, tch, x, থাকলে plural-এ es যোগ হয়: <br />
-          Singular <br />
-          Plural <br />
-          bus <br />
-          buses bunch bunches bush bushes patch fox patches foxes <br />
-          2. শেষে-f, বা-fe থাকলে plural-এ-ves হয়, কোন কোন noun-এর ক্ষেত্রে:{" "}
           <br />
-          Singular <br />
-          calf half hoof knife life <br />
-          Plural <br />
-          calves halves hooves knives F.3 lives ইত্যাদি। <br />
-          Parts of Speech: A Quick Glance 35 <br />
-          Singular *nebula index analysis hypothesis synopsis * criterion
-          bacterium memorandum bacillus fungus stimulus syllabus * radius
-          terminus Foreign plural <br />
-          nebulae apices indices analyses hypotheses synopses thesis theses
-          criteria bacteria memoranda bacilli fungi stimuli syllabi radii
-          termini <br />
-          English plural <br />
-          nebulas apex apexes indexes memorandums funguses syllabuses <br />
-          6. শেষে consonant + "o" থাকলে -es যোগ করে plural করা হয়, কোন কোন সময়:{" "}
-          <br />
-          Singular <br />
-          veto hero potato tomato Plural <br />
-          vetoes heroes potatoes tomatoes <br />
-          7. "-" হাইফেন যুক্ত noun এর মূল শব্দ যোগে plural হয়: <br />
-          Singular <br />
-          father-in-law mother-in-law brother-in-law passer-by <br />
-          Plural <br />
-          fathers-in-law mothers-in-law brothers-in-law passers-by <br />
-          36 <br />
-          Noun-equivalents (Noun-এর সমমান সম্পন্ন পদসমূহ) <br />
-          বাক্যে কিছু কিছু পদের শব্দ বা phrase পদমর্যাদার দিক দিয়ে noun-এর
-          সমপর্যায়ের হতে পারে, এবং বাক্যে একটা noun বা noun phrase যে যে
-          function করে, ঐ সমস্ত পদের শব্দ বা phrase-গুলোও সেই function করতে
-          পারে। সেগুলো হচ্ছে: <br />
-          (1) Gerund: (verb+ing) <br />
-          ziaylana <br />
-          যেমন: Swimming, playing, ইত্যাদি। অবশ্য মনে রাখতে হবে gerund আবার কখন
-          ও কখনও adjective-এর function করতে পারে। যেমন: drinking water এই
-          phrase-এ "drinking" একটা adjective-এর কাজ করছে। এরূপ ক্ষেত্র ছাড়া
-          gerund সাধারণত: noun-এর কাজই করে থাকে। <br />
-          (2) Infinitive phrase: (to + verb) <br />
-          Infinitive যদি উদ্দেশ্যমূলক না হয় তবে তা noun-এর মত কাজ করে। <br />
-          (a) To do this work requires great skill. <br />
-          zullised <br />
-          (b) I want to have a good accommodation here. <br />
-          Sentence (a) তে "To do this work" subject হিসেবে কাজ করছে, এবং (b) তে
-          "to have a good accommodation" object হিসেবে কাজ করছে। <br />
-          (3) Adjective-এর আগে "the" ব্যবহৃত হলে তা noun-এর মত কাজ করে। <br />*
-          যেমন: "The poor", "the rich" এবং past participle-এর আগে "the" বসালেও
-          তা noun-এর মত কাজ করে। যেমন "the learned" "the down-trodden" ইত্যাদি।{" "}
-          <br />
-          (a) The poor are the sufferers. <br />
-          (b) We feel sympathy for the down-trodden. <br />
-          250 <br />
-          Noun-এর Possessive বা Genitive form olog <br />
+          <Link className="text-blue-500 underline" to={"/number"}>
+            {" "}
+            Click here to learn more of Number{" "}
+          </Link>
+          <h3 className="text-pink-600">Noun-এর Possessive বা Genitive form</h3>
           Possessive বলতে noun বা pronoun-এর একটা form যেটা কোন noun বা
           pronoun-এর কিছু আছে, বা কোন কিছু তার দখলে আছে এরূপ বুঝায়। আমরা এখানে
           noun-এর possessive form আলোচনা করছি। Possessive দুভাবে গঠন করা যায়:{" "}
@@ -271,7 +217,7 @@ export const PartsOfSpeechAdvanced = () => {
           করাই উচিত: <br />
           The name of the street. (The street's name নয়) <br />
           The back of the room. (The room's back নয়) <br />
-          Lore <br />
+          <br />
           (7) কখনও কখনও দুই বা ততোধিক ব্যক্তি কোন প্রতিষ্ঠান বা সম্পদের মালিক
           হয়। সে ক্ষেত্রে শেষোক্ত নামের পরে 's বসে: <br />
           Haq and Molla's firm; <br />
@@ -279,9 +225,7 @@ export const PartsOfSpeechAdvanced = () => {
           শুধু '(apostrophe) ব্যবহৃত হয়: <br />
           (1) Plural noun এর ক্ষেত্রে; plural "s" এর উপর: <br />
           boys' school; girls' college; citizens' rights. <br />
-          38 <br />
-          camelD メッ <br />
-          FRIENDS' Language <br />
+          <br />
           (2) যে সমস্ত নামের শেষে s থাকে; <br />
           Socrates' ideas; Keats' poetry, Euripides' plays. <br />
           Note: এ জাতীয় নামের শেষে 's ও দেয়া যায়। যেমন: Keats's poetry Dickens's
@@ -315,14 +259,13 @@ export const PartsOfSpeechAdvanced = () => {
           Mr Mahfuz, headmaster of the school, is present. <br />
           6 Modifier of another noun: <br />
           I like a cotton shirt. <br />
-          It is a silver bracelet, lalelais draud <br />
-          Parts of Speech: A Quick Glance 39 <br />
-          Noun Phrase <br />
+          It is a silver bracelet, lalelais draud
+          <br />
+          <br />
+          <h3 className="text-pink-600">Noun Phrase </h3>
           [Sentence: Elements, structure, and Types অধ্যায়ের Different Kinds of
-          phrase section-এ দ্রষ্টব্য) <br />
-          aniwollal <br />
+          phrase section-এ দ্রষ্টব্য] <br />
           Noun সম্বন্ধে জরুরী জ্ঞাতব্য বিষয়: <br />
-          (bamitos?) to 300 (3) <br />
           Parts of speech সম্বন্ধে পূর্বেই বলা হয়েছে যে ইংরেজি ভাষা শেখার জন্য
           parts of speech-এর বিস্তৃত বিষয় মনে রাখার কোন প্রয়োজন নেই। এ প্রসঙ্গে
           বলা প্রয়োজন-স্কুল পর্যায়ে সম্মানিত শিক্ষক মহোদয়গণ parts of speech-এর

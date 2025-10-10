@@ -40,7 +40,7 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "lg:fixed top-0 left-0 right-0 z-10 transition-all bg-green-400 text-white font-bold"
+            ? "fixed top-0 left-0 right-0 z-10 transition-all bg-green-400 text-white font-bold"
             : "bg-sky-500 font-bold text-black"
         }
       >

@@ -21,6 +21,16 @@ function GrammarItem() {
               Use of There
             </li>
           </Link>
+          <Link to={"/it"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white hover:bg-black">
+              Use of It
+            </li>
+          </Link>
+          <Link to={"/number"}>
+            <li className="bg-rose-500 px-3 py-2 rounded-sm text-white transition hover:bg-black dark:border dark:border-slate-400">
+              Number/ বচন
+            </li>
+          </Link>
           <Link to={"/paOfSp"}>
             <li className="bg-rose-500 px-3 py-2 rounded-sm text-white transition hover:bg-black dark:border dark:border-slate-400">
               Parts Of Speech
