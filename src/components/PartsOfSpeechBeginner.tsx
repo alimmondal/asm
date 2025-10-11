@@ -120,23 +120,27 @@ function PartsOfSpeechBeginner() {
               করতে পারে । <br />
               Examples: <br />
               <div className="overflow-x-auto">
-                <table className="min-w-[800px] table-auto dark:border-slate-400">
-                  <tr>
-                    <th>Transitive Verb</th>
-                    <th>Intransitive Verb</th>
-                  </tr>
-                  <tr>
-                    <td>Ring the bell.</td>
-                    <td>The bell Ringed.</td>
-                  </tr>
-                  <tr>
-                    <td>The driver stopped the bus.</td>
-                    <td>The bus stopped. </td>
-                  </tr>
-                  <tr>
-                    <td>the boys flew kites in the sky.</td>
-                    <td>Birds flew in the sky.</td>
-                  </tr>
+                <table className="min-w-[500px] table-auto dark:border-slate-400">
+                  <thead>
+                    <tr>
+                      <th>Transitive Verb</th>
+                      <th>Intransitive Verb</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Ring the bell.</td>
+                      <td>The bell Ringed.</td>
+                    </tr>
+                    <tr>
+                      <td>The driver stopped the bus.</td>
+                      <td>The bus stopped. </td>
+                    </tr>
+                    <tr>
+                      <td>the boys flew kites in the sky.</td>
+                      <td>Birds flew in the sky.</td>
+                    </tr>
+                  </tbody>
                 </table>
               </div>
               <br />

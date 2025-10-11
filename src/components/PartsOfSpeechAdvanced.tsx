@@ -130,7 +130,7 @@ export const PartsOfSpeechAdvanced = () => {
             জাতীয় কোন কিছু ইন্দ্রিয়গ্রাহ্য নয়।
           </div>
           <br />
-          <br />
+
           <div className="">
             <h2 className="text-pink-600">Parts of Speech-এর Number </h2>
             <br />
@@ -229,8 +229,10 @@ export const PartsOfSpeechAdvanced = () => {
               </div>
               <br />
               <br />
-              সাধারণত: countable হিসেবে ব্যবহৃত হয় এমন কিছু noun নিচে উল্লেখ করা
-              হলো: <br />
+              <h3 className="">
+                সাধারণত: countable হিসেবে ব্যবহৃত হয় এমন কিছু noun নিচে উল্লেখ
+                করা হলো:{" "}
+              </h3>
               1. ব্যক্তি: a man, a student, a teacher ইত্যাদি; <br />
               2. জীবজন্তু: a dog, a horse, a tiger, a mouse, ইত্যাদি। <br />
               3. গাছপালা: a tree, a bush, a cactus ইত্যাদি। <br />
@@ -244,9 +246,11 @@ export const PartsOfSpeechAdvanced = () => {
               ৪. শ্রেণী বিন্যাস: a family, a city, a word, a phrase ইত্যাদি।{" "}
               <br />
               9. কিছু abstract (নির্বস্তুক) শব্দ: a hindrance, a nuisance, a
-              plan, a taboo ইত্যাদি। <br />
-              সাধারণত: Uncountable হিসেবে ব্যবহৃত এমন কিছু noun নীচে উল্লেখ করা
-              হলো: <br />
+              plan, a taboo ইত্যাদি। <br /> <br />
+              <h3 className="">
+                সাধারণত: Uncountable হিসেবে ব্যবহৃত এমন কিছু noun নীচে উল্লেখ
+                করা হলো:
+              </h3>{" "}
               1. খাদ্য জাতীয় জিনিসের নাম: <br />
               Bread, cake, chocolate, spinach, spaghetti, butter, cheese,
               ইত্যাদি। <br />
@@ -267,165 +271,174 @@ export const PartsOfSpeechAdvanced = () => {
               ইত্যাদি।
             </div>
             <br />
-            <br />
             <Link className="text-blue-500 underline" to={"/number"}>
               Click here to learn more of Number
             </Link>
             <br />
-            <h3 className="text-pink-600">
-              Noun-equivalents (Noun-এর সমমান সম্পন্ন পদসমূহ)
-            </h3>
+            {/* Noun-equivalents  */}
+            <div className="">
+              <h3 className="text-pink-600">
+                Noun-equivalents(Noun-এর সমমান সম্পন্ন পদসমূহ)
+              </h3>
+              বাক্যে কিছু কিছু পদের শব্দ বা phrase পদমর্যাদার দিক দিয়ে noun-এর
+              সমপর্যায়ের হতে পারে, এবং বাক্যে একটা noun বা noun phrase যে যে
+              function করে, ঐ সমস্ত পদের শব্দ বা phrase-গুলোও সেই function করতে
+              পারে। <br />
+              সেগুলো হচ্ছে: <br />
+              (1) Gerund: (verb+ing) <br />
+              যেমন: <br />
+              Swimming, playing, ইত্যাদি। <br />
+              অবশ্য মনে রাখতে হবে gerund আবার কখন ও কখনও adjective-এর function
+              করতে পারে। <br />
+              যেমন: drinking water এই phrase-এ "drinking" একটা adjective-এর কাজ
+              করছে। এরূপ ক্ষেত্র ছাড়া gerund সাধারণত: noun-এর কাজই করে থাকে।{" "}
+              <br />
+              <br />
+              (2) Infinitive phrase: (to + verb) <br />
+              Infinitive যদি উদ্দেশ্যমূলক না হয় তবে তা noun-এর মত কাজ করে।{" "}
+              <br />
+              যেমন: <br />
+              (a) To do this work requires great skill. <br />
+              zullised <br />
+              (b) I want to have a good accommodation here. <br />
+              Sentence (a) তে "To do this work" subject হিসেবে কাজ করছে, এবং (b)
+              তে "to have a good accommodation" object হিসেবে কাজ করছে। <br />
+              (3) Adjective-এর আগে "the" ব্যবহৃত হলে তা noun-এর মত কাজ করে।{" "}
+              <br />
+              যেমন: <br />
+              "The poor", "the rich" <br />
+              এবং past participle-এর আগে "the" বসালেও তা noun-এর মত কাজ করে।
+              যেমন:
+              <br />
+              "the learned" "the down-trodden" ইত্যাদি। <br />
+              (a) The poor are the sufferers. <br />
+              (b) We feel sympathy for the down-trodden.
+            </div>
             <br />
-            বাক্যে কিছু কিছু পদের শব্দ বা phrase পদমর্যাদার দিক দিয়ে noun-এর
-            সমপর্যায়ের হতে পারে, এবং বাক্যে একটা noun বা noun phrase যে যে
-            function করে, ঐ সমস্ত পদের শব্দ বা phrase-গুলোও সেই function করতে
-            পারে। <br />
-            সেগুলো হচ্ছে: <br />
-            (1) Gerund: (verb+ing) <br />
-            যেমন: <br />
-            Swimming, playing, ইত্যাদি। <br />
-            অবশ্য মনে রাখতে হবে gerund আবার কখন ও কখনও adjective-এর function
-            করতে পারে। <br />
-            যেমন: drinking water এই phrase-এ "drinking" একটা adjective-এর কাজ
-            করছে। এরূপ ক্ষেত্র ছাড়া gerund সাধারণত: noun-এর কাজই করে থাকে।{" "}
+            {/* Noun-এর Possessive বা Genitive form */}
+            <div className="">
+              <h3 className="text-pink-600">
+                Noun-এর Possessive বা Genitive form
+              </h3>
+              Possessive বলতে noun বা pronoun-এর একটা form যেটা কোন noun বা
+              pronoun-এর কিছু আছে, বা কোন কিছু তার দখলে আছে এরূপ বুঝায়। আমরা
+              এখানে noun-এর possessive form আলোচনা করছি। Possessive দুভাবে গঠন
+              করা যায়: <br />
+              (1) কোন noun এর পরে' বসিয়ে। <br />
+              যেমন: The ship's name. <br />
+              (2) Possession-কে prepositional phrase এর-head word বানিয়ে। <br />
+              যেমন: The name of the ship. <br />
+              Parts of Speech: A Quick Glance 37 <br />
+              'S যুক্ত করে possessive গঠন করা যায় কিভাবে <br />
+              ফাই <br />
+              (1) কোন singular noun-এর শেষে 's যোগ করে। <br />
+              যেমন: Bird's beak (পাখির ঠোঁট) Matin's shirt (মতিনের শার্ট) <br />
+              Cow's milk (গরুর দুধ); America's foreign policy (আমেরিকার বৈদেশিক
+              নীতি); goat's cheese (ছাগদুগ্ধের পনির)। <br />
+              (2) সময়ের পরিমাপের ক্ষেত্রে; today's news (আজকের খবর); yesterday's
+              incident (গতকালের ঘটনা)। <br />
+              (3) Complex noun phrase-এর ক্ষেত্রে: The director of company's
+              assessment (কোম্পানির পরিচালকের মূল্যায়ন) the Prince of Albania's
+              daughter (আলবানিয়ার রাজকুমারের কন্যা), the chief of Army's
+              statement (সেনা প্রধানের বক্তব্য)। <br />
+              (4) কিছু কিছু English idiom-এর ক্ষেত্রে an arm's length; for
+              economy's sake; our money's worth. <br />
+              (5) যে সমস্ত plural-এর শেষে "n" থাকে: children's education; men's
+              wear, women's rights. <br />
+              (6) 's-possessive দ্বারা বিশেষিত কোন noun উহ্য থাকতে পারে যদি
+              প্রসঙ্গ থেকে তা বোঝা যায়: <br />
+              (a) My car is faster than Sejan's. (Sejan's car) <br />
+              (b) His memory is as good as Rafiq's. (Rafiq's memory) <br />
+              উপরের (a) বাক্যে Sejan's-এর পরে car, এবং (b) বাক্যে Rafiq's-এর পরে
+              memory-এর উল্লেখ নিষ্প্রয়োজন, কারণ তা context থেকেই বোঝা যাচ্ছে।{" "}
+              <br />
+              Note যে সমস্ত নাম মানুষ, জীবজন্তু, বা দেশের নাম নয় সেগুলোর 's
+              possessive না ব্যবহার করাই উত্তম, এবং "of" possessive দ্বারা
+              প্রকাশ করাই উচিত: <br />
+              The name of the street. (The street's name নয়) <br />
+              The back of the room. (The room's back নয়) <br />
+              <br />
+              (7) কখনও কখনও দুই বা ততোধিক ব্যক্তি কোন প্রতিষ্ঠান বা সম্পদের
+              মালিক হয়। সে ক্ষেত্রে শেষোক্ত নামের পরে 's বসে: <br />
+              Haq and Molla's firm; <br />
+              Midha and Sheikh's apartment. <br />
+              শুধু '(apostrophe) ব্যবহৃত হয়: <br />
+              (1) Plural noun এর ক্ষেত্রে; plural "s" এর উপর: <br />
+              boys' school; girls' college; citizens' rights. <br />
+              <br />
+              (2) যে সমস্ত নামের শেষে s থাকে; <br />
+              Socrates' ideas; Keats' poetry, Euripides' plays. <br />
+              Note: এ জাতীয় নামের শেষে 's ও দেয়া যায়। যেমন: Keats's poetry
+              Dickens's novels, ইত্যাদি। <br />
+              "Of" ব্যবহার করেও possessive করা যায়: <br />
+              Possession-এর নামটা আগে বসিয়ে তার পর "of” এবং possessor-এর নাম
+              বসাতে হয়। তখন 's দরকার হয় না। <br />
+              যেমন: Keats's poetry এটা the poetry of Keats এভাবেও লেখা যায়। কোন
+              কোন ক্ষেত্রে, বিশেষ করে জড় পদার্থের ক্ষেত্রে of-possessive ব্যবহার
+              অধিকতর কাম্য। <br />
+              যেমন: <br />
+              (a) the title of the book <br />
+              (b) the interior of the room <br />
+              উদাহরণ (a)'র বেলায় The book's title, এবং (b)'র বেলায় The room's
+              interior, এভাবেও লেখা যায়, তবে of দিয়ে লেখা বেশি কাম্য। <br />
+              তবে কতকগুলো ক্ষেত্রে 's possessive লেখাই যায় না। যেমন: the hub of
+              the wheel-এর পরিবর্তে the wheel's hub, লেখা যাবে না। <br />
+              বাক্যে Noun-এর ব্যবহার, বা কি কি কাজ করে: <br />
+              1. Subject হিসেবে: <br />
+              Zaman came yesterday. <br />
+              2. Object: <br />
+              (a) Direct object: She is eating an apple. <br />
+              (b) Indirect object: I gave my friend a gift. <br />
+              3. Complement: <br />
+              (a) Subjective complement: <br />
+              He is a doctor. <br />
+              (b) Objective complement: <br />
+              We made him chairman. <br />
+              4. Adverbial: They went home. <br />
+              5. Appositive <br />
+              Mr Mahfuz, headmaster of the school, is present. <br />
+              6 Modifier of another noun: <br />
+              I like a cotton shirt. <br />
+              It is a silver bracelet, lalelais draud
+            </div>
             <br />
-            <br />
-            (2) Infinitive phrase: (to + verb) <br />
-            Infinitive যদি উদ্দেশ্যমূলক না হয় তবে তা noun-এর মত কাজ করে। <br />
-            যেমন: <br />
-            (a) To do this work requires great skill. <br />
-            zullised <br />
-            (b) I want to have a good accommodation here. <br />
-            Sentence (a) তে "To do this work" subject হিসেবে কাজ করছে, এবং (b)
-            তে "to have a good accommodation" object হিসেবে কাজ করছে। <br />
-            (3) Adjective-এর আগে "the" ব্যবহৃত হলে তা noun-এর মত কাজ করে। <br />
-            যেমন: <br />
-            "The poor", "the rich" <br />
-            এবং past participle-এর আগে "the" বসালেও তা noun-এর মত কাজ করে। যেমন:
-            <br />
-            "the learned" "the down-trodden" ইত্যাদি। <br />
-            (a) The poor are the sufferers. <br />
-            (b) We feel sympathy for the down-trodden.
-            <br />
-            <h3 className="text-pink-600">
-              Noun-এর Possessive বা Genitive form
-            </h3>
-            Possessive বলতে noun বা pronoun-এর একটা form যেটা কোন noun বা
-            pronoun-এর কিছু আছে, বা কোন কিছু তার দখলে আছে এরূপ বুঝায়। আমরা এখানে
-            noun-এর possessive form আলোচনা করছি। Possessive দুভাবে গঠন করা যায়:{" "}
-            <br />
-            (1) কোন noun এর পরে' বসিয়ে। <br />
-            যেমন: The ship's name. <br />
-            (2) Possession-কে prepositional phrase এর-head word বানিয়ে। <br />
-            যেমন: The name of the ship. <br />
-            Parts of Speech: A Quick Glance 37 <br />
-            'S যুক্ত করে possessive গঠন করা যায় কিভাবে <br />
-            ফাই <br />
-            (1) কোন singular noun-এর শেষে 's যোগ করে। <br />
-            যেমন: Bird's beak (পাখির ঠোঁট) Matin's shirt (মতিনের শার্ট) <br />
-            Cow's milk (গরুর দুধ); America's foreign policy (আমেরিকার বৈদেশিক
-            নীতি); goat's cheese (ছাগদুগ্ধের পনির)। <br />
-            (2) সময়ের পরিমাপের ক্ষেত্রে; today's news (আজকের খবর); yesterday's
-            incident (গতকালের ঘটনা)। <br />
-            (3) Complex noun phrase-এর ক্ষেত্রে: The director of company's
-            assessment (কোম্পানির পরিচালকের মূল্যায়ন) the Prince of Albania's
-            daughter (আলবানিয়ার রাজকুমারের কন্যা), the chief of Army's statement
-            (সেনা প্রধানের বক্তব্য)। <br />
-            (4) কিছু কিছু English idiom-এর ক্ষেত্রে an arm's length; for
-            economy's sake; our money's worth. <br />
-            (5) যে সমস্ত plural-এর শেষে "n" থাকে: children's education; men's
-            wear, women's rights. <br />
-            (6) 's-possessive দ্বারা বিশেষিত কোন noun উহ্য থাকতে পারে যদি
-            প্রসঙ্গ থেকে তা বোঝা যায়: <br />
-            (a) My car is faster than Sejan's. (Sejan's car) <br />
-            (b) His memory is as good as Rafiq's. (Rafiq's memory) <br />
-            উপরের (a) বাক্যে Sejan's-এর পরে car, এবং (b) বাক্যে Rafiq's-এর পরে
-            memory-এর উল্লেখ নিষ্প্রয়োজন, কারণ তা context থেকেই বোঝা যাচ্ছে।{" "}
-            <br />
-            Note যে সমস্ত নাম মানুষ, জীবজন্তু, বা দেশের নাম নয় সেগুলোর 's
-            possessive না ব্যবহার করাই উত্তম, এবং "of" possessive দ্বারা প্রকাশ
-            করাই উচিত: <br />
-            The name of the street. (The street's name নয়) <br />
-            The back of the room. (The room's back নয়) <br />
-            <br />
-            (7) কখনও কখনও দুই বা ততোধিক ব্যক্তি কোন প্রতিষ্ঠান বা সম্পদের মালিক
-            হয়। সে ক্ষেত্রে শেষোক্ত নামের পরে 's বসে: <br />
-            Haq and Molla's firm; <br />
-            Midha and Sheikh's apartment. <br />
-            শুধু '(apostrophe) ব্যবহৃত হয়: <br />
-            (1) Plural noun এর ক্ষেত্রে; plural "s" এর উপর: <br />
-            boys' school; girls' college; citizens' rights. <br />
-            <br />
-            (2) যে সমস্ত নামের শেষে s থাকে; <br />
-            Socrates' ideas; Keats' poetry, Euripides' plays. <br />
-            Note: এ জাতীয় নামের শেষে 's ও দেয়া যায়। যেমন: Keats's poetry
-            Dickens's novels, ইত্যাদি। <br />
-            "Of" ব্যবহার করেও possessive করা যায়: <br />
-            Possession-এর নামটা আগে বসিয়ে তার পর "of” এবং possessor-এর নাম বসাতে
-            হয়। তখন 's দরকার হয় না। <br />
-            যেমন: Keats's poetry এটা the poetry of Keats এভাবেও লেখা যায়। কোন
-            কোন ক্ষেত্রে, বিশেষ করে জড় পদার্থের ক্ষেত্রে of-possessive ব্যবহার
-            অধিকতর কাম্য। <br />
-            যেমন: <br />
-            (a) the title of the book <br />
-            (b) the interior of the room <br />
-            উদাহরণ (a)'র বেলায় The book's title, এবং (b)'র বেলায় The room's
-            interior, এভাবেও লেখা যায়, তবে of দিয়ে লেখা বেশি কাম্য। <br />
-            তবে কতকগুলো ক্ষেত্রে 's possessive লেখাই যায় না। যেমন: the hub of
-            the wheel-এর পরিবর্তে the wheel's hub, লেখা যাবে না। <br />
-            বাক্যে Noun-এর ব্যবহার, বা কি কি কাজ করে: <br />
-            1. Subject হিসেবে: <br />
-            Zaman came yesterday. <br />
-            2. Object: <br />
-            (a) Direct object: She is eating an apple. <br />
-            (b) Indirect object: I gave my friend a gift. <br />
-            3. Complement: <br />
-            (a) Subjective complement: <br />
-            He is a doctor. <br />
-            (b) Objective complement: <br />
-            We made him chairman. <br />
-            4. Adverbial: They went home. <br />
-            5. Appositive <br />
-            Mr Mahfuz, headmaster of the school, is present. <br />
-            6 Modifier of another noun: <br />
-            I like a cotton shirt. <br />
-            It is a silver bracelet, lalelais draud
-            <br />
-            <br />
-            <h3 className="text-pink-600">Noun Phrase </h3>
-            <br />
-            Noun সম্বন্ধে জরুরী জ্ঞাতব্য বিষয়: <br />
-            Parts of speech সম্বন্ধে পূর্বেই বলা হয়েছে যে ইংরেজি ভাষা শেখার জন্য
-            parts of speech-এর বিস্তৃত বিষয় মনে রাখার কোন প্রয়োজন নেই। এ
-            প্রসঙ্গে বলা প্রয়োজন-স্কুল পর্যায়ে সম্মানিত শিক্ষক মহোদয়গণ parts of
-            speech-এর বিস্তৃত বিষয় শেখানোর চেষ্টা করেন যদিও ভালো উদ্দেশ্য নিয়ে,
-            কিন্তু তার ফলাফল হয় খারাপ। অর্থাৎ তাঁদের এই প্রচেষ্টা ছাত্রদের মধ্যে
-            demotivation (নিরুদ্যম) সৃষ্টি করে। noun পাঁচ প্রকার, pronoun অতো
-            প্রকার, adjective ততো প্রকার ইত্যাদি মনে রাখার জন্য ছাত্রদের ওপর চাপ
-            সৃষ্টি করলে তাদের মধ্যে ভাষা শেখার প্রতি একটা বিতৃষ্ণা জন্মায়, এবং
-            এর ফলে তারা শেখার প্রচেষ্টাকে শিথিল করে ফেলে, অথবা ইচ্ছাটাকে একেবারে
-            ঝেড়ে ফেলে দিয়ে ভবিতব্যের ওপর নিজকে সম্পূর্ণভাবে সমর্পিত করে loin
-            tasd (shequo) bnet) <br />
-            ইংরেজি ভাষা শেখার জন্য noun সম্বন্ধে যেটুকু মনে রাখলেই যথেষ্ট তা
-            হচ্ছে: <br />
-            (1) Concrete বা abstract কিছুকেই noun বলে। <br />
-            (2) Noun-এর singular plural form, অর্থাৎ countable এবং uncountable.{" "}
-            <br />
-            3) Noun-এর possessive বা genitive form. <br />
-            4) Noun phrase এর structure. <br />
-            5) Sentence-এ noun-এর function. <br />
-            EXERCISES <br />
-            Exercise-1 <br />
-            Identify the conc ete and abstract nouns: <br />
-            (a) book, (b) artist, (c) honesty, (d) beauty, (e) school, (f)
-            college, (g) education, (h) air, (i) administration, (j) gold, (k)
-            manhood, (1) parent, (m) help, (n) friendship, (o) truth, (p) <br />
-            sunshine. <br />
-            Exercise-2 <br />
-            Change the concrete nouns into abstract nouns, and vice versa:{" "}
-            <br />
-            (a) citizen, (b) student, (c) boy, (d) girlhood, (e) brother, (f)
-            teacher, (g) secretary, (h) work, (i) state, (j) servant.ol
+            {/* Noun Phrase */}
+            <div className="">
+              <h3 className="text-pink-600">Noun Phrase </h3>
+              Noun সম্বন্ধে জরুরী জ্ঞাতব্য বিষয়: <br />
+              Parts of speech সম্বন্ধে পূর্বেই বলা হয়েছে যে ইংরেজি ভাষা শেখার
+              জন্য parts of speech-এর বিস্তৃত বিষয় মনে রাখার কোন প্রয়োজন নেই। এ
+              প্রসঙ্গে বলা প্রয়োজন-স্কুল পর্যায়ে সম্মানিত শিক্ষক মহোদয়গণ parts
+              of speech-এর বিস্তৃত বিষয় শেখানোর চেষ্টা করেন যদিও ভালো উদ্দেশ্য
+              নিয়ে, কিন্তু তার ফলাফল হয় খারাপ। অর্থাৎ তাঁদের এই প্রচেষ্টা
+              ছাত্রদের মধ্যে demotivation (নিরুদ্যম) সৃষ্টি করে। noun পাঁচ
+              প্রকার, pronoun অতো প্রকার, adjective ততো প্রকার ইত্যাদি মনে রাখার
+              জন্য ছাত্রদের ওপর চাপ সৃষ্টি করলে তাদের মধ্যে ভাষা শেখার প্রতি
+              একটা বিতৃষ্ণা জন্মায়, এবং এর ফলে তারা শেখার প্রচেষ্টাকে শিথিল করে
+              ফেলে, অথবা ইচ্ছাটাকে একেবারে ঝেড়ে ফেলে দিয়ে ভবিতব্যের ওপর নিজকে
+              সম্পূর্ণভাবে সমর্পিত করে loin tasd (shequo) bnet) <br />
+              ইংরেজি ভাষা শেখার জন্য noun সম্বন্ধে যেটুকু মনে রাখলেই যথেষ্ট তা
+              হচ্ছে: <br />
+              (1) Concrete বা abstract কিছুকেই noun বলে। <br />
+              (2) Noun-এর singular plural form, অর্থাৎ countable এবং
+              uncountable. <br />
+              3) Noun-এর possessive বা genitive form. <br />
+              4) Noun phrase এর structure. <br />
+              5) Sentence-এ noun-এর function. <br />
+              EXERCISES <br />
+              Exercise-1 <br />
+              Identify the conc ete and abstract nouns: <br />
+              (a) book, (b) artist, (c) honesty, (d) beauty, (e) school, (f)
+              college, (g) education, (h) air, (i) administration, (j) gold, (k)
+              manhood, (1) parent, (m) help, (n) friendship, (o) truth, (p){" "}
+              <br />
+              sunshine. <br />
+              Exercise-2 <br />
+              Change the concrete nouns into abstract nouns, and vice versa:{" "}
+              <br />
+              (a) citizen, (b) student, (c) boy, (d) girlhood, (e) brother, (f)
+              teacher, (g) secretary, (h) work, (i) state, (j) servant.ol
+            </div>
           </div>
         </div>
       </div>
