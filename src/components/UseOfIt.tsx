@@ -1,7 +1,7 @@
 const UseOfIt = () => {
   return (
     <div className="h-full lg:w-1/2 px-3 mx-auto">
-      <h2 className="text-center py-20">Use Of It/it</h2>
+      <h1 className="text-center py-20">Use Of It/it</h1>
       <p className=""></p>
       <div className="py-10">
         USE OF 'IT' <br />
@@ -19,10 +19,10 @@ const UseOfIt = () => {
         এখানে it-এর বিভিন্ন ব্যবহারকে মোট দুই দিক থেকে আলোচনা করা হবে। যথাঃ{" "}
         <br />
         (i) 'It'-as a Pronoun <br />
-        (ii) Introductory 'It' <br />
-        III. ELABORATE DISCUSSION <br />
+        (ii) Introductory 'It'
         <br />
-        (বিস্তারিত আলোচনা) <br />
+        <br />
+        III. ELABORATE DISCUSSION (বিস্তারিত আলোচনা) <br />
         Parts of speech-অধ্যায়ে তোমরা pronoun সম্বন্ধে শিখেছ-তাই না? মনে আছে
         pronoun কাকে বলে? Noun-এর বদলে যে সব word ব্যবহার করা হয় সেগুলোকেই বলে
         pronuon. <br />
