@@ -44,7 +44,7 @@ const There = () => {
           পরেই তুমি introductory 'there'-এর ব্যবহারটিকে পুরোপুরি আয়ত্ব করতে
           পারবে। তাহলে নিচের বাক্যগুলো পড় এবং প্রতিটি বাক্যে চিত্রে প্রদর্শিত
           একটি verb আছে কিনা তা দেখঃ <br />
-          <div className="ml-16">
+          <div className="ml-10">
             (i) এই পুকুরে মাছ নেই। <br />
             (ii) এই পানিতে জীবাণু থাকতে পারে। <br />
             (iii) ঐ দুধটুক তাকে দিলে কেন? ওতে জীবাণু থাকতে পারত। <br />
@@ -70,7 +70,7 @@ const There = () => {
             Introductory 'there' ব্যবহার করতে হবে।
           </div>
           <br />
-          <div className="p-3  ml-16">
+          <div className="p-3  ml-10">
             এবার তাহলে বাক্যগুলোর ইংরেজী অনুবাদ দেখঃ <br />
             (x) Rahim lives in this village. (there হবে না) <br />
             (ix) There is a museum in this city. <br />
