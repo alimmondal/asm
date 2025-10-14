@@ -4,11 +4,9 @@ import { Document, Page, pdfjs } from "react-pdf";
 
 // Set up the real worker
 pdfjs.GlobalWorkerOptions.workerSrc = pdfWorker;
-// import { Worker, Viewer } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 
 import pdfWorker from "pdfjs-dist/build/pdf.worker.min?url"; // ✅ worker import for Vite/CRA
-import { Viewer, Worker } from "@react-pdf-viewer/core";
 
 const FirstPaperModel = () => {
   const flipBook = useRef<any>(null);
@@ -214,17 +212,6 @@ const FirstPaperModel = () => {
               হয়। গেলারিতে পাওয়া যাবে না।
             </p>
           </div>
-        </div>
-      </div>
-
-      {/* scrolling effect */}
-      <div className="py-10">
-        <div>
-          <Worker
-            workerUrl={`https://unpkg.com/pdfjs-dist@2.9.359/build/pdf.worker.min.js`}
-          >
-            <Viewer fileUrl="/FirstPaperModel.pdf" />
-          </Worker>
         </div>
       </div>
     </div>

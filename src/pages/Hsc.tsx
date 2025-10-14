@@ -334,19 +334,6 @@ function Hsc() {
               Board Question
             </li>
           </Link>
-          <Link to={"/modelTest"}>
-            <li
-              className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
-              "
-            >
-              Test Papers
-            </li>
-          </Link>
         </ul>
       </div>
     </div>
