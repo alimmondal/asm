@@ -1,181 +1,11 @@
 const Sentence = () => {
   return (
-    <div className="md:w-3/4 mx-auto">
+    <div className="md:w-1/2 mx-auto">
       <div className="text-center py-20">
         <h1 className="">Sentence</h1>
         <p className="">A brief discussion on Sentence</p>
       </div>
 
-      <div className="px-5">
-        <p className="">
-          Sentence কাকে বলে? <br />
-          Definition:  পাশাপাশি অবস্থিত কিছু অর্থবোধক শব্দ বা শব্দ সমষ্টি দ্বারা
-          যদি সম্পূর্ণভাবে মনের ভাব প্রকাশ পায় তখন ঐ শব্দ সমস্টিকে Sentence বা
-          বাক্য বলে। আবার, পাশা পাশি অর্থবোধক শব্দ আছে কিন্তু মনের ভাব সম্পূর্ণ
-          ভাবে প্রকাশ করতে পারছে না এমন হলে Sentence বা বাক্য বলা যাবে না। নিচে
-          উদাহরণ গুলো লক্ষ্য করুন।  <br />
-          Example:
-          <br />
-          Correct: We speak English everyday. (Here We is subject, speak is
-          verb, English is object and everyday is an adverb) <br />
-          Incorrect:  I pen a have ( I অর্থ আমি, Pen অর্থ কলম, a অর্থ একটি এবং
-          have অর্থ আছে। এগুলো অর্থবোধক শব্দ হওয়া সত্ত্বেও ইংরেজির বাক্য গঠনরীতি
-          অনুযায়ী সম্পূর্ণভাবে মনের ভাব প্রকাশ করতে না পারায় এটাকে
-          বাক্য/Sentence বলা যাবে না। ) <br />
-          Generally, there are two parts of a sentence: (একটি Sentence এ মূলত
-          দুটি অংশ থাকে- Subject & Predicate) <br />
-          Subject and predicate কাকে বলে? <br />
-          Subject: কোন Sentence-এ যে ব্যক্তি বা বস্তু সম্পর্কে কোনকিছু বলা বা
-          লিখা হয় তাকে Subject বা কর্তা বলে । In other words, বাক্যে যে কাজ করে
-          তাকে Subject বলে। A Subject of a sentence is a person or thing about
-          which something is said or written.  <br />
-          Predicate: কোন Sentence-এ subject বা কর্তা সম্পর্কে যা বলা হয় তাকে
-          Predicate বলে । And the Predicate that says what the Subject does. {" "}
-          <br />
-          In the above example ‘I’ is the subject and ‘speak English everyday’
-          is Predicate. A sentence usually starts with a subject and predicate
-          comes. Sentence এর প্রকারভেদঃ <br />
-          অর্থ অনুসারে sentence কত প্রকার? <br />
-          অর্থ অনুযায়ী ইংরেজিতে Sentence কে সাধারণত পাঁচ ভাগে ভাগ করা যায়।
-          Sentences can be classified into five categories, according to their
-          meaning.  <br />
-          They are: <br />
-          Assertive Sentence. <br />
-          Interrogative Sentence. <br />
-          Imperative Sentence. <br />
-          Optative Sentence. <br />
-          Exclamatory Sentence. <br />
-          Assertive sentence কাকে বলে? <br />
-          Assertive Sentence: সাধারণত কোনো বিবৃতি বা বক্তব্য কে Assertive
-          Sentence (বিবৃতি মূলক বাক্য) বলে | An assertive sentence is a
-          simple/general statement or assertion, it may be either affirmative or
-          negative. <br />
-          Structure: Subject + Verb + Object/Complement/Adverb/Adjective <br />
-          Example: <br />
-          He is an intelligent boy. (Affirmative) <br />
-          They are not always happy. (Negative) <br />
-          Everybody should know English. (Modal auxiliaries) <br />
-          Interrogative sentence কাকে বলে? <br />
-          Interrogative Sentence: যে Sentence দিয়ে কোন প্রশ্ন বা  কিছু জিজ্ঞেস
-          করা বোঝায় তাকে Interrogative Sentence বলে। An interrogative sentence
-          asks questions about a person or thing(s). It always ends with a note
-          of interrogation question mark (?).
-          <br />
-          There are two basic ways to form an interrogative sentence. <br />
-          Beginning with Auxiliary verbs (am, is, are, was, were, have, has,
-          had) or modal auxiliaries (shall, should, will, would, can, could,
-          may, might, etc.). Structure: Auxiliary Verb+ Subject+ Verb Extension+
-          ? <br />
-          Example: <br />
-          Do you study in university? <br />
-          Does he speak English? <br />
-          Did she drive a car? <br />
-          Should I go with you? <br />
-          Can you hear the sound? <br />
-          Don’t you like the dress? (Negative) <br />
-          2. Beginning with some specific words like who, which, what, when,
-          where, why, how, whom, how much, how many, etc. [These words are
-          specially known as ‘WH’ questions.] <br />
-          Example: <br />
-          How is your life going on? <br />
-          Who fixed the broken door? <br />
-          Whom do you like most in your family? <br />
-          What are you expecting from the training? <br />
-          What is the time now? <br />
-          How much money do you need to study abroad? <br />
-          Imperative sentence কাকে বলে? <br />
-          Imperative Sentence: সাধারণত যে sentence দ্বারা আদেশ, উপদেশ বা অনুরোধ
-          প্রকাশ করা হয় তাকে Imperative Sentence বলে (Imperative sentence এর
-          Subject উহ্য থাকে) | A sentence that expresses a request, command,
-          order, advice, suggestion, etc. is an imperative sentence. <br />
-          Structure: Subject (Invisible-উহ্য) + Verb + Extension <br />
-          Examples: <br />
-          Study attentively. <br />
-          Give me some water. <br />
-          Do it right now. <br />
-          Be honest and truthful. <br />
-          Come here <br />
-          Speak the truth. <br />
-          Never tell a lie. <br />
-          Do not laugh at others. <br />
-          Let me do I want. <br />
-          Optative sentence কাকে বলে? <br />
-          Optative Sentence: যে sentence দ্বারা কোন ইচ্ছা, আকাঙ্ক্ষা বা
-          প্রার্থনা প্রকাশ করা হয় তাকে Optative Sentence বলে | <br />
-          Structure: May + Subject + Verb + Extension <br />
-          Example: <br />
-          May Allah bless you. <br />
-          May You be happy. <br />
-          May you prosper in your life. <br />
-          May you live long. <br />
-          Long live Bangladesh. (Can also be formed without ‘may’). <br />
-          Exclamatory sentence কাকে বলে? <br />
-          Exclamatory Sentence: যে sentence দ্বারা কোন আকস্মিক আনন্দ-বেদনা
-          ইত্যাদি প্রকাশ করা হয় তাকে Exclamatory Sentence বলে |  <br />
-          Structure: Alas/ Hurrah/ Bravo/ What/ How etc. + Others <br />
-          Example: <br />
-          Hurrah! We have won the game. <br />
-          Alas! He is no more. <br />
-          Hurrah! Our cricket team has won the series. <br />
-          Bravo! You have done a great job. <br />
-          What a talented boy he is! <br />
-          How sweetly the cuckoo sings! <br />
-          What a wonderful country Bangladesh is! <br />
-          Were I a Super Hero! <br />
-          What a pity! <br />
-          Fantastic! <br />
-          What a nice idea! <br />
-          Put that down now! <br />
-          গঠন অনুসারে Sentence কত প্রকার? <br />
-          Structure অনুসারে Sentence তিন প্রকার |  <br />
-          They are: <br />
-          Simple Sentence <br />
-          Complex Sentence & <br />
-          Compound Sentence. <br />
-          Simple sentence কাকে বলে? <br />
-          যে sentence-এ একটি মাত্র subject ও একটি মাত্র finite verb (সমাপিকা
-          ক্রিয়া) থাকে তাকে simple sentence বলে | <br />
-          Example: <br />
-          The boys play football. এ sentence-এ একটি মাত্র subject “The boys” ও
-          একটি মাত্র finite verb “play football. <br />
-          Complex Sentence কাকে বলে? <br />
-          যে sentence-এ একটি Principal Clause এবং এক বা একাধিক Subordinate
-          Clause থাকে তাকে Complex Sentence বলে | <br />
-          Example:  <br />
-          Although he is rich, he is not happy. <br />
-          I know that he would help me. <br />
-          প্রথম sentence-এ”Although he is rich” – Subordinate Clause এবং “he is
-          not happy”-Principal Clause. দ্বিতীয় Sentence-এ “I know”-Principal
-          Clause এবং”that he would help me”– Subordinate Clause. অতএব Sentence
-          দুটি Complex Sentence. <br />
-          Subordinate Clause কিভাবে চিনবো? Complex Sentence কিভাবে চিনবো? <br />
-          Subordinate Clause/Complex Sentence কিভাবে চিনবো? <br />
-          Well, Subordinate Clause এর শুরুতে সাধারণত if, though, although, as,
-          because, since, so that, that, until, till, unless, when, why, which,
-          who, where, how, before, after, whether, while ইত্যাদি word/connectors
-          বসে|  <br />
-          N.B: তাহলে কোন Clause-এ এই word/connectors গুলো থাকলে সেটি Subordinate
-          Clause এবং যে Sentence-এ Subordinate Clause থাকবে সেটা Complex
-          Sentence. Take it easy bro……… <br />
-          Compound Sentence কাকে বলে? <br />
-          যদি কোন Sentence-এ একাধিক Principal Clause and, but, or, yet, and, so,
-          and so, therefore ইত্যাদি Co-ordinating Conjunction দ্বারা যুক্ত হয়
-          তাকে Compound Sentence বলে| <br />
-          Examples: <br />
-          He is meritorious but he could not get a job. <br />
-          Read or you will fail. <br />
-          I went there and found him reading <br />
-          N.B: and দ্বারা যুক্ত Compound Sentence এর দ্বিতীয় Subject (i)টি উহ্য
-          থাকে | (উভয় Clause-এ Subject এক-ই হওয়ার কারণে)  <br />
-          Co-ordinating Conjunction  কিভাবে চিনবো? / Compound Sentence কিভাবে
-          চিনবো? <br />
-          Co-ordinating Conjunction/Clause/Compound Sentence কিভাবে চিনবো?{" "}
-          <br />
-          Co-ordinating Conjunction: (and, but, or, yet, and, so, and so,
-          therefore) তার মানে, কোন Sentence-এ এই Co-ordinating Conjunction গুলো
-          থাকলে সাধারণত সেটি Compound Sentence হবে |
-        </p>
-      </div>
       <div className="hidden">
         <p className="">
           Sentence <br />
@@ -288,55 +118,250 @@ const Sentence = () => {
           He worked hard but failed.
         </p>
       </div>
-      <div className="pt-10 px-5 md:w-[50%] mx-auto">
+
+      <div className="px-5 py-5">
         <div className="">
-          <h3 className="text-green-500">Sentence</h3>
-          <div className="rule-section">
-            <h2>Assertive Sentence:</h2>
+          <div className="">
+            Sentence কাকে বলে? <br />
+            Definition:  পাশাপাশি অবস্থিত কিছু অর্থবোধক শব্দ বা শব্দ সমষ্টি
+            দ্বারা যদি সম্পূর্ণভাবে মনের ভাব প্রকাশ পায় তখন ঐ শব্দ সমস্টিকে
+            Sentence বা বাক্য বলে। আবার, পাশা পাশি অর্থবোধক শব্দ আছে কিন্তু মনের
+            ভাব সম্পূর্ণ ভাবে প্রকাশ করতে পারছে না এমন হলে Sentence বা বাক্য বলা
+            যাবে না। নিচে উদাহরণ গুলো লক্ষ্য করুন।  <br />
+            Example:
+            <br />
+            Correct: We speak English everyday. (Here We is subject, speak is
+            verb, English is object and everyday is an adverb) <br />
+            Incorrect:  I pen a have ( I অর্থ আমি, Pen অর্থ কলম, a অর্থ একটি এবং
+            have অর্থ আছে। এগুলো অর্থবোধক শব্দ হওয়া সত্ত্বেও ইংরেজির বাক্য
+            গঠনরীতি অনুযায়ী সম্পূর্ণভাবে মনের ভাব প্রকাশ করতে না পারায় এটাকে
+            বাক্য/Sentence বলা যাবে না। ) <br />
+            Generally, there are two parts of a sentence: (একটি Sentence এ মূলত
+            দুটি অংশ থাকে- Subject & Predicate)
+            <br />
+            <br />
+            Subject and predicate কাকে বলে? <br />
+            Subject: <br />
+            কোন Sentence-এ যে ব্যক্তি বা বস্তু সম্পর্কে কোনকিছু বলা বা লিখা হয়
+            তাকে Subject বা কর্তা বলে । In other words, বাক্যে যে কাজ করে তাকে
+            Subject বলে।  
+            <br />
+            Predicate: <br />
+            কোন Sentence-এ subject বা কর্তা সম্পর্কে যা বলা হয় তাকে Predicate
+            বলে।
+          </div>
+          <br />
+          <br />
+          <div className="">
+            Sentence এর প্রকারভেদঃ
+            <br />
+            <br />
+            অর্থ অনুসারে sentence কত প্রকার? <br />
+            অর্থ অনুযায়ী ইংরেজিতে Sentence কে সাধারণত পাঁচ ভাগে ভাগ করা যায়।
+            <br />
+            They are: <br />
+            1. Assertive Sentence. <br />
+            2. Interrogative Sentence. <br />
+            3. Imperative Sentence. <br />
+            4. Optative Sentence. <br />
+            5. Exclamatory Sentence.
+            <br />
+            <br />
+            Assertive sentence কাকে বলে? <br />
+            Assertive Sentence: সাধারণত কোনো বিবৃতি বা বক্তব্য কে Assertive
+            Sentence (বিবৃতি মূলক বাক্য) বলে | <br />
+            Structure: Subject + Verb + Object/Complement/Adverb/Adjective.{" "}
+            <br />
+            Example: <br />
+            He is an intelligent boy. (Affirmative) <br />
+            They are not always happy. (Negative) <br />
+            Everybody should know English. (Modal auxiliaries)
+            <h3>Short Technique:</h3>
             <p>
               চিনার উপায়ঃ <br />
               ** দ্বিতীয় বাক্যটি Subject দ্বারা শুরু হয় এবং <br />
               ** বাক্যের শেষে full stop থাকে।
             </p>
-          </div>
-          <div className="">
-            <h2>Interrogative Sentence:</h2>
+            <br />
+            <br />
+            Interrogative sentence কাকে বলে? <br />
+            Interrogative Sentence: যে Sentence দিয়ে কোন প্রশ্ন বা  কিছু জিজ্ঞেস
+            করা বোঝায় তাকে Interrogative Sentence বলে। <br />
+            * It always ends with a note of interrogation question mark (?).
+            <br />
+            Structure: Auxiliary Verb + Subject + Verb Extension + ? <br />
+            Structure: Wh + Auxiliary Verb + Subject + Verb Extension + ?
+            <br />
+            <br />
+            * There are two basic ways to form an interrogative sentence. <br />
+            1. Beginning with Auxiliary verbs (am, is, are, was, were, have,
+            has, had) or modal auxiliaries (shall, should, will, would, can,
+            could, may, might, etc.).
+            <br />
+            <br />
+            Example: <br />
+            Do you study in university? <br />
+            Does he speak English? <br />
+            Did she drive a car? <br />
+            Should I go with you? <br />
+            Can you hear the sound? <br />
+            Don’t you like the dress? (Negative)
+            <br />
+            <br />
+            2. Beginning with some specific words like who, which, what, when,
+            where, why, how, whom, how much, how many, etc. [These words are
+            specially known as ‘WH’ questions.] <br />
+            Example: <br />
+            How is your life going on? <br />
+            Who fixed the broken door? <br />
+            Whom do you like most in your family? <br />
+            What are you expecting from the training? <br />
+            What is the time now? <br />
+            How much money do you need to study abroad?
+            <h3>Short Technique</h3>
             <p>
               চিনার উপায়ঃ
               <br />
               ** দ্বিতীয় বাক্যটি Wh/ helping verb দ্বারা শুরু হয় এবং <br />
               ** বাক্যের শেষে প্রশ্নবোধক চিহ্ন থাকে (?)।
             </p>
-          </div>
-          <div className="text-lg md:text-xl">
-            <h2>Imperative Sentence:</h2>
+            <br />
+            <br />
+            Imperative sentence কাকে বলে? <br />
+            Imperative Sentence: সাধারণত যে sentence দ্বারা আদেশ, উপদেশ বা
+            অনুরোধ প্রকাশ করা হয় তাকে Imperative Sentence বলে (Imperative
+            sentence এর Subject উহ্য থাকে) | <br />
+            Structure: Subject (Invisible - You - উহ্য) + Verb + Extension.{" "}
+            <br />
+            Examples: <br />
+            Study attentively. <br />
+            Give me some water. <br />
+            Do it right now. <br />
+            Be honest and truthful. <br />
+            Come here <br />
+            Speak the truth. <br />
+            Never tell a lie. <br />
+            Do not laugh at others. <br />
+            Let me do I want.
+            <h3>Short Technique:</h3>
             <p>
               চিনার উপায়ঃ <br />
               (দ্বিতীয় বাক্যে) Verb দ্বারা বাক্যে শুরু হয় এবং
               আদেশ/অনুরোধ/উপদেশ বোঝায়।
             </p>
-          </div>
-          <div className="">
-            <h2>Exclamatory Sentence:</h2>
+            <br />
+            <br />
+            Optative sentence কাকে বলে? <br />
+            Optative Sentence: যে sentence দ্বারা কোন ইচ্ছা, আকাঙ্ক্ষা বা
+            প্রার্থনা প্রকাশ করা হয় তাকে Optative Sentence বলে | <br />
+            Structure: May + Subject + Verb + Extension. <br />
+            Example: <br />
+            May Allah bless you. <br />
+            May You be happy. <br />
+            May you prosper in your life. <br />
+            May you live long. <br />
+            Long live Bangladesh. (Can also be formed without ‘may’).
+            <h3>Short Technique:</h3>
             <p>
               চিনার উপায়ঃ <br />
-              ** Alas, hurrah দ্বারা শুরু হয়ে এদের পরে exclaimation চিহ্ন থাকে
-              এবং বাকের শেষে ফুল স্টপ থাকে। <br />
-              ** কিন্তু what, how দ্বারা শুরু হলে বাক্যের শেষে Exclaimation (!)
-              চিহ্ন থাকে।
+              দ্বিতীয় বাক্যে May দ্বারা শুরু হয় এবং বাকের শেষে ফুল স্টপ থাকে।
             </p>
-          </div>
-          <div className="">
-            <h2>Optative Sentence:</h2>
+            <br />
+            <br />
+            Exclamatory sentence কাকে বলে? <br />
+            Exclamatory Sentence: যে sentence দ্বারা কোন আকস্মিক আনন্দ-বেদনা
+            ইত্যাদি প্রকাশ করা হয় তাকে Exclamatory Sentence বলে |  <br />
+            Structure: Alas/ Hurrah/ Bravo/ What/ How etc. + Others. <br />
+            Example: <br />
+            Hurrah! We have won the game. <br />
+            Alas! He is no more. <br />
+            Hurrah! Our cricket team has won the series. <br />
+            Bravo! You have done a great job. <br />
+            What a talented boy he is! <br />
+            How sweetly the cuckoo sings! <br />
+            What a wonderful country Bangladesh is! <br />
+            Were I a Super Hero! <br />
+            What a pity! <br />
+            Fantastic! What a nice idea! <br />
+            Put that down now!
+            <h3>Short Technique:</h3>
             <p>
               চিনার উপায়ঃ <br />
               দ্বিতীয় বাক্যে May দ্বারা শুরু হয় এবং বাকের শেষে ফুল স্টপ থাকে।
             </p>
           </div>
-        </div>
-        <div className="py-5">
-          <h2 className="">গঠন অনুসারে Sentence তিন প্রকার</h2>
-          <div className="pt-5"></div>
+
+          <br />
+          <br />
+          <div className="">
+            <h1 className="text-pink-800">গঠন অনুসারে Sentence কত প্রকার?</h1>
+            <br />
+            Structure অনুসারে Sentence তিন প্রকার |  <br />
+            They are: <br />
+            1. Simple Sentence <br />
+            2. Complex Sentence & <br />
+            3. Compound Sentence.
+            <br />
+            <br />
+            Simple sentence কাকে বলে? <br />
+            যে sentence-এ একটি মাত্র subject ও একটি মাত্র finite verb (সমাপিকা
+            ক্রিয়া) থাকে তাকে simple sentence বলে | <br />
+            Example: <br />
+            The boys play football. এ sentence-এ একটি মাত্র subject “The boys” ও
+            একটি মাত্র finite verb “play football.
+            <br />
+            <br />
+            Complex Sentence কাকে বলে? <br />
+            যে sentence-এ একটি Principal Clause এবং এক বা একাধিক Subordinate
+            Clause থাকে তাকে Complex Sentence বলে | <br />
+            Example:  <br />
+            Although he is rich, he is not happy. <br />
+            I know that he would help me. <br />
+            প্রথম sentence-এ”Although he is rich” – Subordinate Clause এবং “he
+            is not happy”-Principal Clause. দ্বিতীয় Sentence-এ “I
+            know”-Principal Clause এবং”that he would help me”– Subordinate
+            Clause. অতএব Sentence দুটি Complex Sentence.
+            <br />
+            <br />
+            Subordinate Clause কিভাবে চিনবো? Complex Sentence কিভাবে চিনবো?{" "}
+            <br />
+            Subordinate Clause/Complex Sentence কিভাবে চিনবো?
+            <br />
+            <br />
+            Well, <br />
+            Subordinate Clause এর শুরুতে সাধারণত if, though, although, as,
+            because, since, so that, that, until, till, unless, when, why,
+            which, who, where, how, before, after, whether, while ইত্যাদি
+            word/connectors বসে|  <br />
+            N.B: তাহলে কোন Clause-এ এই word/connectors গুলো থাকলে সেটি
+            Subordinate Clause এবং যে Sentence-এ Subordinate Clause থাকবে সেটা
+            Complex Sentence. Take it easy bro………
+            <br />
+            <br />
+            Compound Sentence কাকে বলে? <br />
+            যদি কোন Sentence-এ একাধিক Principal Clause and, but, or, yet, and,
+            so, and so, therefore ইত্যাদি Co-ordinating Conjunction দ্বারা যুক্ত
+            হয় তাকে Compound Sentence বলে| <br />
+            Examples: <br />
+            He is meritorious but he could not get a job. <br />
+            Read or you will fail. <br />
+            I went there and found him reading
+            <br />
+            <br />
+            N.B: <br />
+            and দ্বারা যুক্ত Compound Sentence এর দ্বিতীয় Subject (i)টি উহ্য
+            থাকে | (উভয় Clause-এ Subject এক-ই হওয়ার কারণে) 
+            <br />
+            <br />
+            Co-ordinating Conjunction  কিভাবে চিনবো? / Compound Sentence কিভাবে
+            চিনবো? <br />
+            Co-ordinating Conjunction/Clause/Compound Sentence কিভাবে চিনবো?{" "}
+            <br />
+            Co-ordinating Conjunction: (and, but, or, yet, and, so and so,
+            therefore) <br />
+            তার মানে, কোন Sentence-এ এই Co-ordinating Conjunction গুলো থাকলে
+            সাধারণত সেটি Compound Sentence হবে |
+          </div>
         </div>
       </div>
     </div>
