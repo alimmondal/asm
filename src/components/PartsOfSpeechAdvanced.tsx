@@ -447,7 +447,7 @@ export const PartsOfSpeechAdvanced = () => {
           <br />
           {/*  ii. Pronouns */}
           <div className="">
-            <h3 className="text-pink-700">ii. Pronouns </h3>
+            <h2 className="text-pink-700">ii. Pronouns </h2>
             কোন noun-এর পরিবর্তে যা ব্যবহৃত হয় তাকে pronoun বলে। Pro-এই
             prefix-এর বাংলা করা যেতে পারে: "পক্ষে"। <br />
             <br />
@@ -457,7 +457,7 @@ export const PartsOfSpeechAdvanced = () => {
             assertive, (10) non-assertive, (11) negative, (12) general, (13)
             numerative. <br />
             <br />
-            43 Personal Pronoun <br />
+            Personal Pronoun <br />
             কাছাকাছি clause-এর মধ্যে কোন noun phrase-কে replace করে। eg. Selim
             said to Zahid that he would wait for him. <br />
             <br />
@@ -507,11 +507,12 @@ export const PartsOfSpeechAdvanced = () => {
             <br />
             Numerative Pronoun সংখ্যা ব্যক্ত করে। যেমন- two, three, ইত্যাদি।
           </div>
+          <br />
           {/* iii. Adjective */}
           <div className="">
-            <h3 className="text-pink-600">
+            <h2 className="text-pink-600">
               iii. Adjective <br />
-            </h3>
+            </h2>
             <div className="">
               সংজ্ঞা: Cambridge Advanced Learner's Dictionary নিম্নোক্ত
               definition দিয়েছে adjective-এর: "a word that describes a noun or a
@@ -686,9 +687,12 @@ export const PartsOfSpeechAdvanced = () => {
             </div>
             {/* Degrees of Comparison of Adjectives */}
             <div className="">
-              Degrees of Comparison of Adjectives <br />
-              <br /> পুরাতনপন্থী ইংরেজি Grammar-গুলোতে তিন প্রকার degree দেওয়া
-              আছে। যেমন: (i) Positive degree, (ii) Comparative degree, এবং (iii)
+              <h3 className="text-pink-800">
+                Degrees of Comparison of Adjectives
+              </h3>
+              পুরাতনপন্থী ইংরেজি Grammar-গুলোতে তিন প্রকার degree দেওয়া আছে।{" "}
+              <br />
+              যেমন: (i) Positive degree, (ii) Comparative degree, এবং (iii)
               Superlative degree. <br />
               <br />
               কিন্তু আধুনিক Grammar-এ 'Positive' শব্দটা নেই। তার পরিবর্তে এসেছে
@@ -789,177 +793,192 @@ export const PartsOfSpeechAdvanced = () => {
               যেমন: He is kind. <br />
               He is kind to animals. <br />
               <br />
-              Exercise 2 <br />
-              2. Change the following words into adjectives: <br />
-              (a) deception (b) truth (c) honesty (d) success (e) skill (f)
-              quietness (g) nature (h) distance (i) nearness (j) height (k)
-              piety (l) sin (m) action (n) idleness (o) laziness (p) rest (q)
-              beauty (r) ugliness (s) softness (t) hardness. <br />
-              <br />
-              Exercise 3 <br />
-              3. Find out adjective phrases from the list: <br />
-              (a) as well (c) full of (e) because of (g) sure of (i) conscious
-              of (k) on the other hand (m) hurtful to (o) excellent in (q)
-              condemned to (s) doubtful about (b) distant from ka Milana (d)
-              badly off (f) aware of (h) with the help of (j) eager to (1) made
-              to order (n) informed of (p) relative to (r) generous to (t)
-              emotional about
-              <br />
-              Exercise 4 <br />
-              4. Find out the adjective words/phrases and say whether their use
-              is attributive or predicative or postpositive: <br />
-              The little dark baby screwed up its face. That was his son. He
-              thought of the half-caste children in Apia. They had an unhealthy
-              look, sallow and pale, and they were odiously precocious. He had
-              seen them on the boat going to school in New Zealand, and a school
-              had to be chosen which took children with native blood in them;
-              they were huddled together, brazen and yet timid, with traits
-              which set them apart strangely from white people. They 55 spoke
-              the native language among themselves. And when they grew up the
-              men accepted smaller salaries because of their native blood; girls
-              might marry a white man, but boys had no chance; they must marry a
-              half-caste like themselves or a native. (W.S. Maugham) <br />
-              <br />
-              Exercise 5 <br />
-              5. Make an equal comparison between A and B in respect of the
-              following adjectives: (a) bad (b) cheap (c) hot (d) important (e)
-              far (f) expensive (g) regular (h) clean (i) intelligent (j)
-              difficult <br />
-              <br />
-              Exercise 6 <br />
-              6. Make sentences showing that A has more of the qualities
-              described by the following adjectives, than B: Vlasnod <br />
-              (a) short (b) long (c) heavy (d) punctual (e) hard-working (f)
-              economical (g) humble (h) sophisticated (i) interesting (j) strong{" "}
-              <br />
-              <br />
-              Exercise 7 <br />
-              7. Make sentences showing that A has less of the qualities
-              described by the following adjectives, than B: <br />
-              (a) happy (b) interested (c) grateful (d) harmful (e) hopeful (f)
-              ignorant (g) <br /> necessary (h) faithful (i) dependable (j)
-              prejudiced <br />
-              <br />
-              8. Make sentences showing that A possesses, more than many others,
-              the qualities described by the following adjectives: <br />
-              (a) qualified (b) capable (c) brilliant(d) probable (e) satisfied
-              (f) sensitive (g) serious (h) useful (i) worthy (j) wicked. <br />
-              <br />
-              Answers: <br />
-              Exercise 1 <br />
-              1. Adjectives: (b), (c), (d), (h), (i), (1), (m), (n), (p), (q),
-              (r), (s), (t) <br />
-              <br />
-              Exercise 2 <br />
-              Word (changed into)Adjective <br />
-              Deception -Deceptive <br />
-              Truth- truthful /true <br />
-              Honest- Honesty <br />
-              Success -Successful <br />
-              quiet- Quietness <br />
-              NatureDistant - Distance <br />
-              near - Nearness <br />
-              high- Height <br />
-              pious-Piety <br />
-              Sin-sinful <br />
-              Action-active <br />
-              idle-Idleness <br />
-              lazy - Laziness <br />
-              Rest- Restful <br />
-              Beauty - beautiful <br />
-              soft-Softness <br />
-              hard-Hardness <br />
-              Skill- skilled/ skilful <br />
-              Natural <br />
-              <br />
-              Exercise 3 <br />
-              3. Adjective phrases: <br />
-              (b), (c), (d), (f), (g), (i), (j), (1), (m), (n), (o), (p), (q),
-              (r), (s), (t). <br />
-              <br />
-              Exercise 4 <br />
-              Line Adjective Use <br />
-              <br />
-              1- little dark - attributive <br />
-              2. half-caste - “ <br />
-              3. Unhealthy - postpositive <br />
-              4. sallow and pale <br />
-              Exercise 5 <br />
-              5. <br />
-              (a) A is as bad as B. <br />
-              (b) A is as not so cheap as B. <br />
-              (c) A is as hot as B. <br />
-              (d)(d) A is as important as B. <br />
-              A (3) <br />
-              (e) A is not so far as B. <br />
-              A (5) <br />
-              Or,(9)A is as far as B. <br />
-              (f) A is as expensive as B. <br />
-              (g) A is as regular as B. <br />
-              8 nath Hurtint azol zi A <br />
-              (if) (h) A is as clean as B. <br />
-              (i) A is as intelligent as B. <br />
-              Boudholdahosgeb taal ai A (i) <br />
-              (j) A is as difficult as B. <br />
-              <br />
-              Note: A এবং B কোন ব্যক্তি বা বস্তু বা ধারণার প্রতীক হিসেবে ব্যবহৃত
-              হয়েছে। পরবর্তী exercise-গুলোতেই সেভাবেই বিবেচিত হবে। <br />
-              <br />
-              যেমন: A = Zayed, Shafiq ইত্যাদি যে কোন ব্যক্তি বা গাছ, পাথর, নদী,
-              বা ধারণা যেমন সততা, দয়া ইত্যাদি হতে পারে। B = A'-র মতই। <br />
-              <br />
-              Exercise 6 <br />
-              6. (a) A is shorter than B. <br />
-              (b) A is longer than B. <br />
-              (c) A is heavier than B. <br />
-              (d) A is more punctual than B. <br />
-              (e) A is more hard-working than B. <br />
-              (f) A is more economical than B. <br />
-              A is humbler than B. <br />
-              (h) A is more sophisticated than B. <br />
-              (i) A is more interesting than B. <br />
-              (j) A is stronger than B. <br />
-              Exercise 7 <br />
-              7. (a) A is less happy than B. <br />
-              Or,I as bod 26 zi A (a) <br />
-              B is happier than A. <br />
-              (b) A'is less interested than B. <br />
-              (c) A is less grateful than B. <br />
-              (d) A is less harmful than B. <br />
-              (e) A is less hopeful than B. <br />
-              (f) A is less ignorant than B. <br />
-              (g) A is less necessary than B. <br />
-              (h) A is less faithful than B. <br />
-              (i) A is less dependable than B. <br />
-              (j) A is less prejudiced than B. <br />
-              <br />
-              Exercise 8 <br />
-              .(a) A is the most qualified of all the candidates. <br />
-              <br />
-              Note: the candidates-এর ক্ষেত্র অনুসারে অন্য কোন noun বসতে পারে।
-              যেমন: politicians, economists ইত্যাদি। <br />
-              <br />
-              (b) A is the most capable of all... (এর স্থলে ব্যক্তিবর্গ বসতে
-              পারে) <br />
-              (c) A is the most brilliant in the class. <br />
-              (d) A is the most probable cause of his death. <br />
-              (e) A is the most satisfied of all.... (ব্যক্তি) <br />
-              (f) A is the most sensitive of the sisters. <br />
-              (g) A is the most serious of the problems. <br />
-              (h) A is the most useful of the things. <br />
-              (i) A is the worthiest of the officers. <br />
-              (j) A is the most wicked of the group. <br />
-              <br />
               Note: Degrees of comparison-এর পারস্পরিক পরিবর্তনের Exercise সমূহ
               transformation অধ্যায়ে দেয়া হয়েছে। শিক্ষার্থীদের ঐ অধ্যায় পড়তে এবং
               exercise-গুলোর অনুশীলন করতে পরামর্শ দেয়া হচ্ছে। <br />
               <br />
-              আরো পরামর্শ দেয়া হচ্ছে adjective সম্বন্ধে বিস্তারিত জানতে হলে, বা
-              reference-এর প্রয়োজন হলে R. Quirk et al লিখিত A Comprehensive
-              Grammar of the English Language, অথবা A University Grammar of
-              English অথবা G. Leech et al প্রণীত A Communicative Grammar of
-              English ইত্যাদি standard বইগুলো consult করার জন্য।
+              <p className="font-semibold pb-5">
+                আরো পরামর্শ দেয়া হচ্ছে adjective সম্বন্ধে বিস্তারিত জানতে হলে,
+                বা reference-এর প্রয়োজন হলে R. Quirk et al লিখিত A Comprehensive
+                Grammar of the English Language, অথবা A University Grammar of
+                English অথবা G. Leech et al প্রণীত A Communicative Grammar of
+                English ইত্যাদি standard বইগুলো consult করার জন্য।
+              </p>
             </div>
+          </div>
+          <div className="">
+            <h1 className="text-pink-700">Adverb</h1>
+            <br />
+            এই ব্লগে আমি আলোচনা করবো, <br />
+            প্রথমত, Adverb কাকে বলে বা Adverb কি সে সম্পর্কে। দ্বিতীয়ত, Adverb
+            কত প্রকার ও কি কি সে সম্পর্কে আলোচনা থাকবে। <br />
+            তৃতীয়ত, এই সকল প্রকারের Adverb সম্পর্কে বিস্তারিত আলোচনা থাকবে যা
+            Adverb সম্পর্কে তোমার ধারণাকে আরো পোক্ত করবে। <br />
+            এবং সর্বশেষে, বরাবরের মতোই একটা Adverb নিয়ে Exercise অংশ থাকবে যা
+            তোমার প্রস্তুতিকে ঝালিয়ে নিতে সাহায্য করবে। <br />
+            <br />
+            Adverb কাকে বলে <br />
+            Adverb সাধারণত Noun বা Pronoun বাদে আর সকল Parts of speech-কে Modify
+            করে। Wren & Marin-এর মতে,
+            <br />
+            An adverb is a word used to add something to the meaning of a verb,
+            an adjective or another adverb. <br />
+            <br />
+            অর্থাৎ, Adverb হলো এমন একধরনের word যা Verb, Adjective এবং Adverb
+            সম্পর্কে অতিরিক্ত তথ্য প্রদান করে। যেমন, <br />
+            The lion roared loudly. <br />
+            He talks gently. <br />
+            এখানে loudly এবং gently শব্দদুটি যথাক্রমে The lion এবং He সম্পর্কে
+            অতিরিক্ত তথ্য প্রদান করছে। এগুলো Adverb। তাই বলা যায়, Adverb হলো এমন
+            Word যা বাক্যে Noun বা Pronoun ছাড়া যে কোন Parts of Speech-কে অথবা
+            গোটা বাক্যকে Modify করতে পারে। <br />
+            <br />
+            <br />
+            Adverb চেনার উপায় <br />
+            Adverb কাকে বলে তা তো আলোচনা করলাম, এখন আলোচনা করবো এমন কিছু Suffix
+            নিয়ে, যা শব্দের শেষে বসলে তাকে Adverb বলে চেনা যায়, যেমন <br />
+            Suffix Word Sentence <br />
+            -ly Slowly, Hardly I hardly understand him. <br />
+            -ward backward I stepped backward <br />
+            -wise Otherwise You’re angry with Robert. It does no good to pretend
+            otherwise. <br />
+            ways Always There’s almost always somebody at home in the evenings.{" "}
+            <br />
+            <br />
+            <img src="/adverb1.jpg" alt="" />
+            <br />
+            Adverb meaning in Bengali <br />
+            <br /> Adverb-এর বাংলা হলো ক্রিয়াবিশেষণ। আমরা জানি, বাংলায় বিশেষণ পদ
+            দুই প্রকার, যথা, <br />
+            ১। নাম বিশেষণ <br />
+            ২। ভাব বিশেষণ <br />
+            এদের মধ্যে ভাব বিশেষণকে আবার দুই ভাগে ভাগ করা যায়, যথা, <br />
+            ১। ক্রিয়া বিশেষণ <br />
+            ২। বিশেষনের বিশেষণ <br />
+            <br />
+            যে বিশেষণ পদ বাক্যের ক্রিয়াপদের গুণ, অবস্থা, প্রকৃতি ইত্যাদি নির্দেশ
+            করে, তাকে ক্রিয়া বিশেষণ বলে। উদাহরণ- ছেলেটি দ্রুত দৌড়ায়, লোকটি
+            ধীরে হাঁটে, মেয়েটি গুনগুনিয়ে গান করছে। <br />
+            <br />
+            Adverb কত প্রকার ও কি কি <br />
+            Adverb প্রধানত ৩ প্রকারঃ <br />
+            Simple Adverb <br />
+            Interrogative Adverb <br />
+            Relative and Conjunctive Adverb <br />
+            নিচে এদের সম্পর্কে বিস্তারিত আলোচনা করা হলো। <br />
+            <br />
+            Simple Adverb <br />
+            যে Adverb শুধু কোন Word বা Sentence-কে Modify করে তাকে Simple Adverb
+            বলে। Simple Adverb-কে ৮ ভাগে ভাগ করা যায়, <br /> <br />
+            <img src="/adverb.jpg" alt="" />
+            <br />
+            <br />
+            Adverb of Time <br />
+            কখন, কতক্ষণ বা কতবার কোন কাজ সম্পন্ন হয় তা বোঝায়। উদাহরণ, <br />
+            Example Sentence <br />
+            Yesterday, Tomorrow, After, Then <br />
+            I saw him yesterday <br />
+            I will meet Aynun tomorrow <br />
+            I will go after you <br />
+            He was very angry then <br />
+            <br /> Adverb of Place <br />
+            Verb সংঘটিত হওয়ার স্থান বোঝায়। উদাহরণ, <br />
+            Example Sentence <br />
+            Far, In, Outside, Around <br />
+            Aziz lives far from Rashid <br />
+            Come in <br />
+            He went outside of Jahangirnagar <br />
+            Look around the office <br />
+            <br /> Adverb of Manner <br />
+            কিভাবে কোন কাজ সম্পন্ন হয় তা বোঝায়। উদাহরণ: <br />
+            Example Sentence <br />
+            Beautifully, Badly, Quietly, Well <br />
+            They write beautifully <br />
+            Rishad cooked badly <br />
+            She was walking quietly on the road <br />
+            She knows him well <br />
+            <br /> Adverb of Degree Verb-এর পরিমান বা মাত্রা নির্দেশ করে।
+            উদাহরণ: <br />
+            Example Sentence <br />
+            Kind, Much, Fluently, Extremely <br />
+            Nuhan was very kind <br />
+            Today is much colder <br />
+            Rafiq speaks Spanish fluently <br />
+            Rabby runs extremely fast <br />
+            <br /> Adverb of Number <br />
+            Verb-এর কাজটি কতবার সম্পন্ন হয়েছে তা বোঝায়। উদাহরণ: <br />
+            Example Sentence <br />
+            Once, Always, Frequently, Often <br />
+            Raju often comes to our house <br />
+            Rahim washes his clothes once a week <br />
+            Mehnaz comes here frequently <br />
+            Shemul always speaks the truth <br />
+            <br /> Adverb of Order <br />
+            Verb-এর কাজ শেষ হওয়ার পর্যায় বোঝায়। উদাহরণ: <br />
+            Example Sentence <br />
+            Firstly, Secondly, Thirdly, Lastly <br />
+            Firstly, the Government should ban smoking in public places. <br />
+            Secondly, the external evidence does not bear examination. <br />
+            Thirdly, there was a dispute over the western boundary of Texas.{" "}
+            <br />I would like to thank my parents, my wife, and, lastly, my
+            friends. <br />
+            Adverb of Cause and Effect <br />
+            Verb সম্পন্ন হওয়ার কারণ বা ফলাফল প্রকাশ করে। উদাহরণ: <br />
+            <br />
+            Example Sentence <br />
+            Therefore, Hence, Because, consequently <br />
+            I was absent and, therefore, could not join the meeting. <br />
+            He is ill, hence, he is absent from the meeting today. <br />
+            She did not want to marry at thirteen because she was too young.{" "}
+            <br />
+            He had no other options; consequently, he left his job. <br />
+            <br /> Adverb of Assertion <br />
+            Verb-এর কার্য সম্পাদিত হবার হ্যাঁ বা না সূচক জবাব দেয়, কার্য
+            সম্পাদনের নিশ্চয়তা ও অনিশ্চয়তা প্রদান করে। উদাহরণ: <br />
+            Example Sentence <br />
+            Perhaps, Certainly, Surely, Probably <br />
+            Perhaps he will go on Sunday. <br />
+            Certainly, he will win. <br />
+            Surely you are mistaken. <br />
+            It will probably rain today. <br />
+            <br />
+            Interrogative Adverb <br />
+            যে Adverb দ্বারা কোন প্রশ্ন জিজ্ঞেস করা হয়, তাকে Interrogative
+            adverb বলে। Interrogative adverb-কে আরো কয়েক ভাগে ভাগ করা যায়।
+            <br />
+            <br />
+            <img src="/adverb2.jpg" alt="" />
+            <br />
+            <br />
+            Type Example <br />
+            Time <br />
+            When did he come? <br />
+            How long did you wait there? <br />
+            <br /> Place <br />
+            Where are you going? <br />
+            Where do you live? <br />
+            <br /> Number How many boys are there? <br />
+            How many mangoes are here? <br />
+            <br /> Condition How do you feel today? <br />
+            <br /> Cause Why are you late? <br />
+            Why did he do this? <br />
+            <br /> Quality How much sugar do you need?
+            <br />
+            <br />
+            Relative and Conjunctive Adverb <br />
+            When, Where, How, Why- এরা Relative Pronoun-এর ন্যায় দুটি Clause বা
+            Sentence-কে যুক্ত করলে তাদের Relative adverb বলে। তবে এই Adverb-এর
+            পূর্বে Antecedent না থাকলে তাকে Conjunctive adverb বলা হয়। <br />
+            <br />
+            Relative Adverb <br /> <br />
+            I know the place where he lives. <br />
+            Can you tell me the time when he will come? <br />
+            This is the place where the accident took place? <br />
+            <br />
+            Conjunctive Adverb <br />
+            I know where he lives. <br />
+            Can you tell me when he will come? <br />
+            I know how he did it. <br />
           </div>
         </div>
       </div>

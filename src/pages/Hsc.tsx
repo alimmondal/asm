@@ -321,7 +321,7 @@ function Hsc() {
               Completing Story
             </li>
           </Link>
-          <Link to={"/HQuestion"}>
+          {/* <Link to={"/HQuestion"}>
             <li
               className="
                 px-3 py-2
@@ -333,7 +333,7 @@ function Hsc() {
             >
               Board Question
             </li>
-          </Link>
+          </Link> */}
         </ul>
       </div>
     </div>
