@@ -66,6 +66,7 @@ import PaOfSp from "../pages/allItems/PartsOfSpeech";
 import There from "../pages/allItems/There";
 import Number from "../pages/allItems/Number";
 import UseOfIt from "../components/UseOfIt";
+import LetterAlphabets from "../pages/allItems/LetterAlphabets";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -212,6 +213,10 @@ export const router = createBrowserRouter([
       {
         path: "/dialog",
         element: <Dialog />,
+      },
+      {
+        path: "/Letter",
+        element: <LetterAlphabets />,
       },
       {
         path: "/paOfSp",

@@ -1,4 +1,3 @@
-// import { Link } from "react-router-dom";
 import { useRef, useState, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
 // import frontCover from "../../../public/bookCover.jpg";
@@ -2963,9 +2962,8 @@ const Pronunciation = () => {
               </p>
               <p className="py-2">
                 <span className="font-medium text-pink-600">Rule-9 </span>{" "}
-                <br />
-                Y সাধারণত One-syllable এর শব্দে "আই" হিসেবে উচ্চারিত হয়। উদাহরণ:{" "}
-                <br />
+                <br />Y সাধারণত One-syllable এর শব্দে "আই" হিসেবে উচ্চারিত হয়।
+                উদাহরণ: <br />
                 Fly -(ফ্লাই) - উড়া। <br />
                 ➡️ Two-syllable এর শব্দে Y "ই" হিসেবে উচ্চারিত হয়। <br />
                 City - (সিটি) - শহর। <br />
@@ -3233,9 +3231,8 @@ const Pronunciation = () => {
             <div className=" text-sm md:text-base">
               <p className="">
                 <span className="font-medium text-pink-600">Rule-30. </span>{" "}
-                <br />
-                i + Consonant + E এভাবে ব্যবহৃত হলে তার উচ্চারণ "আই" এর মত হয়।{" "}
-                <br />
+                <br />i + Consonant + E এভাবে ব্যবহৃত হলে তার উচ্চারণ "আই" এর মত
+                হয়। <br />
                 উদাহরণ: <br />
                 Rice - (রাইস) - চাউল। <br />
                 Size - (সাইজ) - আয়তন। <br />

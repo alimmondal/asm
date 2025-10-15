@@ -1,9 +1,389 @@
+// import { Link } from "react-router-dom";
+import { useRef, useState, useEffect } from "react";
+import HTMLFlipBook from "react-pageflip";
+// import frontCover from "../../../public/bookCover.jpg";
+
 const Sentence = () => {
+  const flipBook = useRef<any>(null);
+  const [currentPage, setCurrentPage] = useState(0);
+  const [jumpPage, setJumpPage] = useState<number | "">("");
+  const [isPortrait, setIsPortrait] = useState(false); // 🔥 auto mode
+
+  const totalPages = 20; // Update when you add more pages
+
+  const onFlip = (e: any) => {
+    setCurrentPage(e.data);
+  };
+
+  const FlipBook = HTMLFlipBook as any;
+
+  // 🔥 Detect screen size & adjust orientation
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        // Mobile & small tablets → Portrait
+        setIsPortrait(true);
+      } else {
+        // Desktop → Landscape
+        setIsPortrait(false);
+      }
+    };
+
+    handleResize(); // Run once on mount
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const contents = [
+    { title: "Definition of Sentence", pages: "4-6" },
+    { title: "Subject & Predicate", pages: "4-6" },
+    { title: "Assertive Sentence", pages: "4-6" },
+    { title: "Interrogative Sentence", pages: "7-8" },
+    { title: "Imperative Sentence", pages: "9 - 12" },
+    { title: "optative Sentence", pages: "13 - 14" },
+    { title: "Exclamatory Sentence", pages: "15 - 20" },
+    { title: "Simple Sentence", pages: "15 - 20" },
+    { title: "Compound Sentence", pages: "15 - 20" },
+    { title: "Complex Sentence", pages: "15 - 20" },
+    { title: "Exclamatory Sentence", pages: "15 - 20" },
+
+    { title: "Assimilation সন্ধি", pages: "37 - 40" },
+    { title: "উচ্চারণ টেকনিক", pages: "41 - 58" },
+    { title: "Y এর উচ্চারণ", pages: "55 - 58" },
+    { title: "X এর উচ্চারণ", pages: "56 - 58" },
+    { title: "Chunking", pages: "59" },
+  ];
+
+  const goToPage = (page: number) => {
+    if (flipBook.current) {
+      flipBook.current.pageFlip().flip(page + 1);
+    }
+  };
+
+  const goToContents = () => {
+    if (flipBook.current) {
+      flipBook.current.pageFlip().flip(2); // 👈 contents page (Page 2 visually)
+    }
+  };
   return (
-    <div className="md:w-1/2 mx-auto">
-      <div className="text-center py-20">
-        <h1 className="">Sentence</h1>
-        <p className="">A brief discussion on Sentence</p>
+    <div className="">
+      <div className="flex flex-col items-center py-4 md:py-10 px-5 md:px-10 gap-">
+        <FlipBook
+          width={isPortrait ? 400 : 500} // smaller width for portrait
+          height={isPortrait ? 600 : 300} // taller height for portrait
+          className="shadow-2xl rounded"
+          style={{
+            margin: "0 auto",
+            backgroundImage: "url('/bookBg.jpg')",
+            backgroundSize: "cover",
+          }}
+          showCover={true}
+          size="stretch"
+          minWidth={300}
+          maxWidth={1200}
+          minHeight={300}
+          maxHeight={900}
+          drawShadow={true}
+          flippingTime={800}
+          usePortrait={isPortrait} // 🔥 auto toggle
+          autoSize={true}
+          clickEventForward={true}
+          startZIndex={0}
+          maxShadowOpacity={0.5}
+          mobileScrollSupport={true}
+          useMouseEvents={true}
+          swipeDistance={30}
+          showPageCorners={true}
+          disableFlipByClick={false}
+          onFlip={onFlip}
+          ref={flipBook}
+        >
+          {/* Cover Page */}
+          <div
+            data-density="hard"
+            className="font-bold relative book"
+            // style={{
+            //   backgroundImage: `url(${frontCover})`,
+            //   backgroundSize: "cover",
+            //   backgroundPosition: "center",
+            //   backgroundRepeat: "no-repeat",
+            //   width: "100%",
+            //   height: "100%",
+            // }}
+          >
+            <div className="absolute top-1/4 left-[18%] sm:left-[27%] sm:top-[30%]  md:top-[12%] md:left-[20%] lg:top-[10%] lg:left-[25%] xl:left-[30%] 2xl:left-[35%] 2xl:top-[25%] px-5">
+              <div className="">
+                <h1 className="text-9xl md:text-5xl lg:text-9xl text-center mb-3">
+                  📖
+                </h1>
+                <h2 className="text-green-500 text-3xl text-center uppercase">
+                  Sentence
+                </h2>
+                <h2 className="text-green-500 text-3xl text-center">বাক্য</h2>
+                <p className="text-black text-center font-bold">
+                  Sentence & its classification
+                </p>
+                <p className="text-center text-blue-500">
+                  Click/touch to read the book
+                </p>
+              </div>
+            </div>
+            <img src="/bookCover3.jpg" className="w-full h-full" alt="" />
+          </div>
+
+          {/* page1 */}
+          <div className="p-3 text-black md:p-5 bg-[#EFE5D6] book-shadow">
+            <h2 className="text-xl font-bold mb-1">Page 1</h2>
+            <div className="">
+              <p className="text-xs md:text-sm lg:text-base">
+                ভূমিকা <br />
+                ইংরেজিতে যারা দক্ষ হতে চান, বিশেষ করে ন্যাটিভ স্পিকারদের মত যারা
+                শুদ্ধ উচ্চারণে কথা বলতে চান বা বিদেশীদের কথা বুঝতে চান তাদের
+                জন্য আমাদের বই <br />
+                শুদ্ধ উচ্চারণ শেখার আন্তর্জাতিক স্বীকৃত পদ্ধতি হচ্ছে IPA
+                (International Phonetic Alphabet), বইটিতে IPA কে রুট হিসাবে
+                বিবেচনা করে সহজ পদ্ধতিতে বিভিন্ন রুলস ও টেকনিকসহ উদাহরণের
+                মাধ্যমে দেখানো হয়েছে। <br />
+                শুদ্ধ উচ্চারণ শেখার জন্য IPA অনুসরণ করে শেখাই সবচেয়ে কার্যকর
+                পন্থা। কারণ, ইংরেজির এমন কিছু ধ্বনি বা উচ্চারণ রয়েছে যা প্রকাশের
+                জন্য বাংলায় কোন বর্ণ নেই। উদাহরণস্বরুপ, 'Pen' শব্দটির 'P'
+                উচ্চারণ করতে অনেকটা 'ফ' এর মত মনে হয়, অর্থাৎ, 'প' ও 'ফ' এর
+                মাঝামাঝি একটি উচ্চারণ যেটি বাংলায় কোন বর্ণ নেই।
+                {/* এজন্য, মূলতঃ বইটিতে উল্লেখিত
+              উদাহরণ বার বার প্র্যাকটিসের মাধ্যমে শুদ্ধ উচ্চারণ আয়ত্ত্ব করতে
+              হবে।  */}
+                <br />
+                {/* সবশেষে সুপ্রিয় শিক্ষার্থীদের প্রতি অনুরোধ বইটিতে কোন ভুল/অসংগতি
+              চোঁখে পরলে নীচের ই-মেইলে জানালে কৃতজ্ঞ থাকবো। <br /> */}
+                ধন্যবাদান্তে,
+              </p>
+            </div>
+          </div>
+
+          {/* page2 */}
+          <div className="p-2 text-black md:p-5 bg-[#EFE5D6] book-shadow">
+            <h2 className="text-xl font-bold mb-1">Page 2</h2>
+            <div className="w-full flex flex-col items-center">
+              <div className="">
+                <h2 className="text-sm font-bold mb-1 text-center">
+                  index (সূচিপত্র)
+                </h2>
+                <div className="overflow-x-auto">
+                  <table className="table-auto max-w-fit border border-gray-300 shadow-2xl rounded-lg">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-2 py-1 text-left">
+                          Contents
+                        </th>
+                        <th className="border border-gray-300 px-2 py-1 text-left">
+                          Pages
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {contents.slice(0, 7).map((item, index) => {
+                        // Take the first page from the range "7-8" → 7
+                        const targetPage = parseInt(
+                          item.pages.split("-")[0].trim()
+                        );
+
+                        return (
+                          <tr
+                            key={index}
+                            className={`${
+                              index % 2 === 0 ? "bg-white" : "bg-gray-50"
+                            } cursor-pointer hover:bg-blue-100`}
+                            onClick={() => goToPage(targetPage)}
+                          >
+                            <td className="border border-gray-300 text-blue-600 px-2 py-1 md:text-base">
+                              {item.title}
+                            </td>
+                            <td className="border border-gray-300 px-2 py-1 text-sm md:text-base text-blue-600 underline">
+                              {item.pages}
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <p className="pt-3 text-center">
+              Click/touch any page number to read.
+            </p>
+          </div>
+
+          {/* page3 */}
+          <div className="p-3 text-black md:p-5 lg:p-10 bg-[#EFE5D6] book-shadow">
+            <h2 className="text-xl font-bold mb-2">Page 3</h2>
+            <div className="w-full flex flex-col items-center">
+              <div className="">
+                <h2 className="text-sm font-bold mb-1 text-center">
+                  index (সূচিপত্র)
+                </h2>
+                <div className="overflow-x-auto">
+                  <table className="table-auto max-w-fit border border-gray-300 shadow-md rounded-lg">
+                    <thead className="bg-gray-100">
+                      <tr>
+                        <th className="border border-gray-300 px-2 py-2 text-left">
+                          Contents
+                        </th>
+                        <th className="border border-gray-300 px-2 py-2 text-left">
+                          Pages
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {contents.slice(8, 15).map((item, index) => {
+                        // Take the first page from the range "7-8" → 7
+                        const targetPage = parseInt(
+                          item.pages.split("-")[0].trim()
+                        );
+                        return (
+                          <tr
+                            key={index}
+                            className={`${
+                              index % 2 === 0 ? "bg-white" : "bg-gray-50"
+                            } cursor-pointer hover:bg-blue-100`}
+                            onClick={() => goToPage(targetPage)}
+                          >
+                            <td className="border border-gray-300 text-blue-600 px-2 py-1 md:text-base">
+                              {item.title}
+                            </td>
+                            <td className="border border-gray-300 px-2 py-1 text-sm md:text-base text-blue-600 underline">
+                              {item.pages}
+                            </td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <p className="pt-3 text-center">
+              Click/touch any page number to read.
+            </p>
+          </div>
+
+          {/* page 4 */}
+          <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+            <h2 className="text-xl font-bold mb-2">Page 4</h2>
+            <div className="">
+              <p className="font-semibold">Chunking: </p>
+              <div className=" text-sm md:text-base">
+                <p className="">Coming sooooooon.....</p>
+                <div className=""></div>
+              </div>
+            </div>
+          </div>
+          {/* page 4 */}
+          <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+            <h2 className="text-xl font-bold mb-2">Page 4</h2>
+            <div className="">
+              <p className="font-semibold">Chunking: </p>
+              <div className=" text-sm md:text-base">
+                <p className="">Coming sooooooon.....</p>
+                <div className=""></div>
+              </div>
+            </div>
+          </div>
+          {/* page 4 */}
+          <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+            <h2 className="text-xl font-bold mb-2">Page 4</h2>
+            <div className="">
+              <p className="font-semibold">Chunking: </p>
+              <div className=" text-sm md:text-base">
+                <p className="">Coming sooooooon.....</p>
+                <div className=""></div>
+              </div>
+            </div>
+          </div>
+
+          {/* Back Cover */}
+          <div className="bg-gradient-to-r from-indigo-600 to-purple-600  text-white text-xl font-bold">
+            <div className="w-full h-full text-7xl flex flex-col items-center justify-center">
+              <p className="">🔚 </p>
+              <p className="">The End</p>
+            </div>
+          </div>
+        </FlipBook>
+
+        {/* Button section */}
+        <div className="flex flex-col items-center">
+          {/* Navigation Controls */}
+          <div className="flex items-center gap-4 mt-6">
+            <button
+              className="px-3 py-1 bg-gray-700 text-white rounded"
+              onClick={() => flipBook.current.pageFlip().turnToPrevPage()}
+            >
+              ◀ Prev
+            </button>
+
+            <span className="text-lg font-semibold">
+              Page {currentPage + 1} / {totalPages}
+            </span>
+
+            <button
+              className="px-3 py-1 bg-gray-700 text-white rounded"
+              onClick={() => flipBook.current.pageFlip().turnToNextPage()}
+            >
+              Next ▶
+            </button>
+          </div>
+
+          {/* Jump to Page */}
+          <div className="mt-4 flex items-center gap-2">
+            <input
+              type="number"
+              min="1"
+              max={totalPages}
+              value={jumpPage}
+              onChange={(e) => {
+                const value = e.target.value;
+                setJumpPage(value === "" ? "" : parseInt(value, 10));
+              }}
+              className="border px-2 py-1 rounded w-20 text-center"
+              placeholder="Go to..."
+            />
+            <button
+              className="px-3 py-1 bg-indigo-600 text-white rounded disabled:opacity-50"
+              disabled={
+                jumpPage === "" || jumpPage < 1 || jumpPage > totalPages
+              }
+              onClick={() => {
+                if (
+                  typeof jumpPage === "number" &&
+                  jumpPage >= 1 &&
+                  jumpPage <= totalPages
+                ) {
+                  flipBook.current.pageFlip().flip(jumpPage);
+                }
+              }}
+            >
+              Go
+            </button>
+          </div>
+
+          {/* Numbered Page Buttons */}
+          <div className="flex flex-wrap justify-center gap-2 mt-4">
+            {Array.from({ length: totalPages }, (_, i) => (
+              <button
+                key={i}
+                className={`px-3 py-1 rounded border ${
+                  currentPage === i
+                    ? "bg-indigo-600 text-white"
+                    : "bg-gray-200 hover:bg-gray-300"
+                }`}
+                onClick={() => flipBook.current.pageFlip().flip(i)}
+              >
+                {i + 1}
+              </button>
+            ))}
+          </div>
+        </div>
       </div>
 
       <div className="hidden">
@@ -119,7 +499,12 @@ const Sentence = () => {
         </p>
       </div>
 
-      <div className="px-5 py-5">
+      {/* Scroll view */}
+      <div className="px-5 py-5 md:w-1/2 mx-auto">
+        <div className="text-center py-20">
+          <h1 className="">Sentence</h1>
+          <p className="">A brief discussion on Sentence</p>
+        </div>
         <div className="">
           <div className="">
             Sentence কাকে বলে? <br />
@@ -130,8 +515,9 @@ const Sentence = () => {
             যাবে না। নিচে উদাহরণ গুলো লক্ষ্য করুন।  <br />
             Example:
             <br />
-            Correct: We speak English everyday. (Here We is subject, speak is
-            verb, English is object and everyday is an adverb) <br />
+            Correct: We speak English everyday. <br />
+            (Here We is subject, speak is verb, English is object and everyday
+            is an adverb) <br />
             Incorrect:  I pen a have ( I অর্থ আমি, Pen অর্থ কলম, a অর্থ একটি এবং
             have অর্থ আছে। এগুলো অর্থবোধক শব্দ হওয়া সত্ত্বেও ইংরেজির বাক্য
             গঠনরীতি অনুযায়ী সম্পূর্ণভাবে মনের ভাব প্রকাশ করতে না পারায় এটাকে
