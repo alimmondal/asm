@@ -67,6 +67,7 @@ import There from "../pages/allItems/There";
 import Number from "../pages/allItems/Number";
 import UseOfIt from "../components/UseOfIt";
 import LetterAlphabets from "../pages/allItems/LetterAlphabets";
+import QuestionOneTwo from "../pages/hscItems/QuestionOneTwo";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -179,6 +180,10 @@ export const router = createBrowserRouter([
       {
         path: "/HSuggestion",
         element: <HSuggestion />,
+      },
+      {
+        path: "/QuestionOneTwo",
+        element: <QuestionOneTwo />,
       },
 
       // Degree

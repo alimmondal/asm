@@ -62,6 +62,19 @@ function Hsc() {
               Suggestion
             </li>
           </Link>
+          <Link to={"/QuestionOneTwo"}>
+            <li
+              className="
+                px-3 py-2
+                text-white
+                bg-rose-500
+                rounded-sm
+                hover:bg-black transition dark:border dark:border-slate-400
+              "
+            >
+              Question One & Two
+            </li>
+          </Link>
           <Link to={"/modelTestFirstPaper"}>
             <li
               className="
