@@ -812,59 +812,579 @@ const QuestionOneTwo = () => {
                 (e) What retrospective helped solidify Sultan's status as a
                 major artist? <br />
                 <br />
-                2. Based on your reading of the passage, make short notes in
-                each of the boxes in the flow-chart <br />
-                showing the parentage of Frederick Douglass. (No. 1 has been
-                done for you.) 2×5=10 My father was a white man. He was admitted
-                to be such by all I ever heard speak of my parentage. <br />
-                The opinion was also whispered that my master was my father, but
-                of the correctness of this opinion. I know nothing the means of
-                knowing was withheld from me. My mother and I were separated
-                when I was but an infant - before I knew her as my mother. It is
-                a common custom. In the part of Maryland from which I ran away,
-                to part children from their mothers at a very early age.
-                Frequently, before the child has reached its twelfth month, its
-                mother is taken from it, and hired out on some farm a
-                considerable distance off. and the child is placed under the
-                care of an old woman. too old for field labor. For what this
-                separation is done, I do not know, unless it is to hinder the
-                development of the child's affection toward its mother, and to
-                blunt and destroy the natural affection of the mother for the
-                child. This is the inevitable result. <br />
-                I never saw my mother, to know her as such, more than four or
-                five times in my life; and each of these times was very short in
-                duration, and at night. She was hired by a Mr. Stewart, who
-                lived about twelve miles from my home. She made her journeys to
-                see me in the night, travelling the whole distance on foot,
-                after the performance of her day's work. She was a field hand,
-                and a whipping is the penalty of not being in the field at
-                sunrise, unless a slave has special permission from his or her
-                master to the contrary--a permission which they seldom get, and
-                one that gives to him that gives it the proud name of being a
-                kind master. I do not recollect of ever seeing my mother by the
-                light of day. She was with me in the night. She would lie down
-                with me, and get me to sleep, but long before I waked she was
-                gone. Very little communication ever took place between us.
-                Death soon ended what little we could have while she lived, and
-                with it her hardships and suffering. She died when I was about
-                seven years old, on one of my maker's farms, near Lee's Mill. I
-                was not allowed to be present during her illness, at her death,
-                or burial. <br />
-                She was gone long before I knew anything about it. Never having
-                enjoyed, to any considerable extent, her soothing presence, her
-                tender and watchful care, I received the tidings of her death
-                with much the same emotions I should have probably felt at the
-                death of a stranger. <br /> [Unit-8: Lesson-5(BJ)] <br />
+                2. Read the following text and make a flow chart showing Jerry's
+                activities of chopping woods as a labourer. (No. 1 has been done
+                for you)2 × 5 = 10 <br />
+                Jerry began to chop. The blows were rhythmic and steady, and
+                shortly I had forgotten him, the sound no more of an
+                interruption than a consistent rain. I suppose an hour and a
+                half passed and I heard the boy's steps on the cabin stoop....
+                The boy said, "I have to go to supper now," he said. "I can come
+                again tomorrow." <br />
+                I said, "I'll pay you now for what you've done," thinking I
+                should probably have to insist on an older boy.... <br />
+                We went together back to the cabin. An astonishing amount of
+                solid wood had been cut.... "But you've done as much as a man,"
+                I said. "This is a splendid pile." <br />
+                I looked at him, actually, for the first time. His hair was the
+                color of the com shocks and his eyes, very direct, were like the
+                mountain sky when rain is pending - gray, with a shadowing of
+                that miraculous blue.... I gave him a quarter. <br />
+                "You may come tomorrow afternoon," I said, "and thank you very
+                much." <br />
                 <br />
-                1. His father was a white man → 2 → 3 → 4 → 5 → 6 <br />
+                1. Working steadily →2→3→4→5→6.
               </div>
             </AccordionContent>
           </AccordionPanel>
-
+          {/* Model question - 8 */}
+          <AccordionPanel>
+            <AccordionTitle>Model question - 8</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="my-5 dark:text-gray-400 text-xs lg:text-xl">
+                <div className="">
+                  Model Question-08 <br />
+                  English (Compulsory)- First Paper <br />
+                  Full marks: 100 —---Time: 3 hours <br />
+                  (Answer all the questions. Figures in the margin indicate full
+                  marks.) <br />
+                  <br />
+                  PART-A: READING TEST [60 Marks] <br />
+                  1. Read the passage and answer the questions A and B. <br />
+                  Novera Ahmed was the pioneer of modern sculpting in
+                  Bangladesh. She is also one of the most under-and
+                  misrepresented artists in the country. When describing the
+                  works of the first modern Bangladeshi sculptor Novera Alımed,
+                  Shilpacharja Zainul Abedin proclaimed "What Novera is doing
+                  now will take us a long time to understand -she is that kind
+                  of artist. This aptly describes her progressive thoughts in{" "}
+                  <br />
+                  <br />
+                  the field of sculpture. Novera Ahmed was born in a culturally
+                  inclined family in Chittagong, where she was inspired by her
+                  mother's skills in making dolls' houses out of clay and became
+                  fascinated with working with three-dimensional forms. As Ahmed
+                  was educated in London and Florence, her sculptural vocabulary
+                  was based on a combination of western ideas and folk
+                  traditions. Many of her artefacts were based on village lives
+                  and folk motifs, of which she was a keen observer. She also
+                  incorporated Buddhist themes in her works, and developed an
+                  individual style that depicted the experiences of women.{" "}
+                  <br />
+                  <br />
+                  In August 1960, Novera Ahmed had her first solo exhibition
+                  organised on the ground floor of Central Public Library (now
+                  Dhaka University Library). It was the first-ever solo
+                  sculpture exhibition by any sculptor of Bangladesh (East
+                  Pakistan back then). It was inaugurated by General Azam Khan
+                  of the Pakistan Army, who was so impressed with her work that
+                  he gave her a grant of $10,000 to promote sculpture as an art
+                  form. She used cement, wood, plaster and stone for the
+                  material for her sculptures. In the early 1960s, upon the
+                  Pakistan Art Council's invitation, she moved to West Pakistan
+                  and produced many works there. <br />
+                  <br />
+                  In 1962, she traveled to Bombay to learn Bharatanatyam, and a
+                  year later moved to Paris where she remained for the rest of
+                  her life. She lived in Thailand from 1968 to 1970 and had her
+                  second solo exhibition in Bangkok's Alliance Francaise in
+                  1970. At that time she was using remains from plane crashes of
+                  American airplanes from the Vietnam War. Novera Ahmed was one
+                  of the original designers of the Shaheed Minar, in which she
+                  collaborated with Hamidur Rahman. She was awarded the Ekushey
+                  Padak in 1997 in absentia, and an exhibition was arranged from
+                  her works left behind in Dhaka in April-May, 1998. <br />{" "}
+                  [Unit-2: Lesson-3(D)] <br />
+                  <br />
+                  A. Choose the correct answer from the alternatives.1x5=5{" "}
+                  <br />
+                  (a) Who was the pioneer of modern sculpting in Bangladesh?{" "}
+                  <br />
+                  iv. Azam Khan <br />
+                  i. Zainul Abedin <br />
+                  iii. Novera Ahmed <br />
+                  ii. Hamidur Rahman <br />
+                  <br />
+                  (b) In which year was Novera Ahmed awarded the Ekushey Padak?{" "}
+                  <br />
+                  i. 1995 <br />
+                  ii. 2000 <br />
+                  iii. 1997 <br />
+                  Iv. 2002 <br />
+                  <br />
+                  (c) What did Zainul Abedin say about Novera Ahmed's work?{" "}
+                  <br />
+                  ii. It will take us a long time to understand <br />
+                  i. It is easy to understand <br />
+                  iv. It is revolutionary <br />
+                  iii. It has no significance <br />
+                  <br />
+                  (d) Where was Novera Ahmed born? <br />
+                  ili. Khulna <br />
+                  iv. Sylhet <br />
+                  i. Dhaka <br />
+                  ii. Chittagong <br />
+                  <br />
+                  (e) What material did Novera use for her sculptures? <br />
+                  i. Steel <br />
+                  ii. marble <br />
+                  iii. Bronze <br />
+                  iv. Cement, wood. plaster and stone <br />
+                  <br />
+                  B. Answer the following questions. 2 x 5 = 10 <br />
+                  (a) Who was Novera Ahmed? <br />
+                  (b) What inspired Novera as a child? <br />
+                  (c) Where did Novera have her first solo exhibition? <br />
+                  (d) Who inaugurated Novera's first solo exhibition? <br />
+                  (e) Which prestigious award did Novera Ahmed receive? <br />
+                  <br />
+                  2. Read the following text and make a flow chart showing how
+                  important the relationship is and/or why we should maintain
+                  it. (No. 1 has been done for you) 2 x 5 = 10 <br />
+                  Also, relationships are of different kinds. Some are familial
+                  and intimate, formed by blood and by marriage: some are social
+                  like the ones we have with friends and some are made in
+                  schools where we form close bonds with classmates and
+                  teachers. Relationships can also be fostered in workplace,
+                  which may quickly change from professional to social. There
+                  are relationships between human beings and animals, between
+                  children and their toys that they cannot part with. All these
+                  relationships keep us close to each other and provide us all
+                  kinds of support, love and affection. A person who has no
+                  family feels the pain of loneliness and isolation. There is no
+                  one to laugh or cry with him/her. When we share our joy with
+                  someone, it simply redoubles, and when we suffer a loss and
+                  someone shares our sorrow, it lessens. Relationships are thus
+                  needed for our emotional health. <br />
+                  <br />
+                  1. Meaning to our existence → 2 → 3 → 4 → 5 → 6 <br />
+                </div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+          {/* Model question - 9 */}
+          <AccordionPanel>
+            <AccordionTitle>Model question - 9</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="my-5 dark:text-gray-400 text-xs lg:text-xl">
+                <div className="">
+                  Model Question-09 <br />
+                  English (Compulsory) - First Paper <br />
+                  Full marks: 100 —-- Time: 3 hours <br />
+                  (Answer all the questions. Figures in the margin indicate full
+                  marks.) <br />
+                  <br />
+                  PART-A: READING TEST [60 Marks] <br />
+                  1. Read the passage and answer the questions A and B. <br />
+                  On the Island of Crete, the fearsome Minotaur, a creature that
+                  was half-man and half-bull, terrorized the inhabitants. To
+                  contain the beast, King Minos enlisted the help of Daedalus, a
+                  masterful architect and inventor. Daedalus constructed an
+                  intricate labyrinth so complex that escape was nearly
+                  Impossible. Once the Minotaur was imprisoned within the maze,
+                  King Minos believed he had the perfect trap for his enemies,
+                  who would be sent into the labyrinth to meet a gruesome end.{" "}
+                  <br />
+                  However, King Minos, no longer needing Daedalus, cruelly
+                  imprisoned the inventor and his son, Icarus. within the same
+                  labyrinth. Yet, Daedalus, familiar with the labyrinth's
+                  design, managed to escape with Icarus. After fleeing, they
+                  found themselves stranded on the island with no means of
+                  escape by sea. Observing the birds flying above, Daedalus was
+                  inspired to craft wings from feathers and wax for himself and
+                  his son. He warned Icarus to fly at a moderate height-too
+                  close to the sea, and the wings would become heavy with
+                  moisture ; too close to the sun, and the wax would melt.{" "}
+                  <br />
+                  <br />
+                  Initially. Icarus heeded his father's advice, but soon,
+                  overwhelmed by the excitement of the flight, he soared higher
+                  and higher, forgetting the warning. As he ascended, the sun's
+                  heat melted the wax binding his wings. Helplessly, Icarus
+                  plummeted into the sea and drowned, leaving Daedalus to fly on
+                  alone, devastated by his son's tragic fate. He eventually
+                  reached Sicily, where he mourned Icarus and named the sea
+                  where his son fell the Icarian Sea in his memory. [Unit-3;
+                  Lesson-2(B)] <br />
+                  <br />
+                  A. Choose the correct answer from the alternatives. 1 x 5 = 5{" "}
+                  <br />
+                  (a) What does "Minotaur" refer to in the text? <br />
+                  i. A king of Crete <br />
+                  ii. A mythical creature that is half-man and half-bull <br />
+                  iii. An architect <br />
+                  iv. An island <br />
+                  <br />
+                  (b) What was the main purpose of the labyrinth constructed by
+                  Daedalus? <br />
+                  i. To keep the Minotaur safe <br />
+                  ii. To trap the Minotaur <br />
+                  iii. To hide treasures <br />
+                  iv. To provide shelter for people <br />
+                  <br />
+                  (c) Who was imprisoned along with Daedalus? <br />
+                  i. King Minos <br />
+                  ii. The Minotaur <br />
+                  iii. Icarus <br />
+                  iv. The people of Crete <br />
+                  <br />
+                  (d) What inspired Daedalus to create wings? <br />
+                  i. A dream he had <br />
+                  ii. His love for Icarus <br />
+                  iii. Birds flying above <br />
+                  iv. The Minotaur's roar <br />
+                  (e) What was Icarus's fate after he ignored his Father's
+                  warning? <br />
+                  i. He fell into the sea <br />
+                  II. He became a hero <br />
+                  iv. He successfully escaped <br />
+                  iii. He returned to the labyrinth <br />
+                  <br />
+                  B. Answer the following questions. 2×5=10 <br />
+                  (a) What was the Minotaur? <br />
+                  (b) Who helped King Minos contain the Minotaur? <br />
+                  (c) What happened to Daedalus and Icarus after making the
+                  intricate labyrinth? <br />
+                  (d) What did Daedalus create for himself and Icarus? <br />
+                  (e) What warning did Daedalus give to Icarus? <br />
+                  <br />
+                  2. Based on your reading of the passage, make short notes in
+                  each of the boxes in the flow-chart of Al for the students.
+                  (No. 1 has been done for you.) 2x5=10 <br />
+                  showing the benefits. <br />
+                  One of the main advantages I see of Al in the classroom is
+                  personalised learning. Al-powered educational tools can
+                  analyse data on student performance and provide tailored
+                  support to improve their grades. <br />
+                  Al can also provide instant feedback. For example, Al-powered
+                  educational tools can provide students with immediate feedback
+                  on their work, allowing them to identify and correct mistakes
+                  quickly. <br /> [Unit-1:Lesson-2(B)) <br />
+                  <br />
+                  1. Providing personalised learning → 2. → 3. → 4. → 5 → 6.
+                </div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+          {/* Model question - 10 */}
+          <AccordionPanel>
+            <AccordionTitle>Model question - 10</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="my-5 dark:text-gray-400 text-xs lg:text-xl">
+                <div className="">
+                  Model Question - 10 <br />
+                  English (Compulsory) - First Paper <br />
+                  Full marks: 100. —-- Time: 3 hours <br />
+                  (Answer all the questions. Figures in the margin indicate full
+                  marks.) <br />
+                  <br />
+                  PART-A: READING TEST [60 Marks] <br />
+                  1. Read the passage and answer the questions A and B. <br />
+                  According to some myths and legends, Gazi Pir was a Muslim
+                  saint who is said to have spread Islam in the parts of Bengal
+                  close to the Sundarbans. He was credited with many miracles.
+                  For example, he could supposedly calm dangerous animals and
+                  make them docile. He is usually depicted in paats or scroll
+                  paintings riding a fierce looking Bengal tiger, a snake in his
+                  hand, but in no apparent danger. According to some stories, he
+                  also fought crocodiles who threatened the people of the region
+                  full of canals and creeks, indeed, a kind of watery jungle
+                  bordering the Bay of Bengal. Because of his alert and vigilant
+                  presence, all predatory animals were said to have been kept
+                  within bounds. It was also believed that he enabled villagers
+                  to live close to forests and jungles and cultivate their
+                  lands. Consequently, people of these regions would pray to him
+                  for protection. The story of Gazi Pir has been preserved in
+                  folk literature as well as art and has been performed in
+                  indigenous theatre. Some Gazir paat scrolls are part of the
+                  collection of the British Museum. (Unit-3; Lesson-3(B))
+                  <br />
+                  <br />
+                  A. Choose the correct answer from the alternatives: 1 x 5 = 5{" "}
+                  <br />
+                  (a) What could be the closest meaning for 'scroll' in the last
+                  sentence? <br />
+                  i. A roll of paper for writing on. <br />
+                  ii. Emaciate <br />
+                  iii. A part of movie <br />
+                  iv. Scramble <br />
+                  <br />
+                  (b) What is the meaning of the word 'credited' in line 2 ?{" "}
+                  <br />
+                  i. accepted <br />
+                  ii. attributed <br />
+                  iii. trust <br />
+                  iv. buy <br />
+                  <br />
+                  (c) Gazi Pir was-. <br />
+                  i. a normal human being <br />
+                  il. a lion-hearted person <br />
+                  III. a timid person <br />
+                  iv. chicken-hearted <br />
+                  <br />
+                  (d) The word 'predatory' does not refer to <br />
+                  iv. sardonic <br />
+                  i. rapacious <br />
+                  II. vulturine <br />
+                  iii. greedy <br />
+                  <br />
+                  (e) 'Depict' is synonymous with <br />
+                  i. picturesque <br />
+                  ii. Deject <br />
+                  iii. delineate <br />
+                  iv. represent <br />
+                  B. Answer the following questions: 2 x 5 = 10 <br />
+                  (a) Why did he fight with the crocodiles? <br />
+                  (b) Why, do you think, was Gazi admired in parts of rural
+                  Bangladesh for a long time? (c) What are legends? <br />
+                  (d) Where did Gazi Pir preach Islam? <br />
+                  (e) How did the local people treat him? Why? <br />
+                  <br />
+                  2. Read the following text and make a flow chart showing the
+                  multifarious features of Bangladeshi music. (No. 1 has been
+                  done for you) 2 x 5 = 10 <br />
+                  In Bangladesh folk music has great variety. with songs being
+                  composed on the culture, festivals, views of life, natural
+                  beauty, rivers and rural and riverine life. These songs are
+                  also about social Inequality and poverty, about the material
+                  world and the supernatural. Mystical songs have been composed
+                  using the metaphors of rivers and boats. Since the country is
+                  basically riverine, the Bhatiyall forms an important genre of
+                  folk music. Folk music is formed and develops according to the
+                  environment. Differences in the natural environment are
+                  reflected in the people of the different regions. The dialects
+                  too vary across the different regions. Bangladeshi folk music
+                  therefore varies from region to region. Thus there are the
+                  northern Bhawaiya, the eastern Bhatiyali and the southwestern
+                  Baul songs. <br />
+                  The culture and the lifestyle of the different tribes have
+                  also influenced folk music. Tribes like the Santal, Garo,
+                  Hajong, Chakma, Manipuri, Tripuri, Marma, etc. have interacted
+                  with ethnic Bengali culture and lifestyle over the years. The
+                  interaction has been clearly reflected in the richness of folk
+                  music. [Unit-2: Lesson-2(B)] <br />
+                  1. Showing social inequality and poverty → 2 → 3 → 4 → 5 → 6
+                </div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+          {/* Model question - 11*/}
+          <AccordionPanel>
+            <AccordionTitle>Model question - 11</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="my-5 dark:text-gray-400 text-xs lg:text-xl">
+                <div className="">
+                  Model Question - 11 <br />
+                  English (Compulsory)- First Paper <br />
+                  Full marks: 100 —- Time: 3 hours <br />
+                  (Answer all the questions. Figures in the margin indicate full
+                  marks.] <br />
+                  <br />
+                  PART-A: READING TEST [60 Marks] <br />
+                  1.Read the passage and answer the questions A and B. <br />
+                  Jodi borshe magher shesh, dhonyi rajar punyi desh. <br />
+                  If it rains at the end of Magh (last month of Winter), the
+                  kingdom will prosper. The mystery that connects seasons with
+                  soil and crops with rain was no secret to her. She realized
+                  the interdependence that links people and climate in myriad
+                  ways. She was Khona. The mythical story of Khona is deeply
+                  rooted in Bangla folklore. Khona, originally named Lila, was
+                  an incredible woman with a gift for predicting weather and
+                  understanding the ways of farming. Her wisdom was shared
+                  through memorable, rhyming verses known as "Khona's Words" or
+                  "Khonar Bochon." These sayings, though simple and easy to
+                  remember, were filled with deep knowledge and practical advice
+                  for farmers. <br />
+                  Khona used her knowledge to help the peasants, but her actions
+                  often challenged the ruling class. The rulers, not pleased
+                  with her defiance, punished her cruelly by cutting out her
+                  tongue. Thus, she became known as Khona, which means "someone
+                  who cannot speak." Despite this harsh punishment, her wisdom
+                  lived on through her sayings, which have been passed down for
+                  over 1500 years. <br />
+                  There are many versions of Khona's story. One retelling goes
+                  like this: in the kingdom of Deyulnagar. there was a royal
+                  astrologer named Varaha who served King Dharmaketu. Sadly,
+                  Varaha's wife died while giving birth to their son. Mihir.{" "}
+                  <br />
+                  Worried about his son's future, Varaha saw in the stars that
+                  Mihir was defined for a life of trouble and death.
+                  Heartbroken, Varaha decided to save Mihir by placing him in a
+                  copper pot and setting the pot afloat on the river
+                  Viddyadhory. The baby was found and rescued in Sri Lanka,
+                  where he was raised by the king. As he grew up in the royal
+                  court, he married the king's daughter, an astrologer herself.
+                  named Lila. <br />
+                  Lila and Mihir managed to find Varaha and prove that his
+                  predictions about Mihir's future had been wrong. Varaha,
+                  though surprised by his mistake, was thrilled to see his son
+                  again and welcomed both Mihir and Lila warmly. They were soon
+                  introduced to the royal court and became royal astrologers
+                  themselves. <br />
+                  Even though Lila was now a royal astrologer, she kept in touch
+                  with the local farmers. She learned a lot from them and found
+                  that they shared valuable knowledge through short,
+                  easy-to-remember verses. <br />
+                  Lila began to use these simple verses to explain her own
+                  complex astrological knowledge. Varaha, feeling jealous and
+                  angry, ordered his son to punish Lila by cutting out her
+                  tongue, hoping to silence her. However, Khona's story and her
+                  knowledge remained alive. Her wisdom about nature-oriented
+                  farming continued to benefit the people of the land. <br />{" "}
+                  [Unit-3; Lesson-4(B)) <br />
+                  <br />
+                  A. Choose the correct answer from the alternatives: 1 x 5 = 5{" "}
+                  <br />
+                  (a) What could be the closest meaning for "Kingdom"? <br />
+                  i. wisdom <br />
+                  ii. kindness <br />
+                  iii. empire <br />
+                  iv. fictional <br />
+                  <br />
+                  (b) Who is called Khona? <br />
+                  i. One who is blind <br />
+                  ii. One who is dumb <br />
+                  iii. One who is deaf <br />
+                  iv. society <br />
+                  <br />
+                  (c) What does the word "myriad" in the text mean? <br />
+                  i. exclusive <br />
+                  ii. unique <br />
+                  iii. extreme <br />
+                  iv. One who is lame <br />
+                  <br />
+                  (d) Lila had vast knowledge on <br />
+                  i. business ii. literature <br />
+                  iii. agriculture <br />
+                  iv. numerous <br />
+                  <br />
+                  (e) "mythical" is synonymous with <br />
+                  i. fabulous <br />
+                  ii. modern <br />
+                  iii. recent <br />
+                  iv. painting <br />
+                  <br />
+                  B. Answer the following questions:2 x 5 = 10 <br />
+                  (a) Who was Khona? <br />
+                  (b) How was "Khona's words" or "Khonar Bochon"? <br />
+                  (c) How did Khona help the peasants? <br />
+                  (d) How did the rulers punish Khona and why? <br />
+                  (e) "Jodi barshe magher shesh, dhonyi rajar punyi desh" - What
+                  is this saying called and what does it mean? <br />
+                  <br />
+                </div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+          {/* Model question - 9 */}
           <AccordionPanel>
             <AccordionTitle>Model question - 1</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-xs lg:text-xl"></div>
+            </AccordionContent>
+          </AccordionPanel>
+          {/* Model question - 9 */}
+          <AccordionPanel>
+            <AccordionTitle>Model question - 1</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="my-5 dark:text-gray-400 text-xs lg:text-xl"></div>
+            </AccordionContent>
+          </AccordionPanel>
+          {/* Model question - 9 */}
+          <AccordionPanel>
+            <AccordionTitle>Model question - 1</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="my-5 dark:text-gray-400 text-xs lg:text-xl"></div>
+            </AccordionContent>
+          </AccordionPanel>
+          {/* Model question - 9 */}
+          <AccordionPanel>
+            <AccordionTitle>Model question - 1</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="my-5 dark:text-gray-400 text-xs lg:text-xl">
+                <div className=""></div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+          {/* Model question - 9 */}
+          <AccordionPanel>
+            <AccordionTitle>Model question - 1</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="my-5 dark:text-gray-400 text-xs lg:text-xl">
+                <div className=""></div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+          {/* Model question - 9 */}
+          <AccordionPanel>
+            <AccordionTitle>Model question - 1</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="my-5 dark:text-gray-400 text-xs lg:text-xl">
+                <div className=""></div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+          {/* Model question - 9 */}
+          <AccordionPanel>
+            <AccordionTitle>Model question - 1</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="my-5 dark:text-gray-400 text-xs lg:text-xl">
+                <div className=""></div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+          {/* Model question - 9 */}
+          <AccordionPanel>
+            <AccordionTitle>Model question - 1</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="my-5 dark:text-gray-400 text-xs lg:text-xl">
+                <div className=""></div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+          {/* Model question - 9 */}
+          <AccordionPanel>
+            <AccordionTitle>Model question - 1</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="my-5 dark:text-gray-400 text-xs lg:text-xl">
+                <div className=""></div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+          {/* Model question - 9 */}
+          <AccordionPanel>
+            <AccordionTitle>Model question - 1</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="my-5 dark:text-gray-400 text-xs lg:text-xl">
+                <div className=""></div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+          {/* Model question - 9 */}
+          <AccordionPanel>
+            <AccordionTitle>Model question - 1</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="my-5 dark:text-gray-400 text-xs lg:text-xl">
+                <div className=""></div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+          {/* Model question - 9 */}
+          <AccordionPanel>
+            <AccordionTitle>Model question - 1</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="my-5 dark:text-gray-400 text-xs lg:text-xl">
+                <div className=""></div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+          {/* Model question - 9 */}
+          <AccordionPanel>
+            <AccordionTitle>Model question - 1</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="my-5 dark:text-gray-400 text-xs lg:text-xl">
+                <div className=""></div>
+              </div>
             </AccordionContent>
           </AccordionPanel>
         </Accordion>
