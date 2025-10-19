@@ -67,7 +67,7 @@ const Pronunciation = () => {
   };
 
   return (
-    <div className="flex flex-col items-center py-4 md:py-10 px-5 md:px-10 gap-80">
+    <div className="flex flex-col items-center py-4 md:py-10 px-5 md:px-10">
       <FlipBook
         width={isPortrait ? 400 : 500} // smaller width for portrait
         height={isPortrait ? 600 : 300} // taller height for portrait
