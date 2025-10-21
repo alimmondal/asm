@@ -56,7 +56,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Suggestion
@@ -69,10 +69,23 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Question One & Two
+            </li>
+          </Link>
+          <Link to={"/QuestionFour"}>
+            <li
+              className="
+                px-3 py-2
+                text-white
+                bg-rose-500
+                rounded-sm
+                hover:bg-green-600 transition dark:border dark:border-slate-400
+              "
+            >
+              Question Four
             </li>
           </Link>
           <Link to={"/modelTestFirstPaper"}>
@@ -83,7 +96,7 @@ function Hsc() {
                 bg-rose-500
                 rounded-sm
                 border-green-400
-                hover:bg-black transition dark:hover:border
+                hover:bg-green-600 transition dark:hover:border
               "
             >
               MODEL TEST 1st-Part
@@ -96,7 +109,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                transition hover:bg-black dark:border dark:border-slate-400
+                transition hover:bg-green-600 dark:border dark:border-slate-400
               "
             >
               Article
@@ -109,7 +122,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Preposition
@@ -122,7 +135,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Phrase
@@ -135,7 +148,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Completing Sentence
@@ -148,7 +161,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Right Form of Verbs
@@ -161,7 +174,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Narration
@@ -174,7 +187,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Transformation
@@ -187,7 +200,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Pronoun
@@ -200,7 +213,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Modifier
@@ -213,7 +226,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Connectors
@@ -226,7 +239,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Punctuation
@@ -239,7 +252,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Synonym & Antonym
@@ -252,7 +265,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Paragraph
@@ -265,7 +278,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Composition
@@ -278,7 +291,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Email
@@ -291,7 +304,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Letter
@@ -304,7 +317,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Application
@@ -341,7 +354,7 @@ function Hsc() {
                 text-white
                 bg-rose-500
                 rounded-sm
-                hover:bg-black transition dark:border dark:border-slate-400
+                hover:bg-green-600 transition dark:border dark:border-slate-400
               "
             >
               Board Question
