@@ -64,15 +64,13 @@ const QuestionThree = () => {
         Pirojpur-2024; <br /> Bhola Govt. College, Bhola-2018
         <br />
         <br />
-        Dreams-
-        <br />
+        Dreams- <br />
         D.H. Lawrence (1885-1930)
         <br />
         <br />
         All people dream, but not equally.
         <br />
-        Those who dream by night in the dusty recesses of their mind,
-        <br />
+        Those who dream by night in the dusty recesses of their mind, <br />
         Wake in the morning to find that it was vanity.
         <br />
         But the dreamers of the day are dangerous people
