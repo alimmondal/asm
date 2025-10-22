@@ -33,179 +33,81 @@ function Hsc() {
           HSC
         </h1>
       </div>
-
-      <div className="">
-        <h1 className="text-center text-green-400">First Paper</h1>
+      {/* First paper */}
+      <div className="my-20 md:my-48">
+        <h1 className="text-center text-green-400 pb-5">First Paper</h1>
         <div
           className="
           max-w-7xl h-full
-          my-20 mx-auto
-          md:my-48
+          mx-auto
+          
         "
         >
           <ul
             className="
-            flex flex-wrap
-            px-2
-            items-center justify-center gap-3
-            md:px-20
+            grid grid-cols-2 md:grid-cols-3  gap-5 px-2 md:px-20 
           "
           >
             <Link to={"/HSuggestion"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Suggestion
               </li>
             </Link>
             <Link to={"/QuestionOneTwo"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
-                Question One & Two
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
+                Q. One & Two
               </li>
             </Link>
             <Link to={"/QuestionThree"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Question Three
               </li>
             </Link>
             <Link to={"/QuestionFour"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Question Four
               </li>
             </Link>
             <Link to={"/QuestionFive"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Question Five
               </li>
             </Link>
             <Link to={"/QuestionSix"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Question Six
               </li>
             </Link>
             <Link to={"/modelTestFirstPaper"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                border-green-400
-                hover:bg-green-600 transition dark:hover:border
-              "
-              >
-                MODEL TEST 1st-Part
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
+                MODEL TEST
               </li>
             </Link>
 
             <Link to={"/paragraph"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Paragraph
               </li>
             </Link>
 
             <Link to={"/email"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Email
               </li>
             </Link>
             <Link to={"/letter"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Letter
               </li>
             </Link>
 
             <Link to={"/graph"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Graph Chart
               </li>
             </Link>
             <Link to={"/story"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Completing Story
               </li>
             </Link>
@@ -213,268 +115,117 @@ function Hsc() {
         </div>
       </div>
 
-      <div className="">
-        <h1 className="text-center text-green-400">Second Paper</h1>
+      {/* Second Paper */}
+      <div className="my-20 md:my-48">
+        <h1 className="text-center text-green-400 pb-5">Second Paper</h1>
         <div
           className="
           max-w-7xl h-full
-          my-20 mx-auto
-          md:my-48
+           mx-auto
+          
         "
         >
           <ul
             className="
-            flex flex-wrap
-            px-2
-            items-center justify-center gap-3
-            md:px-20
+            grid grid-cols-2 md:grid-cols-3  gap-5 px-2 md:px-20 
           "
           >
             <Link to={"/HSuggestion"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Suggestion
               </li>
             </Link>
 
             <Link to={"/article"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                transition hover:bg-green-600 dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Article
               </li>
             </Link>
             <Link to={"/preposition"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Preposition
               </li>
             </Link>
             <Link to={"/phrase"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Phrase
               </li>
             </Link>
             <Link to={"/completing"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Completing Sentence
               </li>
             </Link>
             <Link to={"/verbs"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Right Form of Verbs
               </li>
             </Link>
             <Link to={"/narration"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Narration
               </li>
             </Link>
             <Link to={"/transformation"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Transformation
               </li>
             </Link>
             <Link to={"/pronoun"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Pronoun
               </li>
             </Link>
             <Link to={"/modifier"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Modifier
               </li>
             </Link>
             <Link to={"/connectors"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Connectors
               </li>
             </Link>
+            <Link to={"/syn-ant"}>
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
+                Synonym/Antonym
+              </li>
+            </Link>
             <Link to={"/punctuation"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Punctuation
               </li>
             </Link>
-            <Link to={"/syn-ant"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
-                Synonym & Antonym
-              </li>
-            </Link>
+
             <Link to={"/paragraph"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Paragraph
               </li>
             </Link>
             <Link to={"/essay"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Composition
               </li>
             </Link>
             <Link to={"/email"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Email
               </li>
             </Link>
             <Link to={"/letter"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Letter
               </li>
             </Link>
             <Link to={"/application"}>
-              <li
-                className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
-              >
+              <li className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md">
                 Application
               </li>
             </Link>
 
             {/* <Link to={"/HQuestion"}>
             <li
-              className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-                hover:bg-green-600 transition dark:border dark:border-slate-400
-              "
+              className="text-gray-300 bg-gradient-to-r from-yellow-300 to-rose-700 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-3 md:py-5 rounded-md font-bold md:text-2xl text-xl category hover:dark:shadow-md"
             >
               Board Question
             </li>
