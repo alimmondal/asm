@@ -4,7 +4,7 @@ function Hsc() {
   return (
     <div
       className="
-        w-full h-full
+        w-full 
       "
     >
       <div
@@ -26,7 +26,7 @@ function Hsc() {
           className="
             z-10
             w-full
-            text-center text-2xl font-bold text-white
+            text-center text-5xl font-bold text-white
             md:text-7xl
           "
         >
@@ -34,63 +34,104 @@ function Hsc() {
         </h1>
       </div>
 
-      <div
-        className="
+      <div className="">
+        <h1 className="text-center text-green-400">First Paper</h1>
+        <div
+          className="
           max-w-7xl h-full
           my-20 mx-auto
           md:my-48
         "
-      >
-        <ul
-          className="
+        >
+          <ul
+            className="
             flex flex-wrap
             px-2
             items-center justify-center gap-3
             md:px-20
           "
-        >
-          <Link to={"/HSuggestion"}>
-            <li
-              className="
+          >
+            <Link to={"/HSuggestion"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Suggestion
-            </li>
-          </Link>
-          <Link to={"/QuestionOneTwo"}>
-            <li
-              className="
+              >
+                Suggestion
+              </li>
+            </Link>
+            <Link to={"/QuestionOneTwo"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Question One & Two
-            </li>
-          </Link>
-          <Link to={"/QuestionFour"}>
-            <li
-              className="
+              >
+                Question One & Two
+              </li>
+            </Link>
+            <Link to={"/QuestionThree"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Question Four
-            </li>
-          </Link>
-          <Link to={"/modelTestFirstPaper"}>
-            <li
-              className="
+              >
+                Question Three
+              </li>
+            </Link>
+            <Link to={"/QuestionFour"}>
+              <li
+                className="
+                px-3 py-2
+                text-white
+                bg-rose-500
+                rounded-sm
+                hover:bg-green-600 transition dark:border dark:border-slate-400
+              "
+              >
+                Question Four
+              </li>
+            </Link>
+            <Link to={"/QuestionFive"}>
+              <li
+                className="
+                px-3 py-2
+                text-white
+                bg-rose-500
+                rounded-sm
+                hover:bg-green-600 transition dark:border dark:border-slate-400
+              "
+              >
+                Question Five
+              </li>
+            </Link>
+            <Link to={"/QuestionSix"}>
+              <li
+                className="
+                px-3 py-2
+                text-white
+                bg-rose-500
+                rounded-sm
+                hover:bg-green-600 transition dark:border dark:border-slate-400
+              "
+              >
+                Question Six
+              </li>
+            </Link>
+            <Link to={"/modelTestFirstPaper"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
@@ -98,256 +139,334 @@ function Hsc() {
                 border-green-400
                 hover:bg-green-600 transition dark:hover:border
               "
-            >
-              MODEL TEST 1st-Part
-            </li>
-          </Link>
-          <Link to={"/article"}>
-            <li
-              className="
+              >
+                MODEL TEST 1st-Part
+              </li>
+            </Link>
+
+            <Link to={"/paragraph"}>
+              <li
+                className="
+                px-3 py-2
+                text-white
+                bg-rose-500
+                rounded-sm
+                hover:bg-green-600 transition dark:border dark:border-slate-400
+              "
+              >
+                Paragraph
+              </li>
+            </Link>
+
+            <Link to={"/email"}>
+              <li
+                className="
+                px-3 py-2
+                text-white
+                bg-rose-500
+                rounded-sm
+                hover:bg-green-600 transition dark:border dark:border-slate-400
+              "
+              >
+                Email
+              </li>
+            </Link>
+            <Link to={"/letter"}>
+              <li
+                className="
+                px-3 py-2
+                text-white
+                bg-rose-500
+                rounded-sm
+                hover:bg-green-600 transition dark:border dark:border-slate-400
+              "
+              >
+                Letter
+              </li>
+            </Link>
+
+            <Link to={"/graph"}>
+              <li
+                className="
+                px-3 py-2
+                text-white
+                bg-rose-500
+                rounded-sm
+              "
+              >
+                Graph Chart
+              </li>
+            </Link>
+            <Link to={"/story"}>
+              <li
+                className="
+                px-3 py-2
+                text-white
+                bg-rose-500
+                rounded-sm
+              "
+              >
+                Completing Story
+              </li>
+            </Link>
+          </ul>
+        </div>
+      </div>
+
+      <div className="">
+        <h1 className="text-center text-green-400">Second Paper</h1>
+        <div
+          className="
+          max-w-7xl h-full
+          my-20 mx-auto
+          md:my-48
+        "
+        >
+          <ul
+            className="
+            flex flex-wrap
+            px-2
+            items-center justify-center gap-3
+            md:px-20
+          "
+          >
+            <Link to={"/HSuggestion"}>
+              <li
+                className="
+                px-3 py-2
+                text-white
+                bg-rose-500
+                rounded-sm
+                hover:bg-green-600 transition dark:border dark:border-slate-400
+              "
+              >
+                Suggestion
+              </li>
+            </Link>
+
+            <Link to={"/article"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 transition hover:bg-green-600 dark:border dark:border-slate-400
               "
-            >
-              Article
-            </li>
-          </Link>
-          <Link to={"/preposition"}>
-            <li
-              className="
+              >
+                Article
+              </li>
+            </Link>
+            <Link to={"/preposition"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Preposition
-            </li>
-          </Link>
-          <Link to={"/phrase"}>
-            <li
-              className="
+              >
+                Preposition
+              </li>
+            </Link>
+            <Link to={"/phrase"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Phrase
-            </li>
-          </Link>
-          <Link to={"/completing"}>
-            <li
-              className="
+              >
+                Phrase
+              </li>
+            </Link>
+            <Link to={"/completing"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Completing Sentence
-            </li>
-          </Link>
-          <Link to={"/verbs"}>
-            <li
-              className="
+              >
+                Completing Sentence
+              </li>
+            </Link>
+            <Link to={"/verbs"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Right Form of Verbs
-            </li>
-          </Link>
-          <Link to={"/narration"}>
-            <li
-              className="
+              >
+                Right Form of Verbs
+              </li>
+            </Link>
+            <Link to={"/narration"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Narration
-            </li>
-          </Link>
-          <Link to={"/transformation"}>
-            <li
-              className="
+              >
+                Narration
+              </li>
+            </Link>
+            <Link to={"/transformation"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Transformation
-            </li>
-          </Link>
-          <Link to={"/pronoun"}>
-            <li
-              className="
+              >
+                Transformation
+              </li>
+            </Link>
+            <Link to={"/pronoun"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Pronoun
-            </li>
-          </Link>
-          <Link to={"/modifier"}>
-            <li
-              className="
+              >
+                Pronoun
+              </li>
+            </Link>
+            <Link to={"/modifier"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Modifier
-            </li>
-          </Link>
-          <Link to={"/connectors"}>
-            <li
-              className="
+              >
+                Modifier
+              </li>
+            </Link>
+            <Link to={"/connectors"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Connectors
-            </li>
-          </Link>
-          <Link to={"/punctuation"}>
-            <li
-              className="
+              >
+                Connectors
+              </li>
+            </Link>
+            <Link to={"/punctuation"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Punctuation
-            </li>
-          </Link>
-          <Link to={"/syn-ant"}>
-            <li
-              className="
+              >
+                Punctuation
+              </li>
+            </Link>
+            <Link to={"/syn-ant"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Synonym & Antonym
-            </li>
-          </Link>
-          <Link to={"/paragraph"}>
-            <li
-              className="
+              >
+                Synonym & Antonym
+              </li>
+            </Link>
+            <Link to={"/paragraph"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Paragraph
-            </li>
-          </Link>
-          <Link to={"/essay"}>
-            <li
-              className="
+              >
+                Paragraph
+              </li>
+            </Link>
+            <Link to={"/essay"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Composition
-            </li>
-          </Link>
-          <Link to={"/email"}>
-            <li
-              className="
+              >
+                Composition
+              </li>
+            </Link>
+            <Link to={"/email"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Email
-            </li>
-          </Link>
-          <Link to={"/letter"}>
-            <li
-              className="
+              >
+                Email
+              </li>
+            </Link>
+            <Link to={"/letter"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Letter
-            </li>
-          </Link>
-          <Link to={"/application"}>
-            <li
-              className="
+              >
+                Letter
+              </li>
+            </Link>
+            <Link to={"/application"}>
+              <li
+                className="
                 px-3 py-2
                 text-white
                 bg-rose-500
                 rounded-sm
                 hover:bg-green-600 transition dark:border dark:border-slate-400
               "
-            >
-              Application
-            </li>
-          </Link>
-          <Link to={"/graph"}>
-            <li
-              className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-              "
-            >
-              Graph Chart
-            </li>
-          </Link>
-          <Link to={"/story"}>
-            <li
-              className="
-                px-3 py-2
-                text-white
-                bg-rose-500
-                rounded-sm
-              "
-            >
-              Completing Story
-            </li>
-          </Link>
-          {/* <Link to={"/HQuestion"}>
+              >
+                Application
+              </li>
+            </Link>
+
+            {/* <Link to={"/HQuestion"}>
             <li
               className="
                 px-3 py-2
@@ -360,7 +479,8 @@ function Hsc() {
               Board Question
             </li>
           </Link> */}
-        </ul>
+          </ul>
+        </div>
       </div>
     </div>
   );

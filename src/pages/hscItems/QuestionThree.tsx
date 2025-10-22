@@ -1,8 +1,11 @@
 const QuestionThree = () => {
   return (
     <div>
-      QuestionThree
-      <div className="">
+      <div className="text-center py-20">
+        <h1 className="text-green-400">Question Three</h1>
+        <p className="">Summary/ theme writing</p>
+      </div>
+      <div className="px-5">
         Part 2<br />
         Writing Summary of the Poem
         <br />

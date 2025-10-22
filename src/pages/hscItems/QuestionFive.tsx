@@ -1,10 +1,11 @@
 const QuestionFive = () => {
   return (
     <div>
-      <div className="">
+      <div className="text-center py-20">
         <h1 className="text-center text-green-500">Question Five</h1>
+        <p className="">Close test without clues</p>
       </div>
-      <div className="">
+      <div className="px-4 text-sm md:text-base">
         Fill in the blanks with an appropriate word in each gap : 1 x 10 = 10{" "}
         <br />
         <br />
@@ -178,15 +179,15 @@ const QuestionFive = () => {
         না। <br />
         <br />
         9. Mymensingh Board-2025 <br />
-        About 70 years ago, tourism was not a much used word (a) — it is now.
-        Today many people (b) — holidays as a part of life. Consequently holiday
-        making has become a major © — . It has created a considerable (d) of
-        jobs. Leisure time has increased for modern people due to (e) —
-        advancement. The (f) — technology has brought for (g) — travel.
+        About 70 years ago, tourism was not a much used word (a) --- it is now.
+        Today many people (b) --- holidays as a part of life. Consequently
+        holiday making has become a major © --- . It has created a considerable
+        (d) of jobs. Leisure time has increased for modern people due to (e) ---
+        advancement. The (f) --- technology has brought for (g) --- travel.
         Previously greater opportunities in remote countries were considered a
-        (h) — . But today cheap holiday packages have made travel anywhere
-        within our (i) — . Thus the foreign visitors (j) — employment for the
-        local population. <br />
+        (h) --- . But today cheap holiday packages have made travel anywhere
+        within our (i) --- . Thus the foreign visitors (j) --- employment for
+        the local population. <br />
         ৭০ বছর আগে পর্যটন এখনকার মতো এতটা ব্যবহৃত শব্দ ছিল না। বর্তমানে অনেক
         মানুষ ছুটিকে জীবনের অংশ হিসেবে বিবেচনা করে। ফলশ্রুতিতে ছুটিযাপন
         ব্যবস্থাপনা একটি বড় ব্যবসায় পরিণত হয়েছে। এটি উল্লেখযোগ্য সংখ্যক কাজের
@@ -198,15 +199,16 @@ const QuestionFive = () => {
         <br />
         <br />
         10. Dhaka Board-2024 <br />
-        The development of communication in any (a) — creates an impact on the
-        development of the economy (b) — gross (c) — the product of any country.
-        Bangladesh, in this sense has become a (d) — model all over the world.
-        The present government has scheduled (e) — and such projects recently
-        (f) — increase the lifestyle of the country people. We can (g) — here
-        some of such developments: The Padma Multipurpose Bridget, the (h) —
-        way, the Karnaphuli Tunnel under the river (i) and the Metro Rail in
-        Dhaka City. The national and International business will be (j) — by
-        these kinds of communication development. <br />
+        The development of communication in any (a) --- creates an impact on the
+        development of the economy (b) --- gross (c) --- the product of any
+        country. Bangladesh, in this sense has become a (d) --- model all over
+        the world. The present government has scheduled (e) --- and such
+        projects recently (f) --- increase the lifestyle of the country people.
+        We can (g) --- here some of such developments: The Padma Multipurpose
+        Bridget, the (h) --- way, the Karnaphuli Tunnel under the river (i) ---
+        and the Metro Rail in Dhaka City. The national and International
+        business will be (j) --- by these kinds of communication development.{" "}
+        <br />
         <br />
         বঙ্গানুবাদ: কোনো দেশের যোগাযোগের উন্নতি সেই দেশের অর্থনীতি ও মোট দেশিয়
         পণ্যের (জিডিপি) উন্নতিতে প্রভাব তৈরি করে। এই অর্থে, বাংলাদেশ সারাবিশ্বে
@@ -219,15 +221,16 @@ const QuestionFive = () => {
         <br />
         11. Rajshahi Board-2024; Bangladesh Air Force Shaheen College,
         Kurmitola, Dhaka-2025 <br />
-        If you want to (a) English properly and fairly, you have to achieve
-        writing skill. To attain this skill you need (b) — some measures. At
-        first you should (c) — your vocabulary since everywhere words are
+        If you want to (a) --- English properly and fairly, you have to achieve
+        writing skill. To attain this skill you need (b) --- some measures. At
+        first you should (c) --- your vocabulary since everywhere words are
         required. Words will help you (d) – your ideas appropriately. Next you
-        should know how to arrange (e) — in a sentence. Here grammar will help
-        you the (f) way. For that basic (g) — items must be known to you. Then
-        you have to (h) —- knowledge to generate ideas and make sentences
-        accordingly. Be creative and try to (i) sentences of your own. Finally,
-        regular (j) — will help you succeed in achieving this skill. <br />
+        should know how to arrange (e) --- in a sentence. Here grammar will help
+        you the (f) --- way. For that basic (g) --- items must be known to you.
+        Then you have to (h) ---- knowledge to generate ideas and make sentences
+        accordingly. Be creative and try to (i) --- sentences of your own.
+        Finally, regular (j) --- will help you succeed in achieving this skill.{" "}
+        <br />
         <br />
         বঙ্গানুবাদ: তুমি যদি পুরোপুরি এবং সুন্দরভাবে ইংরেজি শিখতে চাও, তাহলে
         তোমাকে লেখার দক্ষতা অর্জন করতে হবে। এই দক্ষতা অর্জনের জন্য, তোমার কিছু
@@ -243,12 +246,13 @@ const QuestionFive = () => {
         <br />
         12. Jashore Board-2024 <br />
         Nelson Mandela was an unconditionally brave fighter against race
-        discrimination. During his (a), he had (b) himself to his (c) of the
-        people of Africa. He stated that he had fought against (d) domination
-        and he had fought against black (e) Being (f) with his (g) Nadine
-        Gordimer, the South African writer and Nobel Laureate for literature,
-        once (h) that Mandela was at the (i) of their time, theirs in South
-        Africa, and the other people (j) they were. <br />
+        discrimination. During his (a) ---, he had (b) --- himself to his (c)
+        --- of the people of Africa. He stated that he had fought against (d)
+        --- domination and he had fought against black (e) --- Being (f) ---
+        with his (g) --- Nadine Gordimer, the South African writer and Nobel
+        Laureate for literature, once (h) --- that Mandela was at the (i) --- of
+        their time, theirs in South Africa, and the other people (j) --- they
+        were. <br />
         বঙ্গানুবাদ: নেলসন ম্যান্ডেলা বর্ণবৈষম্যের একজন পরম সাহসী যোদ্ধা ছিলেন।
         তাঁর জীবদ্দশায়, আফ্রিকার মানুষের জন্য এই যুদ্ধে তিনি নিজেকে উৎসর্গ
         করেছিলেন। তিনি বিবৃতি দিয়েছিলেন যে তিনি শেতাঙ্কা আধিপত্যের বিরুদ্ধে লড়াই
@@ -260,13 +264,13 @@ const QuestionFive = () => {
         13. Cumilla Board-2024; Dinajpur Board-2017; Rajshahi Board-2013; Dhaka
         Board-2011 <br />
         Sports are a popular form of entertainment. Many International sporting
-        events are (a) — from time to time. Most of these events are (b) — by
-        multinational manufacturing © — and business for firms. They pay for the
-        sports events in (d) — the right to (e) — their products during those
-        events. These events are (f) — worldwide by satellite and people all
-        over the world watch them (g) — . As a (h) — , the sponsors' products
-        receive maximum media (i)---- . Thus sports help the (j) —- of trade and
-        commerce. <br />
+        events are (a) --- from time to time. Most of these events are (b) ---
+        by multinational manufacturing (c) --- and business for firms. They pay
+        for the sports events in (d) --- the right to (e) --- their products
+        during those events. These events are (f) --- worldwide by satellite and
+        people all over the world watch them (g) --- . As a (h) --- , the
+        sponsors' products receive maximum media (i) --- . Thus sports help the
+        (j) --- of trade and commerce. <br />
         <br />
         বঙ্গানুবাদ: খেলাধুলা হচ্ছে বিনোদনের জনপ্রিয় মাধ্যম। বিভিন্ন সময় অনেক
         আন্তর্জাতিক ক্রিড়ানুষ্ঠানের আয়োজন করা হয়। এই সকল ক্রিড়ানুষ্ঠানের অধিকাংশ
@@ -280,16 +284,16 @@ const QuestionFive = () => {
         <br />
         14. Chattogram Board-2024; Cumilla Board-2017: Dania College, Dhaka-2025{" "}
         <br />
-        Bangladesh is a land of (a) — beauty. Its beauty is so captivating that
-        a stranger cannot but be (b) — looking at this endless variety. Nature
-        has © — showered its blessings on this country. The rivers. hills and
-        forests are rich in natural (d) —- . The people of this country feel a
-        strong (e) — for their motherland. They love their motherland from the
-        (f) — of heart. They work hard to (g) — its economic condition and to
-        remove poverty. Most of them toil hard from dawn to dusk to accelerate
-        the pace of (h) — . The progress of this country lies in the (i) — of
-        common people. They are the (j) – of a beautiful and prosperous
-        Bangladesh. <br />
+        Bangladesh is a land of (a) --- beauty. Its beauty is so captivating
+        that a stranger cannot but be (b) --- looking at this endless variety.
+        Nature has © --- showered its blessings on this country. The rivers.
+        hills and forests are rich in natural (d) --- . The people of this
+        country feel a strong (e) --- for their motherland. They love their
+        motherland from the (f) --- of heart. They work hard to (g) --- its
+        economic condition and to remove poverty. Most of them toil hard from
+        dawn to dusk to accelerate the pace of (h) --- . The progress of this
+        country lies in the (i) --- of common people. They are the (j) --- of a
+        beautiful and prosperous Bangladesh. <br />
         <br />
         বঙ্গানুবাদ: বাংলাদেশ প্রাকৃতিক সৌন্দর্যের দেশ। এর সৌন্দর্য এতই অভিভূত কর
         যে, একজন আগন্তুক এর সৌন্দর্যের বৈচিত্রাতায় অভিভূত না হয়ে পারে না।
@@ -306,15 +310,15 @@ const QuestionFive = () => {
         <br />
         When a girl gets married, she usually drops out of school and begins
         full time work in her in-laws' household. In the in-laws house, she is
-        marginalized. She (a) — vulnerable to all forms of abuse, (b) —
-        dowry-related violence. In Bangladesh, it is still (c) — for a bride's
-        family to pay dowry. (d) — the practice being illegal. Dowry demands can
-        also (e) — after the wedding. For an adolescent (f), even if her in-laws
-        are supportive, there (g) — greater health risks in terms of (h) and
-        their about childbirth. The majority of adolescents (i) — and their
-        families are uninformed or insufficiently (j) --- about reproductive
-        health and contraception. The maternal mortality rate for adolescents is
-        double the national rate. <br />
+        marginalized. She (a) --- vulnerable to all forms of abuse, (b) ---
+        dowry-related violence. In Bangladesh, it is still (c) --- for a bride's
+        family to pay dowry. (d) --- the practice being illegal. Dowry demands
+        can also (e) --- after the wedding. For an adolescent (f) ---, even if
+        her in-laws are supportive, there (g) --- greater health risks in terms
+        of --- (h) and their about childbirth. The majority of adolescents (i)
+        --- and their families are uninformed or insufficiently (j) --- about
+        reproductive health and contraception. The maternal mortality rate for
+        adolescents is double the national rate. <br />
         <br />
         যখন একটি মেয়ের বিয়ে হয়, সে সাধারণত বিদ্যালয় থেকে ঝড়ে পড়ে এবং স্বশুরবাড়ির
         গৃহস্থালি কাজে পুরোদমে ব্যস্ত থাকে। শ্বশুরবাড়িতে সে প্রান্তীয়

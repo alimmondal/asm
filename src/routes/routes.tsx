@@ -69,6 +69,9 @@ import UseOfIt from "../components/UseOfIt";
 import LetterAlphabets from "../pages/allItems/LetterAlphabets";
 import QuestionOneTwo from "../pages/hscItems/QuestionOneTwo";
 import QuestionFour from "../pages/hscItems/QuestionFour";
+import QuestionThree from "../pages/hscItems/QuestionThree";
+import QuestionFive from "../pages/hscItems/QuestionFive";
+import QuestionSix from "../pages/hscItems/QuestionSix";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -187,8 +190,20 @@ export const router = createBrowserRouter([
         element: <QuestionOneTwo />,
       },
       {
+        path: "/QuestionThree",
+        element: <QuestionThree />,
+      },
+      {
         path: "/QuestionFour",
         element: <QuestionFour />,
+      },
+      {
+        path: "/QuestionFive",
+        element: <QuestionFive />,
+      },
+      {
+        path: "/QuestionSix",
+        element: <QuestionSix />,
       },
 
       // Degree
