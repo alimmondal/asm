@@ -41,27 +41,31 @@ const QuestionOneTwo = () => {
                   He summoned the Minister and commanded, "Educate the bird!"{" "}
                   <br />
                   The task of educating the bird fell on the King's nephews, his
-                  sisters' sons. The learned men of the court deliberated long.
-                  They pondered the reasons behind the ignorance of the creature
-                  in question. The conclusion: the bird's nest made of straw and
-                  twigs could not hold much knowledge. Therefore, the first
-                  thing needed was a proper cage. <br />
+                  sisters' sons. <br />
+                  The learned men of the court deliberated long. They pondered
+                  the reasons behind the ignorance of the creature in question.
+                  The conclusion: the bird's nest made of straw and twigs could
+                  not hold much knowledge. Therefore, the first thing needed was
+                  a proper cage. <br />
                   The royal scholars received handsome fees and happily went
-                  home. A goldsmith set to work on a gilded cage. It turned out
-                  to be of such exquisite workmanship that people from far and
-                  near crowded round for a look. Some said, "This is education
-                  par excellence." Others said, "Even if it learns nothing, it
-                  has got the cage. What a lucky bird." The goldsmith was
-                  delighted to get a bagful of money as reward and went home at
-                  once. <br />
+                  home. <br />
+                  A goldsmith set to work on a gilded cage. It turned out to be
+                  of such exquisite workmanship that people from far and near
+                  crowded round for a look. Some said, "This is education par
+                  excellence." Others said, "Even if it learns nothing, it has
+                  got the cage. What a lucky bird." <br />
+                  The goldsmith was delighted to get a bagful of money as reward
+                  and went home at once.
+                  <br />
                   A teacher came to give lessons to the bird. He took a pinch of
                   snuff and declared, "This isn't a matter of just a few texts."
+                  <br />
                   One of the royal nephews sent for scribes. They made multiple
                   copies of various texts until there was a veritable mountain.
-                  "Bravol" exclaimed those who saw it, "There is no room for any
-                  more knowledge." The scribes loaded their wages onto bullocks
-                  and merrily headed home. They would never again want for
-                  anything. <br />
+                  "Bravo !" exclaimed those who saw it, "There is no room for
+                  any more knowledge." <br />
+                  The scribes loaded their wages onto bullocks and merrily
+                  headed home. They would never again want for anything. <br />
                   The nephews were constantly busy looking after the expensive
                   cage. Repairs were always under way. Anyone who saw the
                   endless dusting, wiping and polishing had to agree that there
@@ -71,33 +75,34 @@ const QuestionOneTwo = () => {
                   they saved in their wooden chests. Even their cousins came to
                   live with them in cushioned comfort. <br />
                   <br />
-                  A. Choose the correct answer from the alternatives :1 x 5 = 5{" "}
+                  A. Choose the answer from the alternatives :1 x 5 = 5
                   <br />
-                  (a) The bird lacked (পাখিটির - অভাব ছিল।) <br />
+                  (a) The bird lacked_______ <br />
                   i. humanity <br />
                   ii. civility <br />
                   iii. enmity iv. all of them <br />
                   <br />
-                  (b) According to some people the bird was to get a gold cage.{" "}
+                  (b) According to some people the bird was ______ to get a gold
+                  cage.
                   <br />
                   i. proud <br />
                   ii. desperate <br />
                   iii. fortunate <br />
                   iv. happy <br />
                   <br />
-                  (c) To educate the bird they took some steps. <br />
+                  (c) To educate the bird they took some_____steps. <br />
                   i. useless <br />
                   ii. useful <br />
                   iii. important <br />
                   iv. effective <br />
                   <br />
-                  (d) The king in the story was <br />
+                  (d) The king in the story was____ <br />
                   i. very wise <br />
                   ii. very dull <br />
                   iii. pragmatic <br />
                   iv. fond of flattery <br />
                   <br />
-                  (e) The passage mainly deals with - <br />
+                  (e) The passage mainly deals with____ <br />
                   i. the necessity of education <br />
                   ii. the bad effects of unnecessary expenditure <br />
                   iii. the luxuries of the king <br />
@@ -220,7 +225,8 @@ const QuestionOneTwo = () => {
                 <br />
                 A. Choose the correct answer from the alternatives: 1x5=5 <br />
                 (a) What is an advantage of Al? <br />
-                i. Doing homework iii. Teaching <br />
+                i. Doing homework <br />
+                iii. Teaching <br />
                 iii. Assist teachers <br />
                 iv. Assist machines <br />
                 (b) What do the Al tools do? <br />
@@ -232,9 +238,9 @@ const QuestionOneTwo = () => {
                 context of the text? <br />
                 i. Maintain <br />
                 ii. Transform <br />
-                III. Complicate <br />
+                iii. Complicate <br />
                 iv. Preserve <br />
-                (d) The word "personalised" can best be replaced with <br />
+                (d) The word "personalised" can best be replaced with___ <br />
                 i. Generic <br />
                 ii. Customised <br />
                 iii. Uniform <br />
@@ -244,7 +250,7 @@ const QuestionOneTwo = () => {
                 <br />
                 i. Manual <br />
                 ii. Simplify <br />
-                III. Mechanise <br />
+                iii. Mechanise <br />
                 iv. Delay <br />
                 <br />
                 B. Answer the following questions: 2x5=10 <br />
@@ -287,33 +293,33 @@ const QuestionOneTwo = () => {
                 cutting out her tongue, hoping to silence her. However, Khona's
                 story and her knowledge remained alive. Her wisdom about
                 nature-oriented farming continued to benefit the people of the
-                land.[Unit-3; Lesson-4(B)) <br />
+                land.[Unit-3; Lesson-4(B)] <br />
                 <br />
-                 <div className="">
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      1. Being a royal astrologer
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      2
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      3
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      4
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ml-1">
-                      5
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      6
-                    </span>
-                  </div>
+                <div className="">
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    1. Being a royal astrologer
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    2
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    3
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    4
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ml-1">
+                    5
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    6
+                  </span>
+                </div>
               </div>
             </AccordionContent>
           </AccordionPanel>
@@ -437,31 +443,31 @@ const QuestionOneTwo = () => {
                 systematic dismantling of state institutions. [Unit-4;
                 Lesson-1(B)] <br />
                 <br />
-                 <div className="">
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      1. student-led protest
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      2
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      3
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      4
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ml-1">
-                      5
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      6
-                    </span>
-                  </div>
+                <div className="">
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    1. student-led protest
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    2
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    3
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    4
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ml-1">
+                    5
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    6
+                  </span>
+                </div>
               </div>
             </AccordionContent>
           </AccordionPanel>
@@ -574,30 +580,30 @@ const QuestionOneTwo = () => {
                 years.[Unit-3: Lesson-4(B)] <br />
                 <br />
                 <div className="font-bold">
-                    <span className="max-w-fit p-1 border border-gray-400 ">
+                  <span className="max-w-fit p-1 border border-gray-400 ">
                     1. realized interdependence
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      2
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      3
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      4
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ml-1">
-                      5
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      6
-                    </span>
-                  </div>
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    2
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    3
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    4
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ml-1">
+                    5
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    6
+                  </span>
+                </div>
               </div>
             </AccordionContent>
           </AccordionPanel>
@@ -707,32 +713,31 @@ const QuestionOneTwo = () => {
                 The royal scholars received handsome fees and happily went home.
                 <br /> [Unit-1: Lesson-1(B)] <br />
                 <br />
-              
                 <div className="font-bold">
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      1. Considered to be uneducated
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      2
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      3
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      4
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ml-1">
-                      5
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      6
-                    </span>
-                  </div>
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    1. Considered to be uneducated
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    2
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    3
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    4
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ml-1">
+                    5
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    6
+                  </span>
+                </div>
               </div>
             </AccordionContent>
           </AccordionPanel>
@@ -839,30 +844,30 @@ const QuestionOneTwo = () => {
                 pupil of this school." <br />
                 <br />
                 <div className="font-bold">
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      1. how her dresses got turn
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      2
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      3
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      4
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ml-1">
-                      5
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      6
-                    </span>
-                  </div>
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    1. how her dresses got turn
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    2
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    3
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    4
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ml-1">
+                    5
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    6
+                  </span>
+                </div>
               </div>
             </AccordionContent>
           </AccordionPanel>
@@ -977,30 +982,30 @@ const QuestionOneTwo = () => {
                 much." <br />
                 <br />
                 <div className="font-bold">
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      1. Working steadily
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      2
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      3
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      4
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ml-1">
-                      5
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      6
-                    </span>
-                  </div>
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    1. Working steadily
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    2
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    3
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    4
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ml-1">
+                    5
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    6
+                  </span>
+                </div>
               </div>
             </AccordionContent>
           </AccordionPanel>
@@ -1240,8 +1245,9 @@ const QuestionOneTwo = () => {
                   (e) What warning did Daedalus give to Icarus? <br />
                   <br />
                   2. Based on your reading of the passage, make short notes in
-                  each of the boxes in the flow-chart showing the benifit done by Al for the students.
-                  (No. 1 has been done for you.) 2x5=10 <br />
+                  each of the boxes in the flow-chart showing the benifit done
+                  by Al for the students. (No. 1 has been done for you.) 2x5=10{" "}
+                  <br />
                   showing the benefits. <br />
                   One of the main advantages I see of Al in the classroom is
                   personalised learning. Al-powered educational tools can
@@ -1417,8 +1423,7 @@ const QuestionOneTwo = () => {
                 <div className="">
                   Model Question - 11 <br />
                   English (Compulsory)- First Paper <br />
-                  Full marks: 100 ------
-                  - Time: 3 hours <br />
+                  Full marks: 100 ------ - Time: 3 hours <br />
                   (Answer all the questions. Figures in the margin indicate full
                   marks.] <br />
                   <br />
@@ -2121,7 +2126,6 @@ const QuestionOneTwo = () => {
                   Bhawaiya, the eastern Bhatiyali and the southwestern Baul
                   songs.[Unit-2; Lesson-2(B))] <br />
                   <br />
-  
                   <div className="font-bold">
                     <span className="max-w-fit p-1 border border-gray-400 ">
                       1. rural and riverine life
@@ -2252,9 +2256,7 @@ const QuestionOneTwo = () => {
                   is another concern for younger mothers. <br /> [Unit-9;
                   Lesson-2(B)] <br />
                   <br />
-                  
-                  
-                   <div className="font-bold">
+                  <div className="font-bold">
                     <span className="max-w-fit p-1 border border-gray-400 ">
                       1. Pulling out of school
                     </span>
@@ -2400,9 +2402,9 @@ const QuestionOneTwo = () => {
                   I let the other boys use them, but they're careful of them."
                   <br /> [Unit-8: Lesson-3(C)] <br />
                   <br />
-                   <div className="font-bold"> 
+                  <div className="font-bold">
                     <span className="max-w-fit p-1 border border-gray-400 ">
-                    1. The authoress was shocked 
+                      1. The authoress was shocked
                     </span>
                     →
                     <span className="max-w-fit p-1 border border-gray-400 ">
@@ -2533,7 +2535,7 @@ const QuestionOneTwo = () => {
                   Lesson-2(B))
                   <br />
                   <br />
-                   <div className="">
+                  <div className="">
                     <span className="max-w-fit p-1 border border-gray-400 ">
                       1. Getting married early
                     </span>
@@ -2693,7 +2695,7 @@ const QuestionOneTwo = () => {
                   theory contributed to the popularity of dream interpretation.
                   <br /> [Unit-6: Lesson-1(D)] <br />
                   <br />
-                   <div className="font-bold">
+                  <div className="font-bold">
                     <span className="max-w-fit p-1 border border-gray-400 ">
                       1. Extraordinarily vivid
                     </span>
@@ -2808,34 +2810,33 @@ const QuestionOneTwo = () => {
                   (c) What did Miss Clark say when asked about Jerry? <br />
                   ( d) What did Jerry bring for the authoress? <br />
                   (e) Why did the authoress want to talk with Jerry's mother?
-
                 </div>
                 <br />
-                 <div className="">
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      1. 0000000
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      2
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      3
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      4
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ml-1">
-                      5
-                    </span>
-                    →
-                    <span className="max-w-fit p-1 border border-gray-400 ">
-                      6
-                    </span>
-                  </div>
+                <div className="">
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    1. 0000000
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    2
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    3
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    4
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ml-1">
+                    5
+                  </span>
+                  →
+                  <span className="max-w-fit p-1 border border-gray-400 ">
+                    6
+                  </span>
+                </div>
               </div>
             </AccordionContent>
           </AccordionPanel>
@@ -2932,7 +2933,7 @@ const QuestionOneTwo = () => {
                   (e) Besides the physical and mental changes, what other
                   changes adolescents face? <br />
                   <br />
-                   <div className="">
+                  <div className="">
                     <span className="max-w-fit p-1 border border-gray-400 ">
                       1.0000000000
                     </span>
@@ -3060,7 +3061,7 @@ const QuestionOneTwo = () => {
                   you call Jerry for me to say good-bye to him?" <br /> [Unit-8:
                   Lesson-3(C)] <br />
                   <br />
-                   <div className="">
+                  <div className="">
                     <span className="max-w-fit p-1 border border-gray-400 ">
                       1. Chopping wood
                     </span>
@@ -3201,7 +3202,7 @@ const QuestionOneTwo = () => {
                   left. <br />
                   [Unit-6: Lesson-2(H)] <br />
                   <br />
-                   <div className="">
+                  <div className="">
                     <span className="max-w-fit p-1 border border-gray-400 ">
                       1. Calling by the teacher
                     </span>
@@ -3354,7 +3355,7 @@ const QuestionOneTwo = () => {
                   footballers. <br />
                   [Unit-7: Lesson-3(B)] <br />
                   <br />
-                   <div className="">
+                  <div className="">
                     <span className="max-w-fit p-1 border border-gray-400 ">
                       1. Minati Rani Sheel
                     </span>
@@ -3391,7 +3392,7 @@ const QuestionOneTwo = () => {
                 <div className="">
                   Model Question-25 <br />
                   English (Compulsory)- First Paper <br />
-                  Full marks: 100  --------  Time: 3 hours <br />
+                  Full marks: 100 -------- Time: 3 hours <br />
                   [Answer all the questions. Figures in the margin indicate full
                   marks.] <br />
                   <br />
@@ -3483,7 +3484,7 @@ const QuestionOneTwo = () => {
                   (e) How do salespersons encourage the customers to buy goods?
                   <br />
                   <br />
-                   <div className="">
+                  <div className="">
                     <span className="max-w-fit p-1 border border-gray-400 ">
                       1. 0000000000
                     </span>
@@ -3625,7 +3626,7 @@ const QuestionOneTwo = () => {
                   superlative creation. <br />
                   [Unit-10: Lesson-3(A)] <br />
                   <br />
-                   <div className="">
+                  <div className="">
                     <span className="max-w-fit p-1 border border-gray-400 ">
                       1. Stuffing polau in it
                     </span>
@@ -3767,7 +3768,7 @@ const QuestionOneTwo = () => {
                   heart.
                   <br />
                   <br />
-                   <div className="">
+                  <div className="">
                     <span className="max-w-fit p-1 border border-gray-400 ">
                       1. 0000000000
                     </span>
@@ -3809,9 +3810,13 @@ const QuestionOneTwo = () => {
                   [Answer all the questions. Figures in the margin indicate full
                   marks.] <br />
                   <br />
-                 
-                  <p className="font-bold"> PART-A: READING TEST [60 Marks] <br /></p>
-                  <p className="font-bold">1. Read the passage and answer the questions A and B. <br /> </p>
+                  <p className="font-bold">
+                    {" "}
+                    PART-A: READING TEST [60 Marks] <br />
+                  </p>
+                  <p className="font-bold">
+                    1. Read the passage and answer the questions A and B. <br />{" "}
+                  </p>
                   Many adolescents face pressure to use alcohol, cigarettes, or
                   other drugs and to initiate sexual relationships putting
                   themselves at high risk for intentional and unintentional
@@ -3855,15 +3860,15 @@ const QuestionOneTwo = () => {
                   ii. initiation of sexual relationship <br />
                   iv. initiation of social relationship <br />
                   iii. development of skills <br />
-                  
-                  <p className="font-bold">(b) The boys and girls face pressure to use alcohol,
-                  cigarettes, or other drugs during--- <br /></p>
+                  <p className="font-bold">
+                    (b) The boys and girls face pressure to use alcohol,
+                    cigarettes, or other drugs during--- <br />
+                  </p>
                   i. adolescence <br />
                   ii. infancy <br />
                   iii. youth <br />
                   iv. adulthood <br />
-                  <p className="font-bold">(c) The word 'concept' refers to-
-</p>
+                  <p className="font-bold">(c) The word 'concept' refers to-</p>
                   i. idea <br />
                   ii. context <br />
                   iii. conception <br />
@@ -3941,9 +3946,9 @@ const QuestionOneTwo = () => {
                   this gastronomy has spread to East Europe's Greece, Hungary,
                   Rumania, Yugoslavia, Albania and even Italy. <br />
                   <br />
-                   <div className="font-bold">
+                  <div className="font-bold">
                     <span className="max-w-fit p-1 border border-gray-400 ">
-                     1. Main cuisine is sup
+                      1. Main cuisine is sup
                     </span>
                     →
                     <span className="max-w-fit p-1 border border-gray-400 ">
@@ -3966,7 +3971,6 @@ const QuestionOneTwo = () => {
                       6
                     </span>
                   </div>
-               
                 </div>
               </div>
             </AccordionContent>
@@ -4101,7 +4105,7 @@ const QuestionOneTwo = () => {
                   they may worry that your potential clients will be bothered
                   that you eat like an absent-minded caveman. <br />
                   <br />
-                   <div className="font-bold">
+                  <div className="font-bold">
                     <span className="max-w-fit p-1 border border-gray-400 ">
                       1. Chomping
                     </span>
@@ -4265,8 +4269,7 @@ const QuestionOneTwo = () => {
                   between environmental degradation and many of the problems
                   they face, including poverty and livelihood insecurity. <br />
                   <br />
-                 
-                   <div className="">
+                  <div className="">
                     <span className="max-w-fit p-1 border border-gray-400 ">
                       1. Raising public awareness
                     </span>
