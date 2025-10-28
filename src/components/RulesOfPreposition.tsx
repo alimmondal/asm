@@ -2,7 +2,7 @@ const RulesOfPreposition = () => {
   return (
     <div className="h-full px-3 md:w- mx-auto ">
       <div className=" text-center py-20">
-        <h2 className="text-pink-700">Rule Of Preposition</h2>
+        <h2 className="text-pink-700">Rules Of Preposition</h2>
       </div>
 
       {/* Rules  */}
@@ -82,11 +82,7 @@ const RulesOfPreposition = () => {
             Download PDF
           </a>
         </div>
-        <br />
-        <br />
         <h3 className=""> EXTRA HITS:</h3>
-        <br />
-        <br />
         er-যুক্ত শব্দের পরে-than বসে। <br />
         *Mim's hand is bigger than mine. <br />
         <br />
@@ -124,74 +120,105 @@ const RulesOfPreposition = () => {
       </div>
 
       {/* Appropriate Preposition */}
+      <h3 className="">APROPRIATE PREPOSITION</h3>
+      <div className="">
+        🟩 TO (প্রতি / দিকে / তে / কাছে) addicted to (আসক্ত), accustomed to
+        (অভ্যস্ত), alien to (অপরিচিত / বিদেশি), appoint to (নিয়োগ করা), belong
+        to (অন্তর্ভুক্ত হওয়া), callous to (নির্দয়), cling to (আটকে থাকা),
+        common to (مشترك / সাধারণ কারো মধ্যে), compare to (তুলনা করা),
+        compliment to (প্রশংসা), confine to (সীমাবদ্ধ করা), congenial to
+        (অনুকূল), contribute to (অবদান রাখা), convey to (প্রেরণ করা), devoted to
+        (নিবেদিত), detrimental to (ক্ষতিকর), due to (কারণে), favourable to
+        (অনুকূল), grateful to (কৃতজ্ঞ), heed to (মনোযোগ দেওয়া), indifferent to
+        (উদাসীন), injurious to (ক্ষতিকর), invite to (আমন্ত্রণ করা), lead to
+        (নিয়ে যাওয়া), marry to (বিবাহ করা কারো সাথে), parallel to (সমান্তরাল),
+        prefer to (অগ্রাধিকার দেওয়া), prejudicial to (ক্ষতিকর), ready to
+        (প্রস্তুত), regard to (সম্মান / সম্পর্কিত), respond to (প্রতিক্রিয়া
+        জানানো), refer to (উল্লেখ করা), reply to (উত্তর দেওয়া), rise to
+        (উত্থান), similar to (সদৃশ), stick to (লেগে থাকা), subject to (নির্ভরশীল
+        / অধীন), tribute to (শ্রদ্ধাঞ্জলি), true to (বিশ্বস্ত), yield to
+        (আত্মসমর্পণ করা),
+        <br />
+        <br />
+        🟧 ON (উপর / বিষয়ে / নির্ভর করে) <br />
+        afloat on (ভাসমান), bent on (মনোযোগী), bestow on (প্রদান করা),
+        concentrate on (মনোযোগ কেন্দ্রীভূত করা), depend on (নির্ভর করা),
+        dependence on (নির্ভরতা), determined on (দৃঢ়প্রতিজ্ঞ), emphasis on
+        (গুরুত্ব প্রদান), focus on (মনোযোগ দেওয়া), impact on (প্রভাব ফেলা),
+        insist on (জোর দেওয়া), keen on (উৎসাহী), smile on (হাসা কারো দিকে),
+        <br />
+        <br />
+        🟨 AT (এ / তে / দিকে) <br />
+        aim at (লক্ষ্য করা), amaze at (বিস্মিত হওয়া), arrive at (পৌঁছানো),
+        astonish at (আশ্চর্য হওয়া), good at (দক্ষ), knock at (ঠকঠক করা), laugh
+        at (বিদ্রূপ করা), shock at (বিস্মিত হওয়া), sneer at (উপহাস করা), stare
+        at (তাকিয়ে থাকা), vex at (রাগান্বিত হওয়া), wink at (চোখ মারা), <br />
+        <br />
+        🟩 FOR (জন্য / উদ্দেশ্যে / কারণে) <br />
+        account for (হিসাব করা), accountable for (দায়ী), anxious for
+        (উদ্বিগ্ন), apply for (আবেদন করা), aspire for (আকাঙ্ক্ষা করা), atone for
+        (প্রায়শ্চিত্ত করা), congratulate for (অভিনন্দন জানানো), curse for
+        (অভিশাপ দেওয়া), demand for (চাহিদা), desire for (ইচ্ছা), eager for
+        (আকুল), excuse for (ক্ষমা), fight for (লড়াই করা), fond for (ভালবাসা),
+        long for (অপেক্ষা করা), mourn for (শোক করা), pardon for (ক্ষমা), prepare
+        for (প্রস্তুত করা), ready for (প্রস্তুত), remedy for (প্রতিকার), seek
+        for (অনুসন্ধান করা), send for (ডাকা), sorry for (দুঃখিত), suitable for
+        (উপযুক্ত), thirst for (তৃষ্ণা), wait for (অপেক্ষা করা), worry for
+        (উদ্বিগ্ন হওয়া),
+        <br />
+        <br />
+        🟦 IN (ভিতরে / তে / মধ্যে) <br />
+        absorb in (মগ্ন হওয়া), abound in (পরিপূর্ণ থাকা), believe in (বিশ্বাস
+        করা), breathe in (শ্বাস নেওয়া), confide in (বিশ্বাস করা), consist in
+        (অন্তর্ভুক্ত হওয়া), engross in (মনোযোগী হওয়া), faith in (বিশ্বাস),
+        indulge in (লিপ্ত হওয়া), interested in (আগ্রহী), lie in (অন্তর্ভুক্ত
+        থাকা), pride in (গর্ব করা), proficient in (দক্ষ), rest in (বিশ্রাম
+        নেওয়া), stay in (থাকা), succeed in (সফল হওয়া),
+        <br />
+        <br />
+        🟪 WITH (সহ / সঙ্গে) <br />
+        acquaint with (পরিচিত করা), agree with (সহমত হওয়া), angry with
+        (রাগান্বিত), associate with (সম্পৃক্ত করা), attack with (আক্রমণ করা),
+        communicate with (যোগাযোগ করা), compare with (তুলনা করা), compete with
+        (প্রতিযোগিতা করা), comply with (মান্য করা), content with (সন্তুষ্ট),
+        contrast with (বৈপরীত্য করা), cope with (মোকাবিলা করা), fill with (পূরণ
+        করা), familiar with (পরিচিত), part with (বিচ্ছিন্ন হওয়া), please with
+        (প্রসন্ন করা), popular with (জনপ্রিয়), provide with (সরবরাহ করা),
+        relate with (সম্পর্ক স্থাপন করা), replace with (প্রতিস্থাপন করা),
+        satisfy with (সন্তুষ্ট করা), trouble with (সমস্যায় ফেলা),
+        <br />
+        <br />
+        🟥 FROM (থেকে / হতে / দূরে) <br />
+        absent from (অনুপস্থিত), abstain from (বিরত থাকা), aloof from (দূরে
+        থাকা), apart from (ছাড়া), borrow from (ধার নেওয়া), deviate from
+        (বিচ্যুত হওয়া), depart from (ছেড়ে যাওয়া), derive from (উৎপন্ন হওয়া),
+        differ from (ভিন্ন হওয়া), different from (ভিন্ন), eradicate from
+        (উচ্ছেদ করা), expect from (প্রত্যাশা করা), far from (দূরে), free from
+        (মুক্ত), hinder from (বাধা দেওয়া), prevent from (রোধ করা), protect from
+        (রক্ষা করা), refrain from (বিরত থাকা), remove from (অপসারণ করা), rescue
+        from (উদ্ধার করা),
+        <br />
+        <br />
+        🟨 OF (এর / থেকে / দ্বারা) <br />
+        afraid of (ভয় পাওয়া), approve of (অনুমোদন করা), because of (কারণে),
+        bereft of (বঞ্চিত), boast of (গর্ব করা), capable of (সক্ষম), conscious
+        of (সচেতন), deprive of (বঞ্চিত করা), despair of (হতাশ হওয়া), destitute
+        of (বঞ্চিত), dull of (অসার), fond of (ভালবাসা), full of (পূর্ণ), glad of
+        (আনন্দিত), hear of (শোনা), hope of (আশা করা), ignorant of (অজ্ঞ), inform
+        of (অবগত করা), kind of (ধরনের), lack of (অভাব), matter of (বিষয়), need
+        of (প্রয়োজন), negligent of (অবহেলাকারী), neglect of (অবহেলা), proud of
+        (গর্বিত), relief of (মুক্তি), remind of (স্মরণ করানো), rid of (মুক্ত
+        হওয়া), tired of (ক্লান্ত), use of (ব্যবহার), want of (অভাব), worthy of
+        (যোগ্য),
+        <br />
+        <br />
+        🟦 INTO (ভিতরে / রূপান্তরিত হওয়া / প্রবেশ করা) <br />
+        admission into (ভর্তি), divide into (বিভক্ত করা), enter into (প্রবেশ
+        করা), root into (মূল প্রোথিত হওয়া), sink into (ডুবে যাওয়া), turn into
+        (রূপান্তরিত হওয়া),
+      </div>
+
       <div className="my-10 text-lg md:text-xl">
-        <h3 className="">APROPRIATE PREPOSITION</h3>
-        <br />
-        * TO: <br />
-        Congenial, confine, contribute, convey,common.cling,compare,callous,
-        compliment.belong, regard, ready, respond, refer, reply,rise, hindrence,
-        true,tribute, addicted, accustomed, alien, appoint, devoted,
-        detrimental,due, indifferent, impart, stick, subject, similar, promote,
-        paralell, prefer, prejudi cal.prentend,owe/owing.opposite. obstacle,
-        essential, exception, expose, listen, lead, favourable, marry, invite,
-        injurious, inevitable, addiction,add,h eed, grateful, yield, heed <br />
-        *Mim will contribute ..... social work. <br />
-        =Mim will contribute to social work.
-        <br />
-        <br />
-        ON: <br />
-        Insist, bent, focus, keen, impact, bestow, depend, dependence,
-        emphasis.co ncentrate, determind, afloat, smile, <br />
-        *Mim insisted ......on.....my going her house.
-        <br />
-        <br />
-        AT: <br />
-        Shock, knock, laugh, good, aim, astonish, amaze, arrive, vex, sneer,
-        stare, wink
-        <br />
-        *Mim was knocking.....at....the door. <br />
-        <br />
-        FOR: <br />
-        account, atone, ask, accountable to/for, anxious, aware/awareness,
-        aspire, apply to/for, desire, demand, dream, curse, congratulate, thank,
-        thirst, fond, fit, fight, feel, prepare/preparation, prescribe, ill,
-        sick, sympathize, serious, send, sorry, seek, mourn, ready, effect,
-        prize, ready, remedy, worry, wait, eager, necesity/necessery, pardon,
-        role for/of, harmful, excuse, love, must, long, <br />
-        *Mim must atone...... for.....her misdeed. <br />
-        *Man should not aspire.....for.....wealth.
-        <br />
-        <br />
-        IN: <br />
-        lie, consist, absorb, prevalent, interest, pride, concentrate,
-        believe/belief, trust, succeed, rest, abuond in/with, stay at/in,
-        engross, faith, confide, rich, indulge, breathe, proficient, <br />
-        *Mim is interested.....in....listening stories. <br />
-        <br />
-        WITH: <br />
-        agree with/to, compete, satisfy, trouble, acquaint, fill, comply,
-        communicate, content, couple, cope, contact, contrast, compare to/ with,
-        associate, attack, adorn, angry with/at, beset, provide, popular
-        with/for, please, relate/relation, replace, endow, familiar, part
-        with/from, <br />
-        *Mim cannot agree....with..... you to this proposal. <br />
-        <br />
-        FROM: <br />
-        Deviate, differ, different, derive, absent, aloof, abstain, apart,
-        remove, rescue, refrain, free, far, protect, prevent, expect, eradicate,
-        depart, hinder, borrow, <br />
-        *Mim is different.....from ......other student. <br />
-        <br />
-        OF: <br />
-        Bereft, because, devoid, boast, deprive, despair, dull, capable,
-        conscious, fond, full, relief, remind, rid, hope of/for, hear
-        of/about/from, teeming, think, tired, matter, need, neglect/negligent,
-        want, worthy, use, glad to/of, approve, proud, inform, kind, destitute,
-        lack of/in, ignorant, afraid, <br />
-        *Mim is.....afraid...... of her fate. <br />
-        <br />
-        INTO: <br />
-        Sink, enter, turn, root, admission, divide <br />
         <h3>IDIOMS & PHRASES:</h3>
         From the very beginning, *tell about/upon, write about/to, take pity on,
         fight shy of, make out/of/up, *in this respect, bring about/up, look
@@ -217,8 +244,9 @@ const RulesOfPreposition = () => {
         of, nip in the bud, in a fix, come to a close, a lot of, stretch out,
         name after,
         <br />
-        <h3>TRY YOURSELF:</h3>
         <br />
+        <br />
+        <h3>TRY YOURSELF:</h3>
         *Mim wrote me.......... her good result. <br />
         *Mim should take pride.......... her wealth. <br />
         *Mim was full ......... emotion. <br />
