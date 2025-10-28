@@ -1,6 +1,6 @@
 const QuestionFive = () => {
   return (
-    <div className="px-4">
+    <div className="px-4 lg:w-1/2 mx-auto ">
       <div className="text-center py-20">
         <h1 className="text-center text-green-500">Question Five</h1>
         <p className="">Close test without clues</p>
@@ -459,10 +459,11 @@ const QuestionFive = () => {
         his lessons regularly (e) well in the examination. On the (f) the
         student who wastes his time cuts a figure. It should be (h) -in mind
         that none can get back (i) time. If students neglect their studies they
-        will suffer in the (j) run. ছাত্রজীবন হলো ভবিষ্যত সংগ্রামের জন্য
-        প্রস্তুতি নেওয়ার জীবন। তাকে সংগ্রামের জন্য প্রস্তুত করতে শিক্ষা প্রয়োজন।
-        সুতরাং, একজন ছাত্রের প্রথম ও সবচেয়ে গরুত্বপূর্ণ কর্তব্য হলো ভালোভাবে তার
-        পড়া-লেখা চালিয় <br />
+        will suffer in the (j) run.
+        <br />
+        ছাত্রজীবন হলো ভবিষ্যত সংগ্রামের জন্য প্রস্তুতি নেওয়ার জীবন। তাকে
+        সংগ্রামের জন্য প্রস্তুত করতে শিক্ষা প্রয়োজন। সুতরাং, একজন ছাত্রের প্রথম
+        ও সবচেয়ে গরুত্বপূর্ণ কর্তব্য হলো ভালোভাবে তার পড়া-লেখা চালিয় <br />
         <br />
         25. Dinajpur Board-2023 The environment (a) various things. All the
         things of the environment are related to (b) another. Any change in the
