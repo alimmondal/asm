@@ -8,8 +8,9 @@ import {
 const QuestionOneTwo = () => {
   return (
     <div className="px-3">
-      <div className="py-20">
-        <h1 className="text-center">One & Two</h1>
+      <div className="py-20 text-center">
+        <h1 className="text-green-500">Model Questions</h1>
+        <p className="text-pink-700 font-bold">Question 1 & 2</p>
       </div>
       <div className="py-5">
         <Accordion>
@@ -75,8 +76,8 @@ const QuestionOneTwo = () => {
                   they saved in their wooden chests. Even their cousins came to
                   live with them in cushioned comfort. <br />
                   <br />
-                  A. Choose the answer from the alternatives :1 x 5 = 5
-                  <br />
+                  
+                  <p className="font-bold">A. Choose the answer from the alternatives :1 x 5 = 5</p>
                   (a) The bird lacked_______ <br />
                   i. humanity <br />
                   ii. civility <br />
@@ -108,7 +109,8 @@ const QuestionOneTwo = () => {
                   iii. the luxuries of the king <br />
                   iv. the importance of king's command <br />
                   <br />
-                  B. Answer the following questions: <br />
+                  <p className="font-bold">B. Answer the following questions: <br /></p>
+                  
                   (a) Who were the actual beneficiaries of the bird's training?
                   <br />
                   (b) How does the story reflect the theme of education? <br />
@@ -162,6 +164,43 @@ const QuestionOneTwo = () => {
                       6
                     </span>
                   </div>
+                  {/* Answer */}
+                  <div className="pt-10">
+                    <div className="text-center py-5 font-bold">
+                      Solution to Model Question 01 <br />
+                    
+                    </div>
+                    PART-A: READING TEST <br />
+                    1. <br />
+                    A. Multiple choice: <br />
+                    (a) ii. civility (b) iii. fortunate (c) 1. useless (d) iv.
+                    fond of flattery (e) ii. the bad effects of unnecessary
+                    expenditure <br />
+                    <br />
+                    B. Open-ended question <br />
+                    (a) The actual beneficiaries were those who were engaged in
+                    training the bird. They were, namely-royal scholars,
+                    goldsmiths, a teacher, the scribes and the king's nephews.{" "}
+                    <br />
+                    (b) The story reflects the real picture of our society in
+                    respect of imparting education. It shows that everything is
+                    done here inappropriately. <br />
+                    (c) No, not at all. The arrangements were taken but they
+                    were all wrong. And the people who were selected for the
+                    purpose were impudent or shameless. <br />
+                    (d) The message of the story is that we should avoid absurd
+                    and useless attempts for silly or unnecessary matters.
+                    Because that is nothing but a mere wastage of money, time
+                    and energy. <br />
+                    (e) Yes, I think the story is a satire. The author satirizes
+                    the absurd ways of imparting education that ultimately
+                    becomes a failure and wastage of public money. 
+                    <br />
+                    <br />
+                    <br />
+                    2. <br />
+                    1. Needed quiet, isolation 1. Needed quiet, isolation 2. Need mountain air → 3. Homesick for the flaming of maple in October → 4. home sick for corn shocks → 5. homesick for pumpkins → 6. sick for black walnut trees 
+                  </div>
                 </div>
               </div>
             </AccordionContent>
@@ -171,14 +210,19 @@ const QuestionOneTwo = () => {
             <AccordionTitle>Model question - 2</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
-                Model Question - 02 <br />
-                English (Compulsory)- First Paper <br />
+                <div className="text-center">
+                  <h2 className="font-bold">Model Question - 02 <br /></h2>
+                   English (Compulsory)- First Paper <br />
                 Full marks: 100 Time: 3 hours <br />
                 [Answer all the questions. Figures in the margin indicate full
                 marks.] <br />
+                </div>
+                
+               
                 <br />
-                PART-A: READING TEST [60 Marks] <br />
-                1. Read the passage and answer the questions A and B. <br />
+                <p className="font-bold">PART-A: READING TEST [60 Marks] <br /></p>
+                <p className="font-bold">1. Read the passage and answer the questions A and B. <br /></p>
+               
                 Artificial intelligence has the potential to revolutionise the
                 way we learn and teach. As a tool in the classroom, Al can
                 provide students with personalised learning experiences,
@@ -223,28 +267,36 @@ const QuestionOneTwo = () => {
                 replace teachers but rather assist them in their work. <br />
                 [Unit-1; Lesson-2(B)] <br />
                 <br />
-                A. Choose the correct answer from the alternatives: 1x5=5 <br />
+                <p className="font-bold">A. Choose the correct answer from the alternatives: 1x5=5 <br /></p>
+                
                 (a) What is an advantage of Al? <br />
                 i. Doing homework <br />
                 iii. Teaching <br />
                 iii. Assist teachers <br />
-                iv. Assist machines <br />
+                iv. Assist machines 
+                <br />
+                <br />
                 (b) What do the Al tools do? <br />
                 i. Replace teachers <br />
                 ii. Replace machines <br />
                 ii. Taking Exams <br />
-                Iv. Automate repetitive tasks <br />
+                iv. Automate repetitive tasks 
+                <br />
+                <br />
                 (c) What is the synonym for "revolutionise" as used in the
                 context of the text? <br />
                 i. Maintain <br />
                 ii. Transform <br />
                 iii. Complicate <br />
-                iv. Preserve <br />
+                iv. Preserve 
+                <br />
+                <br />
                 (d) The word "personalised" can best be replaced with___ <br />
                 i. Generic <br />
                 ii. Customised <br />
                 iii. Uniform <br />
                 iv. Standard
+                <br />
                 <br />
                 (e) What is the synonym for "automate" as mentioned in the text?
                 <br />
@@ -253,7 +305,8 @@ const QuestionOneTwo = () => {
                 iii. Mechanise <br />
                 iv. Delay <br />
                 <br />
-                B. Answer the following questions: 2x5=10 <br />
+                <p className="font-bold">B. Answer the following questions: 2x5=10 <br /></p>
+                
                 (a) What role can Al play in a classroom setting? <br />
                 (b) What are the main advantages of Al in the classroom? <br />
                 (c) What is the advantage of an Al powered instant feedback
@@ -4269,7 +4322,7 @@ const QuestionOneTwo = () => {
                   between environmental degradation and many of the problems
                   they face, including poverty and livelihood insecurity. <br />
                   <br />
-                  <div className="">
+                  <div className=""> 
                     <span className="max-w-fit p-1 border border-gray-400 ">
                       1. Raising public awareness
                     </span>

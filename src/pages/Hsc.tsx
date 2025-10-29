@@ -54,27 +54,27 @@ function Hsc() {
             </Link>
             <Link to={"/QuestionOneTwo"}>
               <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
-                Q. One & Two
+                Question 1 & 2
               </li>
             </Link>
             <Link to={"/QuestionThree"}>
               <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
-                Question Three
+                Question 3
               </li>
             </Link>
             <Link to={"/QuestionFour"}>
               <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
-                Question Four
+                Question 4
               </li>
             </Link>
             <Link to={"/QuestionFive"}>
               <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
-                Question Five
+                Question 5
               </li>
             </Link>
             <Link to={"/QuestionSix"}>
               <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
-                Question Six
+                Question 6
               </li>
             </Link>
             <Link to={"/modelTestFirstPaper"}>
