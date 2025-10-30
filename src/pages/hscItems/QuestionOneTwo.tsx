@@ -76,8 +76,9 @@ const QuestionOneTwo = () => {
                   they saved in their wooden chests. Even their cousins came to
                   live with them in cushioned comfort. <br />
                   <br />
-                  
-                  <p className="font-bold">A. Choose the answer from the alternatives :1 x 5 = 5</p>
+                  <p className="font-bold">
+                    A. Choose the answer from the alternatives :1 x 5 = 5
+                  </p>
                   (a) The bird lacked_______ <br />
                   i. humanity <br />
                   ii. civility <br />
@@ -109,8 +110,9 @@ const QuestionOneTwo = () => {
                   iii. the luxuries of the king <br />
                   iv. the importance of king's command <br />
                   <br />
-                  <p className="font-bold">B. Answer the following questions: <br /></p>
-                  
+                  <p className="font-bold">
+                    B. Answer the following questions: <br />
+                  </p>
                   (a) Who were the actual beneficiaries of the bird's training?
                   <br />
                   (b) How does the story reflect the theme of education? <br />
@@ -168,7 +170,6 @@ const QuestionOneTwo = () => {
                   <div className="pt-10">
                     <div className="text-center py-5 font-bold">
                       Solution to Model Question 01 <br />
-                    
                     </div>
                     PART-A: READING TEST <br />
                     1. <br />
@@ -194,12 +195,15 @@ const QuestionOneTwo = () => {
                     and energy. <br />
                     (e) Yes, I think the story is a satire. The author satirizes
                     the absurd ways of imparting education that ultimately
-                    becomes a failure and wastage of public money. 
+                    becomes a failure and wastage of public money.
                     <br />
                     <br />
                     <br />
                     2. <br />
-                    1. Needed quiet, isolation 1. Needed quiet, isolation 2. Need mountain air → 3. Homesick for the flaming of maple in October → 4. home sick for corn shocks → 5. homesick for pumpkins → 6. sick for black walnut trees 
+                    1. Needed quiet, isolation 1. Needed quiet, isolation 2.
+                    Need mountain air → 3. Homesick for the flaming of maple in
+                    October → 4. home sick for corn shocks → 5. homesick for
+                    pumpkins → 6. sick for black walnut trees
                   </div>
                 </div>
               </div>
@@ -211,18 +215,21 @@ const QuestionOneTwo = () => {
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
                 <div className="text-center">
-                  <h2 className="font-bold">Model Question - 02 <br /></h2>
-                   English (Compulsory)- First Paper <br />
-                Full marks: 100 Time: 3 hours <br />
-                [Answer all the questions. Figures in the margin indicate full
-                marks.] <br />
+                  <h2 className="font-bold">
+                    Model Question - 02 <br />
+                  </h2>
+                  English (Compulsory)- First Paper <br />
+                  Full marks: 100 Time: 3 hours <br />
+                  [Answer all the questions. Figures in the margin indicate full
+                  marks.] <br />
                 </div>
-                
-               
                 <br />
-                <p className="font-bold">PART-A: READING TEST [60 Marks] <br /></p>
-                <p className="font-bold">1. Read the passage and answer the questions A and B. <br /></p>
-               
+                <p className="font-bold">
+                  PART-A: READING TEST [60 Marks] <br />
+                </p>
+                <p className="font-bold">
+                  1. Read the passage and answer the questions A and B. <br />
+                </p>
                 Artificial intelligence has the potential to revolutionise the
                 way we learn and teach. As a tool in the classroom, Al can
                 provide students with personalised learning experiences,
@@ -267,20 +274,22 @@ const QuestionOneTwo = () => {
                 replace teachers but rather assist them in their work. <br />
                 [Unit-1; Lesson-2(B)] <br />
                 <br />
-                <p className="font-bold">A. Choose the correct answer from the alternatives: 1x5=5 <br /></p>
-                
+                <p className="font-bold">
+                  A. Choose the correct answer from the alternatives: 1x5=5{" "}
+                  <br />
+                </p>
                 (a) What is an advantage of Al? <br />
                 i. Doing homework <br />
                 iii. Teaching <br />
                 iii. Assist teachers <br />
-                iv. Assist machines 
+                iv. Assist machines
                 <br />
                 <br />
                 (b) What do the Al tools do? <br />
                 i. Replace teachers <br />
                 ii. Replace machines <br />
                 ii. Taking Exams <br />
-                iv. Automate repetitive tasks 
+                iv. Automate repetitive tasks
                 <br />
                 <br />
                 (c) What is the synonym for "revolutionise" as used in the
@@ -288,7 +297,7 @@ const QuestionOneTwo = () => {
                 i. Maintain <br />
                 ii. Transform <br />
                 iii. Complicate <br />
-                iv. Preserve 
+                iv. Preserve
                 <br />
                 <br />
                 (d) The word "personalised" can best be replaced with___ <br />
@@ -305,8 +314,9 @@ const QuestionOneTwo = () => {
                 iii. Mechanise <br />
                 iv. Delay <br />
                 <br />
-                <p className="font-bold">B. Answer the following questions: 2x5=10 <br /></p>
-                
+                <p className="font-bold">
+                  B. Answer the following questions: 2x5=10 <br />
+                </p>
                 (a) What role can Al play in a classroom setting? <br />
                 (b) What are the main advantages of Al in the classroom? <br />
                 (c) What is the advantage of an Al powered instant feedback
@@ -1531,7 +1541,7 @@ const QuestionOneTwo = () => {
                   tongue, hoping to silence her. However, Khona's story and her
                   knowledge remained alive. Her wisdom about nature-oriented
                   farming continued to benefit the people of the land. <br />
-                  [Unit-3; Lesson-4(B)) <br />
+                  [Unit-3; Lesson-4(B)] <br />
                   <br />
                   A. Choose the correct answer from the alternatives: 1 x 5 = 5
                   <br />
@@ -4322,7 +4332,7 @@ const QuestionOneTwo = () => {
                   between environmental degradation and many of the problems
                   they face, including poverty and livelihood insecurity. <br />
                   <br />
-                  <div className=""> 
+                  <div className="">
                     <span className="max-w-fit p-1 border border-gray-400 ">
                       1. Raising public awareness
                     </span>

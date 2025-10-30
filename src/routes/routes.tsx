@@ -205,6 +205,10 @@ export const router = createBrowserRouter([
         path: "/QuestionSix",
         element: <QuestionSix />,
       },
+      {
+        path: "/modelTest2",
+        element: <ModelTest />,
+      },
 
       // Degree
       {
