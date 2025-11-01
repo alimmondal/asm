@@ -467,6 +467,450 @@ const QuestionSix = () => {
         <br />
         (j) যখন প্রত্যেকটি নুড়ি নিচে পড়লো, কলসের পানি অল্প অল্প করে উপরে উঠলো।{" "}
         <br />
+        14. Barishal Board-2024; Adamjee Cantonment College, Dhaka-2025 <br />
+        Story of Nasiruddin Hojja and a beggar (নাসিরুদ্দীন হোজ্জা ও ভিখারি){" "}
+        <br />
+        <br />
+        (a) Hojja became furious and decided to teach (a) him a lesson. <br />
+        (b) Suddenly, he saw someone calling from below. <br />
+        (c) Hojja immediately replied. "Why did you make me climb all the way
+        downstairs to ask for money? Couldn't you see that I was working?"{" "}
+        <br />
+        (d) When he came near, the man said that he was a beggar and wanted some
+        money. <br />
+        (e) One day, Nasiruddin Hojja was mending a hole on the roof of his two
+        storeyed house. <br />
+        (f) The beggar was very surprised and asked why Hojja had made him climb
+        the stairs to say he had no money. <br />
+        (g) When they both got to the rooftop, where he was previously working.
+        Hojja turned towards the man and said, "Sorry. I have no money, so you
+        have to leave." <br />
+        (h) He saw there was a man standing at the foot of the stairs and was
+        asking him to get down and listen to him. <br />
+        (i) So, he told the man to climb the stairs with him. <br />
+        (j) Being curious, he climbed down from the roof and went down the
+        stairs. <br />
+        <br />
+        (a) হোজ্জা রাগান্বিত হলেন এবং তাকে একটি শিক্ষা দেওয়ার সিদ্ধান্ত নিলেন।{" "}
+        <br />
+        (b) হঠাৎ তিনি দেখলেন নিচ থেকে কেউ একজন তাকে ডাকছে। <br />
+        (c) হোজ্জা তাৎক্ষণিকভাবে উত্তর দিলেন, "টাকা চাওয়ার জন্য তুমি আমাকে সিঁড়ি
+        বেয়ে নিচে নামালে কেনো? তুমি কি <br /> দেখোনি যে আমি কাজ করছিলাম? <br />
+        (d) তিনি যখন নিকটে আসলেন, তখন লোকটি বললো সে একজন ভিক্ষুক এবং সে কিছু
+        টাকা চায়। <br />
+        (e) একদিন নাসিরউদ্দীন হোজ্জা তার দোতলা বাড়ির ছাদের জন্য একটা ছিদ্র
+        মেরামত করছিলেন। <br />
+        (f) ভিক্ষুকটি খুবই অবাক হলো এবং জিজ্ঞেস করলো কেনো হোজ্জা তার কাছে কোনো
+        টাকা নেই এটা বলার জন্য তাকে সিঁড়ির উপরে উঠতে বাধ্য করলেন বললেন। <br />
+        (g) যখন তারা উভয়ই ছাদের উপরে উঠলো যেখানে তিনি আগে কাজ করছিলেন, হোজ্জা
+        লোকটির দিকে তাকালেন এবং বললেন, "দুঃখিত আমার কাছে টাকা নেই, তাই তোমাকে
+        চলে যেতে হবে।" <br />
+        (h) তিনি দেখলেন সিঁড়ির নিচে একজন লোক দাঁড়িয়ে আছে এবং তাকে নিচে নেমে তার
+        কথা শুনতে বলছিল। <br />
+        (i) তাই তিনি লোকটিকে সিঁড়ি বেয়ে তার সাথে উপরে উঠতে বললেন। <br />
+        (j) উৎসুক হয়ে, তিনি ছাদ থেকে নামলেন এবং সিঁড়ি দিয়ে নিচে গেলেন। <br />
+        <br />
+        15. Dinajpur Board-2024; Bhola Government College, Bhola-2025 <br /> A
+        Dedicated Soul: Mother Teresa (মাদার তেরেসা এক নিবেদিত প্রাণ) <br />
+        (a) There she became a teacher of a school in Kolkata. <br />
+        (b) Soon her activities for the service of mankind spread all over the
+        world. <br />
+        (c) She was on her heels for her selfless services to mankind even at
+        her old age. <br />
+        (d) As a recognition of her service, she was awarded the Nobel Prize for
+        peace in 1979. <br />
+        (e) She was one of those people who dedicated their lives to the service
+        of mankind. <br />
+        (f) When she was eighteen, she decided to be a nun and came to Kolkata.{" "}
+        <br />
+        (g) She swore to dedicate her life for the cause of the helpless and
+        poor people. <br />
+        (h) She was born in Yugoslavia in 1910. <br />
+        (i) She was also given "Bharat Ratna Award" in the following year.{" "}
+        <br />
+        (j)You have heard the name of Mother Teresa. <br />
+        <br />
+        (a) সেখানে তিনি কলকাতার একটি বিদ্যালয়ের শিক্ষিকা নিযুক্ত হন। <br />
+        (b) মানবজাতির জন্য তাঁর সেবাকর্ম শীঘ্রই সারা বিশ্বে ছড়িয়ে পড়ে। <br />
+        (c) এমনকি তিনি বৃদ্ধ বয়সেও নিঃস্বার্থভাবে মানবজাতির সেবায় ছুটে
+        বেড়িয়েছেন। <br />
+        (d) তাঁর সেবাকর্মের স্বীকৃতিস্বরূপ ১৯৭৯ সালে তাঁকে শান্তিতে নোবেল
+        পুরষ্কার প্রদান করা হয়। <br />
+        (e) যে সকল ব্যক্তি নিজেদের জীবনকে মানবতার সেবায় বিলিয়ে দিয়েছেন তিনি
+        তাঁদের অন্যতম। <br />
+        (f) যখন তাঁর বয়স আঠারো তখন তিনি সন্নাসী হওয়ার সিদ্ধান্ত নেন এবং কলকাতায়
+        চলে আসেন। <br />
+        (g) তিনি অসহায় ও দরিদ্র লোকদের জন্য তাঁর জীবন উৎসর্গ করার শপথ গ্রহণ
+        করেন। <br />
+        (h) তিনি ১৯১০ সালে যুগোস্লাভিয়ায় জন্মগ্রহণ করেন। <br />
+        (1) পরের বছর তাঁকে ভারতরত্ন পুরস্কারও প্রদান করা হয়। <br />
+        (1) তোমরা মাদার তেরেসার নাম শুনেছ। <br />
+        <br />
+        16. Dhaka Board-2022; Jashore Board-2017; Chattogram Board-2023:
+        Mymensingh Board-2024 <br />
+        An Intelligent lad and his wise Teacher (এক বুদ্ধিমান বালক ও তার বিচক্ষণ
+        শিক্ষক) <br />
+        <br />
+        (a) He asked him where God was. <br />
+        (b) He praised him highly. <br />
+        (c) Once a lad went to a famous teacher. <br />
+        (d) The teacher thought highly of the boy's understanding. <br />
+        (e) The lad replied that he would answer if he would tell where he is
+        not. <br />
+        (f) The boy devoted himself in earning knowledge. <br />
+        (g) He begged to instruct him in the arts and sciences. <br />
+        (h) He agreed to teach the lad. <br />
+        (i) He had expressed his desire to acquire knowledge. <br />
+        (j) The teacher wished to find out the ability of the boy. <br />
+        <br />
+        (a) তিনি তাকে জিজ্ঞেস করলেন আল্লাহ্ কোথায় আছেন। <br />
+        (b) তিনি তাঁর ভূয়সী প্রশংসা করলেন। (c) একদা এক বালক এক বিখ্যাত শিক্ষকের
+        কাছে গেল। <br />
+        (d) সেই শিক্ষক সেই বালক সম্পর্কে উচ্চ ধারণা পোষণ করলেন। <br />
+        (e) বালকটি উত্তর দিল যে, সে এটির উত্তর দিবে যদি তিনি বলেন কোথায় তিনি
+        (আল্লাহ) বিরাজমান নন। <br />
+        (f) বালকটি জ্ঞান আহরণে আত্মনিয়োগ করল। <br />
+        (g) সে তাকে (নিজেকে) কলা/ মানবিক ও বিজ্ঞান বিষয়ে শিক্ষাদান করার জন্য
+        তাঁর কাছে প্রার্থনা করলো। <br />
+        (h) তিনি বালকটিকে শিক্ষাদান করতে সম্মত হলেন। <br />
+        (i) সে জ্ঞান অর্জন করার ইচ্ছা প্রকাশ করলো। <br />
+        (j) শিক্ষক বালকটির যোগ্যতা পরখ করতে চাইলেন। <br />
+        <br />
+        17. Rajshahi Board-2023; Sylhet Board-2023; Mirpur Girls' Ideal College,
+        Dhaka-2025 <br />
+        Grapes are Sour (আঙুরফল টক/পান না, তাই খান না)
+        <br />
+        (a) One day, he was very hungry. <br />
+        (b) The grapes were too high for him to reach. <br />
+        (c) Again and again he jumped. <br />
+        (d) At last, he entered into a vineyard. <br />
+        (e) Once upon a time, there lived a fox in a forest. <br />
+        (f) But each time, he failed to reach the grapes. <br />
+        (g) At last being tired, he went away saying that the grapes were sour.{" "}
+        <br />
+        (h) He took a run and jumped to reach the bunch of grapes but could not
+        reach it. <br />
+        (i) He searched for food everywhere but he did not get any food. <br />
+        (j) There were ripe grapes hanging up on the vine. <br />
+        <br />
+        (a) একদিন, সে খুব ক্ষুধার্ত ছিলো। <br />
+        (b) আঙ্গুরগুলো এতই উঁচুতে ছিলো যে তা তার নাগালের বাইরে ছিলো। <br />
+        (c) বার বার সে লাফ দিলো। <br />
+        (d) অবশেষে সে একটি আঙ্গুর বাগানে প্রবেশ করলো। <br />
+        (e) একদা একটি অরণ্যে/বনে/জঙ্গলে একটি খেঁকশিয়াল/শৃগাল বাস করতো। <br />
+        (1) কিন্তু প্রতিবারই/প্রত্যেকবারই সে আঙ্গুরের নাগালে পৌছাতে ব্যর্থ হলো।{" "}
+        <br />
+        (g) অবশেষে ক্লান্ত হয়ে সে বলতে বলতে চলে গেলো যে আঙ্গুর ফল টক। <br />
+        (h) সে আঙ্গুরগুচ্ছের নাগাল পেতে দৌড় ও লাফ দিলো কিন্তু এর নাগাল পেলো না।{" "}
+        <br />
+        (1) সে সর্বত্র খাবারের সন্ধান করলো কিন্তু সে কোনো খাদ্য/খাবার পেলো না।{" "}
+        <br />
+        (1) আঙ্গুর গাছে পরিপক্ষ/পাকা আঙ্গুর ঝুলে ছিলো। <br />
+        <br />
+        18. Dhaka Board-2017; Rajshahi Board-2022; Jashore Board-2023 <br />{" "}
+        Sultan's Tax Collector Recruitment (সুলতানের কর সংগ্রাহক নিয়োগ) <br />
+        <br />
+        (a) Then he invited applications. <br />
+        (b) The applicants were asked to meet the Sultan one by one. <br />
+        (c) Long ago, there lived a Sultan in a country. <br />
+        (d) Then the Sultan found the desired man. <br />
+        (e) He wanted to appoint an honest man as his tax collector. <br />
+        (f) A number of people applied for the job. <br />
+        (g) All the applicants blushed and refused except one. <br />
+        (h) So, he asked for the wise counselors' advice. <br />
+        (i) When they arrived, the Sultan asked them to dance. <br />
+        (j) They came through a passage where gold coins were kept. <br />
+        <br />
+        (a) তারপর তিনি আবেদনপত্র আহ্বান করলেন। <br />
+        (b) আবেদনকারীদেরকে একজনের পর একজন করে সুলতানের সাথে সাক্ষাৎ করতে বলা
+        হলো। <br />
+        (c) অনেক আগে, একদেশে এক সুলতান বসবাস করতেন। <br />
+        (d) তখন সুলতান কাঙ্ক্ষিত মানুষকে খুঁজে পেলেন। <br />
+        (e) তিনি তার কর সংগ্রাহক হিসাবে একজন সৎ মানুষকে নিয়োগ দিতে চাইলেন।{" "}
+        <br />
+        (f) অসংখ্য মানুষ চাকুরির জন্য আবেদন করলো। <br />
+        (g) একজন ছাড়া সকল আবেদনকারী লজ্জিত হলো এবং প্রত্যাখ্যাত হলো। <br />
+        (h) সুতরাং তাই তিনি বিজ্ঞ সভাসদগণের পরামর্শ চাইলেন। <br />
+        (i) যখন তারা পৌছালো/পৌঁছেছিল, সুলতান তাদেরকে নাচতে বলল। <br />
+        (j) তারা যে পথ ধরে এসেছিলো সেখানে স্বর্ণমুদ্রা রাখা ছিলো। <br />
+        <br />
+        19. Cumilla Board-2023: Military Collegiate School & College, Fultala,
+        Khulna-2025 <br /> Dr. Mohammad Shahidullah <br /> <br /> (ড. মুহাম্মদ
+        শহীদুল্লাহ) <br />
+        <br />
+        (a) He was one of the most renowned linguists of Bangladesh. <br />
+        (b) He died in 1969 and we remember him with respect. <br />
+        (c) He was second to none in Bangla language and literature. <br />
+        (d) Dr. Mohammad Shahidullah was born in 24 Porgonas, West Bengal in
+        1885. <br />
+        (e) He joined Jashore Zilla School in 1910. <br />
+        (f) He passed the Entrance and F.A. Exam in 1904 and 1906. <br />
+        (g) He received some awards and contributed much to Bangla literature.{" "}
+        <br />
+        (h) He passed Honours and Masters in 1910 and 1912. <br />
+        (i) He joined Dhaka University as a Lecturer in 1921. <br />
+        (j) He got his Ph.D in 1928. <br />
+        <br />
+        (a) তিনি হলেন বাংলাদেশের সবচেয়ে ভাষাবিদগণের অন্যতম। <br />
+        (b) তিনি ১৯৬৯ সালে মৃত্যুবরণ করেন এবং আমরা তাঁকে শ্রদ্ধাভরে স্মরণ করি।{" "}
+        <br />
+        (c) তিনি বাংলা ভাষা ও সাহিত্যে ছিলেন অদ্বিতীয়। <br />
+        (d) ড. মুহম্মদ শহীদুল্লাহ ১৮৮৫ সালে পশ্চিম বঙ্গের চব্বিশ পরগণাতে
+        জন্মগ্রহণ করেন। <br />
+        (e) তিনি ১৯১০ সালে যশোর জিলা স্কুলে যোগদান করেন। <br />
+        (1) তিনি ১৯০৪ এবং ১৯০৬ সালে প্রবেশিকা এবং এফএ পরীক্ষায় উত্তীর্ণ হন।{" "}
+        <br />
+        (g) তিনি বেশ কিছু পুরস্কার পেয়েছেন এবং বাংলা সাহিত্যে ব্যাপক অবদান
+        রেখেছেন। <br />
+        (h) তিনি ১৯১০ ও ১৯১২ সালে স্নাতক ও স্নাতকোত্তর পাশ করেন। <br />
+        (0) তিনি ১৯২১ সালে ঢাকা বিশ্ববিদ্যালয়ে প্রভাষক হিসাবে যোগদান করেন।{" "}
+        <br />
+        (1) তিনি ১৯২৮ সালে তাঁর পিএইচডি ডিগ্রি লাভ করেন। <br />
+        <br />
+        20. Barishal Board-2023: Rangpur Cadet College-2025; Milestone College,
+        Uttara, Dhaka-2025 Free thinker <br /> Aristotle (মুক্তচিন্তক
+        অ্যারিস্টটল) <br />
+        <br />
+        (a) As a result, he studied under the great thinker Plato. <br />
+        (b) He also wrote books on Biology, Literature, Economics and
+        Comparative Politics. <br />
+        (c) Plato taught Aristotle in his own way. <br />
+        (d) Aristotle was born in Greece. <br />
+        (e) His father wanted him to be a Physician but he never cherished to do
+        so. <br />
+        (f) Later on, Aristotle took the pen to write on topics suitable for
+        human civilization. <br />
+        (g) He is called the father of Biology because of his creativity. <br />
+        (h) 'Politics' is one of his famous books which exposes the fullest
+        development of his wisdom. <br />
+        (i) He wanted to be a free thinker. <br />
+        (j) He was the son of a royal physician. <br />
+        <br />
+        (a) ফলে তিনি একজন বিখ্যাত 'চিন্তাবিদ প্লেটোর অধীনে অধ্যয়ন করতেন। <br />
+        (b) তিনি জীববিজ্ঞান, সাহিত্য, অর্থনীতি এবং তুলনামূলক রাজনীতির উপরও
+        গ্রন্থ লিখেছেন। <br />
+        (c) প্লেটো অ্যারিস্টটলকে তাঁর নিজস্ব পদ্ধতিতে শিক্ষা প্রদান করেন। <br />
+        (d) অ্যারিস্টটল গ্রিসে জন্মগ্রহণ করেন। <br />
+        (e) তাঁর পিতা তাঁকে চিকিৎসক বানাতে চেয়েছিলেন কিন্তু তিনি কখনো সেই ইচ্ছা
+        পোষণ করতেন না। <br />
+        (f) পরবর্তীতে, অ্যারিস্টটল মানবসভ্যতার জন্য উপযুক্ত বিষয়ের উপর লিখতে কলম
+        ধরেছিলেন। <br />
+        (g) তাঁর সৃজনশীলতার জন্য তাঁকে জীববিজ্ঞানের জনক বলা হয়। <br />
+        (h) "পলিটিক্স" তাঁর অন্যতম বিখ্যাত গ্রন্থ যেখানে তাঁর জ্ঞানের পরিপূর্ণ
+        বিকাশ ঘটেছে। <br />
+        (i) তিনি একজন মুক্ত চিন্তক/চিন্তাবিদ হতে চেয়েছিলেন। <br />
+        (1) তিনি ছিলেন একজন রাজকীয় চিকিৎসকের পুত্র। <br />
+        <br />
+        21. Dinajpur Board-2023: Sirajganj Government College, Sirajganj-2025{" "}
+        <br />
+        The Crow and the Snake (কাক ও সাপ) <br />
+        <br />
+        (a) They dug the hole, killed the snake and took the necklace. <br />
+        (b) The crow at last thought of a plan to get rid of its enemy. <br />
+        (c) It stole an expensive necklace of the princess from the royal palace
+        and dropped it into the snake's hole after scattering a few rubles here
+        and there. <br />
+        (d) A snake lived in a hole at the foot of a tree. <br />
+        (e) The king became very angry at the loss and sent out men to look for
+        the necklace. <br />
+        (f) High up on its branches was the nest of a crow. <br />
+        (g) In this way, the snake ate up three of the chicks. <br />
+        (h) In course of time, they noticed the scattered rubies near the hole.{" "}
+        <br />
+        (i) The crow had four young chicks in its nest. <br />
+        (j) Whenever the crow would leave the nest to bring food for its chicks,
+        the snake would climb up and eat one. <br />
+        <br />
+        (a) তারা গর্ত করলো, সাপটিকে হত্যা করলো এবং নেকলেসটি নিয়ে নিলো। <br />
+        (b) অবশেষে কাকটি তার শত্রু থেকে মুক্তি পেতে একটি পরিকল্পনার কথা ভাবলো।{" "}
+        <br />
+        (c) এটি রাজপ্রাসাদ থেকে রাজকন্যার একটি দামী নেকলেস চুরি করলো এবং কিছু
+        রত্ন এখানে সেখানে ছড়িয়ে ফেলার পর এটিকে সাপটির গর্তে ফেলে দিলো। <br />
+        (d) একটি গাছের পাদদেশে একটি গর্তে একটি সাপ বসবাস করতো। <br />
+        (e) সম্রাট এই ক্ষতিতে খুব ক্রোধান্বিত হলেন এব নেকলেসটি খুঁজতে লোক
+        পাঠালেন। <br />
+        (f) গাছটির উচু শাখা-প্রশাখার উপর কাকের বাসা ছিলো। <br />
+        (g) এভাবে সাপটি তিনটি বাচ্চা খেয়ে ফেলেছিলো। <br />
+        (h) ইতিমধ্যে তারা গর্তের নিকটে ছড়ানো রত্ন দেখতে পেলো। <br />
+        (i) কাকটির বাসাতে চারটি ছোটো বাচ্চা ছিলো। <br />
+        (j) যখনই কাকটি খাবার/খাদ্য আনতে বাসা ছেড়ে চলে যায়, সাপটি উপরে ওঠে এবং
+        একটি করে বাচ্চা খেয়ে ফেলত। <br />
+        <br />
+        22. Mymensingh Board-2023: Moulvibazar Government College,
+        Moulvibazar-2025 <br />
+        Storyteller Nambi (গল্পকথক নামবি) <br />
+        <br />
+        (a) He used to tell interesting stories to the people of the village.{" "}
+        <br />
+        (b) He never spoke the rest of his life. <br />
+        (c) His name was Nambi. <br />
+        (d) He lived in a temple at the edge of the village and passed his time
+        under the banyan tree in front of the temple. <br />
+        (e) Before telling a story, he used to light a lamp in front of the
+        tree. <br />
+        (f) There was a remote village named Somal. <br />
+        (g) One day, he could not continue his story. <br />
+        (h) After a few days, he called the villagers and told them something.{" "}
+        <br />
+        (i) He was so ignorant that he could not tell his age. but he could make
+        up stories. <br />
+        (j) The villagers were enchanted by a man. <br />
+        <br />
+        (a) সে গ্রামবাসীকে মজার মজার গল্প বলতো। <br />
+        (b) সে তার অবশিষ্ট জীবনের আর কখনো কথা বলেনি। <br />
+        (c) তার নাম ছিলো নাম্বি। <br />
+        (d) সে গ্রামের প্রান্তে একটি মন্দিরে বসবাস করতো এবং সে মন্দিরের সামনের
+        বটবৃক্ষের নিচে বসে তার সময় অতিবাহিত করতো। <br />
+        (e) একটি গল্প বলা শুরু করার আগে সে গাছটির সামনে একটি প্রদীপ জ্বালাতো।{" "}
+        <br />
+        (f) সোমাল নামে একটি দূরবর্তী গ্রাম ছিলো। <br />
+        (g) একদিন, সে তার গল্প চালিয়ে যেতে পারলো না। <br />
+        (h) কিছুদিন পর সে গ্রামবাসীকে ডাকল এবং তাদেরকে কিছু বলল। <br />
+        (i) সে এতই অজ্ঞ ছিলো যে নিজের বয়সও বলতে পারতো না, কিন্তু সে গল্প তৈরি
+        করতে পারতো। <br />
+        (j) গ্রামবাসী এক ব্যক্তির দ্বারা মোহিত থাকত। <br />
+        <br />
+        23. Cumilla Board-2022 <br />
+        The struggle of Nelson Mandela (নেলসন ম্যান্ডেলার সংগ্রাম) <br />
+        <br />
+        (a) In 1994, Mandela was elected as the first black president of Africa.{" "}
+        <br />
+        (b) After nearly three decades, he was freed. <br />
+        (c) Nelson Mandela, the black leader, understood the fact. <br />
+        (d) Finally, he left his public life in 2004 and worldly life in 2013.{" "}
+        <br />
+        (e) White domination in South Africa was a very inhuman practice. <br />
+        (1) So, he was arrested and sent behind the prison bar. <br />
+        (g) He raised his voice against the cruelties of apartheid. <br />
+        (h) The white African leader F.W. de Klerk negotiated the end of racism.{" "}
+        <br />
+        (i) The blacks were treated cruelly. <br />
+        (j) They were denied all basic human rights. <br />
+        <br />
+        (a) ১৯৯৪ সালে ম্যান্ডেলা আফ্রিকার প্রথম কৃষ্ণাঙ্গ প্রেসিডেন্ট হিসাব
+        নির্বাচিত হন। <br />
+        (b) প্রায় তিন দশক অতিবাহিত হওয়ার পর তাকে মুক্তি দেওয়া হয়। <br />
+        (c) কৃষ্ণাঙ্গ নেতা নেলসন ম্যান্ডেলা বিষয়টি উপলব্ধি করলেন। <br />
+        (d) অবশেষে, তিনি ২০০৪ সালে তার জনজীবন এবং ২০১৩ সালে পার্থিব জীবন ত্যাগ
+        করেন। <br />
+        (c) দক্ষিন আফ্রিকায় শেতাঙ্গ আধিপত্য ছিল একটা অমানবিক রীতি/প্রথা/নিয়ম।{" "}
+        <br />
+        (f) তাই তাকে গ্রেফতার করা হয় এবং কারাগারে পাঠানো হয়। <br />
+        (g) তিনি বর্ণবাদের নিষ্ঠুরতার বিরুদ্ধে আওয়াজ তুলেছিলেন। <br />
+        (h) শেতাঙ্গ আফ্রিকান নেতা এফ,ডব্লিউ, ক্লার্ক বর্ণবাদের সমাপ্তি নিয়ে
+        আলোচনা করেছিলেন। <br />
+        (i)কৃষ্ণাঙ্গদের সাথে নিষ্ঠুর আচরণ করা হতো। <br />
+        (j) তারা সকল মৌলিক মানবাধিকার থেকে বঞ্চিত ছিল। <br />
+        <br />
+        24. Chattogram Board-2022; Dinajpur Board-2022; Cumilla Board-2019 Our
+        National Poet Kazi Nazrul Islam <br /> (আমাদের জাতীয় কবি কাজী নজরুল
+        ইসলাম) <br />
+        <br />
+        (a) He died on August 29, 1976 and was buried in the compound of Dhaka
+        University. <br />
+        (b) He wrote a lot of poems, songs, ghazals, short stories, novels, etc.{" "}
+        <br />
+        (c) He lost his father at the age of eight and at the age of eleven he
+        showed his poetic genius. <br />
+        (d) At the age of nineteen, he joined the Army as an ordinary soldier to
+        fight in the First World War. <br />
+        (e) On return from the battlefield, he gave up the sword for the pen.{" "}
+        <br />
+        (f) It was tragic that he had been suffering from a cruel disease since
+        1942 and remained paralyzed for the rest of his life. <br />
+        (g) In 1924. he got married to Promila in Kolkata. <br />
+        (h) Bangladesh became independent in 1971 and he was brought to
+        Bangladesh from Kolkata in 1972. <br />
+        (i) Kazi Nazrul Islam was born in 1899 in the district of Burdwan in
+        West Bengal. <br />
+        (j) Then he was declared our national poet by the Government of
+        Bangladesh. <br />
+        <br />
+        (a) তিনি ১৯৭৬ সালের ২৯ আগস্ট মৃত্যুবরণ করেন এবং ঢাকা বিশ্ববিদ্যালয়
+        প্রাক্কানে তাঁকে সমাহিত করা হয়। <br />
+        (b) তিনি অসংখ্য কবিতা, গান, গজল, ছোটগল্প, উপন্যাস ইত্যাদি রচনা করেন।{" "}
+        <br />
+        (c) তিনি আট বছর বয়সে তাঁর বাবাকে হারান এবং এগারো বছর বয়সে তিনি তাঁর
+        কাব্যিক প্রতিভা প্রদর্শন করেন। <br />
+        (d) তিনি উনিশ বছর বয়সে প্রথম বিশ্বযুদ্ধে লড়াই করতে সাধারণ সৈনিক হিসেবে
+        সেনাবাহিনীতে যোগদান করেন। <br />
+        (e) যুদ্ধক্ষেত্র থেকে ফিরে এসে তিনি তরবারী ফেলে হাতে কলম তুলে নেন।{" "}
+        <br />
+        (f) দুঃখজনক বিষয় যে, তিনি ১৯৪২ সাল থেকে এক দূরারোগ্য ব্যাধিতে ভুগছিলেন
+        আর তাঁর জীবনের বাকি সময়টা পক্ষাঘাতগ্রস্ত অবস্থায় ছিলেন। <br />
+        (g) ১৯২৪ সালে তিনি কলকাতায় প্রমিলাকে বিবাহ করেন। <br />
+        (h) ১৯৭১ সালে বাংলাদেশ স্বাধীনতা অর্জন করে এবং ১৯৭২ সালে তাঁকে কলকাতা
+        থেকে বাংলাদেশে আনা হয়। <br />
+        (i) কাজী নজরুল ইসলাম ১৮৯৯ সালে পশ্চিমবঙ্গের বর্ধমান জেলায় জন্মগ্রহণ
+        করেন। <br />
+        (j) তারপর বাংলাদেশ সরকার তাকে আমাদের জাতীয় কবি হিসেবে ঘোষণা করে। <br />
+        <br />
+        25. Sylhet Board-2022; Padma Government College, Dohar, Dhaka-2025{" "}
+        <br />
+        Covid-19 & The Changed World scenario (কোভিড-১৯ এবং পরিবর্তিত বিশ্ব
+        প্রেক্ষিত) <br />
+        <br />
+        (a) Due to this drastic change, people cannot decide what appropriately
+        to do to fight this danger. <br />
+        (b) We are witnessing a serious education crisis that was once beyond
+        imagination. <br />
+        (c) Because of the inconceivable Covid-19 disaster, the entire world is
+        passing through a very difficult time. <br />
+        (d) They also find difficulties keeping pace with this change. <br />
+        (e) This disaster has changed the world scenario drastically. <br />
+        (f) The hope is that with the problems, some prospects are also
+        appearing. <br />
+        (g) Our education sector is undergoing the same critical condition.{" "}
+        <br />
+        (h) Online class has become a new method of learning for the students of
+        Bangladesh. <br />
+        (i) We must take the opportunity this pandemic disease has created.{" "}
+        <br />
+        (j) However, there is a ray of hope. <br />
+        <br />
+        (a) এই হঠাৎ পরিবর্তনের কারণে মানুষ এই বিপদের বিরুদ্ধে লড়াই করার জন্য
+        সঠিকভাবে কী করতে হবে তা নির্ধারণ করতে পারছে না। <br />
+        (b) আমরা একটা গুরুতর শিক্ষা সংকট প্রত্যক্ষ করছি যা একসময় কল্পনার বাইরে
+        ছিল। <br />
+        (c) অকল্পনীয় কোভিড-১৯ বিপর্যয়ের কারণে সমগ্র বিশ্ব খুব কঠিন সময় অতিবাহিত
+        করছে। <br />
+        (d) তারা এই পরিবর্তনের সাথে তাল মিলিয়ে চলতে অসুবিধা বোধ করছে। <br />
+        (e) এই বিপর্যয়/দুর্যোগ বিশ্ব দৃশ্যপটকে আমগুল বদলে দিয়েছে। <br />
+        (f) আশার কথা হলো সমস্যার সাথে কিছু সম্ভাবনাও দেখা যাচ্ছে। <br />
+        (g) আমাদের শিক্ষা খাতও একই সংকটের মধ্য দিয়ে যাচ্ছে। <br />
+        (h) বাংলাদেশের শিক্ষার্থীদের জন্য অনলাইন ক্লাশ শিক্ষা লাভের একটি নতুন
+        পদ্ধতিতে পরিণত হয়েছে। <br />
+        (i) এই মহামারি রোগটি যে সুযোগ তৈরি করেছে তা আমাদের অবশ্যই গ্রহণ করতে
+        হবে। <br />
+        (j) যাহোক, আশার একটি আলো রয়েছে। <br />
+        <br />
+        26. Barishal Board-2022; Barguna Govt. College, Barguna-2024 <br />
+        Haji Mohammad Mohsin (হাজী মুহাম্মদ মহসিন) <br />
+        <br />
+        (a) Haji Mohsin took him to another room and opened a box. <br />
+        (b) Haji Mohsin woke up and caught hold of the thief. <br />
+        (c) The box was full of gold and money. <br />
+        (d) He took pity with the poor man. <br />
+        (e) He was famous for his kindness. <br />
+        (f) He helped the poor and the helpless people with food and clothes.{" "}
+        <br />
+        (g) A thief entered his bedroom one night. <br />
+        (h) The man said. "Str. I am very poor, I have no <br /> food in my
+        house." <br />
+        (j) Haji Mohammad Mohsin was a very kind man. (j) He gave the thief some
+        money to start a business. <br />
+        (a) হাজী মহসিন তাকে অন্য একটি ঘরে নিয়ে গেলেন এবং একটি বাক্স খুললেন।{" "}
+        <br />
+        (b) হাজী মহসিন জেগে গেলেন এবং চোরকে ধরে ফেললেন। <br />
+        (c) বাক্সটি স্বর্ণ এবং টাকা-পয়সা পূর্ণ ছিল। <br />
+        (d) দরিদ্র লোকটির প্রতি তার দয়া হলো। <br />
+        (c) তিনি তার দয়ার জন্য বিখ্যাত ছিলেন। <br />
+        (f) তিনি দরিদ্র ও অসহায়দের খাদ্য ও পোশাক দিয়ে সাহায্য করতেন। <br />
+        (g) এক রাতে তার শয়নকক্ষে এক চোর ঢুকলো। <br />
+        (h) লোকটি বললো, "জনাব, আমি খুব দরিদ্র, আমার ঘরে কোনো খাবার নেই।" <br />
+        (i) হাজী মোহাম্মদ মহসিন একজন খুব দয়ালু লোক ছিলেন। <br />
+        (j) তিনি চোরকে ব্যবসা শুরু করার জন্য কিছু টাকা দিলেন। <br />
+        <br />
       </div>
     </div>
   );
