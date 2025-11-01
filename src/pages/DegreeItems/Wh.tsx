@@ -1,28 +1,28 @@
 function Wh() {
   return (
-    <div className="h-full w-[95%] md:w-[70%] mx-auto ">
+    <div className="h-full  lg:w-1/2 mx-auto px-4">
       <div className="">
-        <h1 className="text-center font-semibold text-md py-20 dark:text-gray-300">
+        <h1 className="text-center font-semibold text-md py-20 dark:text-gray-300 text-green-500">
           **Wh-question**
         </h1>
       </div>
 
       <div className="py-10">
         <h3 className="text-green-500">
-          <span className="animateText font-bold">Rule:</span> Wh + helping verb
-          + Subject + Principal verb (if stayed) + extension?
+          <span className="animateText font-bold">Rule: </span> Wh + helping
+          verb + Subject + Principal verb (if stayed) + extension?
         </h3>
-        <br /> <br />
-        Note: যেই শব্দের পরিবর্তে ওহ নেওয়া হবে সেই শব্দ উঠে যাবে
+        <br />
+        Note: যেই শব্দের পরিবর্তে WH নেওয়া হবে সেই শব্দ উঠে যাবে
         <br />
         <br />
         **Rule-1:** <br />
         প্রত্যেক বাক্যের Subject যদি ব্যাক্তিবাচক হয় সে Subject এর স্থলে Who
-        এবং যদি বস্তুবাচক হয় তবে সে Subject এর স্থলে What/which ব্যবহার হবে।{" "}
+        এবং যদি বস্তুবাচক হয় তবে সে Subject এর স্থলে What/which ব্যবহার হবে।
         <br />
         যেমনঃ <br />
         (i) Nazrul is the shelly of Bangladesh. <br />
-        ⇒ Who is the shelly of Bangladesh! <br />
+        ⇒ Who is the Shelley of Bangladesh! <br />
         (ii) The cow gives us milk. <br />
         ⇒ What gives you milk? <br />
         বাক্যের Subject এর স্থলে Who/what/which বসালে বাক্যের অন্য কিছু পরিবর্তন
@@ -114,8 +114,14 @@ function Wh() {
         ⇒ Whom did you see playing? <br /> <br />
         Q. **I bought some paper.** <br />
         ⇒ What did you buy? <br /> <br />
-        **Frame Wh-questions from the following sentences. (Any five).** <br />{" "}
         <br />
+      </div>
+      <div className="">
+        <h1 className="text-pink-700">
+          {" "}
+          **Practice**
+          <br />{" "}
+        </h1>
         ### 1. National University Examination — 2009 <br />
         *(According to the Syllabus of 2003–2004)* <br />
         *Date: 03.06.2009* <br />
