@@ -6,21 +6,21 @@ const QuestionFive = () => {
         <p className="">Close test without clues</p>
       </div>
       <div className=" text-sm md:text-base">
-        Fill in the blanks with an appropriate word in each gap : 1 x 10 = 10{" "}
+        Fill in the blanks with an appropriate word in each gap : 1 x 10 = 10
         <br />
         <br />
         Board Exam Based Exercises <br />
         <br />
         1. Dhaka Board-2025 <br />
-        The world is producing millions of tons of domestic rubbish and (a) ----
-        industrial waste each year. It is becoming very difficult to find (b)---
-        locations to (c) ---- rid of all these refuse. The dumping of (d) kinds
-        of waste is seriously (e) ---- the environment. We know that air is a/an
-        (f)--- element of our environment. But, the air is polluted by (g) ---.
+        The world is producing millions of tons of domestic rubbish and (a) __
+        industrial waste each year. It is becoming very difficult to find (b)__
+        locations to (c) __ rid of all these refuse. The dumping of (d) kinds
+        of waste is seriously (e) __ the environment. We know that air is a/an
+        (f)__ element of our environment. But, the air is polluted by (g) __.
         Water, another vital element of the environment, is polluted by
-        different kinds of waste and filth. If we want to live a (h)--- life. We
+        different kinds of waste and filth. If we want to live a (h)__ life. We
         should prevent the pollution of the environment. Total prevention may be
-        (i) but we can certainly reduce pollution by raising (j) ---- among
+        (i) but we can certainly reduce pollution by raising (j) __ among
         people. <br />
         <br />
         পৃথিবী প্রতিবছর কোটি কোটি টন গৃহস্থালি আবর্জনা এবং ক্ষতিকর শিল্প বর্জ্য
@@ -31,17 +31,21 @@ const QuestionFive = () => {
         বর্জ্য এবং ময়লা দ্বারা দূষিত হয়। স্বাস্থ্যকর জীবন-যাপন করতে চাইলে পরিবেশ
         দূষণ রোধ করা উচিত। পুরোপুরি রোধ করা অসম্ভব হলেও মানুষের মধ্যে সচেতনতা
         তৈরির মাধ্যমে আমরা দূষণ অবশ্যই হ্রাস করতে পারি। <br />
+        Answer: (a) harmful (b) appropriate/suitable (c) get (d) these/all (e)
+        polluting/harming (f), important/significant (g) smoke (h) healthy (i)
+        impossible (j) awareness/consciousness
+        <br />
         <br />
         2. Rajshahi Board-2025; Mymensingh Board-2023 <br />
-        The food (a) ---- of the young people of our country has changed
-        greatly. Our young people are getting (b) ---- to fast foods and western
+        The food (a) __ of the young people of our country has changed
+        greatly. Our young people are getting (b) __ to fast foods and western
         foods day by day. Today they go to fast food shops and enjoy taking (c)
-        ---- such as: pizza, burger, soft drinks etc. When fast foods (d) - ----
-        high levels of salt, sugar and fats, then it is called (e) ---- food. It
-        lacks fibre, (f) ---- and minerals. The world is currently facing an
-        obesity epidemic which puts people at the (g) ---- of chronic (h) ----
-        like heart disease and diabetes. Junk foods (i) ---- to obesity. So, we
-        should be (j) ---- about having fast foods now and then. <br />
+        __ such as: pizza, burger, soft drinks etc. When fast foods (d) - __
+        high levels of salt, sugar and fats, then it is called (e) __ food. It
+        lacks fibre, (f) __ and minerals. The world is currently facing an
+        obesity epidemic which puts people at the (g) __ of chronic (h) __
+        like heart disease and diabetes. Junk foods (i) __ to obesity. So, we
+        should be (j) __ about having fast foods now and then. <br />
         <br />
         আমাদের দেশের তরুণদের খাদ্যাভ্যাসে ব্যাপক পরিবর্তন সাধিত হয়েছে। আমাদের
         তরুণরা দিন দিন ফাস্ট ফুড ও পশ্চিমা খাবারে অভ্যস্ত হয়ে পড়ছে। আজকাল তারা
@@ -52,16 +56,20 @@ const QuestionFive = () => {
         রোগের ঝুঁকিতে ফেলছে। জাংক ফুড স্থূলতার দিকে ধাবিত করে। সুতরাং, আমাদের
         যখন তখন ফাস্ট ফুড খাওয়ার ব্যাপারে সচেতন/সতর্ক হওয়া উচিত।
         <br />
+        Answer: (a) habit (b) used/accustomed (c) foods (d) contain/have (e)
+        junk (f) vitamins (g) risk (b) diseases (i) lead (j)
+        careful/cautious/aware
+        <br />
         <br />
         3. Jashore Board-2025 <br />
-        From the moment we are born we cannot (a) --- alone. We are always in
-        (b) --- of assistance of (c) --- others around us. We need clothes,
-        which others (d) ---; houses, which others (e) --- and food, which
-        others (f) --- We have to earn our livelihood by (g) --- for others,
+        From the moment we are born we cannot (a) __ alone. We are always in
+        (b) __ of assistance of (c) __ others around us. We need clothes,
+        which others (d) __; houses, which others (e) __ and food, which
+        others (f) __ We have to earn our livelihood by (g) __ for others,
         while they get their livelihood by working for us. As children, we need
-        our parents to be our comforters, and to take (h) --- of us in body and
-        (i) --- . As we grow up we need to take care of others; we cannot exist
-        a day (j) --- our fellowmen. <br />
+        our parents to be our comforters, and to take (h) __ of us in body and
+        (i) __ . As we grow up we need to take care of others; we cannot exist
+        a day (j) __ our fellowmen. <br />
         <br />
         জন্মের মুহূর্ত থেকেই আমরা একা থাকতে পারি না। আমাদের সবসময়ই চারপাশে থাকা
         মানুষগুলোর সহায়তা প্রয়োজন হয়। অন্যের বানানো পোশাক, অন্যের তৈরি করা বাড়ি
@@ -69,20 +77,23 @@ const QuestionFive = () => {
         জীবিকা উপার্জন করতে হয়, আর আমাদের জন্য কাজ করে অন্যরা জীবিকা উপার্জন
         করে। শিশু থাকাকালীন আমাদের দ্বাচ্ছন্দ্য দেওয়ার জন্য এবং শরীর ও মনের যত্ন
         নিতে পিতামাতাকে দরকার। বড় হলে আমাদের অন্যের যত্ন দরকার; সঙ্গী ছাড়া আমরা
-        একদিনও বাঁচতে পারি না। <br />
+        একদিনও বাঁচতে পারি না।
+        <br />
+        (a) live (b) need (c) the (d) weave (e) build (f) cook (g) working (h)
+        care (i) mind (j) without
+        <br />
         <br />
         4. Cumilla Board-2025: Barishal Board-2017; Dhaka Board-2004 <br />
-        Many events of great importance (a) --- during the last century.
-        Significant advances (b) --- in the field of science and technology.
-        Many European colonies gained Independence. The movement (e) ---
-        democracy became (d) --- in many parts of the world. Two World Wars (e)
-        --- in the century. It (f) --- witnessed the misuse of atomic energy.
-        Two cities of Japan were completely destroyed as a result of dropping of
-        atom bombs. The Vietnam war and the Gulf war killed many innocent
-        people. However, the (g) --- of Bangladesh as an independent nation (h)
-        --- is a momentous event. After a (i) --- war of nine months, Bangladesh
-        was born. Now we (j) our heads high as an independent country in the
-        world. <br />
+        Many events of great importance (a) __ during the last century.
+        Significant advances (b) __ in the field of science and technology. Many
+        European colonies gained Independence. The movement (e) __ democracy
+        became (d) __ in many parts of the world. Two World Wars (e) __ in the
+        century. It (f) __ witnessed the misuse of atomic energy. Two cities of
+        Japan were completely destroyed as a result of dropping of atom bombs.
+        The Vietnam war and the Gulf war killed many innocent people. However,
+        the (g) __ of Bangladesh as an independent nation (h) __ is a momentous
+        event. After a (i) __ war of nine months, Bangladesh was born. Now we
+        (j) __ our heads high as an independent country in the world. <br />
         গত শতাব্দীতে অনেকগুলো গুরুত্বপূর্ণ ঘটনা ঘটে গেছে। বিজ্ঞান ও প্রযুক্তির
         ক্ষেত্রে উল্লেখযোগ্য অগ্রগতি সাধিত হয়েছে। বিশ্বের অনেক স্থানে স্বাধীনতা
         আন্দোলন গতিশীল হয়ে উঠেছিল। সেই শতাব্দীতে দুটি বিশ্বযুদ্ধ সংঘটিত হয়েছে। এ
@@ -91,54 +102,68 @@ const QuestionFive = () => {
         যুদ্ধে ও উপসাগরীয় যুদ্ধে অনেক লোক নিহত হয়। তবে একটি স্বাধীন জাতি হিসেবে
         বাংলাদেশের উত্থান ছিল এক অতি গুরুত্ববহ ঘটনা। নয় মাসের রক্তক্ষয়ী যুদ্ধের
         পর বাংলাদেশের জন্ম হয়। এখন আমরা একটি স্বাধীন দেশ হিসেবে মাথা উচু করে
-        দাঁড়াতে পারি। <br />
+        দাঁড়াতে পারি।
+        <br />
+        (a) happened/occured/took place (b) were made/wer achieved (c) for/of
+        (d) momentous/prominent (e) occured (f) also/had (g) emergence/birth (h)
+        was/had been (i) bloody (j) hold/raise/can raise.
+        <br />
         <br />
         5. Chattogram Board-2025 <br />
-        Bangladesh is a (a) --- populated country, but a large number of her
-        people are (b) ---. It is not possible for her to ensure (c) --- to the
-        teeming millions. Self-employment is a possible (d) --- to this problem.
-        It means that people themselves should (e) --- avenues for
-        self-employment. Facilities for training in (f) --- trades and vacations
-        are available (g) --- the country. The youths, in particular, can train
-        themselves in any of these trades and turn into a useful (h) --- The
-        govt. also (i) --- easy loans and counselling with a view to helping
-        them start an (j) --- earning activity. <br />
+        Bangladesh is a (a) __ populated country, but a large number of her
+        people are (b) __. It is not possible for her to ensure (c) __ to the
+        teeming millions. Self-employment is a possible (d) __ to this problem.
+        It means that people themselves should (e) __ avenues for
+        self-employment. Facilities for training in (f) __ trades and vacations
+        are available (g) __ the country. The youths, in particular, can train
+        themselves in any of these trades and turn into a useful (h) __ The
+        govt. also (i) __ easy loans and counselling with a view to helping
+        them start an (j) __ earning activity. <br />
         বাংলাদেশ একটি খুবই জনবহুল দেশ কিন্তু এই জনগণের অধিকাংশই বেকার। এই গিজ
         গিজ করা জনগণের জন্য কাজ নিশ্চিত করা এ দেশের পক্ষে সম্ভব নয়। এ সমস্যার
         সম্ভাব্য সমাধান হলো আত্মকর্মসংস্থান। এর মানে হলো জনগণের উচিত
         আত্মকর্মসস্থানের জায়গা অন্বেষণ করা। দেশব্যাপী বিভিন্ন পেশা ও বৃত্তির ওপর
         প্রশিক্ষণ সুবিধা বর্তমান। বিশেষ করে যুবকগণ এগুলোর যেকোনো পেশায় প্রশিক্ষণ
         নিয়ে নিজেদের দরকারি নাগরিক হিসেবে পরিণত করতে পারেন। একটি সৎ/উদ্ভাবনী
-        উপার্জন কর্মকান্ডে সহায়তার জন্য সরকারও সহজ ঋণ এবং পরামর্শ জোগায়। <br />
+        উপার্জন কর্মকান্ডে সহায়তার জন্য সরকারও সহজ ঋণ এবং পরামর্শ জোগায়।
+        <br />
+        (a) heavily/very (b) unemployed (c) employment (d) solution (e) explore
+        (f) various/different (g) across/throughout (h) citizen (i) provides (j)
+        independent/innovative
+        <br />
         <br />
         6. Sylhet Board-2025; Rajshahi Board-2015; Cumilla Board-2014 & 2010;
         Dhaka Board-2005 <br />
-        Modern life (a) --- much on transport. We can very well understand how
-        (b) --- transport is when it is (c) --- by natural calamities or during
-        socio-political crises. In fact, transport has made it (d) --- for us to
-        reach places previously (e) --- . It has also helped the (f) --- of
-        trade and commerce and to (g) ---new knowledge and ideas. (h) ---
-        transport has (i) --- friendship and (j) --- among nations and people
+        Modern life (a) __ much on transport. We can very well understand how
+        (b) __ transport is when it is (c) __ by natural calamities or during
+        socio-political crises. In fact, transport has made it (d) __ for us to
+        reach places previously (e) __ . It has also helped the (f) __ of
+        trade and commerce and to (g) __new knowledge and ideas. (h) __
+        transport has (i) __ friendship and (j) __ among nations and people
         around the globe. <br />
-        <br />
         আধুনিক জীবন পরিবহনের ওপর অনেকটা নির্ভরশীল। যখন প্রাকৃতিক দুর্যোগ বা
         সামাজিক-রাজনৈতিক সংকটের কারণে এর বিঘ্ন ঘটে তখন এটা খুব ভালোভাবে উপলব্ধি
         করা যায় যে পরিবহন ব্যবস্থা কতটা গুরুত্বপূর্ণ। বস্তুত পরিবহন ব্যবস্থা
         আমাদেরকে পূর্বে যেসব স্থানে পৌছা অসম্ভব ছিল সেসব স্থানে যাওয়াটা সম্ভবপর
         করে তোলে। এটা ব্যাপকভাবে ব্যবসা বাণিজ্যের উন্নতিতে এবং নতুন জ্ঞান ও
         ধারণা লাভ করতে সহায়তা প্রদান করে। অধিকন্তু পরিবহন ব্যবস্থা জাতি ও
-        বিশ্বের লোকজনদের মাঝে বন্ধুত্ব ও বোঝাপড়া গড়ে তোলে। <br />
+        বিশ্বের লোকজনদের মাঝে বন্ধুত্ব ও বোঝাপড়া গড়ে তোলে।
+        <br />
+        (a) depends (b) important (c) disrupted/hampered (d) easier (e)
+        difficult/impassable/ (f) rise/develop (g) acquire/kn (h)
+        Besides/Moreover (i) promoted/develop fostered (j) understanding
+        <br />
         <br />
         7. Barishal Board-2025 <br />
-        Modern civilization is the (a) --- of science. Science has worked (b)
-        --- a magician in the world. We can't do even a © --- day without the
-        help of science. Many quick means (d) --- communication like telephone,
-        telex, fax, telegram, satellite are (e) --- greatest wonders of science.
+        Modern civilization is the (a) __ of science. Science has worked (b)
+        __ a magician in the world. We can't do even a (c) __ day without the
+        help of science. Many quick means (d) __ communication like telephone,
+        telex, fax, telegram, satellite are (e) __ greatest wonders of science.
         Nowadays a message can be sent from one corner of the world to another
-        in the twinkle of (f) --- eye science has brought a revolution (g) ---
-        in all fields. In the field of medical Science (h) ---has got eyes, lame
-        has got legs, deaf have hearing power. (i) --- diseases which were
-        incurable in the past are now easily (j) --- . <br />
+        in the twinkle of (f) __ eye science has brought a revolution (g) __
+        in all fields. In the field of medical Science (h) __has got eyes, lame
+        has got legs, deaf have hearing power. (i) __ diseases which were
+        incurable in the past are now easily (j) __ . <br />
         <br />
         আধুনিক সভ্যতা বিজ্ঞানের উপহার/প্রতীক/প্রতিমূর্তি। বিজ্ঞান পৃথিবীতে
         জাদুকরের মতো কাজ করেছে। আমরা বিজ্ঞানের সাহায্য ছাড়া একদিনও চলতে পারি না।
@@ -147,22 +172,26 @@ const QuestionFive = () => {
         একপ্রান্ত থেকে অন্য ক্ষেত্রে বৈপ্লবিক পরিবর্তন নিয়ে এসেছে। চিকিৎসা
         প্রান্তে চোখের পলকে বার্তা পাঠানো যায়। বিজ্ঞান সকল শ্রবণশক্তি পেয়েছে।
         অতীতের অনেক দূরারোগ্য ব্যাধি ক্ষেত্রে জন্ম চোখ পেয়েছে, পঙ্গু পা পেয়েছে,
-        বধির এখন সহজেই আরোগ্য হচ্ছে। <br />
+        বধির এখন সহজেই আরোগ্য হচ্ছে।
+        <br />
+        (a) presentation/symbol/icon (b) like (c) single (d) of (e) the (f) an
+        (g) change (h) blind (i) Many/The (j) curable
+        <br />
         <br />
         8. Dinajpur Board-2025 <br />
-        Our society is formed of the average middle class. They are the (a) ---
-        sufferers of day to day soaring prices. (b) --- class people and big
-        industrialists never bother and suffer © --- to rising prices as their
+        Our society is formed of the average middle class. They are the (a) __
+        sufferers of day to day soaring prices. (b) __ class people and big
+        industrialists never bother and suffer (c) __ to rising prices as their
         income also increases. But the income of the middle class person is (d)
-        --- . If their income increases, it is not proportionate to the (e) ---
-        prices. The result is that they are the (f) --- of rising prices. But
-        the poor can do nothing. After crying for some days, they try to (g) ---
-        their budget accordingly. Even the government is unable to (h) ---
+        __ . If their income increases, it is not proportionate to the (e) __
+        prices. The result is that they are the (f) __ of rising prices. But
+        the poor can do nothing. After crying for some days, they try to (g) __
+        their budget accordingly. Even the government is unable to (h) __
         rising prices. It is also compelled to increase the rates of commodities
         under the control to reduce subsidies. The standard of living is also
-        rising high in metros. To increase the (i) --- of the new products,
+        rising high in metros. To increase the (i) __ of the new products,
         electronic and print media is playing a major role. The purchasing (j)
-        --- of money has declined. But there is no hope of checking the price
+        __ of money has declined. But there is no hope of checking the price
         hike. <br />
         <br />
         আমাদের সমাজ মোটামুটি মধ্যবিত্ত শ্রেণি নিয়ে গঠিত। রোজকার মূল্যবৃদ্ধির
@@ -176,17 +205,22 @@ const QuestionFive = () => {
         মহানগরীগুলোতে জীবনযাত্রার মানও বেড়ে চলেছে। নতুন দ্রব্যের উৎপাদন বাড়াতে
         ইলেক্ট্রনিক ও প্রিন্ট মিডিয়া গুরুত্বপূর্ণ ভূমিকা পালন করছে। টাকার
         ক্রয়ক্ষমতা হ্রাস পেয়েছে। কিন্তু মূল্যবৃদ্ধি থামানোর কোনো আশা দেখা যাচ্ছে
-        না। <br />
+        না।
+        <br />
+        (a) worst (b) High/upper (c) due (d) limited/fixed (e) increasing/rising
+        (f) victims/sufferers increase/adjust (h) curb/rein/control (i)
+        production/sale (j) capacity/power
+        <br />
         <br />
         9. Mymensingh Board-2025 <br />
-        About 70 years ago, tourism was not a much used word (a) --- it is now.
-        Today many people (b) --- holidays as a part of life. Consequently
-        holiday making has become a major © --- . It has created a considerable
-        (d) of jobs. Leisure time has increased for modern people due to (e) ---
-        advancement. The (f) --- technology has brought for (g) --- travel.
+        About 70 years ago, tourism was not a much used word (a) __ it is now.
+        Today many people (b) __ holidays as a part of life. Consequently
+        holiday making has become a major (c) __ . It has created a considerable
+        (d) of jobs. Leisure time has increased for modern people due to (e) __
+        advancement. The (f) __ technology has brought for (g) __ travel.
         Previously greater opportunities in remote countries were considered a
-        (h) --- . But today cheap holiday packages have made travel anywhere
-        within our (i) --- . Thus the foreign visitors (j) --- employment for
+        (h) __ . But today cheap holiday packages have made travel anywhere
+        within our (i) __ . Thus the foreign visitors (j) __ employment for
         the local population. <br />
         ৭০ বছর আগে পর্যটন এখনকার মতো এতটা ব্যবহৃত শব্দ ছিল না। বর্তমানে অনেক
         মানুষ ছুটিকে জীবনের অংশ হিসেবে বিবেচনা করে। ফলশ্রুতিতে ছুটিযাপন
@@ -195,19 +229,22 @@ const QuestionFive = () => {
         সময় বৃদ্ধি পেয়েছে। আধুনিক প্রযুক্তি নিরাপদ ভ্রমণের বেশি বেশি সুযোগ
         এনেছে। পূর্বে দূরবর্তী দেশগুলোতে যাওয়া ঝামেলা ধরা হোত। কিন্তু বর্তমানে
         সস্তা ছুটি কাটানোর প্যাকেজসমূহ যেকোনো স্থানে ভ্রমণকে আমাদের নাগালে নিয়ে
-        এসেছে। এভাবে বিদেশী ভ্রমণকারীরা স্থানীয় জনগণের কর্মসংস্থান নিশ্চিত করে।{" "}
+        এসেছে। এভাবে বিদেশী ভ্রমণকারীরা স্থানীয় জনগণের কর্মসংস্থান নিশ্চিত করে।
+        <br />
+        (a) as (b) see/regard (c) business (d) number (e) technological (f)
+        modern (g) safe/global (h) luxury (i) reach (j) create
         <br />
         <br />
         10. Dhaka Board-2024 <br />
-        The development of communication in any (a) --- creates an impact on the
-        development of the economy (b) --- gross (c) --- the product of any
-        country. Bangladesh, in this sense has become a (d) --- model all over
-        the world. The present government has scheduled (e) --- and such
-        projects recently (f) --- increase the lifestyle of the country people.
-        We can (g) --- here some of such developments: The Padma Multipurpose
-        Bridget, the (h) --- way, the Karnaphuli Tunnel under the river (i) ---
+        The development of communication in any (a) __ creates an impact on the
+        development of the economy (b) __ gross (c) __ the product of any
+        country. Bangladesh, in this sense has become a (d) __ model all over
+        the world. The present government has scheduled (e) __ and such
+        projects recently (f) __ increase the lifestyle of the country people.
+        We can (g) __ here some of such developments: The Padma Multipurpose
+        Bridget, the (h) __ way, the Karnaphuli Tunnel under the river (i) __
         and the Metro Rail in Dhaka City. The national and International
-        business will be (j) --- by these kinds of communication development.{" "}
+        business will be (j) __ by these kinds of communication development.{" "}
         <br />
         <br />
         বঙ্গানুবাদ: কোনো দেশের যোগাযোগের উন্নতি সেই দেশের অর্থনীতি ও মোট দেশিয়
@@ -218,18 +255,21 @@ const QuestionFive = () => {
         কর্ণফুলী নদীর নিচের বঙ্গাবন্ধু টানেল এবং ঢাকা শহরের মেট্রোরেল। এই ধরনের
         যোগাযোগের উন্নয়নের ফলে জাতীয় এবং আন্তর্জাতিক ব্যবসার উন্নয়ন সাধন হবে।{" "}
         <br />
+        (a) country (b) and (c) domestic (d) role (e) various (f) to (g) mention
+        (h) elevated express (i) Karnaphuli (j) boosted
+        <br />
         <br />
         11. Rajshahi Board-2024; Bangladesh Air Force Shaheen College,
         Kurmitola, Dhaka-2025 <br />
-        If you want to (a) --- English properly and fairly, you have to achieve
-        writing skill. To attain this skill you need (b) --- some measures. At
-        first you should (c) --- your vocabulary since everywhere words are
+        If you want to (a) __ English properly and fairly, you have to achieve
+        writing skill. To attain this skill you need (b) __ some measures. At
+        first you should (c) __ your vocabulary since everywhere words are
         required. Words will help you (d) – your ideas appropriately. Next you
-        should know how to arrange (e) --- in a sentence. Here grammar will help
-        you the (f) --- way. For that basic (g) --- items must be known to you.
-        Then you have to (h) ---- knowledge to generate ideas and make sentences
-        accordingly. Be creative and try to (i) --- sentences of your own.
-        Finally, regular (j) --- will help you succeed in achieving this skill.{" "}
+        should know how to arrange (e) __ in a sentence. Here grammar will help
+        you the (f) __ way. For that basic (g) __ items must be known to you.
+        Then you have to (h) __ knowledge to generate ideas and make sentences
+        accordingly. Be creative and try to (i) __ sentences of your own.
+        Finally, regular (j) __ will help you succeed in achieving this skill.{" "}
         <br />
         <br />
         বঙ্গানুবাদ: তুমি যদি পুরোপুরি এবং সুন্দরভাবে ইংরেজি শিখতে চাও, তাহলে
@@ -242,16 +282,21 @@ const QuestionFive = () => {
         সাধারণ জ্ঞান সম্প্রসারিত করতে হবে যাতে তুমি ভাব উৎপন্ন করতে পারো এবং সেই
         অনুযায়ী বাকা তৈরি করতে পারো। সৃষ্টিশীল হও এবং নিজস্ব বাক্য তৈরি করার
         চেষ্টা করো। সবশেষে, নিয়মিত অনুশীলন তোমাকে তোমার এই দক্ষতা অর্জনে সফল
-        করতে সহয়তা করবে। <br />
+        করতে সহয়তা করবে।
+        <br />
+        11. (a) use/learn (b) to take (c) enrich (d) express (e) words (f) right
+        (g) grammatical (h) expand/apply/use (1) construct/make (1)
+        practice/exercise
+        <br />
         <br />
         12. Jashore Board-2024 <br />
         Nelson Mandela was an unconditionally brave fighter against race
-        discrimination. During his (a) ---, he had (b) --- himself to his (c)
-        --- of the people of Africa. He stated that he had fought against (d)
-        --- domination and he had fought against black (e) --- Being (f) ---
-        with his (g) --- Nadine Gordimer, the South African writer and Nobel
-        Laureate for literature, once (h) --- that Mandela was at the (i) --- of
-        their time, theirs in South Africa, and the other people (j) --- they
+        discrimination. During his (a) __, he had (b) __ himself to his (c)
+        __ of the people of Africa. He stated that he had fought against (d)
+        __ domination and he had fought against black (e) __ Being (f) __
+        with his (g) __ Nadine Gordimer, the South African writer and Nobel
+        Laureate for literature, once (h) __ that Mandela was at the (i) __ of
+        their time, theirs in South Africa, and the other people (j) __ they
         were. <br />
         বঙ্গানুবাদ: নেলসন ম্যান্ডেলা বর্ণবৈষম্যের একজন পরম সাহসী যোদ্ধা ছিলেন।
         তাঁর জীবদ্দশায়, আফ্রিকার মানুষের জন্য এই যুদ্ধে তিনি নিজেকে উৎসর্গ
@@ -259,18 +304,24 @@ const QuestionFive = () => {
         করেছিলেন এবং কৃষ্ণাঙ্গ নিপীড়নের বিরুদ্ধে লড়াই করেছিলেন। তাঁর আত্মোৎসর্গে
         মুগ্ধ হয়ে, সাহিত্যে নোবেল বিজয়ী দক্ষিণ আফ্রিকান লেখক একবার তার মতামত
         দিয়েছিলেন যে, তাদের সময়ের, তাদের দক্ষিণ আফ্রিকার এবং তাদের মানুষজনের
-        যারা যেখানেই থাকুক না কেনো, কেন্দ্রবিন্দুতে ম্যান্ডেলাই ছিলেন। <br />
+        যারা যেখানেই থাকুক না কেনো, কেন্দ্রবিন্দুতে ম্যান্ডেলাই ছিলেন।
+        <br />
+        12. (a) lifetime (b) devoted/dedicated (c) fighting/battle (d) white (e)
+        repression (f) fascinated/compelled (g) struggle/dedication (h)
+        remarked/opined (i) epicenter (j) wherever
+        <br />
         <br />
         13. Cumilla Board-2024; Dinajpur Board-2017; Rajshahi Board-2013; Dhaka
         Board-2011 <br />
         Sports are a popular form of entertainment. Many International sporting
-        events are (a) --- from time to time. Most of these events are (b) ---
-        by multinational manufacturing (c) --- and business for firms. They pay
-        for the sports events in (d) --- the right to (e) --- their products
-        during those events. These events are (f) --- worldwide by satellite and
-        people all over the world watch them (g) --- . As a (h) --- , the
-        sponsors' products receive maximum media (i) --- . Thus sports help the
-        (j) --- of trade and commerce. <br />
+        events are (a) __ from time to time. Most of these events are (b) __
+        by multinational manufacturing (c) __ and business for firms. They pay
+        for the sports events in (d) __ the right to (e) __ their products
+        during those events. These events are (f) __ worldwide by satellite and
+        people all over the world watch them (g) __ . As a (h) __ , the
+        sponsors' products receive maximum media (i) __ . Thus sports help the
+        (j) __ of trade and commerce.
+        <br />
         <br />
         বঙ্গানুবাদ: খেলাধুলা হচ্ছে বিনোদনের জনপ্রিয় মাধ্যম। বিভিন্ন সময় অনেক
         আন্তর্জাতিক ক্রিড়ানুষ্ঠানের আয়োজন করা হয়। এই সকল ক্রিড়ানুষ্ঠানের অধিকাংশ
@@ -280,19 +331,23 @@ const QuestionFive = () => {
         বাবদ অর্থ পরিশোধ করে। এই পর্বগুলো সাটেলাইটের মাধ্যমে সারা বিশ্বে
         সম্প্রচারিত হয় আর সমগ্র বিশ্ববাসী সেগুলো সরাসরি উপভোগ করে। এর ফলে
         অর্থায়নকারী প্রতিষ্ঠানগুলোর উৎপাদিত পণ্যসামগ্রী সর্বোচ্চ প্রচারণা পেয়ে
-        যায়। এভাবে ক্রিড়ানুষ্ঠানগুলো ব্যবসা-বাণিজ্যকে সহায়তা করে। <br />
+        যায়। এভাবে ক্রিড়ানুষ্ঠানগুলো ব্যবসা-বাণিজ্যকে সহায়তা করে।
+        <br />
+        13. (a) organized/arranged (b) sponsored (c) companies (d) exchange (e)
+        advertise (f) telecast (g) live (h) result (i) coverage (j) world
+        <br />
         <br />
         14. Chattogram Board-2024; Cumilla Board-2017: Dania College, Dhaka-2025{" "}
         <br />
-        Bangladesh is a land of (a) --- beauty. Its beauty is so captivating
-        that a stranger cannot but be (b) --- looking at this endless variety.
-        Nature has © --- showered its blessings on this country. The rivers.
-        hills and forests are rich in natural (d) --- . The people of this
-        country feel a strong (e) --- for their motherland. They love their
-        motherland from the (f) --- of heart. They work hard to (g) --- its
+        Bangladesh is a land of (a) __ beauty. Its beauty is so captivating
+        that a stranger cannot but be (b) __ looking at this endless variety.
+        Nature has © __ showered its blessings on this country. The rivers.
+        hills and forests are rich in natural (d) __ . The people of this
+        country feel a strong (e) __ for their motherland. They love their
+        motherland from the (f) __ of heart. They work hard to (g) __ its
         economic condition and to remove poverty. Most of them toil hard from
-        dawn to dusk to accelerate the pace of (h) --- . The progress of this
-        country lies in the (i) --- of common people. They are the (j) --- of a
+        dawn to dusk to accelerate the pace of (h) __ . The progress of this
+        country lies in the (i) __ of common people. They are the (j) __ of a
         beautiful and prosperous Bangladesh. <br />
         <br />
         বঙ্গানুবাদ: বাংলাদেশ প্রাকৃতিক সৌন্দর্যের দেশ। এর সৌন্দর্য এতই অভিভূত কর
@@ -305,18 +360,23 @@ const QuestionFive = () => {
         সন্ধ্যা পর্যন্ত কঠোর পরিশ্রম করে। জনসাধারণের কঠোর পরিশ্রমের মধ্যেই নিহিত
         রয়েছে এদেশের অগ্রগতি। একটি সুন্দর ও সমৃদ্ধশালী বাংলাদেশের তারাই তো
         স্থপতি। <br />
+        14. (a) natural/ scenic (b) attracted/sun captivated/ch overwhelmed (c)
+        generously/abundantly/ (d) beauty (e) attachment/passion (f) core/depth
+        (g) improve/ dev (h) development/progress/pro (1) labour/toil/ (j)
+        makers/builder/ architects/contributors
+        <br />
         <br />
         15. Barishal Board-2024; Government Azizul Haque College, Bogura-2025{" "}
         <br />
         When a girl gets married, she usually drops out of school and begins
         full time work in her in-laws' household. In the in-laws house, she is
-        marginalized. She (a) --- vulnerable to all forms of abuse, (b) ---
-        dowry-related violence. In Bangladesh, it is still (c) --- for a bride's
-        family to pay dowry. (d) --- the practice being illegal. Dowry demands
-        can also (e) --- after the wedding. For an adolescent (f) ---, even if
-        her in-laws are supportive, there (g) --- greater health risks in terms
-        of --- (h) and their about childbirth. The majority of adolescents (i)
-        --- and their families are uninformed or insufficiently (j) --- about
+        marginalized. She (a) __ vulnerable to all forms of abuse, (b) __
+        dowry-related violence. In Bangladesh, it is still (c) __ for a bride's
+        family to pay dowry. (d) __ the practice being illegal. Dowry demands
+        can also (e) __ after the wedding. For an adolescent (f) __, even if
+        her in-laws are supportive, there (g) __ greater health risks in terms
+        of __ (h) and their about childbirth. The majority of adolescents (i)
+        __ and their families are uninformed or insufficiently (j) __ about
         reproductive health and contraception. The maternal mortality rate for
         adolescents is double the national rate. <br />
         <br />
@@ -330,6 +390,10 @@ const QuestionFive = () => {
         স্ত্রী এবং তাদের পরিবার প্রজনন স্বাস্থ্য এবং গর্ভনিরোধ সম্পর্কে হয়তো
         কিছুই জানে না, নয়তো অল্প জানে। কিশোরীদের ক্ষেত্রে মাতৃ মৃত্যুহার জাতীয়
         গড় হারের দ্বিগুণ।
+        <br />
+        15. (a) becomes (b) including/like (c) common (d) despite (e)
+        continue/remain/prevail (f) bride (g) are/remain (h) pregnancy (i)
+        brides (j) informed
         <br />
         <br />
       </div>
@@ -347,7 +411,11 @@ const QuestionFive = () => {
         সম্মান করে না। তার বন্ধুরা তাকে মূল্য দেয় না। তাকে অন্যের করুণার উপর
         নির্ভর করতে হয়। অর্থ উপার্জন করতে হলে তাকে অনেক বেশি কাজ করতে হয়। এটি
         আমাদের জীবনের জন্য অপরিহার্য। কিন্তু এটি প্রয়োজনীয় সুখ বয়ে আনে না। সুখ
-        সম্পূর্ণই আপেক্ষিক বিষয়। <br />
+        সম্পূর্ণই আপেক্ষিক বিষয়।
+        <br />
+        16. (a) comfort (b) can (c) money (d) any (e) like (f) kindness/mercy
+        (g) earn (h) in (i) bring (j) relative/subjective
+        <br />
         <br />
         17. Mymensingh Board-2024: Ananda Mohan College, Mymensingh-2023 <br />
         Self employment means to create job opportunities for oneself by one's
@@ -362,7 +430,11 @@ const QuestionFive = () => {
         বিভিন্ন এনজিও ইতোমধ্যে তাদের সহায়তা প্রদান করেছে। ক্ষেত্রগুলোর কিছু
         হচ্ছে গবাদি পশু পালন, কৃষি খামার, হাঁস-মুরগির খামার। বাংলাদেশে
         আত্ম-কর্মসংস্থানের অনেক সুযোগ রয়েছে। কেউ সহজেই নিজেকে এই কাজগুলোতে
-        নিযুক্ত করতে পারে। <br />
+        নিযুক্ত করতে পারে।
+        <br />
+        17. (a) are (b) a (c) entrepreneurs/self-starters/individuals (d) also
+        (e) rearing (f) raising (g) the (h) ample/many (i) employment (j) can
+        <br />
         <br />
         19. Noubahini College, Dhaka-2025; Rajshahi Board-2023: Narail Govt.
         Victoria College-2025 <br />
@@ -388,7 +460,12 @@ const QuestionFive = () => {
         সারা বিশ্বজুড়ে ইংরেজিকে বৈচিত্রের দিকে ধাবিত করেছে। যত বেশি মানুষ
         ইংরেজিতে কথা বলে ততো বেশি বৈচিত্রের উদ্ভব হয়েছে যা বক্তাদের মাতৃভাষায়
         উচ্চারণ, ব্যাকরণ ও বাগধারা দ্বারা ব্যাপকভাবে প্রভাবিত। বিশ্ব ইংরেজি এখন
-        এর দেশী বক্তাদের নিয়ন্ত্রণ থেকে পিছলে গেছে। <br />
+        এর দেশী বক্তাদের নিয়ন্ত্রণ থেকে পিছলে গেছে।
+        <br />
+        19. (a) achieved/gained (b) status/position (c) crossed (d) sole/urique
+        (e) belongs (1) outnumber (g) great/wide (h) evolved/emerged (i)
+        speaker's (j) slipped
+        <br />
         <br />
         20. Jashore Board-2023: Cumilla Board-2013: Sylhet Board-2006 <br />
         Air and water are two Important (a) __ environments. These elements are
@@ -403,7 +480,12 @@ const QuestionFive = () => {
         দ্বারা বায়ু দূষিত হয় এবং বিভিন্ন ময়লা আবর্জনা দ্বারা পানি দূষিত হয়। যদি
         আমরা সুস্বাস্থ্য নিয়ে বাঁচতে চাই তবে আমাদের পরিবেশের দূষণ প্রতিরোধ করা
         উচিত। সম্পূর্ণ প্রতিরোধ কষ্টকর হতে পারে কিন্তু আমরা নিশ্চিতভাবে মানুষের
-        মধ্যে সচেতনতা জাগরিত করে দূষণ কমিয়ে রাখতে পারি। <br />
+        মধ্যে সচেতনতা জাগরিত করে দূষণ কমিয়ে রাখতে পারি।
+        <br />
+        20. (a) elements (b) essential (c) polluted (d) smoke (e)
+        chemicals/filth (f) healthy (g) prevent (h) impossible/difficult (1)
+        reduce (j) awareness
+        <br />
         <br />
         21. Cumilla Board-2023; Military Collegiate School & College, Fultala,
         Khulna-2025 <br />A large number of people learn English (a) __ world.
@@ -1155,10 +1237,10 @@ const QuestionFive = () => {
         <br />
         68. Chattogram Board-2013; Barishal Board-2007 <br />
         Bangladesh is a land of (a) __ . But nowadays the rivers are (b) __ up.
-        necessity for our country now. The rivers carry (d) __ which makes the
-        Besides, they supply us plenty of (f) __ -During the dry season we (g)
-        __ At present, the (h) __ - of water causes bad harvest. We can easily
-        (1) __ rivers in our life and (1) __ up. So (c) __ land (e) __ Is an
+        necessity for our country now. The rivers carry (c) __ which makes the
+        Besides, they supply us plenty of (d) __ -During the dry season we (e)
+        __ At present, the (f) __ - of water causes bad harvest. We can easily
+        (g) __ rivers in our life and (h) __ up. So (i) __ land (j) __ Is an
         urgent to grow crops. river water to the land. the use and utility of
         the <br />
         <br />
@@ -1206,330 +1288,499 @@ const QuestionFive = () => {
         {/* Answer */}
         <div className="">
           <h1 className="text-green-500">Answer: </h1>
-          05 Suitable words (a) harmful (b) appropriate/suitable (c) get (d)
-          these/all (e) polluting/harming (f), important/significant (g) smoke
-          (h) healthy (i) impossible (j) awareness/consciousness <br />
-          <br />
-          Suitable words (a) habit (b) used/accustomed (c) foods (d)
-          contain/have (e) junk (f) vitamins (g) risk (b) diseases (i) lead (j)
-          careful/cautious <br />
-          <br />
-          Suitable words (a) live (b) need (c) the (d) weave (e) build (f) cook
-          (g) working (h) care (i) mind (j) without Suitable words (a)
-          happened/occured/took place (b) were made/wer achieved (c) for/of (d)
-          momentous/prominent (e) occured (f) also/had (g) emergence/birth (h)
-          was/had been (1) bloody (j) hold/raise/can raise. <br />
-          <br />
-          Suitable words (a) heavily/very (b) unemployed (c) employment (d)
-          solution (e) explore (f) various/different (g) across/throughout (h)
-          citizen (i) provides (j) independent/innovative <br />
-          <br />
-          6. Suitable w (a) depends (b) important (c) disrupted/hampered (d)
-          easier/posst (e) difficult/haz impassable/ (f) rise/develop (g)
-          acquire/kn 9. 7. 8. (h) Besides/Moreover (1) promoted/develop fostered
-          (1) understanding <br />
-          <br />
-          7.Suitable words (a) presentation/symbol/icon (b) like (c) single (d)
-          of (e) the (f) an (g) change (h) blind (i) Many/The (1) curable <br />
-          <br />
-          8. Suitable words (a) worst (b) High/upper (c) due (d) limited/fixed
-          (e) increasing/rising (f) victims/sufferers increase/adjust (h)
-          curb/rein/control (1) production/sale (1) capacity/power
-          <br />
-          9. Suitable words (a) as (b) see/regard (c) business
-          <br />
-          (d) number (e) technological (f) modern (g) safe/global (h) luxury (i)
-          reach (j) create <br />
-          <br />
-          10. Suitable words (a) country (b) and (c) domestic (d) role (e)
-          various (f) to (g) mention (h) elevated express (1) Karnaphuli (1)
-          boosted <br />
-          <br />
-          11. Suitable words (a) use/learn (b) to take (c) enrich (d) express
-          (e) words (f) right (g) grammatical (h) expand/apply/use (1)
-          construct/make (1) practice/exercise <br />
-          <br />
-          12. Suitable words (a) lifetime (b) devoted/dedicated (c)
-          fighting/battle (d) white (e) repression (f) fascinated/compelled (g)
-          struggle/dedication (h) remarked/opined (i) epicenter (1) wherever{" "}
-          <br />
-          <br />
-          13. Suitable words (a) organized/arranged (b) sponsored (c) companies
-          (d) exchange (e) advertise (f) telecast (g) live (h) result (i)
-          coverage (j) world <br />
-          <br />
-          14. Suitable wo (a) natural/ scen (b) attracted/sun captivated/ch
-          overwhelmed (c) generously/abundantly/ (d) beauty (e)
-          attachment/passion (f) core/depth (g) improve/ dev (h)
-          development/progress/pro (1) labour/toil/ (j) makers/buil
-          architects/contributors <br />
-          <br />
-          15. Suitable words (a) becomes (b) including/like (c) common (d)
-          despite (e) continue/remain/prevail (f) bride (g) are/remain (h)
-          pregnancy (i) brides (j) informed <br />
-          <br />
-          16. Suitable words (a) comfort (b) can (c) money (d) any (e) like (f)
-          kindness/mercy (g) earn (h) in (1) bring (1) relative/subjective{" "}
-          <br />
-          <br />
-          17. Suitable words (a) are (b) a (c)
-          entrepreneurs/self-starters/individuals (d) also (e) rearing (f)
-          raising (g) the (h) ample/many (i) employment (1) can <br />
-          <br />
-          18. Suitable words (a) mighty ( b) invest/fund (c)
-          reversed/overturned/changed (d) foreign (e) overcoming (f) inaugurated
-          (g) connected (h) pivotal/vital (i) standards (j) witnessed <br />
-          <br />
-          19. Suitable words (a) achieved/gained (b) status/position (c) crossed
-          (d) sole/urique (e) belongs (1) outnumber (g) great/wide (h)
-          evolved/emerged (1) speaker's (1) slipped <br />
-          <br />
-          20. Suitable words (a) elements (b) essential (c) polluted (d) smoke
-          (e) chemicals/filth (f) healthy (g) prevent (h) impossible/difficult
-          (1) reduce (j) awareness <br />
-          <br />
+         
           21. (a) across/throughout (b) as (c) second (d)
           organizations/companies (e) corresponding/communicating (f) having (g)
-          published (h) are (1) wise/logical (1)
+          published (h) are (i) wise/logical (j)
           International/important/necessary <br />
           <br />
           22. (a) Important/ncessary/essential (b) development/evolution (c)
           knowledge/awareness (d) were (e) healthy/better (f) teaches/enables
-          (g) chotce/decision (h) ability/capacity (1) solve/face (1) which/that{" "}
+          (g) chotce/decision (h) ability/capacity (i) solve/face (j) which/that{" "}
           <br />
           23 <br /> . (a) located (b) from (c) tourist (d) natural (e) forest
-          (1) comes/originates (g) collecting/drinking (b) watch (1) beach (1)
+          (i) comes/originates (g) collecting/drinking (b) watch (i) beach (j)
           pleasant <br />
           <br />
           24. (a) preparation/training (b) ready/prepared/capable (c) is (d)
-          learns (e) does/performs (f) contrary (g) sorry (h) kept (i) lost (1)
+          learns (e) does/performs (f) contrary (g) sorry (h) kept (i) lost (j)
           long <br />
           <br />
           25. (a) Includes/comprises/consists of (b) one (c) affect/disrupt (d)
-          responsibility (e) kept (1) life (g) aware/conscious (h) lives (1)
-          change (1) disasters/calamities <br />
+          responsibility (e) kept (i) life (g) aware/conscious (h) lives (i)
+          change (j) disasters/calamities <br />
           <br />
           26. (a) sure/confident (b) know/believe (c) key (d) sincere (e)
-          go/pass (f) importance (g) make (h) properly (1) are (1)
+          go/pass (f) importance (g) make (h) properly (i) are (j)
           surely/definitely/undoubtedly <br />
           <br />
-          27. (a) important/vital (b) moment (c) till (d) waking (e) express (1)
-          what (g) obtain (h) ever (1) integral (1) perceive <br />
+          27. (a) important/vital (b) moment (c) till (d) waking (e) express (i)
+          what (g) obtain (h) ever (i) integral (j) perceive <br />
           <br />
-          28. (a) behaviour (b) means (c) of (d) needn't (e) have (1) maintain
-          (g) follow (h) differs/varies (1) practice (1) but <br />
+          28. (a) behaviour (b) means (c) of (d) needn't (e) have (i) maintain
+          (g) follow (h) differs/varies (i) practice (j) but <br />
           <br />
           29. (a) disparity (b) birth (c) discriminatory (d) family (e) that (f)
-          education (g) any (h) practice/custom/exercise/rule (1) ends (1)
+          education (g) any (h) practice/custom/exercise/rule (i) ends (j)
           heart/mind <br />
           <br />
           30. (a) strong (b) that (c) warming (d) by (e) around (f) believe (g)
-          cause (h) beings (i) reduce (1) ability <br />
+          cause (h) beings (i) reduce (j) ability <br />
           <br />
           31. (a) follow (b) masks (c) from (d) importance (e) formed (f)
-          healthy (g) proper (h) condition (1) learning (1) take/grab
+          healthy (g) proper (h) condition (i) learning (j) take/grab
           <br />
           32. (a) talent/ability (b) promoted (c) should <br /> study (d) well
-          (e) ways (f) knowledge (g) knowledge (h) show/present (1) such (J)
+          (e) ways (f) knowledge (g) knowledge (h) show/present (i) such (J)
           wasted
           <br />
           33. (a) greatest (b) achieved (c) under (d) deprivation (e) forced (f)
-          independence (g) arrested (h) walks/spheres/avenues (1) responding (1)
+          independence (g) arrested (h) walks/spheres/avenues (i) responding (j)
           call <br />
           <br />
           34. (a) pleasant (b) nightmare (c) colour (d) shadowy/romantic/silvery
-          (e) daydream/reverie (1) say (g) vivid/ clear (b) unraveling (1) real/
-          actual (1) dreaming <br />
+          (e) daydream/reverie (f) say (g) vivid/ clear (b) unraveling (i) real/
+          actual (j) dreaming <br />
           <br />
           35. (a) curious (b) important (c) arts (d) fascinating (e) movie (f)
-          named (g) manic (h) devoted (1) code (1) severity <br />
+          named (g) manic (h) devoted (i) code (j) severity <br />
           <br />
           36. (a) father (b) future (c) serve/ lead (d) nation (e) development/
-          education (f) duty/responsibility (g) latent (h) needed/essential (1)
-          grows (1) possible <br />
+          education (f) duty/responsibility (g) latent (h) needed/essential (i)
+          grows (j) possible <br />
           <br />
-          37. (a) depend (b) families (c) learn (d) help (e) pressures (1)
-          childhood (g) of (h) social (1) responsibility (1) effectively <br />
+          37. (a) depend (b) families (c) learn (d) help (e) pressures (f)
+          childhood (g) of (h) social (i) responsibility (j) effectively <br />
           <br />
           38. (a) important/ essential (b) lost/ extinct (c) changes (d)
-          protect/save (e) our (f) taking ( endangered (h) save/ protect (1)
-          animals (0) kind/generous <br />
+          protect/save (e) our (f) taking (g) endangered (h) save/ protect (i)
+          animals (j) kind/generous <br />
           <br />
-          39. (a) strictly (b) safety (c) abide (d) set (e) that (1)
-          fitted/provided/equipped (g) enforcing (h) alert/ vigilant (1) safest
-          (1) transport <br />
+          39. (a) strictly (b) safety (c) abide (d) set (e) that (f)
+          fitted/provided/equipped (g) enforcing (h) alert/ vigilant (i) safest
+          (j) transport <br />
           <br />
           40. (a) phenomenon/problem/erisis (b) diaspora (c) migrated (d) due
-          (e) rehabilitated/ accepted (1) cause/ ground (g) burden/ pressure (h)
-          environment. (1) helpless (1) soon/ comfortably <br />
+          (e) rehabilitated/ accepted (f) cause/ ground (g) burden/ pressure (h)
+          environment. (i) helpless (j) soon/ comfortably <br />
           <br />
           41. (a) type/sort/kind/state/condition (b) may/can/might (c)
-          something/ anything (d) But/Instead (e) call/deem/consider (1)
-          it/this/that (g) a (h) mental/ psychological/cognitive (1) of (1) and{" "}
+          something/ anything (d) But/Instead (e) call/deem/consider (f)
+          it/this/that (g) a (h) mental/ psychological/cognitive (i) of (j) and{" "}
           <br />
           <br />
           42. (a) degrade/lower/ deteriorate (b) as/ to be (c)
           warinth/warmness/core (d) suffering/misfor-tune/misery (e) birth (f)
           blamed/rebuked/criticized/slated (g)
           disparity/inequi-ty/discrimination (h) at all/at present/now/ today
-          (1) ensure/secure/confirm/ùplift (1) all/ the <br />
+          (i) ensure/secure/confirm/ùplift (j) all/ the <br />
           <br />
           43. (a) great/ extraordinary (b) not only (c) but also (d) translating
           (e) fame/ reputation/name (f) rulers/govt/colonialism (g)
-          independence/ sovereignty (h) advocatirig/representing/ upholding (1)
-          devoted/introduced (1) spontaneously/exclusively <br />
+          independence/ sovereignty (h) advocatirig/representing/ upholding (i)
+          devoted/introduced (j) spontaneously/exclusively <br />
           <br />
           44. (a) pleasurable/inanimate (b) laughter/smile/naughtiness (c)
-          difficulties (d) universal/common (e) perceptions/only (1)
-          eye/sense/sight (g) questions (h) are/have been (1) truth/pleasure (1)
+          difficulties (d) universal/common (e) perceptions/only (f)
+          eye/sense/sight (g) questions (h) are/have been (i) truth/pleasure (j)
           forever <br />
           <br />
           45. (a) way (b) get/receive (c) systematically/attentively (d) only
-          (e) passing (1) interest (g) read (h) widen (1) outlook (1) enriching{" "}
+          (e) passing (f) interest (g) read (h) widen (i) outlook (j) enriching{" "}
           <br />
           <br />
           46. (a) happened/occured/took place (b) were made/were achieved (c)
-          for/of (d) momentous/prominent (e) occured (1) also/had (g)
-          emergence/birth (h) was/hatd been (1) bloody (j) hold/raise/can raise{" "}
+          for/of (d) momentous/prominent (e) occured (f) also/had (g)
+          emergence/birth (h) was/hatd been (i) bloody (j) hold/raise/can raise{" "}
           <br />
           <br />
           47. (a) culture (b) things (c) polite (d) foreigners (e) introduced
-          (1) common (g) questions (h) income (1) awkward (1) meant <br />
+          (f) common (g) questions (h) income (i) awkward (j) meant <br />
           <br />
           48. (a) common/popular (b) range (c) telecast (d) set (e) programmes
-          (f) educative (g) being (h) run (1) educative (1) excessively <br />{" "}
+          (f) educative (g) being (h) run (i) educative (j) excessively 
+          <br />{" "}
+          <br />{" "}
           49. (a) conservative (b) early (c) predetermined/predestined (d)
-          ordained (e) belief (1) sufferings <br />
-          <br />
-          (g) overcome (h) ftrm (1) mundane (1) rewarded <br />
+          ordained (e) belief (f) sufferings <br />
+          (g) overcome (h) ftrm (i) mundane (j) rewarded <br />
           <br />
           50. (a) neighbour's (b) smoking (c) times (d) up (e) poisoning (f)
-          out/into (g) account (h) term (1) know (1) dilemma/fix <br />
+          out/into (g) account (h) term (i) know (j) dilemma/fix <br />
           <br />
           51. (a) who (b) sea (c) ceremony (d) to (e) with (f) ship (g) and (h)
-          angry (1) wind (1) change <br />
+          angry (i) wind (j) change <br />
           <br />
           52. (a) conspicuous (b) acknowledged (c) recognized (d) establish (e)
-          Joining (1) opting (g) reliant/dependent (h) difficult (i) traditional
-          (1) skilfully/competently <br />
+          Joining (f) opting (g) reliant/dependent (h) difficult (i) traditional
+          (j) skilfully/competently <br />
           <br />
-          53. (a) because (b) system (c) obtain (d) creative (e) guides (10)
-          challenge (g) themselves (1) misfortune (1) nurture/educate (1)
+          53. (a) because (b) system (c) obtain (d) creative (e) guides (f)
+          challenge (g) themselves (i) misfortune (i) nurture/educate (j)
           education <br />
           <br />
           54. (a) folding/bending (b) shapes/figures (c) origin/history (d)
           practised/used (e) centuries/years (f) art/craft (g) prized/valued (h)
-          ceremonies (1) decorative/festive (1) flexible/movable <br />
+          ceremonies (i) decorative/festive (j) flexible/movable <br />
           <br />
           55. (a) worshipped (b) contributing (c) ecological (d)
           providing/gathering (e) vanished (f) habitats (g) patience (h)
-          enthusiasts/watchers (1) remote (1) regions/spots <br />
+          enthusiasts/watchers (i) remote (j) regions/spots <br />
           <br />
           56. (a) undergoing (b) seen/found (c) satisfied/connected (d)
-          gaining/getting (e) our (f) changing (g) contact (h) prefer (1) losing
-          (1) regarded <br />
+          gaining/getting (e) our (f) changing (g) contact (h) prefer (i) losing
+          (j) regarded <br />
           <br />
           57. (a) havoc/damage (b) homeless/shelterless (c) grace/mercy (d)
           escaped (e) disaster/calamity (f) active (g) time/chance (h)
-          unsafe/risky (1) destruction/havoc (1) right/exact <br />
+          unsafe/risky (i) destruction/havoc (j) right/exact <br />
           <br />
           58. (a) acquire (b) teach (c) find (d) had/possessed (e) is (f) tell
-          (g)'not (h) reply/answer (1) talent/merit (1) wish/request <br />
+          (g)'not (h) reply/answer (i) talent/merit (i) wish/request <br />
           <br />
-          59. (a) lived (b) to (c) wood (d) did (c) authoress/writer (1) found
-          (g) some (h) that (1) have (1) of <br />
+          59. (a) lived (b) to (c) wood (d) did (c) authoress/writer (f) found
+          (g) some (h) that (i) have (j) of <br />
           <br />
           60. (a) huge (b) poverty (c) afford (d) etther (e) school (f) students
-          (g) institutions (h) universities (1) students (j) requisite <br />
+          (g) institutions (h) universities (i) students (j) requisite <br />
           <br />
-          61. (a) fed (b) theirs (c) blaring (d) next (e) on (1) concentrate (g)
-          bear (h) stuffy (1) trying (1) with <br />
+          61. (a) fed (b) theirs (c) blaring (d) next (e) on (f) concentrate (g)
+          bear (h) stuffy (i) trying (j) with <br />
           <br />
           62. (a) believe/know (b) lies/is (c) quakes/earthquakes (d)
-          regarding/about (e) safety ( possibility (g) call (h) steps/measures
-          (1) resistant (1) developed <br />
+          regarding/about (e) safety (f) possibility (g) call (h) steps/measures
+          (i) resistant (j) developed <br />
           <br />
           63. (a) born (b) visiting (c) coming (d) confusion (e) concentrate (f)
-          difficult (g) with (h) cousins (1) were (1) what <br />
+          difficult (g) with (h) cousins (i) were (j) what <br />
           <br />
           64. (a) unwilling (b) offers/gives (c) women (d) institutions (e)
-          created (f) survey (g) positive (h) including (1) planning (1) poverty{" "}
+          created (f) survey (g) positive (h) including (i) planning (j) poverty{" "}
+          <br />
           <br />
           <br />
           65. (a) element (b) waste (c) use (d) get (e) polluted (f) poisonous
-          (g) into (h) built (1) responsible (1) kinds <br />
+          (g) into (h) built (i) responsible (j) kinds <br />
           <br />
           66. (a) stood (b) gives (c) runs (d) ensure (e) contagious (f)
-          organised (g) reduce (h) humanitarian (1) facilitate (1) promotes{" "}
+          organised (g) reduce (h) humanitarian (i) facilitate (j) promotes{" "}
           <br />
           <br />
           67. (a) kinds (b) living (c) introvert (d) being (e) enjoy (f) learned
-          (g) story (h) Introvert (1) is (1) representing/showing <br />
+          (g) story (h) Introvert (i) is (j) representing/showing <br />
           <br />
-          68. (a) rivers (b) drying (c) dredging (d) silt (c) fertile if) fish
-          (g) supply (h) scarcity/paucity (lachi/shortage (1) easure/increase
-          (1) living <br />
+          68. (a) rivers (b) drying (c) dredging (d) silt (e) fertile (f) fish
+          (g) supply (h) scarcity/paucity /shortage (i) easure/increase
+          (j) living <br />
           <br />
           69. (a) revolution (b) communication (c) seconds (d) dependent (e)
-          however (f) developing (g) afford (h) some (i) using (1) purposes{" "}
+          however (f) developing (g) afford (h) some (i) using (j) purposes{" "}
           <br />
           <br />
           70. (a) interrelated (b) surroundings (c) ecology (d) complex (e) form
-          (1) hang (g) dynamic (h) altering (1) destruction (1) consequences{" "}
+          (f) hang (g) dynamic (h) altering (i) destruction (j) consequences{" "}
           <br />
           <br />
           71. (a) organization (b) projects (c) mortality (d) awareness (e)
-          nutrition (f) training (g) rural (h) ensure (1) people (1) promote{" "}
+          nutrition (f) training (g) rural (h) ensure (i) people (j) promote{" "}
           <br />
           <br />
           72. (a) destroy/demolish (b) down (c) affect (d) turn (e) absorb/take
-          in (1) will (g) warmer (h) called (1) melt (1) huge <br />
+          in (f) will (g) warmer (h) called (i) melt (j) huge <br />
           <br />
-          73. (a) like (b) important (c) about (d) communicate (e) can (1) way
-          (g) worry (h) when/if (1) mistakes/errors (1) through <br />
+          73. (a) like (b) important (c) about (d) communicate (e) can (f) way
+          (g) worry (h) when/if (i) mistakes/errors (j) through <br />
           <br />
-          74. (a) to (b) devote (c) own (d) published (e) founder (10) books (g)
-          about (h) in (1) took (1) available <br />
+          74. (a) to (b) devote (c) own (d) published (e) founder (f) books (g)
+          about (h) in (i) took (j) available <br />
           <br />
           75. (a) refers (b) intelligence/instinct (c) machines (d) Artificial
-          (e) development (1) possibility/potential/capability (g) which (h)
-          work/function (1) are (1) question/debate <br />
+          (e) development (f) possibility/potential/capability (g) which (h)
+          work/function (i) are (j) question/debate <br />
           <br />
           76. (a) source (b) acheivements/activities (c) country/nation (d) span
-          (e) sacrifices/spends (0 relentless (g) noteworthy/ remarkable (h)
-          upliftinent (1) legacies/works (1) shining <br />
+          (e) sacrifices/spends (f) relentless (g) noteworthy/ remarkable (h)
+          upliftinent (i) legacies/works (j) shining <br />
           <br />
           77. (a) to (b) measures (c) reserve (d) consideration/attention (e)
-          threat (f) lasts (g) pollution (h) amount (1) Though (1) cheap <br />
+          threat (f) lasts (g) pollution (h) amount (i) Though (j) cheap <br />
           <br />
-          78. (a) cating (b) satisfy (c) stomach (d) preserve (e) good (1) good
-          (g) live (h) need (1) maintaining (1) knowledge <br />
+          78. (a) cating (b) satisfy (c) stomach (d) preserve (e) good (i) good
+          (g) live (h) need (i) maintaining (j) knowledge <br />
           <br />
           79. (a) attended (b) transferring (c) earned (d) became (e) was
-          elected (f) implemented (g) won/received (h) remained (1) advocating
-          (1) discussed
+          elected (f) implemented (g) won/received (h) remained (i) advocating
+          (j) discussed
           <br />
-          80. (a) used/known (b) spoken (c) for (d) are (e) prefer/hire (1)
-          speak (g) write (h) English (1) Importance (1) is <br />
+          80. (a) used/known (b) spoken (c) for (d) are (e) prefer/hire (f)
+          speak (g) write (h) English (i) Importance (j) is <br />
           <br />
-          81. (a) migrate/come/fly (b) stay (c) less (d) and (c) found/seen (1)
-          presence (g) visit (h) regret/sorrow (1) brutally/thoughtlessly (1)
+          81. (a) migrate/come/fly (b) stay (c) less (d) and (e) found/seen (f)
+          presence (g) visit (h) regret/sorrow (i) brutally/thoughtlessly (j)
           government <br />
           <br />
-          82. (a) folding (b) shapes (c) origin (d) practised (c) centuries (1)
-          art (g) prized (h) ceremonies (1) decorative (1) flexible <br />
+          82. (a) folding (b) shapes (c) origin (d) practised (c) centuries (f)
+          art (g) prized (h) ceremonies (i) decorative (j) flexible <br />
           <br />
           83. (a) rose/soared (b) gradually (e) vietim (d) confined (e)
-          movements (f) synthesizer (g) dishearten (h) relentless (1) provided
-          (1) organization <br />
+          movements (f) synthesizer (g) dishearten (h) relentless (i) provided
+          (j) organization <br />
           <br />
           84. (a) building (b) expressions (c) non-verbal (d) appropriate (e)
-          stranger (1) skills (g) warmth (h) ease (1) around (1) feel <br />
+          stranger (i) skills (g) warmth (h) ease (i) around (j) feel <br />
           <br />
           85. (a) return/come back (b) familiar/local (c)
           recognise/know/identify (d) different/strange/unfamiliar (e)
-          look/be/appear/seem (f) house (g) place (h) knew/recognised (1)
-          shocked/sad/surprised (1) unknown/unwelcome/forgotten <br />
+          look/be/appear/seem (f) house (g) place (h) knew/recognised (i)
+          shocked/sad/surprised (j) unknown/unwelcome/forgotten <br />
+        </div>
+        {/* Answer */}
+        <div className="py-10">
+          21. (a) across/throughout (b) as (c) second (d)
+          organizations/companies (e) corresponding/communicating (f) having (g)
+          published (h) are (i) wise/logical (j)
+          International/important/necessary <br />
+          <br />
+          22. (a) Important/ncessary/essential (b) development/evolution (c)
+          knowledge/awareness (d) were (e) healthy/better (f) teaches/enables
+          (g) chotce/decision (h) ability/capacity (i) solve/face (j) which/that{" "}
+          <br />
+          <br />
+          23. (a) located (b) from (c) tourist (d) natural (e) forest (f)
+          comes/originates (g) collecting/drinking (b) watch (i) beach (j)
+          pleasant <br />
+          <br />
+          24. (a) preparation/training (b) ready/prepared/capable (c) is (d)
+          learns (e) does/performs (f) contrary (g) sorry (h) kept (i) lost (j)
+          long <br />
+          <br />
+          25. (a) Includes/comprises/consists of (b) one (c) affect/disrupt (d)
+          responsibility (e) kept (f) life (g) aware/conscious (h) lives (i)
+          change (j) disasters/calamities <br />
+          <br />
+          26. (a) sure/confident (b) know/believe (c) key (d) sincere (e)
+          go/pass (f) importance (g) make (h) properly (i) are (j)
+          surely/definitely/undoubtedly <br />
+          <br />
+          27. (a) important/vital (b) moment (c) till (d) waking (e) express (f)
+          what (g) obtain (h) ever (i) integral (j) perceive <br />
+          <br />
+          28. (a) behaviour (b) means (c) of (d) needn't (e) have (f) maintain
+          (g) follow (h) differs/varies (i) practice (j) but <br />
+          <br />
+          29. (a) disparity (b) birth (c) discriminatory (d) family (e) that (f)
+          education (g) any (h) practice/custom/exercise/rule (i) ends (j)
+          heart/mind <br />
+          <br />
+          30. (a) strong (b) that (c) warming (d) by (e) around (f) believe (g)
+          cause (h) beings (i) reduce (j) ability <br />
+          <br />
+          31. (a) follow (b) masks (c) from (d) importance (e) formed (f)
+          healthy (g) proper (h) condition (i) learning (j) take/grab <br />
+          <br />
+          32. (a) talent/ability (b) promoted (c) should study (d) well (e) ways
+          (f) knowledge (g) knowledge (h) show/present (i) such (J) wasted{" "}
+          <br />
+          <br />
+          33. (a) greatest (b) achieved (c) under (d) deprivation (e) forced (f)
+          independence (g) arrested (h) walks/spheres/avenues (i) responding (j)
+          call <br />
+          <br />
+          34. (a) pleasant (b) nightmare (c) colour (d) shadowy/romantic/silvery
+          (e) daydream/reverie (f) say (g) vivid/ clear (b) unraveling (i) real/
+          actual (j) dreaming <br />
+          <br />
+          35. (a) curious (b) important (c) arts (d) fascinating (e) movie (f)
+          named (g) manic (h) devoted (i) code (j) severity <br />
+          <br />
+          36. (a) father (b) future (c) serve/ lead (d) nation (e) development/
+          education (f) duty/responsibility (g) latent (h) needed/essential (i)
+          grows (j) possible <br />
+          <br />
+          37. (a) depend (b) families (c) learn (d) help (e) pressures (f)
+          childhood (g) of (h) social (i) responsibility (j) effectively <br />
+          <br />
+          38. (a) important/ essential (b) lost/ extinct (c) changes (d)
+          protect/save (e) our (f) taking (g) endangered (h) save/ protect (i)
+          animals (j) kind/generous <br />
+          <br />
+          39. (a) strictly (b) safety (c) abide (d) set (e) that (f)
+          fitted/provided/equipped (g) enforcing (h) alert/ vigilant (i) safest
+          (j) transport <br />
+          <br />
+          40. (a) phenomenon/problem/erisis (b) diaspora (c) migrated (d) due
+          (e) rehabilitated/ accepted (f) cause/ ground (g) burden/ pressure (h)
+          environment. (i) helpless (j) soon/ comfortably <br />
+          <br />
+          41. (a) type/sort/kind/state/condition (b) may/can/might (c)
+          something/ anything (d) But/Instead (e) call/deem/consider (f)
+          it/this/that (g) a (h) mental/ psychological/cognitive (i) of (j) and{" "}
+          <br />
+          <br />
+          42. (a) degrade/lower/ deteriorate (b) as/ to be (c)
+          warinth/warmness/core (d) suffering/misfor-tune/misery (e) birth (f)
+          blamed/rebuked/criticized/slated (g)
+          disparity/inequi-ty/discrimination (h) at all/at present/now/ today
+          (i) ensure/secure/confirm/ùplift (j) all/ the <br />
+          <br />
+          43. (a) great/ extraordinary (b) not only (c) but also (d) translating
+          (e) fame/ reputation/name (f) rulers/govt/colonialism (g)
+          independence/ sovereignty (h) advocatirig/representing/ upholding (i)
+          devoted/introduced (j) spontaneously/exclusively
+          <br />
+          44. (a) pleasurable/inanimate (b) laughter/smile/naughtiness (c)
+          difficulties (d) universal/common (e) perceptions/only (f)
+          eye/sense/sight (g) questions (h) are/have been (i) truth/pleasure (j)
+          forever <br />
+          <br />
+          45. (a) way (b) get/receive (c) systematically/attentively (d) only
+          (e) passing (f) interest (g) read (h) widen (i) outlook (j) enriching{" "}
+          <br />
+          <br />
+          46. (a) happened/occured/took place (b) were made/were achieved (c)
+          for/of (d) momentous/prominent (e) occured (f) also/had (g)
+          emergence/birth (h) was/hatd been (i) bloody (j) hold/raise/can raise{" "}
+          <br />
+          <br />
+          47. (a) culture (b) things (c) polite (d) foreigners (e) introduced
+          (i) common (g) questions (h) income (i) awkward (i) meant <br />
+          <br />
+          48. (a) common/popular (b) range (c) telecast (d) set (e) programmes
+          (f) educative (g) being (h) <br />
+          <br />
+          run (i) educative (j) excessively
+          <br />
+           49. (a) conservative (b) early (c)
+          predetermined/predestined (d) ordained (e) belief (i) sufferings (g)
+          overcome (h) ftrm (i) mundane (j) rewarded <br />
+          <br />
+          50. (a) neighbour's (b) smoking (c) times (d) up (e) poisoning (f)
+          out/into (g) account (h) term (i) know (j) dilemma/fix <br />
+          <br />
+          51. (a) who (b) sea (c) ceremony (d) to (e) with (f) ship (g) and (h)
+          angry (i) wind (j) change <br />
+          <br />
+          52. (a) conspicuous (b) acknowledged (c) recognized (d) establish (e)
+          Joining (f) opting (g) reliant/dependent (h) difficult (i) traditional
+          (j) skilfully/competently <br />
+          <br />
+          53. (a) because (b) system (c) obtain (d) creative (e) guides (10)
+          challenge (g) themselves (f) misfortune (i) nurture/educate (j)
+          education <br />
+          <br />
+          54. (a) folding/bending (b) shapes/figures (c) origin/history (d)
+          practised/used (e) centuries/years (f) art/craft (g) prized/valued (h)
+          ceremonies (i) decorative/festive (j) flexible/movable <br />
+          <br />
+          55. (a) worshipped (b) contributing (c) ecological (d)
+          providing/gathering (e) vanished (f) habitats (g) patience (h)
+          enthusiasts/watchers (i) remote (j) regions/spots <br />
+          <br />
+          56. (a) undergoing (b) seen/found (c) satisfied/connected (d)
+          gaining/getting (e) our (f) changing (g) contact (h) prefer (i) losing
+          (j) regarded <br />
+          <br />
+          57. (a) havoc/damage (b) homeless/shelterless (c) grace/mercy (d)
+          escaped (e) disaster/calamity (f) active (g) time/chance (h)
+          unsafe/risky (i) destruction/havoc (j) right/exact <br />
+          <br />
+          58. (a) acquire (b) teach (c) find (d) had/possessed (e) is (f) tell
+          (g)'not (h) reply/answer (i) talent/merit (j) wish/request <br />
+          <br />
+          59. (a) lived (b) to (c) wood (d) did (c) authoress/writer (i) found
+          (g) some (h) that (i) have (j) of <br />
+          <br />
+          60. (a) huge (b) poverty (c) afford (d) etther (e) school (f) students
+          (g) institutions (h) universities (i) students (j) requisite <br />
+          <br />
+          61. (a) fed (b) theirs (c) blaring (d) next (e) on (i) concentrate (g)
+          bear (h) stuffy (i) trying (j) with <br />
+          <br />
+          62. (a) believe/know (b) lies/is (c) quakes/earthquakes (d)
+          regarding/about (e) safety (f) possibility (g) call (h) steps/measures
+          (i) resistant (j) developed <br />
+          <br />
+          63. (a) born (b) visiting (c) coming (d) confusion (e) concentrate (f)
+          difficult (g) with (h) cousins (i) were (j) what <br />
+          <br />
+          64. (a) unwilling (b) offers/gives (c) women (d) institutions (e)
+          created (f) survey (g) positive (h) including (i) planning (j) poverty{" "}
+          <br />
+          <br />
+          65. (a) element (b) waste (c) use (d) get (e) polluted (f) poisonous
+          (g) into (h) built (i) responsible (j) kinds <br />
+          <br />
+          66. (a) stood (b) gives (c) runs (d) ensure (e) contagious (f)
+          organised (g) reduce (h) humanitarian (i) facilitate (j) promotes{" "}
+          <br />
+          <br />
+          67. (a) kinds (b) living (c) introvert (d) being (e) enjoy (f) learned
+          (g) story (h) Introvert (i) is (j) representing/showing <br />
+          <br />
+          68. (a) rivers (b) drying (c) dredging (d) silt (e) fertile (f) fish
+          (g) supply (h) scarcity/paucity (i) lachi/shortage (j) easure/increase
+          (i) living <br />
+          <br />
+          69. (a) revolution (b) communication (c) seconds (d) dependent (e)
+          however (f) developing (g) afford (h) some (i) using (j) purposes{" "}
+          <br />
+          <br />
+          70. (a) interrelated (b) surroundings (c) ecology (d) complex (e) form
+          (i) hang (g) dynamic (h) altering (i) destruction (j) consequences{" "}
+          <br />
+          <br />
+          71. (a) organization (b) projects (c) mortality (d) awareness (e)
+          nutrition (f) training (g) rural (h) ensure (i) people (j) promote{" "}
+          <br />
+          <br />
+          72. (a) destroy/demolish (b) down (c) affect (d) turn (e) absorb/take
+          in (i) will (g) warmer (h) called (i) melt (j) huge <br />
+          <br />
+          73. (a) like (b) important (c) about (d) communicate (e) can (i) way
+          (g) worry (h) when/if (i) mistakes/errors (j) through <br />
+          <br />
+          74. (a) to (b) devote (c) own (d) published (e) founder (10) books (g)
+          about (h) in (i) took (j) available <br />
+          <br />
+          75. (a) refers (b) intelligence/instinct (c) machines (d) Artificial
+          (e) development (i) possibility/potential/capability (g) which (h)
+          work/function (i) are (j) question/debate <br />
+          <br />
+          76. (a) source (b) acheivements/activities (c) country/nation (d) span
+          (e) sacrifices/spends (f) relentless (g) noteworthy/ remarkable (h)
+          upliftinent (i) legacies/works (j) shining <br />
+          <br />
+          77. (a) to (b) measures (c) reserve (d) consideration/attention (e)
+          threat (f) lasts (g) pollution (h) amount (i) Though (i) cheap <br />
+          <br />
+          78. (a) cating (b) satisfy (c) stomach (d) preserve (e) good (f) good
+          (g) live (h) need (i) maintaining (j) knowledge <br />
+          <br />
+          79. (a) attended (b) transferring (c) earned (d) became (e) was
+          elected (f) implemented (g) won/received (h) remained (i) advocating
+          (i) discussed <br />
+          <br />
+          80. (a) used/known (b) spoken (c) for (d) are (e) prefer/hire (f)
+          speak (g) write (h) English (i) Importance (j) is <br />
+          <br />
+          81. (a) migrate/come/fly (b) stay (c) less (d) and (e) found/seen (f)
+          presence (g) visit (h) regret/sorrow (i) brutally/thoughtlessly (j)
+          government <br />
+          <br />
+          82. (a) folding (b) shapes (c) origin (d) practised (e) centuries (f)
+          art (g) prized (h) ceremonies (i) decorative (i) flexible <br />
+          <br />
+          83. (a) rose/soared (b) gradually (c) vietim (d) confined (e)
+          movements (f) synthesizer (g) dishearten (h) relentless (j) provided
+          (i) organization <br />
+          <br />
+          84. (a) building (b) expressions (c) non-verbal (d) appropriate (e)
+          stranger (f) skills (g) warmth (h) ease (i) around (j) feel <br />
+          <br />
+          85. (a) return/come back (b) familiar/local (c)
+          recognise/know/identify (d) different/strange/unfamiliar (e)
+          look/be/appear/seem (f) house (g) place (h) knew/recognised (i)
+          shocked/sad/surprised (j) unknown/unwelcome/forgotten <br />
         </div>
       </div>
     </div>

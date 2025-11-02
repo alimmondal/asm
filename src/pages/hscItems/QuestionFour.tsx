@@ -820,6 +820,254 @@ const QuestionFour = () => {
           তারও উল্লিখিত লোকটির মতই রক্ত ও মাংস রয়েছে। <br />
           <br />
         </div>
+        {/* Answer */}
+        <div className="">
+          1. (a) who (b).going (c) waste (d) decided (e) valuable/scarce (f)
+          worry (g)married (h) bringing (1) were (1) study <br />
+          <br />
+          2.Suitable words (a) ability (b) developing (c) acquisition (d) mother
+          (e) fact (f) using (g) communication (h) natural (1) aware (j)
+          spontaneous <br />
+          <br />
+          3. Suitable words (a) habitats (b) extinction (c) cut (d) recklessly
+          (e) increase (f) rising (g) warming (h) anticipated (i) catastrophe
+          (j) imperative <br />
+          <br />
+          4. Suitable words (a) lost (b) wetlands (c) are (d) down (e)
+          recklessly (f) result (g) anticipated (h) environmental (i) imperative
+          (j) indiscriminately <br />
+          <br />
+          5.Suitable words 5.(a) interrelated (b) known (c) ecosystem (d) links
+          (e) hang (f) balance (g) altering (h) example (i) ecological (j)
+          responsibility <br />
+          <br />
+          6.Suitable words (a) become (b) source (c) varied (d) channels (e)
+          even (f) programmes (g) distance (h) run (i) shown (j) informative{" "}
+          <br />
+          <br />
+          7. Suitable words (a) manners (b) are (c) accepted (d) behave (e)
+          offended (f) realize/will realize (g) keep up (h)proper (i) appreciate
+          (j) gentleperson <br />
+          <br />
+          8. Suitable words (a) extended (b) is (c) at (d) has/needed (e) for
+          (f) have (g) share (h) in (i) on (j) were <br />
+          <br />
+          Suitable words 9.(a)positive (b) idealistic (c)country (d) being (e)
+          welfare (f) qualities (g) helping (h) materialistic (1) hence (j)
+          immortalizes <br />
+          <br />
+          10.Suitable words (a) achieving (b) syllabus (c) understanding (d)
+          capability (e) enlightenment (f) Both (g) requirement (h) being (i)
+          frustrated (j) concentrate <br />
+          <br />
+          11. Suitable words (a) reality (b) great (c) ambitious (d) mighty (e),
+          owing (f) connects (g) changes (h) living (1) huge (j) economic <br />
+          <br />
+          12. Suitable words (a) recent (b) essential (c) about (d) device (e)
+          called (f) abacus (g) refers (h) large (i) great (j) trained <br />
+          <br />
+          13. Suitable words (a) matter (b) careful (c) facing (d) make (e)
+          rescued (f) thinking (g) completely (h) story (i) tells (j) cheated
+          <br />
+          14. Suitable words (a) popular (b) expanding (c)over (d) invented (e)
+          within (f) spreads (g) misused (h) using (i) addicted (j) family{" "}
+          <br />
+          <br />
+          15. Suitable words (a) explosionالم (b) liabilities (c) thinking (d)
+          burdensome (e)poverty (f) planning (g) crisis (h) resource (1)
+          possible (1) alleviation <br />
+          <br />
+          16. Suitable wore (a) greatest (b) prestigious (c) organized/h (d)
+          different (e) Approximately (f) held (g) crowned (h) voted (i)
+          entertainment (j) remembered <br />
+          <br />
+          17. Suitable words (a) significant (b) birth (c) independent (d)
+          history (e) division (f) oppress (g) attacked (h) took (i) surrender
+          (j) victory <br />
+          <br />
+          18. Suitable words (a) necessary (b) follow (c) through (d) begins (e)
+          distribution (f) have (g) all (h) carefully (i) careful (1) use <br />
+          <br />
+          19. Suitable words (a) judging (b) character (c) easy (d) difficult
+          (e) need (f) helpful (g) keeps (h) cheated (i) selecting (j)
+          suggestions <br />
+          <br />
+          20. Suitable words (a) alarming (b) appears (c) rural (d) afflicted
+          (e) fertilizers (f) suffer (g) severely (h) differs VFW (i) substances
+          (j) causing <br />
+          <br />
+          21. (a) part (b) changing (c) towards (d) even (e) ask (1) from (g) no
+          (h) questions (1) hand (1) good <br />
+          <br />
+          22. (a) by (b) across (c) clothes (d) river (e) without (f) farther
+          (g) native (h) face (1) last (1) took <br />
+          <br />
+          23. (a) avoidable (b) fume (c) disposal (d) dumping (e) water-borne
+          (f) microphones (g) odour (h) creature (1) determined (1) avert <br />
+          <br />
+          24. (a) positive (b) recruiting (c) yet (d) religious (e) discourage
+          (1) allowed (g) safety (h) tied (1) possibility (j) wastage <br />
+          <br />
+          25. (a) learning (b) intellectual (c) attain (d) enlighten (e) choices
+          (f) sensibility (g) parochialism (h) aware (1) eloquence (1) darkness{" "}
+          <br />
+          <br />
+          26. (a) comrirunication (b) is (c) differs (d) conveys (e) through (f)
+          messages (g) same (h) distributes (i) form (f) contrary <br />
+          <br />
+          27. (a) congratulation (b) success (c) extremely (d) delighted (e)
+          informed (1) competition (g) performer (h) entire (1) earned (1)
+          continuous <br />
+          <br />
+          28. (a) significance (b) provides (c) benefits (d) living (e) cattle
+          (f) collect (g) and (h) system (1) resting (j) migratory <br />
+          <br />
+          29. (a) Although (b) see (c) touching (d) developed (e) called (f) way
+          (g) bears (h) dots (1) tips (1) Printed <br />
+          <br />
+          30. (a) rational (b) work (c) proud (d) blue (e) ready (f) class (g)
+          inferior (h) birth (1) same (1) mentioned <br />
+          <br />
+          31. (a) lles (b) aware (c) recurrence (d) straight (e) safety (f)
+          possibility (g) precautionary (h) minimize (1) opines (1) developed{" "}
+          <br />
+          <br />
+          32. (a) defined (b) armed (c) deaths (d) within (e) called (f) among
+          (g) interpersonal (h) cause (1) economic (1) serious <br />
+          <br />
+          33. (a) greatest (b) contaminated (c) by (d) are (c) of (f) poisonous
+          (g) more (h) preserve (1) stern (1) production <br />
+          <br />
+          34. (a) important (b) development (c) knowledge (d) were (e) healthy
+          (f) enables (g) choices (h) ability (1) face (1) which <br />
+          <br />
+          35. (a) gained (b) successfully (c) explore (d) revolutionary (e)
+          communicate (f) global (g) Isolated (h) comes (1) disasters (1)
+          accelerated <br />
+          <br />
+          36. (a) extended (b) is (c) at (d) has/needs (e) for (f) have (g)
+          share (h) in (1) on (j) were <br />
+          <br />
+          37. (a) protect (b) survive (c) different (d) colour (e) surroundings
+          (f) from (g) moves (h) leaf (1) escapes (1) looks <br />
+          <br />
+          38. (a) change (b) presence (c) acknowledged (d) work (e) recognized
+          (1) establish (g) entering (h) educated (1) opting (1) cocoons <br />
+          <br />
+          39. (a) eating (b) mind (c) satisfy (d) preserve (e) needs (1) happens
+          (g) knowledge (h) nutrition (1) balanced (1) available <br />
+          <br />
+          40. (a) in (b) experts (c) biological (d) expectancy (e) told (f) have
+          (g) caused (h) regarded (1) ninety (1) live <br />
+          <br />
+          41. (a) landless (b) married (c) teenage (d) working (e) were (1)
+          occasionally (g) feeble (h) malnutrition (1) thatched (1) begging{" "}
+          <br />
+          <br />
+          42. (a) control (b) gradually (c) confined (d) power (e) limited (1)
+          through (g) voice (h) sounds (1) handicap (1) slow <br />
+          <br />
+          43. (a) Addressing (b) paramount (c) to bring about (d) in vain (e)
+          solved (1) called (g) ensure (h) originate (1) must (1) upliftment{" "}
+          <br />
+          <br />
+          44. (a) martyr (b) intellectual (c) failure (d) conspiracy (e)
+          prevailed (f) enforced (g) spirited (h) violating (1) locked (1) shot{" "}
+          <br />
+          <br />
+          45. (a) were worshipped (b) is done (c) ecological (d) Important (e)
+          providing (1) extinct (g) habitation (h) requires (1) seasonal (0)
+          enthusiasts <br />
+          <br />
+          46. (a) electronic (b) mode (c) communication (d) established (e)
+          simultaneously (1) based (g) sent (h) stored (1) personal (1)
+          personally <br />
+          <br />
+          47. (a) spheres (b) women (c) returns (d) development (e) welfare (f)
+          mothers (g) children (h) educated (1) community (0) waste <br />
+          <br />
+          48. (a) learning (b) over (c) possession (d) enriched (e) thoughts (1)
+          times (g) of (h) commit (1) aloud (1) known <br />
+          <br />
+          49. (a) deseend (b) raise (c) earned (d) domination (e) merely (1)
+          freedom (g) from (h) rightful (1) world (1) and <br />
+          <br />
+          50. (a) means (b) than (c) not (d) maintain (e) depends (1) upon (g)
+          raising (h) stopped (1) keeping (0) avoid <br />
+          <br />
+          51. (a) protect/prevent (b) washed (c) planted (d) add (e) provide (1)
+          take (absorb করা অর্থে) (g) give (h) needs (1) breathe (1) preserve{" "}
+          <br />
+          <br />
+          52. (a) effective (b) making (e) goods (d) economy (c) competitive (f)
+          unless (g) merit (h) availability (1) low (1) informative <br />
+          <br />
+          53. (a) civilization (b) Ignorant (c) development (d) modern (e) quak
+          (f) programme (g) more (h) school (1) awareness (1) teach <br />
+          <br />
+          54. (a) keeping (b) praiseworthy (c) behaviour (d) talk (e) embrace
+          (1) remain (g) traits (h) considered (1) makes (1) friendly <br />
+          <br />
+          55. (a) alarming (b) increased (c) environment (d) greater (e)
+          although (1) affected (g) chemical (h) afflictions (1) suffer (1)
+          severely <br />
+          <br />
+          56. (a) changed (b) protect (c) spoilt (d) endangered (c) concern (1)
+          perish Destroying (h) saved (1) means (1) mankind <br />
+          <br />
+          57. (a) knowing (b) happened (c) unpleasant (d) furious (e) death (f)
+          spoil (g) execution (h) wit (1) declare (1) wretch <br />
+          <br />
+          58. (a) considered (b) martyrdom (c) killing (d) spread (e) enforced
+          (f) joined (g) violation (h) locked (1) injured (1) wounded <br />
+          <br />
+          59. (a) atmospheric (b) primarily (c) given (d) accumulating (e)
+          eventually (1) inundate (g) fundamental (h) to grow (1) depleted (1)
+          endangered <br />
+          <br />
+          60. (a) generally (b) remains (c) which (d) logged (e) intensified (f)
+          drainage (g) troublesome (h) face (1) freely (1) activated <br />
+          <br />
+          61. (a) become (b) source (c) varied (d) numerous (e) even (f)
+          enjoyable (g) distance (h) run (1) shown (1) Informative <br />
+          <br />
+          62. (a) moncy (b) want (c) credit (d) street (e) opinion (1) rejected
+          (g) scrutinised (h) friends (0) leisure (1) caprice <br />
+          <br />
+          63. (a) expansion (b) enters (c) tremendously (d) universities (e)
+          courses (1) traditional (g) students (h) awards (1) contribute (1)
+          high <br />
+          <br />
+          64. (a) went (b) boost (c) given (d) needed (e) be brought (1) closed
+          (g) included (h) develop (1) organtzing (1) fallure <br />
+          <br />
+          65. (a) International (b) speak (c) purpose (d) communicate (e)
+          variety (f) based (g) four (h) require (1) items (1) communicative{" "}
+          <br />
+          <br />
+          66. (a) needs (b) Important (c) development (d) knowledge (e) educated
+          (1) healthy (g) education (h) enables (1) choice (1) ability <br />
+          <br />
+          67. (a) importance (b) international (c) lends (d) rural (e)
+          emphasizes (1) raise (g) employment (h) impact (1) planning (1) reduce{" "}
+          <br />
+          <br />
+          68. (a) for (b) returns (c) creating (d) potential (e) had (f) likely
+          (g) success (h) from (1) failing (1) resources <br />
+          <br />
+          69. (a) outlook (b) believe (c) predetermined (d) ordained (e) fate
+          (f) sorrows (g) hold (h) undergo (1) amply (1) attitude <br />
+          <br />
+          70. (a) needs (b) essential (c) enables (d) enhances (e) protect (f)
+          carry (g) provides (h) awareness (1) redefined (1) getting <br />
+          <br />
+          71. (a) joyful/joyous (b) flooded (c) eager (d) want (e) remain (f)
+          delightful (g) favourite (h) invited (1) elders (1) festive <br />
+          <br />
+          72. (a) reputation (b) keeping (c) noticeable (d) usually (e) embrace
+          (f) introduction (g) remain (h) interpreted (1) makes (1) friendly{" "}
+          <br />
+        </div>
       </div>
     </div>
   );
