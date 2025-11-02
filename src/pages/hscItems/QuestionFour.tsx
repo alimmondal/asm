@@ -15,16 +15,16 @@ const QuestionFour = () => {
             scarce | educate | value | go | bring | study | waste | married |
             decide | work | be | that | who | worry |
           </div>
-          Rokeya is a Bangladeshi girl (a)-- is about to finish school but she
-          has no hopes of (b) – to college. Like millions of other parents,
-          Rokeya's parents think that educating a daughter is a (c) of time and
-          money. They have (d) - that they will now marry her off and use their
-          (e) resources for their son's education. Rokeya used to (1) about
-          lessons and tests, but now she worries more about getting (g) and
-          having children. She used to dream about being a teacher, but now
-          faces a life of household chores and (h) up children. She used to be
-          happy being a girl but a boy. If she were a boy, she would be in
-          college and university. now wishes she (1) would be able to (1) <br />
+          Rokeya is a Bangladeshi girl (a) __ is about to finish school but she
+          has no hopes of (b) __ to college. Like millions of other parents,
+          Rokeya's parents think that educating a daughter is a (c) __ f time
+          and money. They have (d) __ that they will now marry her off and use
+          their (e) __ resources for their son's education. Rokeya used to (1)
+          __ bout lessons and tests, but now she worries more about getting (g)
+          __ nd having children. She used to dream about being a teacher, but
+          now faces a life of household chores and (h) __ p children. She used
+          to be happy being a girl but a boy. If she were a boy, she would be in
+          college and university. now wishes she (1) __ ould be able to (1) __
           <br />
           রোকেয়া স্কুল শেষ করতে যাওয়া এক বাংলাদেশি মেয়ে কিন্তু তার কলেজে পড়ার
           কোনো আশা নেই। লক্ষ লক্ষ পিতামাতার মতো রোকেয়ার পিতামাতাও মনে করে যে
@@ -36,8 +36,13 @@ const QuestionFour = () => {
           মেয়ে হওয়ায় সে খুশি ছিল কিন্তু এখন সে চায় যদি ছেলে হতো। ছেলে হলে সে
           কলেজ এবং বিশ্ববিদ্যালয়ে পড়তে পারতো।
           <br />
+          1. (a) who (b) going (c) waste (d) decided (e) valuable/scarce (f)
+          worry (g)married (h) bringing (i) were (j) study <br />
+          <br />
+          <br />
           <br />
         </div>
+        {/* 2 */}
         <div className="">
           2. Rajshahi Board-2025; Cumilla Board-2024 <br />
           <div className="border border-gray-500 p-1 rounded-sm my-2 ">
@@ -45,14 +50,14 @@ const QuestionFour = () => {
             mother | acquire | used | communication | aware | competent
           </div>
           <br />
-          Communicative competence refers to the (a) – to use language
-          appropriately in various circumstances. There are two ways of (b)
-          communicative competence in a language. The first is (c) which is
-          similar to the way people develop ability in their (d) tongue. They
-          are aware only of the (e) that they are (1) the language for (g) It is
-          a (h) subconscious process in which users are not (1) of acquiring a
-          language. In non-technical terms, acquisition is 'picking up' a
-          language (j)--- . <br />
+          Communicative competence refers to the (a) __ to use language
+          appropriately in various circumstances. There are two ways of (b) __
+          communicative competence in a language. The first is (c) __ which is
+          similar to the way people develop ability in their (d) __ tongue. They
+          are aware only of the (e) __ that they are (f) __ the language for (g)
+          __ It is a (h) __ subconscious process in which users are not (i) __
+          of acquiring a language. In non-technical terms, acquisition is
+          'picking up' a language (j) __ . <br />
           <br />
           ভাব বিনিময়মূলক দক্ষতা বলতে বিভিন্ন অবস্থায় যথাযথভাবে ভাষা ব্যবহারের
           ক্ষমতাকে বুঝায়। একটি ভাষায় ভাববিনিময়মূলক দক্ষতা বাড়ানোর দুটি উপায়
@@ -60,7 +65,12 @@ const QuestionFour = () => {
           তার সমতুল্য। তারা স্রেফ এই বিষয়ে ওয়াকিবহাল যে, তারা ভাব বিনিময়ের জন্য
           ভাষা ব্যবহার করছে। এটি একটি সহজাত, অবচেতন প্রক্রিয়া যাতে ব্যবহারকারীরা
           ভাষা অর্জনের জন্য সচেতন নয়। অপরিভাষাগত অর্থে অর্জন হলো
-          স্বতঃস্ফূর্তভাবে একটি ভাষা শিক্ষা লাভ করা। <br />
+          স্বতঃস্ফূর্তভাবে একটি ভাষা শিক্ষা লাভ করা।
+          <br />
+          2.Suitable words (a) ability (b) developing (c) acquisition (d) mother
+          (e) fact (f) using (g) communication (h) natural (i) aware (j)
+          spontaneous
+          <br />
           <br />
         </div>
         {/* 3 */}
@@ -87,7 +97,13 @@ const QuestionFour = () => {
           পোড়ানো হচ্ছে যা কার্বন ডাইঅক্সাইডের বৃদ্ধি, সাধন করছে এবং ফলশ্রুতিতে
           বৈশ্বিক উষ্ণতার কারণে পানির স্তর বেড়ে যাচ্ছে। ধারণা করা হচ্ছে যে নতুন
           শতাব্দী অত্যধিক পরিবেশ বিপর্যয়ের মুখোমুখি হবে। তাই পরিবেশের লাগামহীন
-          দূষণ প্রতিরোধ করা জরুরি/বাধ্যতামূলক। <br />
+          দূষণ প্রতিরোধ করা জরুরি/বাধ্যতামূলক।
+          <br />
+          3. (a) habitats (b) extinction (c) cut (d) recklessly (e) increase (f)
+          rising (g) warming (h) anticipated (i) catastrophe (j) imperative{" "}
+          <br />
+          <br />
+          <br />
           <br />
         </div>
         {/* 4 */}
@@ -115,6 +131,9 @@ const QuestionFour = () => {
           বৃদ্ধির ফলে পানির উচ্চতা বাড়ছে। এটা ধরা হচ্ছে যে নতুন শতাব্দী এক
           অপ্রতিরোধ্য পরিবেশ বিপর্যয়ের সম্মুখীন। সুতরাং পরিবেশের নির্বিচার দূষণ
           রোধ করা আবশ্যক। <br />
+          4. (a) lost (b) wetlands (c) are (d) down (e) recklessly (f) result
+          (g) anticipated (h) environmental (i) imperative (j) indiscriminately
+          <br />
           <br />
         </div>
         {/* 5 */}
@@ -124,7 +143,7 @@ const QuestionFour = () => {
             hang | know | responsible | sake | balance | rise | ecology |
             example | link | fixed | alter | interrelated | ecosystem | world
           </div>
-          All things that make up the environment are (a) __ The way in which
+          All things that make up the environment are (a) __ . The way in which
           people, animals and plants are related to each other and to their
           surroundings is (b) __ as ecology. The (c) __ is a complex web that
           (d) __ animals, plants and every other life form in the biosphere. All
@@ -143,6 +162,9 @@ const QuestionFour = () => {
           পরিবর্তন করে এর অন্যান্য অংশকে প্রভাবিত করা যায়। উদাহরণস্বরূপ, বনাঞ্চল
           ধ্বংস সাধন পরিবেশগত মারাত্মক সমস্যার সৃষ্টি করতে পারে। মানবজাতির
           দায়িত্ব পরিবেশকে ধ্বংস হওয়া থেকে রক্ষা করা। <br />
+          5.(a) interrelated (b) known (c) ecosystem (d) links (e) hang (f)
+          balance (g) altering (h) example (i) ecological (j) responsibility{" "}
+          <br />
           <br />
         </div>
         {/* 6 */}
@@ -171,6 +193,9 @@ const QuestionFour = () => {
           উন্মুক্ত বিশ্ববিদ্যালয় কর্তৃক পরিচালিত কোর্সসমূহ বিটিভিতে দেখানো হয়।
           কতিপয় চ্যানেল যেমন ডিস্কভারি এবং দ্যা ন্যাশনাল জিওগ্রাফিক চ্যানেল
           অত্যন্ত তথ্যবহুল অনুষ্ঠান সম্প্রচার করে। <br />
+          6. (a) become (b) source (c) varied (d) channels (e) even (f)
+          programmes (g) distance (h) run (i) shown (j) informative
+          <br />
           <br />
         </div>
         {/* 7 */}
@@ -196,7 +221,11 @@ const QuestionFour = () => {
           ব্যথিত/আহত হবে না। কিন্তু একবার মৌলিক টেবিল শিষ্টাচারগুলো শিখে নিলে
           বুঝতে পারবে যে এগুলো মেনে চলা কঠিন নয়। তাই যথাযথ টেবিল শিষ্টাচার কেন
           চর্চা করবে না? এটি করা কঠিন নয় এবং অনেক, মানুষ প্রশংসা করবে যে তুমি
-          খাওয়ার সময় যথাযথ ভদ্রলোকের আচরণ করার মতো বিবেকবান। <br />
+          খাওয়ার সময় যথাযথ ভদ্রলোকের আচরণ করার মতো বিবেকবান।
+          <br />
+          7. (a) manners (b) are (c) accepted (d) behave (e) offended (f)
+          realize/will realize (g) keep up (h)proper (i) appreciate (j)
+          gentleperson <br />
           <br />
         </div>
         {/* 8 */}
@@ -222,6 +251,9 @@ const QuestionFour = () => {
           করার রাস্তা দেখায়। সেজন্য সুনাগরিকদের সকলে ভালবাসে। তারা তাদের
           বস্তুবাদী সমৃদ্ধি নিয়ে ভাবে না। এবং তাই তারা তাদের জীবন অপরের জন্য
           উৎসর্গ করে যেটা তাদের অমর বানায়। <br />
+          9.(a)positive (b) idealistic (c)country (d) being (e) welfare (f)
+          qualities (g) helping (h) materialistic (i) hence (j) immortalizes{" "}
+          <br />
           <br />
         </div>
         {/*  10 */}
@@ -253,7 +285,11 @@ const QuestionFour = () => {
           একজন ভালো মানুয় তৈরি করা উচিত। একজন ভালো মানুষ হওয়া ছাড়া তাকে পুরোপুরি
           ও ন্যায্যভাবে শিক্ষিত ধরা যাবে না। এটা ব্যতীত অন্যান্য সব অর্জন
           হতাশজনক। তাই একজনের উচিত সবার আগে ইতিবাচক মানবিক দৃষ্টিভঙ্গি অর্জনে
-          মনোনিবেশ করা। <br />
+          মনোনিবেশ করা।
+          <br />
+          10. words (a) achieving (b) syllabus (c) understanding (d) capability
+          (e) enlightenment (f) Both (g) requirement (h) being (i) frustrated
+          (j) concentrate <br />
           <br />
         </div>
         {/* 11 */}
@@ -283,6 +319,8 @@ const QuestionFour = () => {
           সাথে যুক্ত করা পদ্মা সেতু ঐ অঞ্চলে বসবাসকারী ৩ কোটি মানুষের জীবনে
           অর্থনৈতিক পরিবর্তনের জন্য এটি গুরুত্বপূর্ণ প্রধান নিয়ামক এবং ব্যবসা ও
           অর্থনৈতিক কর্মকান্ডে ব্যাপক উন্নতি সাধন করবে। <br />
+          11. (a) reality (b) great (c) ambitious (d) mighty (e) owing (f)
+          connects (g) changes (h) living (i) huge (j) economic <br />
           <br />
         </div>
         {/* 12 */}
@@ -313,6 +351,8 @@ const QuestionFour = () => {
           হিসাব ও অনেক তথ্য প্রক্রিয়াকরণ করে। কয়েক মিনিটে একটি কম্পিউটার যা
           হিসাব করতে পারে একজন প্রশিক্ষিত গণিতবিদের তা সম্পূর্ণ করতে বছরের পর
           বছর লেগে যাবে। <br />
+          12. (a) recent (b) essential (c) about (d) device (e) called (f)
+          abacus (g) refers (h) large (i) great (j) trained <br />
           <br />
         </div>
         {/* 13 */}
@@ -325,13 +365,13 @@ const QuestionFour = () => {
           </div>
           Keeping promises given to anyone is a must though it takes much
           perseverance to keep promises honestly. Since keeping promises is a
-          (a) __ remembrance, we should be (b) __ whenever we make promises.
+          (a) __ of remembrance, we should be (b) __ whenever we make promises.
           While (c) __ an unavoidable danger, people usually (d) __ any promise
-          only to be (e) __ – from the situation without perfect (f) __ — .
-          After being rescued most people (g) __ – forget the promises given. A
-          (h) __ — about the piper of Germany (i) __ how the piper was
-          deliberately (j) __ by the mayor, who has made promises to give piper
-          one thousand guilders for his work. <br />
+          only to be (e) __ – from the situation without perfect (f) __ . After
+          being rescued most people (g) __ forget the promises given. A (h) __ —
+          about the piper of Germany (i) __ how the piper was deliberately (j)
+          __ by the mayor, who has made promises to give piper one thousand
+          guilders for his work. <br />
           <br />
           বঙ্গানুবাদ: কাউকে কোনো প্রতিশ্রুতি দিলে তা রক্ষা করা আবশ্যিক যদিও
           সততার সাথে প্রতিশ্রুতি রক্ষা করতে বিস্তর of সাধনার প্রয়োজন হয়। যেহেতু
@@ -341,8 +381,11 @@ const QuestionFour = () => {
           পাওয়ার জন্যই শুধু প্রতিশ্রুতি দেয়। পরিত্রাণ পাওয়ার পর অধিকাংশ লোকই তার
           দেওয়া প্রতিশ্রুতির কথা ভুলে যায়। জার্মানীর বংশীবাদক সম্পর্কিত এক গল্প
           থেকে জানা যায় কীভাবে সেই বংশীবাক সেই মেয়র কর্তৃক উদ্দেশ্য প্রণোদিতভাবে
-          প্রতারিত হন যিনি (মেয়র) __ সেই বংশীবাদককে তার কাজের জন্য এক হাজর
-          গিল্ডার দেওয়ার প্রতিশ্রুতি দিয়েছিলেন। <br />
+          প্রতারিত হন যিনি (মেয়র) সেই বংশীবাদককে তার কাজের জন্য এক হাজর গিল্ডার
+          দেওয়ার প্রতিশ্রুতি দিয়েছিলেন। <br />
+          13. (a) matter (b) careful (c) facing (d) make (e) rescued (f)
+          thinking (g) completely (h) story (i) tells (j) cheated
+          <br />
           <br />
         </div>
         {/* 14 */}
@@ -353,12 +396,12 @@ const QuestionFour = () => {
             | within | addicted | over
           </div>
           Facebook is an online networking service. It is a (a) __ social
-          networking service. It is (b) __ friendship and relation all (c) __ –
+          networking service. It is (b) __ friendship and relation all (c) __
           Though Mark Zucker Berg first (d) __ Facebook,a very short time (e) __
-          the world. . It gained much popularity. Now it has over one billion
+          the world. It gained much popularity. Now it has over one billion
           active users. It (f) __ love and shares sorrows. But sometimes it 1s
           (g) __ Students are spending much time in (h) __ Facebook which is
-          very alarming for the future generation. Adults are also getting (1)
+          very alarming for the future generation. Adults are also getting (i)
           __ to it which is causing many problems in their (j) __ life. So, we
           should be aware of using Facebook. <br />
           <br />
@@ -371,6 +414,8 @@ const QuestionFour = () => {
           ব্যয় করছে যা ভবিষ্যত প্রজন্মের জন্য খুবই উদ্বেগজনক। প্রাপ্তবয়স্করাও
           এতে আসক্ত হচ্ছে যা তাদের পারিবারিক জীবনে অনেক সমস্যার সৃষ্টি করছে।
           সুতরাং, আমাদের ফেসবুক ব্যবহারে সচেতন হওয়া উচিত। <br />
+          14. (a) popular (b) expanding (c)over (d) invented (e) within (f)
+          spreads (g) misused (h) using (i) addicted (j) family
           <br />
           <br />
         </div>
@@ -393,6 +438,9 @@ const QuestionFour = () => {
           কিন্তু প্রকৃতপক্ষে সঠিক পরিকল্পনা ও ব্যবস্থাপনা এই সমসাটিকে সম্পদে
           পরিণত করতে পারে। আমরা যদি আমাদের মানবসম্পদকে সঠিকভাবে উন্নত করতে পারি,
           এটি দারিদ্র দূরীকরণের একটি সম্ভাব্য উপায় হতে পারে। <br />
+          15. Suitable words (a) explosion (b) liabilities (c) thinking (d)
+          burdensome (e)poverty (f) planning (g) crisis (h) resource (i)
+          possible (j) alleviation <br />
           <br />
         </div>
         {/* 16 */}
@@ -426,6 +474,9 @@ const QuestionFour = () => {
           খেলোয়াড়। ২০২২ বিশ্বকাপ ছিল সত্যিই চিত্ত বিনোদনের বড় উৎস এবং এটি
           চিরস্মরণীয় হয়ে থাকবে।
           <br />
+          16. (a) greatest (b) prestigious (c) organized (d) different (e)
+          Approximately (f) held (g) crowned (h) voted (i) entertainment (j)
+          remembered <br />
         </div>
         <br />
         {/* 17 */}
@@ -443,7 +494,7 @@ const QuestionFour = () => {
           began to (f) __ our people. At first, they (g) __ our language. We
           shall never forget the language movement of 1952. The language
           movement led to the mass upsurge of 1969. As a result, the war of
-          liberation (h) __ - place in 1971. After nine months of struggle, the
+          liberation (h) __ place in 1971. After nine months of struggle, the
           Pakistanis were compelled to (i) __ and we won (j) __ . <br />
           <br />
           বাংলাদেশের সবচেয়ে তাৎপর্যপূর্ণ ঘটনাটি হচ্ছে ১৯৭১ সালের ২৬ মার্চ একটি
@@ -454,6 +505,8 @@ const QuestionFour = () => {
           ১৯৬৯ সালে গণ অভ্যুত্থানের রূপ নেয়। ফলে ১৯৭১ সালে সংঘঠিত হয়
           মুক্তিযুদ্ধ। নয় মাসের সংগ্রামের পর পাকিস্তানিদের আত্মসমর্পণ করতে বাধ্য
           করা হয় আর আমরা বিজয় অর্জন করি। <br />
+          17. (a) significant (b) birth (c) independent (d) history (e) division
+          (f) oppress (g) attacked (h) took (i) surrender (j) victory <br />
           <br />
         </div>
         {/* 18 */}
@@ -479,6 +532,8 @@ const QuestionFour = () => {
           সাথে প্রশ্নের উত্তরসমূহ লেখা দরকার। হাতের লেখার ব্যাপারেও তার সতর্ক
           হওয়া উচিত। তার হস্তলিপি যদি খুব ছোট এবং অপরিচ্ছন্ন হয়ে থাকে তবে তার
           উচিত দ্বিগুণ স্পেস ব্যবহার করা। <br />
+          18. (a) necessary (b) follow (c) through (d) begins (e) distribution
+          (f) have (g) all (h) carefully (i) careful (j) use <br />
           <br />
         </div>
         {/* 19 */}
@@ -499,14 +554,18 @@ const QuestionFour = () => {
           careful in (i) __ friends. We can have (j) __ from our elders in this
           regard.
           <br />
-          শুধু মুখ দেখে একজন মানুষকে বোঝা সহজ নয়। এমনকি শুধু তর মুখের কথা বিচার
-          করে তার মানসিকতা জানা সহজ নয়। বাহ্যিক অবয়ব দ্বারা একজন মানুষের
-          চারিত্রিক বৈশিষ্ট্য অনুসন্ধান করা অতিশয় কঠিন। সুতরাং, একজন বন্ধু পাওয়া
-          খুব সহজ নয়। এটি পৃথিবীর কঠিনতম কাজগুলোর অন্যতম। আমাদের প্রয়োজনে প্রকৃত
-          বন্ধু পাওয়া যায়। একজন প্রকৃত বন্ধু সর্বদাই তার বন্ধুর বিপদে সহায়ক। সে
-          সর্বদা তার বন্ধুর গোপন বিষয়গুলো নিরাপদ রাখে। সে কখনো বন্ধুদের দ্বারা
-          প্রতারিত হতে পারে। বন্ধু নির্বাচনের ক্ষেত্রে আমরা 'অবশ্যই সতর্ক থাকবো।
-          এ ব্যাপারে আমরা আমাদের জ্যেষ্ঠদের পরামর্শ নিতে পারি। <br />
+          বঙ্গানুবাদ: শুধু মুখ দেখে একজন মানুষকে বোঝা সহজ নয়। এমনকি শুধু তর
+          মুখের কথা বিচার করে তার মানসিকতা জানা সহজ নয়। বাহ্যিক অবয়ব দ্বারা একজন
+          মানুষের চারিত্রিক বৈশিষ্ট্য অনুসন্ধান করা অতিশয় কঠিন। সুতরাং, একজন
+          বন্ধু পাওয়া খুব সহজ নয়। এটি পৃথিবীর কঠিনতম কাজগুলোর অন্যতম। আমাদের
+          প্রয়োজনে প্রকৃত বন্ধু পাওয়া যায়। একজন প্রকৃত বন্ধু সর্বদাই তার বন্ধুর
+          বিপদে সহায়ক। সে সর্বদা তার বন্ধুর গোপন বিষয়গুলো নিরাপদ রাখে। সে কখনো
+          বন্ধুদের দ্বারা প্রতারিত হতে পারে। বন্ধু নির্বাচনের ক্ষেত্রে আমরা
+          'অবশ্যই সতর্ক থাকবো। এ ব্যাপারে আমরা আমাদের জ্যেষ্ঠদের পরামর্শ নিতে
+          পারি। <br />
+          19. Suitable words (a) judging (b) character (c) easy (d) difficult
+          (e) need (f) helpful (g) keeps (h) cheated (i) selecting (j)
+          suggestions <br />
           <br />
         </div>
         {/* 20 */}
@@ -526,13 +585,16 @@ const QuestionFour = () => {
           us see how life in cities (h) __ from that in the country. Harmful (i)
           __ in water and air are (j) __ environment pollution.
           <br />
-          অনেক রোগ উদ্বেগজনক হারে বাড়ছে যেগুলো বিশেষজ্ঞরা মনে করেন পরিবেশ দূষণ
-          বৃদ্ধির কারণে ঘটছে। কতিপয় বিশেষজ্ঞ মনে করেন যে দূষণ শহরাঞ্চলে বেশি বলে
-          মনে হচ্ছে। যদিও গ্রামীণ সমাজও রাসায়নিক সার এবং কীটনাশকের বর্ধিত
-          ব্যবহার দ্বারা ক্ষতিগ্রস্ত হয়, তদসত্ত্বেও, বর্তমানে শহরের মানুষ অনেক
-          বেশি রোগে ভুগছে এবং গ্রামের মানুষের চেয়ে বেশি ভুগছে। এখন চলো আমরা দেখি
-          কীভাবে শহরের জীবন গ্রামীণ জীবন থেকে ভিন্ন রকম। পানি এবং বায়ুতে
-          ক্ষতিকর উপাদানের উপস্থিতি পরিবেশ দূষণ ঘটাচ্ছে। <br />
+          বঙ্গানুবাদ: অনেক রোগ উদ্বেগজনক হারে বাড়ছে যেগুলো বিশেষজ্ঞরা মনে করেন
+          পরিবেশ দূষণ বৃদ্ধির কারণে ঘটছে। কতিপয় বিশেষজ্ঞ মনে করেন যে দূষণ
+          শহরাঞ্চলে বেশি বলে মনে হচ্ছে। যদিও গ্রামীণ সমাজও রাসায়নিক সার এবং
+          কীটনাশকের বর্ধিত ব্যবহার দ্বারা ক্ষতিগ্রস্ত হয়, তদসত্ত্বেও, বর্তমানে
+          শহরের মানুষ অনেক বেশি রোগে ভুগছে এবং গ্রামের মানুষের চেয়ে বেশি ভুগছে।
+          এখন চলো আমরা দেখি কীভাবে শহরের জীবন গ্রামীণ জীবন থেকে ভিন্ন রকম। পানি
+          এবং বায়ুতে ক্ষতিকর উপাদানের উপস্থিতি পরিবেশ দূষণ ঘটাচ্ছে। <br />
+          20. (a) alarming (b) appears (c) rural (d) afflicted (e) fertilizers
+          (f) suffer (g) severely (h) differs VFW (i) substances (j) causing{" "}
+          <br />
           <br />
         </div>
         {/* 21 */}
@@ -562,6 +624,8 @@ const QuestionFour = () => {
           ক্ষতি বোঝায় না। অন্য দিকে বিদেশিদের অবস্থা সম্পর্কে তারা সত্যিই আগ্রহ
           প্রকাশ করে। সারাদেশে বর্তমানে সত্যিকার অর্থে উত্তম যোগাযোগ ব্যবস্থা
           বিদ্যমান। <br />
+          21. (a) part (b) changing (c) towards (d) even (e) ask (f) from (g) no
+          (h) questions (i) hand (j) good <br />
           <br />
           <br />
         </div>
@@ -580,12 +644,15 @@ const QuestionFour = () => {
           name brought a smile to his (h) __ . He was the (i) __ man to leave
           the town because he (j) __ care of the animals. <br />
           <br />
-          নদীর উপর ভাসমান সেতুর পাশের রাস্তার ধারে এক বৃদ্ধ লোক বসে ছিল। লোকটি
-          স্টীলের রীমের চশমা আর ধূলিমাখা পোশাক পরিহিত ছিল। গাড়ি, ট্রাক, নারী,
-          পুরুষ এবং ছেলেমেয়রা নদী পার হচ্ছিল। লোকটি কোনো নড়াচড়া ছাড়াই বসেছিল
-          কারণ সে এতো ক্লান্ত ছিল যে আর যেতে পারছিলো না। সে তার নিজ শহর, স্যান
-          কারলোন হতে এসেছিলো। নামটি তার মুখে হাসি নিয়ে এসেছিলো। সেই ছিলো শহর
-          ছেড়ে আসা শেষ ব্যক্তি কারণ সে পশু-পাখির দেখাশুনা করছিলো। <br />
+          বঙ্গানুবাদ: নদীর উপর ভাসমান সেতুর পাশের রাস্তার ধারে এক বৃদ্ধ লোক বসে
+          ছিল। লোকটি স্টীলের রীমের চশমা আর ধূলিমাখা পোশাক পরিহিত ছিল। গাড়ি,
+          ট্রাক, নারী, পুরুষ এবং ছেলেমেয়রা নদী পার হচ্ছিল। লোকটি কোনো নড়াচড়া
+          ছাড়াই বসেছিল কারণ সে এতো ক্লান্ত ছিল যে আর যেতে পারছিলো না। সে তার নিজ
+          শহর, স্যান কারলোন হতে এসেছিলো। নামটি তার মুখে হাসি নিয়ে এসেছিলো। সেই
+          ছিলো শহর ছেড়ে আসা শেষ ব্যক্তি কারণ সে পশু-পাখির দেখাশুনা করছিলো।{" "}
+          <br />
+          22. (a) by (b) across (c) clothes (d) river (e) without (f) farther
+          (g) native (h) face (i) last (j) took <br />
           <br />
         </div>
         {/* 23 */}
@@ -611,22 +678,23 @@ const QuestionFour = () => {
           action to control these problems and clean up the environment to (i)
           __ these unnecessary diseases. should take (j) __ — . <br />
           <br />
-          পরিবেশ দূষণের কারণে প্রতি বছর সারা বিশ্বে লাখ লাখ লোক অনাবশ্যকভাবে
-          মারা যায়। এই দুর্ভাগ্যজনক ও পরিহারযোগ্য মৃত্যু ঘটে চারটি কারণে।
-          প্রথমত, কল-কারখানা, আবর্জনা পোড়ানো এবং যানবাহনের ধোঁয়া থেকে বায়ুদূষণ
-          ঘটে যার ফলে নিউমোনিয়া, ব্রংকাইটিস এবং অন্যান্য শ্বাস-প্রশ্বাস
-          সংক্রান্ত রোগ হয়। এরপর শিল্পবর্জ্য, নির্বিচারভাবে ফেলা বিষাক্ত
-          রাসায়নিক বর্জ্য, এবং নদী ও খালে মনুষ্য আবর্জনা ফেলার কারণে পানিদূষণ
-          ঘটে এবং এর ফলে পানি বিষাক্ত হয় এবং কলেরা ও ডায়রিয়ার মত পানিবাহিত রোগের
-          প্রাদুর্ভাব ঘটে। এর পরবর্তী কারণ হলো যানবাহনের হর্ন ও মাইক্রোফোন থেকে
-          শব্দদূষণ যা আগ্রাসী/ আক্রমণাত্মক হতে এবং শ্রবণশক্তি নষ্ট করে দিতে
-          পারে। এবং সবশেষে স্তূপীকৃত অথবা মনুষ্য বর্জের অব্যবস্থাপনার ফলে সৃষ্ট
-          দুর্গন্ধদূষণ আমাদের ঘ্রাণ সম্বন্ধীয় দুর্ভোগের সৃষ্টি করে এবং ইদুর এবং
-          মাছির মত রোগ-বহনকারী প্রাণীকে আকর্ষণ <br /> করে থাকে। এই সমস্যাগুলো
-          নিয়ন্ত্রণ করতে এবং অনাবশ্যক রোগসমূহ এড়ানোর জন্য পরিবেশ
-          পরিষ্কার-পরিচ্ছন্ন রাখতে আমাদের কার্যকর পদ <br /> ক্ষেপ গ্রহণ করতে
-          হবে।
+          বঙ্গানুবাদ: পরিবেশ দূষণের কারণে প্রতি বছর সারা বিশ্বে লাখ লাখ লোক
+          অনাবশ্যকভাবে মারা যায়। এই দুর্ভাগ্যজনক ও পরিহারযোগ্য মৃত্যু ঘটে চারটি
+          কারণে। প্রথমত, কল-কারখানা, আবর্জনা পোড়ানো এবং যানবাহনের ধোঁয়া থেকে
+          বায়ুদূষণ ঘটে যার ফলে নিউমোনিয়া, ব্রংকাইটিস এবং অন্যান্য
+          শ্বাস-প্রশ্বাস সংক্রান্ত রোগ হয়। এরপর শিল্পবর্জ্য, নির্বিচারভাবে ফেলা
+          বিষাক্ত রাসায়নিক বর্জ্য, এবং নদী ও খালে মনুষ্য আবর্জনা ফেলার কারণে
+          পানিদূষণ ঘটে এবং এর ফলে পানি বিষাক্ত হয় এবং কলেরা ও ডায়রিয়ার মত
+          পানিবাহিত রোগের প্রাদুর্ভাব ঘটে। এর পরবর্তী কারণ হলো যানবাহনের হর্ন ও
+          মাইক্রোফোন থেকে শব্দদূষণ যা আগ্রাসী/ আক্রমণাত্মক হতে এবং শ্রবণশক্তি
+          নষ্ট করে দিতে পারে। এবং সবশেষে স্তূপীকৃত অথবা মনুষ্য বর্জের
+          অব্যবস্থাপনার ফলে সৃষ্ট দুর্গন্ধদূষণ আমাদের ঘ্রাণ সম্বন্ধীয় দুর্ভোগের
+          সৃষ্টি করে এবং ইদুর এবং মাছির মত রোগ-বহনকারী প্রাণীকে আকর্ষণ করে থাকে।
+          এই সমস্যাগুলো নিয়ন্ত্রণ করতে এবং অনাবশ্যক রোগসমূহ এড়ানোর জন্য পরিবেশ
+          পরিষ্কার-পরিচ্ছন্ন রাখতে আমাদের কার্যকর পদ ক্ষেপ গ্রহণ করতে হবে।
           <br />
+          23. (a) avoidable (b) fume (c) disposal (d) dumping (e) water-borne
+          (f) microphones (g) odour (h) creature (1) determined (1) avert <br />
         </div>
         <br />
         <br />
@@ -647,24 +715,25 @@ const QuestionFour = () => {
           live in hostels for their daughters -Early marriage and childbirth
           make women (h) __ - to home with no (i) __ of going back to school.
           Any expenditure for sending girls to school is considered a (j) __ by
-          many parents whereas it is regarded as an investment in case of boys.{" "}
+          many parents whereas it is regarded as an investment in case of boys.
           <br />
           <br />
-          নারী শিক্ষা উৎসাহিত করার জন্য সরকার কতিপয় ইতিবাচক পদক্ষেপ গ্রহণ করেছে
-          যেমন- মেয়ে ছাত্রদেরকে বৃত্তি দেয়া, অতিরিক্ত নারী শিক্ষক নিয়োগ দেয়া,
-          ইত্যাদি। তথাপি মেয়েরা শিক্ষার পূর্ণ সুবিধা গ্রহণ করতে পারছে না মূলত
-          নিম্নোক্ত কারণে। ধর্মীয় অপব্যাখ্যা এবং সামাজিক বিধি-নিষেধ মেয়েদেরকে
-          স্কুলে যেতে নিরুৎসাহিত করে। এমন কি শহরের স্কুলগুলোতেও মেয়েরা অনেক
-          পিতামাতা কর্তৃক হোস্টেলে থাকার অনুমতি পায় না তাদের কন্যাদের নিরাপত্তার
-          কারণে। বাল্য বিবাহ এবং শিশু জন্মদান নারীদেরকে গৃহের সাথে এমন বন্ধনে
-          আবদ্ধ করে যে তাদের আর স্কুলে ফেরার কোন সম্ভাবনা থাকে না। মেয়েদেরকে
-          স্কুলে পাঠানোর ক্ষেত্রে যেকোন ব্যয়ভারকে অনেক পিতামাতা কর্তৃক নিষ্ফল
-          বলে বিবেচনা করা হয়, অন্যদিকে ছেলেদের ক্ষেত্রে এটাকে বিনিয়োগ হিসাবে
-          বিবেচনা করা হয়।
+          বঙ্গানুবাদ: নারী শিক্ষা উৎসাহিত করার জন্য সরকার কতিপয় ইতিবাচক পদক্ষেপ
+          গ্রহণ করেছে যেমন- মেয়ে ছাত্রদেরকে বৃত্তি দেয়া, অতিরিক্ত নারী শিক্ষক
+          নিয়োগ দেয়া, ইত্যাদি। তথাপি মেয়েরা শিক্ষার পূর্ণ সুবিধা গ্রহণ করতে
+          পারছে না মূলত নিম্নোক্ত কারণে। ধর্মীয় অপব্যাখ্যা এবং সামাজিক
+          বিধি-নিষেধ মেয়েদেরকে স্কুলে যেতে নিরুৎসাহিত করে। এমন কি শহরের
+          স্কুলগুলোতেও মেয়েরা অনেক পিতামাতা কর্তৃক হোস্টেলে থাকার অনুমতি পায় না
+          তাদের কন্যাদের নিরাপত্তার কারণে। বাল্য বিবাহ এবং শিশু জন্মদান
+          নারীদেরকে গৃহের সাথে এমন বন্ধনে আবদ্ধ করে যে তাদের আর স্কুলে ফেরার কোন
+          সম্ভাবনা থাকে না। মেয়েদেরকে স্কুলে পাঠানোর ক্ষেত্রে যেকোন ব্যয়ভারকে
+          অনেক পিতামাতা কর্তৃক নিষ্ফল বলে বিবেচনা করা হয়, অন্যদিকে ছেলেদের
+          ক্ষেত্রে এটাকে বিনিয়োগ হিসাবে বিবেচনা করা হয়।
+          <br />
+          24. (a) positive (b) recruiting (c) yet (d) religious (e) discourage
+          (1) allowed (g) safety (h) tied (1) possibility (j) wastage <br />
           <br />
         </div>
-        <br />
-        <br />
         {/* 25 */}
         <div className="">
           25. Jashore Board-2019; Cumilla Board-2017: Jhenidah Cadet College,
@@ -693,6 +762,9 @@ const QuestionFour = () => {
           সম্পর্কে সচেতন হতে এটা সাহায্য করে। এর দ্বারা সত্য প্রকাশের বাগ্মীতা
           অর্জনে করা যায়। তাই, এটিকে তুলনা করা হয় আলোর সাথে যা কিনা অজ্ঞতার
           অন্ধকার দূর করে। <br />
+          25. (a) learning (b) intellectual (c) attain (d) enlighten (e) choices
+          (f) sensibility (g) parochialism (h) aware (1) eloquence (1) darkness
+          <br />
           <br />
         </div>
         {/* 26 */}
@@ -711,14 +783,16 @@ const QuestionFour = () => {
           its messages directly in an individual's electronic mail boxes based
           on a computer. <br />
           <br />
-          ইলেকট্রনিক মেইল বা ই-মেইল হচ্ছে ইলেকট্রনিক মাধ্যমে প্রেরিত ছাপানো
-          বার্তা। ইলেকট্রনিক যোগাযোগের অন্য একটি ধরন হলো টেলেক্স। টেলেক্স
+          বঙ্গানুবাদ: ইলেকট্রনিক মেইল বা ই-মেইল হচ্ছে ইলেকট্রনিক মাধ্যমে প্রেরিত
+          ছাপানো বার্তা। ইলেকট্রনিক যোগাযোগের অন্য একটি ধরন হলো টেলেক্স। টেলেক্স
           যোগাযোগ হলো এক টার্মিনাল থেকে অন্য টার্মিনালে। ই-মেইল টেলেক্স থেকে
           ভিন্নতর কারণ এটা কমপিউটারের মাধ্যমে এক বাবহারকারী থেকে আরেক
           ব্যবহারকারীর কাছে বার্তা পৌছায়। নির্ধারিত বার্তাসমূহ একই টার্মিনালে
           পাঠানো হয় যেখানে একজন অপারেটর এটাকে ছাপানো আকারে টেলেক্স পদ্ধতিতে
           বন্টন করে থাকে। পক্ষান্তরে, ই-মেইল এর বার্তাসমূহ কমপিউটারের মাধ্যমে
           তৈরি ব্যক্তির ইলেকট্রনিক মেইল বক্সে সরাসরি। প্রেরণ করে। brolloq <br />
+          26. (a) comunication (b) is (c) differs (d) conveys (e) through (f)
+          messages (g) same (h) distributes (i) form (f) contrary <br />
           <br />
         </div>
         {/* 27 */}
@@ -822,99 +896,6 @@ const QuestionFour = () => {
         </div>
         {/* Answer */}
         <div className="">
-          1. (a) who (b).going (c) waste (d) decided (e) valuable/scarce (f)
-          worry (g)married (h) bringing (1) were (1) study <br />
-          <br />
-          2.Suitable words (a) ability (b) developing (c) acquisition (d) mother
-          (e) fact (f) using (g) communication (h) natural (1) aware (j)
-          spontaneous <br />
-          <br />
-          3. Suitable words (a) habitats (b) extinction (c) cut (d) recklessly
-          (e) increase (f) rising (g) warming (h) anticipated (i) catastrophe
-          (j) imperative <br />
-          <br />
-          4. Suitable words (a) lost (b) wetlands (c) are (d) down (e)
-          recklessly (f) result (g) anticipated (h) environmental (i) imperative
-          (j) indiscriminately <br />
-          <br />
-          5.Suitable words 5.(a) interrelated (b) known (c) ecosystem (d) links
-          (e) hang (f) balance (g) altering (h) example (i) ecological (j)
-          responsibility <br />
-          <br />
-          6.Suitable words (a) become (b) source (c) varied (d) channels (e)
-          even (f) programmes (g) distance (h) run (i) shown (j) informative{" "}
-          <br />
-          <br />
-          7. Suitable words (a) manners (b) are (c) accepted (d) behave (e)
-          offended (f) realize/will realize (g) keep up (h)proper (i) appreciate
-          (j) gentleperson <br />
-          <br />
-          8. Suitable words (a) extended (b) is (c) at (d) has/needed (e) for
-          (f) have (g) share (h) in (i) on (j) were <br />
-          <br />
-          Suitable words 9.(a)positive (b) idealistic (c)country (d) being (e)
-          welfare (f) qualities (g) helping (h) materialistic (1) hence (j)
-          immortalizes <br />
-          <br />
-          10.Suitable words (a) achieving (b) syllabus (c) understanding (d)
-          capability (e) enlightenment (f) Both (g) requirement (h) being (i)
-          frustrated (j) concentrate <br />
-          <br />
-          11. Suitable words (a) reality (b) great (c) ambitious (d) mighty (e),
-          owing (f) connects (g) changes (h) living (1) huge (j) economic <br />
-          <br />
-          12. Suitable words (a) recent (b) essential (c) about (d) device (e)
-          called (f) abacus (g) refers (h) large (i) great (j) trained <br />
-          <br />
-          13. Suitable words (a) matter (b) careful (c) facing (d) make (e)
-          rescued (f) thinking (g) completely (h) story (i) tells (j) cheated
-          <br />
-          14. Suitable words (a) popular (b) expanding (c)over (d) invented (e)
-          within (f) spreads (g) misused (h) using (i) addicted (j) family{" "}
-          <br />
-          <br />
-          15. Suitable words (a) explosionالم (b) liabilities (c) thinking (d)
-          burdensome (e)poverty (f) planning (g) crisis (h) resource (1)
-          possible (1) alleviation <br />
-          <br />
-          16. Suitable wore (a) greatest (b) prestigious (c) organized/h (d)
-          different (e) Approximately (f) held (g) crowned (h) voted (i)
-          entertainment (j) remembered <br />
-          <br />
-          17. Suitable words (a) significant (b) birth (c) independent (d)
-          history (e) division (f) oppress (g) attacked (h) took (i) surrender
-          (j) victory <br />
-          <br />
-          18. Suitable words (a) necessary (b) follow (c) through (d) begins (e)
-          distribution (f) have (g) all (h) carefully (i) careful (1) use <br />
-          <br />
-          19. Suitable words (a) judging (b) character (c) easy (d) difficult
-          (e) need (f) helpful (g) keeps (h) cheated (i) selecting (j)
-          suggestions <br />
-          <br />
-          20. Suitable words (a) alarming (b) appears (c) rural (d) afflicted
-          (e) fertilizers (f) suffer (g) severely (h) differs VFW (i) substances
-          (j) causing <br />
-          <br />
-          21. (a) part (b) changing (c) towards (d) even (e) ask (1) from (g) no
-          (h) questions (1) hand (1) good <br />
-          <br />
-          22. (a) by (b) across (c) clothes (d) river (e) without (f) farther
-          (g) native (h) face (1) last (1) took <br />
-          <br />
-          23. (a) avoidable (b) fume (c) disposal (d) dumping (e) water-borne
-          (f) microphones (g) odour (h) creature (1) determined (1) avert <br />
-          <br />
-          24. (a) positive (b) recruiting (c) yet (d) religious (e) discourage
-          (1) allowed (g) safety (h) tied (1) possibility (j) wastage <br />
-          <br />
-          25. (a) learning (b) intellectual (c) attain (d) enlighten (e) choices
-          (f) sensibility (g) parochialism (h) aware (1) eloquence (1) darkness{" "}
-          <br />
-          <br />
-          26. (a) comrirunication (b) is (c) differs (d) conveys (e) through (f)
-          messages (g) same (h) distributes (i) form (f) contrary <br />
-          <br />
           27. (a) congratulation (b) success (c) extremely (d) delighted (e)
           informed (1) competition (g) performer (h) entire (1) earned (1)
           continuous <br />
