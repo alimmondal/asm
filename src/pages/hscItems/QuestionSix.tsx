@@ -52,6 +52,7 @@ const QuestionSix = () => {
         <br />
         (j) তাই সে মহান ব্যক্তিটির প্রতি উদাসীন আচরণ করলো, তাঁকে সামান্য খাবার
         এবং থাকার জন্য দীন বন্দোবস্ত করলো। <br />
+        Answer: dhajbifcge
         <br />
         2. Rajshahi Board-2025: Cumilla Board-2024 <br />
         Story of Abu Ben Adhem (আবু বেন আদেমের গল্প) <br />
@@ -81,6 +82,7 @@ const QuestionSix = () => {
         (h) একদা তিনি শান্তিতে ঘুমাচ্ছিলেন। <br />
         (i) প্রত্যুত্তরে ফেরেশতা বললেন যে, তার নাম সেখানে নেই। <br />
         (j) হঠাৎ তিনি জেগে উঠলেন এবং একজন ফেরেশতাকে দেখলেন। <br />
+        Answer: fbhjegicad
         <br />
         3. Jashore Board-2025; Uttara High School & College, Uttara, Dhaka-2025
         The Boyhood of Thomas Alva Edison (টমাস আলভা এডিসনের বাল্যকাল) <br />
@@ -111,7 +113,11 @@ const QuestionSix = () => {
         বাবার গোলাঘরে আগুন লাগিয়ে দিল। <br />
         (viii) তোমরা কি জানো ছেলেটি কে ছিল? <br />
         (ix) কখনো কখনো উত্তর দিয়ে তাকে সন্তুষ্ট করা কঠিন হয়ে যেত। <br />
-        (x) ছয়-সাত বছরের একটি ছোট ছেলে গ্রামের আলোচ্য বিষয়ে পরিণত হলো। <br />
+        (x) ছয়-সাত বছরের একটি ছোট ছেলে গ্রামের আলোচ্য বিষয়ে পরিণত হলো।
+        <br />
+        Answer: x iii ix iv vii ii vi i viii v or, x ix iii iv vii ii vi i viii
+        v
+        <br />
         <br />
         4. Cumilla Board-2025; Dinajpur Government Women's College,
         Dinajpur-2025 <br />
@@ -149,7 +155,10 @@ const QuestionSix = () => {
         (viii) বিখ্যাত ফারসি কবি শেখ সাদী সাধারণ জীবনযাপন করতেন। <br />
         (ix) এখন সাদী খাবারগুলো তার জামার পকেটে রাখতে শুরু করলেন। <br />
         (x) অমাত্য বিস্মিত হয়ে জিজ্ঞেস করলেন, 'আপনি খাবার আপনার জামার পকেটে
-        রাখছেন কেন? <br />
+        রাখছেন কেন?
+        <br />
+        Answer: viii v ii iii vi vii ix x i iv
+        <br />
         <br />
         5. Chattogram Board-2025; Dhaka Board-2023; Narall Govt. Victoria
         College, Narail-2025 The Grocer and the Fruit Seller (মুদি ও ফল
@@ -194,7 +203,10 @@ const QuestionSix = () => {
         (i) ফল বিক্রেতা বলল, "যেভাবে ইঁদুরে দাঁড়িপাল্লা ও বাটখারা খেতে পারে সেই
         একই ভাবে।" <br />
         (j) কিছুদিন পরে ফল বিক্রেতা মুদি দোকানীর কাছে তার দাঁড়িপাল্লা ও বাটখারা
-        ফেরত চাইল। <br />
+        ফেরত চাইল।
+        <br />
+        Answer: ejc h b f a d g i
+        <br />
         <br />
         6. Sylhet Board-2025 <br />
         A farmer & a purse of gold (এক কৃষক ও সোনার পাত্র) <br />
@@ -219,7 +231,10 @@ const QuestionSix = () => {
         (g) তার কয়েক একর জমি ছিল। <br />
         (h) এক গ্রামে এক কৃষক বাস করতো। <br />
         (i) সে ভাবলো যে কোনো পথিক হয়তো এটা ফেলে গেছে। <br />
-        (j) সে ভাবছিলো কীভাবে তার আয় বাড়াতে পারে। <br />
+        (j) সে ভাবছিলো কীভাবে তার আয় বাড়াতে পারে।
+        <br />
+        Answer: h g b d e j f i c a
+        <br />
         <br />
         7. Barishal Board-2025; Dhaka Board-2019; Viqarunnisa Noon College,
         Dhaka-2025 Detecting Thief Tactfully (সুকৌশলে চোর সনাক্ত করা) <br />
@@ -256,6 +271,8 @@ const QuestionSix = () => {
         করেছে। <br />
         (x) তিনি সন্দেহভাজন ব্যক্তিদের প্রত্যেককে সমান দৈর্ঘ্য বিশিষ্ট একটি করে
         লাঠি দিলেন এবং বললেন যে লাঠিগুলোর <br /> একট পরদিন এক ইঞ্চি বেড়ে যাবে।{" "}
+        <br />
+        Answer: iii ix i vi vii iv ii x vii
         <br />
         <br />
         8. Dinajpur Board-2025 <br />
@@ -296,7 +313,10 @@ const QuestionSix = () => {
         (viii) পাঁচ মিনিট শেষে কেউই তাদের বেলুন খুঁজে পেল না। <br />
         (ix) তারপর তিনি সকল অংশগ্রহণকারীকে কক্ষটিতে নিয়ে গেলেন এবং পাঁচ মিনিটের
         মধ্য তাদের নাম লেখা বেলুন খুঁজতে বললেন। <br />
-        (x) বস্তা প্রত্যেক অংশগ্রহণকারীকে একটি করে বেলুন দিলেন। <br />
+        (x) বস্তা প্রত্যেক অংশগ্রহণকারীকে একটি করে বেলুন দিলেন।
+        <br />
+        Answer: iv x ii v ix i vii iii vi vii
+        <br />
         <br />
         9. Mymensingh Board-2025 <br />
         Generous Mohsin (মহানুভব মহসিন) <br />
@@ -325,7 +345,11 @@ const QuestionSix = () => {
         (g) হাজী মুহম্মদ মহসীন খুবই সমৃদয় একজন মানুষ ছিলেন। <br />
         (h) তিনি জেগে উঠে চোরটিকে ধরে ফেললেন। <br />
         (i) তিনি খাবার ও পোশাক দিয়ে গরিব ও অসহায় লোকদের সাহায্য করতেন। <br />
-        (j)দরিদ্র লোকটির প্রতি তার করুণা হলো। <br />
+        (j)দরিদ্র লোকটির প্রতি তার করুণা হলো।
+        <br />
+        Answer: g e i c h d j f b a <br />
+        or, g i e c h d j f b a
+        <br />
         <br />
         10. Dhaka Board-2024 <br />
         Joynul Abedin (জয়নুল আবেদিন) <br />
@@ -362,7 +386,11 @@ const QuestionSix = () => {
         (i) তাই, ১৫ বছর বয়সে, তিনি কলকাতায় যান এবং একটি সরকারি আর্ট কলেজে ভর্তি
         হন। <br />
         (j) তিনি একজন মহান শিল্পী ছিলেন যিনি নিজের এবং তাঁর দেশের জন্য সুনাম ও
-        সুখ্যাতি অর্জন করেন। <br />
+        সুখ্যাতি অর্জন করেন।
+        <br />
+        Answer: e h b f j c i g a d <br />
+        or: f b j h e c i g a d
+        <br />
         <br />
         11. Rajshahi Board-2024: Holy Cross College, Dhaka-2025: Narail Govt.
         Victoria College-2025 Artificial Intelligence (AI): The fourth
@@ -399,7 +427,10 @@ const QuestionSix = () => {
         (g) চতুর্থ বিপ্লব দরজায় কড়া নাড়ছে। <br />
         (h) যারা এতে দক্ষ, তারা সফলভাবে টিকে থাকবে। <br />
         (i) এই ধরনের শিক্ষার জন্য আমরা এখনও প্রস্তুত হইনি। <br />
-        (j) এই বিপ্লব পৃথিবীকে একটি যন্ত্রনির্ভর পৃথিবীতে পরিণত করবে। <br />
+        (j) এই বিপ্লব পৃথিবীকে একটি যন্ত্রনির্ভর পৃথিবীতে পরিণত করবে।
+        <br />
+        Answer: g c j e a h d i f b
+        <br />
         <br />
         12. Jashore Board-2024; Sylhet Board-2016; Joypurhat Government College,
         Joypurhat-2025 <br />
@@ -431,7 +462,10 @@ const QuestionSix = () => {
         (g) মনিব তার খাবার খেতে এলেন এবং লক্ষ করলেন যে এর একটি পা নেই। <br />
         (h) তিনি বললেন যে এক পা-বিশিষ্ট কোন পাতিহাঁস হয় না। <br />
         (i) সে জোর দিয়ে বলল যে পাতিহাঁসটির একটি মাত্র পা ছিল। <br />
-        (j) তিনি অন্য পা-টির কী হয়েছে সেটা জানতে চাইলেন। <br />
+        (j) তিনি অন্য পা-টির কী হয়েছে সেটা জানতে চাইলেন।
+        <br />
+        Answer: f b g j d e c h a i
+        <br />
         <br />
         13. Chattogram Board-2024; Gaibandha Government Women's College,
         Gaibandha-2025 Story of a thirsty crow (এক তৃষ্ণার্ত কাকের গল্প)
@@ -466,6 +500,9 @@ const QuestionSix = () => {
         (i)যখন কলসটির মুখে পানি আসলো, কাকটি তা পান করলো এবং তার তৃষ্ণা মেটালো।{" "}
         <br />
         (j) যখন প্রত্যেকটি নুড়ি নিচে পড়লো, কলসের পানি অল্প অল্প করে উপরে উঠলো।{" "}
+        <br />
+        Answer: h e b d a c g f j i
+        <br />
         <br />
         14. Barishal Board-2024; Adamjee Cantonment College, Dhaka-2025 <br />
         Story of Nasiruddin Hojja and a beggar (নাসিরুদ্দীন হোজ্জা ও ভিখারি){" "}
@@ -508,7 +545,10 @@ const QuestionSix = () => {
         (h) তিনি দেখলেন সিঁড়ির নিচে একজন লোক দাঁড়িয়ে আছে এবং তাকে নিচে নেমে তার
         কথা শুনতে বলছিল। <br />
         (i) তাই তিনি লোকটিকে সিঁড়ি বেয়ে তার সাথে উপরে উঠতে বললেন। <br />
-        (j) উৎসুক হয়ে, তিনি ছাদ থেকে নামলেন এবং সিঁড়ি দিয়ে নিচে গেলেন। <br />
+        (j) উৎসুক হয়ে, তিনি ছাদ থেকে নামলেন এবং সিঁড়ি দিয়ে নিচে গেলেন।
+        <br />
+        Answer: e b h j d a i g f c
+        <br />
         <br />
         15. Dinajpur Board-2024; Bhola Government College, Bhola-2025 <br /> A
         Dedicated Soul: Mother Teresa (মাদার তেরেসা এক নিবেদিত প্রাণ) <br />
@@ -544,7 +584,10 @@ const QuestionSix = () => {
         করেন। <br />
         (h) তিনি ১৯১০ সালে যুগোস্লাভিয়ায় জন্মগ্রহণ করেন। <br />
         (1) পরের বছর তাঁকে ভারতরত্ন পুরস্কারও প্রদান করা হয়। <br />
-        (1) তোমরা মাদার তেরেসার নাম শুনেছ। <br />
+        (1) তোমরা মাদার তেরেসার নাম শুনেছ।
+        <br />
+        Answer: j e h f a g b d i c
+        <br />
         <br />
         16. Dhaka Board-2022; Jashore Board-2017; Chattogram Board-2023:
         Mymensingh Board-2024 <br />
@@ -574,7 +617,11 @@ const QuestionSix = () => {
         তাঁর কাছে প্রার্থনা করলো। <br />
         (h) তিনি বালকটিকে শিক্ষাদান করতে সম্মত হলেন। <br />
         (i) সে জ্ঞান অর্জন করার ইচ্ছা প্রকাশ করলো। <br />
-        (j) শিক্ষক বালকটির যোগ্যতা পরখ করতে চাইলেন। <br />
+        (j) শিক্ষক বালকটির যোগ্যতা পরখ করতে চাইলেন।
+        <br />
+        Answer: c i g j a e d b h a
+        <br />
+        <br />
         <br />
         17. Rajshahi Board-2023; Sylhet Board-2023; Mirpur Girls' Ideal College,
         Dhaka-2025 <br />
@@ -605,7 +652,10 @@ const QuestionSix = () => {
         <br />
         (1) সে সর্বত্র খাবারের সন্ধান করলো কিন্তু সে কোনো খাদ্য/খাবার পেলো না।{" "}
         <br />
-        (1) আঙ্গুর গাছে পরিপক্ষ/পাকা আঙ্গুর ঝুলে ছিলো। <br />
+        (1) আঙ্গুর গাছে পরিপক্ষ/পাকা আঙ্গুর ঝুলে ছিলো।
+        <br />
+        Answer: e a i d j b h c f g
+        <br />
         <br />
         18. Dhaka Board-2017; Rajshahi Board-2022; Jashore Board-2023 <br />{" "}
         Sultan's Tax Collector Recruitment (সুলতানের কর সংগ্রাহক নিয়োগ) <br />
@@ -632,7 +682,10 @@ const QuestionSix = () => {
         (g) একজন ছাড়া সকল আবেদনকারী লজ্জিত হলো এবং প্রত্যাখ্যাত হলো। <br />
         (h) সুতরাং তাই তিনি বিজ্ঞ সভাসদগণের পরামর্শ চাইলেন। <br />
         (i) যখন তারা পৌছালো/পৌঁছেছিল, সুলতান তাদেরকে নাচতে বলল। <br />
-        (j) তারা যে পথ ধরে এসেছিলো সেখানে স্বর্ণমুদ্রা রাখা ছিলো। <br />
+        (j) তারা যে পথ ধরে এসেছিলো সেখানে স্বর্ণমুদ্রা রাখা ছিলো।
+        <br />
+        Answer: c e h a f b j i g b
+        <br />
         <br />
         19. Cumilla Board-2023: Military Collegiate School & College, Fultala,
         Khulna-2025 <br /> Dr. Mohammad Shahidullah <br /> <br /> (ড. মুহাম্মদ
@@ -665,7 +718,10 @@ const QuestionSix = () => {
         (h) তিনি ১৯১০ ও ১৯১২ সালে স্নাতক ও স্নাতকোত্তর পাশ করেন। <br />
         (0) তিনি ১৯২১ সালে ঢাকা বিশ্ববিদ্যালয়ে প্রভাষক হিসাবে যোগদান করেন।{" "}
         <br />
-        (1) তিনি ১৯২৮ সালে তাঁর পিএইচডি ডিগ্রি লাভ করেন। <br />
+        (1) তিনি ১৯২৮ সালে তাঁর পিএইচডি ডিগ্রি লাভ করেন।
+        <br />
+        Answer: d a c f h e i j g b
+        <br />
         <br />
         20. Barishal Board-2023: Rangpur Cadet College-2025; Milestone College,
         Uttara, Dhaka-2025 Free thinker <br /> Aristotle (মুক্তচিন্তক
@@ -699,7 +755,10 @@ const QuestionSix = () => {
         (h) "পলিটিক্স" তাঁর অন্যতম বিখ্যাত গ্রন্থ যেখানে তাঁর জ্ঞানের পরিপূর্ণ
         বিকাশ ঘটেছে। <br />
         (i) তিনি একজন মুক্ত চিন্তক/চিন্তাবিদ হতে চেয়েছিলেন। <br />
-        (1) তিনি ছিলেন একজন রাজকীয় চিকিৎসকের পুত্র। <br />
+        (1) তিনি ছিলেন একজন রাজকীয় চিকিৎসকের পুত্র।
+        <br />
+        Answer: d j e i a c f h b g
+        <br />
         <br />
         21. Dinajpur Board-2023: Sirajganj Government College, Sirajganj-2025{" "}
         <br />
@@ -734,7 +793,10 @@ const QuestionSix = () => {
         (h) ইতিমধ্যে তারা গর্তের নিকটে ছড়ানো রত্ন দেখতে পেলো। <br />
         (i) কাকটির বাসাতে চারটি ছোটো বাচ্চা ছিলো। <br />
         (j) যখনই কাকটি খাবার/খাদ্য আনতে বাসা ছেড়ে চলে যায়, সাপটি উপরে ওঠে এবং
-        একটি করে বাচ্চা খেয়ে ফেলত। <br />
+        একটি করে বাচ্চা খেয়ে ফেলত।
+        <br />
+        Answer: d f i j g b c e h a
+        <br />
         <br />
         22. Mymensingh Board-2023: Moulvibazar Government College,
         Moulvibazar-2025 <br />
@@ -768,7 +830,10 @@ const QuestionSix = () => {
         (h) কিছুদিন পর সে গ্রামবাসীকে ডাকল এবং তাদেরকে কিছু বলল। <br />
         (i) সে এতই অজ্ঞ ছিলো যে নিজের বয়সও বলতে পারতো না, কিন্তু সে গল্প তৈরি
         করতে পারতো। <br />
-        (j) গ্রামবাসী এক ব্যক্তির দ্বারা মোহিত থাকত। <br />
+        (j) গ্রামবাসী এক ব্যক্তির দ্বারা মোহিত থাকত।
+        <br />
+        Answer:fj c i a d e g h b
+        <br />
         <br />
         23. Cumilla Board-2022 <br />
         The struggle of Nelson Mandela (নেলসন ম্যান্ডেলার সংগ্রাম) <br />
@@ -800,7 +865,10 @@ const QuestionSix = () => {
         (h) শেতাঙ্গ আফ্রিকান নেতা এফ,ডব্লিউ, ক্লার্ক বর্ণবাদের সমাপ্তি নিয়ে
         আলোচনা করেছিলেন। <br />
         (i)কৃষ্ণাঙ্গদের সাথে নিষ্ঠুর আচরণ করা হতো। <br />
-        (j) তারা সকল মৌলিক মানবাধিকার থেকে বঞ্চিত ছিল। <br />
+        (j) তারা সকল মৌলিক মানবাধিকার থেকে বঞ্চিত ছিল।
+        <br />
+        Answer: e i j c g f b/h h/b a d
+        <br />
         <br />
         24. Chattogram Board-2022; Dinajpur Board-2022; Cumilla Board-2019 Our
         National Poet Kazi Nazrul Islam <br /> (আমাদের জাতীয় কবি কাজী নজরুল
@@ -843,7 +911,10 @@ const QuestionSix = () => {
         থেকে বাংলাদেশে আনা হয়। <br />
         (i) কাজী নজরুল ইসলাম ১৮৯৯ সালে পশ্চিমবঙ্গের বর্ধমান জেলায় জন্মগ্রহণ
         করেন। <br />
-        (j) তারপর বাংলাদেশ সরকার তাকে আমাদের জাতীয় কবি হিসেবে ঘোষণা করে। <br />
+        (j) তারপর বাংলাদেশ সরকার তাকে আমাদের জাতীয় কবি হিসেবে ঘোষণা করে।
+        <br />
+        Answer: i c d e b g f h j a
+        <br />
         <br />
         25. Sylhet Board-2022; Padma Government College, Dohar, Dhaka-2025{" "}
         <br />
@@ -882,7 +953,10 @@ const QuestionSix = () => {
         পদ্ধতিতে পরিণত হয়েছে। <br />
         (i) এই মহামারি রোগটি যে সুযোগ তৈরি করেছে তা আমাদের অবশ্যই গ্রহণ করতে
         হবে। <br />
-        (j) যাহোক, আশার একটি আলো রয়েছে। <br />
+        (j) যাহোক, আশার একটি আলো রয়েছে।
+        <br />
+        Answer: cea dg b j f hi
+        <br />
         <br />
         26. Barishal Board-2022; Barguna Govt. College, Barguna-2024 <br />
         Haji Mohammad Mohsin (হাজী মুহাম্মদ মহসিন) <br />
@@ -909,7 +983,59 @@ const QuestionSix = () => {
         (g) এক রাতে তার শয়নকক্ষে এক চোর ঢুকলো। <br />
         (h) লোকটি বললো, "জনাব, আমি খুব দরিদ্র, আমার ঘরে কোনো খাবার নেই।" <br />
         (i) হাজী মোহাম্মদ মহসিন একজন খুব দয়ালু লোক ছিলেন। <br />
-        (j) তিনি চোরকে ব্যবসা শুরু করার জন্য কিছু টাকা দিলেন। <br />
+        (j) তিনি চোরকে ব্যবসা শুরু করার জন্য কিছু টাকা দিলেন।
+        <br />
+        Answer: i f e g b h d a c j
+        <br />
+        <br />
+        27. bd e h a c j g i f
+        <br />
+        28. cf h ad g bj i e
+        <br />
+        29.eadb i c g h j f
+        <br />
+        30. c g d f e j b h a i
+        <br />
+        31. bc e i h f a gjd
+        <br />
+        32. d a i c g j h b e f
+        <br />
+        33. h i b a/d d/a e c g i f
+        <br />
+        34. e gf j h a c i d b
+        <br />
+        35. c g b d j e f i a h
+        <br />
+        36. i e b j h c g a f d
+        <br />
+        37. d g a b e i j f h c
+        <br />
+        38. c e h f g a b i d j
+        <br />
+        39. a e h i g f d j c b
+        <br />
+        40. d a f b e c j i g h
+        <br />
+        41. c db a f e h g j i
+        <br />
+        42. e j b ci g d f h a
+        <br />
+        43. if g h j b d a e
+        <br />
+        44. d f i j e g a h c d
+        <br />
+        45. c f e g b hd i a j
+        <br />
+        46. c d e f g a h i j b
+        <br />
+        47. d g f j a e b h i c
+        <br />
+        48. d h j c a bi eg a
+        <br />
+        49. cd f i b h j e a g
+        <br />
+        50. c i j f d g a e h b
+        <br />
         <br />
       </div>
     </div>

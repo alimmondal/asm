@@ -326,20 +326,22 @@ const QuestionFive = () => {
         শিকার হয়। বাংলাদেশে কনেপক্ষের কাছে যৌতুক দেওয়াটা এখনও একটি স্বাভাবিক
         ব্যাপার, যদিও এই প্রচলন বে-আইনি। বিয়ের পরও যৌতুকের দাবি চলতে থাকে।
         অপ্রাপ্তবয়স্ক কনের ক্ষেত্রে, তার শ্বশুরবাড়ি সহায়ক হলেও গর্ভধারণ এবং
-        সন্তান জন্মদানের ক্ষেত্রে বিরাট। স্বাস্থ্য ঝুঁকি থেকে যায়। <br />
+        সন্তান জন্মদানের ক্ষেত্রে বিরাট। স্বাস্থ্য ঝুঁকি থেকে যায়। অপ্রাপ্তবয়স্ক
+        স্ত্রী এবং তাদের পরিবার প্রজনন স্বাস্থ্য এবং গর্ভনিরোধ সম্পর্কে হয়তো
+        কিছুই জানে না, নয়তো অল্প জানে। কিশোরীদের ক্ষেত্রে মাতৃ মৃত্যুহার জাতীয়
+        গড় হারের দ্বিগুণ।
+        <br />
         <br />
       </div>
       <div className="">
-        অপ্রাপ্তবয়স্ক স্ত্রী এবং তাদের পরিবার প্রজনন স্বাস্থ্য এবং গর্ভনিরোধ
-        সম্পর্কে হয়তো কিছুই জানে না, নয়তো অল্প জানে। কিশোরীদের ক্ষেত্রে মাতৃ
-        মৃত্যুহার জাতীয় গড় হারের দ্বিগুণ। <br />
+        16. Dinajpur Board-2024 <br />
+        Money is power and can do much good and evil. It gives(a) __ and delight
+        . It (b) __ - do everything A person without (c) __ is a person to be
+        pitied. Nobody pays (d) __ respect to him. His friends do not (e) __
+        him. He has to depend on the (f) __ of others. In order to (g) __ money,
+        he does a lot of jobs. It is a must (h) __ our life. But it does not
+        necessarily (i) __ happiness. Happiness is absolutely a (j) __ matter.{" "}
         <br />
-        16. Dinajpur Board-2024 Money is power and can do much good and evil. It
-        gives(a) and delight . It (b) - do everything A person without (c) is a
-        person to be pitied. Nobody pays (d) respect to him. His friends do not
-        (e) him. He has to depend on the (f) of others. In order to (g) money,
-        he does a lot of jobs. It is a must (h) our life. But it does not
-        necessarily (i) happiness. Happiness is absolutely a (j) matter. <br />
         অর্থই শক্তি এবং অনেক ভালো ও মন্দ করতে পারে। এটি স্বস্তি এবং আনন্দ দেয়।
         এটি সবকিছু করতে পারে। অর্থবিহীন একজন মানুষ করুণার পাত্র। কেউই তাকে কোনো
         সম্মান করে না। তার বন্ধুরা তাকে মূল্য দেয় না। তাকে অন্যের করুণার উপর
@@ -347,13 +349,13 @@ const QuestionFive = () => {
         আমাদের জীবনের জন্য অপরিহার্য। কিন্তু এটি প্রয়োজনীয় সুখ বয়ে আনে না। সুখ
         সম্পূর্ণই আপেক্ষিক বিষয়। <br />
         <br />
-        17. Mymensingh Board-2024: Ananda Mohan College, Mymensingh-2023 Self
-        employment means to create job opportunities for oneself by one's own
-        effort. Various government organizations (a)trying to create (b)
-        congenial atmosphere for (c) . Different NGOs have (d) rendered their
-        help. Livestock (e) - agriculture farming.poultry (f) - are some of (g)
-        sectors. There are (h) opportunities for self (i) . in Bangladesh. One
-        (j) – easily engage oneself in these jobs. <br />
+        17. Mymensingh Board-2024: Ananda Mohan College, Mymensingh-2023 <br />
+        Self employment means to create job opportunities for oneself by one's
+        own effort. Various government organizations (a) __ trying to create (b)
+        __ congenial atmosphere for (c) __ . Different NGOs have (d) __ rendered
+        their help. Livestock (e) __ - agriculture farming.poultry (f) __ - are
+        some of (g) __ sectors. There are (h) __ opportunities for self (i) __ .
+        in Bangladesh. One (j) __ – easily engage oneself in these jobs. <br />
         <br />
         আত্ম-কর্মসংস্থান মানে নিজের প্রচেষ্টায় নিজের জন্য কাজের সুযোগ তৈরি করা।
         বিভিন্ন সরকারী সংস্থা একটি অনুকূল পরিবেশ সৃষ্টি করার চেষ্টা করছে।
@@ -363,18 +365,20 @@ const QuestionFive = () => {
         নিযুক্ত করতে পারে। <br />
         <br />
         19. Noubahini College, Dhaka-2025; Rajshahi Board-2023: Narail Govt.
-        Victoria College-2025 The process of globalization obviously requires a
-        common language for international communication. For many different
-        reasons, English has (a) the (b) of national being that language. As a
-        result, it has (c) borders to reach people who speak other languages. It
-        is no longer the (d) possession of British or American or other native
-        speakers, but a language that (e) - to the world's people. In fact,
-        bilingual and multilingual users of English far (f) its monolingual
-        native speakers. This phenomenon has led to a (g) variety of English
-        around the world. As more and more people speak English. more and more
-        varieties have (h) which are strongly influenced by the pronunciation,
-        grammar and idioms of the (i) mother tongues. World English has now (j)
-        away from the control of Its native speakers. <br />
+        Victoria College-2025 <br />
+        The process of globalization obviously requires a common language for
+        international communication. For many different reasons, English has (a)
+        __ the (b) __ of national being that language. As a result, it has (c)
+        __ borders to reach people who speak other languages. It is no longer
+        the (d) __ possession of British or American or other native speakers,
+        but a language that (e) __ - to the world's people. In fact, bilingual
+        and multilingual users of English far (f) __ its monolingual native
+        speakers. This phenomenon has led to a (g) __ variety of English around
+        the world. As more and more people speak English. more and more
+        varieties have (h) __ which are strongly influenced by the
+        pronunciation, grammar and idioms of the (i) __ mother tongues. World
+        English has now (j) __ away from the control of Its native speakers.{" "}
+        <br />
         বিশ্বায়ন প্রক্রিয়ায় আন্তর্জাতিক যোগাযোগের জন্য অবশাই একটি সার্বজনীন ভাষা
         প্রয়োজন। বিবিধ কারনে, ইংরেজি ঐ ভাষা হওয়ার মর্যাদা অর্জন করেছে। ফলে, যেসব
         মানুষ অন্যান্য ভাষায় কথা বলে তাদের নিকট পৌছতে এটি জাতীয় সীমা অতিক্রম
@@ -386,13 +390,13 @@ const QuestionFive = () => {
         উচ্চারণ, ব্যাকরণ ও বাগধারা দ্বারা ব্যাপকভাবে প্রভাবিত। বিশ্ব ইংরেজি এখন
         এর দেশী বক্তাদের নিয়ন্ত্রণ থেকে পিছলে গেছে। <br />
         <br />
-        20. Jashore Board-2023: Cumilla Board-2013: Sylhet Board-2006 Air and
-        water are two Important (a) environments. These elements are (b) for
-        life on earth.They are often © in many ways . Air is polluted by (d) and
-        water by different kinds of waste and (e) . If we want to live (f) life,
-        we should (g) the pollution of the environment. Total prevention may be
-        (h) but we can certainly (i) pollution by raising (j) among people.{" "}
-        <br />
+        20. Jashore Board-2023: Cumilla Board-2013: Sylhet Board-2006 <br />
+        Air and water are two Important (a) __ environments. These elements are
+        (b) __ for life on earth.They are often © in many ways . Air is polluted
+        by (d) __ and water by different kinds of waste and (e) __ . If we want
+        to live (f) __ life, we should (g) __ the pollution of the environment.
+        Total prevention may be (h) __ but we can certainly (i) __ pollution by
+        raising (j) __ among people. <br />
         <br />
         বায়ু এবং পানি পরিবেশের দুটি গুরুত্বপূর্ণ উপাদান। এসব উপাদান পৃথিবীতে
         জীবের জন্য অপরিহার্য। এসব উপাদান প্রায়ই বিভিন্নভাবে দূষিত হচ্ছে। ধোঁয়া
@@ -402,13 +406,13 @@ const QuestionFive = () => {
         মধ্যে সচেতনতা জাগরিত করে দূষণ কমিয়ে রাখতে পারি। <br />
         <br />
         21. Cumilla Board-2023; Military Collegiate School & College, Fultala,
-        Khulna-2025 A large number of people learn English (a) world. Some
-        people use it (b) a first language and some people take it as a(c)
-        language. Many international (d) now depend on English for (e) with
-        offices in different countries. They offer employment to people (f)
-        adequate knowledge of English. The advertisements (g) in many dailies
-        (h) in English. So, it would not be (i) to neglect this (j) language.{" "}
-        <br />
+        Khulna-2025 <br />A large number of people learn English (a) __ world.
+        Some people use it (b) __ a first language and some people take it as
+        a(c) __ language. Many international (d) __ now depend on English for
+        (e) __ with offices in different countries. They offer employment to
+        people (f) __ adequate knowledge of English. The advertisements (g) __
+        in many dailies (h) __ in English. So, it would not be (i) __ to neglect
+        this (j) __ language. <br />
         <br />
         বিশ্বজুড়ে ব্যাপক সংখ্যায় মানুষ ইংরেজি শিখ। কিছু মানুষ একে মাতৃভাষা
         হিসেবে ব্যবহার করে আর কিছু মানুষ একে দ্বিতীয় ভাষা হিসেবে নেয়। অনেক
@@ -418,13 +422,14 @@ const QuestionFive = () => {
         প্রকাশিত হয়। সুতরাং, এই আন্তর্জাতিক ভাষাকে অবহেলা করা বুদ্ধিদীপ্ত হবে
         না। <br />
         <br />
-        22. Chattogram Board-2023 Education is one of the basic needs of a human
-        being. It is (a) for the (b) of mind. Many illiterate people do not have
-        any (c) of health. If they (d) educated, they could live a (e) and
-        planned life. Education teaches us how to live well. It (f) us to make
-        the right (g) in life. It enhances our (h) to perform our duties
-        properly and (i) our everyday problems. In fact, it is education (j)
-        brings positive change well. It (f) in our life. <br />
+        22. Chattogram Board-2023 <br />
+        Education is one of the basic needs of a human being. It is (a) __ for
+        the (b) __ of mind. Many illiterate people do not have any (c) __ of
+        health. If they (d) __ educated, they could live a (e) __ and planned
+        life. Education teaches us how to live well. It (f) __ us to make the
+        right (g) __ in life. It enhances our (h) __ to perform our duties
+        properly and (i) __ our everyday problems. In fact, it is education (j)
+        __ brings positive change well. It (f) __ in our life. <br />
         <br />
         শিক্ষা একজন মানুষের অন্যতম মৌলিক চাহিদা। এটা মানসিক উন্নতির জন্য
         অত্যাবশ্যক। অনেক নিরক্ষর লোকের স্বাস্থ্য সম্বন্দ্বে কোনো জ্ঞান নেই। তারা
@@ -434,81 +439,53 @@ const QuestionFive = () => {
         করতে আমাদের সামর্থ্য বৃদ্ধি করে এবং আমাদের দৈনন্দিন সমস্যাগুলো সমাধান
         করে। বস্তুত, শ্লিক্ষাই আমাদের জীবনে ইতিবাচক পরিবর্তন নিয়ে আসে। <br />
         <br />
-        23. Sylhet Board-2023 Kuakata is a rare scenic spot (a) in Patuakhali
-        district about 320 km (b) Dhaka. It is a famous (c) destination because
-        of the picturesque (d) beauty, sandy beaches, blue sky and the
-        shimmering expanse of water of the Bay of Bengal and the evergreen (e)
-        -. The name Kuakata (f) from the digging of a well (kua) by the early
-        Rakhaines for (g) water. Kuakata allows its visitors to (h) both sunrise
-        and sunset from the (i) . Gentle and sandy slopes make it (j) for
-        bathing swimming and diving <br />
+        23. Sylhet Board-2023 <br />
+        Kuakata is a rare scenic spot (a) __ in Patuakhali district about 320 km
+        (b) __ Dhaka. It is a famous (c) __ destination because of the
+        picturesque (d) __ beauty, sandy beaches, blue sky and the shimmering
+        expanse of water of the Bay of Bengal and the evergreen (e) __ -. The
+        name Kuakata (f) __ from the digging of a well (kua) __ by the early
+        Rakhaines for (g) __ water. Kuakata allows its visitors to (h) __ both
+        sunrise and sunset from the (i) __ . Gentle and sandy slopes make it (j)
+        __ for bathing swimming and diving <br />
         <br />
         ঢাকা থেকে ৩২০ কি.মি. দূরে পটুয়াখালি জেলায় অবস্থিত কুয়াকাটা একটি দর্শনীয়
         স্থান। মনোরম প্রাকৃতিক সৌন্দর্য, বালুকাময় সৈকত, নীল আকাশ ও বঙ্গোপসাগরের
         পানির ঝিলমিল বিস্তৃতি এবং চির হরিৎ বনের কারণে এটি একটি বিখ্যাত পর্যটন
         কেন্দ্র। কুয়াকাটা নামটি এসেছে পানীয় পানির জন্য/পানি সংগ্রহের জন্য প্রথম
-        দিকে রাখাইনদের দ্বারা খননকৃত একটি কূপ (কোয়া) থেকে। কুয়াকাটা এর
+        দিকে রাখাইনদের দ্বারা খননকৃত একটি কূপ (কোয়া) __ থেকে। কুয়াকাটা এর
         ভ্রমণকারীদের সৈকত হতে সূর্যোদয় ও সূর্যাস্ত দেখার সুযোগ করে দেয়। মৃদু ও
         বালুকাময় ঢাল গোসল করা, সাতার কাটা ও ডাইভিং করার জন্য একে আনন্দময় করে
         তুলে। <br />
         <br />
         24. Barishal Board-2023 & 2004; Blue Bird High School & College,
-        Sylhet-2025 Student life is a life of (a) -for future struggle. To make
-        him (b) for the struggle, education is necessary. So the first and
-        foremost duty of a student ©- to prosecute his studies well. He who (d)
-        his lessons regularly (e) well in the examination. On the (f) the
-        student who wastes his time cuts a figure. It should be (h) -in mind
-        that none can get back (i) time. If students neglect their studies they
-        will suffer in the (j) run.
+        Sylhet-2025 <br />
+        Student life is a life of (a) __ -for future struggle. To make him (b)
+        __ for the struggle, education is necessary. So the first and foremost
+        duty of a student ©- to prosecute his studies well. He who (d) __ his
+        lessons regularly (e) __ well in the examination. On the (f) __ the
+        student who wastes his time cuts a figure. It should be (h) __ -in mind
+        that none can get back (i) __ time. If students neglect their studies
+        they will suffer in the (j) __ run.
         <br />
         ছাত্রজীবন হলো ভবিষ্যত সংগ্রামের জন্য প্রস্তুতি নেওয়ার জীবন। তাকে
         সংগ্রামের জন্য প্রস্তুত করতে শিক্ষা প্রয়োজন। সুতরাং, একজন ছাত্রের প্রথম
-        ও সবচেয়ে গরুত্বপূর্ণ কর্তব্য হলো ভালোভাবে তার পড়া-লেখা চালিয় <br />
+        ও সবচেয়ে গরুত্বপূর্ণ কর্তব্য হলো ভালোভাবে তার পড়া-লেখা চালিয় যাওয়া। যে
+        নিয়মিত পড়া-লেখা করে সে পরীক্ষায় ভালো করে। অন্যদিকে যে ছাত্র তার সময় নষ্ট
+        করে সে খারাপ করে। তার মনে রাখা উচিত হারানো সময় কেউ ফিরে পায় না। যদি
+        শিক্ষার্থীরা তাদের পড়া-লেখাকে অবহেলা করে, পরিণামে তারা ভুগবে।
         <br />
-        25. Dinajpur Board-2023 The environment (a) various things. All the
-        things of the environment are related to (b) another. Any change in the
-        ecosystem can (c) all the other parts. To prevent the environment from
-        destruction is the (d) of human beings. The environment should be (e)
-        neat and clean to enjoy a healthy and comfortable (f) . But people are
-        not (g) of the dangerous effect of the ecological change. They do unwise
-        things and bring about dangers for their own Imbalance in the cocology
-        brings about climatic (1) and the result of the change is various (b)
-        natural (1) <br />
         <br />
-        26. Board-2015 & 2008; Sylhet Board-2005 26. Dhaka Board-2022; Rajshahi
-        Board-2017; Cumilla
-        <br />
-        Sincerity is the best way of achieving success. One | can go a long way
-        if one does anything with sincerity. People who are sincere in their
-        work are (a) of making anything success. The great men that sincerity
-        are also sincere because they (b) is the (c) - to success. Those who are
-        not (d) can never (e) a long way in the world. The poor people are not
-        always sincere because they do not know the (f) of sincerity. If they
-        knew it they would (g) a good use of it. Sincerity means not only to do
-        work (h) but also with dutifulness, honesty, modesty and good behaviour.
-        If all of us (i) sincere, our country will (j) be prosperous. <br />
-        <br />
-        27. Rajshahi Board-2022: Dhaka Board-2010 Language plays a very (a) role
-        in our lives. We use language from the (b) We wake up in morning (c) we
-        go to bed at night. We use language not only during h (d) hours but also
-        in our dreams. We use language to (e) what we feel and to say (f) we
-        like or dislike. We also use language to (g) information. In short
-        language is (h) present in our life. It is part an (i) of what we do,
-        (j) and believe, <br />
-        <br />
-        28. Dhaka Board-2014: Jashore Board-2022; Sylhet Civility means polite
-        (a) or modesty. It also (b) courteous manner. It is a great virtue (c)
-        man. To be well-behaved, or good-natured we (d) spend money or wealth.
-        We have to (e) willingness to attain civility. We have to (f) code of
-        conduct and (g) the norms of etiquette of the society. It (h) some from
-        society to society. However, one has to (i) good manner in one's
-        character from an early age. No expenditure (j) consciousness is
-        required.
-        <br />
-        যাওয়া। যে নিয়মিত পড়া-লেখা করে সে পরীক্ষায় ভালো করে। অন্যদিকে যে ছাত্র
-        তার সময় নষ্ট করে সে খারাপ করে। তার মনে রাখা উচিত হারানো সময় কেউ ফিরে পায়
-        না। যদি শিক্ষার্থীরা তাদের পড়া-লেখাকে অবহেলা করে, পরিণামে তারা ভুগবে।
-        <br />
+        25. Dinajpur Board-2023 <br />
+        The environment (a) __ various things. All the things of the environment
+        are related to (b) __ another. Any change in the ecosystem can (c) __
+        all the other parts. To prevent the environment from destruction is the
+        (d) __ of human beings. The environment should be (e) __ neat and clean
+        to enjoy a healthy and comfortable (f) __ . But people are not (g) __ of
+        the dangerous effect of the ecological change. They do unwise things and
+        bring about dangers for their own Imbalance in the cocology brings about
+        climatic (1) __ and the result of the change is various (b) __ natural
+        (1) __ <br />
         পরিবেশ অনেক কিছু ধারণ করে। পরিবেশের সব বস্তু একে অন্যের সাথে
         সম্পর্কযুক্ত/জড়িত। বাস্তুতন্ত্রের যেকোনো পরিবর্তন অন্যান্য অংশকে
         প্রভাবিত করতে পারে। পরিবেশকে ধ্বংসের হাত থেকে রক্ষা করা মানুষের দায়িত্ব।
@@ -518,6 +495,20 @@ const QuestionFive = () => {
         বাস্তুতন্ত্রে ভারসাম্যহীনতা জলবায়ুগত পরিবর্তন নিয়ে আসে আর এ পরিবর্তনের
         ফল হচ্ছে বিভিন্ন ধরনের প্রাকৃতিক, বিপর্যয়/দুর্যোগ।
         <br />
+        <br />
+        26. Board-2015 & 2008; Sylhet Board-2005 26. Dhaka Board-2022; Rajshahi
+        Board-2017; Cumilla
+        <br />
+        Sincerity is the best way of achieving success. One | can go a long way
+        if one does anything with sincerity. People who are sincere in their
+        work are (a) __ of making anything success. The great men that sincerity
+        are also sincere because they (b) __ is the (c) __ - to success. Those
+        who are not (d) __ can never (e) __ a long way in the world. The poor
+        people are not always sincere because they do not know the (f) __ of
+        sincerity. If they knew it they would (g) __ a good use of it. Sincerity
+        means not only to do work (h) __ but also with dutifulness, honesty,
+        modesty and good behaviour. If all of us (i) __ sincere, our country
+        will (j) __ be prosperous. <br />
         সফলতা অর্জনের সর্বোত্তম পন্থা হচ্ছে সচেতনতা/আন্তরিকতা। যে কোনো ব্যক্তি
         অনেক পথ অগ্রসর হতে পারে যদি সে যে কোনো কাজ আন্তরিকতার সাথে করে। যে সকল
         লোক তাদের কাজে-কর্মে আন্তরিক তারা যে কোনোকিছুকে সফল করার ব্যাপারে
@@ -527,48 +518,70 @@ const QuestionFive = () => {
         জানে না। যদি তারা তা জানতো, তবে তারা এর সদ্ব্যবহার করত। আন্তরিকতা বলতে
         শুধু যথাযথভাবে কাজ করাকেই বুঝায় তা নয়, কর্তব্যপরায়ণতার সাথে কাজ করা ও
         সততা, ও বিনয় ও ভাল আচরণ করাকেও বুঝায়। যদি আমাদের সকলেই আন্তরিক হই তবে
-        নিশ্চয়ই আমাদের দেশ সমৃদ্ধশালী হয়ে উঠবে। <br />
+        নিশ্চয়ই আমাদের দেশ সমৃদ্ধশালী হয়ে উঠবে।
         <br />
+        <br />
+        27. Rajshahi Board-2022: Dhaka Board-2010 <br />
+        Language plays a very (a) __ role in our lives. We use language from the
+        (b) __ We wake up in morning (c) __ we go to bed at night. We use
+        language not only during h (d) __ hours but also in our dreams. We use
+        language to (e) __ what we feel and to say (f) __ we like or dislike. We
+        also use language to (g) __ information. In short language is (h) __
+        present in our life. It is part an (i) __ of what we do, (j) __ and
+        believe. <br />
         ভাষা আমাদের জীবনে খুব গুরুত্বপূর্ণ ভূমিকা পালন করে। আমাদেও জাগরণের
         মুহূর্ত থেকে রাতে ঘুমাতে যাওয়ার সময় পর্যন্ত আমরা ভাষা ব্যবহার করি। আমরা
         শুধু আমাদেও জেগে থাকার সময়েই ভাষা ব্যবহার করি না, আমাদেও স্বপ্নেও ভাষা
         ব্যবহার করে থাকি। আমরা যা অনুভব করি এবং যা পছন্দ বা অপছন্দ করি তা প্রকাশ
         করতে ভাষা ব্যবহার করি। আমরা তথ্য পেতেও ভাষা ব্যবহার করি। সংক্ষেপে ভাষা
         আমাদেও জীবনে সর্বদা উপস্থিত থাকে। আমরা যা করি, উপলব্ধি করি এবং বিশ্বাস
-        করি ভাষা তার অবিচ্ছেদ্য অংশ। <br />
+        করি ভাষা তার অবিচ্ছেদ্য অংশ।
         <br />
-        Cadet College, Sylhet-2025 সৌজন্যতা মানে ভদ্র আচরণ বা বিনয়। এটা
-        সৌজন্যমূলক আচরণও বুঝায়। এটা একজন মানুষের মহৎ গুণ। ভালো স্বভাবের বা ভালো
-        আচরণের হতে হলে আমাদেও অর্থ বা সম্পদ ব্যয় করার দরকার হয় না। আমাদেও
-        সৌজন্যতা অর্জনের ইচ্ছা থাকতে হবে। আমাদেও আচরণের কিছু নিয়ম মেনে চলতে হবে
-        এবং সমাজের আচরণের নিয়ম অনুসরণ করতে হবে। এটা এক সমাজ থেকে অন্য সমাজে
-        ভিন্ন হয়। যাহোক, শৈশব থেকেই ভালো আচরণের অনুশীলন করতে হবে। কোন খরচ নয়,
-        শুধু সচেতনতা প্রয়োজন। <br />
-        <br /> 9. Cumilla Board-2022 Gender (a) is a deeply rooted social and
-        cultural problem of our country. From the very (b) of a girl child the
-        disparity begins. Day by day she grows up and faces the (c) attitude of
-        the (d) members to her. She begins to understand (e) she is deprived of
-        the basic (f) necessary to build up her career. But she does not get (g)
-        way to overcome the burdens of the (h) of social oppression. In this
-        way, she (i)-up her life keeping her dreams in her (j) . <br />
         <br />
+        28. Dhaka Board-2014: Jashore Board-2022; Sylhet <br />
+        Civility means polite (a) __ or modesty. It also (b) __ courteous
+        manner. It is a great virtue (c) __ man. To be well-behaved, or
+        good-natured we (d) __ spend money or wealth. We have to (e) __
+        willingness to attain civility. We have to (f) __ code of conduct and
+        (g) __ the norms of etiquette of the society. It (h) __ some from
+        society to society. However, one has to (i) __ good manner in one's
+        character from an early age. No expenditure (j) __ consciousness is
+        required.
+        <br />
+        সৌজন্যতা মানে ভদ্র আচরণ বা বিনয়। এটা সৌজন্যমূলক আচরণও বুঝায়। এটা একজন
+        মানুষের মহৎ গুণ। ভালো স্বভাবের বা ভালো আচরণের হতে হলে আমাদেও অর্থ বা
+        সম্পদ ব্যয় করার দরকার হয় না। আমাদেও সৌজন্যতা অর্জনের ইচ্ছা থাকতে হবে।
+        আমাদেও আচরণের কিছু নিয়ম মেনে চলতে হবে এবং সমাজের আচরণের নিয়ম অনুসরণ করতে
+        হবে। এটা এক সমাজ থেকে অন্য সমাজে ভিন্ন হয়। যাহোক, শৈশব থেকেই ভালো আচরণের
+        অনুশীলন করতে হবে। কোন খরচ নয়, শুধু সচেতনতা প্রয়োজন।
+        <br />
+        <br />
+        29. Cumilla Board-2022 <br />
+        Gender (a) __ is a deeply rooted social and cultural problem of our
+        country. From the very (b) __ of a girl child the disparity begins. Day
+        by day she grows up and faces the (c) __ attitude of the (d) __ members
+        to her. She begins to understand (e) __ she is deprived of the basic (f)
+        __ necessary to build up her career. But she does not get (g) __ way to
+        overcome the burdens of the (h) __ of social oppression. In this way,
+        she (i) __ -up her life keeping her dreams in her (j) __ . <br />
         লিঙ্গ বৈষম্য আমাদের দেশের একটি গভীরভাবে প্রোথিত সামাজিক ও সাংস্কৃতিক
         সমস্যা। মেয়ে শিশুর জন্ম থেকেই বৈষম্য শুরু হয়। দিন দিন সে বেড়ে ওঠে এবং
         তার প্রতি পরিবারের সদস্যদের বৈষম্যমূলক আচরণের সম্মুখীন হয়। সে উপলব্ধি
         করতে শুরু করে যে সে তার ক্যারিয়ার গড়ার জন্য প্রয়োজনীয় মৌলিক শিক্ষা থেকে
         বঞ্চিত। কিন্তু সামাজিক নিপীড়ন প্রথার বোঝা কাটিয়ে ওঠার কোনো উপায় সে পায়
-        না। এভাবে, সে তার স্বপ্নকে হৃদয়ে ধারণ করে তার জীবন শেষ করে। <br />
+        না। এভাবে, সে তার স্বপ্নকে হৃদয়ে ধারণ করে তার জীবন শেষ করে।
         <br />
-        30. Chattogram Board-2022; Dinajpur Board-2022: Cumilla Board-2019{" "}
+        <br />
+        30. Chattogram Board-2022; Dinajpur Board-2022: Cumilla Board-2019
         <br />
         In recent years there have been many alarming reports that the world's
         climate is undergoing a significant change. All these reports provide
-        (a) evidence (b) world's temperatures are increasing day by day. This
-        increase in global (e) is caused (d) increased amounts of carbon dioxide
-        (e) the earth. Most climatologists (f) that greenhouse effect is the
-        likely cause of this global warming. It may harm human (h) seriously.
-        This could catastrophically (i) mankind's (j) to grow effect is the
-        likely (g) food. <br />
+        (a) __ evidence (b) __ world's temperatures are increasing day by day.
+        This increase in global (e) __ is caused (d) __ increased amounts of
+        carbon dioxide (e) __ the earth. Most climatologists (f) __ that
+        greenhouse effect is the likely cause of this global warming. It may
+        harm human (h) __ seriously. This could catastrophically (i) __
+        mankind's (j) __ to grow effect is the likely (g) __ food. <br />
         <br />
         সাম্প্রতিক বছরগুলোতে অনেকগুলো সতর্কতামূলক প্রতিবেদনে উল্লেখ্য যে,
         পৃথিবীর জলবায়ুতে একটি গুরুত্বপূর্ণ পরিবর্তন লক্ষ করা যাচ্ছে। প্রত্যেকটি
@@ -577,18 +590,19 @@ const QuestionFive = () => {
         বিশ্বব্যাপী কার্বন ডাই-অক্সাইডের বৃদ্ধি। বেশির ভাগ আবহাওয়া বিজ্ঞানী
         বিশ্বাস করেন যে, গ্রীনহাউস প্রতিক্রিয়াই বিশ্বব্যাপী উষ্ণায়নের সম্ভাব্য
         কারণ। এটা মানবজাতিকে মারাত্মকভাবে ক্ষতিগ্রস্ত করতে পারে। এটা মানবজাতির
-        খাদ্য উৎপাদনের সামর্থ্য মারাত্মকভাবে হ্রাস করতে পারে। <br />
+        খাদ্য উৎপাদনের সামর্থ্য মারাত্মকভাবে হ্রাস করতে পারে।
         <br />
-        31. Sylhet Board-2022 Covid-19, the pandemic disaster has forced us to
-        (a) some rules of health. Students are regularly wearing (b) and using
-        sanitizer. As a result, they are keeping themselves aloof (c) many
-        diseases. They are now very much aware of the (d) cleanliness. If this
-        habit is (e) permanently, it will certainly be helpful in making a (f) -
-        generation. This is a precondition for (g) education. Therefore, this
-        pandemic (h) has paved the way for a good [i) of environment and a good
-        generation. Now, we must the opportunity this pandemic disease has (0)
-        created. <br />
         <br />
+        31. Sylhet Board-2022 Covid-19, <br />
+        the pandemic disaster has forced us to (a) __ some rules of health.
+        Students are regularly wearing (b) __ and using sanitizer. As a result,
+        they are keeping themselves aloof (c) __ many diseases. They are now
+        very much aware of the (d) __ cleanliness. If this habit is (e) __
+        permanently, it will certainly be helpful in making a (f) __ -
+        generation. This is a precondition for (g) __ education. Therefore, this
+        pandemic (h) __ has paved the way for a good (i) __ of environment and a
+        good generation. Now, we must the opportunity this pandemic disease has
+        (0) __ created. <br />
         মহামারি দুর্যোগ কোভিড-১৯ আমাদের কতিপয় স্বাস্থ্যবিধি অনুসরণ করতে বাধ্য
         করেছে। ছাত্রছাত্রীরা নিয়মিত মাস্ক পরিধান করছে এবং স্যানিটাইজার ব্যবহার
         করছে। ফলে, তারা নিজেদের অনেক রোগ থেকে দূরে রাখছে। তারা এখন পরিচ্ছন্নতার
@@ -598,15 +612,16 @@ const QuestionFive = () => {
         এবং একটি সুস্থ প্রজন্ম তৈরির পথ সুগম করেছে। এখন, এই মহামারি যে সুযোগ
         সৃষ্টি করেছে, আমাদের তা অবশ্যই গ্রহণ করা উচিত। <br />
         <br />
-        32. Barishal Board-2022 Examination is very important in student's life.
-        It justifies a student's (a) . No student can be (b) to next class
-        without examination. So, every student (c) hard to pass the examination.
-        There are many ways to do (d) -in the examination and meritorious
-        students follow these (e) . Gathering (f) is not all things to approach
-        the examination. One may gather much (g) about his subject, but If he
-        cannot (h) his performance in the examination. his (i) ____ kind of
-        knowledge is (j)____. <br />
+        32. Barishal Board-2022
         <br />
+        Examination is very important in student's life. It justifies a
+        student's (a) __ . No student can be (b) __ to next class without
+        examination. So, every student (c) __ hard to pass the examination.
+        There are many ways to do (d) __ -in the examination and meritorious
+        students follow these (e) __ . Gathering (f) __ is not all things to
+        approach the examination. One may gather much (g) __ about his subject,
+        but If he cannot (h) __ his performance in the examination. his (i) __
+        ____ kind of knowledge is (j) __ ____. <br />
         ছাত্রদের জীবনে পরীক্ষা খুব গুরুত্বপূর্ণ। এটি একজন শিক্ষার্থীর প্রতিভাকে
         মূল্যায়ন করে। পরীক্ষা ছাড়া কোন ছাত্র পরবর্তী ক্লাশে উত্তীর্ণ হতে পারবে
         না। সুতরাং প্রত্যেক ছাত্রের উচিত পরীক্ষায় পাশ করার জন্য কঠোর পড়াশুনা
@@ -614,37 +629,39 @@ const QuestionFive = () => {
         উপায়সমূহ অনুসরণ করে। জ্ঞান অর্জন করাই পরীক্ষা দেয়ার ক্ষেত্রে সবকিছু নয়।
         একজন তার বিষয়ে অনেক জ্ঞান অর্জন করতে পারে, কিন্তু যদি সে তার জ্ঞান
         পরীক্ষায় প্রয়োগ করতে না পারে, তাহলে তার এই ধরনের জ্ঞান অপচয়/নষ্ট হয়ে
-        যায়। <br />
+        যায়।
+        <br />
         <br />
         33. Mymensingh Board-2022; Sylhet Board-2016; BAF Shaheen College,
-        Tejgaon, Dhaka-2023 Our liberation is the (a)achievement in our national
-        life. It was (b) in 1971. We had been © Pakistani rule for twenty five
-        years . But discrimination,(d) and suppression of the West Pakistani
-        rulers (e) us to wage the Liberation War. Sheikh Mujibur Rahman led the
-        struggle for (f). But soon he was (g) by the Pakistani rulers. However,
-        - people from all (h) of life took part in the war (i) to the (j) of
-        Sheikh Mujib. <br />
-        <br />
+        Tejgaon, Dhaka-2023 <br />
+        Our liberation is the (a) __ achievement in our national life. It was
+        (b) __ in 1971. We had been © Pakistani rule for twenty five years . But
+        discrimination,(d) __ and suppression of the West Pakistani rulers (e)
+        __ us to wage the Liberation War. Sheikh Mujibur Rahman led the struggle
+        for (f) __ . But soon he was (g) __ by the Pakistani rulers. However, -
+        people from all (h) __ of life took part in the war (i) __ to the (j) __
+        of Sheikh Mujib. <br />
         আমাদের স্বাধীনতা আমাদের জাতীয় জীবনে সর্বোত্তম অর্জন। এটা ১৯৭১ সালে
         অর্জিত হয়েছিল। আমরা ২৫ বছর পাকিস্তানী শাসনের অধীনে ছিলাম। কিন্তু পশ্চিম
         পাকিস্তানী শাসকদের বৈষম্য, বঞ্চনা ও দমন-পীড়ন আমাদের মুক্তিযুদ্ধ করতে
         বাধ্য করে। বঙ্গবন্ধু শেখ মুজিবুর রহমান স্বাধীনতা সংগ্রামে নতৃত্ব দেন।
         কিন্তু শিঘ্রই তিনি পাকিস্তানী শাসক কর্তৃক গ্রেফতার হন। যাহোক, শেখ
-        মুজিবের ডাকে সারা দিয়ে সর্বস্তরের মানুষ যুদ্ধে অংশগ্রহণ করেছিল। <br />
+        মুজিবের ডাকে সারা দিয়ে সর্বস্তরের মানুষ যুদ্ধে অংশগ্রহণ করেছিল।
+        <br />
         <br />
         34. Dhaka Board-2019; Ideal College, Central Road, Dhanmondi, Dhaka-2024
-        We all know what a dream is. Generally we dream | during our sleep. Some
-        dreams are sweet or (a) When we dream something extremely bad, we call
-        it a (b) . Dreams have no (c) . They are soft and (d) . The dream we
-        have during the day time is called (e) . Dreams have fascinated
-        philosophers for thousands of years, but none could (f) specifically
-        what dream actually is. Dreams can be extraordinarily (g) - or very
-        vague. While many theories have been proposed no consensus has emerged.
-        It is important to consider that science is still (h) the exact purpose
-        and function of sleep itself. Some researchers suggest that dreams have
-        no (i) purpose, while others believe that (j) essential to mental,
-        emotional and physical well-being. <br />
         <br />
+        We all know what a dream is. Generally we dream | during our sleep. Some
+        dreams are sweet or (a) __ When we dream something extremely bad, we
+        call it a (b) __ . Dreams have no (c) __ . They are soft and (d) __ .
+        The dream we have during the day time is called (e) __ . Dreams have
+        fascinated philosophers for thousands of years, but none could (f) __
+        specifically what dream actually is. Dreams can be extraordinarily (g)
+        __ - or very vague. While many theories have been proposed no consensus
+        has emerged. It is important to consider that science is still (h) __
+        the exact purpose and function of sleep itself. Some researchers suggest
+        that dreams have no (i) __ purpose, while others believe that (j) __
+        essential to mental, emotional and physical well-being. <br />
         আমরা সবাই জানি স্বপ্ন কী। সাধারণত আমরা ঘুমের সময় স্বপ্ন দেখে থাকি। কিছু
         কিছু স্বপ্ন মধুর বা আনন্দদায়ক। যখন আমরা খুব খারাপ কিছু স্বপ্ন দেখি, আমরা
         এটাকে একটা দুঃস্বপ্ন বলি। স্বপ্নের কোন রঙ নেই। এরা কোমল এবং ছায়াময়ী/
@@ -656,18 +673,18 @@ const QuestionFive = () => {
         যে, বিজ্ঞান ঘুমের আসল উদ্দেশ্য ও কার্য এখনও উদ্ঘাটন করে যাচ্ছে। কতিপয়
         গবেষক বলেন যে, স্বপ্ন আসলে বাস্তব কোন উদ্দেশ্য সাধন করে না, অবশ্য
         অন্যেরা বিশ্বাস করেন যে, মানসিক, আবেগীয় ও দৈহিক কল্যাণের জন্য স্বপ্ন
-        অত্যাবশ্যক। <br />
+        অত্যাবশ্যক।
         <br />
-        35. Rajshahi Board-2019; Jhenidah Cadet College, Jhenidah-2024 The
-        persona of a traffic policeman has always been a (a) -one. It has often
-        found (b) space and close treatment in literature and other (c) Besides
-        the many poems about this (d) character, there is at least one (e) where
-        the central character is a traffic policeman. In 1963. Greek film maker
-        Filippos Fylaktas made this film (1) My Brother, the Traffic Policeman,
-        It featured a traffic police, Antonis Pikrocholos to service and duty
-        and slightly (g) who is utterly (h) with unyielding (1) applies the
-        traffic (1) <br />
         <br />
+        35. Rajshahi Board-2019; Jhenidah Cadet College, Jhenidah-2024 <br />
+        The persona of a traffic policeman has always been a (a) __ -one. It has
+        often found (b) __ space and close treatment in literature and other (c)
+        __ Besides the many poems about this (d) __ character, there is at least
+        one (e) __ where the central character is a traffic policeman. In 1963.
+        Greek film maker Filippos Fylaktas made this film (1) __ My Brother, the
+        Traffic Policeman, It featured a traffic police, Antonis Pikrocholos to
+        service and duty and slightly (g) __ who is utterly (h) __ with
+        unyielding (1) __ applies the traffic (1) __ <br />
         একজন ট্রাফিক পুলিশের অভিব্যক্তি সবসময়ই কৌতূহলোদ্দীপক। সাহিত্য এবং
         অন্যান্য কলা/শিল্পে এটা প্রায়শই গুরুত্বপূর্ণ স্থান এবং নিবিড় মনোযোগ লাভ
         করে। এই আকর্ষণীয় চরিত্র নিয়ে অনেক কাব্যকবিতা ছাড়াও অন্তত একটি চলচ্চিত্র
@@ -676,17 +693,19 @@ const QuestionFive = () => {
         চলচ্চিত্রটি নির্মাণ করেন। এতে অ্যান্টোদিস পিকরোকলাস নামে কিছুটা
         বাতিকগ্রস্ত এক ট্রাফিক পুলিশের চরিত্র ফুটিয়ে তোলা হয়েছে যিনি তার চাকরি
         এবং কর্তব্যের প্রতি চরমভাবে নিবেদিত এবং অনমনীয় কঠোরতাসহকারে ট্রাফিক আইন
-        প্রয়োগ করেন। <br />
+        প্রয়োগ করেন।
+        <br />
         <br />
         36. Jashore Board-2019; Chattogram Board-2017: Cumilla Cantonment
-        College, Cumilla-2025 There goes a proverb that child is (a) of the man.
-        Today's child is the (b) of a nation. He will (e) the country. The whole
-        (d) - depends on their proper (e) __. It is our fundamental (f) to rouse
-        their talent. A sound environment is (h) both in the family and the
-        society so that a child (i) up physically, mentally and spiritually.
-        Only then It will be (j) to build up a beautiful and developed country.{" "}
+        College, Cumilla-2025
         <br />
-        <br />
+        There goes a proverb that child is (a) __ of the man. Today's child is
+        the (b) __ of a nation. He will (e) __ the country. The whole (d) __ -
+        depends on their proper (e) __ __. It is our fundamental (f) __ to rouse
+        their talent. A sound environment is (h) __ both in the family and the
+        society so that a child (i) __ up physically, mentally and spiritually.
+        Only then It will be (j) __ to build up a beautiful and developed
+        country. <br />
         একটি প্রবাদ আছে যে উঠত্তি মুলো পত্তনেই চেনা যায়। আজরেক শিশু একটি জাতির
         ভবিষ্যত। সে দেশকে নেতৃত্ব দিবে। পুরো জাতি তাদের যথাযথ উন্নয়নের উপর
         নির্ভর করে। তাদের সুপ্ত প্রতিভার বিকাশ ঘটানো আমাদের মৌলিক কর্তব্য।
@@ -696,12 +715,13 @@ const QuestionFive = () => {
         <br />
         37. Chattogram Board-2019; Govt. Prafulla Chandra College, Bagerhat-2024{" "}
         <br />
-        Adolescents (a) on their (b) their communities, schools, health services
-        and their workplaces to (c) - a wide range of skills that can (d) them
-        to cope with the (e) they face make a successful transition from (f)
-        adulthood. Parents, members (g) the community, service providers, and
-        (h) institutions have the (i)-to both promote adolescent development and
-        adjustment and to intervene (j) arise when problems <br />
+        Adolescents (a) __ on their (b) __ their communities, schools, health
+        services and their workplaces to (c) __ - a wide range of skills that
+        can (d) __ them to cope with the (e) __ they face make a successful
+        transition from (f) __ adulthood. Parents, members (g) __ the community,
+        service providers, and (h) __ institutions have the (i) __ -to both
+        promote adolescent development and adjustment and to intervene (j) __
+        arise when problems
         <br />
         যেসব ব্যাপক দক্ষতা কিশোর-কিশোরীদেরকে তাদের চাপ মোকাবিলা করতে এবং শৈশব
         থেকে প্রাপ্তবয়স্কের দিকে সফলভাবে ধাবিত করতে সাহায্য করতে পারে সেগুলো
@@ -709,17 +729,19 @@ const QuestionFive = () => {
         স্বাস্থ্য পরিসেরা এবং তাদের কর্মক্ষেত্রের উপর নির্ভর করে। কিশোর উন্নয়ন ও
         অভিযোজনে সহায়তা করা এবং সমস্যা সৃষ্টি হলে তাতে কার্যকরভাবে হস্তক্ষেপ
         করা- উভয়ক্ষেত্রেই পিতামাতা, গোষ্ঠীর সদস্যগণ, সেবাদাতা এবং সামাজিক
-        প্রতিষ্ঠানসমূহের দায়িত্ব রয়েছে। <br />
+        প্রতিষ্ঠানসমূহের দায়িত্ব রয়েছে।
+        <br />
         <br />
         38. Sylhet Board-2019; Chattogram City Corporation Inter College,
-        Chattogram-2023 We know that all species are (a) for maintaining
-        ecological balance. If one is (b) the whole natural environment (e) . In
-        order to (d) the environment from being spoiled, we should therefore
-        protect (e) wildlife. The good news is that many countries are now (1)
-        action to protect their (g) wildlife. We should (h) the earth's wild (i)
-        . To be (j) to animals is to be kind to mankind to save ourselves..{" "}
+        Chattogram-2023
         <br />
-        <br />
+        We know that all species are (a) __ for maintaining ecological balance.
+        If one is (b) __ the whole natural environment (e) __ . In order to (d)
+        __ the environment from being spoiled, we should therefore protect (e)
+        __ wildlife. The good news is that many countries are now (1) __ action
+        to protect their (g) __ wildlife. We should (h) __ the earth's wild (i)
+        __ . To be (j) __ to animals is to be kind to mankind to save
+        ourselves.. <br />
         আমরা জানি যে পরিবেশের ভারসাম্য রক্ষার জন্য সকল প্রজাতিই গুরুত্বপূর্ণ।
         যদি একটি প্রজাতি হারিয়ে বা নিশ্চিহ্ন হয়ে যায়, তাহলে পুরো প্রাকৃতিক
         পরিবেশে পরিবর্তন ঘটে থাকে। সুতরাং, পরিবেশকে ধ্বংস হয়ে যাওয়া থেকে রক্ষা
@@ -730,12 +752,13 @@ const QuestionFive = () => {
         <br />
         <br />
         39. Barishal Board-2019; Bogura Cantonment Public School & College,
-        Bogura-2025 In Britain road and transport rules are (a) followed by the
-        drivers. Consequently it has the best road (b) record in Europe. All
-        transports must strictly (c) by the rules (d) government. Coaches and
-        minibuses (e) carry children under 16 must be (f)with seatbelts There
-        the law (g) agencies are (h). So, buses and coaches have become the (j)
-        form of road (j). <br />
+        Bogura-2025 <br />
+        In Britain road and transport rules are (a) __ followed by the drivers.
+        Consequently it has the best road (b) __ record in Europe. All
+        transports must strictly (c) __ by the rules (d) __ government. Coaches
+        and minibuses (e) __ carry children under 16 must be (f) __ with
+        seatbelts There the law (g) __ agencies are (h) __ . So, buses and
+        coaches have become the (j) __ form of road (j) __ . <br />
         ব্রিটেনে চালকগণ কর্তৃক সড়ক ও পরিবহন আইন কঠোরভাবে অনুসরণ করা হয়। ফলে
         ইউরোপে এদেশের সর্বোত্তম সড়ক নিরাপত্তা রেকর্ড রয়েছে। সকল পরিবহণকে সরকার
         কর্তৃক প্রণীত আইন অবশ্যই কঠোরভাবে মেনে চলতে হয়। যে সকল কোচ ও মিনিবাস ১৬
@@ -744,14 +767,17 @@ const QuestionFive = () => {
         কোচগুলো সড়ক পরিবহনের সবচেয়ে নিরাপদ যানে পরিণত হয়েছে। <br />
         <br />
         40. Dinajpur Board-2019; Cumilla Shikkha Board Model College,
-        Cumilla-2019 Diaspora is an age-old (a) -In recent times. Rohingya (b)
-        has attracted a lot of attention, More than one million Rohingyas have
-        (c) from Myanmar to Bangladesh. Their migration is (d) to the adverse
+        Cumilla-2019
+        <br />
+        Diaspora is an age-old (a) __ -In recent times. Rohingya (b) __ has
+        attracted a lot of attention, More than one million Rohingyas have (c)
+        __ from Myanmar to Bangladesh. Their migration is (d) __ to the adverse
         conditions in Rakhine State of Myanmar-the ancestral homeland of the
-        Rohingyas. The government of Bangladesh has (e) this huge number of
-        refugees on, humanitarian (f) But these people are a huge on our economy
-        and on our (h) - The world community should extend their full support to
-        the (1) Rohingyas so that they can (1) return to their homeland. <br />
+        Rohingyas. The government of Bangladesh has (e) __ this huge number of
+        refugees on, humanitarian (f) __ But these people are a huge on our
+        economy and on our (h) __ - The world community should extend their full
+        support to the (1) __ Rohingyas so that they can (1) __ return to their
+        homeland. <br />
         <br />
         দেশান্তর/ অভিবাসন একটি সুপ্রাচীন ঘটনা। সাম্প্রতিক সময়ে রোহিঙ্গা অভিবাসন
         ব্যাপক মনোযোগ আকর্ষণ করেছে। এক মিলিয়নেরও বেশি রোহিঙ্গা মিয়ানমার থেকে
@@ -766,14 +792,14 @@ const QuestionFive = () => {
         41. HSC Exam-2018: Brahmanbaria Government Mohila College,
         Brahmanbaria-2025 <br />
         A dream is a series of thoughts, images and sensations occurring in a
-        person's mind during sleep. Dream is a (a) of unconscious wishes,
-        thoughts and Imaginations. It (b) be sweet or horrible. When we dream
-        (c) pleasant, we call it a sweet dream. (d) when we dream something
-        extremely bad, we (e) it a nightmare. Dream is meaningless if (f) is a
-        day dream. But dream has also (g) real purpose as it is related to our
-        (h), emotional and physical well-being. The main benefit (i) -dream is
-        that it produces new thoughts (j) ideas in the brain and helps to clean
-        up clutter from the mind. <br />
+        person's mind during sleep. Dream is a (a) __ of unconscious wishes,
+        thoughts and Imaginations. It (b) __ be sweet or horrible. When we dream
+        (c) __ pleasant, we call it a sweet dream. (d) __ when we dream
+        something extremely bad, we (e) __ it a nightmare. Dream is meaningless
+        if (f) __ is a day dream. But dream has also (g) __ real purpose as it
+        is related to our (h) __ , emotional and physical well-being. The main
+        benefit (i) __ -dream is that it produces new thoughts (j) __ ideas in
+        the brain and helps to clean up clutter from the mind. <br />
         <br />
         স্বপ্ন হচ্ছে ঘুমের ভেতর কোনো ব্যক্তির মনে ঘটা ধারাবাহিক কিছু চিন্তা,
         প্রতিচ্ছবি ও অনুভূতির অভিজ্ঞতা। স্বপ্ন হচ্ছে অবচেতন মনের ইচ্ছা, চিন্তা ও
@@ -787,16 +813,16 @@ const QuestionFive = () => {
         <br />
         42. HSC Exam-2018; Mirzapur Cadet College, Tangail-2025 <br />
         In our country, women are the worst sufferers in every stage of life.
-        Social prejudices and customs tend to (a) their position. When a female
-        child is born, it is not regarded (b) a happy event. She is not welcomed
-        with the deep (c) of heart. Instead of being delighted, most of the
-        members of the family think that she has come to add to their (d) . Even
-        the mother of the female child is not welcomed cordially for giving (e)
-        to a female child. Rather for this. In the most cases, women are the
-        victim of gender (g) . In fact, the life of our women is not smooth (h)
-        . If we want lasting developnient of the country, we have to (i) the
-        dignified status of (j) women of our country. The government is
-        conscious of this matter. <br />
+        Social prejudices and customs tend to (a) __ their position. When a
+        female child is born, it is not regarded (b) __ a happy event. She is
+        not welcomed with the deep (c) __ of heart. Instead of being delighted,
+        most of the members of the family think that she has come to add to
+        their (d) __ . Even the mother of the female child is not welcomed
+        cordially for giving (e) __ to a female child. Rather for this. In the
+        most cases, women are the victim of gender (g) __ . In fact, the life of
+        our women is not smooth (h) __ . If we want lasting developnient of the
+        country, we have to (i) __ the dignified status of (j) __ women of our
+        country. The government is conscious of this matter. <br />
         <br />
         আমাদের দেশে নারীরা জীবনের সর্বক্ষেত্রে সবচেয়ে বেশি ভুক্তভোগী। সামাজিক
         কুসংস্কার ও প্রখার তাদের অবস্থানকে খাটো/ হেয় করার প্রবণতা রয়েছে। যখন
@@ -811,15 +837,16 @@ const QuestionFive = () => {
         করতে হবে। সরকার এ ব‍্যাপারে সচেতন। <br />
         <br />
         43. Dhaka Board-2017; Government Huseyn Shaheed Suhrawardy College,
-        Magura-2025 Rabindranath Tagore was a man of (a) genius.He was (b) a
-        poet and a novelist (c) a playwright, a composer, a painter and a
-        philosopher. He was awarded the Nobel Prize for (d) Gitanjali into
-        English. Those translations earned him a great (e) in the West. As a
-        humanist. Tagore accused the British (f) and pleaded for the (g) of
-        India from Britain. Tagore was highly influential in (h) -the best of
-        Indian culture to the West and vice-versa. He (i) himself to literature
-        at a very early age. After coming back from England, he began to write
-        (j) -in all branches of literature.
+        Magura-2025 Rabindranath <br />
+        Tagore was a man of (a) __ genius.He was (b) __ a poet and a novelist
+        (c) __ a playwright, a composer, a painter and a philosopher. He was
+        awarded the Nobel Prize for (d) __ Gitanjali into English. Those
+        translations earned him a great (e) __ in the West. As a humanist.
+        Tagore accused the British (f) __ and pleaded for the (g) __ of India
+        from Britain. Tagore was highly influential in (h) __ -the best of
+        Indian culture to the West and vice-versa. He (i) __ himself to
+        literature at a very early age. After coming back from England, he began
+        to write (j) __ -in all branches of literature.
         <br />
         রবীন্দ্রনাথ ঠাকুর ছিলেন অসাধারণ প্রতিভাধর একজন মানুষ। তিনি যে শুধু একজন
         কবি ও ঔপন্যাসিক ছিলেন তা নয়, তিনি একাধারে নাট্যকার, সংগীত রচয়িতা,
@@ -835,17 +862,17 @@ const QuestionFive = () => {
         <br />
         44. Jashore Board-2017: Noakhali Govt. College, Noakhali-2024 <br />
         Beauty is easy to appreciate but difficult to define. If we look around,
-        we will discover beauty in (a) objects and sights in nature, in the (b)
-        of children, in kindness of strangers. But asked to define, we run into
-        (c) . Does beauty have an independent identity? Is it (d) or relative?
-        Is it dependent on our sense (e)? Does It lie in the (f) of the
-        beholder? Thus there will arise a number of (g) in our mind. However,
-        poets. artists, philosophers and thinkers (b) always in search of beauty
-        in their works and arts. But most of them have the common and undisputed
-        opinion that where there is beauty, there is (i) that is, a thing of
-        beauty is a joy (j) <br />
+        we will discover beauty in (a) __ objects and sights in nature, in the
+        (b) __ of children, in kindness of strangers. But asked to define, we
+        run into (c) __ . Does beauty have an independent identity? Is it (d) __
+        or relative? Is it dependent on our sense (e) __ ? Does It lie in the
+        (f) __ of the beholder? Thus there will arise a number of (g) __ in our
+        mind. However, poets. artists, philosophers and thinkers (b) __ always
+        in search of beauty in their works and arts. But most of them have the
+        common and undisputed opinion that where there is beauty, there is (i)
+        __ that is, a thing of beauty is a joy (j) __ <br />
         <br />
-        সৌন্দর্যের প্রশংসা করাটা সহজ কিন্তু (সৌন্দর্যের) সংজ্ঞা দেওয়াটা কঠিন।
+        সৌন্দর্যের প্রশংসা করাটা সহজ কিন্তু (সৌন্দর্যের) __ সংজ্ঞা দেওয়াটা কঠিন।
         যদি আমরা আমাদের চারপাশে তাকাই, তবে আমরা দেখবো সৌন্দর্যকে প্রকৃতির
         আনন্দদায়ক বস্তুতে, দৃশ্যে, শিশুদের হাসিতে ও আগন্তুকের দয়াপরবশ আচরণে। তবে
         সংজ্ঞায়িত করতে বলা হলে, আমরা সব সমস্যায় পড়ে যায়। সৌন্দর্যের কি কোনো
@@ -858,14 +885,14 @@ const QuestionFive = () => {
         অবস্থান, সেখানেই রয়েছে সত্যের অবস্থান, অর্থাৎ সুন্দর যে কোনো কিছু তা সব
         সময়ই আনন্দদায়ক। <br />
         <br />
-        45. Sylhet Board-2017; Barishal Cadet College, Barishal-2025 The proper
-        (a) of study involves regular and proper understanding. In order to (b)
-        - the best benefit from study, we should read (c) and intelligently, We
-        should not study (d) purpose of examinations. We should take genuine (f)
-        in our studies so that we can enjoy what we (g) - . This will give us
-        knowledge and wisdom and (h) the horizon of our (i) . We should,
-        therefore, study not for immediate gains but for (j) the wealth of our
-        mind.
+        45. Sylhet Board-2017; Barishal Cadet College, Barishal-2025 <br />
+        The proper (a) __ of study involves regular and proper understanding. In
+        order to (b) __ - the best benefit from study, we should read (c) __ and
+        intelligently, We should not study (d) __ purpose of examinations. We
+        should take genuine (f) __ in our studies so that we can enjoy what we
+        (g) __ - . This will give us knowledge and wisdom and (h) __ the horizon
+        of our (i) __ . We should, therefore, study not for immediate gains but
+        for (j) __ the wealth of our mind.
         <br />
         যথাযথ অধ্যয়ন এর অর্থ হচ্ছে নিয়মিত ও যথাযথ উপলজি/অনুধাবন। অধ্যয়ন থেকে
         সর্বোত্তম উপকার পেতে হলে আমাদের পুঙ্খানুপুঙ্খভাবে ও বুদ্ধিমত্তা খাটিয়ে
@@ -877,16 +904,16 @@ const QuestionFive = () => {
         <br />
         46. Barishal Board-2017; Dhaka Board-2004; Jhenidah Cadet College,
         Jhenidah-2025 <br />
-        Many events of great importance (a) during the last century. Significant
-        advances (b) in the field of science and technology. Many European
-        colonies gained Independence. The movement (c) democracy became (d) -in
-        many parts of the world. Two world wars (e) in this century. It (f)
-        witnessed the misuse of atomic energy. Two cities of Japan were
-        completely destroyed as a result of dropping of atom bombs. The Vietnam
-        war and the Gulf war killed many innocent people. However, the (g) of
-        Bangladesh as an independent nation (h) a momentous event. After a (i)
-        war of nine months , Bangladesh was born. Now we (j) our heads high as
-        an independent country in the world. <br />
+        Many events of great importance (a) __ during the last century.
+        Significant advances (b) __ in the field of science and technology. Many
+        European colonies gained Independence. The movement (c) __ democracy
+        became (d) __ -in many parts of the world. Two world wars (e) __ in this
+        century. It (f) __ witnessed the misuse of atomic energy. Two cities of
+        Japan were completely destroyed as a result of dropping of atom bombs.
+        The Vietnam war and the Gulf war killed many innocent people. However,
+        the (g) __ of Bangladesh as an independent nation (h) __ a momentous
+        event. After a (i) __ war of nine months , Bangladesh was born. Now we
+        (j) __ our heads high as an independent country in the world. <br />
         <br />
         গত শতাব্দীতে অনেকগুলো গুরুত্বপূর্ণ ঘটনা ঘটে গেছে। বিজ্ঞান ও প্রযুক্তির
         ক্ষেত্রে উল্লেখযোগ্য অগ্রগতি সাধিত হয়েছে। বিশ্বের অনেক স্থানে স্বাধীনতা
@@ -898,14 +925,15 @@ const QuestionFive = () => {
         পর বাংলাদেশের জন্ম হল। এখন আমরা একটি স্বাধীন দেশ হিসেবে মাথা উচু করে
         দাঁড়াতে পারি। <br />
         <br />
-        47. Dhaka Board-2016; Rangpur Cadet College, Rangpur-2025 Hospitality
-        has long been a part of our (a) in Bangladesh. Although many other (b)
-        are changing now, people are still quite (c) and friendly towards (d) .
-        They like speaking to foreigners even if they have not been (e) - . It
-        is quite (f) for Bangladeshis to ask personal (g) about family, jobs and
-        (h) which visitors from overseas might find (i) However, it should be
-        understood that no harm is (j) by such questions on the other hand, they
-        express a genuine interest in the foreigner's state of affairs!
+        47. Dhaka Board-2016; Rangpur Cadet College, Rangpur-2025 <br />
+        Hospitality has long been a part of our (a) __ in Bangladesh. Although
+        many other (b) __ are changing now, people are still quite (c) __ and
+        friendly towards (d) __ . They like speaking to foreigners even if they
+        have not been (e) __ - . It is quite (f) __ for Bangladeshis to ask
+        personal (g) __ about family, jobs and (h) __ which visitors from
+        overseas might find (i) __ However, it should be understood that no harm
+        is (j) __ by such questions on the other hand, they express a genuine
+        interest in the foreigner's state of affairs!
         <br />
         বাংলাদেশে আতিথেয়তা অনেক আগে থেকেই সংস্কৃতির একটা অংশ হয়ে গেছে। যদিও
         অন্যান্য অনেক কিছুর পরিবর্তন ঘটছে, তথাপি জনসাধারণ এখনও বিদেশীদের প্রতি
@@ -916,15 +944,16 @@ const QuestionFive = () => {
         ক্ষতি করার উদ্দেশ্যে এমন প্রশ্ন করা হয় না, পক্ষান্তরে, তারা বিদেশীদের
         কল্যাণ কামনার্থে এ ধরনের আগ্রহ প্রকাশ করে থাকে। <br />
         <br />
-        48. Dhaka Board-2007; Rajshahi Board-2016 Television has become a (a)
-        source of entertainment of the present world. of.. A wide (b) programmes
-        is © on numerous channels. Almost every family has a television (d)
-        today. Television (e) are not only entertaining, they can be highly (f)
-        too. For example, television is now (g) used for distance learning.
-        Courses (h) by the Open University are shown on BTV. Several channels
-        like the Discovery Channel and the National Geographic Channel telecast
-        highly informative and (i) programmes. However, watching TV (j pp) is
-        not permissible. <br />
+        48. Dhaka Board-2007; Rajshahi Board-2016 <br />
+        Television has become a (a) __ source of entertainment of the present
+        world. of.. A wide (b) __ programmes is © on numerous channels. Almost
+        every family has a television (d) __ today. Television (e) __ are not
+        only entertaining, they can be highly (f) __ too. For example,
+        television is now (g) __ used for distance learning. Courses (h) __ by
+        the Open University are shown on BTV. Several channels like the
+        Discovery Channel and the National Geographic Channel telecast highly
+        informative and (i) __ programmes. However, watching TV (j pp) __ is not
+        permissible. <br />
         <br />
         আধুনিক বিশ্বে টেলিভিশন বা দূরদর্শন যন্ত্র বিনোদনের একটি সাধারণ/ জনপ্রিয়
         উৎস। বিভিন্ন heচ্যানেলে অসংখ্য অনুষ্ঠানমালা প্রদর্শন করা হয়। আজ অধিকাংশ
@@ -936,13 +965,13 @@ const QuestionFive = () => {
         অতিরিক্ত টিভি দেখা ঠিক নয়।
         <br />
         49. Jashore Board-2016: Netrakona Govt. College, Netrakona-2024 <br />
-        (a) There are many people in Bangladesh who have outlook. Quite (b) in
-        life they learn to believe that every thing in this world was (c) and
-        all that happens to them was (d) by God. From this (e) the poor
-        generally accept their poverty and all their sorrows and (f) without
-        trying much to (g) them. They also hold a (h) belief that those who
-        undergo sufferings in this (1) -world will be amply (0) in the next
-        world. <br />
+        (a) __ There are many people in Bangladesh who have outlook. Quite (b)
+        __ in life they learn to believe that every thing in this world was (c)
+        __ and all that happens to them was (d) __ by God. From this (e) __ the
+        poor generally accept their poverty and all their sorrows and (f) __
+        without trying much to (g) __ them. They also hold a (h) __ belief that
+        those who undergo sufferings in this (1) __ -world will be amply (0) __
+        in the next world. <br />
         <br />
         আমাদের দেশে অনেক লোক আছে যারা রক্ষণশীল দৃষ্টিভঙ্গি পোষণ করে। জীবনের
         শুরুতেই তারা বিশ্বাস করতে শেখে যে এই পৃথিবীর সবকিছুই পূর্ব নির্ধারিত।
@@ -953,201 +982,224 @@ const QuestionFive = () => {
         পরবর্তী পৃথিবীতে ব্যাপকভাবে পুরষ্কৃত হবে। অসুস্থতা ও রোগবালাই সম্পর্কেও
         তাদের একই রকম দৃষ্টিভঙ্গি। <br />
         <br />
-        50. Cumilla Board-2016 I have recently noticed that our (a) son, younger
-        than my son, has started (b). I have tried many (e) to tell him to give
-        it (d) because it is nothing but slow (e) . But he walks (f) with the
-        retort. “You are not my guardian. I don't have to (g) to you." Our
-        family is on very good (h) with his family, but I don't think his
-        parents (i) that he smokes. I am in a (j) should I or shouldn't I tell
-        them? সম্প্রতি আমি লক্ষ করেছি যে, বয়সে আমার ছেলের চেয়ে ছোট কয়েকবার
-        চেষ্টা করেছি তাকে বলতে ধুমপান ছেড়ে দিতে কারণ আমার এক প্রতিবেশির ছেলে
-        ধুমপান করা শুরু করেছে। আমি এটা মন্থরগতির বিষপান ছাড়া অন্য কিছু নয়। তবে
-        সে 'আপনি আমার অভিভাবক নন, আমি আপনার কাছে জবাবদিহি করব না।' এমন প্রতুত্তর
-        করে হেঁটে যায়। আমাদের পরিবারের সাথে তার পরিবারের সম্পর্ক ভাল, তবে আমি
-        মনে করি না যে, তার বাবা-মা জানেন যে, সে ধুমপান করে। আমি বুঝে উঠতে পারছি
-        না আমার কি উচিত তাদের বলা, নাকি তাদেরকে বলা আমার উচিত নয়। <br />
+        50. Cumilla Board-2016 <br />
+        I have recently noticed that our (a) __ son, younger than my son, has
+        started (b) __ . I have tried many (e) __ to tell him to give it (d) __
+        because it is nothing but slow (e) __ . But he walks (f) __ with the
+        retort. “You are not my guardian. I don't have to (g) __ to you." Our
+        family is on very good (h) __ with his family, but I don't think his
+        parents (i) __ that he smokes. I am in a (j) __ should I or shouldn't I
+        tell them?
         <br />
-        51. Chattogram Board-2016; BAF Shaheen College, Tejgaon, Dhaka-2024 "The
-        Rime of the Ancient Mariner relates the experiences of a sailor (a) has
-        returned from a long (b) voyage. The mariner stops a man who is on the
-        way to a wedding © and begins (d) narrate a story. The mariner's tale
-        begins (e) his ship departing on its journey. Despite initial good
-        fortune, the (f) is driven south by a storm (g) and eventually reaches
-        the Antarctic waters. An albatross appears and leads them out of the ice
-        jam where they have been stuck, but suddenly the mariner shoots the
-        bird. The crew gets (h) with the mariner, believing the albatross
-        brought south (i) that led them out of the Antarctic. However, the
-        sailors (j) their mind when the weather becomes warmer and the mist
-        disappears. <br />
+        সম্প্রতি আমি লক্ষ করেছি যে, বয়সে আমার ছেলের চেয়ে ছোট কয়েকবার চেষ্টা
+        করেছি তাকে বলতে ধুমপান ছেড়ে দিতে কারণ আমার এক প্রতিবেশির ছেলে ধুমপান করা
+        শুরু করেছে। আমি এটা মন্থরগতির বিষপান ছাড়া অন্য কিছু নয়। তবে সে 'আপনি
+        আমার অভিভাবক নন, আমি আপনার কাছে জবাবদিহি করব না।' এমন প্রতুত্তর করে
+        হেঁটে যায়। আমাদের পরিবারের সাথে তার পরিবারের সম্পর্ক ভাল, তবে আমি মনে
+        করি না যে, তার বাবা-মা জানেন যে, সে ধুমপান করে। আমি বুঝে উঠতে পারছি না
+        আমার কি উচিত তাদের বলা, নাকি তাদেরকে বলা আমার উচিত নয়। <br />
+        <br />
+        51. Chattogram Board-2016; BAF Shaheen College, Tejgaon, Dhaka-2024{" "}
+        <br />
+        "The Rime of the Ancient Mariner relates the experiences of a sailor (a)
+        __ has returned from a long (b) __ voyage. The mariner stops a man who
+        is on the way to a wedding © and begins (d) __ narrate a story. The
+        mariner's tale begins (e) __ his ship departing on its journey. Despite
+        initial good fortune, the (f) __ is driven south by a storm (g) __ and
+        eventually reaches the Antarctic waters. An albatross appears and leads
+        them out of the ice jam where they have been stuck, but suddenly the
+        mariner shoots the bird. The crew gets (h) __ with the mariner,
+        believing the albatross brought south (i) __ that led them out of the
+        Antarctic. However, the sailors (j) __ their mind when the weather
+        becomes warmer and the mist disappears. <br />
         <br />
         52. Barishal Board-2016: Quality Education College, Khilgaon, Dhaka-2019
-        One very (a) change in our society is the presence of working women
-        outside the home. Of course, it has to be (b) that women have always
+        <br />
+        One very (a) __ change in our society is the presence of working women
+        outside the home. Of course, it has to be (b) __ that women have always
         worked within the house-hold but this commonly is not counted as work,
         It is unfortunate that women's roles in agricultural societies have not
-        been (c) either. Whether it is due to economic necessity or the urge to
-        (d) -an Individual identity or both, nowadays many women are joining the
-        outside workforce. They are (e) a wide range of professions. Moreover,
-        both educated and uneducated women are (f) to work outside. . All of
-        them are trying to be self (g) . The life of a woman has now become more
-        (h) .Because they have to shoulder (i) roles also. Most of the women
-        have to compete with men (j) ___. <br />
+        been (c) __ either. Whether it is due to economic necessity or the urge
+        to (d) __ -an Individual identity or both, nowadays many women are
+        joining the outside workforce. They are (e) __ a wide range of
+        professions. Moreover, both educated and uneducated women are (f) __ to
+        work outside. . All of them are trying to be self (g) __ . The life of a
+        woman has now become more (h) __ .Because they have to shoulder (i) __
+        roles also. Most of the women have to compete with men (j) __ ___.{" "}
+        <br />
         <br />
         53. Dinajpur Board-2016; Pabna Govt. Women's College, Pabna-2018
+        <br />
         Teaching in Bangladesh is still not up to the world standard. The most
         unfortunate thing is that it is falling down very rapidly day by day. It
-        is mainly (a) of the traditional education system. Teachers do not know
-        much about the modern teaching method. Moreover, the testing (b) is not
-        effective. Students can (c) - (f) good marks by memorizing. But in this
-        system they lose their power and learn to depend on (e) . As a result,
-        they cannot face new (f) .Whenever they talk, they reveal their
-        ignorance. They lose (g) in the process . whole (1) boldly. -in the
-        process. It is great (h) for the nation. Conditions should be improved
-        to (i) our children in a proper way so that they may exploit the whole
-        (j)- boldly. <br />
+        is mainly (a) __ of the traditional education system. Teachers do not
+        know much about the modern teaching method. Moreover, the testing (b) __
+        is not effective. Students can (c) __ - (f) __ good marks by memorizing.
+        But in this system they lose their power and learn to depend on (e) __ .
+        As a result, they cannot face new (f) __ .Whenever they talk, they
+        reveal their ignorance. They lose (g) __ in the process . whole (1) __
+        boldly. -in the process. It is great (h) __ for the nation. Conditions
+        should be improved to (i) __ our children in a proper way so that they
+        may exploit the whole (j) __ - boldly. <br />
         <br />
         54. Dhaka Board-2015; gadirabad Cantt. Sapper College, Bagatipara,
-        Natore-2023 The craft of (a) paper to give them different (b) without
-        any cutting or pasting is called .Although not much is known about its
-        (c) . Origami has been (d) in the Orient for (e) In fact it has taken
-        the form of sophisticated (f) in Japan where it is specially (g) for
-        decorating and for (h) . As a form of (i) plaything. Oregaini takes the
-        form of birds, fish, insects, animals and geometrical figures, sometimes
-        with (j) parts to imitate the movement of real life objects <br />
+        Natore-2023 <br />
+        The craft of (a) __ paper to give them different (b) __ without any
+        cutting or pasting is called .Although not much is known about its (c)
+        __ . Origami has been (d) __ in the Orient for (e) __ In fact it has
+        taken the form of sophisticated (f) __ in Japan where it is specially
+        (g) __ for decorating and for (h) __ . As a form of (i) __ plaything.
+        Oregaini takes the form of birds, fish, insects, animals and geometrical
+        figures, sometimes with (j) __ parts to imitate the movement of real
+        life objects <br />
         <br />
-        55. Jashore Board-2015; Feni Girls' Cadet College, Feni-2019 People's
-        interest in birds goes way back into the past when some birds were
-        actually (a) as messengers of Gods in ancient Egyptian as well as in
-        other cultures. Birds watching these days is done for the fun of finding
-        out more about our feathered friends and (b) to our knowledge about
-        them. In recent years, birds have become the barometers of (c) changes
-        around us. Bird watchers have made important contributions towards (d)
-        information about which birds have (e) from which areas or become
-        extinct altogether or what factors are having bad effects on their (f) .
-        Bird watching requires a lot of (g) might cover days, months or years.
-        Real (h) even go to (i) Islands to observe a queer variety of birds.
-        Bird watching has become well-known and almost all over the world and
-        many travel agencies can also provide necessary information on (j) which
-        are suitable for bird watching. <br />
+        55. Jashore Board-2015; Feni Girls' Cadet College, Feni-2019
         <br />
-        58. Barishal Board-2015; Rajshahi Board-2009; Sylhet Board-2003 One day
-        a lad went to a famous teacher and having expressed his desires to (a)
-        knowledge, begged him to (b) him in the arts and science. The learned
-        man wishing to © out what sort of ability the lad (d) - asked him where
-        God (e) . Then the lad replied. "I will answer you, if you will first
-        (f) me where He is (g) . The sage, from this sensible (h) thought highly
-        of boy's (h) and according to his (i) perfected him in his studies.
-        Thus, the wisdom of the wise manifests itself early. <br />
+        People's interest in birds goes way back into the past when some birds
+        were actually (a) __ as messengers of Gods in ancient Egyptian as well
+        as in other cultures. Birds watching these days is done for the fun of
+        finding out more about our feathered friends and (b) __ to our knowledge
+        about them. In recent years, birds have become the barometers of (c) __
+        changes around us. Bird watchers have made important contributions
+        towards (d) __ information about which birds have (e) __ from which
+        areas or become extinct altogether or what factors are having bad
+        effects on their (f) __ . Bird watching requires a lot of (g) __ might
+        cover days, months or years. Real (h) __ even go to (i) __ Islands to
+        observe a queer variety of birds. Bird watching has become well-known
+        and almost all over the world and many travel agencies can also provide
+        necessary information on (j) __ which are suitable for bird watching.{" "}
         <br />
-        59. Dinajpur Board-2015 & 2013: Sylhet Board-2011 Jerry, an orphan of
-        twelve, (a) -in an orphanage. The authoress hired a cabin belonging (b)
-        orphanage. Jerry came to her cabin to chop © for the fireplace. He also
-        (d) some extra work for the (e) . Once Jerry (f) a cubbyhole where he
-        put (g) kindling and medium wood so (h) the authoress might (i) dry fire
-        materials ready in case (j) - sudden wet weather. <br />
+        <br />
+        58. Barishal Board-2015; Rajshahi Board-2009; Sylhet Board-2003
+        <br />
+        One day a lad went to a famous teacher and having expressed his desires
+        to (a) __ knowledge, begged him to (b) __ him in the arts and science.
+        The learned man wishing to © out what sort of ability the lad (d) __ -
+        asked him where God (e) __ . Then the lad replied. "I will answer you,
+        if you will first (f) __ me where He is (g) __ . The sage, from this
+        sensible (h) __ thought highly of boy's (h) __ and according to his (i)
+        __ perfected him in his studies. Thus, the wisdom of the wise manifests
+        itself early. <br />
+        <br />
+        59. Dinajpur Board-2015 & 2013: Sylhet Board-2011 <br />
+        Jerry, an orphan of twelve, (a) __ -in an orphanage. The authoress hired
+        a cabin belonging (b) __ orphanage. Jerry came to her cabin to chop ©
+        for the fireplace. He also (d) __ some extra work for the (e) __ . Once
+        Jerry (f) __ a cubbyhole where he put (g) __ kindling and medium wood so
+        (h) __ the authoress might (i) __ dry fire materials ready in case (j)
+        __ - sudden wet weather. <br />
         <br />
         60. Rajshahi Board-2014: Scholarshome, Sylhet-2022 (Prep. Exam)
-        Bangladesh is a small country, it has a (a) population. Most people here
-        live below the (b) line and cannot therefore (c) to educate their
-        children. Many poor children (d) drop out of school after just a few
-        years or simply do not go to (e) at all. Despite this situation, we have
-        far too many (f) to educate compared to the number of (g) available.
-        Bangladesh needs more schools, colleges and (h) to provide for the
-        increasing number of (i) . But owing to financial and resource
-        constraints, the government cannot fund the (j) institutions.numbers of
-        educational <br />
         <br />
-        61. Jashore Board-2014 Rubel is (a) up with his next door neighbours.
-        His bedroom is very close to (b) . Every time he sits down to study in
-        the evening, there comes the (c) sound of the television from the house
-        (d) door. It seems that the television is kept (e) the whole evening. It
-        becomes very difficult for him to (f) on his studies. In winter he can
-        (g) it by keeping his window closed but in summer it gets too hot and
-        (h) if the window is kept closed. So he is (i) to put up (j) the
+        __ Bangladesh is a small country, it has a (a) __ population. Most
+        people here live below the (b) __ line and cannot therefore (c) __ to
+        educate their children. Many poor children (d) __ drop out of school
+        after just a few years or simply do not go to (e) __ at all. Despite
+        this situation, we have far too many (f) __ to educate compared to the
+        number of (g) __ available. Bangladesh needs more schools, colleges and
+        (h) __ to provide for the increasing number of (i) __ . But owing to
+        financial and resource constraints, the government cannot fund the (j)
+        __ institutions.numbers of educational <br />
+        <br />
+        61. Jashore Board-2014 <br />
+        Rubel is (a) __ up with his next door neighbours. His bedroom is very
+        close to (b) __ . Every time he sits down to study in the evening, there
+        comes the (c) __ sound of the television from the house (d) __ door. It
+        seems that the television is kept (e) __ the whole evening. It becomes
+        very difficult for him to (f) __ on his studies. In winter he can (g) __
+        it by keeping his window closed but in summer it gets too hot and (h) __
+        if the window is kept closed. So he is (i) __ to put up (j) __ the
         disturbance from next door. <br />
         <br />
-        62. Chattogram Board-2014; Dania University College, Dhaka-2017 Most of
-        the Bangladeshi (a) that our motherland (b) in the active earthquake
-        zone. Experts are alarmed by the recurrence of the (e) in the recent
-        years. But they do not give any direct answer to the question (d) the
-        (e) of the building in Dhaka city. As there is every (f) of earthquakes
-        in Bangladesh, experts (g) for taking adequate precautionary (h) to
-        reduce the losses. RAJUK opines that an earthquake (i) building code
-        should be (j) to avoid natural disaster.
+        62. Chattogram Board-2014; Dania University College, Dhaka-2017 <br />
+        Most of the Bangladeshi (a) __ that our motherland (b) __ in the active
+        earthquake zone. Experts are alarmed by the recurrence of the (e) __ in
+        the recent years. But they do not give any direct answer to the question
+        (d) __ the (e) __ of the building in Dhaka city. As there is every (f)
+        __ of earthquakes in Bangladesh, experts (g) __ for taking adequate
+        precautionary (h) __ to reduce the losses. RAJUK opines that an
+        earthquake (i) __ building code should be (j) __ to avoid natural
+        disaster.
         <br />
-        64. Cumilla Board-2011; Sylhet Board-2013; Barishal Board-2014 Banks are
-        often unable or (a) to lend money to poorer sections of the society. The
-        Grameen Bank (b) credit to the poor, particularly rural (c) . There are
-        about 800 micro-finance (d) in the country. It is estimated that they
-        have (e) employment for about 54.000 people. A recent (f) indicates that
-        micro-credit programmes had a (g) effect on socio-economic variables (h)
-        children's schooling, nutrition and and about 5% of programme family (i)
-        participants rose above (j) line.
+        64. Cumilla Board-2011; Sylhet Board-2013; Barishal Board-2014 <br />
+        Banks are often unable or (a) __ to lend money to poorer sections of the
+        society. The Grameen Bank (b) __ credit to the poor, particularly rural
+        (c) __ . There are about 800 micro-finance (d) __ in the country. It is
+        estimated that they have (e) __ employment for about 54.000 people. A
+        recent (f) __ indicates that micro-credit programmes had a (g) __ effect
+        on socio-economic variables (h) __ children's schooling, nutrition and
+        and about 5% of programme family (i) __ participants rose above (j) __
+        line.
         <br />
-        65. Dinajpur Board-2014; Rajshahi Board-2012 & 2008; Sylhet Board-2012:
-        Jashore Board-2010 Man pollutes water, another vital (a) of the
-        environment by dumping (b) into it. Farmers (e) chemical fertilizers and
-        insecticides in their fields, some of these chemicals washed away by
-        rain and flood, (d) mixed with water in rivers, canals and ponds. Water
-        is also (e) by mills and factories when they throw their (f) chemicals
-        and waste products into rivers and canals. Water vehicles also pollute
-        rivers by dumping oil, food waste and human waste (g) them. Insanitary
-        latrines (h) on river and canal banks are also (i) for further
-        pollution. In this way, various (j) of waste and filth
-        pollute/contaminate water. <br />
+        65. Dinajpur Board-2014; Rajshahi Board-2012 & 2008; Sylhet Board-2012:{" "}
         <br />
-        67. Jashore Board-2013 & 2008: Nilphamari Govt. College-2017 Introverts
-        and extroverts are two (a) of people (b) in society. An (c) is quite
-        opposite to an extrovert. Without (d) extroverts no one can (e) life in
-        the country. What we have (f) from the (g) of Sohel and Farid gives us
-        the quality of (h) . What Faird has done in the bus (i) introvert.
-        Fahima is (j) the extrovert quality. <br />
+        <br />
+        Jashore Board-2010 Man pollutes water, another vital (a) __ of the
+        environment by dumping (b) __ into it. Farmers (e) __ chemical
+        fertilizers and insecticides in their fields, some of these chemicals
+        washed away by rain and flood, (d) __ mixed with water in rivers, canals
+        and ponds. Water is also (e) __ by mills and factories when they throw
+        their (f) __ chemicals and waste products into rivers and canals. Water
+        vehicles also pollute rivers by dumping oil, food waste and human waste
+        (g) __ them. Insanitary latrines (h) __ on river and canal banks are
+        also (i) __ for further pollution. In this way, various (j) __ of waste
+        and filth pollute/contaminate water. <br />
+        <br />
+        67. Jashore Board-2013 & 2008: Nilphamari Govt. College-2017 <br />
+        Introverts and extroverts are two (a) __ of people (b) __ in society. An
+        (c) __ is quite opposite to an extrovert. Without (d) __ extroverts no
+        one can (e) __ life in the country. What we have (f) __ from the (g) __
+        of Sohel and Farid gives us the quality of (h) __ . What Faird has done
+        in the bus (i) __ introvert. Fahima is (j) __ the extrovert quality.{" "}
+        <br />
         <br />
         68. Chattogram Board-2013; Barishal Board-2007 <br />
-        Bangladesh is a land of (a) . But nowadays the rivers are (b) up.
-        necessity for our country now. The rivers carry (d) which makes the
-        Besides, they supply us plenty of (f) -During the dry season we (g) At
-        present, the (h) - of water causes bad harvest. We can easily (1) rivers
-        in our life and (1) up. So (c) land (e) Is an urgent to grow crops.
-        river water to the land. the use and utility of the <br />
+        Bangladesh is a land of (a) __ . But nowadays the rivers are (b) __ up.
+        necessity for our country now. The rivers carry (d) __ which makes the
+        Besides, they supply us plenty of (f) __ -During the dry season we (g)
+        __ At present, the (h) __ - of water causes bad harvest. We can easily
+        (1) __ rivers in our life and (1) __ up. So (c) __ land (e) __ Is an
+        urgent to grow crops. river water to the land. the use and utility of
+        the <br />
         <br />
         69. Barishal Board-2013 & 2011 <br />
-        E-mail has brought about. (a) In modern (b) Messages can be transmitted
-        from one country to another within (c) It is far cheaper than telephone
-        calls. Trade and commerce has become greatly (d) on this speedy mode of
-        communication. It has, (e) - not reached every one. especially in (1)
-        countries like ours, as most people cannot (g) to have a personal
-        computer. But (h) of the people have started (1) commercially operated
-        e-mail for important (1) <br />
+        E-mail has brought about. (a) __ In modern (b) __ Messages can be
+        transmitted from one country to another within (c) __ It is far cheaper
+        than telephone calls. Trade and commerce has become greatly (d) __ on
+        this speedy mode of communication. It has, (e) __ - not reached every
+        one. especially in (1) __ countries like ours, as most people cannot (g)
+        __ to have a personal computer. But (h) __ of the people have started
+        (1) __ commercially operated e-mail for important (1) __ <br />
         <br />
         70. Dhaka Board-2012; Carmichael College, Rangpur-2025 <br />
         <br />
-        All things that make up the environment are (a). The way in which
-        people, animals and plants are related to each other and to their (b)
-        -is known as (c) The ecosystem is a (d) that links animals, plants and
-        every other life (e) in the biosphere. All these things (1) together.
-        The system is in a steady state of (g) balance which means that by (h)
-        web any one part of the web you can affect all the other parts. For
-        example, the (1) of forests may have serious ecological (1) on humans
-        and animals. <br />
+        All things that make up the environment are (a) __ . The way in which
+        people, animals and plants are related to each other and to their (b) __
+        -is known as (c) __ The ecosystem is a (d) __ that links animals, plants
+        and every other life (e) __ in the biosphere. All these things (1) __
+        together. The system is in a steady state of (g) __ balance which means
+        that by (h) __ web any one part of the web you can affect all the other
+        parts. For example, the (1) __ of forests may have serious ecological
+        (1) __ on humans and animals. <br />
         <br />
         72. Cumilla Board-2012; Dinajpur Board-2012; Chattogram Board-2006{" "}
         <br />
         <br />
-        us all. If forests (d) change and the effect the polar ice If we (a)
-        forests and cut (b) trees, the effects might eventually (e) into
-        deserts, what will (e) carbon dioxide? Then the weather pattern (1)
-        world will become (g) This is (h) the greenhouse effect. As a result of
-        this caps will (1) and this will cause the flood of (1) areas of the
-        globe. <br />
+        us all. If forests (d) __ change and the effect the polar ice If we (a)
+        __ forests and cut (b) __ trees, the effects might eventually (e) __
+        into deserts, what will (e) __ carbon dioxide? Then the weather pattern
+        (1) __ world will become (g) __ This is (h) __ the greenhouse effect. As
+        a result of this caps will (1) __ and this will cause the flood of (1)
+        __ areas of the globe. <br />
         <br />
         73. Chattogram Board-2012; Cumilla Board-2006
         <br />
-        Learning a language is (a) communication. You learn to (d) experiencing
-        it. You (e) learn riding a cycle. The most (b) thing (c) any language is
-        effectively by using a language, by doing things with it and by English
-        in the same (1) as one learns to ride a cycle. Do not (g) If people
-        laugh at you (h) you make (1) You can certainly learn (1) mistake <br />
+        Learning a language is (a) __ communication. You learn to (d) __
+        experiencing it. You (e) __ learn riding a cycle. The most (b) __ thing
+        (c) __ any language is effectively by using a language, by doing things
+        with it and by English in the same (1) __ as one learns to ride a cycle.
+        Do not (g) __ If people laugh at you (h) __ you make (1) __ You can
+        certainly learn (1) __ mistake <br />
         <br />
         <br />
         <br />
