@@ -7,8 +7,8 @@ import {
 
 const QuestionOneTwo = () => {
   return (
-    <div className="px-3">
-      <div className="py-20 text-center">
+    <div className="px-3 lg:w-1/2 mx-auto">
+      <div className="py-20 text-center ">
         <h1 className="text-green-500">Model Questions</h1>
         <p className="text-pink-700 font-bold">Question 1 & 2</p>
       </div>
@@ -18,7 +18,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 1</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   <div className="text-center ">
                     <h2 className="font-bold">
@@ -213,7 +213,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 2</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="text-center">
                   <h2 className="font-bold">
                     Model Question - 02 <br />
@@ -390,7 +390,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 3</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 Model Question-03 <br />
                 English (Compulsory) ------ First Paper <br />
                 Full marks: 100 Time: 3 hours. <br />
@@ -538,7 +538,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 4</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 Model Question 04 <br />
                 English (Compulsory) - First Paper <br />
                 Full marks: 100 ------ Time: 3 hours <br />
@@ -674,7 +674,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 5</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 Model Question - 05 <br />
                 English (Compulsory) - First Paper <br />
                 Full marks: 100 ------ Time: 3 hours <br />
@@ -808,7 +808,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 6</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 Model Question 06 <br />
                 English (Compulsory)- First Paper <br />
                 Full marks: 100 ----- Time: 3 hours <br />
@@ -938,7 +938,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 7</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 Model Question 07 <br />
                 English (Compulsory)- First Paper <br />
                 Full marks: 100 ----- Time: 3 hours <br />
@@ -1076,7 +1076,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 8</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question-08 <br />
                   English (Compulsory)- First Paper <br />
@@ -1225,7 +1225,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 9</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question-09 <br />
                   English (Compulsory) - First Paper <br />
@@ -1354,7 +1354,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 10</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question - 10 <br />
                   English (Compulsory) - First Paper <br />
@@ -1482,7 +1482,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 11</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question - 11 <br />
                   English (Compulsory)- First Paper <br />
@@ -1615,7 +1615,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 12</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question-12 <br />
                   English (Compulsory)- First Paper <br />
@@ -1774,7 +1774,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 13</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question - 13 <br />
                   English (Compulsory)- First Paper <br />
@@ -1937,7 +1937,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 14</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question - 14 <br />
                   English (Compulsory)- First Paper <br />
@@ -2063,7 +2063,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 15</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question - 15 <br />
                   English (Compulsory)- First Paper <br />
@@ -2222,7 +2222,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 16</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question - 16 <br />
                   English (Compulsory)- First Paper <br />
@@ -2352,7 +2352,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 17</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question - 17 <br />
                   English (Compulsory)- First Paper <br />
@@ -2498,7 +2498,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 18</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question-18 <br />
                   English (Compulsory) First Paper <br />
@@ -2631,7 +2631,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 19</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question-19 <br />
                   English (Compulsory) First Paper <br />
@@ -2791,7 +2791,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 20</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question-20 <br />
                   Full marks: 100 ----------- Time: 3 hours <br />
@@ -2907,7 +2907,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 21</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question - 21 <br />
                   English (Compulsory)- First Paper <br />
@@ -3029,7 +3029,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question -22 </AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question - 22 <br />
                   English (Compulsory) First Paper <br />
@@ -3157,7 +3157,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 23</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question-23 <br />
                   English (Compulsory)- First Paper <br />
@@ -3299,7 +3299,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 24</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question-24 <br />
                   English (Compulsory)- First Paper <br />
@@ -3451,7 +3451,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 25</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question-25 <br />
                   English (Compulsory)- First Paper <br />
@@ -3580,7 +3580,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 26</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question-26 <br />
                   English (Compulsory)- First Paper <br />
@@ -3722,7 +3722,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 27</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question-27 <br />
                   English (Compulsory)- First Paper <br />
@@ -3865,7 +3865,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 28</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question-28 <br />
                   English (Compulsory)- First Paper <br />
@@ -4042,7 +4042,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 29</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question-29 <br />
                   English (Compulsory)- First Paper <br />
@@ -4201,7 +4201,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 30</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
                   Model Question-30 <br />
                   English (Compulsory)- First Paper <br />
@@ -4365,7 +4365,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 24</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className=""></div>
               </div>
             </AccordionContent>
@@ -4374,7 +4374,7 @@ const QuestionOneTwo = () => {
           <AccordionPanel>
             <AccordionTitle>Model question - 24</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-sm lg:text-xl">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className=""></div>
               </div>
             </AccordionContent>

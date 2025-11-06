@@ -5,7 +5,7 @@ const QuestionFour = () => {
         <h1 className="">Question Four</h1>
         <p className="">Close test with clues</p>
       </div>
-      <div className="text-sm lg:text-xl">
+      <div className="text-base lg:text-xl">
         Board Exam Based Exercises <br />
         <br />
         {/* 1 */}
@@ -897,162 +897,535 @@ const QuestionFour = () => {
           তারও উল্লিখিত লোকটির মতই রক্ত ও মাংস রয়েছে। <br />
           30. (a) rational (b) work (c) proud (d) blue (e) ready (f) class (g)
           inferior (h) birth (i) same (j) mentioned <br />
+          <br /> <br />
+          31. Dhaka Board-2017; Rangpur Cadet College, Rangpur-2025 <br />
           <br />
-        </div>
-        {/* Answer */}
-        <div className="">
-          27. (a) congratulation (b) success (c) extremely (d) delighted (e)
-          informed (1) competition (g) performer (h) entire (1) earned (1)
-          continuous <br />
+          Recur Safe Opine Aware Develop Precaution Minimize Lie Compulsory
+          Straight Loss Possibility <br />
           <br />
-          28. (a) significance (b) provides (c) benefits (d) living (e) cattle
-          (f) collect (g) and (h) system (1) resting (j) migratory <br />
+          It's a matter of great concern that Bangladesh (a) in the active
+          earthquake zone. Most of the Bangladeshis are fully (b) of its
+          severity. Experts are alarmed by the (c) of quakes during recent
+          years. But they give no -(d) answer to the question of (e) about the
+          buildings of Dhaka.a city. Since there is every (f) of earthquakes in
+          Bangladesh, experts call for taking adequate (g) measures to (h)
+          losses. Rajuk (i) - that an earthquake resistant building code should
+          be (j) . <br />
           <br />
-          29. (a) Although (b) see (c) touching (d) developed (e) called (f) way
-          (g) bears (h) dots (1) tips (1) Printed <br />
+          এটা অত্যন্ত উদ্বেগের বিষয় যে, বাংলাদেশ সক্রিয় ভূমিকম্প অঞ্চলে অবস্থান
+          করছে। অধিকাংশ বাংলাদেশী এর তীব্রতা সম্পর্কে অবহিত। সাম্প্রতিক
+          বছরগুলোতে ঘন ঘন ভূমিকম্পের কারণে বিশেষজ্ঞগণ শঙ্কিত। তবে তাঁরা ঢাকা
+          নগরীর ভবনসমূহের নিরাপত্তা সংশ্লিষ্ট প্রশ্নের কোনো সরাসরি উত্তর দিচ্ছেন
+          না। বাংলাদেশে ভূমিকম্প সংঘটিত হওয়ার যেহেতু যথেষ্ট সম্ভাবনা রয়েছে
+          সেহেতু বিশেষজ্ঞগণ ক্ষয়ক্ষতি কমিয়ে আনার পূর্ব সতর্কতামূলক ব্যবস্থা
+          গ্রহণের আহ্বান জানিয়েছেন। রাজুক এই অভিমত পোষণ করে যে, ভূমিকম্প
+          প্রতিরোধ নির্মাণ বিধিমালা প্রণীত হওয়া দরকার। <br />
+          Answer: (a) lies (b) aware (c) recurrence (d) straight (e) safety (f)
+          possibility (g) precautionary (h) minimize (i) opines (j) developed{" "}
           <br />
-          30. (a) rational (b) work (c) proud (d) blue (e) ready (f) class (g)
-          inferior (h) birth (1) same (1) mentioned <br />
           <br />
-          31. (a) lles (b) aware (c) recurrence (d) straight (e) safety (f)
-          possibility (g) precautionary (h) minimize (1) opines (1) developed{" "}
+          33. Jashore Board-2017; Dhaka Residential Model College, Dhaka-2025{" "}
           <br />
           <br />
-          32. (a) defined (b) armed (c) deaths (d) within (e) called (f) among
-          (g) interpersonal (h) cause (1) economic (1) serious <br />
+          poisonous of preserve greatest be more refresh stern by production
+          contamination health <br />
+          <br />
+          Food adulteration is one of the (a) problems in recent times in our
+          country. Different food and food products, vegetables, fruits and
+          fishes are being (b) (c) the unscrupulous and profit monger
+          businessmen and green grocers. However, we, the general people (d) the
+          victims (e) all sorts of pangs and serious diseases. The businessmen
+          use (f) chemicals such as DDT, Aldrin. Heptachlor just to make their
+          products () attractive or to (h) them for a long time. So it is time
+          the authorities concerned took (1) steps to stop adulteration. Proper
+          monitoring, supervision, and public awareness should be compulsory
+          from (1) consumers. such food level to <br />
+          <br />
+          সাম্প্রতিককালে আমাদের দেশে খাদ্যে ভেজাল মিশানো সবচেয়ে বড় সমস্যাগুলোর
+          অন্যতম। বিভিন্ন খাদ্য ও খাদ্যপণ্য, শাক-সব্জী, ফলফলারী এবং মাছ অসাধু,
+          মুনাফাখোর ব্যবসায়ী ও সবজী দোকানী কর্তৃক দূষিত হচ্ছে। তবে আমরা জনসাধারণ
+          বিভিন্ন রোগ-শোকের শিকার হচ্ছি। ব্যবসায়ীরা তাদের উৎপাদিত পণ্যগুলোকে আরও
+          আকর্ষণীয় করে তুলতে বা সেগুলোকে দীর্ঘদিন সংরক্ষণ করতে ডিডিটি, অলড্রিন,
+          হেন্টাক্লোরের মত বিষাক্ত রাসায়নিক ব্যবহার করছে। অতএব, সংশ্লিন্ট
+          কর্তৃপক্ষের উচিত এ ধরনের খাদ্যে ভেজাল বন্ধের জন্য কঠোর পদক্ষেপ গ্রহণ
+          করা। উৎপাদন প্রক্রিয়া থেকে ভোক্তা পর্যায় পর্যন্ত সকল ক্ষেত্রে যথাযথ
+          পর্যবেক্ষণ, তত্ত্বাবধান ও গণসচেতনতা সৃষ্টি করাকে বাধ্যতামূলক করতে হবে।{" "}
           <br />
           33. (a) greatest (b) contaminated (c) by (d) are (c) of (f) poisonous
           (g) more (h) preserve (1) stern (1) production <br />
           <br />
-          34. (a) important (b) development (c) knowledge (d) were (e) healthy
-          (f) enables (g) choices (h) ability (1) face (1) which <br />
+          34. Dinajpur Board-2017; Cumilla Residential College, Cumilla-2025{" "}
           <br />
+          <br />
+          who health choice be develop enable able ability Importance face which
+          know <br />
+          <br />
+          Education is one of the basic needs of a human being. It is (a) for
+          the (b) of mind. Many illiterate people do not have any (c) of health.
+          If they (d)- educated, they could live a (e) and planned life.
+          Education teaches us how to live well. It (f) - us to make the right
+          (g) in life. It enhances our (h) to perform our duties properly and
+          (i) our everyday problems. In fact, it is education (j) - brings
+          positive changes in our life. <br />
+          <br />
+          শিক্ষা হচ্ছে মানবজাতির মৌলিক চাহিদাগুলোর অন্যতম। এটি মানসিক বিকাশের
+          জন্য গুরুত্বপূর্ণ। অনেক নিরক্ষর লোকের স্বাস্থ্য সম্পর্কিত জ্ঞান নেই।
+          যদি তারা শিক্ষিত হতেন তবে তারা পরিকল্পিত ও সুস্থ জীবন যাপন করতে
+          পারতেন। কিভাবে উত্তম জীবন যাপন করতে হয় শিক্ষা আমাদেরকে তা শেখায়। জীবনে
+          সঠিক সিদ্ধান্ত গ্রহণে এটা আমাদেরকে সক্ষম করে তোলে। আমাদের কর্তব্য
+          কাজগুলো যথাযথভাবে সম্পন্ন করতে এবং আমাদের দৈনন্দিন সমস্যাবলি মোকাবিলা
+          করতে এটি আমাদের যোগ্যতা বৃদ্ধি করে। প্রকৃতপক্ষে, শিক্ষাই আমাদের জীবনে
+          ইতিবাচক পরিবর্তন নিয়ে আসে। <br />
+          34. (a) important (b) development (c) knowledge (d) were (e) healthy
+          (f) enables (g) choices (h) ability (i) face (j) which <br />
+          <br />
+          35. Dhaka Board-2016; Bogura Cantt. Public School & College,
+          Bogura-2018 <br />
+          <br />
+          accelerate globe noble gain isolate come disastrous add exist former
+          explore communication revolution successful <br />
+          <br />
+          We have achieved many positive things during the last century. We have
+          (a) tremendous advancement in the field of science. For example man
+          has (b) landed on the moon . He is going to (c) other planets.. We
+          have achieved (d) success in the field of information technology. Now,
+          we can (e) to any part of the world in a second. The world has become
+          a (f) village. No nation is (g) from other countries. One country (h)
+          to help other countries during the time of (i) Science has certainly
+          (j) the process of globalisation. <br />
+          <br />
+          গত শতাব্দীতে আমরা অনেকগুলো। ইল্লিবাচক দিক দেখেছি। বিজ্ঞানের ক্ষেত্রে
+          আমরা ব্যাপক অগ্রগতি সাধন করেছি। দৃষ্টান্তস্বরূপ, মানুষ চাঁদে অবতরণ
+          করেছে। সে অন্যান্য গ্রহ উদ্‌ঘাটন করতে চলেছে। তথ্যপ্রযুক্তিতে আমরা
+          বৈপ্লবিক সাফল্য অর্জন করেছি। বর্তমানে আমরা মুহূর্তের মধ্যে পৃথিবীর যে
+          কোনো প্রান্তে যোগাযোগ করতে পারি। পৃথিবী পরিণত হয়েছে এক বৈশ্বিক গ্রামে।
+          কোনো জাতি অন্যান্য রাষ্ট্র থেকে বিচ্ছিন্ন নয়। দুর্যোগের সময় এক দেশ
+          অন্য দেশকে সাহায্য করতে এগিয়ে আসে। নিশ্চিতভাবে বিজ্ঞান বিশ্বায়ন
+          প্রক্রিয়াকে তরান্বিত করেছে। <br />
           35. (a) gained (b) successfully (c) explore (d) revolutionary (e)
           communicate (f) global (g) Isolated (h) comes (1) disasters (1)
           accelerated <br />
           <br />
-          36. (a) extended (b) is (c) at (d) has/needs (e) for (f) have (g)
-          share (h) in (1) on (j) were <br />
+          38. Cumilla Board-2016; Govt. College of Commerce, Chattogram-2023{" "}
           <br />
-          37. (a) protect (b) survive (c) different (d) colour (e) surroundings
-          (f) from (g) moves (h) leaf (1) escapes (1) looks <br />
           <br />
+          count enter change establish opt acknowledge presence work reliance
+          education recognize social unnecessary cocoons <br />
+          <br />
+          One very conspicuous (a) in our society is the (b) of working women
+          outside home. Of course it has to be (c) that women have always worked
+          within the household but this (d) is not counted as work. It is
+          unfortunate that women's roles in agricultural societies have not been
+          (e) either. Whether it is due to economic necessity or the urge to (f)
+          an individual identity or both, nowadays many women are (g) the
+          outside workforce. They are joining a wide range of
+          professions/Moreover, It is not only (h) women who are (i) to work but
+          women with little or no education have come out of their (j) to earn
+          and become self-reliant. <br />
+          <br />
+          আমাদের সমাজে এমন এক পরিবর্তন সূচিত হয়েছে যা সহজেই চোখে পড়ে তা হচ্ছে
+          বাসা-বাড়ীর বাইরে কর্মজীবি নারীর উপস্থিতি। অবশ্যই এটা স্বীকার করে নিতে
+          হবে যে, নারীরা সবসময়ই গৃহাভ্যন্তরে কাজ করে আসছে, তবে সাধারণত এটা 'কাজ'
+          হিসেবে গণ্য করা হয় না। এটা দুর্ভাগ্যজনক যে, কৃষিক্ষেত্রেও নারীদের
+          ভূমিকা স্বীকৃত হয়নি। হতে পারে আর্থিক প্রয়োজনের কারণে বা হতে পারে
+          ব্যক্তি পরিচিতি প্রতিষ্ঠার কারণে বা হতে পারে উভয় কারণেই, অনেক নারীই
+          বহিরাঙ্গনের কর্মজগতে যোগদান করছেন। তারা বিভিন্ন প্রকার পেশায় যোগদান
+          করছেন। তাছাড়া, এমনটা নয় যে, শুধু শিক্ষিত নারীরাই কাজ করার পক্ষে, স্বয়
+          শিক্ষিত বা অশিক্ষিত নারীরাও অর্থ উপার্জন ও নির্ভর হওয়ার জন্য তাদের
+          কুঠরী থেকে বের হয়ে এসেছেন। <br />
           38. (a) change (b) presence (c) acknowledged (d) work (e) recognized
-          (1) establish (g) entering (h) educated (1) opting (1) cocoons <br />
+          (f) establish (g) entering (h) educated (i) opting (j) cocoons <br />
           <br />
-          39. (a) eating (b) mind (c) satisfy (d) preserve (e) needs (1) happens
-          (g) knowledge (h) nutrition (1) balanced (1) available <br />
+          39. Cumilla Board-2007; Chattogram Board-2016; Sylhet Board-2006;
+          Dinajpur Board-2012 <br />
           <br />
-          40. (a) in (b) experts (c) biological (d) expectancy (e) told (f) have
-          (g) caused (h) regarded (1) ninety (1) live <br />
+          dina drink need cat heart available balanced nutrition knowledge
+          satisfy happen lack preserve mind for <br />
           <br />
-          41. (a) landless (b) married (c) teenage (d) working (e) were (1)
-          occasionally (g) feeble (h) malnutrition (1) thatched (1) begging{" "}
+          While (a) food we should bear in (b) that we don't eat just to (c)
+          hunger or to fill the belly. We. eat to (d) our health. For good
+          health a man (e) good food. Sometimes it so (f) that people who live
+          even in the midst of plenty do not eat the food they need for good
+          health because they have no (g) of science and health and (h) They do
+          not know how to select a (i) diet from the many foods that are (j) to
+          them. <br />
+          <br />
+          খাদ্য গ্রহণের সময় আমাদের মনে রাখা উচিত যে আমরা শুধু ক্ষুধা নিবারণ বা
+          উদর পূর্তির জন্য খাই না। আমরা খাই স্বাস্থ্য রক্ষার জন্য। ভাল
+          স্বাস্থ্যের জন্য একজন লোকের ডাল খাদ্য প্রয়োজন। অনেক সময় এমনও ঘটে যে
+          প্রাচুর্যের মধ্যে বাস করা লোকেরা তাদের সু-স্বাস্থ্যের জন্য প্রয়োজনীয়
+          খাদ্য গ্রহণ করে না কারণ তাদের বিজ্ঞান, স্বাস্থ্য এবং পুষ্টি সম্পর্কে
+          জ্ঞান নেই। তারা তাদের কাছে সহজলভ্য অনেক খাদ্য থেকে কিভাবে সুষম খাদ্য
+          বাছাই করতে হয় তা জানে না। <br />
+          39. (a) eating (b) mind (c) satisfy (d) preserve (e) needs (f) happens
+          (g) knowledge (h) nutrition (i) balanced (j) available <br />
+          <br />
+          44. Jashore Board-2015; National Ideal College, Khilgaon, Dhaka-2019{" "}
           <br />
           <br />
-          42. (a) control (b) gradually (c) confined (d) power (e) limited (1)
-          through (g) voice (h) sounds (1) handicap (1) slow <br />
+          martyrdom lock intellect prevail clash shoot conspire spirit killing
+          enforce violate fail <br />
           <br />
-          43. (a) Addressing (b) paramount (c) to bring about (d) in vain (e)
-          solved (1) called (g) ensure (h) originate (1) must (1) upliftment{" "}
+          One who lays down one's life for upholding the cause of the
+          motherland, occupies the glorious position of a (a) - . Shaheed Dr.
+          Shamsuzzoha is such a proud son of our beloved motherland. He was the
+          first (b) who embraced martyrdom during the preliberation period of
+          Bangladesh. After the (c) of the trumped-up Agartala (d) case,
+          Sergeant Zohurul Haque was killed in prison by the Ayub Khan Govt on
+          February 1969 . Following the brutal killing, a flame of protest
+          ablazed throughout the then East Pakistan, A volatile situation also
+          (e) in the Rajshahi city where section 144 was (1) to prevent the
+          agitating students from taking part in any protest. But the students
+          of Rajshahi University were (g) and bold enough to bring out a
+          vigorous procession (h) section 144 that subsequently led them to be
+          (i) in the clash with the police and the armed forces. The armed
+          forces started to take up their positions against the students. Dr.
+          Zoha came forward to save the students and ultimately, he was (j)
+          dead. <br />
           <br />
-          <br />
+          যিনি মাতৃভূমির লক্ষ্য পূরণের জন্য নিজের প্রাণ বিসর্জন দেন তিনি শহীদের
+          মর্যাদা/গৌরব লাভ করেন। শহীদ ডক্টর শাসসুজ্জোহা আমাদের প্রিয় মাতৃভূমির
+          তেমনই এক গর্বিত সন্তান। তিনি ছিলেন স্বাধীনতাপূর্ব সময়ের প্রথম
+          বুদ্ধিজীবী যিনি শাহাদত বরণ করেছিলেন। সাজানো আগরতলা ষড়যন্ত্র মামলার
+          ব্যর্থতার পর আইয়ুব খান সরকার কর্তৃক ১৯৬৯ সালের ফেব্রুয়ারিতে সার্জেন্ট
+          জহিরুল হক জেলখানায় নিহত হন। এই নির্মম হত্যাকান্ডের পর তৎকালীন পূর্ব
+          পাকিস্তান জুড়ে প্রতিবাদের আগুন জ্বলে ওঠে। রাজশাহী শহরেও এক সহিংস
+          পরিস্থিতির সুত্রপাত হয় যেখানে আন্দোলনরত শিক্ষার্থীদেরকে যেকোনো
+          প্রতিবাদে অংশ নেয়া থেকে বিরত রাখতে ১৪৪ ধারা জারি করা হয়। কিন্তু
+          রাজশাহী বিশ্ববিদ্যালয়ের ছাত্র-ছাত্রীরা ছিল ১৪৪ ধারা ভঙ্গ করে এক
+          স্বতস্ফূর্ত শোভাযাত্রা বের করার মতো প্রবল চেতনাসম্পন্ন এবং নির্ভিক যার
+          ফলশ্রুতিতে তারা পুলিশ ও স্বশস্ত্র বাহিনীর সাথে সংঘর্ষে জড়িয়ে পড়ে।
+          স্বশস্ত্র বাহিনী ছাত্র-ছাত্রীদের বিরুদ্ধে তাদের অবস্থান নিতে শুরু করে।
+          ডক্টর জোহা ছাত্রছাত্রীদেরকে রক্ষা করতে এগিয়ে আসেন এবং শেষ পর্যন্ত
+          তাঁকে গুলি করে হত্যা করা হয়। <br />
           44. (a) martyr (b) intellectual (c) failure (d) conspiracy (e)
-          prevailed (f) enforced (g) spirited (h) violating (1) locked (1) shot{" "}
+          prevailed (f) enforced (g) spirited (h) violating (i) locked (j) shot{" "}
           <br />
           <br />
-          45. (a) were worshipped (b) is done (c) ecological (d) Important (e)
-          providing (1) extinct (g) habitation (h) requires (1) seasonal (0)
-          enthusiasts <br />
+          47. Sylhet Board-2015; Cumilla Board-2011; Govt. Michael Madhusudan
+          College, Jashore-2023 <br />
           <br />
-          46. (a) electronic (b) mode (c) communication (d) established (e)
-          simultaneously (1) based (g) sent (h) stored (1) personal (1)
-          personally <br />
+          waste community sphere women family returns educate develop children
+          welfare mother sector <br />
           <br />
+          Education for girls is essential for the development in all (a) of the
+          society. So, investments in the education of (b) will bring in greater
+          (e) in the field of economic and social (d) . Educated women can
+          contribute more to the family (e) than those who have no schooling.
+          Educated are more likely to send their (g) to school and look after
+          their health and nutrition. Thus (h) women can contribute to the
+          (i)development. On the other hand, failure to educate women is a
+          tremendous (j) of human resource, <br />
+          <br />
+          সমাজের সকল ক্ষেত্রে উন্নয়নের জন্য নারী শিক্ষা অপরিহার্য। তাই নারী
+          শিক্ষায় বিনিয়োগ অর্থনৈতিক এবং সামাজিক উন্নয়নে অধিকতর মুনাফা সৃষ্টি
+          করবে। পরিবারের কল্যাণে পড়ালেখা না জানা মহিলাদের চেয়ে শিক্ষিত মহিলারা
+          অধিক অবদান রাখতে পারে। পুষ্টির যত্ন নিতে শিক্ষিত মহিলার বেশী উপযোগী।
+          ছেলেমেয়েদের স্কুলে পাঠানো এবং তাদের স্বাস্থ্য ও রাখতে পারে। অন্যদিকে,
+          নারীদের শিক্ষিত করার এভাবে শিক্ষিত মহিলারা জনসমাজের উন্নয়নে অবদান
+          ব্যর্থতা হবে মানব সম্পদের বিরাট অপচয়। <br />
           47. (a) spheres (b) women (c) returns (d) development (e) welfare (f)
           mothers (g) children (h) educated (1) community (0) waste <br />
           <br />
-          48. (a) learning (b) over (c) possession (d) enriched (e) thoughts (1)
-          times (g) of (h) commit (1) aloud (1) known <br />
+          49. Dinajpur Board-2015: Viqarunnisa Noon College, Dhaka-2019 <br />
           <br />
-          49. (a) deseend (b) raise (c) earned (d) domination (e) merely (1)
+          earn dominate merely surplus chain rightful from descend world free
+          raise arise and fall <br />
+          <br />
+          Liberty does not (a) upon a people; a people must (b) themselves to
+          it. It is a fruit that must be (c) before it can be enjoyed. That
+          freedom means freedom only from foreign (d) is an outworn idea. It is
+          not (e) the government that should be free, but people themselves
+          should be free. And no (f) has any real value for common men or women
+          unless it also means freedom from want, freedom from disease and
+          freedom (g) ignorance. This is the main task which confronts us if we
+          are to take our (h) place in the modern (i) -. So, we must go forward
+          at a double pace bending all our resources (j) energies to this great
+          purpose. <br />
+          <br />
+          স্বাধীনতা কোন জনগোষ্ঠির ওপর আচমকা আবির্ভূত হয় না, যেকোনো জনগোষ্ঠিকে
+          অবশ্যই এর লক্ষে উন্নীত করতে হয়। এটা এমন এক ফল যা আস্বাদন করার আগে
+          অবশ্যই অর্জন করতে হয়। স্বাধীনতা অর্থ যে শুধু বিদ্রোহী কর্তৃত্ব থেকে
+          মুক্তি সেটা একটি সাবেকী ধারণা। শুধু সরকার স্বাধীন হলেই চলবে না, বরং
+          জনসাধারণকেও স্বাধীন হতে হবে। সাধারণ নরনারীর কাছে কোন স্বাধীনতারই
+          সত্যিকারের কোন মূল্য থাকে না যদি না এর অর্থ হয় অভাব, রোগ-শোক, এবং
+          অজ্ঞতা থেকে মুক্তি। আমাদেরকে যদি আধুনিক বিশ্বে আমাদের যথাযোগ্য স্থান
+          করে নিতে হয় তাহলে এটিই প্রধান কাজ যা আমাদের সামনে আসে। তাই আমাদের সকল
+          সম্পদ ও শক্তি খাটিয়ে এই মহান উদ্দেশ্যে আমাদেরকে অবশ্যই দ্বিগুণ গতিতে
+          এগিয়ে যেতে হবে। <br />
+          49. (a) descend (b) raise (c) earned (d) domination (e) merely (1)
           freedom (g) from (h) rightful (1) world (1) and <br />
           <br />
-          50. (a) means (b) than (c) not (d) maintain (e) depends (1) upon (g)
-          raising (h) stopped (1) keeping (0) avoid <br />
+          50. Dhaka Board-2014; Chattogram Board-2008; Barishal Board-2009{" "}
+          <br />
+          <br />
+          with improve not mean maintain upon stop take easily than keep depend
+          raise avoid <br />
+          <br />
+          Overeating (a) taking too much food (b) one needs. We eat © to
+          overload our stomach but to (d) a sound health. A sound health (e) on
+          eating habit to some extent. Overeating tells (f) our health. But (g)
+          awareness of the people the habit of overeating can be (h) . With a
+          view to (i) our body fit, we should (j) taking too much food. <br />
+          <br />
+          অতিভোজন অর্থ কারো প্রয়োজনের তুলনায় বেশী খাবার গ্রহণ করা। আমরা উদর
+          পূর্তির জন্য খাইনা, খাই সুস্বাস্থ্য রক্ষার জন্য। খাদ্যাভাসের উপর
+          সুস্বাস্থ্য কিছুটা নির্ভর করে। অতিভোজন স্বাস্থ্যের উপর খারাপ প্রভাব
+          ফেলে। তবে জনসাধারণের মধ্যে সচেতনতা জাগিয়ে অতিভোজনের অভ্যাস বন্ধ করা
+          যেতে পারে। সুস্বাস্থ্য রক্ষার জন্য আমাদের উচিত অতিভোজন পরিহার করা।{" "}
+          <br />
+          50. (a) means (b) than (c) not (d) maintain (e) depends (f) upon (g)
+          raising (h) stopped (i) keeping (j) avoid
+          <br />
+          51. Dhaka Board-2003; Rajshahi Board-2014; Barishal Board-2008;
+          Dinajpur Board-2010 <br />
+          <br />
+          add breathe need plant prevent preserve produce protect provide take
+          give wash <br />
+          <br />
+          Trees are very useful to human beings. They (a) the rich top soil from
+          being (b) away by rain water and floods. You can see trees being (c)
+          along mountain slopes, on road sides, in parks and gardens. Trees give
+          us shade. They (d) life to a place with their colourful flowers,
+          beautiful leaves, fruits and thick trunks. They (e) shelters for birds
+          and animals. They give us timber, medicines, paper, gum and many other
+          useful things. They (f) in carbon-di-oxide and (g) oxygen. As you
+          know, by now man (h) oxygen to (i) and live.Trees are our best
+          friends. We should (j) -them and plant more trees around us. <br />
           <br />
           51. (a) protect/prevent (b) washed (c) planted (d) add (e) provide (1)
           take (absorb করা অর্থে) (g) give (h) needs (1) breathe (1) preserve{" "}
           <br />
           <br />
-          52. (a) effective (b) making (e) goods (d) economy (c) competitive (f)
-          unless (g) merit (h) availability (1) low (1) informative <br />
+          54. Chattogram Board-2014; Cumilla Cadet College, Cumilla-2025 <br />
           <br />
-          53. (a) civilization (b) Ignorant (c) development (d) modern (e) quak
-          (f) programme (g) more (h) school (1) awareness (1) teach <br />
+          control keep remain talk consider draft embrace make behave friendly
+          praiseworthy regard <br />
           <br />
+          The habit of the British for (a) —- their emotion private is (b) .Some
+          obvious things are noticed in the (c) of the British. For example, on
+          public transport one passenger does not usually (d) to another
+          passenger. On first meeting, people do not (e) and often simply shake
+          hands. In theatres, concert halls and cinemas audiences (f) quiet
+          during the performance. None of these (g) of their conduct should be
+          (h) as unfriendliness. If a visitor (i) -the first move to start a
+          conversation, he will find a British citizen rather (j) <br />
           54. (a) keeping (b) praiseworthy (c) behaviour (d) talk (e) embrace
           (1) remain (g) traits (h) considered (1) makes (1) friendly <br />
           <br />
-          55. (a) alarming (b) increased (c) environment (d) greater (e)
-          although (1) affected (g) chemical (h) afflictions (1) suffer (1)
-          severely <br />
+          55. Sylhet Board-2014: Barishal Board-2011 <br />
           <br />
-          56. (a) changed (b) protect (c) spoilt (d) endangered (c) concern (1)
-          perish Destroying (h) saved (1) means (1) mankind <br />
+          experts fertilizers although chemical Increase believe environment
+          greater alarm afflict severely suffer <br />
+          <br />
+          Many diseases are rising at an (a)rate, which experts believe is due
+          to (b) -pollution of the (c) . Pollution appears to be (d) in urban
+          areas (e) rural societies too are (f) by Increased use of (g)
+          fertilizers and insecticides. . Nevertheless, today city people appear
+          to suffer from many more (h) and (i) more (j) than country people. 55.
+          (a) alarming (b) increased (c) environment (d) greater (e) although
+          (1) affected (g) chemical (h) afflictions (1) suffer (1) severely{" "}
+          <br />
+          <br />
+          56. Barishal Board-2014; Cumilla Board-2013; Mirzapur Cadet College,
+          Tangail-2019 <br />
+          <br />
+          mankind endanger be save concern mean protection destroy species
+          perish spoil Change <br />
+          <br />
+          All species are important for maintaining ecological balance. If one
+          is lost, the whole natural environment gets (a) . We should (b) our
+          wildlife to protect the environment from being (c) . Many countries
+          are now taking action to protect their (d) wildlife. Mankind must
+          develop a (e) for wild creatures and must ensure that they will not
+          (f) . (g) wild creatures means destroying ourselves. It is high time
+          we (h) them. love for animals (i) love for (j) . <br />
+          <br />
+          56. (a) changed (b) protect (c) spoilt (d) endangered (e) concern (f)
+          perish (g) Destroying (h) saved (i) means (j) mankind <br />
+          <br />
+          57. Dinajpur Board-2014; Cumilla Board-2010; Barishal Board-2010;
+          Rajshahi Board-2009 <br />
+          <br />
+          happen wit furious die spoil live execution knowing pleasant declare
+          wretch cause unpleasant expire <br />
+          <br />
+          Once upon a time, there was a king who was very fond of (a) his future
+          from the astrologers. A famous astrologer (b) to stop at his capital
+          on his way to Benaras. The king called on him to know about the future
+          and the astrologer told him something (e) - . At this the king got (d)
+          - and condemned him to (e) saying. "Men like you should not live to
+          (f) the peace of the world". But another thought had crossed his mind
+          before the astrologer was removed for (g) "How long will you live?"
+          asked the king. With ready (h) the astrologer said. "The stars (1)
+          that I shall die only a week before your majesty. So, good bye.
+          Hearing this, the king turned pale like a dead man and shouted, "Drive
+          this (1) away, let him not come here again." <br />
           <br />
           57. (a) knowing (b) happened (c) unpleasant (d) furious (e) death (f)
           spoil (g) execution (h) wit (1) declare (1) wretch <br />
           <br />
-          58. (a) considered (b) martyrdom (c) killing (d) spread (e) enforced
-          (f) joined (g) violation (h) locked (1) injured (1) wounded <br />
+          59. Rajshahi Board-2013; Muminunnisa Government Mohila College,
+          Mymensingh-2025 <br />
+          <br />
+          fundamentally atmosphere deplete fall accumulate eventually endanger
+          give Inundate primary grow coal <br />
+          <br />
+          Scientists have recently reported that the polar ice caps are melting.
+          This is due to a rise in (a) temperatures known as the 'Greenhouse
+          Effect. Carbon dioxide is (b) responsible for temperature rise in the
+          atmosphere. The carbon dioxide is (c) off when coal and oil are burnt.
+          This gas is (d) in the air and the ice caps in the North and South
+          poles are melting. This may (e) lead to a rise in the sea levels which
+          could (f) -many areas of the globe. The 'Greenhouse Effect' is just
+          one of the many ( ) changes which are taking place in the environment.
+          Tropical rain forests, which took fifty million years (h) are being
+          (i) at the rate of fourteen acres per minute. The total area of the
+          world's deserts is increasing every year. Many species of animals and
+          plants are (j) with the threat of extinction. <br />
           <br />
           59. (a) atmospheric (b) primarily (c) given (d) accumulating (e)
           eventually (1) inundate (g) fundamental (h) to grow (1) depleted (1)
           endangered <br />
           <br />
-          60. (a) generally (b) remains (c) which (d) logged (e) intensified (f)
-          drainage (g) troublesome (h) face (1) freely (1) activated <br />
           <br />
-          61. (a) become (b) source (c) varied (d) numerous (e) even (f)
-          enjoyable (g) distance (h) run (1) shown (1) Informative <br />
+          65. Jashore Board-2012: Sylhet Cantonment Public School & College,
+          Sylhet-2025 <br />
           <br />
-          62. (a) moncy (b) want (c) credit (d) street (e) opinion (1) rejected
-          (g) scrutinised (h) friends (0) leisure (1) caprice <br />
+          variety Item communication require communicative tradition four
+          foreign purpose International base Imply speaks skill <br />
           <br />
-          63. (a) expansion (b) enters (c) tremendously (d) universities (e)
-          courses (1) traditional (g) students (h) awards (1) contribute (1)
-          high <br />
-          <br />
-          64. (a) went (b) boost (c) given (d) needed (e) be brought (1) closed
-          (g) included (h) develop (1) organtzing (1) fallure <br />
+          English is called an (a) language. In almost all countries, there are
+          people who can (b)English . No other language than English serves the
+          (c) of a common language through which people can (d) with one another
+          across the national border. We should learn English for a great (e) of
+          purposes. English is a skill (f) subject. We should therefore learn
+          the (g) skills of listening, speaking, reading and writing. The
+          communicative approach to learning English does not (h) one to know or
+          learn definitions of grammar (i) . Traditional grammar has little or
+          no place in learning English through the (j) approach. <br />
           <br />
           65. (a) International (b) speak (c) purpose (d) communicate (e)
           variety (f) based (g) four (h) require (1) items (1) communicative{" "}
           <br />
           <br />
-          66. (a) needs (b) Important (c) development (d) knowledge (e) educated
-          (1) healthy (g) education (h) enables (1) choice (1) ability <br />
-          <br />
-          67. (a) importance (b) international (c) lends (d) rural (e)
-          emphasizes (1) raise (g) employment (h) impact (1) planning (1) reduce{" "}
+          69. Dinajpur Board-2009; Cumilla Cantonment College, Cumilla-2024{" "}
           <br />
           <br />
-          68. (a) for (b) returns (c) creating (d) potential (e) had (f) likely
-          (g) success (h) from (1) failing (1) resources <br />
+          attitude amply predetermined ordered ordained sorrows outlook belief
+          undergo hold fate poor <br />
           <br />
+          There are many people in our country who have a conservative (a) .
+          Quite early in life they learn to (b) - that everything in this world
+          was (c) . They think all that happens to them was (d) by God. From
+          this belief the poor generally accept their (e) . They also accept all
+          their (f) and sufferings without trying much to overcome them. They
+          also (g) a firm belief that those who (h) sufferings in this world
+          will be (i) rewarded in the next world. They also have the same sort
+          of (j) towards illness and disease. <br />
           69. (a) outlook (b) believe (c) predetermined (d) ordained (e) fate
           (f) sorrows (g) hold (h) undergo (1) amply (1) attitude <br />
           <br />
+          70. Rajshahi Board-2011; Sylhet Board-2009 & 2005; RaJashore Boardari
+          Govt. College-2018 <br />
+          <br />
+          yardstick adopt shelter enhance protect aware perform саrrу define
+          provide needs essential enable <br />
+          <br />
+          Education is one of the basic (a) of a human being and is (b) for
+          every kind of development. It (c) us to make right choices in life. It
+          (d) our ability to raise crops, store food, (e) the (e) environment
+          and (f) out our social responsibilities. It (g) us with an enlightened
+          (h) about things. But education has to be (i) . It is not merely (j)
+          degrees from schools, colleges and universities. It is something more
+          lasting, more humane. <br />
           70. (a) needs (b) essential (c) enables (d) enhances (e) protect (f)
           carry (g) provides (h) awareness (1) redefined (1) getting <br />
           <br />
-          71. (a) joyful/joyous (b) flooded (c) eager (d) want (e) remain (f)
-          delightful (g) favourite (h) invited (1) elders (1) festive <br />
+          72. Rajshahi Board-2008; Barishal Board-2004 <br />
+          embrace Introduce noticing suddenly control Introduction remain makes
+          interpret usual friend reputation noticeable keep <br />
           <br />
+          The British have (a) for (b) their emotions private. Some obvious
+          things are (c) in British behaviour. For example, on public transport
+          one passenger does not (d)talk to another passenger. On meeting,
+          people do not (e) and often simply shake hands on a first (f) In
+          theatres, concert halls and cinemas audiences (g) quiet during
+          performances. None of these behaviour traits should be (h) as
+          unfriendliness. If a visitor (i) the first move to start a
+          conversation, he will find a British citizen rather (j) . <br />
           72. (a) reputation (b) keeping (c) noticeable (d) usually (e) embrace
-          (f) introduction (g) remain (h) interpreted (1) makes (1) friendly{" "}
+          (f) introduction (g) remain (h) interpreted (i) makes (j) friendly{" "}
           <br />
+          <br />
+          73. Chattogram Board-2011: Sylhet Board-2007: Rajuk Uttara Model
+          College, Dhaka-2024 <br />
+          <br />
+          flood change rise evidence climate warmer alarm unnecessarily
+          prediction destroy catastrophically gradual severely Increase <br />
+          <br />
+          The world is getting (a) because of pollution. Every year millions of
+          people all over the world die (b) - as a result of pollution. In the
+          recent years there have been (c) reports that the world's (d) is
+          undergoing a significant (e) . All these reports provide strong (f)
+          that world temperatures are (g) day by day. Climatologists (h) that
+          mid way through the next century temperatures may have (i) as much as
+          4"C. This could raise sea levels and thereby (j) coastal areas and
+          farm lands. <br />
+          <br />
+          73. (a) warmer (b) unnecessarily (c) alarming (d) climate (e) change
+          (f) evidence (g) increasing (h) predict (i) risen (j) flood <br />
+          <br />
+          75. Cumilla Board-2006; R.C.C.I Public School & College, Rangpur-2017{" "}
+          <br />
+          <br />
+          shabby think see receive ways indifferent get Invite astonished appear
+          gorgeously regard enjoy rich <br />
+          <br />
+          Einstein was very simple in his (a) of life. He was (b) to his fame.
+          Once the queen of Belgium (c) - him to Brussels. When he (d) down from
+          the train, he could not (e) that there were actually many (f) dressed
+          officials to (g) him at the station. The officials also expected
+          somebody who would (h) - to be (i) and aristocratic to them. They
+          never imagined that this (j) man would be Einstein. <br />
+          <br />
+          75. (a) way (b) indifferent (c) invited (d) got (e) think (f)
+          gorgeously (g) receive (h) appear (i) rich (j) shabby <br />
+          <br />
+          77. Barishal Board-2006: Gazipur Cantonment Public College,
+          Gazipur-2025 <br />
+          <br />
+          mentally sympathetic educated genius wise Improve help provides
+          development self-reliant useful assist called equip <br />
+          <br />
+          Proper education (a) __ a learner with opportunities to (b) __all his
+          latent talents. Its aim is to (c) __ to him physically and (d) __ so
+          that he can be (e) __ himself and to the society. An educated man is
+          (f) __ , but he also (g) __ others in attaining self-reliance. He is
+          supposed to be well-mannered, kind and (h) __ . So a man who has
+          acquired knowledge and skill only for his material development cannot
+          be (i) __ a truly (j) __ man. <br />
+          <br />
+          77. (a) provides (b) improve (c) develop (d) mentally (e) useful (f)
+          self-reliant (g) helps (h) sympathetic (i) called (j) educated <br />
+          <br />
+          81. Cumilla Board-2004; Sonar Bangla University College, Burichong,
+          Cumilla-2018 <br />
+          <br />
+          drive without traffic conscious occur be frequent many through easily
+          know move go come <br />
+          <br />
+          It (a) __ difficult to drive in Bangladesh if you have no experience
+          of (b) __ here . Drivers change lanes (c) __ - . As a foreigner you
+          may find lane changing (d) __ signals quite distressing. Even drivers
+          (e) __ - defying rules. Many people are not at all (f) __ about
+          traffic signals. They go around not (g) __ what may happen to them if
+          an accident (h) __ . Rickshaws and baby taxis (i) __ in and out in a
+          zigzag course and try to push (j) __ whenever they find some space.{" "}
+          <br />
+          <br />
+          81. (a) is (b) driving (c) frequently (d) without (e) drive (1)
+          conscious (g) knowing (h) occurs (1) move (1) through
         </div>
       </div>
     </div>

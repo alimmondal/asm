@@ -67,7 +67,7 @@ const QuestionSix = () => {
         (f) Once upon a time there was an honest and pious man. <br />
         (g) He asked the angel if his name was there. <br />
         (h) He was once sleeping peacefully. <br />
-        (i) In reply, the angel said that his name was (1) not there. <br />
+        (i) In reply, the angel said that his name was (j) not there. <br />
         (j) Suddenly he woke up and saw an angel. <br />
         <br />
         (a) ফেরেশতা তার অনুরোধ টুকে নিয়ে চলে গেলেন। <br />
@@ -583,8 +583,8 @@ const QuestionSix = () => {
         (g) তিনি অসহায় ও দরিদ্র লোকদের জন্য তাঁর জীবন উৎসর্গ করার শপথ গ্রহণ
         করেন। <br />
         (h) তিনি ১৯১০ সালে যুগোস্লাভিয়ায় জন্মগ্রহণ করেন। <br />
-        (1) পরের বছর তাঁকে ভারতরত্ন পুরস্কারও প্রদান করা হয়। <br />
-        (1) তোমরা মাদার তেরেসার নাম শুনেছ।
+        (j) পরের বছর তাঁকে ভারতরত্ন পুরস্কারও প্রদান করা হয়। <br />
+        (j) তোমরা মাদার তেরেসার নাম শুনেছ।
         <br />
         Answer: j e h f a g b d i c
         <br />
@@ -645,14 +645,14 @@ const QuestionSix = () => {
         (c) বার বার সে লাফ দিলো। <br />
         (d) অবশেষে সে একটি আঙ্গুর বাগানে প্রবেশ করলো। <br />
         (e) একদা একটি অরণ্যে/বনে/জঙ্গলে একটি খেঁকশিয়াল/শৃগাল বাস করতো। <br />
-        (1) কিন্তু প্রতিবারই/প্রত্যেকবারই সে আঙ্গুরের নাগালে পৌছাতে ব্যর্থ হলো।{" "}
+        (j) কিন্তু প্রতিবারই/প্রত্যেকবারই সে আঙ্গুরের নাগালে পৌছাতে ব্যর্থ হলো।{" "}
         <br />
         (g) অবশেষে ক্লান্ত হয়ে সে বলতে বলতে চলে গেলো যে আঙ্গুর ফল টক। <br />
         (h) সে আঙ্গুরগুচ্ছের নাগাল পেতে দৌড় ও লাফ দিলো কিন্তু এর নাগাল পেলো না।{" "}
         <br />
-        (1) সে সর্বত্র খাবারের সন্ধান করলো কিন্তু সে কোনো খাদ্য/খাবার পেলো না।{" "}
+        (j) সে সর্বত্র খাবারের সন্ধান করলো কিন্তু সে কোনো খাদ্য/খাবার পেলো না।{" "}
         <br />
-        (1) আঙ্গুর গাছে পরিপক্ষ/পাকা আঙ্গুর ঝুলে ছিলো।
+        (j) আঙ্গুর গাছে পরিপক্ষ/পাকা আঙ্গুর ঝুলে ছিলো।
         <br />
         Answer: e a i d j b h c f g
         <br />
@@ -711,14 +711,14 @@ const QuestionSix = () => {
         (d) ড. মুহম্মদ শহীদুল্লাহ ১৮৮৫ সালে পশ্চিম বঙ্গের চব্বিশ পরগণাতে
         জন্মগ্রহণ করেন। <br />
         (e) তিনি ১৯১০ সালে যশোর জিলা স্কুলে যোগদান করেন। <br />
-        (1) তিনি ১৯০৪ এবং ১৯০৬ সালে প্রবেশিকা এবং এফএ পরীক্ষায় উত্তীর্ণ হন।{" "}
+        (j) তিনি ১৯০৪ এবং ১৯০৬ সালে প্রবেশিকা এবং এফএ পরীক্ষায় উত্তীর্ণ হন।{" "}
         <br />
         (g) তিনি বেশ কিছু পুরস্কার পেয়েছেন এবং বাংলা সাহিত্যে ব্যাপক অবদান
         রেখেছেন। <br />
         (h) তিনি ১৯১০ ও ১৯১২ সালে স্নাতক ও স্নাতকোত্তর পাশ করেন। <br />
         (0) তিনি ১৯২১ সালে ঢাকা বিশ্ববিদ্যালয়ে প্রভাষক হিসাবে যোগদান করেন।{" "}
         <br />
-        (1) তিনি ১৯২৮ সালে তাঁর পিএইচডি ডিগ্রি লাভ করেন।
+        (j) তিনি ১৯২৮ সালে তাঁর পিএইচডি ডিগ্রি লাভ করেন।
         <br />
         Answer: d a c f h e i j g b
         <br />
@@ -755,7 +755,7 @@ const QuestionSix = () => {
         (h) "পলিটিক্স" তাঁর অন্যতম বিখ্যাত গ্রন্থ যেখানে তাঁর জ্ঞানের পরিপূর্ণ
         বিকাশ ঘটেছে। <br />
         (i) তিনি একজন মুক্ত চিন্তক/চিন্তাবিদ হতে চেয়েছিলেন। <br />
-        (1) তিনি ছিলেন একজন রাজকীয় চিকিৎসকের পুত্র।
+        (j) তিনি ছিলেন একজন রাজকীয় চিকিৎসকের পুত্র।
         <br />
         Answer: d j e i a c f h b g
         <br />
@@ -845,7 +845,7 @@ const QuestionSix = () => {
         (d) Finally, he left his public life in 2004 and worldly life in 2013.{" "}
         <br />
         (e) White domination in South Africa was a very inhuman practice. <br />
-        (1) So, he was arrested and sent behind the prison bar. <br />
+        (j) So, he was arrested and sent behind the prison bar. <br />
         (g) He raised his voice against the cruelties of apartheid. <br />
         (h) The white African leader F.W. de Klerk negotiated the end of racism.{" "}
         <br />
@@ -984,6 +984,367 @@ const QuestionSix = () => {
         (h) লোকটি বললো, "জনাব, আমি খুব দরিদ্র, আমার ঘরে কোনো খাবার নেই।" <br />
         (i) হাজী মোহাম্মদ মহসিন একজন খুব দয়ালু লোক ছিলেন। <br />
         (j) তিনি চোরকে ব্যবসা শুরু করার জন্য কিছু টাকা দিলেন।
+        <br />
+        <br />
+        27. Mymensingh Board-2022; Cumilla Board-2017; Barguna Government
+        College, Barguna-2025 <br />
+        Khan Jahan Ali, a Philanthropic Man (খান জাহান আলী, একজন মানবহিতৈষী
+        ব্যক্তি) <br />
+        <br />
+        (a) As Bagerhat is near the Bay of Bengal, the water is usually saline.{" "}
+        <br />
+        (b) Khan Jahan Ali was a philanthropic man. <br />
+        (c) He, therefore, excavated many tanks to provide (c) fresh water to
+        the people. <br />
+        (d) He came to Bagerhat to preach Islam and to promote the plight of
+        common people. <br />
+        (e) He found Bagerhat beset with many problems. <br />
+        (f) His memory will never be sunk into oblivion. <br />
+        (g) Thus he solved the problem of drinking water. <br />
+        (h) The scarcity of drinking water is one of them. <br />
+        (i) The people of Bagerhat remember him with great (j) respect <br />
+        (j) Ghora Dighi is one of them. <br />
+        <br />
+        (a) যেহেতু বাগেরহাট বঙ্গোপসাগরের নিকটে, স্বভাবতঃই সেখানকার পানি লবণাক্ত।{" "}
+        <br />
+        (b) খান জাহান আলি ছিলেন একজন জনহিতৈষী ব্যক্তি। <br />
+        (c) তাই, তিনি জনসাধারণকে মিঠা পানি সরবরাহ করার জন্য অনেকগুলো দীঘি খনন
+        করেন। <br />
+        (d) ইসলাম প্রচারের উদ্দেশ্যে এবং জনসাধারনের অবস্থার উন্নয়ন ঘটানোর জন্য
+        তিনি বাগেরহাটে আসেন। <br />
+        (e) তিনি বাগেরহাটকে অনেক সমস্যায় জর্জরিত দেখলেন। <br />
+        (f) তাঁর স্মৃতি কখনোই বিস্মৃতির অতলে তলিয়ে যাবে না। <br />
+        (g) এভাবে তিনি পানীয় জলের সমস্যার সমাধান করেন। <br />
+        (h) পানীয় জলের দুষ্প্রাপ্যতা সেগুলোর অন্যতম। <br />
+        (i) বাগেরহাটের জনগণ গভীর শ্রদ্ধাভরে তাঁকে স্মরণ করেন।। <br />
+        (j) ঘোড়াদীঘি সেগুলোর অন্যতম। <br /> <br />
+        <br /> <br />
+        28. Rajshahi Board-2019; Border Guard Public School & College,
+        Sylhet-2025 <br /> <br />
+        Dr. Kudrat-e-Khuda (ড. কুদরত-ই খুদা) <br /> <br />
+        <br /> <br />
+        (a) He showed extraordinary credit in every examination of the school.{" "}
+        <br /> <br />
+        (b) He has made great contributions to the scientific research of
+        Bangladesh. <br /> <br />
+        (c) Dr. Kudrat-e-Khuda was born on 8th May at village Margram in the
+        district of Birbhum in West Bengal in 1900 AD. <br /> <br />
+        (d) In 1925 getting star marks he passed M.Sc in Chemistry from Kolkata
+        Varsity. <br /> <br />
+        (e) He died on 3rd November in 1977. <br /> <br />
+        (f) His father Hazrat Shah Abdul Mukit was a pious man. <br /> <br />
+        (g) In 1929 he passed D.Sc from Imperial College in England. <br />{" "}
+        <br />
+        (h) At the age of six, he was admitted into a Furkania Madrasa and then
+        he was admitted into an English School. <br /> <br />
+        (i) He made a great plan to give a new structure to the education
+        system. <br /> <br />
+        (j) In 1953, he was appointed Chairman of the Secondary Education Board.{" "}
+        <br /> <br />
+        <br /> <br />
+        (a) তিনি বিদ্যালয়ের প্রতিটি পরীক্ষায় অসাধারণ কৃতিত্ব প্রদর্শন করেছেন।{" "}
+        <br /> <br />
+        (b) তিনি বাংলাদেশের বৈজ্ঞানিক গবেষণায় প্রভূত অবদান রেখেছেন। <br />{" "}
+        <br />
+        (c) ড. কুদরত-ই-খোদা ১৯০০ খ্রিস্টাব্দের ৮ মে পশ্চিমবঙ্গের বীরভূম জেলার
+        মারগ্রাম গ্রামে জন্মগ্রহণ করেন। <br /> <br />
+        (d) তিনি ১৯২৫ খ্রিস্টাব্দে কলকাতা বিশ্ববিদ্যালয় হতে স্টার নম্বর পেয়ে
+        রসায়ন বিষয়ে এমএসসি ডিগ্রি অর্জন করেন। <br /> <br />
+        (e) তিনি ১৯৭৭ খ্রিস্টাব্দের ৩ নভেম্বর মারা যান। <br /> <br />
+        (f) তাঁর পিতা হযরত মুকিত একজন ধার্মিক লোক ছিলেন। <br /> <br />
+        (g) তিনি ১৯২৯ খ্রিস্টাব্দে ইংল্যান্ডের ইমপিরিয়াল কলেজ থেকে ডি.এসসি.
+        ডিগ্রি অর্জন করেন। <br /> <br />
+        (h) তাকে ছয় বছর বয়সে একটি ফোরকানিয়া মাদ্রাসায় ভর্তি করানো হয় এবং এরপর
+        তাকে একটি ইংরেজি স্কুলে ভর্তি করানো হয়। <br /> <br />
+        (i) তিনি শিক্ষা ব্যবস্থার নতুন কাঠামো দেওয়ার জন্য এক বৃহৎ পরিকল্পনা
+        গ্রহণ করেন। <br /> <br />
+        (j) তাঁকে ১৯৫৩ খ্রিস্টাব্দে মাধ্যমিক শিক্ষা বোর্ডের চেয়ারম্যান হিসেবে
+        নিয়োগ দেওয়া হয়। <br /> <br />
+        <br />
+        29. Jashore Board-2019; Carmichael College, Rangpur-2025 <br />
+        The Wise and Witty Astrologer (বিচক্ষণ ও প্রত্যুৎপন্নমতি জ্যোতিষী){" "}
+        <br />
+        <br />
+        (a) The king was fond of knowing his future from the astrologer. <br />
+        (b) The king called him to the palace. <br />
+        (c) At this the king got furious and condemned him to death. <br />
+        (d) A good astrologer visited the capital of the king. <br />
+        (e) Once there was a king. <br />
+        (f) With ready wit he said, "The stars declare that I'll die only a week
+        before your death". <br />
+        (g) But another thought crossed his mind before the astrologer was
+        removed for execution. <br />
+        (h) The king then asked. "How long will you live?" <br />
+        (i) The astrologer told something very unpleasant. <br />
+        (j) He then thought for a while for some ways of escape. <br />
+        <br />
+        (a) রাজা জ্যোতিষীদের কাছ থেকে ভবিষ্যৎ জানতে ভালোবাসতেন। <br />
+        (b) রাজা তাকে প্রাসাদে ডেকে আনলেন। <br />
+        (c) এতে রাজা ক্রোধান্বিত হলেন এবং তাকে মৃত্যুদন্ড দিলেন। <br />
+        (d) একজন ভালো জ্যোতিষী ঐ রাজার রাজধানীতে বেড়াতে এলেন। <br />
+        (e) একদা এক রাজা ছিলেন। <br />
+        (f) উপস্থিত বুদ্ধি ঘটিয়ে তিনি বললেন, "তারকারাজি ঘোষণা করছে যে আপনার
+        মৃত্যুর ঠিক এক সপ্তাহ পূর্বে আমি মারা যাব।" <br />
+        (g) কিন্তু জ্যোতিষীকে যখন মৃত্যুদন্ডের জন্য নিয়ে যাওয়া হচ্ছিল তখন তাঁর
+        মাথায় আরেকটি চিন্তা এলো। <br />
+        (h) রাজা তখন বললেন, "তুমি কতদিন বাঁচতে চাও?" <br />
+        (i) জ্যোতিষী অত্যন্ত অপ্রীতিকর কিছু বললেন। <br />
+        (j) তখন নিষ্কৃতি পাবার উপায় নিয়ে তিনি কিছুক্ষণ চিন্তা করলেন।
+        <br />
+        <br />
+        30. Chattogram Board-2019; Satkhira Govt. College, Satkhira-2024 <br />
+        Hercules, a Greek mythical hero (হারকিউলিস, গ্রীসের পৌরানিক বীর)
+        <br />
+        <br />
+        (a) Still challenge remained with the immortal one. <br />
+        (b) Strangely enough, whenever Hercules knocked off a head of Hydra, two
+        new ones erupted in its place. <br />
+        (c) Hercules, a Greek mythical hero, was the son of Jupiter and Alcmena.{" "}
+        <br />
+        (d) These huge tasks in Greek myths are called The Twelve Labours of
+        Hercules'. <br />
+        (e) It had nine heads of which the middle one was said to be immortal.{" "}
+        <br />
+        (f) One of the tasks was to slay a monster called Hydra that was
+        ravaging the country of Argos. <br />
+        (g) His cousin Eurestheus, the king of Mycenae, made him undergo some
+        difficult tasks. <br />
+        (h) Eventually, with the help of lolaus, his devoted servant, Hercules
+        succeeded in burning all the heads except the ninth. <br />
+        (i) However, with much effort, he buried the immortal head under a huge
+        rock and completed the task successfully. <br />
+        (j) Initially Hercules started striking off its heads with his club.{" "}
+        <br />
+        <br />
+        (a) তারপরও অমর মাথাটা নিয়ে চ্যালেঞ্জ/সমস্যা রয়েই গেলো। <br />
+        (b) অদ্ভুতভাবে হারকিউলিস যখনই হাইড্রার একটি মাথা কেটে ফেলে, তখনই ঐ
+        স্থানেই দুটি মাথা গজাতে থাকে। <br />
+        (c) গ্রীক পুরাণের নায়ক হারকিউলিস ছিল জুপিটার ও আমেনার পুত্র। <br />
+        (d) গ্রীক পুরাণে এই বিশাল কাজগুলোকে বলা হয় "হারকিউলিস-এর ১২টি কর্ম"।{" "}
+        <br />
+        (e) এর নয়টি মাথা ছিল যার মাঝখানের মাথাটিকে অমর বলা হতো। <br />
+        (f) অন্যতম একটা কাজ ছিল হাইড্রা নামের এক দানবকে হত্যা করা যেটি আর্গোস
+        দেশে নারকীয় দুর্যোগ ঘটাচ্ছিল। <br />
+        (g) তার চাচাতো ভাই মাইসিন-এর রাজা ইউরিসথিয়াস তাকে কতিপয় কঠিন কাজ করতে
+        বাধ্য করেছিল। <br />
+        (h) অবশেষে তার অনুগত ভৃত্য আইওলাস-এর সহায়তায় হারকিউলিস নবম মাথাটি ছাড়া
+        অন্য সবকটি মাথাকে পুড়িয়ে ফেলতে সক্ষম হলো। <br />
+        (i) যাহোক, অনেক প্রচেষ্টায় সে অমর মাথাটিকে একটি বিশাল পাথরের নিচে পুঁতে
+        ফেললো এবং সফলভাবে তার কাজ সমাপ্ত করলো। <br />
+        (j) প্রথমে হারকিউলিস তার মুগুরের সাহায্যে এর মাথাগুলোতে আঘাত করতে শুরু
+        করলো। <br />
+        <br />
+        31. Sylhet Board-2015; Barishal Board-2019; Sylhet Cadet College,
+        Sylhet-2025 <br />
+        Gettysburg Address by Abraham Lincoln (আব্রাহাম লিংকনের গেটিসবার্গ ভাষণ){" "}
+        <br />
+        <br />
+        (a) The last words of the speech are- "Government of the people, by the
+        people, for the people shall not perish from the earth. <br />
+        (b) Abraham Lincoln was the President of the United States of America.
+        (c) On the 10th November 1863, a railway train was carrying him to a
+        place called Getysbarg. <br />
+        (d) It is one of the finest and the shortest speeches in the English
+        language. <br />
+        (e) He was going there to speak at a meeting. <br />
+        (f) On the envelope, it was what he was going to say at the meeting.{" "}
+        <br />
+        (g) These words tell us what the best possible way of ruling a country
+        is. (h) He was not writing on a paper, but on the back of an envelope.{" "}
+        <br />
+        (i) In the train, he was busy writing something. <br />
+        (j) In fact, the speech on the envelope is now famous (j) as "Gettysburg
+        Address". <br />
+        <br />
+        (a) তাঁর ভাষণের শেষ কথাগুলো হলো- জনগণের জন্য জনগণ কর্তৃক জনগণের সরকার এ
+        পৃথিবী থেকে হারিয়ে যাবে না <br />
+        (b) আব্রাহাম লিংকন ছিলেন মার্কিন যুক্তরাষ্ট্রের প্রেসিডেন্ট। <br />
+        (c) ১৮৬৩ খ্রিস্টাব্দের ১০ নভেম্বর রেলওয়ের একটি ট্রেন তাঁকে গেটিসবার্গ
+        নামক স্থানে নিয়ে যাচ্ছিল। <br />
+        (d) এটা ইংরেজি ভাষায় সবচেয়ে চমৎকার এবং সংক্ষিপ্ত ভাষণের একটি। <br />
+        (c) তিনি একটি সভায় ভাষণ দিতে সেখানে যাচ্ছিলেন। <br />
+        (f) খামের ওপর সভায় তিনি যে ভাষণ দেবেন সেটা ছিল। <br />
+        (g) ঐ কথাগুলো কোন দেশ পরিচালনার জন্য সম্ভাব্য সর্বোত্তম পন্থা কী তা
+        আমাদের বলে দেয়। <br />
+        (h) কিন্তু তিনি কাগজে লিখছিলেন না, লিখছিলেন একটি খামের পেছনে। <br />
+        (i) ট্রেনে তিনি কিছু একটা লেখায় ব্যস্ত ছিলেন। <br />
+        (j) বস্তুত, খামের ওপর লেখা ঐ ভাষণটাই এখন "গেটিসবার্গ" ভাষণ হিসেবে
+        সুবিদিত। <br />
+        <br />
+        32. Dinajpur Board-2019: Dr. Abdur Razzak Municipal College,
+        Jashore-2025 <br />
+        A Lesson for an Inconsiderate Friend (এক অবিবেচক বন্ধুর জন্য উচিত
+        শিক্ষা) <br />
+        <br />
+        (a) During his stay he received an unpaid letter from his friend, which
+        contained nothing but some words. <br />
+        (b) With a great hope in mind, he opened the box. <br />
+        (c) He wanted to teach his friend a good lesson. <br />
+        (d) An English poet was staying in Italy for the benefit of his health.{" "}
+        <br />
+        (e) To his utter surprise, he found nothing but an ordinary stone.{" "}
+        <br />
+        (f) Thus the poet taught his friend a good lesson. <br />
+        (g)So, he procured a heavy stone and packed It up in a fine box. <br />
+        (h) His friend thought that the contents of the parcel were valuable,
+        so, he paid the heavy charge for carrying. <br />
+        (i) The poet had to pay double postage, so, he became very annoyed.{" "}
+        <br />
+        (j) Then he sent it to his friend with the words on it "Carriage to be
+        paid on delivery." <br />
+        <br />
+        (a)তার অবস্থানকালীন সময়ে তিনি তার বন্ধুর কাছ থেকে ডাকমাশুল অপরিশোধিত
+        একটি চিঠি পেলেন, যাতে কয়েকটি শব্দ ছাড়া আর কোনকিছু লেখা ছিল না। <br />
+        (b) খুব আশা নিয়ে তিনি বাক্সটি খুললেন। <br />
+        (c) তিনি তার বন্ধুকে উচিত শিক্ষা দিতে চাইলেন। <br />
+        (d) এক ইংরেজ কবি তার দ্বাস্থ্যের ব্যাপারে উপকার পাওয়ার জন্য ইটালি
+        অবস্থান করছিলেন। <br />
+        (e) তিনি সম্পূর্ণরূপে বিস্মিত হয়ে দেখলেন যে এর ভেতর একটি সাধারণ পাথর
+        ছাড়া আর কিছুই নেই। <br />
+        (f) এভাবে কবি তার বন্ধুকে একটি উচিত শিক্ষা দিলেন। <br />
+        (g) তাই তিনি একটি ভারী পাথর সংগ্রহ করলেন এবং একটি সুন্দর বাক্সে এটাকে
+        প্যাকেট করলেন। <br />
+        (h) তার বন্ধু ভাবলেন যে পার্সেল-এর জিনিস মূল্যবান হবে, তাই তিনি এটা
+        পরিবহনের অতিরিক্ত মাশুল পরিশোধ করলেন। <br />
+        (i) কবিকে দ্বিগুণ ডাকমাশুল দিতে হয়েছিলো, তাই তিনি খুব রাগান্বিত হলেন।{" "}
+        <br />
+        (j) এরপর তিনি এটা তার বন্ধুর নিকট পাঠালেন এর উপর এ কথাটি লিখে- "ডাকমাশুল
+        পরিশোধ করা হবে সরবরাহের পর"। <br />
+        <br />
+        33. HSC Exam-2018; Holy Land College, Dinajpur-2025 <br />
+        <br />
+        (a) They were aliens in their own country and were subjected to all
+        sorts of indignities. <br />
+        (b) The blacks were treated cruelly. <br />
+        (c) The great leader vowed to put an end to the inhuman practice. <br />
+        (d) They were denied all basic human rights. <br />
+        (e) Even dogs received a much better treatment than the blacks. <br />
+        (f) Eventually, the great leader realised the goal of liberating his own
+        people. <br />
+        (g) He was thrown behind the prison bar. <br />
+        (h) Nelson Mandela was the greatest leader of South Africa. <br />
+        (i) But the oppressive rulers could not break the spirit. <br />
+        (j). In fact, he was one of the greatest leaders of the world who
+        struggled against apartheid throughout his whole life. <br />
+        <br />
+        (a) তারা তাদের নিজেদের দেশেই ছিল পরবাসী এবং সকল প্রকার অমর্যাদাকর কাজ
+        তাদেরকে দিয়ে করানো হতো। <br />
+        (b) কৃষ্ণাঙ্গদের সাথে নির্দয়ভাবে আচরণ করা হতো। <br />
+        এই মহান নেতা এই অমানবিক আচরণ দূর করার জন্য শপথ গ্রহণ করলেন। <br />
+        (d) তাদের সকল মৌলিক মানবিক অধিকারগুলোকে অস্বীকার করা হতো। <br />
+        (e) এমনকি কুকুরেরাও কৃষ্ণাঙ্গদের চেয়ে অধিকতর ভালো আচরণ পেতো <br />
+        (f) অবশেষে এই মহান নেতা তার নিজের লোকদের মুক্ত করার লক্ষ্য ঠিক করলেন।{" "}
+        <br />
+        (g) তাকে কারাগারে বন্দী করে রাখা হলো। <br />
+        (h) নেলসন ম্যান্ডেলা ছিলেন দক্ষিণ আফ্রিকার সবচেয়ে মহান নেতা। <br />
+        (i) কিন্তু উৎপীড়নকারী শাসকবর্গ তার মনোবল ভাঙতে পারেনি। <br />
+        (j) বস্তুত, তিনি ছিলেন বিশ্বের অন্যতম মহান নেতা যিনি তার সমগ্র জীবন
+        বর্ণবাদের বিরুদ্ধে <br /> সংগ্রাম করে কাটিয়েছেন। <br />
+        <br />
+        34. Barishal Board-2014; HSC Exam-2018: Cumilla Board-2013: Noubahini
+        College, Dhaka-2025 <br /> Rabindranath Tagore (রবীন্দ্রনাথ ঠাকুর){" "}
+        <br />
+        <br />
+        (a) In 1880. Rabindranarth was called back to India. <br />
+        (b) He was awarded the Nobel Prize in 1913 for his Gitanjali. <br />
+        (c) He returned home without any qualifications of distinction. <br />
+        (d) He wrote Gitanjali, a collection of Bengali songs of superior
+        quality. <br />
+        (e) Rabindranath Tagore, the 14th child of Debendranath and Sarada Devi
+        Tagore, was born in 1861 in a respectable family at Jorasako in Kolkata.{" "}
+        <br />
+        (f) At the age of seventeen, in 1878 he reached London to attend school.{" "}
+        <br />
+        (g)He went to school early and wrote his first verse at the age of
+        eight. <br />
+        (h) The experience had a lasting effect on his later life. <br />
+        (i) However, he never gave up his habit of writing poetry. <br />
+        (j) He gathered much experience from his stay in London. <br />
+        <br />
+        (a) ১৮৮০ সালে রবীন্দ্রনাথকে ভারতে ফিরিয়ে আনা হয়। <br />
+        (b) তাকে ১৯১৩ সালে গীতাঞ্জলি কাব্যের জন্য নোবেল পুরষ্কারে ভূষিত করা হয়।{" "}
+        <br />
+        (c) তিনি কোনোরকম আনুষ্ঠানিক যোগ্যতা অর্জন ছাড়াই দেশে ফিরে এলেন। <br />
+        (d) তিনি উৎকৃষ্ট মানের বাংলা গানের এক সংকলন গীতাঞ্জলি লিখেছেন। <br />
+        (c) রবীন্দ্রনাথ ঠাকুর ১৮৬১ সালে কোলকাতার জোড়াসাঁকোর এক সম্ভ্রান্ত
+        পরিবারে জন্মগ্রহণ করেন। <br />
+        (f) ১৮৭৮ সালে ১৭ বছর বয়সে তিনি স্কুলে ভর্তি হওয়ার জন্য লন্ডন গেলেন।{" "}
+        <br />
+        (g) তিনি অল্প বয়সেই স্কুলে ভর্তি হন এবং আট বছর বয়সে তার প্রথম কবিতা
+        লেখেন। <br />
+        (h) এই অভিজ্ঞতা তার পরবর্তী জীবনে স্থায়ী প্রভাব ফেলেছিল। <br />
+        (i) যাহোক, তিনি কখনো তার কবিতা লেখার অভ্যাস ত্যাগ করেননি। <br />
+        (j) তিনি তার লন্ডনে অবস্থানকালে অনেক অভিজ্ঞতা সঞ্চয় করেন। <br />
+        <br />
+        <br />
+        35. Sylhet Board-2017; Ishwardi Mohila Degree College, Ishwardi,
+        Pabna-2019 <br />
+        Nobel Prize and Alfred Bernard Nobel (নোবেল পুরস্কার এবং আলফ্রেড
+        বার্নার্ড নোবেল) <br />
+        (a) One prize is awarded in each field. <br />
+        (b) The prize is instituted by a man who was the inventor of the science
+        of destruction. <br />
+        (c) Nobel prize is the world's most important prize. <br />
+        (d) He is Alfred Bernard Nobel. <br />
+        (e) Though he is a citizen of Sweden, he was educated in Russia. <br />
+        (f) Nobel Prizes are awarded every year for outstanding achievements in
+        the field of <br /> science, literature and for promoting world's peace.{" "}
+        <br />
+        (g)The prize is given to persons with most outstanding contribution.{" "}
+        <br />
+        (h) If there are more than one recipient of the prize In one field, the
+        prize money is <br /> equally distributed amongst all the winners.{" "}
+        <br />
+        (i) Economics was added in the list in 1969 for the first time. <br />
+        (j) He was born in Stockholm on 21st October 1833 and he died on 10th
+        December, 1896. <br />
+        <br />
+        (a) প্রতিটি ক্ষেত্রে একটিমাত্র পুরস্কার প্রদান করা হয়। <br />
+        (b)পুরস্কারটি প্রতিষ্ঠা করেন এমন একজন মানুষ যিনি ছিলেন ধ্বংস বিজ্ঞানের
+        উদ্ভাবক। <br />
+        (c) নোবেল পুরস্কার হচ্ছে বিশ্বের সবচেয়ে মূল্যবান পুরষ্কার। <br />
+        (d) তিনি হচ্ছেন আলফ্রেড বার্নাড নোবেল। <br />
+        (c) যদিও তিনি সুইডেনের নাগরিক তথাপী তিনি শিক্ষালাভকরেন রাশিয়ায়। <br />
+        (j) বিজ্ঞান ও সাহিত্যে অসাধারণ সাফল্যের জন্য এবং বিশ্ব শান্তি প্রতিষ্ঠার
+        জন্য প্রতিবছর নোবেল পুরষ্কার প্রদান করা হয়। <br />
+        (g) অত্যন্ত অসাধারণ অবদান রেখেছেন এমন ব্যক্তিদেরকেই পুরস্কারটি প্রদান
+        করা হয়। <br />
+        (h) যদি কোনো একটি ক্ষেত্রে একাধিক বিজেতা থাকেন তবে সকল বিজেতাদের মানে
+        সমভাবে পুরস্কারের টাকা বিতরণ করা হয় <br />
+        (i) ১৯৬৯ সালে অর্থনীতিকে প্রথমবারের মত সেই তালিকায় তালিকাভূক্ত করা হয়।{" "}
+        <br />
+        (j)১৮৩৩ সালের ২১ অক্টোবর স্টকহোমে তিনি জন্মগ্রহণ করেন আর তিনি মৃত্যুবরণ
+        করেন ১৮৯৬ সালের ১০ ডিসেম্বর। <br />
+        <br />
+        36. Dinajpur Board-2017; Mazid Jarina Foundation School & College,
+        Shariatpur-2025 Napoleon <br /> and an English Boy (নেপোলীয়ন ও এক ইংরেজ
+        বালক) <br />
+        <br />
+        (a) "Please let me go to my country." <br />
+        (b) An English boy was making a small boat. <br />
+        (c) "I shall cross the sea and goſto my country by this boat." <br />
+        (d) He made all arrangements to send him to his country. <br />
+        (e) Suddenly he noticed a wonderful thing. <br />
+        (f) Napoleon was charmed by the words of the small boy. <br />
+        (g) "I haven't seen my mother for a long time." <br />
+        (h) The boy said, "My country is on the other side of the sca." <br />
+        (i) One day Napoleon, the king of France, was walking along the sea
+        shore. <br />
+        (j) The boy was brought before him and he asked him what he would do
+        with such a small boat. <br />
+        <br />
+        (a) অনুগ্রহপূর্বক আমাকে আমার দেশে যেতে দিন। <br />
+        (b) এক ইংরেজ বালক একটি ছোট নৌকা তৈরি করছিল। <br />
+        (c) "আমি সাগড় পাড়ি দিব আর এ নৌকায় চড়ে আমার দেশে যাব।" <br />
+        (d) তিনি তাকে দেশে পাঠানোর সকল ব্যবস্থা করেন। <br />
+        (e) হঠাৎ এক অদ্ভুত ঘটনা তাঁর নজরে এল। <br />
+        (f) ছোট বালকের কথায় ন্যাপলিয়ন মুগ্ধ হলেন। <br />
+        (g) "আমি আমার মাকে অনেক দিন দেখি নাই।" <br />
+        (h) বালকটি বলল, "আমার দেশ সাগড়ের অপর পাড়ে।" <br />
+        (i) একদিন ফ্রান্সের রাজা ন্যাপলিয়ন সমুদ্র তীরে হাঁটছিলেন। <br />
+        (j) বালকটিকে তাঁর কাছে আনা হল এবং তিনি জিজ্ঞেস করলেন সে এই ছোট্ট নৌকা
+        দিয়ে কী করবে।
+        <br />
         <br />
         Answer: i f e g b h d a c j
         <br />

@@ -1,12 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
-// import { Link } from "react-router-dom";
-// import frontCover from "../../../public/bookCover.jpg";
 
-// import { Worker, Viewer } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
-
-// import { Viewer, Worker } from "@react-pdf-viewer/core";
 
 import data from "../../../data.json";
 
@@ -18,8 +13,21 @@ const OxfordWords = () => {
 
   const totalPages = 24; // Update when you add more pages
 
+  // 🔊 Add audio ref for page flip sound
+  const flipSound = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    flipSound.current = new Audio("/sounds/mixkit-page-turn-single-1104.wav");
+    flipSound.current.volume = 1.0; // optional: adjust volume
+  }, []);
+
+  // Play sound on flip
   const onFlip = (e: any) => {
     setCurrentPage(e.data);
+    if (flipSound.current) {
+      flipSound.current.currentTime = 0;
+      flipSound.current.play();
+    }
   };
 
   const FlipBook = HTMLFlipBook as any;
@@ -41,6 +49,17 @@ const OxfordWords = () => {
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  // Helper: play sound when flipping manually
+  const playFlipSound = () => {
+    if (flipSound.current) {
+      flipSound.current.currentTime = 0;
+      flipSound.current
+        .play()
+        .catch((err) => console.warn("Playback prevented:", err));
+    }
+  };
+
   return (
     <div className="">
       <div className="flex flex-col items-center py-10 px-5 md:px-10">
@@ -216,7 +235,10 @@ const OxfordWords = () => {
           <div className="flex items-center gap-4 mt-6">
             <button
               className="px-3 py-1 bg-gray-700 text-white rounded"
-              onClick={() => flipBook.current.pageFlip().turnToPrevPage()}
+              onClick={() => {
+                playFlipSound();
+                flipBook.current.pageFlip().turnToPrevPage();
+              }}
             >
               ◀ Prev
             </button>
@@ -227,7 +249,10 @@ const OxfordWords = () => {
 
             <button
               className="px-3 py-1 bg-gray-700 text-white rounded"
-              onClick={() => flipBook.current.pageFlip().turnToNextPage()}
+              onClick={() => {
+                playFlipSound();
+                flipBook.current.pageFlip().turnToNextPage();
+              }}
             >
               Next ▶
             </button>
@@ -240,6 +265,7 @@ const OxfordWords = () => {
               max={totalPages}
               value={jumpPage}
               onChange={(e) => {
+                playFlipSound();
                 const value = e.target.value;
                 setJumpPage(value === "" ? "" : parseInt(value, 10));
               }}
@@ -274,7 +300,10 @@ const OxfordWords = () => {
                     ? "bg-indigo-600 text-white"
                     : "bg-gray-200 hover:bg-gray-300"
                 }`}
-                onClick={() => flipBook.current.pageFlip().flip(i)}
+                onClick={() => {
+                  playFlipSound();
+                  flipBook.current.pageFlip().flip(i);
+                }}
               >
                 {i + 1}
               </button>
@@ -339,128 +368,3 @@ const OxfordWords = () => {
 };
 
 export default OxfordWords;
-
-//  <table className="md:w-full min-w-[800px] table-auto   border border-gray-400 w-full text-sm">
-//               <thead className="">
-//                 <tr>
-//                   <th className="border border-gray-400 px-1 py-1">Words</th>
-//                   <th className="border border-gray-400 px-1 py-1">PHONEMIC</th>
-//                   <th className="border border-gray-400 px-1 py-1">উচ্চারণ</th>
-//                   <th className="border border-gray-400 px-1 py-1">MEANING</th>
-//                   <th className="border border-gray-400 px-1 py-1">EXAMPLES</th>
-//                 </tr>
-//               </thead>
-//               <tbody>
-//                 {/* Row 1 */}
-//                 <tr>
-//                   <td className="border border-gray-400 px-1 py-1">1. A</td>
-//                   <td className="border border-gray-400 px-1 py-1">/a/</td>
-//                   <td className="border border-gray-400 px-1 py-1">আ</td>
-//                   <td className="border border-gray-400 px-1 py-1">একটি</td>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     A cat is sitting on the mat.
-//                   </td>
-//                 </tr>
-
-//                 {/* Row 2 */}
-//                 <tr>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     2. Abandon
-//                   </td>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     /əˈbændən/
-//                   </td>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     আব্যান্ডন
-//                   </td>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     পরিত্যাগ করা
-//                   </td>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     They abandon their old habits easily.{" "}
-//                   </td>
-//                 </tr>
-
-//                 {/* Row 3 */}
-//                 <tr>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     3. Ability
-//                   </td>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     /əˈbɪləti/
-//                   </td>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     অ্যাবিলিটি
-//                   </td>
-//                   <td className="border border-gray-400 px-1 py-1">ক্ষমতা</td>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     He has the ability to solve complex problems.
-//                   </td>
-//                 </tr>
-
-//                 {/* Row 4 */}
-//                 <tr>
-//                   <td className="border border-gray-400 px-1 py-1">4. Able</td>
-//                   <td className="border border-gray-400 px-1 py-1">/ˈeɪbl/</td>
-//                   <td className="border border-gray-400 px-1 py-1">এবল</td>
-//                   <td className="border border-gray-400 px-1 py-1">সক্ষম</td>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     She is able to complete the task on time.
-//                   </td>
-//                 </tr>
-
-//                 {/* Row 5 */}
-//                 <tr>
-//                   <td className="border border-gray-400 px-1 py-1">5. About</td>
-//                   <td className="border border-gray-400 px-1 py-1">/əˈbaʊt/</td>
-//                   <td className="border border-gray-400 px-1 py-1">আবাউট</td>
-//                   <td className="border border-gray-400 px-1 py-1">সম্পর্কে</td>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     I’m thinking about the problem.
-//                   </td>
-//                 </tr>
-
-//                 {/* Row 6 */}
-//                 <tr>
-//                   <td className="border border-gray-400 px-1 py-1">6. Above</td>
-//                   <td className="border border-gray-400 px-1 py-1">/əˈbʌv/</td>
-//                   <td className="border border-gray-400 px-1 py-1">আবাভ</td>
-//                   <td className="border border-gray-400 px-1 py-1">উপরে</td>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     The airplane flies above the clouds.
-//                   </td>
-//                 </tr>
-
-//                 {/* Row 7 */}
-//                 <tr>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     7. Abroad
-//                   </td>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     /əˈbrɔːd/
-//                   </td>
-//                   <td className="border border-gray-400 px-1 py-1">আব্রড</td>
-//                   <td className="border border-gray-400 px-1 py-1">বিদেশে</td>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     She often travels abroad for work.
-//                   </td>
-//                 </tr>
-
-//                 {/* Row 8 */}
-//                 <tr>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     8. Absolute Adj. B2
-//                   </td>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     /ˈæbsəluːt/
-//                   </td>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     অ্যাবসোলুট
-//                   </td>
-//                   <td className="border border-gray-400 px-1 py-1">সম্পূর্ণ</td>
-//                   <td className="border border-gray-400 px-1 py-1">
-//                     The results are absolute and cannot be disputed.
-//                   </td>
-//                 </tr>
-//               </tbody>
-//             </table>

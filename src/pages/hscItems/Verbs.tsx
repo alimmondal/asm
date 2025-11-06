@@ -12,8 +12,21 @@ function Verbs() {
 
   const totalPages = 24; // Update when you add more pages
 
+  // 🔊 Add audio ref for page flip sound
+  const flipSound = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    flipSound.current = new Audio("/sounds/mixkit-page-turn-single-1104.wav");
+    flipSound.current.volume = 1.0; // optional: adjust volume
+  }, []);
+
+  // Play sound on flip
   const onFlip = (e: any) => {
     setCurrentPage(e.data);
+    if (flipSound.current) {
+      flipSound.current.currentTime = 0;
+      flipSound.current.play();
+    }
   };
 
   const FlipBook = HTMLFlipBook as any;
@@ -36,8 +49,18 @@ function Verbs() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  // Helper: play sound when flipping manually
+  const playFlipSound = () => {
+    if (flipSound.current) {
+      flipSound.current.currentTime = 0;
+      flipSound.current
+        .play()
+        .catch((err) => console.warn("Playback prevented:", err));
+    }
+  };
+
   return (
-    <div className="h-full ">
+    <div className="h-full text-base">
       <div className="flex flex-col items-center py-10 px-5 md:px-10">
         <FlipBook
           width={isPortrait ? 400 : 500} // smaller width for portrait
@@ -97,19 +120,16 @@ function Verbs() {
 
           {/* page1 */}
           <div className="p-3 text-black lg:p-5 bg-[#FDFAF7] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 1</h2>
+            <h2 className="text-xl font-bold ">Page 1</h2>
             {/* 1 */}
-            <div className="text-sm">
+            <div className="text-base">
               <p>
-                <span className="animateText font-bold">Rule: 1.</span> Always,
+                <span className=" font-bold">Rule: 1.</span> <br /> Always,
                 regularly, daily, often, sometimes, normally,
-                generally,occasionally, every + time (যেমন: Everyday),
-                <br />
-                <span className="bengali">
-                  ইত্যাদি থাকলে, বা বাক্যটি চির সত্য হলে - বাক্যটি Present
-                  Indefinite Tense-এ হয়। <br />
-                  যেমন:
-                </span>
+                generally,occasionally, every + time (যেমন: Everyday), ইত্যাদি
+                বাক্যের মধ্যে থাকলে, বা বাক্যটি চির সত্য হলে - বাক্যটি Present
+                Indefinite Tense-এ হয়। <br />
+                যেমন:
               </p>
               <p className="dark:text-green-400">
                 Q. I often (take) tea. <br />= I often <u>take</u> tea. <br />{" "}
@@ -118,9 +138,9 @@ function Verbs() {
 
               {/* 2 */}
               <p className="pt-1">
-                <strong>Rule:-2. </strong> বাক্যের মধ্যে Now, at this moment,
-                day by day, ইত্যাদি থাকলে বাক্যটি সাধারণত Present Continuous
-                Tense এ হয়। <br />
+                <strong>Rule:-2. </strong> <br />
+                বাক্যের মধ্যে Now, at this moment, day by day থাকলে বাক্যটি
+                সাধারণত Present Continuous Tense এ হয়। <br />
                 যেমন:
                 <br />
                 <span className="dark:text-green-400">
@@ -136,7 +156,7 @@ function Verbs() {
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
             <h2 className="text-xl font-bold mb-2">Page 2</h2>
             {/* 3 */}
-            <div className="">
+            <div className="text-base">
               <p>
                 <strong>Rule: 3. </strong> Before/after দ্বারা দুটি বাক্য যুক্ত
                 হলে
@@ -152,7 +172,7 @@ function Verbs() {
               </p>
             </div>
             {/* 4 */}
-            <div className="pt-3">
+            <div className="pt-2">
               <p>
                 <strong>Rule: 4. </strong> বাক্যর মধ্যে Already, recently, just,
                 just now, lately, yet, ever, immediately, in the mean time
@@ -166,17 +186,11 @@ function Verbs() {
                 <br />= He <u>has not chosen</u> her career yet.
               </p>
             </div>
-          </div>
-
-          {/* page 3 */}
-          <div className="p-3 text-black md:p-20 bg-[#EFE5D6]  book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 3</h2>
             {/* 5 */}
-            <div className="pb-3">
+            <div className="pt-2 text-base">
               <p>
-                <span className="animateText font-bold">Rule: 5. </span> বাক্যর
-                মধ্যে Once, last, yesterday, ago, one day, in the past, long
-                since
+                <span className=" font-bold">Rule: 5. </span> বাক্যর মধ্যে Once,
+                last, yesterday, ago, one day, in the past, long since
                 <span className="bengali">
                   ইত্যাদি অতীত নির্দেশক শব্দ থাকলে ব্রাকেটের Verb টি V2 হবে বা
                   বাক্যটি Past Indefinite Tense হয়।
@@ -189,11 +203,16 @@ function Verbs() {
                 <br />= He <u>returned</u> last night.
               </p>
             </div>
+          </div>
+
+          {/* page 3 */}
+          <div className="p-3 text-base text-black md:p-20 bg-[#EFE5D6]  book-shadow">
+            <h2 className="text-xl font-bold ">Page 3</h2>
 
             {/* 6 */}
-            <div className="pb-3">
+            <div className="pb-2">
               <p>
-                <span className="animateText font-bold">Rule: 6. </span>
+                <span className=" font-bold">Rule: 6. </span>
                 <br />
                 <strong> (a). </strong> Am, is, are, was, were, be, being, been,
                 <span className="bengali">
@@ -206,43 +225,38 @@ function Verbs() {
                 Q. Rice is (sell) in the market.
                 <br />= Rice is <u>sold</u> in the market.
               </p>
-              <strong> আবার- p.t.o.</strong>
+              <strong> আবার-</strong>
+              <p>
+                <strong> (b). </strong>having এবং get, got, gotten এবং
+                Linking-verb (be, become) এর পর ব্রাকেটের Verb টি V<sub>3</sub>{" "}
+                হয়। <br />
+                যেমনঃ
+                <br />
+                <span className="dark:text-green-400">
+                  Q. I went out having (close) the door.
+                  <br />= I went out having closed the door.
+                </span>
+              </p>
+              <p className="text-rose-500 mt-3 font-semibold">কিন্তু</p>
+              <p>
+                <strong> (c). </strong>
+                Hold, locate, bear, situate ইত্যাদি Verb ব্রাকেটে থাকলে বাক্যটি
+                passive voice এ হয়। <br />
+                যেমনঃ
+                <br />
+                <span className="dark:text-green-400">
+                  Q. The festival (hold). <br />= The festival was held.
+                </span>
+              </p>
             </div>
           </div>
 
           {/* page 4 */}
-          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6]  book-shadow">
+          <div className="p-3 text-base text-black lg:p-5 bg-[#EFE5D6]  book-shadow">
             <h2 className="text-xl font-bold mb-2">Page 4</h2>
-            <p>
-              Rule 6 er baki- <br />
-              <strong> (b). </strong>having এবং get, got, gotten এবং
-              Linking-verb (be, become) এর পর ব্রাকেটের Verb টি V<sub>3</sub>{" "}
-              হয়। <br />
-              যেমনঃ
-              <br />
-              <span className="dark:text-green-400">
-                Q. I went out having (close) the door.
-                <br />= I went out having closed the door.
-              </span>
-            </p>
-            <p className="text-rose-500 mt-3 font-semibold">কিন্তু</p>
-            <p>
-              <strong> (c). </strong>
-              Hold, locate, bear, situate ইত্যাদি Verb ব্রাকেটে থাকলে বাক্যটি
-              passive voice এ হয়। <br />
-              যেমনঃ
-              <br />
-              <span className="dark:text-green-400">
-                Q. The festival (hold). <br />= The festival was held.
-              </span>
-            </p>
-          </div>
 
-          {/* page 5 */}
-          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] shadow-inner">
-            <h2 className="text-xl font-bold mb-2">Page 5</h2>
             {/* 7 */}
-            <div className="pt-5">
+            <div className="pt-1">
               <p>
                 <strong>Rule: 7. </strong> Can, could, may, might, shall,
                 should, will, would, must, need, dare, had better, would rather,
@@ -254,10 +268,16 @@ function Verbs() {
                 <br />= Imran can <u>play</u> football.
               </p>
             </div>
+          </div>
+
+          {/* page 5 */}
+          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] shadow-inner">
+            <h2 className="text-xl font-bold mb-2">Page 5</h2>
+
             {/* 8 */}
             <div className="pb-3">
               <p>
-                <span className="animateText font-bold">Rule: 8.</span> <br />
+                <span className=" font-bold">Rule: 8.</span> <br />
                 <strong> (a). </strong>সাধারণত To এর পরের ব্রাকেটের Verb টি V
                 <sub>1</sub> হয়। <br />
                 যেমন:
@@ -423,7 +443,7 @@ function Verbs() {
             {/* 13 */}
             <div className="pb-3">
               <p>
-                <span className="animateText font-bold">Rule: 13. </span>
+                <span className=" font-bold">Rule: 13. </span>
                 <strong> (a). </strong> If দ্বারা শুরু বাক্যটি
                 <span className="bengali">
                   Present Indefinite tense হলে পরের বাক্যের/ if ছাড়া বাক্যের
@@ -483,9 +503,9 @@ function Verbs() {
             {/* 14 */}
             <div className="pb-3">
               <p>
-                <span className="animateText font-bold">Rule: 14. </span>V +
-                object + (Verb) এভাবে ব্যবহার হলে ব্রাকেটে Verb এর সাথে ing
-                যুক্ত হয়। <br />
+                <span className=" font-bold">Rule: 14. </span>V + object +
+                (Verb) এভাবে ব্যবহার হলে ব্রাকেটে Verb এর সাথে ing যুক্ত হয়।{" "}
+                <br />
                 যেমন:
               </p>
               <p className="dark:text-green-400">
@@ -804,7 +824,10 @@ function Verbs() {
           <div className="flex items-center gap-4 mt-6">
             <button
               className="px-3 py-1 bg-gray-700 text-white rounded"
-              onClick={() => flipBook.current.pageFlip().turnToPrevPage()}
+              onClick={() => {
+                playFlipSound();
+                flipBook.current.pageFlip().turnToPrevPage();
+              }}
             >
               ◀ Prev
             </button>
@@ -815,25 +838,29 @@ function Verbs() {
 
             <button
               className="px-3 py-1 bg-gray-700 text-white rounded"
-              onClick={() => flipBook.current.pageFlip().turnToNextPage()}
+              onClick={() => {
+                playFlipSound();
+                flipBook.current.pageFlip().turnToNextPage();
+              }}
             >
               Next ▶
             </button>
           </div>
 
           {/* Jump to Page */}
-          <div className="mt-4 flex items-center gap-2">
+          <div className="w-full mt-4 flex items-center justify-center gap-2">
             <input
               type="number"
               min="1"
               max={totalPages}
               value={jumpPage}
               onChange={(e) => {
+                playFlipSound();
                 const value = e.target.value;
                 setJumpPage(value === "" ? "" : parseInt(value, 10));
               }}
-              className="border px-2 py-1 rounded w-20 text-center"
-              placeholder="Go to..."
+              className="border px-2 py-1 rounded max-w-fit text-center"
+              placeholder="Put a page number and click Go to..."
             />
             <button
               className="px-3 py-1 bg-indigo-600 text-white rounded disabled:opacity-50"
@@ -864,7 +891,10 @@ function Verbs() {
                     ? "bg-indigo-600 text-white"
                     : "bg-gray-200 hover:bg-gray-300"
                 }`}
-                onClick={() => flipBook.current.pageFlip().flip(i)}
+                onClick={() => {
+                  playFlipSound();
+                  flipBook.current.pageFlip().flip(i);
+                }}
               >
                 {i + 1}
               </button>
@@ -889,9 +919,9 @@ function Verbs() {
             {/* 1 */}
             <div className="pb-3">
               <p>
-                <span className="animateText font-bold">Rule: 1.</span> Always,
-                regularly, daily, often, sometimes, normally,
-                generally,occasionally, every + time (যেমন: Everyday),
+                <span className=" font-bold">Rule: 1.</span> Always, regularly,
+                daily, often, sometimes, normally, generally,occasionally, every
+                + time (যেমন: Everyday),
                 <br />
                 <span className="bengali">
                   ইত্যাদি থাকলে, বা বাক্যটি চির সত্য হলে - বাক্যটি Present
@@ -955,9 +985,8 @@ function Verbs() {
             {/* 5 */}
             <div className="pb-3">
               <p>
-                <span className="animateText font-bold">Rule: 5. </span> বাক্যর
-                মধ্যে Once, last, yesterday, ago, one day, in the past, long
-                since
+                <span className=" font-bold">Rule: 5. </span> বাক্যর মধ্যে Once,
+                last, yesterday, ago, one day, in the past, long since
                 <span className="bengali">
                   ইত্যাদি অতীত নির্দেশক শব্দ থাকলে ব্রাকেটের Verb টি V2 হবে বা
                   বাক্যটি Past Indefinite Tense হয়।
@@ -974,7 +1003,7 @@ function Verbs() {
             {/* 6 */}
             <div className="pb-3">
               <p>
-                <span className="animateText font-bold">Rule: 6. </span>
+                <span className=" font-bold">Rule: 6. </span>
                 <br />
                 <strong> (a). </strong> Am, is, are, was, were, be, being, been,
                 <span className="bengali">
@@ -1030,7 +1059,7 @@ function Verbs() {
             {/* 8 */}
             <div className="pb-3">
               <p>
-                <span className="animateText font-bold">Rule: 8.</span> <br />
+                <span className=" font-bold">Rule: 8.</span> <br />
                 <strong> (a). </strong>সাধারণত To এর পরের ব্রাকেটের Verb টি V
                 <sub>1</sub> হয়। <br />
                 যেমন:
@@ -1161,7 +1190,7 @@ function Verbs() {
             {/* 13 */}
             <div className="pb-3">
               <p>
-                <span className="animateText font-bold">Rule: 13. </span>
+                <span className=" font-bold">Rule: 13. </span>
                 <strong> (a). </strong> If দ্বারা শুরু বাক্যটি
                 <span className="bengali">
                   Present Indefinite tense হলে পরের বাক্যের/ if ছাড়া বাক্যের
@@ -1210,9 +1239,9 @@ function Verbs() {
             {/* 14 */}
             <div className="pb-3">
               <p>
-                <span className="animateText font-bold">Rule: 14. </span>V +
-                object + (Verb) এভাবে ব্যবহার হলে ব্রাকেটে Verb এর সাথে ing
-                যুক্ত হয়। <br />
+                <span className=" font-bold">Rule: 14. </span>V + object +
+                (Verb) এভাবে ব্যবহার হলে ব্রাকেটে Verb এর সাথে ing যুক্ত হয়।{" "}
+                <br />
                 যেমন:
               </p>
               <p className="dark:text-green-400">

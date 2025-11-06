@@ -5,7 +5,7 @@ const QuestionFive = () => {
         <h1 className="text-center text-green-500">Question Five</h1>
         <p className="">Close test without clues</p>
       </div>
-      <div className=" text-sm md:text-base">
+      <div className=" text-base xl:text-base">
         Fill in the blanks with an appropriate word in each gap : 1 x 10 = 10
         <br />
         <br />
@@ -14,8 +14,8 @@ const QuestionFive = () => {
         1. Dhaka Board-2025 <br />
         The world is producing millions of tons of domestic rubbish and (a) __
         industrial waste each year. It is becoming very difficult to find (b)__
-        locations to (c) __ rid of all these refuse. The dumping of (d) kinds
-        of waste is seriously (e) __ the environment. We know that air is a/an
+        locations to (c) __ rid of all these refuse. The dumping of (d) kinds of
+        waste is seriously (e) __ the environment. We know that air is a/an
         (f)__ element of our environment. But, the air is polluted by (g) __.
         Water, another vital element of the environment, is polluted by
         different kinds of waste and filth. If we want to live a (h)__ life. We
@@ -37,15 +37,15 @@ const QuestionFive = () => {
         <br />
         <br />
         2. Rajshahi Board-2025; Mymensingh Board-2023 <br />
-        The food (a) __ of the young people of our country has changed
-        greatly. Our young people are getting (b) __ to fast foods and western
-        foods day by day. Today they go to fast food shops and enjoy taking (c)
-        __ such as: pizza, burger, soft drinks etc. When fast foods (d) - __
-        high levels of salt, sugar and fats, then it is called (e) __ food. It
-        lacks fibre, (f) __ and minerals. The world is currently facing an
-        obesity epidemic which puts people at the (g) __ of chronic (h) __
-        like heart disease and diabetes. Junk foods (i) __ to obesity. So, we
-        should be (j) __ about having fast foods now and then. <br />
+        The food (a) __ of the young people of our country has changed greatly.
+        Our young people are getting (b) __ to fast foods and western foods day
+        by day. Today they go to fast food shops and enjoy taking (c) __ such
+        as: pizza, burger, soft drinks etc. When fast foods (d) - __ high levels
+        of salt, sugar and fats, then it is called (e) __ food. It lacks fibre,
+        (f) __ and minerals. The world is currently facing an obesity epidemic
+        which puts people at the (g) __ of chronic (h) __ like heart disease and
+        diabetes. Junk foods (i) __ to obesity. So, we should be (j) __ about
+        having fast foods now and then. <br />
         <br />
         আমাদের দেশের তরুণদের খাদ্যাভ্যাসে ব্যাপক পরিবর্তন সাধিত হয়েছে। আমাদের
         তরুণরা দিন দিন ফাস্ট ফুড ও পশ্চিমা খাবারে অভ্যস্ত হয়ে পড়ছে। আজকাল তারা
@@ -62,14 +62,14 @@ const QuestionFive = () => {
         <br />
         <br />
         3. Jashore Board-2025 <br />
-        From the moment we are born we cannot (a) __ alone. We are always in
-        (b) __ of assistance of (c) __ others around us. We need clothes,
-        which others (d) __; houses, which others (e) __ and food, which
-        others (f) __ We have to earn our livelihood by (g) __ for others,
-        while they get their livelihood by working for us. As children, we need
-        our parents to be our comforters, and to take (h) __ of us in body and
-        (i) __ . As we grow up we need to take care of others; we cannot exist
-        a day (j) __ our fellowmen. <br />
+        From the moment we are born we cannot (a) __ alone. We are always in (b)
+        __ of assistance of (c) __ others around us. We need clothes, which
+        others (d) __; houses, which others (e) __ and food, which others (f) __
+        We have to earn our livelihood by (g) __ for others, while they get
+        their livelihood by working for us. As children, we need our parents to
+        be our comforters, and to take (h) __ of us in body and (i) __ . As we
+        grow up we need to take care of others; we cannot exist a day (j) __ our
+        fellowmen. <br />
         <br />
         জন্মের মুহূর্ত থেকেই আমরা একা থাকতে পারি না। আমাদের সবসময়ই চারপাশে থাকা
         মানুষগুলোর সহায়তা প্রয়োজন হয়। অন্যের বানানো পোশাক, অন্যের তৈরি করা বাড়ি
@@ -117,8 +117,8 @@ const QuestionFive = () => {
         self-employment. Facilities for training in (f) __ trades and vacations
         are available (g) __ the country. The youths, in particular, can train
         themselves in any of these trades and turn into a useful (h) __ The
-        govt. also (i) __ easy loans and counselling with a view to helping
-        them start an (j) __ earning activity. <br />
+        govt. also (i) __ easy loans and counselling with a view to helping them
+        start an (j) __ earning activity. <br />
         বাংলাদেশ একটি খুবই জনবহুল দেশ কিন্তু এই জনগণের অধিকাংশই বেকার। এই গিজ
         গিজ করা জনগণের জন্য কাজ নিশ্চিত করা এ দেশের পক্ষে সম্ভব নয়। এ সমস্যার
         সম্ভাব্য সমাধান হলো আত্মকর্মসংস্থান। এর মানে হলো জনগণের উচিত
@@ -137,10 +137,10 @@ const QuestionFive = () => {
         Modern life (a) __ much on transport. We can very well understand how
         (b) __ transport is when it is (c) __ by natural calamities or during
         socio-political crises. In fact, transport has made it (d) __ for us to
-        reach places previously (e) __ . It has also helped the (f) __ of
-        trade and commerce and to (g) __new knowledge and ideas. (h) __
-        transport has (i) __ friendship and (j) __ among nations and people
-        around the globe. <br />
+        reach places previously (e) __ . It has also helped the (f) __ of trade
+        and commerce and to (g) __new knowledge and ideas. (h) __ transport has
+        (i) __ friendship and (j) __ among nations and people around the globe.{" "}
+        <br />
         আধুনিক জীবন পরিবহনের ওপর অনেকটা নির্ভরশীল। যখন প্রাকৃতিক দুর্যোগ বা
         সামাজিক-রাজনৈতিক সংকটের কারণে এর বিঘ্ন ঘটে তখন এটা খুব ভালোভাবে উপলব্ধি
         করা যায় যে পরিবহন ব্যবস্থা কতটা গুরুত্বপূর্ণ। বস্তুত পরিবহন ব্যবস্থা
@@ -155,15 +155,15 @@ const QuestionFive = () => {
         <br />
         <br />
         7. Barishal Board-2025 <br />
-        Modern civilization is the (a) __ of science. Science has worked (b)
-        __ a magician in the world. We can't do even a (c) __ day without the
-        help of science. Many quick means (d) __ communication like telephone,
-        telex, fax, telegram, satellite are (e) __ greatest wonders of science.
+        Modern civilization is the (a) __ of science. Science has worked (b) __
+        a magician in the world. We can't do even a (c) __ day without the help
+        of science. Many quick means (d) __ communication like telephone, telex,
+        fax, telegram, satellite are (e) __ greatest wonders of science.
         Nowadays a message can be sent from one corner of the world to another
-        in the twinkle of (f) __ eye science has brought a revolution (g) __
-        in all fields. In the field of medical Science (h) __has got eyes, lame
-        has got legs, deaf have hearing power. (i) __ diseases which were
-        incurable in the past are now easily (j) __ . <br />
+        in the twinkle of (f) __ eye science has brought a revolution (g) __ in
+        all fields. In the field of medical Science (h) __has got eyes, lame has
+        got legs, deaf have hearing power. (i) __ diseases which were incurable
+        in the past are now easily (j) __ . <br />
         <br />
         আধুনিক সভ্যতা বিজ্ঞানের উপহার/প্রতীক/প্রতিমূর্তি। বিজ্ঞান পৃথিবীতে
         জাদুকরের মতো কাজ করেছে। আমরা বিজ্ঞানের সাহায্য ছাড়া একদিনও চলতে পারি না।
@@ -184,15 +184,14 @@ const QuestionFive = () => {
         industrialists never bother and suffer (c) __ to rising prices as their
         income also increases. But the income of the middle class person is (d)
         __ . If their income increases, it is not proportionate to the (e) __
-        prices. The result is that they are the (f) __ of rising prices. But
-        the poor can do nothing. After crying for some days, they try to (g) __
-        their budget accordingly. Even the government is unable to (h) __
-        rising prices. It is also compelled to increase the rates of commodities
-        under the control to reduce subsidies. The standard of living is also
-        rising high in metros. To increase the (i) __ of the new products,
-        electronic and print media is playing a major role. The purchasing (j)
-        __ of money has declined. But there is no hope of checking the price
-        hike. <br />
+        prices. The result is that they are the (f) __ of rising prices. But the
+        poor can do nothing. After crying for some days, they try to (g) __
+        their budget accordingly. Even the government is unable to (h) __ rising
+        prices. It is also compelled to increase the rates of commodities under
+        the control to reduce subsidies. The standard of living is also rising
+        high in metros. To increase the (i) __ of the new products, electronic
+        and print media is playing a major role. The purchasing (j) __ of money
+        has declined. But there is no hope of checking the price hike. <br />
         <br />
         আমাদের সমাজ মোটামুটি মধ্যবিত্ত শ্রেণি নিয়ে গঠিত। রোজকার মূল্যবৃদ্ধির
         সবচেয়ে চরম ভুক্তভোগী হলো তারা। উচ্চবিত্ত শ্রেণির মানুষ এবং বড় শিল্পপতিরা
@@ -220,8 +219,8 @@ const QuestionFive = () => {
         advancement. The (f) __ technology has brought for (g) __ travel.
         Previously greater opportunities in remote countries were considered a
         (h) __ . But today cheap holiday packages have made travel anywhere
-        within our (i) __ . Thus the foreign visitors (j) __ employment for
-        the local population. <br />
+        within our (i) __ . Thus the foreign visitors (j) __ employment for the
+        local population. <br />
         ৭০ বছর আগে পর্যটন এখনকার মতো এতটা ব্যবহৃত শব্দ ছিল না। বর্তমানে অনেক
         মানুষ ছুটিকে জীবনের অংশ হিসেবে বিবেচনা করে। ফলশ্রুতিতে ছুটিযাপন
         ব্যবস্থাপনা একটি বড় ব্যবসায় পরিণত হয়েছে। এটি উল্লেখযোগ্য সংখ্যক কাজের
@@ -239,13 +238,12 @@ const QuestionFive = () => {
         The development of communication in any (a) __ creates an impact on the
         development of the economy (b) __ gross (c) __ the product of any
         country. Bangladesh, in this sense has become a (d) __ model all over
-        the world. The present government has scheduled (e) __ and such
-        projects recently (f) __ increase the lifestyle of the country people.
-        We can (g) __ here some of such developments: The Padma Multipurpose
-        Bridget, the (h) __ way, the Karnaphuli Tunnel under the river (i) __
-        and the Metro Rail in Dhaka City. The national and International
-        business will be (j) __ by these kinds of communication development.{" "}
-        <br />
+        the world. The present government has scheduled (e) __ and such projects
+        recently (f) __ increase the lifestyle of the country people. We can (g)
+        __ here some of such developments: The Padma Multipurpose Bridget, the
+        (h) __ way, the Karnaphuli Tunnel under the river (i) __ and the Metro
+        Rail in Dhaka City. The national and International business will be (j)
+        __ by these kinds of communication development. <br />
         <br />
         বঙ্গানুবাদ: কোনো দেশের যোগাযোগের উন্নতি সেই দেশের অর্থনীতি ও মোট দেশিয়
         পণ্যের (জিডিপি) উন্নতিতে প্রভাব তৈরি করে। এই অর্থে, বাংলাদেশ সারাবিশ্বে
@@ -291,13 +289,12 @@ const QuestionFive = () => {
         <br />
         12. Jashore Board-2024 <br />
         Nelson Mandela was an unconditionally brave fighter against race
-        discrimination. During his (a) __, he had (b) __ himself to his (c)
-        __ of the people of Africa. He stated that he had fought against (d)
-        __ domination and he had fought against black (e) __ Being (f) __
-        with his (g) __ Nadine Gordimer, the South African writer and Nobel
-        Laureate for literature, once (h) __ that Mandela was at the (i) __ of
-        their time, theirs in South Africa, and the other people (j) __ they
-        were. <br />
+        discrimination. During his (a) __, he had (b) __ himself to his (c) __
+        of the people of Africa. He stated that he had fought against (d) __
+        domination and he had fought against black (e) __ Being (f) __ with his
+        (g) __ Nadine Gordimer, the South African writer and Nobel Laureate for
+        literature, once (h) __ that Mandela was at the (i) __ of their time,
+        theirs in South Africa, and the other people (j) __ they were. <br />
         বঙ্গানুবাদ: নেলসন ম্যান্ডেলা বর্ণবৈষম্যের একজন পরম সাহসী যোদ্ধা ছিলেন।
         তাঁর জীবদ্দশায়, আফ্রিকার মানুষের জন্য এই যুদ্ধে তিনি নিজেকে উৎসর্গ
         করেছিলেন। তিনি বিবৃতি দিয়েছিলেন যে তিনি শেতাঙ্কা আধিপত্যের বিরুদ্ধে লড়াই
@@ -314,13 +311,13 @@ const QuestionFive = () => {
         13. Cumilla Board-2024; Dinajpur Board-2017; Rajshahi Board-2013; Dhaka
         Board-2011 <br />
         Sports are a popular form of entertainment. Many International sporting
-        events are (a) __ from time to time. Most of these events are (b) __
-        by multinational manufacturing (c) __ and business for firms. They pay
-        for the sports events in (d) __ the right to (e) __ their products
-        during those events. These events are (f) __ worldwide by satellite and
-        people all over the world watch them (g) __ . As a (h) __ , the
-        sponsors' products receive maximum media (i) __ . Thus sports help the
-        (j) __ of trade and commerce.
+        events are (a) __ from time to time. Most of these events are (b) __ by
+        multinational manufacturing (c) __ and business for firms. They pay for
+        the sports events in (d) __ the right to (e) __ their products during
+        those events. These events are (f) __ worldwide by satellite and people
+        all over the world watch them (g) __ . As a (h) __ , the sponsors'
+        products receive maximum media (i) __ . Thus sports help the (j) __ of
+        trade and commerce.
         <br />
         <br />
         বঙ্গানুবাদ: খেলাধুলা হচ্ছে বিনোদনের জনপ্রিয় মাধ্যম। বিভিন্ন সময় অনেক
@@ -339,16 +336,16 @@ const QuestionFive = () => {
         <br />
         14. Chattogram Board-2024; Cumilla Board-2017: Dania College, Dhaka-2025{" "}
         <br />
-        Bangladesh is a land of (a) __ beauty. Its beauty is so captivating
-        that a stranger cannot but be (b) __ looking at this endless variety.
-        Nature has © __ showered its blessings on this country. The rivers.
-        hills and forests are rich in natural (d) __ . The people of this
-        country feel a strong (e) __ for their motherland. They love their
-        motherland from the (f) __ of heart. They work hard to (g) __ its
-        economic condition and to remove poverty. Most of them toil hard from
-        dawn to dusk to accelerate the pace of (h) __ . The progress of this
-        country lies in the (i) __ of common people. They are the (j) __ of a
-        beautiful and prosperous Bangladesh. <br />
+        Bangladesh is a land of (a) __ beauty. Its beauty is so captivating that
+        a stranger cannot but be (b) __ looking at this endless variety. Nature
+        has © __ showered its blessings on this country. The rivers. hills and
+        forests are rich in natural (d) __ . The people of this country feel a
+        strong (e) __ for their motherland. They love their motherland from the
+        (f) __ of heart. They work hard to (g) __ its economic condition and to
+        remove poverty. Most of them toil hard from dawn to dusk to accelerate
+        the pace of (h) __ . The progress of this country lies in the (i) __ of
+        common people. They are the (j) __ of a beautiful and prosperous
+        Bangladesh. <br />
         <br />
         বঙ্গানুবাদ: বাংলাদেশ প্রাকৃতিক সৌন্দর্যের দেশ। এর সৌন্দর্য এতই অভিভূত কর
         যে, একজন আগন্তুক এর সৌন্দর্যের বৈচিত্রাতায় অভিভূত না হয়ে পারে না।
@@ -373,10 +370,10 @@ const QuestionFive = () => {
         marginalized. She (a) __ vulnerable to all forms of abuse, (b) __
         dowry-related violence. In Bangladesh, it is still (c) __ for a bride's
         family to pay dowry. (d) __ the practice being illegal. Dowry demands
-        can also (e) __ after the wedding. For an adolescent (f) __, even if
-        her in-laws are supportive, there (g) __ greater health risks in terms
-        of __ (h) and their about childbirth. The majority of adolescents (i)
-        __ and their families are uninformed or insufficiently (j) __ about
+        can also (e) __ after the wedding. For an adolescent (f) __, even if her
+        in-laws are supportive, there (g) __ greater health risks in terms of __
+        (h) and their about childbirth. The majority of adolescents (i) __ and
+        their families are uninformed or insufficiently (j) __ about
         reproductive health and contraception. The maternal mortality rate for
         adolescents is double the national rate. <br />
         <br />
@@ -1288,7 +1285,6 @@ const QuestionFive = () => {
         {/* Answer */}
         <div className="">
           <h1 className="text-green-500">Answer: </h1>
-         
           21. (a) across/throughout (b) as (c) second (d)
           organizations/companies (e) corresponding/communicating (f) having (g)
           published (h) are (i) wise/logical (j)
@@ -1398,11 +1394,10 @@ const QuestionFive = () => {
           (f) common (g) questions (h) income (i) awkward (j) meant <br />
           <br />
           48. (a) common/popular (b) range (c) telecast (d) set (e) programmes
-          (f) educative (g) being (h) run (i) educative (j) excessively 
-          <br />{" "}
-          <br />{" "}
-          49. (a) conservative (b) early (c) predetermined/predestined (d)
-          ordained (e) belief (f) sufferings <br />
+          (f) educative (g) being (h) run (i) educative (j) excessively
+          <br /> <br /> 49. (a) conservative (b) early (c)
+          predetermined/predestined (d) ordained (e) belief (f) sufferings{" "}
+          <br />
           (g) overcome (h) ftrm (i) mundane (j) rewarded <br />
           <br />
           50. (a) neighbour's (b) smoking (c) times (d) up (e) poisoning (f)
@@ -1470,8 +1465,8 @@ const QuestionFive = () => {
           (g) story (h) Introvert (i) is (j) representing/showing <br />
           <br />
           68. (a) rivers (b) drying (c) dredging (d) silt (e) fertile (f) fish
-          (g) supply (h) scarcity/paucity /shortage (i) easure/increase
-          (j) living <br />
+          (g) supply (h) scarcity/paucity /shortage (i) easure/increase (j)
+          living <br />
           <br />
           69. (a) revolution (b) communication (c) seconds (d) dependent (e)
           however (f) developing (g) afford (h) some (i) using (j) purposes{" "}
@@ -1650,9 +1645,9 @@ const QuestionFive = () => {
           <br />
           run (i) educative (j) excessively
           <br />
-           49. (a) conservative (b) early (c)
-          predetermined/predestined (d) ordained (e) belief (i) sufferings (g)
-          overcome (h) ftrm (i) mundane (j) rewarded <br />
+          49. (a) conservative (b) early (c) predetermined/predestined (d)
+          ordained (e) belief (i) sufferings (g) overcome (h) ftrm (i) mundane
+          (j) rewarded <br />
           <br />
           50. (a) neighbour's (b) smoking (c) times (d) up (e) poisoning (f)
           out/into (g) account (h) term (i) know (j) dilemma/fix <br />
