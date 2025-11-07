@@ -12,13 +12,11 @@ function PartsOfSpeechBeginner() {
         <div className="text-lg md:text-xl">
           {/* definition */}
           <div className="">
-            Parts মানে হলো অংশ/শব্দ(word) আর Speech মানে হলো
-            বক্তব্য/বাক্য(sentence) । বাক্যের মধ্যে ব্যবহৃত প্রত্যেকটি শব্দকে
-            Parts of Speech বলে।
+            Parts মানে হলো অংশ/শব্দ/(word) আর Speech মানে হলো
+            বক্তব্য/বাক্য(sentence)। সুতরাং বাক্যের মধ্যে ব্যবহৃত প্রত্যেকটি
+            শব্দকে Parts of Speech বলে।
             <br />
-            আমরা জানি speech বা বক্তব্য হয় Sentence বা বাক্যের মাধ্যমে। আবার
-            Sentence গঠিত হয় Word এর সাহায্যে। <br />
-            Parts of speech আট প্রকার: : <br />
+            Parts of speech আট প্রকার: <br />
             1. Noun ( বিশেষ্য ) <br />
             2. Pronoun <br />
             3. Verb ( ক্রিয়া/ কাজ ) <br />
@@ -32,33 +30,36 @@ function PartsOfSpeechBeginner() {
           {/* noun */}
           <div className="">
             <h2 className="dark:text-green-400 text-pink-600">Noun</h2>
-            Noun অর্থ নাম। সেজন্য যে কোন নামবাচক পদকে Noun বলে। <br />
-            (Noun means name. That is why any name is called noun.) <br />
-            Noun মূলত দুই প্রকার:
-            <br />
+            Noun অর্থ নাম। সেজন্য যে কোন নামবাচক শব্দকে/পদকে Noun বলে। <br />
+            Noun মূলত দুই প্রকার: <br />
             1. Concrete Noun : <br />
-            যার বাহ্যিক অস্তিত্ব এবং শারীরিক গঠন আছে।
+            যাকে দেখা যায়। যার বাহ্যিক অস্তিত্ব এবং শারীরিক গঠন আছে। <br />
+            যেমন : <br />
+            Table, Chair, Rahim, Karim, Dhaka, London ইত্যাদি <br />
+            Concrete Noun আবার চার প্রকার (এগুলো পড়তে চাইলে এডভান্স লেভেলে ক্লিক
+            করুন ) <br />
+            2. Abstract Noun : <br />
+            যাকে দেখা যায়না। এদের বাহ্যিক অস্তিত্ব নেই। এটা মূলত ব্যাক্তি বা
+            বস্তুর অবস্থা, গুণ, প্রকৃতি সম্পর্কিত নামগুলো বুঝায়।
             <br />
             যেমন : <br />
-            Table, Chair, Rahim, Karim, Dhaka, London ইত্যাদি
+            Love, Forgiveness, Honesty, Happiness, Friendship, Beauty ইত্যাদি...
             <br />
-            2. Abstract Noun : <br />
-            এটা মূলত ব্যাক্তি বা বস্তুর অবস্থা, গুণ, প্রকৃতি সম্পর্কিত নামগুলো
-            বুঝায়। এদের বাহ্যিক অস্তিত্ব নেই। <br />
-            যেমন : <br /> Forgiveness, Honesty, Happiness, Friendship, Beauty,
-            Love ইত্যাদি...
+            এছাড়া, <br />
+            গণনা যোগ্যতা অনুসারে প্রত্যেক প্রকার Noun এর আবার দু'টি ভাগ আছে :
             <br />
-            এছাড়া, <br /> প্রত্যেক প্রকার Noun এর আবার দু'টি ভাগ আছে : <br />
-            Countable Noun : যে Noun গণনা করা যায়।
+            ১. Countable Noun ২. Uncountable Noun <br />
+            ১. Countable Noun : যে Noun গণনা করা যায়।
             <br />
             1. Singular / Plural দুইটাই হতে পারে. <br />
             2. শেষে s/es যুক্ত হয়। <br />
             যেমন : <br />
             Boy - Boys, Mango - Mangos For example: boy - age, mango - mangos{" "}
             <br />
-            Uncountable Noun : যে Noun গণনা করা যায় না- <br />
+            ২. Uncountable Noun : যে Noun গণনা করা যায় না- <br />
             1. always Singular. <br />
-            2. এদের সাথে s/es বসে না (S/Es does not sit with them. ) ।<br />
+            2. এদের সাথে s/es বসে না।
+            <br />
             যেমন : <br />
             Fun, News, Information, Wind etc. . <br />
             <br />
@@ -71,7 +72,8 @@ function PartsOfSpeechBeginner() {
             <br />
             যেমন : I, you, she, they, who, what, this, that, myself, themselves
             etc. I, you, she, they, who, what, this, that, myself, themselves
-            etc.
+            etc. <br />
+            (বিস্তারিত পড়তে চাইলে এডভান্স লেভেলে ক্লিক করুন )
           </div>
           <br />
           {/* Adjective */}
@@ -84,21 +86,22 @@ function PartsOfSpeechBeginner() {
             অবস্থা : Poor, rich, noble, weak, old, Asian, Bangladeshi etc.
             <br />
             পরিমাণ : Much, little, a few, Enough etc. <br />
-            সংখ্যা : First, one, two, Single, double etc.
+            সংখ্যা : First, one, two, Single, double etc. <br />
+            (বিস্তারিত পড়তে চাইলে এডভান্স লেভেলে ক্লিক করুন )
           </div>
           <br />
           {/* Verb */}
           <div className="">
             <h2 className="text-pink-500">Verb</h2>
             <div className="">
-              Verb: যে word দ্বারা কোনো কিছু করা বা হওয়া বা থাকা কে বুঝায়, তাকে
-              Verb বলে (The word that means to do or to be or to be something is
-              called verb.) । <br />
+              Verb: যে word দ্বারা কোনো কিছু করা বা হওয়া বা কোন কাজ করা বুঝায়,
+              তাকে Verb বলে । <br />
               যেমন : <br />
               Sing, Think, Laugh, Cry, Jump etc. <br />
               Verb দুই প্রকার: <br />
               (i) Finite - সমাপিকা ক্রিয়া <br />
               (ii) Non-Finite - অসমাপিকা ক্রিয়া
+              <br />
               <br />
               Finit Verb আবার দুই প্রকার:
               <br />
@@ -109,15 +112,16 @@ function PartsOfSpeechBeginner() {
               যে verb অন্য কোন Verb এর সাহায্য ছাড়া স্বাধীনভাবে সম্পূর্ণ অর্থ
               প্রকাশ করতে পারে, তাকে Principle Verb বলে । <br />
               Principal Verb আবার দুই প্রকার: <br />
-              1. Transitive Verb : সকর্মক ক্রিয়া <br />
+              1. Transitive Verb - সকর্মক ক্রিয়া <br />
               2. Intransitive Verb - অকর্মক ক্রিয়া: <br />
               1. Transitive Verb : সকর্মক ক্রিয়া <br />
               Transitive verb বৈশিষ্ট্য : যে Verb, object ছাড়া অর্থ প্রকাশ করতে
-              পারে না ।
+              পারে না বা Verb এর Object থাকে তাকে Transitive verb বলে।
               <br />
               2. Intransitive Verb - অকর্মক ক্রিয়া: <br />
               Intransitive Verb বৈশিষ্ট্য : যে Verb, object ছাড়াই অর্থ প্রকাশ
-              করতে পারে । <br />
+              করতে পারে বা Verb এর Object থাকে না তাকে Transitive verb বলে।{" "}
+              <br />
               Examples: <br />
               <div className="overflow-x-auto">
                 <table className="min-w-[500px] table-auto dark:border-slate-400">
@@ -155,8 +159,8 @@ function PartsOfSpeechBeginner() {
               2. Do Verb : do, does, did <br />
               3. Have Verb : have, has, had, hast <br />
               4.Modals : <br />
-              can, could, shall, should, will, would, may, might, must, need,
-              dare, had better, would rather. <br />
+              can, could, may, might, shall, should, will, would, need, dare,
+              must, had better, would rather. <br />
               5. to যুক্ত Modals : <br />
               ought to, have to, be to, used to, be going to, be about to.
               <br />
@@ -168,10 +172,8 @@ function PartsOfSpeechBeginner() {
               3. Infinitive
               <br />
               <br />
-              Gerund:
-              <br /> Gerund = ( verb + ing ) = Noun এর মত আচরণ করবে। <br />
-              যেমন : 1. Writing letter is pleasant.
-              <br />
+              Gerund:Gerund = ( verb + ing ) = Noun এর মত আচরণ করবে। <br />
+              যেমন : 1. Writing letter is pleasant. <br />
               2. Running water is pure. <br />
               3. Swimming is a good exercise.
               <br />
@@ -180,20 +182,32 @@ function PartsOfSpeechBeginner() {
               5. He is absorbed in dreaming. <br />
               6. Seeing is believing.
               <br />
-              Technique : Gerund দ্বারা স্থির অবস্থা বোঝায়। <br />
+              Short technique : Gerund দ্বারা স্থির অবস্থা বোঝায়। <br />
               <br />
               Participle: <br />
-              Participle = ( verb + ing ) = Adjective/ Adverb এর মত আচরণ করবে।{" "}
+              Participle আবার তিন প্রকারঃ (a) Present Particle, (b) Past
+              Participle, (c) Perfect Participle
               <br />
-              যেমন:
+              (a) Present Participle = ( verb + ing ) = Adjective/ Adverb এর মত
+              আচরণ করবে।
               <br />
-              1. I saw him passing the shop.
-              <br />
-              2. Dancing the girl went away. <br />
-              3. He smell the curry burning. <br />
-              4. He will go to swimming. <br />
-              5. He kept me waiting. 5. He kept me waiting. <br />
-              6. I saw the baby sleeping there. <br />
+              যেমন: <br />
+              1. I saw him <span className="font-bold underline">
+                passing
+              </span>{" "}
+              the shop. <br />
+              2. <span className="font-bold underline">Dancing</span> the girl
+              went away. <br />
+              3. He smell the curry{" "}
+              <span className="font-bold underline">burning</span>. <br />
+              4. He will go to{" "}
+              <span className="font-bold underline">swimming</span>. <br />
+              5. He kept me <span className="font-bold underline">waiting</span>
+              . <br />
+              5. He kept me <span className="font-bold underline">waiting</span>
+              . <br />
+              6. I saw the baby there{" "}
+              <span className="font-bold underline">sleeping</span>. <br />
               Technique : Participle দ্বারা চলমান অবস্থা বোঝায়।
               <br />
               <br />
@@ -207,7 +221,8 @@ function PartsOfSpeechBeginner() {
               <br />
               4. To err is human.
               <br />
-              5. To speak the truth, he's honest.
+              5. To speak the truth, he's honest. <br />
+              (বিস্তারিত পড়তে চাইলে এডভান্স লেভেলে ক্লিক করুন )
             </div>
           </div>
           <br />
@@ -215,21 +230,20 @@ function PartsOfSpeechBeginner() {
           <div className="">
             <h2 className="text-pink-500">Adverb</h2>
             <p className="">
-              Adverb: যে Word Adjective, Verb বা কোনো Adverb কে modify বা
-              qualify করে, তাকে Adverb বলে। <br />
-              যেমন: <br />
-              1. He started early.
+              Adverb: যে Word সাধারণত Verb কে modify করে, তাকে Adverb বলে।
               <br />
+              যেমন: <br />
+              1. He started early. <br />
               2. He runs very fast. <br />
               3. I know better. <br />
-              Short Techniq: Adverbs can also be found by asking questions by
-              how, when, where, why.
+              Short Techniq: Verb কে how(কিভাবে), when(কখন), where(কোথায়),
+              why(কেন) দ্বারা প্রশ্ন করলে যে উত্তর পাওয়া যায় সেই শব্দ/পদকে
+              Adverb বলা হয়।
               <br />
               “Adverb - Time (সময়), Place (স্থান), Manner (ধরণ), Number
               (সংখ্যা), Degree (মাত্রা), Reason (কারণ), Purpose (উদ্দেশ্য),
               Condition (শর্ত) ইত্যাদি প্রকাশ করবে।” <br />
-              Adverb - will express time, place, manner, number, degree, reason,
-              purpose, condition, etc. ” <br />
+              <br />
               যেমন:
               <br /> Time : now, then, soon, early etc. <br />
               Place : here,there, far, near etc. <br />
@@ -240,6 +254,7 @@ function PartsOfSpeechBeginner() {
               Condition : if, unless etc. Condition : if, unless etc. <br />
               Technic : How, When, Where, Why দ্বারা প্রশ্ন করলেও Adverb পাওয়া
               যায়। <br />
+              (বিস্তারিত পড়তে চাইলে এডভান্স লেভেলে ক্লিক করুন )
             </p>
           </div>
           <br />
