@@ -532,20 +532,20 @@ const QuestionFive = () => {
         স্থান। মনোরম প্রাকৃতিক সৌন্দর্য, বালুকাময় সৈকত, নীল আকাশ ও বঙ্গোপসাগরের
         পানির ঝিলমিল বিস্তৃতি এবং চির হরিৎ বনের কারণে এটি একটি বিখ্যাত পর্যটন
         কেন্দ্র। কুয়াকাটা নামটি এসেছে পানীয় পানির জন্য/পানি সংগ্রহের জন্য প্রথম
-        দিকে রাখাইনদের দ্বারা খননকৃত একটি কূপ (কোয়া) __ থেকে। কুয়াকাটা এর
+        দিকে রাখাইনদের দ্বারা খননকৃত একটি কূপ (কোয়া) থেকে। কুয়াকাটা এর
         ভ্রমণকারীদের সৈকত হতে সূর্যোদয় ও সূর্যাস্ত দেখার সুযোগ করে দেয়। মৃদু ও
         বালুকাময় ঢাল গোসল করা, সাতার কাটা ও ডাইভিং করার জন্য একে আনন্দময় করে
         তুলে। <br />
         <br />
         24. Barishal Board-2023 & 2004; Blue Bird High School & College,
         Sylhet-2025 <br />
-        Student life is a life of (a) __ -for future struggle. To make him (b)
-        __ for the struggle, education is necessary. So the first and foremost
-        duty of a student ©- to prosecute his studies well. He who (d) __ his
-        lessons regularly (e) __ well in the examination. On the (f) __ the
-        student who wastes his time cuts a figure. It should be (h) __ -in mind
-        that none can get back (i) __ time. If students neglect their studies
-        they will suffer in the (j) __ run.
+        Student life is a life of (a) __ for future struggle. To make him (b) __
+        for the struggle, education is necessary. So the first and foremost duty
+        of a student ©- to prosecute his studies well. He who (d) __ his lessons
+        regularly (e) __ well in the examination. On the (f) __ the student who
+        wastes his time cuts a figure. It should be (h) __ -in mind that none
+        can get back (i) __ time. If students neglect their studies they will
+        suffer in the (j) __ run.
         <br />
         ছাত্রজীবন হলো ভবিষ্যত সংগ্রামের জন্য প্রস্তুতি নেওয়ার জীবন। তাকে
         সংগ্রামের জন্য প্রস্তুত করতে শিক্ষা প্রয়োজন। সুতরাং, একজন ছাত্রের প্রথম
@@ -578,16 +578,16 @@ const QuestionFive = () => {
         26. Board-2015 & 2008; Sylhet Board-2005 26. Dhaka Board-2022; Rajshahi
         Board-2017; Cumilla
         <br />
-        Sincerity is the best way of achieving success. One | can go a long way
-        if one does anything with sincerity. People who are sincere in their
-        work are (a) __ of making anything success. The great men that sincerity
-        are also sincere because they (b) __ is the (c) __ - to success. Those
-        who are not (d) __ can never (e) __ a long way in the world. The poor
-        people are not always sincere because they do not know the (f) __ of
-        sincerity. If they knew it they would (g) __ a good use of it. Sincerity
-        means not only to do work (h) __ but also with dutifulness, honesty,
-        modesty and good behaviour. If all of us (i) __ sincere, our country
-        will (j) __ be prosperous. <br />
+        Sincerity is the best way of achieving success. One can go a long way if
+        one does anything with sincerity. People who are sincere in their work
+        are (a) __ of making anything success. The great men that sincerity are
+        also sincere because they (b) __ is the (c) __ - to success. Those who
+        are not (d) __ can never (e) __ a long way in the world. The poor people
+        are not always sincere because they do not know the (f) __ of sincerity.
+        If they knew it they would (g) __ a good use of it. Sincerity means not
+        only to do work (h) __ but also with dutifulness, honesty, modesty and
+        good behaviour. If all of us (i) __ sincere, our country will (j) __ be
+        prosperous. <br />
         সফলতা অর্জনের সর্বোত্তম পন্থা হচ্ছে সচেতনতা/আন্তরিকতা। যে কোনো ব্যক্তি
         অনেক পথ অগ্রসর হতে পারে যদি সে যে কোনো কাজ আন্তরিকতার সাথে করে। যে সকল
         লোক তাদের কাজে-কর্মে আন্তরিক তারা যে কোনোকিছুকে সফল করার ব্যাপারে
@@ -656,7 +656,7 @@ const QuestionFive = () => {
         In recent years there have been many alarming reports that the world's
         climate is undergoing a significant change. All these reports provide
         (a) __ evidence (b) __ world's temperatures are increasing day by day.
-        This increase in global (e) __ is caused (d) __ increased amounts of
+        This increase in global (c) __ is caused (d) __ increased amounts of
         carbon dioxide (e) __ the earth. Most climatologists (f) __ that
         greenhouse effect is the likely cause of this global warming. It may
         harm human (h) __ seriously. This could catastrophically (i) __
@@ -677,11 +677,11 @@ const QuestionFive = () => {
         Students are regularly wearing (b) __ and using sanitizer. As a result,
         they are keeping themselves aloof (c) __ many diseases. They are now
         very much aware of the (d) __ cleanliness. If this habit is (e) __
-        permanently, it will certainly be helpful in making a (f) __ -
-        generation. This is a precondition for (g) __ education. Therefore, this
-        pandemic (h) __ has paved the way for a good (i) __ of environment and a
-        good generation. Now, we must the opportunity this pandemic disease has
-        (0) __ created. <br />
+        permanently, it will certainly be helpful in making a (f) __ generation.
+        This is a precondition for (g) __ education. Therefore, this pandemic
+        (h) __ has paved the way for a good (i) __ of environment and a good
+        generation. Now, we must the opportunity this pandemic disease has (0)
+        __ created. <br />
         মহামারি দুর্যোগ কোভিড-১৯ আমাদের কতিপয় স্বাস্থ্যবিধি অনুসরণ করতে বাধ্য
         করেছে। ছাত্রছাত্রীরা নিয়মিত মাস্ক পরিধান করছে এবং স্যানিটাইজার ব্যবহার
         করছে। ফলে, তারা নিজেদের অনেক রোগ থেকে দূরে রাখছে। তারা এখন পরিচ্ছন্নতার
@@ -696,7 +696,7 @@ const QuestionFive = () => {
         Examination is very important in student's life. It justifies a
         student's (a) __ . No student can be (b) __ to next class without
         examination. So, every student (c) __ hard to pass the examination.
-        There are many ways to do (d) __ -in the examination and meritorious
+        There are many ways to do (d) __ in the examination and meritorious
         students follow these (e) __ . Gathering (f) __ is not all things to
         approach the examination. One may gather much (g) __ about his subject,
         but If he cannot (h) __ his performance in the examination. his (i) __
@@ -717,7 +717,7 @@ const QuestionFive = () => {
         (b) __ in 1971. We had been © Pakistani rule for twenty five years . But
         discrimination,(d) __ and suppression of the West Pakistani rulers (e)
         __ us to wage the Liberation War. Sheikh Mujibur Rahman led the struggle
-        for (f) __ . But soon he was (g) __ by the Pakistani rulers. However, -
+        for (f) __ . But soon he was (g) __ by the Pakistani rulers. However,
         people from all (h) __ of life took part in the war (i) __ to the (j) __
         of Sheikh Mujib. <br />
         আমাদের স্বাধীনতা আমাদের জাতীয় জীবনে সর্বোত্তম অর্জন। এটা ১৯৭১ সালে
@@ -730,7 +730,7 @@ const QuestionFive = () => {
         <br />
         34. Dhaka Board-2019; Ideal College, Central Road, Dhanmondi, Dhaka-2024
         <br />
-        We all know what a dream is. Generally we dream | during our sleep. Some
+        We all know what a dream is. Generally we dream during our sleep. Some
         dreams are sweet or (a) __ When we dream something extremely bad, we
         call it a (b) __ . Dreams have no (c) __ . They are soft and (d) __ .
         The dream we have during the day time is called (e) __ . Dreams have
@@ -760,10 +760,10 @@ const QuestionFive = () => {
         often found (b) __ space and close treatment in literature and other (c)
         __ Besides the many poems about this (d) __ character, there is at least
         one (e) __ where the central character is a traffic policeman. In 1963.
-        Greek film maker Filippos Fylaktas made this film (1) __ My Brother, the
+        Greek film maker Filippos Fylaktas made this film (f) __ My Brother, the
         Traffic Policeman, It featured a traffic police, Antonis Pikrocholos to
         service and duty and slightly (g) __ who is utterly (h) __ with
-        unyielding (1) __ applies the traffic (1) __ <br />
+        unyielding (i) __ applies the traffic (j) __ <br />
         একজন ট্রাফিক পুলিশের অভিব্যক্তি সবসময়ই কৌতূহলোদ্দীপক। সাহিত্য এবং
         অন্যান্য কলা/শিল্পে এটা প্রায়শই গুরুত্বপূর্ণ স্থান এবং নিবিড় মনোযোগ লাভ
         করে। এই আকর্ষণীয় চরিত্র নিয়ে অনেক কাব্যকবিতা ছাড়াও অন্তত একটি চলচ্চিত্র
@@ -837,10 +837,10 @@ const QuestionFive = () => {
         transports must strictly (c) __ by the rules (d) __ government. Coaches
         and minibuses (e) __ carry children under 16 must be (f) __ with
         seatbelts There the law (g) __ agencies are (h) __ . So, buses and
-        coaches have become the (j) __ form of road (j) __ . <br />
+        coaches have become the (i) __ form of road (j) __ . <br />
         ব্রিটেনে চালকগণ কর্তৃক সড়ক ও পরিবহন আইন কঠোরভাবে অনুসরণ করা হয়। ফলে
         ইউরোপে এদেশের সর্বোত্তম সড়ক নিরাপত্তা রেকর্ড রয়েছে। সকল পরিবহণকে সরকার
-        কর্তৃক প্রণীত আইন অবশ্যই কঠোরভাবে মেনে চলতে হয়। যে সকল কোচ ও মিনিবাস ১৬
+        কর্তৃক প্রণীত আইন অবশ্যই কঠোরভাবে মেনে চলতে হয়। যে সকল কোচ ও মিনিবাস
         বৎসর বয়সের নিচের শিশুদের বহন করে তাদের অবশ্যই সিটবেল্ট পরিয়ে নিতে হয়।
         সেখানে আইন প্রয়োগকারী এজেন্সীগুলো সতর্ক অবস্থায় থাকে। সুতরাং, বাস এবং
         কোচগুলো সড়ক পরিবহনের সবচেয়ে নিরাপদ যানে পরিণত হয়েছে। <br />
@@ -855,7 +855,7 @@ const QuestionFive = () => {
         Rohingyas. The government of Bangladesh has (e) __ this huge number of
         refugees on, humanitarian (f) __ But these people are a huge on our
         economy and on our (h) __ - The world community should extend their full
-        support to the (1) __ Rohingyas so that they can (1) __ return to their
+        support to the (i) __ Rohingyas so that they can (j) __ return to their
         homeland. <br />
         <br />
         দেশান্তর/ অভিবাসন একটি সুপ্রাচীন ঘটনা। সাম্প্রতিক সময়ে রোহিঙ্গা অভিবাসন
@@ -917,7 +917,7 @@ const QuestionFive = () => {
         <br />
         43. Dhaka Board-2017; Government Huseyn Shaheed Suhrawardy College,
         Magura-2025 Rabindranath <br />
-        Tagore was a man of (a) __ genius.He was (b) __ a poet and a novelist
+        Tagore was a man of (a) __ genius. He was (b) __ a poet and a novelist
         (c) __ a playwright, a composer, a painter and a philosopher. He was
         awarded the Nobel Prize for (d) __ Gitanjali into English. Those
         translations earned him a great (e) __ in the West. As a humanist.
@@ -925,7 +925,7 @@ const QuestionFive = () => {
         from Britain. Tagore was highly influential in (h) __ -the best of
         Indian culture to the West and vice-versa. He (i) __ himself to
         literature at a very early age. After coming back from England, he began
-        to write (j) __ -in all branches of literature.
+        to write (j) __ in all branches of literature.
         <br />
         রবীন্দ্রনাথ ঠাকুর ছিলেন অসাধারণ প্রতিভাধর একজন মানুষ। তিনি যে শুধু একজন
         কবি ও ঔপন্যাসিক ছিলেন তা নয়, তিনি একাধারে নাট্যকার, সংগীত রচয়িতা,
@@ -946,7 +946,7 @@ const QuestionFive = () => {
         run into (c) __ . Does beauty have an independent identity? Is it (d) __
         or relative? Is it dependent on our sense (e) __ ? Does It lie in the
         (f) __ of the beholder? Thus there will arise a number of (g) __ in our
-        mind. However, poets. artists, philosophers and thinkers (b) __ always
+        mind. However, poets. artists, philosophers and thinkers (h) __ always
         in search of beauty in their works and arts. But most of them have the
         common and undisputed opinion that where there is beauty, there is (i)
         __ that is, a thing of beauty is a joy (j) __ <br />
@@ -966,10 +966,10 @@ const QuestionFive = () => {
         <br />
         45. Sylhet Board-2017; Barishal Cadet College, Barishal-2025 <br />
         The proper (a) __ of study involves regular and proper understanding. In
-        order to (b) __ - the best benefit from study, we should read (c) __ and
+        order to (b) __ the best benefit from study, we should read (c) __ and
         intelligently, We should not study (d) __ purpose of examinations. We
         should take genuine (f) __ in our studies so that we can enjoy what we
-        (g) __ - . This will give us knowledge and wisdom and (h) __ the horizon
+        (g) __ . This will give us knowledge and wisdom and (h) __ the horizon
         of our (i) __ . We should, therefore, study not for immediate gains but
         for (j) __ the wealth of our mind.
         <br />
@@ -986,7 +986,7 @@ const QuestionFive = () => {
         Many events of great importance (a) __ during the last century.
         Significant advances (b) __ in the field of science and technology. Many
         European colonies gained Independence. The movement (c) __ democracy
-        became (d) __ -in many parts of the world. Two world wars (e) __ in this
+        became (d) __ in many parts of the world. Two world wars (e) __ in this
         century. It (f) __ witnessed the misuse of atomic energy. Two cities of
         Japan were completely destroyed as a result of dropping of atom bombs.
         The Vietnam war and the Gulf war killed many innocent people. However,
@@ -1008,7 +1008,7 @@ const QuestionFive = () => {
         Hospitality has long been a part of our (a) __ in Bangladesh. Although
         many other (b) __ are changing now, people are still quite (c) __ and
         friendly towards (d) __ . They like speaking to foreigners even if they
-        have not been (e) __ - . It is quite (f) __ for Bangladeshis to ask
+        have not been (e) __ . It is quite (f) __ for Bangladeshis to ask
         personal (g) __ about family, jobs and (h) __ which visitors from
         overseas might find (i) __ However, it should be understood that no harm
         is (j) __ by such questions on the other hand, they express a genuine
@@ -1025,13 +1025,13 @@ const QuestionFive = () => {
         <br />
         48. Dhaka Board-2007; Rajshahi Board-2016 <br />
         Television has become a (a) __ source of entertainment of the present
-        world. of.. A wide (b) __ programmes is © on numerous channels. Almost
-        every family has a television (d) __ today. Television (e) __ are not
-        only entertaining, they can be highly (f) __ too. For example,
+        world. A wide range of(b) __ programmes is (c) on numerous channels.
+        Almost every family has a television (d) __ today. Television (e) __ are
+        not only entertaining, they can be highly (f) __ too. For example,
         television is now (g) __ used for distance learning. Courses (h) __ by
         the Open University are shown on BTV. Several channels like the
         Discovery Channel and the National Geographic Channel telecast highly
-        informative and (i) __ programmes. However, watching TV (j pp) __ is not
+        informative and (i) __ programmes. However, watching TV (j) __ is not
         permissible. <br />
         <br />
         আধুনিক বিশ্বে টেলিভিশন বা দূরদর্শন যন্ত্র বিনোদনের একটি সাধারণ/ জনপ্রিয়
@@ -1049,7 +1049,7 @@ const QuestionFive = () => {
         __ and all that happens to them was (d) __ by God. From this (e) __ the
         poor generally accept their poverty and all their sorrows and (f) __
         without trying much to (g) __ them. They also hold a (h) __ belief that
-        those who undergo sufferings in this (1) __ -world will be amply (0) __
+        those who undergo sufferings in this (i) __ -world will be amply (j) __
         in the next world. <br />
         <br />
         আমাদের দেশে অনেক লোক আছে যারা রক্ষণশীল দৃষ্টিভঙ্গি পোষণ করে। জীবনের
@@ -1104,7 +1104,7 @@ const QuestionFive = () => {
         professions. Moreover, both educated and uneducated women are (f) __ to
         work outside. . All of them are trying to be self (g) __ . The life of a
         woman has now become more (h) __ .Because they have to shoulder (i) __
-        roles also. Most of the women have to compete with men (j) __ ___.{" "}
+        roles also. Most of the women have to compete with men (j) __ ___.
         <br />
         <br />
         53. Dinajpur Board-2016; Pabna Govt. Women's College, Pabna-2018
@@ -1113,13 +1113,13 @@ const QuestionFive = () => {
         unfortunate thing is that it is falling down very rapidly day by day. It
         is mainly (a) __ of the traditional education system. Teachers do not
         know much about the modern teaching method. Moreover, the testing (b) __
-        is not effective. Students can (c) __ - (f) __ good marks by memorizing.
-        But in this system they lose their power and learn to depend on (e) __ .
-        As a result, they cannot face new (f) __ .Whenever they talk, they
-        reveal their ignorance. They lose (g) __ in the process . whole (1) __
-        boldly. -in the process. It is great (h) __ for the nation. Conditions
-        should be improved to (i) __ our children in a proper way so that they
-        may exploit the whole (j) __ - boldly. <br />
+        is not effective. Students can (c) __ good marks by memorizing. But in
+        this system they lose their power and learn to depend on (d) __ . As a
+        result, they cannot face new (e) __ .Whenever they talk, they reveal
+        their ignorance. They lose (f) __ in the process . whole (g) __ boldly.
+        -in the process. It is great (h) __ for the nation. Conditions should be
+        improved to (i) __ our children in a proper way so that they may exploit
+        the whole (j) __ - boldly. <br />
         <br />
         54. Dhaka Board-2015; gadirabad Cantt. Sapper College, Bagatipara,
         Natore-2023 <br />
@@ -1146,27 +1146,27 @@ const QuestionFive = () => {
         cover days, months or years. Real (h) __ even go to (i) __ Islands to
         observe a queer variety of birds. Bird watching has become well-known
         and almost all over the world and many travel agencies can also provide
-        necessary information on (j) __ which are suitable for bird watching.{" "}
+        necessary information on (j) __ which are suitable for bird watching.
         <br />
         <br />
         58. Barishal Board-2015; Rajshahi Board-2009; Sylhet Board-2003
         <br />
         One day a lad went to a famous teacher and having expressed his desires
         to (a) __ knowledge, begged him to (b) __ him in the arts and science.
-        The learned man wishing to © out what sort of ability the lad (d) __ -
+        The learned man wishing to (c)out what sort of ability the lad (d) __ -
         asked him where God (e) __ . Then the lad replied. "I will answer you,
         if you will first (f) __ me where He is (g) __ . The sage, from this
-        sensible (h) __ thought highly of boy's (h) __ and according to his (i)
+        sensible (h) __ thought highly of boy's (i) __ and according to his (j)
         __ perfected him in his studies. Thus, the wisdom of the wise manifests
         itself early. <br />
         <br />
         59. Dinajpur Board-2015 & 2013: Sylhet Board-2011 <br />
-        Jerry, an orphan of twelve, (a) __ -in an orphanage. The authoress hired
+        Jerry, an orphan of twelve, (a) __ in an orphanage. The authoress hired
         a cabin belonging (b) __ orphanage. Jerry came to her cabin to chop ©
         for the fireplace. He also (d) __ some extra work for the (e) __ . Once
         Jerry (f) __ a cubbyhole where he put (g) __ kindling and medium wood so
         (h) __ the authoress might (i) __ dry fire materials ready in case (j)
-        __ - sudden wet weather. <br />
+        __ sudden wet weather. <br />
         <br />
         60. Rajshahi Board-2014: Scholarshome, Sylhet-2022 (Prep. Exam)
         <br />
@@ -1192,7 +1192,7 @@ const QuestionFive = () => {
         <br />
         62. Chattogram Board-2014; Dania University College, Dhaka-2017 <br />
         Most of the Bangladeshi (a) __ that our motherland (b) __ in the active
-        earthquake zone. Experts are alarmed by the recurrence of the (e) __ in
+        earthquake zone. Experts are alarmed by the recurrence of the (c) __ in
         the recent years. But they do not give any direct answer to the question
         (d) __ the (e) __ of the building in Dhaka city. As there is every (f)
         __ of earthquakes in Bangladesh, experts (g) __ for taking adequate
@@ -1211,18 +1211,17 @@ const QuestionFive = () => {
         line.
         <br />
         65. Dinajpur Board-2014; Rajshahi Board-2012 & 2008; Sylhet Board-2012:{" "}
+        Jashore Board-2010 <br />
         <br />
-        <br />
-        Jashore Board-2010 Man pollutes water, another vital (a) __ of the
-        environment by dumping (b) __ into it. Farmers (e) __ chemical
-        fertilizers and insecticides in their fields, some of these chemicals
-        washed away by rain and flood, (d) __ mixed with water in rivers, canals
-        and ponds. Water is also (e) __ by mills and factories when they throw
-        their (f) __ chemicals and waste products into rivers and canals. Water
-        vehicles also pollute rivers by dumping oil, food waste and human waste
-        (g) __ them. Insanitary latrines (h) __ on river and canal banks are
-        also (i) __ for further pollution. In this way, various (j) __ of waste
-        and filth pollute/contaminate water. <br />
+        Man pollutes water, another vital (a) __ of the environment by dumping
+        (b) __ into it. Farmers (e) __ chemical fertilizers and insecticides in
+        their fields, some of these chemicals washed away by rain and flood, (d)
+        __ mixed with water in rivers, canals and ponds. Water is also (e) __ by
+        mills and factories when they throw their (f) __ chemicals and waste
+        products into rivers and canals. Water vehicles also pollute rivers by
+        dumping oil, food waste and human waste (g) __ them. Insanitary latrines
+        (h) __ on river and canal banks are also (i) __ for further pollution.
+        In this way, various (j) __ of waste and filth contaminate water. <br />
         <br />
         67. Jashore Board-2013 & 2008: Nilphamari Govt. College-2017 <br />
         Introverts and extroverts are two (a) __ of people (b) __ in society. An
@@ -1239,46 +1238,38 @@ const QuestionFive = () => {
         __ At present, the (f) __ - of water causes bad harvest. We can easily
         (g) __ rivers in our life and (h) __ up. So (i) __ land (j) __ Is an
         urgent to grow crops. river water to the land. the use and utility of
-        the <br />
+        the
         <br />
-        69. Barishal Board-2013 & 2011 <br />
-        E-mail has brought about. (a) __ In modern (b) __ Messages can be
-        transmitted from one country to another within (c) __ It is far cheaper
-        than telephone calls. Trade and commerce has become greatly (d) __ on
-        this speedy mode of communication. It has, (e) __ - not reached every
-        one. especially in (1) __ countries like ours, as most people cannot (g)
-        __ to have a personal computer. But (h) __ of the people have started
-        (1) __ commercially operated e-mail for important (1) __ <br />
         <br />
         70. Dhaka Board-2012; Carmichael College, Rangpur-2025 <br />
         <br />
         All things that make up the environment are (a) __ . The way in which
         people, animals and plants are related to each other and to their (b) __
         -is known as (c) __ The ecosystem is a (d) __ that links animals, plants
-        and every other life (e) __ in the biosphere. All these things (1) __
+        and every other life (e) __ in the biosphere. All these things (f) __
         together. The system is in a steady state of (g) __ balance which means
-        that by (h) __ web any one part of the web you can affect all the other
-        parts. For example, the (1) __ of forests may have serious ecological
-        (1) __ on humans and animals. <br />
+        that by (h) __ any one part of the web you can affect all the other
+        parts. For example, the (i) __ of forests may have serious ecological
+        (j) __ on humans and animals. <br />
         <br />
         72. Cumilla Board-2012; Dinajpur Board-2012; Chattogram Board-2006{" "}
         <br />
         <br />
-        us all. If forests (d) __ change and the effect the polar ice If we (a)
-        __ forests and cut (b) __ trees, the effects might eventually (e) __
-        into deserts, what will (e) __ carbon dioxide? Then the weather pattern
-        (1) __ world will become (g) __ This is (h) __ the greenhouse effect. As
-        a result of this caps will (1) __ and this will cause the flood of (1)
-        __ areas of the globe. <br />
+        If we (a) __ forests and cut (b) __ trees, the effects might eventually
+        (e) __us all. If forests (d) __ deserts, what will (e) __ carbon
+        dioxide? Then the weather pattern (f) change and world will become (g)
+        __ . This is (h) __ the greenhouse effect. __ As a result of this effect
+        the polar caps will (i) __ and this will cause the flood of (j) __ areas
+        of the globe. <br />
         <br />
         73. Chattogram Board-2012; Cumilla Board-2006
         <br />
-        Learning a language is (a) __ communication. You learn to (d) __
-        experiencing it. You (e) __ learn riding a cycle. The most (b) __ thing
-        (c) __ any language is effectively by using a language, by doing things
-        with it and by English in the same (1) __ as one learns to ride a cycle.
-        Do not (g) __ If people laugh at you (h) __ you make (1) __ You can
-        certainly learn (1) __ mistake <br />
+        Learning a language is (a) __ riding a cycle. The most (b) __ thing (c)
+        __ any language is communication. You learn to (d) __ effectively by
+        using a language, by doing things with it and by experiencing it. You
+        (e) __ learn English in the same (f) __ as one learns to ride a cycle.
+        Do not (g) __ If people laugh at you (h) __ you make (i) __ You can
+        certainly learn (j) __ mistake <br />
         <br />
         <br />
         <br />
@@ -1523,254 +1514,6 @@ const QuestionFive = () => {
           <br />
           84. (a) building (b) expressions (c) non-verbal (d) appropriate (e)
           stranger (i) skills (g) warmth (h) ease (i) around (j) feel <br />
-          <br />
-          85. (a) return/come back (b) familiar/local (c)
-          recognise/know/identify (d) different/strange/unfamiliar (e)
-          look/be/appear/seem (f) house (g) place (h) knew/recognised (i)
-          shocked/sad/surprised (j) unknown/unwelcome/forgotten <br />
-        </div>
-        {/* Answer */}
-        <div className="py-10">
-          21. (a) across/throughout (b) as (c) second (d)
-          organizations/companies (e) corresponding/communicating (f) having (g)
-          published (h) are (i) wise/logical (j)
-          International/important/necessary <br />
-          <br />
-          22. (a) Important/ncessary/essential (b) development/evolution (c)
-          knowledge/awareness (d) were (e) healthy/better (f) teaches/enables
-          (g) chotce/decision (h) ability/capacity (i) solve/face (j) which/that{" "}
-          <br />
-          <br />
-          23. (a) located (b) from (c) tourist (d) natural (e) forest (f)
-          comes/originates (g) collecting/drinking (b) watch (i) beach (j)
-          pleasant <br />
-          <br />
-          24. (a) preparation/training (b) ready/prepared/capable (c) is (d)
-          learns (e) does/performs (f) contrary (g) sorry (h) kept (i) lost (j)
-          long <br />
-          <br />
-          25. (a) Includes/comprises/consists of (b) one (c) affect/disrupt (d)
-          responsibility (e) kept (f) life (g) aware/conscious (h) lives (i)
-          change (j) disasters/calamities <br />
-          <br />
-          26. (a) sure/confident (b) know/believe (c) key (d) sincere (e)
-          go/pass (f) importance (g) make (h) properly (i) are (j)
-          surely/definitely/undoubtedly <br />
-          <br />
-          27. (a) important/vital (b) moment (c) till (d) waking (e) express (f)
-          what (g) obtain (h) ever (i) integral (j) perceive <br />
-          <br />
-          28. (a) behaviour (b) means (c) of (d) needn't (e) have (f) maintain
-          (g) follow (h) differs/varies (i) practice (j) but <br />
-          <br />
-          29. (a) disparity (b) birth (c) discriminatory (d) family (e) that (f)
-          education (g) any (h) practice/custom/exercise/rule (i) ends (j)
-          heart/mind <br />
-          <br />
-          30. (a) strong (b) that (c) warming (d) by (e) around (f) believe (g)
-          cause (h) beings (i) reduce (j) ability <br />
-          <br />
-          31. (a) follow (b) masks (c) from (d) importance (e) formed (f)
-          healthy (g) proper (h) condition (i) learning (j) take/grab <br />
-          <br />
-          32. (a) talent/ability (b) promoted (c) should study (d) well (e) ways
-          (f) knowledge (g) knowledge (h) show/present (i) such (J) wasted{" "}
-          <br />
-          <br />
-          33. (a) greatest (b) achieved (c) under (d) deprivation (e) forced (f)
-          independence (g) arrested (h) walks/spheres/avenues (i) responding (j)
-          call <br />
-          <br />
-          34. (a) pleasant (b) nightmare (c) colour (d) shadowy/romantic/silvery
-          (e) daydream/reverie (f) say (g) vivid/ clear (b) unraveling (i) real/
-          actual (j) dreaming <br />
-          <br />
-          35. (a) curious (b) important (c) arts (d) fascinating (e) movie (f)
-          named (g) manic (h) devoted (i) code (j) severity <br />
-          <br />
-          36. (a) father (b) future (c) serve/ lead (d) nation (e) development/
-          education (f) duty/responsibility (g) latent (h) needed/essential (i)
-          grows (j) possible <br />
-          <br />
-          37. (a) depend (b) families (c) learn (d) help (e) pressures (f)
-          childhood (g) of (h) social (i) responsibility (j) effectively <br />
-          <br />
-          38. (a) important/ essential (b) lost/ extinct (c) changes (d)
-          protect/save (e) our (f) taking (g) endangered (h) save/ protect (i)
-          animals (j) kind/generous <br />
-          <br />
-          39. (a) strictly (b) safety (c) abide (d) set (e) that (f)
-          fitted/provided/equipped (g) enforcing (h) alert/ vigilant (i) safest
-          (j) transport <br />
-          <br />
-          40. (a) phenomenon/problem/erisis (b) diaspora (c) migrated (d) due
-          (e) rehabilitated/ accepted (f) cause/ ground (g) burden/ pressure (h)
-          environment. (i) helpless (j) soon/ comfortably <br />
-          <br />
-          41. (a) type/sort/kind/state/condition (b) may/can/might (c)
-          something/ anything (d) But/Instead (e) call/deem/consider (f)
-          it/this/that (g) a (h) mental/ psychological/cognitive (i) of (j) and{" "}
-          <br />
-          <br />
-          42. (a) degrade/lower/ deteriorate (b) as/ to be (c)
-          warinth/warmness/core (d) suffering/misfor-tune/misery (e) birth (f)
-          blamed/rebuked/criticized/slated (g)
-          disparity/inequi-ty/discrimination (h) at all/at present/now/ today
-          (i) ensure/secure/confirm/ùplift (j) all/ the <br />
-          <br />
-          43. (a) great/ extraordinary (b) not only (c) but also (d) translating
-          (e) fame/ reputation/name (f) rulers/govt/colonialism (g)
-          independence/ sovereignty (h) advocatirig/representing/ upholding (i)
-          devoted/introduced (j) spontaneously/exclusively
-          <br />
-          44. (a) pleasurable/inanimate (b) laughter/smile/naughtiness (c)
-          difficulties (d) universal/common (e) perceptions/only (f)
-          eye/sense/sight (g) questions (h) are/have been (i) truth/pleasure (j)
-          forever <br />
-          <br />
-          45. (a) way (b) get/receive (c) systematically/attentively (d) only
-          (e) passing (f) interest (g) read (h) widen (i) outlook (j) enriching{" "}
-          <br />
-          <br />
-          46. (a) happened/occured/took place (b) were made/were achieved (c)
-          for/of (d) momentous/prominent (e) occured (f) also/had (g)
-          emergence/birth (h) was/hatd been (i) bloody (j) hold/raise/can raise{" "}
-          <br />
-          <br />
-          47. (a) culture (b) things (c) polite (d) foreigners (e) introduced
-          (i) common (g) questions (h) income (i) awkward (i) meant <br />
-          <br />
-          48. (a) common/popular (b) range (c) telecast (d) set (e) programmes
-          (f) educative (g) being (h) <br />
-          <br />
-          run (i) educative (j) excessively
-          <br />
-          49. (a) conservative (b) early (c) predetermined/predestined (d)
-          ordained (e) belief (i) sufferings (g) overcome (h) ftrm (i) mundane
-          (j) rewarded <br />
-          <br />
-          50. (a) neighbour's (b) smoking (c) times (d) up (e) poisoning (f)
-          out/into (g) account (h) term (i) know (j) dilemma/fix <br />
-          <br />
-          51. (a) who (b) sea (c) ceremony (d) to (e) with (f) ship (g) and (h)
-          angry (i) wind (j) change <br />
-          <br />
-          52. (a) conspicuous (b) acknowledged (c) recognized (d) establish (e)
-          Joining (f) opting (g) reliant/dependent (h) difficult (i) traditional
-          (j) skilfully/competently <br />
-          <br />
-          53. (a) because (b) system (c) obtain (d) creative (e) guides (10)
-          challenge (g) themselves (f) misfortune (i) nurture/educate (j)
-          education <br />
-          <br />
-          54. (a) folding/bending (b) shapes/figures (c) origin/history (d)
-          practised/used (e) centuries/years (f) art/craft (g) prized/valued (h)
-          ceremonies (i) decorative/festive (j) flexible/movable <br />
-          <br />
-          55. (a) worshipped (b) contributing (c) ecological (d)
-          providing/gathering (e) vanished (f) habitats (g) patience (h)
-          enthusiasts/watchers (i) remote (j) regions/spots <br />
-          <br />
-          56. (a) undergoing (b) seen/found (c) satisfied/connected (d)
-          gaining/getting (e) our (f) changing (g) contact (h) prefer (i) losing
-          (j) regarded <br />
-          <br />
-          57. (a) havoc/damage (b) homeless/shelterless (c) grace/mercy (d)
-          escaped (e) disaster/calamity (f) active (g) time/chance (h)
-          unsafe/risky (i) destruction/havoc (j) right/exact <br />
-          <br />
-          58. (a) acquire (b) teach (c) find (d) had/possessed (e) is (f) tell
-          (g)'not (h) reply/answer (i) talent/merit (j) wish/request <br />
-          <br />
-          59. (a) lived (b) to (c) wood (d) did (c) authoress/writer (i) found
-          (g) some (h) that (i) have (j) of <br />
-          <br />
-          60. (a) huge (b) poverty (c) afford (d) etther (e) school (f) students
-          (g) institutions (h) universities (i) students (j) requisite <br />
-          <br />
-          61. (a) fed (b) theirs (c) blaring (d) next (e) on (i) concentrate (g)
-          bear (h) stuffy (i) trying (j) with <br />
-          <br />
-          62. (a) believe/know (b) lies/is (c) quakes/earthquakes (d)
-          regarding/about (e) safety (f) possibility (g) call (h) steps/measures
-          (i) resistant (j) developed <br />
-          <br />
-          63. (a) born (b) visiting (c) coming (d) confusion (e) concentrate (f)
-          difficult (g) with (h) cousins (i) were (j) what <br />
-          <br />
-          64. (a) unwilling (b) offers/gives (c) women (d) institutions (e)
-          created (f) survey (g) positive (h) including (i) planning (j) poverty{" "}
-          <br />
-          <br />
-          65. (a) element (b) waste (c) use (d) get (e) polluted (f) poisonous
-          (g) into (h) built (i) responsible (j) kinds <br />
-          <br />
-          66. (a) stood (b) gives (c) runs (d) ensure (e) contagious (f)
-          organised (g) reduce (h) humanitarian (i) facilitate (j) promotes{" "}
-          <br />
-          <br />
-          67. (a) kinds (b) living (c) introvert (d) being (e) enjoy (f) learned
-          (g) story (h) Introvert (i) is (j) representing/showing <br />
-          <br />
-          68. (a) rivers (b) drying (c) dredging (d) silt (e) fertile (f) fish
-          (g) supply (h) scarcity/paucity (i) lachi/shortage (j) easure/increase
-          (i) living <br />
-          <br />
-          69. (a) revolution (b) communication (c) seconds (d) dependent (e)
-          however (f) developing (g) afford (h) some (i) using (j) purposes{" "}
-          <br />
-          <br />
-          70. (a) interrelated (b) surroundings (c) ecology (d) complex (e) form
-          (i) hang (g) dynamic (h) altering (i) destruction (j) consequences{" "}
-          <br />
-          <br />
-          71. (a) organization (b) projects (c) mortality (d) awareness (e)
-          nutrition (f) training (g) rural (h) ensure (i) people (j) promote{" "}
-          <br />
-          <br />
-          72. (a) destroy/demolish (b) down (c) affect (d) turn (e) absorb/take
-          in (i) will (g) warmer (h) called (i) melt (j) huge <br />
-          <br />
-          73. (a) like (b) important (c) about (d) communicate (e) can (i) way
-          (g) worry (h) when/if (i) mistakes/errors (j) through <br />
-          <br />
-          74. (a) to (b) devote (c) own (d) published (e) founder (10) books (g)
-          about (h) in (i) took (j) available <br />
-          <br />
-          75. (a) refers (b) intelligence/instinct (c) machines (d) Artificial
-          (e) development (i) possibility/potential/capability (g) which (h)
-          work/function (i) are (j) question/debate <br />
-          <br />
-          76. (a) source (b) acheivements/activities (c) country/nation (d) span
-          (e) sacrifices/spends (f) relentless (g) noteworthy/ remarkable (h)
-          upliftinent (i) legacies/works (j) shining <br />
-          <br />
-          77. (a) to (b) measures (c) reserve (d) consideration/attention (e)
-          threat (f) lasts (g) pollution (h) amount (i) Though (i) cheap <br />
-          <br />
-          78. (a) cating (b) satisfy (c) stomach (d) preserve (e) good (f) good
-          (g) live (h) need (i) maintaining (j) knowledge <br />
-          <br />
-          79. (a) attended (b) transferring (c) earned (d) became (e) was
-          elected (f) implemented (g) won/received (h) remained (i) advocating
-          (i) discussed <br />
-          <br />
-          80. (a) used/known (b) spoken (c) for (d) are (e) prefer/hire (f)
-          speak (g) write (h) English (i) Importance (j) is <br />
-          <br />
-          81. (a) migrate/come/fly (b) stay (c) less (d) and (e) found/seen (f)
-          presence (g) visit (h) regret/sorrow (i) brutally/thoughtlessly (j)
-          government <br />
-          <br />
-          82. (a) folding (b) shapes (c) origin (d) practised (e) centuries (f)
-          art (g) prized (h) ceremonies (i) decorative (i) flexible <br />
-          <br />
-          83. (a) rose/soared (b) gradually (c) vietim (d) confined (e)
-          movements (f) synthesizer (g) dishearten (h) relentless (j) provided
-          (i) organization <br />
-          <br />
-          84. (a) building (b) expressions (c) non-verbal (d) appropriate (e)
-          stranger (f) skills (g) warmth (h) ease (i) around (j) feel <br />
           <br />
           85. (a) return/come back (b) familiar/local (c)
           recognise/know/identify (d) different/strange/unfamiliar (e)
