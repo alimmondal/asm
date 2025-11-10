@@ -107,7 +107,7 @@ function Verbs() {
           >
             <div className="absolute top-1/4 left-[18%] sm:left-[27%] sm:top-[30%]  md:top-[12%] md:left-[20%] lg:top-[10%] lg:left-[25%] xl:left-[30%] 2xl:left-[35%] 2xl:top-[25%] px-5">
               <h1 className="text-center text-9xl">📖</h1>
-              <h1 className="text-sky-400 text-xl md:text-3xl text-center py-3">
+              <h1 className="text-pink-700 text-xl md:text-3xl text-center py-3">
                 Right Form of Verbs
               </h1>
               <p className="text-center text-blue-600">

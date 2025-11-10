@@ -272,7 +272,7 @@ const QuestionFour = () => {
           two things are important. But here lies a more important (g) __ :
           education should make a good man. Without (h) __ a good man, no one
           should be considered fully and fairly educated. Without it all other
-          achievements are (i) __ Therefore, one should at first (j) __ on
+          achievements are (i) __ . Therefore, one should at first (j) __ on
           attaining positive human aspects. <br />
           <br />
           শিক্ষা দুইটি বস্তু অর্জনের জন্য লক্ষাস্থির করে জ্ঞান ও দক্ষতা।
@@ -287,13 +287,13 @@ const QuestionFour = () => {
           হতাশজনক। তাই একজনের উচিত সবার আগে ইতিবাচক মানবিক দৃষ্টিভঙ্গি অর্জনে
           মনোনিবেশ করা।
           <br />
-          10. words (a) achieving (b) syllabus (c) understanding (d) capability
-          (e) enlightenment (f) Both (g) requirement (h) being (i) frustrated
-          (j) concentrate <br />
+          10. (a) achieving (b) syllabus (c) understanding (d) capability (e)
+          enlightenment (f) Both (g) requirement (h) being (i) frustrated (j)
+          concentrate <br />
           <br />
         </div>
         {/* 11 */}
-        <div className="">
+        {/* <div className="">
           11. Jashore Board-2024; Mymensingh Board-2023 <br />
           <div className="border border-gray-500 p-1 rounded-sm my-2 ">
             living | changes | huge | mighty | great | ambitious | economic |
@@ -322,7 +322,7 @@ const QuestionFour = () => {
           11. (a) reality (b) great (c) ambitious (d) mighty (e) owing (f)
           connects (g) changes (h) living (i) huge (j) economic <br />
           <br />
-        </div>
+        </div> */}
         {/* 12 */}
         <div className="">
           12. Chattogram Board-2024; Barishal Board-2023: Cumilla Board-2008;
@@ -334,13 +334,12 @@ const QuestionFour = () => {
           The computer is a fairly (a) __ Invention. It has now become an (b) __
           part of modern life. It has greatly benefited us and brought (c) __
           revolutionary changes in our life. Any (d) __ that helps people
-          perform mathematical calculation may be (e) __ -computer. In this
-          sense the (f) __ is a simple computer. Today, however, the term
-          computer (g) __ to a special kind of electronic machine that can
-          perform mathematical calculations and process (h) __ masses of
-          information at a (i) __ – speed. In a few minutes a computer can
-          perform calculations that (j) __ mathematicians would need years to
-          complete. <br />
+          perform mathematical calculation may be (e) __ computer. In this sense
+          the (f) __ is a simple computer. Today, however, the term computer (g)
+          __ to a special kind of electronic machine that can perform
+          mathematical calculations and process (h) __ masses of information at
+          a (i) __ speed. In a few minutes a computer can perform calculations
+          that (j) __ mathematicians would need years to complete. <br />
           <br />
           বঙ্গানুবাদ: কম্পিউটার একটি সাম্প্রতিক আবিষ্কার। এটা বর্তমানে আধুনিক
           জীবনের অবিচ্ছেদ্য অংশে পরিণত হয়েছে। এটা আমাদের ব্যাপকভাবে উপকার করেছে
@@ -350,7 +349,9 @@ const QuestionFour = () => {
           দ্বারা এমন একটি বিশেষ বৈদ্যুতিক যন্ত্রকে বোঝায় যা ব্যাপক গতিতে গাণিতিক
           হিসাব ও অনেক তথ্য প্রক্রিয়াকরণ করে। কয়েক মিনিটে একটি কম্পিউটার যা
           হিসাব করতে পারে একজন প্রশিক্ষিত গণিতবিদের তা সম্পূর্ণ করতে বছরের পর
-          বছর লেগে যাবে। <br />
+          বছর লেগে যাবে।
+          <br />
+          <br />
           12. (a) recent (b) essential (c) about (d) device (e) called (f)
           abacus (g) refers (h) large (i) great (j) trained <br />
           <br />
@@ -360,15 +361,15 @@ const QuestionFour = () => {
           13. Barishal Board-2024; Sylhet Board-2017: Viqarunnisa Noon College,
           Dhaka-2025
           <div className="border border-gray-500 p-1 rounded-sm my-2 ">
-            Cheat | make | story | completely | tell | face care | matter |
+            Cheat | make | story | completely | tell | face | care | matter |
             rescue | treat | think | promise
           </div>
           Keeping promises given to anyone is a must though it takes much
           perseverance to keep promises honestly. Since keeping promises is a
           (a) __ of remembrance, we should be (b) __ whenever we make promises.
           While (c) __ an unavoidable danger, people usually (d) __ any promise
-          only to be (e) __ – from the situation without perfect (f) __ . After
-          being rescued most people (g) __ forget the promises given. A (h) __ —
+          only to be (e) __ from the situation without perfect (f) __ . After
+          being rescued most people (g) __ forget the promises given. A (h) __
           about the piper of Germany (i) __ how the piper was deliberately (j)
           __ by the mayor, who has made promises to give piper one thousand
           guilders for his work. <br />
@@ -382,8 +383,10 @@ const QuestionFour = () => {
           দেওয়া প্রতিশ্রুতির কথা ভুলে যায়। জার্মানীর বংশীবাদক সম্পর্কিত এক গল্প
           থেকে জানা যায় কীভাবে সেই বংশীবাক সেই মেয়র কর্তৃক উদ্দেশ্য প্রণোদিতভাবে
           প্রতারিত হন যিনি (মেয়র) সেই বংশীবাদককে তার কাজের জন্য এক হাজর গিল্ডার
-          দেওয়ার প্রতিশ্রুতি দিয়েছিলেন। <br />
-          13. (a) matter (b) careful (c) facing (d) make (e) rescued (f)
+          দেওয়ার প্রতিশ্রুতি দিয়েছিলেন।
+          <br />
+          <br />
+          Answer: (a) matter (b) careful (c) facing (d) make (e) rescued (f)
           thinking (g) completely (h) story (i) tells (j) cheated
           <br />
           <br />
@@ -397,13 +400,13 @@ const QuestionFour = () => {
           </div>
           Facebook is an online networking service. It is a (a) __ social
           networking service. It is (b) __ friendship and relation all (c) __
-          Though Mark Zucker Berg first (d) __ Facebook,a very short time (e) __
-          the world. It gained much popularity. Now it has over one billion
-          active users. It (f) __ love and shares sorrows. But sometimes it 1s
-          (g) __ Students are spending much time in (h) __ Facebook which is
-          very alarming for the future generation. Adults are also getting (i)
-          __ to it which is causing many problems in their (j) __ life. So, we
-          should be aware of using Facebook. <br />
+          the world. Though Mark Zucker Berg first (d) __ Facebook, (e) __ a
+          very short time, it gained much popularity. Now it has over one
+          billion active users. It (f) __ love and shares sorrows. But sometimes
+          it 1s (g) __ . Students are spending much time in (h) __ Facebook
+          which is very alarming for the future generation. Adults are also
+          getting (i) __ to it which is causing many problems in their (j) __
+          life. So, we should be aware of using Facebook. <br />
           <br />
           ফেসবুক একটি অনলাইন নেটওয়ার্কিং পরিষেবা। এটি একটি জনপ্রিয় সামাজিক
           নেটওয়ার্কিং পরিষেবা। এটি বিশ্বজুড়ে বন্ধুত্ব এবং সম্পর্ককে প্রসারিত
@@ -414,7 +417,7 @@ const QuestionFour = () => {
           ব্যয় করছে যা ভবিষ্যত প্রজন্মের জন্য খুবই উদ্বেগজনক। প্রাপ্তবয়স্করাও
           এতে আসক্ত হচ্ছে যা তাদের পারিবারিক জীবনে অনেক সমস্যার সৃষ্টি করছে।
           সুতরাং, আমাদের ফেসবুক ব্যবহারে সচেতন হওয়া উচিত। <br />
-          14. (a) popular (b) expanding (c)over (d) invented (e) within (f)
+          Answer: (a) popular (b) expanding (c)over (d) invented (e) within (f)
           spreads (g) misused (h) using (i) addicted (j) family
           <br />
           <br />
@@ -437,10 +440,12 @@ const QuestionFour = () => {
           অনেক মানুষ ভাবে যে অতিরিক্ত জনসংখ্যা দুর্বহ এবং এটি দারিদ্র ঘটায়।
           কিন্তু প্রকৃতপক্ষে সঠিক পরিকল্পনা ও ব্যবস্থাপনা এই সমসাটিকে সম্পদে
           পরিণত করতে পারে। আমরা যদি আমাদের মানবসম্পদকে সঠিকভাবে উন্নত করতে পারি,
-          এটি দারিদ্র দূরীকরণের একটি সম্ভাব্য উপায় হতে পারে। <br />
-          15. Suitable words (a) explosion (b) liabilities (c) thinking (d)
-          burdensome (e)poverty (f) planning (g) crisis (h) resource (i)
-          possible (j) alleviation <br />
+          এটি দারিদ্র দূরীকরণের একটি সম্ভাব্য উপায় হতে পারে।
+          <br />
+          <br />
+          Answer: (a) explosion (b) liabilities (c) think (d) burdensome
+          (e)poverty (f) planning (g) crisis (h) resource (i) possible (j)
+          alleviation <br />
           <br />
         </div>
         {/* 16 */}
