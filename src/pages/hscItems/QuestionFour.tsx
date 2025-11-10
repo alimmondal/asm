@@ -1,9 +1,9 @@
 const QuestionFour = () => {
   return (
-    <div className="px-3">
+    <div className="px-3 lg:w-1/2 mx-auto">
       <div className="text-center py-20">
-        <h1 className="">Question Four</h1>
-        <p className="">Close test with clues</p>
+        <h1 className="text-green-500">Question Four</h1>
+        <p className="text-pink-700 font-bold">Close test with clues</p>
       </div>
       <div className="text-base lg:text-xl">
         Board Exam Based Exercises <br />

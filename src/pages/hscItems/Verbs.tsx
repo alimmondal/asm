@@ -268,12 +268,6 @@ function Verbs() {
                 <br />= Imran can <u>play</u> football.
               </p>
             </div>
-          </div>
-
-          {/* page 5 */}
-          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] shadow-inner">
-            <h2 className="text-xl font-bold mb-2">Page 5</h2>
-
             {/* 8 */}
             <div className="pb-3">
               <p>
@@ -287,45 +281,42 @@ function Verbs() {
                 <br />= He wanted to <u>live</u> in Dhaka. <br />
                 <span className="text-rose-600 font-bold">কিন্তু:-</span>
               </p>
+              <p>
+                <strong> (b). </strong> Be used to, with a view to, look forward
+                to, get used to, addicted to, devoted to, with an eye to, be
+                accustomed to, be opposed to, worth, cannot help, could not
+                help, confess to ইত্যাদির পরে ব্রাকেটের Verb এর সাথে ing যুক্ত
+                হয় । <br />
+                যেমন:
+              </p>
             </div>
           </div>
 
           {/* page 6 */}
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
             <h2 className="text-xl font-bold mb-2">Page 6</h2>
-            <p>
-              <strong> (b). </strong> Be used to, with a view to, look forward
-              to, get used to, addicted to, devoted to, with an eye to, be
-              accustomed to, be opposed to, worth, cannot help, could not help,
-              confess to ইত্যাদির পরে ব্রাকেটের Verb এর সাথে ing যুক্ত হয় ।{" "}
-              <br />
-              যেমন:
-            </p>
+
             <p className="dark:text-green-400">
               Q. She is used to (read) Quran.
               <br />= She is used to <u>reading</u> Quran.
             </p>
-            <strong>কিন্তু:-</strong>
+            <p className="pt-3 font-bold">কিন্তু:-</p>
             <p>
-              <strong> (c). </strong> শুধু used to এর পরে verb এর V<sub>1</sub>{" "}
-              হয়। <br />
+              <strong> Rule-(c). </strong> <br />
+              শুধু used to এর পরে verb এর V<sub>1</sub> হয়। <br />
               যেমন:
             </p>
             <p className="dark:text-green-400">
               Q. He used to (drive) a car.
               <br />= He used to <u>drive</u> a car. <br />
-              <strong className="text-rose-600 font-bold">কিন্তু-</strong>
             </p>
-          </div>
-
-          {/* page 7 */}
-          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 7</h2>
+            <p className="text-rose-600 font-bold pt-4">কিন্তু-</p>
             {/* 9 */}
             <p>
-              <strong>Rule: 9. </strong> অনান্য সকল preposition (যেমনঃ in, into,
-              on, over, up, upon, of, by, with, without, before, after, away) এর
-              পরের ব্রাকেটের verb এর সাথে ing হয়। <br />
+              <strong>Rule: 9. </strong> <br />
+              অনান্য সকল preposition (যেমনঃ in, into, on, over, up, upon, of,
+              by, with, without, before, after, away) এর পরের ব্রাকেটের verb এর
+              সাথে ing হয়। <br />
               যেমন:
             </p>
             <p className="dark:text-green-400">
@@ -334,10 +325,19 @@ function Verbs() {
             </p>
             {/* 10 */}
             <p className="pt-4">
-              <strong>Rule: 10. </strong> Stop, mind, finish, miss, risk,
-              answer, continue, admit, deny, avoid, enjoy, fancy, imagine,
-              delay, suggest, postpone, involve, practice ইত্যাদি Verb গুলোর পরে
-              ব্রাকেটের Verb এর সাথে ing হয়।
+              <strong>Rule: 10. </strong> <br />
+              Stop, mind, finish, miss, risk, answer, continue,
+            </p>
+          </div>
+
+          {/* page 7 */}
+          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
+            <h2 className="text-xl font-bold mb-2">Page 7</h2>
+            {/* 10 */}
+            <p className="pt-4">
+              admit, deny, avoid, enjoy, fancy, imagine, delay, suggest,
+              postpone, involve, practice ইত্যাদি Verb গুলোর পরে ব্রাকেটের Verb
+              এর সাথে ing হয়।
             </p>
             যেমনঃ
             <p className="dark:text-green-400">
@@ -345,11 +345,6 @@ function Verbs() {
               <br />= You tried to finish <u>writing</u>.
             </p>
             <strong>কিন্তু:-</strong>
-          </div>
-
-          {/* page 8 */}
-          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 8</h2>
             <p className="">
               সাধারণত এই Verb গুলো ছাড়া অন্য কোন Verb এর পরে ব্রাকেটের verb এর
               V1 হয়। <br />
@@ -374,13 +369,17 @@ function Verbs() {
               Q. He wishes he (sing) a song.
               <br />= He wishes he <u>sang</u> a song.
             </p>
+          </div>
+
+          {/* page 8 */}
+          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
+            <h2 className="text-xl font-bold mb-2">Page 8</h2>
+
             <p>
               <strong> (b). </strong>কিন্তু প্রথম বক্যে Fancy, wish, it is time,
-              it is high time, as if, as though, if
-              <span className="bengali">
-                থাকলে পরের বাক্যের ব্রাকেটে be এর স্থলে সাধারণত were হয়। <br />
-                যেমনঃ
-              </span>
+              it is high time, as if, if, as though, থাকলে পরের বাক্যের ব্রাকেটে
+              be এর স্থলে সাধারণত were হয়। <br />
+              যেমনঃ
             </p>
             <p className="dark:text-green-400">
               Q. He wishes he (be) a king.

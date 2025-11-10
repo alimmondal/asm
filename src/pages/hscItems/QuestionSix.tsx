@@ -9,277 +9,315 @@ const QuestionSix = () => {
         Board Exam Based Exercises <br />
         <br />
         <div className="">
-          1. Dhaka Board-2025 <br />
-          A Witty Saadi (প্রত্যুৎপন্নমতি সাদী) <br />
-          <br />
-          (a) As Saadi was dressed in his usual inexpensive attire, the courtier
-          didn't recognize him. <br />
-          (a) palace, Saadi deliberately stopped at the same courtier's house.
-          On his way back home from the emperor's <br />
-          (c) During the meal, however, the guest began to put the delicacies
-          into the folds of his fine clothes. <br />
-          (d) Sheikh Saadi, a renowned Persian poet, was travelling to the
-          emperor's palace. <br />
-          (e) Saadi said that his clothes, in fact, deserved the food, reminding
-          the host that last time he was shown poor hospitality because of his
-          ordinary clothes. <br />
-          (f) Seeing the expensive clothes of the guest the courtier and his men
-          were extremely hospitable, offering him a spread of fine dishes.{" "}
-          <br />
-          (g) Surprised, the courtier asked, "Why are you feeding your clothes,
-          my honorable guest?" <br />
-          (h) Night fell on the way, and the poet took shelter in a courtier's
-          house. <br />
-          (i) This time, however, he was wearing the luxurious clothes given to
-          him by the emperor. <br />
-          (j) So, he treated the great man with indifference, offering him only
-          a small meal and poor accommodation. <br />
-          <br />
-          (a)সাদী তাঁর চিরাচরিত কমদামি পোশাক পরিহিত থাকায় সভাসদ তাঁকে চিনতে পারে
-          নি। <br />
-          (b) সম্রাটের প্রাসাদ থেকে ফেরার পথে সাদী ইচ্ছাকৃতভাবে সেই একই
-          অমাত্যের/সভাসদের বাড়িতে থামলেন। <br />
-          (c) খাবারের সময়, যাহোক অতিথি সুস্বাদু খাবারগুলো তাঁর চমৎকার পোশাকের
-          ভাঁজে ভাঁজে রাখতে শুরু করলেন। <br />
-          (d) প্রখ্যাত ফারসি কবি শেখ সাদী সম্রাটের প্রাসাদে যাচ্ছিলেন। <br />
-          (e) মেজবানকে আগের বার তাঁর সাধারণ পোশাকের কারণে সাধারণ আতিথেয়তার কথা
-          স্মরণ করিয়ে দিয়ে সাদী বললেন যে প্রকৃতপক্ষে খাবারগুলো তার পোশাকের
-          প্রাপ্য। <br />
-          (f) অতিথির মূল্যবান পোশাক দেখে, সভাসদ এবং তার লোকজন খুবই বিভিন্ন
-          প্রকার চমৎকার খাবার দিয়ে তাকে চরম আতিথ্য দেখালো। <br />
-          (g) অবাক হয়ে সভাসদ জিজ্ঞেস করলো, "মাননীয় অতিথি, আপনি আপনার পোশাককে
-          খাওয়াচ্ছেন। কেন?" <br />
-          (h) পথে রাত নেমে এলে কবি এক সভাসদের বাড়িতে আশ্রয় নিলেন। <br />
-          (i) এবার, যাহোক, তিনি সম্রাটের দেওয়া চাকচিক্যময় পোশাক পরিহিত ছিলেন।{" "}
-          <br />
-          (j) তাই সে মহান ব্যক্তিটির প্রতি উদাসীন আচরণ করলো, তাঁকে সামান্য খাবার
-          এবং থাকার জন্য দীন বন্দোবস্ত করলো। <br />
-          Answer: dhajbifcge
-          <br />
-          2. Rajshahi Board-2025: Cumilla Board-2024 <br />
-          Story of Abu Ben Adhem (আবু বেন আদেমের গল্প) <br />
-          <br />
-          (a) The angel took down his request and went away. <br />
-          (b) His name was Abu Ben Adhem. <br />
-          (c) Abu then requested him to put his name in the list because he
-          loved mankind and his fellow brothers. <br />
-          (d) He again appeared the next night and showed Abu that his name was
-          at the top of the list. <br />
-          (e) The angel was writing the names of persons who loved God. <br />
-          (f) Once upon a time there was an honest and pious man. <br />
-          (g) He asked the angel if his name was there. <br />
-          (h) He was once sleeping peacefully. <br />
-          (i) In reply, the angel said that his name was (j) not there. <br />
-          (j) Suddenly he woke up and saw an angel. <br />
-          <br />
-          (a) ফেরেশতা তার অনুরোধ টুকে নিয়ে চলে গেলেন। <br />
-          (b) তার নাম ছিল আবু বেন আদেম। <br />
-          (c) আবু তখন তাকে তার নাম তালিকায় রাখার জন্য অনুরোধ করেন কারণ তিনি
-          মানবজাতি এবং তার সাথী ভাইদের ভালোবাসতেন। <br />
-          (d)পরের রাতে তিনি আবার হাজির হলেন এবং আবুকে দেখালেন তার নাম তালিকার
-          শীর্ষে রয়েছে। <br />
-          (e)ফেরেশতা সেই ব্যক্তিদের নাম লিখছিলেন যারা ব্রষ্টাকে ভালোবাসত। <br />
-          (f)একসময় একজন সৎ ও ধার্মিক লোক ছিল। <br />
-          (g) তিনি ফেরেশতাকে জিজ্ঞেস করলেন তার নাম সেখানে আছে কিনা। <br />
-          (h) একদা তিনি শান্তিতে ঘুমাচ্ছিলেন। <br />
-          (i) প্রত্যুত্তরে ফেরেশতা বললেন যে, তার নাম সেখানে নেই। <br />
-          (j) হঠাৎ তিনি জেগে উঠলেন এবং একজন ফেরেশতাকে দেখলেন। <br />
-          Answer: fbhjegicad
-          <br />
-          3. Jashore Board-2025; Uttara High School & College, Uttara,
-          Dhaka-2025 The Boyhood of Thomas Alva Edison (টমাস আলভা এডিসনের
-          বাল্যকাল) <br />
-          <br />
-          (i) And that person was his loving mother. <br />
-          (ii) His father got angry for this kind of activity. <br />
-          (iii) Because he always asks. "Why, why, why." <br />
-          (iv) The boy often undertook some risky adventures. <br />
-          (v) He was Thomas Alva Edison. <br />
-          (vi) But there was only one person who never felt annoyed with the
-          boy. <br />
-          (vii) For example, once the boy set his father's barn on fire only to
-          see how it could burn. <br />
-          (viii) Do you know who this boy was? <br />
-          (ix) Sometimes it was difficult to satisfy him with answer. <br />
-          (x) A young boy of six or seven became the subject of talk in a
-          village. <br />
-          <br />
-          (i) আর সেই ব্যক্তিটি ছিলেন তার মমতাময়ী মা। <br />
-          (ii) তার বাবা এই ধরনের কর্মকান্ডে রাগান্বিত হতেন। <br />
-          (iii) কারণ সে সর্বদা জিজ্ঞেস করতো "কেন, কেন, কেন"। <br />
-          (iv) ছেলেটি প্রায়ই ঝুঁকিপূর্ণ অভিযানে/ অ্যাডভেঞ্চারে প্রবৃত্ত হতো।{" "}
-          <br />
-          (v) সে ছিল টমাস আলভা এডিসন। <br />
-          (vi) কিন্তু মাত্র একজন ব্যক্তি ছিলেন যিনি ছেলেটির ওপর কখনোই বিরক্ত
-          হতেন না। <br />
-          (vii) উদাহরণস্বরূপ, একবার ছেলেটি আগুন কীভাবে জ্বলে শুধু সেটি দেখতে তার
-          বাবার গোলাঘরে আগুন লাগিয়ে দিল। <br />
-          (viii) তোমরা কি জানো ছেলেটি কে ছিল? <br />
-          (ix) কখনো কখনো উত্তর দিয়ে তাকে সন্তুষ্ট করা কঠিন হয়ে যেত। <br />
-          (x) ছয়-সাত বছরের একটি ছোট ছেলে গ্রামের আলোচ্য বিষয়ে পরিণত হলো।
-          <br />
-          Answer: x iii ix iv vii ii vi i viii v or, x ix iii iv vii ii vi i
-          viii v
-          <br />
-          <br />
-          4. Cumilla Board-2025; Dinajpur Government Women's College,
-          Dinajpur-2025 <br />
-          Sheikh Saadi (শেখ সাদী) <br />
-          <br />
-          (i) Saadi replied. "My dress deserves these foods." <br />
-          (ii) He set out for the emperor's palace in ordinary dress. <br />
-          (iii) On the way, he took shelter in a courtier's house but the
-          courtier and his men did not show much honour and hospitality to him.{" "}
-          <br />
-          (iv) The courtier realized his fault and begged the poet's pardon.{" "}
-          <br />
-          (v) Once he was invited to the emperor's palace. <br />
-          (vi) On his way back home, Saadi again took shelter in the same
-          courtier's house, putting on a gorgeous dress. <br />
-          (vii) The courtier received him cordially and entertained him with
-          rich and delicious foods. <br />
-          (viii) Sheikh Saadi, great Persian poet, was simple in his way of
-          life. <br />
-          (ix) Now, Saadi began to put his food in the pockets of his dress.{" "}
-          <br />
-          (x) Being surprised, the courtier asked, "Why are you putting the food
-          in the pockets of your dress?" <br />
-          <br />
-          (i) সাদী জবাব দিলেন, "আমার পোশাক এই খাবারের যোগ্য।" <br />
-          (ii) তিনি সাধারণ পোশাকে সম্রাটের রাজপ্রাসাদের উদ্দেশ্যে যাত্রা করেন।{" "}
-          <br />
-          (iii) পথিমধ্যে তিনি এক অমাত্য/সভাসদের বাড়িতে আশ্রয় গ্রহণ করেন কিন্তু
-          অমাত্য এবং তার লোকেরা তাকে যথেষ্ট সম্মান এবং আতিথ্য দেয়নি। <br />
-          (iv) অমাত্য তার ভুল বুঝতে পেরে কবির কাছে ক্ষমা প্রার্থনা করেন। <br />
-          (v) একদা তিনি সম্রাটের রাজপ্রাসাদে আমন্ত্রিত হয়েছিলেন। <br />
-          (vi) বাড়ি ফেরার পথে সাদী চাকচিক্যময় পোশাক পরে আবার একই অমাত্য/সভাসদের
-          বাড়িতে আশ্রয় গ্রহণ করেন। <br />
-          (vii) অমাত্য তাকে সাদরে গ্রহণ করেন এবং দামি ও সুস্বাদু খাবার দিয়ে তাকে
-          আপ্যায়ন করেন। <br />
-          (viii) বিখ্যাত ফারসি কবি শেখ সাদী সাধারণ জীবনযাপন করতেন। <br />
-          (ix) এখন সাদী খাবারগুলো তার জামার পকেটে রাখতে শুরু করলেন। <br />
-          (x) অমাত্য বিস্মিত হয়ে জিজ্ঞেস করলেন, 'আপনি খাবার আপনার জামার পকেটে
-          রাখছেন কেন?
-          <br />
-          Answer: viii v ii iii vi vii ix x i iv
-          <br />
-          <br />
-          5. Chattogram Board-2025; Dhaka Board-2023; Narall Govt. Victoria
-          College, Narail-2025 The Grocer and the Fruit Seller (মুদি ও ফল
-          বিক্রেতা) <br />
-          <br />
-          (a) "Where is my son?" asked the grocer <br />
-          (b) Then one day the fruit seller said to the grocer, "I am going to
-          the town to do some shopping. Please send your son with me to carry my
-          things." <br />
-          (c) The grocer said. "The mice ate away your balance and weights. So,
-          I can't return it to you." <br />
-          (d) "A crow carried your son away," replied the fruit seller. <br />
-          (e) One day a grocer borrowed a balance and weights from a fruit
-          seller. <br />
-          (f) The grocer sent his son with the fruit seller but he came back
-          alone from the town. <br />
-          (g) "You liar! How can a crow carry away such a big boy?" the grocer
-          shouted angrily. <br />
-          (h) The lame excuse of the dishonest grocer made the fruit seller very
-          angry. But he checked his temper. <br />
-          (i) "Just the same way as mice can eat away the balance and weights,"
-          said the fruit seller. <br />
-          (j) After a few days, the fruit seller asked the grocer to return his
-          balance and weights. <br />
-          <br />
-          (a) মুদি দোকানী বলল, "আমার ছেলে/পুত্র ব্যোথায়? <br />
-          (b) তারপর একদিন ফল বিক্রেতা মুদি দোকানীকে বলল, "আমি কিছু কেনাকাটা করার
-          জন্য শহরে যাচ্ছি। দয়া করে/অনুগ্রহ করে আপনার ছেলেকে/পুত্রকে আমার
-          জিনিসপত্র বহন করার জন্য আমার সাথে পাঠান।" <br />
-          (c) মুদি দোকানী বলল, "ইঁদুরে আপনার দাঁড়িপাল্লা ও বাটখারা খেয়ে ফেলেছে।
-          তাই আমি আপনাকে ফেরত দিতে পারছি না।" <br />
-          (d) "একটি কাক আপনার ছেলেকে/পুত্রকে নিয়ে গেছে", ফল বিক্রেতা জবাব দিলো।{" "}
-          <br />
-          (e) একদিন এক মুদি দোকানী একজন ফল বিক্রেতার কাছ থেকে একটি দাঁড়িপাল্লা ও
-          বাটখারা ধার নিলো। <br />
-          (f) মুদি দোকানী তার পুত্রকে ফল বিক্রেতার সাথে পাঠালো কিন্তু সে শহর হতে
-          একাকী ফিরে এলো। <br />
-          (g) "তুমি মিথ্যাবাদী! কীভাবে এত বড় বালককে কাক নিয়ে যেতে পারে?" মুদি
-          দোকানী রাগান্বিত হয়ে চিৎকার করে বলল। (h) অসাধু/অসৎ মুদি দোকানদারের
-          খোঁড়া/বাজে অজুহাত ফল বিক্রেতাকে খুব ক্রুদ্ধ করলো। কিন্তু সে তার মেজাজ
-          নিয়ন্ত্রণ করলো। <br />
-          (i) ফল বিক্রেতা বলল, "যেভাবে ইঁদুরে দাঁড়িপাল্লা ও বাটখারা খেতে পারে
-          সেই একই ভাবে।" <br />
-          (j) কিছুদিন পরে ফল বিক্রেতা মুদি দোকানীর কাছে তার দাঁড়িপাল্লা ও
-          বাটখারা ফেরত চাইল।
-          <br />
-          Answer: ejc h b f a d g i
-          <br />
-          <br />
-          6. Sylhet Board-2025 <br />
-          A farmer & a purse of gold (এক কৃষক ও সোনার পাত্র) <br />
-          <br />
-          (a) He showed it to his wife. <br />
-          (b) The lands yielded him some crops. <br />
-          (c) However, he picked it up and carried it home. <br />
-          (d) With that he supported his family. <br /> <br />
-          (e) One day he was walking through the fields. <br />
-          (f) While walking he came across a purse of gold. <br />
-          (g) He had a few acres of land. <br />
-          (h) There lived a farmer in a village. <br />
-          (i) He thought that it might have been dropped by a passer-by. <br />
-          (j) He was thinking how he could add to his income. <br />
-          <br />
-          (a) সে তার স্ত্রীকে এটা দেখালো। <br />
-          (b) জমিগুলো থেকে সে কিছু ফসল/শস্য পেত। <br />
-          (c) যাহোক, সে এটা তুলে বাড়ি নিয়ে এল। <br />
-          (d) তা দিয়ে সে তার পরিবার চালাতো। <br />
-          (e) একদিন সে জমিগুলোর মধ্য দিয়ে হাঁটছিলো। <br />
-          (f) হাঁটার সময় সে একটি স্বর্ণের খলে পেল। <br />
-          (g) তার কয়েক একর জমি ছিল। <br />
-          (h) এক গ্রামে এক কৃষক বাস করতো। <br />
-          (i) সে ভাবলো যে কোনো পথিক হয়তো এটা ফেলে গেছে। <br />
-          (j) সে ভাবছিলো কীভাবে তার আয় বাড়াতে পারে।
-          <br />
-          Answer: h g b d e j f i c a
-          <br />
-          <br />
-          7. Barishal Board-2025; Dhaka Board-2019; Viqarunnisa Noon College,
-          Dhaka-2025 Detecting Thief Tactfully (সুকৌশলে চোর সনাক্ত করা) <br />
-          <br />
-          (i) All the servants were called and interrogated. <br />
-          (ii) In order to find out the thief, the judge chalked out an
-          intelligent plan. <br />
-          (iii) Once a gold necklace was lost from a rich man's house. <br />
-          (iv) The servants were summoned to the court but they denied having
-          stolen the necklace. <br />
-          (v) When the servants came to the court the next day, the thief had
-          already cut off an inch of his stick. <br />
-          (vi) But nobody confessed their guilt. <br />
-          (vii) So, the owner of the house lodged a complaint in the court.{" "}
-          <br />
-          (viii) The Judge found one of the sticks shorter than the others and
-          in this way he could easily catch the thief. <br />
-          (ix) Naturally, it was suspected that one of the servants had stolen
-          the necklace. <br />
-          (x) He gave each of the suspects a stick of equal length and said that
-          one of the sticks would increase by an inch the next day. <br />
-          <br />
-          (i) সকল চাকরকে ডাকা হলো এবং জিজ্ঞাসাবাদ করা হলো। <br />
-          (ii) চোরকে খুঁজে বের করার জন্য বিচারক এক চতুর পরিকল্পনা করলেন। <br />
-          (iii) একদা এক ধনী লোকের বাড়ি থেকে একটি সোনার হার হারিয়ে গেলো। <br />
-          (iv) চাকরদেরকে আদালতে হাজির হওয়ার জন্য আদেশ জারি করা হলো কিন্তু তারা
-          হার চুরির বিষয়টি অস্বীকার করলো। <br />
-          (v) পরদিন যখন চাকরেরা আদালতে হাজির হলো, তখন দেখা গেলো চোর তার লাঠিটি
-          ইতোমধ্যে এক ইঞ্চি কেটে ফেলেছে। <br />
-          (vi) কেউ তাদের অপরাধ স্বীকার করলো না। <br />
-          (vii) তাই বাড়ির মালিক আদালতে একটা অভিযোগ দায়ের করলো। <br />
-          (viii) বিচারক দেখলেন যে একটি লাঠি অনাগুলোর চেয়ে ছোট এবং এভাবে তিনি
-          সহজেই চোরকে ধরতে পারলেন। <br />
-          (ix) স্বাভাবিকভাবেই সন্দেহ করা হলো যে চাকরদের মধ্যেই কেউ একজন হারটি
-          চুরি করেছে। <br />
-          (x) তিনি সন্দেহভাজন ব্যক্তিদের প্রত্যেককে সমান দৈর্ঘ্য বিশিষ্ট একটি
-          করে লাঠি দিলেন এবং বললেন যে লাঠিগুলোর <br /> একট পরদিন এক ইঞ্চি বেড়ে
-          যাবে। <br />
-          Answer: iii ix i vi vii iv ii x vii
-          <br />
-          <br />
+          <div className="">
+            1. Dhaka Board-2025 <br />
+            A Witty Saadi (প্রত্যুৎপন্নমতি সাদী) <br />
+            <br />
+            (a) As Saadi was dressed in his usual inexpensive attire, the
+            courtier didn't recognize him. <br />
+            (a) palace, Saadi deliberately stopped at the same courtier's house.
+            On his way back home from the emperor's <br />
+            (c) During the meal, however, the guest began to put the delicacies
+            into the folds of his fine clothes. <br />
+            (d) Sheikh Saadi, a renowned Persian poet, was travelling to the
+            emperor's palace. <br />
+            (e) Saadi said that his clothes, in fact, deserved the food,
+            reminding the host that last time he was shown poor hospitality
+            because of his ordinary clothes. <br />
+            (f) Seeing the expensive clothes of the guest the courtier and his
+            men were extremely hospitable, offering him a spread of fine dishes.
+            <br />
+            (g) Surprised, the courtier asked, "Why are you feeding your
+            clothes, my honorable guest?" <br />
+            (h) Night fell on the way, and the poet took shelter in a courtier's
+            house. <br />
+            (i) This time, however, he was wearing the luxurious clothes given
+            to him by the emperor. <br />
+            (j) So, he treated the great man with indifference, offering him
+            only a small meal and poor accommodation. <br />
+            <br />
+            বঙ্গানুবাদ: <br />
+            (a)সাদী তাঁর চিরাচরিত কমদামি পোশাক পরিহিত থাকায় সভাসদ তাঁকে চিনতে
+            পারে নি। <br />
+            (b) সম্রাটের প্রাসাদ থেকে ফেরার পথে সাদী ইচ্ছাকৃতভাবে সেই একই
+            অমাত্যের/সভাসদের বাড়িতে থামলেন। <br />
+            (c) খাবারের সময়, যাহোক অতিথি সুস্বাদু খাবারগুলো তাঁর চমৎকার পোশাকের
+            ভাঁজে ভাঁজে রাখতে শুরু করলেন। <br />
+            (d) প্রখ্যাত ফারসি কবি শেখ সাদী সম্রাটের প্রাসাদে যাচ্ছিলেন। <br />
+            (e) মেজবানকে আগের বার তাঁর সাধারণ পোশাকের কারণে সাধারণ আতিথেয়তার কথা
+            স্মরণ করিয়ে দিয়ে সাদী বললেন যে প্রকৃতপক্ষে খাবারগুলো তার পোশাকের
+            প্রাপ্য। <br />
+            (f) অতিথির মূল্যবান পোশাক দেখে, সভাসদ এবং তার লোকজন খুবই বিভিন্ন
+            প্রকার চমৎকার খাবার দিয়ে তাকে চরম আতিথ্য দেখালো। <br />
+            (g) অবাক হয়ে সভাসদ জিজ্ঞেস করলো, "মাননীয় অতিথি, আপনি আপনার পোশাককে
+            খাওয়াচ্ছেন। কেন?" <br />
+            (h) পথে রাত নেমে এলে কবি এক সভাসদের বাড়িতে আশ্রয় নিলেন। <br />
+            (i) এবার, যাহোক, তিনি সম্রাটের দেওয়া চাকচিক্যময় পোশাক পরিহিত ছিলেন।
+            <br />
+            (j) তাই সে মহান ব্যক্তিটির প্রতি উদাসীন আচরণ করলো, তাঁকে সামান্য
+            খাবার এবং থাকার জন্য দীন বন্দোবস্ত করলো। <br />
+            Answer: d → h → a → j → b → i → f → c → g → e
+            <br />
+            <br />
+          </div>
+          <div className="">
+            2. Rajshahi Board-2025: Cumilla Board-2024 <br />
+            Story of Abu Ben Adhem (আবু বেন আদেমের গল্প) <br />
+            <br />
+            (a) The angel took down his request and went away. <br />
+            (b) His name was Abu Ben Adhem. <br />
+            (c) Abu then requested him to put his name in the list because he
+            loved mankind and his fellow brothers. <br />
+            (d) He again appeared the next night and showed Abu that his name
+            was at the top of the list. <br />
+            (e) The angel was writing the names of persons who loved God. <br />
+            (f) Once upon a time there was an honest and pious man. <br />
+            (g) He asked the angel if his name was there. <br />
+            (h) He was once sleeping peacefully. <br />
+            (i) In reply, the angel said that his name was (j) not there. <br />
+            (j) Suddenly he woke up and saw an angel. <br />
+            <br />
+            বঙ্গানুবাদ: <br />
+            (a) ফেরেশতা তার অনুরোধ টুকে নিয়ে চলে গেলেন। <br />
+            (b) তার নাম ছিল আবু বেন আদেম। <br />
+            (c) আবু তখন তাকে তার নাম তালিকায় রাখার জন্য অনুরোধ করেন কারণ তিনি
+            মানবজাতি এবং তার সাথী ভাইদের ভালোবাসতেন। <br />
+            (d)পরের রাতে তিনি আবার হাজির হলেন এবং আবুকে দেখালেন তার নাম তালিকার
+            শীর্ষে রয়েছে। <br />
+            (e)ফেরেশতা সেই ব্যক্তিদের নাম লিখছিলেন যারা ব্রষ্টাকে ভালোবাসত।
+            <br />
+            (f)একসময় একজন সৎ ও ধার্মিক লোক ছিল। <br />
+            (g) তিনি ফেরেশতাকে জিজ্ঞেস করলেন তার নাম সেখানে আছে কিনা। <br />
+            (h) একদা তিনি শান্তিতে ঘুমাচ্ছিলেন। <br />
+            (i) প্রত্যুত্তরে ফেরেশতা বললেন যে, তার নাম সেখানে নেই। <br />
+            (j) হঠাৎ তিনি জেগে উঠলেন এবং একজন ফেরেশতাকে দেখলেন।
+            <br />
+            <br />
+            Answer: f → b → h → j → e → g → i → c → a → d
+            <br />
+            <br />
+          </div>
+          <div className="">
+            3. Jashore Board-2025; Uttara High School & College, Uttara,
+            Dhaka-2025 The Boyhood of Thomas Alva Edison (টমাস আলভা এডিসনের
+            বাল্যকাল) <br />
+            <br />
+            (i) And that person was his loving mother. <br />
+            (ii) His father got angry for this kind of activity. <br />
+            (iii) Because he always asks. "Why, why, why." <br />
+            (iv) The boy often undertook some risky adventures. <br />
+            (v) He was Thomas Alva Edison. <br />
+            (vi) But there was only one person who never felt annoyed with the
+            boy. <br />
+            (vii) For example, once the boy set his father's barn on fire only
+            to see how it could burn. <br />
+            (viii) Do you know who this boy was? <br />
+            (ix) Sometimes it was difficult to satisfy him with answer. <br />
+            (x) A young boy of six or seven became the subject of talk in a
+            village. <br />
+            <br />
+            বঙ্গানুবাদ:
+            <br />
+            (i) আর সেই ব্যক্তিটি ছিলেন তার মমতাময়ী মা। <br />
+            (ii) তার বাবা এই ধরনের কর্মকান্ডে রাগান্বিত হতেন। <br />
+            (iii) কারণ সে সর্বদা জিজ্ঞেস করতো "কেন, কেন, কেন"। <br />
+            (iv) ছেলেটি প্রায়ই ঝুঁকিপূর্ণ অভিযানে/ অ্যাডভেঞ্চারে প্রবৃত্ত হতো।
+            <br />
+            (v) সে ছিল টমাস আলভা এডিসন। <br />
+            (vi) কিন্তু মাত্র একজন ব্যক্তি ছিলেন যিনি ছেলেটির ওপর কখনোই বিরক্ত
+            হতেন না। <br />
+            (vii) উদাহরণস্বরূপ, একবার ছেলেটি আগুন কীভাবে জ্বলে শুধু সেটি দেখতে
+            তার বাবার গোলাঘরে আগুন লাগিয়ে দিল। <br />
+            (viii) তোমরা কি জানো ছেলেটি কে ছিল? <br />
+            (ix) কখনো কখনো উত্তর দিয়ে তাকে সন্তুষ্ট করা কঠিন হয়ে যেত। <br />
+            (x) ছয়-সাত বছরের একটি ছোট ছেলে গ্রামের আলোচ্য বিষয়ে পরিণত হলো।
+            <br />
+            <br />
+            Answer: x → iii → ix →iv → vii → ii → vi →i →viii → v
+            <br />
+            or, x →ix →iii → iv →vii →ii →vi → i → viii →v
+            <br />
+            <br />
+          </div>
+          <div className="">
+            4. Cumilla Board-2025; Dinajpur Government Women's College,
+            Dinajpur-2025 <br />
+            Sheikh Saadi (শেখ সাদী) <br />
+            <br />
+            (i) Saadi replied. "My dress deserves these foods." <br />
+            (ii) He set out for the emperor's palace in ordinary dress. <br />
+            (iii) On the way, he took shelter in a courtier's house but the
+            courtier and his men did not show much honour and hospitality to
+            him.
+            <br />
+            (iv) The courtier realized his fault and begged the poet's pardon.
+            <br />
+            (v) Once he was invited to the emperor's palace. <br />
+            (vi) On his way back home, Saadi again took shelter in the same
+            courtier's house, putting on a gorgeous dress. <br />
+            (vii) The courtier received him cordially and entertained him with
+            rich and delicious foods. <br />
+            (viii) Sheikh Saadi, great Persian poet, was simple in his way of
+            life. <br />
+            (ix) Now, Saadi began to put his food in the pockets of his dress.
+            <br />
+            (x) Being surprised, the courtier asked, "Why are you putting the
+            food in the pockets of your dress?" <br />
+            <br />
+            বঙ্গানুবাদ:
+            <br />
+            (i) সাদী জবাব দিলেন, "আমার পোশাক এই খাবারের যোগ্য।" <br />
+            (ii) তিনি সাধারণ পোশাকে সম্রাটের রাজপ্রাসাদের উদ্দেশ্যে যাত্রা করেন।
+            <br />
+            (iii) পথিমধ্যে তিনি এক অমাত্য/সভাসদের বাড়িতে আশ্রয় গ্রহণ করেন কিন্তু
+            অমাত্য এবং তার লোকেরা তাকে যথেষ্ট সম্মান এবং আতিথ্য দেয়নি। <br />
+            (iv) অমাত্য তার ভুল বুঝতে পেরে কবির কাছে ক্ষমা প্রার্থনা করেন।{" "}
+            <br />
+            (v) একদা তিনি সম্রাটের রাজপ্রাসাদে আমন্ত্রিত হয়েছিলেন। <br />
+            (vi) বাড়ি ফেরার পথে সাদী চাকচিক্যময় পোশাক পরে আবার একই
+            অমাত্য/সভাসদের বাড়িতে আশ্রয় গ্রহণ করেন। <br />
+            (vii) অমাত্য তাকে সাদরে গ্রহণ করেন এবং দামি ও সুস্বাদু খাবার দিয়ে
+            তাকে আপ্যায়ন করেন। <br />
+            (viii) বিখ্যাত ফারসি কবি শেখ সাদী সাধারণ জীবনযাপন করতেন। <br />
+            (ix) এখন সাদী খাবারগুলো তার জামার পকেটে রাখতে শুরু করলেন। <br />
+            (x) অমাত্য বিস্মিত হয়ে জিজ্ঞেস করলেন, 'আপনি খাবার আপনার জামার পকেটে
+            রাখছেন কেন?
+            <br />
+            <br />
+            Answer: viii → v → ii → iii → vi → vii → ix → x → i → iv
+            <br />
+            <br />
+          </div>
+          <div className="">
+            5. Chattogram Board-2025; Dhaka Board-2023; Narall Govt. Victoria
+            College, Narail-2025 The Grocer and the Fruit Seller (মুদি ও ফল
+            বিক্রেতা) <br />
+            <br />
+            (a) "Where is my son?" asked the grocer <br />
+            (b) Then one day the fruit seller said to the grocer, "I am going to
+            the town to do some shopping. Please send your son with me to carry
+            my things." <br />
+            (c) The grocer said. "The mice ate away your balance and weights.
+            So, I can't return it to you." <br />
+            (d) "A crow carried your son away," replied the fruit seller. <br />
+            (e) One day a grocer borrowed a balance and weights from a fruit
+            seller. <br />
+            (f) The grocer sent his son with the fruit seller but he came back
+            alone from the town. <br />
+            (g) "You liar! How can a crow carry away such a big boy?" the grocer
+            shouted angrily. <br />
+            (h) The lame excuse of the dishonest grocer made the fruit seller
+            very angry. But he checked his temper. <br />
+            (i) "Just the same way as mice can eat away the balance and
+            weights," said the fruit seller. <br />
+            (j) After a few days, the fruit seller asked the grocer to return
+            his balance and weights. <br />
+            <br />
+            বঙ্গানুবাদ:
+            <br />
+            (a) মুদি দোকানী বলল, "আমার ছেলে/পুত্র ব্যোথায়? <br />
+            (b) তারপর একদিন ফল বিক্রেতা মুদি দোকানীকে বলল, "আমি কিছু কেনাকাটা
+            করার জন্য শহরে যাচ্ছি। দয়া করে/অনুগ্রহ করে আপনার ছেলেকে/পুত্রকে আমার
+            জিনিসপত্র বহন করার জন্য আমার সাথে পাঠান।" <br />
+            (c) মুদি দোকানী বলল, "ইঁদুরে আপনার দাঁড়িপাল্লা ও বাটখারা খেয়ে
+            ফেলেছে। তাই আমি আপনাকে ফেরত দিতে পারছি না।" <br />
+            (d) "একটি কাক আপনার ছেলেকে/পুত্রকে নিয়ে গেছে", ফল বিক্রেতা জবাব
+            দিলো।
+            <br />
+            (e) একদিন এক মুদি দোকানী একজন ফল বিক্রেতার কাছ থেকে একটি দাঁড়িপাল্লা
+            ও বাটখারা ধার নিলো। <br />
+            (f) মুদি দোকানী তার পুত্রকে ফল বিক্রেতার সাথে পাঠালো কিন্তু সে শহর
+            হতে একাকী ফিরে এলো। <br />
+            (g) "তুমি মিথ্যাবাদী! কীভাবে এত বড় বালককে কাক নিয়ে যেতে পারে?" মুদি
+            দোকানী রাগান্বিত হয়ে চিৎকার করে বলল। (h) অসাধু/অসৎ মুদি দোকানদারের
+            খোঁড়া/বাজে অজুহাত ফল বিক্রেতাকে খুব ক্রুদ্ধ করলো। কিন্তু সে তার
+            মেজাজ নিয়ন্ত্রণ করলো। <br />
+            (i) ফল বিক্রেতা বলল, "যেভাবে ইঁদুরে দাঁড়িপাল্লা ও বাটখারা খেতে পারে
+            সেই একই ভাবে।" <br />
+            (j) কিছুদিন পরে ফল বিক্রেতা মুদি দোকানীর কাছে তার দাঁড়িপাল্লা ও
+            বাটখারা ফেরত চাইল।
+            <br />
+            Answer: e → j → c → h → b → f → a → d → g → i
+            <br />
+            <br />
+          </div>
+          <div className="">
+            6. Sylhet Board-2025 <br />
+            A farmer & a purse of gold (এক কৃষক ও সোনার পাত্র) <br />
+            <br />
+            (a) He showed it to his wife. <br />
+            (b) The lands yielded him some crops. <br />
+            (c) However, he picked it up and carried it home. <br />
+            (d) With that he supported his family. <br /> <br />
+            (e) One day he was walking through the fields. <br />
+            (f) While walking he came across a purse of gold. <br />
+            (g) He had a few acres of land. <br />
+            (h) There lived a farmer in a village. <br />
+            (i) He thought that it might have been dropped by a passer-by.{" "}
+            <br />
+            (j) He was thinking how he could add to his income. <br />
+            <br />
+            (a) সে তার স্ত্রীকে এটা দেখালো। <br />
+            (b) জমিগুলো থেকে সে কিছু ফসল/শস্য পেত। <br />
+            (c) যাহোক, সে এটা তুলে বাড়ি নিয়ে এল। <br />
+            (d) তা দিয়ে সে তার পরিবার চালাতো। <br />
+            (e) একদিন সে জমিগুলোর মধ্য দিয়ে হাঁটছিলো। <br />
+            (f) হাঁটার সময় সে একটি স্বর্ণের খলে পেল। <br />
+            (g) তার কয়েক একর জমি ছিল। <br />
+            (h) এক গ্রামে এক কৃষক বাস করতো। <br />
+            (i) সে ভাবলো যে কোনো পথিক হয়তো এটা ফেলে গেছে। <br />
+            (j) সে ভাবছিলো কীভাবে তার আয় বাড়াতে পারে।
+            <br />
+            Answer: h → g → b → d → e → j → f → i → c → a
+            <br />
+            <br />
+          </div>
+          <div className="">
+            7. Barishal Board-2025; Dhaka Board-2019; Viqarunnisa Noon College,
+            Dhaka-2025 Detecting Thief Tactfully (সুকৌশলে চোর সনাক্ত করা) <br />
+            <br />
+            (i) All the servants were called and interrogated. <br />
+            (ii) In order to find out the thief, the judge chalked out an
+            intelligent plan. <br />
+            (iii) Once a gold necklace was lost from a rich man's house. <br />
+            (iv) The servants were summoned to the court but they denied having
+            stolen the necklace. <br />
+            (v) When the servants came to the court the next day, the thief had
+            already cut off an inch of his stick. <br />
+            (vi) But nobody confessed their guilt. <br />
+            (vii) So, the owner of the house lodged a complaint in the court.
+            <br />
+            (viii) The Judge found one of the sticks shorter than the others and
+            in this way he could easily catch the thief. <br />
+            (ix) Naturally, it was suspected that one of the servants had stolen
+            the necklace. <br />
+            (x) He gave each of the suspects a stick of equal length and said
+            that one of the sticks would increase by an inch the next day.
+            <br />
+            <br />
+            বঙ্গানুবাদ:
+            <br />
+            (i) সকল চাকরকে ডাকা হলো এবং জিজ্ঞাসাবাদ করা হলো। <br />
+            (ii) চোরকে খুঁজে বের করার জন্য বিচারক এক চতুর পরিকল্পনা করলেন।{" "}
+            <br />
+            (iii) একদা এক ধনী লোকের বাড়ি থেকে একটি সোনার হার হারিয়ে গেলো। <br />
+            (iv) চাকরদেরকে আদালতে হাজির হওয়ার জন্য আদেশ জারি করা হলো কিন্তু তারা
+            হার চুরির বিষয়টি অস্বীকার করলো। <br />
+            (v) পরদিন যখন চাকরেরা আদালতে হাজির হলো, তখন দেখা গেলো চোর তার লাঠিটি
+            ইতোমধ্যে এক ইঞ্চি কেটে ফেলেছে। <br />
+            (vi) কেউ তাদের অপরাধ স্বীকার করলো না। <br />
+            (vii) তাই বাড়ির মালিক আদালতে একটা অভিযোগ দায়ের করলো। <br />
+            (viii) বিচারক দেখলেন যে একটি লাঠি অনাগুলোর চেয়ে ছোট এবং এভাবে তিনি
+            সহজেই চোরকে ধরতে পারলেন। <br />
+            (ix) স্বাভাবিকভাবেই সন্দেহ করা হলো যে চাকরদের মধ্যেই কেউ একজন হারটি
+            চুরি করেছে। <br />
+            (x) তিনি সন্দেহভাজন ব্যক্তিদের প্রত্যেককে সমান দৈর্ঘ্য বিশিষ্ট একটি
+            করে লাঠি দিলেন এবং বললেন যে লাঠিগুলোর <br /> একট পরদিন এক ইঞ্চি বেড়ে
+            যাবে। <br />
+            Answer: iii → ix → i → vi → vii → iv → ii → x → vii →
+            <br />
+            <br />
+          </div>
           8. Dinajpur Board-2025 <br />
           Finding the balloon (বেলুন খুঁজে বের করা) <br />
           <br />
@@ -293,12 +331,12 @@ const QuestionSix = () => {
           to randomly collect a balloon and give it to the person whose name was
           written on it. <br />
           (iv) Once a group of 50 people were attending a seminar. <br />
-          (v) He then collected all the balloons and put them in another room.{" "}
+          (v) He then collected all the balloons and put them in another room.
           <br />
           (vi) Within minutes everyone had their own balloon. <br />
           (vil) The speaker then began. This is happening in our lives and our
           happiness lies in the happiness of other people." <br />
-          (viii) At the end of five minutes no one could find their own balloon.{" "}
+          (viii) At the end of five minutes no one could find their own balloon.
           <br />
           (ix) He then took all the attendees to the room and asked them to find
           the balloon with their name within five minutes. <br />
@@ -320,6 +358,7 @@ const QuestionSix = () => {
           মিনিটের মধ্য তাদের নাম লেখা বেলুন খুঁজতে বললেন। <br />
           (x) বস্তা প্রত্যেক অংশগ্রহণকারীকে একটি করে বেলুন দিলেন।
           <br />
+          <br />
           Answer: iv x ii v ix i vii iii vi vii
           <br />
           <br />
@@ -332,26 +371,27 @@ const QuestionSix = () => {
           (d) The man said, "Str. I am very poor. So, I have no food in my
           house." <br />
           (e) He was well-known for his kindness. <br />
-          (f) Hazi Muhammad Mohsin took him to another room and opened a box.{" "}
+          (f) Hazi Muhammad Mohsin took him to another room and opened a box.
           <br />
           (g) Hazi Muhammad Mohsin was a very kind hearted man. <br />
           (h) He woke up and caught hold of the thief. <br />
-          (i) He helped the poor and helpless people with food and clothes.{" "}
+          (i) He helped the poor and helpless people with food and clothes.
           <br />
           (j) He took pity on the poor. <br />
           <br />
           (a)তিনি চোরটিকে ব্যবসা শুরু করার জন্য কিছু টাকা দিলেন। <br />
           (b) বাক্সটি ছিল স্বর্ণ ও টাকায় পূর্ণ। <br />
           (c) রাতে তাঁর বাড়িতে এক চোর ঢুকলো। <br />
-          (d) লোকটি বললো, "জনাব, আমি খুবই গরিব। তাই আমার বাড়িতে কোনো খাবার নেই।"{" "}
+          (d) লোকটি বললো, "জনাব, আমি খুবই গরিব। তাই আমার বাড়িতে কোনো খাবার নেই।"
           <br />
           (e) তিনি তার দয়াশীলতার জন্য সুপরিচিত ছিলেন। <br />
-          (f) হাজী মুহম্মদ মহসীন তাকে অন্য একটি কক্ষে নিয়ে একটি বাক্স খুললেন।{" "}
+          (f) হাজী মুহম্মদ মহসীন তাকে অন্য একটি কক্ষে নিয়ে একটি বাক্স খুললেন।
           <br />
           (g) হাজী মুহম্মদ মহসীন খুবই সমৃদয় একজন মানুষ ছিলেন। <br />
           (h) তিনি জেগে উঠে চোরটিকে ধরে ফেললেন। <br />
           (i) তিনি খাবার ও পোশাক দিয়ে গরিব ও অসহায় লোকদের সাহায্য করতেন। <br />
           (j)দরিদ্র লোকটির প্রতি তার করুণা হলো।
+          <br />
           <br />
           Answer: g e i c h d j f b a <br />
           or, g i e c h d j f b a
@@ -361,7 +401,7 @@ const QuestionSix = () => {
           Joynul Abedin (জয়নুল আবেদিন) <br />
           <br />
           (a) For this, he was awarded a gold medal in all India. <br />
-          (b) Joynul Abedin was such a personality who enriched our culture.{" "}
+          (b) Joynul Abedin was such a personality who enriched our culture.
           <br />
           (c) The artist did not like the hard rules of school. <br />
           (d) He died on 28 May, 1976 in Dhaka. <br />
@@ -376,13 +416,13 @@ const QuestionSix = () => {
           (j) He was a great artist who earned name and fame for himself and his
           country. <br />
           <br />
-          (a) এর জন্য তিনি সর্ব-ভারতীয় (চিত্র প্রতিযোগিতায়) স্বর্ণপদক লাভ করেন।{" "}
+          (a) এর জন্য তিনি সর্ব-ভারতীয় (চিত্র প্রতিযোগিতায়) স্বর্ণপদক লাভ করেন।
           <br />
           (b) জয়নুল আবেদিন ছিলেন এমন একজন ব্যক্তিত্ব যিনি আমাদের সংস্কৃতিকে
           সমৃদ্ধ করেছিলেন। <br />
           (c) তিনি (শিল্পী) বিদ্যালয়ের কঠিন নিয়ম পছন্দ করতেন না। <br />
           (d) তিনি ২৮ মে ১৯৭৬ এ ঢাকায় মৃত্যুবরণ করেন। <br />
-          (e) জয়নুল আবেদিন ১৯১৪ সালে কিশোরগঞ্জের একটি গ্রামে জন্মগ্রহণ করেন।{" "}
+          (e) জয়নুল আবেদিন ১৯১৪ সালে কিশোরগঞ্জের একটি গ্রামে জন্মগ্রহণ করেন।
           <br />
           (f) মহান ব্যক্তিত্ব এমন একজন ব্যক্তি যিনি দেশ অথবা জনগণের জন্য অবদান
           রাখেন। <br />
@@ -393,6 +433,7 @@ const QuestionSix = () => {
           ভর্তি হন। <br />
           (j) তিনি একজন মহান শিল্পী ছিলেন যিনি নিজের এবং তাঁর দেশের জন্য সুনাম ও
           সুখ্যাতি অর্জন করেন।
+          <br />
           <br />
           Answer: e h b f j c i g a d <br />
           or: f b j h e c i g a d
@@ -406,7 +447,7 @@ const QuestionSix = () => {
           future world. <br />
           (b) The sooner we can make and activate this plan, the better it will
           be for us. <br />
-          (c) This is known to be the Al (Artificial Intelligence) Revolution.{" "}
+          (c) This is known to be the Al (Artificial Intelligence) Revolution.
           <br />
           (d) Therefore, learning technology and achieving technological skill
           should be thought of and felt seriously. <br />
@@ -417,8 +458,10 @@ const QuestionSix = () => {
           (g)The fourth revolution is knocking at the door <br />
           (h) Those who are skillful in it will survive successfully <br />
           (i) We have not yet been prepared for this sort of education. <br />
-          (j) This revolution will turn the world into a machine based one.{" "}
+          (j) This revolution will turn the world into a machine based one.
           <br />
+          <br />
+          বঙ্গানুবাদ:
           <br />
           (a) আগামীর পৃথিবীর সাথে তাল মিলিয়ে চলার জন্য এই মেশিনগুলো সম্বন্দ্বে
           জ্ঞান থাকা অপরিহার্য। <br />
@@ -435,6 +478,7 @@ const QuestionSix = () => {
           (h) যারা এতে দক্ষ, তারা সফলভাবে টিকে থাকবে। <br />
           (i) এই ধরনের শিক্ষার জন্য আমরা এখনও প্রস্তুত হইনি। <br />
           (j) এই বিপ্লব পৃথিবীকে একটি যন্ত্রনির্ভর পৃথিবীতে পরিণত করবে।
+          <br />
           <br />
           Answer: g c j e a h d i f b
           <br />
@@ -459,9 +503,9 @@ const QuestionSix = () => {
           (j) He asked what had happened to the other leg. <br />
           <br />
           (a) পাঁচক ছিল খুবই একগুঁয়ে। <br />
-          (b) পাঁচক লোভ সামলাতে পারল না এবং সে পাতিহাঁসের একটি পা খেয়ে ফেলল।{" "}
+          (b) পাঁচক লোভ সামলাতে পারল না এবং সে পাতিহাঁসের একটি পা খেয়ে ফেলল।
           <br />
-          (c) মনিবও খুব চালাক ছিলেন এবং এতো সহজে বোকা বনার পাত্র ছিলেন না।{" "}
+          (c) মনিবও খুব চালাক ছিলেন এবং এতো সহজে বোকা বনার পাত্র ছিলেন না।
           <br />
           (d) পাঁচক ছিল ভীষণ চালাক। <br />
           (e) সে উত্তর দিল যে এটা ছিল এক পা-বিশিষ্ট হাঁস। <br />
@@ -494,26 +538,26 @@ const QuestionSix = () => {
           (j) As each pebble went down, the water in the jar rose up little by
           little. <br />
           <br />
-          (a) কাক কলসটি উল্টানোর জন্য বার বার চেষ্টা করলো, কিন্তু কোনো ফল হলোনা।{" "}
+          (a) কাক কলসটি উল্টানোর জন্য বার বার চেষ্টা করলো, কিন্তু কোনো ফল হলোনা।
           <br />
           (b) অবশেষে, সে বাগানে একটি কলস খুঁজে পেলো। <br />
           (c) নিরাশ হয়ে সে যখন কলসটি ছেড়ে যাচ্ছিলো, তখন একটি নুড়িপাথরের স্তূপ
           দেখতে পেলো। <br />
-          (d) কলসটিতে কিছু পানি ছিল। কিন্তু এটি ছিল একদম নিচে এবং আয়ত্বের বাইরে।{" "}
+          (d) কলসটিতে কিছু পানি ছিল। কিন্তু এটি ছিল একদম নিচে এবং আয়ত্বের বাইরে।
           <br />
           (e) সে পানির খোঁজে এক জায়গা থেকে অন্য জায়গায় উড়ে বেড়াচ্ছিল। <br />
           (f) সে কিছু নুড়ি নিল এবং সেগুলোকে কলসের ভিতরে ফেললো। <br />
           (g) তখন সে একটি পরিকল্পনা করলো। <br />
           (h) একটি কাক খুবই তৃষ্ণার্ত ছিল এবং পানি পান করতে চেয়েছিল। <br />
-          (i)যখন কলসটির মুখে পানি আসলো, কাকটি তা পান করলো এবং তার তৃষ্ণা মেটালো।{" "}
+          (i)যখন কলসটির মুখে পানি আসলো, কাকটি তা পান করলো এবং তার তৃষ্ণা মেটালো।
           <br />
-          (j) যখন প্রত্যেকটি নুড়ি নিচে পড়লো, কলসের পানি অল্প অল্প করে উপরে উঠলো।{" "}
+          (j) যখন প্রত্যেকটি নুড়ি নিচে পড়লো, কলসের পানি অল্প অল্প করে উপরে উঠলো।
           <br />
           Answer: h e b d a c g f j i
           <br />
           <br />
           14. Barishal Board-2024; Adamjee Cantonment College, Dhaka-2025 <br />
-          Story of Nasiruddin Hojja and a beggar (নাসিরুদ্দীন হোজ্জা ও ভিখারি){" "}
+          Story of Nasiruddin Hojja and a beggar (নাসিরুদ্দীন হোজ্জা ও ভিখারি)
           <br />
           <br />
           (a) Hojja became furious and decided to teach (a) him a lesson. <br />
@@ -1035,9 +1079,8 @@ const QuestionSix = () => {
           (j) ঘোড়াদীঘি সেগুলোর অন্যতম। <br /> <br />
           <br /> <br />
           28. Rajshahi Board-2019; Border Guard Public School & College,
-          Sylhet-2025 <br /> <br />
+          Sylhet-2025 <br />
           Dr. Kudrat-e-Khuda (ড. কুদরত-ই খুদা) <br /> <br />
-          <br />
           (a) He showed extraordinary credit in every examination of the school.{" "}
           <br />
           (b) He has made great contributions to the scientific research of
@@ -1054,8 +1097,8 @@ const QuestionSix = () => {
           (i) He made a great plan to give a new structure to the education
           system. <br />
           (j) In 1953, he was appointed Chairman of the Secondary Education
-          Board. <br />
-          <br /> <br />
+          Board.
+          <br />
           (a) তিনি বিদ্যালয়ের প্রতিটি পরীক্ষায় অসাধারণ কৃতিত্ব প্রদর্শন করেছেন।{" "}
           <br />
           (b) তিনি বাংলাদেশের বৈজ্ঞানিক গবেষণায় প্রভূত অবদান রেখেছেন। <br /> (c)
@@ -1075,10 +1118,10 @@ const QuestionSix = () => {
           নিয়োগ দেওয়া হয়। <br />
           <br />
           29. Jashore Board-2019; Carmichael College, Rangpur-2025 <br />
-          The Wise and Witty Astrologer (বিচক্ষণ ও প্রত্যুৎপন্নমতি জ্যোতিষী){" "}
+          The Wise and Witty Astrologer (বিচক্ষণ ও প্রত্যুৎপন্নমতি জ্যোতিষী)
           <br />
           <br />
-          (a) The king was fond of knowing his future from the astrologer.{" "}
+          (a) The king was fond of knowing his future from the astrologer.
           <br />
           (b) The king called him to the palace. <br />
           (c) At this the king got furious and condemned him to death. <br />
@@ -1106,7 +1149,7 @@ const QuestionSix = () => {
           (j) তখন নিষ্কৃতি পাবার উপায় নিয়ে তিনি কিছুক্ষণ চিন্তা করলেন।
           <br />
           <br />
-          30. Chattogram Board-2019; Satkhira Govt. College, Satkhira-2024{" "}
+          30. Chattogram Board-2019; Satkhira Govt. College, Satkhira-2024
           <br />
           Hercules, a Greek mythical hero (হারকিউলিস, গ্রীসের পৌরানিক বীর)
           <br />
@@ -1118,7 +1161,7 @@ const QuestionSix = () => {
           Alcmena. <br />
           (d) These huge tasks in Greek myths are called The Twelve Labours of
           Hercules'. <br />
-          (e) It had nine heads of which the middle one was said to be immortal.{" "}
+          (e) It had nine heads of which the middle one was said to be immortal.
           <br />
           (f) One of the tasks was to slay a monster called Hydra that was
           ravaging the country of Argos. <br />
@@ -1128,14 +1171,14 @@ const QuestionSix = () => {
           succeeded in burning all the heads except the ninth. <br />
           (i) However, with much effort, he buried the immortal head under a
           huge rock and completed the task successfully. <br />
-          (j) Initially Hercules started striking off its heads with his club.{" "}
+          (j) Initially Hercules started striking off its heads with his club.
           <br />
           <br />
           (a) তারপরও অমর মাথাটা নিয়ে চ্যালেঞ্জ/সমস্যা রয়েই গেলো। <br />
           (b) অদ্ভুতভাবে হারকিউলিস যখনই হাইড্রার একটি মাথা কেটে ফেলে, তখনই ঐ
           স্থানেই দুটি মাথা গজাতে থাকে। <br />
           (c) গ্রীক পুরাণের নায়ক হারকিউলিস ছিল জুপিটার ও আমেনার পুত্র। <br />
-          (d) গ্রীক পুরাণে এই বিশাল কাজগুলোকে বলা হয় "হারকিউলিস-এর ১২টি কর্ম"।{" "}
+          (d) গ্রীক পুরাণে এই বিশাল কাজগুলোকে বলা হয় "হারকিউলিস-এর ১২টি কর্ম"।
           <br />
           (e) এর নয়টি মাথা ছিল যার মাঝখানের মাথাটিকে অমর বলা হতো। <br />
           (f) অন্যতম একটা কাজ ছিল হাইড্রা নামের এক দানবকে হত্যা করা যেটি আর্গোস
@@ -1162,10 +1205,10 @@ const QuestionSix = () => {
           (d) It is one of the finest and the shortest speeches in the English
           language. <br />
           (e) He was going there to speak at a meeting. <br />
-          (f) On the envelope, it was what he was going to say at the meeting.{" "}
+          (f) On the envelope, it was what he was going to say at the meeting.
           <br />
           (g) These words tell us what the best possible way of ruling a country
-          is. (h) He was not writing on a paper, but on the back of an envelope.{" "}
+          is. (h) He was not writing on a paper, but on the back of an envelope.
           <br />
           (i) In the train, he was busy writing something. <br />
           (j) In fact, the speech on the envelope is now famous (j) as
@@ -1197,14 +1240,14 @@ const QuestionSix = () => {
           (c) He wanted to teach his friend a good lesson. <br />
           (d) An English poet was staying in Italy for the benefit of his
           health. <br />
-          (e) To his utter surprise, he found nothing but an ordinary stone.{" "}
+          (e) To his utter surprise, he found nothing but an ordinary stone.
           <br />
           (f) Thus the poet taught his friend a good lesson. <br />
-          (g)So, he procured a heavy stone and packed It up in a fine box.{" "}
+          (g)So, he procured a heavy stone and packed It up in a fine box.
           <br />
           (h) His friend thought that the contents of the parcel were valuable,
           so, he paid the heavy charge for carrying. <br />
-          (i) The poet had to pay double postage, so, he became very annoyed.{" "}
+          (i) The poet had to pay double postage, so, he became very annoyed.
           <br />
           (j) Then he sent it to his friend with the words on it "Carriage to be
           paid on delivery." <br />
@@ -1222,7 +1265,7 @@ const QuestionSix = () => {
           প্যাকেট করলেন। <br />
           (h) তার বন্ধু ভাবলেন যে পার্সেল-এর জিনিস মূল্যবান হবে, তাই তিনি এটা
           পরিবহনের অতিরিক্ত মাশুল পরিশোধ করলেন। <br />
-          (i) কবিকে দ্বিগুণ ডাকমাশুল দিতে হয়েছিলো, তাই তিনি খুব রাগান্বিত হলেন।{" "}
+          (i) কবিকে দ্বিগুণ ডাকমাশুল দিতে হয়েছিলো, তাই তিনি খুব রাগান্বিত হলেন।
           <br />
           (j) এরপর তিনি এটা তার বন্ধুর নিকট পাঠালেন এর উপর এ কথাটি লিখে-
           "ডাকমাশুল পরিশোধ করা হবে সরবরাহের পর"। <br />
@@ -1232,7 +1275,7 @@ const QuestionSix = () => {
           (a) They were aliens in their own country and were subjected to all
           sorts of indignities. <br />
           (b) The blacks were treated cruelly. <br />
-          (c) The great leader vowed to put an end to the inhuman practice.{" "}
+          (c) The great leader vowed to put an end to the inhuman practice.
           <br />
           (d) They were denied all basic human rights. <br />
           (e) Even dogs received a much better treatment than the blacks. <br />
@@ -1250,7 +1293,7 @@ const QuestionSix = () => {
           এই মহান নেতা এই অমানবিক আচরণ দূর করার জন্য শপথ গ্রহণ করলেন। <br />
           (d) তাদের সকল মৌলিক মানবিক অধিকারগুলোকে অস্বীকার করা হতো। <br />
           (e) এমনকি কুকুরেরাও কৃষ্ণাঙ্গদের চেয়ে অধিকতর ভালো আচরণ পেতো <br />
-          (f) অবশেষে এই মহান নেতা তার নিজের লোকদের মুক্ত করার লক্ষ্য ঠিক করলেন।{" "}
+          (f) অবশেষে এই মহান নেতা তার নিজের লোকদের মুক্ত করার লক্ষ্য ঠিক করলেন।
           <br />
           (g) তাকে কারাগারে বন্দী করে রাখা হলো। <br />
           (h) নেলসন ম্যান্ডেলা ছিলেন দক্ষিণ আফ্রিকার সবচেয়ে মহান নেতা। <br />
@@ -1259,7 +1302,7 @@ const QuestionSix = () => {
           বর্ণবাদের বিরুদ্ধে <br /> সংগ্রাম করে কাটিয়েছেন। <br />
           <br />
           34. Barishal Board-2014; HSC Exam-2018: Cumilla Board-2013: Noubahini
-          College, Dhaka-2025 <br /> Rabindranath Tagore (রবীন্দ্রনাথ ঠাকুর){" "}
+          College, Dhaka-2025 <br /> Rabindranath Tagore (রবীন্দ্রনাথ ঠাকুর)
           <br />
           <br />
           (a) In 1880. Rabindranarth was called back to India. <br />
@@ -1285,7 +1328,7 @@ const QuestionSix = () => {
           (d) তিনি উৎকৃষ্ট মানের বাংলা গানের এক সংকলন গীতাঞ্জলি লিখেছেন। <br />
           (c) রবীন্দ্রনাথ ঠাকুর ১৮৬১ সালে কোলকাতার জোড়াসাঁকোর এক সম্ভ্রান্ত
           পরিবারে জন্মগ্রহণ করেন। <br />
-          (f) ১৮৭৮ সালে ১৭ বছর বয়সে তিনি স্কুলে ভর্তি হওয়ার জন্য লন্ডন গেলেন।{" "}
+          (f) ১৮৭৮ সালে ১৭ বছর বয়সে তিনি স্কুলে ভর্তি হওয়ার জন্য লন্ডন গেলেন।
           <br />
           (g) তিনি অল্প বয়সেই স্কুলে ভর্তি হন এবং আট বছর বয়সে তার প্রথম কবিতা
           লেখেন। <br />
@@ -1303,15 +1346,15 @@ const QuestionSix = () => {
           science of destruction. <br />
           (c) Nobel prize is the world's most important prize. <br />
           (d) He is Alfred Bernard Nobel. <br />
-          (e) Though he is a citizen of Sweden, he was educated in Russia.{" "}
+          (e) Though he is a citizen of Sweden, he was educated in Russia.
           <br />
           (f) Nobel Prizes are awarded every year for outstanding achievements
           in the field of <br /> science, literature and for promoting world's
           peace. <br />
-          (g)The prize is given to persons with most outstanding contribution.{" "}
+          (g)The prize is given to persons with most outstanding contribution.
           <br />
           (h) If there are more than one recipient of the prize In one field,
-          the prize money is <br /> equally distributed amongst all the winners.{" "}
+          the prize money is <br /> equally distributed amongst all the winners.
           <br />
           (i) Economics was added in the list in 1969 for the first time. <br />
           (j) He was born in Stockholm on 21st October 1833 and he died on 10th
@@ -1329,7 +1372,7 @@ const QuestionSix = () => {
           করা হয়। <br />
           (h) যদি কোনো একটি ক্ষেত্রে একাধিক বিজেতা থাকেন তবে সকল বিজেতাদের মানে
           সমভাবে পুরস্কারের টাকা বিতরণ করা হয় <br />
-          (i) ১৯৬৯ সালে অর্থনীতিকে প্রথমবারের মত সেই তালিকায় তালিকাভূক্ত করা হয়।{" "}
+          (i) ১৯৬৯ সালে অর্থনীতিকে প্রথমবারের মত সেই তালিকায় তালিকাভূক্ত করা হয়।
           <br />
           (j)১৮৩৩ সালের ২১ অক্টোবর স্টকহোমে তিনি জন্মগ্রহণ করেন আর তিনি
           মৃত্যুবরণ করেন ১৮৯৬ সালের ১০ ডিসেম্বর। <br />
@@ -1371,10 +1414,10 @@ const QuestionSix = () => {
           Lalmonirhat-2019 The <br /> Richman and the Farmer (ধনী ব্যক্তি ও
           কৃষক) <br />
           <br />
-          (a) He said to himself, "One thousand rupees is a lot of money."{" "}
+          (a) He said to himself, "One thousand rupees is a lot of money."
           <br />
           (b) He could not think where to keep the money. <br />
-          (c) A rich man went to the farmer with one thousand rupees in a bag.{" "}
+          (c) A rich man went to the farmer with one thousand rupees in a bag.
           <br />
           (d) He always thought that his money could be stolen anytime. <br />
           (e) He said to him. "Look, my friend! I have brought one thousand
@@ -1383,35 +1426,35 @@ const QuestionSix = () => {
           (g) He took the bag of money from the rich man and thanked him. <br />
           (h) Keep this money and remove your distress. <br />
           (i) He dug a hole in his hut and kept the money there. <br />
-          (j) This thought kept him awake and his sleep fled away at night.{" "}
+          (j) This thought kept him awake and his sleep fled away at night.
           <br />
           <br />
           (a) সে নিজে নিজে বল, "এক হাজার রূপীতো অনেক টাকা।" <br />
           (b) সে ভাবতে পারলো না টাকাগুলো কোথায় রাখবে। <br />
           (c) এক ধনী লোক ব্যাগে এক হাজার রূপী নিয়ে কৃষকের নিকট গেল। <br />
           (d) সে সর্বদা ভাবত তার টাকা যেকোনো সময় চুরি হয়ে যেতে পারে। <br />
-          (e) সে তাকে বলল, "দেখ বন্ধু। আমি তোমার জন্য এক হাজার রূপী এনেছি।{" "}
+          (e) সে তাকে বলল, "দেখ বন্ধু। আমি তোমার জন্য এক হাজার রূপী এনেছি।
           <br />
           (f) কৃষক বিস্মিত হলো। <br />
-          (g) সে ধনী লোকটির কাছ থেকে টাকার থলেটি নিল এবং তাকে ধন্যবাদ দিল।{" "}
+          (g) সে ধনী লোকটির কাছ থেকে টাকার থলেটি নিল এবং তাকে ধন্যবাদ দিল।
           <br />
           (h) এ টাকাগুলো রাখ এবং তোমার অভাব দূর কর। <br />
           (i) সে তার কুঁড়েঘরে একটি গর্ত করে সেখানে টাকা রাখল। <br />
-          (j) এ চিন্তা তাকে সর্বদা সজাগ রাখত এবং এতে তার রাতের ঘুম চলে গিয়েছিল।{" "}
+          (j) এ চিন্তা তাকে সর্বদা সজাগ রাখত এবং এতে তার রাতের ঘুম চলে গিয়েছিল।
           <br />
           <br />
           39. Cumilla Board-2016 <br />
           A Witty Thirsty Crow (এক উপস্থিত বুদ্ধিসম্পন্ন তৃষ্ণার্ত কাক) <br />
           <br />
           (a) Once a crow was very thirsty and wanted to drink water. <br />
-          (b) When the water came to the mouth of the jar the crow drank it.{" "}
+          (b) When the water came to the mouth of the jar the crow drank it.
           <br />
           (c) As each pebble went down, the water in the jar rose up little by
           little. <br />
           (d) It/He hit upon a plan then and took some pebbles. <br />
           (e) It flew from one place to another in search of water and at last
           found a jar in a garden. <br />
-          (f) As it was leaving the jar, it noticed a heap of pebbles nearby.{" "}
+          (f) As it was leaving the jar, it noticed a heap of pebbles nearby.
           <br />
           (g) Then it decided to fly away in despair. <br />
           (h) There was some water in the jar but it was too low down and out of
@@ -1421,7 +1464,7 @@ const QuestionSix = () => {
           (j) Then it dropped the pebbles into the jar. <br />
           <br />
           (a) একটি কাক খুবই তৃষ্ণার্ত ছিল এবং পানি পান করতে চাইল। <br />
-          (b) যখন পানি কলসের মুখে চলে এল তখন কাকটি তা তৃপ্তি সহকারে পান করল।{" "}
+          (b) যখন পানি কলসের মুখে চলে এল তখন কাকটি তা তৃপ্তি সহকারে পান করল।
           <br />
           (c) যখন প্রত্যেকটি নুড়ি পাথর নিচে পড়ে গেল তখন পানি একটু একটু করে উপরে
           উঠল। <br />
@@ -1432,7 +1475,7 @@ const QuestionSix = () => {
           (g) তারপর সে হতাশ হয়ে উড়ে চলে গেল। <br />
           (h) কলসটিতে সামান্য পানি থাকলেও এটা খুব নিচে এবং তার নাগালের বাইরে
           ছিল। <br />
-          (i) কাকটি বারবার কলসিটা উল্টাতে চেষ্টা করলো কিন্তু তাতে কোন কাজ হল না।{" "}
+          (i) কাকটি বারবার কলসিটা উল্টাতে চেষ্টা করলো কিন্তু তাতে কোন কাজ হল না।
           <br />
           (j) তারপর সে নূড়িগুলো কলসির ভিতরে ফেলতে লাগলো। <br />
           <br />
@@ -1450,7 +1493,7 @@ const QuestionSix = () => {
           condition. <br />
           (f) The king fought bravely but lost the battle. <br />
           (g) He gathered an army of strong men and attacked his enemies. <br />
-          (h). The enemies were defeated and Robert Bruce regained his kingdom.{" "}
+          (h). The enemies were defeated and Robert Bruce regained his kingdom.
           <br />
           (i) Bruce saw the spider climbing to the celling after some
           unsuccessful attempts which inspired Bruce to shake off the darkness
@@ -1466,7 +1509,7 @@ const QuestionSix = () => {
           (g) লোকজন নিয়ে তিনি সৈন্যবাহিনী গঠন করলেন এবং তাঁর শত্রুদের আক্রমণ
           করলেন। <br />
           (f) রাজা সাহসিকতার সাথে যুদ্ধ করেও যুদ্ধে পরাজিত হন। <br />
-          (h) শত্রুরা পরাজয় বরণ করল এবং রবার্ট ব্রুস তার রাজ্য ফিরে পেলেন।{" "}
+          (h) শত্রুরা পরাজয় বরণ করল এবং রবার্ট ব্রুস তার রাজ্য ফিরে পেলেন।
           <br />
           (i) ব্রুস দেখলেন মাকড়সাটিকে বেশ কয়েকবার যার্থ হবার পর স্বাদে উঠতে সফল
           হয়েছে যা হ্রসকে নৈরাশ্যের অন্ধকার দূর করার জন্য উৎসাহিত করল। <br />
@@ -1476,7 +1519,7 @@ const QuestionSix = () => {
           College. Dinajpur-2018 <br /> Nelson Mandela, a Legend (নেলসন
           ম্যান্ডেলা, এক কিংবদন্তী) <br />
           <br />
-          (a) Mandela became a lawyer and joined ANC that resisted racism.{" "}
+          (a) Mandela became a lawyer and joined ANC that resisted racism.
           <br />
           (b) From his early years he who deeply shocked at the oppression of
           the white against the black. <br />
@@ -1487,7 +1530,7 @@ const QuestionSix = () => {
           (e) So Mandela was charged with treason and sentenced to life
           imprisonment in 1964 through a mock trail. <br />
           (f) He united all the black people and struggled against the white
-          govt, to establish their legal right and to stop all discriminations.{" "}
+          govt, to establish their legal right and to stop all discriminations.
           <br />
           (g) At last in 1990 the white govt was compelled to release him due to
           international pressure. <br />
@@ -1496,7 +1539,7 @@ const QuestionSix = () => {
           globe. <br />
           (i) No head of state at present world can be compared with him and he
           has become a living legend. <br />
-          (j) Then he was elected president but he also gave up presidency{" "}
+          (j) Then he was elected president but he also gave up presidency
           <br />
           <br />
           <br />
@@ -1509,10 +1552,10 @@ const QuestionSix = () => {
           (d) নেলসন ম্যান্ডেলা কালোদের মুক্ত করার জন্য এক অগ্রদূতের মত আবির্ভূত
           হন। <br />
           (e) তাই ম্যান্ডেলাকে রাষ্ট্রদ্রোহের দায়ে অভিযুক্ত করা হয় এবং এক
-          প্রহসনমূলক বিচারের মাধ্যমে ১৯৬৪ সালে তাকে যাবজ্জীবন করাদণ্ড দেয়া হয়{" "}
+          প্রহসনমূলক বিচারের মাধ্যমে ১৯৬৪ সালে তাকে যাবজ্জীবন করাদণ্ড দেয়া হয়
           <br />
           (1) তিনি সকল কালোদের একজোট করেন এবং তাদের আইনগত অধিকার প্রতিষ্ঠার জন্য
-          এবং সকল বৈষম্য বন্ধ করার জন্য তিনি সাদা সরকারের বিরুদ্ধে সংগ্রাম করেন।{" "}
+          এবং সকল বৈষম্য বন্ধ করার জন্য তিনি সাদা সরকারের বিরুদ্ধে সংগ্রাম করেন।
           <br />
           (g) অবশেষে ১৯৯০ সালে আন্তর্জাতিক চাপে সাদ্য সরকার তাকে মুক্তি দিতে
           বাধ্য হন। <br />
@@ -1538,7 +1581,7 @@ const QuestionSix = () => {
           (d) Hotja decided to teach him a lesson and so he told the man to
           climb up the stairs with him. <br />
           (e) One day while Nasiruddin Hojja was mending a hule on the roof of
-          his two-storted house, suddenly he saw someone calling him from below.{" "}
+          his two-storted house, suddenly he saw someone calling him from below.
           <br />
           (f) When they both got to the rooftop where he was previously working.
           Hojja turned towards the man and said. "Sorry, I have no money, so you
@@ -1572,12 +1615,12 @@ const QuestionSix = () => {
           (j)তিনি দেখলেন সিঁড়ির নিচে একজন লোক দাঁড়িয়ে যে তাকে নিচে নেমে তার কথা
           শুনতোষলছিল। <br />
           <br />
-          43. Cumilla Board-2015; Jashore Board-2010; Chattogram Board-2005{" "}
+          43. Cumilla Board-2015; Jashore Board-2010; Chattogram Board-2005
           <br />
           The Death Sentence of Socrates (সক্রেটিসের মৃত্যুদন্ড) <br />
           <br />
           (a) His friends and disciples could not bear the sight. <br />
-          (b)A few moments passed, Socrates lay down and covered his face.{" "}
+          (b)A few moments passed, Socrates lay down and covered his face.
           <br />
           (c) At last, the hour of departure had arrived and Socrates met his
           friends and disciples for the last time. <br />
@@ -1639,7 +1682,7 @@ const QuestionSix = () => {
           (d) তার নাম ছিল জেরী। <br />
           (e) একদিন কুঠারের হাতলটি ভেঙ্গে গিয়েছিল। <br />
           (f) সে এতিম-খানায় বাস করত যেখানে সে চার বছর বয়স থেকে ছিল। <br />
-          (g) সে বলল যে সে এর খরচ দিবে কেননা সে কুঠারটি অসর্তকভাবে নামিয়েছিল।{" "}
+          (g) সে বলল যে সে এর খরচ দিবে কেননা সে কুঠারটি অসর্তকভাবে নামিয়েছিল।
           <br />
           (h) কিন্তু লেখিকা বললেন, যে ত্রুটিটা ছিল কুঠারের হাতলেই। <br />
           (i) এতিমখানায় বাস করলেও তার বিরাট মানবিক গুণ ছিল। <br />
@@ -1686,7 +1729,7 @@ const QuestionSix = () => {
           <br />
           (a) But another thought had crossed his mind before the astrologer was
           removed for execution. <br />
-          (b) Thus he escaped from the king's wrath by using his ready wit.{" "}
+          (b) Thus he escaped from the king's wrath by using his ready wit.
           <br />
           (c) Once there was a king who was very fond of knowing his future from
           the astrologer. <br />
@@ -1702,7 +1745,7 @@ const QuestionSix = () => {
           <br />
           (a) কিন্তু জ্যোতিষীকে মৃত্যুদন্ডস্থলে নিয়ে যাবার পূর্বে তার মাথায়
           আরেকটি চিন্তা উদয় হলো/উঁকি দিল। <br />
-          (b) এভাবে তার উপস্থিত বুদ্ধি খাটিয়ে সে রাজার ক্রোধ থেকে রক্ষা পেল।{" "}
+          (b) এভাবে তার উপস্থিত বুদ্ধি খাটিয়ে সে রাজার ক্রোধ থেকে রক্ষা পেল।
           <br />
           (c) একদা এক রাজা ছিলেন যিনি জ্যোতিষীর কাছ থেকে ভবিষ্যত জানতে পছন্দ
           করতেন। <br />
@@ -1714,7 +1757,7 @@ const QuestionSix = () => {
           (h) রাজা জ্যোতিষীকে জিজ্ঞাসা করলেন যে সে কতদিন বাঁচবে। <br />
           (i) সে চাতুর্যের সাথে বলল যে রাজার মৃত্যুর দুই দিন পূর্বে সে মারা
           যাবে। <br />
-          (j) এটা রাজাকে ভীতসন্ত্রন্ত করল এবং তিনি জ্যোতিষীকে তাড়িয়ে দিলেন।{" "}
+          (j) এটা রাজাকে ভীতসন্ত্রন্ত করল এবং তিনি জ্যোতিষীকে তাড়িয়ে দিলেন।
           <br />
           <br />
           49. Dhaka Board-2013; Chattogram Board-2006; Jashore Board-2005 The
@@ -1743,7 +1786,7 @@ const QuestionSix = () => {
           পূর্বের মতই তার দেশ শাসন করার অনুমতি দিলেন। <br />
           (b) তিনি সাহসের সাথে যুদ্ধ করলেন কিন্তু দুর্ভাগ্যক্রমে তিনি যুদ্ধে
           পরাজিত হন। <br />
-          (c) বিশ্ব বিজেতা আলেকজান্ডার খাইবার গিরিপথ অতিক্রম করে ভারতে পৌছেন।{" "}
+          (c) বিশ্ব বিজেতা আলেকজান্ডার খাইবার গিরিপথ অতিক্রম করে ভারতে পৌছেন।
           <br />
           (d) অতপর তিনি পাঞ্জাবের সমতলভূমিতে আসেন যেখানে পুরাস নামে এক রাজা শাসন
           করতেন। <br />
@@ -1777,7 +1820,7 @@ const QuestionSix = () => {
           (h) The big dog fled away and the puppy was saved. <br />
           (i) They ate different foods but liked and loved each other. <br />
           (j) They promised to each other that they would help each other at any
-          cost in time of danger and they would never break their friendship.{" "}
+          cost in time of danger and they would never break their friendship.
           <br />
           <br />
           (a) ঘটনাস্থলের পাশেই একটি আম গাছ ছিল এবং গাছের ডাল থেকে পাকা আম
