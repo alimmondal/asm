@@ -13,18 +13,18 @@ const QuestionFour = () => {
           1. Dhaka Board-2025
           <div className="border border-gray-500 p-1 rounded-sm my-2 ">
             scarce | educate | value | go | bring | study | waste | married |
-            decide | work | be | that | who | worry |
+            decide | work | be | that | who | worry
           </div>
           Rokeya is a Bangladeshi girl (a) __ is about to finish school but she
           has no hopes of (b) __ to college. Like millions of other parents,
-          Rokeya's parents think that educating a daughter is a (c) __ f time
+          Rokeya's parents think that educating a daughter is a (c) __ of time
           and money. They have (d) __ that they will now marry her off and use
           their (e) __ resources for their son's education. Rokeya used to (1)
           __ bout lessons and tests, but now she worries more about getting (g)
           __ nd having children. She used to dream about being a teacher, but
-          now faces a life of household chores and (h) __ p children. She used
-          to be happy being a girl but a boy. If she were a boy, she would be in
-          college and university. now wishes she (1) __ ould be able to (1) __
+          now faces a life of household chores and (h) __ up children. She used
+          to be happy being a girl but now wishes she (i) __ a boy. If she were
+          a boy, she would be able to (1) __ in college and university.
           <br />
           রোকেয়া স্কুল শেষ করতে যাওয়া এক বাংলাদেশি মেয়ে কিন্তু তার কলেজে পড়ার
           কোনো আশা নেই। লক্ষ লক্ষ পিতামাতার মতো রোকেয়ার পিতামাতাও মনে করে যে
@@ -55,7 +55,7 @@ const QuestionFour = () => {
           communicative competence in a language. The first is (c) __ which is
           similar to the way people develop ability in their (d) __ tongue. They
           are aware only of the (e) __ that they are (f) __ the language for (g)
-          __ It is a (h) __ subconscious process in which users are not (i) __
+          __ . It is a (h) __ subconscious process in which users are not (i) __
           of acquiring a language. In non-technical terms, acquisition is
           'picking up' a language (j) __ . <br />
           <br />
@@ -82,14 +82,14 @@ const QuestionFour = () => {
             anticipation | extinct habitats | catastrophe | Increase | raise
           </div>
           <br />
-          The destruction of forests and other (a) __ Is causing the (b) __ of
+          The destruction of forests and other (a) __ is causing the (b) __ of
           various plants and animals everyday. In the last 25 years alone, the
           world has lost one-third of its natural wealth. Forests are being (c)
           __ down. Moreover, they are being burnt (d) __ resulting in an (e) __
-          in carbon dioxide and ultimately the water (f) ___ as a consequence of
-          global (g) __ . It is that the new century will face an overwhelming
-          environmental (h) __ It is, therefore, (i) __ to check the reckless
-          pollution of the level (j) __ environment. <br />
+          in carbon dioxide and ultimately the water level(f) ___ as a
+          consequence of global (g) __ . It is (h) that the new century will
+          face an overwhelming environmental (h) __ . It is, therefore, (i) __
+          to check the reckless pollution of the environment. <br />
           <br />
           বনভূমি এবং অন্যান্য আবাসস্থলের বিনাশ প্রতিদিন বিভিন্ন গাছপালা ও
           প্রাণীর বিলুপ্তির কারণ সৃষ্টি করছে। শুধু গত ২৫ বছরে বিশ্ব প্রাকৃতিক
@@ -115,13 +115,13 @@ const QuestionFour = () => {
           </div>
           In the last 25 years alone, the world has (a) — one third of its
           natural wealth, according to the international conservation
-          organization, world wildlife fund. The earth's forests, (b) - sea and
-          coasts (c) — in a worse state today than they were before. Forests are
-          being cut (d) __ . Moreover, they are being burnt (e) - resulting in
-          an increase in carbon dioxide, and ultimately in the water level
-          rising as a (1) of global warming. It is (g) — that the new century
-          will face an overwhelming (h) — catastrophe. It is therefore (1) to
-          check the pollution of the environment. <br />
+          organization, world wildlife fund. The earth's forests, (b) __ , sea
+          and coasts (c) — in a worse state today than they were before. Forests
+          are being cut (d) __ . Moreover, they are being burnt (e) __ resulting
+          in an increase in carbon dioxide, and ultimately in the water level
+          rising as a (f) __ of global warming. It is (g) — that the new century
+          will face an overwhelming (h) — catastrophe. It is therefore (i) to
+          check the (j) __ pollution of the environment. <br />
           <br />
           ওয়ার্ল্ড ওয়াইল্ডলাইফ ফান্ড-এর আন্তর্জাতিক সংরক্ষণ সংস্থার মতে পৃথিবী
           শুধু গত ২৫ বছরেই প্রাকৃতিক সম্পদের এক-তৃতীয়াংশ হারিয়েছে। পৃথিবীর
@@ -148,13 +148,13 @@ const QuestionFour = () => {
           surroundings is (b) __ as ecology. The (c) __ is a complex web that
           (d) __ animals, plants and every other life form in the biosphere. All
           these things (e) __ together. The system is in a steady state of
-          dynamic (1) __ which means that by (g) __ any one part of the web you
-          can affect all the other parts. For (h) __ the destruction of forests
-          may have serious (i) __ consequences. It is the (j) __ of human beings
-          to prevent the environment from being spoiled. <br />
+          dynamic (f) __ which means that by (g) __ any one part of the web you
+          can affect all the other parts. For (h) __ , the destruction of
+          forests may have serious (i) __ consequences. It is the (j) __ of
+          human beings to prevent the environment from being spoiled. <br />
           <br />
-          যে সকল বন্ধু পরিবেশ তৈরি করে সেগুলো আন্তঃসম্পর্কিত। যেভাবে মানুষ,
-          প্রাণী এবং গাছপালাসমূহ একে অন্যের সাথে এবং তাদের পারিপার্শ্বিক
+          বঙ্গানুবাদ: যে সকল বন্ধু পরিবেশ তৈরি করে সেগুলো আন্তঃসম্পর্কিত। যেভাবে
+          মানুষ, প্রাণী এবং গাছপালাসমূহ একে অন্যের সাথে এবং তাদের পারিপার্শ্বিক
           পরিবেশের সাথে সম্পর্কিত থাকে, তাকে বলে বাস্তুবিদ্যা। বাস্তুসংস্থান হলো
           একটা জটিল জাল যা প্রাণিমন্ডলে প্রাণী, উদ্ভিদ ও অন্যান্য জীবকুলকে
           সংযুক্ত রাখে। এসব জিনিস একত্রে জড়িয়ে থাকে। এই পদ্ধতিটি গতিময়
@@ -168,7 +168,7 @@ const QuestionFour = () => {
           <br />
         </div>
         {/* 6 */}
-        <div className="">
+        {/* <div className="">
           6. Dhaka Board-2012; Jashore Board-2004; Chattogram Board-2013; Sylhet
           Board-2025
           <div className="border border-gray-500 p-1 rounded-sm my-2 ">
@@ -197,7 +197,7 @@ const QuestionFour = () => {
           programmes (g) distance (h) run (i) shown (j) informative
           <br />
           <br />
-        </div>
+        </div> */}
         {/* 7 */}
         <div className="">
           7. Barishal Board-2025; Dinajpur Board-2025
@@ -206,14 +206,14 @@ const QuestionFour = () => {
             realize | manners | offended | keep | up | named | virtue
           </div>
           I know sometimes (a) __ and etiquette seem arbitrary. But at the end
-          of the day, these guidelines (b) __ — established as a universal set
-          of (c) __ behaviour so that we can all (d) __ civilly around each
-          other. Not everyone is going to be (e) __ if you don't follow these
+          of the day, these guidelines (b) __ established as a universal set of
+          (c) __ behaviour so that we can all (d) __ civilly around each other.
+          Not everyone is going to be (e) __ if you don't follow these
           guidelines. But once you learn these basic table manners, you (f) __
-          that they're not difficult to (g) __ So why not practice (h) __ dining
-          etiquette? It certainly isn't hard to try, and many people will (i) __
-          that you are conscientious enough to behave like a proper (j) __ at
-          the table. <br />
+          that they're not difficult to (g) __ . So why not practice (h) __
+          dining etiquette? It certainly isn't hard to try, and many people will
+          (i) __ that you are conscientious enough to behave like a proper (j)
+          __ at the table. <br />
           <br />
           আমি জানি কখনো কখনো আচরণ এবং শিষ্টাচারও যথেচ্ছ মনে হয়। কিন্তু দিনশেষে
           এই মূলনীতিসমূহই স্বীকৃত আচরণ হিসেবে বিশ্বব্যাপী প্রতিষ্ঠিত যাতে আমরা
@@ -252,7 +252,7 @@ const QuestionFour = () => {
           বস্তুবাদী সমৃদ্ধি নিয়ে ভাবে না। এবং তাই তারা তাদের জীবন অপরের জন্য
           উৎসর্গ করে যেটা তাদের অমর বানায়। <br />
           9.(a)positive (b) idealistic (c)country (d) being (e) welfare (f)
-          qualities (g) helping (h) materialistic (i) hence (j) immortalizes{" "}
+          qualities (g) helping (h) materialistic (i) hence (j) immortalizes
           <br />
           <br />
         </div>
@@ -952,7 +952,8 @@ const QuestionFour = () => {
           পর্যবেক্ষণ, তত্ত্বাবধান ও গণসচেতনতা সৃষ্টি করাকে বাধ্যতামূলক করতে হবে।{" "}
           <br />
           33. (a) greatest (b) contaminated (c) by (d) are (c) of (f) poisonous
-          (g) more (h) preserve (1) stern (1) production <br />
+          (g) more (h) preserve (1) stern (1) production
+          <br />
           <br />
           34. Dinajpur Board-2017; Cumilla Residential College, Cumilla-2025{" "}
           <br />
