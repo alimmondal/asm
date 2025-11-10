@@ -500,7 +500,7 @@ const Sentence = () => {
       </div>
 
       {/* Scroll view */}
-      <div className="px-5 py-5 md:w-1/2 mx-auto">
+      <div className="px-5 py-5 lg:w-1/2 mx-auto">
         <div className="text-center py-20">
           <h1 className="">Sentence</h1>
           <p className="">A brief discussion on Sentence</p>
@@ -530,7 +530,7 @@ const Sentence = () => {
             Subject: <br />
             কোন Sentence-এ যে ব্যক্তি বা বস্তু সম্পর্কে কোনকিছু বলা বা লিখা হয়
             তাকে Subject বা কর্তা বলে । In other words, বাক্যে যে কাজ করে তাকে
-            Subject বলে।  
+            Subject বলে।
             <br />
             Predicate: <br />
             কোন Sentence-এ subject বা কর্তা সম্পর্কে যা বলা হয় তাকে Predicate
@@ -680,73 +680,103 @@ const Sentence = () => {
           <br />
           <br />
           <div className="">
-            <h1 className="text-pink-800">গঠন অনুসারে Sentence কত প্রকার?</h1>
+            <h1 className="text-pink-800 text-center">
+              গঠন অনুসারে Sentence কত প্রকার?
+            </h1>
             <br />
-            Structure অনুসারে Sentence তিন প্রকার |  <br />
+            Structure/গঠন অনুসারে Sentence তিন প্রকার। <br />
             They are: <br />
             1. Simple Sentence <br />
-            2. Complex Sentence & <br />
-            3. Compound Sentence.
+            3. Compound Sentence & <br />
+            2. Complex Sentence
             <br />
             <br />
-            Simple sentence কাকে বলে? <br />
+            <p className="text-pink-700 font-bold">
+              Simple sentence কাকে বলে? <br />
+            </p>
             যে sentence-এ একটি মাত্র subject ও একটি মাত্র finite verb (সমাপিকা
             ক্রিয়া) থাকে তাকে simple sentence বলে | <br />
             Example: <br />
-            The boys play football. এ sentence-এ একটি মাত্র subject “The boys” ও
-            একটি মাত্র finite verb “play football.
+            👉 The boys play football. <br />
+            এ sentence-এ একটি মাত্র subject “The boys” ও একটি মাত্র finite verb
+            “play".
             <br />
             <br />
-            Complex Sentence কাকে বলে? <br />
-            যে sentence-এ একটি Principal Clause এবং এক বা একাধিক Subordinate
-            Clause থাকে তাকে Complex Sentence বলে | <br />
-            Example:  <br />
-            Although he is rich, he is not happy. <br />
-            I know that he would help me. <br />
-            প্রথম sentence-এ”Although he is rich” – Subordinate Clause এবং “he
-            is not happy”-Principal Clause. দ্বিতীয় Sentence-এ “I
-            know”-Principal Clause এবং”that he would help me”– Subordinate
-            Clause. অতএব Sentence দুটি Complex Sentence.
-            <br />
-            <br />
-            Subordinate Clause কিভাবে চিনবো? Complex Sentence কিভাবে চিনবো?{" "}
-            <br />
-            Subordinate Clause/Complex Sentence কিভাবে চিনবো?
-            <br />
-            <br />
-            Well, <br />
-            Subordinate Clause এর শুরুতে সাধারণত if, though, although, as,
-            because, since, so that, that, until, till, unless, when, why,
-            which, who, where, how, before, after, whether, while ইত্যাদি
-            word/connectors বসে|  <br />
-            N.B: তাহলে কোন Clause-এ এই word/connectors গুলো থাকলে সেটি
-            Subordinate Clause এবং যে Sentence-এ Subordinate Clause থাকবে সেটা
-            Complex Sentence. Take it easy bro………
-            <br />
-            <br />
-            Compound Sentence কাকে বলে? <br />
-            যদি কোন Sentence-এ একাধিক Principal Clause and, but, or, yet, and,
-            so, and so, therefore ইত্যাদি Co-ordinating Conjunction দ্বারা যুক্ত
-            হয় তাকে Compound Sentence বলে| <br />
-            Examples: <br />
-            He is meritorious but he could not get a job. <br />
-            Read or you will fail. <br />
-            I went there and found him reading
-            <br />
-            <br />
-            N.B: <br />
-            and দ্বারা যুক্ত Compound Sentence এর দ্বিতীয় Subject (i)টি উহ্য
-            থাকে | (উভয় Clause-এ Subject এক-ই হওয়ার কারণে) 
-            <br />
-            <br />
-            Co-ordinating Conjunction  কিভাবে চিনবো? / Compound Sentence কিভাবে
-            চিনবো? <br />
-            Co-ordinating Conjunction/Clause/Compound Sentence কিভাবে চিনবো?{" "}
-            <br />
-            Co-ordinating Conjunction: (and, but, or, yet, and, so and so,
-            therefore) <br />
-            তার মানে, কোন Sentence-এ এই Co-ordinating Conjunction গুলো থাকলে
-            সাধারণত সেটি Compound Sentence হবে |
+            <div className="">
+              <p className="text-pink-700 font-bold">
+                Compound Sentence কাকে বলে? <br />
+              </p>
+              যদি একাধিক Principal Clause কোন Sentence-এ and, or, but, yet, so,
+              therefore ইত্যাদি Co-ordinating Conjunction দ্বারা যুক্ত হয় তাকে
+              Compound Sentence বলে। <br />
+              <span className="text-green-500 font-bold">
+                Short-techniq:
+              </span>{" "}
+              একাধিক Simple Sentence যদি and, or, but, yet দ্বারা যুক্ত তবে তাকে
+              Compund Sentence বলে। <br />
+              Examples: <br />
+              👉 He is meritorious but he could not get a job. <br />
+              👉 Read or you will fail. <br />
+              👉 I went there and found him reading
+              <br />
+              <br />
+              N.B: <br />
+              and দ্বারা যুক্ত Compound Sentence এর দ্বিতীয় Subject টি উহ্য
+              থাকে । (উভয় Clause-এ Subject এক-ই হওয়ার কারণে)।
+              <br />
+              <br />
+              Co-ordinating Conjunction কিভাবে চিনবো? / Compound Sentence কিভাবে
+              চিনবো? <br />
+              Co-ordinating Conjunction/Clause/Compound Sentence কিভাবে চিনবো?
+              <br />
+              Co-ordinating Conjunction: and, or, but, yet, and, so, and so,
+              therefore <br />
+              তার মানে, কোন Sentence-এ এই Co-ordinating Conjunction গুলো থাকলে
+              সাধারণত সেটি Compound Sentence হবে |
+              <br />
+              <br />
+            </div>
+            <div className="">
+              <p className="text-pink-700 font-bold">
+                Complex Sentence কাকে বলে?{" "}
+              </p>
+              যে sentence-এ একটি Principal Clause এবং এক বা একাধিক Subordinate
+              Clause থাকে তাকে Complex Sentence বলে | <br />
+              <span className="text-green-500 font-bold">
+                Short-techniq:
+              </span>{" "}
+              একাধিক Simple Sentence যদি and, or, but, yet ছাড়া অন্য Conjunction
+              দ্বারা যদি যুক্ত/শুরু হয় তবে তাকে Complex Sentence বলে। <br />
+              Conjunction গুল হল: (যেমনঃ Though, although, if, since, as, when/
+              wh ইত্যাদি) <br />
+              Example: <br />
+              👉 Although he is rich, he is not happy. <br />
+              👉 or: He is not happy although he is rich. <br />
+              👉 I know that he would help me. <br />
+              <br />
+              <br />
+              প্রথম sentence-এ ”Although he is rich” - Subordinate Clause এবং
+              “he is not happy”-Principal Clause. <br />
+              দ্বিতীয় Sentence-এ “I know” - Principal Clause এবং ”that he would
+              help me” - Subordinate Clause. অতএব Sentence দুটি Complex
+              Sentence.
+              <br />
+              <br />
+              Subordinate Clause কিভাবে চিনবো? Complex Sentence কিভাবে চিনবো?
+              <br />
+              Subordinate Clause/Complex Sentence কিভাবে চিনবো?
+              <br />
+              <br />
+              Well, <br />
+              Subordinate Conjunction গুল হল: if, though, although, as, because,
+              since, so that, that, until, till, unless, when, why, which, who,
+              where, how, before, after, whether, while ইত্যাদি word/connectors
+              বসে|  <br />
+              N.B: তাহলে কোন Clause-এ এই word/connectors গুলো থাকলে সেটি
+              Subordinate Clause এবং যে Sentence-এ Subordinate Clause থাকবে সেটা
+              Complex Sentence. Take it easy ...... <br />
+              <br />
+            </div>
           </div>
         </div>
       </div>
