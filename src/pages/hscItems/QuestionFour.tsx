@@ -432,9 +432,9 @@ const QuestionFour = () => {
           </div>
           Population (a) __ is considered as one of the greatest (b) __ in our
           country. Many people (c) __ that over population is (d) __ and it
-          causes (e) __ . But in fact, proper (f) __ management can turn this
-          (g) __ into an asset. if we can develop our human (h) __ properly, it
-          can be a (i) __ -way for poverty (j) __ . <br />
+          causes (e) __ . But in fact, proper (f) __ and management can turn
+          this (g) __ into an asset. if we can develop our human (h) __
+          properly, it can be a (i) __ way for poverty (j) __ . <br />
           <br />
           জনসংখ্যা বিস্ফোরণকে বড়ো দায়গুলোর মধ্যে একটি হিসেবে বিবেচনা করা হয়।
           অনেক মানুষ ভাবে যে অতিরিক্ত জনসংখ্যা দুর্বহ এবং এটি দারিদ্র ঘটায়।
@@ -462,10 +462,10 @@ const QuestionFour = () => {
           (c) __ in Qutar from 20 November to 18 December. 32 teams of (d) __
           nations participated in the tournament. (e) __ over $220 billion were
           spent in organizing this tournament. There were 64 matches played in
-          eight venues across five cities. The final match (f) __ between France
-          and Argentina. Argentina was (g) __ champion and captain Lionel Messi
-          was (h) __ the best player of the tournament. The 2022 World Cup was
-          really a great source of (i) __ and will be ever (j) __ . <br />
+          eight venues across five cities. The final match was (f) __ between
+          France and Argentina. Argentina was (g) __ champion and captain Lionel
+          Messi was (h) __ the best player of the tournament. The 2022 World Cup
+          was really a great source of (i) __ and will be ever (j) __ . <br />
           <br />
           সব শ্রেণির মানুষের জন্য ফুটবল সবচেয়ে জনপ্রিয় ও উত্তেজনাকর খেলা।
           বিশ্বকাপ ফুটবল হলো পৃথিবীতে সবচেয়ে বিশিষ্ট/বিখ্যাত ক্রীড়া। এটা ফুটবলের
@@ -598,7 +598,7 @@ const QuestionFour = () => {
           এখন চলো আমরা দেখি কীভাবে শহরের জীবন গ্রামীণ জীবন থেকে ভিন্ন রকম। পানি
           এবং বায়ুতে ক্ষতিকর উপাদানের উপস্থিতি পরিবেশ দূষণ ঘটাচ্ছে। <br />
           20. (a) alarming (b) appears (c) rural (d) afflicted (e) fertilizers
-          (f) suffer (g) severely (h) differs VFW (i) substances (j) causing{" "}
+          (f) suffer (g) severely (h) differs (i) substances (j) causing
           <br />
           <br />
         </div>

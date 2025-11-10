@@ -23,7 +23,7 @@ function Article() {
             The <strong>এর ব্যবহার</strong>:
           </h3>
           <p className="pt-5">
-            <span className="animateText font-bold">Rule: 1. </span>
+            <span className="animateText font-bold">Rule: 1. </span> <br />
             শুন্যস্থানের একটি বা দুটি শব্দের পরে of থাকলে শুন্যস্থানে the বসে ।
             অথবা দুটি Noun যদি of দ্বার যুক্ত হয় তবে প্রথমটির আগে ...the... বসে।
             <br />
@@ -33,7 +33,7 @@ function Article() {
             ব্যতিক্রমঃ a lot of, a number of, a great deal of .
           </p>
           <p className="pt-5">
-            <span className="animateText font-bold">Rule: 2. </span>
+            <span className="animateText font-bold">Rule: 2. </span> <br />
             একই শব্দ একাধিক বার ব্যবহার হলে পরের বার গুলোর আগের শুন্যস্থানে The
             বসে। <br />
             যেমনঃ <br />
@@ -52,12 +52,18 @@ function Article() {
           </p>
 
           <p className="pt-5">
-            <strong>4. </strong> শুন্যস্থানের আগে Both, All, on থাকলে
-            শুন্যস্থানে The বসে। <br />
-            যেমনঃ I've read all ____ book. I've read all <strong>
-              the
-            </strong>{" "}
+            <strong>4. </strong> শুন্যস্থানের আগে Both, All, on/ Preposition
+            থাকলে শুন্যস্থানে The বসে। <br />
+            যেমনঃ I've read all ____ book. <br />
+            I've read all <strong>the</strong>
             book.
+            <br />
+            <br />
+            Note: Preposition এর পরে একটি বস্তু বুঝালে (the) । অদৃশ্য কিছু
+            বুঝালে (X) । বাকি ক্ষেত্রে (a/n) বসে। <br />
+            যেমনঃ <br />
+            Q. On __ day of examination, he looked very anxious. <br />
+            👉 On the day of examination, he looked very anxious.
           </p>
           <p className="pt-5">
             <strong>5. </strong>
@@ -69,7 +75,10 @@ function Article() {
             _____ Padma is a big river. <br />
             <strong>The</strong> Padma is a big river.
           </p>
-
+          <p className="pt-5">
+            6. Subject/Object এর পরে Who, Which, Where, Whom থাকলে সেই
+            Subject/Object এর আগে The বসে। যেমনঃ
+          </p>
           {/* Use of Cross */}
           <h3 className="pt-5">
             <strong> X (ক্রস) এর ব্যবহার</strong>:
