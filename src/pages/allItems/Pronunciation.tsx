@@ -459,26 +459,22 @@ const Pronunciation = () => {
             </button>
           </div>
           <div className="">
-            <p className="font-bold">Sound: P, T & K</p>
+            <p className="font-bold">Sound: P, T, C, Q & K</p>
             <div className="text-sm md:text-base">
               <p className="">
                 P, T & K এই ৩টি অক্ষরের উচ্চারণ সঠিক হলে শুদ্ধ উচ্চারণের ৩০%
                 সঠিক হয়ে যাবে। সাধারণতঃ আমরা বাংলাদেশীরা এ ৩টি লেটারকে পি, টি,
                 কে এর মত উচ্চারণ করি, কিন্তু Native speaker রা এগুলো P (ফি), T
-                (ঠি), K (খেই) উচ্চারণ করে থাকে। <br />
-                Ph -ফ <br />
-                Th - 'ঠ' <br />
-                Kh - খ <br />
-                Aspirated Sound এর বৈশিষ্ট্যঃ <br />
-                এগুলো উচ্চারণের সময় মুখ দিয়ে বেশি পরিমানে বাতাস বের হবে। যেমনঃ{" "}
+                (ঠি), K (খেই) উচ্চারণ করে থাকে।
                 <br />
-                P এর উচ্চারণ ph অনেকটা 'ফ' এর মত হবে। <br />
-                T এর উচ্চারণ th অনেকটা 'ঠ' এর মত হবে। <br />
-                K এর উচ্চারণ kh অনেকটা 'খ' এর মত হবে। <br />
-                'P Sound' বা উচ্চারণ' <br />
-                Pen ফেন <br />
-                Pin ফিন <br />
-                Pain ফেইন
+                <br />
+                Aspirated Sound মানে এগুলো উচ্চারণের সময় মুখ দিয়ে বেশি পরিমানে
+                বাতাস বের হবে। যেমনঃ
+                <br />
+                <br />
+                P এর উচ্চারণ অনেকটা 'ফ' এর মত হবে। <br />
+                T এর উচ্চারণ অনেকটা 'ঠ' এর মত হবে। <br />
+                K এর উচ্চারণ অনেকটা 'খ' এর মত হবে। <br />
               </p>
             </div>
           </div>
@@ -541,7 +537,7 @@ const Pronunciation = () => {
             <h2 className="text-xl font-bold ">Page 11</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500 hover:text-blue-500"
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -557,15 +553,13 @@ const Pronunciation = () => {
               হয়। অর্থাৎ সেই অক্ষরগুলোর উচ্চারণ 'ফ' , 'ঠ' , ও 'খ' এর মত হয়ে
               থাকে।
               <br />
-              যেমনঃ Pot (ফট), Team (ঠিম), kind (খাইন্ড) <br />
+              যেমনঃ Pot (ফট), Team (ঠিম), kind (খাইন্ড)
+              <br />
               <span className="font-semibold">Rule-2</span> <br />
               'S' এর পর 'p, t, k' থাকলে সেই Sound- টি Aspirated হবে না। এ
               ক্ষেত্রে বাংলা প, ট, ক এর মতই উচ্চারিত হবে। যেমনঃ <br />
-              Spot-স্পট <br />
-              Spy- স্পাই <br />
-              stop - স্টপ <br />
-              Stay- স্টেই <br />
-              Sky – স্কাই <br />
+              Spy - স্পাই <br />
+              Stay - স্টেই <br />
               Basket - বাস্কিট <br />
             </div>
           </div>
@@ -588,13 +582,11 @@ const Pronunciation = () => {
             <div className=" text-sm md:text-base">
               <span className="font-semibold">Rule-3</span> <br />
               'Word' এর শেষে 'p, t, k, c, q' থাকলে সেই Sound-গুলো Aspirated হয়
-              না। অর্থাৎ সেই অক্ষরগুলোর উচ্চারণ 'প', 'ট', 'ক' এর মত হয়। 'ফ','ঠ',
-              'খ' এর মত নয়। যেমনঃ <br />
-              Clap = ফ্ল্যাপ <br />
+              না। যেমনঃ <br />
+              Clap = ক্ল্যাপ <br />
               Deep = ডিপ <br />
               <span className="font-semibold">Rule-4</span> <br />
-              'Word' এর মাঝখানে যখন 'p, t, k' থাকে সেই Sound- কখনও Aspirated হয়,
-              আবার কখনও Aspirated হয় না। যদি মাঝের অক্ষরটির 'p/t/k' উপর stress
+              'Word' এর মাঝখানে যদি 'p, t, k' থাকে, যদি সেই 'p/t/k' উপর stress
               দেয়া হয়, তাহলে Sound-টি Aspirated হবে; আর যদি stress দেয়া না হয়,
               তাহলে Sound-টি Aspirated হবে না। যেমনঃ <br />
               appoint = অফোইন্ট <br />
