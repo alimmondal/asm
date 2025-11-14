@@ -378,279 +378,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 7 */}
-        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 7</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
-            >
-              ⬅ Back to index
-            </button>
-          </div>
-          <div className="">
-            <p className="font-bold">Article - the</p>
-            <p className="font- pt-2">কখন “দা” এবং কখন "দি” হবেঃ</p>
-            <div className="text-sm md:text-base">
-              <p className="">
-                সূত্রঃ "দাদির CV" <br />
-                দা = C (Consonant) <br />
-                দি = V (Vowel) <br />
-                <br />
-                ➡️ The এর পর যদি Vowel sound থাকে তবে এর উচ্চারণ 'দি' এর মতো
-                হবে। যেমন: <br />
-                The egg = দি এগ <br />
-                The apple = দি অ্যাপল <br />
-                The honest boy = দি অনিষ্ট বয় <br /> <br />
-                ✨ The এর পর যদি Consonant sound থাকে তবে এর উচ্চারণ 'দা' এর মতো
-                হবে। <br />
-                যেমন: <br />
-                The ball = দা বল <br />
-                The holy Quran = দা হৌলি কুরআন <br />
-                The country = দা খানট্টি <br />
-                The book = দা বুক <br />
-              </p>
-              <p className=""></p>
-            </div>
-          </div>
-        </div>
 
-        {/* page 8 */}
-        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 8</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
-            >
-              ⬅ Back to index
-            </button>
-          </div>
-          <div className="">
-            <p className="font-bold">Article - a</p>
-            <div className="text-sm md:text-base">
-              <p className="">
-                'a' যখন article হিসেবে ব্যবহৃত হবে তখন 'a' এর উচ্চারণ //ə/ -
-                [আ/অ্য] হবে এবং [আ] ধ্বনিটি পরের শব্দের সাথে একসাথে উচ্চারিত
-                হবে। এই দু'টি উচ্চারণের মধ্যে তেমন কোন পার্থক্য নেই। <br />
-                যেমনঃ <br />
-                a pen [আ'পেন] ('এ পেন' নয়) <br />
-                a book [আ'বুক] ('এ বুক' নয়) <br /> <br />
-                /ə/ ধ্বনিটি একটি short neutral sound তাই স্বরটি ছোট বোঝাতে [আ]
-                বা [অ্য] ধ্বনিটি একটু ছোট অক্ষরে প্রকাশ করা হয়েছে। <br />
-              </p>
-            </div>
-          </div>
-          <p className="font-bold text-center heading2 py-20">
-            ASM English Academy
-          </p>
-        </div>
 
-        {/* page 9  */}
-        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 9</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
-            >
-              ⬅ Back to index
-            </button>
-          </div>
-          <div className="text-base">
-            <p className="font-bold">P, T, C, Q & K Sound</p>
-            <div className="text-base">
-              <p className="">
-                Aspirated Sound মানে এগুলো উচ্চারণের সময় মুখ দিয়ে বেশি পরিমানে
-                বাতাস বের হবে। যেমনঃ
-                <br />
-                /P/প, /T/ট, /K/ক এর মত উচ্চারণ না করে অনেকটা /P/ফ, /T/ঠ, /K/খ এর
-                মত উচ্চারণ করাকে Aspirated Sound বলে। <br />
-              </p>
-            </div>
-            <div className="">
-              <p className="font-bold pt-3">কখন Aspirated হবে? </p>
-              <div className="text-base">
-                <span className="font-semibold">Rule-1</span> <br />
-                'Word' এর শুরুতে 'p, t, k, c, q' থাকলে সেই Sound-গুলো 'ফ', 'ঠ' ও
-                'খ' এর মত হয়ে থাকে। যেমনঃ <br />
-                Pot - (ফট), <br />
-                Team - (ঠিম), <br />
-                kind -(খাইন্ড) <br />
-                <span className="font-semibold">Rule-2</span> <br />
-                'S' এর পর 'p, t, k' থাকলে সেই Sound- টি Aspirated হবে না। এ
-                ক্ষেত্রে বাংলা প, ট, ক এর মতই উচ্চারিত হবে। যেমনঃ <br />
-                Stay - স্টেই <br />
-                Basket - বাস্কিট <br />
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* page 10 */}
-        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 10</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
-            >
-              Back to index
-            </button>
-          </div>
-          <hr className="border border-gray-400" />
-          <div className="">
-            <p className="font-bold">'p, t, k, c, q' Sound: </p>
-            <div className="text-base">
-              <span className="font-semibold">Rule-3</span> <br />
-              'Word' এর শেষে 'p, t, k, c, q' থাকলে সেই Sound-গুলো Aspirated হয়
-              না। যেমনঃ <br />
-              Clap = ক্ল্যাপ <br />
-              Deep = ডিপ <br />
-              <span className="font-semibold">Rule-4</span> <br />
-              'Word' এর মাঝখানে যদি 'p, t, k' থাকে, যদি সেই 'p/t/k' উপর stress
-              দেয়া হয়, তাহলে Sound-টি Aspirated হবে; আর যদি stress দেয়া না হয়,
-              তাহলে Sound-টি Aspirated হবে না। যেমনঃ <br />
-              appoint = অ'ফোইন্ট <br />
-              Fatal = ফেই'ঠল <br />
-            </div>
-            <p className="pt-3">
-              Note: P, T & K এই ৩টি অক্ষরের উচ্চারণ সঠিক হলে শুদ্ধ উচ্চারণের ৩০%
-              সঠিক হয়ে যাবে। সাধারণতঃ আমরা বাংলাদেশীরা এ ৩টি লেটারকে পি, টি, কে
-              এর মত উচ্চারণ করি, কিন্তু Native speaker রা এগুলো P (ফি), T (ঠি),
-              K (খেই) উচ্চারণ করে থাকে।
-            </p>
-
-            <br />
-          </div>
-        </div>
-        {/* page 11 */}
-        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 11</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
-            >
-              ⬅ Back to index
-            </button>
-          </div>
-          <div className="">
-            <p className="font-bold">Example of P, T, C, Q & K</p>
-            <div className="flex justify-between text-sm md:text-base">
-              <p className="">
-                <span className="font-semibold">❇️'T' Sound বা উচ্চারণঃ </span>
-                <br />
-                Time = ঠাইম <br />
-                Table = ঠেইবল <br />
-                Talk = ঠোক <br />
-                Today = ঠুডেই <br />
-                Touch = ঠাচ <br />
-                Tuition = ঠিউশন <br />
-                <span className="font-semibold">❇️'K, C, Q' Sound' </span>
-                <br />
-                Cat = খ্যাট <br />
-                question = খোয়েশচন <br />
-                Cute = খিউট <br />
-              </p>
-              <p className="">
-                Country = খান্ট্রি <br />
-                Carry = খ্যারি <br />
-                Caption = খ্যাপশন <br />
-                Curious = খিউওরিয়াশ <br />
-                Kick = খিক <br />
-                kind = খাইন্ড <br />
-                Kite = খাইট <br />
-                king = খিং <br />
-                queen = খুইন <br />
-                quarrel = খুআরল <br />
-                quarter = খুআটা
-              </p>
-            </div>
-            <p className="pt-2">
-              Note: উচ্চারণে সম্পূর্ণ পারফেকশন আনার জন্য ক্যামব্রিজসহ অন্যান্য
-              অনলাইন ডিকশনারীতে যে কোন শব্দ লিখে সার্চ দিয়ে অডিও শুনে শুনে
-              প্র্যাকটিস করতে হবে। অনলাইন ডিকশনারীঃ www.dictionary.cambridge.org
-            </p>
-          </div>
-          <p className="heading2 text-center pt-3">ASM English Academy</p>
-        </div>
-
-        {/* page 13 */}
-        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 13</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
-            >
-              Back to index
-            </button>
-          </div>
-          <hr className="border border-gray-400" />
-          <div className="">
-            <p className="font-bold"> Pronunciation of "R"</p>
-            <div className=" text-sm md:text-base">
-              <p className="">
-                ব্রিটিশরা কোথাও কোথাও 'R' এর উচ্চারণ করে; আবার কোথাও কোথাও 'R'
-                এর উচ্চারণ করে না। আবার আমেরিকানরা সর্বদাই 'R' এর উচ্চারণ করতে
-                অভ্যস্ত। <br />
-                আমরা সবখানেই 'R' এর উচ্চারণ করে থাকি। তবে, ইংরেজি বলার সময়
-                আমাদের ব্রিটিশ ও আমেরিকান: এই দুই ধরনের উচ্চারণের মিশ্রণ সমীচীন
-                নয়। কাজেই, চলুন জেনে নিই ব্রিটিশরা কোথায় 'R' এর উচ্চারণ করে; আর
-                কোথায় করে না।
-                <br />
-                <br />
-                ব্রিটিশরা 'R' যখন উচ্চারণ করে থাকেঃ <br />
-                ১. শব্দের এর শুরুতে 'R'/ Vowel er purbe R থাকলে ব্রিটিশরা 'R' এর
-                উচ্চারণ করে থাকে। যেমনঃ <br />
-                Read = রিড <br />
-                Rice = রাইস <br />
-                Ring = রিং
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* page 14 */}
-        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 14</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
-            >
-              Back to index
-            </button>
-          </div>
-          <hr className="border border-gray-400" />
-          <div className="">
-            <p className="font-semibold py-1"> R এর উচ্চারণ: </p>
-            <div className=" text-sm md:text-base">
-              <p className="">
-                ২. শব্দের এর শুরুতে 'Wr' থাকলে ব্রিটিশরা 'R' এর উচ্চারণ করে
-                থাকে। যেমনঃ <br />
-                Write - রাইট <br />
-                ব্রিটিশরা 'R' যখন উচ্চারণ করে নাঃ <br />
-                ১. 'word' এর শেষে 'R' থাকলে ব্রিটিশরা 'R' এর উচ্চারণ করে না।
-                যেমনঃ <br />
-                Brother = ব্রাদা <br />
-                Teacher = ঠিচা <br />
-                ২. 'word এর শেষে 'Re' থাকলেও ব্রিটিশরা 'R' এর উচ্চারণ করে না।
-                যেমনঃ <br />
-                care = খ্যায়া <br />
-                fare = ফ্যায়া <br />
-                ৩. 'word' এর মধ্যে 'R' এর পর pure consonant থাকলে ব্রিটিশরা 'R'
-                এর উচ্চারণ করে না। যেমনঃ <br />
-                cart = খাট <br />
-                Saturday = স্যটাডেই
-              </p>
-              <p className="text-center pt-5 heading2">ASM English Academy</p>
-            </div>
-          </div>
-        </div>
-
-        {/* page 15 */}
+{/* page 15 IPA Start*/}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 15</h2>
@@ -1011,10 +741,10 @@ const Pronunciation = () => {
 
         
         
-        {/* page 18 */}
+        {/* page 17 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 18</h2>
+            <h2 className="text-xl font-bold ">Page 17</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1215,10 +945,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 19 */}
+        {/* page 18 */}
         <div className="p-3 text-black bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 19</h2>
+            <h2 className="text-xl font-bold ">Page 18</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1417,10 +1147,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 20 */}
+        {/* page 19 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 20</h2>
+            <h2 className="text-xl font-bold ">Page 19</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1569,10 +1299,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 21 */}
+        {/* page 20 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 21</h2>
+            <h2 className="text-xl font-bold ">Page 20</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1681,6 +1411,283 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
+
+
+
+
+        {/* page 7 */}
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 7</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
+            >
+              ⬅ Back to index
+            </button>
+          </div>
+          <div className="">
+            <p className="font-bold">Article - the</p>
+            <p className="font- pt-2">কখন “দা” এবং কখন "দি” হবেঃ</p>
+            <div className="text-sm md:text-base">
+              <p className="">
+                সূত্রঃ "দাদির CV" <br />
+                দা = C (Consonant) <br />
+                দি = V (Vowel) <br />
+                <br />
+                ➡️ The এর পর যদি Vowel sound থাকে তবে এর উচ্চারণ 'দি' এর মতো
+                হবে। যেমন: <br />
+                The egg = দি এগ <br />
+                The apple = দি অ্যাপল <br />
+                The honest boy = দি অনিষ্ট বয় <br /> <br />
+                ✨ The এর পর যদি Consonant sound থাকে তবে এর উচ্চারণ 'দা' এর মতো
+                হবে। <br />
+                যেমন: <br />
+                The ball = দা বল <br />
+                The holy Quran = দা হৌলি কুরআন <br />
+                The country = দা খানট্টি <br />
+                The book = দা বুক <br />
+              </p>
+              <p className=""></p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 8 */}
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 8</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
+            >
+              ⬅ Back to index
+            </button>
+          </div>
+          <div className="">
+            <p className="font-bold">Article - a</p>
+            <div className="text-sm md:text-base">
+              <p className="">
+                'a' যখন article হিসেবে ব্যবহৃত হবে তখন 'a' এর উচ্চারণ //ə/ -
+                [আ/অ্য] হবে এবং [আ] ধ্বনিটি পরের শব্দের সাথে একসাথে উচ্চারিত
+                হবে। এই দু'টি উচ্চারণের মধ্যে তেমন কোন পার্থক্য নেই। <br />
+                যেমনঃ <br />
+                a pen [আ'পেন] ('এ পেন' নয়) <br />
+                a book [আ'বুক] ('এ বুক' নয়) <br /> <br />
+                /ə/ ধ্বনিটি একটি short neutral sound তাই স্বরটি ছোট বোঝাতে [আ]
+                বা [অ্য] ধ্বনিটি একটু ছোট অক্ষরে প্রকাশ করা হয়েছে। <br />
+              </p>
+            </div>
+          </div>
+          <p className="font-bold text-center heading2 py-20">
+            ASM English Academy
+          </p>
+        </div>
+
+        {/* page 9  */}
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 9</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
+            >
+              ⬅ Back to index
+            </button>
+          </div>
+          <div className="text-base">
+            <p className="font-bold">P, T, C, Q & K Sound</p>
+            <div className="text-base">
+              <p className="">
+                Aspirated Sound মানে এগুলো উচ্চারণের সময় মুখ দিয়ে বেশি পরিমানে
+                বাতাস বের হবে। যেমনঃ
+                <br />
+                /P/প, /T/ট, /K/ক এর মত উচ্চারণ না করে অনেকটা /P/ফ, /T/ঠ, /K/খ এর
+                মত উচ্চারণ করাকে Aspirated Sound বলে। <br />
+              </p>
+            </div>
+            <div className="">
+              <p className="font-bold pt-3">কখন Aspirated হবে? </p>
+              <div className="text-base">
+                <span className="font-semibold">Rule-1</span> <br />
+                'Word' এর শুরুতে 'p, t, k, c, q' থাকলে সেই Sound-গুলো 'ফ', 'ঠ' ও
+                'খ' এর মত হয়ে থাকে। যেমনঃ <br />
+                Pot - (ফট), <br />
+                Team - (ঠিম), <br />
+                kind -(খাইন্ড) <br />
+                <span className="font-semibold">Rule-2</span> <br />
+                'S' এর পর 'p, t, k' থাকলে সেই Sound- টি Aspirated হবে না। এ
+                ক্ষেত্রে বাংলা প, ট, ক এর মতই উচ্চারিত হবে। যেমনঃ <br />
+                Stay - স্টেই <br />
+                Basket - বাস্কিট <br />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* page 10 */}
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 10</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold">'p, t, k, c, q' Sound: </p>
+            <div className="text-base">
+              <span className="font-semibold">Rule-3</span> <br />
+              'Word' এর শেষে 'p, t, k, c, q' থাকলে সেই Sound-গুলো Aspirated হয়
+              না। যেমনঃ <br />
+              Clap = ক্ল্যাপ <br />
+              Deep = ডিপ <br />
+              <span className="font-semibold">Rule-4</span> <br />
+              'Word' এর মাঝখানে যদি 'p, t, k' থাকে, যদি সেই 'p/t/k' উপর stress
+              দেয়া হয়, তাহলে Sound-টি Aspirated হবে; আর যদি stress দেয়া না হয়,
+              তাহলে Sound-টি Aspirated হবে না। যেমনঃ <br />
+              appoint = অ'ফোইন্ট <br />
+              Fatal = ফেই'ঠল <br />
+            </div>
+            <p className="pt-3">
+              Note: P, T & K এই ৩টি অক্ষরের উচ্চারণ সঠিক হলে শুদ্ধ উচ্চারণের ৩০%
+              সঠিক হয়ে যাবে। সাধারণতঃ আমরা বাংলাদেশীরা এ ৩টি লেটারকে পি, টি, কে
+              এর মত উচ্চারণ করি, কিন্তু Native speaker রা এগুলো P (ফি), T (ঠি),
+              K (খেই) উচ্চারণ করে থাকে।
+            </p>
+
+            <br />
+          </div>
+        </div>
+        {/* page 11 */}
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 11</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
+            >
+              ⬅ Back to index
+            </button>
+          </div>
+          <div className="">
+            <p className="font-bold">Example of P, T, C, Q & K</p>
+            <div className="flex justify-between text-sm md:text-base">
+              <p className="">
+                <span className="font-semibold">❇️'T' Sound বা উচ্চারণঃ </span>
+                <br />
+                Time = ঠাইম <br />
+                Table = ঠেইবল <br />
+                Talk = ঠোক <br />
+                Today = ঠুডেই <br />
+                Touch = ঠাচ <br />
+                Tuition = ঠিউশন <br />
+                <span className="font-semibold">❇️'K, C, Q' Sound' </span>
+                <br />
+                Cat = খ্যাট <br />
+                question = খোয়েশচন <br />
+                Cute = খিউট <br />
+              </p>
+              <p className="">
+                Country = খান্ট্রি <br />
+                Carry = খ্যারি <br />
+                Caption = খ্যাপশন <br />
+                Curious = খিউওরিয়াশ <br />
+                Kick = খিক <br />
+                kind = খাইন্ড <br />
+                Kite = খাইট <br />
+                king = খিং <br />
+                queen = খুইন <br />
+                quarrel = খুআরল <br />
+                quarter = খুআটা
+              </p>
+            </div>
+            <p className="pt-2">
+              Note: উচ্চারণে সম্পূর্ণ পারফেকশন আনার জন্য ক্যামব্রিজসহ অন্যান্য
+              অনলাইন ডিকশনারীতে যে কোন শব্দ লিখে সার্চ দিয়ে অডিও শুনে শুনে
+              প্র্যাকটিস করতে হবে। অনলাইন ডিকশনারীঃ www.dictionary.cambridge.org
+            </p>
+          </div>
+          <p className="heading2 text-center pt-3">ASM English Academy</p>
+        </div>
+
+        {/* page 13 */}
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 13</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold"> Pronunciation of "R"</p>
+            <div className=" text-sm md:text-base">
+              <p className="">
+                ব্রিটিশরা কোথাও কোথাও 'R' এর উচ্চারণ করে; আবার কোথাও কোথাও 'R'
+                এর উচ্চারণ করে না। আবার আমেরিকানরা সর্বদাই 'R' এর উচ্চারণ করতে
+                অভ্যস্ত। <br />
+                আমরা সবখানেই 'R' এর উচ্চারণ করে থাকি। তবে, ইংরেজি বলার সময়
+                আমাদের ব্রিটিশ ও আমেরিকান: এই দুই ধরনের উচ্চারণের মিশ্রণ সমীচীন
+                নয়। কাজেই, চলুন জেনে নিই ব্রিটিশরা কোথায় 'R' এর উচ্চারণ করে; আর
+                কোথায় করে না।
+                <br />
+                <br />
+                ব্রিটিশরা 'R' যখন উচ্চারণ করে থাকেঃ <br />
+                ১. শব্দের এর শুরুতে 'R'/ Vowel er purbe R থাকলে ব্রিটিশরা 'R' এর
+                উচ্চারণ করে থাকে। যেমনঃ <br />
+                Read = রিড <br />
+                Rice = রাইস <br />
+                Ring = রিং
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 14 */}
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 14</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-semibold py-1"> R এর উচ্চারণ: </p>
+            <div className=" text-sm md:text-base">
+              <p className="">
+                ২. শব্দের এর শুরুতে 'Wr' থাকলে ব্রিটিশরা 'R' এর উচ্চারণ করে
+                থাকে। যেমনঃ <br />
+                Write - রাইট <br />
+                ব্রিটিশরা 'R' যখন উচ্চারণ করে নাঃ <br />
+                ১. 'word' এর শেষে 'R' থাকলে ব্রিটিশরা 'R' এর উচ্চারণ করে না।
+                যেমনঃ <br />
+                Brother = ব্রাদা <br />
+                Teacher = ঠিচা <br />
+                ২. 'word এর শেষে 'Re' থাকলেও ব্রিটিশরা 'R' এর উচ্চারণ করে না।
+                যেমনঃ <br />
+                care = খ্যায়া <br />
+                fare = ফ্যায়া <br />
+                ৩. 'word' এর মধ্যে 'R' এর পর pure consonant থাকলে ব্রিটিশরা 'R'
+                এর উচ্চারণ করে না। যেমনঃ <br />
+                cart = খাট <br />
+                Saturday = স্যটাডেই
+              </p>
+              <p className="text-center pt-5 heading2">ASM English Academy</p>
+            </div>
+          </div>
+        </div>
+
+        
 
         {/* page 21 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
