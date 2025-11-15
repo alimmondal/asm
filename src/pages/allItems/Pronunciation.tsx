@@ -10,8 +10,21 @@ const Pronunciation = () => {
 
   const totalPages = 70; // Update when you add more pages
 
+    // 🔊 Add audio ref for page flip sound
+  const flipSound = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    flipSound.current = new Audio("/sounds/mixkit-page-turn-single-1104.wav");
+    flipSound.current.volume = 1.0; // optional: adjust volume
+  }, []);
+
+  // Play sound on flip
   const onFlip = (e: any) => {
     setCurrentPage(e.data);
+    if (flipSound.current) {
+      flipSound.current.currentTime = 0;
+      flipSound.current.play();
+    }
   };
 
   const FlipBook = HTMLFlipBook as any;
@@ -36,10 +49,10 @@ const Pronunciation = () => {
 
   const contents = [
     { title: "Alphabet sound", pages: "4-6" },
+    { title: "IPA (Phonetics)", pages: "7 - 14" },
     { title: "Article", pages: "7-8" },
     { title: "P, T, C, Q & K Sound", pages: "9 - 11" },
     { title: '"R" এর উচ্চারণ', pages: "13 - 14" },
-    { title: "IPA (Phonetics)", pages: "15 - 20" },
     { title: "Verb contractions", pages: "21 - 23" },
     { title: "Elision ধ্বনিলোপ ", pages: "24-25" },
     { title: "S এর সঠিক উচ্চারণ", pages: "26 - 28" },
@@ -63,6 +76,16 @@ const Pronunciation = () => {
   const goToContents = () => {
     if (flipBook.current) {
       flipBook.current.pageFlip().flip(2); // 👈 contents page (Page 2 visually)
+    }
+  };
+
+   // Helper: play sound when flipping manually
+  const playFlipSound = () => {
+    if (flipSound.current) {
+      flipSound.current.currentTime = 0;
+      flipSound.current
+        .play()
+        .catch((err) => console.warn("Playback prevented:", err));
     }
   };
 
@@ -131,9 +154,9 @@ const Pronunciation = () => {
         </div>
 
         {/* page1 */}
-        <div className="p-3 text-black md:p-5 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-1">Page 1</h2>
-          <div className="">
+          <div className="px-4">
             <p className="text-base">
               ভূমিকা <br />
               ইংরেজিতে যারা দক্ষ হতে চান, বিশেষ করে ন্যাটিভ স্পিকারদের মত যারা
@@ -213,7 +236,7 @@ const Pronunciation = () => {
           </p>
         </div>
 
-        {/* page3 */}
+        {/* page3 index*/}
         <div className="p-3 text-black md:p-5 lg:p-10 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-2">Page 3</h2>
           <div className="w-full flex flex-col items-center">
@@ -266,7 +289,7 @@ const Pronunciation = () => {
           </p>
         </div>
 
-        {/* page 4 */}
+        {/* page 4  Alphabet*/}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-between md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 4</h2>
@@ -298,21 +321,32 @@ const Pronunciation = () => {
                 N = এন্‌ <br />
               </p>
               <p className="">
-                {" "}
-                0 = ওউ <br />
-                P = ফী <br />Q = খীউ <br />
-                R = আ (র) <br />S = এস্ <br />T = ঠী <br />
-                U = ইউ <br />V = ভীই <br />W = ডাবল্ইউ <br />X = এক্স <br />Y =
-                ওয়াই <br />Z = জেড/জি <br />
-                (British-জেড, American- জি) <br />
+                0 = ওউ <br /> 
+                P = ফী <br /> 
+                Q = খীউ <br /> 
+                R = আ (র) <br />  
+                S = এস্ <br />   
+                T = ঠী <br />  
+                U = ইউ <br /> 
+                V = ভীই <br />  
+                W = ডাবল্ইউ <br />  
+                X = এক্স <br /> 
+                Y = ওয়াই <br /> 
+                Z = জেড/জি <br /> 
+                (British-জেড, American- জি) <br /> 
               </p>
+              
             </div>
-          </div>
+          </div> 
+
+           <div className="max-w-fit mx-auto p-5 text-center border-2 border-blue-500 mt-5"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1jZbkJTk4EX0QQ_LHLgcWTxLSeLu5CclH/view?usp=drivesdk">click here to listen to audio</a>
+            </div>
         </div>
 
-        {/* page 5 */}
-        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-between md:justify-start md:gap-96 mb-2">
+        {/* page 5 Alphabet এর সঠিক উচ্চারণ */}
+        <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-between md:justify-start md:gap-44 mb-2">
             <h2 className="text-xl font-bold">Page 5</h2>
             <button
               onClick={goToContents}
@@ -323,7 +357,7 @@ const Pronunciation = () => {
           </div>
           <div className="">
             <p className="font-bold py-2">Alphabet এর সঠিক উচ্চারণ</p>
-            <div className="text-sm md:text-base text-justify">
+            <div className="text-sm md:text-base ">
               <p className="">
                 Consonant Digraphs <br />
                 বাংলা ভাষায় যেমন কিছু যুক্ত অক্ষর আছে, ইংরেজি ভাষাতেও দুই বা
@@ -380,10 +414,10 @@ const Pronunciation = () => {
 
 
 
-{/* page 15 IPA Start*/}
+        {/* page 6 IPA Start*/}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 15</h2>
+            <h2 className="text-xl font-bold ">Page 6</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -395,7 +429,7 @@ const Pronunciation = () => {
           <div className="">
             <p className="font-bold py-1"> IPA(Phonetics) </p>
             <div className=" text-sm md:text-base">
-              <p className="text-justify">
+              <p className="">
                 ইংরেজিতে মোট ৪৪টি Vowel & Consonant sound রয়েছে। এই ৪৪টি সাউন্ড
                 সঠিকভাবে উচ্চারণ শিখতে পারলে আমরাও ন্যাটিভদের মত শুদ্ধ ও স্মার্ট
                 উচ্চারণে ইংরেজিতে কথা বলতে পারবো। ৪৪টি সাউন্ড এর মধ্যে 20 Vowel
@@ -414,10 +448,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 16 */}
+        {/* page 7 */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 16</h2>
+            <h2 className="text-xl font-bold ">Page 7</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -551,10 +585,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 16 */}
+        {/* page 8 */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 16</h2>
+            <h2 className="text-xl font-bold ">Page 8</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-base rounded hover:bg-white hover:text-blue-500"
@@ -741,10 +775,10 @@ const Pronunciation = () => {
 
         
         
-        {/* page 17 */}
+        {/* page 9 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 17</h2>
+            <h2 className="text-xl font-bold ">Page 9</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -945,10 +979,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 18 */}
+        {/* page 10 */}
         <div className="p-3 text-black bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 18</h2>
+            <h2 className="text-xl font-bold ">Page 10</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1147,10 +1181,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 19 */}
+        {/* page 11 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 19</h2>
+            <h2 className="text-xl font-bold ">Page 11</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1299,10 +1333,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 20 */}
+        {/* page 12 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 20</h2>
+            <h2 className="text-xl font-bold ">Page 12</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1415,10 +1449,10 @@ const Pronunciation = () => {
 
 
 
-        {/* page 7 */}
+        {/* page 13 */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 7</h2>
+            <h2 className="text-xl font-bold ">Page 13</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
@@ -1453,8 +1487,8 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 8 */}
-        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+        {/* page 14 */}
+        <div className="p-3 text-black lg:p-14 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 8</h2>
             <button
@@ -1484,10 +1518,10 @@ const Pronunciation = () => {
           </p>
         </div>
 
-        {/* page 9  */}
+        {/* page 15  */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 9</h2>
+            <h2 className="text-xl font-bold ">Page 15</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
@@ -1524,10 +1558,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 10 */}
+        {/* page 16 */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 10</h2>
+            <h2 className="text-xl font-bold ">Page 16</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1561,10 +1595,10 @@ const Pronunciation = () => {
             <br />
           </div>
         </div>
-        {/* page 11 */}
+        {/* page 17 */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 11</h2>
+            <h2 className="text-xl font-bold ">Page 17</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
@@ -1613,10 +1647,10 @@ const Pronunciation = () => {
           <p className="heading2 text-center pt-3">ASM English Academy</p>
         </div>
 
-        {/* page 13 */}
+        {/* page 18 */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 13</h2>
+            <h2 className="text-xl font-bold ">Page 18</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1649,10 +1683,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 14 */}
+        {/* page 19 */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 14</h2>
+            <h2 className="text-xl font-bold ">Page 19</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1689,10 +1723,10 @@ const Pronunciation = () => {
 
         
 
-        {/* page 21 */}
+        {/* page 20 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 21</h2>
+            <h2 className="text-xl font-bold ">Page 20</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1755,10 +1789,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 22 */}
+        {/* page 21 */}
         <div className="p-2 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 22</h2>
+            <h2 className="text-xl font-bold ">Page 21</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1818,10 +1852,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 23 */}
+        {/* page 22 */}
         <div className="p-2 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 23</h2>
+            <h2 className="text-xl font-bold ">Page 22</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1879,10 +1913,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 24 */}
+        {/* page 23 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 24</h2>
+            <h2 className="text-xl font-bold ">Page 23</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1915,10 +1949,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 25 */}
+        {/* page 24 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 25</h2>
+            <h2 className="text-xl font-bold ">Page 24</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1948,10 +1982,10 @@ const Pronunciation = () => {
           <p className="heading2 text-center pt-20">ASM English Academy</p>
         </div>
 
-        {/* page 26 */}
+        {/* page 25 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 26</h2>
+            <h2 className="text-xl font-bold ">Page 25</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2052,10 +2086,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 27 */}
+        {/* page 26 */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 27</h2>
+            <h2 className="text-xl font-bold ">Page 26</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3630,7 +3664,10 @@ const Pronunciation = () => {
         <div className="flex items-center gap-4 mt-6">
           <button
             className="px-3 py-1 bg-gray-700 text-white rounded"
-            onClick={() => flipBook.current.pageFlip().turnToPrevPage()}
+            onClick={() => {
+              playFlipSound();
+              flipBook.current.pageFlip().turnToPrevPage();
+            }}
           >
             ◀ Prev
           </button>
@@ -3665,6 +3702,7 @@ const Pronunciation = () => {
             className="px-3 py-1 bg-indigo-600 text-white rounded disabled:opacity-50"
             disabled={jumpPage === "" || jumpPage < 1 || jumpPage > totalPages}
             onClick={() => {
+              playFlipSound();
               if (
                 typeof jumpPage === "number" &&
                 jumpPage >= 1 &&
@@ -3672,6 +3710,7 @@ const Pronunciation = () => {
               ) {
                 flipBook.current.pageFlip().flip(jumpPage);
               }
+              
             }}
           >
             Go
@@ -3688,7 +3727,10 @@ const Pronunciation = () => {
                   ? "bg-indigo-600 text-white"
                   : "bg-gray-200 hover:bg-gray-300"
               }`}
-              onClick={() => flipBook.current.pageFlip().flip(i)}
+              onClick={() => {
+                playFlipSound();
+                flipBook.current.pageFlip().flip(i);
+              }}
             >
               {i + 1}
             </button>
