@@ -90,7 +90,7 @@ const Pronunciation = () => {
   };
 
   return (
-    <div className="flex flex-col items-center py-4 md:py-10 px-5 md:px-10">
+    <div className="flex flex-col items-center justify-center py-4 md:py-10 px-5 overflow-hidden">
       <FlipBook
         width={isPortrait ? 400 : 500} // smaller width for portrait
         height={isPortrait ? 600 : 300} // taller height for portrait
@@ -171,12 +171,7 @@ const Pronunciation = () => {
               জন্য বাংলায় কোন বর্ণ নেই। উদাহরণস্বরুপ, 'Pen' শব্দটির 'P' উচ্চারণ
               করতে অনেকটা 'ফ' এর মত মনে হয়, অর্থাৎ, 'প' ও 'ফ' এর মাঝামাঝি একটি
               উচ্চারণ যেটি বাংলায় কোন বর্ণ নেই।
-              {/* এজন্য, মূলতঃ বইটিতে উল্লেখিত
-              উদাহরণ বার বার প্র্যাকটিসের মাধ্যমে শুদ্ধ উচ্চারণ আয়ত্ত্ব করতে
-              হবে।  */}
-              <br />
-              {/* সবশেষে সুপ্রিয় শিক্ষার্থীদের প্রতি অনুরোধ বইটিতে কোন ভুল/অসংগতি
-              চোঁখে পরলে নীচের ই-মেইলে জানালে কৃতজ্ঞ থাকবো। <br /> */}
+              
               ধন্যবাদান্তে,
             </p>
           </div>
@@ -290,7 +285,7 @@ const Pronunciation = () => {
         </div>
 
         {/* page 4  Alphabet*/}
-        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-between md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 4</h2>
             <button
@@ -302,51 +297,54 @@ const Pronunciation = () => {
           </div>
 
           <div className="">
-            <p className="font-bold">Alphabet (এ্যালফাবেট) এর সঠিক উচ্চারণ</p>
-            <div className="w-full flex  justify-evenly text-sm md:text-base">
+            <p className="font-bold">ABC in IPA (এ্যালফাবেট) এর সঠিক উচ্চারণ</p>
+            <div className="w-full flex  justify-evenly text-base">
               <p className="">
-                A = এই <br />
-                B = বী <br />
-                C = সী <br />
-                D = ডী <br />
-                E = ঈ <br />
-                F = এফ <br />
-                G = জী <br />
-                H = এইচ্ <br />
-                | = আই <br />
-                J = জ্বেই <br />
-                K = খেই <br />
-                L = এল্ <br />
-                M = এ্যম্ <br />
-                N = এন্‌ <br />
+                A = /eɪ/ = এই <br />
+                B = /biː/ = বী   <br />
+                C = /siː/ = সী <br />
+                D = /diː/ = ডী <br />
+                E = /iː/ = ঈ <br /> 
+                F = /ef/ = এফ <br />
+                G = /dʒiː/ = জী <br />
+                H = /eɪtʃ/ = এইচ্ <br /> 
+                I = /aɪ/ = আই <br />
+                J = /dʒeɪ/ =  জ্বেই <br />  
+                K = /keɪ/ = খেই <br />
+                L = /el/ = এল্ <br />
+                M = /em/ = এ্যম্ <br />
+                N = /en/ = এন্‌ <br />
               </p>
               <p className="">
-                0 = ওউ <br /> 
-                P = ফী <br /> 
-                Q = খীউ <br /> 
-                R = আ (র) <br />  
-                S = এস্ <br />   
-                T = ঠী <br />  
-                U = ইউ <br /> 
-                V = ভীই <br />  
-                W = ডাবল্ইউ <br />  
-                X = এক্স <br /> 
-                Y = ওয়াই <br /> 
-                Z = জেড/জি <br /> 
+                O = /əʊ/ = ওউ <br /> 
+                P = /piː/ =  ফী <br /> 
+                Q = /kjuː/ = খীউ <br /> 
+                R = /ɑːr/, /ɑː(r)/ = আ (র) <br />  
+                S = /es/ = এস্ <br />   
+                T = /tiː/ = ঠী <br />  
+                U = /juː/ = ইউ <br /> 
+                V = /viː/ = ভীই <br />  
+                W = /ˈdʌbljuː/ = ডাবল্ইউ <br />  
+                X = /eks/ = এক্স <br /> 
+                Y = /waɪ/ = ওয়াই <br /> 
+                Z = /zed/, /ziː/ = জেড/জি <br /> 
                 (British-জেড, American- জি) <br /> 
               </p>
               
             </div>
           </div> 
 
-           <div className="max-w-fit mx-auto p-5 text-center border-2 border-blue-500 mt-5"> 
+           <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3"> 
               <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1jZbkJTk4EX0QQ_LHLgcWTxLSeLu5CclH/view?usp=drivesdk">click here to listen to audio</a>
+            </div>
+           <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/OWfaVUaaqO0?si=fBBxV45pLKJMip2F">click here to listen to audio</a>
             </div>
         </div>
 
-        {/* page 5 Alphabet এর সঠিক উচ্চারণ */}
+        {/* page 5 Consonant Diagraph */}
         <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-between md:justify-start md:gap-44 mb-2">
+          <div className="flex justify-start gap-10">
             <h2 className="text-xl font-bold">Page 5</h2>
             <button
               onClick={goToContents}
@@ -356,10 +354,10 @@ const Pronunciation = () => {
             </button>
           </div>
           <div className="">
-            <p className="font-bold py-2">Alphabet এর সঠিক উচ্চারণ</p>
-            <div className="text-sm md:text-base ">
+            <p className="font-bold ">Consonant Diagraph</p>
+            <div className="text-base">
               <p className="">
-                Consonant Digraphs <br />
+                {/* Consonant Digraphs <br /> */}
                 বাংলা ভাষায় যেমন কিছু যুক্ত অক্ষর আছে, ইংরেজি ভাষাতেও দুই বা
                 ততোধিক শব্দ তেমনি যুক্ত অক্ষরের কাজ করে থাকে যার মাধ্যমে একটি
                 আলাদা ব্যঞ্জনধ্বনি বা স্বরধ্বনি প্রকাশ করে। এই Lesson-এ আমরা
@@ -368,20 +366,21 @@ const Pronunciation = () => {
                 বলা হয়ে থাকে। উল্লেখ্য, Consonant Digraphs শব্দের শুরুতে বা শেষে
                 ব্যবহার হয়ে থাকে। নিচে উদাহরনসহ কয়েকটি দেয়া হলো: <br />
                 Digraph Initial/Last Sound Examples <br />
-                "ph-"ফ - [শব্দের শুরুতে] - Phone; Physics; <br />
-                "-ph"ফ - [শব্দের শেষে] - Graph; morph triumph <br />
-                "kn-"ন - [শব্দের শুরুতে] - Know; knight; kneel <br />
-                "ch-"চ - [শব্দের শুরুতে] - Cheer; chat; chocolate <br />
-                "-ch"চ - [শব্দের শেষে] - Catch; match; batch <br />
-                "-ck"ক - [শব্দের শেষে] - Check; neck; deck <br />
+                "gh-" গ - [শব্দের শুরুতে] - Ghost;  <br />
+                "ph-" ফ - [শব্দের শুরুতে] - Phone; Physics; <br />
+                "-ph" ফ - [শব্দের শেষে] - Graph; morph triumph <br />
+                "kn-" ন - [শব্দের শুরুতে] - Know; knight; kneel <br />
+                "ch-" চ - [শব্দের শুরুতে] - Cheer; chat; chocolate <br />
+                "-ch "চ - [শব্দের শেষে] - Catch; match; batch <br />
+                "-ck" ক - [শব্দের শেষে] - Check; neck; deck <br />
               </p>
             </div>
           </div>
         </div>
 
-        {/* page 6 */}
+        {/* page 6 Consonant Diagraph */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-between md:justify-start md:gap-96 mb-2">
+          <div className="flex justify-around md:justify-start md:gap-24 mb-2">
             <h2 className="text-xl font-bold">Page 6</h2>
             <button
               onClick={goToContents}
@@ -391,8 +390,8 @@ const Pronunciation = () => {
             </button>
           </div>
           <div className="">
-            <p className="font-bold py-2">Alphabet এর সঠিক উচ্চারণ</p>
-            <div className="text-sm md:text-base ">
+            <p className="font-bold py-2">Consonant Diagraph</p>
+            <div className="text-base ">
               <p className="">
                 Consonant Digraphs <br />
                 "th-"- থ - [শব্দের শুরুতে] - Thank; think; thumb <br />
@@ -416,8 +415,8 @@ const Pronunciation = () => {
 
         {/* page 6 IPA Start*/}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 6</h2>
+          <div className="flex justify-start gap-10 md:justify-start md:gap-44 mb-2">
+            <h2 className="text-xl font-bold ">Page 6</h2> 
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -426,9 +425,9 @@ const Pronunciation = () => {
             </button>
           </div>
           <hr className="border border-gray-400" />
+            <p className="font-bold py-1">IPA(Phonetics)</p>
           <div className="">
-            <p className="font-bold py-1"> IPA(Phonetics) </p>
-            <div className=" text-sm md:text-base">
+            <div className="text-base">
               <p className="">
                 ইংরেজিতে মোট ৪৪টি Vowel & Consonant sound রয়েছে। এই ৪৪টি সাউন্ড
                 সঠিকভাবে উচ্চারণ শিখতে পারলে আমরাও ন্যাটিভদের মত শুদ্ধ ও স্মার্ট
@@ -440,7 +439,7 @@ const Pronunciation = () => {
                 দেখানো হয়। <br />
                 যেমনঃ A-/eɪ/, Day - /deɪ/, Good - /gud/ <br />
                 আমি আপনাদেরকে পর্যায়ক্রমে ব্যাসিক থেকে IPA সিম্বল অনুযায়ী
-                বিভিন্ন উদাহরণের মাধ্যমে শেখানোর চেষ্টা করবো।
+                বিভিন্ন উদাহরণের মাধ্যমে আলোচনার চেষ্টা করবো।
               </p>
               <br />
               Let's get started.
@@ -463,7 +462,7 @@ const Pronunciation = () => {
           <div className="">
             <p className="font-bold py-1"> IPA (Long Vowel) </p>
 
-            <div className=" text-base">
+            <div className=" text-base lg:text-xl">
               <p className="text-base p-3">
                 প্রতিটি সিম্বলগুলো আয়ত্ব করে ফেলুন। কারণ, এ সিম্বলগুলো রপ্ত
                 করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
@@ -497,7 +496,7 @@ const Pronunciation = () => {
                         /uː/
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        ঊ
+                        ঊ:
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
                         food
@@ -514,7 +513,7 @@ const Pronunciation = () => {
                         /iː/
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        ঈ
+                        ঈ:
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
                         see
@@ -532,16 +531,16 @@ const Pronunciation = () => {
                         /ɔː/
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        ও
+                        ও:
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        law
+                        Board
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        /lɔː/
+                        /bɔːrd/
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        ল’
+                      বোর্ড
                       </td>
                     </tr>
 
@@ -550,7 +549,7 @@ const Pronunciation = () => {
                         /ɜ:/
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        আ
+                        আ:
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
                         Bird
@@ -567,7 +566,7 @@ const Pronunciation = () => {
                         /ɑː/
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        আ
+                        আ:
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
                         car
@@ -582,6 +581,12 @@ const Pronunciation = () => {
                   </tbody>
                 </table>
               </div>
+              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/Aecgq7-9GmI?si=qBUnctb6aVKCwAly">click here to listen to audio</a>
+            </div>
+              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eERkHcLpxa8?si=LYByk1W1OsDnL7Bi">click here to listen to audio</a>
+            </div>
             </div>
           </div>
         </div>
@@ -790,12 +795,12 @@ const Pronunciation = () => {
           <div className="">
             <p className="font-bold"> IPA (Consonant-1) </p>
             <div className="text-base">
-              <div className="ustify-center pt-1 ">
+              <div className=" pt-1 ">
                 <p className="text-sm md:text-base">
                   এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম
                   হবেন।
                 </p>
-                <div className="">
+                <div className="flex items-center justify-center">
                   <table className="table-auto border-collapse border border-gray-400 shadow-md">
                     <thead className="bg-gray-100">
                       <tr>
@@ -818,23 +823,7 @@ const Pronunciation = () => {
                     </thead>
                     <tbody>
                       
-                      <tr>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          /v/
-                        </td>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          ভ (v)
-                        </td>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          van
-                        </td>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          /væn/
-                        </td>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          ভ্যান
-                        </td>
-                      </tr>
+                      
                       <tr>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
                           /θ/
@@ -976,12 +965,15 @@ const Pronunciation = () => {
                 </div>
               </div>
             </div>
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eERkHcLpxa8?si=Gef6coKD_eRVsbbZ">click here to listen to audio</a>
+            </div>
           </div>
         </div>
 
         {/* page 10 */}
         <div className="p-3 text-black bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-44 mb-2">
             <h2 className="text-xl font-bold ">Page 10</h2>
             <button
               onClick={goToContents}
@@ -991,15 +983,15 @@ const Pronunciation = () => {
             </button>
           </div>
           <hr className="border border-gray-400" />
-          <div className="">
+          <div className="text-base">
             <p className="font-bold"> IPA (Consonant-2) </p>
-            <div className="text-base">
-              <p className="text-xs md:text-base">
+            <div className="">
+              <p className="text-xs md:text-base lg:text-xl">
                 এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
               </p>
               <div className="flex justify-center pt-1 ">
                 <div className="flex md:flex-row gap-3 p-1">
-                  <table className="table-auto border-collapse border border-gray-400 shadow-md">
+                  <table className="table-auto border-collapse border border-gray-400 shadow-md ">
                     <thead className="bg-gray-100">
                       <tr>
                         <th className="border border-gray-400 px-2 lg:px-8 py-1 font-bold text-orange-300">
@@ -1021,23 +1013,7 @@ const Pronunciation = () => {
                     </thead>
                     <tbody>
                       
-                      <tr>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          /r/
-                        </td>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          র (r)
-                        </td>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          red
-                        </td>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          /red/
-                        </td>
-                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          রেড
-                        </td>
-                      </tr>
+                      
                       <tr>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
                           /h/
@@ -1060,7 +1036,7 @@ const Pronunciation = () => {
                           /p/
                         </td>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          প (p)
+                          ফ (p) 
                         </td>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
                           pen
@@ -1069,7 +1045,7 @@ const Pronunciation = () => {
                           /pen/
                         </td>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          পেন
+                          ফেন 
                         </td>
                       </tr>
                       <tr>
@@ -1094,7 +1070,7 @@ const Pronunciation = () => {
                           /t/
                         </td>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          ট (t)
+                          ঠ (t)
                         </td>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
                           top
@@ -1103,7 +1079,7 @@ const Pronunciation = () => {
                           /tɒp/
                         </td>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          টপ
+                          ঠপ
                         </td>
                       </tr>
                       <tr>
@@ -1128,7 +1104,7 @@ const Pronunciation = () => {
                           /k/
                         </td>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          ক (k)
+                          খ (k)
                         </td>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
                           cat
@@ -1145,7 +1121,7 @@ const Pronunciation = () => {
                         /j/
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        ই
+                        ই<sup>অ</sup> 
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
                         yes
@@ -1180,8 +1156,11 @@ const Pronunciation = () => {
               </div>
             </div>
           </div>
+          <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eERkHcLpxa8?si=Gef6coKD_eRVsbbZ">click here to listen to audio</a>
+            </div>
         </div>
-        {/* page 11 */}
+        {/* page 11  */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 11</h2>
@@ -1199,7 +1178,7 @@ const Pronunciation = () => {
               <p className="text-base">
                 এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
               </p>
-              <div className="flex justify-center pt-1 ">
+              <div className="flex justify-center items-center pt-1 ">
                 <div className="flex md:flex-row gap-3 p-1">
                   {/* Right Table */}
                   <table className="table-auto border-collapse border border-gray-400 shadow-md">
@@ -1325,17 +1304,55 @@ const Pronunciation = () => {
                           ফ্যান
                         </td>
                       </tr>
+                      <tr>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          /r/
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          র (r)
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          red
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          /red/
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          রেড
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          /v/
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          ভ (v)
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          van
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          /væn/
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          ভ্যান
+                        </td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>
+               
               </div>
+            </div>
+             <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eERkHcLpxa8?si=Gef6coKD_eRVsbbZ">click here to listen to audio</a>
             </div>
           </div>
         </div>
 
-        {/* page 12 */}
+        {/* page 12 Dipthong in IPA */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 ">
             <h2 className="text-xl font-bold ">Page 12</h2>
             <button
               onClick={goToContents}
@@ -1441,6 +1458,10 @@ const Pronunciation = () => {
                   </tbody>
                 </table>
               </div>
+              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-sm"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/LekE44y2Ol4?si=OTdw58ie0GJdszW-">click here to listen to audio</a>
+            </div>
+              
               <p className="pt-3 heading2 text-center">ASM English Academy</p>
             </div>
           </div>
