@@ -50,7 +50,7 @@ const Pronunciation = () => {
   const contents = [
     { title: "Alphabet sound", pages: "4-6" },
     { title: "IPA (Phonetics)", pages: "7 - 14" },
-    { title: "Article", pages: "7-8" },
+    { title: "Article", pages: "13-15" },
     { title: "P, T, C, Q & K Sound", pages: "9 - 11" },
     { title: '"R" এর উচ্চারণ', pages: "13 - 14" },
     { title: "Verb contractions", pages: "21 - 23" },
@@ -1351,12 +1351,12 @@ const Pronunciation = () => {
         </div>
 
         {/* page 12 Dipthong in IPA */}
-        <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 ">
+        <div className="p-3 text-black bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-44 py-1">
             <h2 className="text-xl font-bold ">Page 12</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+              className=" px-2  bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -1371,7 +1371,7 @@ const Pronunciation = () => {
               </p>
             </div>
             <div className="text-base">
-              <div className="flex justify-center items-center pt-1">
+              <div className="flex justify-center items-center ">
                 <table className="table-auto border-collapse border border-gray-400 shadow-lg">
                   <thead className="bg-gray-200">
                     <tr>
@@ -1458,7 +1458,7 @@ const Pronunciation = () => {
                   </tbody>
                 </table>
               </div>
-              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-sm"> 
+              <div className="max-w-fit mx-auto p-1 text-center border-2 border-blue-500 mt-2 rounded-sm"> 
               <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/LekE44y2Ol4?si=OTdw58ie0GJdszW-">click here to listen to audio</a>
             </div>
               
@@ -1470,8 +1470,8 @@ const Pronunciation = () => {
 
 
 
-        {/* page 13 */}
-        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+        {/* page 13 Article */}
+        <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 13</h2>
             <button
@@ -1489,12 +1489,12 @@ const Pronunciation = () => {
                 সূত্রঃ "দাদির CV" <br />
                 দা = C (Consonant) <br />
                 দি = V (Vowel) <br />
-                <br />
+                
                 ➡️ The এর পর যদি Vowel sound থাকে তবে এর উচ্চারণ 'দি' এর মতো
                 হবে। যেমন: <br />
                 The egg = দি এগ <br />
                 The apple = দি অ্যাপল <br />
-                The honest boy = দি অনিষ্ট বয় <br /> <br />
+                The honest boy = দি অনিষ্ট বয় <br /> 
                 ✨ The এর পর যদি Consonant sound থাকে তবে এর উচ্চারণ 'দা' এর মতো
                 হবে। <br />
                 যেমন: <br />
