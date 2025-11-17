@@ -19,12 +19,12 @@ const QuestionFour = () => {
           has no hopes of (b) __ to college. Like millions of other parents,
           Rokeya's parents think that educating a daughter is a (c) __ of time
           and money. They have (d) __ that they will now marry her off and use
-          their (e) __ resources for their son's education. Rokeya used to (1)
-          __ bout lessons and tests, but now she worries more about getting (g)
-          __ nd having children. She used to dream about being a teacher, but
+          their (e) __ resources for their son's education. Rokeya used to (f)
+          __ about lessons and tests, but now she worries more about getting (g)
+          __ and having children. She used to dream about being a teacher, but
           now faces a life of household chores and (h) __ up children. She used
-          to be happy being a girl but now wishes she (i) __ a boy. If she were
-          a boy, she would be able to (1) __ in college and university.
+          to be happy being a girl but now she wishes she (i) __ a boy. If she were
+          a boy, she would be able to (j) __ in college and university.
           <br />
           রোকেয়া স্কুল শেষ করতে যাওয়া এক বাংলাদেশি মেয়ে কিন্তু তার কলেজে পড়ার
           কোনো আশা নেই। লক্ষ লক্ষ পিতামাতার মতো রোকেয়ার পিতামাতাও মনে করে যে
@@ -36,10 +36,7 @@ const QuestionFour = () => {
           মেয়ে হওয়ায় সে খুশি ছিল কিন্তু এখন সে চায় যদি ছেলে হতো। ছেলে হলে সে
           কলেজ এবং বিশ্ববিদ্যালয়ে পড়তে পারতো।
           <br />
-          1. (a) who (b) going (c) waste (d) decided (e) valuable/scarce (f)
-          worry (g)married (h) bringing (i) were (j) study <br />
-          <br />
-          <br />
+          
           <br />
         </div>
         {/* 2 */}
@@ -67,10 +64,7 @@ const QuestionFour = () => {
           ভাষা অর্জনের জন্য সচেতন নয়। অপরিভাষাগত অর্থে অর্জন হলো
           স্বতঃস্ফূর্তভাবে একটি ভাষা শিক্ষা লাভ করা।
           <br />
-          2.Suitable words (a) ability (b) developing (c) acquisition (d) mother
-          (e) fact (f) using (g) communication (h) natural (i) aware (j)
-          spontaneous
-          <br />
+          
           <br />
         </div>
         {/* 3 */}
@@ -98,10 +92,7 @@ const QuestionFour = () => {
           বৈশ্বিক উষ্ণতার কারণে পানির স্তর বেড়ে যাচ্ছে। ধারণা করা হচ্ছে যে নতুন
           শতাব্দী অত্যধিক পরিবেশ বিপর্যয়ের মুখোমুখি হবে। তাই পরিবেশের লাগামহীন
           দূষণ প্রতিরোধ করা জরুরি/বাধ্যতামূলক।
-          <br />
-          3. (a) habitats (b) extinction (c) cut (d) recklessly (e) increase (f)
-          rising (g) warming (h) anticipated (i) catastrophe (j) imperative{" "}
-          <br />
+          
           <br />
           <br />
           <br />
@@ -109,7 +100,7 @@ const QuestionFour = () => {
         {/* 4 */}
         <div className="">
           4. Cumilla Board-2025 <br />
-          <div className="border border-gray-500 p-1 rounded-sm my-5 ">
+          <div className="border border-gray-500 p-1 rounded-sm my-3 ">
             be | down| handicap | indiscriminate | Imperative| consequence |
             lose | result| wetlands| anticipation | environment | recklessly
           </div>
@@ -130,9 +121,7 @@ const QuestionFour = () => {
           হচ্ছে যার ফলে কার্বন ডাই অক্সাইড বেড়ে যাচ্ছে এবং বৈশ্বিক উষ্ণতা
           বৃদ্ধির ফলে পানির উচ্চতা বাড়ছে। এটা ধরা হচ্ছে যে নতুন শতাব্দী এক
           অপ্রতিরোধ্য পরিবেশ বিপর্যয়ের সম্মুখীন। সুতরাং পরিবেশের নির্বিচার দূষণ
-          রোধ করা আবশ্যক। <br />
-          4. (a) lost (b) wetlands (c) are (d) down (e) recklessly (f) result
-          (g) anticipated (h) environmental (i) imperative (j) indiscriminately
+          রোধ করা আবশ্যক। 
           <br />
           <br />
         </div>
@@ -162,14 +151,12 @@ const QuestionFour = () => {
           পরিবর্তন করে এর অন্যান্য অংশকে প্রভাবিত করা যায়। উদাহরণস্বরূপ, বনাঞ্চল
           ধ্বংস সাধন পরিবেশগত মারাত্মক সমস্যার সৃষ্টি করতে পারে। মানবজাতির
           দায়িত্ব পরিবেশকে ধ্বংস হওয়া থেকে রক্ষা করা। <br />
-          5.(a) interrelated (b) known (c) ecosystem (d) links (e) hang (f)
-          balance (g) altering (h) example (i) ecological (j) responsibility{" "}
-          <br />
+          
           <br />
         </div>
         {/* 6 */}
-        {/* <div className="">
-          6. Dhaka Board-2012; Jashore Board-2004; Chattogram Board-2013; Sylhet
+        <div className="">
+          {/* 6. Dhaka Board-2012; Jashore Board-2004; Chattogram Board-2013; Sylhet
           Board-2025
           <div className="border border-gray-500 p-1 rounded-sm my-2 ">
             even | distance | watch | information | become | source | run | show
@@ -196,8 +183,8 @@ const QuestionFour = () => {
           6. (a) become (b) source (c) varied (d) channels (e) even (f)
           programmes (g) distance (h) run (i) shown (j) informative
           <br />
-          <br />
-        </div> */}
+          <br /> */}
+        </div>
         {/* 7 */}
         <div className="">
           7. Barishal Board-2025; Dinajpur Board-2025
@@ -223,9 +210,7 @@ const QuestionFour = () => {
           চর্চা করবে না? এটি করা কঠিন নয় এবং অনেক, মানুষ প্রশংসা করবে যে তুমি
           খাওয়ার সময় যথাযথ ভদ্রলোকের আচরণ করার মতো বিবেকবান।
           <br />
-          7. (a) manners (b) are (c) accepted (d) behave (e) offended (f)
-          realize/will realize (g) keep up (h)proper (i) appreciate (j)
-          gentleperson <br />
+          
           <br />
         </div>
         {/* 8 */}
@@ -251,9 +236,7 @@ const QuestionFour = () => {
           করার রাস্তা দেখায়। সেজন্য সুনাগরিকদের সকলে ভালবাসে। তারা তাদের
           বস্তুবাদী সমৃদ্ধি নিয়ে ভাবে না। এবং তাই তারা তাদের জীবন অপরের জন্য
           উৎসর্গ করে যেটা তাদের অমর বানায়। <br />
-          9.(a)positive (b) idealistic (c)country (d) being (e) welfare (f)
-          qualities (g) helping (h) materialistic (i) hence (j) immortalizes
-          <br />
+          
           <br />
         </div>
         {/*  10 */}
@@ -287,14 +270,12 @@ const QuestionFour = () => {
           হতাশজনক। তাই একজনের উচিত সবার আগে ইতিবাচক মানবিক দৃষ্টিভঙ্গি অর্জনে
           মনোনিবেশ করা।
           <br />
-          10. (a) achieving (b) syllabus (c) understanding (d) capability (e)
-          enlightenment (f) Both (g) requirement (h) being (i) frustrated (j)
-          concentrate <br />
+          
           <br />
         </div>
         {/* 11 */}
-        {/* <div className="">
-          11. Jashore Board-2024; Mymensingh Board-2023 <br />
+        <div className="">
+          {/* 11. Jashore Board-2024; Mymensingh Board-2023 <br />
           <div className="border border-gray-500 p-1 rounded-sm my-2 ">
             living | changes | huge | mighty | great | ambitious | economic |
             reality | connects | owing | dream | developed
@@ -321,8 +302,8 @@ const QuestionFour = () => {
           অর্থনৈতিক কর্মকান্ডে ব্যাপক উন্নতি সাধন করবে। <br />
           11. (a) reality (b) great (c) ambitious (d) mighty (e) owing (f)
           connects (g) changes (h) living (i) huge (j) economic <br />
-          <br />
-        </div> */}
+          <br /> */}
+        </div>
         {/* 12 */}
         <div className="">
           12. Chattogram Board-2024; Barishal Board-2023: Cumilla Board-2008;
@@ -351,9 +332,7 @@ const QuestionFour = () => {
           হিসাব করতে পারে একজন প্রশিক্ষিত গণিতবিদের তা সম্পূর্ণ করতে বছরের পর
           বছর লেগে যাবে।
           <br />
-          <br />
-          12. (a) recent (b) essential (c) about (d) device (e) called (f)
-          abacus (g) refers (h) large (i) great (j) trained <br />
+          
           <br />
         </div>
         {/* 13 */}
@@ -385,10 +364,7 @@ const QuestionFour = () => {
           প্রতারিত হন যিনি (মেয়র) সেই বংশীবাদককে তার কাজের জন্য এক হাজর গিল্ডার
           দেওয়ার প্রতিশ্রুতি দিয়েছিলেন।
           <br />
-          <br />
-          Answer: (a) matter (b) careful (c) facing (d) make (e) rescued (f)
-          thinking (g) completely (h) story (i) tells (j) cheated
-          <br />
+          
           <br />
         </div>
         {/* 14 */}
@@ -417,9 +393,7 @@ const QuestionFour = () => {
           ব্যয় করছে যা ভবিষ্যত প্রজন্মের জন্য খুবই উদ্বেগজনক। প্রাপ্তবয়স্করাও
           এতে আসক্ত হচ্ছে যা তাদের পারিবারিক জীবনে অনেক সমস্যার সৃষ্টি করছে।
           সুতরাং, আমাদের ফেসবুক ব্যবহারে সচেতন হওয়া উচিত। <br />
-          Answer: (a) popular (b) expanding (c)over (d) invented (e) within (f)
-          spreads (g) misused (h) using (i) addicted (j) family
-          <br />
+          
           <br />
         </div>
         {/* 15 */}
@@ -442,10 +416,7 @@ const QuestionFour = () => {
           পরিণত করতে পারে। আমরা যদি আমাদের মানবসম্পদকে সঠিকভাবে উন্নত করতে পারি,
           এটি দারিদ্র দূরীকরণের একটি সম্ভাব্য উপায় হতে পারে।
           <br />
-          <br />
-          Answer: (a) explosion (b) liabilities (c) think (d) burdensome
-          (e)poverty (f) planning (g) crisis (h) resource (i) possible (j)
-          alleviation <br />
+         
           <br />
         </div>
         {/* 16 */}
@@ -479,9 +450,7 @@ const QuestionFour = () => {
           খেলোয়াড়। ২০২২ বিশ্বকাপ ছিল সত্যিই চিত্ত বিনোদনের বড় উৎস এবং এটি
           চিরস্মরণীয় হয়ে থাকবে।
           <br />
-          16. (a) greatest (b) prestigious (c) organized (d) different (e)
-          Approximately (f) held (g) crowned (h) voted (i) entertainment (j)
-          remembered <br />
+          <br />
         </div>
         <br />
         {/* 17 */}
@@ -510,8 +479,7 @@ const QuestionFour = () => {
           ১৯৬৯ সালে গণ অভ্যুত্থানের রূপ নেয়। ফলে ১৯৭১ সালে সংঘঠিত হয়
           মুক্তিযুদ্ধ। নয় মাসের সংগ্রামের পর পাকিস্তানিদের আত্মসমর্পণ করতে বাধ্য
           করা হয় আর আমরা বিজয় অর্জন করি। <br />
-          17. (a) significant (b) birth (c) independent (d) history (e) division
-          (f) oppress (g) attacked (h) took (i) surrender (j) victory <br />
+         
           <br />
         </div>
         {/* 18 */}
@@ -537,9 +505,7 @@ const QuestionFour = () => {
           সাথে প্রশ্নের উত্তরসমূহ লেখা দরকার। হাতের লেখার ব্যাপারেও তার সতর্ক
           হওয়া উচিত। তার হস্তলিপি যদি খুব ছোট এবং অপরিচ্ছন্ন হয়ে থাকে তবে তার
           উচিত দ্বিগুণ স্পেস ব্যবহার করা। <br />
-          18. (a) necessary (b) follow (c) through (d) begins (e) distribution
-          (f) have (g) all (h) carefully (i) careful (j) use <br />
-          <br />
+          
         </div>
         {/* 19 */}
         <div className="">
@@ -568,9 +534,7 @@ const QuestionFour = () => {
           বন্ধুদের দ্বারা প্রতারিত হতে পারে। বন্ধু নির্বাচনের ক্ষেত্রে আমরা
           'অবশ্যই সতর্ক থাকবো। এ ব্যাপারে আমরা আমাদের জ্যেষ্ঠদের পরামর্শ নিতে
           পারি। <br />
-          19. Suitable words (a) judging (b) character (c) easy (d) difficult
-          (e) need (f) helpful (g) keeps (h) cheated (i) selecting (j)
-          suggestions <br />
+          
           <br />
         </div>
         {/* 20 */}
@@ -597,9 +561,7 @@ const QuestionFour = () => {
           শহরের মানুষ অনেক বেশি রোগে ভুগছে এবং গ্রামের মানুষের চেয়ে বেশি ভুগছে।
           এখন চলো আমরা দেখি কীভাবে শহরের জীবন গ্রামীণ জীবন থেকে ভিন্ন রকম। পানি
           এবং বায়ুতে ক্ষতিকর উপাদানের উপস্থিতি পরিবেশ দূষণ ঘটাচ্ছে। <br />
-          20. (a) alarming (b) appears (c) rural (d) afflicted (e) fertilizers
-          (f) suffer (g) severely (h) differs (i) substances (j) causing
-          <br />
+          
           <br />
         </div>
         {/* 21 */}
@@ -628,9 +590,7 @@ const QuestionFour = () => {
           মনে হতে পারে। যাহোক, এটা বোঝা উচিত যে এ ধরনের প্রশ্ন করা দ্বারা কোনো
           ক্ষতি বোঝায় না। অন্য দিকে বিদেশিদের অবস্থা সম্পর্কে তারা সত্যিই আগ্রহ
           প্রকাশ করে। সারাদেশে বর্তমানে সত্যিকার অর্থে উত্তম যোগাযোগ ব্যবস্থা
-          বিদ্যমান। <br />
-          21. (a) part (b) changing (c) towards (d) even (e) ask (f) from (g) no
-          (h) questions (i) hand (j) good <br />
+          বিদ্যমান। 
           <br />
           <br />
         </div>
@@ -656,8 +616,7 @@ const QuestionFour = () => {
           শহর, স্যান কারলোন হতে এসেছিলো। নামটি তার মুখে হাসি নিয়ে এসেছিলো। সেই
           ছিলো শহর ছেড়ে আসা শেষ ব্যক্তি কারণ সে পশু-পাখির দেখাশুনা করছিলো।{" "}
           <br />
-          22. (a) by (b) across (c) clothes (d) river (e) without (f) farther
-          (g) native (h) face (i) last (j) took <br />
+          
           <br />
         </div>
         {/* 23 */}
@@ -698,8 +657,7 @@ const QuestionFour = () => {
           এই সমস্যাগুলো নিয়ন্ত্রণ করতে এবং অনাবশ্যক রোগসমূহ এড়ানোর জন্য পরিবেশ
           পরিষ্কার-পরিচ্ছন্ন রাখতে আমাদের কার্যকর পদ ক্ষেপ গ্রহণ করতে হবে।
           <br />
-          23. (a) avoidable (b) fume (c) disposal (d) dumping (e) water-borne
-          (f) microphones (g) odour (h) creature (1) determined (1) avert <br />
+          <br />
         </div>
         <br />
         <br />
@@ -735,8 +693,7 @@ const QuestionFour = () => {
           অনেক পিতামাতা কর্তৃক নিষ্ফল বলে বিবেচনা করা হয়, অন্যদিকে ছেলেদের
           ক্ষেত্রে এটাকে বিনিয়োগ হিসাবে বিবেচনা করা হয়।
           <br />
-          24. (a) positive (b) recruiting (c) yet (d) religious (e) discourage
-          (1) allowed (g) safety (h) tied (1) possibility (j) wastage <br />
+        
           <br />
         </div>
         {/* 25 */}
@@ -767,9 +724,7 @@ const QuestionFour = () => {
           সম্পর্কে সচেতন হতে এটা সাহায্য করে। এর দ্বারা সত্য প্রকাশের বাগ্মীতা
           অর্জনে করা যায়। তাই, এটিকে তুলনা করা হয় আলোর সাথে যা কিনা অজ্ঞতার
           অন্ধকার দূর করে। <br />
-          25. (a) learning (b) intellectual (c) attain (d) enlighten (e) choices
-          (f) sensibility (g) parochialism (h) aware (1) eloquence (1) darkness
-          <br />
+          
           <br />
         </div>
         {/* 26 */}
@@ -796,8 +751,7 @@ const QuestionFour = () => {
           পাঠানো হয় যেখানে একজন অপারেটর এটাকে ছাপানো আকারে টেলেক্স পদ্ধতিতে
           বন্টন করে থাকে। পক্ষান্তরে, ই-মেইল এর বার্তাসমূহ কমপিউটারের মাধ্যমে
           তৈরি ব্যক্তির ইলেকট্রনিক মেইল বক্সে সরাসরি। প্রেরণ করে। brolloq <br />
-          26. (a) comunication (b) is (c) differs (d) conveys (e) through (f)
-          messages (g) same (h) distributes (i) form (f) contrary <br />
+          
           <br />
         </div>
         {/* 27 */}
@@ -827,14 +781,12 @@ const QuestionFour = () => {
           তোমার বন্ধু, <br />
           নবিন
           <br />
-          27. (a) congratulation (b) success (c) extremely (d) delighted (e)
-          informed (1) competition (g) performer (h) entire (1) earned (1)
-          continuous <br />
+          
         </div>
         <br />
         {/* 28 */}
         <div className="">
-          28. Sylhet Board-2019: Moulvibazar Government College,
+          {/* 28. Sylhet Board-2019: Moulvibazar Government College,
           Moulvibazar-2025
           <div className="border border-gray-500 p-1 rounded-sm my-2 ">
             Resting | Collect | And | Signify | Cattle | Live | Benefits |
@@ -851,7 +803,7 @@ const QuestionFour = () => {
           এবং ধান উৎপাদন করতে পারে, গবাদিপশু, মহিষ এবং হাঁস পালন করতে পারে। তারা
           হাওড় থেকে ঘাস এবং নল-খাগড়াও সংগ্রহ করতে পারে। এই হাওড় অতিথি পাখিদের
           অবস্থানের জন্য স্থান সংকুলানও করে থাকে। <br />
-          <br />
+          <br /> */}
         </div>
         {/* 29 */}
         <div className="">
@@ -877,13 +829,14 @@ const QuestionFour = () => {
           পদ্ধতি কাগজের উপর স্থাপিত নির্দিষ্ট অবস্থানে একগুচ্ছ বিন্দুর মাধ্যমে
           বর্ণমালা তৈরি করে। অন্য ব্যক্তি ব্রেইলী বইয়ের পৃষ্ঠায় আঙ্গুলের ডগা
           দিয়ে ছাপানো অক্ষর ও সংখ্যা দিয়ে কাজ করতে পারে। <br />
-          29. (a) Although (b) see (c) touching (d) developed (e) called (f) way
-          (g) bears (h) dots (1) tips (1) Printed <br />
+          
           <br />
         </div>
         {/* 30 */}
         <div className="">
-          30. HSC Exam-2018; Shaheed Police Smrity College, Mirpur, Dhaka-2025
+          {/* 30 */}
+          <div className="">
+            30. HSC Exam-2018; Shaheed Police Smrity College, Mirpur, Dhaka-2025
           <div className="border border-gray-500 p-1 rounded-sm my-2 ">
             ready | same | proud | blue | depends | rational | flesh | mention |
             inferior | class | birth | works
@@ -903,11 +856,15 @@ const QuestionFour = () => {
           30. (a) rational (b) work (c) proud (d) blue (e) ready (f) class (g)
           inferior (h) birth (i) same (j) mentioned <br />
           <br /> <br />
-          31. Dhaka Board-2017; Rangpur Cadet College, Rangpur-2025 <br />
-          <br />
-          Recur Safe Opine Aware Develop Precaution Minimize Lie Compulsory
-          Straight Loss Possibility <br />
-          <br />
+          </div>
+           <br />
+           {/* 31 */}
+           <div className="">
+            31. Dhaka Board-2017; Rangpur Cadet College, Rangpur-2025
+          <div className="border border-gray-500 p-1 rounded-sm my-2 ">   
+          Recur |  Safe |  Opine |  Aware |  Develop |  Precaution |  Minimize |  Lie |  Compulsory | 
+          Straight |  Loss |  Possibility 
+          </div> 
           It's a matter of great concern that Bangladesh (a) in the active
           earthquake zone. Most of the Bangladeshis are fully (b) of its
           severity. Experts are alarmed by the (c) of quakes during recent
@@ -929,12 +886,16 @@ const QuestionFour = () => {
           possibility (g) precautionary (h) minimize (i) opines (j) developed{" "}
           <br />
           <br />
-          33. Jashore Board-2017; Dhaka Residential Model College, Dhaka-2025{" "}
-          <br />
-          <br />
-          poisonous of preserve greatest be more refresh stern by production
-          contamination health <br />
-          <br />
+          </div>
+          {/* 33 */}
+          <div className="">
+            33. Jashore Board-2017; Dhaka Residential Model College, Dhaka-2025{" "}
+         
+          <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+            poisonous |  of |  preserve |  greatest |  be |  more |  refresh  | stern |  by |  production | 
+          contamination  | health 
+          </div>
+
           Food adulteration is one of the (a) problems in recent times in our
           country. Different food and food products, vegetables, fruits and
           fishes are being (b) (c) the unscrupulous and profit monger
@@ -960,12 +921,15 @@ const QuestionFour = () => {
           (g) more (h) preserve (1) stern (1) production
           <br />
           <br />
-          34. Dinajpur Board-2017; Cumilla Residential College, Cumilla-2025{" "}
-          <br />
-          <br />
-          who health choice be develop enable able ability Importance face which
-          know <br />
-          <br />
+          </div>
+          {/* 34 */}
+          <div className="">
+            34. Dinajpur Board-2017; Cumilla Residential College, Cumilla-2025
+            <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+              who |  health |  choice |  be |  develop |  enable |  able |  ability |  Importance |  face |  which | 
+          know  | 
+            </div>
+
           Education is one of the basic needs of a human being. It is (a) for
           the (b) of mind. Many illiterate people do not have any (c) of health.
           If they (d)- educated, they could live a (e) and planned life.
@@ -985,12 +949,16 @@ const QuestionFour = () => {
           34. (a) important (b) development (c) knowledge (d) were (e) healthy
           (f) enables (g) choices (h) ability (i) face (j) which <br />
           <br />
-          35. Dhaka Board-2016; Bogura Cantt. Public School & College,
-          Bogura-2018 <br />
-          <br />
-          accelerate globe noble gain isolate come disastrous add exist former
-          explore communication revolution successful <br />
-          <br />
+          </div>
+          {/* 35 */}
+          <div className="">
+            35. Dhaka Board-2016; Bogura Cantt. Public School & College,
+          Bogura-2018 
+          <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+            accelerate | globe | noble | gain | isolate | come | disastrous | add | exist | former |
+          explore | communication | revolution | successful 
+          </div>
+
           We have achieved many positive things during the last century. We have
           (a) tremendous advancement in the field of science. For example man
           has (b) landed on the moon . He is going to (c) other planets.. We
@@ -1012,6 +980,8 @@ const QuestionFour = () => {
           communicate (f) global (g) Isolated (h) comes (1) disasters (1)
           accelerated <br />
           <br />
+          </div>
+          
           38. Cumilla Board-2016; Govt. College of Commerce, Chattogram-2023{" "}
           <br />
           <br />
@@ -1433,6 +1403,116 @@ const QuestionFour = () => {
           81. (a) is (b) driving (c) frequently (d) without (e) drive (1)
           conscious (g) knowing (h) occurs (1) move (1) through
         </div>
+<br />
+        <div className="">
+          <h1 className="text-pink-700 my-5">Answer:</h1>
+          1. (a) who (b) going (c) waste (d) decided (e) valuable/scarce (f)
+          worry (g)married (h) bringing (i) were (j) study 
+          <br />
+          <br />
+          2.Suitable words (a) ability (b) developing (c) acquisition (d) mother
+          (e) fact (f) using (g) communication (h) natural (i) aware (j)
+          spontaneous
+          <br />
+          <br />
+          3. (a) habitats (b) extinction (c) cut (d) recklessly (e) increase (f)
+          rising (g) warming (h) anticipated (i) catastrophe (j) imperative{" "}
+          <br />
+          <br />
+          4. (a) lost (b) wetlands (c) are (d) down (e) recklessly (f) result
+          (g) anticipated (h) environmental (i) imperative (j) indiscriminately
+          <br />
+          <br />
+          5.(a) interrelated (b) known (c) ecosystem (d) links (e) hang (f)
+          balance (g) altering (h) example (i) ecological (j) responsibility{" "}
+          <br />
+          <br />
+          7. (a) manners (b) are (c) accepted (d) behave (e) offended (f)
+          realize/will realize (g) keep up (h)proper (i) appreciate (j)
+          gentleperson 
+          <br />
+          <br />
+          9.(a)positive (b) idealistic (c)country (d) being (e) welfare (f)
+          qualities (g) helping (h) materialistic (i) hence (j) immortalizes
+          <br />
+          <br />
+          10. (a) achieving (b) syllabus (c) understanding (d) capability (e)
+          enlightenment (f) Both (g) requirement (h) being (i) frustrated (j)
+          concentrate 
+          <br />
+          <br />
+          12. (a) recent (b) essential (c) about (d) device (e) called (f)
+          abacus (g) refers (h) large (i) great (j) trained 
+          <br />
+          <br />
+          13. (a) matter (b) careful (c) facing (d) make (e) rescued (f)
+          thinking (g) completely (h) story (i) tells (j) cheated
+          <br />
+          <br />
+          14. (a) popular (b) expanding (c)over (d) invented (e) within (f)
+          spreads (g) misused (h) using (i) addicted (j) family
+          <br />
+           <br />
+          15. (a) explosion (b) liabilities (c) think (d) burdensome
+          (e)poverty (f) planning (g) crisis (h) resource (i) possible (j)
+          alleviation 
+          <br />
+          <br />
+          16. (a) greatest (b) prestigious (c) organized (d) different (e)
+          Approximately (f) held (g) crowned (h) voted (i) entertainment (j)
+          remembered 
+          <br />
+          <br />
+           17. (a) significant (b) birth (c) independent (d) history (e) division
+          (f) oppress (g) attacked (h) took (i) surrender (j) victory 
+          <br />
+          <br />
+          18. (a) necessary (b) follow (c) through (d) begins (e) distribution
+          (f) have (g) all (h) carefully (i) careful (j) use 
+          <br />
+          <br />
+          19. Suitable words (a) judging (b) character (c) easy (d) difficult
+          (e) need (f) helpful (g) keeps (h) cheated (i) selecting (j)
+          suggestions 
+          <br />
+          <br />
+          20. (a) alarming (b) appears (c) rural (d) afflicted (e) fertilizers
+          (f) suffer (g) severely (h) differs (i) substances (j) causing
+          <br />
+          <br />
+          21. (a) part (b) changing (c) towards (d) even (e) ask (f) from (g) no
+          (h) questions (i) hand (j) good 
+          <br />
+          <br />
+          22. (a) by (b) across (c) clothes (d) river (e) without (f) farther
+          (g) native (h) face (i) last (j) took <br />
+          <br />
+          <br />
+          23. (a) avoidable (b) fume (c) disposal (d) dumping (e) water-borne
+          (f) microphones (g) odour (h) creature (i) determined (j) avert 
+          <br />
+          <br />
+            24. (a) positive (b) recruiting (c) yet (d) religious (e) discourage
+          (1) allowed (g) safety (h) tied (1) possibility (j) wastage <br />
+          <br />
+          25. (a) learning (b) intellectual (c) attain (d) enlighten (e) choices
+          (f) sensibility (g) parochialism (h) aware (1) eloquence (1) darkness
+          <br />
+          <br />
+          26. (a) comunication (b) is (c) differs (d) conveys (e) through (f)
+          messages (g) same (h) distributes (i) form (j) contrary <br />
+          <br />
+          <br />
+          27. (a) congratulation (b) success (c) extremely (d) delighted (e)
+          informed (1) competition (g) performer (h) entire (1) earned (1)
+          continuous <br />
+          <br />
+          29. (a) Although (b) see (c) touching (d) developed (e) called (f) way
+          (g) bears (h) dots (i) tips (j) Printed <br />
+          <br />
+          <br />
+        </div>
+      
       </div>
     </div>
   );

@@ -170,7 +170,8 @@ const Pronunciation = () => {
               পন্থা। কারণ, ইংরেজির এমন কিছু ধ্বনি বা উচ্চারণ রয়েছে যা প্রকাশের
               জন্য বাংলায় কোন বর্ণ নেই। উদাহরণস্বরুপ, 'Pen' শব্দটির 'P' উচ্চারণ
               করতে অনেকটা 'ফ' এর মত মনে হয়, অর্থাৎ, 'প' ও 'ফ' এর মাঝামাঝি একটি
-              উচ্চারণ যেটি বাংলায় কোন বর্ণ নেই।
+              উচ্চারণ যেটি বাংলায় কোন বর্ণ নেই। <br />
+
               
               ধন্যবাদান্তে,
             </p>
@@ -581,11 +582,11 @@ const Pronunciation = () => {
                   </tbody>
                 </table>
               </div>
-              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/Aecgq7-9GmI?si=qBUnctb6aVKCwAly">click here to listen to audio</a>
+              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/Aecgq7-9GmI?si=qBUnctb6aVKCwAly">click here to listen to video</a>
             </div>
-              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eERkHcLpxa8?si=LYByk1W1OsDnL7Bi">click here to listen to audio</a>
+              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eERkHcLpxa8?si=LYByk1W1OsDnL7Bi">click here to listen to video</a>
             </div>
             </div>
           </div>
@@ -1459,7 +1460,7 @@ const Pronunciation = () => {
                 </table>
               </div>
               <div className="max-w-fit mx-auto p-1 text-center border-2 border-blue-500 mt-2 rounded-sm"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/LekE44y2Ol4?si=OTdw58ie0GJdszW-">click here to listen to audio</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/LekE44y2Ol4?si=OTdw58ie0GJdszW-">click here to listen to video</a>
             </div>
               
               <p className="pt-3 heading2 text-center">ASM English Academy</p>
