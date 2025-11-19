@@ -11,7 +11,8 @@ const QuestionFive = () => {
         <br />
         Board Exam Based Exercises <br />
         <br />
-        1. Dhaka Board-2025 <br />
+        <div className="">
+          1. Dhaka Board-2025 <br />
         The world is producing millions of tons of domestic rubbish and (a) __
         industrial waste each year. It is becoming very difficult to find (b)__
         locations to (c) __ rid of all these refuse. The dumping of (d) kinds of
@@ -31,12 +32,11 @@ const QuestionFive = () => {
         বর্জ্য এবং ময়লা দ্বারা দূষিত হয়। স্বাস্থ্যকর জীবন-যাপন করতে চাইলে পরিবেশ
         দূষণ রোধ করা উচিত। পুরোপুরি রোধ করা অসম্ভব হলেও মানুষের মধ্যে সচেতনতা
         তৈরির মাধ্যমে আমরা দূষণ অবশ্যই হ্রাস করতে পারি। <br />
-        Answer: (a) harmful (b) appropriate/suitable (c) get (d) these/all (e)
-        polluting/harming (f), important/significant (g) smoke (h) healthy (i)
-        impossible (j) awareness/consciousness
+        
         <br />
-        <br />
-        2. Rajshahi Board-2025; Mymensingh Board-2023 <br />
+        </div>
+        <div className="">
+          2. Rajshahi Board-2025; Mymensingh Board-2023 <br />
         The food (a) __ of the young people of our country has changed greatly.
         Our young people are getting (b) __ to fast foods and western foods day
         by day. Today they go to fast food shops and enjoy taking (c) __ such
@@ -56,12 +56,11 @@ const QuestionFive = () => {
         রোগের ঝুঁকিতে ফেলছে। জাংক ফুড স্থূলতার দিকে ধাবিত করে। সুতরাং, আমাদের
         যখন তখন ফাস্ট ফুড খাওয়ার ব্যাপারে সচেতন/সতর্ক হওয়া উচিত।
         <br />
-        Answer: (a) habit (b) used/accustomed (c) foods (d) contain/have (e)
-        junk (f) vitamins (g) risk (b) diseases (i) lead (j)
-        careful/cautious/aware
+        
         <br />
-        <br />
-        3. Jashore Board-2025 <br />
+        </div>
+        <div className="">
+          3. Jashore Board-2025 <br />
         From the moment we are born we cannot (a) __ alone. We are always in (b)
         __ of assistance of (c) __ others around us. We need clothes, which
         others (d) __; houses, which others (e) __ and food, which others (f) __
@@ -79,11 +78,11 @@ const QuestionFive = () => {
         নিতে পিতামাতাকে দরকার। বড় হলে আমাদের অন্যের যত্ন দরকার; সঙ্গী ছাড়া আমরা
         একদিনও বাঁচতে পারি না।
         <br />
-        (a) live (b) need (c) the (d) weave (e) build (f) cook (g) working (h)
-        care (i) mind (j) without
+        
         <br />
-        <br />
-        4. Cumilla Board-2025: Barishal Board-2017; Dhaka Board-2004 <br />
+        </div>
+        <div className="">
+          4. Cumilla Board-2025: Barishal Board-2017; Dhaka Board-2004 <br />
         Many events of great importance (a) __ during the last century.
         Significant advances (b) __ in the field of science and technology. Many
         European colonies gained Independence. The movement (e) __ democracy
@@ -104,12 +103,13 @@ const QuestionFive = () => {
         পর বাংলাদেশের জন্ম হয়। এখন আমরা একটি স্বাধীন দেশ হিসেবে মাথা উচু করে
         দাঁড়াতে পারি।
         <br />
-        (a) happened/occured/took place (b) were made/wer achieved (c) for/of
-        (d) momentous/prominent (e) occured (f) also/had (g) emergence/birth (h)
-        was/had been (i) bloody (j) hold/raise/can raise.
+        
         <br />
-        <br />
-        5. Chattogram Board-2025 <br />
+
+        </div>
+        
+        <div className="">
+           5. Chattogram Board-2025 <br />
         Bangladesh is a (a) __ populated country, but a large number of her
         people are (b) __. It is not possible for her to ensure (c) __ to the
         teeming millions. Self-employment is a possible (d) __ to this problem.
@@ -127,11 +127,10 @@ const QuestionFive = () => {
         নিয়ে নিজেদের দরকারি নাগরিক হিসেবে পরিণত করতে পারেন। একটি সৎ/উদ্ভাবনী
         উপার্জন কর্মকান্ডে সহায়তার জন্য সরকারও সহজ ঋণ এবং পরামর্শ জোগায়।
         <br />
-        (a) heavily/very (b) unemployed (c) employment (d) solution (e) explore
-        (f) various/different (g) across/throughout (h) citizen (i) provides (j)
-        independent/innovative
+        
         <br />
-        <br />
+        </div>
+       <div className="">
         6. Sylhet Board-2025; Rajshahi Board-2015; Cumilla Board-2014 & 2010;
         Dhaka Board-2005 <br />
         Modern life (a) __ much on transport. We can very well understand how
@@ -149,11 +148,10 @@ const QuestionFive = () => {
         ধারণা লাভ করতে সহায়তা প্রদান করে। অধিকন্তু পরিবহন ব্যবস্থা জাতি ও
         বিশ্বের লোকজনদের মাঝে বন্ধুত্ব ও বোঝাপড়া গড়ে তোলে।
         <br />
-        (a) depends (b) important (c) disrupted/hampered (d) easier (e)
-        difficult/impassable/ (f) rise/develop (g) acquire/kn (h)
-        Besides/Moreover (i) promoted/develop fostered (j) understanding
-        <br />
-        <br />
+       </div>
+        
+        <div className="">
+          <br />
         7. Barishal Board-2025 <br />
         Modern civilization is the (a) __ of science. Science has worked (b) __
         a magician in the world. We can't do even a (c) __ day without the help
@@ -174,11 +172,11 @@ const QuestionFive = () => {
         অতীতের অনেক দূরারোগ্য ব্যাধি ক্ষেত্রে জন্ম চোখ পেয়েছে, পঙ্গু পা পেয়েছে,
         বধির এখন সহজেই আরোগ্য হচ্ছে।
         <br />
-        (a) presentation/symbol/icon (b) like (c) single (d) of (e) the (f) an
-        (g) change (h) blind (i) Many/The (j) curable
+        
         <br />
-        <br />
-        8. Dinajpur Board-2025 <br />
+        </div>
+        <div className="">
+          8. Dinajpur Board-2025 <br />
         Our society is formed of the average middle class. They are the (a) __
         sufferers of day to day soaring prices. (b) __ class people and big
         industrialists never bother and suffer (c) __ to rising prices as their
@@ -206,12 +204,11 @@ const QuestionFive = () => {
         ক্রয়ক্ষমতা হ্রাস পেয়েছে। কিন্তু মূল্যবৃদ্ধি থামানোর কোনো আশা দেখা যাচ্ছে
         না।
         <br />
-        (a) worst (b) High/upper (c) due (d) limited/fixed (e) increasing/rising
-        (f) victims/sufferers increase/adjust (h) curb/rein/control (i)
-        production/sale (j) capacity/power
+        
         <br />
-        <br />
-        9. Mymensingh Board-2025 <br />
+        </div>
+        <div className="">
+          9. Mymensingh Board-2025 <br />
         About 70 years ago, tourism was not a much used word (a) __ it is now.
         Today many people (b) __ holidays as a part of life. Consequently
         holiday making has become a major (c) __ . It has created a considerable
@@ -230,11 +227,11 @@ const QuestionFive = () => {
         সস্তা ছুটি কাটানোর প্যাকেজসমূহ যেকোনো স্থানে ভ্রমণকে আমাদের নাগালে নিয়ে
         এসেছে। এভাবে বিদেশী ভ্রমণকারীরা স্থানীয় জনগণের কর্মসংস্থান নিশ্চিত করে।
         <br />
-        (a) as (b) see/regard (c) business (d) number (e) technological (f)
-        modern (g) safe/global (h) luxury (i) reach (j) create
+        
         <br />
-        <br />
-        10. Dhaka Board-2024 <br />
+        </div>
+        <div className="">
+          10. Dhaka Board-2024 <br />
         The development of communication in any (a) __ creates an impact on the
         development of the economy (b) __ gross (c) __ the product of any
         country. Bangladesh, in this sense has become a (d) __ model all over
@@ -253,10 +250,12 @@ const QuestionFive = () => {
         কর্ণফুলী নদীর নিচের বঙ্গাবন্ধু টানেল এবং ঢাকা শহরের মেট্রোরেল। এই ধরনের
         যোগাযোগের উন্নয়নের ফলে জাতীয় এবং আন্তর্জাতিক ব্যবসার উন্নয়ন সাধন হবে।{" "}
         <br />
-        (a) country (b) and (c) domestic (d) role (e) various (f) to (g) mention
+        10. (a) country (b) and (c) domestic (d) role (e) various (f) to (g) mention
         (h) elevated express (i) Karnaphuli (j) boosted
         <br />
         <br />
+        </div>
+      <div className="">
         11. Rajshahi Board-2024; Bangladesh Air Force Shaheen College,
         Kurmitola, Dhaka-2025 <br />
         If you want to (a) __ English properly and fairly, you have to achieve
@@ -287,7 +286,10 @@ const QuestionFive = () => {
         practice/exercise
         <br />
         <br />
-        12. Jashore Board-2024 <br />
+      </div>
+        
+        <div className="">
+          12. Jashore Board-2024 <br />
         Nelson Mandela was an unconditionally brave fighter against race
         discrimination. During his (a) __, he had (b) __ himself to his (c) __
         of the people of Africa. He stated that he had fought against (d) __
@@ -308,6 +310,8 @@ const QuestionFive = () => {
         remarked/opined (i) epicenter (j) wherever
         <br />
         <br />
+        </div>
+        <div className="">
         13. Cumilla Board-2024; Dinajpur Board-2017; Rajshahi Board-2013; Dhaka
         Board-2011 <br />
         Sports are a popular form of entertainment. Many International sporting
@@ -334,7 +338,9 @@ const QuestionFive = () => {
         advertise (f) telecast (g) live (h) result (i) coverage (j) world
         <br />
         <br />
-        14. Chattogram Board-2024; Cumilla Board-2017: Dania College, Dhaka-2025{" "}
+        </div>
+        <div className="">
+          14. Chattogram Board-2024; Cumilla Board-2017: Dania College, Dhaka-2025
         <br />
         Bangladesh is a land of (a) __ beauty. Its beauty is so captivating that
         a stranger cannot but be (b) __ looking at this endless variety. Nature
@@ -363,8 +369,10 @@ const QuestionFive = () => {
         makers/builder/ architects/contributors
         <br />
         <br />
-        15. Barishal Board-2024; Government Azizul Haque College, Bogura-2025{" "}
-        <br />
+        </div>
+        <div className="">
+          15. Barishal Board-2024; Government Azizul Haque College, Bogura-2025{" "}
+        <br /> 
         When a girl gets married, she usually drops out of school and begins
         full time work in her in-laws' household. In the in-laws house, she is
         marginalized. She (a) __ vulnerable to all forms of abuse, (b) __
@@ -393,8 +401,8 @@ const QuestionFive = () => {
         brides (j) informed
         <br />
         <br />
-      </div>
-      <div className="">
+        </div>
+       <div className="">
         16. Dinajpur Board-2024 <br />
         Money is power and can do much good and evil. It gives(a) __ and delight
         . It (b) __ - do everything A person without (c) __ is a person to be
@@ -414,7 +422,9 @@ const QuestionFive = () => {
         (g) earn (h) in (i) bring (j) relative/subjective
         <br />
         <br />
-        17. Mymensingh Board-2024: Ananda Mohan College, Mymensingh-2023 <br />
+       </div>
+        <div className="">
+          17. Mymensingh Board-2024: Ananda Mohan College, Mymensingh-2023 <br />
         Self employment means to create job opportunities for oneself by one's
         own effort. Various government organizations (a) __ trying to create (b)
         __ congenial atmosphere for (c) __ . Different NGOs have (d) __ rendered
@@ -433,7 +443,9 @@ const QuestionFive = () => {
         (e) rearing (f) raising (g) the (h) ample/many (i) employment (j) can
         <br />
         <br />
-        19. Noubahini College, Dhaka-2025; Rajshahi Board-2023: Narail Govt.
+        </div>
+        <div className="">
+          19. Noubahini College, Dhaka-2025; Rajshahi Board-2023: Narail Govt.
         Victoria College-2025 <br />
         The process of globalization obviously requires a common language for
         international communication. For many different reasons, English has (a)
@@ -464,7 +476,9 @@ const QuestionFive = () => {
         speaker's (j) slipped
         <br />
         <br />
-        20. Jashore Board-2023: Cumilla Board-2013: Sylhet Board-2006 <br />
+        </div>
+        <div className="">
+          20. Jashore Board-2023: Cumilla Board-2013: Sylhet Board-2006 <br />
         Air and water are two Important (a) __ environments. These elements are
         (b) __ for life on earth.They are often © in many ways . Air is polluted
         by (d) __ and water by different kinds of waste and (e) __ . If we want
@@ -484,6 +498,8 @@ const QuestionFive = () => {
         reduce (j) awareness
         <br />
         <br />
+        </div>
+        
         21. Cumilla Board-2023; Military Collegiate School & College, Fultala,
         Khulna-2025 <br />A large number of people learn English (a) __ world.
         Some people use it (b) __ a first language and some people take it as
@@ -1273,7 +1289,45 @@ const QuestionFive = () => {
         <br />
         <br />
         <br />
+      </div>
+          
         {/* Answer */}
+        <div className="">
+          1. (a) harmful (b) appropriate/suitable (c) get (d) these/all (e)
+        polluting/harming (f), important/significant (g) smoke (h) healthy (i)
+        impossible (j) awareness/consciousness
+
+        <br />
+        2. (a) habit (b) used/accustomed (c) foods (d) contain/have (e)
+        junk (f) vitamins (g) risk (b) diseases (i) lead (j)
+        careful/cautious/aware
+        <br />
+        3.(a) live (b) need (c) the (d) weave (e) build (f) cook (g) working (h)
+        care (i) mind (j) without
+        <br />
+        4.(a) happened/occured/took place (b) were made/wer achieved (c) for/of
+        (d) momentous/prominent (e) occured (f) also/had (g) emergence/birth (h)
+        was/had been (i) bloody (j) hold/raise/can raise.
+        <br />
+        5. (a) heavily/very (b) unemployed (c) employment (d) solution (e) explore
+        (f) various/different (g) across/throughout (h) citizen (i) provides (j)
+        independent/innovative
+        <br />
+        6. (a) depends (b) important (c) disrupted/hampered (d) easier (e)
+        difficult/impassable/ (f) rise/develop (g) acquire/kn (h)
+        Besides/Moreover (i) promoted/develop fostered (j) understanding
+        <br />
+        7. (a) presentation/symbol/icon (b) like (c) single (d) of (e) the (f) an
+        (g) change (h) blind (i) Many/The (j) curable
+        <br />
+        8. (a) worst (b) High/upper (c) due (d) limited/fixed (e) increasing/rising
+        (f) victims/sufferers increase/adjust (h) curb/rein/control (i)
+        production/sale (j) capacity/power
+        <br />
+        9. (a) as (b) see/regard (c) business (d) number (e) technological (f)
+        modern (g) safe/global (h) luxury (i) reach (j) create
+        <br />
+        </div>
         <div className="">
           <h1 className="text-green-500">Answer: </h1>
           21. (a) across/throughout (b) as (c) second (d)
@@ -1520,7 +1574,7 @@ const QuestionFive = () => {
           look/be/appear/seem (f) house (g) place (h) knew/recognised (i)
           shocked/sad/surprised (j) unknown/unwelcome/forgotten <br />
         </div>
-      </div>
+      
     </div>
   );
 };
