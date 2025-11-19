@@ -56,6 +56,33 @@ const ModelTest = () => {
     setScale((prevScale) => Math.max(prevScale - 0.2, 0.5)); // 📉 Min zoom 0.5
   };
 
+   // 🔊 Add audio ref for page flip sound
+  const flipSound = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    flipSound.current = new Audio("/sounds/mixkit-page-turn-single-1104.wav");
+    flipSound.current.volume = 1.0; // optional: adjust volume
+  }, []);
+
+  // Play sound on flip
+ const onFlip = (e: any) => {
+    setCurrentPage(e.data);
+    if (flipSound.current) {
+      flipSound.current.currentTime = 0;
+      flipSound.current.play();
+    }
+};
+
+    // Helper: play sound when flipping manually
+  // const playFlipSound = () => {
+  //   if (flipSound.current) {
+  //     flipSound.current.currentTime = 0;
+  //     flipSound.current
+  //       .play()
+  //       .catch((err) => console.warn("Playback prevented:", err));
+  //   }
+  // };
+
   return (
     <div className="h-full flex flex-col items-center justify-center gap-1 mt-1">
       {/* 🆕 Zoom Buttons */}
@@ -78,7 +105,7 @@ const ModelTest = () => {
       <div className="flex flex-col items-center py-1">
         <div className="w-[100%], h-[100%] ">
           <Document
-            file="/HSCEnglish2ndTestPaper.pdf"
+            file="/English2ndPaper.pdf"
             onLoadSuccess={onDocumentLoadSuccess}
           >
             <FlipBook
@@ -87,14 +114,14 @@ const ModelTest = () => {
               showCover={true}
               mobileScrollSupport={true}
               ref={flipBook}
-              onFlip={(e: any) => setCurrentPage(e.data)}
+              onFlip={onFlip}
               className="shadow-2xl rounded-lg"
             >
               {/* --- Cover Page --- */}
               <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center text-center">
                 <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center gap-10">
                   <h1 className="text-9xl lg:text-[200px]">📖</h1>
-                  <h1 className="text-3xl font-bold">First Paper Model book</h1>
+                  <h1 className="text-3xl font-bold">Second Paper Model book</h1>
                   <p className="mt-2">Welcome! Swipe or click to begin.</p>
                 </div>
               </div>
@@ -199,7 +226,7 @@ const ModelTest = () => {
           {/* DOwnload button */}
           <div className="text-center py-4 ">
             <a
-              href="/HscTestPapers2025.pdf"
+              href="/English2ndPaper.pdf"
               download
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
             >

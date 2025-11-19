@@ -56,6 +56,23 @@ const FirstPaperModel = () => {
     setScale((prevScale) => Math.max(prevScale - 0.2, 0.5)); // 📉 Min zoom 0.5
   };
 
+     // 🔊 Add audio ref for page flip sound
+  const flipSound = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    flipSound.current = new Audio("/sounds/mixkit-page-turn-single-1104.wav");
+    flipSound.current.volume = 1.0; // optional: adjust volume
+  }, []);
+
+  // Play sound on flip
+ const onFlip = (e: any) => {
+    setCurrentPage(e.data);
+    if (flipSound.current) {
+      flipSound.current.currentTime = 0;
+      flipSound.current.play();
+    }
+};
+
   return (
     <div className="h-full flex flex-col items-center justify-center gap-1 mt-1">
       {/* 🆕 Zoom Buttons */}
@@ -78,7 +95,7 @@ const FirstPaperModel = () => {
       <div className="flex flex-col items-center py-1">
         <div className="w-[100%], h-[100%] ">
           <Document
-            file="/FirstPaperModel.pdf"
+            file="/English1stPaper.pdf"
             onLoadSuccess={onDocumentLoadSuccess}
           >
             <FlipBook
@@ -87,7 +104,7 @@ const FirstPaperModel = () => {
               showCover={true}
               mobileScrollSupport={true}
               ref={flipBook}
-              onFlip={(e: any) => setCurrentPage(e.data)}
+              onFlip={onFlip}
               className="shadow-2xl rounded-lg"
             >
               {/* --- Cover Page --- */}
@@ -199,7 +216,7 @@ const FirstPaperModel = () => {
           {/* DOwnload button */}
           <div className="text-center py-4 ">
             <a
-              href="/HscTestPapers2025.pdf"
+              href="/English1stPaper.pdf"
               download
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
             >
