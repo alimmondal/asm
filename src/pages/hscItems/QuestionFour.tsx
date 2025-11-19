@@ -8,7 +8,8 @@ const QuestionFour = () => {
       <div className="text-base lg:text-xl">
         Board Exam Based Exercises <br />
         <br />
-        {/* 1 */}
+        <div className="text-justify">
+           {/* 1 */}
         <div className="">
           1. Dhaka Board-2025
           <div className="border border-gray-500 p-1 rounded-sm my-2 ">
@@ -832,6 +833,8 @@ const QuestionFour = () => {
           
           <br />
         </div>
+        </div>
+       
         {/* 30 */}
         <div className="">
           {/* 30 */}
@@ -981,13 +984,14 @@ const QuestionFour = () => {
           accelerated <br />
           <br />
           </div>
-          
-          38. Cumilla Board-2016; Govt. College of Commerce, Chattogram-2023{" "}
-          <br />
-          <br />
-          count enter change establish opt acknowledge presence work reliance
-          education recognize social unnecessary cocoons <br />
-          <br />
+          {/* 38 */}
+          <div className="">
+            38. Cumilla Board-2016; Govt. College of Commerce, Chattogram-2023
+            <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+              count |  enter |  change | establish |  opt  | acknowledge  | presence |  work  | reliance | 
+          education |  recognize  | social  | unnecessary |  cocoons
+            </div>
+
           One very conspicuous (a) in our society is the (b) of working women
           outside home. Of course it has to be (c) that women have always worked
           within the household but this (d) is not counted as work. It is
@@ -1012,18 +1016,21 @@ const QuestionFour = () => {
           38. (a) change (b) presence (c) acknowledged (d) work (e) recognized
           (f) establish (g) entering (h) educated (i) opting (j) cocoons <br />
           <br />
-          39. Cumilla Board-2007; Chattogram Board-2016; Sylhet Board-2006;
-          Dinajpur Board-2012 <br />
-          <br />
-          dina drink need cat heart available balanced nutrition knowledge
-          satisfy happen lack preserve mind for <br />
-          <br />
-          While (a) food we should bear in (b) that we don't eat just to (c)
-          hunger or to fill the belly. We. eat to (d) our health. For good
-          health a man (e) good food. Sometimes it so (f) that people who live
+          </div>
+          {/* 39 */}
+          <div className="">
+            39. Cumilla Board-2007; Chattogram Board-2016; Sylhet Board-2006;
+          Dinajpur Board-2012 
+          <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+            dina |  drink |  need |  cat |  heart |  available |  balanced |  nutrition  | knowledge | 
+          satisfy |  happen |  lack |  preserve |  mind |  for |  
+          </div>
+          While (a) __ food we should bear in (b) __ that we don't eat just to (c) __
+          hunger or to fill the belly. We. eat to (d) __ our health. For good
+          health a man (e) __ good food. Sometimes it so (f) __ that people who live
           even in the midst of plenty do not eat the food they need for good
-          health because they have no (g) of science and health and (h) They do
-          not know how to select a (i) diet from the many foods that are (j) to
+          health because they have no (g) __ of science and health and (h) __ They do
+          not know how to select a (i) __ diet from the many foods that are (j) __ to
           them. <br />
           <br />
           খাদ্য গ্রহণের সময় আমাদের মনে রাখা উচিত যে আমরা শুধু ক্ষুধা নিবারণ বা
@@ -1033,30 +1040,32 @@ const QuestionFour = () => {
           খাদ্য গ্রহণ করে না কারণ তাদের বিজ্ঞান, স্বাস্থ্য এবং পুষ্টি সম্পর্কে
           জ্ঞান নেই। তারা তাদের কাছে সহজলভ্য অনেক খাদ্য থেকে কিভাবে সুষম খাদ্য
           বাছাই করতে হয় তা জানে না। <br />
-          39. (a) eating (b) mind (c) satisfy (d) preserve (e) needs (f) happens
-          (g) knowledge (h) nutrition (i) balanced (j) available <br />
+          39. (a) __ eating (b) __ mind (c) __ satisfy (d) __ preserve (e) __ needs (f) __ happens
+          (g) __ knowledge (h) __ nutrition (i) __ balanced (j) __ available <br />
           <br />
-          44. Jashore Board-2015; National Ideal College, Khilgaon, Dhaka-2019{" "}
-          <br />
-          <br />
-          martyrdom lock intellect prevail clash shoot conspire spirit killing
-          enforce violate fail <br />
-          <br />
+          </div>
+          {/* 44 */}
+          <div className="">
+            44. Jashore Board-2015; National Ideal College, Khilgaon, Dhaka-2019
+            <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+              martyrdom  | lock |  intellect |  prevail |  clash |  shoot |  conspire |  spirit |  killing | 
+          enforce |  violate |  fail |  
+            </div>
           One who lays down one's life for upholding the cause of the
-          motherland, occupies the glorious position of a (a) - . Shaheed Dr.
+          motherland, occupies the glorious position of a (a) __ - . Shaheed Dr.
           Shamsuzzoha is such a proud son of our beloved motherland. He was the
-          first (b) who embraced martyrdom during the preliberation period of
-          Bangladesh. After the (c) of the trumped-up Agartala (d) case,
+          first (b) __ who embraced martyrdom during the preliberation period of
+          Bangladesh. After the (c) __ of the trumped-up Agartala (d) __ case,
           Sergeant Zohurul Haque was killed in prison by the Ayub Khan Govt on
           February 1969 . Following the brutal killing, a flame of protest
           ablazed throughout the then East Pakistan, A volatile situation also
-          (e) in the Rajshahi city where section 144 was (1) to prevent the
+          (e) __ in the Rajshahi city where section 144 was (1) __ to prevent the
           agitating students from taking part in any protest. But the students
-          of Rajshahi University were (g) and bold enough to bring out a
-          vigorous procession (h) section 144 that subsequently led them to be
-          (i) in the clash with the police and the armed forces. The armed
+          of Rajshahi University were (g) __ and bold enough to bring out a
+          vigorous procession (h) __ section 144 that subsequently led them to be
+          (i) __ in the clash with the police and the armed forces. The armed
           forces started to take up their positions against the students. Dr.
-          Zoha came forward to save the students and ultimately, he was (j)
+          Zoha came forward to save the students and ultimately, he was (j) __
           dead. <br />
           <br />
           যিনি মাতৃভূমির লক্ষ্য পূরণের জন্য নিজের প্রাণ বিসর্জন দেন তিনি শহীদের
@@ -1073,25 +1082,30 @@ const QuestionFour = () => {
           ফলশ্রুতিতে তারা পুলিশ ও স্বশস্ত্র বাহিনীর সাথে সংঘর্ষে জড়িয়ে পড়ে।
           স্বশস্ত্র বাহিনী ছাত্র-ছাত্রীদের বিরুদ্ধে তাদের অবস্থান নিতে শুরু করে।
           ডক্টর জোহা ছাত্রছাত্রীদেরকে রক্ষা করতে এগিয়ে আসেন এবং শেষ পর্যন্ত
-          তাঁকে গুলি করে হত্যা করা হয়। <br />
-          44. (a) martyr (b) intellectual (c) failure (d) conspiracy (e)
-          prevailed (f) enforced (g) spirited (h) violating (i) locked (j) shot{" "}
+          তাঁকে গুলি করে হত্যা করা হয়।
           <br />
           <br />
-          47. Sylhet Board-2015; Cumilla Board-2011; Govt. Michael Madhusudan
-          College, Jashore-2023 <br />
+          44. (a) __ martyr (b) __ intellectual (c) __ failure (d) __ conspiracy (e) __
+          prevailed (f) __ enforced (g) __ spirited (h) __ violating (i) __ locked (j) __ shot{" "}
           <br />
-          waste community sphere women family returns educate develop children
-          welfare mother sector <br />
           <br />
-          Education for girls is essential for the development in all (a) of the
-          society. So, investments in the education of (b) will bring in greater
-          (e) in the field of economic and social (d) . Educated women can
-          contribute more to the family (e) than those who have no schooling.
-          Educated are more likely to send their (g) to school and look after
-          their health and nutrition. Thus (h) women can contribute to the
-          (i)development. On the other hand, failure to educate women is a
-          tremendous (j) of human resource, <br />
+          </div>
+          {/* 48 */}
+          <div className="">
+             47. Sylhet Board-2015; Cumilla Board-2011; Govt. Michael Madhusudan
+          College, Jashore-2023 
+          <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+            waste | community | sphere | women  | family | returns | educate | develop | children |
+          welfare | mother | sector |
+          </div>
+          Education for girls is essential for the development in all (a) __ of the
+          society. So, investments in the education of (b) __ will bring in greater
+          (e) __ in the field of economic and social (d) __ . Educated women can
+          contribute more to the family (e) __ than those who have no schooling.
+          Educated are more likely to send their (g) __ to school and look after
+          their health and nutrition. Thus (h) __ women can contribute to the
+          (i) __development. On the other hand, failure to educate women is a
+          tremendous (j) __ of human resource, <br />
           <br />
           সমাজের সকল ক্ষেত্রে উন্নয়নের জন্য নারী শিক্ষা অপরিহার্য। তাই নারী
           শিক্ষায় বিনিয়োগ অর্থনৈতিক এবং সামাজিক উন্নয়নে অধিকতর মুনাফা সৃষ্টি
@@ -1100,23 +1114,26 @@ const QuestionFour = () => {
           ছেলেমেয়েদের স্কুলে পাঠানো এবং তাদের স্বাস্থ্য ও রাখতে পারে। অন্যদিকে,
           নারীদের শিক্ষিত করার এভাবে শিক্ষিত মহিলারা জনসমাজের উন্নয়নে অবদান
           ব্যর্থতা হবে মানব সম্পদের বিরাট অপচয়। <br />
-          47. (a) spheres (b) women (c) returns (d) development (e) welfare (f)
-          mothers (g) children (h) educated (1) community (0) waste <br />
+          47. (a) __ spheres (b) __ women (c) __ returns (d) __ development (e) __ welfare (f) __
+          mothers (g) __ children (h) __ educated (1) __ community (0) __ waste <br />
           <br />
-          49. Dinajpur Board-2015: Viqarunnisa Noon College, Dhaka-2019 <br />
-          <br />
-          earn dominate merely surplus chain rightful from descend world free
-          raise arise and fall <br />
-          <br />
-          Liberty does not (a) upon a people; a people must (b) themselves to
-          it. It is a fruit that must be (c) before it can be enjoyed. That
-          freedom means freedom only from foreign (d) is an outworn idea. It is
-          not (e) the government that should be free, but people themselves
-          should be free. And no (f) has any real value for common men or women
+          </div>
+            {/* 49 */}
+         <div className="">
+          49. Dinajpur Board-2015: Viqarunnisa Noon College, Dhaka-2019 
+          <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+            earn |  dominate |  merely |  surplus |  chain |  rightful |  from |  descend |  world  | free | 
+          raise  | arise  | and  | fall | 
+          </div>
+          Liberty does not (a) __ upon a people; a people must (b) __ themselves to
+          it. It is a fruit that must be (c) __ before it can be enjoyed. That
+          freedom means freedom only from foreign (d) __ is an outworn idea. It is
+          not (e) __ the government that should be free, but people themselves
+          should be free. And no (f) __ has any real value for common men or women
           unless it also means freedom from want, freedom from disease and
-          freedom (g) ignorance. This is the main task which confronts us if we
-          are to take our (h) place in the modern (i) -. So, we must go forward
-          at a double pace bending all our resources (j) energies to this great
+          freedom (g) __ ignorance. This is the main task which confronts us if we
+          are to take our (h) __ place in the modern (i) __ -. So, we must go forward
+          at a double pace bending all our resources (j) __ energies to this great
           purpose. <br />
           <br />
           স্বাধীনতা কোন জনগোষ্ঠির ওপর আচমকা আবির্ভূত হয় না, যেকোনো জনগোষ্ঠিকে
@@ -1129,20 +1146,22 @@ const QuestionFour = () => {
           করে নিতে হয় তাহলে এটিই প্রধান কাজ যা আমাদের সামনে আসে। তাই আমাদের সকল
           সম্পদ ও শক্তি খাটিয়ে এই মহান উদ্দেশ্যে আমাদেরকে অবশ্যই দ্বিগুণ গতিতে
           এগিয়ে যেতে হবে। <br />
-          49. (a) descend (b) raise (c) earned (d) domination (e) merely (1)
-          freedom (g) from (h) rightful (1) world (1) and <br />
+          49. (a) __ descend (b) __ raise (c) __ earned (d) __ domination (e) __ merely (1) __
+          freedom (g) __ from (h) __ rightful (1) __ world (1) __ and <br />
           <br />
-          50. Dhaka Board-2014; Chattogram Board-2008; Barishal Board-2009{" "}
-          <br />
-          <br />
-          with improve not mean maintain upon stop take easily than keep depend
-          raise avoid <br />
-          <br />
-          Overeating (a) taking too much food (b) one needs. We eat © to
-          overload our stomach but to (d) a sound health. A sound health (e) on
-          eating habit to some extent. Overeating tells (f) our health. But (g)
-          awareness of the people the habit of overeating can be (h) . With a
-          view to (i) our body fit, we should (j) taking too much food. <br />
+         </div>
+         {/* 50 */}
+          <div className="">
+            50. Dhaka Board-2014; Chattogram Board-2008; Barishal Board-2009
+            <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+              with |  improve |  not |  mean |  maintain |  upon |  stop |  take |  easily |  than |  keep |  depend | 
+          raise  | avoid  | 
+            </div>
+          Overeating (a) __ taking too much food (b) __ one needs. We eat © to
+          overload our stomach but to (d) __ a sound health. A sound health (e) __ on
+          eating habit to some extent. Overeating tells (f) __ our health. But (g) __
+          awareness of the people the habit of overeating can be (h) __ . With a
+          view to (i) __ our body fit, we should (j) __ taking too much food. <br />
           <br />
           অতিভোজন অর্থ কারো প্রয়োজনের তুলনায় বেশী খাবার গ্রহণ করা। আমরা উদর
           পূর্তির জন্য খাইনা, খাই সুস্বাস্থ্য রক্ষার জন্য। খাদ্যাভাসের উপর
@@ -1150,16 +1169,20 @@ const QuestionFour = () => {
           ফেলে। তবে জনসাধারণের মধ্যে সচেতনতা জাগিয়ে অতিভোজনের অভ্যাস বন্ধ করা
           যেতে পারে। সুস্বাস্থ্য রক্ষার জন্য আমাদের উচিত অতিভোজন পরিহার করা।{" "}
           <br />
-          50. (a) means (b) than (c) not (d) maintain (e) depends (f) upon (g)
-          raising (h) stopped (i) keeping (j) avoid
+          50. (a) __ means (b) __ than (c) __ not (d) __ maintain (e) __ depends (f) __ upon (g) __
+          raising (h) __ stopped (i) __ keeping (j) __ avoid
           <br />
-          51. Dhaka Board-2003; Rajshahi Board-2014; Barishal Board-2008;
-          Dinajpur Board-2010 <br />
-          <br />
-          add breathe need plant prevent preserve produce protect provide take
-          give wash <br />
-          <br />
-          Trees are very useful to human beings. They (a) the rich top soil from
+          </div>
+          {/* 51 */}
+          <div className="">
+             51. Dhaka Board-2003; Rajshahi Board-2014; Barishal Board-2008;
+          Dinajpur Board-2010 
+          <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+            add |  breathe |  need |  plant |  prevent |  preserve |  produce |  protect |  provide |  take | 
+          give |  wash 
+          </div>
+
+          Trees are very useful to human beings. They (a) __ the rich top soil from
           being (b) away by rain water and floods. You can see trees being (c)
           along mountain slopes, on road sides, in parks and gardens. Trees give
           us shade. They (d) life to a place with their colourful flowers,
@@ -1173,11 +1196,14 @@ const QuestionFour = () => {
           take (absorb করা অর্থে) (g) give (h) needs (1) breathe (1) preserve{" "}
           <br />
           <br />
-          54. Chattogram Board-2014; Cumilla Cadet College, Cumilla-2025 <br />
-          <br />
-          control keep remain talk consider draft embrace make behave friendly
-          praiseworthy regard <br />
-          <br />
+          </div>
+         {/* 54 */}
+         <div className="">
+           54. Chattogram Board-2014; Cumilla Cadet College, Cumilla-2025 
+           <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+            control |  keep |  remain |  talk |  consider |  draft |  embrace |  make |  behave |  friendly | 
+          praiseworthy |  regard | 
+           </div>
           The habit of the British for (a) —- their emotion private is (b) .Some
           obvious things are noticed in the (c) of the British. For example, on
           public transport one passenger does not usually (d) to another
@@ -1185,15 +1211,21 @@ const QuestionFour = () => {
           hands. In theatres, concert halls and cinemas audiences (f) quiet
           during the performance. None of these (g) of their conduct should be
           (h) as unfriendliness. If a visitor (i) -the first move to start a
-          conversation, he will find a British citizen rather (j) <br />
+          conversation, he will find a British citizen rather (j) 
+          <br />
+           <br />
           54. (a) keeping (b) praiseworthy (c) behaviour (d) talk (e) embrace
           (1) remain (g) traits (h) considered (1) makes (1) friendly <br />
           <br />
-          55. Sylhet Board-2014: Barishal Board-2011 <br />
           <br />
-          experts fertilizers although chemical Increase believe environment
-          greater alarm afflict severely suffer <br />
-          <br />
+         </div>
+         {/* 55 */}
+         <div className="">
+           55. Sylhet Board-2014: Barishal Board-2011 
+           <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+             experts |  fertilizers |  although |  chemical |  Increase |  believe |  environment | 
+          greater  | alarm  | afflict  | severely  | suffer | 
+           </div>
           Many diseases are rising at an (a)rate, which experts believe is due
           to (b) -pollution of the (c) . Pollution appears to be (d) in urban
           areas (e) rural societies too are (f) by Increased use of (g)
@@ -1203,94 +1235,114 @@ const QuestionFour = () => {
           (1) affected (g) chemical (h) afflictions (1) suffer (1) severely{" "}
           <br />
           <br />
+         </div>
+         {/* 56 */}
+         <div className="">
           56. Barishal Board-2014; Cumilla Board-2013; Mirzapur Cadet College,
-          Tangail-2019 <br />
-          <br />
-          mankind endanger be save concern mean protection destroy species
-          perish spoil Change <br />
-          <br />
+          Tangail-2019 
+          <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+            mankind |  endanger |  be  | save |  concern |  mean |  protection |  destroy |  species | 
+          perish |  spoil |  Change  | 
+          </div>
           All species are important for maintaining ecological balance. If one
-          is lost, the whole natural environment gets (a) . We should (b) our
-          wildlife to protect the environment from being (c) . Many countries
-          are now taking action to protect their (d) wildlife. Mankind must
-          develop a (e) for wild creatures and must ensure that they will not
-          (f) . (g) wild creatures means destroying ourselves. It is high time
-          we (h) them. love for animals (i) love for (j) . <br />
+          is lost, the whole natural environment gets (a) __ . We should (b) __ our
+          wildlife to protect the environment from being (c) __ . Many countries
+          are now taking action to protect their (d) __ wildlife. Mankind must
+          develop a (e) __ for wild creatures and must ensure that they will not
+          (f) __ . (g) __ wild creatures means destroying ourselves. It is high time
+          we (h) __ them. love for animals (i) __ love for (j) __ . 
+          <br />
           <br />
           56. (a) changed (b) protect (c) spoilt (d) endangered (e) concern (f)
-          perish (g) Destroying (h) saved (i) means (j) mankind <br />
+          perish (g) Destroying (h) saved (i) means (j) mankind 
           <br />
-          57. Dinajpur Board-2014; Cumilla Board-2010; Barishal Board-2010;
-          Rajshahi Board-2009 <br />
           <br />
-          happen wit furious die spoil live execution knowing pleasant declare
-          wretch cause unpleasant expire <br />
-          <br />
-          Once upon a time, there was a king who was very fond of (a) his future
-          from the astrologers. A famous astrologer (b) to stop at his capital
+         </div>
+          {/* 57 */}
+          <div className="">
+            57. Dinajpur Board-2014; Cumilla Board-2010; Barishal Board-2010;
+          Rajshahi Board-2009 
+          <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+              happen |  wit |  furious |  die |  spoil  | live |  execution  | knowing  | pleasant |  declare | 
+                        wretch  | cause |  unpleasant |  expire | 
+          </div>
+
+          Once upon a time, there was a king who was very fond of (a) __ his future
+          from the astrologers. A famous astrologer (b) __ to stop at his capital
           on his way to Benaras. The king called on him to know about the future
-          and the astrologer told him something (e) - . At this the king got (d)
-          - and condemned him to (e) saying. "Men like you should not live to
-          (f) the peace of the world". But another thought had crossed his mind
-          before the astrologer was removed for (g) "How long will you live?"
-          asked the king. With ready (h) the astrologer said. "The stars (1)
+          and the astrologer told him something (e) __ - . At this the king got (d) __
+          - and condemned him to (e) __ saying. "Men like you should not live to
+          (f) __ the peace of the world". But another thought had crossed his mind
+          before the astrologer was removed for (g) __ "How long will you live?"
+          asked the king. With ready (h) __ the astrologer said. "The stars (i) __
           that I shall die only a week before your majesty. So, good bye.
           Hearing this, the king turned pale like a dead man and shouted, "Drive
-          this (1) away, let him not come here again." <br />
+          this (j) __ away, let him not come here again."
+           <br />
           <br />
           57. (a) knowing (b) happened (c) unpleasant (d) furious (e) death (f)
-          spoil (g) execution (h) wit (1) declare (1) wretch <br />
+          spoil (g) execution (h) wit (i) declare (j) wretch 
           <br />
-          59. Rajshahi Board-2013; Muminunnisa Government Mohila College,
-          Mymensingh-2025 <br />
           <br />
-          fundamentally atmosphere deplete fall accumulate eventually endanger
-          give Inundate primary grow coal <br />
-          <br />
+          </div>
+          {/* 59 */}
+          <div className="">
+            59. Rajshahi Board-2013; Muminunnisa Government Mohila College,
+          Mymensingh-2025 
+          <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+            fundamentally |  atmosphere |  deplete |  fall |  accumulate |  eventually |  endanger | 
+          give |  Inundate |  primary |  grow |  coal | 
+          </div>
           Scientists have recently reported that the polar ice caps are melting.
-          This is due to a rise in (a) temperatures known as the 'Greenhouse
-          Effect. Carbon dioxide is (b) responsible for temperature rise in the
-          atmosphere. The carbon dioxide is (c) off when coal and oil are burnt.
-          This gas is (d) in the air and the ice caps in the North and South
-          poles are melting. This may (e) lead to a rise in the sea levels which
-          could (f) -many areas of the globe. The 'Greenhouse Effect' is just
-          one of the many ( ) changes which are taking place in the environment.
-          Tropical rain forests, which took fifty million years (h) are being
-          (i) at the rate of fourteen acres per minute. The total area of the
+          This is due to a rise in (a) __ temperatures known as the 'Greenhouse
+          Effect. Carbon dioxide is (b) __ responsible for temperature rise in the
+          atmosphere. The carbon dioxide is (c) __ off when coal and oil are burnt.
+          This gas is (d) __ in the air and the ice caps in the North and South
+          poles are melting. This may (e) __ lead to a rise in the sea levels which
+          could (f) __ -many areas of the globe. The 'Greenhouse Effect' is just
+          one of the many (g) __ changes which are taking place in the environment.
+          Tropical rain forests, which took fifty million years (h) __ are being
+          (i) __ at the rate of fourteen acres per minute. The total area of the
           world's deserts is increasing every year. Many species of animals and
-          plants are (j) with the threat of extinction. <br />
+          plants are (j) __ with the threat of extinction. 
+          <br />
           <br />
           59. (a) atmospheric (b) primarily (c) given (d) accumulating (e)
-          eventually (1) inundate (g) fundamental (h) to grow (1) depleted (1)
+          eventually (f) inundate (g) fundamental (h) to grow (i) depleted (j)
           endangered <br />
           <br />
           <br />
-          65. Jashore Board-2012: Sylhet Cantonment Public School & College,
-          Sylhet-2025 <br />
-          <br />
-          variety Item communication require communicative tradition four
-          foreign purpose International base Imply speaks skill <br />
-          <br />
-          English is called an (a) language. In almost all countries, there are
-          people who can (b)English . No other language than English serves the
-          (c) of a common language through which people can (d) with one another
-          across the national border. We should learn English for a great (e) of
-          purposes. English is a skill (f) subject. We should therefore learn
-          the (g) skills of listening, speaking, reading and writing. The
-          communicative approach to learning English does not (h) one to know or
-          learn definitions of grammar (i) . Traditional grammar has little or
-          no place in learning English through the (j) approach. <br />
+          </div>
+          {/* 65 */}
+          <div className="">
+            65. Jashore Board-2012: Sylhet Cantonment Public School & College,
+          Sylhet-2025 
+          <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+            variety |  Item  | communication |  require  | communicative |  tradition  | four | 
+          foreign  | purpose | International |  base |  Imply |  speaks |  skill | 
+          </div>
+          English is called an (a) __ language. In almost all countries, there are
+          people who can (b) __English . No other language than English serves the
+          (c) __ of a common language through which people can (d) __ with one another
+          across the national border. We should learn English for a great (e) __ of
+          purposes. English is a skill (f) __ subject. We should therefore learn
+          the (g) __ skills of listening, speaking, reading and writing. The
+          communicative approach to learning English does not (h) __ one to know or
+          learn definitions of grammar (i) __ . Traditional grammar has little or
+          no place in learning English through the (j) __ approach. <br />
           <br />
           65. (a) International (b) speak (c) purpose (d) communicate (e)
-          variety (f) based (g) four (h) require (1) items (1) communicative{" "}
+          variety (f) based (g) four (h) require (i) items (j) communicative
           <br />
           <br />
-          69. Dinajpur Board-2009; Cumilla Cantonment College, Cumilla-2024{" "}
-          <br />
-          <br />
-          attitude amply predetermined ordered ordained sorrows outlook belief
-          undergo hold fate poor <br />
-          <br />
+          </div>
+          {/* 69 */}
+          <div className="">
+            69. Dinajpur Board-2009; Cumilla Cantonment College, Cumilla-2024
+            <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+              attitude |  amply  | predetermined  | ordered |  ordained |  sorrows |  outlook |  belief | 
+          undergo |  hold |  fate |  poor | 
+            </div>
           There are many people in our country who have a conservative (a) .
           Quite early in life they learn to (b) - that everything in this world
           was (c) . They think all that happens to them was (d) by God. From
@@ -1298,99 +1350,129 @@ const QuestionFour = () => {
           their (f) and sufferings without trying much to overcome them. They
           also (g) a firm belief that those who (h) sufferings in this world
           will be (i) rewarded in the next world. They also have the same sort
-          of (j) towards illness and disease. <br />
+          of (j) towards illness and disease. 
+          <br />
+           <br />
           69. (a) outlook (b) believe (c) predetermined (d) ordained (e) fate
-          (f) sorrows (g) hold (h) undergo (1) amply (1) attitude <br />
+          (f) sorrows (g) hold (h) undergo (1) amply (1) attitude 
           <br />
-          70. Rajshahi Board-2011; Sylhet Board-2009 & 2005; RaJashore Boardari
-          Govt. College-2018 <br />
           <br />
-          yardstick adopt shelter enhance protect aware perform саrrу define
-          provide needs essential enable <br />
-          <br />
-          Education is one of the basic (a) of a human being and is (b) for
-          every kind of development. It (c) us to make right choices in life. It
-          (d) our ability to raise crops, store food, (e) the (e) environment
-          and (f) out our social responsibilities. It (g) us with an enlightened
-          (h) about things. But education has to be (i) . It is not merely (j)
+          </div>
+          {/* 70 */}
+          <div className="">
+            70. Rajshahi Board-2011; Sylhet Board-2009 & 2005; RaJashore Boardari
+          Govt. College-2018 
+          <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+            yardstick |  adopt |  shelter |  enhance  | protect |  aware |  perform |  carry  | define | 
+          provide  | needs  | essential |  enable | 
+          </div>
+
+          Education is one of the basic (a) __ of a human being and is (b) __ for
+          every kind of development. It (c) __ us to make right choices in life. It
+          (d) __ our ability to raise crops, store food, (e) __ the (e) __ environment
+          and (f) __ out our social responsibilities. It (g) __ us with an enlightened
+          (h) __ about things. But education has to be (i) __ . It is not merely (j) __
           degrees from schools, colleges and universities. It is something more
-          lasting, more humane. <br />
+          lasting, more humane. 
+          <br /> 
+          <br />
           70. (a) needs (b) essential (c) enables (d) enhances (e) protect (f)
-          carry (g) provides (h) awareness (1) redefined (1) getting <br />
+          carry (g) provides (h) awareness (i) redefined (j) getting 
           <br />
-          72. Rajshahi Board-2008; Barishal Board-2004 <br />
-          embrace Introduce noticing suddenly control Introduction remain makes
-          interpret usual friend reputation noticeable keep <br />
           <br />
-          The British have (a) for (b) their emotions private. Some obvious
-          things are (c) in British behaviour. For example, on public transport
-          one passenger does not (d)talk to another passenger. On meeting,
-          people do not (e) and often simply shake hands on a first (f) In
-          theatres, concert halls and cinemas audiences (g) quiet during
-          performances. None of these behaviour traits should be (h) as
-          unfriendliness. If a visitor (i) the first move to start a
-          conversation, he will find a British citizen rather (j) . <br />
+          </div>
+          {/* 72 */}
+          <div className=""> 
+             72. Rajshahi Board-2008; Barishal Board-2004 
+             <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+              embrace |  Introduce |  noticing |  suddenly |  control |  Introduction |  remain  | makes | 
+          interpret  | usual |  friend  | reputation |  noticeable |  keep |  
+          </div>
+          The British have (a) __ for (b) __ their emotions private. Some obvious
+          things are (c) __ in British behaviour. For example, on public transport
+          one passenger does not (d) __talk to another passenger. On meeting,
+          people do not (e) __ and often simply shake hands on a first (f) __ In
+          theatres, concert halls and cinemas audiences (g) __ quiet during
+          performances. None of these behaviour traits should be (h) __ as
+          unfriendliness. If a visitor (i) __ the first move to start a
+          conversation, he will find a British citizen rather (j) __ . 
+          <br />
+          <br />
           72. (a) reputation (b) keeping (c) noticeable (d) usually (e) embrace
           (f) introduction (g) remain (h) interpreted (i) makes (j) friendly{" "}
           <br />
           <br />
-          73. Chattogram Board-2011: Sylhet Board-2007: Rajuk Uttara Model
-          College, Dhaka-2024 <br />
+          </div>
+          {/* 73 */}
+         <div className="">
+            73. Chattogram Board-2011: Sylhet Board-2007: Rajuk Uttara Model
+          College, Dhaka-2024 
+          <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+            flood  |  change |  rise |  evidence |  climate |  warmer |  alarm |  unnecessarily | 
+          prediction |  destroy |  catastrophically |  gradual |  severely |  Increase | 
+          </div>
+          The world is getting (a) __ because of pollution. Every year millions of
+          people all over the world die (b) __  as a result of pollution. In the
+          recent years there have been (c) __ reports that the world's (d) __ is
+          undergoing a significant (e) __ . All these reports provide strong (f) __
+          that world temperatures are (g) __ day by day. Climatologists (h) __ that
+          mid way through the next century temperatures may have (i) __ as much as
+          4"C. This could raise sea levels and thereby (j) __ coastal areas and
+          farm lands. 
           <br />
-          flood change rise evidence climate warmer alarm unnecessarily
-          prediction destroy catastrophically gradual severely Increase <br />
-          <br />
-          The world is getting (a) because of pollution. Every year millions of
-          people all over the world die (b) - as a result of pollution. In the
-          recent years there have been (c) reports that the world's (d) is
-          undergoing a significant (e) . All these reports provide strong (f)
-          that world temperatures are (g) day by day. Climatologists (h) that
-          mid way through the next century temperatures may have (i) as much as
-          4"C. This could raise sea levels and thereby (j) coastal areas and
-          farm lands. <br />
           <br />
           73. (a) warmer (b) unnecessarily (c) alarming (d) climate (e) change
-          (f) evidence (g) increasing (h) predict (i) risen (j) flood <br />
-          <br />
-          75. Cumilla Board-2006; R.C.C.I Public School & College, Rangpur-2017{" "}
+          (f) evidence (g) increasing (h) predict (i) risen (j) flood 
           <br />
           <br />
-          shabby think see receive ways indifferent get Invite astonished appear
-          gorgeously regard enjoy rich <br />
-          <br />
-          Einstein was very simple in his (a) of life. He was (b) to his fame.
-          Once the queen of Belgium (c) - him to Brussels. When he (d) down from
-          the train, he could not (e) that there were actually many (f) dressed
-          officials to (g) him at the station. The officials also expected
-          somebody who would (h) - to be (i) and aristocratic to them. They
-          never imagined that this (j) man would be Einstein. <br />
+         </div>
+          {/* 75 */}
+          <div className="">
+            75. Cumilla Board-2006; R.C.C.I Public School & College, Rangpur-2017
+            <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+             shabby | think | see | receive | ways | indifferent | get | Invite | astonished  |appear |
+          gorgeously | regard  |enjoy | rich 
+            </div>
+          Einstein was very simple in his (a) __ of life. He was (b) __ to his fame.
+          Once the queen of Belgium (c) __ - him to Brussels. When he (d) __ down from
+          the train, he could not (e) __ that there were actually many (f) __ dressed
+          officials to (g) __ him at the station. The officials also expected
+          somebody who would (h) __ - to be (i) __ and aristocratic to them. They
+          never imagined that this (j) __ man would be Einstein. <br />
           <br />
           75. (a) way (b) indifferent (c) invited (d) got (e) think (f)
           gorgeously (g) receive (h) appear (i) rich (j) shabby <br />
           <br />
-          77. Barishal Board-2006: Gazipur Cantonment Public College,
-          Gazipur-2025 <br />
-          <br />
-          mentally sympathetic educated genius wise Improve help provides
-          development self-reliant useful assist called equip <br />
-          <br />
+          </div>
+          {/* 77 */}
+          <div className="">
+            77. Barishal Board-2006: Gazipur Cantonment Public College,
+          Gazipur-2025 
+          <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+            mentally |  sympathetic |  educated |  genius |  wise |  Improve |  help |  provides | 
+          development |  self-reliant |  useful |  assist |  called |  equip | 
+          </div>
           Proper education (a) __ a learner with opportunities to (b) __all his
           latent talents. Its aim is to (c) __ to him physically and (d) __ so
           that he can be (e) __ himself and to the society. An educated man is
           (f) __ , but he also (g) __ others in attaining self-reliance. He is
           supposed to be well-mannered, kind and (h) __ . So a man who has
           acquired knowledge and skill only for his material development cannot
-          be (i) __ a truly (j) __ man. <br />
+          be (i) __ a truly (j) __ man. 
+          <br />
           <br />
           77. (a) provides (b) improve (c) develop (d) mentally (e) useful (f)
-          self-reliant (g) helps (h) sympathetic (i) called (j) educated <br />
+          self-reliant (g) helps (h) sympathetic (i) called (j) educated 
           <br />
-          81. Cumilla Board-2004; Sonar Bangla University College, Burichong,
-          Cumilla-2018 <br />
           <br />
-          drive without traffic conscious occur be frequent many through easily
-          know move go come <br />
-          <br />
+          </div>
+          <div className="">
+             81. Cumilla Board-2004; Sonar Bangla University College, Burichong,
+          Cumilla-2018 
+          <div className="border border-gray-500 p-1 rounded-sm my-2 ">
+            drive |  without |  traffic |  conscious |  occur |  be |  frequent |  many |  through |  easily | 
+          know |  move |  go |  come | 
+          </div>
           It (a) __ difficult to drive in Bangladesh if you have no experience
           of (b) __ here . Drivers change lanes (c) __ - . As a foreigner you
           may find lane changing (d) __ signals quite distressing. Even drivers
@@ -1400,10 +1482,12 @@ const QuestionFour = () => {
           zigzag course and try to push (j) __ whenever they find some space.{" "}
           <br />
           <br />
-          81. (a) is (b) driving (c) frequently (d) without (e) drive (1)
-          conscious (g) knowing (h) occurs (1) move (1) through
+          81. (a) is (b) driving (c) frequently (d) without (e) drive (f)
+          conscious (g) knowing (h) occurs (i) move (j) through
+          </div>
+         
         </div>
-<br />
+         <br />
         <div className="">
           <h1 className="text-pink-700 my-5">Answer:</h1>
           1. (a) who (b) going (c) waste (d) decided (e) valuable/scarce (f)

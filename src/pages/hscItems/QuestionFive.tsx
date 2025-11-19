@@ -1,11 +1,11 @@
 const QuestionFive = () => {
   return (
-    <div className="px-4 lg:w-1/2 mx-auto ">
+    <div className="px-4 lg:w-1/2 mx-auto text-justify">
       <div className="text-center py-20">
         <h1 className="text-center text-green-500">Question Five</h1>
-        <p className="">Close test without clues</p>
+        <p className="font-bold text-pink-700">Close test without clues</p>
       </div>
-      <div className=" text-base xl:text-base">
+      <div className=" text-base xl:text-base ">
         Fill in the blanks with an appropriate word in each gap : 1 x 10 = 10
         <br />
         <br />

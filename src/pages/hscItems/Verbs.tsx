@@ -60,8 +60,8 @@ function Verbs() {
   };
 
   return (
-    <div className="h-full text-base">
-      <div className="flex flex-col items-center py-10 px-5 md:px-10">
+    <div className="h-full text-base text-justify">
+      <div className="flex flex-col items-center py-10 px-5 md:px-10 overflow-hidden">
         <FlipBook
           width={isPortrait ? 400 : 500} // smaller width for portrait
           height={isPortrait ? 600 : 300} // taller height for portrait
@@ -297,7 +297,7 @@ function Verbs() {
             {/* 8 */}
             <p>
               <strong>Rule: 8. </strong> <br />
-              অনান্য সকল preposition (যেমনঃ in, into, on, over, up, upon, of,
+             ( To ছাড়া ) অনান্য সকল preposition (যেমনঃ in, into, on, over, up, upon, of,
               by, with, without, before, after, away) এর পরের ব্রাকেটের verb এর
               সাথে ing হয়। <br />
               যেমন:
@@ -874,7 +874,7 @@ function Verbs() {
       </div>
 
       {/* scrolling page */}
-      <div className="h-full w-[95%] md:w-[60%] mx-auto">
+      <div className="h-full px-4 md:w-[60%] mx-auto ">
         <div className="px-5 w-full flex items-center justify-center py-20">
           <div className="relative w-11/12 md:w-10/12 h-[400px] bg-black text-white flex items-center justify-center text-2xl md:text-6xl font-bold rounded-2xl overflow-hidden">
             <span className="text-white">Right Form of Verbs</span>

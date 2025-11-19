@@ -92,8 +92,8 @@ const FirstPaperModel = () => {
             >
               {/* --- Cover Page --- */}
               <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center text-center">
-                <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center">
-                  <h1 className="text-9xl">📖</h1>
+                <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center gap-10">
+                  <h1 className="text-9xl lg:text-[200px]">📖</h1>
                   <h1 className="text-3xl font-bold">First Paper Model book</h1>
                   <p className="mt-2">Welcome! Swipe or click to begin.</p>
                 </div>
@@ -199,7 +199,7 @@ const FirstPaperModel = () => {
           {/* DOwnload button */}
           <div className="text-center py-4 ">
             <a
-              href="/FirstPaperModel.pdf"
+              href="/HscTestPapers2025.pdf"
               download
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
             >
