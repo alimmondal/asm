@@ -250,9 +250,7 @@ const QuestionFive = () => {
         কর্ণফুলী নদীর নিচের বঙ্গাবন্ধু টানেল এবং ঢাকা শহরের মেট্রোরেল। এই ধরনের
         যোগাযোগের উন্নয়নের ফলে জাতীয় এবং আন্তর্জাতিক ব্যবসার উন্নয়ন সাধন হবে।{" "}
         <br />
-        10. (a) country (b) and (c) domestic (d) role (e) various (f) to (g) mention
-        (h) elevated express (i) Karnaphuli (j) boosted
-        <br />
+        
         <br />
         </div>
       <div className="">
@@ -281,10 +279,7 @@ const QuestionFive = () => {
         চেষ্টা করো। সবশেষে, নিয়মিত অনুশীলন তোমাকে তোমার এই দক্ষতা অর্জনে সফল
         করতে সহয়তা করবে।
         <br />
-        11. (a) use/learn (b) to take (c) enrich (d) express (e) words (f) right
-        (g) grammatical (h) expand/apply/use (1) construct/make (1)
-        practice/exercise
-        <br />
+        
         <br />
       </div>
         
@@ -305,10 +300,7 @@ const QuestionFive = () => {
         দিয়েছিলেন যে, তাদের সময়ের, তাদের দক্ষিণ আফ্রিকার এবং তাদের মানুষজনের
         যারা যেখানেই থাকুক না কেনো, কেন্দ্রবিন্দুতে ম্যান্ডেলাই ছিলেন।
         <br />
-        12. (a) lifetime (b) devoted/dedicated (c) fighting/battle (d) white (e)
-        repression (f) fascinated/compelled (g) struggle/dedication (h)
-        remarked/opined (i) epicenter (j) wherever
-        <br />
+        
         <br />
         </div>
         <div className="">
@@ -334,9 +326,7 @@ const QuestionFive = () => {
         অর্থায়নকারী প্রতিষ্ঠানগুলোর উৎপাদিত পণ্যসামগ্রী সর্বোচ্চ প্রচারণা পেয়ে
         যায়। এভাবে ক্রিড়ানুষ্ঠানগুলো ব্যবসা-বাণিজ্যকে সহায়তা করে।
         <br />
-        13. (a) organized/arranged (b) sponsored (c) companies (d) exchange (e)
-        advertise (f) telecast (g) live (h) result (i) coverage (j) world
-        <br />
+        
         <br />
         </div>
         <div className="">
@@ -363,11 +353,7 @@ const QuestionFive = () => {
         সন্ধ্যা পর্যন্ত কঠোর পরিশ্রম করে। জনসাধারণের কঠোর পরিশ্রমের মধ্যেই নিহিত
         রয়েছে এদেশের অগ্রগতি। একটি সুন্দর ও সমৃদ্ধশালী বাংলাদেশের তারাই তো
         স্থপতি। <br />
-        14. (a) natural/ scenic (b) attracted/sun captivated/ch overwhelmed (c)
-        generously/abundantly/ (d) beauty (e) attachment/passion (f) core/depth
-        (g) improve/ dev (h) development/progress/pro (1) labour/toil/ (j)
-        makers/builder/ architects/contributors
-        <br />
+        
         <br />
         </div>
         <div className="">
@@ -396,10 +382,7 @@ const QuestionFive = () => {
         কিছুই জানে না, নয়তো অল্প জানে। কিশোরীদের ক্ষেত্রে মাতৃ মৃত্যুহার জাতীয়
         গড় হারের দ্বিগুণ।
         <br />
-        15. (a) becomes (b) including/like (c) common (d) despite (e)
-        continue/remain/prevail (f) bride (g) are/remain (h) pregnancy (i)
-        brides (j) informed
-        <br />
+        
         <br />
         </div>
        <div className="">
@@ -418,9 +401,7 @@ const QuestionFive = () => {
         আমাদের জীবনের জন্য অপরিহার্য। কিন্তু এটি প্রয়োজনীয় সুখ বয়ে আনে না। সুখ
         সম্পূর্ণই আপেক্ষিক বিষয়।
         <br />
-        16. (a) comfort (b) can (c) money (d) any (e) like (f) kindness/mercy
-        (g) earn (h) in (i) bring (j) relative/subjective
-        <br />
+        
         <br />
        </div>
         <div className="">
@@ -439,9 +420,7 @@ const QuestionFive = () => {
         আত্ম-কর্মসংস্থানের অনেক সুযোগ রয়েছে। কেউ সহজেই নিজেকে এই কাজগুলোতে
         নিযুক্ত করতে পারে।
         <br />
-        17. (a) are (b) a (c) entrepreneurs/self-starters/individuals (d) also
-        (e) rearing (f) raising (g) the (h) ample/many (i) employment (j) can
-        <br />
+        
         <br />
         </div>
         <div className="">
@@ -471,10 +450,7 @@ const QuestionFive = () => {
         উচ্চারণ, ব্যাকরণ ও বাগধারা দ্বারা ব্যাপকভাবে প্রভাবিত। বিশ্ব ইংরেজি এখন
         এর দেশী বক্তাদের নিয়ন্ত্রণ থেকে পিছলে গেছে।
         <br />
-        19. (a) achieved/gained (b) status/position (c) crossed (d) sole/urique
-        (e) belongs (1) outnumber (g) great/wide (h) evolved/emerged (i)
-        speaker's (j) slipped
-        <br />
+        
         <br />
         </div>
         <div className="">
@@ -493,14 +469,13 @@ const QuestionFive = () => {
         উচিত। সম্পূর্ণ প্রতিরোধ কষ্টকর হতে পারে কিন্তু আমরা নিশ্চিতভাবে মানুষের
         মধ্যে সচেতনতা জাগরিত করে দূষণ কমিয়ে রাখতে পারি।
         <br />
-        20. (a) elements (b) essential (c) polluted (d) smoke (e)
-        chemicals/filth (f) healthy (g) prevent (h) impossible/difficult (1)
-        reduce (j) awareness
+        
         <br />
         <br />
         </div>
         
-        21. Cumilla Board-2023; Military Collegiate School & College, Fultala,
+        <div className="">
+          21. Cumilla Board-2023; Military Collegiate School & College, Fultala,
         Khulna-2025 <br />A large number of people learn English (a) __ world.
         Some people use it (b) __ a first language and some people take it as
         a(c) __ language. Many international (d) __ now depend on English for
@@ -1289,6 +1264,7 @@ const QuestionFive = () => {
         <br />
         <br />
         <br />
+        </div>
       </div>
           
         {/* Answer */}
@@ -1297,36 +1273,75 @@ const QuestionFive = () => {
         polluting/harming (f), important/significant (g) smoke (h) healthy (i)
         impossible (j) awareness/consciousness
 
-        <br />
+        <br /><br />
         2. (a) habit (b) used/accustomed (c) foods (d) contain/have (e)
         junk (f) vitamins (g) risk (b) diseases (i) lead (j)
         careful/cautious/aware
-        <br />
+        <br /><br />
         3.(a) live (b) need (c) the (d) weave (e) build (f) cook (g) working (h)
         care (i) mind (j) without
-        <br />
+        <br /><br />
         4.(a) happened/occured/took place (b) were made/wer achieved (c) for/of
         (d) momentous/prominent (e) occured (f) also/had (g) emergence/birth (h)
         was/had been (i) bloody (j) hold/raise/can raise.
-        <br />
+        <br /><br />
         5. (a) heavily/very (b) unemployed (c) employment (d) solution (e) explore
         (f) various/different (g) across/throughout (h) citizen (i) provides (j)
         independent/innovative
-        <br />
+        <br /><br />
         6. (a) depends (b) important (c) disrupted/hampered (d) easier (e)
         difficult/impassable/ (f) rise/develop (g) acquire/kn (h)
         Besides/Moreover (i) promoted/develop fostered (j) understanding
-        <br />
+        <br /><br />
         7. (a) presentation/symbol/icon (b) like (c) single (d) of (e) the (f) an
         (g) change (h) blind (i) Many/The (j) curable
-        <br />
+        <br /><br />
         8. (a) worst (b) High/upper (c) due (d) limited/fixed (e) increasing/rising
         (f) victims/sufferers increase/adjust (h) curb/rein/control (i)
         production/sale (j) capacity/power
-        <br />
+        <br /><br />
         9. (a) as (b) see/regard (c) business (d) number (e) technological (f)
         modern (g) safe/global (h) luxury (i) reach (j) create
+        <br /><br />
+        10. (a) country (b) and (c) domestic (d) role (e) various (f) to (g) mention
+        (h) elevated express (i) Karnaphuli (j) boosted
+        <br /><br />
+
+        11. (a) use/learn (b) to take (c) enrich (d) express (e) words (f) right
+        (g) grammatical (h) expand/apply/use (i) construct/make (j)
+        practice/exercise
+        <br /><br />
+        12. (a) lifetime (b) devoted/dedicated (c) fighting/battle (d) white (e)
+        repression (f) fascinated/compelled (g) struggle/dedication (h)
+        remarked/opined (i) epicenter (j) wherever
+        <br /><br />
+        13. (a) organized/arranged (b) sponsored (c) companies (d) exchange (e)
+        advertise (f) telecast (g) live (h) result (i) coverage (j) world
+        <br /><br />
+        14. (a) natural/ scenic (b) attracted/sun captivated/ch overwhelmed (c)
+        generously/abundantly/ (d) beauty (e) attachment/passion (f) core/depth
+        (g) improve/ dev (h) development/progress/pro (1) labour/toil/ (j)
+        makers/builder/ architects/contributors
+        <br /><br />
+        15. (a) becomes (b) including/like (c) common (d) despite (e)
+        continue/remain/prevail (f) bride (g) are/remain (h) pregnancy (i)
+        brides (j) informed
+        <br /><br />
+        16. (a) comfort (b) can (c) money (d) any (e) like (f) kindness/mercy
+        (g) earn (h) in (i) bring (j) relative/subjective
         <br />
+        <br />
+        17. (a) are (b) a (c) entrepreneurs/self-starters/individuals (d) also
+        (e) rearing (f) raising (g) the (h) ample/many (i) employment (j) can
+        <br />
+        19. (a) achieved/gained (b) status/position (c) crossed (d) sole/urique
+        (e) belongs (1) outnumber (g) great/wide (h) evolved/emerged (i)
+        speaker's (j) slipped
+        <br /><br />
+
+        20. (a) elements (b) essential (c) polluted (d) smoke (e)
+        chemicals/filth (f) healthy (g) prevent (h) impossible/difficult (1)
+        reduce (j) awareness
         </div>
         <div className="">
           <h1 className="text-green-500">Answer: </h1>
