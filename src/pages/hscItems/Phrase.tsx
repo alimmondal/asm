@@ -25,16 +25,13 @@ function Phrase() {
   "Would rather",
   "What does…look like",
   "As soon as",
-  "Have to",
   "There",
   "Had better",
   "Let alone",
   "It",
-  "In order that",
   "How to",
-  "What’s it like",
+  "What's it like",
   "Lest",
-  "Had to",
   "What if",
   "No sooner had",
 ];
@@ -81,13 +78,13 @@ function Phrase() {
       </div>
       <div className="">
         <p className="">
-          পরীক্ষায় আসে Oucation No-3 এ, শূন্যস্থান থাকে ১০ টি, মার্কস-5. এই গুলিকে 5 out of 5 পাওয়ার জন্য নিচের রুলস গুল্যে পড়লেই যথেষ্ট। প্রত্যেকটা লাইনের অর্থ বুঝে উত্তর করার চেষ্টা করবে। বিগত বছরের board question Practice এর কোন বিকল্প নেই।
+          Phrase/ Words পরীক্ষায় আসে Oucation No-3 এ, শূন্যস্থান থাকে ১০ টি, মার্কস-5. এই গুলিকে 5 out of 5 পাওয়ার জন্য নিচের রুলস গুল্যে পড়লেই যথেষ্ট। প্রত্যেকটা লাইনের অর্থ বুঝে উত্তর করার চেষ্টা করবে। বিগত বছরের board question Practice এর কোন বিকল্প নেই।
         </p>
         <div className="py-5">
       <table className="w-full border border-gray-300">
         <thead>
-          <tr className="bg-gray-200 text-xl">
-            <th className="border px-1 py-1 lg:px-4 lg:py-2 text-center">***</th>
+          <tr className="bg-gray-200 text-4xl text-pink-600">
+            <th className="border px-1 py-1 lg:px-4 lg:py-2 text-center ">***</th>
             <th className="border px-1 py-1 lg:px-4 lg:py-2 text-center">**</th>
             <th className="border px-1 py-1 lg:px-4 lg:py-2 text-center">*</th>
           </tr>
@@ -98,7 +95,7 @@ function Phrase() {
             length: Math.max(column1.length, column2.length, column3.length),
           }).map((_, i) => (
             <tr key={i}>
-              <td className="border px-1 py-1 lg:px-4 lg:py-2">{column1[i] || ""}</td>
+              <td className="border px-1 py-1 lg:px-4 lg:py-2 ">{column1[i] || ""}</td>
               <td className="border px-1 py-1 lg:px-4 lg:py-2">{column2[i] || ""}</td>
               <td className="border px-1 py-1 lg:px-4 lg:py-2">{column3[i] || ""}</td>
             </tr>
@@ -106,6 +103,7 @@ function Phrase() {
         </tbody>
       </table>
     </div>
+    
         <div className="py-10">
           <h2 className="">Rules:</h2>
           <div className="mb-6">
