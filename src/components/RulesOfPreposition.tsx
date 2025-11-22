@@ -1,8 +1,8 @@
 const RulesOfPreposition = () => {
   return (
     <div className="h-full px-3 md:w- mx-auto ">
-      <div className=" text-center py-20">
-        <h2 className="text-pink-700">Rules Of Preposition</h2>
+      <div className="py-20 max-w-fit mx-auto">
+        <h2 className="text-pink-700 text-center p-3 rounded-md border-2">General Rules</h2>
       </div>
 
       {/* Rules  */}
