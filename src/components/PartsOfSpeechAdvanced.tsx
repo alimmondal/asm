@@ -1,7 +1,23 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 export const PartsOfSpeechAdvanced = () => {
-  // src/data/nounData.ts
+  const [showButton, setShowButton] = useState(false);
+
+// Show button after scrolling down 200px
+useEffect(() => {
+  const handleScroll = () => {
+    setShowButton(window.scrollY > 200);
+  };
+
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
+
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
+
 
   const tableData = [
     {
@@ -41,6 +57,16 @@ export const PartsOfSpeechAdvanced = () => {
     },
   ];
 
+ 
+  const scrollInToView = (id: string) => {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
+
+  
   return (
     <div className="h-full lg:w-[60%] mx-auto px-3">
       <div className="py-20 ">
@@ -49,6 +75,19 @@ export const PartsOfSpeechAdvanced = () => {
       </div>
 
       <div className="h-full">
+        <div className="flex">
+          <ul className="flex flex-wrap gap-3 mb-5">
+            <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("noun")} >Noun</li>
+            <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("noun")} >Number of Noun</li>
+            <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("pronoun")} >Pronoun</li>
+            <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("adjective")} >Adjective</li>
+            <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("verb")} >Verb</li>
+            <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("adverb")} >Adverb</li>
+            <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("preposition")} >Preposition</li>
+            <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("conjunction")} >Conjunction</li>
+            <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("interjection")} >Interjection</li>
+          </ul>
+        </div>
         <div className="">
           ইংরেজি Parts of speech সম্বন্ধে খুব প্রয়োজনীয় কথা হচ্ছে এই যে
           ছাত্র-ছাত্রীদের জন্য এগুলোর বিস্তারিত জ্ঞান ইংরেজি শেখার জন্য প্রয়োজন
@@ -69,7 +108,7 @@ export const PartsOfSpeechAdvanced = () => {
         <br />
         <div className="">
           {/* Noun */}
-          <div className="">
+          <div id="noun" className="">
             <h2 className="text-pink-600">i. Noun </h2>
             Noun এর সংজ্ঞা: ইন্দ্রিয় গ্রাহ্য (concrete) বা ভাবগত (abstract) কোন
             কিছুকে noun বলে। <br />
@@ -271,9 +310,7 @@ export const PartsOfSpeechAdvanced = () => {
               ইত্যাদি।
             </div>
           </div>
-
           <br />
-
           <br />
           <Link className="text-blue-500 underline" to={"/number"}>
             Click here to learn more of Number
@@ -446,7 +483,7 @@ export const PartsOfSpeechAdvanced = () => {
           </div>
           <br />
           {/*  ii. Pronouns */}
-          <div className="">
+          <div id="pronoun" className="">
             <h2 className="text-pink-700">ii. Pronouns </h2>
             কোন noun-এর পরিবর্তে যা ব্যবহৃত হয় তাকে pronoun বলে। Pro-এই
             prefix-এর বাংলা করা যেতে পারে: "পক্ষে"। <br />
@@ -509,7 +546,7 @@ export const PartsOfSpeechAdvanced = () => {
           </div>
           <br />
           {/* iii. Adjective */}
-          <div className="">
+          <div id="adjective"  className="">
             <h2 className="text-pink-600">
               iii. Adjective <br />
             </h2>
@@ -806,7 +843,143 @@ export const PartsOfSpeechAdvanced = () => {
               </p>
             </div>
           </div>
-          <div className="">
+          {/* Verb */}
+          <div id="verb" className="">
+            <h2 className="text-pink-500">Verb</h2>
+            <div className="">
+              Verb: যে word দ্বারা কোনো কিছু করা বা হওয়া বা কোন কাজ করা বুঝায়,
+              তাকে Verb বলে । <br />
+              যেমন : <br />
+              Sing, Think, Laugh, Cry, Jump etc. <br />
+              Verb দুই প্রকার: <br />
+              (i) Finite - সমাপিকা ক্রিয়া <br />
+              (ii) Non-Finite - অসমাপিকা ক্রিয়া
+              <br />
+              <br />
+              Finit Verb আবার দুই প্রকার:
+              <br />
+              (i) Principle verb (প্রধান ক্রিয়া) <br />
+              (ii) Auxiliary verb (সাহায্যকারী ক্রিয়া) <br />
+              <br />
+              Principle Verb : <br />
+              যে verb অন্য কোন Verb এর সাহায্য ছাড়া স্বাধীনভাবে সম্পূর্ণ অর্থ
+              প্রকাশ করতে পারে, তাকে Principle Verb বলে । <br />
+              Principal Verb আবার দুই প্রকার: <br />
+              1. Transitive Verb - সকর্মক ক্রিয়া <br />
+              2. Intransitive Verb - অকর্মক ক্রিয়া: <br />
+              1. Transitive Verb : সকর্মক ক্রিয়া <br />
+              Transitive verb বৈশিষ্ট্য : যে Verb, object ছাড়া অর্থ প্রকাশ করতে
+              পারে না বা Verb এর Object থাকে তাকে Transitive verb বলে।
+              <br />
+              2. Intransitive Verb - অকর্মক ক্রিয়া: <br />
+              Intransitive Verb বৈশিষ্ট্য : যে Verb, object ছাড়াই অর্থ প্রকাশ
+              করতে পারে বা Verb এর Object থাকে না তাকে Transitive verb বলে।{" "}
+              <br />
+              Examples: <br />
+              <div className="overflow-x-auto">
+                <table className="min-w-[500px] table-auto dark:border-slate-400">
+                  <thead>
+                    <tr>
+                      <th>Transitive Verb</th>
+                      <th>Intransitive Verb</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Ring the bell.</td>
+                      <td>The bell Ringed.</td>
+                    </tr>
+                    <tr>
+                      <td>The driver stopped the bus.</td>
+                      <td>The bus stopped. </td>
+                    </tr>
+                    <tr>
+                      <td>the boys flew kites in the sky.</td>
+                      <td>Birds flew in the sky.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <br />
+              Auxiliary Verb : যে verb ক্রিয়ার কাল বা ভাব প্রকাশ করতে Principle
+              Verb কে সাহায্য করে, তাকে Auxiliary verb বলে। এজন্য একে Helping
+              Verb ও বলা হয়। The verb that helps the principle verb to express
+              the tense or expression of the verb is called the auxiliary verb.
+              That's why it's called a helping verb.
+              <br />
+              List of Auxiliary Verbs :<br />
+              1. Be Verb : am, is, are, was, were, be, being, been. <br />
+              2. Do Verb : do, does, did <br />
+              3. Have Verb : have, has, had, hast <br />
+              4.Modals : <br />
+              can, could, may, might, shall, should, will, would, need, dare,
+              must, had better, would rather. <br />
+              5. to যুক্ত Modals : <br />
+              ought to, have to, be to, used to, be going to, be about to.
+              <br />
+              <br />
+              Non-Finite Verb: <br />
+              Non-Finite Verb আবার তিন প্রকার: <br />
+              1. Gerund <br />
+              2. Participle <br />
+              3. Infinitive
+              <br />
+              <br />
+              Gerund:Gerund = ( verb + ing ) = Noun এর মত আচরণ করবে। <br />
+              যেমন : 1. Writing letter is pleasant. <br />
+              2. Running water is pure. <br />
+              3. Swimming is a good exercise.
+              <br />
+              4. He likes gardening. <br />
+              4. He likes gardening. <br />
+              5. He is absorbed in dreaming. <br />
+              6. Seeing is believing.
+              <br />
+              Short technique : Gerund দ্বারা স্থির অবস্থা বোঝায়। <br />
+              <br />
+              Participle: <br />
+              Participle আবার তিন প্রকারঃ (a) Present Particle, (b) Past
+              Participle, (c) Perfect Participle
+              <br />
+              (a) Present Participle = ( verb + ing ) = Adjective/ Adverb এর মত
+              আচরণ করবে।
+              <br />
+              যেমন: <br />
+              1. I saw him <span className="font-bold underline">
+                passing
+              </span>{" "}
+              the shop. <br />
+              2. <span className="font-bold underline">Dancing</span> the girl
+              went away. <br />
+              3. He smell the curry{" "}
+              <span className="font-bold underline">burning</span>. <br />
+              4. He will go to{" "}
+              <span className="font-bold underline">swimming</span>. <br />
+              5. He kept me <span className="font-bold underline">waiting</span>
+              . <br />
+              5. He kept me <span className="font-bold underline">waiting</span>
+              . <br />
+              6. I saw the baby there{" "}
+              <span className="font-bold underline">sleeping</span>. <br />
+              Technique : Participle দ্বারা চলমান অবস্থা বোঝায়।
+              <br />
+              <br />
+              Infinitive:
+              <br />
+              Infinitive = ( to + verb ) = অর্থাৎ to যুক্ত verb. <br />
+              যেমন : <br />
+              1. I'm glad to receive your letter. <br />
+              2. We eat food to live. <br />
+              3. This is the home to let.
+              <br />
+              4. To err is human.
+              <br />
+              5. To speak the truth, he's honest. <br />
+              (বিস্তারিত পড়তে চাইলে এডভান্স লেভেলে ক্লিক করুন )
+            </div>
+          </div>
+          <br />
+          <div id="adverb" className="">
             <h1 className="text-pink-700">Adverb</h1>
             <br />
             এই ব্লগে আমি আলোচনা করবো, <br />
@@ -980,8 +1153,70 @@ export const PartsOfSpeechAdvanced = () => {
             Can you tell me when he will come? <br />
             I know how he did it. <br />
           </div>
+          <div className="" id="preposition" >
+             <br />
+          <div className="">
+            <h2 className="text-pink-600">Preposition</h2>
+            Preposition: Pre শব্দের অর্থ পূর্বে আর Position শব্দের অর্থ অবস্থান।
+            অর্থাৎ, যে Word Noun/Pronoun এর পূর্বে বসে পূর্ববর্তী Word এর সাথে
+            সম্পর্ক স্থাপন করে, তাকে Preposition বলে। <br />
+            যেমন : to, of, in, at, on, into, below, under, beside, around, over,
+            above, across, through etc..
+          </div>
+          <br />
+          </div>
+          <div className="" id="conjunction" >
+            <br />
+          <div className="">
+            <h2 className="text-pink-600">Conjunction:</h2>
+            Con শব্দের অর্থ একত্রে আর Junction শব্দের অর্থ সংযুক্ত করা। অর্থাৎ,
+            যে Word একাধিক শব্দ বা বাক্যকে সংযুক্ত করার জন্য ব্যবহার করা হয়,
+            তাকে Conjunction বলে। <br />
+            Example: <br />
+            1. Do or Die. <br />
+            2. Jack is good but Rose is not bad. <br />
+            3. Jack and Rose are good Friends. <br />
+            4. Syndrela is beautiful but Thor is powerful.
+          </div>
+          <br />
+          </div>
+          <div className="" id="interjection" >
+            <br />
+          <div className="">
+            <h2 className="text-pink-600">Interjection</h2>
+            Interjection: যে শব্দ মনের আকস্মিক আবেগ প্রকাশ করে, তাকে
+            interjection বলে। <br />
+            More Examples: - <br />
+            Hurrah! We won the game! (Emotion of joy)
+            <br />- Alas! I failed the exam! (Emotion of sorrow) <br />
+            - Wow! What a beautiful car! (Emotion of surprise) <br />- Oh! I
+            forgot to bring my purse! (Emotion of sorrow)
+            <br />- Ouch! It hurts! - Ouch! It hurts! (Emotion of pain) (Emotion
+            of pain)
+            <br />
+            -Eww! It tastes so bad! (Emotion of disliking)
+            <br />
+            - Yahoo! I got a job!(Emotion of joy) <br />
+            -Huh! I don't care! <br />
+            -Huh! I don't care! (Emotion of scorn)
+          </div>
+          <br />
+          </div>
         </div>
+        <div className="">
+        {showButton && (
+              <button
+                onClick={scrollToTop}
+                className="fixed bottom-3 right-1 bg-pink-600 text-white p-5 rounded-full shadow-lg hover:bg-pink-700 transition z-50"
+              >
+                ↑top
+              </button>
+            )}
       </div>
+      </div>
+      
+          
+
     </div>
   );
 };
