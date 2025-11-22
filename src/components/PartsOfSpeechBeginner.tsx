@@ -16,6 +16,7 @@ function PartsOfSpeechBeginner() {
         const scrollToTop = () => {
           window.scrollTo({ top: 0, behavior: "smooth" });
         };
+        
   return (
     <div className="w-full px-3">
       <div className="text-center py-10">

@@ -76,11 +76,14 @@ const scrollToTop = () => {
 
       <div className="h-full">
         <div className="flex">
-          <ul className="flex flex-wrap gap-3 mb-5">
+          <ul className="flex flex-wrap justify-center font-medium gap-3 mb-5">
             <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("noun")} >Noun</li>
-            <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("noun")} >Number of Noun</li>
+            <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("number")} >Number of Noun</li>
+            <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("possessive")} >Possessive of Noun</li>
+           
             <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("pronoun")} >Pronoun</li>
             <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("adjective")} >Adjective</li>
+            <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("degree")} >Degrees of Adjective</li>
             <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("verb")} >Verb</li>
             <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("adverb")} >Adverb</li>
             <li className="cursor-pointer text-blue-600 border px-2 py-1 rounded-lg" onClick={()=>scrollInToView("preposition")} >Preposition</li>
@@ -108,8 +111,9 @@ const scrollToTop = () => {
         <br />
         <div className="">
           {/* Noun */}
-          <div id="noun" className="">
-            <h2 className="text-pink-600">i. Noun </h2>
+          <div className="">
+            <div id="noun" className="">
+            <h2 className="text-pink-600 py-3">i. Noun </h2>
             Noun এর সংজ্ঞা: ইন্দ্রিয় গ্রাহ্য (concrete) বা ভাবগত (abstract) কোন
             কিছুকে noun বলে। <br />
             ইন্দ্রিয়গ্রাহ্য বলতে বুঝায় মানুষের পঞ্চইন্দ্রিয়ের আওতাভুক্ত। যেমন:{" "}
@@ -169,9 +173,8 @@ const scrollToTop = () => {
             জাতীয় কোন কিছু ইন্দ্রিয়গ্রাহ্য নয়।
           </div>
           <br />
-
-          {/* Parts of Speech-এর Number */}
-          <div className="">
+          {/*Number */}
+          <div id="number" className="">
             <h2 className="text-pink-600">Parts of Speech-এর Number </h2>
             <br />
             Noun একবচন বা বহুবচন হতে পারে কি পারে না সেই দৃষ্টিকোণ থেকে তাকে
@@ -312,13 +315,13 @@ const scrollToTop = () => {
           </div>
           <br />
           <br />
-          <Link className="text-blue-500 underline" to={"/number"}>
+           <Link className="text-blue-500 underline" to={"/number"}>
             Click here to learn more of Number
           </Link>
           <br />
           {/* Noun-equivalents  */}
           <div className="">
-            <h3 className="text-pink-600">
+            <h3 className="text-pink-600 py-3">
               Noun-equivalents(Noun-এর সমমান সম্পন্ন পদসমূহ)
             </h3>
             বাক্যে কিছু কিছু পদের শব্দ বা phrase পদমর্যাদার দিক দিয়ে noun-এর
@@ -353,36 +356,55 @@ const scrollToTop = () => {
             (b) We feel sympathy for the down-trodden.
           </div>
           <br />
-          {/* Noun-এর Possessive বা Genitive form */}
-          <div className="">
-            <h3 className="text-pink-600">
+          {/* Possessive/ Genitive of Noun*/}
+          <div id="possessive" className="">
+            <h3 className="text-pink-600 py-3">
               Noun-এর Possessive বা Genitive form
             </h3>
             Possessive বলতে noun বা pronoun-এর একটা form যেটা কোন noun বা
             pronoun-এর কিছু আছে, বা কোন কিছু তার দখলে আছে এরূপ বুঝায়। আমরা এখানে
-            noun-এর possessive form আলোচনা করছি। Possessive দুভাবে গঠন করা যায়:{" "}
+            noun-এর possessive form আলোচনা করছি। <br /> <br />
+            Possessive দুভাবে গঠন করা যায়:
             <br />
-            (1) কোন noun এর পরে' বসিয়ে। <br />
+            (1) কোন noun এর পরে 's বসিয়ে। <br />
             যেমন: The ship's name. <br />
             (2) Possession-কে prepositional phrase এর-head word বানিয়ে। <br />
-            যেমন: The name of the ship. <br />
-            Parts of Speech: A Quick Glance 37 <br />
-            'S যুক্ত করে possessive গঠন করা যায় কিভাবে <br />
-            ফাই <br />
+            যেমন: The name of the ship. <br /><br /> 
+            
+            <h3 className="">'S যুক্ত করে possessive গঠন - <br /></h3>
             (1) কোন singular noun-এর শেষে 's যোগ করে। <br />
-            যেমন: Bird's beak (পাখির ঠোঁট) Matin's shirt (মতিনের শার্ট) <br />
-            Cow's milk (গরুর দুধ); America's foreign policy (আমেরিকার বৈদেশিক
-            নীতি); goat's cheese (ছাগদুগ্ধের পনির)। <br />
-            (2) সময়ের পরিমাপের ক্ষেত্রে; today's news (আজকের খবর); yesterday's
-            incident (গতকালের ঘটনা)। <br />
-            (3) Complex noun phrase-এর ক্ষেত্রে: The director of company's
+            যেমন: <br />
+            Bird's beak (পাখির ঠোঁট), <br /> 
+             Matin's shirt (মতিনের শার্ট) <br />
+            Cow's milk (গরুর দুধ);  <br /> 
+            America's foreign policy (আমেরিকার বৈদেশিক
+            নীতি);  <br /> 
+            goat's cheese (ছাগদুগ্ধের পনির)। 
+            <br />
+            <br />
+            (2) সময়ের পরিমাপের ক্ষেত্রে: <br /> 
+            today's news (আজকের খবর); yesterday's
+            incident (গতকালের ঘটনা)। 
+            <br />
+            <br />
+            (3) Complex noun phrase-এর ক্ষেত্রে: <br />
+
+            The director of company's
             assessment (কোম্পানির পরিচালকের মূল্যায়ন) the Prince of Albania's
             daughter (আলবানিয়ার রাজকুমারের কন্যা), the chief of Army's statement
-            (সেনা প্রধানের বক্তব্য)। <br />
-            (4) কিছু কিছু English idiom-এর ক্ষেত্রে an arm's length; for
-            economy's sake; our money's worth. <br />
-            (5) যে সমস্ত plural-এর শেষে "n" থাকে: children's education; men's
-            wear, women's rights. <br />
+            (সেনা প্রধানের বক্তব্য)। 
+            <br />
+            <br />
+            (4) কিছু কিছু English idiom-এর ক্ষেত্রে: <br /> 
+             an arm's length; for
+            economy's sake; our money's worth. 
+            <br /> 
+            <br /> 
+            (5) যে সমস্ত plural-এর শেষে "n" থাকে: <br />  
+             children's education; men's
+            wear, women's rights.
+             <br />
+             <br />
             (6) 's-possessive দ্বারা বিশেষিত কোন noun উহ্য থাকতে পারে যদি
             প্রসঙ্গ থেকে তা বোঝা যায়: <br />
             (a) My car is faster than Sejan's. (Sejan's car) <br />
@@ -390,7 +412,8 @@ const scrollToTop = () => {
             উপরের (a) বাক্যে Sejan's-এর পরে car, এবং (b) বাক্যে Rafiq's-এর পরে
             memory-এর উল্লেখ নিষ্প্রয়োজন, কারণ তা context থেকেই বোঝা যাচ্ছে।{" "}
             <br />
-            Note যে সমস্ত নাম মানুষ, জীবজন্তু, বা দেশের নাম নয় সেগুলোর 's
+            <br />
+            Note: যে সমস্ত নাম মানুষ, জীবজন্তু, বা দেশের নাম নয় সেগুলোর 's
             possessive না ব্যবহার করাই উত্তম, এবং "of" possessive দ্বারা প্রকাশ
             করাই উচিত: <br />
             The name of the street. (The street's name নয়) <br />
@@ -399,19 +422,23 @@ const scrollToTop = () => {
             (7) কখনও কখনও দুই বা ততোধিক ব্যক্তি কোন প্রতিষ্ঠান বা সম্পদের মালিক
             হয়। সে ক্ষেত্রে শেষোক্ত নামের পরে 's বসে: <br />
             Haq and Molla's firm; <br />
-            Midha and Sheikh's apartment. <br />
-            শুধু '(apostrophe) ব্যবহৃত হয়: <br />
+            Midha and Sheikh's apartment. 
+            <br />
+            <h3 className="">শুধু '(apostrophe) ব্যবহৃত হয়: </h3>
+            
             (1) Plural noun এর ক্ষেত্রে; plural "s" এর উপর: <br />
             boys' school; girls' college; citizens' rights. <br />
-            <br />
             (2) যে সমস্ত নামের শেষে s থাকে; <br />
             Socrates' ideas; Keats' poetry, Euripides' plays. <br />
             Note: এ জাতীয় নামের শেষে 's ও দেয়া যায়। যেমন: Keats's poetry
-            Dickens's novels, ইত্যাদি। <br />
-            "Of" ব্যবহার করেও possessive করা যায়: <br />
+            Dickens's novels, ইত্যাদি। 
+            <br />
+            <br />
+            <h3 className="">"Of" ব্যবহার করেও possessive করা যায়: <br /></h3>           
             Possession-এর নামটা আগে বসিয়ে তার পর "of” এবং possessor-এর নাম বসাতে
             হয়। তখন 's দরকার হয় না। <br />
-            যেমন: Keats's poetry এটা the poetry of Keats এভাবেও লেখা যায়। কোন
+            যেমন: <br />
+             Keats's poetry এটা the poetry of Keats এভাবেও লেখা যায়। কোন
             কোন ক্ষেত্রে, বিশেষ করে জড় পদার্থের ক্ষেত্রে of-possessive ব্যবহার
             অধিকতর কাম্য। <br />
             যেমন: <br />
@@ -420,8 +447,12 @@ const scrollToTop = () => {
             উদাহরণ (a)'র বেলায় The book's title, এবং (b)'র বেলায় The room's
             interior, এভাবেও লেখা যায়, তবে of দিয়ে লেখা বেশি কাম্য। <br />
             তবে কতকগুলো ক্ষেত্রে 's possessive লেখাই যায় না। যেমন: the hub of
-            the wheel-এর পরিবর্তে the wheel's hub, লেখা যাবে না। <br />
-            বাক্যে Noun-এর ব্যবহার, বা কি কি কাজ করে: <br />
+            the wheel-এর পরিবর্তে the wheel's hub, লেখা যাবে না। 
+            <br />
+            <br />
+            <br />
+            <h3 className="">বাক্যে Noun-এর ব্যবহার, বা কি কি কাজ করে: <br /></h3>
+            
             1. Subject হিসেবে: <br />
             Zaman came yesterday. <br />
             2. Object: <br />
@@ -435,14 +466,14 @@ const scrollToTop = () => {
             4. Adverbial: They went home. <br />
             5. Appositive <br />
             Mr Mahfuz, headmaster of the school, is present. <br />
-            6 Modifier of another noun: <br />
+            6. Modifier of another noun: <br />
             I like a cotton shirt. <br />
-            It is a silver bracelet, lalelais draud
+            It is a silver bracelet.
           </div>
           <br />
           {/* Noun Phrase */}
           <div className="">
-            <h3 className="text-pink-600">Noun Phrase </h3>
+            <h3 className="text-pink-600 py-3">Noun Phrase </h3>
             Noun সম্বন্ধে জরুরী জ্ঞাতব্য বিষয়: <br />
             Parts of speech সম্বন্ধে পূর্বেই বলা হয়েছে যে ইংরেজি ভাষা শেখার জন্য
             parts of speech-এর বিস্তৃত বিষয় মনে রাখার কোন প্রয়োজন নেই। এ
@@ -456,14 +487,15 @@ const scrollToTop = () => {
             ঝেড়ে ফেলে দিয়ে ভবিতব্যের ওপর নিজকে সম্পূর্ণভাবে সমর্পিত করে।
             <br />
             <br />
-            ইংরেজি ভাষা শেখার জন্য noun সম্বন্ধে যেটুকু মনে রাখলেই যথেষ্ট তা
-            হচ্ছে: <br />
+            <h3 className="text-pink-600">ইংরেজি ভাষা শেখার জন্য noun সম্বন্ধে যেটুকু মনে রাখলেই যথেষ্ট তা
+            হচ্ছে: </h3>
+            <br />
             (1) Concrete বা abstract কিছুকেই noun বলে। <br />
             (2) Noun-এর singular plural form, অর্থাৎ countable এবং uncountable.{" "}
             <br />
-            3) Noun-এর possessive বা genitive form. <br />
-            4) Noun phrase এর structure. <br />
-            5) Sentence-এ noun-এর function.
+            (3) Noun-এর possessive বা genitive form. <br />
+            (4) Noun phrase এর structure. <br />
+            (5) Sentence-এ noun-এর function.
             <br />
             <br />
             EXERCISES <br />
@@ -482,9 +514,12 @@ const scrollToTop = () => {
             teacher, (g) secretary, (h) work, (i) state, (j) servant.ol
           </div>
           <br />
+          </div>
+         
+          
           {/*  ii. Pronouns */}
           <div id="pronoun" className="">
-            <h2 className="text-pink-700">ii. Pronouns </h2>
+            <h2 className="text-pink-700 py-3">ii. Pronouns </h2>
             কোন noun-এর পরিবর্তে যা ব্যবহৃত হয় তাকে pronoun বলে। Pro-এই
             prefix-এর বাংলা করা যেতে পারে: "পক্ষে"। <br />
             <br />
@@ -547,7 +582,7 @@ const scrollToTop = () => {
           <br />
           {/* iii. Adjective */}
           <div id="adjective"  className="">
-            <h2 className="text-pink-600">
+            <h2 className="text-pink-600 py-3">
               iii. Adjective <br />
             </h2>
             <div className="">
@@ -722,10 +757,10 @@ const scrollToTop = () => {
               "Kind" বসেছে "man" এর আগে, "tall and stout" বসেছে man-এর পরে, এবং
               pious বসেছে বাক্যের শেষে। <br />
             </div>
-            {/* Degrees of Comparison of Adjectives */}
-            <div className="">
-              <h3 className="text-pink-800">
-                Degrees of Comparison of Adjectives
+            {/* Degrees ofAdjectives */}
+            <div id="degree" className="">
+              <h3 className="text-pink-700 py-3">
+                Degrees of Adjectives
               </h3>
               পুরাতনপন্থী ইংরেজি Grammar-গুলোতে তিন প্রকার degree দেওয়া আছে।{" "}
               <br />
@@ -844,8 +879,8 @@ const scrollToTop = () => {
             </div>
           </div>
           {/* Verb */}
-          <div id="verb" className="">
-            <h2 className="text-pink-500">Verb</h2>
+          <div id="verb" className="py-3">
+            <h2 className="text-pink-500 py-3">iv. Verb</h2>
             <div className="">
               Verb: যে word দ্বারা কোনো কিছু করা বা হওয়া বা কোন কাজ করা বুঝায়,
               তাকে Verb বলে । <br />
@@ -979,8 +1014,9 @@ const scrollToTop = () => {
             </div>
           </div>
           <br />
+          {/* adverb */}
           <div id="adverb" className="">
-            <h1 className="text-pink-700">Adverb</h1>
+            <h1 className="text-pink-700 py-3">Adverb</h1>
             <br />
             এই ব্লগে আমি আলোচনা করবো, <br />
             প্রথমত, Adverb কাকে বলে বা Adverb কি সে সম্পর্কে। দ্বিতীয়ত, Adverb
@@ -1156,7 +1192,7 @@ const scrollToTop = () => {
           <div className="" id="preposition" >
              <br />
           <div className="">
-            <h2 className="text-pink-600">Preposition</h2>
+            <h2 className="text-pink-600 py-3">Preposition</h2>
             Preposition: Pre শব্দের অর্থ পূর্বে আর Position শব্দের অর্থ অবস্থান।
             অর্থাৎ, যে Word Noun/Pronoun এর পূর্বে বসে পূর্ববর্তী Word এর সাথে
             সম্পর্ক স্থাপন করে, তাকে Preposition বলে। <br />
@@ -1165,10 +1201,11 @@ const scrollToTop = () => {
           </div>
           <br />
           </div>
-          <div className="" id="conjunction" >
+          {/*  conjunction*/}
+          <div className="" id="conjunction " >
             <br />
           <div className="">
-            <h2 className="text-pink-600">Conjunction:</h2>
+            <h2 className="text-pink-600 py-3">Conjunction:</h2>
             Con শব্দের অর্থ একত্রে আর Junction শব্দের অর্থ সংযুক্ত করা। অর্থাৎ,
             যে Word একাধিক শব্দ বা বাক্যকে সংযুক্ত করার জন্য ব্যবহার করা হয়,
             তাকে Conjunction বলে। <br />
@@ -1179,11 +1216,12 @@ const scrollToTop = () => {
             4. Syndrela is beautiful but Thor is powerful.
           </div>
           <br />
+          {/* Interjection */}
           </div>
           <div className="" id="interjection" >
             <br />
           <div className="">
-            <h2 className="text-pink-600">Interjection</h2>
+            <h2 className="text-pink-600 py-3">Interjection</h2>
             Interjection: যে শব্দ মনের আকস্মিক আবেগ প্রকাশ করে, তাকে
             interjection বলে। <br />
             More Examples: - <br />
