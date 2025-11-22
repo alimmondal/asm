@@ -16,11 +16,98 @@ function Phrase() {
     });
   };
 
+
+    const column1 = [
+  "It is high time",
+  "Would you mind",
+  "As if",
+  "Unless",
+  "Would rather",
+  "What does…look like",
+  "As soon as",
+  "Have to",
+  "There",
+  "Had better",
+  "Let alone",
+  "It",
+  "In order that",
+  "How to",
+  "What’s it like",
+  "Lest",
+  "Had to",
+  "What if",
+  "No sooner had",
+];
+
+ const column2 = [
+  "It is high time",
+  "Lest",
+  "Had to",
+  "In order to",
+  "As though",
+  "As far as",
+  "Used to",
+  "As long as",
+  "Has to",
+];
+
+ const column3 = [
+  "In order that",
+  "How to",
+  "It is about time",
+  "Feel like",
+  "Blow one’s own trumpet",
+  "Is used to",
+  "When it comes to",
+  "Needn’t have",
+  "So that",
+  "In case",
+  "What…look like",
+  "What’s like",
+  "If",
+  "Neither will",
+  "The older…the more",
+  "Whenever",
+  "But for",
+  "What do you mean",
+];
+
+
   return (
-    <div className="h-full md:w-[85%]  mx-auto">
-      <div className="my-20 px-5">
+    <div className="h-full md:w-[85%]  mx-auto px-4">
+      <div className="my-20 ">
         <h1 className="text-center text-green-400">Phrase</h1>
+
+      </div>
+      <div className="">
+        <p className="">
+          পরীক্ষায় আসে Oucation No-3 এ, শূন্যস্থান থাকে ১০ টি, মার্কস-5. এই গুলিকে 5 out of 5 পাওয়ার জন্য নিচের রুলস গুল্যে পড়লেই যথেষ্ট। প্রত্যেকটা লাইনের অর্থ বুঝে উত্তর করার চেষ্টা করবে। বিগত বছরের board question Practice এর কোন বিকল্প নেই।
+        </p>
+        <div className="py-5">
+      <table className="w-full border border-gray-300">
+        <thead>
+          <tr className="bg-gray-200 text-xl">
+            <th className="border px-1 py-1 lg:px-4 lg:py-2 text-center">***</th>
+            <th className="border px-1 py-1 lg:px-4 lg:py-2 text-center">**</th>
+            <th className="border px-1 py-1 lg:px-4 lg:py-2 text-center">*</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {Array.from({
+            length: Math.max(column1.length, column2.length, column3.length),
+          }).map((_, i) => (
+            <tr key={i}>
+              <td className="border px-1 py-1 lg:px-4 lg:py-2">{column1[i] || ""}</td>
+              <td className="border px-1 py-1 lg:px-4 lg:py-2">{column2[i] || ""}</td>
+              <td className="border px-1 py-1 lg:px-4 lg:py-2">{column3[i] || ""}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
         <div className="py-10">
+          <h2 className="">Rules:</h2>
           <div className="mb-6">
             <h3 className="font-semibold">1. Let alone:</h3>
             <ul className="list-disc pl-5">
@@ -260,6 +347,8 @@ function Phrase() {
         </div>
       </div>
 
+       
+
       <div className="w-full flex items-center justify-center py-4">
         <Button
           gradientDuoTone="purpleToPink"
@@ -479,6 +568,7 @@ function Phrase() {
           </div>
         </div>
       </div>
+   
     </div>
   );
 }
