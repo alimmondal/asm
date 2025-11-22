@@ -1,6 +1,38 @@
 // import { Button } from "flowbite-react";
 
 function Completing() {
+   const col2 = [
+  "Since",
+  "It is high time",
+  "Lest",
+  "Had",
+  "So that",
+  "If",
+  "When",
+  "While",
+  "With a view to",
+  "Whenever",
+];
+ const col3 = [
+  "Though",
+  "While",
+  "Too……to",
+  "As though",
+  "That",
+  "I wish",
+  "Unless",
+  "Where",
+  "No sooner had",
+];
+ const col4 = [
+  "Hardly had",
+  "As if",
+  "Let alone",
+  "I had better",
+  "Because of",
+];
+
+
   return (
     <div className="h-full md:w-[85%] mx-auto px-5">
       <div className="">
@@ -14,8 +46,38 @@ function Completing() {
         </div>
       </div>
 
+      <div className="">
+        <p className="">
+          Completing Sentence পরীক্ষায় আসে Oucation No-4 এ, শূন্যস্থান থাকে ১০ টি, মার্কস-5. এই গুলিকে 5 out of 5 পাওয়ার জন্য নিচের রুলস গুল্যে পড়লেই যথেষ্ট। প্রত্যেকটা লাইনের অর্থ বুঝে উত্তর করার চেষ্টা করবে। বিগত বছরের board question Practice এর কোন বিকল্প নেই।
+        </p>
+        <div className="py-5">
+      <table className="w-full border border-gray-300">
+        <thead>
+          <tr className="bg-gray-200 text-4xl text-pink-600">
+            <th className="border px-1 py-1 lg:px-4 lg:py-2 text-center ">***</th>
+            <th className="border px-1 py-1 lg:px-4 lg:py-2 text-center">**</th>
+            <th className="border px-1 py-1 lg:px-4 lg:py-2 text-center">*</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {Array.from({
+            length: Math.max(col4.length, col2.length, col3.length),
+          }).map((_, i) => (
+            <tr key={i}>
+              <td className="border px-1 py-1 lg:px-4 lg:py-2">{col2[i] || ""}</td>
+              <td className="border px-1 py-1 lg:px-4 lg:py-2">{col3[i] || ""}</td>
+              <td className="border px-1 py-1 lg:px-4 lg:py-2 ">{col4[i] || ""}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    </div>
+
       {/* <!-- Rules --> */}
       <div className="">
+        <h2 className="">Rules</h2>
         <h3 className="">
           <span className="animateText">***</span> 1. after / before:
         </h3>
