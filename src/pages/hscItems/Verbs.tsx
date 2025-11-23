@@ -387,9 +387,9 @@ function Verbs() {
           {/* page 8 */}
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
             <p className="text-xl font-bold mb-1">Page 8</p>
-            <div className="pt-3">
+            <div className="">
               কিন্তু
-              <p className="py-3">
+              <p className="py-">
                 <strong> (b). </strong> প্রথম বক্যে Fancy, wish, it is time, it
                 is high time, as if, as though, if থাকলে পরের বাক্যের ব্রাকেটে
                 be এর স্থলে সাধারণত were হয়। <br />
@@ -414,10 +414,9 @@ function Verbs() {
 
           {/* page 9 */}
           <div className="p-3 text-black md:p-14 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 9</h2>
-
+            <h2 className="text-xl font-bold">Page 9</h2>
             {/* 14 */}
-            <div className="pb-3">
+            <div className="">
               <p>
                 <span className=" font-bold">Rule: 14. </span> <br />
                 <strong> (a). </strong> If দ্বারা শুরু বাক্যটি Present
@@ -427,9 +426,8 @@ function Verbs() {
                 Q. If He comes, I (go) to his house. <br />
                 =If He comes, I <u>will go</u> to his house. <br />
                 <strong>(b). </strong>If দ্বারা শুরু বাক্যটি Past Indefinite
-                tense হলে পরের বাক্যের/ if ছাড়া বাক্যের Subject এর পরে would/
-                could / might হবে এবং verb এর V<sub>1</sub> হয়। <br />
-                {/* rule13 er baki */}
+                tense হলে if ছাড়া বাক্যের Subject এর পরে would/
+                could / might হবে এবং verb এর V<sub>1</sub> হয়। 
                 যেমন:
                 <br />
                 Q. If he came, I (go) there.
@@ -438,23 +436,23 @@ function Verbs() {
 
               <p>
                 <strong> (c). </strong> If দ্বারা শুরু বাক্যটি Past Perfect
-                tense হলে পরের বাক্যের/ if ছাড়া বাক্যের Subject এর পরে would
+                tense হলে if ছাড়া বাক্যের Subject এর পরে would
                 have/ could have/ might have হবে এবং verb এর V<sub>3</sub> হয়।
                 {/* <br /> */}
                 যেমন:
                 <br />
-                Q. If you had told me this, I (buy) a car.
-                <br />= If you had told me this, I <u>would have bought</u> a
+                Q. If you had told me this, I (buy) a car. <br /> 
+                = If you had told me this, I <u>would have bought</u> a
                 car.
               </p>
             </div>
           </div>
 
           {/* page 10 */}
-          <div className="p-3 text-black md:p-12 bg-[#EFE5D6] book-shadow">
+          <div className="p-3  text-black md:p-12 bg-[#EFE5D6] book-shadow">
             <h2 className="text-xl font-bold mb-2">Page 10</h2>
 
-            <p>
+            <p className="">
               <strong> (d) </strong>যদি Had + Subject + V<sub>3</sub>- থাকে
               তাহলে পরের বাক্যের/ had ছাড়া বাক্যেটি- Subj + would have/could
               have/might have + V<sub>3</sub> হবে/হয়। <br />
