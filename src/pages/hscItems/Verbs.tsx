@@ -154,22 +154,22 @@ function Verbs() {
 
           {/* page 2 */}
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 2</h2>
+            <h2 className="text-xl font-bold">Page 2</h2>
 
             {/* 3 */}
-            <div className="pt-2">
+            <div className="">
               <p>
                 <strong>Rule: 3. </strong> <br />
                 বাক্যর মধ্যে Already, recently, just, just now, lately, yet,
                 ever, immediately, in the mean time থাকলে - বাক্যটি Present
-                Perfect Tense এ হয়। <br />
+                Perfect Tense এ হয়। 
                 যেমন: <br />
                 Q. He not (choose) her career yet. <br />
                 =He <u>has not chosen</u> her career yet.
               </p>
             </div>
             {/* 4 */}
-            <div className="pt-2 text-base">
+            <div className="pt-1 text-base">
               <p>
                 <span className=" font-bold">Rule: 4. </span> <br />
                 বাক্যর মধ্যে Once, last, yesterday, ago, one day, in the past,
@@ -177,7 +177,7 @@ function Verbs() {
                 <span className="bengali">
                   ইত্যাদি অতীত নির্দেশক শব্দ থাকলে ব্রাকেটের Verb টি V2 হবে বা
                   বাক্যটি Past Indefinite Tense হয়।
-                  <br />
+                  
                   যেমন:
                 </span>
               </p>
@@ -186,7 +186,7 @@ function Verbs() {
                 <br />= He <u>returned</u> last night.
               </p>
               {/* 5 */}
-              <p className="pt-2">
+              <p className="pt-1">
                 <span className=" font-bold">Rule: 5. </span>
                 <br />
                 <strong> (a). </strong> Am, is, are, was, were, be, being, been,
@@ -200,19 +200,18 @@ function Verbs() {
           {/* page 3 */}
           <div className="p-3 text-base text-black md:p-20 bg-[#EFE5D6]  book-shadow">
             <h2 className="text-xl font-bold ">Page 3</h2>
-            <p className="pt-3">
-              passive Voice এর ক্ষেত্রে ব্রাকেটের Verb এর V<sub>3</sub> হয়।{" "}
-              <br />
+            <p className="">
+              passive Voice এর ক্ষেত্রে ব্রাকেটের Verb এর V<sub>3</sub> হয়।
               যেমন: <br />
               Q. Rice is (sell) in the market. <br />
               =Rice is <u>sold</u> in the market.
             </p>
 
             <div>
-              <p className="py-2 font-bold"> আবার-</p>
+              <p className="py-1 font-bold"> আবার-</p>
               <p>
                 <strong> (b). </strong>having এবং get, got, gotten এবং
-                Linking-verb (be, become) এর পর ব্রাকেটের Verb টি V<sub>3</sub>{" "}
+                Linking-verb (be, become) এর পর ব্রাকেটের Verb টি V<sub>3</sub>
                 হয়। <br />
                 যেমনঃ
                 <br />
@@ -221,11 +220,11 @@ function Verbs() {
                   <br />= I went out having closed the door.
                 </span>
               </p>
-              <p className="text-rose-500 mt-3 font-semibold">কিন্তু</p>
+              <p className="text-rose-500 mt-1 font-semibold">কিন্তু</p>
               <p>
                 <strong> (c). </strong>
                 Hold, locate, bear, situate ইত্যাদি Verb ব্রাকেটে থাকলে বাক্যটি
-                passive voice এ হয়। <br />
+                passive voice এ হয়। 
                 যেমনঃ
                 <br />
                 <span className="dark:text-green-400">
@@ -236,11 +235,11 @@ function Verbs() {
           </div>
 
           {/* page 4 */}
-          <div className="p-3 text-base text-black lg:p-5 bg-[#EFE5D6]  book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 4</h2>
+          <div className="p-2 text-base text-black lg:p-5 bg-[#EFE5D6]  book-shadow">
+            <h2 className="text-xl font-bold">Page 4</h2>
 
             {/* 6 */}
-            <div className="pt-1">
+            <div className="">
               <p>
                 <strong>Rule: 6. </strong> <br />
                 Can, could, may, might, shall, should, will, would, must, need,
@@ -269,7 +268,7 @@ function Verbs() {
                 to, get used to, addicted to, devoted to, with an eye to, be
                 accustomed to, be opposed to, worth, cannot help, could not
                 help, confess to ইত্যাদির পরে ব্রাকেটের Verb এর সাথে ing যুক্ত
-                হয় । <br />
+                হয় । 
                 যেমন:
               </p>
             </div>
@@ -277,29 +276,29 @@ function Verbs() {
 
           {/* page 5 */}
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 5</h2>
+            <h2 className="text-xl font-bold ">Page 5</h2>
 
             <p className="dark:text-green-400">
               Q. She is used to (read) Quran.
               <br />= She is used to <u>reading</u> Quran.
             </p>
-            <p className="pt-3 font-bold">কিন্তু:-</p>
+            <p className="pt-1 font-bold">কিন্তু:-</p>
             <p>
               <strong> Rule-(c). </strong> <br />
-              শুধু used to এর পরে verb এর V<sub>1</sub> হয়। <br />
+              শুধু used to এর পরে verb এর V<sub>1</sub> হয়।
               যেমন:
             </p>
             <p className="dark:text-green-400">
               Q. He used to (drive) a car.
               <br />= He used to <u>drive</u> a car. <br />
             </p>
-            <p className="text-rose-600 font-bold pt-2">কিন্তু-</p>
+            <p className="text-rose-600 font-bold ">কিন্তু-</p>
             {/* 8 */}
             <p>
               <strong>Rule: 8. </strong> <br />
              ( To ছাড়া ) অনান্য সকল preposition (যেমনঃ in, into, on, over, up, upon, of,
               by, with, without, before, after, away) এর পরের ব্রাকেটের verb এর
-              সাথে ing হয়। <br />
+              সাথে ing হয়। 
               যেমন:
             </p>
             <p className="dark:text-green-400">
@@ -307,7 +306,7 @@ function Verbs() {
               <br />= He is tired of <u>driving</u> car.
             </p>
             {/* 9 */}
-            <p className="pt-2">
+            <p className="pt-1">
               <strong>Rule: 9. </strong> <br />
               Stop, mind, finish, miss, risk, answer, continue,
             </p>
@@ -315,14 +314,14 @@ function Verbs() {
 
           {/* page 6 */}
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 6</h2>
+            <h2 className="text-xl font-bold ">Page 6</h2>
             {/* 10 */}
-            <p className="pt-4">
+            <p className="">
               admit, deny, avoid, enjoy, fancy, imagine, delay, suggest,
               postpone, involve, practice ইত্যাদি Verb গুলোর পরে ব্রাকেটের Verb
-              এর সাথে ing হয়।
+              এর সাথে ing হয়।যেমনঃ
             </p>
-            যেমনঃ
+            
             <p className="dark:text-green-400">
               Q. You tried to finish (write).
               <br />= You tried to finish <u>writing</u>.
@@ -332,16 +331,16 @@ function Verbs() {
               সাধারণত এই Verb গুলো ছাড়া অন্য কোন Verb এর পরে ব্রাকেটের verb এর
               V1 হয়। যেমনঃ <br />
               <span className="dark:text-green-400">
-                {" "}
+                
                 Q. He tried hard (pass) the exam.
-              </span>{" "}
+              </span>
               <br />
               <span className="dark:text-green-400">
                 = He tried har <u>pass</u> the exam
               </span>
             </p>
             {/* 10 */}
-            <p className="pt-2">
+            <p className="">
               <strong>Rule: 10. </strong> <br />
               Before/after দ্বারা দুটি বাক্য যুক্ত হলে এদের একটি Past Indefinite
               Tense হলে অন্যটি Past Perfect Tense হয়। যেমন: <br />
@@ -353,11 +352,11 @@ function Verbs() {
           </div>
 
           {/* page 7 */}
-          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 7</h2>
+          <div className="p-2 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
+            <h2 className="text-xl font-bold ">Page 7</h2>
 
             {/* 11 */}
-            <p className="pt-2">
+            <p className="">
               <strong>Rule: 11. </strong> <br />
               <strong> (a). </strong> প্রথম বক্যে Fancy, wish, it is time, it is
               high time থাকলে পরের বাক্যের ব্রাকেটের verb এর V <sub>2</sub> হয়।{" "}
@@ -370,7 +369,7 @@ function Verbs() {
             <p>
               <strong> (b). </strong>কিন্তু প্রথম বক্যে Fancy, wish, it is time,
               it is high time, as if, if, as though, থাকলে পরের বাক্যের ব্রাকেটে
-              be এর স্থলে সাধারণত were হয়। <br />
+              be এর স্থলে সাধারণত were হয়। 
               যেমনঃ <br />
               Q. He wishes he (be) a king. <br />
               =He wishes he <u>were</u> a king.

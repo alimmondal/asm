@@ -83,7 +83,8 @@ function Completing() {
         </h3>
         <p>Q. He reached after............</p>
         <p>* He reached after he had / have/ has finished (reading it).</p>
-        <p>= He reached after he had finished it.(before থাকলে had হবেনা)</p>
+        <p>= He reached after he had finished it.</p>
+        <p>= He had reached after he  finished it.(before থাকলে had হবেনা)</p>
 
         <h3>2. Lest:</h3>
         <p>Q. He read diligently lest..................</p>
