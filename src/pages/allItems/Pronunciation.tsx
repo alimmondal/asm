@@ -1372,7 +1372,7 @@ const Pronunciation = () => {
         {/* page 12 IPA (Diphthongs) */}
         <div className="p-3 text-black bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-44 pb-1">
-            <h2 className="text-xl font-bold ">Page 12</h2>
+            <h2 className="text-base font-bold ">Page 12</h2>
             <button
               onClick={goToContents}
               className=" px-2 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1481,7 +1481,7 @@ const Pronunciation = () => {
               <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/LekE44y2Ol4?si=OTdw58ie0GJdszW-">click here to listen to video</a>
             </div>
               
-              <p className="pt-1 heading2 text-center">ASM English Academy</p>
+              {/* <p className="pt-1 heading2 text-center">ASM English Academy</p> */}
             </div>
           </div>
         </div>
@@ -1489,7 +1489,7 @@ const Pronunciation = () => {
         {/* page 13 Article */}
         <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-xl font-bold ">Page 13</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 13</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
@@ -1521,7 +1521,7 @@ const Pronunciation = () => {
               </p>
             </div>
             
-            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3"> 
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-2 rounded-md"> 
               <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1wNFA9PX1hZHnGlXZy9R8p4HL5LC2xW02/view?usp=sharing">click here to listen to audio</a>
             </div>
           </div>
@@ -1530,7 +1530,7 @@ const Pronunciation = () => {
         {/* page 14 */}
         <div className="p-3 text-black lg:p-14 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 14</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 14</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
@@ -1540,8 +1540,8 @@ const Pronunciation = () => {
           </div>
           <div className="">
             <p className="font-bold">Article - a</p>
-            <div className="text-base">
-              <p className="">
+            <div className="">
+              <p className="text-base">
                 'a' যখন article হিসেবে ব্যবহৃত হবে তখন 'a' এর উচ্চারণ //ə/ -
                 [আ/অ্য] হবে এবং [আ] ধ্বনিটি পরের শব্দের সাথে একসাথে উচ্চারিত
                 হবে। এই দু'টি উচ্চারণের মধ্যে তেমন কোন পার্থক্য নেই। <br />
@@ -1553,15 +1553,15 @@ const Pronunciation = () => {
               </p>
             </div>
           </div>
-          <p className="font-bold text-center heading2 py-20">
+          <p className="font-bold text-center heading2 pt-5">
             ASM English Academy
           </p>
         </div>
 
         {/* page 15  */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 15</h2>
+          <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 15</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
@@ -1581,27 +1581,24 @@ const Pronunciation = () => {
               </p>
             </div>
             <div className="">
-              <p className="font-bold pt-3">কখন Aspirated হবে? </p>
+              <p className="font-bold pt-2">কখন Aspirated হবে? </p>
               <div className="text-base">
-                <span className="font-semibold">Rule-1</span> <br />
+                <span className="font-semibold">Rule -1</span> <br />
                 'Word' এর শুরুতে 'p, t, k, c, q' থাকলে সেই Sound-গুলো 'ফ', 'ঠ' ও
                 'খ' এর মত হয়ে থাকে। যেমনঃ <br />
-                Pot - (ফট), <br />
-                Team - (ঠিম), <br />
-                kind -(খাইন্ড) <br />
-                <span className="font-semibold">Rule-2</span> <br />
+                Pot - (ফট); Team - (ঠিম); kind -(খাইন্ড); <br />
+                <span className="font-semibold">Rule - 2</span> <br />
                 'S' এর পর 'p, t, k' থাকলে সেই Sound- টি Aspirated হবে না। এ
                 ক্ষেত্রে বাংলা প, ট, ক এর মতই উচ্চারিত হবে। যেমনঃ <br />
-                Stay - স্টেই <br />
-                Basket - বাস্কিট <br />
+                Stay - স্টেই; Basket - বাস্কিট; <br />
               </div>
             </div>
           </div>
         </div>
         {/* page 16 */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 16</h2>
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 16</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1616,20 +1613,16 @@ const Pronunciation = () => {
               <span className="font-semibold">Rule-3</span> <br />
               'Word' এর শেষে 'p, t, k, c, q' থাকলে সেই Sound-গুলো Aspirated হয়
               না। যেমনঃ <br />
-              Clap = ক্ল্যাপ <br />
-              Deep = ডিপ <br />
+              Clap = ক্ল্যাপ; Deep = ডিপ <br />
               <span className="font-semibold">Rule-4</span> <br />
               'Word' এর মাঝখানে যদি 'p, t, k' থাকে, যদি সেই 'p/t/k' উপর stress
               দেয়া হয়, তাহলে Sound-টি Aspirated হবে; আর যদি stress দেয়া না হয়,
               তাহলে Sound-টি Aspirated হবে না। যেমনঃ <br />
-              appoint = অ'ফোইন্ট <br />
-              Fatal = ফেই'ঠল <br />
+              appoint = অ'ফোইন্ট; Fatal = ফেই'ঠল; <br />
             </div>
             <p className="pt-3">
               Note: P, T & K এই ৩টি অক্ষরের উচ্চারণ সঠিক হলে শুদ্ধ উচ্চারণের ৩০%
-              সঠিক হয়ে যাবে। সাধারণতঃ আমরা বাংলাদেশীরা এ ৩টি লেটারকে পি, টি, কে
-              এর মত উচ্চারণ করি, কিন্তু Native speaker রা এগুলো P (ফি), T (ঠি),
-              K (খেই) উচ্চারণ করে থাকে।
+              সঠিক হয়ে যাবে। 
             </p>
 
             <br />
