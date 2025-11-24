@@ -1624,10 +1624,62 @@ const Pronunciation = () => {
               Note: P, T & K এই ৩টি অক্ষরের উচ্চারণ সঠিক হলে শুদ্ধ উচ্চারণের ৩০%
               সঠিক হয়ে যাবে। 
             </p>
-
+                  
+                  
+                  
+                  
+                  
             <br />
           </div>
         </div>
+
+        {/* page 17 */}
+        <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 17</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
+            >
+              ⬅ Back to index
+            </button>
+          </div>
+          <div className="">
+             
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/ghkQoJoipbM?si=g7V9CByjXzcxOD0q">
+              Video-1
+              </a>
+            </div>
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/tEFUNLFwPoM?si=lS2TOhd-A7gPTlDg">
+              Video-2
+              </a>
+            </div>
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/tEFUNLFwPoM?si=lS2TOhd-A7gPTlDg">
+              Video-2
+              </a>
+            </div>
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/N9qZFD1NkhI?si=pfJHHrc7wbe3ODj4">
+              Video-4
+              </a>
+            </div>
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/mFXj-AGBtYo?si=TyI1qPy6KZzoo1gB">
+              Video-5
+              </a>
+            </div>
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/UIJcutkljpM?si=yxO-fXy_zsYees4n">
+              Video-6
+              </a>
+            </div>
+          </div>
+          <p className="heading2 text-center pt-3">ASM English Academy</p>
+        </div>
+
         {/* page 17 */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
