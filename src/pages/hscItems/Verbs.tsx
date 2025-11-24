@@ -282,9 +282,9 @@ function Verbs() {
               Q. She is used to (read) Quran.
               <br />= She is used to <u>reading</u> Quran.
             </p>
-            <p className="pt-1 font-bold">কিন্তু:-</p>
+            <p className="font-bold">কিন্তু:-</p>
             <p>
-              <strong> Rule-(c). </strong> <br />
+              <strong> Rule-(c). </strong> <br /> 
               শুধু used to এর পরে verb এর V<sub>1</sub> হয়।
               যেমন:
             </p>
@@ -295,7 +295,7 @@ function Verbs() {
             <p className="text-rose-600 font-bold ">কিন্তু-</p>
             {/* 8 */}
             <p>
-              <strong>Rule: 8. </strong> <br />
+              <strong>Rule: 8. </strong> 
              ( To ছাড়া ) অনান্য সকল preposition (যেমনঃ in, into, on, over, up, upon, of,
               by, with, without, before, after, away) এর পরের ব্রাকেটের verb এর
               সাথে ing হয়। 
@@ -306,9 +306,9 @@ function Verbs() {
               <br />= He is tired of <u>driving</u> car.
             </p>
             {/* 9 */}
-            <p className="pt-1">
+            <p className="">
               <strong>Rule: 9. </strong> <br />
-              Stop, mind, finish, miss, risk, answer, continue,
+              Stop, mind, finish, miss, risk, answer, continue, admit, deny, avoid, enjoy, fancy, imagine, delay,
             </p>
           </div>
 
@@ -317,7 +317,7 @@ function Verbs() {
             <h2 className="text-xl font-bold ">Page 6</h2>
             {/* 10 */}
             <p className="">
-              admit, deny, avoid, enjoy, fancy, imagine, delay, suggest,
+               suggest,
               postpone, involve, practice ইত্যাদি Verb গুলোর পরে ব্রাকেটের Verb
               এর সাথে ing হয়।যেমনঃ
             </p>
@@ -347,7 +347,7 @@ function Verbs() {
               Q. He came home after I (eat) rice. <br />
               =He came home after I <u> had eaten</u> rice.
               <br />
-              Note: Before-এ-Before এবং after-এ-after হয়।
+              <span className="text-pink-600 font-bold">Note: </span> Before-এ-Before এবং after-এ-after হয়।
             </p>
           </div>
 
@@ -420,8 +420,8 @@ function Verbs() {
               <p>
                 <span className=" font-bold">Rule: 14. </span> <br />
                 <strong> (a). </strong> If দ্বারা শুরু বাক্যটি Present
-                Indefinite tense হলে পরের বাক্যে/if ছাড়া বাক্যে Future
-                Indefinite Tense হয়। যেমন:
+                Indefinite tense হলে if ছাড়া বাক্যে Future
+                Indefinite Tense হয়। 
                 <br />
                 Q. If He comes, I (go) to his house. <br />
                 =If He comes, I <u>will go</u> to his house. <br />
@@ -454,86 +454,77 @@ function Verbs() {
 
             <p className="">
               <strong> (d) </strong>যদি Had + Subject + V<sub>3</sub>- থাকে
-              তাহলে পরের বাক্যের/ had ছাড়া বাক্যেটি- Subj + would have/could
-              have/might have + V<sub>3</sub> হবে/হয়। <br />
-              যেমন:
+              তাহলে had ছাড়া বাক্যেটি- Subj + would have/could
+              have/might have + V<sub>3</sub> হবে/হয়।
+              যেমন: <br /> 
+              Q. Had Muni told me this, I (buy) a car. <br />
+              =Had Muni told me this, I<u> would have bought</u> a car.
             </p>
-            <p className="dark:text-green-400">
-              Q. Had Muni told me this, I (buy) a car.
-              <br />= Had Muni told me this, I<u> would have bought</u> a car.
-            </p>
+            <div className="pb-">
+              {/* 15 */}
+              <p>
+                <span className=" font-bold">Rule: 15. </span> <br /> 
+                V + object +
+                (Verb) এভাবে ব্যবহার হলে ব্রাকেটে Verb এর সাথে ing যুক্ত হয়। যেমন: <br />  
+                Q. I saw him (play) card. <br /> 
+                = I saw him playing card.
+              </p>
+            
+            {/* 16 */}           
+              <p className="">
+                <strong>Rule: 16. </strong>
+                  সাধারণত ব্রাকেটে verb দ্বারা বাক্য শুরু হলে সেই verb এর সাথে
+                  ing যুক্ত হয়।
+                  যেমন: <br />
+                Q. (Go) home, Ruhul will sleep. <br />
+                =Going home, Ruhul will sleep.
+              </p>
+            </div>
+          </div>
+
+          {/* page 11 */}
+          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
+            <h2 className="text-xl font-bold mb-2">Page 11</h2>
+            {/* 17 */}
+            <div className=""> 
+              <p>
+                <strong>Rule: 17. </strong>  <br /> 
+                objective এবং possessive case এর পর
+                verb এর সাথে ing হয়। যেমন: <br />
+                Q. Zahid insisted on my (go) his home. <br />
+                =Zahid insisted on my going his home.
+              </p>
+              {/* 18 */}
+              <p>
+                <strong>Rule: 18. </strong> <br />
+                 Since/for এর পর সময় বা (period of
+                time) থাকলে Present Perfect Continuous tense হয়। যেমন: <br />
+                  Q. Ruhul (read) in our college for two years. <br />
+                  =Ruhul has been reading in our college for two years. <br />
+                 
+                <span className="text-rose-600 font-bold ">কিন্তু-</span> <br /> 
+                Since/ for এর পরে সময় বা (period of time) থাকলে এবং ব্রাকেটে be
+                থাকলে Present Perfect tense হয়।
+                যেমন:
+              </p>
+            </div>
           </div>
 
           {/* page 12 */}
-          <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 12</h2>
-            {/* 14 */}
-            <div className="pb-3">
-              <p>
-                <span className=" font-bold">Rule: 14. </span>V + object +
-                (Verb) এভাবে ব্যবহার হলে ব্রাকেটে Verb এর সাথে ing যুক্ত হয়।{" "}
-                <br />
-                যেমন:
-              </p>
-              <p className="dark:text-green-400">
-                Q. I saw him (play) card.
-                <br />= I saw him playing card.
-              </p>
-            </div>
-
-            {/* 15 */}
-            <div className="pb-3">
-              <p className="bengali">
-                <strong>Rule: 15. </strong>
-                <span>
-                  সাধারণত ব্রাকেটে verb দ্বারা বাক্য শুরু হলে সেই verb এর সাথে
-                  ing যুক্ত হয়। <br />
-                  যেমন:
-                </span>
-              </p>
-              <p className="dark:text-green-400">
-                Q. (Go) home, Ruhul will sleep.
-                <br />= Going home, Ruhul will sleep.
-              </p>
-            </div>
-            <div className="pb-3">
-              <p>
-                <strong>Rule: 16. </strong> objective এবং possessive case এর পর
-                verb এর সাথে ing হয়। <br />
-                যেমন:
-              </p>
-              <p className="dark:text-green-400">
-                Q. Zahid insisted on my (go) his home.
-                <br />= Zahid insisted on my going his home.
-              </p>
-            </div>
-          </div>
-
-          {/* page 13 */}
           <div className="p-3 text-black md:p-12 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 13</h2>
-            {/* 17 */}
-            <div className="pb-3">
+            <h2 className="text-xl font-bold ">Page 12</h2>
+            
+            <div className="">
+            
+               <p className="">
+                Q. He (be) in Dhaka for two years. <br /> 
+                =He has been in Dhaka for two years.
+               </p>
+                
+                  {/* 19 */}
               <p>
-                <strong>Rule: 17. </strong> Since/for এর পর সময় বা (period of
-                time) থাকলে Present Perfect Continuous tense হয়। যেমন:
-                <br />
-                <span className="dark:text-green-400">
-                  Q. Ruhul (read) in our college for two years. <br />= Ruhul
-                  has been reading in our college for two years.
-                </span>
-                <p className="text-rose-600 font-bold pt-3">কিন্তু-</p>
-                Since/ for এর পরে সময় বা (period of time) থাকলে এবং ব্রাকেটে be
-                থাকলে Present Perfect tense হয়। <br />
-                যেমন:
-                <br />
-                <span className="dark:text-green-400">
-                  Q. He (be) in Dhaka for two years.
-                  <br />= He has been in Dhaka for two years.
-                </span>
-              </p>
-              <p>
-                <strong>Rule-16: </strong> Next, tomorrow, ইত্যাদি বাক্যে থাকলে
+                <strong>Rule-19: </strong> <br />
+                Next, tomorrow, ইত্যাদি বাক্যে থাকলে
                 Future Indefinite হয়। যেমনঃ
               </p>
               <p className="dark:text-green-400">
@@ -541,91 +532,87 @@ function Verbs() {
                 <br />= He Will return home next day.
               </p>
             </div>
-          </div>
-
-          {/* page 14 */}
-          <div className="p-3 text-black md:p-11 bg-[#EFE5D6] book-shadow">
-            <h2 className="text-xl font-bold mb-2">Page 14</h2>
-            {/* 19 */}
-            <div className="">
-              <p>
-                <strong>Rule-19: </strong>While এর পরে Subject + V থাকলে Past
-                Continuous Tense হয়। কিন্তু While + (V) থাকলে ব্রাকেটের Verb এর
-                সঙ্গে ing যুক্ত হয়। যেমন:
-              </p>
-              <p className="dark:text-green-400">
-                Q. While (Walk) I saw him.
-                <br />
-                = While Walking, I saw him.
-                <br />
-                Q. While he (Walk), I saw him.
-                <br />= While I Was walking, I saw him.
-              </p>
-            </div>
-
             {/* 20 */}
             <div className="">
-              <p className="bengali">
-                <strong>Rule-20: </strong>
-                <span>
-                  Subject এর পরে Not থাকলে Subject এবং tense অনুসারে সাহায্যকারী
-                  Verb এবং principal verb হয়। যেমন:
-                </span>
-                <p className="dark:text-green-400">
-                  Q. He not always (drink) tea.
-                  <br />= He does not always drink tea.
-                </p>
+              <p>
+                <strong>Rule-20:  <br /> 
+                  </strong>While এর পরে Subject + V থাকলে Past
+                Continuous Tense হয়। যেমন: <br /> 
+                Q. While (Walk) I saw him. <br /> 
+                =While Walking, I saw him.<br /> 
+                 
+                 <span className="text-pink-600 font-bold">কিন্তু- </span>
+                 While + (V) থাকলে ব্রাকেটের Verb এর
+                সঙ্গে ing যুক্ত হয়।  <br />
+                Q. While he (Walk), I saw him. <br /> 
+                =While I Was walking, I saw him.
               </p>
             </div>
+          </div>
+
+          {/* page 13 */}
+          <div className="p-3 text-black md:p-11 bg-[#EFE5D6] book-shadow">
+            <h2 className="text-xl font-bold mb-2">Page 13</h2>
             {/* 21 */}
             <div className="">
+              <p className="">
+                <strong>Rule-21: </strong> <br />
+                  Subject এর পরে Not থাকলে Subject এবং tense অনুসারে সাহায্যকারী
+                  Verb এবং principal verb হয়। যেমন: <br />
+                
+                  Q. He not always (drink) tea.
+                  <br />= He does not always drink tea.
+                
+              </p>
+            </div>
+            {/* 22 */}
+            <div className="">
               <p className="bengali">
-                <strong>Rule-21: </strong>Lest এর বাক্যাংশের subject এর পরে verb
+                <strong>Rule-22: </strong> <br /> 
+                Lest এর বাক্যাংশের subject এর পরে verb
                 আগে should/ might বসে। যেমন:
               </p>
               <p className="dark:text-green-400">
-                = He walked fast lest he (miss) the train.
-                <br />= He walked fast lest he might miss the train.
+                = He walked fast lest he (miss) the train. <br /> 
+                =He walked fast lest he might miss the train.
+              </p>
+            </div>
+            {/* 23 */}
+            <p className="py-2 font-bold">Subject-verb Agreement</p>
+            <div className="">
+              <p className="">
+                <strong>Rule-23: </strong> <br />  
+                ব্রাকেটে Be/to be এর স্থলে Tense অনুসারে  am, ...
+                
               </p>
             </div>
           </div>
 
-          {/* page 15 */}
+          {/* page 14 */}
           <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-            <p className="text-xl font-bold mb-2">Page 15</p>
-            {/* 22 */}
-            <p>Subject-verb Agreement</p>
-            <div className="pb-3">
-              <p className="bengali">
-                <strong>Rule-22: </strong> ব্রাকেটে Be/to be এর স্থলে Tense
-                অনুসারে am, is, are, was, were, be, being, been এর যেকোন একটি
-                হতে পারে। <br />
-                যেমন:
-              </p>
-              <p className="dark:text-green-400">
-                Q. The rich (to be) not always happy.
-                <br />= The poor are happy.
-              </p>
-            </div>
+            <p className="text-xl font-bold ">Page 14</p>
+            <p className="">
+              am, is, are, was, were, be, being, been এর যেকোন একটি
+                হতে পারে। যেমন: <br /> 
+                Q. The rich (to be) not always happy. <br />  
+                =The poor are not always happy.
+            </p>
 
-            {/* 23 */}
-            <div className="pb-3">
-              <p className="bengali">
-                <strong>Rule-23: </strong> দৈঘ বা পরিমাণ বাচক শব্দ Sub হেল সেটি
-                Singular হয়। যেমন:
-              </p>
-              <p className="dark:text-green-400">
-                Q. Ten kgs (be) heavy weight.
-                <br />= Ten kgs is heavy weight.
+            {/* 24 */}
+            <div className="">
+              <p className="">
+                <strong>Rule-24: </strong> <br /> 
+                দৈঘ বা পরিমাণ বাচক শব্দ Sub হেল সেটি Singular হয়।
+                যেমন: <br /> 
+                Q. Ten kgs (be) heavy weight. <br /> 
+               =Ten kgs is heavy weight.
               </p>
             </div>
             {/*24 */}
             <div className="">
               <p className="bengali">
-                <strong>Rule-24: </strong> Wh (who, which) এর পরে Verb থাকলে Wh
-                এর পূর্বের subject অনুসারে verb হয়। যেমন:
-              </p>
-              <p className="dark:text-green-400">
+                <strong>Rule-24: </strong> <br /> Wh (যেমন: who, which) এর পরে Verb থাকলে Wh এর পূর্বের subject অনুসারে verb হয়। <br /> 
+                যেমন: <br /> 
                 Q. It is I who (be) to blame.
                 <br />= It is I who am to blame.
               </p>
@@ -662,7 +649,7 @@ function Verbs() {
             <p>5. They (be) blessed.</p>
             <p>6. The pious (be) always happy.</p>
             <p>7. Ice (float) on water.</p>
-            <p>8. Muni (carry) Jan umbrella daily.</p>
+            <p>8. Muni (carry) an umbrella daily.</p>
             <p>9. What you (do) now?</p>
             <p>10. Why Mr. Roni (look) so angry?</p>
             <p>11. Munira (watch) television often?</p>
@@ -706,7 +693,7 @@ function Verbs() {
             <p>38. They saw the drunk porter (lie) on the floor.</p>
             <p>39. It is many years since they first (meet).</p>
             <p>40. Ten years have passed since he (come) here.</p>
-            <p>41. It was wine I (see) her last.</p>
+            <p>41. It was long sine I (see) her last.</p>
             <p>42. Eight years have passed since I (come).</p>
             <p>43. They (play) football since morning.</p>
           </div>
@@ -719,13 +706,13 @@ function Verbs() {
             <p>47. Last night I (have) a wonderful dream.</p>
             <p>48. He (go) ten minutes ago.</p>
             <p>49. Lucy (break) her leg in a car accident last year.</p>
-            <p>50. Wrote to Lucy (be) in Dhaka since last week.</p>
+            <p>50. Lucy (be) in Dhaka since last week.</p>
             <p>51. The boy (suffer) from fever for five days.</p>
             <p>52. It is high time we (start) the work.</p>
             <p>53. It is high time they (leave) home.</p>
             <p>54. Imran talks as though he (be) a king.</p>
-            <p>55. I wish she (do) a millionaire.</p>
-            <p>56. Sings as fast as if she (to be) mad.</p>
+            <p>55. I wish she (be) a millionaire.</p>
+            <p>56. She sings as if she (to be) mad.</p>
             <p>57. He proceeded as though I not (speak).</p>
             <p>58. It reflects the matter as if he (know) it.</p>
           </div>
@@ -1454,7 +1441,7 @@ function Verbs() {
               <p>38. They saw the drunk porter (lie) on the floor.</p>
               <p>39. It is many years since they first (meet).</p>
               <p>40. Ten years have passed since he (come) here.</p>
-              <p>41. It was wine I (see) her last.</p>
+              <p>41. It was long sine I (see) her last.</p>
               <p>42. Eight years have passed since I (come).</p>
               <p>43. They (play) football since morning.</p>
               <p>44. Their family (live) in Dhaka for the last five years.</p>
@@ -1463,13 +1450,13 @@ function Verbs() {
               <p>47. Last night I (have) a wonderful dream.</p>
               <p>48. He (go) ten minutes ago.</p>
               <p>49. Lucy (break) her leg in a car accident last year.</p>
-              <p>50. Wrote to Lucy (be) in Dhaka since last week.</p>
+              <p>50. Lucy (be) in Dhaka since last week.</p>
               <p>51. The boy (suffer) from fever for five days.</p>
               <p>52. It is high time we (start) the work.</p>
               <p>53. It is high time they (leave) home.</p>
               <p>54. Imran talks as though he (be) a king.</p>
-              <p>55. I wish she (do) a millionaire.</p>
-              <p>56. Sings as fast as if she (to be) mad.</p>
+              <p>55. I wish she (be) a millionaire.</p>
+              <p>56. Shes sing as if she(be) mad.</p>
               <p>57. He proceeded as though I not (speak).</p>
               <p>58. It reflects the matter as if he (know) it.</p>
               <p>59. Fancy (turn) a trifle pale.</p>
