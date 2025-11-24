@@ -156,11 +156,11 @@ const Pronunciation = () => {
         {/* page1 */}
         <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
           <h2 className="text-xl font-bold mb-1">Page 1</h2>
-          <div className="px-4">
-            <p className="text-base">
+          <div className="">
+            <p className="">
               ভূমিকা <br />
               ইংরেজিতে যারা দক্ষ হতে চান, বিশেষ করে ন্যাটিভ স্পিকারদের মত যারা
-              শুদ্ধ উচ্চারণে কথা বলতে চান বা বিদেশীদের কথা বুঝতে চান তাদের জন্য
+              শুদ্ধ উচ্চারণে কথা বলতে চান তাদের জন্য
               আমাদের বই <br />
               শুদ্ধ উচ্চারণ শেখার আন্তর্জাতিক স্বীকৃত পদ্ধতি হচ্ছে IPA
               (International Phonetic Alphabet), বইটিতে IPA কে রুট হিসাবে
@@ -169,10 +169,8 @@ const Pronunciation = () => {
               শুদ্ধ উচ্চারণ শেখার জন্য IPA অনুসরণ করে শেখাই সবচেয়ে কার্যকর
               পন্থা। কারণ, ইংরেজির এমন কিছু ধ্বনি বা উচ্চারণ রয়েছে যা প্রকাশের
               জন্য বাংলায় কোন বর্ণ নেই। উদাহরণস্বরুপ, 'Pen' শব্দটির 'P' উচ্চারণ
-              করতে অনেকটা 'ফ' এর মত মনে হয়, অর্থাৎ, 'প' ও 'ফ' এর মাঝামাঝি একটি
+              করতে অনেকটা 'ফ' বা 'প' ও 'ফ' এর মাঝামাঝি একটি
               উচ্চারণ যেটি বাংলায় কোন বর্ণ নেই। <br />
-
-              
               ধন্যবাদান্তে,
             </p>
           </div>
@@ -285,9 +283,9 @@ const Pronunciation = () => {
           </p>
         </div>
 
-        {/* page 4  Alphabet*/}
+        {/* page 4 ABC in IPA*/}
         <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-between md:justify-start md:gap-96 mb-2">
+          <div className="flex justify-between md:justify-start md:gap-96 mb-1">
             <h2 className="text-xl font-bold ">Page 4</h2>
             <button
               onClick={goToContents}
@@ -296,9 +294,8 @@ const Pronunciation = () => {
               ⬅ Back to index
             </button>
           </div>
-
           <div className="">
-            <p className="font-bold">ABC in IPA (এ্যালফাবেট) এর সঠিক উচ্চারণ</p>
+            <p className="font-bold">ABC in IPA </p>
             <div className="w-full flex  justify-evenly text-base">
               <p className="">
                 A = /eɪ/ = এই <br />
@@ -333,14 +330,43 @@ const Pronunciation = () => {
               </p>
               
             </div>
-          </div> 
+          </div>  
+        </div>
 
-           <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3"> 
+        {/* page 4  Alphabet audio/ video */}
+        <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-between md:justify-start md:gap-96 mb-2">
+            <h2 className="text-xl font-bold ">Page 4</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
+            >
+              ⬅ Back to index
+            </button>
+          </div>
+            <div className="">
+              <p className="">
+                To listen to audio/ video is essential for correct pronunciation of English Alphabets. So you shouldn't miss listening these audio and video. You should also listen the audio from various English Dictionary like Oxford:
+              </p>
+
+            </div>
+            <div className="">
+              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
               <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1jZbkJTk4EX0QQ_LHLgcWTxLSeLu5CclH/view?usp=drivesdk">click here to listen to audio</a>
             </div>
-           <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/OWfaVUaaqO0?si=fBBxV45pLKJMip2F">click here to listen to audio</a>
+           <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/OWfaVUaaqO0?si=fBBxV45pLKJMip2F">click here to listen to Video</a>
             </div>
+           <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://www.oxfordlearnersdictionaries.com/">Oxford Dictionary</a>
+            </div>
+           <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://dictionary.cambridge.org/">Cambridge Dictionary</a>
+            </div>
+           
+            </div>
+
+           
         </div>
 
         {/* page 5 Consonant Diagraph */}
@@ -358,22 +384,16 @@ const Pronunciation = () => {
             <p className="font-bold ">Consonant Diagraph</p>
             <div className="text-base">
               <p className="">
-                {/* Consonant Digraphs <br /> */}
                 বাংলা ভাষায় যেমন কিছু যুক্ত অক্ষর আছে, ইংরেজি ভাষাতেও দুই বা
                 ততোধিক শব্দ তেমনি যুক্ত অক্ষরের কাজ করে থাকে যার মাধ্যমে একটি
-                আলাদা ব্যঞ্জনধ্বনি বা স্বরধ্বনি প্রকাশ করে। এই Lesson-এ আমরা
-                Consonant Digraphs নিয়ে আলোচনা করবো যা একসাথে বসে একেকটি
-                স্বতন্ত্র ব্যঞ্জনধ্বনি প্রকাশ করে আর তাই একে Consonant Digraphs
+                আলাদা ব্যঞ্জনধ্বনি বা স্বরধ্বনি প্রকাশ করে। আর তাই একে Consonant Digraphs
                 বলা হয়ে থাকে। উল্লেখ্য, Consonant Digraphs শব্দের শুরুতে বা শেষে
                 ব্যবহার হয়ে থাকে। নিচে উদাহরনসহ কয়েকটি দেয়া হলো: <br />
-                Digraph Initial/Last Sound Examples <br />
                 "gh-" গ - [শব্দের শুরুতে] - Ghost;  <br />
-                "ph-" ফ - [শব্দের শুরুতে] - Phone; Physics; <br />
-                "-ph" ফ - [শব্দের শেষে] - Graph; morph triumph <br />
-                "kn-" ন - [শব্দের শুরুতে] - Know; knight; kneel <br />
-                "ch-" চ - [শব্দের শুরুতে] - Cheer; chat; chocolate <br />
-                "-ch "চ - [শব্দের শেষে] - Catch; match; batch <br />
-                "-ck" ক - [শব্দের শেষে] - Check; neck; deck <br />
+                "ph-" ফ - [শব্দের শুরুতে/শেষে] - Phone; <br />
+                "kn-" ন - [শব্দের শুরুতে] - Know; <br />
+                "ch-" চ - [শব্দের শুরুতে] - Cheer; ;  <br />
+                "-ch "চ/ক  - [শব্দেরশেষে] - check;  <br />
               </p>
             </div>
           </div>
@@ -394,7 +414,6 @@ const Pronunciation = () => {
             <p className="font-bold py-2">Consonant Diagraph</p>
             <div className="text-base ">
               <p className="">
-                Consonant Digraphs <br />
                 "th-"- থ - [শব্দের শুরুতে] - Thank; think; thumb <br />
                 "th-"- দ - [শব্দের শুরুতে] - Though; thou; thee <br />
                 "-th"- থ - [শব্দের শেষে] - Bath; earth; math; <br />
@@ -408,7 +427,7 @@ const Pronunciation = () => {
                 "-nk"- ইংক - [শব্দের শেষে] - Link; pink; sink <br />
               </p>
             </div>
-            <p className="heading2 text-center pt-10">ASM English Academy</p>
+            <p className="heading2 text-center pt-5">ASM English Academy</p>
           </div>
         </div>
 
@@ -416,7 +435,7 @@ const Pronunciation = () => {
 
         {/* page 6 IPA Start*/}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-44 mb-2">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-44">
             <h2 className="text-xl font-bold ">Page 6</h2> 
             <button
               onClick={goToContents}
@@ -430,43 +449,42 @@ const Pronunciation = () => {
           <div className="">
             <div className="text-base">
               <p className="">
-                ইংরেজিতে মোট ৪৪টি Vowel & Consonant sound রয়েছে। এই ৪৪টি সাউন্ড
+                ইংরেজিতে মোট ৪৪টি 20-Vowel & 24-Consonant sound রয়েছে। এই ৪৪টি সাউন্ড
                 সঠিকভাবে উচ্চারণ শিখতে পারলে আমরাও ন্যাটিভদের মত শুদ্ধ ও স্মার্ট
-                উচ্চারণে ইংরেজিতে কথা বলতে পারবো। ৪৪টি সাউন্ড এর মধ্যে 20 Vowel
-                sound & 24 consonant sound. <br />
+                উচ্চারণে ইংরেজিতে কথা বলতে পারবো। <br />
                 এই সাউন্ডগুলোর উচ্চারণ মূলতঃ IPA (International Phonetic
                 Alphabet) দিয়ে লেখা হয়। IPA হচ্ছে সঠিকভাবে ইংরেজি উচ্চারণের
                 আন্তর্জাতিক সিম্বল। IPA সিম্বলগুলো slash /-/ বন্ধনীর মাধ্যমে
-                দেখানো হয়। <br />
-                যেমনঃ A-/eɪ/, Day - /deɪ/, Good - /gud/ <br />
+                দেখানো হয়।
+                যেমনঃ <br /> 
+                A-/eɪ/, Day - /deɪ/, Good - /gud/ <br /> 
                 আমি আপনাদেরকে পর্যায়ক্রমে ব্যাসিক থেকে IPA সিম্বল অনুযায়ী
-                বিভিন্ন উদাহরণের মাধ্যমে আলোচনার চেষ্টা করবো।
-              </p>
-              <br />
+                বিভিন্ন উদাহরণের মাধ্যমে আলোচনার চেষ্টা করবো। <br />
               Let's get started.
+              </p>
             </div>
           </div>
         </div>
 
         {/* page 7 */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 pb-1">
             <h2 className="text-xl font-bold ">Page 7</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+              className=" px-2  bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold py-1"> IPA (Long Vowel) </p>
+            <p className="font-bold pt-1"> IPA (Long Vowel) </p>
 
             <div className=" text-base lg:text-xl">
-              <p className="text-base p-3">
+              <p className="text-base">
                 প্রতিটি সিম্বলগুলো আয়ত্ব করে ফেলুন। কারণ, এ সিম্বলগুলো রপ্ত
-                করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
+                করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন। Please, watch the video!
               </p>
               <div className="flex justify-center pt-1">
                 
@@ -585,15 +603,16 @@ const Pronunciation = () => {
               <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
               <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/Aecgq7-9GmI?si=qBUnctb6aVKCwAly">click here to listen to video</a>
             </div>
-              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
+              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-1 rounded-md"> 
               <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eERkHcLpxa8?si=LYByk1W1OsDnL7Bi">click here to listen to video</a>
             </div>
             </div>
           </div>
         </div>
+
         {/* page 8 */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 pb-1">
             <h2 className="text-xl font-bold ">Page 8</h2>
             <button
               onClick={goToContents}
@@ -607,9 +626,9 @@ const Pronunciation = () => {
             <p className="font-bold py-1"> IPA (short Vowel) </p>
 
             <div className="text-base">
-              <p className="text-base px-2">
+              <p className="text-sm">
                 প্রতিটি সিম্বলগুলো আয়ত্ব করে ফেলুন। কারণ, এ সিম্বলগুলো রপ্ত
-                করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
+                করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন। Please, listen to video for correct pronunciation.
               </p>
               <div className="flex justify-center items-center  pt-1">
                 
@@ -779,15 +798,13 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        
-        
         {/* page 9 */}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-xl font-bold ">Page 9</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+              className=" px-2 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -796,10 +813,10 @@ const Pronunciation = () => {
           <div className="">
             <p className="font-bold"> IPA (Consonant-1) </p>
             <div className="text-base">
-              <div className=" pt-1 ">
+              <div className="">
                 <p className="text-sm md:text-base">
                   এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম
-                  হবেন।
+                  হবেন। Please, watch the video!
                 </p>
                 <div className="flex items-center justify-center">
                   <table className="table-auto border-collapse border border-gray-400 shadow-md">
@@ -966,19 +983,19 @@ const Pronunciation = () => {
                 </div>
               </div>
             </div>
-            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eERkHcLpxa8?si=Gef6coKD_eRVsbbZ">click here to listen to audio</a>
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-2 rounded-md"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eERkHcLpxa8?si=Gef6coKD_eRVsbbZ">click here to listen to Video</a>
             </div>
           </div>
         </div>
 
-        {/* page 10 */}
+        {/* page 10 IPA Consonant-2 */}
         <div className="p-3 text-black bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-44 mb-2">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-44 mb-1">
             <h2 className="text-xl font-bold ">Page 10</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+              className=" px-2 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -987,8 +1004,8 @@ const Pronunciation = () => {
           <div className="text-base">
             <p className="font-bold"> IPA (Consonant-2) </p>
             <div className="">
-              <p className="text-xs md:text-base lg:text-xl">
-                এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
+              <p className="text-sm md:text-base lg:text-xl">
+                এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন। Watch the video for correction.
               </p>
               <div className="flex justify-center pt-1 ">
                 <div className="flex md:flex-row gap-3 p-1">
@@ -1161,13 +1178,14 @@ const Pronunciation = () => {
               <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eERkHcLpxa8?si=Gef6coKD_eRVsbbZ">click here to listen to audio</a>
             </div>
         </div>
-        {/* page 11  */}
+
+        {/* page 11   IPA (Consonant-3)*/}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-xl font-bold ">Page 11</h2>
             <button
               onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+              className=" px-2 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -1176,11 +1194,11 @@ const Pronunciation = () => {
           <div className="">
             <p className="font-bold"> IPA (Consonant-3) </p>
             <div className="text-base">
-              <p className="text-base">
-                এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
+              <p className="text-sm md:text-base">
+                এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন। See the video for correction!
               </p>
-              <div className="flex justify-center items-center pt-1 ">
-                <div className="flex md:flex-row gap-3 p-1">
+              <div className="flex justify-center items-center">
+                <div className="flex md:flex-row gap-3">
                   {/* Right Table */}
                   <table className="table-auto border-collapse border border-gray-400 shadow-md">
                     <thead className="bg-gray-100">
@@ -1345,19 +1363,19 @@ const Pronunciation = () => {
                
               </div>
             </div>
-             <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
+             <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-2 rounded-md"> 
               <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eERkHcLpxa8?si=Gef6coKD_eRVsbbZ">click here to listen to audio</a>
             </div>
           </div>
         </div>
 
-        {/* page 12 Dipthong in IPA */}
+        {/* page 12 IPA (Diphthongs) */}
         <div className="p-3 text-black bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-44 py-1">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-44 pb-1">
             <h2 className="text-xl font-bold ">Page 12</h2>
             <button
               onClick={goToContents}
-              className=" px-2  bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+              className=" px-2 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
             >
               Back to index
             </button>
@@ -1366,12 +1384,12 @@ const Pronunciation = () => {
           <div className="">
             <p className="font-bold"> IPA (Diphthongs) </p>
             <div className="">
-              <p className="text-base">
+              <p className="text-sm md:text-base">
                 দুটি vowel সিম্বল একত্রে হলে তাকে Diphthongs বলা হয়। এ ক্ষেত্রে
-                দ্বিতীয় ধ্বনিটি খুবই মৃদুভাবে উচ্চারণ করতে হয়।যেমনঃ
+                দ্বিতীয় ধ্বনিটি খুবই মৃদুভাবে উচ্চারণ করতে হয়।
               </p>
             </div>
-            <div className="text-base">
+            <div className="text-base lg:text-xl">
               <div className="flex justify-center items-center ">
                 <table className="table-auto border-collapse border border-gray-400 shadow-lg">
                   <thead className="bg-gray-200">
@@ -1459,21 +1477,18 @@ const Pronunciation = () => {
                   </tbody>
                 </table>
               </div>
-              <div className="max-w-fit mx-auto p-1 text-center border-2 border-blue-500 mt-2 rounded-sm"> 
+              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-2 rounded-md"> 
               <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/LekE44y2Ol4?si=OTdw58ie0GJdszW-">click here to listen to video</a>
             </div>
               
-              <p className="pt-3 heading2 text-center">ASM English Academy</p>
+              <p className="pt-1 heading2 text-center">ASM English Academy</p>
             </div>
           </div>
         </div>
 
-
-
-
         {/* page 13 Article */}
         <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
+          <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-1">
             <h2 className="text-xl font-bold ">Page 13</h2>
             <button
               onClick={goToContents}
@@ -1484,8 +1499,8 @@ const Pronunciation = () => {
           </div>
           <div className="">
             <p className="font-bold">Article - the</p>
-            <p className="font- pt-2">কখন “দা” এবং কখন "দি” হবেঃ</p>
-            <div className="text-sm md:text-base">
+            <p className="font- pt-1">কখন “দা” এবং কখন "দি” হবেঃ</p>
+            <div className="text-base">
               <p className="">
                 সূত্রঃ "দাদির CV" <br />
                 দা = C (Consonant) <br />
@@ -1495,16 +1510,19 @@ const Pronunciation = () => {
                 হবে। যেমন: <br />
                 The egg = দি এগ <br />
                 The apple = দি অ্যাপল <br />
-                The honest boy = দি অনিষ্ট বয় <br /> 
+                {/* The honest boy = দি অনিষ্ট বয় <br />  */}
                 ✨ The এর পর যদি Consonant sound থাকে তবে এর উচ্চারণ 'দা' এর মতো
                 হবে। <br />
                 যেমন: <br />
-                The ball = দা বল <br />
+                {/* The ball = দা বল <br /> */}
                 The holy Quran = দা হৌলি কুরআন <br />
                 The country = দা খানট্টি <br />
-                The book = দা বুক <br />
+                {/* The book = দা বুক <br /> */}
               </p>
-              <p className=""></p>
+            </div>
+            
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1wNFA9PX1hZHnGlXZy9R8p4HL5LC2xW02/view?usp=sharing">click here to listen to audio</a>
             </div>
           </div>
         </div>
@@ -1512,7 +1530,7 @@ const Pronunciation = () => {
         {/* page 14 */}
         <div className="p-3 text-black lg:p-14 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 8</h2>
+            <h2 className="text-xl font-bold ">Page 14</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
@@ -1522,7 +1540,7 @@ const Pronunciation = () => {
           </div>
           <div className="">
             <p className="font-bold">Article - a</p>
-            <div className="text-sm md:text-base">
+            <div className="text-base">
               <p className="">
                 'a' যখন article হিসেবে ব্যবহৃত হবে তখন 'a' এর উচ্চারণ //ə/ -
                 [আ/অ্য] হবে এবং [আ] ধ্বনিটি পরের শব্দের সাথে একসাথে উচ্চারিত
@@ -1930,8 +1948,11 @@ const Pronunciation = () => {
                   </tbody>
                 </table>
               </div>
+              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/5kPS12voEN0?si=QnQo7a0lRBSFvZKZ">click here to listen to video</a>
             </div>
-            <p className="heading2 text-center pt-20">ASM English Academy</p>
+            </div>
+            <p className="heading2 text-center pt-2">ASM English Academy</p>
           </div>
         </div>
 
