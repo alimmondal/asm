@@ -1825,11 +1825,12 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold">Verb Contraction(সংকোচন):</p>
+            <h2 className="font-bold">Verb Contraction</h2>
             <div className="text-base">
               <p className="">
                 Contraction হল Subject + Verb একত্রে উচ্চারণ করা। Spoken English
-                এ এটি গুরুত্বপূর্ণ। এক্ষেত্রে আমাদের IPA সিম্বলকেই ফলো করতে হবে।
+                এ এটি গুরুত্বপূর্ণ। 
+                {/* এক্ষেত্রে আমাদের IPA সিম্বলকেই ফলো করতে হবে। */}
               </p>
               <div className="overflow-x-auto px-3">
                 <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
@@ -2487,26 +2488,132 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-pink-600">Stress (শ্বাসাঘাত/চাপ):</p>
+            <h2 className="font-bold text-pink-600">Stress(শ্বাসাঘাত/চাপ):</h2>
             <div className="text-base">
               <p className="">
-                Stress: যে syllable এর শুরুতে শ্বাসাঘাত (stress) চিহ্ন দেয়া
-                থাকে, উক্ত syllable কে stressed syllable বলে। শ্বাসাঘাত উত্তোলিত
-                তিলক চিহ্নের /'/ মাধ্যমে দেখানো হয়। শ্বাসাঘাত যুক্ত syllable এর
-                উচ্চারণ একটু উচ্চ ও দীর্ঘ অর্থাৎ Louder এবং longer হয়। <br />
-                যেমন: <br />
-                Attention - /ə'ten.ʃ'ǝn/ - [আ'টেনশান]। <br />
-                ব্যাখ্যাঃ এখানে Attention শব্দের দ্বিতীয় syllable এর শুরুতে
-                stress চিহ্ন দেওয়া হয়েছে। তার মানে দ্বিতীয় syllable টি একটু
-                জোরালো এবং দীর্ঘ হবে।
-                {/* উদাহরণ: <br />
+              যে syllable এর শুরুতে stress চিহ্ন দেয়া
+              থাকে, উক্ত syllable কে stressed syllable বলে। 
+              যেমন: <br />
+              Attention - /əˈten.ʃn/ - [আ'টেনশান]। <br /> 
+              <span className="font-bold">Primary Stress - </span>
+              উত্তোলিত তিলক চিহ্নের/'/মাধ্যমে দেখানো হয়। তিলক চিহ্ন যুক্ত syllable এর উচ্চারণ একটু Louder এবং longer হয়। <br />  <span className="font-bold">Secodary Stress - </span>নিচে ডট/খাড়া চিহ্নের /./ মাধ্যমে দেখানো হয়। ডট/খাড়া চিহ্ন যুক্ত syllable এর উচ্চারণ একটু দূর্বল/কম Louder এবং কম longer হয়।
+              <br />
+              <span className="font-bold">ব্যাখ্যাঃ </span> এখানে Attention শব্দের দ্বিতীয় syllable এর শুরুতে
+              stress চিহ্ন দেওয়া হয়েছে। দ্বিতীয় syllable টি একটু
+              জোরালো এবং দীর্ঘ হবে। আর ৩য় syllable এর শুরুতে ডট/খাড়া চিহ্ন দেওয়া হয়েছে। এর উচ্চারণ Primary Stress এর চেয়ে একটু দূর্বল হবে। 
+                {/* উদাহরণ: <br /><br />
                 Important - /ım'pɔːtənt/ - [ইম'পটান্ট] <br />
                 Belief -/bi'li:f/ - [বি'লি:ফ] <br /> */}
               </p>
-              <p className="pt-1">
-                ➡️ সাফ কথাঃ <br />
-                প্রথম, দ্বিতীয়, ৩য়, ৪র্থ syllable এও stress হতে পারে। কিন্তু তিন/ততোধিক syllable এর শব্দে কখনও শেষ syllable এ stress হ্যনা।    <br />
-                
+              
+            </div>
+          </div>
+        </div>
+        {/* page 32 Stress */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 32</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold text-pink-700">
+              Stress Rules of Words:
+            </p>
+            <div className="text-base">
+             <p className="pt-1">
+                ➡️ সাফ কথাঃ <br /> 
+                প্রথম, দ্বিতীয়, ৩য়, ৪র্থ syllable এও stress হতে পারে। কিন্তু তিন/ততোধিক syllable এর শব্দে কখনও শেষ syllable এ stress হ্যনা। stress এর সঠিক প্রয়োগ না হলে শব্দের/ বাক্যের অর্থ পরিবর্তন হয়ে যেতে পারে।  <br />
+              </p>
+              <h3 className="text-pink-700">Noun & Adjective:</h3>
+              <p className="">
+              ➡️ দুই syllable word যদি Noun অথবা Adjective হয়, তাহলে অধিকাংশ
+              সময় প্রথম syllable এ stress হবে। যেমনঃ <br />
+              <span className="font-bold">hap</span>py - /ˈhæpi/ - ['হ্যাপী]  <br />
+              <span className="font-bold">Ap</span>ple -/ˈæpl/ - [অ্যাপল] <br />
+              <span className="font-bold">Lea</span>der - /'li:dər/ - [লি:ডার] <br />
+              <span className="font-bold">Dan</span>ger - /ˈdeɪndʒər/ - [ডেইন:জার] <br />
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* page 32 Stress */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 32</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold text-pink-700">
+              Stress (শ্বাসাঘাত/চাপ):
+            </p>
+            <div className="text-base">
+              
+              <p className="">
+                ➡️ব্যতিক্রমঃ <br />
+                এদেরও বেশ কিছু ব্যতিক্রম আছে মানসম্মত অভিধান দেখে দেখে চর্চা
+                করতে হবে। যেমনঃ <br />
+                {/* Anyone - /ˈeniwʌn/ - [এনীওয়ান] <br /> */}
+                Beautiful - /ˈbjuːtɪfl/- [বিউটিফল্] <br />
+              </p>
+              <p className="pt-">
+                👉 জানতে হবেঃ <br />
+                Unstressed syllable এ vowel এর উচ্চারণ /ə/-[আ]/[অ্য] আবার কখনও æ/ - [অ্যা] হবে। যেমনঃ <br />
+                Police -/pəˈliːs/ - [প্য'লী:স] <br />
+                Ability - /əˈbɪləti/ - [আ'বিলিটি] <br />
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* page 32 Stress */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 32</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold text-pink-700">
+              Stress (শ্বাসাঘাত/চাপ):
+            </p>
+            <div className="text-base">
+              <p className="pt-">
+                ➡️ দুই syllable word যদি Noun অথবা Adjective হয়, তাহলে অধিকাংশ
+                সময় প্রথম syllable এ stress হবে। যেমনঃ <br />
+                Apple -/ˈæpl/ - [অ্যাপল] <br />
+                Leader - /'li:dər/ - [লি:ডার] <br />
+                Danger - /ˈdeɪndʒər/ - [ডেইন:জার] <br />
+              </p>
+              <p className="">
+                ➡️ব্যতিক্রমঃ <br />
+                এদেরও বেশ কিছু ব্যতিক্রম আছে মানসম্মত অভিধান দেখে দেখে চর্চা
+                করতে হবে। যেমনঃ <br />
+                {/* Anyone - /ˈeniwʌn/ - [এনীওয়ান] <br /> */}
+                Beautiful - /ˈbjuːtɪfl/- [বিউটিফল্] <br />
+              </p>
+              <p className="pt-">
+                👉 জানতে হবেঃ <br />
+                Unstressed syllable এ vowel এর উচ্চারণ /ə/-[আ]/[অ্য] আবার কখনও æ/ - [অ্যা] হবে। যেমনঃ <br />
+                Police -/pəˈliːs/ - [প্য'লী:স] <br />
+                Ability - /əˈbɪləti/ - [আ'বিলিটি] <br />
+                <br />
               </p>
             </div>
           </div>
