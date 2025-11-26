@@ -1004,27 +1004,27 @@ const Pronunciation = () => {
           <div className="text-base">
             <p className="font-bold"> IPA (Consonant-2) </p>
             <div className="">
-              <p className="text-sm md:text-base lg:text-base lg:text-xl">
+              <p className="text-sm md:text-base lg:text-xl">
                 এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন। Watch the video for correction.
               </p>
-              <div className="flex justify-center pt-1 ">
+              <div className="flex justify-center">
                 <div className="flex md:flex-row gap-3 p-1">
                   <table className="table-auto border-collapse border border-gray-400 shadow-md ">
                     <thead className="bg-gray-100">
                       <tr>
-                        <th className="border border-gray-400 px-2 lg:px-8 py-1 font-bold text-orange-300">
+                        <th className="border border-gray-400 px-2 lg:px-8 lg:py-1 font-bold text-orange-300">
                           IPA
                         </th>
-                        <th className="border border-gray-400 px-2 lg:px-8 py-1 font-bold">
+                        <th className="border border-gray-400 px-2 lg:px-8 lg:py-1 font-bold">
                           Bangla
                         </th>
-                        <th className="border border-gray-400 px-2 lg:px-8 py-1 font-bold text-orange-300">
+                        <th className="border border-gray-400 px-2 lg:px-8 lg:py-1 font-bold text-orange-300">
                           Word
                         </th>
-                        <th className="border border-gray-400 px-2 lg:px-8 py-1 font-bold text-orange-300">
+                        <th className="border border-gray-400 px-2 lg:px-8 lg:py-1 font-bold text-orange-300">
                           IPA
                         </th>
-                        <th className="border border-gray-400 px-2 lg:px-8 py-1 font-bold">
+                        <th className="border border-gray-400 px-2 lg:px-8 lg:py-1 font-bold">
                           Bangla
                         </th>
                       </tr>
@@ -1174,7 +1174,7 @@ const Pronunciation = () => {
               </div>
             </div>
           </div>
-          <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
+          <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-2 rounded-md"> 
               <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eERkHcLpxa8?si=Gef6coKD_eRVsbbZ">click here to listen to audio</a>
             </div>
         </div>
@@ -1527,7 +1527,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 14 */}
+        {/* page 14 Article */}
         <div className="p-3 text-black lg:p-14 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 14</h2>
@@ -1558,7 +1558,7 @@ const Pronunciation = () => {
           </p>
         </div>
 
-        {/* page 15  */}
+        {/* page 15  Aspirated */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 15</h2>
@@ -1595,7 +1595,7 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 16 */}
+        {/* page 16 Aspirated */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 16</h2>
@@ -1633,7 +1633,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 17 */}
+        {/* page 17 Aspirated */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 17</h2>
@@ -1680,7 +1680,7 @@ const Pronunciation = () => {
           <p className="heading2 text-center pt-3">ASM English Academy</p>
         </div>
 
-        {/* page 17 */}
+        {/* page 17 Aspirated */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 17</h2>
@@ -1731,7 +1731,7 @@ const Pronunciation = () => {
           <p className="heading2 text-center pt-1">ASM English Academy</p>
         </div>
 
-        {/* page 18 */}
+        {/* page 18 Pronunciation of "R" */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 18</h2>
@@ -1769,7 +1769,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 19 */}
+        {/* page 19 Pronunciation of "R"*/}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 19</h2>
@@ -1812,7 +1812,7 @@ const Pronunciation = () => {
 
         
 
-        {/* page 20 */}
+        {/* page 20 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 20</h2>
@@ -1825,7 +1825,7 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold">Verb Contraction (সংকোচন):</p>
+            <p className="font-bold">Verb Contraction(সংকোচন):</p>
             <div className="text-base">
               <p className="">
                 Contraction হল Subject + Verb একত্রে উচ্চারণ করা। Spoken English
@@ -1877,7 +1877,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 21 */}
+        {/* page 21 Verb Contraction */}
         <div className="p-2 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-xl font-bold ">Page 21</h2>
@@ -1939,7 +1939,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 22 */}
+        {/* page 22 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-xl font-bold ">Page 22</h2>
@@ -2002,7 +2002,7 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 22 */}
+        {/* page 22 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 22</h2>
@@ -2063,7 +2063,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 23 */}
+        {/* page 23 Elision */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 23</h2>
@@ -2099,7 +2099,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 24 */}
+        {/* page 24 Elision */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 24</h2>
@@ -2131,7 +2131,7 @@ const Pronunciation = () => {
           <h3 className="heading2 text-center pt-5">ASM English Academy</h3>
         </div>
 
-        {/* page 25 */}
+        {/* page 25 Unvoiced Sound + S: */}
         <div className="p-5 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 25</h2>
@@ -2217,7 +2217,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 26 */}
+        {/* page 26 Unvoiced Sound + S: */}
         <div className="p-4 text-black md:p-10 bg-[#EFE5D6] book-shadow ">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 26</h2>
@@ -2302,9 +2302,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 28 */}
+        {/* page 28 Unvoiced Sound + S: */}
         <div className="p-4 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 28</h2>
             <button
               onClick={goToContents}
@@ -2325,7 +2325,7 @@ const Pronunciation = () => {
                           ["p/প/ফ", "P", "Develop", "Developed", "ডিভ'লফট"],
                           ["t/ট/ঠ", "T", "walk", "walked", "ওয়াক্ট"],
                           ["k/ক/খ", "K", "talked", "talked", "টক্ট"],
-                          ["f/ফ", "F", "laugh", "laughed", "লাফট"],
+                          // ["f/ফ", "F", "laugh", "laughed", "লাফট"],
                         ].map(
                           (
                             [Sound, Letter, Word, participle, উচ্চারণ],
@@ -2398,7 +2398,7 @@ const Pronunciation = () => {
           </p>
         </div>
 
-        {/* page 29 */}
+        {/* page 29 Syllable */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 29</h2>
@@ -2425,16 +2425,16 @@ const Pronunciation = () => {
                 syllable word।  <br /> 
                 একটি শব্দে যতগুলো স্বরধ্বনি (vowel sound) থাকবে
                 উক্ত শব্দের ততগুলো syllable হবে। যেমন: <br />
-                Bat/b/æ/t/ (১ টি syllable) <br />
-                Teacher/teacher / (২ টি syllable) <br />
-                Intelligent/in/telligent / (৪ টি syllable) <br />
+                Bat - /b/æ/t/ (১ টি syllable) <br />
+                Teacher - /ˈtiːtʃə(r)/ - (২ টি syllable) <br />
+                Intelligent - /ɪnˈtelɪdʒəns/ - (৪ টি syllable) <br />
                 
               </p>
             </div>
           </div>
         </div>
 
-        {/* page 30 */}
+        {/* page 30 Syllable */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 30</h2>
@@ -2450,7 +2450,7 @@ const Pronunciation = () => {
             <p className="font-bold">Syllable</p>
             <div className="text-base">
               <p className="">
-                 <span className="font-bold">RSyllable দুই ধরণের আছেঃ</span> <br />
+                 <span className="font-bold">Syllable দুই ধরণের আছেঃ</span> <br />
                   (i) Open syllable এবং (ii) Closed syllable
                 </p>
               <p className="pt-1">
@@ -2474,9 +2474,9 @@ const Pronunciation = () => {
           <h3 className="heading2 text-center pt-2">ASM English Academy</h3>
         </div>
 
-        {/* page 31 */}
+        {/* page 31 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 31</h2>
             <button
               onClick={goToContents}
@@ -2488,33 +2488,32 @@ const Pronunciation = () => {
           <hr className="border border-gray-400" />
           <div className="">
             <p className="font-bold text-pink-600">Stress (শ্বাসাঘাত/চাপ):</p>
-            <div className=" text-sm md:text-base">
-              <p className="pt-2">
+            <div className="text-base">
+              <p className="">
                 Stress: যে syllable এর শুরুতে শ্বাসাঘাত (stress) চিহ্ন দেয়া
                 থাকে, উক্ত syllable কে stressed syllable বলে। শ্বাসাঘাত উত্তোলিত
                 তিলক চিহ্নের /'/ মাধ্যমে দেখানো হয়। শ্বাসাঘাত যুক্ত syllable এর
                 উচ্চারণ একটু উচ্চ ও দীর্ঘ অর্থাৎ Louder এবং longer হয়। <br />
                 যেমন: <br />
-                Attention - /ə'ten.ʃ'ǝn/ - [আ'টেনশান। <br />
+                Attention - /ə'ten.ʃ'ǝn/ - [আ'টেনশান]। <br />
                 ব্যাখ্যাঃ এখানে Attention শব্দের দ্বিতীয় syllable এর শুরুতে
                 stress চিহ্ন দেওয়া হয়েছে। তার মানে দ্বিতীয় syllable টি একটু
-                জোরালো এবং দীর্ঘ হবে। <br />
-                উদাহরণ: <br />
+                জোরালো এবং দীর্ঘ হবে।
+                {/* উদাহরণ: <br />
                 Important - /ım'pɔːtənt/ - [ইম'পটান্ট] <br />
-                Belief -/br'li:f/ - [বি'লি:ফ] <br />
+                Belief -/bi'li:f/ - [বি'লি:ফ] <br /> */}
               </p>
-              <p className="pt-2">
+              <p className="pt-1">
                 ➡️ সাফ কথাঃ <br />
-                এক syllable বিশিষ্ট word সকল সময় stress হবে। যেমনঃ <br />
-                But - /bat / - [ব্যাট] <br />
-                Rat - / ræt / - [র‍্যাট]
+                প্রথম, দ্বিতীয়, ৩য়, ৪র্থ syllable এও stress হতে পারে। কিন্তু তিন/ততোধিক syllable এর শব্দে কখনও শেষ syllable এ stress হ্যনা।    <br />
+                
               </p>
             </div>
           </div>
         </div>
-        {/* page 32 */}
+        {/* page 32 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 32</h2>
             <button
               onClick={goToContents}
@@ -2525,39 +2524,37 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-400 pt-1">
+            <p className="font-bold text-pink-700">
               Stress (শ্বাসাঘাত/চাপ):
             </p>
-            <div className=" text-sm md:text-base">
-              <p className="pt-2">
-                ➡️ দুই syllable word যদি noun অথবা adjective হয়, তাহলে অধিকাংশ
+            <div className="text-base">
+              <p className="pt-">
+                ➡️ দুই syllable word যদি Noun অথবা Adjective হয়, তাহলে অধিকাংশ
                 সময় প্রথম syllable এ stress হবে। যেমনঃ <br />
+                Apple -/ˈæpl/ - [অ্যাপল] <br />
                 Leader - /'li:dər/ - [লি:ডার] <br />
-                Danger - /dein:dzər/ - [ডেইন:জার] <br />
+                Danger - /ˈdeɪndʒər/ - [ডেইন:জার] <br />
               </p>
               <p className="">
-                ব্যতিক্রমঃ <br />
-                এই নিয়মগুলোরও মাঝে মাঝে ব্যবহার দেখা যায় না। এদেরও বেশ কিছু
-                ব্যতিক্রম আছে যা আমাদের কিছু মানসম্মত অভিধান দেখে দেখে চর্চা
+                ➡️ব্যতিক্রমঃ <br />
+                এদেরও বেশ কিছু ব্যতিক্রম আছে মানসম্মত অভিধান দেখে দেখে চর্চা
                 করতে হবে। যেমনঃ <br />
-                Anyone - /'εniwan/ - [এনীওয়ান] <br />
-                Beautiful - /'bju:tifəl/- [বিউটিফল্] <br />
+                {/* Anyone - /ˈeniwʌn/ - [এনীওয়ান] <br /> */}
+                Beautiful - /ˈbjuːtɪfl/- [বিউটিফল্] <br />
               </p>
-              <p className="pt-2">
-                জানতে হবেঃ <br />
-                Unstressed syllable এ vowel এর উচ্চারণ /ə/ কখনও [আ], আবার কখনও
-                [অ্য], এবং আবার কখনও [অ্যা] হবে। যেমনঃ <br />
-                Ability - /ə'bıləti / - [আ'বিলিটি] <br />
-                Apple -/'æpəl/ - [অ্যাপল]
+              <p className="pt-">
+                👉 জানতে হবেঃ <br />
+                Unstressed syllable এ vowel এর উচ্চারণ /ə/-[আ]/[অ্য] আবার কখনও æ/ - [অ্যা] হবে। যেমনঃ <br />
+                Police -/pəˈliːs/ - [প্য'লী:স] <br />
+                Ability - /əˈbɪləti/ - [আ'বিলিটি] <br />
                 <br />
-                Police -/pə'li:s/ - [প্য'লী:স] <br />
               </p>
             </div>
           </div>
         </div>
-        {/* page 33 */}
+        {/* page 33 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 33</h2>
             <button
               onClick={goToContents}
@@ -2568,30 +2565,28 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-400 pt-1">
+            <p className="font-bold text-pink-700">
               Stress (শ্বাসাঘাত)/চাপ:
             </p>
-            <div className=" text-sm md:text-base">
+            <div className="text-base">
               <p className="">
                 /ɪ/ <br />
                 E দিয়ে লেখা unstressed prefixes (de, re, pre, ex etc) এর
                 ক্ষেত্রে unstressed syllable এর উচ্চারণ /ɪ/ [ই] হয়। <br />
-                Debate - /dr'bert/- [ডি'বেইট] <br />
-                Delete - /dr'li:t/- [ডি'লিট] <br />
+                Debate - /dɪˈbeɪt/- [ডি'বেইট] <br />
+                Delete - /dɪˈliːt/- [ডি'লি:ট] <br />
                 Develop - /dı veləp/- [ডি'ভেলাপ] <br />
-                Demand - /dı'ma:nd /- [ডি'মা:ন্ড] <br />
+                Demand - /dɪˈmɑːnd/- [ডি'মা:ন্ড] <br />
                 Exam- /ɪgzæm/- [ইগ'জ্যাম.] <br />
                 Excel- /ık'sel/- [ইক'সেল.] <br />
-                Exercise - /'ɪk.se.sarz/- [ইক'সা. সাইজ) <br />
-                Expert- /'ɪk.sp3: t/- [ইক'স্পাট] <br />
-                Prefer - /prɪ'f3r: /- [প্রি'ফা: (র)] <br />
-                Renew - /rt'nju:/ - [রি'নিউ]
+                Prefer - /prɪˈfɜːr/- [প্রি'ফা:(র)] <br />
+                Renew - /rɪˈnuː/ - [রি'নিউ:]
               </p>
             </div>
             <p className="heading2 text-center pt-10">ASM English Academy</p>
           </div>
         </div>
-        {/* page 34 */}
+        {/* page 34 Linking */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 34</h2>
@@ -2631,7 +2626,7 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 35 */}
+        {/* page 35 Linking */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 35</h2>
@@ -2674,7 +2669,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 36 */}
+        {/* page 36 Linking */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 36</h2>
@@ -2714,7 +2709,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 37 */}
+        {/* page 37 Assimilation*/}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 37</h2>
@@ -2755,7 +2750,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 38 */}
+        {/* page 38 Assimilation */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 38</h2>
@@ -2796,7 +2791,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 39 */}
+        {/* page 39 Assimilation*/}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 39</h2>
@@ -2839,7 +2834,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 40 */}
+        {/* page 40 Assimilation*/}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 40</h2>
@@ -2881,7 +2876,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 41 */}
+        {/* page 41 শব্দের উচ্চারণ টেকনিক */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 41</h2>
@@ -2928,7 +2923,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 42 */}
+        {/* page 42 শব্দের উচ্চারণ টেকনিক */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 42</h2>
@@ -2981,7 +2976,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 43 */}
+        {/* page 43 শব্দের উচ্চারণ টেকনিক */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 43</h2>
@@ -3023,7 +3018,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 44 */}
+        {/* page 44 শব্দের উচ্চারণ টেকনিক */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 44</h2>
@@ -3068,7 +3063,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 45 */}
+        {/* page 45 শব্দের উচ্চারণ টেকনিক */}
         <div className="px-3 py-2 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 45 </h2>
@@ -3114,7 +3109,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 46 */}
+        {/* page 46 শব্দের উচ্চারণ টেকনিক */}
         <div className="px-3 py-2 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
@@ -3162,7 +3157,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 47 */}
+        {/* page 47 শব্দের উচ্চারণ টেকনিক */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 47</h2>
@@ -3211,7 +3206,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 48 */}
+        {/* page 48 শব্দের উচ্চারণ টেকনিক */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 48</h2>
@@ -3258,7 +3253,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 49 */}
+        {/* page 49 শব্দের উচ্চারণ টেকনিক */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 49</h2>
@@ -3304,7 +3299,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 50 */}
+        {/* page 50 শব্দের উচ্চারণ টেকনিক */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 50</h2>
@@ -3348,7 +3343,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 51 */}
+        {/* page 51 শব্দের উচ্চারণ টেকনিক */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 51</h2>
@@ -3397,7 +3392,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 52 */}
+        {/* page 52 শব্দের উচ্চারণ টেকনিক */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 52</h2>
@@ -3442,7 +3437,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 53 */}
+        {/* page 53 শব্দের উচ্চারণ টেকনিক */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 53</h2>
@@ -3492,7 +3487,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 00 */}
+        {/* page 00 শব্দের উচ্চারণ টেকনিক */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 00</h2>
@@ -3540,7 +3535,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 00 */}
+        {/* page 00 শব্দের উচ্চারণ টেকনিক */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 00</h2>
@@ -3582,7 +3577,7 @@ const Pronunciation = () => {
           <p className="heading2 text-center pt-3">ASM English Academy</p>
         </div>
 
-        {/* page 54 */}
+        {/* page 54 শব্দের উচ্চারণ টেকনিক */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 54</h2>
