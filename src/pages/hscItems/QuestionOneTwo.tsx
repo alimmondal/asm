@@ -7,7 +7,7 @@ import {
 
 const QuestionOneTwo = () => {
   return (
-    <div className="px-3 lg:w-1/2 mx-auto">
+    <div className="px-3 lg:w-1/2 mx-auto text-justify">
       <div className="py-20 text-center ">
         <h1 className="text-green-500">Model Questions</h1>
         <p className="text-pink-700 font-bold">Question 1 & 2</p>

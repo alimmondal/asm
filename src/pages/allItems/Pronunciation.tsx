@@ -2450,13 +2450,14 @@ const Pronunciation = () => {
           <hr className="border border-gray-400" />
           <div className="">
             <p className="font-bold text-pink-700">
-              Stress Rules of Words:
+              Stress Rules:
             </p>
             <div className="text-base">
              <p className="pt-1">
                 ➡️ সাফ কথাঃ <br /> 
                 প্রথম, দ্বিতীয়, ৩য়, ৪র্থ syllable এও stress হতে পারে। কিন্তু তিন/ততোধিক syllable এর শব্দে কখনও শেষ syllable এ stress হ্যনা। stress এর সঠিক প্রয়োগ না হলে শব্দের/ বাক্যের অর্থ পরিবর্তন হয়ে যেতে পারে।  <br />
               </p>
+              <h2 className="text-green-700">1.Two Syllable Words-</h2>
               <h3 className="text-pink-700">Noun & Adjective:</h3>
               <p className="">
               ➡️ দুই syllable word যদি Noun অথবা Adjective হয়, তাহলে অধিকাংশ
@@ -2491,20 +2492,20 @@ const Pronunciation = () => {
               <p className="">
               ➡️ দুই syllable word টি Verb হলে অধিকাংশ
               সময় দ্বিতীয় Syllable এ Stress পড়ে যেমনঃ <br />
-              Re<span className="font-bold">lax</span> - /rɪˈlæks/ - [রি 'ল্যাক্স] <br />
+              {/* Re<span className="font-bold">lax</span> - /rɪˈlæks/ - [রি 'ল্যাক্স] <br /> */}
               Res<span className="font-bold">pect</span> -/rɪˈspekt/ - [রিস 'পেক্ট] <br />
               
               A<span className="font-bold">djust</span> - /əˈdʒʌst/ - [অ্যা 'জাস্ট] <br />
               </p>
-              <h3 className="text-pink-700">Compound Words:</h3>
+              <h2 className="text-green-700">2. Compound Words:</h2>
               <p className="">
                 👉 Compound words are formed when more than one words are combined to create new word.
                 </p>
               <p className="">
                 <h3 className="text-pink-700">Compound Nouns:</h3>
               ➡️ Compound Word টি Noun হলে firs-part এ Stress হবে। যেমনঃ <br />
-              <span className="font-bold">green</span>house - /ˈɡriːnhaʊs/ - ['বাথ:রুম] <br />
-              <span className="font-bold">bath</span>room - /ˈɡriːnhaʊs/ - ['গ্রিন:হাউচ] <br />
+              <span className="font-bold">green</span>house - /ˈɡriːnhaʊs/ - [ 'গ্রিন:হাউচ ] <br />
+              <span className="font-bold">bath</span>room - /ˈbɑːθruːm/ -  [ 'বাথ:রুম ] <br />
              
               </p>
 
@@ -2533,11 +2534,95 @@ const Pronunciation = () => {
               <p className="">
                 <h3 className="text-pink-700">Compound Adjectives:</h3>
               ➡️ Compound Word টি Adjective হলে second-part এ Stress হবে। যেমনঃ <br />
-              <span className="font-bold">well</span>-known - /ˌwel ˈnəʊn/ - ['বাথ:রুম] <br />
-              <span className="font-bold">good</span>-looking - /ˌɡʊd ˈlʊkɪŋ/ - ['গ্রিন:হাউচ] <br />
-             
+              well-<span className="font-bold">kn</span>own - /ˌwel ˈnəʊn/ - [ওয়েল'নৌন] <br />
+              good-<span className="font-bold">loo</span>king - /ˌɡʊd ˈlʊkɪŋ/ - [গুড'লুকিং] <br />
+              </p>
+              <h3 className="text-pink-700">Compound Verbs: </h3>
+              <p className="">
+              ➡️ Compound Word টি Verb হলে অধিকাংশ
+              সময় দ্বিতীয় part এ Stress হবে। যেমনঃ <br />
+              out-<span className="font-bold">num</span>ber - /ˌaʊtˈnʌmbər/ - [আউট'নাম্বার] <br />
+              over-<span className="font-bold">egg</span> - /ˌəʊvər ˈeɡ/ - [ওভার'এগ] <br />
+              </p>
+              <h3 className="text-green-700">Words with Prefixes & Suffixes: </h3>
+              <p className="">
+              👉 Prefixes & Suffixes can also influence stess placement:
               </p>
 
+              
+            </div>
+          </div>
+        </div>
+
+        {/* page 35 Stress */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 35</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold text-pink-700">
+              Stress Rules:
+            </p>
+            <div className="text-base">
+               <p className="">
+              ➡️ <span className="text-pink-700 font-bold">Prefixes:</span> 
+            The stress remain on the main part, not ont the prefix. (সাধারণত প্রধান main-part এ Stress হবে) । যেমনঃ <br />
+              un<span className="font-bold">important</span>  - /ˌʌnɪmˈpɔːrtnt/ - [আনই'ম্পটান্ট] <br />
+             i <span className="font-bold">llogical</span> - ɪˈlɒdʒɪkl/ - [ই'লজিকল] <br />
+              </p>
+               <p className="">
+              ➡️ <span className="text-pink-700 font-bold">Suffixes: </span>
+            Some suffixes do not change the stress, while others do. Here are common patterns. ( Suffixes এ সাধারণত  Stress হয় না, কিছু হয়; এখানে কিছু প্যাটার্ন আলোচনা করা হলো)।  <br />
+            
+            <span className=" font-bold">👉 যে Prefixe গুলো Stess পরিবর্তণ করেনাঃ</span> -ly, ness, full <br />
+            <span className="font-bold">use</span>ful - /ˈjuːsfl/ - ['ইউচঃফল] <br />
+            <span className="font-bold">aware</span>ness - /əˈweənəs/ - [আ'ওয়ানেচ] <br />
+            <span className="font-bold">calm</span>ly - /ˈkɑːmli/ - ['কাঃমলি] <br />
+
+            
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* page 35 Stress */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 35</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div> 
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold text-pink-700">
+              Stress Rules:
+            </p>
+            <div className="text-base">
+              <p className="">
+              <span className=" font-bold">👉 যে সাফিক্স গুলো Stress পরিবর্ত(attract) করে:</span> -ee, -eer, -ese, -ique, -esque <br />
+              
+              employ<span className="font-bold">ee</span> - /ɪmˈplɔɪiː/ - [ইমপ্ল'ই] <br />
+              engin<span className="font-bold">eer</span> - /ˌendʒɪˈnɪə(r)/ - [এঞ্জি'নিয়া(র)] <br />
+              Japanese<span className="font-bold">nese</span> - /ˌdʒæpəˈniːz/ - [জ্যাপ'নিজ] <br />
+              </p>
+              <h2 className="text-green-700">Multi-syllable Words</h2>
+              <p className="">
+              <span className=" font-bold">👉 যে সাফিক্স গুলো Stress পরিবর্ত(attract) করে:</span> -ee, -eer, -ese, -ique, -esque <br />
+              
+              employ<span className="font-bold">ee</span> - /ɪmˈplɔɪiː/ - [ইমপ্ল'ই] <br />
+              engin<span className="font-bold">eer</span> - /ˌendʒɪˈnɪə(r)/ - [এঞ্জি'নিয়া(র)] <br />
+              Japanese<span className="font-bold">nese</span> - /ˌdʒæpəˈniːz/ - [জ্যাপ'নিজ] <br />
+              </p>
               
             </div>
           </div>
@@ -2559,6 +2644,7 @@ const Pronunciation = () => {
               Stress (শ্বাসাঘাত/চাপ):
             </p>
             <div className="text-base">
+              
               <p className="pt-">
                 ➡️ দুই syllable word যদি Noun অথবা Adjective হয়, তাহলে অধিকাংশ
                 সময় প্রথম syllable এ stress হবে। যেমনঃ <br />
@@ -2583,6 +2669,7 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
+
         {/* page 33 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
