@@ -414,17 +414,17 @@ const Pronunciation = () => {
             <p className="font-bold">Consonant Diagraph</p>
             <div className="text-base ">
               <p className="">
-                "th-"- থ - [শব্দের শুরুতে] - Thank; think; thumb <br />
-                "th-"- দ - [শব্দের শুরুতে] - Though; thou; thee <br />
-                "-th"- থ - [শব্দের শেষে] - Bath; earth; math; <br />
-                "-th"- দ - [শব্দের শেষে] - Bathe; breathe; with <br />
-                "sh-"- শ - [শব্দের শুরুতে] - Shower; sheet; shout <br />
-                "-sh"- শ - [শব্দের শেষে] - Dish; fish; push <br />
-                "-ss"- স - [শব্দের শেষে] - Loss; Mass; press <br />
-                ⁹"wh-"- ওয়া - [শব্দের শুরুতে।] - What; where; why <br />
-                "wr-" - র - [শব্দের শুরুতে] - Write; wrong; wreath <br />
-                "-ng"- ইং - [শব্দের শেষে।] - Ring; sing; ting <br />
-                "-nk"- ইংক - [শব্দের শেষে] - Link; pink; sink <br />
+                "th-"- থ - [শব্দের শুরুতে] - Thank; think; <br />
+                "th-"- দ - [শব্দের শুরুতে] - Though; thou;  <br />
+                "-th"- থ - [শব্দের শেষে] - Bath; earth; <br />
+                "-th"- দ - [শব্দের শেষে] - Bathe; breathe;  <br />
+                "sh-"- শ - [শব্দের শুরুতে] - Shower; sheet;  <br />
+                "-sh"- শ - [শব্দের শেষে] - Dish; fish;  <br />
+                "-ss"- স - [শব্দের শেষে] - Loss; Mass;  <br />
+                ⁹"wh-"- ওয়া - [শব্দের শুরুতে।] - What; where;  <br />
+                "wr-" - র - [শব্দের শুরুতে] - Write; wrong;  <br />
+                "-ng"- ইং - [শব্দের শেষে।] - Ring; sing;  <br />
+                "-nk"- ইংক - [শব্দের শেষে] - Link; pink;  <br />
               </p>
             </div>
             <p className="heading2 text-center pt-5">ASM English Academy</p>
@@ -798,7 +798,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 9 */}
+        {/* page 9 IPA (Consonant-1)*/}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 9</h2>
@@ -983,7 +983,7 @@ const Pronunciation = () => {
                 </div>
               </div>
             </div>
-            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-2 rounded-md"> 
+            <div className="max-w-fit mx-auto px-2 py-1 text-center border-2 border-blue-500 mt-2 rounded-md"> 
               <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eERkHcLpxa8?si=Gef6coKD_eRVsbbZ">click here to listen to Video</a>
             </div>
           </div>
@@ -1002,13 +1002,13 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="text-base">
-            <p className="font-bold"> IPA (Consonant-2) </p>
+            <p className="font-bold"> IPA(Consonant-2) </p>
             <div className="">
-              <p className="text-sm md:text-base lg:text-xl">
+              <p className="text-xs md:text-base lg:text-xl">
                 এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন। Watch the video for correction.
               </p>
               <div className="flex justify-center">
-                <div className="flex md:flex-row gap-3 p-1">
+                <div className="flex md:flex-row gap-3">
                   <table className="table-auto border-collapse border border-gray-400 shadow-md ">
                     <thead className="bg-gray-100">
                       <tr>
@@ -1389,7 +1389,7 @@ const Pronunciation = () => {
                 দ্বিতীয় ধ্বনিটি খুবই মৃদুভাবে উচ্চারণ করতে হয়।
               </p>
             </div>
-            <div className="text-base lg:text-base lg:text-xl">
+            <div className="text-base lg:text-xl">
               <div className="flex justify-center items-center ">
                 <table className="table-auto border-collapse border border-gray-400 shadow-lg">
                   <thead className="bg-gray-200">
@@ -1570,7 +1570,7 @@ const Pronunciation = () => {
             </button>
           </div>
           <div className="text-base">
-            <p className="font-bold">P, T, C, Q & K Sound</p>
+            <h2 className="font-bold">Aspirated Sound</h2>
             <div className="text-base">
               <p className="">
                 Aspirated Sound মানে এগুলো উচ্চারণের সময় মুখ দিয়ে বেশি পরিমানে
@@ -1590,7 +1590,7 @@ const Pronunciation = () => {
                 <span className="font-semibold">Rule - 2</span> <br />
                 'S' এর পর 'p, t, k' থাকলে সেই Sound- টি Aspirated হবে না। এ
                 ক্ষেত্রে বাংলা প, ট, ক এর মতই উচ্চারিত হবে। যেমনঃ <br />
-                Stay - স্টেই; Basket - বাস্কিট; <br />
+                
               </div>
             </div>
           </div>
@@ -1608,8 +1608,9 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold">'p, t, k, c, q' Sound: </p>
+            <p className="font-bold">Aspirated Sound: </p>
             <div className="text-base">
+              Stay - স্টেই; Basket - বাস্কিট; <br />
               <span className="font-semibold">Rule-3</span> <br />
               'Word' এর শেষে 'p, t, k, c, q' থাকলে সেই Sound-গুলো Aspirated হয়
               না। যেমনঃ <br />
@@ -1620,16 +1621,10 @@ const Pronunciation = () => {
               তাহলে Sound-টি Aspirated হবে না। যেমনঃ <br />
               appoint = অ'ফোইন্ট; Fatal = ফেই'ঠল; <br />
             </div>
-            <p className="pt-3">
-              Note: P, T & K এই ৩টি অক্ষরের উচ্চারণ সঠিক হলে শুদ্ধ উচ্চারণের ৩০%
+            <p className="pt-1">
+              Note: Aspirated অক্ষরের উচ্চারণ সঠিক হলে শুদ্ধ উচ্চারণের ৩০%
               সঠিক হয়ে যাবে। 
-            </p>
-                  
-                  
-                  
-                  
-                  
-            <br />
+            </p>      
           </div>
         </div>
 
@@ -1692,17 +1687,15 @@ const Pronunciation = () => {
             </button>
           </div>
           <div className="">
-            <p className="font-bold">Example of P, T, C, Q & K</p>
+            <p className="font-bold">Example of Aspirated</p>
             <div className="flex justify-between text-base">
-              <p className="text-base">
-                
+              <p className="text-base">             
                 Time = ঠাইম <br />
                 Table = ঠেইবল <br />
                 Talk = ঠোক <br />
                 Today = ঠুডেই <br />
                 Touch = ঠাচ <br />
-                Tuition = ঠিউশন <br />
-                
+                Tuition = ঠিউশন <br />                
                 Cat = খ্যাট <br />
                 question = খোয়েশচন <br />
                 Cute = খিউট <br />
@@ -1744,14 +1737,14 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold"> Pronunciation of "R"</p>
+            <h2 className="font-bold"> Pronunciation of "R"</h2>
             <div className="text-base">
               <p className="">
                 ব্রিটিশরা কোথাও কোথাও 'R' এর উচ্চারণ করে; আবার কোথাও কোথাও 'R'
                 এর উচ্চারণ করে না। আবার আমেরিকানরা সর্বদাই 'R' এর উচ্চারণ করতে
                 অভ্যস্ত। <br />
                 আমরা সবখানেই 'R' এর উচ্চারণ করে থাকি। তবে, ইংরেজি বলার সময়
-                আমাদের ব্রিটিশ ও আমেরিকান: এই দুই ধরনের উচ্চারণের মিশ্রণ সমীচীন
+                আমাদের এই দুই ধরনের উচ্চারণের মিশ্রণ সমীচীন
                 নয়। 
                 </p>
                 <p className="pt-2">
@@ -1760,7 +1753,7 @@ const Pronunciation = () => {
                 Word এর শুরুতে 'R'/ Vowel এর পূর্বে R থাকলে ব্রিটিশরা 'R' এর
                 উচ্চারণ করে থাকে। যেমনঃ <br />
                 Read = রিড <br />
-                Rice = রাইস <br />
+                {/* Rice = রাইস <br /> */}
                 Ring = রিং
                 </p>
                 
@@ -2064,76 +2057,9 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 23 Elision */}
-        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 23</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
-            >
-              Back to index
-            </button>
-          </div>
-          <hr className="border border-gray-400" />
-          <div className="pt-1">
-            <p className="font-bold">Elision (ধ্বনিলোপ): </p>
-            <div className="text-base">
-              <p className="">
-                ইংরেজি দ্রুত বলার আরেকটি মাধ্যম হলো Elision বা ধ্বনিলোপ যেখানে
-                ২টি sound এর মধ্যে যে কোন একটি sound এর অনুচ্চারিত থাকে। <br />
-               <span className="font-bold">Rule: </span> <br />
-                যদি কোন শব্দের শেষ অক্ষর /t/,/d/, /k/থাকে এবং পরবর্তী শব্দের ১ম
-                অক্ষর consonant sound থাকে তাহলে ঐ /t/,/d/, /k/এর উচ্চারণ লোপ
-                পায়, অর্থাৎ উচ্চারিত হয় না। সেক্ষেত্রে /t/,/d/, /k/এর স্থলে একটা
-                ধাক্কা দিয়ে উচ্চারিত হয়। যেমনঃ <br />
-                First boy: <br />
-                Firs'boy - ফার্স + বয় = ফার্সবয় <br />
-                {/* Great poet: <br />
-                Grea'poet - গ্রেই + ফৌইট = গ্রেইফৌইট <br /> */}
-                Second chance: <br />
-                Secon'chance - সেকন চ্যান্স = সেকনচ্যান্স <br />
-                That man: <br />
-                Tha' man - দ্য + ম্যান = দ্যম্যান <br />
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* page 24 Elision */}
-        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 24</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
-            >
-              Back to index
-            </button>
-          </div>
-          <hr className="border border-gray-400" />
-          <div className="">
-            <p className="font-bold py-1">Elision (ধ্বনিলোপ):</p>
-            <div className="text-base">
-              <p className="">
-                আরো মনে রাখতে Schwa (/ǝ/) প্রকৃতপক্ষে জোর দিয়ে উচ্চারণ করা হয়ে
-                থাকে না। যেমনঃ <br />
-                1. Diff(e)rent = /'difrent/ - ডিফরেন্ট = ডিফ্রেন্ট <br />
-                2. Int(e)rest = /'intrest/ - ইন+ট্রেস্ট = ইনট্রেস্ট <br />
-                3. Libr(a)ry = /'laibri/ - লাই+ব্রি = লাইব্রি <br />
-                4. Rest(au)rant = restront/- রেস-ট্রন্ট = রেসট্রন্ট <br />
-                5. Sim(i)lar = /sɪm.ɪ.lər/ সিমিলা = সিমলা <br />
-                6. T(o)night = /T'night/ = ঠ+নাইট = ঠনাইট <br />
-                7. Veg(e)tables = /veg'table/ - ভেজ+টেবল = ভেজটেবল <br />
-                8. Yest(er)day = /yestoday/ - ইয়েস-টডেই = ইয়েসটডেই <br />
-              </p>
-            </div>
-          </div>
-          <h3 className="heading2 text-center pt-5">ASM English Academy</h3>
-        </div>
-
+        
         {/* page 25 Unvoiced Sound + S: */}
-        <div className="p-5 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 25</h2>
             <button
@@ -2145,9 +2071,9 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-500 py-1">
+            <h2 className="font-bold text-green-500 py-">
               Unvoiced Sound + S:
-            </p>
+            </h2>
             <div className="text-base">
               <p className="">
                 Unvoiced sound গুলো হলোঃ <br />
@@ -2208,7 +2134,7 @@ const Pronunciation = () => {
                 </div>
                 
               </div>
-              <p className="pt-4">
+              <p className="pt-">
                 <span className="font-bold">Rule-2.</span>  <br />
                 p/প; t/ট; k/ক; f/ফ; - ছাড়া শব্দের শেষে অন্য কোন অক্ষর এর পরে 'S'
                 থাকলে 'S' এর উচ্চারণ 'z'/'য'/'জ' - এর মত হবে। যেমনঃ
@@ -2316,7 +2242,7 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-medium text-green-500 pt-1">
+            <p className="font-bold text-green-500 pt-1">
               Unvoiced Sound + S:
             </p>
             <div className="pt-3">
@@ -2489,7 +2415,7 @@ const Pronunciation = () => {
           <hr className="border border-gray-400" />
           <div className="">
             <h2 className="font-bold text-pink-600">Stress(শ্বাসাঘাত/চাপ):</h2>
-            <div className="text-base">
+            <div className="text-[15px]">
               <p className="">
               যে syllable এর শুরুতে stress চিহ্ন দেয়া
               থাকে, উক্ত syllable কে stressed syllable বলে। 
@@ -2509,6 +2435,7 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
+
         {/* page 32 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
@@ -2542,10 +2469,11 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 32 Stress */}
+
+        {/* page 33 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 32</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 33</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2556,31 +2484,39 @@ const Pronunciation = () => {
           <hr className="border border-gray-400" />
           <div className="">
             <p className="font-bold text-pink-700">
-              Stress (শ্বাসাঘাত/চাপ):
+              Stress Rules:
             </p>
             <div className="text-base">
+              <h3 className="text-pink-700">Verbs:</h3>
+              <p className="">
+              ➡️ দুই syllable word টি Verb হলে অধিকাংশ
+              সময় দ্বিতীয় Syllable এ Stress পড়ে যেমনঃ <br />
+              Re<span className="font-bold">lax</span> - /rɪˈlæks/ - [রি 'ল্যাক্স] <br />
+              Res<span className="font-bold">pect</span> -/rɪˈspekt/ - [রিস 'পেক্ট] <br />
               
+              A<span className="font-bold">djust</span> - /əˈdʒʌst/ - [অ্যা 'জাস্ট] <br />
+              </p>
+              <h3 className="text-pink-700">Compound Words:</h3>
               <p className="">
-                ➡️ব্যতিক্রমঃ <br />
-                এদেরও বেশ কিছু ব্যতিক্রম আছে মানসম্মত অভিধান দেখে দেখে চর্চা
-                করতে হবে। যেমনঃ <br />
-                {/* Anyone - /ˈeniwʌn/ - [এনীওয়ান] <br /> */}
-                Beautiful - /ˈbjuːtɪfl/- [বিউটিফল্] <br />
+                👉 Compound words are formed when more than one words are combined to create new word.
+                </p>
+              <p className="">
+                <h3 className="text-pink-700">Compound Nouns:</h3>
+              ➡️ Compound Word টি Noun হলে firs-part এ Stress হবে। যেমনঃ <br />
+              <span className="font-bold">green</span>house - /ˈɡriːnhaʊs/ - ['বাথ:রুম] <br />
+              <span className="font-bold">bath</span>room - /ˈɡriːnhaʊs/ - ['গ্রিন:হাউচ] <br />
+             
               </p>
-              <p className="pt-">
-                👉 জানতে হবেঃ <br />
-                Unstressed syllable এ vowel এর উচ্চারণ /ə/-[আ]/[অ্য] আবার কখনও æ/ - [অ্যা] হবে। যেমনঃ <br />
-                Police -/pəˈliːs/ - [প্য'লী:স] <br />
-                Ability - /əˈbɪləti/ - [আ'বিলিটি] <br />
-                <br />
-              </p>
+
+              
             </div>
           </div>
         </div>
-        {/* page 32 Stress */}
+
+        {/* page 34 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 32</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 34</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2591,37 +2527,25 @@ const Pronunciation = () => {
           <hr className="border border-gray-400" />
           <div className="">
             <p className="font-bold text-pink-700">
-              Stress (শ্বাসাঘাত/চাপ):
+              Stress Rules:
             </p>
             <div className="text-base">
-              <p className="pt-">
-                ➡️ দুই syllable word যদি Noun অথবা Adjective হয়, তাহলে অধিকাংশ
-                সময় প্রথম syllable এ stress হবে। যেমনঃ <br />
-                Apple -/ˈæpl/ - [অ্যাপল] <br />
-                Leader - /'li:dər/ - [লি:ডার] <br />
-                Danger - /ˈdeɪndʒər/ - [ডেইন:জার] <br />
-              </p>
               <p className="">
-                ➡️ব্যতিক্রমঃ <br />
-                এদেরও বেশ কিছু ব্যতিক্রম আছে মানসম্মত অভিধান দেখে দেখে চর্চা
-                করতে হবে। যেমনঃ <br />
-                {/* Anyone - /ˈeniwʌn/ - [এনীওয়ান] <br /> */}
-                Beautiful - /ˈbjuːtɪfl/- [বিউটিফল্] <br />
+                <h3 className="text-pink-700">Compound Adjectives:</h3>
+              ➡️ Compound Word টি Adjective হলে second-part এ Stress হবে। যেমনঃ <br />
+              <span className="font-bold">well</span>-known - /ˌwel ˈnəʊn/ - ['বাথ:রুম] <br />
+              <span className="font-bold">good</span>-looking - /ˌɡʊd ˈlʊkɪŋ/ - ['গ্রিন:হাউচ] <br />
+             
               </p>
-              <p className="pt-">
-                👉 জানতে হবেঃ <br />
-                Unstressed syllable এ vowel এর উচ্চারণ /ə/-[আ]/[অ্য] আবার কখনও æ/ - [অ্যা] হবে। যেমনঃ <br />
-                Police -/pəˈliːs/ - [প্য'লী:স] <br />
-                Ability - /əˈbɪləti/ - [আ'বিলিটি] <br />
-                <br />
-              </p>
+
+              
             </div>
           </div>
         </div>
-        {/* page 32 Stress */}
+        {/* page 35 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 32</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 35</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2693,6 +2617,75 @@ const Pronunciation = () => {
             <p className="heading2 text-center pt-10">ASM English Academy</p>
           </div>
         </div>
+
+        {/* page 23 Elision */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 23</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="pt-1">
+            <p className="font-bold">Elision (ধ্বনিলোপ): </p>
+            <div className="text-base">
+              <p className="">
+                ইংরেজি দ্রুত বলার আরেকটি মাধ্যম হলো Elision বা ধ্বনিলোপ যেখানে
+                ২টি sound এর মধ্যে যে কোন একটি sound এর অনুচ্চারিত থাকে। <br />
+               <span className="font-bold">Rule: </span> <br />
+                যদি কোন শব্দের শেষ অক্ষর /t/,/d/, /k/থাকে এবং পরবর্তী শব্দের ১ম
+                অক্ষর consonant sound থাকে তাহলে ঐ /t/,/d/, /k/এর উচ্চারণ লোপ
+                পায়, অর্থাৎ উচ্চারিত হয় না। সেক্ষেত্রে /t/,/d/, /k/এর স্থলে একটা
+                ধাক্কা দিয়ে উচ্চারিত হয়। যেমনঃ <br />
+                First boy: <br />
+                Firs'boy - ফার্স + বয় = ফার্সবয় <br />
+                {/* Great poet: <br />
+                Grea'poet - গ্রেই + ফৌইট = গ্রেইফৌইট <br /> */}
+                Second chance: <br />
+                Secon'chance - সেকন চ্যান্স = সেকনচ্যান্স <br />
+                That man: <br />
+                Tha' man - দ্য + ম্যান = দ্যম্যান <br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 24 Elision */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 24</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold py-1">Elision (ধ্বনিলোপ):</p>
+            <div className="text-base">
+              <p className="">
+                আরো মনে রাখতে Schwa (/ǝ/) প্রকৃতপক্ষে জোর দিয়ে উচ্চারণ করা হয়ে
+                থাকে না। যেমনঃ <br />
+                1. Diff(e)rent = /'difrent/ - ডিফরেন্ট = ডিফ্রেন্ট <br />
+                2. Int(e)rest = /'intrest/ - ইন+ট্রেস্ট = ইনট্রেস্ট <br />
+                3. Libr(a)ry = /'laibri/ - লাই+ব্রি = লাইব্রি <br />
+                4. Rest(au)rant = restront/- রেস-ট্রন্ট = রেসট্রন্ট <br />
+                5. Sim(i)lar = /sɪm.ɪ.lər/ সিমিলা = সিমলা <br />
+                6. T(o)night = /T'night/ = ঠ+নাইট = ঠনাইট <br />
+                7. Veg(e)tables = /veg'table/ - ভেজ+টেবল = ভেজটেবল <br />
+                8. Yest(er)day = /yestoday/ - ইয়েস-টডেই = ইয়েসটডেই <br />
+              </p>
+            </div>
+          </div>
+          <h3 className="heading2 text-center pt-5">ASM English Academy</h3>
+        </div>
+
         {/* page 34 Linking */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
