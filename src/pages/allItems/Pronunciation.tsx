@@ -2591,6 +2591,7 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
+
         {/* page 36 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
@@ -2628,6 +2629,7 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
+
         {/* page 37 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
@@ -2642,36 +2644,61 @@ const Pronunciation = () => {
           <hr className="border border-gray-400" />
           <div className="">
             <p className="font-bold text-pink-700">
-              Stress:
+              Stress Rules:
             </p>
             <div className="text-base">
               <h2 className="text-pink-700">Sentence Stress</h2>
               <p className="">
-                ইংরেজিতে Word Stress এর সাথে Sentence Stress ও আবশ্যক। Sentence Stress বলতে বুঝায় বাক্যের মধ্যে ঐ শব্দের উপরে জোর/Stress  দেওয়া যে শব্দটির দ্বার বিশেষ অর্থ প্রকাশ/বহন করাতে চাই।  <br />
-                <span className=" font-bold">👉 Words ending in -tion, -sion, -ical, -ic, -ity:  </span>  এই সাফিক্স গুলোর পূর্বের সিলেবলে  সাধারণত Stress হয়<br />
-                
-                distri<span className="font-bold">bu</span>tion - /ɪmˈplɔɪiː/ - [ইমপ্ল'ই] <br />
-                engin<span className="font-bold">eer</span> - /ˌendʒɪˈnɪə(r)/ - [এঞ্জি'নিয়া(র)] <br />
-                Con<span className="font-bold">clu</span>sion - /ˌdʒæpəˈniːz/ - [জ্যাপ'নিজ] <br />
+                ইংরেজিতে Word Stress এর সাথে Sentence Stress ও আবশ্যক। Sentence Stress বলতে বুঝায় বাক্যের মধ্যে ঐ শব্দের উপরে জোর/Stress  দেওয়া যে শব্দটির দ্বার বিশেষ অর্থ প্রকাশ/বহন করাতে চাই। সাধারণত Content Words ( যেমনঃ Noun, main Verbs, Adjective, and adverbs) stress হয়না। অপরপক্ষে function word (যেমনঃ articles, preposition, auxiliary verbs, and conjunction) unstressed থাকে। যেমনঃ <br />
+                 <span className="font-bold">I </span> <span className="font-bold text-pink-600">want</span> a <span className="font-bold text-pink-600">new car</span>.  <br />
+                <span className=" font-bold">👉 Content Words: </span> want new car. <br />
+                <span className=" font-bold">👉 Function Words: I, a. </span> <br />
+                Emphasis এর কারণে স্ট্রেচ পরিবর্ত হতেও পারে। মানে-. . .
+               
               </p>
-              <p className="">
-                ➡️ব্যতিক্রমঃ <br />
-                এদেরও বেশ কিছু ব্যতিক্রম আছে মানসম্মত অভিধান দেখে দেখে চর্চা
-                করতে হবে। যেমনঃ <br />
-                {/* Anyone - /ˈeniwʌn/ - [এনীওয়ান] <br /> */}
-                Beautiful - /ˈbjuːtɪfl/- [বিউটিফল্] <br />
-              </p>
-              <p className="pt-">
-                👉 জানতে হবেঃ <br />
-                Unstressed syllable এ vowel এর উচ্চারণ /ə/-[আ]/[অ্য] আবার কখনও æ/ - [অ্যা] হবে। যেমনঃ <br />
-                Police -/pəˈliːs/ - [প্য'লী:স] <br />
-                Ability - /əˈbɪləti/ - [আ'বিলিটি] <br />
-                <br />
-              </p>
+              
             </div>
           </div>
         </div>
 
+        {/* page 38 Stress */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 38</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold text-green-700">
+              Stress Rules:
+            </p>
+            <div className="text-base">
+              <h2 className="text-pink-700">Stress Shift for Emphasis</h2>
+              <p className="">
+                Sometimes, stress can shift to indicate the change of meaning or focus within a sentence: <br />
+                1. <span className="font-bold">I </span>didn't say he stole the money. (Someone else said it.) <br />
+                2. I didn't <span className="font-bold">say </span>he stole the money. (I didn't say it; I might have implied it or written it.) <br />
+                3. I didn't say <span className="font-bold">he </span> stole the money. (I said Someone else stole it.) <br />
+                4. I didn't say he <span className="font-bold">stole</span> the money. ( He borrowed it or found it.) <br />
+                
+              </p>
+              <p className="">
+                ➡️ব্যতিক্রমঃ <br />
+                Word কিছু ব্যতিক্রম আছে মানসম্মত অভিধান দেখে দেখে চর্চা
+                করতে হবে। যেমনঃ <br />
+                {/* Anyone - /ˈeniwʌn/ - [এনীওয়ান] <br /> */}
+                Beautiful - /ˈbjuːtɪfl/- [বিউটিফল্] <br />
+              </p>
+              
+            </div>
+            <p className="heading2 text-center pt-10">ASM English Academy</p>
+          </div>
+        </div>
         {/* page 33 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
