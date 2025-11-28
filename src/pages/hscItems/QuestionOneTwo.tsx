@@ -16,7 +16,7 @@ const QuestionOneTwo = () => {
         <Accordion>
           {/* Model question - 1 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 1</AccordionTitle>
+            <AccordionTitle>Model-1: Once upon time</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -211,7 +211,7 @@ const QuestionOneTwo = () => {
           </AccordionPanel>
           {/* Model question - 2 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 2</AccordionTitle>
+            <AccordionTitle>Model-2: AI</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="text-center">
