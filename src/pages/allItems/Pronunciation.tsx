@@ -1820,12 +1820,25 @@ const Pronunciation = () => {
           <div className="">
             <h2 className="font-bold">Verb Contraction</h2>
             <div className="text-base">
-              <p className="">
+              <div className="flex items-center justify-center  gap-2">
+              <div className="w-3/4">
                 Contraction হল Subject + Verb একত্রে উচ্চারণ করা। Spoken English
-                এ এটি গুরুত্বপূর্ণ। 
-                {/* এক্ষেত্রে আমাদের IPA সিম্বলকেই ফলো করতে হবে। */}
-              </p>
-              <div className="overflow-x-auto px-3">
+                এ এটি গুরুত্বপূর্ণ।
+              </div>
+              <div className="flex flex-col items-center justify-center gap-1">
+                  <div className="max-h-fit  p-2 border-2 border-blue-500  rounded-md"> 
+                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/17Nl8-9FrGmAYoJAsuitGCSxyH161Ln6g/view?usp=sharing">
+                    audio-1
+                    </a>
+                  </div>
+                  <div className="max-h-fit  p-2 border-2 border-blue-500  rounded-md"> 
+                    <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/pI__6gL21Co?si=Gz-xV_pVWL1zdNEJ">
+                    audio-2
+                    </a>
+                  </div>
+                </div>
+                </div>
+              {/* <div className="overflow-x-auto px-3">
                 <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
                   <thead className="bg-gray-100">
                     <tr>
@@ -1866,9 +1879,36 @@ const Pronunciation = () => {
                     ))}
                   </tbody>
                 </table>
+              </div> */}
+              <div className="">
+                <p className="">
+                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">Ain't </span>   
+                  <span className="bg-black p-1 text-white font-bold">/eɪnt/</span> = (short form of) am not, is not, are not, have not, has not: <br />
+                  He ain't going
+                </p>
+
+                <p className="pt-2">
+                  <span className="bg-pink-700 p-1 py-1 text-white font-bold">Aren't </span>   
+                  <span className="bg-black p-1 text-white font-bold">/ɑːrnt/; BR- /ɑːnt/</span> = are not: The girls aren't reading attentively.
+                </p>
+                <p className="py-2">
+                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">Aren't </span>   
+                  <span className="bg-black p-1 text-white font-bold">/ɑːrnt/; BR- /ɑːnt/</span> = am not (in tag question?): I'm punctul, aren't I? 
+                </p>
+                <p className="">
+                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">can't </span>   
+                  <span className="bg-black p-1 text-white font-bold">US - //kænt//; BR- /kɑːnt/</span> = can not: You can't say so. 
+                </p>
+                <p className="">
+                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">can't </span>   
+                  <span className="bg-black p-1 text-white font-bold">US - //kænt//; BR- /kɑːnt/</span> = can not: You can't say so. 
+                </p>
+                
               </div>
             </div>
           </div>
+
+          
         </div>
 
         {/* page 21 Verb Contraction */}
