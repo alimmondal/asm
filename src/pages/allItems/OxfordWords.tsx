@@ -154,7 +154,7 @@ const OxfordWords = () => {
               <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center text-center">
                 <div className="w-full h-full bg-[#EFE5D6] text-green-500 flex flex-col items-center justify-center gap-10">
                   <h1 className="text-9xl lg:text-[200px]">📖</h1>
-                  <h1 className="text-3xl font-bold">Second Paper Model book</h1>
+                  <h1 className="text-3xl font-bold">The Oxford 5000 Word list</h1>
                   <p className="mt-2">Welcome! Swipe or click to begin.</p>
                 </div>
               </div>

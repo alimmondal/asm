@@ -2620,18 +2620,18 @@ const Pronunciation = () => {
                 তিন বা তার অধীক Syllables যুক্ত শব্দগুলোতে Stress ব্যাপকভাবে বিভিন্ন রকমের হয়ে থাকে। However, নির্দিস্ট কিছু সাফিক্স স্ট্রেচ দেয়ার জন্য কিছু Clue দেয়:   <br />
                 <span className=" font-bold">👉 Words ending in -tion, -sion, -ical, -ic, -ity:  </span>  এই সাফিক্স গুলোর পূর্বের সিলেবলে  সাধারণত Stress হয়<br />
                 
-                employ<span className="font-bold">ee</span> - /ɪmˈplɔɪiː/ - [ইমপ্ল'ই] <br />
-                engin<span className="font-bold">eer</span> - /ˌendʒɪˈnɪə(r)/ - [এঞ্জি'নিয়া(র)] <br />
-                Japanese<span className="font-bold">nese</span> - /ˌdʒæpəˈniːz/ - [জ্যাপ'নিজ] <br />
+                distri<span className="font-bold">bu</span>tion - /ɪmˈplɔɪiː/ - [ইমপ্ল'ই] <br />
+                Con<span className="font-bold">clu</span>sion - /ˌdʒæpəˈniːz/ - [জ্যাপ'নিজ] <br />
               </p>
+              
               
             </div>
           </div>
         </div>
-        {/* page 35 Stress */}
+        {/* page 37 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 35</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 37</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2642,16 +2642,17 @@ const Pronunciation = () => {
           <hr className="border border-gray-400" />
           <div className="">
             <p className="font-bold text-pink-700">
-              Stress (শ্বাসাঘাত/চাপ):
+              Stress:
             </p>
             <div className="text-base">
-              
-              <p className="pt-">
-                ➡️ দুই syllable word যদি Noun অথবা Adjective হয়, তাহলে অধিকাংশ
-                সময় প্রথম syllable এ stress হবে। যেমনঃ <br />
-                Apple -/ˈæpl/ - [অ্যাপল] <br />
-                Leader - /'li:dər/ - [লি:ডার] <br />
-                Danger - /ˈdeɪndʒər/ - [ডেইন:জার] <br />
+              <h2 className="text-pink-700">Sentence Stress</h2>
+              <p className="">
+                ইংরেজিতে Word Stress এর সাথে Sentence Stress ও আবশ্যক। Sentence Stress বলতে বুঝায় বাক্যের মধ্যে ঐ শব্দের উপরে জোর/Stress  দেওয়া যে শব্দটির দ্বার বিশেষ অর্থ প্রকাশ/বহন করাতে চাই।  <br />
+                <span className=" font-bold">👉 Words ending in -tion, -sion, -ical, -ic, -ity:  </span>  এই সাফিক্স গুলোর পূর্বের সিলেবলে  সাধারণত Stress হয়<br />
+                
+                distri<span className="font-bold">bu</span>tion - /ɪmˈplɔɪiː/ - [ইমপ্ল'ই] <br />
+                engin<span className="font-bold">eer</span> - /ˌendʒɪˈnɪə(r)/ - [এঞ্জি'নিয়া(র)] <br />
+                Con<span className="font-bold">clu</span>sion - /ˌdʒæpəˈniːz/ - [জ্যাপ'নিজ] <br />
               </p>
               <p className="">
                 ➡️ব্যতিক্রমঃ <br />
