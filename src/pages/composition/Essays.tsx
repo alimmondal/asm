@@ -159,17 +159,17 @@ function Essays() {
                 <br />{" "}
                 <div className="">
                   <p className="">
-                    <strong>Answer: </strong>[Name] is a kind of hobby. Hobby
-                    means the activity in leisure like [Name], Leisure means
+                    <strong>Answer: </strong>[TOPIC] is a kind of hobby. Hobby
+                    means the activity in leisure like [TOPIC,TOPIC], Leisure means
                     one’s free time. Everybody tends to have a hobby. It is a
                     work of diversion. When our main occupation become boring
                     and monotonous, we turn to our hobby.
                     <br />
                     [DESCRIPTION]
                     <br />
-                    We can get more pleasure of from [Name]. It serves us both
+                    We can get more pleasure of from [TOPIC]. It serves us both
                     physically and mentally. It is the most advisable exercise
-                    occupation for the aging, youth and the old. [Name] helps
+                    occupation for the aging, youth and the old. [TOPIC] helps
                     keep the mind Jolly and jovial and also refreshes our mind.
                     [TOPIC] is, Therefore, congenial to health. My [TOPIC/
                     hobby] costs me nothing but is a source of pleasure. I like
@@ -180,7 +180,7 @@ function Essays() {
 
                   <p className="py-5">
                     বিশেষ দ্রষ্টব্য: [TOPIC] এর জায়গায় তোমার নির্দিষ্ট
-                    Paragraph এর নাম এবং [DESCRIPTION] এর জায়গায় তোমার
+                    Hoby এর নাম যেমনঃ Gardening/fishing/travelling এবং [DESCRIPTION] এর জায়গায় তোমার
                     নির্দিষ্ট Paragraph এর নাম অনুসারে নিচে থেকে DESCRIPTION
                     লিখে বাকী সব অপরিবর্তিত রাখো। যদি পূর্ণ মার্কস পেতে চাও
                     তাহলে DESCRIPTION লিখবে তা না হলে DESCRIPTION লাগবে না।
@@ -189,10 +189,10 @@ function Essays() {
                   <p className="">
                     One can build this habit if one likes. But it should be an
                     object of leisure time. The people who become accustomed to
-                    [Name] cannot but impressed by it. It turns into a habit of
-                    a man and he cannot but do it. [Name]is also an interesting
+                    [TOPIC] cannot but impressed by it. It turns into a habit of
+                    a man and he cannot but do it. [TOPIC]is also an interesting
                     habit. So one should have thinking for a while before
-                    enjoying [Name] for its greatest enjoyment.
+                    enjoying [TOPIC] for its greatest enjoyment.
                   </p>
                 </div>
                 {/* <p className="mb-4">

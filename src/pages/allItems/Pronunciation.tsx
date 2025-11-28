@@ -1821,22 +1821,8 @@ const Pronunciation = () => {
             <h2 className="font-bold">Verb Contraction</h2>
             <div className="text-base">
               <div className="flex items-center justify-center  gap-2">
-              <div className="w-3/4">
                 Contraction হল Subject + Verb একত্রে উচ্চারণ করা। Spoken English
-                এ এটি গুরুত্বপূর্ণ।
-              </div>
-              <div className="flex flex-col items-center justify-center gap-1">
-                  <div className="max-h-fit  p-2 border-2 border-blue-500  rounded-md"> 
-                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/17Nl8-9FrGmAYoJAsuitGCSxyH161Ln6g/view?usp=sharing">
-                    audio-1
-                    </a>
-                  </div>
-                  <div className="max-h-fit  p-2 border-2 border-blue-500  rounded-md"> 
-                    <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/pI__6gL21Co?si=Gz-xV_pVWL1zdNEJ">
-                    audio-2
-                    </a>
-                  </div>
-                </div>
+                এ এটি গুরুত্বপূর্ণ। Listen to audio for correct pronunciation.
                 </div>
               {/* <div className="overflow-x-auto px-3">
                 <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
@@ -1889,26 +1875,33 @@ const Pronunciation = () => {
 
                 <p className="pt-2">
                   <span className="bg-pink-700 p-1 py-1 text-white font-bold">Aren't </span>   
-                  <span className="bg-black p-1 text-white font-bold">/ɑːrnt/; BR- /ɑːnt/</span> = are not: The girls aren't reading attentively.
+                  <span className="bg-black p-1 text-white font-bold">/ɑːrnt/; UK- /ɑːnt/</span> = are not: The girls aren't reading attentively.
                 </p>
                 <p className="py-2">
                   <span className="bg-pink-700 px-1 py-1 text-white font-bold">Aren't </span>   
-                  <span className="bg-black p-1 text-white font-bold">/ɑːrnt/; BR- /ɑːnt/</span> = am not (in tag question?): I'm punctul, aren't I? 
+                  <span className="bg-black p-1 text-white font-bold">/ɑːrnt/; UK- /ɑːnt/</span> = am not (in tag question?): I'm punctul, aren't I? 
                 </p>
                 <p className="">
                   <span className="bg-pink-700 px-1 py-1 text-white font-bold">can't </span>   
-                  <span className="bg-black p-1 text-white font-bold">US - //kænt//; BR- /kɑːnt/</span> = can not: You can't say so. 
+                  <span className="bg-black p-1 text-white font-bold">US - //kænt//; UK- /kɑːnt/</span> = can not: You can't say so. 
                 </p>
-                <p className="">
-                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">can't </span>   
-                  <span className="bg-black p-1 text-white font-bold">US - //kænt//; BR- /kɑːnt/</span> = can not: You can't say so. 
-                </p>
+                
                 
               </div>
             </div>
+            <div className="flex justify-center gap-3">
+              <div className="max-h-fit  p-2 border-2 border-blue-500  rounded-md"> 
+                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/17Nl8-9FrGmAYoJAsuitGCSxyH161Ln6g/view?usp=sharing">
+                    audio-1
+                    </a>
+                  </div>
+                  <div className="max-h-fit  p-2 border-2 border-blue-500  rounded-md"> 
+                    <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/pI__6gL21Co?si=Gz-xV_pVWL1zdNEJ">
+                    audio-2
+                    </a>
+                </div>
+            </div>
           </div>
-
-          
         </div>
 
         {/* page 21 Verb Contraction */}
@@ -1924,8 +1917,24 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-medium pt-1">Verb Contraction(সংকোচন): </p>
-            <div className="text-base">
+                <p className="font-medium pt-1">Verb Contraction(সংকোচন): </p>
+                <p className="">
+                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">can't </span>   
+                  <span className="bg-black p-1 text-white font-bold">US- //kænt//; UK- /kɑːnt/</span> = can not: You can't say so. 
+                </p>
+                <p className="">
+                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">couldn't </span>   
+                  <span className="bg-black p-1 text-white font-bold">/ˈkʊd.ənt/</span> = could not: She couldn't left her job! 
+                </p>
+                <p className="">
+                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">could've </span>   
+                  <span className="bg-black p-1 text-white font-bold">/ˈkʊd.əv/</span> = could have: If she came, I could've gone. 
+                </p>
+                <p className="">
+                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">C'mon </span>   
+                  <span className="bg-black p-1 text-white font-bold"> UK- /kəˈmɒn; US- /kəˈmɑːn/</span> = come on: C'mon! I see you are OK. 
+                </p>
+            {/* <div className="text-base">
               <div className="overflow-x-auto p-1 px-3">
                 <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
                   <thead className="bg-gray-100">
@@ -1969,7 +1978,7 @@ const Pronunciation = () => {
                   </tbody>
                 </table>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
