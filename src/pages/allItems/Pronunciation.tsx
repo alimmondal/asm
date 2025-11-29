@@ -90,7 +90,7 @@ const Pronunciation = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center py-4 md:py-10 px-5 overflow-hidden text-justify">
+    <div className="flex flex-col items-center justify-center gap-8 py-10 md:py-10 px-5 overflow-hidden text-justify">
       <FlipBook
         width={isPortrait ? 400 : 500} // smaller width for portrait
         height={isPortrait ? 600 : 300} // taller height for portrait
@@ -136,9 +136,13 @@ const Pronunciation = () => {
         >
           <div className="absolute top-1/4 left-[18%] sm:left-[27%] sm:top-[30%]  md:top-[12%] md:left-[20%] lg:top-[10%] lg:left-[25%] xl:left-[30%] 2xl:left-[35%] 2xl:top-[25%] px-5">
             <div className="">
+              <h2 className="text-green-500 text-3xl text-center">
+                উচ্চারণ
+              </h2>
               <h1 className="text-9xl md:text-5xl lg:text-9xl text-center mb-3">
                 📖
               </h1>
+              
               <h2 className="text-green-500 text-3xl text-center">
                 Pronunciation
               </h2>
@@ -1824,7 +1828,9 @@ const Pronunciation = () => {
                 Contraction হল Subject + Verb একত্রে উচ্চারণ করা। Spoken English
                 এ এটি গুরুত্বপূর্ণ। Listen to audio for correct pronunciation.
                 </div>
-              {/* <div className="overflow-x-auto px-3">
+                {/* table */}
+                <div className="">
+                   {/* <div className="overflow-x-auto px-3">
                 <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
                   <thead className="bg-gray-100">
                     <tr>
@@ -1866,24 +1872,26 @@ const Pronunciation = () => {
                   </tbody>
                 </table>
               </div> */}
-              <div className="">
+                </div>
+             
+              <div className="pt-2">
                 <p className="">
                   <span className="bg-pink-700 px-1 py-1 text-white font-bold">Ain't </span>   
-                  <span className="bg-black p-1 text-white font-bold">/eɪnt/</span> = (short form of) am not, is not, are not, have not, has not: <br />
-                  He ain't going
+                  <span className="bg-black p-1 text-white font-bold">/eɪnt/</span> = (short form of) <strong>am not, is not, are not, have not, has not: </strong> <br />
+                  He ain't going!
                 </p>
 
-                <p className="pt-2">
+                <p className="">
                   <span className="bg-pink-700 p-1 py-1 text-white font-bold">Aren't </span>   
-                  <span className="bg-black p-1 text-white font-bold">/ɑːrnt/; UK- /ɑːnt/</span> = are not: The girls aren't reading attentively.
+                  <span className="bg-black p-1 text-white font-bold">/ɑːrnt/; UK- /ɑːnt/</span> = <strong>are not:</strong>  The girls aren't reading attentively.
                 </p>
                 <p className="py-2">
                   <span className="bg-pink-700 px-1 py-1 text-white font-bold">Aren't </span>   
-                  <span className="bg-black p-1 text-white font-bold">/ɑːrnt/; UK- /ɑːnt/</span> = am not (in tag question?): I'm punctul, aren't I? 
+                  <span className="bg-black p-1 text-white font-bold">/ɑːrnt/; UK- /ɑːnt/</span> = <strong>am not </strong> (in tag question?): I'm punctul, aren't I? 
                 </p>
                 <p className="">
                   <span className="bg-pink-700 px-1 py-1 text-white font-bold">can't </span>   
-                  <span className="bg-black p-1 text-white font-bold">US - //kænt//; UK- /kɑːnt/</span> = can not: You can't say so. 
+                  <span className="bg-black p-1 text-white font-bold">US - //kænt//; UK- /kɑːnt/</span> = <strong>can not: </strong> You can't say so. 
                 </p>
                 
                 
@@ -1907,7 +1915,7 @@ const Pronunciation = () => {
         {/* page 21 Verb Contraction */}
         <div className="p-2 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-xl font-bold ">Page 21</h2>
+            <p className="text-xl font-bold ">Page 21</p>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1916,69 +1924,95 @@ const Pronunciation = () => {
             </button>
           </div>
           <hr className="border border-gray-400" />
-          <div className="">
-                <p className="font-medium pt-1">Verb Contraction(সংকোচন): </p>
+          <div className="text-base">
+                <h2 className="font-medium py-1">Verb Contraction: </h2>
+                {/* can't */}
                 <p className="">
                   <span className="bg-pink-700 px-1 py-1 text-white font-bold">can't </span>   
-                  <span className="bg-black p-1 text-white font-bold">US- //kænt//; UK- /kɑːnt/</span> = can not: You can't say so. 
+                  <span className="bg-black p-1 text-white font-bold">US- //kænt//; UK- /kɑːnt/</span> = <strong>can not:</strong>  You can't say so. 
                 </p>
+                {/* couoldn't */}
                 <p className="">
                   <span className="bg-pink-700 px-1 py-1 text-white font-bold">couldn't </span>   
-                  <span className="bg-black p-1 text-white font-bold">/ˈkʊd.ənt/</span> = could not: She couldn't left her job! 
+                  <span className="bg-black p-1 text-white font-bold">/ˈkʊd.ənt/</span> = <strong>could not:</strong>  She couldn't left her job! 
                 </p>
+                {/* could've
+                 */}
                 <p className="">
                   <span className="bg-pink-700 px-1 py-1 text-white font-bold">could've </span>   
-                  <span className="bg-black p-1 text-white font-bold">/ˈkʊd.əv/</span> = could have: If she came, I could've gone. 
+                  <span className="bg-black p-1 text-white font-bold">/ˈkʊd.əv/</span> = <strong>could have:</strong>  If she came, I could've gone. 
+                </p>
+                {/* don't 
+                */}
+                <p className="">
+                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">Don't </span>   
+                  <span className="bg-black p-1 text-white font-bold"> /dəʊnt/</span> = <strong>do not: </strong> Don't wory, let's start home work. 
+                </p>
+                {/* Dunno */}
+                
+                <p className="">
+                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">Dunno </span>   
+                  <span className="bg-black p-1 text-white font-bold"> UK- /dəˈnəʊ/; US- /dəˈnoʊ/</span> = <strong> I do not know: </strong>  I dunno, Where is your sister?. 
                 </p>
                 <p className="">
+                  
                   <span className="bg-pink-700 px-1 py-1 text-white font-bold">C'mon </span>   
-                  <span className="bg-black p-1 text-white font-bold"> UK- /kəˈmɒn; US- /kəˈmɑːn/</span> = come on: C'mon! I see you are OK. 
+                  <span className="bg-black p-1 text-white font-bold"> UK- /kəˈmɒn; US- /kəˈmɑːn/</span> = <span className="font-bold">do not:</span> C'mon! I see you are OK. 
                 </p>
-            {/* <div className="text-base">
-              <div className="overflow-x-auto p-1 px-3">
-                <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
-                  <thead className="bg-gray-100">
-                    <tr>
-                      <th className="border border-gray-300 px-1 py-1 font-bold">
-                        Short form
-                      </th>
-                      <th className="border border-gray-300 px-1 py-1 font-bold">
-                        IPA
-                      </th>
-                      <th className="border border-gray-300 px-1 py-1 font-bold">
-                        উচ্চারণ
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {[
-                      ["You’re", "/jʊə/", "ইউআ"],
-                      ["You’ve", "/juːv/", "ইউভ"],
-                      ["You’d", "/juːd/", "ইউড"],
-                      ["Don’t", "/dəʊnt/", "ডোন্ট"],
-                      ["Doesn’t", "/dʌznt/", "ডাজন্"],
-                      ["Didn’t", "/dɪdnt/", "ডিডন্"],
-                      ["Shouldn’t", "/ˈʃʊdnt/", "শুডন্"],
-                      ["Won’t", "/wəʊnt/", "উওন্"],
-                      ["Wouldn’t", "/wʊdnt/", "উডন্"],
-                      
-                    ].map(([shortForm, ipa, bangla], index) => (
-                      <tr key={index} className="hover:bg-gray-50">
-                        <td className="border border-gray-300 px-1 py-1">
-                          {shortForm}
-                        </td>
-                        <td className="border border-gray-300 px-1 py-1">
-                          {ipa}
-                        </td>
-                        <td className="border border-gray-300 px-1 py-1">
-                          {bangla}
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </div> */}
+                <div className="max-w-fit px-2  py-1 border-2 border-blue-500  rounded-md"> 
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@BBCNews">
+                    BBC NEWs
+                    </a>
+                  </div>
+                  {/* table */}
+                <div className="">
+                          {/* <div className="text-base">
+                      <div className="overflow-x-auto p-1 px-3">
+                        <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
+                          <thead className="bg-gray-100">
+                            <tr>
+                              <th className="border border-gray-300 px-1 py-1 font-bold">
+                                Short form
+                              </th>
+                              <th className="border border-gray-300 px-1 py-1 font-bold">
+                                IPA
+                              </th>
+                              <th className="border border-gray-300 px-1 py-1 font-bold">
+                                উচ্চারণ
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {[
+                              ["You’re", "/jʊə/", "ইউআ"],
+                              ["You’ve", "/juːv/", "ইউভ"],
+                              ["You’d", "/juːd/", "ইউড"],
+                              ["Don’t", "/dəʊnt/", "ডোন্ট"],
+                              ["Doesn’t", "/dʌznt/", "ডাজন্"],
+                              ["Didn’t", "/dɪdnt/", "ডিডন্"],
+                              ["Shouldn’t", "/ˈʃʊdnt/", "শুডন্"],
+                              ["Won’t", "/wəʊnt/", "উওন্"],
+                              ["Wouldn’t", "/wʊdnt/", "উডন্"],
+                              
+                            ].map(([shortForm, ipa, bangla], index) => (
+                              <tr key={index} className="hover:bg-gray-50">
+                                <td className="border border-gray-300 px-1 py-1">
+                                  {shortForm}
+                                </td>
+                                <td className="border border-gray-300 px-1 py-1">
+                                  {ipa}
+                                </td>
+                                <td className="border border-gray-300 px-1 py-1">
+                                  {bangla}
+                                </td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    </div> */}
+                </div>
+            
           </div>
         </div>
 
@@ -1995,9 +2029,65 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <h3 className="font-bold">Contraction(সংকোচন): </h3>
+            <h3 className="font-bold">Contraction: </h3>
+            
+            <div className="">
+          <div className="">
+            {/* item */}
+            <div>
+              <div className="flex items-center space-x-1">
+                <span className="bg-red-600 text-white px-2 py-1 rounded">'d</span>
+                <span className="bg-gray-800 text-white px-2 py-1 rounded">/əd/</span>
+                <span className="text-black font-bold"> = would:</span>
+              </div>
+              <p className="italic text-black ml-2 mt-1">I asked if she'd like to come tonight.</p>
+            </div>
 
-            <div className="text-base">
+            {/* item */}
+            <div>
+              <div className="flex items-center space-x-1">
+                <span className="bg-red-600 text-white px-2 py-1 rounded">’d</span>
+                <span className="bg-gray-800 text-white px-2 py-1 rounded">/əd/</span>
+                <span className="text-black font-bold"> = had:</span>
+              </div>
+              <p className="italic text-black ml-2 mt-1">If you'd told me what was wrong I could have helped.</p>
+            </div>
+
+            {/* item */}
+            <div>
+              <div className="flex items-center space-x-1">
+                <span className="bg-red-600 text-white px-2 py-1 rounded">Daren’t</span>
+                <span className="bg-gray-800 text-white px-2 py-1 rounded">/deənt/</span>
+                <span className="text-black font-bold"> = dare(s) not:</span>
+              </div>
+              <p className="italic text-black ml-2 mt-1">If you'd told me what was wrong I could have helped.</p>
+            </div>
+
+            {/* item */}
+            <div>
+              <div className="flex items-center space-x-1">
+                <span className="bg-red-600 text-white px-2 py-1 rounded">Didn't</span>
+                <span className="bg-gray-800 text-white px-2 py-1 rounded">/dɪdənt/</span>
+                <span className="text-black font-bold"> = did not:</span>
+              </div>
+              <p className="italic text-black ml-2 mt-1">We didn't arrive at our hotel until after midnight.</p>
+            </div>
+
+            {/* item */}
+            <div>
+              <div className="flex items-center space-x-1">
+                <span className="bg-red-600 text-white px-2 py-1 rounded">Doesn’t</span>
+                <span className="bg-gray-800 text-white px-2 py-1 rounded">/dʌznt/</span>
+                <span className="text-black font-bold"> = does not:</span>
+              </div>
+              <p className="italic text-black ml-2 mt-1">Doesn't she look lovely in that hat?</p>
+            </div>
+
+
+          </div>
+          </div>
+
+            {/* <div className="text-base">
               <div className="overflow-x-auto p-1">
                 <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
                   <thead className="bg-gray-100">
@@ -2042,13 +2132,14 @@ const Pronunciation = () => {
                 </table>
               </div>
               
-            </div>
+            </div> */}
           </div>
         </div>
-        {/* page 22 Verb Contraction */}
+
+        {/* page 23 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 22</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 23</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2061,7 +2152,69 @@ const Pronunciation = () => {
             <h3 className="font-bold">Contraction(সংকোচন): </h3>
 
             <div className="text-base">
-              <div className="overflow-x-auto p-1">
+               {/* It has */}
+                <div>
+                  <div className="flex items-center space-x-1">
+                    <span className="bg-red-600 text-white px-2 py-1 rounded">It's </span>
+                    <span className="bg-gray-800 text-white px-2 py-1 rounded">//ɪts//</span>
+                    <span className="text-black font-bold">it has:</span>
+                  </div>
+                  <p className="italic text-black ml-2 mt-1">Don't do that – it hurts!</p>
+                </div>
+
+                {/* it is: */}
+                <div>
+                    <div className="">
+                      <div className="flex items-center space-x-1">
+                      <span className="bg-red-600 text-white px-2 py-1 rounded">It's </span>
+                      <span className="bg-gray-800 text-white px-2 py-1 rounded">/ɪts/</span>
+                      <span className="text-black font-bold"> = it is:</span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                      It’s my turn to do it.
+                    </p>
+                  </div>
+                  
+                </div>
+
+                {/* D’you */}
+                <div className="">
+                  <div className="flex items-center space-x-1">
+                    <span className="bg-red-600 text-white px-2 py-1 rounded">D’you</span>
+                    <span className="bg-gray-800 text-white px-2 py-1 rounded">/djuː/</span>
+                    <span className="text-black font-bold"> = do you:</span>
+                  </div>
+                  <p className="italic text-black ml-2 mt-1">D’you come here often?</p>
+                </div>
+                {/* 've /əv/ */}
+                 <div>
+                  <div className="flex items-center space-x-1">
+                    <span className="bg-red-600 text-white px-2 py-1 rounded">I've</span>
+                    <span className="bg-gray-800 text-white px-2 py-1 rounded">/əv/</span>
+                    <span className="text-black font-bold"> = I have:</span>
+                  </div>
+                  <p className="italic text-black ml-2 mt-1">
+                    I've been waiting for an hour already.
+                  </p>
+                </div> 
+
+              {/* 'll /ɪl/ */}
+                 <div>
+                  <div className="flex items-center space-x-1">
+                    <span className="bg-red-600 text-white px-2 py-1 rounded">'ll </span>
+                    <span className="bg-gray-800 text-white px-2 py-1 rounded">/ɪl/</span>
+                    <span className="text-black font-bold"> = will:</span>
+                  </div>
+                  <p className="italic text-black ml-2 mt-1">
+                    I'll see you next week.
+                  </p>
+                </div> 
+                <div>
+              </div>
+
+
+            <div className="">
+              {/* <div className="overflow-x-auto p-1">
                 <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
                   <thead className="bg-gray-100">
                     <tr>
@@ -2097,12 +2250,78 @@ const Pronunciation = () => {
                     ))}
                   </tbody>
                 </table>
-              </div>
-              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/5kPS12voEN0?si=QnQo7a0lRBSFvZKZ">click here to listen to video</a>
+              </div> */}
+            </div>
+              
+              <div className="max-w-fit mx-auto p-1 text-center border-2 border-blue-500 mt-1 rounded-md"> 
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/5kPS12voEN0?si=QnQo7a0lRBSFvZKZ">Contraction video</a>
             </div>
             </div>
-            <h3 className="heading2 text-center pt-2">ASM English Academy</h3>
+            {/* <h3 className="heading2 text-center pt-2">ASM English Academy</h3> */}
+          </div>
+        </div>
+
+        {/* page 24 Verb Contraction */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 24</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold">Contraction: </h3>
+                <div className="">
+                  {/* 'm /əm/ */}
+                  <div>
+                    <div className="flex items-center space-x-1">
+                      <span className="bg-red-600 text-white px-2 py-1 rounded">'m </span>
+                      <span className="bg-gray-800 text-white px-2 py-1 rounded">/əm/</span>
+                      <span className="text-black font-bold"> = am (used in spoken): </span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                      I'm sorry I'm late.
+                    </p>
+                  </div>
+                  {/* May've /ˈmeɪəv/ */}
+                  <div>
+                    <div className="flex items-center space-x-1">
+                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">May've </span>
+                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈmeɪəv/</span>
+                      <span className="text-black font-bold"> = may have:</span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                      He may've done this to her.
+                    </p>
+                  </div>
+
+                </div>
+                
+
+                  <p>
+                    <span className="font-bold"></span> short form of <br />
+                    
+                  </p>
+
+                  <p>
+                    <span className="font-bold">Mightn't /ˈmaɪtənt/</span> short form of might not:<br />
+                    Don’t panic – it mightn’t be true.
+                  </p>
+
+                  <p>
+                    <span className="font-bold">Might've /ˈmaɪtəv/</span> short form of might have:<br />
+                    She might've taken it with her to read on the train.
+                  </p>
+
+                  <p>
+                    <span className="font-bold">Mustn't /ˈmʌsənt/</span> short form of must not:<br />
+                    You mustn't worry too much about this.
+                  </p>
+            
           </div>
         </div>
 
@@ -2291,10 +2510,10 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-500 pt-1">
+            <p className="font-bold text-green-500">
               Unvoiced Sound + S:
             </p>
-            <div className="pt-3">
+            <div className="pt-">
                     <table className="table-auto border-collapse border border-gray-300 shadow-2xl w-full text-center py-5">
                       <tbody>
                         {[
@@ -2336,7 +2555,7 @@ const Pronunciation = () => {
                   কিন্তু যদি (ed)- এর পূর্বে /t-ট/ অথবা /d-ড/ থাকে তাহলে 'ed' এর
                   উচ্চারণ/id/ অর্থাৎ 'ইড'-এর মত হবে।
                 </p>
-                <div className="pt-3">
+                <div className="">
                   <table className="table-auto border-collapse border border-gray-300 shadow-2xl w-full text-center py-5">
                     <tbody>
                       {[
@@ -2659,7 +2878,7 @@ const Pronunciation = () => {
             </p>
             <div className="text-base">
               <p className="">
-                <span className=" font-bold">👉 যে সাফিক্স গুলো Stress পরিবর্ত(attract) করে:</span> -ee, -eer, -ese, -ique, -esque <br />
+                <span className=" font-bold">👉যে সাফিক্স গুলোতে  Stress হয়/ কর</span> -ee, -eer, -ese, -ique, -esque <br />
                 
                 employ<span className="font-bold">ee</span> - /ɪmˈplɔɪiː/ - [ইমপ্ল'ই] <br />
                 engin<span className="font-bold">eer</span> - /ˌendʒɪˈnɪə(r)/ - [এঞ্জি'নিয়া(র)] <br />
@@ -2668,10 +2887,10 @@ const Pronunciation = () => {
               <h2 className="text-green-700">Multi-syllable Words</h2>
               <p className="">
                 তিন বা তার অধীক Syllables যুক্ত শব্দগুলোতে Stress ব্যাপকভাবে বিভিন্ন রকমের হয়ে থাকে। However, নির্দিস্ট কিছু সাফিক্স স্ট্রেচ দেয়ার জন্য কিছু Clue দেয়:   <br />
-                <span className=" font-bold">👉 Words ending in -tion, -sion, -ical, -ic, -ity:  </span>  এই সাফিক্স গুলোর পূর্বের সিলেবলে  সাধারণত Stress হয়<br />
+                <span className=" font-bold">👉Words ending in -tion, -sion, -ical, -ic, -ity:  </span>  এই সাফিক্স গুলোর পূর্বের সিলেবলে  সাধারণত Stress হয়<br />
                 
-                distri<span className="font-bold">bu</span>tion - /ɪmˈplɔɪiː/ - [ইমপ্ল'ই] <br />
-                Con<span className="font-bold">clu</span>sion - /ˌdʒæpəˈniːz/ - [জ্যাপ'নিজ] <br />
+                distri<span className="font-bold">bu</span>tion - /ˌdɪstrɪˈbjuːʃn/ - [ডিচট্রি'বিউঃসন] <br />
+                Con<span className="font-bold">clu</span>sion - /kənˈkluːʒn// - [কন'ক্লুঃজন] <br />
               </p>
               
               
@@ -4154,7 +4373,140 @@ const Pronunciation = () => {
           ))}
         </div>
       </div>
+
+      <div className="">
+        <div className="">
+      {/* item */}
+      <div>
+        <div className="flex items-center space-x-1">
+          <span className="bg-red-600 text-white px-2 py-1 rounded">'d</span>
+          <span className="bg-gray-800 text-white px-2 py-1 rounded">/dəd/</span>
+          <span className="text-black">short form of would:</span>
+        </div>
+        <p className="italic text-black ml-2 mt-1">I asked if she'd like to come tonight.</p>
+      </div>
+
+      {/* item */}
+      <div>
+        <div className="flex items-center space-x-1">
+          <span className="bg-red-600 text-white px-2 py-1 rounded">’d</span>
+          <span className="bg-gray-800 text-white px-2 py-1 rounded">/dəd/</span>
+          <span className="text-black">short form of had:</span>
+        </div>
+        <p className="italic text-black ml-2 mt-1">If you'd told me what was wrong I could have helped.</p>
+      </div>
+
+      {/* item */}
+      <div>
+        <div className="flex items-center space-x-1">
+          <span className="bg-red-600 text-white px-2 py-1 rounded">Daren’t</span>
+          <span className="bg-gray-800 text-white px-2 py-1 rounded">/deənt/</span>
+          <span className="text-black">short form of dare(s) not:</span>
+        </div>
+      </div>
+
+      {/* item */}
+      <div>
+        <div className="flex items-center space-x-1">
+          <span className="bg-red-600 text-white px-2 py-1 rounded">Didn't</span>
+          <span className="bg-gray-800 text-white px-2 py-1 rounded">/dɪdənt/</span>
+          <span className="text-black">short form of did not:</span>
+        </div>
+        <p className="italic text-black ml-2 mt-1">We didn't arrive at our hotel until after midnight.</p>
+      </div>
+
+      {/* item */}
+      <div>
+        <div className="flex items-center space-x-1">
+          <span className="bg-red-600 text-white px-2 py-1 rounded">Doesn’t</span>
+          <span className="bg-gray-800 text-white px-2 py-1 rounded">/dʌznt/</span>
+          <span className="text-black">does not:</span>
+        </div>
+        <p className="italic text-black ml-2 mt-1">Doesn't she look lovely in that hat?</p>
+      </div>
+
+      {/* item */}
+      <div>
+        <div className="flex items-center space-x-1">
+          <span className="bg-red-600 text-white px-2 py-1 rounded">Don’t</span>
+          <span className="bg-gray-800 text-white px-2 py-1 rounded">/dəʊnt/</span>
+          <span className="text-black">of do not:</span>
+        </div>
+        <p className="italic text-black ml-2 mt-1">Don't do that – it hurts!</p>
+      </div>
+
+      {/* item */}
+      <div>
+        <div className="flex items-center space-x-1">
+          <span className="bg-red-600 text-white px-2 py-1 rounded">Dunno</span>
+          <span className="bg-gray-800 text-white px-2 py-1 rounded">/dəˈnəʊ/</span>
+          <span className="text-black">I don't know:</span>
+        </div>
+        <p className="italic text-black ml-2 mt-1">
+          “Where are we exactly?” “Dunno.”
+        </p>
+      </div>
+
+      {/* item */}
+      <div>
+        <div className="flex items-center space-x-1">
+          <span className="bg-red-600 text-white px-2 py-1 rounded">D’you</span>
+          <span className="bg-gray-800 text-white px-2 py-1 rounded">/djuː/</span>
+          <span className="text-black">short form of do you:</span>
+        </div>
+        <p className="italic text-black ml-2 mt-1">D’you come here often?</p>
     </div>
+    
+
+
+          </div>
+          </div>
+
+
+
+          <div className="space-y-4 text-sm leading-relaxed">
+
+                  
+
+                  
+
+                  <p>
+                    <span className="font-bold">Needn't /ˈniːdənt/</span> short form of need not:<br />
+                    You needn't come until later.
+                  </p>
+
+                  <p>
+                    <span className="font-bold">'n't /-ənt/</span> short form of not:<br />
+                    Didn’t – I didn’t get anything.<br />
+                    Mustn’t – You mustn’t do this.
+                  </p>
+
+                  <p>
+                    <span className="font-bold">O’er /ɔːə/</span> short form of over:<br />
+                    O’er land and sea they sped.
+                  </p>
+
+                  <p>
+                    <span className="font-bold">Oughtn't /ˈɔːtnt/</span> short form of ought not:<br />
+                    He oughtn't to do that.
+                  </p>
+
+                  <p>
+                    <span className="font-bold">’Re /ər/</span> short form of are:<br />
+                    You’re late.
+                  </p>
+
+                  <p>
+                    <span className="font-bold">’S /-s/ /-z/</span> short form of is:<br />
+                    It’s in the cupboard.
+                  </p>
+
+              </div>
+
+
+
+
+        </div>
   );
 };
 
