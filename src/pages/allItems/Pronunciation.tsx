@@ -2029,9 +2029,9 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <h3 className="font-bold">Contraction: </h3>
+            <h3 className="font-bold">Verb Contraction: </h3>
             
-            <div className="">
+        <div className="text-base">
           <div className="">
             {/* item */}
             <div>
@@ -2133,6 +2133,280 @@ const Pronunciation = () => {
               </div>
               
             </div> */}
+          </div>
+        </div>
+
+
+        {/* page 23 Verb Contraction */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 23</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold">Contraction: </h3>
+                <div className="">
+                  {/* Gotta */}
+                  <div>
+                    <div className="flex items-center space-x-1">
+                      <span className="bg-red-600 text-white px-2 py-1 rounded">Gotta </span>
+                      <span className="bg-gray-800 text-white px-2 py-1 rounded">/ˈɡɒtə/</span>
+                      <span className="text-black font-bold">=‘have got to’/‘have got a’: </span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                      I gotta go now.<br />
+                      He’s gotta be kidding.<br />
+                      Gotta (= have you got a) cigarette?
+                    </p>
+                  </div>
+
+                  {/* Hadn’t */}
+                  <div>
+                    <div className="flex items-center space-x-1">
+                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">Hadn’t </span>
+                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈhæd.ənt/</span>
+                      <span className="text-black font-bold"> =  had not:</span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                      If you hadn't told him he would never have known.
+                    </p>
+                  </div>
+
+                  {/* Hadn’t */}
+                  <div>
+                    <div className="flex items-center space-x-1">
+                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">Hadn’t </span>
+                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈhæd.ənt/</span>
+                      <span className="text-black font-bold"> =  had not:</span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                      If you hadn't told him he would never have known.
+                    </p>
+                  </div>
+
+                  {/* Hasn’t */}
+                  <div>
+                    <div className="flex items-center space-x-1">
+                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">Hasn’t </span>
+                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈhæzənt/</span> 
+                      <span className="text-black font-bold"> = has not:</span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                      Hasn't he grown!
+                    </p>
+                  </div>
+
+                </div>                
+                  
+            
+          </div>
+        </div>
+
+        {/* page 24 Verb Contraction */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 24</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold">Contraction: </h3>
+            <div className="">
+                  
+              {/* Haven’t  */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">Haven’t </span>
+                   <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈhævənt/</span>
+                  <span className="text-black font-bold"> = may have:</span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                      He may've done this to her.
+                </p>
+              </div>
+                  
+              {/* He’d  */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">He’d </span>
+                   <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/hiːd/</span>
+                  <span className="text-black font-bold"> = he had:</span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                      He’d already spent all his money by the second day of the trip.
+                </p>
+              </div>
+              <p>
+                <span className="font-bold">He’d /hiːd/</span> short form of he would:<br />
+                He’d be able to do it, if anyone could.
+              </p>
+
+              <p>
+                <span className="font-bold">He’ll /hiːl/</span> short form of he will:<br />
+                He’ll be there, don't worry.
+              </p>
+
+              <p>
+                <span className="font-bold">He’s /hiːz/</span> short form of he is:<br />
+                He’s a great guy.
+              </p>
+            </div>
+              
+            
+          </div>
+        </div>
+
+        {/* page 25 Verb Contraction */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 25</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold">Contraction: </h3>
+                <div className="">
+                  {/* 'm /əm/ */}
+                  <div>
+                    <div className="flex items-center space-x-1">
+                      <span className="bg-red-600 text-white px-2 py-1 rounded">'m </span>
+                      <span className="bg-gray-800 text-white px-2 py-1 rounded">/əm/</span>
+                      <span className="text-black font-bold"> = am (used in spoken): </span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                      I'm sorry I'm late.
+                    </p>
+                  </div>
+                  {/* May've /ˈmeɪəv/ */}
+                  <div>
+                    <div className="flex items-center space-x-1">
+                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">May've </span>
+                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈmeɪəv/</span>
+                      <span className="text-black font-bold"> = may have:</span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                      He may've done this to her.
+                    </p>
+                  </div>
+
+                </div>
+                <div className="space-y-4 text-sm leading-relaxed">
+
+                <p>
+                  <span className="font-bold">'em /əm/</span> short form of them:<br />
+                  Tell 'em to go away.
+                </p>
+
+                <p>
+                  <span className="font-bold">He’s /hiːz/</span> short form of he has:<br />
+                  He’s just bought a new digital camera.
+                </p>
+
+                <p>
+                  <span className="font-bold">I’d /aɪd/</span> short form of I had:<br />
+                  I'd just got in the bath when the phone rang.
+                </p>
+
+                <p>
+                  <span className="font-bold">I’d /aɪd/</span> short form of I would:<br />
+                  Of course I'd love to see you.
+                </p>
+
+                <p>
+                  <span className="font-bold">I’m /aɪm/</span> short form of I am:<br />
+                  I'm so happy for you!
+                </p>
+              </div>
+
+                  
+            
+          </div>
+        </div>
+
+        {/* page 26 Verb Contraction */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 26</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold">Contraction: </h3>
+                <div className="">
+                  {/* 'm /əm/ */}
+                  <div>
+                    <div className="flex items-center space-x-1">
+                      <span className="bg-red-600 text-white px-2 py-1 rounded">'m </span>
+                      <span className="bg-gray-800 text-white px-2 py-1 rounded">/əm/</span>
+                      <span className="text-black font-bold"> = am (used in spoken): </span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                      I'm sorry I'm late.
+                    </p>
+                  </div>
+                  {/* May've /ˈmeɪəv/ */}
+                  <div>
+                    <div className="flex items-center space-x-1">
+                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">May've </span>
+                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈmeɪəv/</span>
+                      <span className="text-black font-bold"> = may have:</span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                      He may've done this to her.
+                    </p>
+                  </div>
+
+                </div>
+                
+                <p>
+                <span className="font-bold">Innit /ˈɪnɪt/</span> short form of isn’t it.<br />
+                Used in a non-standard way at the end of a statement for emphasis:<br />
+                "It’s wrong, innit?"<br />
+                "They’re such a wicked band, innit?"
+              </p>
+
+              <p>
+                <span className="font-bold">Isn't /ˈɪz.ənt/</span> short form of is not:<br />
+                He isn't coming until tomorrow.
+              </p>
+
+              <p>
+                <span className="font-bold">It’d /ˈɪtəd/</span> short form of it would:<br />
+                It’d be better if we finished it off today.
+              </p>
+
+              <p>
+                <span className="font-bold">It’d /ˈɪtəd/</span> short form of it had:<br />
+                I found the radio – it’d been left in the shed all weekend.
+              </p>
+
+              <p>
+                <span className="font-bold">It’ll /ˈɪtəl/</span> short form of it will:<br />
+                It'll be hard to find someone to help.
+              </p>
+                  
+            
           </div>
         </div>
 
@@ -2274,7 +2548,7 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="text-base">
-            <h3 className="font-bold">Contraction: </h3>
+            <h3 className="font-bold pb-2">Verb Contraction: </h3>
                 <div className="">
                   {/* 'm /əm/ */}
                   <div>
@@ -2298,32 +2572,127 @@ const Pronunciation = () => {
                       He may've done this to her.
                     </p>
                   </div>
+                  {/* Mightn't /ˈmaɪtənt/ */}
+                  <div>
+                    <div className="flex items-center space-x-1">
+                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">Mightn't  </span>
+                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈmaɪtənt/</span>
+                      <span className="text-black font-bold"> = might not:</span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                      Don’t panic – it mightn’t be true.
+                    </p>
+                  </div>
+                  
+                  {/* Might've */}
+                  <div>
+                    <div className="flex items-center space-x-1">
+                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">Might've  </span>
+                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈmaɪtəv/</span>
+                      <span className="text-black font-bold"> = might have:</span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                      Don’t panic – it mightn’t be true.
+                    </p>
+                  </div>
+
+                  {/* Mustn't */}
+                  <div>
+                    <div className="flex items-center space-x-1">
+                      <span className="font- bg-red-600 text-white px-2 py-1 rounded">Mustn't  </span>
+                      <span className="font- bg-gray-800 text-white px-2 py-1 rounded">/ˈmʌsənt/</span>
+                      <span className="text-black font-bold"> = must not: </span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                       You mustn't worry too much about this.
+                    </p>
+                  </div>
 
                 </div>
-                
+                <h2 className="text-green-500"> please, watch the for correct sound!</h2> 
+            
+          </div>
+        </div>
+
+        {/* page 25 Verb Contraction */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 25</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold pb-2">Verb - Contractions: </h3>
+                <div className="">
+                  {/* Needn't */}
+                  <div>
+                    <div className="flex items-center space-x-1">
+                      <span className="bg-red-600 text-white px-2 py-1 rounded">Needn't</span>
+                      <span className="bg-gray-800 text-white px-2 py-1 rounded">/ˈniːdənt/</span>
+                      <span className="text-black font-bold"> = need not:  </span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                       You needn't come until later.
+                    </p>
+                  </div>
+
+                  {/* 'n't  */}
+                  <div>
+                    <div className="flex items-center space-x-1">
+                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">'n't </span>
+                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/-ənt/</span>
+                      <span className="text-black font-bold"> =  not :</span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                    Didn’t – I didn’t get anything.<br />
+                    Mustn’t – You mustn’t do this.
+                    </p>
+                  </div>
+
+                  {/* O’er  */}
+                  <div>
+                    <div className="flex items-center space-x-1">
+                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">O’er </span>
+                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded"> /ɔːə/</span>
+                      <span className="text-black font-bold"> =  not :</span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                     O’er land and sea they sped.
+                    </p>
+                  </div>
+                  {/* Oughtn't  */}
+                  <div>
+                    <div className="flex items-center space-x-1">
+                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">Oughtn't </span>
+                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded"> /ˈɔːtnt/</span>
+                      <span className="text-black font-bold"> = ought not :</span>
+                    </div>
+                    <p className="italic text-black ml-2 mt-1">
+                      He oughtn't to do that.
+                    </p>
+                  </div>
+
+                </div>
 
                   <p>
-                    <span className="font-bold"></span> short form of <br />
-                    
+                    <span className="font-bold">’Re /ər/</span> short form of are:<br />
+                    You’re late.
                   </p>
 
                   <p>
-                    <span className="font-bold">Mightn't /ˈmaɪtənt/</span> short form of might not:<br />
-                    Don’t panic – it mightn’t be true.
-                  </p>
-
-                  <p>
-                    <span className="font-bold">Might've /ˈmaɪtəv/</span> short form of might have:<br />
-                    She might've taken it with her to read on the train.
-                  </p>
-
-                  <p>
-                    <span className="font-bold">Mustn't /ˈmʌsənt/</span> short form of must not:<br />
-                    You mustn't worry too much about this.
+                    <span className="font-bold">’S /-s/ /-z/</span> short form of is:<br />
+                    It’s in the cupboard.
                   </p>
             
           </div>
         </div>
+
+        
 
         
         {/* page 25 Unvoiced Sound + S: */}
@@ -4374,95 +4743,7 @@ const Pronunciation = () => {
         </div>
       </div>
 
-      <div className="">
-        <div className="">
-      {/* item */}
-      <div>
-        <div className="flex items-center space-x-1">
-          <span className="bg-red-600 text-white px-2 py-1 rounded">'d</span>
-          <span className="bg-gray-800 text-white px-2 py-1 rounded">/dəd/</span>
-          <span className="text-black">short form of would:</span>
-        </div>
-        <p className="italic text-black ml-2 mt-1">I asked if she'd like to come tonight.</p>
-      </div>
-
-      {/* item */}
-      <div>
-        <div className="flex items-center space-x-1">
-          <span className="bg-red-600 text-white px-2 py-1 rounded">’d</span>
-          <span className="bg-gray-800 text-white px-2 py-1 rounded">/dəd/</span>
-          <span className="text-black">short form of had:</span>
-        </div>
-        <p className="italic text-black ml-2 mt-1">If you'd told me what was wrong I could have helped.</p>
-      </div>
-
-      {/* item */}
-      <div>
-        <div className="flex items-center space-x-1">
-          <span className="bg-red-600 text-white px-2 py-1 rounded">Daren’t</span>
-          <span className="bg-gray-800 text-white px-2 py-1 rounded">/deənt/</span>
-          <span className="text-black">short form of dare(s) not:</span>
-        </div>
-      </div>
-
-      {/* item */}
-      <div>
-        <div className="flex items-center space-x-1">
-          <span className="bg-red-600 text-white px-2 py-1 rounded">Didn't</span>
-          <span className="bg-gray-800 text-white px-2 py-1 rounded">/dɪdənt/</span>
-          <span className="text-black">short form of did not:</span>
-        </div>
-        <p className="italic text-black ml-2 mt-1">We didn't arrive at our hotel until after midnight.</p>
-      </div>
-
-      {/* item */}
-      <div>
-        <div className="flex items-center space-x-1">
-          <span className="bg-red-600 text-white px-2 py-1 rounded">Doesn’t</span>
-          <span className="bg-gray-800 text-white px-2 py-1 rounded">/dʌznt/</span>
-          <span className="text-black">does not:</span>
-        </div>
-        <p className="italic text-black ml-2 mt-1">Doesn't she look lovely in that hat?</p>
-      </div>
-
-      {/* item */}
-      <div>
-        <div className="flex items-center space-x-1">
-          <span className="bg-red-600 text-white px-2 py-1 rounded">Don’t</span>
-          <span className="bg-gray-800 text-white px-2 py-1 rounded">/dəʊnt/</span>
-          <span className="text-black">of do not:</span>
-        </div>
-        <p className="italic text-black ml-2 mt-1">Don't do that – it hurts!</p>
-      </div>
-
-      {/* item */}
-      <div>
-        <div className="flex items-center space-x-1">
-          <span className="bg-red-600 text-white px-2 py-1 rounded">Dunno</span>
-          <span className="bg-gray-800 text-white px-2 py-1 rounded">/dəˈnəʊ/</span>
-          <span className="text-black">I don't know:</span>
-        </div>
-        <p className="italic text-black ml-2 mt-1">
-          “Where are we exactly?” “Dunno.”
-        </p>
-      </div>
-
-      {/* item */}
-      <div>
-        <div className="flex items-center space-x-1">
-          <span className="bg-red-600 text-white px-2 py-1 rounded">D’you</span>
-          <span className="bg-gray-800 text-white px-2 py-1 rounded">/djuː/</span>
-          <span className="text-black">short form of do you:</span>
-        </div>
-        <p className="italic text-black ml-2 mt-1">D’you come here often?</p>
-    </div>
-    
-
-
-          </div>
-          </div>
-
-
+      
 
           <div className="space-y-4 text-sm leading-relaxed">
 
@@ -4470,36 +4751,8 @@ const Pronunciation = () => {
 
                   
 
-                  <p>
-                    <span className="font-bold">Needn't /ˈniːdənt/</span> short form of need not:<br />
-                    You needn't come until later.
-                  </p>
 
-                  <p>
-                    <span className="font-bold">'n't /-ənt/</span> short form of not:<br />
-                    Didn’t – I didn’t get anything.<br />
-                    Mustn’t – You mustn’t do this.
-                  </p>
-
-                  <p>
-                    <span className="font-bold">O’er /ɔːə/</span> short form of over:<br />
-                    O’er land and sea they sped.
-                  </p>
-
-                  <p>
-                    <span className="font-bold">Oughtn't /ˈɔːtnt/</span> short form of ought not:<br />
-                    He oughtn't to do that.
-                  </p>
-
-                  <p>
-                    <span className="font-bold">’Re /ər/</span> short form of are:<br />
-                    You’re late.
-                  </p>
-
-                  <p>
-                    <span className="font-bold">’S /-s/ /-z/</span> short form of is:<br />
-                    It’s in the cupboard.
-                  </p>
+                  
 
               </div>
 
