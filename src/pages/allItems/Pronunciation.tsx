@@ -10,7 +10,7 @@ const Pronunciation = () => {
 
   const totalPages = 70; // Update when you add more pages
 
-    // 🔊 Add audio ref for page flip sound
+  // 🔊 Add audio ref for page flip sound
   const flipSound = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
@@ -79,7 +79,7 @@ const Pronunciation = () => {
     }
   };
 
-   // Helper: play sound when flipping manually
+  // Helper: play sound when flipping manually
   const playFlipSound = () => {
     if (flipSound.current) {
       flipSound.current.currentTime = 0;
@@ -136,13 +136,11 @@ const Pronunciation = () => {
         >
           <div className="absolute top-1/4 left-[18%] sm:left-[27%] sm:top-[30%]  md:top-[12%] md:left-[20%] lg:top-[10%] lg:left-[25%] xl:left-[30%] 2xl:left-[35%] 2xl:top-[25%] px-5">
             <div className="">
-              <h2 className="text-green-500 text-3xl text-center">
-                উচ্চারণ
-              </h2>
+              <h2 className="text-green-500 text-3xl text-center">উচ্চারণ</h2>
               <h1 className="text-9xl md:text-5xl lg:text-9xl text-center mb-3">
                 📖
               </h1>
-              
+
               <h2 className="text-green-500 text-3xl text-center">
                 Pronunciation
               </h2>
@@ -164,8 +162,7 @@ const Pronunciation = () => {
             <p className="">
               ভূমিকা <br />
               ইংরেজিতে যারা দক্ষ হতে চান, বিশেষ করে ন্যাটিভ স্পিকারদের মত যারা
-              শুদ্ধ উচ্চারণে কথা বলতে চান তাদের জন্য
-              আমাদের বই <br />
+              শুদ্ধ উচ্চারণে কথা বলতে চান তাদের জন্য আমাদের বই <br />
               শুদ্ধ উচ্চারণ শেখার আন্তর্জাতিক স্বীকৃত পদ্ধতি হচ্ছে IPA
               (International Phonetic Alphabet), বইটিতে IPA কে রুট হিসাবে
               বিবেচনা করে সহজ পদ্ধতিতে বিভিন্ন রুলস ও টেকনিকসহ উদাহরণের মাধ্যমে
@@ -173,8 +170,8 @@ const Pronunciation = () => {
               শুদ্ধ উচ্চারণ শেখার জন্য IPA অনুসরণ করে শেখাই সবচেয়ে কার্যকর
               পন্থা। কারণ, ইংরেজির এমন কিছু ধ্বনি বা উচ্চারণ রয়েছে যা প্রকাশের
               জন্য বাংলায় কোন বর্ণ নেই। উদাহরণস্বরুপ, 'Pen' শব্দটির 'P' উচ্চারণ
-              করতে অনেকটা 'ফ' বা 'প' ও 'ফ' এর মাঝামাঝি একটি
-              উচ্চারণ যেটি বাংলায় কোন বর্ণ নেই। <br />
+              করতে অনেকটা 'ফ' বা 'প' ও 'ফ' এর মাঝামাঝি একটি উচ্চারণ যেটি বাংলায়
+              কোন বর্ণ নেই। <br />
               ধন্যবাদান্তে,
             </p>
           </div>
@@ -303,38 +300,37 @@ const Pronunciation = () => {
             <div className="w-full flex  justify-evenly text-base">
               <p className="">
                 A = /eɪ/ = এই <br />
-                B = /biː/ = বী   <br />
+                B = /biː/ = বী <br />
                 C = /siː/ = সী <br />
                 D = /diː/ = ডী <br />
-                E = /iː/ = ঈ <br /> 
+                E = /iː/ = ঈ <br />
                 F = /ef/ = এফ <br />
                 G = /dʒiː/ = জী <br />
-                H = /eɪtʃ/ = এইচ্ <br /> 
+                H = /eɪtʃ/ = এইচ্ <br />
                 I = /aɪ/ = আই <br />
-                J = /dʒeɪ/ =  জ্বেই <br />  
+                J = /dʒeɪ/ = জ্বেই <br />
                 K = /keɪ/ = খেই <br />
                 L = /el/ = এল্ <br />
                 M = /em/ = এ্যম্ <br />
                 N = /en/ = এন্‌ <br />
               </p>
               <p className="">
-                O = /əʊ/ = ওউ <br /> 
-                P = /piː/ =  ফী <br /> 
-                Q = /kjuː/ = খীউ <br /> 
-                R = /ɑːr/, /ɑː(r)/ = আ (র) <br />  
-                S = /es/ = এস্ <br />   
-                T = /tiː/ = ঠী <br />  
-                U = /juː/ = ইউ <br /> 
-                V = /viː/ = ভীই <br />  
-                W = /ˈdʌbljuː/ = ডাবল্ইউ <br />  
-                X = /eks/ = এক্স <br /> 
-                Y = /waɪ/ = ওয়াই <br /> 
-                Z = /zed/, /ziː/ = জেড/জি <br /> 
-                (British-জেড, American- জি) <br /> 
+                O = /əʊ/ = ওউ <br />
+                P = /piː/ = ফী <br />
+                Q = /kjuː/ = খীউ <br />
+                R = /ɑːr/, /ɑː(r)/ = আ (র) <br />
+                S = /es/ = এস্ <br />
+                T = /tiː/ = ঠী <br />
+                U = /juː/ = ইউ <br />
+                V = /viː/ = ভীই <br />
+                W = /ˈdʌbljuː/ = ডাবল্ইউ <br />
+                X = /eks/ = এক্স <br />
+                Y = /waɪ/ = ওয়াই <br />
+                Z = /zed/, /ziː/ = জেড/জি <br />
+                (British-জেড, American- জি) <br />
               </p>
-              
             </div>
-          </div>  
+          </div>
         </div>
 
         {/* page 4  Alphabet audio/ video */}
@@ -348,29 +344,52 @@ const Pronunciation = () => {
               ⬅ Back to index
             </button>
           </div>
-            <div className="">
-              <p className="">
-                To listen to audio/ video is essential for correct pronunciation of English Alphabets. So you shouldn't miss listening these audio and video. You should also listen the audio from various English Dictionary like Oxford:
-              </p>
-
+          <div className="">
+            <p className="">
+              To listen to audio/ video is essential for correct pronunciation
+              of English Alphabets. So you shouldn't miss listening these audio
+              and video. You should also listen the audio from various English
+              Dictionary like Oxford:
+            </p>
+          </div>
+          <div className="">
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/1jZbkJTk4EX0QQ_LHLgcWTxLSeLu5CclH/view?usp=drivesdk"
+              >
+                click here to listen to audio
+              </a>
             </div>
-            <div className="">
-              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1jZbkJTk4EX0QQ_LHLgcWTxLSeLu5CclH/view?usp=drivesdk">click here to listen to audio</a>
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://youtu.be/OWfaVUaaqO0?si=fBBxV45pLKJMip2F"
+              >
+                click here to listen to Video
+              </a>
             </div>
-           <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/OWfaVUaaqO0?si=fBBxV45pLKJMip2F">click here to listen to Video</a>
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.oxfordlearnersdictionaries.com/"
+              >
+                Oxford Dictionary
+              </a>
             </div>
-           <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://www.oxfordlearnersdictionaries.com/">Oxford Dictionary</a>
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://dictionary.cambridge.org/"
+              >
+                Cambridge Dictionary
+              </a>
             </div>
-           <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://dictionary.cambridge.org/">Cambridge Dictionary</a>
-            </div>
-           
-            </div>
-
-           
+          </div>
         </div>
 
         {/* page 5 Consonant Diagraph */}
@@ -390,14 +409,15 @@ const Pronunciation = () => {
               <p className="">
                 বাংলা ভাষায় যেমন কিছু যুক্ত অক্ষর আছে, ইংরেজি ভাষাতেও দুই বা
                 ততোধিক শব্দ তেমনি যুক্ত অক্ষরের কাজ করে থাকে যার মাধ্যমে একটি
-                আলাদা ব্যঞ্জনধ্বনি বা স্বরধ্বনি প্রকাশ করে। আর তাই একে Consonant Digraphs
-                বলা হয়ে থাকে। উল্লেখ্য, Consonant Digraphs শব্দের শুরুতে বা শেষে
-                ব্যবহার হয়ে থাকে। নিচে উদাহরনসহ কয়েকটি দেয়া হলো: <br />
-                "gh-" গ - [শব্দের শুরুতে] - Ghost;  <br />
+                আলাদা ব্যঞ্জনধ্বনি বা স্বরধ্বনি প্রকাশ করে। আর তাই একে Consonant
+                Digraphs বলা হয়ে থাকে। উল্লেখ্য, Consonant Digraphs শব্দের
+                শুরুতে বা শেষে ব্যবহার হয়ে থাকে। নিচে উদাহরনসহ কয়েকটি দেয়া হলো:{" "}
+                <br />
+                "gh-" গ - [শব্দের শুরুতে] - Ghost; <br />
                 "ph-" ফ - [শব্দের শুরুতে/শেষে] - Phone; <br />
                 "kn-" ন - [শব্দের শুরুতে] - Know; <br />
-                "ch-" চ - [শব্দের শুরুতে] - Cheer; ;  <br />
-                "-ch "চ/ক  - [শব্দেরশেষে] - check;  <br />
+                "ch-" চ - [শব্দের শুরুতে] - Cheer; ; <br />
+                "-ch "চ/ক - [শব্দেরশেষে] - check; <br />
               </p>
             </div>
           </div>
@@ -419,28 +439,26 @@ const Pronunciation = () => {
             <div className="text-base ">
               <p className="">
                 "th-"- থ - [শব্দের শুরুতে] - Thank; think; <br />
-                "th-"- দ - [শব্দের শুরুতে] - Though; thou;  <br />
+                "th-"- দ - [শব্দের শুরুতে] - Though; thou; <br />
                 "-th"- থ - [শব্দের শেষে] - Bath; earth; <br />
-                "-th"- দ - [শব্দের শেষে] - Bathe; breathe;  <br />
-                "sh-"- শ - [শব্দের শুরুতে] - Shower; sheet;  <br />
-                "-sh"- শ - [শব্দের শেষে] - Dish; fish;  <br />
-                "-ss"- স - [শব্দের শেষে] - Loss; Mass;  <br />
-                ⁹"wh-"- ওয়া - [শব্দের শুরুতে।] - What; where;  <br />
-                "wr-" - র - [শব্দের শুরুতে] - Write; wrong;  <br />
-                "-ng"- ইং - [শব্দের শেষে।] - Ring; sing;  <br />
-                "-nk"- ইংক - [শব্দের শেষে] - Link; pink;  <br />
+                "-th"- দ - [শব্দের শেষে] - Bathe; breathe; <br />
+                "sh-"- শ - [শব্দের শুরুতে] - Shower; sheet; <br />
+                "-sh"- শ - [শব্দের শেষে] - Dish; fish; <br />
+                "-ss"- স - [শব্দের শেষে] - Loss; Mass; <br />
+                ⁹"wh-"- ওয়া - [শব্দের শুরুতে।] - What; where; <br />
+                "wr-" - র - [শব্দের শুরুতে] - Write; wrong; <br />
+                "-ng"- ইং - [শব্দের শেষে।] - Ring; sing; <br />
+                "-nk"- ইংক - [শব্দের শেষে] - Link; pink; <br />
               </p>
             </div>
             <p className="heading2 text-center pt-5">ASM English Academy</p>
           </div>
         </div>
 
-
-
         {/* page 6 IPA Start*/}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-44 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 6</h2> 
+            <h2 className="text-base lg:text-xl font-bold ">Page 6</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -449,22 +467,21 @@ const Pronunciation = () => {
             </button>
           </div>
           <hr className="border border-gray-400" />
-            <p className="font-bold py-1">IPA(Phonetics)</p>
+          <p className="font-bold py-1">IPA(Phonetics)</p>
           <div className="">
             <div className="text-base">
               <p className="">
-                ইংরেজিতে মোট ৪৪টি 20-Vowel & 24-Consonant sound রয়েছে। এই ৪৪টি সাউন্ড
-                সঠিকভাবে উচ্চারণ শিখতে পারলে আমরাও ন্যাটিভদের মত শুদ্ধ ও স্মার্ট
-                উচ্চারণে ইংরেজিতে কথা বলতে পারবো। <br />
+                ইংরেজিতে মোট ৪৪টি 20-Vowel & 24-Consonant sound রয়েছে। এই ৪৪টি
+                সাউন্ড সঠিকভাবে উচ্চারণ শিখতে পারলে আমরাও ন্যাটিভদের মত শুদ্ধ ও
+                স্মার্ট উচ্চারণে ইংরেজিতে কথা বলতে পারবো। <br />
                 এই সাউন্ডগুলোর উচ্চারণ মূলতঃ IPA (International Phonetic
                 Alphabet) দিয়ে লেখা হয়। IPA হচ্ছে সঠিকভাবে ইংরেজি উচ্চারণের
                 আন্তর্জাতিক সিম্বল। IPA সিম্বলগুলো slash /-/ বন্ধনীর মাধ্যমে
-                দেখানো হয়।
-                যেমনঃ <br /> 
-                A-/eɪ/, Day - /deɪ/, Good - /gud/ <br /> 
+                দেখানো হয়। যেমনঃ <br />
+                A-/eɪ/, Day - /deɪ/, Good - /gud/ <br />
                 আমি আপনাদেরকে পর্যায়ক্রমে ব্যাসিক থেকে IPA সিম্বল অনুযায়ী
                 বিভিন্ন উদাহরণের মাধ্যমে আলোচনার চেষ্টা করবো। <br />
-              Let's get started.
+                Let's get started.
               </p>
             </div>
           </div>
@@ -488,13 +505,12 @@ const Pronunciation = () => {
             <div className=" text-base lg:text-xl">
               <p className="text-base">
                 প্রতিটি সিম্বলগুলো আয়ত্ব করে ফেলুন। কারণ, এ সিম্বলগুলো রপ্ত
-                করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন। Please, watch the video!
+                করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন। Please, watch the
+                video!
               </p>
               <div className="flex justify-center pt-1">
-                
                 <table className="table-auto border-collapse border border-gray-400 shadow-md">
                   <thead className="bg-gray-100">
-                    
                     <tr>
                       <th className="border border-gray-400 px-2 lg:px-8 py-1 font-bold text-orange-300">
                         IPA
@@ -563,7 +579,7 @@ const Pronunciation = () => {
                         /bɔːrd/
                       </td>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                      বোর্ড
+                        বোর্ড
                       </td>
                     </tr>
 
@@ -604,12 +620,24 @@ const Pronunciation = () => {
                   </tbody>
                 </table>
               </div>
-              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/Aecgq7-9GmI?si=qBUnctb6aVKCwAly">click here to listen to video</a>
-            </div>
-              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-1 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eERkHcLpxa8?si=LYByk1W1OsDnL7Bi">click here to listen to video</a>
-            </div>
+              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://youtu.be/Aecgq7-9GmI?si=qBUnctb6aVKCwAly"
+                >
+                  click here to listen to video
+                </a>
+              </div>
+              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-1 rounded-md">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://youtu.be/eERkHcLpxa8?si=LYByk1W1OsDnL7Bi"
+                >
+                  click here to listen to video
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -632,10 +660,10 @@ const Pronunciation = () => {
             <div className="text-base">
               <p className="text-sm">
                 প্রতিটি সিম্বলগুলো আয়ত্ব করে ফেলুন। কারণ, এ সিম্বলগুলো রপ্ত
-                করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন। Please, listen to video for correct pronunciation.
+                করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন। Please, listen to
+                video for correct pronunciation.
               </p>
               <div className="flex justify-center items-center  pt-1">
-                
                 <table className="table-auto border-collapse border border-gray-400 shadow-md">
                   <thead className="bg-gray-100">
                     <tr>
@@ -744,7 +772,7 @@ const Pronunciation = () => {
                         হট
                       </td>
                     </tr>
-                     <tr>
+                    <tr>
                       <td className="border border-gray-400 px-2 lg:px-8 py-1">
                         /e/
                       </td>
@@ -844,8 +872,6 @@ const Pronunciation = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      
-                      
                       <tr>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
                           /θ/
@@ -987,8 +1013,14 @@ const Pronunciation = () => {
                 </div>
               </div>
             </div>
-            <div className="max-w-fit mx-auto px-2 py-1 text-center border-2 border-blue-500 mt-2 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eERkHcLpxa8?si=Gef6coKD_eRVsbbZ">click here to listen to Video</a>
+            <div className="max-w-fit mx-auto px-2 py-1 text-center border-2 border-blue-500 mt-2 rounded-md">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://youtu.be/eERkHcLpxa8?si=Gef6coKD_eRVsbbZ"
+              >
+                click here to listen to Video
+              </a>
             </div>
           </div>
         </div>
@@ -1009,7 +1041,8 @@ const Pronunciation = () => {
             <p className="font-bold"> IPA(Consonant-2) </p>
             <div className="">
               <p className="text-xs md:text-base lg:text-xl">
-                এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন। Watch the video for correction.
+                এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
+                Watch the video for correction.
               </p>
               <div className="flex justify-center">
                 <div className="flex md:flex-row gap-3">
@@ -1034,8 +1067,6 @@ const Pronunciation = () => {
                       </tr>
                     </thead>
                     <tbody>
-                      
-                      
                       <tr>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
                           /h/
@@ -1058,7 +1089,7 @@ const Pronunciation = () => {
                           /p/
                         </td>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          ফ (p) 
+                          ফ (p)
                         </td>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
                           pen
@@ -1067,7 +1098,7 @@ const Pronunciation = () => {
                           /pen/
                         </td>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                          ফেন 
+                          ফেন
                         </td>
                       </tr>
                       <tr>
@@ -1138,49 +1169,55 @@ const Pronunciation = () => {
                           খ্যাট
                         </td>
                       </tr>
-                       <tr>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        /j/
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        ই<sup>অ</sup> 
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        yes
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        /jes/
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        ইয়েস
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        /w/
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        ও<sup>আ</sup>
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        we
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        /wiː/
-                      </td>
-                      <td className="border border-gray-400 px-2 lg:px-8 py-1">
-                        উই
-                      </td>
-                    </tr>
+                      <tr>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          /j/
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          ই<sup>অ</sup>
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          yes
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          /jes/
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          ইয়েস
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          /w/
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          ও<sup>আ</sup>
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          we
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          /wiː/
+                        </td>
+                        <td className="border border-gray-400 px-2 lg:px-8 py-1">
+                          উই
+                        </td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>
               </div>
             </div>
           </div>
-          <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-2 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eERkHcLpxa8?si=Gef6coKD_eRVsbbZ">click here to listen to audio</a>
-            </div>
+          <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-2 rounded-md">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://youtu.be/eERkHcLpxa8?si=Gef6coKD_eRVsbbZ"
+            >
+              click here to listen to audio
+            </a>
+          </div>
         </div>
 
         {/* page 11   IPA (Consonant-3)*/}
@@ -1199,7 +1236,8 @@ const Pronunciation = () => {
             <p className="font-bold"> IPA (Consonant-3) </p>
             <div className="text-base">
               <p className="text-sm md:text-base">
-                এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন। See the video for correction!
+                এ সিম্বলগুলো রপ্ত করলেই শব্দের সঠিক উচ্চারণ বের করতে সক্ষম হবেন।
+                See the video for correction!
               </p>
               <div className="flex justify-center items-center">
                 <div className="flex md:flex-row gap-3">
@@ -1245,7 +1283,7 @@ const Pronunciation = () => {
                       <tr>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
                           /l/
-                        </td> 
+                        </td>
                         <td className="border border-gray-400 px-2 lg:px-8 py-1">
                           ল (l)
                         </td>
@@ -1364,11 +1402,16 @@ const Pronunciation = () => {
                     </tbody>
                   </table>
                 </div>
-               
               </div>
             </div>
-             <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-2 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/eERkHcLpxa8?si=Gef6coKD_eRVsbbZ">click here to listen to audio</a>
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-2 rounded-md">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://youtu.be/eERkHcLpxa8?si=Gef6coKD_eRVsbbZ"
+              >
+                click here to listen to audio
+              </a>
             </div>
           </div>
         </div>
@@ -1481,10 +1524,16 @@ const Pronunciation = () => {
                   </tbody>
                 </table>
               </div>
-              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-2 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/LekE44y2Ol4?si=OTdw58ie0GJdszW-">click here to listen to video</a>
-            </div>
-              
+              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-2 rounded-md">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://youtu.be/LekE44y2Ol4?si=OTdw58ie0GJdszW-"
+                >
+                  click here to listen to video
+                </a>
+              </div>
+
               {/* <p className="pt-1 heading2 text-center">ASM English Academy</p> */}
             </div>
           </div>
@@ -1509,7 +1558,6 @@ const Pronunciation = () => {
                 সূত্রঃ "দাদির CV" <br />
                 দা = C (Consonant) <br />
                 দি = V (Vowel) <br />
-                
                 ➡️ The এর পর যদি Vowel sound থাকে তবে এর উচ্চারণ 'দি' এর মতো
                 হবে। যেমন: <br />
                 The egg = দি এগ <br />
@@ -1524,9 +1572,15 @@ const Pronunciation = () => {
                 {/* The book = দা বুক <br /> */}
               </p>
             </div>
-            
-            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-2 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1wNFA9PX1hZHnGlXZy9R8p4HL5LC2xW02/view?usp=sharing">click here to listen to audio</a>
+
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-2 rounded-md">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/1wNFA9PX1hZHnGlXZy9R8p4HL5LC2xW02/view?usp=sharing"
+              >
+                click here to listen to audio
+              </a>
             </div>
           </div>
         </div>
@@ -1594,7 +1648,6 @@ const Pronunciation = () => {
                 <span className="font-semibold">Rule - 2</span> <br />
                 'S' এর পর 'p, t, k' থাকলে সেই Sound- টি Aspirated হবে না। এ
                 ক্ষেত্রে বাংলা প, ট, ক এর মতই উচ্চারিত হবে। যেমনঃ <br />
-                
               </div>
             </div>
           </div>
@@ -1626,9 +1679,9 @@ const Pronunciation = () => {
               appoint = অ'ফোইন্ট; Fatal = ফেই'ঠল; <br />
             </div>
             <p className="pt-1">
-              Note: Aspirated অক্ষরের উচ্চারণ সঠিক হলে শুদ্ধ উচ্চারণের ৩০%
-              সঠিক হয়ে যাবে। 
-            </p>      
+              Note: Aspirated অক্ষরের উচ্চারণ সঠিক হলে শুদ্ধ উচ্চারণের ৩০% সঠিক
+              হয়ে যাবে।
+            </p>
           </div>
         </div>
 
@@ -1644,45 +1697,68 @@ const Pronunciation = () => {
             </button>
           </div>
           <div className="">
-             
-            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/ghkQoJoipbM?si=g7V9CByjXzcxOD0q">
-              Video-1
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://youtu.be/ghkQoJoipbM?si=g7V9CByjXzcxOD0q"
+              >
+                Video-1
               </a>
             </div>
-            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/tEFUNLFwPoM?si=lS2TOhd-A7gPTlDg">
-              Video-2
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://youtu.be/tEFUNLFwPoM?si=lS2TOhd-A7gPTlDg"
+              >
+                Video-2
               </a>
             </div>
-            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/tEFUNLFwPoM?si=lS2TOhd-A7gPTlDg">
-              Video-2
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://youtu.be/tEFUNLFwPoM?si=lS2TOhd-A7gPTlDg"
+              >
+                Video-2
               </a>
             </div>
-            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/N9qZFD1NkhI?si=pfJHHrc7wbe3ODj4">
-              Video-4
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://youtu.be/N9qZFD1NkhI?si=pfJHHrc7wbe3ODj4"
+              >
+                Video-4
               </a>
             </div>
-            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/mFXj-AGBtYo?si=TyI1qPy6KZzoo1gB">
-              Video-5
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://youtu.be/mFXj-AGBtYo?si=TyI1qPy6KZzoo1gB"
+              >
+                Video-5
               </a>
             </div>
-            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/UIJcutkljpM?si=yxO-fXy_zsYees4n">
-              Video-6
+            <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://youtu.be/UIJcutkljpM?si=yxO-fXy_zsYees4n"
+              >
+                Video-6
               </a>
             </div>
           </div>
           <p className="heading2 text-center pt-3">ASM English Academy</p>
         </div>
 
-        {/* page 17 Aspirated */}
+        {/* page 18 Aspirated */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 17</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 18</h2>
             <button
               onClick={goToContents}
               className=" px-2 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
@@ -1693,13 +1769,13 @@ const Pronunciation = () => {
           <div className="">
             <p className="font-bold">Example of Aspirated</p>
             <div className="flex justify-between text-base">
-              <p className="text-base">             
+              <p className="text-base">
                 Time = ঠাইম <br />
                 Table = ঠেইবল <br />
                 Talk = ঠোক <br />
                 Today = ঠুডেই <br />
                 Touch = ঠাচ <br />
-                Tuition = ঠিউশন <br />                
+                Tuition = ঠিউশন <br />
                 Cat = খ্যাট <br />
                 question = খোয়েশচন <br />
                 Cute = খিউট <br />
@@ -1716,10 +1792,16 @@ const Pronunciation = () => {
                 quarter = খুআটা
               </p>
             </div>
-             <div className="">
-              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="www.dictionary.cambridge.org">Cambridge Dictionary</a>
-            </div>
+            <div className="">
+              <div className="max-w-fit mx-auto p-2 text-center border-2 border-blue-500 mt-3 rounded-md">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="www.dictionary.cambridge.org"
+                >
+                  Cambridge Dictionary
+                </a>
+              </div>
             </div>
             <p className="pt-1">
               Note: Please, follow the link for correct pronunciation.
@@ -1728,10 +1810,10 @@ const Pronunciation = () => {
           <p className="heading2 text-center pt-1">ASM English Academy</p>
         </div>
 
-        {/* page 18 Pronunciation of "R" */}
+        {/* page 19 Pronunciation of "R" */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-base lg:text-xl font-bold ">Page 18</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 19</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1748,28 +1830,28 @@ const Pronunciation = () => {
                 এর উচ্চারণ করে না। আবার আমেরিকানরা সর্বদাই 'R' এর উচ্চারণ করতে
                 অভ্যস্ত। <br />
                 আমরা সবখানেই 'R' এর উচ্চারণ করে থাকি। তবে, ইংরেজি বলার সময়
-                আমাদের এই দুই ধরনের উচ্চারণের মিশ্রণ সমীচীন
-                নয়। 
-                </p>
-                <p className="pt-2">
-                <span className="font-bold">ব্রিটিশরা 'R' যখন উচ্চারণ করে থাকেঃ </span> <br />
-                <span className="font-bold">Rule-1 </span>  <br /> 
+                আমাদের এই দুই ধরনের উচ্চারণের মিশ্রণ সমীচীন নয়।
+              </p>
+              <p className="pt-2">
+                <span className="font-bold">
+                  ব্রিটিশরা 'R' যখন উচ্চারণ করে থাকেঃ{" "}
+                </span>{" "}
+                <br />
+                <span className="font-bold">Rule-1 </span> <br />
                 Word এর শুরুতে 'R'/ Vowel এর পূর্বে R থাকলে ব্রিটিশরা 'R' এর
                 উচ্চারণ করে থাকে। যেমনঃ <br />
                 Read = রিড <br />
                 {/* Rice = রাইস <br /> */}
                 Ring = রিং
-                </p>
-                
-              
+              </p>
             </div>
           </div>
         </div>
 
-        {/* page 19 Pronunciation of "R"*/}
+        {/* page 20 Pronunciation of "R"*/}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 19</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 20</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1782,37 +1864,35 @@ const Pronunciation = () => {
             <p className="font-semibold"> R এর উচ্চারণ: </p>
             <div className="text-base">
               <p className="">
-                Rule-2. <br /> 
-                Word এর শুরুতে 'Wr' থাকলে ব্রিটিশরা 'R' এর উচ্চারণ করে
-                থাকে। যেমনঃ <br />
-                Write - রাইট; <br /></p>
-                <p className="pt-2">
-                <span className="font-bold">ব্রিটিশরা 'R' যখন উচ্চারণ করে নাঃ </span>  <br />
+                Rule-2. <br />
+                Word এর শুরুতে 'Wr' থাকলে ব্রিটিশরা 'R' এর উচ্চারণ করে থাকে।
+                যেমনঃ <br />
+                Write - রাইট; <br />
+              </p>
+              <p className="pt-2">
+                <span className="font-bold">
+                  ব্রিটিশরা 'R' যখন উচ্চারণ করে নাঃ{" "}
+                </span>{" "}
+                <br />
                 Rule-1. <br />
-                'word' এর শেষে 'R' থাকলে ব্রিটিশরা 'R' এর উচ্চারণ করে না।
-                যেমনঃ <br />
-                Brother = ব্রাদা; 
-                Teacher = ঠিচা; <br />
-                Rule-2.  <br />
-                word এর শেষে 'Re' থাকলেও ব্রিটিশরা 'R' এর উচ্চারণ করে না।
-                যেমনঃ <br />
-                care = খ্যায়া;
-                fare = ফ্যায়া; <br />
-                </p>
-                
-               
-              
+                'word' এর শেষে 'R' থাকলে ব্রিটিশরা 'R' এর উচ্চারণ করে না। যেমনঃ{" "}
+                <br />
+                Brother = ব্রাদা; Teacher = ঠিচা; <br />
+                Rule-2. <br />
+                word এর শেষে 'Re' থাকলেও ব্রিটিশরা 'R' এর উচ্চারণ করে না। যেমনঃ{" "}
+                <br />
+                care = খ্যায়া; fare = ফ্যায়া; <br />
+              </p>
+
               <p className="text-center pt-2 heading2">ASM English Academy</p>
             </div>
           </div>
         </div>
 
-        
-
-        {/* page 20 Verb Contraction */}
+        {/* page 21 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-base lg:text-xl font-bold ">Page 20</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 21</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1827,10 +1907,10 @@ const Pronunciation = () => {
               <div className="flex items-center justify-center  gap-2">
                 Contraction হল Subject + Verb একত্রে উচ্চারণ করা। Spoken English
                 এ এটি গুরুত্বপূর্ণ। Listen to audio for correct pronunciation.
-                </div>
-                {/* table */}
-                <div className="">
-                   {/* <div className="overflow-x-auto px-3">
+              </div>
+              {/* table */}
+              <div className="">
+                {/* <div className="overflow-x-auto px-3">
                 <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
                   <thead className="bg-gray-100">
                     <tr>
@@ -1872,50 +1952,80 @@ const Pronunciation = () => {
                   </tbody>
                 </table>
               </div> */}
-                </div>
-             
+              </div>
+
               <div className="pt-2">
                 <p className="">
-                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">Ain't </span>   
-                  <span className="bg-black p-1 text-white font-bold">/eɪnt/</span> = (short form of) <strong>am not, is not, are not, have not, has not: </strong> <br />
+                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">
+                    Ain't{" "}
+                  </span>
+                  <span className="bg-black p-1 text-white font-bold">
+                    /eɪnt/
+                  </span>{" "}
+                  = (short form of){" "}
+                  <strong>am not, is not, are not, have not, has not: </strong>{" "}
+                  <br />
                   He ain't going!
                 </p>
 
                 <p className="">
-                  <span className="bg-pink-700 p-1 py-1 text-white font-bold">Aren't </span>   
-                  <span className="bg-black p-1 text-white font-bold">/ɑːrnt/; UK- /ɑːnt/</span> = <strong>are not:</strong>  The girls aren't reading attentively.
+                  <span className="bg-pink-700 p-1 py-1 text-white font-bold">
+                    Aren't{" "}
+                  </span>
+                  <span className="bg-black p-1 text-white font-bold">
+                    /ɑːrnt/; UK- /ɑːnt/
+                  </span>{" "}
+                  = <strong>are not:</strong> The girls aren't reading
+                  attentively.
                 </p>
                 <p className="py-2">
-                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">Aren't </span>   
-                  <span className="bg-black p-1 text-white font-bold">/ɑːrnt/; UK- /ɑːnt/</span> = <strong>am not </strong> (in tag question?): I'm punctul, aren't I? 
+                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">
+                    Aren't{" "}
+                  </span>
+                  <span className="bg-black p-1 text-white font-bold">
+                    /ɑːrnt/; UK- /ɑːnt/
+                  </span>{" "}
+                  = <strong>am not </strong> (in tag question?): I'm punctul,
+                  aren't I?
                 </p>
                 <p className="">
-                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">can't </span>   
-                  <span className="bg-black p-1 text-white font-bold">US - //kænt//; UK- /kɑːnt/</span> = <strong>can not: </strong> You can't say so. 
+                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">
+                    can't{" "}
+                  </span>
+                  <span className="bg-black p-1 text-white font-bold">
+                    US - //kænt//; UK- /kɑːnt/
+                  </span>{" "}
+                  = <strong>can not: </strong> You can't say so.
                 </p>
-                
-                
               </div>
             </div>
             <div className="flex justify-center gap-3">
-              <div className="max-h-fit  p-2 border-2 border-blue-500  rounded-md"> 
-                    <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/17Nl8-9FrGmAYoJAsuitGCSxyH161Ln6g/view?usp=sharing">
-                    audio-1
-                    </a>
-                  </div>
-                  <div className="max-h-fit  p-2 border-2 border-blue-500  rounded-md"> 
-                    <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/pI__6gL21Co?si=Gz-xV_pVWL1zdNEJ">
-                    audio-2
-                    </a>
-                </div>
+              <div className="max-h-fit  p-2 border-2 border-blue-500  rounded-md">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://drive.google.com/file/d/17Nl8-9FrGmAYoJAsuitGCSxyH161Ln6g/view?usp=sharing"
+                >
+                  audio-1
+                </a>
+              </div>
+              <div className="max-h-fit  p-2 border-2 border-blue-500  rounded-md">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://youtu.be/pI__6gL21Co?si=Gz-xV_pVWL1zdNEJ"
+                >
+                  audio-2
+                </a>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* page 21 Verb Contraction */}
+        {/* page 22 Verb Contraction */}
         <div className="p-2 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <p className="text-xl font-bold ">Page 21</p>
+            <p className="text-xl font-bold ">Page 22</p>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1925,48 +2035,86 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="text-base">
-                <h2 className="font-medium py-1">Verb Contraction: </h2>
-                {/* can't */}
-                <p className="">
-                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">can't </span>   
-                  <span className="bg-black p-1 text-white font-bold">US- //kænt//; UK- /kɑːnt/</span> = <strong>can not:</strong>  You can't say so. 
-                </p>
-                {/* couoldn't */}
-                <p className="">
-                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">couldn't </span>   
-                  <span className="bg-black p-1 text-white font-bold">/ˈkʊd.ənt/</span> = <strong>could not:</strong>  She couldn't left her job! 
-                </p>
-                {/* could've
-                 */}
-                <p className="">
-                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">could've </span>   
-                  <span className="bg-black p-1 text-white font-bold">/ˈkʊd.əv/</span> = <strong>could have:</strong>  If she came, I could've gone. 
-                </p>
-                {/* don't 
-                */}
-                <p className="">
-                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">Don't </span>   
-                  <span className="bg-black p-1 text-white font-bold"> /dəʊnt/</span> = <strong>do not: </strong> Don't wory, let's start home work. 
-                </p>
-                {/* Dunno */}
-                
-                <p className="">
-                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">Dunno </span>   
-                  <span className="bg-black p-1 text-white font-bold"> UK- /dəˈnəʊ/; US- /dəˈnoʊ/</span> = <strong> I do not know: </strong>  I dunno, Where is your sister?. 
-                </p>
-                <p className="">
-                  
-                  <span className="bg-pink-700 px-1 py-1 text-white font-bold">C'mon </span>   
-                  <span className="bg-black p-1 text-white font-bold"> UK- /kəˈmɒn; US- /kəˈmɑːn/</span> = <span className="font-bold">do not:</span> C'mon! I see you are OK. 
-                </p>
-                <div className="max-w-fit px-2  py-1 border-2 border-blue-500  rounded-md"> 
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@BBCNews">
-                    BBC NEWs
-                    </a>
-                  </div>
-                  {/* table */}
-                <div className="">
-                          {/* <div className="text-base">
+            <h2 className="font-medium py-1">Verb Contraction: </h2>
+            {/* can't */}
+            <p className="">
+              <span className="bg-pink-700 px-1 py-1 text-white font-bold">
+                can't{" "}
+              </span>
+              <span className="bg-black p-1 text-white font-bold">
+                US- //kænt//; UK- /kɑːnt/
+              </span>{" "}
+              = <strong>can not:</strong> You can't say so.
+            </p>
+            {/* couoldn't */}
+            <p className="">
+              <span className="bg-pink-700 px-1 py-1 text-white font-bold">
+                couldn't{" "}
+              </span>
+              <span className="bg-black p-1 text-white font-bold">
+                /ˈkʊd.ənt/
+              </span>{" "}
+              = <strong>could not:</strong> She couldn't left her job!
+            </p>
+            {/* could've
+             */}
+            <p className="">
+              <span className="bg-pink-700 px-1 py-1 text-white font-bold">
+                could've{" "}
+              </span>
+              <span className="bg-black p-1 text-white font-bold">
+                /ˈkʊd.əv/
+              </span>{" "}
+              = <strong>could have:</strong> If she came, I could've gone.
+            </p>
+            {/* don't
+             */}
+            <p className="">
+              <span className="bg-pink-700 px-1 py-1 text-white font-bold">
+                Don't{" "}
+              </span>
+              <span className="bg-black p-1 text-white font-bold">
+                {" "}
+                /dəʊnt/
+              </span>{" "}
+              = <strong>do not: </strong> Don't wory, let's start home work.
+            </p>
+            {/* Dunno */}
+
+            <p className="">
+              <span className="bg-pink-700 px-1 py-1 text-white font-bold">
+                Dunno{" "}
+              </span>
+              <span className="bg-black p-1 text-white font-bold">
+                {" "}
+                UK- /dəˈnəʊ/; US- /dəˈnoʊ/
+              </span>{" "}
+              = <strong> I do not know: </strong> I dunno, Where is your
+              sister?.
+            </p>
+            <p className="">
+              <span className="bg-pink-700 px-1 py-1 text-white font-bold">
+                C'mon{" "}
+              </span>
+              <span className="bg-black p-1 text-white font-bold">
+                {" "}
+                UK- /kəˈmɒn; US- /kəˈmɑːn/
+              </span>{" "}
+              = <span className="font-bold">do not:</span> C'mon! I see you are
+              OK.
+            </p>
+            <div className="max-w-fit px-2  py-1 border-2 border-blue-500  rounded-md">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.youtube.com/@BBCNews"
+              >
+                BBC NEWs
+              </a>
+            </div>
+            {/* table */}
+            <div className="">
+              {/* <div className="text-base">
                       <div className="overflow-x-auto p-1 px-3">
                         <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
                           <thead className="bg-gray-100">
@@ -2011,15 +2159,14 @@ const Pronunciation = () => {
                         </table>
                       </div>
                     </div> */}
-                </div>
-            
+            </div>
           </div>
         </div>
 
-        {/* page 22 Verb Contraction */}
+        {/* page 23 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-xl font-bold ">Page 22</h2>
+            <h2 className="text-xl font-bold ">Page 23</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2030,62 +2177,93 @@ const Pronunciation = () => {
           <hr className="border border-gray-400" />
           <div className="">
             <h3 className="font-bold">Verb Contraction: </h3>
-            
-        <div className="text-base">
-          <div className="">
-            {/* item */}
-            <div>
-              <div className="flex items-center space-x-1">
-                <span className="bg-red-600 text-white px-2 py-1 rounded">'d</span>
-                <span className="bg-gray-800 text-white px-2 py-1 rounded">/əd/</span>
-                <span className="text-black font-bold"> = would:</span>
+
+            <div className="text-base">
+              <div className="">
+                {/* item */}
+                <div>
+                  <div className="flex items-center space-x-1">
+                    <span className="bg-red-600 text-white px-2 py-1 rounded">
+                      'd
+                    </span>
+                    <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                      /əd/
+                    </span>
+                    <span className="text-black font-bold"> = would:</span>
+                  </div>
+                  <p className="italic text-black ml-2 mt-1">
+                    I asked if she'd like to come tonight.
+                  </p>
+                </div>
+
+                {/* item */}
+                <div>
+                  <div className="flex items-center space-x-1">
+                    <span className="bg-red-600 text-white px-2 py-1 rounded">
+                      ’d
+                    </span>
+                    <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                      /əd/
+                    </span>
+                    <span className="text-black font-bold"> = had:</span>
+                  </div>
+                  <p className="italic text-black ml-2 mt-1">
+                    If you'd told me what was wrong I could have helped.
+                  </p>
+                </div>
+
+                {/* item */}
+                <div>
+                  <div className="flex items-center space-x-1">
+                    <span className="bg-red-600 text-white px-2 py-1 rounded">
+                      Daren’t
+                    </span>
+                    <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                      /deənt/
+                    </span>
+                    <span className="text-black font-bold">
+                      {" "}
+                      = dare(s) not:
+                    </span>
+                  </div>
+                  <p className="italic text-black ml-2 mt-1">
+                    If you'd told me what was wrong I could have helped.
+                  </p>
+                </div>
+
+                {/* item */}
+                <div>
+                  <div className="flex items-center space-x-1">
+                    <span className="bg-red-600 text-white px-2 py-1 rounded">
+                      Didn't
+                    </span>
+                    <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                      /dɪdənt/
+                    </span>
+                    <span className="text-black font-bold"> = did not:</span>
+                  </div>
+                  <p className="italic text-black ml-2 mt-1">
+                    We didn't arrive at our hotel until after midnight.
+                  </p>
+                </div>
+
+                {/* item */}
+                <div>
+                  <div className="flex items-center space-x-1">
+                    <span className="bg-red-600 text-white px-2 py-1 rounded">
+                      Doesn’t
+                    </span>
+                    <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                      /dʌznt/
+                    </span>
+                    <span className="text-black font-bold"> = does not:</span>
+                  </div>
+                  <p className="italic text-black ml-2 mt-1">
+                    Doesn't she look lovely in that hat?
+                  </p>
+                </div>
               </div>
-              <p className="italic text-black ml-2 mt-1">I asked if she'd like to come tonight.</p>
             </div>
-
-            {/* item */}
-            <div>
-              <div className="flex items-center space-x-1">
-                <span className="bg-red-600 text-white px-2 py-1 rounded">’d</span>
-                <span className="bg-gray-800 text-white px-2 py-1 rounded">/əd/</span>
-                <span className="text-black font-bold"> = had:</span>
-              </div>
-              <p className="italic text-black ml-2 mt-1">If you'd told me what was wrong I could have helped.</p>
-            </div>
-
-            {/* item */}
-            <div>
-              <div className="flex items-center space-x-1">
-                <span className="bg-red-600 text-white px-2 py-1 rounded">Daren’t</span>
-                <span className="bg-gray-800 text-white px-2 py-1 rounded">/deənt/</span>
-                <span className="text-black font-bold"> = dare(s) not:</span>
-              </div>
-              <p className="italic text-black ml-2 mt-1">If you'd told me what was wrong I could have helped.</p>
-            </div>
-
-            {/* item */}
-            <div>
-              <div className="flex items-center space-x-1">
-                <span className="bg-red-600 text-white px-2 py-1 rounded">Didn't</span>
-                <span className="bg-gray-800 text-white px-2 py-1 rounded">/dɪdənt/</span>
-                <span className="text-black font-bold"> = did not:</span>
-              </div>
-              <p className="italic text-black ml-2 mt-1">We didn't arrive at our hotel until after midnight.</p>
-            </div>
-
-            {/* item */}
-            <div>
-              <div className="flex items-center space-x-1">
-                <span className="bg-red-600 text-white px-2 py-1 rounded">Doesn’t</span>
-                <span className="bg-gray-800 text-white px-2 py-1 rounded">/dʌznt/</span>
-                <span className="text-black font-bold"> = does not:</span>
-              </div>
-              <p className="italic text-black ml-2 mt-1">Doesn't she look lovely in that hat?</p>
-            </div>
-
-
-          </div>
-          </div>
 
             {/* <div className="text-base">
               <div className="overflow-x-auto p-1">
@@ -2136,78 +2314,6 @@ const Pronunciation = () => {
           </div>
         </div>
 
-
-        {/* page 23 Verb Contraction */}
-        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 23</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
-            >
-              Back to index
-            </button>
-          </div>
-          <hr className="border border-gray-400" />
-          <div className="text-base">
-            <h3 className="font-bold">Contraction: </h3>
-                <div className="">
-                  {/* Gotta */}
-                  <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="bg-red-600 text-white px-2 py-1 rounded">Gotta </span>
-                      <span className="bg-gray-800 text-white px-2 py-1 rounded">/ˈɡɒtə/</span>
-                      <span className="text-black font-bold">=‘have got to’/‘have got a’: </span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                      I gotta go now.<br />
-                      He’s gotta be kidding.<br />
-                      Gotta (= have you got a) cigarette?
-                    </p>
-                  </div>
-
-                  {/* Hadn’t */}
-                  <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">Hadn’t </span>
-                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈhæd.ənt/</span>
-                      <span className="text-black font-bold"> =  had not:</span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                      If you hadn't told him he would never have known.
-                    </p>
-                  </div>
-
-                  {/* Hadn’t */}
-                  <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">Hadn’t </span>
-                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈhæd.ənt/</span>
-                      <span className="text-black font-bold"> =  had not:</span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                      If you hadn't told him he would never have known.
-                    </p>
-                  </div>
-
-                  {/* Hasn’t */}
-                  <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">Hasn’t </span>
-                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈhæzənt/</span> 
-                      <span className="text-black font-bold"> = has not:</span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                      Hasn't he grown!
-                    </p>
-                  </div>
-
-                </div>                
-                  
-            
-          </div>
-        </div>
-
         {/* page 24 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
@@ -2221,49 +2327,76 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="text-base">
-            <h3 className="font-bold">Contraction: </h3>
+            <h3 className="font-bold">Verb Contraction: </h3>
             <div className="">
-                  
-              {/* Haven’t  */}
+              {/* Gotta */}
               <div>
                 <div className="flex items-center space-x-1">
-                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">Haven’t </span>
-                   <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈhævənt/</span>
-                  <span className="text-black font-bold"> = may have:</span>
+                  <span className="bg-red-600 text-white px-2 py-1 rounded">
+                    Gotta{" "}
+                  </span>
+                  <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈɡɒtə/
+                  </span>
+                  <span className="text-black font-bold">
+                    =‘have got to’/‘have got a’:{" "}
+                  </span>
                 </div>
                 <p className="italic text-black ml-2 mt-1">
-                      He may've done this to her.
+                  I gotta go now.
+                  <br />
+                  He’s gotta be kidding.
+                  <br />
+                  Gotta (= have you got a) cigarette?
                 </p>
               </div>
-                  
-              {/* He’d  */}
+
+              {/* Hadn’t */}
               <div>
                 <div className="flex items-center space-x-1">
-                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">He’d </span>
-                   <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/hiːd/</span>
-                  <span className="text-black font-bold"> = he had:</span>
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    Hadn’t{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈhæd.ənt/
+                  </span>
+                  <span className="text-black font-bold"> = had not:</span>
                 </div>
                 <p className="italic text-black ml-2 mt-1">
-                      He’d already spent all his money by the second day of the trip.
+                  If you hadn't told him he would never have known.
                 </p>
               </div>
-              <p>
-                <span className="font-bold">He’d /hiːd/</span> short form of he would:<br />
-                He’d be able to do it, if anyone could.
-              </p>
 
-              <p>
-                <span className="font-bold">He’ll /hiːl/</span> short form of he will:<br />
-                He’ll be there, don't worry.
-              </p>
+              {/* Hadn’t */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    Hadn’t{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈhæd.ənt/
+                  </span>
+                  <span className="text-black font-bold"> = had not:</span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  If you hadn't told him he would never have known.
+                </p>
+              </div>
 
-              <p>
-                <span className="font-bold">He’s /hiːz/</span> short form of he is:<br />
-                He’s a great guy.
-              </p>
+              {/* Hasn’t */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    Hasn’t{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈhæzənt/
+                  </span>
+                  <span className="text-black font-bold"> = has not:</span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">Hasn't he grown!</p>
+              </div>
             </div>
-              
-            
           </div>
         </div>
 
@@ -2280,62 +2413,96 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="text-base">
-            <h3 className="font-bold">Contraction: </h3>
-                <div className="">
-                  {/* 'm /əm/ */}
-                  <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="bg-red-600 text-white px-2 py-1 rounded">'m </span>
-                      <span className="bg-gray-800 text-white px-2 py-1 rounded">/əm/</span>
-                      <span className="text-black font-bold"> = am (used in spoken): </span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                      I'm sorry I'm late.
-                    </p>
-                  </div>
-                  {/* May've /ˈmeɪəv/ */}
-                  <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">May've </span>
-                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈmeɪəv/</span>
-                      <span className="text-black font-bold"> = may have:</span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                      He may've done this to her.
-                    </p>
-                  </div>
-
+            <h3 className="font-bold">Verb - Contraction: </h3>
+            <div className="">
+              {/* Haven’t  */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    Haven’t{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈhævənt/
+                  </span>
+                  <span className="text-black font-bold"> = may have:</span>
                 </div>
-                <div className="space-y-4 text-sm leading-relaxed">
-
-                <p>
-                  <span className="font-bold">'em /əm/</span> short form of them:<br />
-                  Tell 'em to go away.
-                </p>
-
-                <p>
-                  <span className="font-bold">He’s /hiːz/</span> short form of he has:<br />
-                  He’s just bought a new digital camera.
-                </p>
-
-                <p>
-                  <span className="font-bold">I’d /aɪd/</span> short form of I had:<br />
-                  I'd just got in the bath when the phone rang.
-                </p>
-
-                <p>
-                  <span className="font-bold">I’d /aɪd/</span> short form of I would:<br />
-                  Of course I'd love to see you.
-                </p>
-
-                <p>
-                  <span className="font-bold">I’m /aɪm/</span> short form of I am:<br />
-                  I'm so happy for you!
+                <p className="italic text-black ml-2 mt-1">
+                  He may've done this to her.
                 </p>
               </div>
 
-                  
-            
+              {/* He’d  */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    He’d{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /hiːd/
+                  </span>
+                  <span className="text-black font-bold"> = he had: হি:ড</span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  He’d already spent all his money by the second day of the
+                  trip.
+                </p>
+              </div>
+
+              {/* He’d  */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    He’d{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /hiːd/
+                  </span>
+                  <span className="text-black font-bold">
+                    {" "}
+                    = he would: হি:ড
+                  </span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  He’d already spent all his money by the second day of the
+                  trip.
+                </p>
+              </div>
+
+              {/* He’d  */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    He’d{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /hiːd/
+                  </span>
+                  <span className="text-black font-bold">
+                    {" "}
+                    = he would: হি:ড
+                  </span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  He’d be able to do it, if anyone could.
+                </p>
+              </div>
+
+              {/* He’ll  */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    He’ll{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /hiːl/
+                  </span>
+                  <span className="text-black font-bold"> = he will: হি:ল</span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  He’d be able to do it, if anyone could.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -2352,68 +2519,176 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="text-base">
-            <h3 className="font-bold">Contraction: </h3>
-                <div className="">
-                  {/* 'm /əm/ */}
-                  <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="bg-red-600 text-white px-2 py-1 rounded">'m </span>
-                      <span className="bg-gray-800 text-white px-2 py-1 rounded">/əm/</span>
-                      <span className="text-black font-bold"> = am (used in spoken): </span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                      I'm sorry I'm late.
-                    </p>
-                  </div>
-                  {/* May've /ˈmeɪəv/ */}
-                  <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">May've </span>
-                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈmeɪəv/</span>
-                      <span className="text-black font-bold"> = may have:</span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                      He may've done this to her.
-                    </p>
-                  </div>
-
+            <h3 className="font-bold pb-2">Verb - Contractions: </h3>
+            <div className="">
+              {/* He’s  */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="bg-red-600 text-white px-2 py-1 rounded">
+                    He’s{" "}
+                  </span>
+                  <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                    /hiːz/
+                  </span>
+                  <span className="text-black font-bold"> = he is: </span>
                 </div>
-                
-                <p>
-                <span className="font-bold">Innit /ˈɪnɪt/</span> short form of isn’t it.<br />
-                Used in a non-standard way at the end of a statement for emphasis:<br />
-                "It’s wrong, innit?"<br />
-                "They’re such a wicked band, innit?"
-              </p>
+                <p className="italic text-black ml-2 mt-1">He’s a great guy.</p>
+              </div>
 
-              <p>
-                <span className="font-bold">Isn't /ˈɪz.ənt/</span> short form of is not:<br />
-                He isn't coming until tomorrow.
-              </p>
+              {/* He’s */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    He’s{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /hiːz/
+                  </span>
+                  <span className="text-black font-bold"> = he has: </span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  He’s just bought a new digital camera.
+                </p>
+              </div>
 
-              <p>
-                <span className="font-bold">It’d /ˈɪtəd/</span> short form of it would:<br />
-                It’d be better if we finished it off today.
-              </p>
+              {/* 'em */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    'em{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /əm/
+                  </span>
+                  <span className="text-black font-bold">
+                    {" "}
+                    short form of them:{" "}
+                  </span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  Tell 'em to go away.
+                </p>
+              </div>
 
-              <p>
-                <span className="font-bold">It’d /ˈɪtəd/</span> short form of it had:<br />
-                I found the radio – it’d been left in the shed all weekend.
-              </p>
+              {/* Isn't */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    Isn't{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈɪz.ənt/
+                  </span>
+                  <span className="text-black font-bold"> = is not: </span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  He isn't coming until tomorrow.
+                </p>
+              </div>
 
-              <p>
-                <span className="font-bold">It’ll /ˈɪtəl/</span> short form of it will:<br />
-                It'll be hard to find someone to help.
-              </p>
-                  
-            
+              {/* It’ll */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    It’ll
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈɪtəl/
+                  </span>
+                  <span className="text-black font-bold">
+                    {" "}
+                    = short form of it will:
+                  </span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  It'll be hard to find someone to help.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
-        {/* page 23 Verb Contraction */}
+        {/* page 27 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 23</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 27</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold pb-2">Verb - Contraction: </h3>
+            <div className="">
+              {/* Innit */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    Innit{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈɪnɪt/
+                  </span>
+                  <span className="text-black font-bold"> = isn’t it?</span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  Used in a non-standard way at the end of a statement for
+                  emphasis:
+                  <br />
+                  "It’s wrong, innit?"
+                  <br />
+                  "They’re such a wicked band, innit?"
+                </p>
+              </div>
+
+              {/* It’d */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    It’d{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈɪtəd/
+                  </span>
+                  <span className="text-black font-bold"> = it would:</span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  It’d be better if we finished it off today.
+                </p>
+              </div>
+
+              {/* It’d */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    It’d{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈɪtəd/
+                  </span>
+                  <span className="text-black font-bold">
+                    {" "}
+                    = short form of it had:
+                  </span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  I found the radio – it’d been left in the shed all weekend.
+                </p>
+              </div>
+            </div>
+            <p className="font-medium">
+              👉Please, watch the video for correct pronunciation!
+            </p>
+          </div>
+        </div>
+
+        {/* page 28 Verb Contraction */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 28</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2426,69 +2701,89 @@ const Pronunciation = () => {
             <h3 className="font-bold">Contraction(সংকোচন): </h3>
 
             <div className="text-base">
-               {/* It has */}
-                <div>
-                  <div className="flex items-center space-x-1">
-                    <span className="bg-red-600 text-white px-2 py-1 rounded">It's </span>
-                    <span className="bg-gray-800 text-white px-2 py-1 rounded">//ɪts//</span>
-                    <span className="text-black font-bold">it has:</span>
-                  </div>
-                  <p className="italic text-black ml-2 mt-1">Don't do that – it hurts!</p>
+              {/* It has */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="bg-red-600 text-white px-2 py-1 rounded">
+                    It's{" "}
+                  </span>
+                  <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                    //ɪts//
+                  </span>
+                  <span className="text-black font-bold">it has:</span>
                 </div>
-
-                {/* it is: */}
-                <div>
-                    <div className="">
-                      <div className="flex items-center space-x-1">
-                      <span className="bg-red-600 text-white px-2 py-1 rounded">It's </span>
-                      <span className="bg-gray-800 text-white px-2 py-1 rounded">/ɪts/</span>
-                      <span className="text-black font-bold"> = it is:</span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                      It’s my turn to do it.
-                    </p>
-                  </div>
-                  
-                </div>
-
-                {/* D’you */}
-                <div className="">
-                  <div className="flex items-center space-x-1">
-                    <span className="bg-red-600 text-white px-2 py-1 rounded">D’you</span>
-                    <span className="bg-gray-800 text-white px-2 py-1 rounded">/djuː/</span>
-                    <span className="text-black font-bold"> = do you:</span>
-                  </div>
-                  <p className="italic text-black ml-2 mt-1">D’you come here often?</p>
-                </div>
-                {/* 've /əv/ */}
-                 <div>
-                  <div className="flex items-center space-x-1">
-                    <span className="bg-red-600 text-white px-2 py-1 rounded">I've</span>
-                    <span className="bg-gray-800 text-white px-2 py-1 rounded">/əv/</span>
-                    <span className="text-black font-bold"> = I have:</span>
-                  </div>
-                  <p className="italic text-black ml-2 mt-1">
-                    I've been waiting for an hour already.
-                  </p>
-                </div> 
-
-              {/* 'll /ɪl/ */}
-                 <div>
-                  <div className="flex items-center space-x-1">
-                    <span className="bg-red-600 text-white px-2 py-1 rounded">'ll </span>
-                    <span className="bg-gray-800 text-white px-2 py-1 rounded">/ɪl/</span>
-                    <span className="text-black font-bold"> = will:</span>
-                  </div>
-                  <p className="italic text-black ml-2 mt-1">
-                    I'll see you next week.
-                  </p>
-                </div> 
-                <div>
+                <p className="italic text-black ml-2 mt-1">
+                  Don't do that – it hurts!
+                </p>
               </div>
 
+              {/* it is: */}
+              <div>
+                <div className="">
+                  <div className="flex items-center space-x-1">
+                    <span className="bg-red-600 text-white px-2 py-1 rounded">
+                      It's{" "}
+                    </span>
+                    <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                      /ɪts/
+                    </span>
+                    <span className="text-black font-bold"> = it is:</span>
+                  </div>
+                  <p className="italic text-black ml-2 mt-1">
+                    It’s my turn to do it.
+                  </p>
+                </div>
+              </div>
 
-            <div className="">
-              {/* <div className="overflow-x-auto p-1">
+              {/* D’you */}
+              <div className="">
+                <div className="flex items-center space-x-1">
+                  <span className="bg-red-600 text-white px-2 py-1 rounded">
+                    D’you
+                  </span>
+                  <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                    /djuː/
+                  </span>
+                  <span className="text-black font-bold"> = do you:</span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  D’you come here often?
+                </p>
+              </div>
+              {/* 've /əv/ */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="bg-red-600 text-white px-2 py-1 rounded">
+                    I've
+                  </span>
+                  <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                    /əv/
+                  </span>
+                  <span className="text-black font-bold"> = I have:</span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  I've been waiting for an hour already.
+                </p>
+              </div>
+
+              {/* 'll /ɪl/ */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="bg-red-600 text-white px-2 py-1 rounded">
+                    'll{" "}
+                  </span>
+                  <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                    /ɪl/
+                  </span>
+                  <span className="text-black font-bold"> = will:</span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  I'll see you next week.
+                </p>
+              </div>
+
+              <div className="">
+                {/* <div className="overflow-x-auto p-1">
                 <table className="table-auto border-collapse border border-gray-300 shadow-md w-full text-center">
                   <thead className="bg-gray-100">
                     <tr>
@@ -2525,20 +2820,26 @@ const Pronunciation = () => {
                   </tbody>
                 </table>
               </div> */}
-            </div>
-              
-              <div className="max-w-fit mx-auto p-1 text-center border-2 border-blue-500 mt-1 rounded-md"> 
-              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/5kPS12voEN0?si=QnQo7a0lRBSFvZKZ">Contraction video</a>
-            </div>
+              </div>
+
+              <div className="max-w-fit mx-auto p-1 text-center border-2 border-blue-500 mt-1 rounded-md">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://youtu.be/5kPS12voEN0?si=QnQo7a0lRBSFvZKZ"
+                >
+                  Contraction video
+                </a>
+              </div>
             </div>
             {/* <h3 className="heading2 text-center pt-2">ASM English Academy</h3> */}
           </div>
         </div>
 
-        {/* page 24 Verb Contraction */}
+        {/* page 29 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 24</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 29</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2549,75 +2850,98 @@ const Pronunciation = () => {
           <hr className="border border-gray-400" />
           <div className="text-base">
             <h3 className="font-bold pb-2">Verb Contraction: </h3>
-                <div className="">
-                  {/* 'm /əm/ */}
-                  <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="bg-red-600 text-white px-2 py-1 rounded">'m </span>
-                      <span className="bg-gray-800 text-white px-2 py-1 rounded">/əm/</span>
-                      <span className="text-black font-bold"> = am (used in spoken): </span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                      I'm sorry I'm late.
-                    </p>
-                  </div>
-                  {/* May've /ˈmeɪəv/ */}
-                  <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">May've </span>
-                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈmeɪəv/</span>
-                      <span className="text-black font-bold"> = may have:</span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                      He may've done this to her.
-                    </p>
-                  </div>
-                  {/* Mightn't /ˈmaɪtənt/ */}
-                  <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">Mightn't  </span>
-                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈmaɪtənt/</span>
-                      <span className="text-black font-bold"> = might not:</span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                      Don’t panic – it mightn’t be true.
-                    </p>
-                  </div>
-                  
-                  {/* Might've */}
-                  <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">Might've  </span>
-                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/ˈmaɪtəv/</span>
-                      <span className="text-black font-bold"> = might have:</span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                      Don’t panic – it mightn’t be true.
-                    </p>
-                  </div>
-
-                  {/* Mustn't */}
-                  <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="font- bg-red-600 text-white px-2 py-1 rounded">Mustn't  </span>
-                      <span className="font- bg-gray-800 text-white px-2 py-1 rounded">/ˈmʌsənt/</span>
-                      <span className="text-black font-bold"> = must not: </span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                       You mustn't worry too much about this.
-                    </p>
-                  </div>
-
+            <div className="">
+              {/* 'm /əm/ */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="bg-red-600 text-white px-2 py-1 rounded">
+                    'm{" "}
+                  </span>
+                  <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                    /əm/
+                  </span>
+                  <span className="text-black font-bold">
+                    {" "}
+                    = am (used in spoken):{" "}
+                  </span>
                 </div>
-                <h2 className="text-green-500"> please, watch the for correct sound!</h2> 
-            
+                <p className="italic text-black ml-2 mt-1">
+                  I'm sorry I'm late.
+                </p>
+              </div>
+              {/* May've /ˈmeɪəv/ */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    May've{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈmeɪəv/
+                  </span>
+                  <span className="text-black font-bold"> = may have:</span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  He may've done this to her.
+                </p>
+              </div>
+              {/* Mightn't /ˈmaɪtənt/ */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    Mightn't{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈmaɪtənt/
+                  </span>
+                  <span className="text-black font-bold"> = might not:</span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  Don’t panic – it mightn’t be true.
+                </p>
+              </div>
+
+              {/* Might've */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    Might've{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈmaɪtəv/
+                  </span>
+                  <span className="text-black font-bold"> = might have:</span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  Don’t panic – it mightn’t be true.
+                </p>
+              </div>
+
+              {/* Mustn't */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font- bg-red-600 text-white px-2 py-1 rounded">
+                    Mustn't{" "}
+                  </span>
+                  <span className="font- bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈmʌsənt/
+                  </span>
+                  <span className="text-black font-bold"> = must not: </span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  You mustn't worry too much about this.
+                </p>
+              </div>
+            </div>
+            <h2 className="text-green-500">
+              ❇️please, watch the videos for correct sound!
+            </h2>
           </div>
         </div>
 
-        {/* page 25 Verb Contraction */}
+        {/* page 30 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 25</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 30</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2628,77 +2952,1001 @@ const Pronunciation = () => {
           <hr className="border border-gray-400" />
           <div className="text-base">
             <h3 className="font-bold pb-2">Verb - Contractions: </h3>
-                <div className="">
-                  {/* Needn't */}
-                  <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="bg-red-600 text-white px-2 py-1 rounded">Needn't</span>
-                      <span className="bg-gray-800 text-white px-2 py-1 rounded">/ˈniːdənt/</span>
-                      <span className="text-black font-bold"> = need not:  </span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                       You needn't come until later.
-                    </p>
-                  </div>
-
-                  {/* 'n't  */}
-                  <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">'n't </span>
-                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">/-ənt/</span>
-                      <span className="text-black font-bold"> =  not :</span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                    Didn’t – I didn’t get anything.<br />
-                    Mustn’t – You mustn’t do this.
-                    </p>
-                  </div>
-
-                  {/* O’er  */}
-                  <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">O’er </span>
-                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded"> /ɔːə/</span>
-                      <span className="text-black font-bold"> =  not :</span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                     O’er land and sea they sped.
-                    </p>
-                  </div>
-                  {/* Oughtn't  */}
-                  <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">Oughtn't </span>
-                      <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded"> /ˈɔːtnt/</span>
-                      <span className="text-black font-bold"> = ought not :</span>
-                    </div>
-                    <p className="italic text-black ml-2 mt-1">
-                      He oughtn't to do that.
-                    </p>
-                  </div>
-
+            <div className="">
+              {/* Needn't */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="bg-red-600 text-white px-2 py-1 rounded">
+                    Needn't
+                  </span>
+                  <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈniːdənt/
+                  </span>
+                  <span className="text-black font-bold"> = need not: </span>
                 </div>
+                <p className="italic text-black ml-2 mt-1">
+                  You needn't come until later.
+                </p>
+              </div>
 
-                  <p>
-                    <span className="font-bold">’Re /ər/</span> short form of are:<br />
-                    You’re late.
-                  </p>
+              {/* 'n't  */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    'n't{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    /-ənt/
+                  </span>
+                  <span className="text-black font-bold"> = not :</span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  Didn’t – I didn’t get anything.
+                  <br />
+                  Mustn’t – You mustn’t do this.
+                </p>
+              </div>
 
-                  <p>
-                    <span className="font-bold">’S /-s/ /-z/</span> short form of is:<br />
-                    It’s in the cupboard.
-                  </p>
-            
+              {/* O’er  */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    O’er{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    {" "}
+                    /ɔːə/
+                  </span>
+                  <span className="text-black font-bold"> = not :</span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  O’er land and sea they sped.
+                </p>
+              </div>
+              {/* Oughtn't  */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="font-bold bg-red-600 text-white px-2 py-1 rounded">
+                    Oughtn't{" "}
+                  </span>
+                  <span className="font-bold bg-gray-800 text-white px-2 py-1 rounded">
+                    {" "}
+                    /ˈɔːtnt/
+                  </span>
+                  <span className="text-black font-bold"> = ought not :</span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  He oughtn't to do that.
+                </p>
+              </div>
+            </div>
+
+            <p>
+              <span className="font-bold">’Re /ər/</span> short form of are:
+              <br />
+              You’re late.
+            </p>
+
+            <p>
+              <span className="font-bold">’S /-s/ /-z/</span> short form of is:
+              <br />
+              It’s in the cupboard.
+            </p>
           </div>
         </div>
 
-        
-
-        
-        {/* page 25 Unvoiced Sound + S: */}
+        {/* page 31  Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 25</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 31</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold pb-2">Contractions: </h3>
+            <div className="">
+              {/* Needn't */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="bg-red-600 text-white px-2 py-1 rounded">
+                    Needn't
+                  </span>
+                  <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈniːdənt/
+                  </span>
+                  <span className="text-black font-bold"> = need not: </span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  You needn't come until later.
+                </p>
+              </div>
+              <p>
+                {" "}
+                <span className="font-bold">’S /-s/ /-z/</span> short form of
+                has: <br /> She’s gone home.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">’S /-s/ /-z/</span> short form used
+                in spoken questions: <br /> How’s this thing work?{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">’S /-s/ /-z/</span> short form of
+                “us” (with *let*): <br /> Let’s go swimming.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">Shan’t /ʃɑːnt/</span> shall not:{" "}
+                <br /> I shan’t be able to come.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">She’d /ʃiːd/</span> she had: <br />{" "}
+                She’d found the answer.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">She’d /ʃiːd/</span> she would:{" "}
+                <br /> She’d be a great man.{" "}
+              </p>{" "}
+            </div>
+          </div>
+        </div>
+        {/* page 32  Contraction */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 32</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold pb-2">Verb - Contractions: </h3>
+            <div className="">
+              {/* Needn't */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="bg-red-600 text-white px-2 py-1 rounded">
+                    Needn't
+                  </span>
+                  <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈniːdənt/
+                  </span>
+                  <span className="text-black font-bold"> = need not: </span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  You needn't come until later.
+                </p>
+              </div>
+              <p>
+                {" "}
+                <span className="font-bold">She’ll /ʃiːl/</span> she will:{" "}
+                <br /> She’ll be here later.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">She’s /ʃiːz/</span> she is: <br />{" "}
+                She’s a writer.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">She’s /ʃiːz/</span> she has: <br />{" "}
+                She’s got the most elegant writing style.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">Shouldn’t /ʃʊdnt/</span> should not:{" "}
+                <br /> You shouldn’t do things like that.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">Should’ve /ʃʊdəv/</span> should
+                have: <br /> You should’ve come to the party last night, Mayna.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">They’d /ðeɪd/</span> they had:{" "}
+                <br /> They’d three bottles of wine.{" "}
+              </p>{" "}
+            </div>
+          </div>
+        </div>
+        {/* page 33  Contraction */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 33</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold pb-2">Verb - Contractions: </h3>
+            <div className="">
+              {/* Needn't */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="bg-red-600 text-white px-2 py-1 rounded">
+                    Needn't
+                  </span>
+                  <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈniːdənt/
+                  </span>
+                  <span className="text-black font-bold"> = need not: </span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  You needn't come until later.
+                </p>
+              </div>
+              <p>
+                {" "}
+                <span className="font-bold">They’d /ðeɪd/</span> they would:{" "}
+                <br /> They’d love to see ‘Jurassic Park’.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">They’ll /ðeɪl/</span> they will:{" "}
+                <br /> They’ll be here any minute, if their train’s on time.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">They’re /ðeər/</span> they are:{" "}
+                <br /> They’re so in love.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">They’ve /ðeɪv/</span> they have:{" "}
+                <br /> They’ve really made a mess of things now.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">’Ve</span> short form of have:{" "}
+                <br /> I’ve been waiting for ages.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">Wanna /wɒnə/</span> “want to” or
+                “want a”: <br /> D’you wanna go now?
+                <br /> I wanna have a burger, mom.{" "}
+              </p>{" "}
+            </div>
+          </div>
+        </div>
+        {/* page 34  Contraction */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 34</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold pb-2">Contractions: </h3>
+            <div className="">
+              {/* Needn't */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="bg-red-600 text-white px-2 py-1 rounded">
+                    Needn't
+                  </span>
+                  <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈniːdənt/
+                  </span>
+                  <span className="text-black font-bold"> = need not: </span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  You needn't come until later.
+                </p>
+              </div>
+
+              <p>
+                {" "}
+                <span className="font-bold">Wasn’t /wɒznt/</span> was not:{" "}
+                <br /> It wasn’t you who told me that, weren’t you?{" "}
+              </p>
+            </div>
+            <div className="">
+              <p>
+                {" "}
+                <span className="font-bold">We’d /wiːd/</span> short form of we
+                had: <br /> We’d better be more careful in the future.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">We’d /wiːd/</span> short form of we
+                would: <br /> We’d be grateful for an answer.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">We’re /wɪə/</span> we are: <br />{" "}
+                We’re here, Saifa.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">Weren’t /wɜːnt/</span> short form of
+                were not: <br /> Weren’t we lucky with the weather?{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">We’ve /wiːv/</span> we have: <br />{" "}
+                We’ve been married eight years.{" "}
+              </p>{" "}
+            </div>
+          </div>
+        </div>
+        {/* page 35  Contraction */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 35</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold pb-2">Contractions: </h3>
+            <div className="">
+              {/* Needn't */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="bg-red-600 text-white px-2 py-1 rounded">
+                    Needn't
+                  </span>
+                  <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈniːdənt/
+                  </span>
+                  <span className="text-black font-bold"> = need not: </span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  You needn't come until later.
+                </p>
+              </div>
+              <p>
+                {" "}
+                <span className="font-bold">Who’d /huːd/</span> short form of
+                who had: <br /> She wondered who’d sent her the mysterious
+                email.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">Who’d /huːd/</span> short form of
+                who would: <br /> Well, who’d have thought Joey was going to
+                become so rich?{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">Who’ll /huːl/</span> short form of
+                who will: <br /> Who’ll be at the party tomorrow?{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">Who’re /huːər/</span> short form of
+                who are: <br /> The film begins with a young couple, who’re just
+                about to get married.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">Who’s /huːz/</span> short form of
+                who has: <br /> Who’s been chosen, do you know?{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">Who’s /huːz/</span> short form of
+                who is: <br /> Who’s that talking to Nafisa?{" "}
+              </p>{" "}
+            </div>
+          </div>
+        </div>
+        {/* page 36  Contraction */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 36</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold pb-2">Contractions: </h3>
+            <div className="">
+              {/* Needn't */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="bg-red-600 text-white px-2 py-1 rounded">
+                    Needn't
+                  </span>
+                  <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈniːdənt/
+                  </span>
+                  <span className="text-black font-bold"> = need not: </span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  You needn't come until later.
+                </p>
+              </div>
+              <p>
+                <span className="font-bold">Who’ve /huːv/</span> short form of
+                who have: <br /> Who’ve you asked so far?{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">Won’t /wəʊnt/</span> short form of
+                will not: <br /> I won’t go without you. Won’t it be nice to see
+                Tanisha again?{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">Wouldn’t /wʊdnt/</span> short form
+                of would not: <br /> I wouldn’t do that if I were you.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">You’d /juːd/</span> short form of
+                you had: <br /> It happened just after you’d left the room.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">You’d /juːd/</span> short form of
+                you would: <br /> You’d be much warmer in your black jacket.{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">You’ll /juːl/</span> short form of
+                you will: <br /> You’ll remember to tell her, won’t you?{" "}
+              </p>{" "}
+            </div>
+          </div>
+        </div>
+        {/* page 37 Verb Contraction */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 37</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold pb-2">Verb - Contractions: </h3>
+            <div className="">
+              {/* Needn't */}
+              <div>
+                <div className="flex items-center space-x-1">
+                  <span className="bg-red-600 text-white px-2 py-1 rounded">
+                    Needn't
+                  </span>
+                  <span className="bg-gray-800 text-white px-2 py-1 rounded">
+                    /ˈniːdənt/
+                  </span>
+                  <span className="text-black font-bold"> = need not: </span>
+                </div>
+                <p className="italic text-black ml-2 mt-1">
+                  You needn't come until later.
+                </p>
+              </div>
+              <p>
+                {" "}
+                <span className="font-bold">You’re /jɔːr/</span> short form of
+                you are: <br /> You’re so nice to me!{" "}
+              </p>{" "}
+              <p>
+                {" "}
+                <span className="font-bold">You’ve /juːv/</span> short form of
+                you have: <br /> If you’ve finished your pasta, then you can
+                have some dessert.{" "}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 31 Informal - Contractions: */}
+        <div className="p-3 text-black md:p-10 lg:p-16 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 31</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h2 className="font-bold pb-2">Informal - Contractions: </h2>
+            <div className="">
+              <p className="text-gray-900 leading-relaxed mb-2">
+                <span className="font-bold">1. Ain't </span> (am not/are not/is
+                not) = <span className="font-bold text-red-700"> /eɪnt/</span>
+              </p>
+              <p className="text-gray-900 leading-relaxed mb-2">
+                <span className="font-bold">2. Ain't </span> (has not/have not)
+                = <span className="font-bold text-red-700">/eɪnt/</span>
+              </p>
+              <p className="text-gray-900 leading-relaxed mb-2">
+                <span className="font-bold">3. Wanna </span> (want to) ={" "}
+                <span className="font-bold text-red-700">/ˈwɒnə/</span>
+              </p>
+              <p className="text-gray-900 leading-relaxed mb-2">
+                <span className="font-bold">4. Didntcha</span> (didn't you) ={" "}
+                <span className="font-bold text-red-700">/ˈdɪdntʃə/</span>
+              </p>
+              <p className="text-gray-900 leading-relaxed mb-2">
+                <span className="font-bold">5. Whatcha</span> (what have you) ={" "}
+                <span className="font-bold text-red-700">/ˈwɒtʃə/</span>
+              </p>
+              <p className="text-gray-900 leading-relaxed mb-2">
+                <span className="font-bold">6. Kinda </span>(kind of) ={" "}
+                <span className="font-bold text-red-700">/ˈkaɪndə/</span>
+              </p>
+              <p className="text-gray-900 leading-relaxed mb-2">
+                <span className="font-bold">7. Sorta </span>(sort of) ={" "}
+                <span className="font-bold text-red-700">/ˈsɔːtə/</span>
+              </p>
+              <p className="text-gray-900 leading-relaxed mb-2">
+                <span className="font-bold">8. Outta </span> (out of) ={" "}
+                <span className="font-bold text-red-700">/ˈaʊtə/</span>
+              </p>
+            </div>
+            <div className="max-w-fit mx-auto p-1 text-center border-2 border-blue-500 mt-1 rounded-md">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://youtu.be/5kPS12voEN0?si=QnQo7a0lRBSFvZKZ"
+              >
+                Contraction video
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* page 32 Informal - Contractions: */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 32</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold pb-2">Informal - Contractions: </h3>
+            <div className="">
+              <p className="text-gray-900 leading-relaxed mb-2">
+                <span className="font-bold">9. Alotta </span> (a lot of) ={" "}
+                <span className="font-bold text-red-700">/əˈlɒtə/</span>
+              </p>
+              <p className="text-gray-900 leading-relaxed mb-2">
+                <span className="font-bold">10. Lotsa </span> (lots of) ={" "}
+                <span className="font-bold text-red-700">/ˈlɒtsə/</span>
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">11. Mucha </span> (much of) ={" "}
+                <span className="font-bold text-red-700"> /ˈmʌtʃə/</span>
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">12. Cuppa </span> (cup of) ={" "}
+                <span className="font-bold text-red-700">ˈkʌpə/</span> /
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">13. Dunno</span> (don't know) ={" "}
+                <span className="font-bold text-red-700"> /dəˈnəʊ/</span>
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">14. Lemme </span> (let me) ={" "}
+                <span className="font-bold text-red-700"></span> /ˈlɛmi/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">15. Gimme </span> (give me) ={" "}
+                <span className="font-bold text-red-700"></span> /ˈgɪmi/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">16. Tell 'em</span> (tell them) ={" "}
+                <span className="font-bold text-red-700"> /ˈtɛləm/</span>
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">17. Cos </span> (because) ={" "}
+                <span className="font-bold text-red-700">/kəz/</span>
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">18. Innit? </span> (isn't it?) ={" "}
+                <span className="font-bold text-red-700"> /ˈɪnɪt/</span>
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">19. I'mma </span> (I'm going to) ={" "}
+                <span className="font-bold text-red-700"> /ˈaɪmə/</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 33 Informal - Contractions: */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 33</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold pb-2">Informal - Contractions: </h3>
+            <div className="">
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">20. Gonna</span> (going to) ={" "}
+                <span className="font-bold text-red-700"></span> /ˈgənə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">21. Needa </span> (need to) ={" "}
+                <span className="font-bold text-red-700"></span> /ˈniːdə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">22. Oughta</span> (ought to) ={" "}
+                <span className="font-bold text-red-700"></span> /ˈɔːtə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">23. Hafta</span> (have to) ={" "}
+                <span className="font-bold text-red-700"></span> /ˈhæftə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">24. Hasta</span> (has to) ={" "}
+                <span className="font-bold text-red-700"></span> /ˈhæstə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">Usta</span> 25. (used to) ={" "}
+                <span className="font-bold text-red-700"></span> /ˈjuːstə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">26. Supposta</span> (supposed to) ={" "}
+                <span className="font-bold text-red-700"></span> /səˈpəʊstə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">27. Whatcha</span> (what are you) ={" "}
+                <span className="font-bold text-red-700"></span> /ˈwɒtʃə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">28. Ya </span> (you/you are) ={" "}
+                <span className="font-bold text-red-700"></span> /jə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">29. Gotta</span> (have got to) ={" "}
+                <span className="font-bold text-red-700"></span> /ˈgɒtə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                <span className="font-bold">30. Shoulda</span> (should have) ={" "}
+                <span className="font-bold text-red-700"></span> /ˈʃʊdə/
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 34 Informal - Contractions: */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 34</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold pb-2">Informal - Contractions: </h3>
+            <div className="">
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                31. Shouldna (shouldn't have) = /ˈʃudnə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                32. Wouldna (wouldn't have) = /ˈwudnə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                33. She’da (she would have) = /ʃiːdə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                34. Coulda (could have) = /ˈkʊdə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                35. Woulda (would have) = /ˈwʊdə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                36. Mighta (might have) = /ˈmaɪtə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                37. Gotcha (got you) = /ˈgɒtʃə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                38. Musta (must have) = /ˈmʌstə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                39. Mussna (must not have) = /ˈmʌsnə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                40. Dontcha (don't you) = /ˈdəʊntʃə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                41. Wontcha (won't you) = /ˈwəʊntʃə/
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 35 Informal - Contractions: */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 35</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold pb-2">Informal - Contractions: </h3>
+            <div className="">
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                42. Betcha (bet you) = /ˈbetʃə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                43. D’you (do you) = /dʒə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                44. S’more (some more) = /sˈmɔːr/
+              </p>
+
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                Informal contractions with “have”:
+              </p>
+
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                45. Mighta = /ˈmaɪtə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                46. Musta = /ˈmʌstə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                47. Shoulda = /ˈʃʊdə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                48. Coulda = /ˈkʊdə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                49. Woulda = /ˈwʊdə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                50. Wouldna = /ˈwudnə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                51. She’da = /ʃiːdə/
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 36 Informal - Contractions: */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 36</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold pb-2">Informal - Contractions: </h3>
+            <div className="">
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                52. He’da = /ˈhiːdə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                53. I’da = /ˈaɪdə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                54. They’da = /ˈðeɪdə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                55. You’da = /ˈjuːdə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                56. Couldna = /ˈkʊdnə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                57. Shouldna = /ˈʃudnə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                58. Dontcha = /ˈdəʊntʃə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                59. Didn’tcha = /ˈdɪdntʃə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                60. Wontcha = /ˈwəʊntʃə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                61. Whatcha or Watcha = /ˈwɒtʃə/
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* page 37 Informal - Contractions: */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 37</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold pb-2">Informal - Contractions: </h3>
+            <div className="">
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                1. Gotcha = /ˈgɒtʃə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                62. Betcha = /ˈbetʃə/
+              </p>
+
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                Informal contractions with “of”:
+              </p>
+
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                63. Kinda = /ˈkaɪndə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                64. Outta = /ˈaʊtə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                65. Cuppa = /ˈkʌpə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                66. Sorta = /ˈsɔːtə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                67. Alotta = /əˈlɒtə/
+              </p>
+
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                Informal contractions with “to”:
+              </p>
+
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                68. Gotta = /ˈgɒtə/
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 38 Informal - Contractions: */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 38</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold pb-2">VInformal - Contractions: </h3>
+            <div className="">
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                69. Gonna = /ˈgɒnə/
+              </p>
+
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                70. Needa = /ˈniːdə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                71. Wanna = /ˈwɒnə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                72. Hafta = /ˈhæftə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                73. Hasta = /ˈhæstə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                74. Oughta = /ˈɔːtə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                75. Supposta = /səˈpəʊstə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                76. Usta = /ˈjuːstə/
+              </p>
+
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                Other informal contractions:
+              </p>
+
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                77. Gimme = /ˈgɪmi/
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* page 39 Informal - Contractions: */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 39</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="text-base">
+            <h3 className="font-bold pb-2">Informal - Contractions: </h3>
+            <div className="">
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                78. Lemme = /ˈlɛmi/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                79. Tell'em = /ˈteləm/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                80. Dunno = /dəˈnəʊ/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                81. Gotta = /ˈgɒtə/
+              </p>
+              <p className="text-gray-900 text-sm leading-relaxed mb-2">
+                82. C’mon = /kəˈmɒn/
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 31 Unvoiced Sound + S: */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 31</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2719,16 +3967,16 @@ const Pronunciation = () => {
                     {[["P/প;", "T/ট;", "K/ক;", "F/ ফ;"]].map(
                       ([one, two, three, four], index) => (
                         <tr key={index} className="hover:bg-gray-50">
-                          <td className="border border-gray-400 px-2 py-2">
+                          <td className="border border-gray-300 px-2 py-2">
                             {one}
                           </td>
-                          <td className="border border-gray-400 px-2 py-2">
+                          <td className="border border-gray-300 px-2 py-2">
                             {two}
                           </td>
-                          <td className="border border-gray-400 px-2 py-2">
+                          <td className="border border-gray-300 px-2 py-2">
                             {three}
                           </td>
-                          <td className="border border-gray-400 px-2 py-2">
+                          <td className="border border-gray-300 px-2 py-2">
                             {four}
                           </td>
                         </tr>
@@ -2739,52 +3987,50 @@ const Pronunciation = () => {
               </p>
               <div className="overflow-x-auto">
                 <p className="pt-2">
-                   <span className="font-bold">Rule-1.</span> <br />
+                  <span className="font-bold">Rule-1.</span> <br />
                   P/প; K/ট; K/ক; F/ ফ; - এরপর 'S' থাকলে 'S' এর উচ্চারণ
                   'স'/'চ'-এর মত হবে। যেমনঃ
                 </p>
                 <div className=" py-5">
-                  <table className="table-auto border-collapse border border-gray-400 shadow-2xl w-full text-center">
-                  <tbody>
-                    {[
-                      ["app", "apps", "/æps/", "অ্যাপস"],
-                      ["Bat", "Bats", "/bæts/", "ব্যাটস"],
-                      // ["Bat", "Bats", "/bæts/", "ব্যাটস"],
-                    ].map(([word, Example, IPA, BPA], index) => (
-                      <tr key={index} className="hover:bg-gray-50">
-                        <td className="border border-gray-400 px-1 py-1">
-                          {word}
-                        </td>
-                        <td className="border border-gray-400 px-1 py-1">
-                          {Example}
-                        </td>
-                        <td className="border border-gray-400 px-1 py-1">
-                          {IPA}
-                        </td>
-                        <td className="border border-gray-400 px-1 py-1">
-                          {BPA}
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
+                  <table className="table-auto border-collapse border border-gray-300 shadow-2xl w-full text-center">
+                    <tbody>
+                      {[
+                        ["app", "apps", "/æps/", "অ্যাপস"],
+                        ["Bat", "Bats", "/bæts/", "ব্যাটস"],
+                        // ["Bat", "Bats", "/bæts/", "ব্যাটস"],
+                      ].map(([word, Example, IPA, BPA], index) => (
+                        <tr key={index} className="hover:bg-gray-50">
+                          <td className="border border-gray-300 px-1 py-1">
+                            {word}
+                          </td>
+                          <td className="border border-gray-300 px-1 py-1">
+                            {Example}
+                          </td>
+                          <td className="border border-gray-300 px-1 py-1">
+                            {IPA}
+                          </td>
+                          <td className="border border-gray-300 px-1 py-1">
+                            {BPA}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
                 </div>
-                
               </div>
               <p className="pt-">
-                <span className="font-bold">Rule-2.</span>  <br />
+                <span className="font-bold">Rule-2.</span> <br />
                 p/প; t/ট; k/ক; f/ফ; - ছাড়া শব্দের শেষে অন্য কোন অক্ষর এর পরে 'S'
                 থাকলে 'S' এর উচ্চারণ 'z'/'য'/'জ' - এর মত হবে। যেমনঃ
               </p>
-              
             </div>
           </div>
         </div>
 
-        {/* page 26 Unvoiced Sound + S: */}
+        {/* page 32 Unvoiced Sound + S: */}
         <div className="p-4 text-black md:p-10 bg-[#EFE5D6] book-shadow ">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 26</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 32</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2794,9 +4040,9 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-500 py-1">
+            <h2 className="font-bold text-green-500 py-1">
               Unvoiced Sound + S:
-            </p>
+            </h2>
             <div className="pb-5 text-base">
               <table className="table-auto border-collapse border border-gray-300 shadow-2xl w-full text-center">
                 <tbody>
@@ -2805,16 +4051,16 @@ const Pronunciation = () => {
                     ["Pen", "pens", "/penz/", "ফেঞ্জ"],
                   ].map(([word, Example, IPA, BPA], index) => (
                     <tr key={index} className="hover:bg-gray-50">
-                      <td className="border border-gray-400 px-1 py-1">
+                      <td className="border border-gray-300 px-1 py-1">
                         {word}
                       </td>
-                      <td className="border border-gray-400 px-1 py-1">
+                      <td className="border border-gray-300 px-1 py-1">
                         {Example}
                       </td>
-                      <td className="border border-gray-400 px-1 py-1">
+                      <td className="border border-gray-300 px-1 py-1">
                         {IPA}
                       </td>
-                      <td className="border border-gray-400 px-1 py-1">
+                      <td className="border border-gray-300 px-1 py-1">
                         {BPA}
                       </td>
                     </tr>
@@ -2835,16 +4081,16 @@ const Pronunciation = () => {
                     ["Bus", "Buss", "/bæsız/", "বাসিয"],
                   ].map(([word, Example, IPA, BPA], index) => (
                     <tr key={index} className="hover:bg-gray-50">
-                      <td className="border border-gray-400 px-1 py-1">
+                      <td className="border border-gray-300 px-1 py-1">
                         {word}
                       </td>
-                      <td className="border border-gray-400 px-1 py-1">
+                      <td className="border border-gray-300 px-1 py-1">
                         {Example}
                       </td>
-                      <td className="border border-gray-400 px-1 py-1">
+                      <td className="border border-gray-300 px-1 py-1">
                         {IPA}
                       </td>
-                      <td className="border border-gray-400 px-1 py-1">
+                      <td className="border border-gray-300 px-1 py-1">
                         {BPA}
                       </td>
                     </tr>
@@ -2859,17 +4105,16 @@ const Pronunciation = () => {
                     Verb এর শেষে যদি (ed)- এর পূর্বে "p/প;", "t/ট;", "k/ক;", "f/
                     ফ;", থাকে তাহলে 'ed' এর উচ্চারণ /t/ -এর মত হবে। যেমনঃ
                   </p>
-                  
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* page 28 Unvoiced Sound + S: */}
-        <div className="p-4 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+        {/* page 33 Unvoiced Sound + S: */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 28</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 33</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2879,44 +4124,37 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-500">
-              Unvoiced Sound + S:
-            </p>
+            <p className="font-bold text-green-500 py-2">Unvoiced Sound + S:</p>
             <div className="pt-">
-                    <table className="table-auto border-collapse border border-gray-300 shadow-2xl w-full text-center py-5">
-                      <tbody>
-                        {[
-                          ["p/প/ফ", "P", "Develop", "Developed", "ডিভ'লফট"],
-                          ["t/ট/ঠ", "T", "walk", "walked", "ওয়াক্ট"],
-                          ["k/ক/খ", "K", "talked", "talked", "টক্ট"],
-                          // ["f/ফ", "F", "laugh", "laughed", "লাফট"],
-                        ].map(
-                          (
-                            [Sound, Letter, Word, participle, উচ্চারণ],
-                            index
-                          ) => (
-                            <tr key={index} className="hover:bg-gray-50">
-                              <td className="border border-gray-300 px-1 py-1">
-                                {Sound}
-                              </td>
-                              <td className="border border-gray-300 px-1 py-1">
-                                {Letter}
-                              </td>
-                              <td className="border border-gray-300 px-1 py-1">
-                                {Word}
-                              </td>
-                              <td className="border border-gray-300 px-1 py-1">
-                                {participle}
-                              </td>
-                              <td className="border border-gray-300 px-1 py-1">
-                                {উচ্চারণ}
-                              </td>
-                            </tr>
-                          )
-                        )}
-                      </tbody>
-                    </table>
-                  </div>
+              <table className="table-auto border-collapse border border-gray-300 shadow-2xl w-full text-center py-5">
+                <tbody>
+                  {[
+                    ["p/প/ফ", "P", "stop", "stopped", "স্টপ্ট"],
+                    ["t/ট/ঠ", "T", "walk", "walked", "ওয়াক্ট"],
+                    ["k/ক/খ", "K", "talked", "talked", "টক্ট"],
+                    // ["f/ফ", "F", "laugh", "laughed", "লাফট"],
+                  ].map(([Sound, Letter, Word, participle, উচ্চারণ], index) => (
+                    <tr key={index} className="hover:bg-gray-50">
+                      <td className="border border-gray-300 px-1 py-1">
+                        {Sound}
+                      </td>
+                      <td className="border border-gray-300 px-1 py-1">
+                        {Letter}
+                      </td>
+                      <td className="border border-gray-300 px-1 py-1">
+                        {Word}
+                      </td>
+                      <td className="border border-gray-300 px-1 py-1">
+                        {participle}
+                      </td>
+                      <td className="border border-gray-300 px-1 py-1">
+                        {উচ্চারণ}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
             <div className="text-base">
               <div className="">
                 <p className="pt-3">
@@ -2957,15 +4195,13 @@ const Pronunciation = () => {
               </div>
             </div>
           </div>
-          <p className="heading2 pt-5 font-bold text-center">
-            ASM English Academy
-          </p>
+          <h2 className="heading2 pt-2 text-center">ASM English Academy</h2>
         </div>
 
-        {/* page 29 Syllable */}
+        {/* page 34 Syllable */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-base lg:text-xl font-bold ">Page 29</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 34</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2978,220 +4214,27 @@ const Pronunciation = () => {
             <p className="font-bold  pt-1">Syllable(শব্দাংশ):</p>
             <div className="text-base">
               <p className="pt-2">
-                ইংরেজি শব্দ গঠন শিখতে syllable খুব গুরত্বপূর্ণ একটা অংশ। মোটা দাগে বলতে গেলে- syllable হলো শব্দের সেই
-                part বা অংশ যেটা ছাড়া ইংরেজির সঠিক উচ্চারণ সম্ভব নয়। <br />
+                ইংরেজি শব্দ গঠন শিখতে syllable খুব গুরত্বপূর্ণ একটা অংশ। মোটা
+                দাগে বলতে গেলে- syllable হলো শব্দের সেই part বা অংশ যেটা ছাড়া
+                ইংরেজির সঠিক উচ্চারণ সম্ভব নয়। <br />
                 যেমনঃ <br />
                 Badminton/bæd.minton/ [ব্যাড.মিনট্যন] <br />
               </p>
               <p className="">
                 Badminton শব্দের দুইটি অংশ 'bæd.minton এবং এই শব্দের মধ্যে তিনটি
                 স্বরধ্বনি রয়েছে যথা: /æ, I, ǝ/ ; কাজেই, Badminton শব্দটি তিন
-                syllable word।  <br /> 
-                একটি শব্দে যতগুলো স্বরধ্বনি (vowel sound) থাকবে
-                উক্ত শব্দের ততগুলো syllable হবে। যেমন: <br />
+                syllable word। <br />
+                একটি শব্দে যতগুলো স্বরধ্বনি (vowel sound) থাকবে উক্ত শব্দের
+                ততগুলো syllable হবে। যেমন: <br />
                 Bat - /b/æ/t/ (১ টি syllable) <br />
                 Teacher - /ˈtiːtʃə(r)/ - (২ টি syllable) <br />
                 Intelligent - /ɪnˈtelɪdʒəns/ - (৪ টি syllable) <br />
-                
               </p>
             </div>
           </div>
         </div>
 
-        {/* page 30 Syllable */}
-        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 30</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
-            >
-              Back to index
-            </button>
-          </div>
-          <hr className="border border-gray-400" />
-          <div className="">
-            <p className="font-bold">Syllable</p>
-            <div className="text-base">
-              <p className="">
-                 <span className="font-bold">Syllable দুই ধরণের আছেঃ</span> <br />
-                  (i) Open syllable এবং (ii) Closed syllable
-                </p>
-              <p className="pt-1">
-                <span className="font-bold">Closed Syllable:</span>  <br />
-                যদি syllable-এর শেষে consonant থাকে, তাকে closed syllable বলা
-                হয়ে থাকে। তাছাড়া, closed syllable vowel-এর উচ্চারণ short vowel
-                sound এর মত হয়ে থাকে। <br />
-                Can - /kæn/ - [ক্যান]; 
-                Hen - /hen/ - [হেন]; <br />
-              </p>
-              <p className="pt-1">
-                <span className="font-bold">Open Syllable:</span>  <br />
-                যদি syllable-এর শেষে Vowel থাকে, তাকে open syllable বলা হয়ে
-                থাকে। তাছাড়া, open syllable vowel-এর উচ্চারণ long vowel sound এর
-                মত হয়ে থাকে। <br />
-                Do - /du:/ - [ডূ:]; 
-                See - /si:/ - [সী:]; <br />
-              </p>
-            </div>
-          </div>
-          <h3 className="heading2 text-center pt-2">ASM English Academy</h3>
-        </div>
-
-        {/* page 31 Stress */}
-        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 31</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
-            >
-              Back to index
-            </button>
-          </div>
-          <hr className="border border-gray-400" />
-          <div className="">
-            <h2 className="font-bold text-pink-600">Stress(শ্বাসাঘাত/চাপ):</h2>
-            <div className="text-[15px]">
-              <p className="">
-              যে syllable এর শুরুতে stress চিহ্ন দেয়া
-              থাকে, উক্ত syllable কে stressed syllable বলে। 
-              যেমন: <br />
-              Attention - /əˈten.ʃn/ - [আ'টেনশান]। <br /> 
-              <span className="font-bold">Primary Stress - </span>
-              উত্তোলিত তিলক চিহ্নের/'/মাধ্যমে দেখানো হয়। তিলক চিহ্ন যুক্ত syllable এর উচ্চারণ একটু Louder এবং longer হয়। <br />  <span className="font-bold">Secodary Stress - </span>নিচে ডট/খাড়া চিহ্নের /./ মাধ্যমে দেখানো হয়। ডট/খাড়া চিহ্ন যুক্ত syllable এর উচ্চারণ একটু দূর্বল/কম Louder এবং কম longer হয়।
-              <br />
-              <span className="font-bold">ব্যাখ্যাঃ </span> এখানে Attention শব্দের দ্বিতীয় syllable এর শুরুতে
-              stress চিহ্ন দেওয়া হয়েছে। দ্বিতীয় syllable টি একটু
-              জোরালো এবং দীর্ঘ হবে। আর ৩য় syllable এর শুরুতে ডট/খাড়া চিহ্ন দেওয়া হয়েছে। এর উচ্চারণ Primary Stress এর চেয়ে একটু দূর্বল হবে। 
-                {/* উদাহরণ: <br /><br />
-                Important - /ım'pɔːtənt/ - [ইম'পটান্ট] <br />
-                Belief -/bi'li:f/ - [বি'লি:ফ] <br /> */}
-              </p>
-              
-            </div>
-          </div>
-        </div>
-
-        {/* page 32 Stress */}
-        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 32</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
-            >
-              Back to index
-            </button>
-          </div>
-          <hr className="border border-gray-400" />
-          <div className="">
-            <p className="font-bold text-pink-700">
-              Stress Rules:
-            </p>
-            <div className="text-base">
-             <p className="pt-1">
-                ➡️ সাফ কথাঃ <br /> 
-                প্রথম, দ্বিতীয়, ৩য়, ৪র্থ syllable এও stress হতে পারে। কিন্তু তিন/ততোধিক syllable এর শব্দে কখনও শেষ syllable এ stress হ্যনা। stress এর সঠিক প্রয়োগ না হলে শব্দের/ বাক্যের অর্থ পরিবর্তন হয়ে যেতে পারে।  <br />
-              </p>
-              <h2 className="text-green-700">1.Two Syllable Words-</h2>
-              <h3 className="text-pink-700">Noun & Adjective:</h3>
-              <p className="">
-              ➡️ দুই syllable word যদি Noun অথবা Adjective হয়, তাহলে অধিকাংশ
-              সময় প্রথম syllable এ stress হবে। যেমনঃ <br />
-              <span className="font-bold">hap</span>py - /ˈhæpi/ - ['হ্যাপী]  <br />
-              <span className="font-bold">Ap</span>ple -/ˈæpl/ - [অ্যাপল] <br />
-              <span className="font-bold">Lea</span>der - /'li:dər/ - [লি:ডার] <br />
-              <span className="font-bold">Dan</span>ger - /ˈdeɪndʒər/ - [ডেইন:জার] <br />
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* page 33 Stress */}
-        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 33</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
-            >
-              Back to index
-            </button>
-          </div>
-          <hr className="border border-gray-400" />
-          <div className="">
-            <p className="font-bold text-pink-700">
-              Stress Rules:
-            </p>
-            <div className="text-base">
-              <h3 className="text-pink-700">Verbs:</h3>
-              <p className="">
-              ➡️ দুই syllable word টি Verb হলে অধিকাংশ
-              সময় দ্বিতীয় Syllable এ Stress পড়ে যেমনঃ <br />
-              {/* Re<span className="font-bold">lax</span> - /rɪˈlæks/ - [রি 'ল্যাক্স] <br /> */}
-              Res<span className="font-bold">pect</span> -/rɪˈspekt/ - [রিস 'পেক্ট] <br />
-              
-              A<span className="font-bold">djust</span> - /əˈdʒʌst/ - [অ্যা 'জাস্ট] <br />
-              </p>
-              <h2 className="text-green-700">2. Compound Words:</h2>
-              <p className="">
-                👉 Compound words are formed when more than one words are combined to create new word.
-                </p>
-              <p className="">
-                <h3 className="text-pink-700">Compound Nouns:</h3>
-              ➡️ Compound Word টি Noun হলে firs-part এ Stress হবে। যেমনঃ <br />
-              <span className="font-bold">green</span>house - /ˈɡriːnhaʊs/ - [ 'গ্রিন:হাউচ ] <br />
-              <span className="font-bold">bath</span>room - /ˈbɑːθruːm/ -  [ 'বাথ:রুম ] <br />
-             
-              </p>
-
-              
-            </div>
-          </div>
-        </div>
-
-        {/* page 34 Stress */}
-        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 34</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
-            >
-              Back to index
-            </button>
-          </div>
-          <hr className="border border-gray-400" />
-          <div className="">
-            <p className="font-bold text-pink-700">
-              Stress Rules:
-            </p>
-            <div className="text-base">
-              <p className="">
-                <h3 className="text-pink-700">Compound Adjectives:</h3>
-              ➡️ Compound Word টি Adjective হলে second-part এ Stress হবে। যেমনঃ <br />
-              well-<span className="font-bold">kn</span>own - /ˌwel ˈnəʊn/ - [ওয়েল'নৌন] <br />
-              good-<span className="font-bold">loo</span>king - /ˌɡʊd ˈlʊkɪŋ/ - [গুড'লুকিং] <br />
-              </p>
-              <h3 className="text-pink-700">Compound Verbs: </h3>
-              <p className="">
-              ➡️ Compound Word টি Verb হলে অধিকাংশ
-              সময় দ্বিতীয় part এ Stress হবে। যেমনঃ <br />
-              out-<span className="font-bold">num</span>ber - /ˌaʊtˈnʌmbər/ - [আউট'নাম্বার] <br />
-              over-<span className="font-bold">egg</span> - /ˌəʊvər ˈeɡ/ - [ওভার'এগ] <br />
-              </p>
-              <h3 className="text-green-700">Words with Prefixes & Suffixes: </h3>
-              <p className="">
-              👉 Prefixes & Suffixes can also influence stess placement:
-              </p>
-
-              
-            </div>
-          </div>
-        </div>
-
-        {/* page 35 Stress */}
+        {/* page 35 Syllable */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 35</h2>
@@ -3204,29 +4247,30 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-pink-700">
-              Stress Rules:
-            </p>
+            <p className="font-bold">Syllable</p>
             <div className="text-base">
-               <p className="">
-              ➡️ <span className="text-pink-700 font-bold">Prefixes:</span> 
-            The stress remain on the main part, not ont the prefix. (সাধারণত প্রধান main-part এ Stress হবে) । যেমনঃ <br />
-              un<span className="font-bold">important</span>  - /ˌʌnɪmˈpɔːrtnt/ - [আনই'ম্পটান্ট] <br />
-             i <span className="font-bold">llogical</span> - ɪˈlɒdʒɪkl/ - [ই'লজিকল] <br />
+              <p className="">
+                <span className="font-bold">Syllable দুই ধরণের আছেঃ</span>{" "}
+                <br />
+                (i) Open syllable এবং (ii) Closed syllable
               </p>
-               <p className="">
-              ➡️ <span className="text-pink-700 font-bold">Suffixes: </span>
-            Some suffixes do not change the stress, while others do. Here are common patterns. ( Suffixes এ সাধারণত  Stress হয় না, কিছু হয়; এখানে কিছু প্যাটার্ন আলোচনা করা হলো)।  <br />
-            
-            <span className=" font-bold">👉 যে Suffix গুলো Stess পরিবর্তণ করেনাঃ</span> -ly, ness, full <br />
-            <span className="font-bold">use</span>ful - /ˈjuːsfl/ - ['ইউচঃফল] <br />
-            <span className="font-bold">aware</span>ness - /əˈweənəs/ - [আ'ওয়ানেচ] <br />
-            <span className="font-bold">calm</span>ly - /ˈkɑːmli/ - ['কাঃমলি] <br />
-
-            
+              <p className="pt-1">
+                <span className="font-bold">Closed Syllable:</span> <br />
+                যদি syllable-এর শেষে consonant থাকে, তাকে closed syllable বলা
+                হয়ে থাকে। তাছাড়া, closed syllable vowel-এর উচ্চারণ short vowel
+                sound এর মত হয়ে থাকে। <br />
+                Can - /kæn/ - [ক্যান]; Hen - /hen/ - [হেন]; <br />
+              </p>
+              <p className="pt-1">
+                <span className="font-bold">Open Syllable:</span> <br />
+                যদি syllable-এর শেষে Vowel থাকে, তাকে open syllable বলা হয়ে
+                থাকে। তাছাড়া, open syllable vowel-এর উচ্চারণ long vowel sound এর
+                মত হয়ে থাকে। <br />
+                Do - /du:/ - [ডূ:]; See - /si:/ - [সী:]; <br />
               </p>
             </div>
           </div>
+          <h3 className="heading2 text-center pt-2">ASM English Academy</h3>
         </div>
 
         {/* page 36 Stress */}
@@ -3239,30 +4283,31 @@ const Pronunciation = () => {
             >
               Back to index
             </button>
-          </div> 
+          </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-pink-700">
-              Stress Rules:
-            </p>
-            <div className="text-base">
+            <h2 className="font-bold text-pink-600">Stress(শ্বাসাঘাত/চাপ):</h2>
+            <div className="text-[15px]">
               <p className="">
-                <span className=" font-bold">👉যে সাফিক্স গুলোতে  Stress হয়/ কর</span> -ee, -eer, -ese, -ique, -esque <br />
-                
-                employ<span className="font-bold">ee</span> - /ɪmˈplɔɪiː/ - [ইমপ্ল'ই] <br />
-                engin<span className="font-bold">eer</span> - /ˌendʒɪˈnɪə(r)/ - [এঞ্জি'নিয়া(র)] <br />
-                Japanese<span className="font-bold">nese</span> - /ˌdʒæpəˈniːz/ - [জ্যাপ'নিজ] <br />
+                যে syllable এর শুরুতে stress চিহ্ন দেয়া থাকে, উক্ত syllable কে
+                stressed syllable বলে। যেমন: <br />
+                Attention - /əˈten.ʃn/ - [আ'টেনশান]। <br />
+                <span className="font-bold">Primary Stress - </span>
+                উত্তোলিত তিলক চিহ্নের/'/মাধ্যমে দেখানো হয়। তিলক চিহ্ন যুক্ত
+                syllable এর উচ্চারণ একটু Louder এবং longer হয়। <br />{" "}
+                <span className="font-bold">Secodary Stress - </span>নিচে
+                ডট/খাড়া চিহ্নের /./ মাধ্যমে দেখানো হয়। ডট/খাড়া চিহ্ন যুক্ত
+                syllable এর উচ্চারণ একটু দূর্বল/কম Louder এবং কম longer হয়।
+                <br />
+                <span className="font-bold">ব্যাখ্যাঃ </span> এখানে Attention
+                শব্দের দ্বিতীয় syllable এর শুরুতে stress চিহ্ন দেওয়া হয়েছে।
+                দ্বিতীয় syllable টি একটু জোরালো এবং দীর্ঘ হবে। আর ৩য় syllable এর
+                শুরুতে ডট/খাড়া চিহ্ন দেওয়া হয়েছে। এর উচ্চারণ Primary Stress এর
+                চেয়ে একটু দূর্বল হবে।
+                {/* উদাহরণ: <br /><br />
+                Important - /ım'pɔːtənt/ - [ইম'পটান্ট] <br />
+                Belief -/bi'li:f/ - [বি'লি:ফ] <br /> */}
               </p>
-              <h2 className="text-green-700">Multi-syllable Words</h2>
-              <p className="">
-                তিন বা তার অধীক Syllables যুক্ত শব্দগুলোতে Stress ব্যাপকভাবে বিভিন্ন রকমের হয়ে থাকে। However, নির্দিস্ট কিছু সাফিক্স স্ট্রেচ দেয়ার জন্য কিছু Clue দেয়:   <br />
-                <span className=" font-bold">👉Words ending in -tion, -sion, -ical, -ic, -ity:  </span>  এই সাফিক্স গুলোর পূর্বের সিলেবলে  সাধারণত Stress হয়<br />
-                
-                distri<span className="font-bold">bu</span>tion - /ˌdɪstrɪˈbjuːʃn/ - [ডিচট্রি'বিউঃসন] <br />
-                Con<span className="font-bold">clu</span>sion - /kənˈkluːʒn// - [কন'ক্লুঃজন] <br />
-              </p>
-              
-              
             </div>
           </div>
         </div>
@@ -3280,20 +4325,29 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-pink-700">
-              Stress Rules:
-            </p>
+            <p className="font-bold text-pink-700">Stress Rules:</p>
             <div className="text-base">
-              <h2 className="text-pink-700">Sentence Stress</h2>
-              <p className="">
-                ইংরেজিতে Word Stress এর সাথে Sentence Stress ও আবশ্যক। Sentence Stress বলতে বুঝায় বাক্যের মধ্যে ঐ শব্দের উপরে জোর/Stress  দেওয়া যে শব্দটির দ্বার বিশেষ অর্থ প্রকাশ/বহন করাতে চাই। সাধারণত Content Words ( যেমনঃ Noun, main Verbs, Adjective, and adverbs) stress হয়না। অপরপক্ষে function word (যেমনঃ articles, preposition, auxiliary verbs, and conjunction) unstressed থাকে। যেমনঃ <br />
-                 <span className="font-bold">I </span> <span className="font-bold text-pink-600">want</span> a <span className="font-bold text-pink-600">new car</span>.  <br />
-                <span className=" font-bold">👉 Content Words: </span> want new car. <br />
-                <span className=" font-bold">👉 Function Words: I, a. </span> <br />
-                Emphasis এর কারণে স্ট্রেচ পরিবর্ত হতেও পারে। মানে-. . .
-               
+              <p className="pt-1">
+                ➡️ সাফ কথাঃ <br />
+                প্রথম, দ্বিতীয়, ৩য়, ৪র্থ syllable এও stress হতে পারে। কিন্তু
+                তিন/ততোধিক syllable এর শব্দে কখনও শেষ syllable এ stress হ্যনা।
+                stress এর সঠিক প্রয়োগ না হলে শব্দের/ বাক্যের অর্থ পরিবর্তন হয়ে
+                যেতে পারে। <br />
               </p>
-              
+              <h2 className="text-green-700">1.Two Syllable Words-</h2>
+              <h3 className="text-pink-700">Noun & Adjective:</h3>
+              <p className="">
+                ➡️ দুই syllable word যদি Noun অথবা Adjective হয়, তাহলে অধিকাংশ
+                সময় প্রথম syllable এ stress হবে। যেমনঃ <br />
+                <span className="font-bold">hap</span>py - /ˈhæpi/ - ['হ্যাপী]{" "}
+                <br />
+                <span className="font-bold">Ap</span>ple -/ˈæpl/ - [অ্যাপল]{" "}
+                <br />
+                <span className="font-bold">Lea</span>der - /'li:dər/ - [লি:ডার]{" "}
+                <br />
+                <span className="font-bold">Dan</span>ger - /ˈdeɪndʒər/ -
+                [ডেইন:জার] <br />
+              </p>
             </div>
           </div>
         </div>
@@ -3311,35 +4365,39 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-700">
-              Stress Rules:
-            </p>
+            <p className="font-bold text-pink-700">Stress Rules:</p>
             <div className="text-base">
-              <h2 className="text-pink-700">Stress Shift for Emphasis</h2>
+              <h3 className="text-pink-700">Verbs:</h3>
               <p className="">
-                Sometimes, stress can shift to indicate the change of meaning or focus within a sentence: <br />
-                1. <span className="font-bold">I </span>didn't say he stole the money. (Someone else said it.) <br />
-                2. I didn't <span className="font-bold">say </span>he stole the money. (I didn't say it; I might have implied it or written it.) <br />
-                3. I didn't say <span className="font-bold">he </span> stole the money. (I said Someone else stole it.) <br />
-                4. I didn't say he <span className="font-bold">stole</span> the money. ( He borrowed it or found it.) <br />
-                
+                ➡️ দুই syllable word টি Verb হলে অধিকাংশ সময় দ্বিতীয় Syllable এ
+                Stress পড়ে যেমনঃ <br />
+                {/* Re<span className="font-bold">lax</span> - /rɪˈlæks/ - [রি 'ল্যাক্স] <br /> */}
+                Res<span className="font-bold">pect</span> -/rɪˈspekt/ - [রিস
+                'পেক্ট] <br />A<span className="font-bold">djust</span> -
+                /əˈdʒʌst/ - [অ্যা 'জাস্ট] <br />
+              </p>
+              <h2 className="text-green-700">2. Compound Words:</h2>
+              <p className="">
+                👉 Compound words are formed when more than one words are
+                combined to create new word.
               </p>
               <p className="">
-                ➡️ব্যতিক্রমঃ <br />
-                Word কিছু ব্যতিক্রম আছে মানসম্মত অভিধান দেখে দেখে চর্চা
-                করতে হবে। যেমনঃ <br />
-                {/* Anyone - /ˈeniwʌn/ - [এনীওয়ান] <br /> */}
-                Beautiful - /ˈbjuːtɪfl/- [বিউটিফল্] <br />
+                <h3 className="text-pink-700">Compound Nouns:</h3>
+                ➡️ Compound Word টি Noun হলে firs-part এ Stress হবে। যেমনঃ{" "}
+                <br />
+                <span className="font-bold">green</span>house - /ˈɡriːnhaʊs/ - [
+                'গ্রিন:হাউচ ] <br />
+                <span className="font-bold">bath</span>room - /ˈbɑːθruːm/ - [
+                'বাথ:রুম ] <br />
               </p>
-              
             </div>
-            <p className="heading2 text-center pt-10">ASM English Academy</p>
           </div>
         </div>
-        {/* page 33 Stress */}
+
+        {/* page 39 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 33</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 39</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3349,9 +4407,220 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-pink-700">
-              Stress (শ্বাসাঘাত)/চাপ:
-            </p>
+            <p className="font-bold text-pink-700">Stress Rules:</p>
+            <div className="text-base">
+              <p className="">
+                <h3 className="text-pink-700">Compound Adjectives:</h3>
+                ➡️ Compound Word টি Adjective হলে second-part এ Stress হবে।
+                যেমনঃ <br />
+                well-<span className="font-bold">kn</span>own - /ˌwel ˈnəʊn/ -
+                [ওয়েল'নৌন] <br />
+                good-<span className="font-bold">loo</span>king - /ˌɡʊd ˈlʊkɪŋ/
+                - [গুড'লুকিং] <br />
+              </p>
+              <h3 className="text-pink-700">Compound Verbs: </h3>
+              <p className="">
+                ➡️ Compound Word টি Verb হলে অধিকাংশ সময় দ্বিতীয় part এ Stress
+                হবে। যেমনঃ <br />
+                out-<span className="font-bold">num</span>ber - /ˌaʊtˈnʌmbər/ -
+                [আউট'নাম্বার] <br />
+                over-<span className="font-bold">egg</span> - /ˌəʊvər ˈeɡ/ -
+                [ওভার'এগ] <br />
+              </p>
+              <h3 className="text-green-700">
+                Words with Prefixes & Suffixes:{" "}
+              </h3>
+              <p className="">
+                👉 Prefixes & Suffixes can also influence stess placement:
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 40 Stress */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 40</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold text-pink-700">Stress Rules:</p>
+            <div className="text-base">
+              <p className="">
+                ➡️ <span className="text-pink-700 font-bold">Prefixes:</span>
+                The stress remain on the main part, not ont the prefix. (সাধারণত
+                প্রধান main-part এ Stress হবে) । যেমনঃ <br />
+                un<span className="font-bold">important</span> - /ˌʌnɪmˈpɔːrtnt/
+                - [আনই'ম্পটান্ট] <br />i{" "}
+                <span className="font-bold">llogical</span> - ɪˈlɒdʒɪkl/ -
+                [ই'লজিকল] <br />
+              </p>
+              <p className="">
+                ➡️ <span className="text-pink-700 font-bold">Suffixes: </span>
+                Some suffixes do not change the stress, while others do. Here
+                are common patterns. ( Suffixes এ সাধারণত Stress হয় না, কিছু হয়;
+                এখানে কিছু প্যাটার্ন আলোচনা করা হলো)। <br />
+                <span className=" font-bold">
+                  👉 যে Suffix গুলো Stess পরিবর্তণ করেনাঃ
+                </span>{" "}
+                -ly, ness, full <br />
+                <span className="font-bold">use</span>ful - /ˈjuːsfl/ -
+                ['ইউচঃফল] <br />
+                <span className="font-bold">aware</span>ness - /əˈweənəs/ -
+                [আ'ওয়ানেচ] <br />
+                <span className="font-bold">calm</span>ly - /ˈkɑːmli/ -
+                ['কাঃমলি] <br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 41 Stress */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 41</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold text-pink-700">Stress Rules:</p>
+            <div className="text-base">
+              <p className="">
+                <span className=" font-bold">
+                  👉যে সাফিক্স গুলোতে Stress হয়/ কর
+                </span>{" "}
+                -ee, -eer, -ese, -ique, -esque <br />
+                employ<span className="font-bold">ee</span> - /ɪmˈplɔɪiː/ -
+                [ইমপ্ল'ই] <br />
+                engin<span className="font-bold">eer</span> - /ˌendʒɪˈnɪə(r)/ -
+                [এঞ্জি'নিয়া(র)] <br />
+                Japanese<span className="font-bold">nese</span> - /ˌdʒæpəˈniːz/
+                - [জ্যাপ'নিজ] <br />
+              </p>
+              <h2 className="text-green-700">Multi-syllable Words</h2>
+              <p className="">
+                তিন বা তার অধীক Syllables যুক্ত শব্দগুলোতে Stress ব্যাপকভাবে
+                বিভিন্ন রকমের হয়ে থাকে। However, নির্দিস্ট কিছু সাফিক্স স্ট্রেচ
+                দেয়ার জন্য কিছু Clue দেয়: <br />
+                <span className=" font-bold">
+                  👉Words ending in -tion, -sion, -ical, -ic, -ity:{" "}
+                </span>{" "}
+                এই সাফিক্স গুলোর পূর্বের সিলেবলে সাধারণত Stress হয়
+                <br />
+                distri<span className="font-bold">bu</span>tion -
+                /ˌdɪstrɪˈbjuːʃn/ - [ডিচট্রি'বিউঃসন] <br />
+                Con<span className="font-bold">clu</span>sion - /kənˈkluːʒn// -
+                [কন'ক্লুঃজন] <br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 42 Stress */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 42</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold text-pink-700">Stress Rules:</p>
+            <div className="text-base">
+              <h2 className="text-pink-700">Sentence Stress</h2>
+              <p className="">
+                ইংরেজিতে Word Stress এর সাথে Sentence Stress ও আবশ্যক। Sentence
+                Stress বলতে বুঝায় বাক্যের মধ্যে ঐ শব্দের উপরে জোর/Stress দেওয়া
+                যে শব্দটির দ্বার বিশেষ অর্থ প্রকাশ/বহন করাতে চাই। সাধারণত
+                Content Words ( যেমনঃ Noun, main Verbs, Adjective, and adverbs)
+                stress হয়না। অপরপক্ষে function word (যেমনঃ articles,
+                preposition, auxiliary verbs, and conjunction) unstressed থাকে।
+                যেমনঃ <br />
+                <span className="font-bold">I </span>{" "}
+                <span className="font-bold text-pink-600">want</span> a{" "}
+                <span className="font-bold text-pink-600">new car</span>. <br />
+                <span className=" font-bold">👉 Content Words: </span> want new
+                car. <br />
+                <span className=" font-bold">
+                  👉 Function Words: I, a.{" "}
+                </span>{" "}
+                <br />
+                Emphasis এর কারণে স্ট্রেচ পরিবর্ত হতেও পারে। মানে-. . .
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 43 Stress */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 43</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold text-green-700">Stress Rules:</p>
+            <div className="text-base">
+              <h2 className="text-pink-700">Stress Shift for Emphasis</h2>
+              <p className="">
+                Sometimes, stress can shift to indicate the change of meaning or
+                focus within a sentence: <br />
+                1. <span className="font-bold">I </span>didn't say he stole the
+                money. (Someone else said it.) <br />
+                2. I didn't <span className="font-bold">say </span>he stole the
+                money. (I didn't say it; I might have implied it or written it.){" "}
+                <br />
+                3. I didn't say <span className="font-bold">he </span> stole the
+                money. (I said Someone else stole it.) <br />
+                4. I didn't say he <span className="font-bold">stole</span> the
+                money. ( He borrowed it or found it.) <br />
+              </p>
+              <p className="">
+                ➡️ব্যতিক্রমঃ <br />
+                Word কিছু ব্যতিক্রম আছে মানসম্মত অভিধান দেখে দেখে চর্চা করতে
+                হবে। যেমনঃ <br />
+                {/* Anyone - /ˈeniwʌn/ - [এনীওয়ান] <br /> */}
+                Beautiful - /ˈbjuːtɪfl/- [বিউটিফল্] <br />
+              </p>
+            </div>
+            <p className="heading2 text-center pt-10">ASM English Academy</p>
+          </div>
+        </div>
+
+        {/* page 44 Stress */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 44</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold text-pink-700">Stress (শ্বাসাঘাত)/চাপ:</p>
             <div className="text-base">
               <p className="">
                 /ɪ/ <br />
@@ -3371,10 +4640,177 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 23 Elision */}
+        {/* page 45 Assimilation*/}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-base lg:text-xl font-bold ">Page 45</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold text-green-400 py-1">
+              Assimilation('সন্ধি'):
+            </p>
+            <div className=" md:text-base">
+              <p className="">
+                ইংরেজিতে দ্রুত বা অনর্গল কথা বলার আরেকটি মাধ্যম হলো Assimilation
+                বা 'সন্ধি' যার অর্থ হলো একসাথে ২টি বা ৩টি ইংরেজি শব্দ একত্রে
+                উচ্চারণ করা।
+                <br />
+                এখানে মনে রাখতে হবে যে এখানে প্রথম শব্দের শেষ sound-এর সাথে ২য়
+                শব্দের প্রথম sound এর Assimilation বা সন্ধি হবে। <br />
+                নিম্নে অনেকগুলো উদাহরণ প্রদত্ত হলঃ <br />
+              </p>
+              <p className="pt-2">
+                Assimilation-1 <br />
+                d + y = জ (/d/→/dʒ/) <br />
+                /d/ sound এর পরিবর্তে/dʒ/ (জ) sound উচ্চারণ করুন। <br />
+                Would you <br />
+                Would<sup>dʒ</sup>d you - উজ + ইউ = উজিউ <br />
+                Did you <br />
+                Did you - ডিজ + ইউ = ডিজিউ <br />
+                Had you <br />
+                Ha<sup>dʒ</sup>d you - হ্যাজ + ইউ = হ্যাজিউ
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 46 Assimilation */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-base lg:text-xl font-bold ">Page 46</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold text-green-400 py-1">
+              Assimilation(সন্ধি):
+            </p>
+            <div className=" text-sm md:text-base text-justify">
+              <p className="">
+                Assimilation-2. <br />
+                t + y = (/t/ → /t∫/) <br />
+                /t/ sound এর পরিবর্তে /tʃ/ (চ) sound উচ্চারণ করুন। <br />
+                Meet you <br />
+                Meets you - মিচ + ইউ = মিচিউ <br />
+                Get you <br />
+                Gets you - গেচ + ইউ = গেচিউ <br />
+                But you <br />
+                But you - বাচ + ইউ = বাচিউ <br />
+              </p>
+              <p className="pt-2">
+                Assimilation-3 <br />
+                N + M = ম (/n/ → /m/) <br />
+                /n/ sound এর পরিবর্তে /m/ (ম) sound উচ্চারণ করুন। <br />
+                One more: <br />
+                Omne more ওয়াম + মো = ওয়ামো <br />
+                Can make: <br />
+                Can make -খ্যাম + মেইখ = খ্যামেইখ <br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 47 Assimilation*/}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-base lg:text-xl font-bold ">Page 47</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold text-green-400 py-1">
+              Assimilation(সন্ধি):
+            </p>
+            <div className=" text-sm md:text-base text-justify">
+              <p className="">
+                Assimilation-4 <br />
+                /d/ → /b/ অর্থাৎ/d/ sound এর পরিবর্তে /b/ sound উচ্চারণ করা হয়ে
+                থাকে। <br />
+                Good morning: <br />
+                Goo'd morning - গুব + মনিং = গুবমনিং <br />
+                Good bye: <br />
+                Goo'd bye - গুব + বাই = গুবাই <br />
+                Bad boy: <br />
+                Ba'd boy - ব্যাব + বয় = ব্যাবয় <br />
+                Stand by: <br />
+                Stan'd by - স্ট্যাম্ব + বাই = স্ট্যাম্ববাই <br />
+              </p>
+              <p className="pt-2">
+                Assimilation-5 <br />
+                /t/ → /k/ অর্থাৎ/t/ sound এর পরিবর্তে /k/ sound উচ্চারণ করা হয়ে
+                থাকে। <br />
+                Bad girls: <br />
+                Bad girl - ব্যাখ + গাল = ব্যাকগাল <br />
+                Bold crew: <br />
+                Bold crew - বৌল্ক + ক্রু = বৌল্কখ্রু <br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* page 48 Assimilation*/}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-base lg:text-xl font-bold ">Page 48</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold text-green-400 py-1">
+              Assimilation(সন্ধি):
+            </p>
+            <div className=" text-sm md:text-base text-justify">
+              <p className="">
+                Assimilation-6 <br />
+                /n/ ⇒ /n/ অর্থাৎ /n/ sound এর পরিবর্তে /ŋ/ sound উচ্চারণ করা হয়ে
+                থাকে। <br />
+                Can cook: <br />
+                Ca'n cook - খ্যাং + খুক = খ্যাংখুক <br />
+                Open court: <br />
+                Ope'n court - ঔফেং + খোট = ঔফেংখোট <br />
+              </p>
+              <p className="pt-2">
+                Assimilation-7 <br />
+                /θ/থ ⇒ /s/ অর্থাৎ /0/থ sound এর পরিবর্তে /s/ sound উচ্চারণ করা
+                হয়ে থাকে। <br />
+                Both players: <br />
+                Both players - বৌস + ফ্লেইআজ = বৌসফ্রেইআজ <br />
+                North-south: <br />
+                North-south নর্স + সাউদ = নর্সাউদ <br />
+                With students: <br />
+                With students উইস + স্টুডেন্টস = উইস্টুডেন্টস <br />
+              </p>
+            </div>
+            <p className="heading2 text-center pt-5">ASM English Academy</p>
+          </div>
+        </div>
+
+        {/* page 45 Elision */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 23</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 45</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3389,7 +4825,7 @@ const Pronunciation = () => {
               <p className="">
                 ইংরেজি দ্রুত বলার আরেকটি মাধ্যম হলো Elision বা ধ্বনিলোপ যেখানে
                 ২টি sound এর মধ্যে যে কোন একটি sound এর অনুচ্চারিত থাকে। <br />
-               <span className="font-bold">Rule: </span> <br />
+                <span className="font-bold">Rule: </span> <br />
                 যদি কোন শব্দের শেষ অক্ষর /t/,/d/, /k/থাকে এবং পরবর্তী শব্দের ১ম
                 অক্ষর consonant sound থাকে তাহলে ঐ /t/,/d/, /k/এর উচ্চারণ লোপ
                 পায়, অর্থাৎ উচ্চারিত হয় না। সেক্ষেত্রে /t/,/d/, /k/এর স্থলে একটা
@@ -3407,10 +4843,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 24 Elision */}
+        {/* page 46 Elision */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 24</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 46</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3556,173 +4992,6 @@ const Pronunciation = () => {
                 In and out- /ɪ_nænd.aʊt/ - [ইন্যান্ডাউট] <br />
                 Beat it - /br_txt/ - [বিটিট] <br />
                 Look at - / lv_kæt/ - [লুক্যাট] <br />
-              </p>
-            </div>
-            <p className="heading2 text-center pt-5">ASM English Academy</p>
-          </div>
-        </div>
-
-        {/* page 37 Assimilation*/}
-        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-base lg:text-xl font-bold ">Page 37</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
-            >
-              Back to index
-            </button>
-          </div>
-          <hr className="border border-gray-400" />
-          <div className="">
-            <p className="font-bold text-green-400 py-1">
-              Assimilation('সন্ধি'):
-            </p>
-            <div className=" text-sm md:text-base">
-              <p className="">
-                ইংরেজিতে দ্রুত বা অনর্গল কথা বলার আরেকটি মাধ্যম হলো Assimilation
-                বা 'সন্ধি' যার অর্থ হলো একসাথে ২টি বা ৩টি ইংরেজি শব্দ একত্রে
-                উচ্চারণ করা।
-                <br />
-                এখানে মনে রাখতে হবে যে এখানে প্রথম শব্দের শেষ sound-এর সাথে ২য়
-                শব্দের প্রথম sound এর Assimilation বা সন্ধি হবে। <br />
-                নিম্নে অনেকগুলো উদাহরণ প্রদত্ত হলঃ <br />
-              </p>
-              <p className="pt-2">
-                Assimilation-1 <br />
-                d + y = জ (/d/→/dʒ/) <br />
-                /d/ sound এর পরিবর্তে/dʒ/ (জ) sound উচ্চারণ করুন। <br />
-                Would you <br />
-                Would<sup>dʒ</sup>d you - উজ + ইউ = উজিউ <br />
-                Did you <br />
-                Did you - ডিজ + ইউ = ডিজিউ <br />
-                Had you <br />
-                Ha<sup>dʒ</sup>d you - হ্যাজ + ইউ = হ্যাজিউ
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* page 38 Assimilation */}
-        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-base lg:text-xl font-bold ">Page 38</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
-            >
-              Back to index
-            </button>
-          </div>
-          <hr className="border border-gray-400" />
-          <div className="">
-            <p className="font-bold text-green-400 py-1">
-              Assimilation(সন্ধি):
-            </p>
-            <div className=" text-sm md:text-base text-justify">
-              <p className="">
-                Assimilation-2. <br />
-                t + y = (/t/ → /t∫/) <br />
-                /t/ sound এর পরিবর্তে /tʃ/ (চ) sound উচ্চারণ করুন। <br />
-                Meet you <br />
-                Meets you - মিচ + ইউ = মিচিউ <br />
-                Get you <br />
-                Gets you - গেচ + ইউ = গেচিউ <br />
-                But you <br />
-                But you - বাচ + ইউ = বাচিউ <br />
-              </p>
-              <p className="pt-2">
-                Assimilation-3 <br />
-                N + M = ম (/n/ → /m/) <br />
-                /n/ sound এর পরিবর্তে /m/ (ম) sound উচ্চারণ করুন। <br />
-                One more: <br />
-                Omne more ওয়াম + মো = ওয়ামো <br />
-                Can make: <br />
-                Can make -খ্যাম + মেইখ = খ্যামেইখ <br />
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* page 39 Assimilation*/}
-        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-base lg:text-xl font-bold ">Page 39</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
-            >
-              Back to index
-            </button>
-          </div>
-          <hr className="border border-gray-400" />
-          <div className="">
-            <p className="font-bold text-green-400 py-1">
-              Assimilation(সন্ধি):
-            </p>
-            <div className=" text-sm md:text-base text-justify">
-              <p className="">
-                Assimilation-4 <br />
-                /d/ → /b/ অর্থাৎ/d/ sound এর পরিবর্তে /b/ sound উচ্চারণ করা হয়ে
-                থাকে। <br />
-                Good morning: <br />
-                Goo'd morning - গুব + মনিং = গুবমনিং <br />
-                Good bye: <br />
-                Goo'd bye - গুব + বাই = গুবাই <br />
-                Bad boy: <br />
-                Ba'd boy - ব্যাব + বয় = ব্যাবয় <br />
-                Stand by: <br />
-                Stan'd by - স্ট্যাম্ব + বাই = স্ট্যাম্ববাই <br />
-              </p>
-              <p className="pt-2">
-                Assimilation-5 <br />
-                /t/ → /k/ অর্থাৎ/t/ sound এর পরিবর্তে /k/ sound উচ্চারণ করা হয়ে
-                থাকে। <br />
-                Bad girls: <br />
-                Bad girl - ব্যাখ + গাল = ব্যাকগাল <br />
-                Bold crew: <br />
-                Bold crew - বৌল্ক + ক্রু = বৌল্কখ্রু <br />
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* page 40 Assimilation*/}
-        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-base lg:text-xl font-bold ">Page 40</h2>
-            <button
-              onClick={goToContents}
-              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
-            >
-              Back to index
-            </button>
-          </div>
-          <hr className="border border-gray-400" />
-          <div className="">
-            <p className="font-bold text-green-400 py-1">
-              Assimilation(সন্ধি):
-            </p>
-            <div className=" text-sm md:text-base text-justify">
-              <p className="">
-                Assimilation-6 <br />
-                /n/ ⇒ /n/ অর্থাৎ /n/ sound এর পরিবর্তে /ŋ/ sound উচ্চারণ করা হয়ে
-                থাকে। <br />
-                Can cook: <br />
-                Ca'n cook - খ্যাং + খুক = খ্যাংখুক <br />
-                Open court: <br />
-                Ope'n court - ঔফেং + খোট = ঔফেংখোট <br />
-              </p>
-              <p className="pt-2">
-                Assimilation-7 <br />
-                /θ/থ ⇒ /s/ অর্থাৎ /0/থ sound এর পরিবর্তে /s/ sound উচ্চারণ করা
-                হয়ে থাকে। <br />
-                Both players: <br />
-                Both players - বৌস + ফ্লেইআজ = বৌসফ্রেইআজ <br />
-                North-south: <br />
-                North-south নর্স + সাউদ = নর্সাউদ <br />
-                With students: <br />
-                With students উইস + স্টুডেন্টস = উইস্টুডেন্টস <br />
               </p>
             </div>
             <p className="heading2 text-center pt-5">ASM English Academy</p>
@@ -4715,7 +5984,6 @@ const Pronunciation = () => {
               ) {
                 flipBook.current.pageFlip().flip(jumpPage);
               }
-              
             }}
           >
             Go
@@ -4742,24 +6010,10 @@ const Pronunciation = () => {
           ))}
         </div>
       </div>
+      <div className=""></div>
 
-      
-
-          <div className="space-y-4 text-sm leading-relaxed">
-
-                  
-
-                  
-
-
-                  
-
-              </div>
-
-
-
-
-        </div>
+      <div className=""></div>
+    </div>
   );
 };
 

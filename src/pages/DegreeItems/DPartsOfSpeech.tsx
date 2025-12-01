@@ -71,7 +71,7 @@ const DPartsOfSpeech = () => {
           <br />
           Current - Currency.
           <br />
-          অনুরুপভাবেঃ Cy/Ce উঠিয়ে দিয়ে-- যোগ করলে Adjective হবে।
+          অনুরুপভাবেঃ Cy/Ce উঠিয়ে দিয়ে-nt যোগ করলে Adjective হবে।
           <br />
           যেমন- <br />
           Importance - Important
@@ -79,19 +79,14 @@ const DPartsOfSpeech = () => {
           Absent - Absence
           <br />
           <br />
-          (2) Adject এর শেষে ate/ et থাকলে-t- et এর পরিবর্তে cy যোগ করতে হয়
-          <br />
-          যেমন- Secret-Secrecy.
-          <br />
-          <br />
-          (3) Adjective এর শেষে ar/ or থাকলে (ity যোগ করলে Noun হয় -
+          (2) Adjective এর শেষে ar/ or থাকলে (ity যোগ করলে Noun হয় -
           Popular-Popularity. <br />
           অনুরুপ - ity তুলে দিলে Adjective হবে।
           <br />
           যেমন-যেমন- Cruelty - cruel
           <br />
           <br />
-          (4) Adjective এর শেষে el, al, le, il, ile থাকলে ty বা ity যোগ করে Noun
+          (3) Adjective এর শেষে el, al, le, il, ile থাকলে ty বা ity যোগ করে Noun
           গঠন করা হয় এক্ষেত্রে Adjective এর শেষের 'e' এর পরিবর্তে i হবে।
           <br />
           যেমন- <br />
@@ -101,7 +96,7 @@ const DPartsOfSpeech = () => {
           Nobility- Noble
           <br />
           <br />
-          (5) Adjective এর শেষে ous থাকলে ous এর পরিবর্তে ity যোগ করলে Noun হয়-
+          (4) Adjective এর শেষে ous থাকলে ous এর পরিবর্তে ity যোগ করলে Noun হয়-
           <br />
           যেমন-
           <br />
@@ -111,7 +106,7 @@ const DPartsOfSpeech = () => {
           অনুরুপ ity উযিয়ে দিলে Adjective হবে।
           <br />
           <br />
-          (6) কতকগুলো Adjective এর শেষে ness যোগ করলে Noun হয়। <br />
+          (5) কতকগুলো Adjective এর শেষে ness যোগ করলে Noun হয়। <br />
           যেমন-
           <br />
           Aware-awareness
@@ -123,8 +118,7 @@ const DPartsOfSpeech = () => {
           Freshness-Fresh
           <br />
           <br />
-          Verb থেকে Noun এবং Noun থেকে Verb
-          <br />
+          <h2 className="">Verb থেকে Noun এবং Noun থেকে Verb</h2>
           (1) Verb এর শেষে ate/te /t থাকলে ion যোগ করলে Noun হয়। তবে এক্ষেত্রে e
           থাকলে উঠে যায়। যেমন-
           <br />
@@ -155,14 +149,14 @@ const DPartsOfSpeech = () => {
           অনুরুপ - উল্টাটা করলেই Verbহবে।
           <br />
           <br />
-          (4) Verb এর শেষে fy থাকলে fy এর পরিবর্তে action যুক্ত করতে হয়।
+          (4) Verb এর শেষে fy থাকলে fy এর পরিবর্তে ication যুক্ত করতে হয়।
           <br />
           যেমন- rectify - rectification
           <br />
-          অনুরুপ action উঠিয়ে fy যোগ করলে Verb হবে।
+          অনুরুপ ication উঠিয়ে fy যোগ করলে Verb হবে।
           <br />
           <br />
-          (5) isc বা ize থাকলে উঠিয়ে ation যোগ করলে Noun হবে।
+          (5) ise বা ize থাকলে e  উঠিয়ে ation যোগ করলে Noun হবে।
           <br />
           যেমন- Civilise - Civilisation.
           <br />
