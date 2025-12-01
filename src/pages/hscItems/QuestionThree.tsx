@@ -1,15 +1,33 @@
 const QuestionThree = () => {
   return (
-    <div>
-      <div className="text-center py-20">
+    <div className="px-5">
+      <div className="text-center py-20 px-5">
         <h1 className="text-green-400">Question Three</h1>
         <p className="">Summary/ theme writing</p>
       </div>
-      <div className="px-5">
-        Part 2<br />
+      <div className="">
+        <h1 className="">Part-1</h1>
+        <h3 className="">Summary/theme short technique:</h3>
+        <p className="">
+          Summary: The passage has discussed about the importance of{" "}
+          <span className="text-pink-700 font-bold">[main word]</span> .{" "}
+          <span className="font-bold">
+            [three or four line from the passage]
+          </span>{" "}
+          . Here, by reading the passage we learned a lot of thing and we should
+          try to apply <span className="font-bold">[this/these]</span>{" "}
+          <span className="font-bold">[idea(s)/ideal(s)]</span> in our practical
+          life.
+        </p>
+      </div>
+      <div className="">
+        <h1>
+          {" "}
+          Part - 2<br />
+        </h1>
         Writing Summary of the Poem
         <br />
-        Board Exam Based I ercises
+        Board Exam Based exercises
         <br />
         <br />
         1. Write a summary of the following poem.

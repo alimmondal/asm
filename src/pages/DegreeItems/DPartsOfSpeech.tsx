@@ -26,13 +26,13 @@ const DPartsOfSpeech = () => {
           <br />
           Noun চিনিবার উপায়ঃ <br />
           শব্দের শেষে - Hood, Our, er, or, tion, sion, Ment, ship, nce, ance,
-          ty, th, ht, ness, ist, val ism, asm থাকলে Noun হয়।
+          ty, th, ht, ness, ist, val ism, asm, dom থাকলে Noun হয়।
           <br />
           Example:
           <br />
           Favour, Owner, visitor, condition, confusion, encouragement, hardship,
           independence, importance, beauty, length, height, awareness, realist
-          arrival, removal, Modernism.
+          arrival, removal, Modernism, kingdom
           <br />
           <br />
           Verb-চিনিবার উপায়ঃ <br />
@@ -163,21 +163,21 @@ const DPartsOfSpeech = () => {
           অনুরুপ - উল্টাটা করলেই Verb হবে।
           <br />
           <br />
-          (6) Verb এর শেষে। থাকলে তার পরিবর্তে ission যোগ করতে হয়।
+          (6) Verb এর শেষে it থাকলে t এর পরিবর্তে ssion যোগ করতে হয়।
           <br />
           যেমন- Commit - Commission.
           <br />
           অনুরুপ - উল্টাটা করলেই Verbহবে।
           <br />
           <br />
-          (7) Verb এর শেষে Y থাকলে তার পরিবর্তে বসে i এবং তার পরে age যুক্ত করতে
+          (7) Verb এর শেষে Y থাকলে y এর পরিবর্তে বসে i এবং তার পরে age যুক্ত করতে
           হয়।
           <br />
           যেমন- Carry- Carriage
           <br />
           অনুরুপ - উল্টাটা করলেই Verbহবে।
           <br />
-          (8) Verb এর শেষে tain থাকলে তার পরিবর্তে tenance বসে
+          (8) Verb এর শেষে tain থাকলে tain eর পরিবর্তে tenance বসে
           <br />
           যেমন- <br />
           maintain - maintenance.
@@ -207,7 +207,8 @@ const DPartsOfSpeech = () => {
         </div>
         <br />
         <br />
-        -0-
+        <p className="text-center">-------0-------</p>
+        
         <br /> <br /> <br />
         <div className="">
           <h2> Noun, verb এবং adjective, Adverb দ্বারা বাক্য ঠনের নিয়মাবলী</h2>
@@ -235,8 +236,8 @@ const DPartsOfSpeech = () => {
       </div>
 
       <div className=" overflow-x-auto py-10">
-        <h2 className="">Exercise</h2>
-        <table className="min-w-full bg-white border border-gray-300">
+        <h1 className="pb-5">Exercise</h1>
+        <table className="min-w-full  border border-gray-300">
           <thead>
             <tr className="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
               <th className="py-1 px-1 text-center">Noun</th>
