@@ -4687,7 +4687,7 @@ const Pronunciation = () => {
 
         {/* page 46 Assimilation */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 46</h2>
             <button
               onClick={goToContents}
@@ -4698,29 +4698,65 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-400 py-1">
-              Assimilation(সন্ধি):
-            </p>
-            <div className=" text-sm md:text-base text-justify">
+            <h3 className="font-bold">
+              Assimilation:
+            </h3>
+            <div className="text-base text-justify">
               <p className="">
-                Assimilation-2. <br />
-                t + y = (/t/ → /t∫/) <br />
-                /t/ sound এর পরিবর্তে /tʃ/ (চ) sound উচ্চারণ করুন। <br />
-                Meet you <br />
-                Meets you - মিচ + ইউ = মিচিউ <br />
-                Get you <br />
-                Gets you - গেচ + ইউ = গেচিউ <br />
-                But you <br />
-                But you - বাচ + ইউ = বাচিউ <br />
+              Assimilation-2. <br />
+              <span className="text-pink-600 font-bold text-xl"> 
+                t + y = (/t/ → /t∫/) 
+              </span> <br />
+              অর্থাৎ /t/ sound এর পরিবর্তে /tʃ/ (চ) sound উচ্চারণ করুন। <br />
+              If the first word ends with <span className="font-bold">/t/</span> and the next word starts with 
+              <span className="font-bold">/j/</span> then
+              <span className="font-bold">/t/</span> sound এর পরিবর্তে <span className="font-bold">/tʃ/</span> sound উচ্চারণ করুন। যেমনঃ  <br />
+              Meet you <br />
+              Meets you - মিচ + ইউ = মিচিউ <br />
+              Get you <br />
+              Gets you - গেচ + ইউ = গেচিউ <br />
+              But you <br />
+              But you - বাচ + ইউ = বাচিউ <br />
               </p>
+              
+            </div>
+          </div>
+        </div>
+        {/* page 46 Assimilation */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 46</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <h3 className="font-bold">
+              Assimilation:
+            </h3>
+            <div className="text-base text-justify">
               <p className="pt-2">
                 Assimilation-3 <br />
-                N + M = ম (/n/ → /m/) <br />
-                /n/ sound এর পরিবর্তে /m/ (ম) sound উচ্চারণ করুন। <br />
-                One more: <br />
+                 <span className="text-pink-600 font-bold ">
+                  N + M = ম (/n/ → /m/)
+                 </span>  <br />
+                অর্থাৎ /n/ sound এর পরিবর্তে /m/ (ম) sound উচ্চারণ করুন। <br />
+                If the first word ends with <span className="font-bold">/n/</span> and the next word starts with <span className="font-bold">/m/</span>,
+                then <span className="font-bold">/n/</span> sound এর পরিবর্তে <span className="font-bold">/m/</span> sound উচ্চারণ করুন। যেমনঃ
+                <br />
+                One more:  /wʌmmɔː/ <br />
                 Omne more ওয়াম + মো = ওয়ামো <br />
                 Can make: <br />
                 Can make -খ্যাম + মেইখ = খ্যামেইখ <br />
+                O<span className="font-bold">n</span>e pair /wʌmpeə/<br />
+                Te<span className="font-bold">n</span> more<br />
+                Ca<span className="font-bold">n</span> buy<br />
+                Ca<span className="font-bold">n</span> please<br />
+                Quatio<span className="font-bold">n</span> mark<br /><br />
               </p>
             </div>
           </div>
@@ -4728,7 +4764,7 @@ const Pronunciation = () => {
 
         {/* page 47 Assimilation*/}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 47</h2>
             <button
               onClick={goToContents}
@@ -4739,14 +4775,19 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-400 py-1">
-              Assimilation(সন্ধি):
+            <p className="font-bold">
+              Assimilation:
             </p>
-            <div className=" text-sm md:text-base text-justify">
+            <div className="text-base text-justify">
               <p className="">
                 Assimilation-4 <br />
-                /d/ → /b/ অর্থাৎ/d/ sound এর পরিবর্তে /b/ sound উচ্চারণ করা হয়ে
-                থাকে। <br />
+                <span className="text-pink-600 font-bold text-xl">/d/ → /b/ </span>
+                {/* /d/ sound এর পরিবর্তে /b/ sound উচ্চারণ করা হয়ে
+                থাকে।  */}
+                <br />
+                অর্থাৎ If the first word ends with <span className="font-bold">/d/</span> and the next word starts with
+                <span className="font-bold">/m/, /p/ or /b/</span>,
+                then <span className="font-bold">/d/ </span> sound এর পরিবর্তে <span className="font-bold">/b/</span> sound উচ্চারণ করুন। <br />
                 Good morning: <br />
                 Goo'd morning - গুব + মনিং = গুবমনিং <br />
                 Good bye: <br />
@@ -4755,15 +4796,45 @@ const Pronunciation = () => {
                 Ba'd boy - ব্যাব + বয় = ব্যাবয় <br />
                 Stand by: <br />
                 Stan'd by - স্ট্যাম্ব + বাই = স্ট্যাম্ববাই <br />
+                ba<span className="font-bold">d</span> pain<br />
+                goo<span className="font-bold">d</span> man<br />
               </p>
-              <p className="pt-2">
+              
+            </div>
+          </div>
+        </div>
+        {/* page 47 Assimilation*/}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 47</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold">
+              Assimilation:
+            </p>
+            <div className="text-base text-justify">
+              <p className="">
                 Assimilation-5 <br />
-                /t/ → /k/ অর্থাৎ/t/ sound এর পরিবর্তে /k/ sound উচ্চারণ করা হয়ে
+                <span className="text-pink-600 font-bold ">/d/ → /k/ </span>  <br /> 
+                অর্থাৎ/t/ sound এর পরিবর্তে /k/ sound উচ্চারণ করা হয়ে
                 থাকে। <br />
+                If the first word ends with <span className="font-bold">/d/</span> and the next word starts with 
+                <span className="font-bold"> /g/</span> or <span className="font-bold">/k/</span>,
+                then <span className="font-bold">/d/</span> sound এর পরিবর্তে <span className="font-bold">/k/</span> sound উচ্চারণ করুন।
+                <br />
                 Bad girls: <br />
                 Bad girl - ব্যাখ + গাল = ব্যাকগাল <br />
                 Bold crew: <br />
                 Bold crew - বৌল্ক + ক্রু = বৌল্কখ্রু <br />
+                re<span className="font-bold">d</span> carpet<br />
+                ha<span className="font-bold">d</span> cut<br />
               </p>
             </div>
           </div>
@@ -6016,7 +6087,122 @@ const Pronunciation = () => {
       </div>
       <div className=""></div>
 
-      <div className=""></div>
+      <div className="">
+        <p className="text-base leading-relaxed">
+      `    <span className="font-bold">/n/ → /m/</span><br />
+          o<span className="font-bold">n</span>e more /wʌmmɔː/<br />
+          O<span className="font-bold">n</span>e pair /wʌmpeə/<br />
+          Te<span className="font-bold">n</span> more<br />
+          Ca<span className="font-bold">n</span> buy<br />
+          Ca<span className="font-bold">n</span> make<br />
+          Ca<span className="font-bold">n</span> please<br />
+          O<span className="font-bold">n</span>e more time<br />
+          Quatio<span className="font-bold">n</span> mark<br /><br />
+
+          If the first word ends with <span className="font-bold">/n/</span> and the next word starts with <span className="font-bold">/m/</span>,<br />
+          then <span className="font-bold">/n/</span> sound এর পরিবর্তে <span className="font-bold">/m/</span> sound উচ্চারণ করুন।<br /><br />
+
+          <span className="font-bold">/t/ → /p/</span><br />
+          Bes<span className="font-bold">t</span> man<br />
+          Fron<span className="font-bold">t</span> bench<br />
+          Pos<span className="font-bold">t</span> man<br />
+          Tes<span className="font-bold">t</span> match<br />
+          Tha<span className="font-bold">t</span> man<br />
+          Whi<span className="font-bold">te</span> bag<br /><br />
+
+          If the first word ends with <span className="font-bold">/t/</span> and the next word starts with <span className="font-bold">/m/</span> or <span className="font-bold">/b/</span>,<br />
+          then <span className="font-bold">/t/</span> sound এর পরিবর্তে <span className="font-bold">/p/</span> sound উচ্চারণ করুন।<br /><br />
+
+          <span className="font-bold">/d/ → /b/</span><br />
+          ba<span className="font-bold">d</span> pain<br />
+          goo<span className="font-bold">d</span> man<br />
+          goo<span className="font-bold">d</span> bye<br />
+          goo<span className="font-bold">d</span> morning<br />
+          stan<span className="font-bold">d</span> by<br />
+          ba<span className="font-bold">d</span> boy<br /><br />
+
+          If the first word ends with <span className="font-bold">/d/</span> and the next word starts with<br />
+          <span className="font-bold">/m/, /p/ or /b/</span>,<br />
+          then <span className="font-bold">/d/</span> sound এর পরিবর্তে <span className="font-bold">/b/</span> sound উচ্চারণ করুন।
+        </p>
+        <div className="">
+          <p className="text-base leading-relaxed">
+
+            <span className="font-bold">/d/ → /k/</span><br />
+            ba<span className="font-bold">d</span> girl<br />
+            re<span className="font-bold">d</span> carpet<br />
+            ha<span className="font-bold">d</span> cut<br /><br />
+
+            If the first word ends with <span className="font-bold">/d/</span> and the next word starts with 
+            <span className="font-bold">/g/</span> or <span className="font-bold">/k/</span>,<br />
+            then <span className="font-bold">/d/</span> sound এর পরিবর্তে <span className="font-bold">/k/</span> sound উচ্চারণ করুন।<br /><br />
+
+
+            <span className="font-bold">/n/ → /ŋ/</span><br />
+            Ca<span className="font-bold">n</span> go<br />
+            Ca<span className="font-bold">n</span> cut<br />
+            Ope<span className="font-bold">n</span> court<br />
+            Te<span className="font-bold">n</span> cats<br /><br />
+
+            If the first word ends with <span className="font-bold">/n/</span> and the next word starts with 
+            <span className="font-bold">/g/</span> or <span className="font-bold">/k/</span>,<br />
+            then <span className="font-bold">/n/</span> sound এর পরিবর্তে <span className="font-bold">/ŋ/</span> sound উচ্চারণ করুন।<br /><br />
+
+
+            <span className="font-bold">/z/ → /ʒ/</span><br />
+            chee<span className="font-bold">se</span> chop<br />
+            ro<span className="font-bold">se</span> show<br />
+            i<span className="font-bold">s</span> young<br />
+            wa<span className="font-bold">s</span> yes<br />
+            i<span className="font-bold">s</span> yours<br />
+            the<span className="font-bold">se</span> shops<br /><br />
+
+            If the first word ends with <span className="font-bold">/z/</span> and the next word starts with 
+            <span className="font-bold">/tʃ/</span> or <span className="font-bold">/ʃ/</span> or <span className="font-bold">/j/</span>,<br />
+            then <span className="font-bold">/z/</span> sound এর পরিবর্তে <span className="font-bold">/ʒ/</span> sound উচ্চারণ করুন।<br /><br />
+
+
+            <span className="font-bold">/θ/ → /s/</span><br />
+            Bo<span className="font-bold">th</span> services<br />
+            Nor<span className="font-bold">th</span> south<br />
+            Wi<span className="font-bold">th</span> sir<br /><br />
+
+            If the first word ends with <span className="font-bold">/θ/</span> or <span className="font-bold">/ð/</span> and the next word starts with 
+            <span className="font-bold">/s/</span>,<br />
+            then <span className="font-bold">/θ/</span> or <span className="font-bold">/ð/</span> sound এর পরিবর্তে <span className="font-bold">/s/</span> sound উচ্চারণ করুন।
+
+          </p>
+
+        </div>
+        <div className="">
+          <p className="text-base leading-relaxed">
+
+          <span className="font-bold">/d/ → /dʒ/</span><br />
+          Woul<span className="font-bold">dʒ d</span> you<br />
+          an<span className="font-bold">dʒ d</span> you<br />
+          coul<span className="font-bold">dʒ d</span> you<br />
+          di<span className="font-bold">dʒ d</span> you<br /><br />
+
+          If the first word ends with <span className="font-bold">/d/</span> and the next word starts with 
+          <span className="font-bold">/j/</span> then<br />
+          <span className="font-bold">/d/</span> sound এর পরিবর্তে <span className="font-bold">/dʒ/</span> sound উচ্চারণ করুন।<br /><br />
+
+
+          <span className="font-bold">/t/ → /tʃ/</span><br />
+          mee<span className="font-bold">tʃ t</span> you<br />
+          abou<span className="font-bold">tʃ t</span> you<br />
+          a<span className="font-bold">tʃ t</span> you<br />
+          bi<span className="font-bold">tʃ te</span> you<br /><br />
+
+          If the first word ends with <span className="font-bold">/t/</span> and the next word starts with 
+          <span className="font-bold">/j/</span> then<br />
+          <span className="font-bold">/t/</span> sound এর পরিবর্তে <span className="font-bold">/tʃ/</span> sound উচ্চারণ করুন।
+          
+        </p>
+
+        </div>
+
+      </div>
     </div>
   );
 };
