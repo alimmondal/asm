@@ -48,18 +48,20 @@ const Pronunciation = () => {
   }, []);
 
   const contents = [
-    { title: "Alphabet sound", pages: "4-6" },
-    { title: "IPA (Phonetics)", pages: "7 - 14" },
-    { title: "Article", pages: "13-15" },
-    { title: "P, T, C, Q & K Sound", pages: "9 - 11" },
-    { title: '"R" এর উচ্চারণ', pages: "13 - 14" },
-    { title: "Verb contractions", pages: "21 - 23" },
-    { title: "Elision ধ্বনিলোপ ", pages: "24-25" },
-    { title: "S এর সঠিক উচ্চারণ", pages: "26 - 28" },
-    { title: "Syllable শব্দাংশ", pages: "29-30" },
-    { title: "Stress (শ্বাসাঘাত)", pages: "31 - 33" },
-    { title: "Linking সংযুক্তি", pages: "34 -36" },
+    { title: "ABC in IPA", pages: "5-6" },
+    { title: "Consonant Diagraph", pages: "7-8" },
+    { title: "IPA(Phonetics)", pages: "9 - 15" },
+    { title: "Article", pages: "16-17" },
+    { title: "Aspirated Sound", pages: "18 - 21" },
+    { title: '"R" এর উচ্চারণ', pages: "22 - 23" },
+    { title: "Contractions", pages: "24 - 40" },
+    { title: "Informal Contractions", pages: "42 - 50" },
+    { title: "Unvoiced Sound s", pages: "51 - 53" },
+    { title: "Syllable শব্দাংশ", pages: "54-55" },
+    { title: "Stress (শ্বাসাঘাত)", pages: "56 - 64" },
     { title: "Assimilation সন্ধি", pages: "37 - 40" },
+    { title: "Elision ধ্বনিলোপ ", pages: "24-25" },
+    { title: "Linking সংযুক্তি", pages: "34 -36" },
     { title: "উচ্চারণ টেকনিক", pages: "41 - 58" },
     { title: "Y এর উচ্চারণ", pages: "55 - 58" },
     { title: "X এর উচ্চারণ", pages: "56 - 58" },
@@ -69,7 +71,7 @@ const Pronunciation = () => {
 
   const goToPage = (page: number) => {
     if (flipBook.current) {
-      flipBook.current.pageFlip().flip(page + 1);
+      flipBook.current.pageFlip().flip(page);
     }
   };
 
@@ -134,6 +136,7 @@ const Pronunciation = () => {
           //   height: "100%",
           // }}
         >
+          {/* page1 cover */}
           <div className="absolute top-1/4 left-[18%] sm:left-[27%] sm:top-[30%]  md:top-[12%] md:left-[20%] lg:top-[10%] lg:left-[25%] xl:left-[30%] 2xl:left-[35%] 2xl:top-[25%] px-5">
             <div className="">
               <h2 className="text-green-500 text-3xl text-center">উচ্চারণ</h2>
@@ -155,9 +158,9 @@ const Pronunciation = () => {
           <img src="/bookCover3.jpg" className="w-full h-full" alt="" />
         </div>
 
-        {/* page1 */}
+        {/* page 2 */}
         <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-base lg:text-xl font-bold mb-1">Page 1</h2>
+          <h2 className="text-base lg:text-xl font-bold mb-1">Page 2</h2>
           <div className="">
             <p className="">
               ভূমিকা <br />
@@ -177,14 +180,14 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page2 */}
-        <div className="p-2 text-black md:p-5 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-base lg:text-xl font-bold mb-1">Page 2</h2>
+        {/* page 3 */}
+        <div className="p-3 text-black md:p-5 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-base lg:text-xl font-bold mb-1">Page 3</h2>
           <div className="w-full flex flex-col items-center">
             <div className="">
-              <h2 className="text-sm font-bold mb-1 text-center">
+              {/* <h2 className="text-sm font-bold mb-1 text-center">
                 index (সূচিপত্র)
-              </h2>
+              </h2> */}
               <div className="overflow-x-auto">
                 <table className="table-auto max-w-fit border border-gray-300 shadow-2xl rounded-lg">
                   <thead className="bg-gray-100">
@@ -198,7 +201,7 @@ const Pronunciation = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    {contents.slice(0, 7).map((item, index) => {
+                    {contents.slice(0, 10).map((item, index) => {
                       // Take the first page from the range "7-8" → 7
                       const targetPage = parseInt(
                         item.pages.split("-")[0].trim()
@@ -226,14 +229,14 @@ const Pronunciation = () => {
               </div>
             </div>
           </div>
-          <p className="pt-3 text-center">
+          <p className="pt-1 text-center">
             Click/touch any page number to read.
           </p>
         </div>
 
-        {/* page3 index*/}
-        <div className="p-3 text-black md:p-5 lg:p-10 bg-[#EFE5D6] book-shadow">
-          <h2 className="text-base lg:text-xl font-bold mb-2">Page 3</h2>
+        {/* page 4  index*/}
+        <div className="p-4 text-black md:p-5 lg:p-10 bg-[#EFE5D6] book-shadow">
+          <h2 className="text-base lg:text-xl font-bold mb-2">Page 4</h2>
           <div className="w-full flex flex-col items-center">
             <div className="">
               <h2 className="text-sm font-bold mb-1 text-center">
@@ -252,7 +255,7 @@ const Pronunciation = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    {contents.slice(8, 15).map((item, index) => {
+                    {contents.slice(11, 18).map((item, index) => {
                       // Take the first page from the range "7-8" → 7
                       const targetPage = parseInt(
                         item.pages.split("-")[0].trim()
@@ -284,10 +287,10 @@ const Pronunciation = () => {
           </p>
         </div>
 
-        {/* page 4 ABC in IPA*/}
+        {/* page 5 ABC in IPA*/}
         <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-between md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 4</h2>
+          <div className="flex justify-start gap-10 md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 5</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
@@ -333,10 +336,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 4  Alphabet audio/ video */}
+        {/* page 6  Alphabet audio/ video */}
         <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-between md:justify-start md:gap-96 mb-2">
-            <h2 className="text-base lg:text-xl font-bold ">Page 4</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 6</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
@@ -392,10 +395,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 5 Consonant Diagraph */}
-        <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
+        {/* page 7 Consonant Diagraph */}
+        <div className="p-3 text-black lg:p-7 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10">
-            <h2 className="text-base lg:text-xl font-bold">Page 5</h2>
+            <h2 className="text-base lg:text-xl font-bold">Page 7</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
@@ -423,10 +426,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 6 Consonant Diagraph */}
+        {/* page 8 Consonant Diagraph */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-24 mb-1">
-            <h2 className="text-base lg:text-xl font-bold">Page 6</h2>
+            <h2 className="text-base lg:text-xl font-bold">Page 8</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
@@ -455,10 +458,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 6 IPA Start*/}
+        {/* page 9 IPA Start*/}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-44 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 6</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 9</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -487,10 +490,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 7 */}
+        {/* page 10 */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 pb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 7</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 10</h2>
             <button
               onClick={goToContents}
               className=" px-2  bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -642,10 +645,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 8 */}
+        {/* page 11 */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 pb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 8</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 11</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-base rounded hover:bg-white hover:text-blue-500"
@@ -830,10 +833,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 9 IPA (Consonant-1)*/}
+        {/* page 12 IPA (Consonant-1)*/}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 9</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 12</h2>
             <button
               onClick={goToContents}
               className=" px-2 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1025,10 +1028,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 10 IPA Consonant-2 */}
+        {/* page 13 IPA Consonant-2 */}
         <div className="p-3 text-black bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-44 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 10</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 13</h2>
             <button
               onClick={goToContents}
               className=" px-2 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1220,10 +1223,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 11   IPA (Consonant-3)*/}
+        {/* page 14   IPA (Consonant-3)*/}
         <div className="p-3 text-black md:p- bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 11</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 14</h2>
             <button
               onClick={goToContents}
               className=" px-2 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1416,10 +1419,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 12 IPA (Diphthongs) */}
+        {/* page 15 IPA (Diphthongs) */}
         <div className="p-3 text-black bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-44 pb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 12</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 15</h2>
             <button
               onClick={goToContents}
               className=" px-2 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1539,10 +1542,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 13 Article */}
+        {/* page 16 Article */}
         <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 13</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 16</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
@@ -1585,10 +1588,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 14 Article */}
+        {/* page 17 Article */}
         <div className="p-3 text-black lg:p-14 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-base lg:text-xl font-bold ">Page 14</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 17</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
@@ -1616,10 +1619,10 @@ const Pronunciation = () => {
           </p>
         </div>
 
-        {/* page 15  Aspirated */}
+        {/* page 18  Aspirated */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 15</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 18</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
@@ -1652,10 +1655,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 16 Aspirated */}
+        {/* page 19 Aspirated */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 16</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 19</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1685,10 +1688,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 17 Aspirated */}
+        {/* page 20 Aspirated */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 17</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 20</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
@@ -1755,10 +1758,10 @@ const Pronunciation = () => {
           <p className="heading2 text-center pt-3">ASM English Academy</p>
         </div>
 
-        {/* page 18 Aspirated */}
+        {/* page 21 Aspirated */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-16 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 18</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 21</h2>
             <button
               onClick={goToContents}
               className=" px-2 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
@@ -1810,10 +1813,10 @@ const Pronunciation = () => {
           <p className="heading2 text-center pt-1">ASM English Academy</p>
         </div>
 
-        {/* page 19 Pronunciation of "R" */}
+        {/* page 22 Pronunciation of "R" */}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-base lg:text-xl font-bold ">Page 19</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 22</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1823,7 +1826,7 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <h2 className="font-bold"> Pronunciation of "R"</h2>
+            <h2 className="font-bold">"R" এর উচ্চারণ</h2>
             <div className="text-base">
               <p className="">
                 ব্রিটিশরা কোথাও কোথাও 'R' এর উচ্চারণ করে; আবার কোথাও কোথাও 'R'
@@ -1848,10 +1851,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 20 Pronunciation of "R"*/}
+        {/* page 23 Pronunciation of "R"*/}
         <div className="p-3 text-black lg:p-8 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 20</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 23</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1861,7 +1864,7 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-semibold"> R এর উচ্চারণ: </p>
+            <h3 className="font-semibold"> R এর উচ্চারণ: </h3>
             <div className="text-base">
               <p className="">
                 Rule-2. <br />
@@ -1871,28 +1874,28 @@ const Pronunciation = () => {
               </p>
               <p className="pt-2">
                 <span className="font-bold">
-                  ব্রিটিশরা 'R' যখন উচ্চারণ করে নাঃ{" "}
-                </span>{" "}
+                  ব্রিটিশরা 'R' যখন উচ্চারণ করে নাঃ
+                </span>
                 <br />
                 Rule-1. <br />
-                'word' এর শেষে 'R' থাকলে ব্রিটিশরা 'R' এর উচ্চারণ করে না। যেমনঃ{" "}
+                'word' এর শেষে 'R' থাকলে ব্রিটিশরা 'R' এর উচ্চারণ করে না। যেমনঃ
                 <br />
                 Brother = ব্রাদা; Teacher = ঠিচা; <br />
                 Rule-2. <br />
-                word এর শেষে 'Re' থাকলেও ব্রিটিশরা 'R' এর উচ্চারণ করে না। যেমনঃ{" "}
+                word এর শেষে 'Re' থাকলেও ব্রিটিশরা 'R' এর উচ্চারণ করে না। যেমনঃ
                 <br />
                 care = খ্যায়া; fare = ফ্যায়া; <br />
               </p>
 
-              <p className="text-center pt-2 heading2">ASM English Academy</p>
+              <h2 className="text-center pt-2 heading2">ASM English Academy</h2>
             </div>
           </div>
         </div>
 
-        {/* page 21 Verb Contraction */}
+        {/* page 24 Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-base lg:text-xl font-bold ">Page 21</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 24</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -1902,7 +1905,7 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <h2 className="font-bold">Verb Contraction</h2>
+            <h2 className="font-bold">Contraction</h2>
             <div className="text-base">
               <div className="flex items-center justify-center  gap-2">
                 Contraction হল Subject + Verb একত্রে উচ্চারণ করা। Spoken English
@@ -2022,10 +2025,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 22 Verb Contraction */}
+        {/* page 25 Contraction */}
         <div className="p-2 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <p className="text-xl font-bold ">Page 22</p>
+            <p className="text-xl font-bold ">Page 25</p>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2035,7 +2038,7 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="text-base">
-            <h2 className="font-medium py-1">Verb Contraction: </h2>
+            <h2 className="font-medium py-1">Contraction: </h2>
             {/* can't */}
             <p className="">
               <span className="bg-pink-700 px-1 py-1 text-white font-bold">
@@ -2163,10 +2166,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 23 Verb Contraction */}
+        {/* page 26 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-xl font-bold ">Page 23</h2>
+            <h2 className="text-xl font-bold ">Page 26</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2176,7 +2179,7 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <h3 className="font-bold">Verb Contraction: </h3>
+            <h3 className="font-bold">Contraction: </h3>
 
             <div className="text-base">
               <div className="">
@@ -2314,10 +2317,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 24 Verb Contraction */}
+        {/* page 27 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 24</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 27</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2327,7 +2330,7 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="text-base">
-            <h3 className="font-bold">Verb Contraction: </h3>
+            <h3 className="font-bold">Contraction: </h3>
             <div className="">
               {/* Gotta */}
               <div>
@@ -2400,10 +2403,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 25 Verb Contraction */}
+        {/* page 28 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 25</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 28</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2413,7 +2416,7 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="text-base">
-            <h3 className="font-bold">Verb - Contraction: </h3>
+            <h3 className="font-bold">Contraction: </h3>
             <div className="">
               {/* Haven’t  */}
               <div>
@@ -2506,10 +2509,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 26 Verb Contraction */}
+        {/* page 29 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 26</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 29</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2608,10 +2611,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 27 Verb Contraction */}
+        {/* page 30 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 27</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 30</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2621,7 +2624,7 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="text-base">
-            <h3 className="font-bold pb-2">Verb - Contraction: </h3>
+            <h3 className="font-bold pb-2">Contraction: </h3>
             <div className="">
               {/* Innit */}
               <div>
@@ -2685,10 +2688,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 28 Verb Contraction */}
+        {/* page 31 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 28</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 31</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2698,7 +2701,7 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <h3 className="font-bold">Contraction(সংকোচন): </h3>
+            <h3 className="font-bold">Contraction: </h3>
 
             <div className="text-base">
               {/* It has */}
@@ -2836,10 +2839,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 29 Verb Contraction */}
+        {/* page 32 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 29</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 32</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2849,7 +2852,7 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="text-base">
-            <h3 className="font-bold pb-2">Verb Contraction: </h3>
+            <h3 className="font-bold pb-2">Contraction: </h3>
             <div className="">
               {/* 'm /əm/ */}
               <div>
@@ -2938,10 +2941,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 30 Verb Contraction */}
+        {/* page 33 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 30</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 33</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -2951,7 +2954,7 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="text-base">
-            <h3 className="font-bold pb-2">Verb - Contractions: </h3>
+            <h3 className="font-bold pb-2">Contractions: </h3>
             <div className="">
               {/* Needn't */}
               <div>
@@ -3035,10 +3038,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 31  Contraction */}
+        {/* page 34  Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 31</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 34</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3098,10 +3101,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 32  Contraction */}
+        {/* page 35  Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 32</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 35</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3111,7 +3114,7 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="text-base">
-            <h3 className="font-bold pb-2">Verb - Contractions: </h3>
+            <h3 className="font-bold pb-2">Contractions: </h3>
             <div className="">
               {/* Needn't */}
               <div>
@@ -3161,10 +3164,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 33  Contraction */}
+        {/* page 36  Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 33</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 36</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3225,10 +3228,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 34  Contraction */}
+        {/* page 37  Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 34</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 37</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3291,10 +3294,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 35  Contraction */}
+        {/* page 38  Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 35</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 38</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3357,10 +3360,11 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 36  Contraction */}
+
+        {/* page 39  Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 36</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 39</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3420,10 +3424,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 37 Verb Contraction */}
+        {/* page 40 Verb Contraction */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 37</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 40</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3465,10 +3469,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 31 Informal - Contractions: */}
+        {/* page 42 Informal - Contractions: */}
         <div className="p-3 text-black md:p-10 lg:p-16 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 31</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 42</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3525,10 +3529,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 32 Informal - Contractions: */}
+        {/* page 43 Informal - Contractions: */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 32</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 43</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3588,10 +3592,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 33 Informal - Contractions: */}
+        {/* page 44 Informal - Contractions: */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 33</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 44</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3651,10 +3655,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 34 Informal - Contractions: */}
+        {/* page 45 Informal - Contractions: */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 34</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 45</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3703,10 +3707,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 35 Informal - Contractions: */}
+        {/* page 46 Informal - Contractions: */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 35</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 46</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3757,10 +3761,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 36 Informal - Contractions: */}
+        {/* page 47 Informal - Contractions: */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 36</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 47</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3805,10 +3809,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 37 Informal - Contractions: */}
+        {/* page 48 Informal - Contractions: */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 37</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 48</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3858,10 +3862,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 38 Informal - Contractions: */}
+        {/* page 49 Informal - Contractions: */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 38</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 49</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3909,10 +3913,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 39 Informal - Contractions: */}
+        {/* page 50 Informal - Contractions: */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 39</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 50</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -3943,10 +3947,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 31 Unvoiced Sound + S: */}
+        {/* page 51 Unvoiced Sound + S: */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 31</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 51</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4027,10 +4031,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 32 Unvoiced Sound + S: */}
+        {/* page 52 Unvoiced Sound + S: */}
         <div className="p-4 text-black md:p-10 bg-[#EFE5D6] book-shadow ">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 32</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 52</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4111,10 +4115,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 33 Unvoiced Sound + S: */}
+        {/* page 53 Unvoiced Sound + S: */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 33</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 53</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4198,10 +4202,10 @@ const Pronunciation = () => {
           <h2 className="heading2 pt-2 text-center">ASM English Academy</h2>
         </div>
 
-        {/* page 34 Syllable */}
+        {/* page 54 Syllable */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-base lg:text-xl font-bold ">Page 34</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 54</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4234,10 +4238,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 35 Syllable */}
+        {/* page 55 Syllable */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 35</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 55</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4273,10 +4277,10 @@ const Pronunciation = () => {
           <h3 className="heading2 text-center pt-2">ASM English Academy</h3>
         </div>
 
-        {/* page 36 Stress */}
+        {/* page 56 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 36</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 56</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4312,10 +4316,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 37 Stress */}
+        {/* page 57 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 37</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 57</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4352,10 +4356,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 38 Stress */}
+        {/* page 58 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 38</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 58</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4394,10 +4398,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 39 Stress */}
+        {/* page 59 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 39</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 59</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4437,10 +4441,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 40 Stress */}
+        {/* page 60 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 40</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 60</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4481,10 +4485,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 41 Stress */}
+        {/* page 61 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 41</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 61</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4527,10 +4531,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 42 Stress */}
+        {/* page 62 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 42</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 62</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4566,10 +4570,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 43 Stress */}
+        {/* page 63 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 43</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 63</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4607,10 +4611,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 44 Stress */}
+        {/* page 64 Stress */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 44</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 64</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4640,10 +4644,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 45 Assimilation*/}
+        {/* page 65 Assimilation*/}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-base lg:text-xl font-bold ">Page 45</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 65</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"

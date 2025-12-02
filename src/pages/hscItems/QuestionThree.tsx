@@ -7,22 +7,16 @@ const QuestionThree = () => {
       </div>
       <div className="">
         <h1 className="">Part-1</h1>
-        <h3 className="">Summary/theme short technique:</h3>
+        <h3 className="text-green-500"> Passage এর Summary/theme লেখার short technique:</h3>
         <p className="">
-          Summary: The passage has discussed about the importance of{" "}
-          <span className="text-pink-700 font-bold">[main word]</span> .{" "}
-          <span className="font-bold">
-            [three or four line from the passage]
-          </span>{" "}
-          . Here, by reading the passage we learned a lot of thing and we should
-          try to apply <span className="font-bold">[this/these]</span>{" "}
-          <span className="font-bold">[idea(s)/ideal(s)]</span> in our practical
+          Summary: The passage has discussed about the importance of 
+          <span className="text-pink-700 font-bold"> [ main word ] </span> . <span className="font-bold"> [ three or four sentence from the passage ] </span> . Here, by reading the passage we learned a lot of things and we
+          should try to apply <span className="font-bold"> [this/these] </span> <span className="font-bold"> [ idea(s)/ideal(s) ] </span> in our practical
           life.
         </p>
       </div>
-      <div className="">
+      <div className="pt-10">
         <h1>
-          {" "}
           Part - 2<br />
         </h1>
         Writing Summary of the Poem
@@ -63,7 +57,7 @@ const QuestionThree = () => {
         <br />
         স্বপ্নগুলো আঁকড়ে ধরো স্বপ্ন যখন ঘোঁচে জীবনটা হয় উষর জমিন বরফ কঠিন ধাঁচে।
         <br />
-        Sylhet Board 2025 & 2023; Mymensingh Board-2025) Faujdarhat Cadet
+        (Sylhet Board 2025 & 2023; Mymensingh Board-2025) Faujdarhat Cadet
         College. Chattogram-2024
         <br />
         <br />
@@ -94,8 +88,8 @@ const QuestionThree = () => {
         Those who dream by night in the dusty recesses of their mind, <br />
         Wake in the morning to find that it was vanity.
         <br />
-        But the dreamers of the day are dangerous people
-        <br /> , For they dream their dreams with open eyes.
+        But the dreamers of the day are dangerous people, 
+        <br /> For they dream their dreams with open eyes.
         <br />
         And make them come true.
         <br />
@@ -1902,7 +1896,7 @@ const QuestionThree = () => {
         movement. The poet, returning from many journeys, watches how wings work
         and how scents move like messages through feathers. From above, he sees
         the world- the rivers, rooftops. and fisherman. Nature teaches him more
-        than books, as he watches a small, fiery bird dance out of pollen.{" "}
+        than books, as he watches a small, fiery bird dance out of pollen.
         <br />
         (কবিতাটি পাখির সৌন্দর্য ও স্বাধীনতাকে তুলে ধরে, যেভাবে তারা দিনের আলোকে
         একে অপরের মাঝে উপহার হিসেবে ছড়িয়ে দেয়। তারা প্রকৃতির মধ্য দিয়ে উড়ে চলে,
