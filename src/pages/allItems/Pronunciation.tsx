@@ -8,7 +8,7 @@ const Pronunciation = () => {
   const [jumpPage, setJumpPage] = useState<number | "">("");
   const [isPortrait, setIsPortrait] = useState(false); // 🔥 auto mode
 
-  const totalPages = 70; // Update when you add more pages
+  const totalPages = 90; // Update when you add more pages
 
   // 🔊 Add audio ref for page flip sound
   const flipSound = useRef<HTMLAudioElement | null>(null);
@@ -59,8 +59,8 @@ const Pronunciation = () => {
     { title: "Unvoiced Sound s", pages: "51 - 53" },
     { title: "Syllable শব্দাংশ", pages: "54-55" },
     { title: "Stress (শ্বাসাঘাত)", pages: "56 - 64" },
-    { title: "Assimilation সন্ধি", pages: "37 - 40" },
-    { title: "Elision ধ্বনিলোপ ", pages: "24-25" },
+    { title: "Assimilation সন্ধি", pages: "65 - 71" },
+    { title: "Elision ধ্বনিলোপ ", pages: "72-74" },
     { title: "Linking সংযুক্তি", pages: "34 -36" },
     { title: "উচ্চারণ টেকনিক", pages: "41 - 58" },
     { title: "Y এর উচ্চারণ", pages: "55 - 58" },
@@ -4644,7 +4644,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 65 Assimilation*/}
+        {/* page 65 Assimilation d + y */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
             <h2 className="text-base lg:text-xl font-bold ">Page 65</h2>
@@ -4661,7 +4661,7 @@ const Pronunciation = () => {
               Assimilation('সন্ধি'):
             </h2>
             <div className="text-base">
-              <p className="">
+              <p className="text-sm">
                 ইংরেজিতে দ্রুত বা অনর্গল কথা বলার আরেকটি মাধ্যম হলো Assimilation
                 বা 'সন্ধি' যার অর্থ হলো একসাথে ২টি বা ৩টি ইংরেজি শব্দ একত্রে
                 উচ্চারণ করা।
@@ -4672,27 +4672,31 @@ const Pronunciation = () => {
               </p>
               <p className="">
                 {/* Assimilation-1 <br /> */}
-                 <span className="text-pink-600 font-bold text-xl">d + y = জ (/d/→/dʒ/) </span> <br />
+                 <span className="text-pink-600 font-bold text-xl">
+                  d + y = জ (/d/→/dʒ/) 
+                  </span> <br />
                 {/* /d/ sound এর পরিবর্তে/dʒ/ (জ) sound উচ্চারণ করুন। <br /> */}
                 If the first word ends with <span className="font-bold">/d/</span> and the next word starts with 
                 <span className="font-bold"> /j/ </span> then
                 <span className="font-bold">/d/</span> sound এর পরিবর্তে <span className="font-bold">/dʒ/</span> sound উচ্চারণ করুন। যেমনঃ <br />
 
-                {/* Would you <br /> */}
-                Would<sup>dʒ</sup>d you - উজ + ইউ = উজিউ <br />
+                {/* Would<sup>dʒ</sup>d you<br /> */}
+                Woul<strong>d </strong>  you- উজ + ইউ = উজিউ <br />
                 {/* Did you <br /> */}
-                Did you - ডিজ + ইউ = ডিজিউ <br />
+                Di<strong>d</strong> you - ডিজ + ইউ = ডিজিউ <br />
                 {/* Ha <sup>dʒ</sup>d you<br /> */}
-                Had you - হ্যাজ + ইউ = হ্যাজিউ<br /><br />
+                Ha<strong>d</strong> you - হ্যাজ + ইউ = হ্যাজিউ<br />
+                Coul<strong>d</strong> you - কুজ + ইউ = কুজিউ<br />
+                An<strong>d</strong> you - এনজ + ইউ = এনজিউ<br />
               </p>
             </div>
           </div>
         </div>
 
-        {/* page 46 Assimilation */}
+        {/* page 66 Assimilation t + y */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 46</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 66</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4707,11 +4711,10 @@ const Pronunciation = () => {
             </h3>
             <div className="text-base text-justify">
               <p className="">
-              Assimilation-2. <br />
               <span className="text-pink-600 font-bold text-xl"> 
-                t + y = (/t/ → /t∫/) 
+                t + y = (/t/ → /t∫/) = চ
               </span> <br />
-              অর্থাৎ /t/ sound এর পরিবর্তে /tʃ/ (চ) sound উচ্চারণ করুন। <br />
+              {/* অর্থাৎ /t/ sound এর পরিবর্তে /tʃ/ (চ) sound উচ্চারণ করুন। <br /> */}
               If the first word ends with <span className="font-bold">/t/</span> and the next word starts with 
               <span className="font-bold">/j/</span> then
               <span className="font-bold">/t/</span> sound এর পরিবর্তে <span className="font-bold">/tʃ/</span> sound উচ্চারণ করুন। যেমনঃ  <br />
@@ -4721,19 +4724,19 @@ const Pronunciation = () => {
               Gets you - গেচ + ইউ = গেচিউ <br />
               But you <br />
               But you - বাচ + ইউ = বাচিউ <br />
-              <span className="font-bold">/t/ → /tʃ/</span><br />
-              abou<span className="font-bold">tʃ t</span> you<br />
-              a<span className="font-bold">tʃ t</span> you<br />
-              bi<span className="font-bold">tʃ te</span> you
+              {/* <span className="font-bold">/t/ → /tʃ/</span><br /> */}
+              abou<span className="font-bold">t</span> you - এবাচিউ<br />
+              a<span className="font-bold">t</span> you - এচিউ<br />
+              bi<span className="font-bold">te</span> you - বাইচিউ
               </p>
               
             </div>
           </div>
         </div>
-        {/* page 46 Assimilation */}
+        {/* page 67 Assimilation */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 46</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 67</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4747,8 +4750,8 @@ const Pronunciation = () => {
               Assimilation:
             </h3>
             <div className="text-base text-justify">
-              <p className="pt-2">
-                Assimilation-3 <br />
+              <p className="">
+                {/* Assimilation-3 <br /> */}
                  <span className="text-pink-600 font-bold ">
                   N + M = ম (/n/ → /m/)
                  </span>  <br />
@@ -4770,10 +4773,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 47 Assimilation*/}
+        {/* page 68 Assimilation /d/ → /b/ */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 47</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 68</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4788,8 +4791,10 @@ const Pronunciation = () => {
             </p>
             <div className="text-base text-justify">
               <p className="">
-                Assimilation-4 <br />
-                <span className="text-pink-600 font-bold text-xl">/d/ → /b/ </span>
+                {/* Assimilation-4 <br /> */}
+                <span className="text-pink-600 font-bold text-xl">
+                  /d/ → /b/ 
+                  </span>
                 {/* /d/ sound এর পরিবর্তে /b/ sound উচ্চারণ করা হয়ে
                 থাকে।  */}
                 <br />
@@ -4811,10 +4816,10 @@ const Pronunciation = () => {
             </div>
           </div>
         </div>
-        {/* page 47 Assimilation*/}
+        {/* page 69 Assimilation /d/ → /k/ */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 47</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 69</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4829,8 +4834,10 @@ const Pronunciation = () => {
             </p>
             <div className="text-base text-justify">
               <p className="">
-                Assimilation-5 <br />
-                <span className="text-pink-600 font-bold ">/d/ → /k/ </span>  <br /> 
+                {/* Assimilation-5 <br /> */}
+                <span className="text-pink-600 font-bold text-xl">
+                  /d/ → /k/
+                </span>  <br /> 
                 অর্থাৎ/t/ sound এর পরিবর্তে /k/ sound উচ্চারণ করা হয়ে
                 থাকে। <br />
                 If the first word ends with <span className="font-bold">/d/</span> and the next word starts with 
@@ -4838,9 +4845,9 @@ const Pronunciation = () => {
                 then <span className="font-bold">/d/</span> sound এর পরিবর্তে <span className="font-bold">/k/</span> sound উচ্চারণ করুন।
                 <br />
                 Bad girls: <br />
-                Bad girl - ব্যাখ + গাল = ব্যাকগাল <br />
+                Ba<span className="font-bold">d</span> girl - ব্যাখ + গাল = ব্যাকগাল <br />
                 Bold crew: <br />
-                Bold crew - বৌল্ক + ক্রু = বৌল্কখ্রু <br />
+                Bol<span className="font-bold">d</span> crew - বৌল্ক + ক্রু = বৌল্কখ্রু <br />
                 re<span className="font-bold">d</span> carpet<br />
                 ha<span className="font-bold">d</span> cut<br />
               </p>
@@ -4848,10 +4855,10 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 48 Assimilation*/}
+        {/* page 70 Assimilation  /n/ → /ŋ/ */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-base lg:text-xl font-bold ">Page 48</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 70</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4866,22 +4873,21 @@ const Pronunciation = () => {
             </p>
             <div className="text-base text-justify">
               <p className="">
-                Rule-6 <br />
-                <span className="text-pink-600 font-bold text-xl">/n/ → /ŋ/ </span>  <br /> 
+                {/* Rule-6 <br /> */}
+                <span className="text-pink-600 font-bold text-xl">
+                  /n/ → /ŋ/ 
+                </span>  <br /> 
                 অর্থাৎ /n/ sound এর পরিবর্তে /ŋ/ sound উচ্চারণ করা হয়ে
                 থাকে। <br />
-                
-
                 If the first word ends with <span className="font-bold">/n/</span> and the next word starts with 
                 <span className="font-bold"> /g/ </span> or <span className="font-bold"> /k/ </span>,
                 then <span className="font-bold"> /n/ </span> sound এর পরিবর্তে <span className="font-bold"> /ŋ/ </span> sound উচ্চারণ করুন।
                 <br />
-                Can cook: <br />
+                Ca<span className="font-bold">n</span> cook: <br />
                 Ca'n cook - খ্যাং + খুক = খ্যাংখুক <br />
-                Open court: <br />
-                Ope'n court - ঔফেং + খোট = ঔফেংখোট <br />
-                <span className="font-bold"></span><br /> 
-                Ca<span className="font-bold">n</span> go<br />
+                Ope<span className="font-bold">n</span> court: <br />
+                Ope'n court - ঔপেং + খোট = ঔপেংখোট <br />
+ন               Ca<span className="font-bold">n</span> go<br />
                 Ca<span className="font-bold">n</span> cut<br />
                 Ope<span className="font-bold">n</span> court<br />
                 Te<span className="font-bold">n</span> cats
@@ -4891,11 +4897,10 @@ const Pronunciation = () => {
             <p className="heading2 text-center pt-5">ASM English Academy</p>
           </div>
         </div>
-
-        {/* page 48 Assimilation*/}
+{/* page 71 Assimilation /θ/থ ⇒ /s/  */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
-          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
-            <h2 className="text-base lg:text-xl font-bold ">Page 48</h2>
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 71</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4910,26 +4915,67 @@ const Pronunciation = () => {
             </p>
             <div className="text-base text-justify">
               
-              <p className="pt-2">
-                Assimilation-7 <br />
-                /θ/থ ⇒ /s/ অর্থাৎ /0/থ sound এর পরিবর্তে /s/ sound উচ্চারণ করা
+              <p className="">
+                <span className="text-pink-600 font-bold text-xl">
+                  /t/ → /p/
+                </span> <br />
+                If the first word ends with <span className="font-bold">/t/</span> and the next word starts with <span className="font-bold">/m/</span> or <span className="font-bold">/b/</span>,
+                then <span className="font-bold">/t/</span> sound এর পরিবর্তে <span className="font-bold">/p/</span> sound উচ্চারণ করুন।<br /><br />
+                <span className="font-bold"></span><br />
+                Bes<span className="font-bold">t</span> man<br />
+                Fron<span className="font-bold">t</span> bench<br />
+                Pos<span className="font-bold">t</span> man<br />
+                Tes<span className="font-bold">t</span> match<br />
+                Tha<span className="font-bold">t</span> man<br />
+                Whi<span className="font-bold">te</span> bag<br /><br />
+
+                
+              </p>
+            </div>
+            <p className="heading2 text-center pt-5">ASM English Academy</p>
+          </div>
+        </div>
+        {/* page 71 Assimilation /θ/থ ⇒ /s/  */}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 71</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold">
+              Assimilation(সন্ধি):
+            </p>
+            <div className="text-base text-justify">
+              
+              <p className="">
+                <span className="text-pink-600 font-bold text-xl">
+                   /θ/থ ⇒ /s/ 
+                </span> <br />
+                অর্থাৎ /0/থ sound এর পরিবর্তে /s/ sound উচ্চারণ করা
                 হয়ে থাকে। <br />
                 Both players: <br />
                 Both players - বৌস + ফ্লেইআজ = বৌসফ্রেইআজ <br />
                 North-south: <br />
                 North-south নর্স + সাউদ = নর্সাউদ <br />
                 With students: <br />
-                With students উইস + স্টুডেন্টস = উইস্টুডেন্টস <br />
+                With students উইস + স্টুডেন্টস = উইস্টুডেন্টস 
               </p>
             </div>
             <p className="heading2 text-center pt-5">ASM English Academy</p>
           </div>
         </div>
+        
 
-        {/* page 45 Elision */}
+        {/* page 72 Elision */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
-            <h2 className="text-base lg:text-xl font-bold ">Page 45</h2>
+            <h2 className="text-base lg:text-xl font-bold ">Page 72</h2>
             <button
               onClick={goToContents}
               className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
@@ -4962,7 +5008,7 @@ const Pronunciation = () => {
           </div>
         </div>
 
-        {/* page 46 Elision */}
+        {/* page 73 Elision */}
         <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
           <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-1">
             <h2 className="text-base lg:text-xl font-bold ">Page 46</h2>
