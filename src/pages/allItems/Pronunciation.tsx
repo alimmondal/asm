@@ -4657,29 +4657,33 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-400 py-1">
+            <h2 className="font-bold">
               Assimilation('সন্ধি'):
-            </p>
-            <div className=" md:text-base">
+            </h2>
+            <div className="text-base">
               <p className="">
                 ইংরেজিতে দ্রুত বা অনর্গল কথা বলার আরেকটি মাধ্যম হলো Assimilation
                 বা 'সন্ধি' যার অর্থ হলো একসাথে ২টি বা ৩টি ইংরেজি শব্দ একত্রে
                 উচ্চারণ করা।
                 <br />
                 এখানে মনে রাখতে হবে যে এখানে প্রথম শব্দের শেষ sound-এর সাথে ২য়
-                শব্দের প্রথম sound এর Assimilation বা সন্ধি হবে। <br />
-                নিম্নে অনেকগুলো উদাহরণ প্রদত্ত হলঃ <br />
+                শব্দের প্রথম sound এর Assimilation বা সন্ধি হবে। যেমনঃ <br />
+                {/* নিম্নে অনেকগুলো উদাহরণ প্রদত্ত হলঃ <br /> */}
               </p>
-              <p className="pt-2">
-                Assimilation-1 <br />
-                d + y = জ (/d/→/dʒ/) <br />
-                /d/ sound এর পরিবর্তে/dʒ/ (জ) sound উচ্চারণ করুন। <br />
-                Would you <br />
+              <p className="">
+                {/* Assimilation-1 <br /> */}
+                 <span className="text-pink-600 font-bold text-xl">d + y = জ (/d/→/dʒ/) </span> <br />
+                {/* /d/ sound এর পরিবর্তে/dʒ/ (জ) sound উচ্চারণ করুন। <br /> */}
+                If the first word ends with <span className="font-bold">/d/</span> and the next word starts with 
+                <span className="font-bold"> /j/ </span> then
+                <span className="font-bold">/d/</span> sound এর পরিবর্তে <span className="font-bold">/dʒ/</span> sound উচ্চারণ করুন। যেমনঃ <br />
+
+                {/* Would you <br /> */}
                 Would<sup>dʒ</sup>d you - উজ + ইউ = উজিউ <br />
-                Did you <br />
+                {/* Did you <br /> */}
                 Did you - ডিজ + ইউ = ডিজিউ <br />
-                Had you <br />
-                Ha<sup>dʒ</sup>d you - হ্যাজ + ইউ = হ্যাজিউ
+                {/* Ha <sup>dʒ</sup>d you<br /> */}
+                Had you - হ্যাজ + ইউ = হ্যাজিউ<br /><br />
               </p>
             </div>
           </div>
@@ -4717,6 +4721,10 @@ const Pronunciation = () => {
               Gets you - গেচ + ইউ = গেচিউ <br />
               But you <br />
               But you - বাচ + ইউ = বাচিউ <br />
+              <span className="font-bold">/t/ → /tʃ/</span><br />
+              abou<span className="font-bold">tʃ t</span> you<br />
+              a<span className="font-bold">tʃ t</span> you<br />
+              bi<span className="font-bold">tʃ te</span> you
               </p>
               
             </div>
@@ -4853,19 +4861,55 @@ const Pronunciation = () => {
           </div>
           <hr className="border border-gray-400" />
           <div className="">
-            <p className="font-bold text-green-400 py-1">
+            <p className="font-bold">
               Assimilation(সন্ধি):
             </p>
-            <div className=" text-sm md:text-base text-justify">
+            <div className="text-base text-justify">
               <p className="">
-                Assimilation-6 <br />
-                /n/ ⇒ /n/ অর্থাৎ /n/ sound এর পরিবর্তে /ŋ/ sound উচ্চারণ করা হয়ে
+                Rule-6 <br />
+                <span className="text-pink-600 font-bold text-xl">/n/ → /ŋ/ </span>  <br /> 
+                অর্থাৎ /n/ sound এর পরিবর্তে /ŋ/ sound উচ্চারণ করা হয়ে
                 থাকে। <br />
+                
+
+                If the first word ends with <span className="font-bold">/n/</span> and the next word starts with 
+                <span className="font-bold"> /g/ </span> or <span className="font-bold"> /k/ </span>,
+                then <span className="font-bold"> /n/ </span> sound এর পরিবর্তে <span className="font-bold"> /ŋ/ </span> sound উচ্চারণ করুন।
+                <br />
                 Can cook: <br />
                 Ca'n cook - খ্যাং + খুক = খ্যাংখুক <br />
                 Open court: <br />
                 Ope'n court - ঔফেং + খোট = ঔফেংখোট <br />
+                <span className="font-bold"></span><br /> 
+                Ca<span className="font-bold">n</span> go<br />
+                Ca<span className="font-bold">n</span> cut<br />
+                Ope<span className="font-bold">n</span> court<br />
+                Te<span className="font-bold">n</span> cats
               </p>
+              
+            </div>
+            <p className="heading2 text-center pt-5">ASM English Academy</p>
+          </div>
+        </div>
+
+        {/* page 48 Assimilation*/}
+        <div className="p-3 text-black md:p-10 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:justify-start md:gap-96 mb-2">
+            <h2 className="text-base lg:text-xl font-bold ">Page 48</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-white hover:text-blue-500"
+            >
+              Back to index
+            </button>
+          </div>
+          <hr className="border border-gray-400" />
+          <div className="">
+            <p className="font-bold">
+              Assimilation(সন্ধি):
+            </p>
+            <div className="text-base text-justify">
+              
               <p className="pt-2">
                 Assimilation-7 <br />
                 /θ/থ ⇒ /s/ অর্থাৎ /0/থ sound এর পরিবর্তে /s/ sound উচ্চারণ করা
