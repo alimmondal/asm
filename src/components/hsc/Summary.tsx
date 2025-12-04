@@ -1,73 +1,72 @@
 const Summary = () => {
   return (
     <div className="lg:w-1/2 px-5 mx-auto">
-      
       <div className="">
-        <h1 className="">Part-1</h1>
-        <h3 className="text-green-500"> Passage এর Summary/theme লেখার short technique:</h3>
+        <h1 className="">Passage</h1>
+        <h3 className="text-green-500">
+          Passage এর Summary/theme লেখার short technique:
+        </h3>
         <p className="text-base">
-          Summary: The passage has discussed about the importance of 
-          <span className="text-pink-700 font-bold"> [ main word ] </span> . <span className="font-bold"> [ এখানে passage থেকে দুই/তিনটি বাক্য লিখুন ] </span> . Here, by reading the passage we learned a lot of things and we
-          should try to apply <span className="font-bold"> [this/these] </span> <span className="font-bold"> [ idea(s)/ideal(s) ] </span> in our practical
-          life.
+          Summary: The passage has discussed about the importance of
+          <span className="text-pink-700 font-bold px-4"> [ main word ]</span> .
+          <span className="font-bold px-5">
+            [ এখানে passage থেকে দুই/তিনটি বাক্য লিখুন ]
+          </span>
+          . Here, by reading the passage we learned a lot of things and we
+          should try to apply <span className="font-bold">[this/these]</span>
+          <span className="font-bold"> [ idea(s)/ideal(s) ] </span> in our
+          practical life.
         </p>
       </div>
       <div className="pt-10">
         <h1>
-          Part - 2<br />
+         Seen Poems - 2<br />
         </h1>
         Writing Summary of the Poem
         <br />
         Board Exam Based exercises
         <br />
         <br />
-        1. Write a summary of the following poem.
-        <br />
-        <br />
-        Dreams- Langston Huges (1902-1967)
-        <br />
-        <br />
-        Hold fast to dreams
-        <br />
-        For if dreams die
-        <br />
-        Life is a broken-winged bird
-        <br />
-        That cannot fly.
-        <br />
-        Hold fast to dreams
-        <br />
-        For when dreams go, <br />
-        Life is a barren field frozen with snow.
-        <br />
-        <br />
-        ▸ Unit-6; Lesson-2(B)
-        <br />
-        <br />
-        বঙ্গানুবাদ:
-        <br />
-        স্বপ্নগুলো আঁকড়ে ধরো
-        <br />
-        স্বপ্ন যদি মরে
-        <br />
-        জীবন পাখির টুটবে ডানা উড়বে সে কী করে।
-        <br />
-        স্বপ্নগুলো আঁকড়ে ধরো স্বপ্ন যখন ঘোঁচে জীবনটা হয় উষর জমিন বরফ কঠিন ধাঁচে।
-        <br />
-        (Sylhet Board 2025 & 2023; Mymensingh Board-2025) Faujdarhat Cadet
-        College. Chattogram-2024
-        <br />
-        <br />
-        Paraphrase of the Poem:
-        <br />
-        The poet says we must hold on tightly to our dreams. If we lose them,
-        life becomes sad and empty-like a bird with broken wings that can't fly
-        or a cold, empty field covered in snow. Dreams give our lives meaning,
-        hope, and direction. <br />
-        (কবি বলেন আমাদের স্বপ্নকে দৃঢ়ভাবে আঁকড়ে ধরে রাখতে হবে। যদি আমরা সেগুলো
-        হারিয়ে ফেলি, তবে জীবন হয়ে যায় দুঃখময় ও শূণ্য- যেমন উড়তে না পারা
-        ডানা-ভাঙা একটি পাখি অথবা বরফে ঢাকা এক শীতল ও জনশূন্য প্রান্তর। স্বপ্ন
-        আমাদের জীবনকে অর্থ, আশা এবং দিকনির্দেশনা দেয়।)
+        <div className="">
+          1. Write a summary of the following poem. <br />
+          <br />
+          Dreams- Langston Huges (1902-1967)
+          <br />
+          <br />
+          Hold fast to dreams <br />
+          For if dreams die <br />
+          Life is a broken-winged bird <br />
+          That cannot fly. <br />
+          Hold fast to dreams <br />
+          For when dreams go, <br />
+          Life is a barren field frozen with snow.
+          <br />
+          <br />
+          ▸ Unit-6; Lesson-2(B)
+          <br />
+          <br />
+          বঙ্গানুবাদ: <br />
+          স্বপ্নগুলো আঁকড়ে ধরো <br />
+          স্বপ্ন যদি মরে <br />
+          জীবন পাখির টুটবে ডানা উড়বে সে কী করে। <br />
+          স্বপ্নগুলো আঁকড়ে ধরো স্বপ্ন যখন ঘোঁচে জীবনটা হয় উষর জমিন বরফ কঠিন
+          ধাঁচে।
+          <br />
+          (Sylhet Board 2025 & 2023; Mymensingh Board-2025) Faujdarhat Cadet
+          College. Chattogram-2024
+          <br />
+          <br />
+          Paraphrase of the Poem:
+          <br />
+          The poet says we must hold on tightly to our dreams. If we lose them,
+          life becomes sad and empty-like a bird with broken wings that can't
+          fly or a cold, empty field covered in snow. Dreams give our lives
+          meaning, hope, and direction. <br />
+          (কবি বলেন আমাদের স্বপ্নকে দৃঢ়ভাবে আঁকড়ে ধরে রাখতে হবে। যদি আমরা সেগুলো
+          হারিয়ে ফেলি, তবে জীবন হয়ে যায় দুঃখময় ও শূণ্য- যেমন উড়তে না পারা
+          ডানা-ভাঙা একটি পাখি অথবা বরফে ঢাকা এক শীতল ও জনশূন্য প্রান্তর। স্বপ্ন
+          আমাদের জীবনকে অর্থ, আশা এবং দিকনির্দেশনা দেয়।)
+        </div>
         <br />
         <br />
         2. Write a summary of the following poem.
@@ -85,7 +84,7 @@ const Summary = () => {
         Those who dream by night in the dusty recesses of their mind, <br />
         Wake in the morning to find that it was vanity.
         <br />
-        But the dreamers of the day are dangerous people, 
+        But the dreamers of the day are dangerous people,
         <br /> For they dream their dreams with open eyes.
         <br />
         And make them come true.
