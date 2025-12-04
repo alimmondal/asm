@@ -72,6 +72,7 @@ import QuestionFour from "../pages/hscItems/QuestionFour";
 import QuestionThree from "../pages/hscItems/QuestionThree";
 import QuestionFive from "../pages/hscItems/QuestionFive";
 import QuestionSix from "../pages/hscItems/QuestionSix";
+import ThemeWriting from "../pages/hscItems/ThemeWriting";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -98,6 +99,10 @@ export const router = createBrowserRouter([
       {
         path: "/hsc",
         element: <Hsc />,
+      },
+      {
+        path: "/theme",
+        element: <ThemeWriting />,
       },
       {
         path: "/degree",

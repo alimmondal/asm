@@ -4915,7 +4915,7 @@ const Pronunciation = () => {
             </p>
             <div className="text-base text-justify">
               
-              <p className="">
+              <p className=""> 
                 <span className="text-pink-600 font-bold text-xl">
                   /t/ → /p/
                 </span> <br />
