@@ -1,6 +1,6 @@
 const Summary = () => {
   return (
-    <div className="md:w-10/12 px-5 mx-auto">
+    <div className="lg:w-1/2 px-5 mx-auto">
       <div className="">
         <h1 className="">Passage</h1>
         <h3 className="text-green-500">

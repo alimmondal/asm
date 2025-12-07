@@ -7,7 +7,7 @@ import {
 
 function Essays() {
   return (
-    <div className="">
+    <div className="text-justify">
       <div className="px-3 md:w-[65%] md:mx-auto mb-6 rounded-sm">
         <h1 className="text-center py-32 text-green-400">Composition</h1>
         <Accordion>
@@ -160,10 +160,10 @@ function Essays() {
                 <div className="">
                   <p className="">
                     <strong>Answer: </strong>[TOPIC] is a kind of hobby. Hobby
-                    means the activity in leisure like [TOPIC,TOPIC], Leisure means
-                    one’s free time. Everybody tends to have a hobby. It is a
-                    work of diversion. When our main occupation become boring
-                    and monotonous, we turn to our hobby.
+                    means the activity in leisure like [TOPIC,TOPIC], Leisure
+                    means one’s free time. Everybody tends to have a hobby. It
+                    is a work of diversion. When our main occupation become
+                    boring and monotonous, we turn to our hobby.
                     <br />
                     [DESCRIPTION]
                     <br />
@@ -179,11 +179,12 @@ function Essays() {
                   <p className="text-center py-5">--------0-------</p>
 
                   <p className="py-5">
-                    বিশেষ দ্রষ্টব্য: [TOPIC] এর জায়গায় তোমার নির্দিষ্ট
-                    Hoby এর নাম যেমনঃ Gardening/fishing/travelling এবং [DESCRIPTION] এর জায়গায় তোমার
-                    নির্দিষ্ট Paragraph এর নাম অনুসারে নিচে থেকে DESCRIPTION
-                    লিখে বাকী সব অপরিবর্তিত রাখো। যদি পূর্ণ মার্কস পেতে চাও
-                    তাহলে DESCRIPTION লিখবে তা না হলে DESCRIPTION লাগবে না।
+                    বিশেষ দ্রষ্টব্য: [TOPIC] এর জায়গায় তোমার নির্দিষ্ট Hoby এর
+                    নাম যেমনঃ Gardening/fishing/travelling এবং [DESCRIPTION] এর
+                    জায়গায় তোমার নির্দিষ্ট Paragraph এর নাম অনুসারে নিচে থেকে
+                    DESCRIPTION লিখে বাকী সব অপরিবর্তিত রাখো। যদি পূর্ণ মার্কস
+                    পেতে চাও তাহলে DESCRIPTION লিখবে তা না হলে DESCRIPTION লাগবে
+                    না।
                   </p>
                   <h3 className="">DESCRIPTION for all:</h3>
                   <p className="">
@@ -322,6 +323,44 @@ function Essays() {
                   choice is a noble one. I believe that I will be able to
                   achieve it. Let me know if there's anything else you need!
                 </p>
+                <div className="pt-10">
+                  15. My Aim in Life <br />
+                  Or, My Future Plan of Life <br /> 
+                  Or, The Profession I Like to
+                  Take up in Future <br />
+                  <br />
+                  Man aims for his future. An aimless life is like a boat
+                  without a rudder that can never reach its destination. So, to
+                  succeed in life one should have a future plan from one's early
+                  life. This is called the aim in life. So, it can be said that
+                  one's aim is one's future plan for his life. <br />
+                  <br />
+                  Different people may have different aims in life. Some want
+                  money, some want reputation. Again there are some people who
+                  like to do something noble. Like others, 'I also have an aim
+                  in life. I want to do something noble for my nation and hence,
+                  I have decided to be a teacher. A teacher can lead the nation
+                  to the highest stage of prosperity if he can properly teach
+                  the students with his ideal. <br />
+                  <br />
+                  I want to serve the nation through proper teaching. Illiteracy
+                  is the vital cause of our poverty. If our students are
+                  properly educated, they can alleviate our poverty. By being a
+                  teacher, I am determined to serve the nation. <br />
+                  <br />
+                  In order to fulfil my future plan, I must acquire some
+                  degrees. After passing my SSC and HSC Examination, I will get
+                  myself admitted into the Honour's class. After my Honour's and
+                  Master's degrees, I shall take training on teaching. Then, I
+                  shall join a madrasah or college. I would like to choose a
+                  rural area as my working place. I will teach my students very
+                  sincerely. I will teach them not only academic education but
+                  moral education also. I will make them good citizens of the
+                  state. <br />
+                  <br />I think I have selected the right aim. I know the path
+                  may not be smooth. Yet, I am determined. I hope I can reach my
+                  goal and do something noble for my nation.
+                </div>
               </div>
             </AccordionContent>
           </AccordionPanel>
@@ -369,9 +408,9 @@ function Essays() {
             <AccordionTitle>Good Sides</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="py-2">
-                <h1 className="text-center text-rose-500 py-2">
+                <h2 className="text-center text-rose-500 py-2">
                   Short Technique
-                </h1>
+                </h2>
 
                 <h3 className="text-center">Composition/Essay on good side</h3>
                 <div className="py-2">
@@ -390,7 +429,7 @@ function Essays() {
                     Politeness 35. Self-reliance 36. Education
                   </p>
                   <br />
-                  <p className="text-start">
+                  <p className="">
                     <strong>Answer: </strong>There are various noble qualities
                     which separate a good man from a bad man. It is one of them.
                     It is a great virtue. The man who possesses this quality is
@@ -442,6 +481,222 @@ function Essays() {
                   <br />
                   Made By Alim, English Lecturer, Mob: No-01751337773
                 </div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+
+          {/* Student Movement */}
+          <AccordionPanel>
+            <AccordionTitle>Student Movement </AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="py-2">
+                <h2 className="text-center text-rose-500 py-2">
+                  Anti-discrimination Student Movement
+                </h2>
+                <div className="">
+                  The Anti-discrimination Student Movement was a big incident in
+                  Bangladesh in July 2024. It started as the students were
+                  unhappy about the government's quota system for jobs.
+                  <br />
+                  <br />
+                  In June 2024, the High Court announced a 30% quota for the
+                  children of freedom fighters in government jobs. There were
+                  already quotas for other groups, which meant only 44% of jobs
+                  were left for general applicants. The students thought this
+                  was unfair and wanted a change.
+                  <br />
+                  <br />
+                  This protest was not the first one. Similar protests took
+                  place in 2013 and 2018. This time, the students took to the
+                  streets again. They blocked roads and became very serious
+                  about the protest. The protests grew stronger gradually. On
+                  July 15, some armed people attacked the students, injuring
+                  many. The protests became more violent, and many students were
+                  hurt. The students then turned their protest against the
+                  government. On August 3, they made one demand: the government
+                  must resign.
+                  <br />
+                  <br />
+                  Finally, on August 5, the Prime Minister stepped down.c The
+                  students' unity and hard work helped bring down the government
+                  and changed the future of Bangladesh.
+                </div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+
+          {/* The Fruits of Bangladesh */}
+          <AccordionPanel>
+            <AccordionTitle>The Fruits of Bangladesh</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="py-2">
+                <h2 className="text-center text-rose-500 py-2">
+                  The Fruits of Bangladesh
+                </h2>
+                <div className="">
+                  Bangladesh is rich in various types of fruits. Many kinds of
+                  fruits are available here. Among them, the orange, the mango,
+                  the lichi, the jack-fruit, the guava, the plum are most
+                  common. Their size, colour and taste are different. But they
+                  all are nutritious, Most of these are seasonal fruits. <br />
+                  <br />
+                  There are many kinds of summer fruits. Among them, the mango,
+                  the jack-fruit (national fruit), the melon, the lichi are very
+                  common. The fruits are very tasty to eat and their flavour is
+                  very sweet. The mango is called the king of all fruits. The
+                  jack-fruit is a large kind of fruit. It is our national fruit.
+                  Others are small in size but very tasty. <br />
+                  <br />
+                  The pineapple, the guava, the amra and so on are the fruits of
+                  the rainy season. The pineapple grows in plenty in Sylhet and
+                  Rangamati. It is a juicy fruit which is full of vitamins. The
+                  guava and the amra are very healthy. They provide us with
+                  vitamin C. <br />
+                  <br />
+                  The orange, the olive, the woodapple, the plum are the fruits
+                  of winter. The orange and the plum are favourite to the
+                  children. <br />
+                  <br />
+                  The banana and the coconut are available throughout the year.
+                  The banana of Rampal and Narsingdi are famous. People cat
+                  coconut and banana greatly. They are very nutritious and
+                  helpful for our health. <br />
+                  <br />
+                  Fruits are good food. They are rich in food value. They
+                  contain a lot of mineral salts and vitamins. We can keep in
+                  sound health by eating them in plenty. We can also earn much
+                  foreign currency by exporting fruits. <br />
+                  <br />
+                  The fruits of Bangladesh are full of variety. They can help
+                  our economy to develop if they are properly preserved. Fruits
+                  can be helpful to build up our national health. We should try
+                  to grow more fruits.
+                </div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+
+          {/* The Birds of Bangladesh */}
+          <AccordionPanel>
+            <AccordionTitle>The Birds of Bangladesh</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="py-2">
+                <h2 className="text-center text-rose-500 py-2">
+                  The Birds of Bangladesh
+                </h2>
+                <div className="">
+                  <br />
+                  Bangladesh is endowed with many natural gifts. Its climate,
+                  soil, marshes, rivers, canals, bills, haors, green fields,
+                  forests all have made it a suitable and ideal home for various
+                  kinds of birds to live in. From dawn to dusk we see many kinds
+                  of birds here and there. Their difference in colour, size and
+                  nature fascinates us. <br />
+                  <br />
+                  The cuckoo, the doel, the bau-katha-kao, the shama, the moyna,
+                  the koel are prominent singing birds of Bangladesh. The cuckoo
+                  is the most popular of all singing birds. It appears at the
+                  advent of the spring. The doel is our national bird.
+                  <br />
+                  <br />
+                  Another familiar bird in our country is the crow. When it
+                  crows at dawn, we know that the night is over. It is very
+                  clever but its voice is harsh and it looks ugly. It steals
+                  food. It is very unpopular. Very often sitting upon electric
+                  wires or trees it empties its bowel upon passer-by. <br />
+                  <br />
+                  The dove, the pigeon, the heron, the partridge, the goose are
+                  some common birds of Bangladesh. Their meat is tasty and
+                  delicious. The sparrow is another common bird. <br />
+                  <br />
+                  The parrot and the myna are talking birds. They can imitate
+                  the voice of man. So some people keep them as pets. <br />
+                  <br />
+                  The kite, the hawk and the vulture are the birds of prey. They
+                  prey upon chickens and ducklings. The crane and the kingfisher
+                  are found near watery places. They live on fish. The
+                  woodpecker is a pretty bird with a strong bill. These birds
+                  have keen eyes and sharp nails. <br />
+                  <br />
+                  The birds of our country are our valuable assets. In many
+                  respects they are helpful to us. Many of them help in
+                  spreading the seeds of trees in different places. Thus they
+                  help in afforestation. Some of them eat up rubbish and many
+                  harmful insects and worms. Others add to the beauty of Nature.
+                  So we should not kill birds. We should plant more trees to
+                  provide them with dwelling places.
+                </div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+
+          {/* Duties of a Student */}
+          <AccordionPanel>
+            <AccordionTitle>Duties of a Student</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="py-2">
+                <h2 className="text-center text-rose-500 py-2">
+                  Duties of a Student
+                </h2>
+                <div className="">
+                  Student life is the most useful and valuable period in a man's
+                  life. This is the time when the seeds of future life are sown.
+                  For this, it is called the sowing season in our life. During
+                  this period a student has to do certain things to be
+                  successful and happy in his future life. <br />
+                  <br />
+                  The principal duty of a student is to study and acquire
+                  knowledge on various things. He must study according to a
+                  routine. He has to be attentive to his studies and teachers.
+                  He should also read newspapers, magazines, literature,
+                  history, etc. <br />
+                  <br />
+                  A student should remember that character is the crown of a
+                  man. So he has to cultivate good manners and other noble
+                  virtues. All moral qualities like honesty, modesty,
+                  truthfulness, discipline, perseverance, sincerity, punctuality
+                  must be acquired during this time. <br />
+                  <br />
+                  He should also render some services to his society and
+                  country. He should make the illiterate literate. He can make
+                  the farmers aware of the modern methods of cultivation. In
+                  population control, he can play an important role. <br />
+                  <br />
+                  A student must obey and honour his parents. When they are
+                  sick, helpless or old, he must serve them. He should also be
+                  obedient to his teachers and other superiors. <br />
+                  <br />
+                  A student must not waste his time and energy. So he must
+                  possess a sound health by taking regular physical <br />
+                  exercise, taking part in games and sports. Moreover, he must
+                  always avoid evil company. <br />
+                  <br />
+                  Besides, a student may have the knowledge of politics but he
+                  must not take part in active politics. It is because many
+                  political parties and their unethical leaders use them only
+                  for their selfish interest. <br />
+                  <br />
+                  In case of national emergencies like floods, tornadoes,
+                  storms, etc. he must not sit idle. He must extend his helping
+                  hands during these times. <br />
+                  <br />
+                  To reap the good and expected harvest of success in future, a
+                  student must sow good seeds during his student life.
+                  Otherwise, it will bring him utter failure, untold sorrows,
+                  miseries and repentance.
+                </div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+
+          {/* good sides */}
+          <AccordionPanel>
+            <AccordionTitle>Good Sides</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="py-2">
+                <h1 className="text-center text-rose-500 py-2">
+                  Coming sooooooooooooooon . . .
+                </h1>
               </div>
             </AccordionContent>
           </AccordionPanel>
