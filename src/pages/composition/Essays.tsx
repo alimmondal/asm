@@ -6,6 +6,7 @@ import {
 } from "flowbite-react";
 
 function Essays() {
+  const isDisabled = true; // or use state
   return (
     <div className="text-justify">
       <div className="px-3 md:w-[65%] md:mx-auto mb-6 rounded-sm">
@@ -292,14 +293,13 @@ function Essays() {
             <AccordionTitle>Aim in Life</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div>
-                <h3 className="text-center">
-                  Your Aim in Life <br />
-                  Your Future Plan of Life <br />
-                  If you were a Politician/ Teacher/ Doctor <br />
-                  Why you want to be a Politician/ Teacher/ Doctor
-                </h3>
-
-                <p className="text-justify">
+                <div className="text-justify hidden">
+                  <h3 className="text-center">
+                    Your Aim in Life <br />
+                    Your Future Plan of Life <br />
+                    If you were a Politician/ Teacher/ Doctor <br />
+                    Why you want to be a Politician/ Teacher/ Doctor
+                  </h3>
                   <strong>Answer: </strong>I want to be [doctor/politician] . It
                   is my [ aim in life]. A man without aim is like ship without a
                   rudder. If a man fails to choose his aim, he suffers in life.
@@ -322,12 +322,41 @@ function Essays() {
                   Success in life depends much on the [plain] of life, and my
                   choice is a noble one. I believe that I will be able to
                   achieve it. Let me know if there's anything else you need!
-                </p>
+                </div>
                 <div className="pt-10">
-                  15. My Aim in Life <br />
-                  Or, My Future Plan of Life <br /> 
-                  Or, The Profession I Like to
-                  Take up in Future <br />
+                  15. My/ your Aim in Life <br />
+                  Or, My/ your Future Plan of Life <br />
+                  Or, The Profession I Like to Take up in Future <br />
+                  Or, If you were a Politician/ Teacher/ Doctor <br />
+                  Or, Why you want to be a Politician/ Teacher/ Doctor
+                  <br />
+                  <br />
+                  Man aims for his future. To succeed in life one should have a
+                  future plan from one's early life. This is called the [aim in
+                  life/future plan for life]. <br />
+                  Different people may have different aims in life. Like others,
+                  'I also have an aim in life. I have decided to be a [teacher].
+                  By being a [teacher/politician], I am determined to serve the
+                  nation.
+                  <br />
+                  In order to fulfil my future plan, I must acquire some
+                  degrees. After passing my SSC and HSC Examination, I will get
+                  myself admitted into the [Honour's/ MBBS'] course. After my
+                  [Master's] degrees, I shall take training on teaching. Then, I
+                  shall join a [madrasah / college/ political party/ clinic ]. I
+                  would like to choose a rural area as my working place. I will
+                  [teach/serve] my [students/people] very sincerely. I will even
+                  teach them not only academic education but moral education
+                  also. I will make them good citizens of the state.
+                  <br />I think I have selected the right aim. I know the path
+                  may not be smooth. Yet, I am determined. I hope I can reach my
+                  goal and do something noble for my nation.
+                </div>
+                <div className="pt-10 ">
+                  My Aim in Life <br />
+                  Or, My Future Plan of Life <br />
+                  Or, The Profession I Like to Take up in Future
+                  <br />
                   <br />
                   Man aims for his future. An aimless life is like a boat
                   without a rudder that can never reach its destination. So, to
@@ -343,20 +372,21 @@ function Essays() {
                   to the highest stage of prosperity if he can properly teach
                   the students with his ideal. <br />
                   <br />
-                  I want to serve the nation through proper teaching. Illiteracy
-                  is the vital cause of our poverty. If our students are
-                  properly educated, they can alleviate our poverty. By being a
-                  teacher, I am determined to serve the nation. <br />
+                  I want to serve the nation through proper [teaching].
+                  Illiteracy is the vital cause of our poverty. If our students
+                  are properly educated, they can alleviate our poverty. By
+                  being a teacher, I am determined to serve the nation. <br />
                   <br />
                   In order to fulfil my future plan, I must acquire some
                   degrees. After passing my SSC and HSC Examination, I will get
-                  myself admitted into the Honour's class. After my Honour's and
-                  Master's degrees, I shall take training on teaching. Then, I
-                  shall join a madrasah or college. I would like to choose a
-                  rural area as my working place. I will teach my students very
-                  sincerely. I will teach them not only academic education but
-                  moral education also. I will make them good citizens of the
-                  state. <br />
+                  myself admitted into the [Honour's] class. After my [Honour's]
+                  and [Master's] degrees, I shall take training on teaching.
+                  Then, I shall join a [madrasah or college]. I would like to
+                  choose a rural area as my working place. I will teach my
+                  students very sincerely. I will teach them not only academic
+                  education but moral education also. I will make them good
+                  citizens of the state.
+                  <br />
                   <br />I think I have selected the right aim. I know the path
                   may not be smooth. Yet, I am determined. I hope I can reach my
                   goal and do something noble for my nation.
@@ -403,16 +433,16 @@ function Essays() {
             </AccordionContent>
           </AccordionPanel>
 
-          {/* good sides */}
+          {/* good Qualities */}
           <AccordionPanel>
-            <AccordionTitle>Good Sides</AccordionTitle>
+            <AccordionTitle>Good Qualities</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="py-2">
                 <h2 className="text-center text-rose-500 py-2">
                   Short Technique
                 </h2>
 
-                <h3 className="text-center">Composition/Essay on good side</h3>
+                <h3 className="text-center">Composition/Essay on good sides/qualities</h3>
                 <div className="py-2">
                   <p className="text-center">
                     1. Discipline 2. Honesty (is the best policy) 3. Dignity of
@@ -638,53 +668,105 @@ function Essays() {
                 <h2 className="text-center text-rose-500 py-2">
                   Duties of a Student
                 </h2>
-                <div className="">
+               
                   Student life is the most useful and valuable period in a man's
                   life. This is the time when the seeds of future life are sown.
                   For this, it is called the sowing season in our life. During
                   this period a student has to do certain things to be
-                  successful and happy in his future life. <br />
+                  successful and happy in his future life.
                   <br />
                   The principal duty of a student is to study and acquire
                   knowledge on various things. He must study according to a
                   routine. He has to be attentive to his studies and teachers.
                   He should also read newspapers, magazines, literature,
-                  history, etc. <br />
+                  history, etc.
                   <br />
                   A student should remember that character is the crown of a
                   man. So he has to cultivate good manners and other noble
                   virtues. All moral qualities like honesty, modesty,
                   truthfulness, discipline, perseverance, sincerity, punctuality
-                  must be acquired during this time. <br />
+                  must be acquired during this time.
                   <br />
                   He should also render some services to his society and
                   country. He should make the illiterate literate. He can make
                   the farmers aware of the modern methods of cultivation. In
-                  population control, he can play an important role. <br />
+                  population control, he can play an important role.
                   <br />
                   A student must obey and honour his parents. When they are
                   sick, helpless or old, he must serve them. He should also be
-                  obedient to his teachers and other superiors. <br />
+                  obedient to his teachers and other superiors.
                   <br />
                   A student must not waste his time and energy. So he must
-                  possess a sound health by taking regular physical <br />
-                  exercise, taking part in games and sports. Moreover, he must
-                  always avoid evil company. <br />
+                  possess a sound health by taking regular physical exercise,
+                  taking part in games and sports. Moreover, he must always
+                  avoid evil company.
                   <br />
                   Besides, a student may have the knowledge of politics but he
                   must not take part in active politics. It is because many
                   political parties and their unethical leaders use them only
-                  for their selfish interest. <br />
+                  for their selfish interest.
                   <br />
                   In case of national emergencies like floods, tornadoes,
                   storms, etc. he must not sit idle. He must extend his helping
-                  hands during these times. <br />
+                  hands during these times.
                   <br />
                   To reap the good and expected harvest of success in future, a
                   student must sow good seeds during his student life.
                   Otherwise, it will bring him utter failure, untold sorrows,
                   miseries and repentance.
-                </div>
+                
+              </div>
+              <div className="py-2 hidden">
+                <h2 className="text-center text-rose-500 py-2">
+                  Duties of a Student
+                </h2>
+               
+                  Student life is the most useful and valuable period in a man's
+                  life. This is the time when the seeds of future life are sown.
+                  For this, it is called the sowing season in our life. During
+                  this period a student has to do certain things to be
+                  successful and happy in his future life.
+                  <br />
+                  The principal duty of a student is to study and acquire
+                  knowledge on various things. He must study according to a
+                  routine. He has to be attentive to his studies and teachers.
+                  He should also read newspapers, magazines, literature,
+                  history, etc.
+                  <br />
+                  A student should remember that character is the crown of a
+                  man. So he has to cultivate good manners and other noble
+                  virtues. All moral qualities like honesty, modesty,
+                  truthfulness, discipline, perseverance, sincerity, punctuality
+                  must be acquired during this time.
+                  <br />
+                  He should also render some services to his society and
+                  country. He should make the illiterate literate. He can make
+                  the farmers aware of the modern methods of cultivation. In
+                  population control, he can play an important role.
+                  <br />
+                  A student must obey and honour his parents. When they are
+                  sick, helpless or old, he must serve them. He should also be
+                  obedient to his teachers and other superiors.
+                  <br />
+                  A student must not waste his time and energy. So he must
+                  possess a sound health by taking regular physical exercise,
+                  taking part in games and sports. Moreover, he must always
+                  avoid evil company.
+                  <br />
+                  Besides, a student may have the knowledge of politics but he
+                  must not take part in active politics. It is because many
+                  political parties and their unethical leaders use them only
+                  for their selfish interest.
+                  <br />
+                  In case of national emergencies like floods, tornadoes,
+                  storms, etc. he must not sit idle. He must extend his helping
+                  hands during these times.
+                  <br />
+                  To reap the good and expected harvest of success in future, a
+                  student must sow good seeds during his student life.
+                  Otherwise, it will bring him utter failure, untold sorrows,
+                  miseries and repentance.
+                
               </div>
             </AccordionContent>
           </AccordionPanel>
@@ -702,15 +784,21 @@ function Essays() {
           </AccordionPanel>
         </Accordion>
       </div>
+
       <div className="text-center py-4 sticky bottom-0 left-0 right-0">
         <a
-          href="/preposition.pdf"
-          download
-          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          href={isDisabled ? "#" : "/preposition.pdf"}
+          download={!isDisabled}
+          className={`font-bold py-2 px-4 rounded ${
+            isDisabled
+              ? "bg-blue-400 opacity-50 cursor-not-allowed pointer-events-none text-white"
+              : "bg-blue-500 hover:bg-blue-700 text-white"
+          }`}
         >
           Download PDF
         </a>
       </div>
+
       <div className="text-center pb-10">
         <p className="">
           Note: পিডিএফ ফাইল ডাউনলড করলে মোবাইলের File manager/ My File-এ জমা হয়।

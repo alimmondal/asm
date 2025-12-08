@@ -7,7 +7,7 @@ import {
 
 const Paragraph = () => {
   return (
-    <div className="">
+    <div className="text-justify">
       <div className="w-[95%] md:w-[65%] mx-auto   ">
         <div className="text-center py-20">
           <h1 className="text-green-400">Paragraph</h1>
@@ -90,7 +90,7 @@ const Paragraph = () => {
             </AccordionContent>
           </AccordionPanel>
 
-          {/* mobile phone */}
+          {/* Science/ Technology */}
           <AccordionPanel>
             <AccordionTitle>Science/ Technology</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
@@ -115,7 +115,7 @@ const Paragraph = () => {
                   thus it hinders the growth of young generation. So it should
                   be our morality to accept the good and give up the bad. And
                   the government should create public awareness. However,
-                  [TOPIC] is an indispensible part of our modern life and
+                  [TOPIC] is an indispensable part of our modern life and
                   communication.
                   <p className="text-center py-5">---------0---------</p>
                   বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার বৈজ্ঞানিক বিষয়বস্তু বা
@@ -127,9 +127,9 @@ const Paragraph = () => {
             </AccordionContent>
           </AccordionPanel>
 
-          {/* Your Favorite Person */}
+          {/*  Favorite Person */}
           <AccordionPanel>
-            <AccordionTitle>Persons</AccordionTitle>
+            <AccordionTitle>Favorite Persons</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="">
                 <h3 className="text-center py-3">
@@ -145,23 +145,39 @@ const Paragraph = () => {
                   member
                 </h3>
                 <p className="text-justify">
-                  <strong>Answer: </strong> Everybody has a favorite person. I
-                  have too. Of all the [PLAYER], [NAME] is an ideal in my life.
-                  I like him most for his works and activities. His embedded
-                  personality could be impressed my heart. For this reason he is
-                  my favorite person. His views on society, love of humanity and
-                  duty to the every steps attract one a lot. His clarity of
-                  mind, uprightness of thought, glorious ideals, and simplicity
-                  of life make one his fan. Man like [NAME] is very necessary
-                  for the state. Everyone should try to build up character,
-                  morality and personality like him. I become thrilled when I
-                  [see/read/heard] his [PLAYING/ SINGING/ writings]. His
-                  [speakings/ playing/ writings] speak the heart of a man. His
-                  [speakings/ playing/ writings] soothes my soul. His [playing]
-                  give me pleasure even in my boring mood. So, thinking of him,
-                  I've got freshness and confidence. He is unique [player] not
-                  only to me but also to my family members. I follow him in my
-                  every step.
+                  <strong>Answer-1: </strong> <br />
+                  Everybody has a favorite person. I have too. Of all the
+                  [PLAYER], [NAME] is an ideal in my life. I like him most for
+                  his works and activities. His embedded personality could be
+                  impressed my heart. For this reason he is my favorite person.
+                  His views on society, love of humanity and duty to the every
+                  steps attract one a lot. His clarity of mind, uprightness of
+                  thought, glorious ideals, and simplicity of life make one his
+                  fan. Man like [NAME] is very necessary for the state. Everyone
+                  should try to build up character, morality and personality
+                  like him. I become thrilled when I [see/read/heard] his
+                  [PLAYING/ SINGING/ writings]. His [speakings/ playing/
+                  writings] speak the heart of a man. His [speakings/ playing/
+                  writings] soothes my soul. His [playing] give me pleasure even
+                  in my boring mood. So, thinking of him, I've got freshness and
+                  confidence. He is unique [player] not only to me but also to
+                  my family members. I follow him in my every step.
+                </p>
+                <p className="">
+                  <strong>Answer-2: </strong> <br />
+                  [TOPIC] is considered as an ideal in my life. I like most him
+                  because of his wonderful activities beside his clear-cut and
+                  embedded character. His embedded personality could be
+                  impressed my heart. For this reason he is my favorite person.
+                  His views on society, love of humanity and duty to the every
+                  steps attract one a lot. His clarity of mind, uprightness of
+                  thought, glorious ideals, and simplicity of life make one his
+                  fan. I respect his creativity, speech and his responsibility.
+                  Man like [TOPIC] is very necessary for the state. Everyone
+                  should try to build up character, morality and personality
+                  like him. It is impossible to be a real person without
+                  responsibility, morality, embedded character and lofty ideals.
+                  For the peace and happiness we should follow him.
                 </p>
                 <p className="text-center py-5">---------0---------</p>
                 <p className="">
@@ -169,6 +185,49 @@ const Paragraph = () => {
                   এর নাম লিখে [NAME] জায়গায় PERSON এর নাম লিখে বাকী সব
                   অপরিবর্তিত রাখো।
                 </p>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+
+          {/* Great Personalities */}
+          <AccordionPanel>
+            <AccordionTitle>Great Personalities</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="">
+                <h2>All Kinds of Great Personalities</h2>
+                Hazrat Muhammad (SM) <br />
+                Sheikh Mujibur Rahman <br />
+                A Virtuous Man <br />
+                Rabindranath Tagore <br />
+                KaziNazrul Islam <br />
+                Mother Teresa <br />
+                Influence of a Great Man <br />
+                Your Favorite Player <br />
+                Your Favorite Person <br />
+                Your Mother/Father <br />
+                A Great Politician <br />
+                The Teacher You Like Most <br />
+                Your Ideal Man <br />
+                My Favorite Friend <br />
+                <p className="">
+                  <strong>Answer: </strong>[TOPIC] is considered as an ideal in
+                  my life. I like most him because of his wonderful activities
+                  beside his clear-cut and embedded character. His embedded
+                  personality could be impressed my heart. For this reason he is
+                  my favorite person. His views on society, love of humanity and
+                  duty to the every steps attract one a lot. His clarity of
+                  mind, uprightness of thought, glorious ideals, and simplicity
+                  of life make one his fan. I respect his creativity, speech and
+                  his responsibility. Man like [TOPIC] is very necessary for the
+                  state. Everyone should try to build up character, morality and
+                  personality like him. It is impossible to be a real person
+                  without responsibility, morality, embedded character and lofty
+                  ideals. For the peace and happiness we should follow him.
+                </p>
+                বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার বৈজ্ঞানিক বিষয়বস্তু বা
+                Scientific Thing নিয়ে Paragraph বললে ওপরের লেখাটি অনুসরণ করো
+                এবং [TOPIC] এর জায়গায় তোমার নির্দিষ্ট Paragraph এর নাম লিখে
+                বাকী সব অপরিবর্তিত রাখো।
               </div>
             </AccordionContent>
           </AccordionPanel>
@@ -224,7 +283,7 @@ const Paragraph = () => {
             </AccordionContent>
           </AccordionPanel>
 
-          {/* Independence Day */}
+          {/* Days */}
           <AccordionPanel>
             <AccordionTitle> National Days</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
@@ -423,7 +482,7 @@ const Paragraph = () => {
                   Everybody must have .... . There is no doubt that he loves his
                   ... . I have also ... . I really love. It's small but
                 </p>
-                <p>B: নামবারের জন্য প্রযোজ্য</p>
+                <p>(B): নামবারের জন্য প্রযোজ্য</p>
                 <p>
                   <strong>Answer: </strong> I read in a college. The name of
                   college is ... . It's two storied building and it has 38 class
@@ -446,7 +505,7 @@ const Paragraph = () => {
           <AccordionPanel>
             <AccordionTitle>Good Qualities</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
-              <div className="">
+              <div className="text-justify">
                 {/* <h2 className="text-center ">Paragraph on Good Qualities</h2> */}
                 <p className="text-center font-semibold px-5 md:px-10">
                   1. Discipline 2. Honesty (is the best policy) 3. Dignity of
@@ -462,19 +521,40 @@ const Paragraph = () => {
                   32. Good behavior 33. Modesty 34. Politeness 35. Self-reliance
                   36. Education
                 </p>
-                <p className="text-justify pt-3">
-                  <strong>Answer: </strong>there is a prover that [TOPIC] cost
-                  nothing but brings many things. This separates a good man from
-                  a bad man. A man who posses this is loved by all. For example,
-                  a business man is loved by his customers for this quality. A
-                  service holder is loved by his colleagues and bosses. So,
-                  success in every sphere of life largely depends on [TOPIC] .
-                  It's preferable to wealth because one may have vast property
-                  but he is hated only for the absence of it. So, to maintain
-                  peace in society, we also must have it to be an ideal social
-                  being. Hence, all of us should try our best to possess this
-                  valuable quality in our lives for our own interest.
+                <p className="pt-3">
+                  <strong>Answer-1: </strong> <br />
+                  there is a prover that [TOPIC] cost nothing but brings many
+                  things. This separates a good man from a bad man. A man who
+                  posses this is loved by all. For example, a business man is
+                  loved by his customers for this quality. A service holder is
+                  loved by his colleagues and bosses. So, success in every
+                  sphere of life largely depends on [TOPIC] . It's preferable to
+                  wealth because one may have vast property but he is hated only
+                  for the absence of it. So, to maintain peace in society, we
+                  also must have [it] to be an ideal social being. Hence, all of
+                  us should try our best to possess this valuable quality in our
+                  lives for our own interest.
                 </p>
+                <div className="pt-5">
+                  <strong>Answer-2: </strong> <br />
+                  [TOPIC] is the most valuable and powerful element of our
+                  success in life. It enriches self-confidence in our running
+                  life. If we want to reach our aim we must attain such quality.
+                  It is need to have for mental faculty. [TOPIC] can bring out
+                  rewards for human beings. It is important to have [TOPIC] to
+                  retain the existence of human beings. Without [TOPIC] anybody
+                  cannot achieve anything great and glorious. A man can lose his
+                  prestigious life for its absence. Most of the greatest persons
+                  have gained success by it. [TOPIC] is a kind of knowledge
+                  which thing no training can teach. [TOPIC] broadens our
+                  outlook. Therefore we should have this quality at any cost.{" "}
+                  <br />
+                  <br />
+                  বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার ভালো অভ্যাস বা Good Qualities
+                  নিয়ে Paragraph বললে ওপরের লেখাটি অনুসরণ করো এবং [TOPIC] এর
+                  জায়গায় তোমার নির্দিষ্ট Paragraph এর নাম লিখে বাকী সব
+                  অপরিবর্তিত রাখো।
+                </div>
               </div>
             </AccordionContent>
           </AccordionPanel>
@@ -616,69 +696,18 @@ const Paragraph = () => {
             Faithfulness <br />
             Industry <br />
             Charity <br />
-            <div className="text-start">
-              <strong>Answer: </strong> [TOPIC] is the most valuable and
-              powerful element of our success in life. It enriches
-              self-confidence in our running life. If we want to reach our aim
-              we must attain such quality. It is need to have for mental
-              faculty. [TOPIC] can bring out rewards for human beings. It is
-              important to have [TOPIC] to retain the existence of human beings.
-              Without [TOPIC] anybody cannot achieve anything great and
-              glorious. A man can lose his prestigious life for its absence.
-              Most of the greatest persons have gained success by it. [TOPIC] is
-              a kind of knowledge which thing no training can teach. [TOPIC]
-              broadens our outlook. Therefore we should have this quality at any
-              cost. <br />
-              <br />
-              বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার ভালো অভ্যাস বা Good Qualities
-              নিয়ে Paragraph বললে ওপরের লেখাটি অনুসরণ করো এবং [TOPIC] এর জায়গায়
-              তোমার নির্দিষ্ট Paragraph এর নাম লিখে বাকী সব অপরিবর্তিত রাখো।
-            </div>
+            
             <br />
             <br />
           
-            <h1>All Kinds of Great Personalities</h1>
-            Hazrat Muhammad (SM) <br />
-            Sheikh Mujibur Rahman <br />
-            A Virtuous Man <br />
-            Rabindranath Tagore <br />
-            KaziNazrul Islam <br />
-            Mother Teresa <br />
-            Influence of a Great Man <br />
-            Your Favorite Player <br />
-            Your Favorite Person <br />
-            Your Mother/Father <br />
-            A Great Politician <br />
-            The Teacher You Like Most <br />
-            Your Ideal Man <br />
-            My Favorite Friend <br />
-            <p className="text-start">
-              <strong>Answer: </strong>[TOPIC] is considered as an ideal in my
-              life. I like most him because of his wonderful activities beside
-              his clear-cut and embedded character. His embedded personality
-              could be impressed my heart. For this reason he is my favorite
-              person. His views on society, love of humanity and duty to the
-              every steps attract one a lot. His clarity of mind, uprightness of
-              thought, glorious ideals, and simplicity of life make one his fan.
-              I respect his creativity, speech and his responsibility. Man like
-              [TOPIC] is very necessary for the state. Everyone should try to
-              build up character, morality and personality like him. It is
-              impossible to be a real person without responsibility, morality,
-              embedded character and lofty ideals. For the peace and happiness
-              we should follow him.
-            </p>{" "}
-            বিশেষ দ্রষ্টব্য: বিভিন্ন প্রকার বৈজ্ঞানিক বিষয়বস্তু বা Scientific
-            Thing নিয়ে Paragraph বললে ওপরের লেখাটি অনুসরণ করো এবং [TOPIC] এর
-            জায়গায় তোমার নির্দিষ্ট Paragraph এর নাম লিখে বাকী সব অপরিবর্তিত
-            রাখো।
-          </div>
+            
         </div>
       </div> */}
         </div>
       </div>
       <div className="text-center py-4 sticky bottom-0 left-0 right-0">
         <a
-          href="/preposition.pdf"
+          href="/no.pdf"
           download
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         >
