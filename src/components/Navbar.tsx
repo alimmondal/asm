@@ -40,8 +40,8 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "fixed top-0 left-0 right-0 z-10 transition-all bg-green-400 text-white font-bold"
-            : "bg-sky-500 font-bold text-black"
+            ? "fixed top-0 left-0 right-0 z-10 transition-all bg-sky-500  text-white font-bold"
+            : "bg-slate-50 font-bold text-black"
         }
       >
         <div className="navbar ">
@@ -216,7 +216,7 @@ const Navbar = () => {
               </Link>
             )}
             <div className="avatar">
-              <div className="w-10 rounded-full border-2 border-white animate-pulse">
+              <div className="w-10 rounded-full border-2 border-pink-700 animate-pulse">
                 <ul className="flex items-center justify-center gap-2">
                   <li className="p-2  hover:text-rose-500 transition-all">
                     <a href="tel:+8801751337773">
