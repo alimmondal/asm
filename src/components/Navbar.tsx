@@ -40,8 +40,8 @@ const Navbar = () => {
       <div
         className={
           nav
-            ? "fixed top-0 left-0 right-0 z-10 transition-all bg-sky-500  text-white font-bold"
-            : "bg-slate-50 font-bold text-black"
+            ? "fixed top-0 left-0 right-0 z-10 transition bg-slate-100  text-pink-500 font-bold"
+            : "bg-white font-bold text-black"
         }
       >
         <div className="navbar ">
@@ -101,7 +101,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link onClick={closeMobileMenu} to={"/register"}>
-                        Register
+                        Sign Up
                       </Link>
                     </li>
                   </>
@@ -153,8 +153,8 @@ const Navbar = () => {
               to={"/"}
               className="btn btn-ghost text-xl ml-[-20px]"
             >
-              {/* <FaBookReader size={32} /> */}
-              <img src={"/man.jpg"} className="w-10 border-2 rounded-full" />
+              {/* <img src={"/man.jpg"}/> */}
+              <img src={auth?.user?.photoURL || "/man.jpg"} className="w-10 border-2 rounded-full"  />
               <span className="heading2 ">ASM</span>
             </Link>
           </div>
@@ -162,9 +162,9 @@ const Navbar = () => {
           <div className="hidden md:flex z-50">
             <SearchBar />
           </div>
-
-          {/* Desktop menu */}
-          {/* <div className="navbar-center hidden lg:flex">
+          <>
+            {/* Desktop menu */}
+            {/* <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-0">
               <li>
                 <Link to={"/"}>Home</Link>
@@ -189,7 +189,7 @@ const Navbar = () => {
               )}
             </ul>
           </div> */}
-
+          </>
           <div className="navbar-end space-x-2">
             {auth?.user ? (
               <Button
@@ -216,7 +216,13 @@ const Navbar = () => {
               </Link>
             )}
             <div className="avatar">
-              <div className="w-10 rounded-full border-2 border-pink-700 animate-pulse">
+              <div
+                className={
+                  nav
+                    ? "w-10 rounded-full border border-pink-600 animate-pulse"
+                    : "w-10 rounded-full border-2 animate-pulse"
+                }
+              >
                 <ul className="flex items-center justify-center gap-2">
                   <li className="p-2  hover:text-rose-500 transition-all">
                     <a href="tel:+8801751337773">

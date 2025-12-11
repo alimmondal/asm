@@ -7,7 +7,7 @@ import {
 
 const QuestionOneTwo = () => {
   return (
-    <div className="px-3 lg:w-1/2 mx-auto text-justify">
+    <div className="px-3 lg:w-1/2 mx-auto ">
       <div className="py-20 text-center ">
         <h1 className="text-green-500">Model Questions</h1>
         <p className="text-pink-700 font-bold">Question 1 & 2</p>
@@ -1221,6 +1221,7 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
+
           {/* Model question - 9 */}
           <AccordionPanel>
             <AccordionTitle>Model question - 9</AccordionTitle>
@@ -1350,6 +1351,7 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
+
           {/* Model question - 10 */}
           <AccordionPanel>
             <AccordionTitle>Model question - 10</AccordionTitle>
@@ -1478,6 +1480,7 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
+
           {/* Model question - 11*/}
           <AccordionPanel>
             <AccordionTitle>Model question - 11</AccordionTitle>
@@ -1611,6 +1614,7 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
+
           {/* Model question - 12 */}
           <AccordionPanel>
             <AccordionTitle>Model question - 12</AccordionTitle>
@@ -1770,6 +1774,334 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
+
+          {/* Model question - 12 */}
+          <AccordionPanel>
+            <AccordionTitle>Model question - 12</AccordionTitle>
+            <AccordionContent className="p-2 md:p-5">
+              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
+                <div className="">
+                  Model Question-12 <br />
+                  English (Compulsory)- First Paper <br />
+                  Full marks: 100 ------ Time: 3 hours <br />
+                  [Answer all the questions. Figures in the margin indicate full
+                  marks.] <br />
+                  PART-A: READING TEST [60 Marks] <br />
+                  The Negro is still not free the life of the Negro is still
+                  sadly crippled by the manacles of segregation and the chains
+                  of discrimination. (T)he Negro lives on a lonely island of
+                  poverty in the midst of a vast ocean of material
+                  prosperity.... (T)he Negro is still languishing in the corners
+                  of American society and finds himself an exile in his own
+                  land. So we have come here today to dramatize a shameful
+                  condition.... <br />
+                  <br />
+                  I say to you today, my friends, so even though we face the
+                  difficulties of today and tomorrow. I still have a dream. It
+                  is a dream deeply rooted in the American dream. <br />
+                  <br />
+                  I have a dream that one day this nation will rise up and live
+                  out the true meaning of its creed: "We hold these truths to be
+                  self-evident; that all men are created equal." <br />
+                  <br />
+                  I have a dream that one day on the red hills of Georgia, the
+                  sons of former slaves and the sons of former slave owners will
+                  be able to sit down together at the table of brotherhood.{" "}
+                  <br />
+                  I have a dream that one day even the state of Mississippi, a
+                  state sweltering with the heat of injustice, sweltering with
+                  the heat of oppression, will be transformed into an oasis of
+                  freedom and justice. <br />
+                  I have a dream that my four little children will one day live
+                  in a nation where they will not be judged by the color of
+                  their skin but by the content of their character. <br />
+                  <br />
+                  I have a dream today. <br />
+                  <br />
+                  I have a dream that one day down in Alabama, with its vicious
+                  racists, with its governor having his lips dripping with the
+                  words of 'interposition' and 'nullification', that one day
+                  right down in Alabama little black boys and-black girls will
+                  be able to join hands with little white boys and white girls
+                  as sisters and brothers.
+                  <br />
+                  <br />
+                  বঙ্গানুবাদ: নিগ্রো জাতি এখন পর্যন্ত মুক্ত নয়। <br />
+                  ... নিগ্রো জাতির জীবন এখনও বিচ্ছিন্নকরণের শৃঙ্খল এবং বৈষ্যমের
+                  শিকল দ্বারা দুঃখজনকভাবে পঙ্গু করে রাখা হয়েছে। নিগ্রো জাতি বাস
+                  করছে পার্থিব সমৃদ্ধি নামক বিশাল মহাসাগরের মাঝখানে
+                  দ্রারিদ্র্যের একটা নির্জন দ্বীপে। নিগ্রো জাতি এখনও আমেরিকান
+                  সমাজের বিভিন্ন প্রান্তে নিস্তেজ ও নির্জীব হয়ে পড়ছে এবং তারা
+                  স্বদেশে নিজেদেরকে নির্বাসিত মনে করছে। তাই আজ আমরা এখানে এসেছি
+                  একটা লজ্জাকর পরিস্থিতির কথা বর্ণনা করার জন্য...। <br />
+                  <br />
+                  আমার বন্ধুগণ, আজ আমি আপনাদের বলব, যদিও আমরা প্রতিনিয়ত সমস্যার
+                  মোকাবেলা করছি তবু আমার একটা স্বপ্ন রয়েছে। এ স্বপ্ন
+                  আমেরিকাবাসির স্বপ্নের গভীরে প্রোথিত। <br />
+                  <br />
+                  আমার একটি স্বপ্ন আছে যে একদিন এ জাতি উন্নতি করবে এবং ধর্মীয়
+                  মতবাদের প্রকৃত অর্থ অনুসারে চালিত হবে। "আমরা এ সত্যগুলোকে
+                  স্বতঃসিদ্ধ হিসেবে গ্রহণ করে থাকি যার মধ্যে রয়েছে, 'সব মানুষই'
+                  সমান হিসেবে সৃষ্ট।" <br />
+                  <br />
+                  আমার একটি স্বপ্ন আছে যে, একদিন জর্জিয়ার লোহিত পাহাড়ের বুকে
+                  প্রাক্তন কীতদাসের ছেলেরা আর প্রাক্তন ক্রীতদাসের মালিকের ছেলেরা
+                  ভ্রাতৃত্ববন্ধনের সুবাদে এক টেবিলে একত্রে বসতে সমর্থ হবে।{" "}
+                  <br />
+                  <br />
+                  আমার একটি একটি স্বপ্ন আছে যে, একদিন এমন কি মিসিসিপি রাজ্যও, যা
+                  অবিচার এবং অত্যাচারের দাহে ছটফট্ করছে, নিশ্চিতভাবে মুক্তি ও
+                  ন্যায়বিচারের মরূদ্যানে পরিণত হবে। <br />
+                  আমার একটি স্বপ্ন আছে যে, একদিন আমার ছোট্ট চার সন্তান এমন
+                  রাষ্ট্রে বাস করবে যেখানে তাদেরকে চামড়ার বর্ণের পরিবর্তে তাদের
+                  চরিত্রগত বিষয়ের ভিত্তিতে বিচার করা হবে। 
+                  <br />
+                  <br />
+                  A.Choose the correct answer from the alternatives: <br />
+                  <br />
+                  (a) The word 'transform' (রূপান্তর হওয়া) mentioned in the
+                  passage means <br />
+                  i. persist <br />
+                  ii. hold <br />
+                  iii. convert <br />
+                  iv. remain <br />
+                  <br />
+                  (b) The word 'rooted' (প্রোথিত)stands for <br />
+                  i. ferret <br />
+                  ii. engaged <br />
+                  iii. involved <br />
+                  iv. established <br />
+                  <br />
+                  (c) The speaker is hopeful of a free America. <br />
+                  i. Justice <br />
+                  ii. discrimination <br />
+                  iii. poverty <br />
+                  iv. Negro <br />
+                  <br />
+                  (d) The word 'nullification' (বাতিলকরণ) mentioned in the
+                  passage refers to__ <br />
+                  i. maintenance <br />
+                  ii. cancellation <br />
+                  iii. difference <br />
+                  iv. ugliness <br />
+                  <br />
+                  (e) Which one of the following is connected with the
+                  expression 'sit down <br /> together at the table of
+                  brotherhood'? <br />
+                  i. fraternity <br />
+                  ii. enmity <br />
+                  iii. colony <br />
+                  iv. egoism 
+                  <br />
+                  <br />
+                  <br />
+                  ADDITIONAL QUESTIONS <br />
+                  (1) What is the proper opposite word of 'material' (পার্থিব)
+                  used in the passage? <br />
+                  i. Hard <br />
+                  ii. Soft <br />
+                  iii. Intellectual <br />
+                  iv. Spiritual <br />
+                  <br />
+                  (2) The phrase "I have a dream" in the passage stands for -{" "}
+                  <br />
+                  i. Nelson Mandela. <br />
+                  iii. Robert Brice <br />
+                  ii. Richard the Lion Heart <br />
+                  iv. Martin Luther King Jr. <br />
+                  <br />
+                  (3) The word 'content' (ধারণা) means <br />
+                  i. looseness <br />
+                  ii. index <br />
+                  iii. idea <br />
+                  iv. release <br />
+                  <br />
+                  (4) Martin Luther King Jr. was a <br />
+                  i. politician <br />
+                  ii. dramatist <br />
+                  iii. pastor <br />
+                  iv. novelist <br />
+                  <br />
+                  (5) What does the word 'dramatize' (বর্ণনা করা) mean in the
+                  passage above? <br />
+                  i. demonstrate <br />
+                  ii. act out <br />
+                  iii. represent <br />
+                  iv. present <br />
+                  <br />
+                  (6) The word 'sad' (দুঃখজনক) mentioned in the passage means-{" "}
+                  <br />
+                  i. blissful <br />
+                  ii. woeful <br />
+                  iii. buoyant <br />
+                  iv. cheerful <br />
+                  <br />
+                  (7) Which of the following statement is true about the Negro
+                  according to the speech made by Martin Luther King Jr? <br />
+                  <br />
+                  i. Division and discriminations are common to them. <br />
+                  ii. There is no difference between the white and the black.
+                  <br />
+                  iii. They are not most privileged caste in American society.
+                  <br />
+                  iv. They enjoy all human right. <br />
+                  (8) The word 'chain' (শিকল) mentioned in the passage means
+                  <br />
+                  i. fetters <br />
+                  ii. free <br />
+                  iii. expose <br />
+                  iv. release <br />
+                  <br />
+                  (9) Who delivered the speech? <br />
+                  i. Nelson Mandela <br />
+                  ii. Martin Luther King Jr. <br />
+                  iii. Barack Obama <br />
+                  iv. Winnie Mandela 
+                  <br />
+                  <br />
+                  (10) Where was this speech made? <br />
+                  i. in Cape Town <br />
+                  ii. in London <br />
+                  iii. in the UN <br />
+                 
+                  iv. in Washington D.C. USA 
+                  <br />
+                  <br />
+
+                  (11) What is the synonym of 'segregation' (বিচ্ছিন্নকরণ)? <br />
+                   i. separation <br />
+                  ii. oppression <br />
+                  iii. difference <br />
+                  iv. aggregation <br />
+                  <br />
+                  <br />
+                  (12) The Negroes were in an in their own land. <br />
+                  i. Inhabitant <br />
+                  ii. exdile <br />
+                  iii. Ingenuity <br />
+                  iv. equality <br />
+                  <br />
+                  (13) The meaning of the word langulsh' (কাতর হওয়া) <br />
+                  i. Ill matter <br />
+                  1. suffer <br />
+                  iii. differ <br />
+                  iv. oblique <br />
+                  (14) 'I have a dream'. The underlined word is used here as a__
+                  <br />
+                  1. noun <br />  
+                  II. verb <br />
+                  III. verbal <br />
+                  iv. gerund 
+                  <br />
+                  (15) The word 'evident' (প্রতীয়মান হওয়া) refers to <br />
+                  1. obvious <br />
+                  ii. nave <br />
+                  iii. mimic <br />
+                  iv. panic <br />
+                  <br />
+                  B. Answer the following questions: 2×5-10  <br />
+                  (a) What is the dream or Martin Luther King Jr. expressed in
+                  the first four lines of the text? Be <br />
+                  (b) One day every valley shall be exalted, every hill and
+                  mountain shall be made low.' Explain in your own words.  <br /> 
+                  (c) "This is the faith that I will go back
+                  to the south with." What is the faith of Martin Luther King
+                  Jr.? <br />
+                  (d) What, according to Martin Luther King Jr., will be the use
+                  of this faith? <br />
+                  (e) What ideas of the governor of Alabama do you get from the
+                  passage? <br />
+                  <br /> 
+                  <br /> 
+
+                  ADDITIONAL QUESTIONS <br />
+                  (1) Martin Luther King Jr. Is an advocate of creating a land
+                  free from segregation and discrimination. Do you agree and
+                  why? <br />
+                  (2) Who are called vicious? and why? (কাদের কলুষিত বলা হয় এবং
+                  কেন?) <br />
+                  (3) According to Martin Luther King Jr. why the Negroes were
+                  not free. (নিগ্রোরা কেন স্বাধীন নয়?) <br />
+                  (4) The Negro lives on a lonely island of poverty in the midst
+                  of a vast ocean of material prosperity. Explain. <br />
+                  (5) Why does the Negro find himself in an exile in his own land?
+                  Can you explain the reason for this condition? (নিগ্রোরা কেন
+                  নিজ দেশে নির্বাসিত-ব্যাখ্যা করো।) 
+                  <br />
+                  <br />
+                  2.Based on your reading of the passage, make short notes in
+                  each of the boxes in the flow chart showing what are his
+                  dreams. (No. 1 has been dorie for you) 2×5=10 <br />
+                  I have a dream that one day this nation will rise up and live
+                  out the true meaning of its creed: "We hold these truths to be
+                  self-evident; that all men are created equal." <br />
+                  I have a dream that one day on the red hills of Georgia, the
+                  sons of former slaves and the sons of former slave owners will
+                  be able to sit down together at the table of brotherhood. I
+                  have a dream that one day even the state of Mississippi, a
+                  state sweltering with the heat of injustice, sweltering with
+                  the heat of oppression, will be transformed into an oasis of
+                  freedom and justice. I have a dream that my four little
+                  children will one day live in a nation where they will not be
+                  judged by the color of their skin but by the content of their
+                  character. 
+                   <br />
+                  <div className="font-bold">
+                    <span className="max-w-fit p-1 border border-gray-400 ">
+                      1. Rising up the nation along with the true meaning
+                  of its creeds
+                    </span>
+                    →
+                    <span className="max-w-fit p-1 border border-gray-400 ">
+                      2
+                    </span>
+                    →
+                    <span className="max-w-fit p-1 border border-gray-400 ">
+                      3
+                    </span>
+                    →
+                    <span className="max-w-fit p-1 border border-gray-400 ">
+                      4
+                    </span>
+                    →
+                    <span className="max-w-fit p-1 border border-gray-400 ml-1">
+                      5
+                    </span>
+                    →
+                    <span className="max-w-fit p-1 border border-gray-400 ">
+                      6
+                    </span>
+                  </div>
+                  <br />
+                  Or. L Read the following text and make a flow chart showing
+                  the visions of the Black. (No. 1 has been done for you) <br />
+                  <br />
+                  (1)he Negro is still not free... <br />
+                  the life of the Negro
+                  is still sadly crippled by the manacles of segregation and the
+                  chains of discrimination. the midst of a vast ocean of
+                  material prosperity.... (The Negro is still languishing in the
+                  corners of (1)he Negro lives on a lonely island of poverty in
+                  American society and finds himself an exile in his own land.
+                  So we have come here today to dramatize a shameful
+                  condition... I say to you today, my friends, so even though we
+                  face the difficulties of today and tomorrow, I still have a
+                  dream. It is a dream deeply rooted in the American dream. I
+                  have a dream that one day this nation will rise up and live
+                  out the true meaning of its creed: "We hold these truths to be
+                  self-evident: that all men are created equal. I have a dream
+                  that one day on the red hills of Georgia, the sons of former
+                  slaves and the sons of former slave owners will be able to sit
+                  down together at the table of brotherhood.
+                  <br />
+                  . <br />
+                  <br />
+                  
+                </div>
+              </div>
+            </AccordionContent>
+          </AccordionPanel>
+
           {/* Model question - 13 */}
           <AccordionPanel>
             <AccordionTitle>Model question - 13</AccordionTitle>

@@ -23,7 +23,7 @@ const StoryVocabulary = () => {
   };
 
   return (
-    <div className="w-full h-full lg:w-4/5 mx-auto relative">
+    <div className="w-full h-full mx-auto relative">
       <div className="">
         <div>
           <Worker
