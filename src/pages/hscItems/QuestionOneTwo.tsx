@@ -16,7 +16,7 @@ const QuestionOneTwo = () => {
         <Accordion>
           {/* Model question - 1 */}
           <AccordionPanel>
-            <AccordionTitle>Model-1: Once upon time</AccordionTitle>
+            <AccordionTitle>Model - 1: a bird</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -209,9 +209,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
+
           {/* Model question - 2 */}
           <AccordionPanel>
-            <AccordionTitle>Model-2: AI</AccordionTitle>
+            <AccordionTitle>Model - 2: AI</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="text-center">
@@ -386,9 +387,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
+
           {/* Model question - 3 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 3</AccordionTitle>
+            <AccordionTitle>Model - 3: Education</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 Model Question-03 <br />
@@ -534,9 +536,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
+
           {/* Model question - 4 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 4</AccordionTitle>
+            <AccordionTitle>Model - 4: folk music</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 Model Question 04 <br />
@@ -670,9 +673,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
+
           {/* Model question - 5  */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 5</AccordionTitle>
+            <AccordionTitle>Model - 5: Lalon Shah</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 Model Question - 05 <br />
@@ -804,9 +808,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
+
           {/* Model question - 6 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 6</AccordionTitle>
+            <AccordionTitle>Model - 6: Art</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 Model Question 06 <br />
@@ -934,9 +939,11 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
+
+          
           {/* Model question - 7 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 7</AccordionTitle>
+            <AccordionTitle>Model - 7: S M Sultan</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 Model Question 07 <br />
@@ -1072,9 +1079,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
+
           {/* Model question - 8 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 8</AccordionTitle>
+            <AccordionTitle>Model - 8: Novera Ahmed</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -1224,7 +1232,7 @@ const QuestionOneTwo = () => {
 
           {/* Model question - 9 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 9</AccordionTitle>
+            <AccordionTitle>Model - 9: Island of Crete</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -1354,7 +1362,7 @@ const QuestionOneTwo = () => {
 
           {/* Model question - 10 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 10</AccordionTitle>
+            <AccordionTitle>Model - 10: Gazi Pir</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -1483,7 +1491,7 @@ const QuestionOneTwo = () => {
 
           {/* Model question - 11*/}
           <AccordionPanel>
-            <AccordionTitle>Model question - 11</AccordionTitle>
+            <AccordionTitle>Model - 11: Khona's story</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -1491,7 +1499,7 @@ const QuestionOneTwo = () => {
                   English (Compulsory)- First Paper <br />
                   Full marks: 100 ------ - Time: 3 hours <br />
                   (Answer all the questions. Figures in the margin indicate full
-                  marks.] <br />
+                  marks.) <br />
                   <br />
                   PART-A: READING TEST [60 Marks] <br />
                   1.Read the passage and answer the questions A and B. <br />
@@ -1617,7 +1625,7 @@ const QuestionOneTwo = () => {
 
           {/* Model question - 12 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 12</AccordionTitle>
+            <AccordionTitle>Model - 12: The beginning of modern art</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -1775,9 +1783,9 @@ const QuestionOneTwo = () => {
             </AccordionContent>
           </AccordionPanel>
 
-          {/* Model question - 12 */}
+          {/* Model question - 13 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 12</AccordionTitle>
+            <AccordionTitle>Model - 13: The Negro</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -1999,7 +2007,7 @@ const QuestionOneTwo = () => {
                   iii. mimic <br />
                   iv. panic <br />
                   <br />
-                  B. Answer the following questions: 2×5-10  <br />
+                  B.  Answer the following questions: 2×5-10  <br />
                   (a) What is the dream or Martin Luther King Jr. expressed in
                   the first four lines of the text? Be <br />
                   (b) One day every valley shall be exalted, every hill and
@@ -2102,9 +2110,9 @@ const QuestionOneTwo = () => {
             </AccordionContent>
           </AccordionPanel>
 
-          {/* Model question - 13 */}
+          {/* Model question - 14 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 13</AccordionTitle>
+            <AccordionTitle>Model - 14: The July Uprising</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -2265,9 +2273,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
-          {/* Model question - 14*/}
+
+          {/* Model question - 15*/}
           <AccordionPanel>
-            <AccordionTitle>Model question - 14</AccordionTitle>
+            <AccordionTitle>Model - 15: In 1921, Leela Nag</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -2391,9 +2400,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
-          {/* Model question - 15  */}
+
+          {/* Model question - 16  */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 15</AccordionTitle>
+            <AccordionTitle>Model - 16 Marie Curie</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -2550,9 +2560,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
-          {/* Model question - 16 */}
+
+          {/* Model question - 17 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 16</AccordionTitle>
+            <AccordionTitle>Model  - 17 Nishat Mazumder</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -2680,9 +2691,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
-          {/* Model question - 17 */}
+
+          {/* Model question - 18 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 17</AccordionTitle>
+            <AccordionTitle>Model - 18 The success of Kalsindur</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -2826,9 +2838,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
-          {/* Model question - 18 */}
+
+          {/* Model question - 19 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 18</AccordionTitle>
+            <AccordionTitle>Model  - 19 Aristotle</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -2959,9 +2972,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
-          {/* Model question - 19 */}
+
+          {/* Model question - 20 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 19</AccordionTitle>
+            <AccordionTitle>Model - 20 At daylight Jerry</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -3119,9 +3133,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
-          {/* Model question - 20 */}
+
+          {/* Model question - 21 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 20</AccordionTitle>
+            <AccordionTitle>Model - 21 He came Jerry</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -3235,9 +3250,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
-          {/* Model question - 21 */}
+
+          {/* Model question - 22 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 21</AccordionTitle>
+            <AccordionTitle>Model  - 22 Children must</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -3357,9 +3373,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
-          {/* Model question - 22 */}
+
+          {/* Model question - 23 */}
           <AccordionPanel>
-            <AccordionTitle>Model question -22 </AccordionTitle>
+            <AccordionTitle>Model -23 Adolescents</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -3485,9 +3502,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
-          {/* Model question - 23 */}
+
+          {/* Model question - 24 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 23</AccordionTitle>
+            <AccordionTitle>Model - 24 When a girl gets</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -3627,9 +3645,9 @@ const QuestionOneTwo = () => {
             </AccordionContent>
           </AccordionPanel>
 
-          {/* Model question - 24 */}
+          {/* Model question - 25 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 24</AccordionTitle>
+            <AccordionTitle>Model  - 25 In Bangladesh,</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -3779,9 +3797,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
-          {/* Model question - 25 */}
+
+          {/* Model question - 26 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 25</AccordionTitle>
+            <AccordionTitle>Model question - 26</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -3908,9 +3927,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
-          {/* Model question - 26 */}
+
+          {/* Model question - 27 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 26</AccordionTitle>
+            <AccordionTitle>Model  - 27 One of the sources of water</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -4050,9 +4070,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
-          {/* Model question - 27 */}
+
+          {/* Model question - 28 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 27</AccordionTitle>
+            <AccordionTitle>Model  - 28: and "medium" wood,(jerry)</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -4088,22 +4109,28 @@ const QuestionOneTwo = () => {
                   <br />
                   A. Choose the correct answer from the alternatives:1x5=5
                   <br />
-                  (a) Jerry's courtesy was[ DB '25] <br />
+                  (a) Jerry's courtesy was__ [DB '25] <br />
                   i. artificial <br />
                   ii. acquired <br />
                   iii. inborn <br />
-                  Iv. taught <br />
-                  (b) What does the phrase 'of his own accord' indicate? DB 25
+                  Iv. taught 
+                  <br />
+                  <br />
+                  (b) What does the phrase 'of his own accord' indicate? [DB 25]
                   <br />
                   i. Half-heartedly <br />
                   ii. Reluctantly <br />
                   iii. Neutrally <br />
-                  iv. Willingly <br />
-                  (c) 'Cubbyhole' means- (ছোট ঘেরা স্থান)(DB '25) <br />
+                  iv. Willingly 
+                  <br />
+                  <br />
+                  (c) 'Cubbyhole' means- (ছোট ঘেরা স্থান) [DB '25] <br />
                   i. a small enclosed space <br />
                   ii. a noisy place <br />
                   iii. a deep hole <br />
-                  iv. a snake hole <br />
+                  iv. a snake hole 
+                  <br />
+                  <br />
                   (d) 'I saw deep into the clear well of his eyes'. - What did
                   the writer see? [DB 25] <br />
                   i. Steadiness <br />
@@ -4193,9 +4220,10 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
-          {/* Model question - 28 */}
+
+          {/* Model question - 29 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 28</AccordionTitle>
+            <AccordionTitle>Model - 29: Many adolescents</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -4206,11 +4234,11 @@ const QuestionOneTwo = () => {
                   marks.] <br />
                   <br />
                   <p className="font-bold">
-                    {" "}
+                    
                     PART-A: READING TEST [60 Marks] <br />
                   </p>
                   <p className="font-bold">
-                    1. Read the passage and answer the questions A and B. <br />{" "}
+                    1. Read the passage and answer the questions A and B. <br />
                   </p>
                   Many adolescents face pressure to use alcohol, cigarettes, or
                   other drugs and to initiate sexual relationships putting
@@ -4370,9 +4398,9 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
-          {/* Model question - 29 */}
+          {/* Model question - 30 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 29</AccordionTitle>
+            <AccordionTitle>Model  - 30: Like many other</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -4529,13 +4557,14 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
-          {/* Model question - 30 */}
+
+          {/* Model question - 31 */}
           <AccordionPanel>
-            <AccordionTitle>Model question - 30</AccordionTitle>
+            <AccordionTitle>Model - 31</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
-                  Model Question-30 <br />
+                  Model Question-31 <br />
                   English (Compulsory)- First Paper <br />
                   Full marks: 100 —------ Time: 3 hours <br />
                   [Answer all the questions. Figures in the margin indicate full
