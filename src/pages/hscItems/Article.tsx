@@ -1,6 +1,284 @@
+// import { Link } from "react-router-dom";
+import "pdfjs-dist/build/pdf.worker.entry";
+import { useRef, useState, useEffect } from "react";
+import HTMLFlipBook from "react-pageflip";
+// import frontCover from "../../../public/bookCover.jpg";
+
+
 function Article() {
+ const flipBook = useRef<any>(null);
+  const [currentPage, setCurrentPage] = useState(0);
+  const [jumpPage, setJumpPage] = useState<number | "">("");
+  const [isPortrait, setIsPortrait] = useState(false); // 🔥 auto mode
+
+  const totalPages = 24; // Update when you add more pages
+
+  // 🔊 Add audio ref for page flip sound
+  const flipSound = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    flipSound.current = new Audio("/sounds/mixkit-page-turn-single-1104.wav");
+    flipSound.current.volume = 1.0; // optional: adjust volume
+  }, []);
+
+  // Play sound on flip
+  const onFlip = (e: any) => {
+    setCurrentPage(e.data);
+    if (flipSound.current) {
+      flipSound.current.currentTime = 0;
+      flipSound.current.play();
+    }
+  };
+
+  const FlipBook = HTMLFlipBook as any;
+
+  // 🔥 Detect screen size & adjust orientation
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        // Mobile & small tablets → Portrait
+        setIsPortrait(true);
+      } else {
+        // Desktop → Landscape
+        setIsPortrait(false);
+      }
+    };
+
+    handleResize(); // Run once on mount
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // Helper: play sound when flipping manually
+  const playFlipSound = () => {
+    if (flipSound.current) {
+      flipSound.current.currentTime = 0;
+      flipSound.current
+        .play()
+        .catch((err) => console.warn("Playback prevented:", err));
+    }
+  };
+
+  const goToContents = () => {
+    if (flipBook.current) {
+      flipBook.current.pageFlip().flip(2); // 👈 contents page (Page 2 visually)
+    }
+  };
+
   return (
+
     <div className="h-full lg:w-1/2 mx-auto">
+
+    <div className="flex flex-col items-center py-10 px-5 md:px-10 overflow-hidden">
+        <FlipBook
+          width={isPortrait ? 400 : 500} // smaller width for portrait
+          height={isPortrait ? 600 : 300} // taller height for portrait
+          className="shadow-2xl rounded"
+          style={{
+            margin: "0 auto",
+            backgroundImage: "url('/bookBg.jpg')",
+            backgroundSize: "cover",
+          }}
+          showCover={true}
+          size="stretch"
+          minWidth={300}
+          maxWidth={1200}
+          minHeight={300}
+          maxHeight={900}
+          drawShadow={true}
+          flippingTime={800}
+          usePortrait={isPortrait} // 🔥 auto toggle
+          autoSize={true}
+          clickEventForward={true}
+          startZIndex={0}
+          maxShadowOpacity={0.5}
+          mobileScrollSupport={true}
+          useMouseEvents={true}
+          swipeDistance={30}
+          showPageCorners={true}
+          disableFlipByClick={false}
+          onFlip={onFlip}
+          ref={flipBook}
+        >
+          {/* Cover Page */}
+          <div
+            data-density="hard"
+            className="font-bold relative book"
+            // style={{
+            //   backgroundImage: `url(${frontCover})`,
+            //   backgroundSize: "cover",
+            //   backgroundPosition: "center",
+            //   backgroundRepeat: "no-repeat",
+            //   width: "100%",
+            //   height: "100%",
+            // }}
+          >
+            <div className="absolute top-1/4 left-[18%] sm:left-[27%] sm:top-[30%]  md:top-[12%] md:left-[20%] lg:top-[10%] lg:left-[25%] xl:left-[30%] 2xl:left-[35%] 2xl:top-[25%] px-5">
+              <h1 className="text-center text-9xl">📖</h1>
+              <h1 className="text-pink-700 text-xl md:text-3xl text-center py-3">
+                Right Form of Verbs
+              </h1>
+              <p className="text-center text-blue-600">
+                Click/touch to read the book
+              </p>
+            </div>
+
+            <img src="/bookCover3.jpg" className="w-full h-full" alt="" />
+          </div>
+
+          
+
+          
+         {/* page 1 ABC in IPA*/}
+        <div className="p-3 text-black lg:p-5 bg-[#EFE5D6] book-shadow">
+          <div className="flex justify-start gap-10 md:gap-96 mb-1">
+            <h2 className="text-base lg:text-xl font-bold ">Page 1</h2>
+            <button
+              onClick={goToContents}
+              className=" px-2 py-1 bg-blue-500 text-white text-xs md:text-base rounded hover:bg-blue-600"
+            >
+              ⬅ Back to index
+            </button>
+          </div>
+          <div className="">
+            <p className="font-bold">ABC in IPA </p>
+            <div className="w-full flex  justify-evenly text-base">
+              <p className="">
+                A = /eɪ/ = এই <br />
+                B = /biː/ = বী <br />
+                C = /siː/ = সী <br />
+                D = /diː/ = ডী <br />
+                E = /iː/ = ঈ <br />
+                F = /ef/ = এফ <br />
+                G = /dʒiː/ = জী <br />
+                H = /eɪtʃ/ = এইচ্ <br />
+                I = /aɪ/ = আই <br />
+                J = /dʒeɪ/ = জ্বেই <br />
+                K = /keɪ/ = খেই <br />
+                L = /el/ = এল্ <br />
+                M = /em/ = এ্যম্ <br />
+                N = /en/ = এন্‌ <br />
+              </p>
+              <p className="">
+                O = /əʊ/ = ওউ <br />
+                P = /piː/ = ফী <br />
+                Q = /kjuː/ = খীউ <br />
+                R = /ɑːr/, /ɑː(r)/ = আ (র) <br />
+                S = /es/ = এস্ <br />
+                T = /tiː/ = ঠী <br />
+                U = /juː/ = ইউ <br />
+                V = /viː/ = ভীই <br />
+                W = /ˈdʌbljuː/ = ডাবল্ইউ <br />
+                X = /eks/ = এক্স <br />
+                Y = /waɪ/ = ওয়াই <br />
+                Z = /zed/, /ziː/ = জেড/জি <br />
+                (British-জেড, American- জি) <br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+          
+      
+
+          {/* Back Cover */}
+          <div className="bg-gradient-to-r from-indigo-600 to-purple-600  text-white text-xl font-bold">
+            <div className="w-full h-full text-7xl flex flex-col items-center justify-center">
+              <p className="">🔚 </p>
+              <p className="">The End</p>
+            </div>
+          </div>
+        </FlipBook>
+
+        {/* Button section */}
+        <div className="flex flex-col items-center">
+          {/* Navigation Controls */}
+          <div className="flex items-center gap-4 mt-6">
+            <button
+              className="px-3 py-1 bg-gray-700 text-white rounded"
+              onClick={() => {
+                playFlipSound();
+                flipBook.current.pageFlip().turnToPrevPage();
+              }}
+            >
+              ◀ Prev
+            </button>
+
+            <span className="text-lg font-semibold">
+              Page {currentPage + 1} / {totalPages}
+            </span>
+
+            <button
+              className="px-3 py-1 bg-gray-700 text-white rounded"
+              onClick={() => {
+                playFlipSound();
+                flipBook.current.pageFlip().turnToNextPage();
+              }}
+            >
+              Next ▶
+            </button>
+          </div>
+
+          {/* Jump to Page */}
+          <div className="w-full mt-4 flex items-center justify-center gap-2">
+            <input
+              type="number"
+              min="1"
+              max={totalPages}
+              value={jumpPage}
+              onChange={(e) => {
+                playFlipSound();
+                const value = e.target.value;
+                setJumpPage(value === "" ? "" : parseInt(value, 10));
+              }}
+              className="border px-2 py-1 rounded max-w-fit text-center"
+              placeholder="Put a page number and click Go to..."
+            />
+            <button
+              className="px-3 py-1 bg-indigo-600 text-white rounded disabled:opacity-50"
+              disabled={
+                jumpPage === "" || jumpPage < 1 || jumpPage > totalPages
+              }
+              onClick={() => {
+                if (
+                  typeof jumpPage === "number" &&
+                  jumpPage >= 1 &&
+                  jumpPage <= totalPages
+                ) {
+                  flipBook.current.pageFlip().flip(jumpPage - 1);
+                }
+              }}
+            >
+              Go
+            </button>
+          </div>
+
+          {/* Numbered Page Buttons */}
+          <div className="flex flex-wrap justify-center gap-2 mt-4">
+            {Array.from({ length: totalPages }, (_, i) => (
+              <button
+                key={i}
+                className={`px-3 py-1 rounded border ${
+                  currentPage === i
+                    ? "bg-indigo-600 text-white"
+                    : "bg-gray-200 hover:bg-gray-300"
+                }`}
+                onClick={() => {
+                  playFlipSound();
+                  flipBook.current.pageFlip().flip(i);
+                }}
+              >
+                {i + 1}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+
+
+
+      <div className="">
       <div className="px-5 w-full flex items-center justify-center py-20">
         <div className="relative w-[600px] h-[200px] bg-black text-white flex items-center justify-center text-2xl md:text-6xl font-bold rounded-2xl overflow-hidden">
           <span className="text-white">Article</span>
@@ -178,8 +456,7 @@ function Article() {
         <br /> <br />
         (a)_____ parliament house of Bangladesh is (b)_____exquisitely designed
         building. In fact, it is (c)_____wonder of modern architecture and
-        technology. It is one of (d)_____largest and most spectacular parliament
-        buildings in (e)_____world. It is (f)_____ highly expensive building.
+        technology. It is one of (d)_____largest and most spectacular parliament buildings in (e)_____world. It is (f)_____ highly expensive building.
         (g)_____maintenance cost of the parliament house is about 50 million
         taka per year. An American architect (h) _____Louis I Khan designed this
         (i) _____building. Everyday many (j)_____visitor comes to visit the
@@ -396,6 +673,7 @@ function Article() {
         without knowing the meaning. He must not make notes from (g)_____common
         source. He should have a good (h)_____command over English. By doing all
         these things (i)_____student can hope to make a good (j)_____result
+      </div>
       </div>
     </div>
   );
