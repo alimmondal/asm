@@ -77,31 +77,34 @@ function Completing() {
 
       {/* <!-- Rules --> */}
       <div className="">
-        <h2 className="">Rules</h2>
+        <h2 className="">Rules:</h2>
         <h3 className="">
           <span className="animateText">***</span> 1. after / before:
         </h3>
         <p>Q. He reached after............</p>
         <p>* He reached after he had / have/ has finished (reading it).</p>
-        <p>= He reached after he had finished it.</p>
-        <p>= He had reached after he  finished it.(before থাকলে had হবেনা)</p>
+        <p>= He reached after <u> he had finished it</u> .</p>
+        <p>= He had reached before <u> he  finished it</u>  . <br />
+        (Note: before এর পরে had হবেনা)</p>
 
         <h3>2. Lest:</h3>
         <p>Q. He read diligently lest..................</p>
         <p>* He read diligently lest he might / should fail / miss (it).</p>
-        <p>= He read diligently lest he might miss it.</p>
+        <p>= He read diligently lest <u> he might miss it</u> .</p>
 
         <h3 className="">
-          <span className="animateText">***</span>3. It is time/ it is high
+          <span className="animateText">*** </span>3. It is time/ it is high
           time:
         </h3>
         <p>Q. It is high time .......</p>
-        <p>= It is high time we changed our habit.</p>
+        <p>= It is high time <u>we changed our habit</u> .</p>
 
-        <h3>4. Who / whom / whose (relative pronoun):</h3>
-        <p>Q. He is a doctor (who)............</p>
+        <h3>4. Who / whom / whose:</h3>
+        <p>(i) He is a doctor (who)............</p>
         <p>* He is a doctor who is clever / honest / wants to be happy.</p>
-        <p>= He is a doctor who is clever.</p>
+        <p>= He is a doctor who <u>is clever</u> .</p>
+        <p>(ii) He is a doctor whom _____ .</p>
+        <p>= He is a doctor whom <u>I Know</u> .</p>
 
         <h3>5. That / which:</h3>
         <p>(i) He said / thinks that..................</p>
@@ -109,15 +112,15 @@ function Completing() {
           * He said that it is / was favorite to him / it was beautiful to me/
           was essential to him.
         </p>
-        <p>= He said that it was essential to him.</p>
+        <p>= He said that <u>it was essential to him</u> .</p>
         <p>(ii) This is the house which..................</p>
         <p>
           * This is the house that / which is small / favorite to me / beautiful
           to me.
         </p>
-        <p>= This is the house which was essential to him.</p>
+        <p>= This is the house which <u> was essential to him</u> .</p>
 
-        <h3>6. When / where (time / place):</h3>
+        <h3>6. When / where:</h3>
         <p>(i) Saturday is the day (when)............</p>
         <p>* Saturday is the day when he was born / I went there.</p>
         <p>= Saturday is the day when I went there.</p>
@@ -131,7 +134,7 @@ function Completing() {
         <p>= By eating balance diet you can hope (to attain) it.</p>
 
         <h3 className="">
-          <span className="animateText">***</span> 8. If:
+          <span className="animateText">*** </span> 8. If:
         </h3>
         <p>(i) if he comes,..................</p>
         <p>= if he comes. I will do it.</p>

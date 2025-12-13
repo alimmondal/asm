@@ -33,6 +33,7 @@ function Hsc() {
           HSC
         </h1>
       </div>
+
       {/* First paper */}
       <div className="my-20 md:my-48">
         <h1 className="text-center text-green-400 pb-5">First Paper</h1>
@@ -47,11 +48,6 @@ function Hsc() {
             grid grid-cols-2 md:grid-cols-4  gap-3 px-2 md:px-20 
           "
           >
-            <Link to={"/HSuggestion"}>
-              <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4  font-bold md:text-xl text-base category hover:dark:shadow-md">
-                Suggestion
-              </li>
-            </Link>
             <Link to={"/QuestionOneTwo"}>
               <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
                 Question 1 & 2
@@ -134,11 +130,11 @@ function Hsc() {
             grid grid-cols-2 md:grid-cols-4  gap-5 px-2 md:px-20 
           "
           >
-            <Link to={"/HSuggestion"}>
+            {/* <Link to={"/HSuggestion"}>
               <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
                 Suggestion
               </li>
-            </Link>
+            </Link> */}
 
             <Link to={"/article"}>
               <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4 font-bold md:text-xl text-base category hover:dark:shadow-md">
@@ -234,6 +230,16 @@ function Hsc() {
             </Link>
           </ul>
         </div>
+      </div>
+
+      {/* Suggestion */}
+      <div className="mb-10 px-20 max-w-7xl mx-auto">
+        <h1 className="text-center text-green-400 pb-5">Suggestions</h1>
+        <Link to={"/HSuggestion"}>
+          <li className="text-black bg-gradient-to-r from-yellow-300 to-green-500 dark:hover:shadow-yellow-400 dark:hover:border-gray-300 dark:hover:text-gray-400 text-center py-2 md:py-4  font-bold md:text-xl text-base category hover:dark:shadow-md">
+           An Exclusive Suggestion
+          </li>
+        </Link>
       </div>
     </div>
   );

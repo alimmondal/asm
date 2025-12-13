@@ -16,7 +16,7 @@ const QuestionOneTwo = () => {
         <Accordion>
           {/* Model question - 1 */}
           <AccordionPanel>
-            <AccordionTitle>Model - 1: a bird</AccordionTitle>
+            <AccordionTitle>Model - 1: Bird + Jerry</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -212,7 +212,7 @@ const QuestionOneTwo = () => {
 
           {/* Model question - 2 */}
           <AccordionPanel>
-            <AccordionTitle>Model - 2: AI</AccordionTitle>
+            <AccordionTitle>Model - 2: AI + Khona</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="text-center">
@@ -390,7 +390,7 @@ const QuestionOneTwo = () => {
 
           {/* Model question - 3 */}
           <AccordionPanel>
-            <AccordionTitle>Model - 3: Education</AccordionTitle>
+            <AccordionTitle>Model - 3: Education + July</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 Model Question-03 <br />
@@ -399,96 +399,101 @@ const QuestionOneTwo = () => {
                 [Answer all the questions. Figures in the margin indicate full
                 marks.] <br />
                 <br />
-                PART-A: READING TEST [60 Marks] <br />
-                1. Read the passage and answer the questions A and B. <br />
-                Education aims to bring about positive changes in our behavior.
-                It helps us try to change our lives as well as the society we
-                live in. Education that does not illuminate our minds or does
-                not inspire us to work for the community is not complete at all.
-                Education is not all about getting grades or receiving
-                certificates we use education to make life better. We are
-                expected to apply the knowledge, skills and values that we learn
-                in a classroom in our engagement with the world that lies
-                outside. And we can do so in many different ways. Let's have a
-                look at how education works. <br />
-                Learners' civic engagement is highly appreciated all over the
-                world. Civic engagement means working to make a difference in
-                the civic life (the public life of the citizens as contrasted
-                with private or personal life) of the community using knowledge,
-                skills, values and motivation. Civic engagement promotes the
-                quality of life in a community by contributing to the
-                improvement of health and wellbeing of the people. Civically
-                engaged individuals recognize themselves as members of a larger
-                social community and are concerned about civic issues. They
-                consider themselves responsible citizens who take action or
-                raise their voices against injustice, discrimination and other
-                forms of social ills. <br />
-                In civic engagement, Issues of public concern are crucial. Civic
-                engagement includes individual or group activities to protect
-                public interests and change the way the community values itself.
-                For example, if you are protesting against any unjust decision
-                of the local municipality such as raising taxes or an act that
-                might work against people's interests, you are civically engaged
-                and your action is considered a civic engagement. This protest
-                can be done in different ways such as organizing rallies.
-                collecting signatures, making human chains, writing petitions,
-                etc. You can also help control traffic in front of a school,
-                help children to cross the roads, work in a team to clean a park
-                or a sea beach. You can also give some services to elderly
-                people. These are all examples of civic engagement as what you
-                do directly affects the community. <br />
-                When civic engagement is a part of an academic programme, and
-                the learners' engagement is assessed following a scale, then it
-                is called service learning. It involves the application of
-                knowledge and skills learned in the classroom and then making a
-                complete plan of action i.e. preparing a budget, starting the
-                process of implementation, involving people and activating
-                operational strategies. When civic engagement is spontaneous but
-                irregular and not a part of any academic programme, it is
-                considered volunteerism. <br /> [Unit-1: Lesson-4(C)] <br />
-                <br />
-                A. Choose the correct answer from the alternatives:1x5=5 <br />
-                (a) The phrase 'service learning in the passage stands for
-                <br />
-                i. self learning <br />
-                ii. experiential learning <br />
-                iii. classroom learning <br />
-                iv. formal learning <br />
-                <br />
-                (b) 'Illuminate' is synonymous with <br />
-                i. darken <br />
-                ii. complicate <br />
-                iii. brighten <br />
-                iv. extinguish <br />
-                <br />
-                ( c) Civic engagement means working to make a difference in
-                civic life. Here the term 'civic life' refers to <br />
-                i. social exclusion <br />
-                iii. the public life of the citizens <br />
-                ii. bohemian life <br />
-                Iv. private life of a person <br />
-                <br />
-                (d) The word 'assess' stands for <br />
-                i. evaluate <br />
-                ii. fall <br />
-                iii. disapprove <br />
-                Iv. reject <br />
-                <br />
-                (e) The word 'implementation' means <br />
-                i. negligence <br />
-                ii. prosecution <br />
-                iii. abandon <br />
-                Iv. disregard <br />
-                <br />
-                B. Answer the following questions:2x5=10 <br />
-                (a) How does volunteerism contradict the concept of service
-                learning? Which one is more familiar to you in our society?
-                <br />
-                (b) How does education influence human life? <br />
-                (c) In which way knowledge is incorporated in daily life? <br />
-                (d) What makes learning praiseworthy? <br />
-                (e) When are people counted as concerned citizens? <br />
-                <br />
+                <div className="">
+                  PART-A: READING TEST [60 Marks] <br />
+                  1. Read the passage and answer the questions A and B. <br />
+                  Education aims to bring about positive changes in our
+                  behavior. It helps us try to change our lives as well as the
+                  society we live in. Education that does not illuminate our
+                  minds or does not inspire us to work for the community is not
+                  complete at all. Education is not all about getting grades or
+                  receiving certificates we use education to make life better.
+                  We are expected to apply the knowledge, skills and values that
+                  we learn in a classroom in our engagement with the world that
+                  lies outside. And we can do so in many different ways. Let's
+                  have a look at how education works. <br />
+                  Learners' civic engagement is highly appreciated all over the
+                  world. Civic engagement means working to make a difference in
+                  the civic life (the public life of the citizens as contrasted
+                  with private or personal life) of the community using
+                  knowledge, skills, values and motivation. Civic engagement
+                  promotes the quality of life in a community by contributing to
+                  the improvement of health and wellbeing of the people.
+                  Civically engaged individuals recognize themselves as members
+                  of a larger social community and are concerned about civic
+                  issues. They consider themselves responsible citizens who take
+                  action or raise their voices against injustice, discrimination
+                  and other forms of social ills. <br />
+                  In civic engagement, Issues of public concern are crucial.
+                  Civic engagement includes individual or group activities to
+                  protect public interests and change the way the community
+                  values itself. For example, if you are protesting against any
+                  unjust decision of the local municipality such as raising
+                  taxes or an act that might work against people's interests,
+                  you are civically engaged and your action is considered a
+                  civic engagement. This protest can be done in different ways
+                  such as organizing rallies. collecting signatures, making
+                  human chains, writing petitions, etc. You can also help
+                  control traffic in front of a school, help children to cross
+                  the roads, work in a team to clean a park or a sea beach. You
+                  can also give some services to elderly people. These are all
+                  examples of civic engagement as what you do directly affects
+                  the community. <br />
+                  When civic engagement is a part of an academic programme, and
+                  the learners' engagement is assessed following a scale, then
+                  it is called service learning. It involves the application of
+                  knowledge and skills learned in the classroom and then making
+                  a complete plan of action i.e. preparing a budget, starting
+                  the process of implementation, involving people and activating
+                  operational strategies. When civic engagement is spontaneous
+                  but irregular and not a part of any academic programme, it is
+                  considered volunteerism. <br /> [Unit-1: Lesson-4(C)] <br />
+                  <br />
+                  A. Choose the correct answer from the alternatives:1x5=5{" "}
+                  <br />
+                  (a) The phrase 'service learning in the passage stands for
+                  <br />
+                  i. self learning <br />
+                  ii. experiential learning <br />
+                  iii. classroom learning <br />
+                  iv. formal learning <br />
+                  <br />
+                  (b) 'Illuminate' is synonymous with <br />
+                  i. darken <br />
+                  ii. complicate <br />
+                  iii. brighten <br />
+                  iv. extinguish <br />
+                  <br />
+                  ( c) Civic engagement means working to make a difference in
+                  civic life. Here the term 'civic life' refers to <br />
+                  i. social exclusion <br />
+                  iii. the public life of the citizens <br />
+                  ii. bohemian life <br />
+                  Iv. private life of a person <br />
+                  <br />
+                  (d) The word 'assess' stands for <br />
+                  i. evaluate <br />
+                  ii. fall <br />
+                  iii. disapprove <br />
+                  Iv. reject <br />
+                  <br />
+                  (e) The word 'implementation' means <br />
+                  i. negligence <br />
+                  ii. prosecution <br />
+                  iii. abandon <br />
+                  Iv. disregard <br />
+                  <br />
+                  B. Answer the following questions:2x5=10 <br />
+                  (a) How does volunteerism contradict the concept of service
+                  learning? Which one is more familiar to you in our society?
+                  <br />
+                  (b) How does education influence human life? <br />
+                  (c) In which way knowledge is incorporated in daily life?{" "}
+                  <br />
+                  (d) What makes learning praiseworthy? <br />
+                  (e) When are people counted as concerned citizens? <br />
+                  <br />
+                </div>
                 2. Based on your reading of the passage, make short notes in
                 each of the boxes in the flow-chart showing the events leading
                 to Sheikh Hasina fleeing the country. (No. 1 has been done for
@@ -548,127 +553,134 @@ const QuestionOneTwo = () => {
                 [Answer all the questions. Figures in the margin indicate full
                 marks.] <br />
                 <br />
-                PART-A: READING TEST [60 Marks] <br />
-                1. Read the passage and answer the questions A and B. <br />
-                In Bangladesh folk music has great variety, with songs being
-                composed on the culture, festivals, views cial inequality of
-                life, natural beauty, rivers and rural and riverine life. These
-                songs are also about social and poverty, about the material
-                world and the supernatural. Mystical songs have been composed
-                using the metaphors of rivers and boats. Since the country is
-                basically riverine, the Bhatiyali forms an important genre of
-                folk music. Nature plays a role in providing the content and
-                rhythm of folk music. <br />
-                The folk music of Bangladesh varies from region to region
-                reflecting changes in the natural environment and the dialects
-                people use. Thus there are the northern Bhawalya, the eastern
-                Bhatiyall and the southwestern Baul songs. The culture and the
-                lifestyle of the different ethnic minorities, such as the
-                Chakmas, manipuris, Santals or Tripuris, have also influenced
-                fold music. Their interaction with Bengali culture and lifestyle
-                over the years has been clearly reflected in the richness of our
-                folk music. <br />
-                Folk songs may be sung individually or in chorus. Folk songs
-                sung individually include Baul. Bhatiyali. Murshidi and Marfati,
-                while songs sung in chorus include Kabigan, Leto, Alkap and
-                Gambhira. Some songs are regional in character, but others are
-                common to both Bangladesh and West Bengal. Similarly, some songs
-                belong distinctively to one religious community, the Hindus or
-                the Muslims, other cross religious boundaries. Some songs belong
-                exclusively to men, others to women, while some are sung by both
-                men and women. <br />
-                Thus only women compose and sing Bratagan and Meyeli Git, but
-                both men and women participate in the old practice of
-                'roof-beating songs that are sung while beating down and firming
-                rooftops. <br /> [Unir-2: Lesson-2(B)] <br />
-                <br />
-                A. Choose the correct answer from the alternatives:1x5=5 <br />
-                (a) What does the word 'great' mean in the passage? <br />
-                i. Slight <br />
-                ii. Substantial <br />
-                iii. Inferior <br />
-                iv. grown <br />
-                <br />
-                (b) Bangladesh is crisscrossed by many <br />
-                i. Regions <br />
-                ii. folk songs <br />
-                iii. Rivers <br />
-                iv. Cultures <br />
-                (c) _____play the most prominent role in folk music. <br />
-                i. Rivers <br />
-                ii. Boats <br />
-                iii. Tribal people <br />
-                iv. Surroundings <br />
-                <br />
-                (d) The meaning of the word 'exclusively' is <br />
-                i. totally <br />
-                II. particularly <br />
-                iii. Absolutely <br />
-                iv. Completely <br />
-                <br />
-                (e) The Baul songs are most popular in the part of Bangladesh.
-                <br />
-                i. Southwestern <br />
-                ii. Southern <br />
-                iii. Eastern <br />
-                Iv. Northern <br />
-                <br />
-                B. Answer the following questions : <br />
-                (a) What is Folk Music? <br />
-                (b) What do you understand by the phrase 'Mystical songs'?
-                <br />
-                (c) Why does folk music vary from region to region? <br />
-                (d) Name some choric folk songs? <br />
-                (e) Why is our folk music-rich for? <br />
-                <br />
-                2. Based on your reading of the passage, make short notes in
-                each of the boxes in the flow-chart showing the quality that
-                Khona possessed. (No. 1 has been done for you.) 2 x 5 = 10 Jodi
-                borshe magher shesh, dhonyi rajar punyi desh. <br />
-                If it rains at the end of Magh (last month of Winter), the
-                kingdom will prosper. <br />
-                The mystery that connects seasons with soil and crops with rain
-                was no secret to her. She realized the interdependence that
-                links people and climate in myriad ways. She was Khona. <br />
-                The mythical story of Khona is deeply rooted in Bangla folklore.
-                Khona, originally named Lila, was an incredible woman with a
-                gift for predicting weather and understanding the ways of
-                farming. Her wisdom was shared through memorable, rhyming verses
-                known as "Khona's Words" or "Khonar Bochon." These sayings,
-                though simple and easy to remember, were filled with deep
-                knowledge and practical advice for farmers. <br />
-                Khona used her knowledge to help the peasants, but her actions
-                often challenged the ruling class. The rulers, not pleased with
-                her defiance, punished her cruelly by cutting out her tongue.
-                Thus, she became known as Khona, which means "someone who cannot
-                speak." Despite this harsh punishment, her wisdom lived on
-                through her sayings, which have been passed down for over 1500
-                years.[Unit-3: Lesson-4(B)] <br />
-                <br />
-                <div className="font-bold">
-                  <span className="max-w-fit p-1 border border-gray-400 ">
-                    1. realized interdependence
-                  </span>
-                  →
-                  <span className="max-w-fit p-1 border border-gray-400 ">
-                    2
-                  </span>
-                  →
-                  <span className="max-w-fit p-1 border border-gray-400 ">
-                    3
-                  </span>
-                  →
-                  <span className="max-w-fit p-1 border border-gray-400 ">
-                    4
-                  </span>
-                  →
-                  <span className="max-w-fit p-1 border border-gray-400 ml-1">
-                    5
-                  </span>
-                  →
-                  <span className="max-w-fit p-1 border border-gray-400 ">
-                    6
-                  </span>
+                <div className="">
+                  PART-A: READING TEST [60 Marks] <br />
+                  1. Read the passage and answer the questions A and B. <br />
+                  In Bangladesh folk music has great variety, with songs being
+                  composed on the culture, festivals, views cial inequality of
+                  life, natural beauty, rivers and rural and riverine life.
+                  These songs are also about social and poverty, about the
+                  material world and the supernatural. Mystical songs have been
+                  composed using the metaphors of rivers and boats. Since the
+                  country is basically riverine, the Bhatiyali forms an
+                  important genre of folk music. Nature plays a role in
+                  providing the content and rhythm of folk music. <br />
+                  The folk music of Bangladesh varies from region to region
+                  reflecting changes in the natural environment and the dialects
+                  people use. Thus there are the northern Bhawalya, the eastern
+                  Bhatiyall and the southwestern Baul songs. The culture and the
+                  lifestyle of the different ethnic minorities, such as the
+                  Chakmas, manipuris, Santals or Tripuris, have also influenced
+                  fold music. Their interaction with Bengali culture and
+                  lifestyle over the years has been clearly reflected in the
+                  richness of our folk music. <br />
+                  Folk songs may be sung individually or in chorus. Folk songs
+                  sung individually include Baul. Bhatiyali. Murshidi and
+                  Marfati, while songs sung in chorus include Kabigan, Leto,
+                  Alkap and Gambhira. Some songs are regional in character, but
+                  others are common to both Bangladesh and West Bengal.
+                  Similarly, some songs belong distinctively to one religious
+                  community, the Hindus or the Muslims, other cross religious
+                  boundaries. Some songs belong exclusively to men, others to
+                  women, while some are sung by both men and women. <br />
+                  Thus only women compose and sing Bratagan and Meyeli Git, but
+                  both men and women participate in the old practice of
+                  'roof-beating songs that are sung while beating down and
+                  firming rooftops. <br /> [Unir-2: Lesson-2(B)] <br />
+                  <br />
+                  A. Choose the correct answer from the alternatives:1x5=5{" "}
+                  <br />
+                  (a) What does the word 'great' mean in the passage? <br />
+                  i. Slight <br />
+                  ii. Substantial <br />
+                  iii. Inferior <br />
+                  iv. grown <br />
+                  <br />
+                  (b) Bangladesh is crisscrossed by many <br />
+                  i. Regions <br />
+                  ii. folk songs <br />
+                  iii. Rivers <br />
+                  iv. Cultures <br />
+                  (c) _____play the most prominent role in folk music. <br />
+                  i. Rivers <br />
+                  ii. Boats <br />
+                  iii. Tribal people <br />
+                  iv. Surroundings <br />
+                  <br />
+                  (d) The meaning of the word 'exclusively' is <br />
+                  i. totally <br />
+                  II. particularly <br />
+                  iii. Absolutely <br />
+                  iv. Completely <br />
+                  <br />
+                  (e) The Baul songs are most popular in the part of Bangladesh.
+                  <br />
+                  i. Southwestern <br />
+                  ii. Southern <br />
+                  iii. Eastern <br />
+                  Iv. Northern <br />
+                  <br />
+                  B. Answer the following questions : <br />
+                  (a) What is Folk Music? <br />
+                  (b) What do you understand by the phrase 'Mystical songs'?
+                  <br />
+                  (c) Why does folk music vary from region to region? <br />
+                  (d) Name some choric folk songs? <br />
+                  (e) Why is our folk music-rich for? <br />
+                  <br />
+                </div>
+                <div className="">
+                  2. Based on your reading of the passage, make short notes in
+                  each of the boxes in the flow-chart showing the quality that
+                  Khona possessed. (No. 1 has been done for you.) 2 x 5 = 10
+                  <br />
+                  Jodi borshe magher shesh, dhonyi rajar punyi desh. If it rains
+                  at the end of Magh (last month of Winter), the kingdom will
+                  prosper. <br />
+                  The mystery that connects seasons with soil and crops with
+                  rain was no secret to her. She realized the interdependence
+                  that links people and climate in myriad ways. She was Khona.{" "}
+                  <br />
+                  The mythical story of Khona is deeply rooted in Bangla
+                  folklore. Khona, originally named Lila, was an incredible
+                  woman with a gift for predicting weather and understanding the
+                  ways of farming. Her wisdom was shared through memorable,
+                  rhyming verses known as "Khona's Words" or "Khonar Bochon."
+                  These sayings, though simple and easy to remember, were filled
+                  with deep knowledge and practical advice for farmers. <br />
+                  Khona used her knowledge to help the peasants, but her actions
+                  often challenged the ruling class. The rulers, not pleased
+                  with her defiance, punished her cruelly by cutting out her
+                  tongue. Thus, she became known as Khona, which means "someone
+                  who cannot speak." Despite this harsh punishment, her wisdom
+                  lived on through her sayings, which have been passed down for
+                  over 1500 years.[Unit-3: Lesson-4(B)] <br />
+                  <br />
+                  <div className="font-bold">
+                    <span className="max-w-fit p-1 border border-gray-400 ">
+                      1. realized interdependence
+                    </span>
+                    →
+                    <span className="max-w-fit p-1 border border-gray-400 ">
+                      2
+                    </span>
+                    →
+                    <span className="max-w-fit p-1 border border-gray-400 ">
+                      3
+                    </span>
+                    →
+                    <span className="max-w-fit p-1 border border-gray-400 ">
+                      4
+                    </span>
+                    →
+                    <span className="max-w-fit p-1 border border-gray-400 ml-1">
+                      5
+                    </span>
+                    →
+                    <span className="max-w-fit p-1 border border-gray-400 ">
+                      6
+                    </span>
+                  </div>
                 </div>
               </div>
             </AccordionContent>
@@ -940,7 +952,6 @@ const QuestionOneTwo = () => {
             </AccordionContent>
           </AccordionPanel>
 
-          
           {/* Model question - 7 */}
           <AccordionPanel>
             <AccordionTitle>Model - 7: S M Sultan</AccordionTitle>
@@ -1625,7 +1636,9 @@ const QuestionOneTwo = () => {
 
           {/* Model question - 12 */}
           <AccordionPanel>
-            <AccordionTitle>Model - 12: The beginning of modern art</AccordionTitle>
+            <AccordionTitle>
+              Model - 12: The beginning of modern art
+            </AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -1811,10 +1824,9 @@ const QuestionOneTwo = () => {
                   I have a dream that one day this nation will rise up and live
                   out the true meaning of its creed: "We hold these truths to be
                   self-evident; that all men are created equal." <br />
-                  <br />
-                  I have a dream that one day on the red hills of Georgia, the
-                  sons of former slaves and the sons of former slave owners will
-                  be able to sit down together at the table of brotherhood.{" "}
+                  <br />I have a dream that one day on the red hills of Georgia,
+                  the sons of former slaves and the sons of former slave owners
+                  will be able to sit down together at the table of brotherhood.{" "}
                   <br />
                   I have a dream that one day even the state of Mississippi, a
                   state sweltering with the heat of injustice, sweltering with
@@ -1862,7 +1874,7 @@ const QuestionOneTwo = () => {
                   ন্যায়বিচারের মরূদ্যানে পরিণত হবে। <br />
                   আমার একটি স্বপ্ন আছে যে, একদিন আমার ছোট্ট চার সন্তান এমন
                   রাষ্ট্রে বাস করবে যেখানে তাদেরকে চামড়ার বর্ণের পরিবর্তে তাদের
-                  চরিত্রগত বিষয়ের ভিত্তিতে বিচার করা হবে। 
+                  চরিত্রগত বিষয়ের ভিত্তিতে বিচার করা হবে।
                   <br />
                   <br />
                   A.Choose the correct answer from the alternatives: <br />
@@ -1899,7 +1911,7 @@ const QuestionOneTwo = () => {
                   i. fraternity <br />
                   ii. enmity <br />
                   iii. colony <br />
-                  iv. egoism 
+                  iv. egoism
                   <br />
                   <br />
                   <br />
@@ -1964,20 +1976,19 @@ const QuestionOneTwo = () => {
                   i. Nelson Mandela <br />
                   ii. Martin Luther King Jr. <br />
                   iii. Barack Obama <br />
-                  iv. Winnie Mandela 
+                  iv. Winnie Mandela
                   <br />
                   <br />
                   (10) Where was this speech made? <br />
                   i. in Cape Town <br />
                   ii. in London <br />
                   iii. in the UN <br />
-                 
-                  iv. in Washington D.C. USA 
+                  iv. in Washington D.C. USA
                   <br />
                   <br />
-
-                  (11) What is the synonym of 'segregation' (বিচ্ছিন্নকরণ)? <br />
-                   i. separation <br />
+                  (11) What is the synonym of 'segregation' (বিচ্ছিন্নকরণ)?{" "}
+                  <br />
+                  i. separation <br />
                   ii. oppression <br />
                   iii. difference <br />
                   iv. aggregation <br />
@@ -1996,10 +2007,10 @@ const QuestionOneTwo = () => {
                   iv. oblique <br />
                   (14) 'I have a dream'. The underlined word is used here as a__
                   <br />
-                  1. noun <br />  
+                  1. noun <br />
                   II. verb <br />
                   III. verbal <br />
-                  iv. gerund 
+                  iv. gerund
                   <br />
                   (15) The word 'evident' (প্রতীয়মান হওয়া) refers to <br />
                   1. obvious <br />
@@ -2007,21 +2018,19 @@ const QuestionOneTwo = () => {
                   iii. mimic <br />
                   iv. panic <br />
                   <br />
-                  B.  Answer the following questions: 2×5-10  <br />
+                  B. Answer the following questions: 2×5-10 <br />
                   (a) What is the dream or Martin Luther King Jr. expressed in
                   the first four lines of the text? Be <br />
                   (b) One day every valley shall be exalted, every hill and
-                  mountain shall be made low.' Explain in your own words.  <br /> 
-                  (c) "This is the faith that I will go back
-                  to the south with." What is the faith of Martin Luther King
-                  Jr.? <br />
+                  mountain shall be made low.' Explain in your own words. <br />
+                  (c) "This is the faith that I will go back to the south with."
+                  What is the faith of Martin Luther King Jr.? <br />
                   (d) What, according to Martin Luther King Jr., will be the use
                   of this faith? <br />
                   (e) What ideas of the governor of Alabama do you get from the
                   passage? <br />
-                  <br /> 
-                  <br /> 
-
+                  <br />
+                  <br />
                   ADDITIONAL QUESTIONS <br />
                   (1) Martin Luther King Jr. Is an advocate of creating a land
                   free from segregation and discrimination. Do you agree and
@@ -2032,9 +2041,9 @@ const QuestionOneTwo = () => {
                   not free. (নিগ্রোরা কেন স্বাধীন নয়?) <br />
                   (4) The Negro lives on a lonely island of poverty in the midst
                   of a vast ocean of material prosperity. Explain. <br />
-                  (5) Why does the Negro find himself in an exile in his own land?
-                  Can you explain the reason for this condition? (নিগ্রোরা কেন
-                  নিজ দেশে নির্বাসিত-ব্যাখ্যা করো।) 
+                  (5) Why does the Negro find himself in an exile in his own
+                  land? Can you explain the reason for this condition? (নিগ্রোরা
+                  কেন নিজ দেশে নির্বাসিত-ব্যাখ্যা করো।)
                   <br />
                   <br />
                   2.Based on your reading of the passage, make short notes in
@@ -2052,12 +2061,12 @@ const QuestionOneTwo = () => {
                   freedom and justice. I have a dream that my four little
                   children will one day live in a nation where they will not be
                   judged by the color of their skin but by the content of their
-                  character. 
-                   <br />
+                  character.
+                  <br />
                   <div className="font-bold">
                     <span className="max-w-fit p-1 border border-gray-400 ">
-                      1. Rising up the nation along with the true meaning
-                  of its creeds
+                      1. Rising up the nation along with the true meaning of its
+                      creeds
                     </span>
                     →
                     <span className="max-w-fit p-1 border border-gray-400 ">
@@ -2085,26 +2094,25 @@ const QuestionOneTwo = () => {
                   the visions of the Black. (No. 1 has been done for you) <br />
                   <br />
                   (1)he Negro is still not free... <br />
-                  the life of the Negro
-                  is still sadly crippled by the manacles of segregation and the
-                  chains of discrimination. the midst of a vast ocean of
-                  material prosperity.... (The Negro is still languishing in the
-                  corners of (1)he Negro lives on a lonely island of poverty in
-                  American society and finds himself an exile in his own land.
-                  So we have come here today to dramatize a shameful
-                  condition... I say to you today, my friends, so even though we
-                  face the difficulties of today and tomorrow, I still have a
-                  dream. It is a dream deeply rooted in the American dream. I
-                  have a dream that one day this nation will rise up and live
-                  out the true meaning of its creed: "We hold these truths to be
-                  self-evident: that all men are created equal. I have a dream
-                  that one day on the red hills of Georgia, the sons of former
-                  slaves and the sons of former slave owners will be able to sit
-                  down together at the table of brotherhood.
+                  the life of the Negro is still sadly crippled by the manacles
+                  of segregation and the chains of discrimination. the midst of
+                  a vast ocean of material prosperity.... (The Negro is still
+                  languishing in the corners of (1)he Negro lives on a lonely
+                  island of poverty in American society and finds himself an
+                  exile in his own land. So we have come here today to dramatize
+                  a shameful condition... I say to you today, my friends, so
+                  even though we face the difficulties of today and tomorrow, I
+                  still have a dream. It is a dream deeply rooted in the
+                  American dream. I have a dream that one day this nation will
+                  rise up and live out the true meaning of its creed: "We hold
+                  these truths to be self-evident: that all men are created
+                  equal. I have a dream that one day on the red hills of
+                  Georgia, the sons of former slaves and the sons of former
+                  slave owners will be able to sit down together at the table of
+                  brotherhood.
                   <br />
                   . <br />
                   <br />
-                  
                 </div>
               </div>
             </AccordionContent>
@@ -2563,7 +2571,7 @@ const QuestionOneTwo = () => {
 
           {/* Model question - 17 */}
           <AccordionPanel>
-            <AccordionTitle>Model  - 17 Nishat Mazumder</AccordionTitle>
+            <AccordionTitle>Model - 17 Nishat Mazumder</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -2841,7 +2849,7 @@ const QuestionOneTwo = () => {
 
           {/* Model question - 19 */}
           <AccordionPanel>
-            <AccordionTitle>Model  - 19 Aristotle</AccordionTitle>
+            <AccordionTitle>Model - 19 Aristotle</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -3253,7 +3261,7 @@ const QuestionOneTwo = () => {
 
           {/* Model question - 22 */}
           <AccordionPanel>
-            <AccordionTitle>Model  - 22 Children must</AccordionTitle>
+            <AccordionTitle>Model - 22 Children must</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -3647,7 +3655,7 @@ const QuestionOneTwo = () => {
 
           {/* Model question - 25 */}
           <AccordionPanel>
-            <AccordionTitle>Model  - 25 In Bangladesh,</AccordionTitle>
+            <AccordionTitle>Model - 25 In Bangladesh,</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -3930,7 +3938,9 @@ const QuestionOneTwo = () => {
 
           {/* Model question - 27 */}
           <AccordionPanel>
-            <AccordionTitle>Model  - 27 One of the sources of water</AccordionTitle>
+            <AccordionTitle>
+              Model - 27 One of the sources of water
+            </AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -4073,7 +4083,9 @@ const QuestionOneTwo = () => {
 
           {/* Model question - 28 */}
           <AccordionPanel>
-            <AccordionTitle>Model  - 28: and "medium" wood,(jerry)</AccordionTitle>
+            <AccordionTitle>
+              Model - 28: and "medium" wood,(jerry)
+            </AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -4113,7 +4125,7 @@ const QuestionOneTwo = () => {
                   i. artificial <br />
                   ii. acquired <br />
                   iii. inborn <br />
-                  Iv. taught 
+                  Iv. taught
                   <br />
                   <br />
                   (b) What does the phrase 'of his own accord' indicate? [DB 25]
@@ -4121,14 +4133,14 @@ const QuestionOneTwo = () => {
                   i. Half-heartedly <br />
                   ii. Reluctantly <br />
                   iii. Neutrally <br />
-                  iv. Willingly 
+                  iv. Willingly
                   <br />
                   <br />
                   (c) 'Cubbyhole' means- (ছোট ঘেরা স্থান) [DB '25] <br />
                   i. a small enclosed space <br />
                   ii. a noisy place <br />
                   iii. a deep hole <br />
-                  iv. a snake hole 
+                  iv. a snake hole
                   <br />
                   <br />
                   (d) 'I saw deep into the clear well of his eyes'. - What did
@@ -4234,7 +4246,6 @@ const QuestionOneTwo = () => {
                   marks.] <br />
                   <br />
                   <p className="font-bold">
-                    
                     PART-A: READING TEST [60 Marks] <br />
                   </p>
                   <p className="font-bold">
@@ -4400,7 +4411,7 @@ const QuestionOneTwo = () => {
           </AccordionPanel>
           {/* Model question - 30 */}
           <AccordionPanel>
-            <AccordionTitle>Model  - 30: Like many other</AccordionTitle>
+            <AccordionTitle>Model - 30: Like many other</AccordionTitle>
             <AccordionContent className="p-2 md:p-5">
               <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
                 <div className="">
@@ -4722,15 +4733,7 @@ const QuestionOneTwo = () => {
               </div>
             </AccordionContent>
           </AccordionPanel>
-          {/* Model question - 24 */}
-          <AccordionPanel>
-            <AccordionTitle>Model question - 24</AccordionTitle>
-            <AccordionContent className="p-2 md:p-5">
-              <div className="my-5 dark:text-gray-400 text-base lg:text-xl">
-                <div className=""></div>
-              </div>
-            </AccordionContent>
-          </AccordionPanel>
+
           {/* Model question - 24 */}
           <AccordionPanel>
             <AccordionTitle>Model question - 24</AccordionTitle>
