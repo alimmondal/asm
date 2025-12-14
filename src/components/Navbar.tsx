@@ -44,7 +44,7 @@ const Navbar = () => {
             : "bg-white font-bold text-black"
         }
       >
-        <div className="navbar ">
+        <div className="navbar">
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -162,7 +162,7 @@ const Navbar = () => {
           <div className="hidden md:flex z-50">
             <SearchBar />
           </div>
-          <>
+          {/* <> */}
             {/* Desktop menu */}
             {/* <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-0">
@@ -189,8 +189,8 @@ const Navbar = () => {
               )}
             </ul>
           </div> */}
-          </>
-          <div className="navbar-end space-x-2">
+          {/* </> */}
+          <div className="navbar-end space-x-2 mr-3">
             {auth?.user ? (
               <Button
                 pill

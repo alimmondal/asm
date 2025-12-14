@@ -15,7 +15,7 @@ const SscQuestion = () => {
           <Worker
             workerUrl={`https://unpkg.com/pdfjs-dist@2.9.359/build/pdf.worker.min.js`}
           >
-            <Viewer fileUrl="/SSCEnglish2ndPaperQuestions.pdf" />
+            <Viewer fileUrl="/punctuation.pdf" />
           </Worker>
         </div>
         <div className="text-center py-4">
