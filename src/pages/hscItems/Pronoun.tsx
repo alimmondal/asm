@@ -67,7 +67,7 @@ const Pronoun = () => {
   ];
 
   return (
-    <div className="w-[95%] lg:w-[85%] mx-auto select-none">
+    <div className="max-w-5xl mx-auto select-none">
       <div className="text-center py-20 capitalize">
         <h1 className="text-green-400 text-3xl md:text-6xl  font-semibold">
           Pronoun Reference
@@ -76,7 +76,7 @@ const Pronoun = () => {
         <p className="font-bold ">Question No: 08</p>
       </div>
 
-      <div className="bg-white max-w-5xl mx-auto p-6 text-gray-800 text-base leading-relaxed">
+      <div className="bg-white  mx-auto p-6 text-gray-800 text-base leading-relaxed">
         {/* Heading */}
         <h2 className="text-center font-bold border px-3 py-1 inline-block mb-4">
           কিছু বিষয় সম্পর্কে ধারণা থাকতে হবে
@@ -196,7 +196,7 @@ const Pronoun = () => {
         </p>
       </div>
 
-      <div className="bg-white max-w-5xl mx-auto p-6 text-gray-800 text-sm leading-relaxed">
+      <div className="bg-white mx-auto p-6 text-gray-800 text-sm leading-relaxed">
         {/* Confusion */}
         <p className="font-semibold mb-2">Confusion :</p>
         <p className="mb-2">
