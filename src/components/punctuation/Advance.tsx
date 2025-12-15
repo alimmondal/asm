@@ -8,8 +8,8 @@ import "pdfjs-dist/build/pdf.worker.entry";
 const Advance = () => {
   return (
     <div className="h-full w-full lg:w-[85%] mx-auto">
-      <div className="py-20">
-        <h1 className="text-center">Advance Level</h1>
+      <div className="py-10">
+        <h1 className="text-center text-3xl lg:text-5xl">Advance Level</h1>
       </div>
 
       <div className="py-5">
