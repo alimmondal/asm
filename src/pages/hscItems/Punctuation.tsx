@@ -3,6 +3,8 @@ import { useState } from "react";
 import Beginner from "../../components/punctuation/Beginner";
 import { Shortcut } from "../../components/punctuation/Shortcut";
 import Advance from "../../components/punctuation/Advance";
+// import introVideo from "../../../src/assets/introVideo.webm";
+// import introVideo from "../assets/introVideo.webm";
 
 const Punctuation = () => {
   const [activeTab, setActiveTab] = useState<
@@ -13,17 +15,22 @@ const Punctuation = () => {
     <div className="min-h-screen lg:w-10/12 mx-auto overflow-hidden">
       <div className="py-10 text-center px-5">
         <h1 className="text-2xl md:text-4xl text-center text-green-400">
-        Punctuation
-        <br />
-        <span className="text-center text-rose-500"> &</span>
-        <br />
-        Capitalization
-      </h1>
-      <p className="text-[15px] leading-relaxed">
-            এই topic টি পরীক্ষায় আসে Question No. 12 তে। Punctuation & use of
-            capitals ব্যবহারে করতে হবে সাধারণত ১০ টা, মার্কস=৫।
-          </p>
+          Punctuation
+          <br />
+          <span className="text-center text-rose-500"> &</span>
+          <br />
+          Capitalization
+        </h1>
+        <p className="text-[15px] leading-relaxed">
+          এই topic টি পরীক্ষায় আসে Question No. 12 তে। Punctuation & use of
+          capitals ব্যবহারে করতে হবে সাধারণত ১০ টা, মার্কস=৫।
+        </p>
       </div>
+
+      {/* https://d33vw3iu5hs0zi.cloudfront.net/media/exness_c76dfeb683.webm */}
+
+      
+
       {/* Tabs */}
       <div className="flex justify-center space-x-2 mb-6 border-b border-gray-300">
         <button
@@ -57,7 +64,6 @@ const Punctuation = () => {
           Advanced Level
         </button>
       </div>
-
       {/* Tab Content */}
       <div className=" py-3 overflow-x-auto text-base">
         {activeTab === "beginner" && <Beginner />}

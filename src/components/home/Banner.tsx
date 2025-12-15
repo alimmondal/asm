@@ -29,10 +29,12 @@ const Banner = () => {
     <div className="h-full">
       <div className="hero bannerBg h-screen">
         <div className="hero-overlay bg-opacity-60"></div>
+
         <div className="flex flex-col items-center justify-normal text-center text-neutral-content gap-4">
           <div className="">
-            <h1 className="text-2xl md:text-5xl">Welcome to</h1>
+            <h1 className="text-2xl lg:text-5xl">Welcome to</h1>
           </div>
+
           <div className="max-w-fit ">
             <h1 className="mb-5 text-2xl md:text-5xl font-bold heading2">
               <span className="text-green-400" ref={textRef}></span>
@@ -47,6 +49,7 @@ const Banner = () => {
               Let's Get Started
             </Button>
           </div>
+
           {/* <div className="">
             <SearchBar />
           </div> */}
@@ -126,6 +129,51 @@ const Banner = () => {
               </li>
             </Link>
           </ul>
+        </div>
+      </div>
+
+      <div className=" relative w-full h-screen overflow-hidden">
+        {/* Background Video */}
+        <div className="">
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover mx-auto"
+          >
+            <source src="/video/introVideo.webm" type="video/webm" />
+          </video>
+        </div>
+        {/* Overlay (optional) */}
+        {/* <div className="absolute inset-0 bg-black/40" /> */}
+
+        {/* Content */}
+        <div className="relative z-10 flex items-center justify-center h-full ">
+          <div className="flex flex-col items-center justify-normal text-center text-neutral-content gap-4">
+            <div className="">
+              <h1 className="text-2xl md:text-5xl">Welcome to</h1>
+            </div>
+
+            <div className="max-w-fit ">
+              <h1 className="mb-5 text-2xl md:text-5xl font-bold heading2">
+                <span className="text-green-400" ref={textRef}></span>
+              </h1>
+            </div>
+            <div className="">
+              <Button
+                gradientDuoTone="purpleToPink"
+                onClick={() => scrollToCategory()}
+                className=""
+              >
+                Let's Get Started
+              </Button>
+            </div>
+
+            {/* <div className="">
+            <SearchBar />
+          </div> */}
+          </div>
         </div>
       </div>
     </div>
