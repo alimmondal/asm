@@ -6,7 +6,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* // animation */
 .LogoIcon {
   /* margin-top: 10px; */
@@ -123,7 +122,6 @@ h1 {
 h2 {
   font-size: 20px;
   font-weight: bold;
-  
 }
 h3 {
   font-size: 18px;

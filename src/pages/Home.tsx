@@ -26,36 +26,7 @@ const Home = () => {
             <Composition />
             {/* <Accordian /> */}
           </div>
-          <div className="bg-white">
-            <section className="relative flex items-center justify-center py-24">
-              {/* Video container */}
-              <div className="relative w-[600px] h-[600px] overflow-hidden ">
-                {/* Background Video */}
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  className="absolute inset-0 w-full h-full object-cover"
-                >
-                  <source
-                    src="https://d33vw3iu5hs0zi.cloudfront.net/media/exness_c76dfeb683.webm"
-                    type="video/webm"
-                  />
-                </video>
-
-                {/* Overlay (optional for readability) */}
-                {/* <div className="absolute inset-0 bg-black/30" /> */}
-
-                {/* Centered Text */}
-                <div className="relative z-10 flex h-full items-center justify-center text-center">
-                  <h1 className="text-white text-4xl font-bold leading-tight">
-                    Trade Smarter <br /> with Exness
-                  </h1>
-                </div>
-              </div>
-            </section>
-          </div>
+          
         </div>
       ) : (
         <>

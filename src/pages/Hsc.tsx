@@ -7,31 +7,17 @@ function Hsc() {
         w-full 
       "
     >
-      <div
-        className="
-          flex
-          w-full h-[300px]
-          hscBg relative items-center justify-center
-          md:h-[400px]
-        "
-      >
-        <div
-          className="
-            bg-black
-            opacity-50
-            absolute inset-0
-          "
-        ></div>
-        <h1
-          className="
-            z-10
-            w-full
-            text-center text-5xl font-bold text-white
-            md:text-7xl
-          "
-        >
-          HSC
-        </h1>
+      
+        <div className="hero bannerBg h-[360px]">
+        <div className="hero-overlay bg-opacity-60"></div>
+
+        <div className="flex flex-col items-center justify-normal text-center text-neutral-content gap-4">
+          <div className="">
+            <h1 className="text-5xl lg:text-8xl">HSC</h1>
+          </div>
+
+          
+        </div>
       </div>
 
       {/* First paper */}

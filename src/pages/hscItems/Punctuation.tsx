@@ -27,7 +27,6 @@ const Punctuation = () => {
         </p>
       </div>
 
-      {/* https://d33vw3iu5hs0zi.cloudfront.net/media/exness_c76dfeb683.webm */}
 
       
 
