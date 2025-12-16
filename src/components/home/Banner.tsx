@@ -12,7 +12,7 @@ const Banner = () => {
         // showCursor: true,
         backDelay: 1500,
         backSpeed: 60,
-        strings: ["ASM English Academy"],
+        strings: ["Easy English Academy"],
       });
     }
   }, []);
@@ -52,7 +52,7 @@ const Banner = () => {
         </div>
       </div> */}
       <div className="hero bg-white">
-        <div className="hero-overlay bg-black/10"></div>
+        {/* <div className="hero-overlay bg-black/10"></div> */}
       <div className="relative w-full flex justify-center h-screen">
         <section className="relative flex items-center justify-center py-16 lg:py-24 w-full">
           {/* Video Wrapper */}
@@ -82,7 +82,7 @@ const Banner = () => {
             </video>
 
             {/* Dark Overlay */}
-            <div className="absolute inset-0 bg-black/10" />
+            {/* <div className="absolute inset-0 bg-black/10" /> */}
 
             {/* Centered Content */}
             <div className="relative z-10 flex flex-col items-center justify-center h-full text-center gap-4 px-4">
