@@ -51,13 +51,12 @@ const Banner = () => {
           </div>
         </div>
       </div> */}
-      <div className="hero bg-white">
-        {/* <div className="hero-overlay bg-black/10"></div> */}
-      <div className="relative w-full flex justify-center h-screen">
-        <section className="relative flex items-center justify-center py-16 lg:py-24 w-full">
-          {/* Video Wrapper */}
-          <div
-            className="
+      {/* <div className="hero bg-white">
+        <div className="hero-overlay bg-black/10"></div>
+        <div className="relative w-full flex justify-center h-screen">
+          <section className="relative flex items-center justify-center py-16 lg:py-24 w-full">
+            <div
+              className="
                 relative
                 w-[380px] h-[380px]
                 sm:w-[400px] sm:h-[400px]
@@ -66,46 +65,100 @@ const Banner = () => {
                 overflow-hidden
                 rounded-3xl
               "
-          >
-            {/* Background Video */}
-            <video
-              autoPlay
-              muted
-              loop
-              playsInline
-              className="absolute inset-0 w-full h-full object-cover"
             >
-              <source
-                src="https://d33vw3iu5hs0zi.cloudfront.net/media/exness_c76dfeb683.webm"
-                type="video/webm"
-              />
-            </video>
-
-            {/* Dark Overlay */}
-            {/* <div className="absolute inset-0 bg-black/10" /> */}
-
-            {/* Centered Content */}
-            <div className="relative z-10 flex flex-col items-center justify-center h-full text-center gap-4 px-4">
-              <h1 className="text-pink-700 text-lg sm:text-xl lg:text-3xl">
-                Welcome to
-              </h1>
-
-              <h2 className="font-bold text-gray-700 text-xl sm:text-2xl md:text-4xl lg:text-5xl heading2">
-                <span ref={textRef}></span>
-              </h2>
-
-              <Button
-                gradientDuoTone="purpleToPink"
-                onClick={scrollToCategory}
-                className="mt-2"
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="absolute inset-0 w-full h-full object-cover"
               >
-                Let&apos;s Get Started
-              </Button>
+                <source
+                  src="https://d33vw3iu5hs0zi.cloudfront.net/media/exness_c76dfeb683.webm"
+                  type="video/webm"
+                />
+              </video>
+
+              <div className="absolute inset-0 bg-black/10" />
+
+              <div className="relative z-10 flex flex-col items-center justify-center h-full text-center gap-4 px-4">
+                <h1 className="text-pink-700 text-lg sm:text-xl lg:text-3xl">
+                  Welcome to
+                </h1>
+
+                <h2 className="font-bold text-gray-700 text-xl sm:text-2xl md:text-4xl lg:text-5xl heading2">
+                  <span ref={textRef}></span>
+                </h2>
+
+                <Button
+                  gradientDuoTone="purpleToPink"
+                  onClick={scrollToCategory}
+                  className="mt-2"
+                >
+                  Let&apos;s Get Started
+                </Button>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
+      </div> */}
+      <div className="relative w-full bg-[#fff]">
+        {/* Global overlay (same everywhere) */}
+        {/* <div className="absolute inset-0 bg-black/20 pointer-events-none" /> */}
+        {/* <div className="hero-overlay bg-opacity-20"></div> */}
+        <div className="relative w-full flex justify-center min-h-screen">
+          <section className="relative flex items-center justify-center py-16 lg:py-24 w-full">
+            {/* Video Wrapper */}
+            <div
+              className="
+          relative
+          w-[380px] h-[380px]
+          sm:w-[400px] sm:h-[400px]
+          md:w-[450px] md:h-[450px]
+          lg:w-[600px] lg:h-[600px]
+          overflow-hidden
+        "
+            >
+              {/* Background Video */}
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="absolute inset-0 w-full h-full object-cover"
+              >
+                <source
+                  src="https://d33vw3iu5hs0zi.cloudfront.net/media/exness_c76dfeb683.webm"
+                  type="video/webm"
+                />
+              </video>
+
+              {/* SAME overlay as page */}
+              {/* <div className="absolute inset-0 bg-black/20" /> */}
+
+              {/* Centered Content */}
+              <div className="relative z-10 flex flex-col items-center justify-center h-full text-center gap-4 px-4">
+                <h1 className="text-pink-700 text-lg sm:text-xl lg:text-3xl">
+                  Welcome to
+                </h1>
+
+                <h2 className="font-bold text-black text-xl sm:text-2xl md:text-4xl lg:text-5xl heading2">
+                  <span ref={textRef}></span>
+                </h2>
+
+                <Button
+                  gradientDuoTone="purpleToPink"
+                  onClick={scrollToCategory}
+                  className="mt-2"
+                >
+                  Let&apos;s Get Started
+                </Button>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
-</div>
+
       <div className="h-full max-w-7xl  mx-auto py-20" id="category">
         {/* <div className="px-5 w-full flex items-center justify-center py-20">
           <div className="relative w-[600px] h-[300px] bg-black text-white flex items-center justify-center text-2xl font-bold rounded-2xl overflow-hidden">
